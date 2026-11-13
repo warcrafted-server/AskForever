@@ -13,3 +13,7 @@ core/Init.lua
 core/Context.lua
 core/Prompt.lua
 core/Debug.lua
+ui/MainFrame.lua
+ui/CopyBox.lua
+ui/Commands.lua
+Bindings.xml

@@ -1,0 +1,5 @@
+<Bindings>
+    <Binding name="ASKFOREVER_TOGGLE" header="ASKFOREVER" category="ADDONS">
+        AskForever_Toggle()
+    </Binding>
+</Bindings>

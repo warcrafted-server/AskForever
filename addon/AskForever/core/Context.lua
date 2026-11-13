@@ -86,7 +86,7 @@ local function CollectQuests()
             if type(info) == 'table' then
                 entry = {
                     title = info.title,
-                    level = info.questLevel,
+                    level = info.level or info.questLevel,
                     complete = info.isComplete and true or false,
                     isHeader = info.isHeader,
                     isHidden = info.isHidden,
@@ -117,11 +117,20 @@ function ns.Context.Collect()
         zone = Protected(GetZoneText)
     end
 
+    -- UnitFactionGroup devuelve (nombre en inglés, nombre localizado): nos quedamos con el segundo.
+    local faction
+    if type(UnitFactionGroup) == 'function' then
+        local ok, englishName, localizedName = pcall(UnitFactionGroup, 'player')
+        if ok then
+            faction = localizedName or englishName
+        end
+    end
+
     return {
         level = Protected(UnitLevel, 'player'),
         race = Protected(UnitRace, 'player'),
         class = Protected(UnitClass, 'player'),
-        faction = Protected(UnitFactionGroup, 'player'),
+        faction = faction,
         zone = zone,
         subzone = Protected(GetSubZoneText),
         x = x,
