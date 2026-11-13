@@ -8,7 +8,6 @@ El detalle de cada milestone está en [ROADMAP.md](ROADMAP.md).
 
 ## Media
 - Milestones 3–7 del roadmap (slots LoD, instalador, rutas, robustez, multi-proveedor).
-- Icono propio (`.tga`) para el retrato y el minimapa: hoy se usa el libro del juego (constante en `ui/Theme.lua` y `ui/Minimap.lua`).
 - Instalar `luacheck` si el volumen de errores lo justifica (el ejecutable externo se denegó).
 - Validar en el juego el atajo de teclado (Opciones → Atajos → AddOns) tal como lo describen las guías.
 

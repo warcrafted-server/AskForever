@@ -44,6 +44,5 @@ ns.UI.Theme = {
         edgeFile = 'Interface\\Buttons\\WHITE8X8',
         edgeSize = 1,
     },
-    -- Icono provisional: el arte definitivo se cambiará aquí.
-    icon = 'Interface\\Icons\\INV_Misc_Book_09',
+    icon = 'Interface\\AddOns\\AskForever\\Media\\Icon',
 }
