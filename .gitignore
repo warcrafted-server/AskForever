@@ -32,3 +32,6 @@ agentrelay.config.json
 
 # Planes de agentes (privado)
 .agents/
+
+# Capturas de diagnóstico del companion
+companion/tools/out/
