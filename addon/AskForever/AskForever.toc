@@ -15,5 +15,6 @@ core/Prompt.lua
 core/Debug.lua
 ui/MainFrame.lua
 ui/CopyBox.lua
+ui/Minimap.lua
 ui/Commands.lua
 Bindings.xml

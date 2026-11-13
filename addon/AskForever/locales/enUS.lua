@@ -22,8 +22,13 @@ ns.L_enUS = {
     HELP_TITLE = 'AskForever commands:',
     HELP_OPEN = '/af - open or close the window',
     HELP_RESET = '/af reset - center the window again',
+    HELP_MINIMAP = '/af minimap - show or hide the minimap button',
     HELP_HELP = '/af help - show this help',
     RESET_DONE = 'Window position reset.',
     UNKNOWN_COMMAND = 'Unknown command. Type /af help to see the command list.',
     BINDING_TOGGLE = 'Open or close AskForever',
+    MINIMAP_TIP_OPEN = 'Left-click: open or close',
+    MINIMAP_TIP_DRAG = 'Drag: move',
+    MINIMAP_SHOWN = 'Minimap button shown.',
+    MINIMAP_HIDDEN = 'Minimap button hidden.',
 }

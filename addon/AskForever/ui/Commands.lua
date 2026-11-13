@@ -12,10 +12,17 @@ SlashCmdList.ASKFOREVER = function(msg)
         print(ns.L.HELP_TITLE)
         print(ns.L.HELP_OPEN)
         print(ns.L.HELP_RESET)
+        print(ns.L.HELP_MINIMAP)
         print(ns.L.HELP_HELP)
     elseif command == 'reset' then
         ns.UI.ResetPosition()
         print(ns.L.RESET_DONE)
+    elseif command == 'minimap' then
+        if ns.UI.ToggleMinimap() then
+            print(ns.L.MINIMAP_SHOWN)
+        else
+            print(ns.L.MINIMAP_HIDDEN)
+        end
     else
         print(ns.L.UNKNOWN_COMMAND)
     end

@@ -22,8 +22,13 @@ ns.L_esES = {
     HELP_TITLE = 'Comandos de AskForever:',
     HELP_OPEN = '/af - abre o cierra la ventana',
     HELP_RESET = '/af reset - vuelve a centrar la ventana',
+    HELP_MINIMAP = '/af minimap - muestra u oculta el botón del minimapa',
     HELP_HELP = '/af help - muestra esta ayuda',
     RESET_DONE = 'Posición de la ventana restablecida.',
     UNKNOWN_COMMAND = 'Comando desconocido. Escribe /af help para ver la lista de comandos.',
     BINDING_TOGGLE = 'Abrir o cerrar AskForever',
+    MINIMAP_TIP_OPEN = 'Clic izquierdo: abrir o cerrar',
+    MINIMAP_TIP_DRAG = 'Arrastrar: mover',
+    MINIMAP_SHOWN = 'Botón del minimapa visible.',
+    MINIMAP_HIDDEN = 'Botón del minimapa oculto.',
 }
