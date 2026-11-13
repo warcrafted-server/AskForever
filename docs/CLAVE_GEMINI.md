@@ -22,10 +22,13 @@ El companion guarda la clave en el **Administrador de credenciales de Windows**,
 - A partir de la versión 0.2, el companion tendrá un comando para guardarla. Mientras tanto, abre **PowerShell** en la carpeta del proyecto y ejecuta:
 
   ```powershell
-  .\companion\.venv\Scripts\python.exe -c "import keyring, getpass; keyring.set_password('AskForever', 'gemini', getpass.getpass('Clave de Gemini: '))"
+  $s = Read-Host 'Clave de Gemini' -AsSecureString
+  $env:AF_KEY = [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($s))
+  .\companion\.venv\Scripts\python.exe -c "import keyring, os; keyring.set_password('AskForever', 'gemini', os.environ['AF_KEY'])"
+  Remove-Item Env:AF_KEY
   ```
 
-  Pega la clave cuando la pida (no se ve en pantalla) y pulsa Enter.
+  Pega la clave cuando la pida (se ve como asteriscos) y pulsa Enter.
 
 - Para comprobar que se guardó, sin mostrarla:
 

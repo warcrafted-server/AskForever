@@ -22,10 +22,13 @@ The companion keeps the key in the **Windows Credential Manager**, never in a te
 - From version 0.2 on, the companion will have a command to store it. Until then, open **PowerShell** in the project folder and run:
 
   ```powershell
-  .\companion\.venv\Scripts\python.exe -c "import keyring, getpass; keyring.set_password('AskForever', 'gemini', getpass.getpass('Gemini key: '))"
+  $s = Read-Host 'Gemini key' -AsSecureString
+  $env:AF_KEY = [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($s))
+  .\companion\.venv\Scripts\python.exe -c "import keyring, os; keyring.set_password('AskForever', 'gemini', os.environ['AF_KEY'])"
+  Remove-Item Env:AF_KEY
   ```
 
-  Paste the key when asked (it is not shown on screen) and press Enter.
+  Paste the key when asked (it shows as asterisks) and press Enter.
 
 - To check that it was stored, without showing it:
 
