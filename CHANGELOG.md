@@ -4,6 +4,12 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+### English
+- Added: step-by-step guide to create and store a free Google Gemini key (`docs/GEMINI_KEY.md`).
+
+### Español
+- Añadido: guía paso a paso para crear y guardar una clave gratuita de Google Gemini (`docs/CLAVE_GEMINI.md`).
+
 ## [0.1.0-beta.1] - 2026-11-13
 
 First working addon (milestone 1). Tested in WoW Forever (interface 16001); not published on CurseForge yet. Minor bump: first functionality, backwards compatible.

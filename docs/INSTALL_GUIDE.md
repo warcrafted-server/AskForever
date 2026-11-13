@@ -46,6 +46,10 @@ If the game was open, **close it completely and start it again**: `/reload` does
 
 The minimap button opens and closes the window. Drag it to move it; `/af minimap` shows or hides it.
 
+## Coming next: AI key
+
+The next versions add the companion, which needs a free Google Gemini key. Step-by-step guide: [Get your free Gemini key](GEMINI_KEY.md). You do not need it for v0.1.x.
+
 ## Troubleshooting
 
 | Problem | Fix |

@@ -46,6 +46,10 @@ Si el juego estaba abierto, **ciérralo del todo y vuelve a abrirlo**: `/reload`
 
 El botón del minimapa abre y cierra la ventana. Arrástralo para moverlo; `/af minimap` lo muestra u oculta.
 
+## Próximamente: clave de IA
+
+Las próximas versiones añaden el companion, que necesita una clave gratuita de Google Gemini. Guía paso a paso: [Consigue tu clave de Gemini](CLAVE_GEMINI.md). No la necesitas para la v0.1.x.
+
 ## Solución de problemas
 
 | Problema | Solución |
