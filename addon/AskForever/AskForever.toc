@@ -10,3 +10,6 @@
 locales/enUS.lua
 locales/esES.lua
 core/Init.lua
+core/Context.lua
+core/Prompt.lua
+core/Debug.lua
