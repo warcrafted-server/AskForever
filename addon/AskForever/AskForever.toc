@@ -1,0 +1,12 @@
+## Interface: 16001
+## Title: AskForever
+## Title-esES: AskForever
+## Notes: AI assistant for WoW Forever. Builds a prompt with your character context.
+## Notes-esES: Asistente de IA para WoW Forever. Genera un prompt con el contexto de tu personaje.
+## Author: WarCrafted
+## Version: 0.0.1
+## SavedVariables: AskForeverDB
+
+locales/enUS.lua
+locales/esES.lua
+core/Init.lua
