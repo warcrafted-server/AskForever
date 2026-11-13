@@ -3,7 +3,7 @@
 El detalle de cada milestone está en [ROADMAP.md](ROADMAP.md).
 
 ## Alta
-- Publicar la v0.1.0-beta.1 cuando Marc lo decida, siguiendo [docs/CURSEFORGE.md](docs/CURSEFORGE.md): falta la captura `docs/img/v0.1.0-minimap.png`, subir el zip (`scripts/build-release.ps1`) a CurseForge desde su cuenta y, después, push, tag y release en GitHub.
+- Publicar la v0.1.0-beta.1 cuando Marc lo decida, siguiendo [docs/CURSEFORGE.md](docs/CURSEFORGE.md): subir el zip (`scripts/build-release.ps1`) a CurseForge desde su cuenta y, después, push, tag y release en GitHub.
 - Milestone 2 · v0.2.0-beta: transporte por tira de píxeles + respuesta en overlay (punto de decisión: ¿funciona la captura en Forever?).
 
 ## Media

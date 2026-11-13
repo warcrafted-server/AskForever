@@ -23,7 +23,7 @@ Textos para pegar en la página del proyecto de CurseForge y en la subida del ar
 - **License:** Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0). Pick the closest option offered or "Custom" with the text of `LICENSE`.
 - **Source:** https://github.com/warcrafted-server/AskForever
 - **Issues:** https://github.com/warcrafted-server/AskForever/issues
-- **Screenshots:** `docs/img/v0.1.0-window.png`, `docs/img/v0.1.0-prompt.png` (still missing: minimap button, `v0.1.0-minimap.png`).
+- **Screenshots:** `docs/img/v0.1.0-window.png`, `docs/img/v0.1.0-prompt.png`, `docs/img/v0.1.0-minimap.png`.
 
 ### Description
 **AskForever** is the first step towards an AI assistant for WoW Forever that answers inside the game.
@@ -66,7 +66,7 @@ Beta 1: chat window, character context, Copy prompt button, minimap button, Engl
 - **Licencia:** Creative Commons Atribución-NoComercial 4.0 (CC BY-NC 4.0). Elige la opción más parecida o «Custom» con el texto de `LICENSE`.
 - **Código:** https://github.com/warcrafted-server/AskForever
 - **Incidencias:** https://github.com/warcrafted-server/AskForever/issues
-- **Capturas:** `docs/img/v0.1.0-window.png`, `docs/img/v0.1.0-prompt.png` (falta la del botón de minimapa, `v0.1.0-minimap.png`).
+- **Capturas:** `docs/img/v0.1.0-window.png`, `docs/img/v0.1.0-prompt.png`, `docs/img/v0.1.0-minimap.png`.
 
 ### Descripción
 **AskForever** es el primer paso hacia un asistente de IA para WoW Forever que responda dentro del juego.
