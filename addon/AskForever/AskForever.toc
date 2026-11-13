@@ -13,6 +13,7 @@ locales/esES.lua
 core/Init.lua
 core/Context.lua
 core/Prompt.lua
+core/Strip.lua
 ui/Theme.lua
 ui/Window.lua
 ui/MainFrame.lua

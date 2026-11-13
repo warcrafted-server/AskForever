@@ -12,6 +12,7 @@ globals = {
 }
 
 read_globals = {
+    'bit',
     'ButtonFrameTemplate_HideButtonBar',
     'C_AddOns',
     'C_Map',
@@ -19,6 +20,7 @@ read_globals = {
     'C_QuestLog',
     'ChatFontNormal',
     'CreateFrame',
+    'date',
     'GameFontHighlightSmall',
     'GameFontNormalLarge',
     'GameTooltip',
@@ -26,6 +28,7 @@ read_globals = {
     'GetCursorPosition',
     'GetLocale',
     'GetNumQuestLogEntries',
+    'GetPhysicalScreenSize',
     'GetQuestLogTitle',
     'GetRealZoneText',
     'GetSubZoneText',

@@ -32,4 +32,7 @@ ns.L_esES = {
     MINIMAP_HIDDEN = 'Botón del minimapa oculto.',
     CTX_SUMMARY = 'Nivel %s · %s %s · %s',
     OFFLINE_NOTE = 'Sin companion: el prompt se copia y se pega en tu IA',
+    PATTERN_SHOWN = 'Mostrando el patrón de prueba durante 10 segundos.',
+    PATTERN_HIDDEN = 'Patrón de prueba oculto.',
+    HELP_PATTERN = '/af pattern - muestra un patrón de prueba durante 10 segundos (diagnóstico)',
 }

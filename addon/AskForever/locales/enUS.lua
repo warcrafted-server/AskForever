@@ -32,4 +32,7 @@ ns.L_enUS = {
     MINIMAP_HIDDEN = 'Minimap button hidden.',
     CTX_SUMMARY = 'Level %s · %s %s · %s',
     OFFLINE_NOTE = 'No companion: the prompt is copied and pasted into your AI',
+    PATTERN_SHOWN = 'Showing the test pattern for 10 seconds.',
+    PATTERN_HIDDEN = 'Test pattern hidden.',
+    HELP_PATTERN = '/af pattern - show a test pattern for 10 seconds (diagnostics)',
 }
