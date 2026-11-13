@@ -9,7 +9,7 @@ local DEFAULT_ANGLE = 225
 local ICON_TEXTURE = 'Interface\\Icons\\INV_Misc_Book_09'
 local BORDER_TEXTURE = 'Interface\\Minimap\\MiniMap-TrackingBorder'
 local HIGHLIGHT_TEXTURE = 'Interface\\Minimap\\UI-Minimap-ZoomButton-Highlight'
-local MASK_TEXTURE = 'Interface\\CharacterFrame\\TempPortraitAlphaMask'
+local BACKGROUND_TEXTURE = 'Interface\\Minimap\\UI-Minimap-Background'
 
 local button
 local suppressClick = false
@@ -67,29 +67,27 @@ local function CreateButton()
     button:RegisterForClicks('LeftButtonUp')
     button:RegisterForDrag('LeftButton')
 
-    local border = button:CreateTexture(nil, 'OVERLAY')
-    border:SetSize(BORDER_SIZE, BORDER_SIZE)
-    border:SetPoint('TOPLEFT')
-    SafeSetTexture(border, BORDER_TEXTURE)
+    local background = button:CreateTexture(nil, 'BACKGROUND')
+    background:SetSize(ICON_SIZE, ICON_SIZE)
+    background:SetPoint('CENTER')
+    SafeSetTexture(background, BACKGROUND_TEXTURE)
 
-    local icon = button:CreateTexture(nil, 'BACKGROUND')
+    local icon = button:CreateTexture(nil, 'ARTWORK')
     icon:SetSize(ICON_SIZE, ICON_SIZE)
     icon:SetPoint('CENTER')
     SafeSetTexture(icon, ICON_TEXTURE)
     icon:SetTexCoord(0.07, 0.93, 0.07, 0.93)
 
-    if button.CreateMaskTexture and icon.SetMask then
-        -- La máscara circular es opcional: si el cliente no la soporta, el icono se ve igual.
-        pcall(function()
-            local mask = button:CreateMaskTexture()
-            mask:SetTexture(MASK_TEXTURE, 'CLAMP', 'CLAMP')
-            mask:SetAllPoints(icon)
-            icon:SetMask(mask)
-        end)
-    end
+    local border = button:CreateTexture(nil, 'OVERLAY')
+    border:SetSize(BORDER_SIZE, BORDER_SIZE)
+    border:SetPoint('TOPLEFT')
+    SafeSetTexture(border, BORDER_TEXTURE)
 
+    -- Sin mezcla aditiva el resalte se pinta opaco y tapa el icono con un cuadro negro.
     local highlight = button:CreateTexture(nil, 'HIGHLIGHT')
-    highlight:SetAllPoints(button)
+    highlight:SetBlendMode('ADD')
+    highlight:SetSize(BUTTON_SIZE, BUTTON_SIZE)
+    highlight:SetPoint('TOPLEFT')
     SafeSetTexture(highlight, HIGHLIGHT_TEXTURE)
 
     button:SetScript('OnDragStart', function(self)
