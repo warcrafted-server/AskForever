@@ -2,7 +2,7 @@
 
 **[Versión en español](GUIA_INSTALACION.md)**
 
-> 🚧 Draft for **v0.1.0-beta**, which is not released yet. The steps will be verified in the game before publishing and this guide is updated with every release. If a step does not match what you see, check the latest version on GitHub.
+> 🚧 Guide for **v0.1.0-beta**, which works in the game but is not published yet (the CurseForge page does not exist yet, so for now the addon is installed from the repository). This guide is updated with every release. If a step does not match what you see, check the latest version on GitHub.
 
 Estimated time: **2 minutes**, once.
 
@@ -27,6 +27,11 @@ v0.1.0 contains only the **addon**. It collects your character's context (level,
 2. Unzip it and copy the `AskForever` folder into `World of Warcraft\_forever_\Interface\AddOns\`.
 3. It must look like this: `...\AddOns\AskForever\AskForever.toc`
 
+### Until it is on CurseForge: from GitHub
+1. On the [repository page](https://github.com/warcrafted-server/AskForever) click **Code → Download ZIP** and unzip it.
+2. Copy only the `addon\AskForever` folder (not the whole repository) into `World of Warcraft\_forever_\Interface\AddOns\`.
+3. It must look like this: `...\AddOns\AskForever\AskForever.toc`
+
 ## 2. Start the game
 
 If the game was open, **close it completely and start it again**: `/reload` does not detect new addons. At character select, click **AddOns** and make sure **AskForever** is enabled.
@@ -35,7 +40,7 @@ If the game was open, **close it completely and start it again**: `/reload` does
 
 1. Log in with your character.
 2. Open AskForever with `/af` (or `/askforever`), or with the keybind you set in *Options → Keybindings → AddOns → AskForever*.
-3. Type your question, for example: *how do I get to The Barrens?*
+3. The window shows a summary of your character (level, race, class, zone). Type your question, for example: *how do I get to The Barrens?*, and press Enter. The question appears in the history with the note "Prompt ready".
 4. Click **Copy prompt**. A box appears with the prompt already selected: press `Ctrl+C`.
 5. Paste it into the AI chat of your choice. You do not need to say your level, faction or location: the prompt already includes them.
 

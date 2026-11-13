@@ -3,7 +3,6 @@ max_line_length = 120
 
 globals = {
     'AskForeverDB',
-    'AskForeverDebug',
     'AskForever_Toggle',
     'BINDING_HEADER_ASKFOREVER',
     'BINDING_NAME_ASKFOREVER_TOGGLE',
@@ -20,12 +19,10 @@ read_globals = {
     'C_QuestLog',
     'ChatFontNormal',
     'CreateFrame',
-    'date',
     'GameFontHighlightSmall',
     'GameFontNormalLarge',
     'GameTooltip',
     'GetAddOnMetadata',
-    'GetBuildInfo',
     'GetCursorPosition',
     'GetLocale',
     'GetNumQuestLogEntries',

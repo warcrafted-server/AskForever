@@ -2,7 +2,7 @@
 
 **[English version](INSTALL_GUIDE.md)**
 
-> 🚧 Borrador para la **v0.1.0-beta**, que todavía no está publicada. Los pasos se comprobarán en el juego antes de publicar y esta guía se actualiza con cada versión. Si algún paso no coincide con lo que ves, revisa la última versión en GitHub.
+> 🚧 Guía de la **v0.1.0-beta**, que funciona en el juego pero aún no está publicada (la página de CurseForge todavía no existe, así que por ahora el addon se instala desde el repositorio). Esta guía se actualiza con cada versión. Si algún paso no coincide con lo que ves, revisa la última versión en GitHub.
 
 Tiempo estimado: **2 minutos**, una sola vez.
 
@@ -27,6 +27,11 @@ La v0.1.0 solo contiene el **addon**. Recoge el contexto de tu personaje (nivel,
 2. Descomprímelo y copia la carpeta `AskForever` en `World of Warcraft\_forever_\Interface\AddOns\`.
 3. Debe quedar así: `...\AddOns\AskForever\AskForever.toc`
 
+### Hasta que esté en CurseForge: desde GitHub
+1. En la [página del repositorio](https://github.com/warcrafted-server/AskForever) pulsa **Code → Download ZIP** y descomprímelo.
+2. Copia solo la carpeta `addon\AskForever` (no todo el repositorio) en `World of Warcraft\_forever_\Interface\AddOns\`.
+3. Debe quedar así: `...\AddOns\AskForever\AskForever.toc`
+
 ## 2. Iniciar el juego
 
 Si el juego estaba abierto, **ciérralo del todo y vuelve a abrirlo**: `/reload` no detecta addons nuevos. En la selección de personaje, pulsa **AddOns** y comprueba que **AskForever** está activado.
@@ -35,7 +40,7 @@ Si el juego estaba abierto, **ciérralo del todo y vuelve a abrirlo**: `/reload`
 
 1. Entra con tu personaje.
 2. Abre AskForever con `/af` (o `/askforever`), o con el atajo que configures en *Opciones → Atajos → AddOns → AskForever*.
-3. Escribe tu pregunta, por ejemplo: *¿por dónde voy a Baldíos?*
+3. La ventana muestra un resumen de tu personaje (nivel, raza, clase, zona). Escribe tu pregunta, por ejemplo: *¿por dónde voy a Baldíos?*, y pulsa Enter. La pregunta aparece en el historial con el aviso «Prompt listo».
 4. Pulsa **Copiar prompt**. Aparece una caja con el prompt ya seleccionado: pulsa `Ctrl+C`.
 5. Pégalo en el chat de IA que prefieras. No hace falta decir tu nivel, facción ni dónde estás: el prompt ya los incluye.
 

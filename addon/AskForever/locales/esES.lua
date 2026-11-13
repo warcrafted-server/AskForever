@@ -12,7 +12,6 @@ ns.L_esES = {
     CTX_COORDS = 'Coordenadas: %s, %s',
     CTX_QUESTS = 'Misiones:',
     PROMPT_QUESTION = 'Pregunta: %s',
-    DEBUG_SAVED = 'Datos de depuración guardados. Escribe /reload para escribirlos en disco.',
     WINDOW_TITLE = 'AskForever',
     SEND = 'Enviar',
     COPY_PROMPT = 'Copiar prompt',

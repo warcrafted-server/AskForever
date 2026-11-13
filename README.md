@@ -2,8 +2,8 @@
 
 **[English](#english) · [Español](#español)**
 
-> 🚧 Under development: no downloadable version yet. The first beta (v0.1.0) is the next milestone.
-> En desarrollo: todavía no hay versión descargable. La primera beta (v0.1.0) es el siguiente hito.
+> 🚧 Under development: no downloadable version yet. The first beta (v0.1.0) works in the game but is not published yet.
+> En desarrollo: todavía no hay versión descargable. La primera beta (v0.1.0) ya funciona en el juego pero aún no está publicada.
 
 ---
 
@@ -19,7 +19,7 @@ AskForever knows your level, faction and zone, computes routes from real data (n
 ### Status
 | Version | What it brings | State |
 |---|---|---|
-| 0.1.0 | Addon: chat window, character context, **Copy prompt** button (paste it into any AI) | Next |
+| 0.1.0 | Addon: chat window, character context, **Copy prompt** button (paste it into any AI) | Working, not published yet |
 | 0.2.0 – 0.4.0 | Companion app that talks to the AI and shows the answer in-game, installer | Planned |
 | 0.5.0+ | Reliable routes, **Take me there** button, more AI engines | Planned |
 
@@ -51,7 +51,7 @@ AskForever conoce tu nivel, facción y zona, calcula las rutas con datos reales 
 ### Estado
 | Versión | Qué aporta | Estado |
 |---|---|---|
-| 0.1.0 | Addon: ventana de chat, contexto del personaje, botón **Copiar prompt** (pégalo en cualquier IA) | Siguiente |
+| 0.1.0 | Addon: ventana de chat, contexto del personaje, botón **Copiar prompt** (pégalo en cualquier IA) | Funciona, sin publicar |
 | 0.2.0 – 0.4.0 | Companion que habla con la IA y muestra la respuesta en el juego, instalador | Planificado |
 | 0.5.0+ | Rutas fiables, botón **Llévame**, más motores de IA | Planificado |
 

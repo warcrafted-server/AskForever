@@ -12,7 +12,6 @@ ns.L_enUS = {
     CTX_COORDS = 'Coordinates: %s, %s',
     CTX_QUESTS = 'Quests:',
     PROMPT_QUESTION = 'Question: %s',
-    DEBUG_SAVED = 'Debug data saved. Type /reload to write it to disk.',
     WINDOW_TITLE = 'AskForever',
     SEND = 'Send',
     COPY_PROMPT = 'Copy prompt',
