@@ -1,19 +1,34 @@
-# Creado por AgentRelay para no confirmar secretos en el repositorio.
-.env
-.env.*
-*.pem
-*.key
-*.p12
-*.pfx
-id_rsa*
-id_ed25519*
-credentials.json
-secrets.json
-wp-config.php
-.htpasswd
-node_modules/
+# Agentes (privado)
+CLAUDE.md
+.claude/
+agentrelay*
 .agentrelay/
-agentrelay.config.json
-*.log
+AGENTS.md
+
+# Secretos
+.env
+*.key
+secrets*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+*.spec
+
+# Releases locales
+release/
+*.zip
+
+# Sistema / editor
+.vscode/
 .DS_Store
 Thumbs.db
+agentrelay.config.json
+
+# Planes de agentes (privado)
+.agents/
