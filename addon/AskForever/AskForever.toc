@@ -13,6 +13,8 @@ core/Init.lua
 core/Context.lua
 core/Prompt.lua
 core/Debug.lua
+ui/Theme.lua
+ui/Window.lua
 ui/MainFrame.lua
 ui/CopyBox.lua
 ui/Minimap.lua

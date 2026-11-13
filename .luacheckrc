@@ -13,6 +13,7 @@ globals = {
 }
 
 read_globals = {
+    'ButtonFrameTemplate_HideButtonBar',
     'C_AddOns',
     'C_Map',
     'C_Timer',

@@ -31,4 +31,6 @@ ns.L_enUS = {
     MINIMAP_TIP_DRAG = 'Drag: move',
     MINIMAP_SHOWN = 'Minimap button shown.',
     MINIMAP_HIDDEN = 'Minimap button hidden.',
+    CTX_SUMMARY = 'Level %s · %s %s · %s',
+    OFFLINE_NOTE = 'No companion: the prompt is copied and pasted into your AI',
 }

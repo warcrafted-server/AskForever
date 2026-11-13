@@ -2,43 +2,45 @@ local _, ns = ...
 
 ns.UI = ns.UI or {}
 
+local Theme = ns.UI.Theme
+local colors = Theme.colors
+
 local copyFrame
 local copyScrollFrame
 local copyEditBox
+
+local function CreateScrollFrame(parent)
+    local ok, scroll = pcall(CreateFrame, 'ScrollFrame', nil, parent, 'UIPanelScrollFrameTemplate')
+    if ok and scroll then
+        return scroll
+    end
+    return CreateFrame('ScrollFrame', nil, parent)
+end
 
 local function EnsureCopyFrame()
     if copyFrame then
         return copyFrame
     end
 
-    copyFrame = CreateFrame('Frame', 'AskForeverCopyFrame', UIParent, 'BasicFrameTemplateWithInset')
-    copyFrame:SetSize(460, 300)
-    copyFrame:SetPoint('CENTER', UIParent, 'CENTER', 0, 0)
+    copyFrame = ns.UI.CreateWindow('AskForeverCopyFrame', 480, 340, ns.L.COPY_PROMPT)
     copyFrame:SetFrameStrata('DIALOG')
-    copyFrame:SetClampedToScreen(true)
-    copyFrame:SetMovable(true)
-    copyFrame:EnableMouse(true)
-    copyFrame:RegisterForDrag('LeftButton')
-    copyFrame:SetScript('OnDragStart', function(self)
-        self:StartMoving()
-    end)
-    copyFrame:SetScript('OnDragStop', function(self)
-        self:StopMovingOrSizing()
-    end)
+    copyFrame:SetPoint('CENTER', UIParent, 'CENTER', 0, 0)
     table.insert(UISpecialFrames, 'AskForeverCopyFrame')
 
-    local title = copyFrame:CreateFontString(nil, 'OVERLAY', 'GameFontNormalLarge')
-    title:SetPoint('TOP', copyFrame, 'TOP', 0, -8)
-    title:SetText(ns.L.COPY_PROMPT)
+    local body = copyFrame.body
 
-    copyScrollFrame = CreateFrame('ScrollFrame', nil, copyFrame, 'UIPanelScrollFrameTemplate')
-    copyScrollFrame:SetPoint('TOPLEFT', copyFrame, 'TOPLEFT', 14, -36)
-    copyScrollFrame:SetPoint('BOTTOMRIGHT', copyFrame, 'BOTTOMRIGHT', -34, 38)
+    local panel = ns.UI.CreatePanel(body)
+    panel:SetPoint('TOPLEFT', body, 'TOPLEFT', 8, -8)
+    panel:SetPoint('BOTTOMRIGHT', body, 'BOTTOMRIGHT', -8, 30)
+
+    copyScrollFrame = CreateScrollFrame(panel)
+    copyScrollFrame:SetPoint('TOPLEFT', panel, 'TOPLEFT', 6, -6)
+    copyScrollFrame:SetPoint('BOTTOMRIGHT', panel, 'BOTTOMRIGHT', -26, 6)
 
     copyEditBox = CreateFrame('EditBox', nil, copyScrollFrame)
     copyEditBox:SetMultiLine(true)
-    copyEditBox:SetFontObject(ChatFontNormal)
-    copyEditBox:SetWidth(410)
+    copyEditBox:SetFontObject(Theme.font.body)
+    copyEditBox:SetWidth(400)
     -- Alto fijo amplio: el ScrollFrame aporta la barra para recorrer prompts largos.
     copyEditBox:SetHeight(900)
     copyEditBox:SetAutoFocus(true)
@@ -48,8 +50,16 @@ local function EnsureCopyFrame()
     end)
     copyScrollFrame:SetScrollChild(copyEditBox)
 
-    local hint = copyFrame:CreateFontString(nil, 'OVERLAY', 'GameFontHighlightSmall')
-    hint:SetPoint('BOTTOMLEFT', copyFrame, 'BOTTOMLEFT', 16, 14)
+    local function FitEditBox()
+        local width = copyScrollFrame:GetWidth()
+        if width and width > 4 then
+            copyEditBox:SetWidth(width - 4)
+        end
+    end
+    copyScrollFrame:SetScript('OnSizeChanged', FitEditBox)
+
+    local hint = ns.UI.CreateText(body, Theme.font.small, colors.textDim)
+    hint:SetPoint('BOTTOMLEFT', body, 'BOTTOMLEFT', 10, 8)
     hint:SetText(ns.L.COPY_HINT)
 
     copyFrame:SetScript('OnHide', function()

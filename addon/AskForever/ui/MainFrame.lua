@@ -2,14 +2,15 @@ local _, ns = ...
 
 ns.UI = ns.UI or {}
 
+local Theme = ns.UI.Theme
+local colors = Theme.colors
+
 local MAX_HISTORY_LINES = 200
-local COLOR_QUESTION = { 0.4, 0.75, 1 }
-local COLOR_SYSTEM = { 1, 0.85, 0.3 }
-local COLOR_WARNING = { 1, 0.4, 0.4 }
 
 local mainFrame
 local history
 local editBox
+local summaryText
 
 local function AddHistory(text, color)
     history:AddMessage(text, color[1], color[2], color[3])
@@ -36,13 +37,25 @@ local function RestorePosition(frame)
     end
 end
 
+local function BuildSummary()
+    local ctx = ns.Context.Collect()
+    local text = ns.L.CTX_SUMMARY:format(
+        ctx.level and tostring(ctx.level) or '',
+        ctx.race or '',
+        ctx.class or '',
+        ctx.zone or ''
+    )
+    text = text:gsub('%s+', ' '):gsub('^%s*·%s*', ''):gsub('%s*·%s*$', ''):gsub('^%s+', '')
+    return text
+end
+
 local function SendQuestion(text)
     local question = (text or ''):match('^%s*(.-)%s*$')
     if question == '' then
         return
     end
-    AddHistory(question, COLOR_QUESTION)
-    AddHistory(ns.L.PROMPT_READY, COLOR_SYSTEM)
+    AddHistory(question, colors.title)
+    AddHistory(ns.L.PROMPT_READY, colors.textDim)
     ns.UI.lastQuestion = question
     editBox:SetText('')
     editBox:ClearFocus()
@@ -51,7 +64,7 @@ end
 local function CopyPrompt()
     local question = ns.UI.lastQuestion
     if not question then
-        AddHistory(ns.L.NO_QUESTION, COLOR_WARNING)
+        AddHistory(ns.L.NO_QUESTION, colors.missing)
         return
     end
     local ctx = ns.Context.Collect()
@@ -64,22 +77,23 @@ local function EnsureMainFrame()
         return mainFrame
     end
 
-    mainFrame = CreateFrame('Frame', 'AskForeverMainFrame', UIParent, 'BasicFrameTemplateWithInset')
-    mainFrame:SetSize(420, 340)
-    mainFrame:SetFrameStrata('DIALOG')
-    mainFrame:SetClampedToScreen(true)
-    mainFrame:SetMovable(true)
-    mainFrame:Hide()
-    table.insert(UISpecialFrames, 'AskForeverMainFrame')
+    mainFrame = ns.UI.CreateWindow('AskForeverMainFrame', 480, 400, ns.L.WINDOW_TITLE)
+    local body = mainFrame.body
 
-    local title = mainFrame:CreateFontString(nil, 'OVERLAY', 'GameFontNormalLarge')
-    title:SetPoint('TOP', mainFrame, 'TOP', 0, -8)
-    title:SetText(ns.L.WINDOW_TITLE)
+    summaryText = ns.UI.CreateText(body, Theme.font.small, colors.textDim)
+    summaryText:SetPoint('TOPLEFT', body, 'TOPLEFT', 10, -8)
+    summaryText:SetPoint('TOPRIGHT', body, 'TOPRIGHT', -10, -8)
+    summaryText:SetJustifyH('LEFT')
+    summaryText:SetText('')
 
-    history = CreateFrame('ScrollingMessageFrame', nil, mainFrame)
-    history:SetPoint('TOPLEFT', mainFrame, 'TOPLEFT', 16, -36)
-    history:SetPoint('BOTTOMRIGHT', mainFrame, 'BOTTOMRIGHT', -16, 84)
-    history:SetFontObject(ChatFontNormal)
+    local historyPanel = ns.UI.CreatePanel(body)
+    historyPanel:SetPoint('TOPLEFT', body, 'TOPLEFT', 8, -26)
+    historyPanel:SetPoint('BOTTOMRIGHT', body, 'BOTTOMRIGHT', -8, 92)
+
+    history = CreateFrame('ScrollingMessageFrame', nil, historyPanel)
+    history:SetPoint('TOPLEFT', historyPanel, 'TOPLEFT', 8, -8)
+    history:SetPoint('BOTTOMRIGHT', historyPanel, 'BOTTOMRIGHT', -8, 8)
+    history:SetFontObject(ChatFontNormal or Theme.font.body)
     history:SetJustifyH('LEFT')
     history:SetFading(false)
     history:SetMaxLines(MAX_HISTORY_LINES)
@@ -93,10 +107,10 @@ local function EnsureMainFrame()
         end
     end)
 
-    editBox = CreateFrame('EditBox', nil, mainFrame, 'InputBoxTemplate')
-    editBox:SetSize(296, 24)
-    editBox:SetPoint('BOTTOMLEFT', mainFrame, 'BOTTOMLEFT', 18, 52)
-    editBox:SetAutoFocus(false)
+    editBox = ns.UI.CreateInput(body)
+    editBox:SetPoint('BOTTOMLEFT', body, 'BOTTOMLEFT', 8, 60)
+    editBox:SetPoint('BOTTOMRIGHT', body, 'BOTTOMRIGHT', -96, 60)
+    editBox:SetHeight(24)
     editBox:SetMaxLetters(500)
     editBox:SetScript('OnEnterPressed', function(self)
         SendQuestion(self:GetText())
@@ -105,40 +119,38 @@ local function EnsureMainFrame()
         self:ClearFocus()
     end)
 
-    local sendButton = CreateFrame('Button', nil, mainFrame, 'UIPanelButtonTemplate')
-    sendButton:SetSize(80, 24)
-    sendButton:SetPoint('BOTTOMRIGHT', mainFrame, 'BOTTOMRIGHT', -16, 52)
-    sendButton:SetText(ns.L.SEND)
-    sendButton:SetScript('OnClick', function()
+    local sendButton = ns.UI.CreateButton(body, ns.L.SEND, 80, 24, function()
         SendQuestion(editBox:GetText())
     end)
+    sendButton:SetPoint('BOTTOMRIGHT', body, 'BOTTOMRIGHT', -8, 60)
 
-    local copyButton = CreateFrame('Button', nil, mainFrame, 'UIPanelButtonTemplate')
-    copyButton:SetSize(140, 22)
-    copyButton:SetPoint('BOTTOMLEFT', mainFrame, 'BOTTOMLEFT', 16, 18)
-    copyButton:SetText(ns.L.COPY_PROMPT)
-    copyButton:SetScript('OnClick', CopyPrompt)
+    local copyButton = ns.UI.CreateButton(body, ns.L.COPY_PROMPT, 150, 24, CopyPrompt)
+    copyButton:SetPoint('BOTTOMLEFT', body, 'BOTTOMLEFT', 8, 16)
+    if copyButton.GetFontString then
+        local label = copyButton:GetFontString()
+        if label then
+            label:SetTextColor(colors.title[1], colors.title[2], colors.title[3])
+        end
+    end
 
-    local dragArea = CreateFrame('Frame', nil, mainFrame)
-    dragArea:SetPoint('TOPLEFT', mainFrame, 'TOPLEFT', 8, -4)
-    dragArea:SetPoint('TOPRIGHT', mainFrame, 'TOPRIGHT', -30, -4)
-    dragArea:SetHeight(28)
-    dragArea:EnableMouse(true)
-    dragArea:RegisterForDrag('LeftButton')
-    dragArea:SetScript('OnDragStart', function()
-        mainFrame:StartMoving()
-    end)
-    dragArea:SetScript('OnDragStop', function()
-        mainFrame:StopMovingOrSizing()
-        SavePosition(mainFrame)
-    end)
+    local note = ns.UI.CreateText(body, Theme.font.small, colors.textDim)
+    note:SetPoint('LEFT', copyButton, 'RIGHT', 10, 0)
+    note:SetPoint('RIGHT', body, 'RIGHT', -8, 0)
+    note:SetJustifyH('LEFT')
+    note:SetText(ns.L.OFFLINE_NOTE)
+
+    table.insert(UISpecialFrames, 'AskForeverMainFrame')
 
     mainFrame:SetScript('OnShow', function()
+        summaryText:SetText(BuildSummary())
         editBox:SetFocus()
     end)
     mainFrame:SetScript('OnHide', function()
         editBox:ClearFocus()
     end)
+    mainFrame.onMoveStop = function()
+        SavePosition(mainFrame)
+    end
 
     RestorePosition(mainFrame)
     return mainFrame

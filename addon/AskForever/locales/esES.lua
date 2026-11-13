@@ -31,4 +31,6 @@ ns.L_esES = {
     MINIMAP_TIP_DRAG = 'Arrastrar: mover',
     MINIMAP_SHOWN = 'Botón del minimapa visible.',
     MINIMAP_HIDDEN = 'Botón del minimapa oculto.',
+    CTX_SUMMARY = 'Nivel %s · %s %s · %s',
+    OFFLINE_NOTE = 'Sin companion: el prompt se copia y se pega en tu IA',
 }
