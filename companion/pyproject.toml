@@ -1,0 +1,20 @@
+[build-system]
+requires = ['setuptools>=68']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = 'askforever'
+version = '0.2.0.dev0'
+description = 'Companion de AskForever para WoW Forever'
+requires-python = '>=3.12'
+dependencies = ['mss', 'pillow', 'keyring', 'openai']
+
+[project.optional-dependencies]
+dev = ['pytest']
+
+[tool.setuptools.packages.find]
+include = ['askforever*']
+
+[tool.pytest.ini_options]
+testpaths = ['tests']
+pythonpath = ['.']
