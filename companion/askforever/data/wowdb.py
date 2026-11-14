@@ -80,6 +80,15 @@ def _as_int(value) -> Optional[int]:
     return None
 
 
+def _article_key(text) -> str:
+    """Nombre normalizado sin artículo inicial, para comparar mazmorras."""
+    normalized = normalize(text)
+    for article in ('el ', 'la ', 'los ', 'las ', 'the '):
+        if normalized.startswith(article):
+            return normalized[len(article):]
+    return normalized
+
+
 def class_mask_from_name(name) -> Optional[int]:
     """Máscara de clase a partir de cualquiera de sus nombres normalizados."""
     target = normalize(name)
@@ -532,6 +541,36 @@ class WowDb:
             if quest_name:
                 rewards.append(quest_name)
 
+        if not drops:
+            seen_npcs = set()
+            for row in self._rows(
+                    'SELECT npc_id, porcentaje FROM v_botin WHERE item_id = ? '
+                    'ORDER BY porcentaje DESC', (item_id,)):
+                npc_id = row['npc_id']
+                if npc_id in seen_npcs:
+                    continue
+                seen_npcs.add(npc_id)
+                npc_name, _sub_name = self._npc_names(npc_id, lang)
+                if not npc_name:
+                    npc_rows = self._rows(
+                        'SELECT nombre, nombre_en FROM v_npc WHERE npc_id = ? LIMIT 1',
+                        (npc_id,))
+                    if npc_rows:
+                        npc_name = _clean_text(
+                            npc_rows[0]['nombre'] or npc_rows[0]['nombre_en'])
+                locations = self.npc_locations(npc_id, limit=1, lang=lang)
+                try:
+                    rate = round(float(row['porcentaje']))
+                except (TypeError, ValueError):
+                    rate = None
+                drops.append({
+                    'npc': npc_name,
+                    'zone': locations[0]['zone'] if locations else '',
+                    'rate': rate,
+                })
+                if len(drops) >= limit:
+                    break
+
         if not name and not vendors and not drops and not rewards:
             return None
         return {
@@ -541,6 +580,412 @@ class WowDb:
             'drops': drops,
             'quest_rewards': rewards,
         }
+
+    def format_money(self, copper, lang: str = 'es') -> str:
+        """Formatea una cantidad de cobre como oro, plata y cobre."""
+        try:
+            copper = max(0, int(copper or 0))
+        except (TypeError, ValueError):
+            copper = 0
+        gold, rest = divmod(copper, 10000)
+        silver, copper_rest = divmod(rest, 100)
+        parts = []
+        if gold:
+            parts.append(f'{gold} de oro' if lang == 'es' else f'{gold} gold')
+        if silver:
+            parts.append(f'{silver} de plata' if lang == 'es' else f'{silver} silver')
+        if not gold and copper_rest:
+            parts.append(f'{copper_rest} de cobre' if lang == 'es' else f'{copper_rest} copper')
+        if not parts:
+            parts.append('0 de cobre' if lang == 'es' else '0 copper')
+        return (' y ' if lang == 'es' else ' ').join(parts)
+
+    @staticmethod
+    def _zone_level_row(row, lang: str) -> dict:
+        if lang == 'es':
+            name = row['nombre'] or row['nombre_en']
+        else:
+            name = row['nombre_en'] or row['nombre']
+        return {
+            'area_id': row['area_id'],
+            'name': _clean_text(name),
+            'min': _as_int(row['nivel_min']),
+            'max': _as_int(row['nivel_max']),
+        }
+
+    def zone_levels(self, name_or_area_id, lang: str = 'es'):
+        rows = self._rows(
+            'SELECT area_id, nombre, nombre_en, nivel_min, nivel_max FROM v_zona_niveles')
+        if not rows:
+            return None
+        area_id = _as_int(name_or_area_id)
+        if area_id is not None:
+            for row in rows:
+                if row['area_id'] == area_id:
+                    return self._zone_level_row(row, lang)
+            return None
+        target = normalize(name_or_area_id)
+        if not target:
+            return None
+        for row in rows:
+            if normalize(row['nombre']) == target or normalize(row['nombre_en']) == target:
+                return self._zone_level_row(row, lang)
+        return None
+
+    def zones_for_level(self, level, lang: str = 'es', limit: int = 8):
+        try:
+            level = int(level)
+        except (TypeError, ValueError):
+            return []
+        # v_zona_niveles también trae instancias (p. ej. Sima Ígnea): no son zonas para subir de nivel.
+        dungeon_areas = {_as_int(row['area_id']) for row in self._rows('SELECT area_id FROM ext_dungeons')}
+        zones = []
+        for row in self._rows(
+                'SELECT area_id, nombre, nombre_en, nivel_min, nivel_max FROM v_zona_niveles'):
+            low = _as_int(row['nivel_min'])
+            high = _as_int(row['nivel_max'])
+            if low is None or high is None or _as_int(row['area_id']) in dungeon_areas:
+                continue
+            if low <= level <= high and (high - low) <= 15:
+                zones.append((low, row))
+        zones.sort(key=lambda item: (level - item[0], item[0], item[1]['area_id']))
+        try:
+            limit = max(0, int(limit))
+        except (TypeError, ValueError):
+            limit = 6
+        return [self._zone_level_row(row, lang) for _low, row in zones[:limit]]
+
+    def _lfg_dungeon_rows(self):
+        return self._rows(
+            'SELECT ID, Name_lang, Name_lang_esES, TypeID, MapID, ContentTuningID '
+            'FROM LFGDungeons')
+
+    def _content_levels(self, content_tuning_id):
+        rows = self._rows(
+            'SELECT * FROM contenttuning WHERE ID = ? LIMIT 1', (content_tuning_id,))
+        if not rows:
+            return None
+        row = rows[0]
+
+        def number(name):
+            try:
+                return int(row[name] or 0)
+            except (IndexError, KeyError, TypeError, ValueError):
+                return 0
+
+        low = number('MinLevelSquish')
+        high = number('MaxLevelSquish')
+        if low == 0 and high == 0:
+            low = number('LfgMinLevel')
+            high = number('LfgMaxLevel')
+        if low == 0 and high == 0:
+            return None
+        if low == 0:
+            low = high
+        if high == 0:
+            high = low
+        return low, high
+
+    @staticmethod
+    def _lfg_name(row, lang: str) -> str:
+        if lang == 'es':
+            return _clean_text(row['Name_lang_esES'] or row['Name_lang'])
+        return _clean_text(row['Name_lang'] or row['Name_lang_esES'])
+
+    @staticmethod
+    def _lfg_for_ext(ext_row, lfg_rows):
+        keys = {_article_key(ext_row['name_esES']), _article_key(ext_row['name_enUS'])}
+        keys.discard('')
+        for row in lfg_rows:
+            if (_article_key(row['Name_lang_esES']) in keys
+                    or _article_key(row['Name_lang']) in keys):
+                return row
+        return None
+
+    def _find_lfg_dungeon(self, name_or_id):
+        lfg_rows = self._lfg_dungeon_rows()
+        ext_rows = self._rows('SELECT area_id, name_enUS, name_esES FROM ext_dungeons')
+        number = _as_int(name_or_id)
+        if number is not None:
+            for row in lfg_rows:
+                if row['ID'] == number:
+                    return row
+            for ext in ext_rows:
+                if ext['area_id'] == number:
+                    return self._lfg_for_ext(ext, lfg_rows)
+            return None
+        target = _article_key(name_or_id)
+        if not target:
+            return None
+        for row in lfg_rows:
+            if (_article_key(row['Name_lang_esES']) == target
+                    or _article_key(row['Name_lang']) == target):
+                return row
+        for ext in ext_rows:
+            if (_article_key(ext['name_esES']) == target
+                    or _article_key(ext['name_enUS']) == target):
+                return self._lfg_for_ext(ext, lfg_rows)
+        return None
+
+    def dungeon_level(self, name_or_id, lang: str = 'es'):
+        row = self._find_lfg_dungeon(name_or_id)
+        if row is None:
+            return None
+        levels = self._content_levels(row['ContentTuningID'])
+        if levels is None:
+            return None
+        return {'name': self._lfg_name(row, lang), 'min': levels[0], 'max': levels[1]}
+
+    def dungeons_for_level(self, level, lang: str = 'es', below: int = 2, above: int = 5):
+        try:
+            level = int(level)
+            low_limit = level - int(below)
+            high_limit = level + int(above)
+        except (TypeError, ValueError):
+            return []
+        ext_keys = set()
+        for row in self._rows('SELECT name_enUS, name_esES FROM ext_dungeons'):
+            ext_keys.add(_article_key(row['name_esES']))
+            ext_keys.add(_article_key(row['name_enUS']))
+        ext_keys.discard('')
+        dungeons = []
+        seen = set()
+        for row in self._lfg_dungeon_rows():
+            name_en = _article_key(row['Name_lang'])
+            name_es = _article_key(row['Name_lang_esES'])
+            if name_en not in ext_keys and name_es not in ext_keys:
+                continue
+            levels = self._content_levels(row['ContentTuningID'])
+            if levels is None:
+                continue
+            low, high = levels
+            if not low_limit <= low <= high_limit:
+                continue
+            key = (low, high, name_en)
+            if key in seen:
+                continue
+            seen.add(key)
+            dungeons.append({'name': self._lfg_name(row, lang), 'min': low, 'max': high})
+        dungeons.sort(key=lambda item: (item['min'], item['name']))
+        return dungeons
+
+    def dungeon_bosses(self, name_or_id, lang: str = 'es'):
+        row = self._find_lfg_dungeon(name_or_id)
+        if row is None:
+            return None
+        bosses = self._rows(
+            'SELECT encuentro_id, map_id, instancia, dificultad, orden, nombre, nombre_en '
+            'FROM v_jefe_mazmorra')
+        map_id = row['MapID']
+        selected = []
+        if map_id:
+            selected = [boss for boss in bosses if boss['map_id'] == map_id]
+        if not selected:
+            keys = {_article_key(row['Name_lang']), _article_key(row['Name_lang_esES'])}
+            keys.discard('')
+            for boss in bosses:
+                boss_key = _article_key(boss['instancia'])
+                if not boss_key:
+                    continue
+                for name_key in keys:
+                    if boss_key == name_key or name_key.startswith(boss_key + ' '):
+                        selected.append(boss)
+                        break
+        seen = set()
+        ordered = []
+        for boss in sorted(selected, key=lambda item: (item['orden'] or 0, item['nombre'] or '')):
+            key = (boss['orden'], boss['nombre'])
+            if key in seen:
+                continue
+            seen.add(key)
+            ordered.append(boss)
+        names = []
+        for boss in ordered:
+            if lang == 'es':
+                names.append(_clean_text(boss['nombre'] or boss['nombre_en']))
+            else:
+                names.append(_clean_text(boss['nombre_en'] or boss['nombre']))
+        return {'name': self._lfg_name(row, lang), 'bosses': names}
+
+    def xp_to_next_level(self, level):
+        number = _as_int(level)
+        if number is None:
+            return None
+        rows = self._rows(
+            'SELECT Experience FROM levelexperience WHERE Level = ? LIMIT 1', (number,))
+        if not rows:
+            return None
+        try:
+            return int(rows[0]['Experience'])
+        except (TypeError, ValueError):
+            return None
+
+    def quest_details(self, quest_id, lang: str = 'es'):
+        number = _as_int(quest_id)
+        if number is None:
+            return None
+        rows = self._rows(
+            'SELECT quest_id, titulo, nivel, xp, zona, objetivo, texto, origen '
+            'FROM v_mision WHERE quest_id = ? LIMIT 1', (number,))
+        if not rows:
+            return None
+        row = rows[0]
+        objectives = []
+        raw = row['objetivo']
+        if raw:
+            try:
+                parsed = json.loads(raw)
+            except (TypeError, ValueError):
+                parsed = None
+            if isinstance(parsed, list):
+                objectives = [str(item) for item in parsed if item is not None]
+            elif isinstance(parsed, str):
+                objectives = [parsed]
+            else:
+                objectives = [str(raw)]
+        try:
+            xp = int(row['xp'])
+        except (TypeError, ValueError):
+            xp = None
+        return {'xp': xp, 'zone': _clean_text(row['zona']), 'objectives': objectives}
+
+    def _taxi_node_name(self, node_id, lang: str = 'es') -> str:
+        rows = self._rows(
+            'SELECT Name_lang, Name_lang_esES FROM TaxiNodes WHERE ID = ? LIMIT 1', (node_id,))
+        if not rows:
+            return ''
+        row = rows[0]
+        if lang == 'es':
+            return _clean_text(row['Name_lang_esES'] or row['Name_lang'])
+        return _clean_text(row['Name_lang'] or row['Name_lang_esES'])
+
+    def _find_taxi_node(self, place, lang: str = 'es'):
+        target = normalize(place)
+        if not target:
+            return None
+        candidates = []
+        for row in self._rows('SELECT ID, Name_lang, Name_lang_esES FROM TaxiNodes'):
+            names = [normalize(row['Name_lang_esES'] or ''), normalize(row['Name_lang'] or '')]
+            names = [name for name in names if name]
+            if target in names:
+                score = 0
+            elif any(name.startswith(target + ' ') for name in names):
+                score = 1
+            elif any((' ' + target) in (' ' + name) for name in names):
+                score = 2
+            else:
+                continue
+            candidates.append((score, row['ID'], row))
+        if not candidates:
+            return None
+        candidates.sort(key=lambda item: (item[0], item[1]))
+        return candidates[0][2]
+
+    @staticmethod
+    def _faction_matches(value, faction) -> bool:
+        if faction not in ('A', 'H'):
+            return True
+        if value is None:
+            return True
+        return value == ('Alianza' if faction == 'A' else 'Horda')
+
+    def flights_from(self, place, faction, lang: str = 'es', limit: int = 12):
+        origin = self._find_taxi_node(place, lang)
+        if origin is None:
+            return None
+        origin_name = (self._taxi_node_name(origin['ID'], lang)
+                       or _clean_text(origin['Name_lang']))
+        flights = []
+        seen = set()
+        for row in self._rows(
+                'SELECT nodo_destino, destino, coste, faccion FROM v_ruta '
+                "WHERE tipo = 'vuelo' AND nodo_origen = ?", (origin['ID'],)):
+            if not self._faction_matches(row['faccion'], faction):
+                continue
+            destination_id = row['nodo_destino']
+            if destination_id in seen:
+                continue
+            seen.add(destination_id)
+            destination = (self._taxi_node_name(destination_id, lang)
+                           or _clean_text(row['destino']))
+            try:
+                cost = int(row['coste'] or 0)
+            except (TypeError, ValueError):
+                cost = 0
+            flights.append({
+                'destination': destination,
+                'cost_copper': cost,
+                'cost': self.format_money(cost, lang),
+            })
+        flights.sort(key=lambda item: item['cost_copper'])
+        try:
+            limit = max(0, int(limit))
+        except (TypeError, ValueError):
+            limit = 12
+        return {'origin': origin_name, 'flights': flights[:limit]}
+
+    def flight_cost(self, place_a, place_b, faction, lang: str = 'es'):
+        origin = self._find_taxi_node(place_a, lang)
+        destination = self._find_taxi_node(place_b, lang)
+        if origin is None or destination is None:
+            return None
+        best = None
+        for row in self._rows(
+                'SELECT coste, faccion FROM v_ruta '
+                "WHERE tipo = 'vuelo' AND nodo_origen = ? AND nodo_destino = ?",
+                (origin['ID'], destination['ID'])):
+            if not self._faction_matches(row['faccion'], faction):
+                continue
+            try:
+                cost = int(row['coste'] or 0)
+            except (TypeError, ValueError):
+                cost = 0
+            if best is None or cost < best:
+                best = cost
+        if best is None:
+            return None
+        return {
+            'origin': (self._taxi_node_name(origin['ID'], lang)
+                       or _clean_text(origin['Name_lang'])),
+            'destination': (self._taxi_node_name(destination['ID'], lang)
+                            or _clean_text(destination['Name_lang'])),
+            'cost_copper': best,
+            'cost': self.format_money(best, lang),
+        }
+
+    @staticmethod
+    def _is_generic_end(*names) -> bool:
+        for name in names:
+            normalized = normalize(name)
+            if normalized.startswith('generic') or normalized.startswith('generico'):
+                return True
+        return False
+
+    def transports(self, faction, lang: str = 'es'):
+        entries = []
+        seen = set()
+        for row in self._rows(
+                'SELECT tipo, nodo_origen, origen, nodo_destino, destino, faccion '
+                "FROM v_ruta WHERE lower(tipo) LIKE 'transporte%'"):
+            if not self._faction_matches(row['faccion'], faction):
+                continue
+            raw_origin = _clean_text(row['origen'])
+            raw_destination = _clean_text(row['destino'])
+            origin = self._taxi_node_name(row['nodo_origen'], lang) or raw_origin
+            destination = (self._taxi_node_name(row['nodo_destino'], lang)
+                           or raw_destination)
+            if not origin or not destination:
+                continue
+            if self._is_generic_end(origin, destination, raw_origin, raw_destination):
+                continue
+            key = tuple(sorted((origin, destination)))
+            if key in seen:
+                continue
+            seen.add(key)
+            entries.append({'type': _clean_text(row['tipo']), 'origin': origin,
+                            'destination': destination})
+        entries.sort(key=lambda item: (item['origin'], item['destination']))
+        return entries
 
     def ensure_index(self) -> None:
         """Construye una sola vez el índice de nombres para match_entities."""

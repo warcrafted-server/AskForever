@@ -697,6 +697,62 @@ def _data_check(args: argparse.Namespace) -> int:
                   f'en {elapsed} ms')
             for match in matches:
                 print(f"  {match['kind']} {match['id']}: {match['name']}")
+
+        print()
+        zone = db.zone_levels('Montañas Crestagrana')
+        if zone:
+            print(f"Niveles de zona: Montañas Crestagrana {zone['min']}-{zone['max']}")
+        else:
+            print('Niveles de zona: Montañas Crestagrana sin datos')
+        zones = db.zones_for_level(16)
+        print('Zonas para nivel 16: ' + '; '.join(
+            f"{item['name']} ({item['min']}-{item['max']})" for item in zones))
+        dungeon = db.dungeon_level('Las Minas de la Muerte')
+        if dungeon:
+            print(f"Mazmorra: {dungeon['name']} {dungeon['min']}-{dungeon['max']}")
+        else:
+            print('Mazmorra Las Minas de la Muerte: sin datos de nivel')
+        dungeons = db.dungeons_for_level(16)
+        print('Mazmorras para nivel 16: ' + '; '.join(
+            f"{item['name']} ({item['min']}-{item['max']})" for item in dungeons))
+        for name in ('Cuevas de los Lamentos', 'Las Minas de la Muerte'):
+            bosses = db.dungeon_bosses(name)
+            if bosses:
+                print(f"Jefes de {bosses['name']}: " + ', '.join(bosses['bosses']))
+            else:
+                print(f'Jefes de {name}: sin datos')
+        print(f'Experiencia para pasar de nivel 16: {db.xp_to_next_level(16)}')
+        details = db.quest_details(255)
+        if details:
+            print(f"Misión 255: xp {details['xp']}, zona {details['zone']}, "
+                  f"objetivos {details['objectives']}")
+        else:
+            print('Misión 255: sin datos')
+        item = db.item_sources('Diente de piedra trogg')
+        if item:
+            drops = '; '.join(f"{drop['npc']} en {drop['zone']} ({drop['rate']} %)"
+                              for drop in item['drops'])
+            print(f"Botín de Diente de piedra trogg: {drops or 'sin datos'}")
+        else:
+            print('Botín de Diente de piedra trogg: sin datos')
+        flights = db.flights_from('Forjaz', 'A')
+        if flights:
+            print(f"Vuelos desde {flights['origin']}: " + '; '.join(
+                f"{flight['destination']} {flight['cost']}"
+                for flight in flights['flights'][:12]))
+        else:
+            print('Vuelos desde Forjaz: sin datos')
+        cost = db.flight_cost('Forjaz', 'Thelsamar', 'A')
+        if cost:
+            print(f"Vuelo {cost['origin']} -> {cost['destination']}: "
+                  f"{cost['cost_copper']} cobre ({cost['cost']})")
+        else:
+            print('Vuelo Forjaz -> Thelsamar: sin datos')
+        transports = db.transports('A')
+        print(f'Transportes (Alianza): {len(transports)}')
+        for transport in transports[:10]:
+            print(f"  {transport['type']}: {transport['origin']} -> "
+                  f"{transport['destination']}")
     finally:
         db.close()
     return 0
