@@ -16,6 +16,7 @@ core/Prompt.lua
 core/Json.lua
 core/Strip.lua
 core/Transport.lua
+core/SlotSpike.lua
 ui/Theme.lua
 ui/Window.lua
 ui/MainFrame.lua

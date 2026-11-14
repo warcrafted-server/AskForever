@@ -41,4 +41,9 @@ ns.L_enUS = {
     SELFTEST_OK = 'Self-test OK: the protocol matches the reference vector.',
     SELFTEST_FAIL = 'Self-test FAILED: see AskForeverDB.diag.selftest.',
     HELP_SELFTEST = '/af selftest - check the transport protocol (diagnostics)',
+    SLOT_PROBE_RESULT = 'Slot %s probe: setTexture=%s fileId=%s loaded=%s',
+    SLOT_TEST_RESULT = 'Slot %s: loaded=%s reason=%s state=%s text=%s',
+    SLOT_BAD_ARG = 'Use a slot number between 1 and 999.',
+    HELP_SLOTPROBE = '/af slotprobe N - check the signal file of slot N (diagnostics)',
+    HELP_SLOTTEST = '/af slottest N - load slot N and read its data (diagnostics)',
 }

@@ -12,6 +12,7 @@ globals = {
 }
 
 read_globals = {
+    'AskForeverSlotData',
     'bit',
     'ButtonFrameTemplate_HideButtonBar',
     'C_AddOns',
@@ -24,6 +25,7 @@ read_globals = {
     'GameFontHighlightSmall',
     'GameFontNormalLarge',
     'GameTooltip',
+    'GetAddOnInfo',
     'GetAddOnMetadata',
     'GetCursorPosition',
     'GetLocale',
@@ -34,6 +36,8 @@ read_globals = {
     'GetSubZoneText',
     'GetZoneText',
     'InCombatLockdown',
+    'IsAddOnLoaded',
+    'LoadAddOn',
     'Minimap',
     'UIParent',
     'UISpecialFrames',

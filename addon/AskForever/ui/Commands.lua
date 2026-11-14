@@ -137,6 +137,7 @@ end
 
 SlashCmdList.ASKFOREVER = function(msg)
     local command = string.lower((msg or ''):match('^%s*(.-)%s*$'))
+    local slotWord, slotArgument = command:match('^(%S+)%s+(%S+)$')
 
     if command == '' then
         ns.UI.ToggleMain()
@@ -147,6 +148,8 @@ SlashCmdList.ASKFOREVER = function(msg)
         print(ns.L.HELP_MINIMAP)
         print(ns.L.HELP_PATTERN)
         print(ns.L.HELP_SELFTEST)
+        print(ns.L.HELP_SLOTPROBE)
+        print(ns.L.HELP_SLOTTEST)
         print(ns.L.HELP_HELP)
     elseif command == 'reset' then
         ns.UI.ResetPosition()
@@ -161,6 +164,10 @@ SlashCmdList.ASKFOREVER = function(msg)
         RunPattern()
     elseif command == 'selftest' then
         RunSelftest()
+    elseif command == 'slotprobe' or slotWord == 'slotprobe' then
+        ns.SlotSpike.ProbeCmd(tonumber(slotArgument))
+    elseif command == 'slottest' or slotWord == 'slottest' then
+        ns.SlotSpike.TestCmd(tonumber(slotArgument))
     else
         print(ns.L.UNKNOWN_COMMAND)
     end

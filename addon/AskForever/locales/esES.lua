@@ -41,4 +41,9 @@ ns.L_esES = {
     SELFTEST_OK = 'Autotest correcto: el protocolo coincide con el vector de referencia.',
     SELFTEST_FAIL = 'Autotest FALLIDO: revisa AskForeverDB.diag.selftest.',
     HELP_SELFTEST = '/af selftest - comprueba el protocolo de transporte (diagnóstico)',
+    SLOT_PROBE_RESULT = 'Sonda del slot %s: setTexture=%s fileId=%s loaded=%s',
+    SLOT_TEST_RESULT = 'Slot %s: cargado=%s motivo=%s estado=%s texto=%s',
+    SLOT_BAD_ARG = 'Usa un número de slot entre 1 y 999.',
+    HELP_SLOTPROBE = '/af slotprobe N - comprueba el archivo de señal del slot N (diagnóstico)',
+    HELP_SLOTTEST = '/af slottest N - carga el slot N y lee sus datos (diagnóstico)',
 }
