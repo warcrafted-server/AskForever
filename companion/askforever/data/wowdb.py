@@ -39,6 +39,10 @@ KIND_ORDER = ('quest', 'dungeon', 'npc', 'zone', 'item')
 MIN_NAME_LENGTH = 5
 MAX_MATCHES = 6
 
+# En la base real los hechos de ext_zones agrupan los Reinos del Este en el
+# grupo 0 y Kalimdor en el 1, que son los continentes de TaxiNodes.
+ZONE_GROUP_CONTINENT = {0: 0, 1: 1}
+
 
 def normalize(text) -> str:
     """Minúsculas, sin tildes, sin signos y con espacios simples."""
@@ -164,6 +168,17 @@ class WowDb:
         else:
             name = row['name_enUS'] or row['name_esES']
         return _clean_text(name)
+
+    def zone_continent(self, zone_name) -> Optional[int]:
+        """Continente de TaxiNodes (0 Reinos del Este, 1 Kalimdor) de una zona."""
+        target = normalize(zone_name)
+        if not target:
+            return None
+        rows = self._rows('SELECT group_id, name_esES, name_enUS FROM ext_zones')
+        for row in rows:
+            if normalize(row['name_esES']) == target or normalize(row['name_enUS']) == target:
+                return ZONE_GROUP_CONTINENT.get(row['group_id'])
+        return None
 
     def npc_locations(self, npc_id, limit: int = 3, lang: str = 'es'):
         locations = []
