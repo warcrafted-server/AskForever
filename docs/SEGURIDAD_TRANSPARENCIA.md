@@ -85,12 +85,12 @@ Estado de cada comprobación (solo ponemos lo que existe de verdad hoy):
 | Comprobación | Estado |
 |---|---|
 | Código fuente completo y público en GitHub | Disponible |
-| Pruebas automáticas | Disponible (ejecuta `pytest` en `companion/`) |
+| Pruebas automáticas | Disponible: se ejecutan en GitHub en cada cambio (etiqueta CI) y en local con `pytest` en `companion/` |
 | Programa compilado automáticamente en GitHub desde el código público (nunca en un ordenador personal) | Previsto para la primera versión pública |
 | Hash SHA-256 de cada descarga publicado con la versión | Previsto |
 | Atestación de procedencia de la compilación (`gh attestation verify <archivo> --repo warcrafted-server/AskForever`) | Previsto |
 | Análisis de VirusTotal enlazado en cada versión | Previsto |
-| Análisis automático del código (CodeQL) y actualización de dependencias (Dependabot) | Previsto |
+| Análisis automático del código (CodeQL) y actualización de dependencias (Dependabot) | Disponible (ver las etiquetas del README) |
 
 ## Por qué Windows puede mostrar un aviso
 

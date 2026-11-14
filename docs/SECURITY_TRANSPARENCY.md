@@ -81,12 +81,12 @@ Status of each check (we only list what really exists today):
 | Check | Status |
 |---|---|
 | Full source code public on GitHub | Available |
-| Automated tests | Available (run `pytest` in `companion/`) |
+| Automated tests | Available: they run on GitHub on every change (CI badge) and locally with `pytest` in `companion/` |
 | Program built automatically on GitHub from the public code (never on a personal computer) | Planned for the first public release |
 | SHA-256 hash of each download published with the release | Planned |
 | Build provenance attestation (`gh attestation verify <file> --repo warcrafted-server/AskForever`) | Planned |
 | VirusTotal scan linked from each release | Planned |
-| Automatic code scanning (CodeQL) and dependency updates (Dependabot) | Planned |
+| Automatic code scanning (CodeQL) and dependency updates (Dependabot) | Available (see the badges in the README) |
 
 ## Why Windows may show a warning
 
