@@ -12,6 +12,15 @@ from datetime import datetime
 from typing import Optional, Sequence
 
 from askforever import config
+from askforever.bench import (
+    Target,
+    load_questions,
+    parse_target,
+    render_markdown,
+    run_bench,
+    save_report,
+    summarize,
+)
 from askforever.capture.grabber import Grabber, ReceivedMessage
 from askforever.capture.window import find_game_window, set_dpi_awareness
 from askforever.engine.answer import answer_message, parse_message
@@ -401,6 +410,99 @@ def _list_models(args: argparse.Namespace) -> int:
     return 0
 
 
+def _bench_targets(raw):
+    if raw:
+        targets = []
+        for item in raw.split(','):
+            item = item.strip()
+            if item:
+                targets.append(parse_target(item))
+        if not targets:
+            raise ValueError('--targets no contiene ningún objetivo válido.')
+        return targets
+
+    targets = []
+    for name, preset in config.PROVIDERS.items():
+        if not config.get_api_key(name):
+            continue
+        if not preset.default_model:
+            print(f'Aviso: {name} no tiene modelo por defecto; indícalo con '
+                  f'--targets {name}:MODELO (ver list-models --provider {name}).')
+            continue
+        targets.append(Target(name))
+    return targets
+
+
+def _ms_text(value) -> str:
+    return '-' if value is None else f'{value:.1f}'
+
+
+def _print_bench_summary(summary) -> None:
+    print('')
+    print('Objetivo | Respondidas | Errores | Saltadas | Media ms | Mediana ms | Max ms')
+    for row in summary:
+        print(f"{row['target']} | {row['answered']} | {row['errors']} | {row['skipped']} | "
+              f"{_ms_text(row['mean_ms'])} | {_ms_text(row['median_ms'])} | "
+              f"{_ms_text(row['max_ms'])}")
+
+
+def _bench(args: argparse.Namespace) -> int:
+    started = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    try:
+        targets = _bench_targets(args.targets)
+    except ValueError as error:
+        print(error)
+        return 2
+    if not targets:
+        print('No hay objetivos con clave. Guarda una clave con: set-key --provider NOMBRE')
+        print('Consulta los proveedores y sus claves con: providers')
+        return 2
+
+    try:
+        questions = load_questions(args.questions)
+    except ValueError as error:
+        print(error)
+        return 2
+
+    if args.only:
+        wanted = {item.strip() for item in args.only.split(',') if item.strip()}
+        questions = [question for question in questions if question.id in wanted]
+        if not questions:
+            print('Ninguna pregunta coincide con --only.')
+            return 2
+
+    def on_progress(index, total, target, question, result):
+        if result.skipped:
+            state = f'SALTADA: {result.error_detail or result.error_kind}'
+        elif result.ok:
+            state = f'OK {result.latency_ms} ms'
+        else:
+            state = f'ERROR {result.error_kind}'
+        print(f'[{index}/{total}] {target} {question.id} {state}')
+
+    results = run_bench(
+        questions,
+        targets,
+        provider_factory=provider_from_config,
+        repeat=args.repeat,
+        pause=args.pause,
+        max_tokens=args.max_tokens,
+        on_progress=on_progress,
+    )
+
+    summary = summarize(results)
+    _print_bench_summary(summary)
+    markdown = render_markdown(questions, targets, results, started)
+    try:
+        md_path, json_path = save_report(markdown, results)
+    except OSError as error:
+        print(f'No se pudo guardar el informe: {error}')
+        return 1
+    print(f'Informe: {md_path}')
+    print(f'Datos: {json_path}')
+    return 0 if any(result.ok for result in results) else 1
+
+
 def main(argv: Optional[Sequence[str]] = None) -> int:
     parser = argparse.ArgumentParser(
         prog='askforever',
@@ -433,6 +535,15 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                                                help='lista los modelos del proveedor')
     list_models_parser.add_argument('--provider', default=None, help='proveedor del registro')
     subparsers.add_parser('providers', help='lista los proveedores y si tienen clave')
+    bench = subparsers.add_parser('bench', help='compara proveedores y modelos con preguntas fijas')
+    bench.add_argument('--targets', default=None,
+                       help='proveedor:modelo separados por comas')
+    bench.add_argument('--questions', default=None, help='ruta del cuestionario JSON')
+    bench.add_argument('--only', default=None, help='ids de pregunta separados por comas')
+    bench.add_argument('--repeat', type=int, default=1, help='repeticiones por pregunta')
+    bench.add_argument('--pause', type=float, default=1.5, help='segundos entre llamadas')
+    bench.add_argument('--max-tokens', type=int, default=None,
+                       help='límite de tokens por respuesta')
     companion = subparsers.add_parser('run', help='escucha el juego y responde en el overlay')
     companion.add_argument('--fps', type=float, default=30.0,
                            help='capturas por segundo (por defecto 30)')
@@ -456,6 +567,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         return _list_models(args)
     if args.command == 'providers':
         return _providers()
+    if args.command == 'bench':
+        return _bench(args)
     if args.command == 'run':
         return _run_companion(args)
     if args.command == 'overlay-demo':

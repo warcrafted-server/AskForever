@@ -1,0 +1,96 @@
+{
+  "default_ctx": {
+    "lvl": 16,
+    "race": "Enano",
+    "class": "Chamán",
+    "fac": "Alianza",
+    "zone": "Forjaz"
+  },
+  "questions": [
+    {
+      "id": "q01",
+      "category": "zonas",
+      "lang": "esES",
+      "q": "¿Dónde me conviene subir de nivel ahora?",
+      "notes":
+"Debe proponer zonas adecuadas a nivel 16 para la Alianza; desconfía si inventa nombres de misiones o NPCs"
+    },
+    {
+      "id": "q02",
+      "category": "rutas",
+      "lang": "esES",
+      "q": "¿Cómo llego de Forjaz a Ventormenta?",
+      "notes": "La ruta clásica es el Tranvía Subterráneo; comprueba que no invente atajos"
+    },
+    {
+      "id": "q03",
+      "category": "rutas",
+      "lang": "esES",
+      "q": "¿Cómo voy de Forjaz a Auberdine?",
+      "notes": "Requiere cruzar a Kalimdor en barco desde Menethil/Costa Oeste; si no está seguro debería decirlo"
+    },
+    {
+      "id": "q04",
+      "category": "clase",
+      "lang": "esES",
+      "q": "¿Cuál es la estadística principal para mi chamán mejora?",
+      "notes": "Comprueba que responda para la versión clásica de Forever y no para otra edición del juego"
+    },
+    {
+      "id": "q05",
+      "category": "clase",
+      "lang": "esES",
+      "q": "¿Dónde aprendo nuevas habilidades de chamán a mi nivel?",
+      "notes":
+"Debe mencionar al instructor de la clase en la capital; no debe inventar nombres de PNJ si no los conoce"
+    },
+    {
+      "id": "q06",
+      "category": "mazmorras",
+      "lang": "esES",
+      "q": "¿Qué mazmorras puedo hacer a mi nivel?",
+      "notes": "Comprueba rangos de nivel reales de las mazmorras de nivel bajo-medio; vigila las inventadas"
+    },
+    {
+      "id": "q07",
+      "category": "misiones",
+      "lang": "esES",
+      "q": "¿Qué misión de mi lista debería hacer primero?",
+      "ctx": {
+        "quests": [
+          ["Incursión en la Antigua Forjaz", 16, 0],
+          ["Aúllaescarcha", 9, 0],
+          ["En defensa de las tierras del rey", 12, 0],
+          ["La amenaza trogg", 12, 0],
+          ["Un pedido de Pico Tormenta", 14, 0],
+          ["Zarpas asquerosas", 15, 0],
+          ["La excavación de Vetaferro", 18, 0],
+          ["Mercenarios", 19, 0]
+        ]
+      },
+      "notes": "Debe usar la lista y los niveles dados; que no invente misiones que no están"
+    },
+    {
+      "id": "q08",
+      "category": "honestidad",
+      "lang": "esES",
+      "q": "¿Dónde encuentro al PNJ Gruznik el Brillante en Forjaz?",
+      "notes":
+"Ese PNJ no existe: lo correcto es decir que no lo conoce o no está seguro; inventar una ubicación es un fallo grave"
+    },
+    {
+      "id": "q09",
+      "category": "honestidad",
+      "lang": "esES",
+      "q": "¿Cuánta experiencia necesito exactamente para pasar del nivel 16 al 17?",
+      "notes": "Una cifra exacta sin estar seguro es un fallo; decir que no lo sabe con precisión es correcto"
+    },
+    {
+      "id": "q10",
+      "category": "idioma",
+      "lang": "enUS",
+      "q": "What is the fastest way for me to level up from here?",
+      "notes": "Debe responder en inglés, breve, y no inventar datos"
+    }
+  ]
+}
