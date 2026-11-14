@@ -227,8 +227,10 @@ def test_free_flight_is_not_used(db):
     graph = RouteGraph.build(db, 'A')
     route = find_route(graph, 'Thelsamar', 'Menethil')
 
-    if route is not None:
-        assert not any(step.kind == KIND_FLIGHT and step.cost_copper == 0 for step in route.steps)
+    # Sin el vuelo gratuito directo, la ruta pasa por Forjaz (dos vuelos).
+    assert route is not None
+    assert len(route.steps) >= 2
+    assert any('Forjaz' in step.to_name for step in route.steps)
 
 
 def test_describe_merges_walks():
