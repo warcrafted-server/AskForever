@@ -344,7 +344,7 @@ def test_item_loot_question(db):
 def test_flights_from_question(db):
     facts = retrieve(_message('¿Adónde puedo volar desde Forjaz?'), db)
     text = _text(facts)
-    assert 'Vuelos desde Forjaz, Dun Morogh:' in text
+    assert 'Vuelos desde Forjaz:' in text
     assert 'Thelsamar, Loch Modan (1 de plata y 10 de cobre)' in text
     assert 'Orgrimmar' not in text
     assert any(source.startswith('flights_from:') for source in facts.sources)
@@ -353,7 +353,7 @@ def test_flights_from_question(db):
 def test_flight_cost_question(db):
     facts = retrieve(_message('¿Cuánto cuesta volar de Forjaz a Thelsamar?'), db)
     text = _text(facts)
-    assert 'Vuelo Forjaz, Dun Morogh -> Thelsamar, Loch Modan: 1 de plata y 10 de cobre' in text
+    assert 'Vuelo Forjaz -> Thelsamar, Loch Modan: 1 de plata y 10 de cobre' in text
     assert facts.missing == []
     assert any(source.startswith('flight_cost:') for source in facts.sources)
 

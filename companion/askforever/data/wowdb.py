@@ -63,6 +63,26 @@ def _clean_text(value) -> str:
     return re.sub(r'\s+', ' ', text).strip()
 
 
+CAPITAL_CITIES = {
+    'ventormenta', 'forjaz', 'darnassus', 'orgrimmar', 'cima del trueno', 'entranas',
+    'stormwind', 'ironforge', 'thunder bluff', 'undercity',
+}
+
+
+def taxi_display_name(name) -> str:
+    """Nombre visible de un punto de vuelo.
+
+    El cliente nombra los de las capitales con la zona de alrededor
+    («Ventormenta, Elwynn») y eso hacía creer que había vuelo en el bosque.
+    """
+    text = _clean_text(name)
+    if ',' in text:
+        place = text.rsplit(',', 1)[0].strip()
+        if normalize(place) in CAPITAL_CITIES:
+            return place
+    return text
+
+
 def _round1(value) -> Optional[float]:
     try:
         return round(float(value), 1)
@@ -574,7 +594,7 @@ class WowDb:
                 name = row['Name_lang_esES'] or row['Name_lang'] or ''
             else:
                 name = row['Name_lang'] or row['Name_lang_esES'] or ''
-            name = _clean_text(name)
+            name = taxi_display_name(name)
             if normalize(name).startswith('transport'):
                 continue
             if not self._faction_usable(row['MountCreatureID'], faction):
@@ -1020,8 +1040,8 @@ class WowDb:
             return ''
         row = rows[0]
         if lang == 'es':
-            return _clean_text(row['Name_lang_esES'] or row['Name_lang'])
-        return _clean_text(row['Name_lang'] or row['Name_lang_esES'])
+            return taxi_display_name(row['Name_lang_esES'] or row['Name_lang'])
+        return taxi_display_name(row['Name_lang'] or row['Name_lang_esES'])
 
     def _find_taxi_node(self, place, lang: str = 'es'):
         target = normalize(place)

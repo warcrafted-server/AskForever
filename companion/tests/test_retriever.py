@@ -257,7 +257,7 @@ def test_b14_flight_points(db):
     facts = retrieve(_message('¿Qué puntos de vuelo hay cerca de mí?'), db)
     line = next(line for line in facts.lines if line.startswith('Puntos de vuelo'))
     names = line.split(': ', 1)[1].split('; ')
-    assert names[0] == 'Forjaz, Dun Morogh'
+    assert names[0] == 'Forjaz'
     assert 'Thelsamar, Loch Modan' in names
     assert 'Puerto de Menethil, Los Humedales' in names
     assert not any('Transporte' in name for name in names)

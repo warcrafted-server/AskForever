@@ -9,7 +9,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Optional
 
-from askforever.data.wowdb import normalize
+from askforever.data.wowdb import normalize, taxi_display_name
 
 JSON_PATH = Path(__file__).with_name('forever_transports.json')
 WALK_SECONDS = 60.0
@@ -191,10 +191,12 @@ def _ensure_node(nodes, key, name, name_en, taxi_id=0, info=None):
     place_en, zone_en = _split_name(name_en or name)
     garbage, hard = _garbage_flags(name)
     info = info or {}
+    # La zona se conserva para resolver lugares («Bosque de Elwynn» llega a
+    # Ventormenta), pero se muestra solo el nombre de la ciudad.
     node = Node(
         key=key,
-        name=name,
-        name_en=name_en or name,
+        name=taxi_display_name(name),
+        name_en=taxi_display_name(name_en or name),
         place=place,
         zone=zone,
         place_en=place_en,

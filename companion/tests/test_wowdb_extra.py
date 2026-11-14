@@ -296,9 +296,9 @@ def test_item_sources_from_v_botin(db):
 
 def test_flights_from(db):
     flights = db.flights_from('Forjaz', 'A')
-    assert flights['origin'] == 'Forjaz, Dun Morogh'
+    assert flights['origin'] == 'Forjaz'
     destinations = [flight['destination'] for flight in flights['flights']]
-    assert 'Ventormenta, Elwynn' in destinations
+    assert 'Ventormenta' in destinations
     assert 'Thelsamar, Loch Modan' in destinations
     assert 'Orgrimmar, Durotar' not in destinations
     assert 'Auberdine, Costa Oscura' in destinations
@@ -312,7 +312,7 @@ def test_flights_from(db):
 
 def test_flight_cost(db):
     cost = db.flight_cost('Forjaz', 'Thelsamar', 'A')
-    assert cost['origin'] == 'Forjaz, Dun Morogh'
+    assert cost['origin'] == 'Forjaz'
     assert cost['destination'] == 'Thelsamar, Loch Modan'
     assert cost['cost_copper'] == 110
     assert cost['cost'] == '1 de plata y 10 de cobre'

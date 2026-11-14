@@ -805,13 +805,13 @@ def _detect_route(facts: Facts, graph, question: str, lang: str, ctx: dict) -> b
             _add_source(facts, f'route:{origin}>{destination}')
             route_added = True
         else:
-            # Origen y destino caen en el mismo punto de la base (misma zona).
+            # Origen y destino caen en el mismo punto de la base (están al lado).
             if lang == 'es':
-                facts.lines.append(f'{destination} está en la misma zona que {origin}: '
-                                   'se llega a pie, sin transporte.')
+                facts.lines.append(f'De {origin} a {destination} se va a pie, '
+                                   'sin vuelo ni transporte.')
             else:
-                facts.lines.append(f'{destination} is in the same zone as {origin}: '
-                                   'walk there, no transport needed.')
+                facts.lines.append(f'From {origin} to {destination} you walk, '
+                                   'no flight or transport needed.')
             _add_source(facts, f'route:{origin}>{destination}')
             route_added = True
     if known is not None and unrestricted is not None and missing_points:

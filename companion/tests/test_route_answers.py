@@ -269,7 +269,7 @@ def test_general_flight_points_warning_without_fp(db):
     facts = retrieve(_message('¿Cómo voy de Forjaz a Thelsamar?', zone='Forjaz'), db)
     text = _text(facts)
     assert 'Esta ruta usa los puntos de vuelo' in text
-    assert 'Forjaz, Dun Morogh' in text
+    assert 'Forjaz' in text
     assert 'Thelsamar, Loch Modan' in text
     assert 'El addon aún no sabe qué puntos de vuelo conoces' in text
 
@@ -279,7 +279,7 @@ def test_destination_flight_point_reminder(db):
         _message('¿Cómo voy de Forjaz a Ventormenta?', zone='Forjaz', fp=[]), db)
     text = _text(facts)
     assert ('Al llegar a Ventormenta, descubre el punto de vuelo de '
-            'Ventormenta, Elwynn.') in text
+            'Ventormenta.') in text
 
 
 def test_destination_flight_point_known_no_reminder(db):

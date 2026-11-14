@@ -344,10 +344,10 @@ def test_flight_points(db_path):
     db = WowDb(db_path)
     alliance = db.flight_points(0, 'A')
     names = [point['name'] for point in alliance]
-    assert 'Forjaz, Dun Morogh' in names
+    assert 'Forjaz' in names
     assert 'Thelsamar, Loch Modan' in names
     assert 'Puerto de Menethil, Los Humedales' in names
-    assert 'Ventormenta, Elwynn' in names
+    assert 'Ventormenta' in names
     assert 'Sepulcro, Bosque de Argénteos' not in names
     assert not any(name.startswith('Transporte') for name in names)
     assert 'Auberdine, Costa Oscura' not in names
@@ -355,7 +355,7 @@ def test_flight_points(db_path):
     horde = db.flight_points(0, 'H')
     horde_names = [point['name'] for point in horde]
     assert 'Sepulcro, Bosque de Argénteos' in horde_names
-    assert 'Forjaz, Dun Morogh' not in horde_names
+    assert 'Forjaz' not in horde_names
     db.close()
 
 

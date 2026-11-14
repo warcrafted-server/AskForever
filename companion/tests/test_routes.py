@@ -131,8 +131,8 @@ def test_resolve_place(db):
     def names(text):
         return [node.name for node in resolve_place(graph, text)]
 
-    assert 'Ventormenta, Elwynn' in names('Stormwind')
-    assert 'Ventormenta, Elwynn' in names('ventormenta')
+    assert 'Ventormenta' in names('Stormwind')
+    assert 'Ventormenta' in names('ventormenta')
     assert 'Auberdine, Costa Oscura' in names('Costa Oscura')
     assert 'Cabo de la Niebla, Costa Oscura' in names('Costa Oscura')
     assert resolve_place(graph, 'Generic') == []
@@ -300,9 +300,9 @@ def test_route_flight_points(db):
     graph = RouteGraph.build(db, 'A')
     route = find_route(graph, 'Forjaz', 'Thelsamar', {6, 8})
 
-    assert route_flight_points(route, 'es') == ['Forjaz, Dun Morogh',
+    assert route_flight_points(route, 'es') == ['Forjaz',
                                                 'Thelsamar, Loch Modan']
-    assert route_flight_points(route, 'en') == ['Ironforge, Dun Morogh',
+    assert route_flight_points(route, 'en') == ['Ironforge',
                                                 'Thelsamar, Loch Modan']
     tram_route = find_route(graph, 'Forjaz', 'Ventormenta')
     assert route_flight_points(tram_route) == []
