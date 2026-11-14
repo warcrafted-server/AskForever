@@ -6,6 +6,7 @@ import argparse
 import getpass
 import json
 import os
+import sys
 import threading
 import time
 import urllib.parse
@@ -13,7 +14,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional, Sequence
 
-from askforever import config, updates
+from askforever import config, setup_wizard, updates
+from askforever import uninstall as uninstall_module
 from askforever.bench import (
     Target,
     load_questions,
@@ -43,6 +45,43 @@ def user_data_dir() -> Path:
 def check_and_update(*args, **kwargs):
     """Comprueba e instala datos; delega para poder sustituirlo en pruebas."""
     return updates.check_and_update(*args, **kwargs)
+
+
+def run_wizard(*args, **kwargs):
+    """Lanza el asistente de configuración de la clave."""
+    return setup_wizard.run_wizard(*args, **kwargs)
+
+
+def uninstall(*args, **kwargs):
+    """Desinstala AskForever y sus datos."""
+    return uninstall_module.uninstall(*args, **kwargs)
+
+
+def _stdin_is_interactive() -> bool:
+    try:
+        return bool(sys.stdin and sys.stdin.isatty())
+    except (AttributeError, OSError, ValueError):
+        return False
+
+
+def _ensure_api_key() -> bool:
+    """Comprueba la clave; si falta, lanza el asistente o explica cómo ponerla."""
+    try:
+        key = config.get_api_key()
+    except Exception:
+        key = None
+    if key:
+        return True
+    if _stdin_is_interactive():
+        try:
+            return bool(run_wizard())
+        except Exception as error:
+            print(f'No se pudo completar la configuración: {error}')
+            return False
+    print('No hay clave de la API configurada.')
+    print('Configúrala con: askforever.exe set-key')
+    print(f'Guía: {setup_wizard.GUIDE_URL}')
+    return False
 
 
 def _context_summary(ctx) -> str:
@@ -571,6 +610,7 @@ def _run_companion(args: argparse.Namespace) -> int:
 
         threading.Thread(target=answer, daemon=True).start()
 
+    print('Deja esta ventana abierta mientras juegas. Ciérrala para detener AskForever.')
     grabber = Grabber(on_message, fps=args.fps)
     grabber_thread = threading.Thread(target=grabber.run, args=(stop_event,), daemon=True)
     grabber_thread.start()
@@ -981,6 +1021,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                         help='no busca en la wiki de warcraft.wiki.gg')
     set_key = subparsers.add_parser('set-key', help='guarda la clave de la API de un proveedor')
     set_key.add_argument('--provider', default=None, help='proveedor del registro')
+    subparsers.add_parser('setup', help='configura o cambia la clave de la API')
     test_key = subparsers.add_parser('test-key', help='prueba la clave y el proveedor de IA')
     test_key.add_argument('--provider', default=None, help='proveedor del registro')
     test_key.add_argument('--model', default=None, help='modelo a usar')
@@ -1026,6 +1067,12 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     data_check.add_argument('--db', default=None, help='ruta de wow.sqlite')
     subparsers.add_parser('update-data',
                           help='descarga la última base de datos del juego')
+    uninstall_parser = subparsers.add_parser(
+        'uninstall', help='desinstala AskForever y borra sus datos')
+    uninstall_parser.add_argument('--yes', action='store_true',
+                                  help='no pide confirmación')
+    uninstall_parser.add_argument('--addon', action='store_true',
+                                  help='borra también el addon AskForever')
     companion = subparsers.add_parser('run', help='escucha el juego y responde en el overlay')
     companion.add_argument('--fps', type=float, default=30.0,
                            help='capturas por segundo (por defecto 30)')
@@ -1045,10 +1092,19 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                           help='muestra el overlay de ejemplo durante 8 segundos')
 
     args = parser.parse_args(argv)
+    if args.command is None:
+        run_args = parser.parse_args(['run'])
+        if not _ensure_api_key():
+            return 1
+        return _run_companion(run_args)
     if args.command == 'listen':
         return _listen(args)
     if args.command == 'set-key':
         return _set_key(args)
+    if args.command == 'setup':
+        return 0 if run_wizard() else 1
+    if args.command == 'uninstall':
+        return uninstall(yes=args.yes, remove_addon=args.addon)
     if args.command == 'test-key':
         return _test_key(args)
     if args.command == 'ask':

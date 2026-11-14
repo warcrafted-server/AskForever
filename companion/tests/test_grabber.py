@@ -252,9 +252,16 @@ def test_listen_without_window(monkeypatch, capsys):
     assert 'Capturas: 0' in output
 
 
-def test_main_requires_subcommand(capsys):
-    assert cli.main([]) == 2
-    assert 'listen' in capsys.readouterr().out
+def test_main_without_subcommand_requires_key(monkeypatch, capsys):
+    class FakeStdin:
+        def isatty(self):
+            return False
+
+    monkeypatch.setattr(cli.config, 'get_api_key', lambda provider=None: None)
+    monkeypatch.setattr(cli.sys, 'stdin', FakeStdin())
+
+    assert cli.main([]) == 1
+    assert 'set-key' in capsys.readouterr().out
 
 
 def test_listen_prints_message(monkeypatch, capsys):
