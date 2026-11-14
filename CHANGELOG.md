@@ -4,6 +4,10 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+## [0.3.0-beta.1] - 2026-11-14
+
+First functional public beta: the addon on CurseForge and the companion installer on GitHub Releases. / Primera beta pública funcional: el addon en CurseForge y el instalador del companion en GitHub Releases.
+
 ### English
 - Added: the companion supports several OpenAI-compatible cloud providers (Gemini, Groq, Mistral, Cerebras, OpenRouter), one key and one model per provider, with `providers`, `list-models` and `--provider` / `--model` options.
 - Added: verified game data from a local wowdata database (read-only): quests (giver, turn-in, objectives), NPC locations, class trainer spells and trainers, dungeon entrances, flight points, talent trees and item sources are detected in the question and passed to the AI, which must use only that data and say when something is missing. Tested with 19 questions: from 3 correct answers without data to about 16 with data. Developer only for now (the database is not distributed). Commands: `data-check`, `--no-data`, `--show-data`.
