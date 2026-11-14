@@ -208,7 +208,7 @@ def test_ask_command_success(monkeypatch, capsys):
     monkeypatch.setattr(cli, 'provider_from_config', lambda: provider)
 
     assert cli.main(['ask', '¿Dónde está Hogger?', '--lang', 'esES',
-                     '--level', '15', '--zone', 'Forjaz', '--no-data']) == 0
+                     '--level', '15', '--zone', 'Forjaz', '--no-data', '--no-web']) == 0
     output = capsys.readouterr().out
     assert 'La respuesta' in output
     assert 'ms' in output
@@ -223,7 +223,7 @@ def test_ask_command_error(monkeypatch, capsys):
     provider = FakeProvider(error=ProviderError('rate_limit'))
     monkeypatch.setattr(cli, 'provider_from_config', lambda: provider)
 
-    assert cli.main(['ask', 'hola', '--no-data']) == 1
+    assert cli.main(['ask', 'hola', '--no-data', '--no-web']) == 1
     output = capsys.readouterr().out
     assert ProviderError('rate_limit').user_message('esES') in output
 
@@ -248,7 +248,7 @@ def test_listen_ask_prints_answer(monkeypatch, capsys):
 
     monkeypatch.setattr(cli, 'Grabber', OneMessageGrabber)
 
-    assert cli.main(['listen', '--ask', '--no-data']) == 0
+    assert cli.main(['listen', '--ask', '--no-data', '--no-web']) == 0
     time.sleep(0.2)
     output = capsys.readouterr().out
     assert 'Respuesta (' in output

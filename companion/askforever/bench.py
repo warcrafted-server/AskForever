@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Callable, Optional
 
 from askforever import config
+from askforever.engine.answer import web_fallback
 from askforever.engine.conversation import Turn
 from askforever.engine.prompt import build_prompt
 from askforever.engine.retriever import retrieve
@@ -59,6 +60,7 @@ class Result:
     error_detail: str = ''
     skipped: bool = False
     sources: list[str] = field(default_factory=list)
+    web_titles: list[str] = field(default_factory=list)
 
 
 def parse_target(text: str) -> Target:
@@ -144,6 +146,7 @@ def run_bench(
     pause: float = 1.5,
     max_tokens=None,
     db=None,
+    web=None,
     temperature=None,
     sleep: Callable[[float], None] = time.sleep,
     clock: Callable[[], float] = time.monotonic,
@@ -205,29 +208,39 @@ def run_bench(
                     sleep(pause)
                 calls += 1
                 message = build_message(question)
+                facts_obj = None
                 facts_text = ''
                 sources = []
                 if db is not None:
                     try:
-                        facts = retrieve(message, db)
-                        if not facts.lines and not facts.missing and previous_question:
+                        facts_obj = retrieve(message, db)
+                        if not facts_obj.lines and not facts_obj.missing and previous_question:
                             follow_message = dict(message)
                             follow_message['q'] = f'{previous_question} {question.text}'.strip()
                             follow = retrieve(follow_message, db)
                             if follow.lines or follow.missing:
-                                facts = follow
-                        sources = list(facts.sources)
-                        facts_text = facts.render(question.lang)
+                                facts_obj = follow
+                        sources = list(facts_obj.sources)
+                        facts_text = facts_obj.render(question.lang)
                     except Exception:
+                        facts_obj = None
                         facts_text, sources = '', []
-                system, user = build_prompt(message, facts_text, history=history)
+                web_excerpts, web_titles = web_fallback(
+                    web, provider, message, facts_obj, question.text, history=history,
+                    previous_question=previous_question)
+                for title in web_titles:
+                    source = f'wiki:{title}'
+                    if source not in sources:
+                        sources.append(source)
+                system, user = build_prompt(message, facts_text, history=history,
+                                            web_excerpts=web_excerpts or None)
                 started = clock()
                 try:
                     text = provider.chat(system, user, max_tokens=max_tokens,
                                          temperature=temperature)
                     latency = int((clock() - started) * 1000)
                     result = Result(question.id, target_name, True, text, latency,
-                                    sources=sources)
+                                    sources=sources, web_titles=web_titles)
                     streak = 0
                     if chain_name:
                         chain_turns.append(Turn(question.text, text, facts_text))
@@ -237,7 +250,7 @@ def run_bench(
                     latency = int((clock() - started) * 1000)
                     result = Result(question.id, target_name, False, '', latency,
                                     error_kind=error.kind, error_detail=error.detail,
-                                    sources=sources)
+                                    sources=sources, web_titles=web_titles)
                     if error.kind == 'rate_limit':
                         streak += 1
                     else:
@@ -248,7 +261,7 @@ def run_bench(
                     latency = int((clock() - started) * 1000)
                     result = Result(question.id, target_name, False, '', latency,
                                     error_kind='unknown', error_detail=str(error),
-                                    sources=sources)
+                                    sources=sources, web_titles=web_titles)
                     streak = 0
 
                 emit(target, question, result)
@@ -369,6 +382,8 @@ def render_markdown(questions, targets, results, started: str, used_database=Fal
                         lines.append(f'- Detalle: {result.error_detail}')
                 sources = ', '.join(result.sources) if result.sources else 'ninguno'
                 lines.append(f'- Datos usados: {sources}')
+                if result.web_titles:
+                    lines.append(f"- Fuente web: {', '.join(result.web_titles)}")
                 lines += ['', 'Puntuación (1-5): ___', '']
 
     lines += ['', '## Conclusión', '', '']

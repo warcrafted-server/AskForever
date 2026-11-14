@@ -370,7 +370,7 @@ def test_bench_command_success(monkeypatch, capsys, tmp_path):
     monkeypatch.setattr(cli, 'save_report', fake_save)
 
     assert cli.main(['bench', '--targets', 'groq:modelo', '--pause', '0',
-                     '--no-data']) == 0
+                     '--no-data', '--no-web']) == 0
     output = capsys.readouterr().out
     assert 'groq:modelo q01 OK' in output
     assert 'Informe:' in output
@@ -379,14 +379,14 @@ def test_bench_command_success(monkeypatch, capsys, tmp_path):
 
 def test_bench_command_without_targets(monkeypatch, capsys):
     monkeypatch.setattr(cli.config, 'get_api_key', lambda provider=None: None)
-    assert cli.main(['bench', '--no-data']) == 2
+    assert cli.main(['bench', '--no-data', '--no-web']) == 2
     output = capsys.readouterr().out
     assert 'set-key --provider' in output
     assert 'providers' in output
 
 
 def test_bench_command_invalid_targets(capsys):
-    assert cli.main(['bench', '--targets', ':modelo', '--no-data']) == 2
+    assert cli.main(['bench', '--targets', ':modelo', '--no-data', '--no-web']) == 2
     assert 'Objetivo inválido' in capsys.readouterr().out
 
 
@@ -401,7 +401,7 @@ def test_bench_command_only_filters(monkeypatch, capsys, tmp_path):
                         lambda markdown, results, **kwargs: (tmp_path / 'a.md', tmp_path / 'a.json'))
 
     assert cli.main(['bench', '--targets', 'groq:m', '--only', 'q01,q03',
-                     '--pause', '0', '--no-data']) == 0
+                     '--pause', '0', '--no-data', '--no-web']) == 0
     assert len(fake.calls) == 2
     output = capsys.readouterr().out
     assert 'q01' in output
@@ -420,7 +420,7 @@ def test_bench_command_returns_1_when_nothing_answered(monkeypatch, capsys, tmp_
                         lambda markdown, results, **kwargs: (tmp_path / 'a.md', tmp_path / 'a.json'))
 
     assert cli.main(['bench', '--targets', 'groq:m', '--pause', '0',
-                     '--no-data']) == 1
+                     '--no-data', '--no-web']) == 1
 
 
 def test_bench_command_default_targets(monkeypatch, capsys, tmp_path):
@@ -439,7 +439,7 @@ def test_bench_command_default_targets(monkeypatch, capsys, tmp_path):
     monkeypatch.setattr(cli, 'save_report',
                         lambda markdown, results, **kwargs: (tmp_path / 'a.md', tmp_path / 'a.json'))
 
-    assert cli.main(['bench', '--pause', '0', '--no-data']) == 0
+    assert cli.main(['bench', '--pause', '0', '--no-data', '--no-web']) == 0
     assert created == [('gemini', None), ('groq', None)]
     output = capsys.readouterr().out
     assert 'Aviso: mistral no tiene modelo por defecto' in output

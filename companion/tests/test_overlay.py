@@ -207,7 +207,7 @@ def test_run_command_calls_thinking_then_answer(monkeypatch, capsys):
     monkeypatch.setattr(cli, 'Overlay', _recording_overlay(events))
     monkeypatch.setattr(cli, 'provider_from_config', lambda: FakeProvider())
 
-    assert cli.main(['run', '--no-data']) == 0
+    assert cli.main(['run', '--no-data', '--no-web']) == 0
     time.sleep(0.2)
 
     kinds = [event[0] for event in events]
@@ -242,7 +242,7 @@ def test_run_generation_prevents_stale_answer(monkeypatch):
     monkeypatch.setattr(cli, 'Overlay', _recording_overlay(events))
     monkeypatch.setattr(cli, 'provider_from_config', lambda: SlowProvider())
 
-    assert cli.main(['run', '--no-data']) == 0
+    assert cli.main(['run', '--no-data', '--no-web']) == 0
     time.sleep(0.2)
     gate.set()
     time.sleep(0.3)
@@ -263,7 +263,7 @@ def test_run_no_ai_only_shows_thinking(monkeypatch):
     monkeypatch.setattr(cli, 'Overlay', _recording_overlay(events))
     monkeypatch.setattr(cli, 'provider_from_config', forbidden)
 
-    assert cli.main(['run', '--no-ai', '--no-data']) == 0
+    assert cli.main(['run', '--no-ai', '--no-data', '--no-web']) == 0
     time.sleep(0.1)
 
     kinds = [event[0] for event in events]
@@ -283,7 +283,7 @@ def test_run_provider_failure_shows_error(monkeypatch):
     monkeypatch.setattr(cli, 'Overlay', _recording_overlay(events))
     monkeypatch.setattr(cli, 'provider_from_config', failing_provider)
 
-    assert cli.main(['run', '--no-data']) == 0
+    assert cli.main(['run', '--no-data', '--no-web']) == 0
     time.sleep(0.1)
 
     errors = [event for event in events if event[0] == 'error']

@@ -243,7 +243,7 @@ def test_cli_ask_no_data(monkeypatch, capsys):
     monkeypatch.setattr(config, 'open_wowdata', forbidden)
     monkeypatch.setattr(cli, 'provider_from_config', lambda: FakeProvider())
 
-    assert cli.main(['ask', 'hola', '--no-data']) == 0
+    assert cli.main(['ask', 'hola', '--no-data', '--no-web']) == 0
     output = capsys.readouterr().out
     assert 'Base de datos: no disponible (sin datos verificados)' in output
 
@@ -260,7 +260,7 @@ def test_cli_ask_uses_database(db_path, monkeypatch, capsys):
     monkeypatch.setattr(cli, 'provider_from_config', lambda: provider)
 
     assert cli.main(['ask', '¿Dónde entrego Un pedido de Pico Tormenta?',
-                     '--show-data']) == 0
+                     '--show-data', '--no-web']) == 0
     assert opened == [True]
     output = capsys.readouterr().out
     assert 'Base de datos: ' in output

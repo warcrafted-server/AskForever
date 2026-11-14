@@ -9,6 +9,8 @@ from typing import Optional
 
 import keyring
 
+from askforever.web.wiki import WikiClient
+
 KEYRING_SERVICE = 'AskForever'
 KEYRING_USER = 'gemini'
 GEMINI_BASE_URL = 'https://generativelanguage.googleapis.com/v1beta/openai/'
@@ -22,6 +24,7 @@ PROVIDER_ENV = 'ASKFOREVER_PROVIDER'
 TEMPERATURE_ENV = 'ASKFOREVER_TEMPERATURE'
 DEFAULT_TEMPERATURE = 0.2
 WOWDATA_ENV = 'ASKFOREVER_WOWDATA'
+WEB_ENV = 'ASKFOREVER_WEB'
 
 
 @dataclass(frozen=True)
@@ -157,3 +160,16 @@ def open_wowdata():
         database.close()
         return None
     return database
+
+
+def get_web_enabled() -> bool:
+    """True salvo que ASKFOREVER_WEB sea 0, false, no u off."""
+    value = os.environ.get(WEB_ENV, '').strip().lower()
+    return value not in ('0', 'false', 'no', 'off')
+
+
+def open_wiki() -> Optional[WikiClient]:
+    """Cliente de la wiki, o None si la búsqueda web está desactivada."""
+    if not get_web_enabled():
+        return None
+    return WikiClient()

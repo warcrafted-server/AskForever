@@ -8,6 +8,7 @@ import json
 import os
 import threading
 import time
+import urllib.parse
 from datetime import datetime
 from pathlib import Path
 from typing import Optional, Sequence
@@ -29,6 +30,7 @@ from askforever.engine.answer import answer_message, parse_message
 from askforever.engine.conversation import ConversationStore
 from askforever.overlay.window import Overlay, OverlayUnavailable
 from askforever.providers.openai_compat import ProviderError, list_models, provider_from_config
+from askforever.web.wiki import WIKI_PAGE_URL
 
 
 def _context_summary(ctx) -> str:
@@ -96,6 +98,19 @@ def _open_data(no_data):
     return database
 
 
+def _open_web(no_web):
+    """Abre el cliente de la wiki o informa de que está desactivada."""
+    if no_web:
+        print('Búsqueda web: desactivada')
+        return None
+    web = config.open_wiki()
+    if web is None:
+        print('Búsqueda web: desactivada')
+    else:
+        print('Búsqueda web: warcraft.wiki.gg')
+    return web
+
+
 def _listen(args: argparse.Namespace) -> int:
     set_dpi_awareness()
     window = find_game_window()
@@ -106,6 +121,7 @@ def _listen(args: argparse.Namespace) -> int:
     print('Escuchando la tira de píxeles (Ctrl+C para salir).')
 
     database = _open_data(args.no_data) if args.ask else None
+    web = _open_web(args.no_web) if args.ask else None
     store = ConversationStore()
     provider = None
     provider_failed = False
@@ -152,7 +168,7 @@ def _listen(args: argparse.Namespace) -> int:
 
         def answer_in_background():
             result = answer_message(message.data, active, db=database, history=history,
-                                    previous_question=previous_question)
+                                    previous_question=previous_question, web=web)
             if result.ok:
                 store.add(conversation_key, question, result.text, result.facts_text)
                 print(f'Respuesta ({result.elapsed_ms} ms):')
@@ -262,6 +278,7 @@ def _ask(args: argparse.Namespace) -> int:
     data = json.dumps(message, ensure_ascii=False).encode('utf-8')
 
     database = _open_data(args.no_data)
+    web = _open_web(args.no_web)
     try:
         try:
             if args.provider is None and args.model is None:
@@ -275,7 +292,8 @@ def _ask(args: argparse.Namespace) -> int:
             print(error.user_message(args.lang))
             return 1
 
-        result = answer_message(data, provider, db=database, temperature=args.temperature)
+        result = answer_message(data, provider, db=database, temperature=args.temperature,
+                                web=web)
     finally:
         if database is not None:
             database.close()
@@ -290,6 +308,11 @@ def _ask(args: argparse.Namespace) -> int:
                     print(f'- {line}')
             else:
                 print('- ninguno')
+            if result.web_titles:
+                print('Fuente web:')
+                for title in result.web_titles:
+                    url = WIKI_PAGE_URL + urllib.parse.quote(title.replace(' ', '_'), safe='')
+                    print(f'- {title}: {url}')
         return 0
     print(result.text)
     return 1
@@ -329,6 +352,7 @@ def _run_companion(args: argparse.Namespace) -> int:
     set_dpi_awareness()
     overlay = Overlay(ttl=args.ttl)
     database = _open_data(args.no_data)
+    web = _open_web(args.no_web)
 
     provider = None
     provider_error = None
@@ -377,7 +401,7 @@ def _run_companion(args: argparse.Namespace) -> int:
 
         def answer():
             result = answer_message(message.data, provider, db=database, history=history,
-                                    previous_question=previous_question)
+                                    previous_question=previous_question, web=web)
             if current != generation['value']:
                 return
             if result.ok:
@@ -501,6 +525,7 @@ def _print_bench_summary(summary) -> None:
 def _bench(args: argparse.Namespace) -> int:
     started = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     database = _open_data(args.no_data)
+    web = _open_web(args.no_web)
     temperature = args.temperature if args.temperature is not None else config.get_temperature()
     try:
         try:
@@ -543,6 +568,7 @@ def _bench(args: argparse.Namespace) -> int:
             pause=args.pause,
             max_tokens=args.max_tokens,
             db=database,
+            web=web,
             temperature=temperature,
             on_progress=on_progress,
         )
@@ -792,6 +818,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                         help='pregunta a la IA por cada mensaje recibido')
     listen.add_argument('--no-data', action='store_true',
                         help='no usa la base de datos de WoW')
+    listen.add_argument('--no-web', action='store_true',
+                        help='no busca en la wiki de warcraft.wiki.gg')
     set_key = subparsers.add_parser('set-key', help='guarda la clave de la API de un proveedor')
     set_key.add_argument('--provider', default=None, help='proveedor del registro')
     test_key = subparsers.add_parser('test-key', help='prueba la clave y el proveedor de IA')
@@ -811,6 +839,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                      help='temperatura de la respuesta (0..2)')
     ask.add_argument('--no-data', action='store_true',
                      help='no usa la base de datos de WoW')
+    ask.add_argument('--no-web', action='store_true',
+                     help='no busca en la wiki de warcraft.wiki.gg')
     ask.add_argument('--show-data', action='store_true',
                      help='muestra los datos verificados usados')
     list_models_parser = subparsers.add_parser('list-models',
@@ -830,6 +860,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                        help='temperatura de las respuestas (0..2)')
     bench.add_argument('--no-data', action='store_true',
                        help='no usa la base de datos de WoW')
+    bench.add_argument('--no-web', action='store_true',
+                       help='no busca en la wiki de warcraft.wiki.gg')
     data_check = subparsers.add_parser('data-check',
                                        help='comprueba la base de datos de WoW Forever')
     data_check.add_argument('--db', default=None, help='ruta de wow.sqlite')
@@ -842,6 +874,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                            help='no llama a la IA; solo muestra la pregunta recibida')
     companion.add_argument('--no-data', action='store_true',
                            help='no usa la base de datos de WoW')
+    companion.add_argument('--no-web', action='store_true',
+                           help='no busca en la wiki de warcraft.wiki.gg')
     subparsers.add_parser('overlay-demo',
                           help='muestra el overlay de ejemplo durante 8 segundos')
 

@@ -319,7 +319,7 @@ def test_run_command_passes_history_per_conversation(monkeypatch):
     monkeypatch.setattr(cli, 'Overlay', Overlay)
     monkeypatch.setattr(cli, 'provider_from_config', lambda: provider)
 
-    assert cli.main(['run', '--no-data']) == 0
+    assert cli.main(['run', '--no-data', '--no-web']) == 0
     assert done.is_set()
 
     calls = provider.calls

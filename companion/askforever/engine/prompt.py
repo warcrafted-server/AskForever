@@ -40,13 +40,16 @@ _SYSTEM = {
         'los DATOS y del contexto del personaje (zonas, mazmorras o misiones con sus niveles). '
         'Usa el panorama de zonas y mazmorras como referencia para recomendar adónde ir. No '
         'copies literalmente los encabezados ni las etiquetas de los bloques de datos (como '
-        '«DATOS VERIFICADOS» o «SIN DATOS EN LA BASE»): redacta con naturalidad. Usa SOLO los '
-        'datos verificados y el contexto para nombres de lugares, PNJ, misiones, '
-        'objetos, niveles y coordenadas. Si falta un dato o aparece en «SIN DATOS EN LA BASE», '
-        'dilo en UNA frase y responde igualmente con lo que sí sabes. No inventes rutas, '
-        'distancias, niveles, nombres ni coordenadas. Nunca remitas a guías, webs, foros ni a '
-        'otros jugadores. Nunca menciones lugares, PNJ ni objetos que no aparezcan en los datos '
-        'o el contexto.'
+        '«DATOS VERIFICADOS» o «SIN DATOS EN LA BASE»): redacta con naturalidad. Si usas la '
+        'fuente externa, menciónalo con brevedad («según la wiki…»). Si contradice los datos '
+        'verificados, mandan los datos verificados. Si la fuente externa tampoco responde, dilo '
+        'en una frase. Con fuente externa sí puedes nombrar lugares, PNJ u objetos que aparezcan '
+        'en ella. Usa SOLO los datos verificados y el contexto para nombres de lugares, PNJ, '
+        'misiones, objetos, niveles y coordenadas. Si falta un dato o aparece en «SIN DATOS EN '
+        'LA BASE», dilo en UNA frase y responde igualmente con lo que sí sabes. No inventes '
+        'rutas, distancias, niveles, nombres ni coordenadas. Nunca remitas a guías, webs, foros '
+        'ni a otros jugadores. Nunca menciones lugares, PNJ ni objetos que no aparezcan en los '
+        'datos, el contexto o la fuente externa.'
     ),
     'en': (
         "You are a World of Warcraft Forever assistant. Answer in the language the question is "
@@ -57,12 +60,16 @@ _SYSTEM = {
         'from the DATA and the character context (zones, dungeons or quests with their levels). '
         'Use the zone and dungeon panorama as the reference for recommending where to go. Do '
         'not copy the headers or labels of the data blocks literally (such as "VERIFIED DATA" '
-        'or "NOT IN THE DATABASE"): write naturally. Use ONLY the verified data and the context '
-        'for names of places, NPCs, quests, items, levels and coordinates. If a piece of data '
-        'is missing or appears under "NOT IN THE DATABASE", say it in ONE sentence and still '
-        'answer with what you do know. Do not invent routes, distances, levels, names or '
-        'coordinates. Never refer to guides, websites, forums or other players. Never mention '
-        'places, NPCs or items that do not appear in the data or the context.'
+        'or "NOT IN THE DATABASE"): write naturally. If you use the external source, mention it '
+        'briefly ("according to the wiki..."). If it contradicts the verified data, the '
+        'verified data wins. If the external source does not answer either, say so in one '
+        'sentence. With an external source you may name places, NPCs or items that appear in '
+        'it. Use ONLY the verified data and the context for names of places, NPCs, quests, '
+        'items, levels and coordinates. If a piece of data is missing or appears under "NOT IN '
+        'THE DATABASE", say it in ONE sentence and still answer with what you do know. Do not '
+        'invent routes, distances, levels, names or coordinates. Never refer to guides, '
+        'websites, forums or other players. Never mention places, NPCs or items that do not '
+        'appear in the data, the context or the external source.'
     ),
 }
 
@@ -80,6 +87,13 @@ _HISTORY = {
 }
 
 MAX_HISTORY_ANSWER = 300
+
+_WEB_HEADER = {
+    'es': ('FUENTE EXTERNA (warcraft.wiki.gg; puede describir otra versión del juego, '
+           'los datos de la base de Forever mandan):'),
+    'en': ('EXTERNAL SOURCE (warcraft.wiki.gg; may describe another game version, '
+           'the Forever database takes priority):'),
+}
 
 _LANGUAGE_NAMES = {
     'es': {'es': 'castellano', 'en': 'inglés'},
@@ -224,8 +238,34 @@ def _history_lines(history, language: str) -> list[str]:
     return lines
 
 
-def build_prompt(message: dict, facts_text: str = '', history=None) -> tuple[str, str]:
-    """Devuelve (system, user) con el idioma, la memoria y los datos verificados."""
+def _excerpt_field(excerpt, name: str) -> str:
+    if isinstance(excerpt, dict):
+        value = excerpt.get(name)
+    else:
+        value = getattr(excerpt, name, None)
+    return '' if value is None else str(value)
+
+
+def _web_lines(web_excerpts, language: str) -> list[str]:
+    """Bloque de fuentes externas, con título, URL y texto de cada extracto."""
+    if not web_excerpts:
+        return []
+    lines = [_WEB_HEADER[language]]
+    for index, excerpt in enumerate(web_excerpts):
+        if index:
+            lines.append('')
+        title = _excerpt_field(excerpt, 'title')
+        url = _excerpt_field(excerpt, 'url')
+        text = _excerpt_field(excerpt, 'text')
+        lines.append(f'[{title}] {url}')
+        if text:
+            lines.append(text)
+    return lines
+
+
+def build_prompt(message: dict, facts_text: str = '', history=None,
+                 web_excerpts=None) -> tuple[str, str]:
+    """Devuelve (system, user) con el idioma, la memoria y las fuentes."""
     if not isinstance(message, dict):
         message = {}
 
@@ -243,6 +283,7 @@ def build_prompt(message: dict, facts_text: str = '', history=None) -> tuple[str
     lines.extend(_history_lines(history, language))
     if facts_text:
         lines.append(str(facts_text).strip())
+    lines.extend(_web_lines(web_excerpts, language))
     lines.append(f'{labels["question"]}: {question}')
 
     system = _system_prompt(language, question_language)
