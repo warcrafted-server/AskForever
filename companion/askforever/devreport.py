@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime
 from pathlib import Path
 
@@ -10,6 +11,8 @@ from askforever import paths
 from askforever.paths import dev_dir
 
 _DEFAULT_DEV_DIR = dev_dir
+_RID_PATTERN = re.compile(r'^\d{8}-\d{6}-\d{1,5}$')
+_REPORT_KINDS = frozenset({'report', 'report-close'})
 
 
 def reports_dir() -> Path:
@@ -25,14 +28,21 @@ def is_report(document) -> bool:
     return isinstance(document, dict) and document.get('kind') == 'report'
 
 
+def valid_rid(value) -> bool:
+    """True si el identificador de informe tiene el formato esperado."""
+    return isinstance(value, str) and bool(_RID_PATTERN.fullmatch(value))
+
+
 def parse_report(data) -> dict | None:
-    """Devuelve el informe aunque la nota vaya vacía."""
+    """Devuelve el informe o el cierre de informe aunque la nota vaya vacía."""
     try:
         text = data if isinstance(data, str) else bytes(data).decode('utf-8')
         document = json.loads(text)
     except (UnicodeDecodeError, json.JSONDecodeError, TypeError, ValueError):
         return None
-    return document if is_report(document) else None
+    if isinstance(document, dict) and document.get('kind') in _REPORT_KINDS:
+        return document
+    return None
 
 
 def _text(value) -> str:
@@ -84,10 +94,11 @@ def _estado_text(exchange) -> str:
 
 
 def build_report(exchange: dict | None, note: str, report_ctx: dict | None,
-                 now: datetime) -> str:
+                 now: datetime, rid=None) -> str:
     """Construye el informe en texto plano con todas las secciones."""
     exchange = exchange if isinstance(exchange, dict) else None
     blocks = [
+        _section('ID', _display(rid if valid_rid(rid) else None, '-')),
         _section('FECHA', _format_moment(now)),
         _section('NOTA', _display(note, '(sin nota)')),
     ]
@@ -121,16 +132,57 @@ def build_report(exchange: dict | None, note: str, report_ctx: dict | None,
     return '\n\n'.join(blocks) + '\n'
 
 
-def write_report(exchange, note, report_ctx, directory=None, now=None) -> Path:
+def write_report(exchange, note, report_ctx, directory=None, now=None,
+                 rid=None) -> Path:
     """Escribe el informe en UTF-8 y devuelve su ruta."""
     moment = now if isinstance(now, datetime) else datetime.now()
     target = Path(directory) if directory is not None else reports_dir()
     target.mkdir(parents=True, exist_ok=True)
-    base = f'informe-{moment:%Y%m%d-%H%M%S}'
+    if valid_rid(rid):
+        base = f'informe-{rid}'
+    else:
+        base = f'informe-{moment:%Y%m%d-%H%M%S}'
     path = target / f'{base}.txt'
     suffix = 2
     while path.exists():
         path = target / f'{base}-{suffix}.txt'
         suffix += 1
-    path.write_text(build_report(exchange, note, report_ctx, moment), encoding='utf-8')
+    path.write_text(build_report(exchange, note, report_ctx, moment, rid=rid),
+                    encoding='utf-8')
     return path
+
+
+def close_report(rid, directory=None) -> str:
+    """Borra los informes del rid dentro de reports_dir."""
+    if not valid_rid(rid):
+        return 'invalid'
+    target = Path(directory) if directory is not None else reports_dir()
+    try:
+        target_resolved = target.resolve()
+    except (OSError, RuntimeError):
+        return 'missing'
+    if not target.is_dir():
+        return 'missing'
+    base_name = f'informe-{rid}.txt'
+    variant = re.compile(rf'^informe-{re.escape(rid)}-\d+\.txt$')
+    deleted = 0
+    try:
+        entries = list(target.iterdir())
+    except OSError:
+        return 'missing'
+    for path in entries:
+        if path.name != base_name and not variant.match(path.name):
+            continue
+        try:
+            resolved = path.resolve()
+        except (OSError, RuntimeError):
+            continue
+        if resolved.parent != target_resolved:
+            continue
+        try:
+            if path.is_file():
+                path.unlink()
+                deleted += 1
+        except OSError:
+            continue
+    return 'closed' if deleted else 'missing'

@@ -26,7 +26,7 @@ from askforever.bench import (
 from askforever.capture.grabber import Grabber, ReceivedMessage
 from askforever.capture.window import find_game_window, set_dpi_awareness
 from askforever.data.wowdb import WowDb
-from askforever.devreport import parse_report, write_report
+from askforever.devreport import close_report, parse_report, write_report
 from askforever.engine.answer import answer_message, parse_message
 from askforever.engine.conversation import ConversationStore
 from askforever.overlay.supervisor import OverlaySupervisor
@@ -114,14 +114,35 @@ def _open_web(no_web):
 
 
 def _handle_report(document, last_exchange, lock, overlay=None) -> None:
-    """Escribe un informe de desarrollo sin pasar por la IA ni la memoria."""
+    """Gestiona un informe de desarrollo sin pasar por la IA ni la memoria."""
     lang = document.get('lang') or 'enUS'
+    if document.get('kind') == 'report-close':
+        rid = document.get('rid')
+        result = close_report(rid)
+        if result == 'closed':
+            message = f'Informe cerrado: {rid}'
+            print(message)
+            if overlay is not None:
+                overlay.show_answer('Informe', message, lang)
+        elif result == 'missing':
+            message = f'El informe {rid} ya no existía'
+            print(message)
+            if overlay is not None:
+                overlay.show_answer('Informe', message, lang)
+        else:
+            message = 'Identificador de informe no válido'
+            print(message)
+            if overlay is not None:
+                overlay.show_error(message, lang)
+        return
+
     note = str(document.get('q') or '')
     report_ctx = document.get('ctx')
     with lock:
         exchange = dict(last_exchange) if last_exchange else None
     try:
-        path = write_report(exchange, note=note, report_ctx=report_ctx)
+        path = write_report(exchange, note=note, report_ctx=report_ctx,
+                            rid=document.get('rid'))
     except Exception as error:
         message = f'No se pudo guardar el informe: {error}'
         print(message)
