@@ -53,7 +53,11 @@ _SYSTEM = {
         'transportes, túneles ni caminos que no estén en esa línea; si la ruta no está en los '
         'datos, dilo en una frase. Nunca remitas a guías, webs, foros '
         'ni a otros jugadores. Nunca menciones lugares, PNJ ni objetos que no aparezcan en los '
-        'datos, el contexto o la fuente externa.'
+        'datos, el contexto o la fuente externa. Si los datos no responden justo a lo que se '
+        'pregunta (por ejemplo, si existe una función o mecánica del juego como la doble '
+        'especialización), di que no tienes ese dato: nunca afirmes ni niegues que algo existe '
+        'en WoW Forever si no aparece en los datos o en la fuente externa, aunque creas '
+        'saberlo, porque Forever no es igual que otras versiones del juego.'
     ),
     'en': (
         "You are a World of Warcraft Forever assistant. Answer in the language the question is "
@@ -77,7 +81,12 @@ _SYSTEM = {
         'transports, tunnels or paths that are not in that line; if the route is not in the '
         'data, say so in one sentence. Never refer to guides, '
         'websites, forums or other players. Never mention places, NPCs or items that do not '
-        'appear in the data, the context or the external source.'
+        'appear in the data, the context or the external source. If the data does not answer '
+        'exactly what is asked (for example, whether a game feature or mechanic such as dual '
+        'specialization exists), say you do not have that information: never state or deny '
+        'that something exists in WoW Forever unless it appears in the data or the external '
+        'source, even if you think you know it, because Forever is not the same as other '
+        'versions of the game.'
     ),
 }
 
