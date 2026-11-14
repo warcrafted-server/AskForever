@@ -28,6 +28,7 @@ from askforever.capture.window import find_game_window, set_dpi_awareness
 from askforever.data.wowdb import WowDb
 from askforever.engine.answer import answer_message, parse_message
 from askforever.engine.conversation import ConversationStore
+from askforever.overlay.supervisor import OverlaySupervisor
 from askforever.overlay.window import Overlay, OverlayUnavailable
 from askforever.providers.openai_compat import ProviderError, list_models, provider_from_config
 from askforever.web.wiki import WIKI_PAGE_URL
@@ -350,7 +351,9 @@ def _overlay_demo() -> int:
 
 def _run_companion(args: argparse.Namespace) -> int:
     set_dpi_awareness()
-    overlay = Overlay(ttl=args.ttl)
+    overlay_class = (Overlay if getattr(args, 'overlay_inprocess', False)
+                     else OverlaySupervisor)
+    overlay = overlay_class(ttl=args.ttl)
     database = _open_data(args.no_data)
     web = _open_web(args.no_web)
 
@@ -876,6 +879,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                            help='no usa la base de datos de WoW')
     companion.add_argument('--no-web', action='store_true',
                            help='no busca en la wiki de warcraft.wiki.gg')
+    companion.add_argument('--overlay-inprocess', action='store_true',
+                           help='usa el overlay en el proceso principal (diagnóstico)')
     subparsers.add_parser('overlay-demo',
                           help='muestra el overlay de ejemplo durante 8 segundos')
 

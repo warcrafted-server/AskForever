@@ -35,3 +35,7 @@ agentrelay.config.json
 
 # Capturas de diagnóstico del companion
 companion/tools/out/
+
+# Informes y registro de desarrollo
+addon/AskForever/dev/informes/
+addon/AskForever/dev/*.log*

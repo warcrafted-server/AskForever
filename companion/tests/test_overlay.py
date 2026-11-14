@@ -204,7 +204,7 @@ def test_run_command_calls_thinking_then_answer(monkeypatch, capsys):
     messages = [ReceivedMessage(1, 1, _message_data('¿Dónde está Hogger?'), 0.0, 0.5)]
 
     monkeypatch.setattr(cli, 'Grabber', _fake_grabber(messages))
-    monkeypatch.setattr(cli, 'Overlay', _recording_overlay(events))
+    monkeypatch.setattr(cli, 'OverlaySupervisor', _recording_overlay(events))
     monkeypatch.setattr(cli, 'provider_from_config', lambda: FakeProvider())
 
     assert cli.main(['run', '--no-data', '--no-web']) == 0
@@ -239,7 +239,7 @@ def test_run_generation_prevents_stale_answer(monkeypatch):
         ReceivedMessage(2, 1, _message_data('segunda'), 0.0, 0.2),
     ]
     monkeypatch.setattr(cli, 'Grabber', _fake_grabber(messages))
-    monkeypatch.setattr(cli, 'Overlay', _recording_overlay(events))
+    monkeypatch.setattr(cli, 'OverlaySupervisor', _recording_overlay(events))
     monkeypatch.setattr(cli, 'provider_from_config', lambda: SlowProvider())
 
     assert cli.main(['run', '--no-data', '--no-web']) == 0
@@ -260,7 +260,7 @@ def test_run_no_ai_only_shows_thinking(monkeypatch):
         raise AssertionError('no debe crearse el proveedor con --no-ai')
 
     monkeypatch.setattr(cli, 'Grabber', _fake_grabber(messages))
-    monkeypatch.setattr(cli, 'Overlay', _recording_overlay(events))
+    monkeypatch.setattr(cli, 'OverlaySupervisor', _recording_overlay(events))
     monkeypatch.setattr(cli, 'provider_from_config', forbidden)
 
     assert cli.main(['run', '--no-ai', '--no-data', '--no-web']) == 0
@@ -280,7 +280,7 @@ def test_run_provider_failure_shows_error(monkeypatch):
         raise cli.ProviderError('auth', 'no key')
 
     monkeypatch.setattr(cli, 'Grabber', _fake_grabber(messages))
-    monkeypatch.setattr(cli, 'Overlay', _recording_overlay(events))
+    monkeypatch.setattr(cli, 'OverlaySupervisor', _recording_overlay(events))
     monkeypatch.setattr(cli, 'provider_from_config', failing_provider)
 
     assert cli.main(['run', '--no-data', '--no-web']) == 0

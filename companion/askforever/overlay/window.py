@@ -2,12 +2,15 @@
 
 from __future__ import annotations
 
+import logging
 import queue
 import time
 from dataclasses import dataclass
 from typing import Optional
 
 from askforever.capture.window import find_game_window
+
+LOGGER = logging.getLogger('askforever.overlay')
 
 STRIP_WIDTH = 512
 STRIP_HEIGHT = 32
@@ -116,11 +119,13 @@ def wrap_estimate(text, max_chars=60) -> int:
 class Overlay:
     """Ventana que muestra el estado de la IA sin interferir con el juego."""
 
-    def __init__(self, ttl=30.0, window_fn=find_game_window, clock=time.monotonic):
+    def __init__(self, ttl=30.0, window_fn=find_game_window, clock=time.monotonic,
+                 state_queue=None, heartbeat=None):
         self.ttl = float(ttl)
         self.window_fn = window_fn
         self.clock = clock
-        self.queue = queue.Queue()
+        self.queue = state_queue if state_queue is not None else queue.Queue()
+        self.heartbeat = heartbeat
         self._root = None
         self._title_label = None
         self._body_label = None
@@ -208,6 +213,8 @@ class Overlay:
 
     def _poll(self):
         try:
+            if self.heartbeat is not None:
+                self.heartbeat()
             if self._closed:
                 return
             if self._close_requested or (self._stop is not None and self._stop.is_set()):
@@ -223,10 +230,13 @@ class Overlay:
             if self._expires_at is not None and self.clock() >= self._expires_at:
                 self._hide_window()
         except Exception:
-            pass
+            LOGGER.exception('Error en el bucle del overlay')
 
         if not self._closed:
-            self._root.after(50, self._poll)
+            try:
+                self._root.after(50, self._poll)
+            except Exception:
+                LOGGER.exception('No se pudo reprogramar el bucle del overlay')
 
     def _shutdown(self):
         self._closed = True
@@ -236,49 +246,57 @@ class Overlay:
             pass
 
     def _apply(self, state):
-        if state is None:
-            self._hide_window()
-            return
+        try:
+            if state is None:
+                self._hide_window()
+                return
 
-        self._expires_at = state.expires_at
-        if state.title:
-            if not self._title_visible:
-                self._title_label.pack(fill='x', padx=12, pady=(12, 2), before=self._body_label)
-                self._title_visible = True
-            self._title_label.configure(text=state.title)
-        elif self._title_visible:
-            self._title_label.pack_forget()
-            self._title_visible = False
+            self._expires_at = state.expires_at
+            if state.title:
+                if not self._title_visible:
+                    self._title_label.pack(fill='x', padx=12, pady=(12, 2),
+                                           before=self._body_label)
+                    self._title_visible = True
+                self._title_label.configure(text=state.title)
+            elif self._title_visible:
+                self._title_label.pack_forget()
+                self._title_visible = False
 
-        if state.kind == 'error':
-            colour = ERROR_COLOUR
-        elif state.kind == 'thinking':
-            colour = DIM_COLOUR
-        else:
-            colour = TEXT_COLOUR
-        self._body_label.configure(text=state.body, fg=colour)
-        self._show_window()
+            if state.kind == 'error':
+                colour = ERROR_COLOUR
+            elif state.kind == 'thinking':
+                colour = DIM_COLOUR
+            else:
+                colour = TEXT_COLOUR
+            self._body_label.configure(text=state.body, fg=colour)
+            self._show_window()
+        except Exception:
+            LOGGER.exception('Error al aplicar el estado del overlay')
 
     def _show_window(self):
-        root = self._root
-        root.update_idletasks()
-        height = max(60, root.winfo_reqheight())
         try:
-            client = self.window_fn()
-        except Exception:
-            client = None
-        x, y = compute_position(client, WINDOW_WIDTH, height)
-        root.geometry(f'{WINDOW_WIDTH}x{height}+{x}+{y}')
-        if not self._mapped:
-            # Se mapea una sola vez: ocultar y mostrar con withdraw/deiconify una ventana siempre
-            # encima y transparente a los clics producía destellos sobre el juego.
-            root.attributes('-alpha', 0.0)
-            root.deiconify()
+            root = self._root
             root.update_idletasks()
-            self._apply_native_styles()
-            self._mapped = True
-        root.update_idletasks()
-        root.attributes('-alpha', VISIBLE_ALPHA)
+            height = max(60, root.winfo_reqheight())
+            try:
+                client = self.window_fn()
+            except Exception:
+                LOGGER.exception('No se pudo localizar la ventana del juego')
+                client = None
+            x, y = compute_position(client, WINDOW_WIDTH, height)
+            root.geometry(f'{WINDOW_WIDTH}x{height}+{x}+{y}')
+            if not self._mapped:
+                # Se mapea una sola vez: ocultar y mostrar con withdraw/deiconify una ventana
+                # siempre encima y transparente a los clics producía destellos sobre el juego.
+                root.attributes('-alpha', 0.0)
+                root.deiconify()
+                root.update_idletasks()
+                self._apply_native_styles()
+                self._mapped = True
+            root.update_idletasks()
+            root.attributes('-alpha', VISIBLE_ALPHA)
+        except Exception:
+            LOGGER.exception('Error al mostrar la ventana del overlay')
 
     def _hide_window(self):
         self._expires_at = None

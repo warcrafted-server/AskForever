@@ -316,7 +316,7 @@ def test_run_command_passes_history_per_conversation(monkeypatch):
             pass
 
     monkeypatch.setattr(cli, 'Grabber', Grabber)
-    monkeypatch.setattr(cli, 'Overlay', Overlay)
+    monkeypatch.setattr(cli, 'OverlaySupervisor', Overlay)
     monkeypatch.setattr(cli, 'provider_from_config', lambda: provider)
 
     assert cli.main(['run', '--no-data', '--no-web']) == 0
