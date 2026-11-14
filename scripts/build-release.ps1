@@ -33,6 +33,44 @@ $publicTocLines = $tocLines | Where-Object { $_ -notmatch '^\s*dev/' }
 $publicToc = ($publicTocLines -join "`n")
 if (-not $publicToc.EndsWith("`n")) { $publicToc += "`n" }
 
+# Documentos que se copian al zip y enlaces relativos que deben abrirse en GitHub.
+$docNames = @(
+    'INSTALL_GUIDE.md',
+    'GUIA_INSTALACION.md',
+    'SECURITY_TRANSPARENCY.md',
+    'SEGURIDAD_TRANSPARENCIA.md'
+)
+$docsDir = Join-Path $repoRoot 'docs'
+$docsFull = (Resolve-Path $docsDir).Path
+$repoFull = (Resolve-Path $repoRoot).Path
+foreach ($docName in $docNames) {
+    $docPath = Join-Path $docsDir $docName
+    if (-not (Test-Path $docPath)) { throw "No existe $docPath" }
+}
+
+# Los enlaces entre los cuatro documentos incluidos siguen siendo relativos;
+# el resto se resuelve contra docs/ y apunta a GitHub.
+$rewriteDocsLink = [System.Text.RegularExpressions.MatchEvaluator]{
+    param($match)
+    $target = $match.Groups[1].Value
+    if ($target -match '^(https?://|mailto:|#)') { return $match.Value }
+    $hashIndex = $target.IndexOf('#')
+    if ($hashIndex -ge 0) {
+        $pathPart = $target.Substring(0, $hashIndex)
+        $anchor = $target.Substring($hashIndex)
+    } else {
+        $pathPart = $target
+        $anchor = ''
+    }
+    if ((-not $pathPart) -or ($docNames -contains $pathPart)) { return $match.Value }
+    $resolved = [System.IO.Path]::GetFullPath((Join-Path $docsFull ($pathPart -replace '/', '\')))
+    $relative = $resolved.Substring($repoFull.Length).TrimStart('\') -replace '\\', '/'
+    return "](https://github.com/warcrafted-server/AskForever/blob/main/$relative$anchor)"
+}
+
+$requiredEntries = @('AskForever/README.txt') + ($docNames | ForEach-Object { "AskForever/docs/$_" })
+$utf8 = New-Object System.Text.UTF8Encoding -ArgumentList $false
+
 $outDir = Join-Path $repoRoot "release"
 New-Item -ItemType Directory -Force $outDir | Out-Null
 $zipPath = Join-Path $outDir "AskForever-$version.zip"
@@ -52,13 +90,26 @@ try {
     }
 
     $tocEntry = $zip.CreateEntry('AskForever/AskForever.toc', [System.IO.Compression.CompressionLevel]::Optimal)
-    $encoding = New-Object System.Text.UTF8Encoding -ArgumentList $false
-    $writer = New-Object System.IO.StreamWriter -ArgumentList $tocEntry.Open(), $encoding
+    $writer = New-Object System.IO.StreamWriter -ArgumentList $tocEntry.Open(), $utf8
     try {
         $writer.Write($publicToc)
     }
     finally {
         $writer.Dispose()
+    }
+
+    foreach ($docName in $docNames) {
+        $docPath = Join-Path $docsDir $docName
+        $docContent = [System.IO.File]::ReadAllText($docPath, $utf8)
+        $docContent = [regex]::Replace($docContent, '\]\(([^)]+)\)', $rewriteDocsLink)
+        $docEntry = $zip.CreateEntry("AskForever/docs/$docName", [System.IO.Compression.CompressionLevel]::Optimal)
+        $docWriter = New-Object System.IO.StreamWriter -ArgumentList $docEntry.Open(), $utf8
+        try {
+            $docWriter.Write($docContent)
+        }
+        finally {
+            $docWriter.Dispose()
+        }
     }
 }
 finally {
@@ -85,6 +136,25 @@ try {
     }
     if ($zipToc -match 'DevReport') {
         throw "El .toc del zip menciona DevReport."
+    }
+    foreach ($entryName in $requiredEntries) {
+        if ($null -eq $check.GetEntry($entryName)) {
+            throw "El zip no contiene $entryName."
+        }
+    }
+    foreach ($docName in $docNames) {
+        $docEntryName = "AskForever/docs/$docName"
+        $docEntry = $check.GetEntry($docEntryName)
+        $docReader = New-Object System.IO.StreamReader -ArgumentList $docEntry.Open(), $utf8
+        try {
+            $docContent = $docReader.ReadToEnd()
+        }
+        finally {
+            $docReader.Dispose()
+        }
+        if ($docContent -match '\]\(img/' -or $docContent -match '\]\(\.\./') {
+            throw "El documento $docEntryName conserva enlaces relativos no permitidos."
+        }
     }
     $check.Entries | ForEach-Object { Write-Host "  $($_.FullName)" }
 }

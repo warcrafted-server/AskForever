@@ -32,6 +32,8 @@ You need:
 3. Check that the folder contains `AskForever.toc`: `...\AddOns\AskForever\AskForever.toc`.
 4. If the game is open, close it completely and start it again. `/reload` does not load new addons. At character select, click **AddOns** and tick **AskForever**.
 
+The addon folder also includes `README.txt` and a `docs` folder with this guide and the security and data transparency report.
+
 The first time you enter the game with the addon, AskForever shows a welcome window with these steps and the links to the companion and the free key guide. You can open it again at any time with `/af help` or the **?** button in the addon window.
 
 ## 2. Install the companion

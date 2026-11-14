@@ -11,10 +11,12 @@ Welcome and help window with the setup steps and links. / Ventana de bienvenida 
 ### English
 - Added: welcome window on first login that explains the companion, the free Gemini key and the setup links, with Copy buttons.
 - Added: help window from the '?' button in the main window and from '/af help'.
+- Added: the addon download includes README.txt and the installation guides and the security and data transparency report (docs/).
 
 ### Español
 - Añadido: ventana de bienvenida en el primer inicio de sesión que explica el companion, la clave gratuita de Gemini y los enlaces de instalación, con botones Copiar.
 - Añadido: ventana de ayuda desde el botón '?' de la ventana principal y desde '/af help'.
+- Añadido: la descarga del addon incluye README.txt y las guías de instalación y el informe de seguridad y transparencia de datos (docs/).
 
 ## [0.3.0-beta.1] - 2026-11-14
 

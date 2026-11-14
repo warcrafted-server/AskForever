@@ -17,6 +17,7 @@ El detalle de cada hito está en [ROADMAP.md](ROADMAP.md). Lo hecho está en el 
 - Probar otras resoluciones y escalas de interfaz de la tira de píxeles (probado: 1920x1080, ventana sin bordes).
 - Validar en el juego el atajo de teclado (Opciones → Atajos → AddOns) tal como lo describen las guías.
 - Instalar `luacheck` si el volumen de errores lo justifica.
+- **Automatizar el análisis de VirusTotal del instalador** en el workflow de Release (API de VirusTotal, clave en los secrets de GitHub) y actualizar la insignia del README automáticamente; mientras tanto, la insignia y los enlaces se actualizan a mano en cada release.
 
 ## Baja
 - «Llévame»: pines y flecha en el mapa.

@@ -35,6 +35,8 @@ See the [ROADMAP](ROADMAP.md), the [CHANGELOG](CHANGELOG.md) and the [TODO](TODO
 2. **Companion:** download the latest `AskForever-Setup-<version>.exe` from the [Releases page](https://github.com/warcrafted-server/AskForever/releases) and run it. It installs for your Windows user only, without administrator permission, and adds AskForever to the Start menu.
 3. **Free key:** open AskForever. On first launch, a console window guides you through getting a free Google Gemini key (see the [Gemini key guide](docs/GEMINI_KEY.md)), checks it and saves it. The companion then downloads the game data (about 32 MB, once).
 
+The addon folder also includes `README.txt` and a `docs` folder with the installation guide and the security and data transparency report.
+
 👉 **[Full installation guide](docs/INSTALL_GUIDE.md)**
 
 ### Disclaimer
@@ -66,6 +68,8 @@ Consulta la [hoja de ruta](ROADMAP.md), el [CHANGELOG](CHANGELOG.md) y el [TODO]
 1. **Addon:** instala **AskForever** desde la app de CurseForge (selecciona la instalación **Forever**) o copia la carpeta `AskForever` del zip del addon en `World of Warcraft\_forever_\Interface\AddOns\`.
 2. **Companion:** descarga el último `AskForever-Setup-<versión>.exe` de la [página de Releases](https://github.com/warcrafted-server/AskForever/releases) y ejecútalo. Se instala solo para tu usuario de Windows, sin permisos de administrador, y añade AskForever al menú Inicio.
 3. **Clave gratuita:** abre AskForever. La primera vez, una ventana de consola te guía para conseguir una clave gratuita de Google Gemini (consulta la [guía de la clave de Gemini](docs/CLAVE_GEMINI.md)), la comprueba y la guarda. Después, el companion descarga los datos del juego (unos 32 MB, una sola vez).
+
+La carpeta del addon también incluye `README.txt` y una carpeta `docs` con la guía de instalación y el informe de seguridad y transparencia de datos.
 
 👉 **[Guía de instalación completa](docs/GUIA_INSTALACION.md)**
 

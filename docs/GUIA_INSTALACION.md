@@ -32,6 +32,8 @@ Necesitas:
 3. Comprueba que la carpeta contiene `AskForever.toc`: `...\AddOns\AskForever\AskForever.toc`.
 4. Si el juego está abierto, ciérralo del todo y vuelve a abrirlo. `/reload` no carga addons nuevos. En la selección de personaje, pulsa **AddOns** y marca **AskForever**.
 
+La carpeta del addon también incluye `README.txt` y una carpeta `docs` con esta guía y el informe de seguridad y transparencia de datos.
+
 La primera vez que entres al juego con el addon, AskForever muestra una ventana de bienvenida con estos pasos y los enlaces al companion y a la guía de la clave gratuita. Puedes abrirla de nuevo cuando quieras con `/af help` o el botón **?** de la ventana del addon.
 
 ## 2. Instalar el companion
