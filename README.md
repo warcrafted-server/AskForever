@@ -1,6 +1,12 @@
 # AskForever
 
+[![CI](https://github.com/warcrafted-server/AskForever/actions/workflows/ci.yml/badge.svg)](https://github.com/warcrafted-server/AskForever/actions/workflows/ci.yml) [![CodeQL](https://github.com/warcrafted-server/AskForever/actions/workflows/codeql.yml/badge.svg)](https://github.com/warcrafted-server/AskForever/actions/workflows/codeql.yml) [![License: CC BY-NC 4.0](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey)](LICENSE) [![Latest release](https://img.shields.io/github/v/release/warcrafted-server/AskForever?include_prereleases)](https://github.com/warcrafted-server/AskForever/releases)
+
 **[English](#english) · [Español](#español)**
+
+[Security and transparency: what the companion does and never does](docs/SECURITY_TRANSPARENCY.md)
+
+[Seguridad y transparencia: qué hace y qué no hace nunca el companion](docs/SEGURIDAD_TRANSPARENCIA.md)
 
 > 🚧 Under development: no downloadable version yet. Version 0.2.0 works end to end for developers (the companion runs from source).
 > En desarrollo: todavía no hay versión descargable. La versión 0.2.0 funciona de extremo a extremo para desarrolladores (el companion se ejecuta desde el código).
