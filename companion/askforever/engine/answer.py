@@ -9,8 +9,9 @@ from dataclasses import dataclass, field
 from typing import Optional
 
 from askforever import config
+from askforever.data.glossary import spanish_names
 from askforever.data.wowdb import normalize
-from askforever.engine.prompt import build_prompt
+from askforever.engine.prompt import _detect_question_language, build_prompt
 from askforever.engine.retriever import (PROFESSION_KEYWORDS, is_profession_question,
                                          is_travel_question, retrieve)
 from askforever.providers.openai_compat import ProviderError
@@ -323,8 +324,24 @@ def answer_message(data: bytes, provider, *, max_tokens=None, db=None, temperatu
                 sources.append(source)
     no_info = bool(use_web and not web_excerpts)
 
+    glossary = None
+    if web_excerpts and db is not None:
+        try:
+            client_spanish = _is_spanish(lang)
+            question_language = _detect_question_language(
+                question, 'es' if client_spanish else 'en')
+            if client_spanish or question_language == 'es':
+                texts = []
+                for excerpt in web_excerpts:
+                    texts.append(_excerpt_value(excerpt, 'title'))
+                    texts.append(_excerpt_value(excerpt, 'text'))
+                glossary = spanish_names(db, texts)
+        except Exception:
+            glossary = None
+
     system, user = build_prompt(message, facts_text, history=history,
-                                web_excerpts=web_excerpts or None, no_info=no_info)
+                                web_excerpts=web_excerpts or None, no_info=no_info,
+                                glossary=glossary)
     if temperature is None:
         temperature = config.get_temperature()
 

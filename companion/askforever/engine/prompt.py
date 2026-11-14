@@ -112,6 +112,12 @@ _NO_INFO = {
            'suggest rephrasing the question.'),
 }
 
+_WIKI_RULE_ES = (
+    'Los extractos de la wiki están en inglés: responde siempre en el idioma de la pregunta, '
+    'usa los nombres oficiales en español de la lista y, si un nombre no tiene traducción, '
+    'escríbelo entre comillas y di que es el nombre en inglés.'
+)
+
 _LANGUAGE_NAMES = {
     'es': {'es': 'castellano', 'en': 'inglés'},
     'en': {'es': 'Spanish', 'en': 'English'},
@@ -145,7 +151,8 @@ def _detect_question_language(question: str, fallback: str) -> str:
     return fallback
 
 
-def _system_prompt(client_language: str, question_language: str, no_info: bool = False) -> str:
+def _system_prompt(client_language: str, question_language: str, no_info: bool = False,
+                   has_web: bool = False) -> str:
     text = _SYSTEM[client_language]
     language_name = _LANGUAGE_NAMES[client_language][question_language]
     if client_language == 'es':
@@ -154,6 +161,8 @@ def _system_prompt(client_language: str, question_language: str, no_info: bool =
     else:
         text += (f' The question is written in {language_name}: answer in {language_name} even '
                  'if the context is in another language.')
+    if client_language == 'es' and has_web:
+        text += ' ' + _WIKI_RULE_ES
     if no_info:
         text += ' ' + _NO_INFO[client_language]
     return text
@@ -282,8 +291,29 @@ def _web_lines(web_excerpts, language: str) -> list[str]:
     return lines
 
 
+def _glossary_lines(glossary) -> list[str]:
+    if not glossary:
+        return []
+    lines = []
+    for item in glossary:
+        if isinstance(item, dict):
+            english = item.get('english') or item.get('en')
+            spanish = item.get('spanish') or item.get('es')
+        elif isinstance(item, (list, tuple)) and len(item) >= 2:
+            english = item[0]
+            spanish = item[1]
+        else:
+            continue
+        english = _text(english)
+        spanish = _text(spanish)
+        if english and spanish:
+            lines.append(f'{english} = {spanish}')
+    return lines
+
+
 def build_prompt(message: dict, facts_text: str = '', history=None,
-                 web_excerpts=None, no_info: bool = False) -> tuple[str, str]:
+                 web_excerpts=None, no_info: bool = False,
+                 glossary=None) -> tuple[str, str]:
     """Devuelve (system, user) con el idioma, la memoria y las fuentes."""
     if not isinstance(message, dict):
         message = {}
@@ -297,13 +327,18 @@ def build_prompt(message: dict, facts_text: str = '', history=None,
     question = question.strip()
 
     question_language = _detect_question_language(question, language)
+    glossary_lines = _glossary_lines(glossary)
 
     lines = _context_lines(message.get('ctx'), labels)
     lines.extend(_history_lines(history, language))
     if facts_text:
         lines.append(str(facts_text).strip())
+    if glossary_lines:
+        lines.append('Nombres oficiales en español (úsalos en la respuesta):')
+        lines.extend(glossary_lines)
     lines.extend(_web_lines(web_excerpts, language))
     lines.append(f'{labels["question"]}: {question}')
 
-    system = _system_prompt(language, question_language, no_info)
+    system = _system_prompt(language, question_language, no_info,
+                            bool(web_excerpts) or bool(glossary_lines))
     return system, '\n'.join(lines)
