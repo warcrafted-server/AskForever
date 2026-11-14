@@ -14,7 +14,8 @@ from typing import Optional, Sequence
 from askforever import config
 from askforever.capture.grabber import Grabber, ReceivedMessage
 from askforever.capture.window import find_game_window, set_dpi_awareness
-from askforever.engine.answer import answer_message
+from askforever.engine.answer import answer_message, parse_message
+from askforever.overlay.window import Overlay, OverlayUnavailable
 from askforever.providers.openai_compat import ProviderError, provider_from_config
 
 
@@ -224,6 +225,116 @@ def _ask(args: argparse.Namespace) -> int:
     return 1
 
 
+def _overlay_demo() -> int:
+    overlay = Overlay()
+    stop_event = threading.Event()
+    question = '¿Dónde está Hogger?'
+    answer = (
+        'Hogger aparece en el Bosque de Elwynn, cerca del campamento de los ríos.\n'
+        'Suele merodear al sureste de Villadorada.\n'
+        'Si no lo ves, espera un poco: reaparece tras unos minutos.'
+    )
+
+    def script():
+        time.sleep(2.0)
+        overlay.show_answer(question, answer, 'esES')
+        time.sleep(6.0)
+        stop_event.set()
+
+    overlay.show_thinking(question, 'esES')
+    threading.Thread(target=script, daemon=True).start()
+    try:
+        overlay.run(stop_event)
+    except KeyboardInterrupt:
+        stop_event.set()
+    except OverlayUnavailable as error:
+        print(error)
+        return 1
+    finally:
+        overlay.close()
+    return 0
+
+
+def _run_companion(args: argparse.Namespace) -> int:
+    set_dpi_awareness()
+    overlay = Overlay(ttl=args.ttl)
+
+    provider = None
+    provider_error = None
+    if not args.no_ai:
+        try:
+            provider = provider_from_config()
+        except ProviderError as error:
+            provider_error = error
+            print(error.user_message('esES'))
+            if error.detail:
+                print(f'Detalle: {error.detail}')
+            print('Guía: docs/CLAVE_GEMINI.md')
+
+    stop_event = threading.Event()
+    generation = {'value': 0}
+
+    def on_message(message: ReceivedMessage) -> None:
+        generation['value'] += 1
+        current = generation['value']
+
+        document = parse_message(message.data)
+        if document is not None:
+            question = str(document.get('q') or '')
+            lang = document.get('lang') or 'enUS'
+        else:
+            question = ''
+            lang = 'enUS'
+
+        stamp = datetime.now().strftime('%H:%M:%S')
+        print(f'[{stamp}] msg_id={message.msg_id} {question}')
+
+        overlay.show_thinking(question, lang)
+        if args.no_ai:
+            return
+        if provider is None:
+            text = provider_error.user_message(lang) if provider_error else 'No AI provider.'
+            overlay.show_error(text, lang)
+            return
+
+        def answer():
+            result = answer_message(message.data, provider)
+            if current != generation['value']:
+                return
+            if result.ok:
+                overlay.show_answer(question, result.text, lang)
+                print(f'Respuesta ({result.elapsed_ms} ms): {result.text}')
+            else:
+                overlay.show_error(result.text, lang)
+                print(f'Error: {result.text}')
+
+        threading.Thread(target=answer, daemon=True).start()
+
+    grabber = Grabber(on_message, fps=args.fps)
+    grabber_thread = threading.Thread(target=grabber.run, args=(stop_event,), daemon=True)
+    grabber_thread.start()
+
+    try:
+        overlay.run(stop_event)
+    except KeyboardInterrupt:
+        stop_event.set()
+    except OverlayUnavailable as error:
+        print(error)
+        stop_event.set()
+        return 1
+    finally:
+        stop_event.set()
+        overlay.close()
+        grabber_thread.join(timeout=1.0)
+
+    print()
+    print(
+        f'Capturas: {grabber.captures} · marcos válidos: {grabber.valid_frames} · '
+        f'mensajes: {grabber.messages} · errores: {grabber.errors}'
+    )
+    return 0
+
+
 def main(argv: Optional[Sequence[str]] = None) -> int:
     parser = argparse.ArgumentParser(
         prog='askforever',
@@ -247,6 +358,15 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     ask.add_argument('--race', help='raza del personaje')
     ask.add_argument('--class', dest='klass', help='clase del personaje')
     ask.add_argument('--faction', help='facción del personaje')
+    companion = subparsers.add_parser('run', help='escucha el juego y responde en el overlay')
+    companion.add_argument('--fps', type=float, default=30.0,
+                           help='capturas por segundo (por defecto 30)')
+    companion.add_argument('--ttl', type=float, default=30.0,
+                           help='segundos que se muestra cada respuesta (por defecto 30)')
+    companion.add_argument('--no-ai', action='store_true',
+                           help='no llama a la IA; solo muestra la pregunta recibida')
+    subparsers.add_parser('overlay-demo',
+                          help='muestra el overlay de ejemplo durante 8 segundos')
 
     args = parser.parse_args(argv)
     if args.command == 'listen':
@@ -257,6 +377,10 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         return _test_key()
     if args.command == 'ask':
         return _ask(args)
+    if args.command == 'run':
+        return _run_companion(args)
+    if args.command == 'overlay-demo':
+        return _overlay_demo()
     parser.print_help()
     return 2
 
