@@ -8,6 +8,7 @@ from dataclasses import dataclass, field
 from askforever.data.wowdb import CLASSES, class_mask_from_name, normalize
 
 LIMIT = 1600
+MAX_OBJECTIVE = 220
 
 SPELL_KEYWORDS = ('aprend', 'hechiz', 'habilidad', 'spell', 'learn', 'abilit')
 TRAINER_KEYWORDS = ('instructor', 'instructora', 'entrenador', 'trainer')
@@ -16,6 +17,17 @@ FLIGHT_KEYWORDS = ('vuelo', 'volar', 'grifo', 'maestro de vuelo', 'flight', 'fly
 TALENT_KEYWORDS = ('talento', 'rama', 'especializ', 'talent', 'spec', 'tree')
 LIST_KEYWORDS = ('mi lista', 'mis misiones', 'mi registro', 'my quests', 'my list',
                  'quest log')
+BOSS_KEYWORDS = ('jefe', 'jefes', 'boss', 'bosses')
+FINAL_KEYWORDS = ('final', 'ultimo', 'last')
+DUNGEON_KEYWORDS = ('mazmorra', 'mazmorras', 'instancia', 'instancias', 'dungeon',
+                    'dungeons')
+ZONE_KEYWORDS = ('subir de nivel', 'levear', 'zonas', 'zona para mi nivel',
+                 'where to level', 'level up', 'zones')
+ROUTE_KEYWORDS = ('como voy', 'como llego', 'como ir', 'how do i get', 'how to get',
+                  'route to')
+PRICE_KEYWORDS = ('cuanto cuesta', 'precio', 'how much')
+FLY_FROM_KEYWORDS = ('volar desde', 'adonde puedo volar', 'vuelos desde',
+                     'where can i fly')
 # Nombres genéricos que aparecen como palabras normales en las preguntas
 # (p. ej. «puntos» en «puntos de vuelo») y no deben tratarse como entidades.
 GENERIC_ENTITY_NAMES = {'puntos', 'points'}
@@ -84,7 +96,20 @@ def _add_source(facts: Facts, source: str) -> None:
         facts.sources.append(source)
 
 
-def _quest_line(quest, lang: str) -> str:
+def _safe(function, *args):
+    try:
+        return function(*args)
+    except Exception:
+        return None
+
+
+def _level_text(low, high, lang: str) -> str:
+    if low == high:
+        return f'nivel {low}' if lang == 'es' else f'level {low}'
+    return f'niveles {low}-{high}' if lang == 'es' else f'levels {low}-{high}'
+
+
+def _quest_line(quest, lang: str, details=None) -> str:
     name = quest.get('name') or ''
     level = quest.get('level')
     required = quest.get('required_level')
@@ -108,6 +133,14 @@ def _quest_line(quest, lang: str) -> str:
             text += '.'
         if objectives:
             text += ' Objetivos: ' + ', '.join(objectives) + '.'
+        if details:
+            xp = details.get('xp')
+            if xp:
+                text += f' Da {xp} de experiencia.'
+            quest_objectives = details.get('objectives') or []
+            if quest_objectives:
+                objective = str(quest_objectives[0])[:MAX_OBJECTIVE]
+                text += f' Objetivo: {objective}'
         if variants > 1:
             text += f' (hay {variants} misiones con ese nombre)'
         return text
@@ -125,21 +158,75 @@ def _quest_line(quest, lang: str) -> str:
         text += '.'
     if objectives:
         text += ' Objectives: ' + ', '.join(objectives) + '.'
+    if details:
+        xp = details.get('xp')
+        if xp:
+            text += f' Gives {xp} XP.'
+        quest_objectives = details.get('objectives') or []
+        if quest_objectives:
+            objective = str(quest_objectives[0])[:MAX_OBJECTIVE]
+            text += f' Objective: {objective}'
     if variants > 1:
         text += f' (there are {variants} quests with that name)'
     return text
 
 
-def _dungeon_line(dungeon, lang: str) -> str:
+def _dungeon_line(dungeon, lang: str, levels=None) -> str:
     name = dungeon.get('name') or ''
     entrances = dungeon.get('entrances') or []
     if lang == 'es':
         if entrances:
-            return f'Mazmorra «{name}»: entrada en {_location_text(entrances[0])}.'
-        return f'Mazmorra «{name}»: sin entrada conocida.'
+            text = f'Mazmorra «{name}»: entrada en {_location_text(entrances[0])}'
+        else:
+            text = f'Mazmorra «{name}»: sin entrada conocida'
+        if levels:
+            text += ', ' + _level_text(levels[0], levels[1], lang)
+        return text + '.'
     if entrances:
-        return f'Dungeon "{name}": entrance in {_location_text(entrances[0])}.'
-    return f'Dungeon "{name}": no known entrance.'
+        text = f'Dungeon "{name}": entrance in {_location_text(entrances[0])}'
+    else:
+        text = f'Dungeon "{name}": no known entrance'
+    if levels:
+        text += ', ' + _level_text(levels[0], levels[1], lang)
+    return text + '.'
+
+
+def _boss_line(bosses, lang: str, with_final: bool) -> str:
+    name = bosses.get('name') or ''
+    names = bosses.get('bosses') or []
+    if not names:
+        return ''
+    if lang == 'es':
+        text = f'Jefes de {name}, en orden: ' + ', '.join(names)
+        if with_final:
+            text += f'. Jefe final: {names[-1]}'
+    else:
+        text = f'Bosses of {name}, in order: ' + ', '.join(names)
+        if with_final:
+            text += f'. Final boss: {names[-1]}'
+    return text + '.'
+
+
+def _zone_line(levels, lang: str) -> str:
+    if lang == 'es':
+        return (f"Zona {levels['name']}: niveles {levels['min']}-{levels['max']} "
+                '(deducido de los enemigos de la zona).')
+    return (f"Zone {levels['name']}: levels {levels['min']}-{levels['max']} "
+            '(inferred from the zone enemies).')
+
+
+def _zones_line(zones, level, lang: str) -> str:
+    parts = [f"{zone['name']} ({zone['min']}-{zone['max']})" for zone in zones]
+    if lang == 'es':
+        return f'Zonas para nivel {level}: ' + ', '.join(parts)
+    return f'Zones for level {level}: ' + ', '.join(parts)
+
+
+def _dungeons_line(dungeons, level, lang: str) -> str:
+    parts = [f"{item['name']} ({item['min']})" for item in dungeons]
+    if lang == 'es':
+        return f'Mazmorras cerca de tu nivel: ' + ', '.join(parts)
+    return f'Dungeons near your level: ' + ', '.join(parts)
 
 
 def _npc_line(npc, lang: str) -> str:
@@ -165,7 +252,10 @@ def _item_line(item, lang: str) -> str:
         pieces = []
         for drop in drops:
             npc = drop.get('npc') or ''
+            zone = drop.get('zone') or ''
             rate = drop.get('rate')
+            if zone:
+                npc = npc + (' en ' if lang == 'es' else ' in ') + zone
             pieces.append(f'{npc} ({rate} %)' if rate is not None else npc)
         parts.append(f'{label}: ' + ', '.join(pieces))
     rewards = item.get('quest_rewards') or []
@@ -183,12 +273,13 @@ def _item_line(item, lang: str) -> str:
     return prefix + ': no known sources.'
 
 
-def _detect_entities(facts: Facts, db, question: str, lang: str, ctx: dict) -> bool:
-    try:
-        matches = db.match_entities(question, lang=lang)
-    except Exception:
-        matches = []
+def _detect_entities(facts: Facts, db, matches, normalized: str, lang: str, ctx: dict):
     player_level = ctx.get('lvl')
+    wants_final = any(word in normalized for word in FINAL_KEYWORDS)
+    wants_bosses = (any(word in normalized for word in BOSS_KEYWORDS)
+                    or wants_final)
+    has_dungeon = False
+    dungeon_level_answered = False
     for match in matches:
         kind = match.get('kind')
         entity_id = match.get('id')
@@ -198,14 +289,27 @@ def _detect_entities(facts: Facts, db, question: str, lang: str, ctx: dict) -> b
             quest = db.find_quest(entity_id, lang, player_level=player_level)
             if quest is None:
                 continue
-            facts.lines.append(_quest_line(quest, lang))
+            details = _safe(db.quest_details, quest['id'], lang)
+            facts.lines.append(_quest_line(quest, lang, details))
             _add_source(facts, f'quest:{quest["id"]}')
         elif kind == 'dungeon':
+            has_dungeon = True
             dungeon = db.dungeon(entity_id, lang)
             if dungeon is None:
                 continue
-            facts.lines.append(_dungeon_line(dungeon, lang))
+            levels = None
+            level_data = _safe(db.dungeon_level, entity_id, lang)
+            if level_data:
+                levels = (level_data['min'], level_data['max'])
+                dungeon_level_answered = True
+                _add_source(facts, f'dungeon_level:{entity_id}')
+            facts.lines.append(_dungeon_line(dungeon, lang, levels))
             _add_source(facts, f'dungeon:{dungeon["id"]}')
+            if wants_bosses:
+                bosses = _safe(db.dungeon_bosses, entity_id, lang)
+                if bosses:
+                    facts.lines.append(_boss_line(bosses, lang, wants_final))
+                    _add_source(facts, f'bosses:{entity_id}')
         elif kind == 'npc':
             npc = db.find_npc(entity_id, lang)
             if npc is None:
@@ -218,7 +322,7 @@ def _detect_entities(facts: Facts, db, question: str, lang: str, ctx: dict) -> b
                 continue
             facts.lines.append(_item_line(item, lang))
             _add_source(facts, f'item:{item["id"]}')
-    return any(match.get('kind') == 'dungeon' for match in matches)
+    return has_dungeon, dungeon_level_answered
 
 
 def _ctx_level(ctx: dict):
@@ -232,19 +336,105 @@ def _ctx_level(ctx: dict):
     return None
 
 
-def _spell_level(normalized: str, ctx: dict):
-    if re.search(r'\b(siguiente|proximo|next)\s+(nivel|level)\b', normalized):
-        base = _ctx_level(ctx)
-        return base + 1 if base is not None else None
-    match = re.search(r'\b(?:nivel|level|lvl)\s*(\d{1,2})\b', normalized)
-    if match:
-        return int(match.group(1))
-    if re.search(r'\ba mi nivel\b|\bmy level\b', normalized):
-        return _ctx_level(ctx)
+def _number_in_text(normalized: str):
     numbers = re.findall(r'\b(60|[1-5]\d|[1-9])\b', normalized)
     if numbers:
         return int(numbers[0])
-    return _ctx_level(ctx)
+    return None
+
+
+def _detect_zone_intents(facts: Facts, db, matches, normalized: str, lang: str, ctx: dict):
+    zone_matches = [match for match in matches if match.get('kind') == 'zone']
+    mentions_level = any(word in normalized for word in ('nivel', 'level', 'rango'))
+    current_zone = ctx.get('zone')
+    if zone_matches and mentions_level:
+        levels = _safe(db.zone_levels, zone_matches[0]['id'], lang)
+        if levels:
+            facts.lines.append(_zone_line(levels, lang))
+            _add_source(facts, f"zone:{levels['area_id']}")
+            return
+    if (isinstance(current_zone, str) and current_zone and mentions_level
+            and normalize(current_zone) in normalized):
+        levels = _safe(db.zone_levels, current_zone, lang)
+        if levels:
+            facts.lines.append(_zone_line(levels, lang))
+            _add_source(facts, f"zone:{levels['area_id']}")
+            return
+    if zone_matches:
+        return
+    if any(phrase in normalized for phrase in ZONE_KEYWORDS):
+        level = _ctx_level(ctx)
+        if level is None:
+            return
+        zones = _safe(db.zones_for_level, level, lang)
+        if zones:
+            facts.lines.append(_zones_line(zones, level, lang))
+            _add_source(facts, f'zones:{level}')
+
+
+def _detect_dungeon_intents(facts: Facts, db, matches, normalized: str, lang: str,
+                            ctx: dict, has_dungeon: bool,
+                            dungeon_level_answered: bool) -> None:
+    mentions_level = any(word in normalized for word in ('nivel', 'level', 'rango'))
+    mentions_dungeon = any(word in normalized for word in DUNGEON_KEYWORDS)
+    if not has_dungeon and mentions_dungeon:
+        wants_list = ('mi nivel' in normalized or 'my level' in normalized
+                      or 'puedo hacer' in normalized or 'can i do' in normalized
+                      or _number_in_text(normalized) is not None)
+        if wants_list:
+            level = _number_in_text(normalized)
+            if level is None:
+                level = _ctx_level(ctx)
+            if level is not None:
+                dungeons = _safe(db.dungeons_for_level, level, lang)
+                if dungeons:
+                    facts.lines.append(_dungeons_line(dungeons, level, lang))
+                    _add_source(facts, f'dungeons:{level}')
+                    return
+    if mentions_level and (has_dungeon or mentions_dungeon) and not dungeon_level_answered:
+        facts.missing.append('rangos de nivel de mazmorras' if lang == 'es'
+                             else 'dungeon level ranges')
+
+
+def _detect_xp(facts: Facts, db, normalized: str, lang: str, ctx: dict,
+               has_quest: bool) -> None:
+    words = set(normalized.split())
+    if not ('experiencia' in normalized or 'experience' in normalized
+            or 'xp' in words or 'exp' in words):
+        return
+    if has_quest:
+        return
+    target = None
+    found = re.search(r'\b(?:nivel|level)\s+(\d{1,2})\b', normalized)
+    if found:
+        target = int(found.group(1))
+    if target is not None and target > 1:
+        level = target - 1
+        xp = _safe(db.xp_to_next_level, level)
+        if xp is not None:
+            if lang == 'es':
+                facts.lines.append(f'Experiencia para pasar del nivel {level} al '
+                                   f'{target}: {xp} (tabla del cliente).')
+            else:
+                facts.lines.append(f'Experience to go from level {level} to '
+                                   f'{target}: {xp} (client table).')
+            _add_source(facts, f'xp:{level}')
+            return
+    else:
+        level = _ctx_level(ctx)
+        if level is not None:
+            xp = _safe(db.xp_to_next_level, level)
+            if xp is not None:
+                if lang == 'es':
+                    facts.lines.append(f'Experiencia para pasar del nivel {level} al '
+                                       f'{level + 1}: {xp} (tabla del cliente).')
+                else:
+                    facts.lines.append(f'Experience to go from level {level} to '
+                                       f'{level + 1}: {xp} (client table).')
+                _add_source(facts, f'xp:{level}')
+                return
+    facts.missing.append('experiencia necesaria por nivel' if lang == 'es'
+                         else 'experience needed per level')
 
 
 def _faction(value):
@@ -254,6 +444,119 @@ def _faction(value):
     if text in ('horda', 'horde'):
         return 'H'
     return None
+
+
+def _detect_places(matches, question: str, ctx: dict):
+    for pattern in (r'\bde\s+(.+?)\s+a\s+(.+?)(?:\?|$|\.)',
+                    r'\bfrom\s+(.+?)\s+to\s+(.+?)(?:\?|$|\.)'):
+        found = re.search(pattern, question, re.IGNORECASE)
+        if found:
+            origin = found.group(1).strip(' ?!.,¿¡')
+            destination = found.group(2).strip(' ?!.,¿¡')
+            if origin and destination:
+                return origin, destination
+    zones = [match.get('name') for match in matches if match.get('kind') == 'zone']
+    if len(zones) >= 2:
+        return zones[0], zones[1]
+    if len(zones) == 1:
+        return (ctx.get('zone') or ''), zones[0]
+    return (ctx.get('zone') or ''), ''
+
+
+def _detect_flights(facts: Facts, db, matches, question: str, normalized: str,
+                    lang: str, ctx: dict) -> None:
+    faction = _faction(ctx.get('fac'))
+    current_zone = ctx.get('zone') if isinstance(ctx.get('zone'), str) else ''
+    is_price = any(word in normalized for word in PRICE_KEYWORDS)
+    is_fly_from = any(word in normalized for word in FLY_FROM_KEYWORDS)
+    is_route = (any(word in normalized for word in ROUTE_KEYWORDS)
+                and not is_price and not is_fly_from)
+
+    if is_route:
+        origin, destination = _detect_places(matches, question, ctx)
+        if origin and destination:
+            facts.missing.append(
+                f'ruta completa entre {origin} y {destination} (aún no está en la base)'
+                if lang == 'es'
+                else f'complete route between {origin} and {destination} '
+                     '(not in the database yet)')
+        else:
+            facts.missing.append('ruta de viaje (aún no está en la base)' if lang == 'es'
+                                 else 'travel route (not in the database yet)')
+        return
+
+    if is_price:
+        origin, destination = _detect_places(matches, question, ctx)
+        if origin and destination:
+            cost = _safe(db.flight_cost, origin, destination, faction, lang)
+            if cost:
+                if lang == 'es':
+                    facts.lines.append(f"Vuelo {cost['origin']} -> "
+                                       f"{cost['destination']}: {cost['cost']}")
+                else:
+                    facts.lines.append(f"Flight {cost['origin']} -> "
+                                       f"{cost['destination']}: {cost['cost']}")
+                _add_source(facts, f"flight_cost:{cost['origin']}->{cost['destination']}")
+            else:
+                facts.missing.append(f'vuelo directo entre {origin} y {destination}'
+                                     if lang == 'es'
+                                     else f'direct flight between {origin} and {destination}')
+        return
+
+    if is_fly_from:
+        zone_matches = [match for match in matches if match.get('kind') == 'zone']
+        place = zone_matches[0].get('name') if zone_matches else current_zone
+        if not place:
+            return
+        data = _safe(db.flights_from, place, faction, lang)
+        if data and data.get('flights'):
+            if lang == 'es':
+                text = (f"Vuelos desde {data['origin']}: " + '; '.join(
+                    f"{flight['destination']} ({flight['cost']})"
+                    for flight in data['flights'][:12]))
+            else:
+                text = (f"Flights from {data['origin']}: " + '; '.join(
+                    f"{flight['destination']} ({flight['cost']})"
+                    for flight in data['flights'][:12]))
+            facts.lines.append(text)
+            _add_source(facts, f"flights_from:{data['origin']}")
+        return
+
+    if not any(word in normalized for word in FLIGHT_KEYWORDS):
+        return
+
+    continent = _safe(db.zone_continent, ctx.get('zone'))
+    if continent is None:
+        continent = 0
+    points = _safe(db.flight_points, continent, faction, lang) or []
+    points = [point for point in points if _flight_name_ok(point.get('name') or '')]
+    if not points:
+        facts.missing.append('puntos de vuelo para tu facción' if lang == 'es'
+                             else 'flight points for your faction')
+        return
+    current = normalize(current_zone)
+
+    def sort_key(point):
+        name = normalize(point.get('name') or '')
+        here = 0 if current and current in name else 1
+        return (here, point.get('id') or 0)
+
+    points.sort(key=sort_key)
+    names = '; '.join(point.get('name') or '' for point in points[:12])
+    if lang == 'es':
+        facts.lines.append(f'Puntos de vuelo de tu facción en este continente: {names}')
+    else:
+        facts.lines.append(f"Your faction's flight points on this continent: {names}")
+    _add_source(facts, f'flights:{continent}:{faction or "any"}')
+
+
+def _flight_name_ok(name: str) -> bool:
+    normalized = normalize(name)
+    if normalized.startswith('zz'):
+        return False
+    if 'quest path' in normalized:
+        return False
+    return ':' not in name
 
 
 def _detect_spells(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
@@ -288,6 +591,21 @@ def _detect_spells(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> N
     _add_source(facts, f'spells:{mask}:{level}')
 
 
+def _spell_level(normalized: str, ctx: dict):
+    if re.search(r'\b(siguiente|proximo|next)\s+(nivel|level)\b', normalized):
+        base = _ctx_level(ctx)
+        return base + 1 if base is not None else None
+    match = re.search(r'\b(?:nivel|level|lvl)\s*(\d{1,2})\b', normalized)
+    if match:
+        return int(match.group(1))
+    if re.search(r'\ba mi nivel\b|\bmy level\b', normalized):
+        return _ctx_level(ctx)
+    numbers = re.findall(r'\b(60|[1-5]\d|[1-9])\b', normalized)
+    if numbers:
+        return int(numbers[0])
+    return _ctx_level(ctx)
+
+
 def _detect_trainers(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
     if not any(word in normalized for word in TRAINER_KEYWORDS):
         return
@@ -320,51 +638,6 @@ def _detect_trainers(facts: Facts, db, normalized: str, lang: str, ctx: dict) ->
         else:
             facts.lines.append(f'{class_name} trainer: {name} in {place}')
     _add_source(facts, f'trainers:{mask}:{faction or "any"}')
-
-
-def _flight_name_ok(name: str) -> bool:
-    normalized = normalize(name)
-    if normalized.startswith('zz'):
-        return False
-    if 'quest path' in normalized:
-        return False
-    return ':' not in name
-
-
-def _detect_flights(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
-    if not any(word in normalized for word in FLIGHT_KEYWORDS):
-        return
-    continent = None
-    try:
-        continent = db.zone_continent(ctx.get('zone'))
-    except Exception:
-        continent = None
-    if continent is None:
-        continent = 0
-    faction = _faction(ctx.get('fac'))
-    try:
-        points = db.flight_points(continent, faction, lang)
-    except Exception:
-        points = []
-    points = [point for point in points if _flight_name_ok(point.get('name') or '')]
-    if not points:
-        facts.missing.append('puntos de vuelo para tu facción' if lang == 'es'
-                             else 'flight points for your faction')
-        return
-    current_zone = normalize(ctx.get('zone') or '')
-
-    def sort_key(point):
-        name = normalize(point.get('name') or '')
-        here = 0 if current_zone and current_zone in name else 1
-        return (here, point.get('id') or 0)
-
-    points.sort(key=sort_key)
-    names = '; '.join(point.get('name') or '' for point in points[:12])
-    if lang == 'es':
-        facts.lines.append(f'Puntos de vuelo de tu facción en este continente: {names}')
-    else:
-        facts.lines.append(f"Your faction's flight points on this continent: {names}")
-    _add_source(facts, f'flights:{continent}:{faction or "any"}')
 
 
 def _detect_talents(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
@@ -427,22 +700,12 @@ def _detect_quest_list(facts: Facts, db, normalized: str, lang: str, ctx: dict) 
             line = f'Quest "{quest_name}" (level {level_text})'
         if parts:
             line += ': ' + '; '.join(parts)
+        details = _safe(db.quest_details, quest['id'], lang)
+        if details and details.get('xp'):
+            line += (f' da {details["xp"]} de experiencia' if lang == 'es'
+                     else f' gives {details["xp"]} XP')
         facts.lines.append(line)
         _add_source(facts, f'quest:{quest["id"]}')
-
-
-def _detect_gaps(facts: Facts, normalized: str, lang: str, has_dungeon: bool) -> None:
-    mentions_level = any(word in normalized for word in ('nivel', 'level', 'rango'))
-    mentions_dungeon = any(word in normalized
-                           for word in ('mazmorra', 'dungeon', 'instancia', 'instance'))
-    if mentions_level and (has_dungeon or mentions_dungeon):
-        facts.missing.append('rangos de nivel de mazmorras' if lang == 'es'
-                             else 'dungeon level ranges')
-    words = set(normalized.split())
-    if ('experiencia' in normalized or 'experience' in normalized
-            or 'xp' in words or 'exp' in words):
-        facts.missing.append('experiencia necesaria por nivel' if lang == 'es'
-                             else 'experience needed per level')
 
 
 def retrieve(message, db) -> Facts:
@@ -462,13 +725,19 @@ def retrieve(message, db) -> Facts:
             question = ''
         normalized = normalize(question)
 
-        has_dungeon = _detect_entities(facts, db, question, lang, ctx)
+        matches = _safe(db.match_entities, question, lang) or []
+        has_dungeon, dungeon_level_answered = _detect_entities(
+            facts, db, matches, normalized, lang, ctx)
+        has_quest = any(match.get('kind') == 'quest' for match in matches)
+        _detect_zone_intents(facts, db, matches, normalized, lang, ctx)
+        _detect_dungeon_intents(facts, db, matches, normalized, lang, ctx,
+                                has_dungeon, dungeon_level_answered)
+        _detect_xp(facts, db, normalized, lang, ctx, has_quest)
+        _detect_flights(facts, db, matches, question, normalized, lang, ctx)
         _detect_spells(facts, db, normalized, lang, ctx)
         _detect_trainers(facts, db, normalized, lang, ctx)
-        _detect_flights(facts, db, normalized, lang, ctx)
         _detect_talents(facts, db, normalized, lang, ctx)
         _detect_quest_list(facts, db, normalized, lang, ctx)
-        _detect_gaps(facts, normalized, lang, has_dungeon)
 
         facts.lines = list(dict.fromkeys(facts.lines))
         facts.missing = list(dict.fromkeys(facts.missing))

@@ -200,6 +200,9 @@ class WowDb:
             zone_id = row['zone_id']
             x = _round1(row['x'])
             y = _round1(row['y'])
+            # Los PNJ de dentro de instancias llevan (-1, -1) de relleno: se conserva la zona sin coordenadas.
+            if x is not None and y is not None and (x < 0 or y < 0):
+                x = y = None
             key = (zone_id, x, y)
             if key in seen:
                 continue
@@ -613,9 +616,15 @@ class WowDb:
             'max': _as_int(row['nivel_max']),
         }
 
+    def _zone_level_rows(self):
+        # v_zona_niveles calcula percentiles al vuelo (~2 s): se lee una vez por instancia.
+        if getattr(self, '_zone_level_cache', None) is None:
+            self._zone_level_cache = self._rows(
+                'SELECT area_id, nombre, nombre_en, nivel_min, nivel_max FROM v_zona_niveles')
+        return self._zone_level_cache
+
     def zone_levels(self, name_or_area_id, lang: str = 'es'):
-        rows = self._rows(
-            'SELECT area_id, nombre, nombre_en, nivel_min, nivel_max FROM v_zona_niveles')
+        rows = self._zone_level_rows()
         if not rows:
             return None
         area_id = _as_int(name_or_area_id)
@@ -640,8 +649,7 @@ class WowDb:
         # v_zona_niveles también trae instancias (p. ej. Sima Ígnea): no son zonas para subir de nivel.
         dungeon_areas = {_as_int(row['area_id']) for row in self._rows('SELECT area_id FROM ext_dungeons')}
         zones = []
-        for row in self._rows(
-                'SELECT area_id, nombre, nombre_en, nivel_min, nivel_max FROM v_zona_niveles'):
+        for row in self._zone_level_rows():
             low = _as_int(row['nivel_min'])
             high = _as_int(row['nivel_max'])
             if low is None or high is None or _as_int(row['area_id']) in dungeon_areas:
