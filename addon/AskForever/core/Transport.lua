@@ -179,6 +179,9 @@ function Transport.BuildMessage(question, ctx, conv)
     if ctx.mapID ~= nil then
         context.map = ctx.mapID
     end
+    if type(ctx.knownFlights) == 'table' and #ctx.knownFlights > 0 then
+        context.fp = ctx.knownFlights
+    end
 
     if type(ctx.quests) == 'table' and #ctx.quests > 0 then
         local quests = {}

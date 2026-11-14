@@ -126,6 +126,14 @@ function ns.Context.Collect()
         end
     end
 
+    local knownFlights
+    if ns.Flights and type(ns.Flights.KnownIds) == 'function' then
+        local ok, ids = pcall(ns.Flights.KnownIds)
+        if ok then
+            knownFlights = ids
+        end
+    end
+
     return {
         level = Protected(UnitLevel, 'player'),
         race = Protected(UnitRace, 'player'),
@@ -137,5 +145,6 @@ function ns.Context.Collect()
         y = y,
         mapID = mapID,
         quests = CollectQuests(),
+        knownFlights = knownFlights,
     }
 end

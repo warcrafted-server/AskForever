@@ -46,4 +46,5 @@ ns.L_enUS = {
     SLOT_BAD_ARG = 'Use a slot number between 1 and 999.',
     HELP_SLOTPROBE = '/af slotprobe N - check the signal file of slot N (diagnostics)',
     HELP_SLOTTEST = '/af slottest N - load slot N and read its data (diagnostics)',
+    FLIGHTS_SAVED = 'AskForever: %d known flight points saved for your questions.',
 }

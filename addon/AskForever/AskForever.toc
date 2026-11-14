@@ -11,6 +11,7 @@
 locales/enUS.lua
 locales/esES.lua
 core/Init.lua
+core/Flights.lua
 core/Context.lua
 core/Prompt.lua
 core/Json.lua
