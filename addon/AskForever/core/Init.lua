@@ -3,6 +3,7 @@ local ADDON, ns = ...
 local DEFAULTS = {
     minimap = { angle = 225, hide = false },
     window = {},
+    welcomeShown = false,
 }
 
 -- Copia recursiva: rellena solo las claves ausentes y respeta lo ya guardado.

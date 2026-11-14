@@ -2,7 +2,7 @@
 
 **[English version](INSTALL_GUIDE.md)**
 
-Esta guía es para **AskForever 0.3.0-beta.1**. La primera vez se tarda unos **10 minutos**.
+Esta guía es para **AskForever 0.3.0-beta.2**. La primera vez se tarda unos **10 minutos**.
 
 AskForever tiene dos partes:
 
@@ -32,9 +32,11 @@ Necesitas:
 3. Comprueba que la carpeta contiene `AskForever.toc`: `...\AddOns\AskForever\AskForever.toc`.
 4. Si el juego está abierto, ciérralo del todo y vuelve a abrirlo. `/reload` no carga addons nuevos. En la selección de personaje, pulsa **AddOns** y marca **AskForever**.
 
+La primera vez que entres al juego con el addon, AskForever muestra una ventana de bienvenida con estos pasos y los enlaces al companion y a la guía de la clave gratuita. Puedes abrirla de nuevo cuando quieras con `/af help` o el botón **?** de la ventana del addon.
+
 ## 2. Instalar el companion
 
-1. En la [página de Releases](https://github.com/warcrafted-server/AskForever/releases), descarga **`AskForever-Setup-0.3.0-beta.1.exe`**. El nombre incluye la versión.
+1. En la [página de Releases](https://github.com/warcrafted-server/AskForever/releases), descarga **`AskForever-Setup-0.3.0-beta.2.exe`**. El nombre incluye la versión.
 2. Haz doble clic en el archivo para ejecutarlo.
 
 ![Selección de idioma del instalador](img/v0.3.0-install-language.png)

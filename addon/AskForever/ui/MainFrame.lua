@@ -167,12 +167,32 @@ local function EnsureMainFrame()
         end
     end
 
+    local helpButton = ns.UI.CreateButton(body, ns.L.HELP_BUTTON, 24, 24, function()
+        if type(ns.UI.ShowHelp) == 'function' then
+            ns.UI.ShowHelp()
+        end
+    end)
+    helpButton:SetPoint('BOTTOMRIGHT', body, 'BOTTOMRIGHT', -8, 16)
+    helpButton:SetScript('OnEnter', function(self)
+        GameTooltip:SetOwner(self, 'ANCHOR_TOP')
+        GameTooltip:SetText(ns.L.HELP_BUTTON_TIP)
+        GameTooltip:Show()
+    end)
+    helpButton:SetScript('OnLeave', function()
+        GameTooltip:Hide()
+    end)
+
+    if reportButton then
+        reportButton:ClearAllPoints()
+        reportButton:SetPoint('BOTTOMRIGHT', helpButton, 'BOTTOMLEFT', -8, 0)
+    end
+
     local note = ns.UI.CreateText(body, Theme.font.small, colors.textDim)
     note:SetPoint('LEFT', copyButton, 'RIGHT', 10, 0)
     if reportButton then
         note:SetPoint('RIGHT', reportButton, 'LEFT', -10, 0)
     else
-        note:SetPoint('RIGHT', body, 'RIGHT', -8, 0)
+        note:SetPoint('RIGHT', helpButton, 'LEFT', -10, 0)
     end
     note:SetJustifyH('LEFT')
     note:SetText(ns.L.OFFLINE_NOTE)

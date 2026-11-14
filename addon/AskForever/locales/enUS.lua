@@ -22,7 +22,24 @@ ns.L_enUS = {
     HELP_OPEN = '/af - open or close the window',
     HELP_RESET = '/af reset - center the window again',
     HELP_MINIMAP = '/af minimap - show or hide the minimap button',
-    HELP_HELP = '/af help - show this help',
+    HELP_HELP = '/af help - shows this help and the setup window',
+    HELP_WINDOW_TITLE = 'Welcome to AskForever',
+    HELP_INTRO = 'AskForever answers your questions about the game inside WoW. To get answers it needs '
+        .. 'the free AskForever companion program running on your PC while you play.',
+    HELP_STEP_COMPANION = 'Step 1: Download and install the companion (Windows) from GitHub Releases.',
+    HELP_STEP_KEY = 'Step 2: Create your free Google Gemini key (no card needed); the companion asks '
+        .. 'for it the first time.',
+    HELP_STEP_PLAY = 'Step 3: Open the companion, then ask with /af or the minimap button. Full steps '
+        .. 'in the installation guide.',
+    HELP_COPY = 'Copy',
+    HELP_COPY_HINT = 'Copy: press Copy, then Ctrl+C',
+    HELP_OK = 'OK',
+    HELP_FOOTER = "Without the companion you can still use 'Copy prompt' and paste it into any AI; "
+        .. "'/af help' or the '?' button shows this window again.",
+    HELP_BUTTON = '?',
+    HELP_BUTTON_TIP = 'Help and setup',
+    HELP_URL_GUIDE = 'https://github.com/warcrafted-server/AskForever/blob/main/docs/INSTALL_GUIDE.md',
+    HELP_URL_KEY = 'https://github.com/warcrafted-server/AskForever/blob/main/docs/GEMINI_KEY.md',
     RESET_DONE = 'Window position reset.',
     UNKNOWN_COMMAND = 'Unknown command. Type /af help to see the command list.',
     BINDING_TOGGLE = 'Open or close AskForever',

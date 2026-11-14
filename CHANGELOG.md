@@ -4,6 +4,18 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+## [0.3.0-beta.2] - 2026-11-15
+
+Welcome and help window with the setup steps and links. / Ventana de bienvenida y ayuda con los pasos de instalación y los enlaces.
+
+### English
+- Added: welcome window on first login that explains the companion, the free Gemini key and the setup links, with Copy buttons.
+- Added: help window from the '?' button in the main window and from '/af help'.
+
+### Español
+- Añadido: ventana de bienvenida en el primer inicio de sesión que explica el companion, la clave gratuita de Gemini y los enlaces de instalación, con botones Copiar.
+- Añadido: ventana de ayuda desde el botón '?' de la ventana principal y desde '/af help'.
+
 ## [0.3.0-beta.1] - 2026-11-14
 
 First functional public beta: the addon on CurseForge and the companion installer on GitHub Releases. / Primera beta pública funcional: el addon en CurseForge y el instalador del companion en GitHub Releases.

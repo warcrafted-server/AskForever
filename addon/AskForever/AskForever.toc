@@ -5,7 +5,7 @@
 ## Notes-esES: Asistente de IA para WoW Forever. Genera un prompt con el contexto de tu personaje.
 ## Author: WarCrafted
 ## IconTexture: Interface\AddOns\AskForever\Media\Icon
-## Version: 0.3.0-beta.1
+## Version: 0.3.0-beta.2
 ## SavedVariables: AskForeverDB
 
 locales/enUS.lua
@@ -21,6 +21,7 @@ ui/Theme.lua
 ui/Window.lua
 ui/MainFrame.lua
 ui/CopyBox.lua
+ui/Help.lua
 ui/Minimap.lua
 ui/Commands.lua
 Bindings.xml

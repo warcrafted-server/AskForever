@@ -153,6 +153,9 @@ SlashCmdList.ASKFOREVER = function(msg)
             print(ns.L.HELP_SLOTTEST)
         end
         print(ns.L.HELP_HELP)
+        if type(ns.UI.ShowHelp) == 'function' then
+            ns.UI.ShowHelp()
+        end
     elseif command == 'reset' then
         ns.UI.ResetPosition()
         print(ns.L.RESET_DONE)
