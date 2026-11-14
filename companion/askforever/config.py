@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import os
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Optional
 
 import keyring
@@ -18,6 +19,9 @@ MODEL_ENV = 'ASKFOREVER_MODEL'
 KEY_ENV = 'ASKFOREVER_GEMINI_KEY'
 DEFAULT_PROVIDER = 'gemini'
 PROVIDER_ENV = 'ASKFOREVER_PROVIDER'
+TEMPERATURE_ENV = 'ASKFOREVER_TEMPERATURE'
+DEFAULT_TEMPERATURE = 0.2
+WOWDATA_ENV = 'ASKFOREVER_WOWDATA'
 
 
 @dataclass(frozen=True)
@@ -112,3 +116,44 @@ def mask_key(key: str) -> str:
     """Vista segura de la clave: cuatro primeros caracteres y longitud."""
     key = key or ''
     return f'{key[:4]}…({len(key)} caracteres)'
+
+
+def get_temperature() -> float:
+    """Temperatura configurada en ASKFOREVER_TEMPERATURE, recortada a 0..2."""
+    value = os.environ.get(TEMPERATURE_ENV, '').strip()
+    try:
+        temperature = float(value)
+    except (TypeError, ValueError):
+        return DEFAULT_TEMPERATURE
+    return max(0.0, min(2.0, temperature))
+
+
+def _sibling_wowdata_path() -> Path:
+    return Path(__file__).resolve().parents[2].parent / 'wowdata' / 'datos' / 'wow.sqlite'
+
+
+def get_wowdata_path() -> Optional[Path]:
+    """Ruta de la base de wowdata: entorno o hermana, solo si existe."""
+    env_path = os.environ.get(WOWDATA_ENV, '').strip()
+    if env_path:
+        candidate = Path(env_path)
+        if candidate.is_file():
+            return candidate
+    sibling = _sibling_wowdata_path()
+    if sibling.is_file():
+        return sibling
+    return None
+
+
+def open_wowdata():
+    """Abre la base de wowdata en solo lectura, o None si no está disponible."""
+    from askforever.data.wowdb import WowDb
+
+    path = get_wowdata_path()
+    if path is None:
+        return None
+    database = WowDb(path)
+    if not database.available():
+        database.close()
+        return None
+    return database

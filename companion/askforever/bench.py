@@ -4,12 +4,14 @@ from __future__ import annotations
 
 import json
 import time
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field
 from datetime import datetime
 from pathlib import Path
 from typing import Callable, Optional
 
+from askforever import config
 from askforever.engine.prompt import build_prompt
+from askforever.engine.retriever import retrieve
 from askforever.providers.openai_compat import ProviderError, provider_from_config
 
 DEFAULT_QUESTIONS = Path(__file__).resolve().parent.parent / 'bench' / 'questions.es.json'
@@ -53,6 +55,7 @@ class Result:
     error_kind: str = ''
     error_detail: str = ''
     skipped: bool = False
+    sources: list[str] = field(default_factory=list)
 
 
 def parse_target(text: str) -> Target:
@@ -132,12 +135,16 @@ def run_bench(
     repeat: int = 1,
     pause: float = 1.5,
     max_tokens=None,
+    db=None,
+    temperature=None,
     sleep: Callable[[float], None] = time.sleep,
     clock: Callable[[], float] = time.monotonic,
     on_progress: Optional[Callable] = None,
 ) -> list[Result]:
     """Lanza las preguntas contra cada objetivo y devuelve todos los resultados."""
     repeat = max(1, int(repeat))
+    if temperature is None:
+        temperature = config.get_temperature()
     total = len(questions) * len(targets) * repeat
     results = []
     index = 0
@@ -181,17 +188,30 @@ def run_bench(
                 if calls:
                     sleep(pause)
                 calls += 1
-                system, user = build_prompt(build_message(question))
+                message = build_message(question)
+                facts_text = ''
+                sources = []
+                if db is not None:
+                    try:
+                        facts = retrieve(message, db)
+                        sources = list(facts.sources)
+                        facts_text = facts.render(question.lang)
+                    except Exception:
+                        facts_text, sources = '', []
+                system, user = build_prompt(message, facts_text)
                 started = clock()
                 try:
-                    text = provider.chat(system, user, max_tokens=max_tokens)
+                    text = provider.chat(system, user, max_tokens=max_tokens,
+                                         temperature=temperature)
                     latency = int((clock() - started) * 1000)
-                    result = Result(question.id, target_name, True, text, latency)
+                    result = Result(question.id, target_name, True, text, latency,
+                                    sources=sources)
                     streak = 0
                 except ProviderError as error:
                     latency = int((clock() - started) * 1000)
                     result = Result(question.id, target_name, False, '', latency,
-                                    error_kind=error.kind, error_detail=error.detail)
+                                    error_kind=error.kind, error_detail=error.detail,
+                                    sources=sources)
                     if error.kind == 'rate_limit':
                         streak += 1
                     else:
@@ -201,7 +221,8 @@ def run_bench(
                 except Exception as error:
                     latency = int((clock() - started) * 1000)
                     result = Result(question.id, target_name, False, '', latency,
-                                    error_kind='unknown', error_detail=str(error))
+                                    error_kind='unknown', error_detail=str(error),
+                                    sources=sources)
                     streak = 0
 
                 emit(target, question, result)
@@ -261,12 +282,17 @@ def _ms_text(value) -> str:
     return '-' if value is None else f'{value:.1f}'
 
 
-def render_markdown(questions, targets, results, started: str) -> str:
+def render_markdown(questions, targets, results, started: str, used_database=False,
+                    temperature=None) -> str:
     """Informe Markdown con la tabla resumen y todas las respuestas para puntuar."""
+    if temperature is None:
+        temperature = config.get_temperature()
     lines = [
         '# Comparador de modelos de AskForever',
         '',
         f'Fecha: {started}',
+        f'Base de datos: {"usada" if used_database else "no usada"}',
+        f'Temperatura: {temperature}',
         '',
         '## Resumen',
         '',
@@ -311,14 +337,18 @@ def render_markdown(questions, targets, results, started: str) -> str:
                     lines.append(f'- Estado: ERROR {result.error_kind}')
                     if result.error_detail:
                         lines.append(f'- Detalle: {result.error_detail}')
+                sources = ', '.join(result.sources) if result.sources else 'ninguno'
+                lines.append(f'- Datos usados: {sources}')
                 lines += ['', 'Puntuación (1-5): ___', '']
 
     lines += ['', '## Conclusión', '', '']
     return '\n'.join(lines)
 
 
-def save_report(markdown, results, out_dir=None):
+def save_report(markdown, results, out_dir=None, used_database=False, temperature=None):
     """Guarda el informe Markdown y los datos JSON en tools/out."""
+    if temperature is None:
+        temperature = config.get_temperature()
     directory = Path(out_dir) if out_dir else DEFAULT_OUT_DIR
     directory.mkdir(parents=True, exist_ok=True)
     stamp = datetime.now().strftime('%Y%m%d_%H%M%S')
@@ -326,6 +356,8 @@ def save_report(markdown, results, out_dir=None):
     json_path = directory / f'bench_{stamp}.json'
     md_path.write_text(markdown, encoding='utf-8')
     payload = {
+        'used_database': used_database,
+        'temperature': temperature,
         'results': [asdict(result) for result in results],
         'summary': summarize(results),
     }

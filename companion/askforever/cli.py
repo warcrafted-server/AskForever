@@ -83,6 +83,18 @@ def format_message(data: bytes) -> str:
     return '\n'.join(lines)
 
 
+def _open_data(no_data):
+    if no_data:
+        print('Base de datos: no disponible (sin datos verificados)')
+        return None
+    database = config.open_wowdata()
+    if database is None:
+        print('Base de datos: no disponible (sin datos verificados)')
+    else:
+        print(f'Base de datos: {database.path}')
+    return database
+
+
 def _listen(args: argparse.Namespace) -> int:
     set_dpi_awareness()
     window = find_game_window()
@@ -92,6 +104,7 @@ def _listen(args: argparse.Namespace) -> int:
         print(f'Ventana del juego: {window.title} ({window.width}x{window.height})')
     print('Escuchando la tira de píxeles (Ctrl+C para salir).')
 
+    database = _open_data(args.no_data) if args.ask else None
     provider = None
     provider_failed = False
 
@@ -130,7 +143,7 @@ def _listen(args: argparse.Namespace) -> int:
             return
 
         def answer_in_background():
-            result = answer_message(message.data, active)
+            result = answer_message(message.data, active, db=database)
             if result.ok:
                 print(f'Respuesta ({result.elapsed_ms} ms):')
                 print(result.text)
@@ -147,6 +160,8 @@ def _listen(args: argparse.Namespace) -> int:
     except KeyboardInterrupt:
         stop_event.set()
     finally:
+        if database is not None:
+            database.close()
         print()
         print(
             f'Capturas: {grabber.captures} · marcos válidos: {grabber.valid_frames} · '
@@ -236,22 +251,35 @@ def _ask(args: argparse.Namespace) -> int:
     }
     data = json.dumps(message, ensure_ascii=False).encode('utf-8')
 
+    database = _open_data(args.no_data)
     try:
-        if args.provider is None and args.model is None:
-            provider = provider_from_config()
-        else:
-            provider = provider_from_config(args.provider, args.model)
-    except ValueError as error:
-        print(error)
-        return 1
-    except ProviderError as error:
-        print(error.user_message(args.lang))
-        return 1
+        try:
+            if args.provider is None and args.model is None:
+                provider = provider_from_config()
+            else:
+                provider = provider_from_config(args.provider, args.model)
+        except ValueError as error:
+            print(error)
+            return 1
+        except ProviderError as error:
+            print(error.user_message(args.lang))
+            return 1
 
-    result = answer_message(data, provider)
+        result = answer_message(data, provider, db=database, temperature=args.temperature)
+    finally:
+        if database is not None:
+            database.close()
+
     if result.ok:
         print(f'Tiempo: {result.elapsed_ms} ms')
         print(result.text)
+        if args.show_data:
+            print('Datos usados:')
+            if result.facts:
+                for line in result.facts:
+                    print(f'- {line}')
+            else:
+                print('- ninguno')
         return 0
     print(result.text)
     return 1
@@ -290,6 +318,7 @@ def _overlay_demo() -> int:
 def _run_companion(args: argparse.Namespace) -> int:
     set_dpi_awareness()
     overlay = Overlay(ttl=args.ttl)
+    database = _open_data(args.no_data)
 
     provider = None
     provider_error = None
@@ -330,7 +359,7 @@ def _run_companion(args: argparse.Namespace) -> int:
             return
 
         def answer():
-            result = answer_message(message.data, provider)
+            result = answer_message(message.data, provider, db=database)
             if current != generation['value']:
                 return
             if result.ok:
@@ -358,6 +387,8 @@ def _run_companion(args: argparse.Namespace) -> int:
         stop_event.set()
         overlay.close()
         grabber_thread.join(timeout=1.0)
+        if database is not None:
+            database.close()
 
     print()
     print(
@@ -450,59 +481,71 @@ def _print_bench_summary(summary) -> None:
 
 def _bench(args: argparse.Namespace) -> int:
     started = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    database = _open_data(args.no_data)
+    temperature = args.temperature if args.temperature is not None else config.get_temperature()
     try:
-        targets = _bench_targets(args.targets)
-    except ValueError as error:
-        print(error)
-        return 2
-    if not targets:
-        print('No hay objetivos con clave. Guarda una clave con: set-key --provider NOMBRE')
-        print('Consulta los proveedores y sus claves con: providers')
-        return 2
-
-    try:
-        questions = load_questions(args.questions)
-    except ValueError as error:
-        print(error)
-        return 2
-
-    if args.only:
-        wanted = {item.strip() for item in args.only.split(',') if item.strip()}
-        questions = [question for question in questions if question.id in wanted]
-        if not questions:
-            print('Ninguna pregunta coincide con --only.')
+        try:
+            targets = _bench_targets(args.targets)
+        except ValueError as error:
+            print(error)
+            return 2
+        if not targets:
+            print('No hay objetivos con clave. Guarda una clave con: set-key --provider NOMBRE')
+            print('Consulta los proveedores y sus claves con: providers')
             return 2
 
-    def on_progress(index, total, target, question, result):
-        if result.skipped:
-            state = f'SALTADA: {result.error_detail or result.error_kind}'
-        elif result.ok:
-            state = f'OK {result.latency_ms} ms'
-        else:
-            state = f'ERROR {result.error_kind}'
-        print(f'[{index}/{total}] {target} {question.id} {state}')
+        try:
+            questions = load_questions(args.questions)
+        except ValueError as error:
+            print(error)
+            return 2
 
-    results = run_bench(
-        questions,
-        targets,
-        provider_factory=provider_from_config,
-        repeat=args.repeat,
-        pause=args.pause,
-        max_tokens=args.max_tokens,
-        on_progress=on_progress,
-    )
+        if args.only:
+            wanted = {item.strip() for item in args.only.split(',') if item.strip()}
+            questions = [question for question in questions if question.id in wanted]
+            if not questions:
+                print('Ninguna pregunta coincide con --only.')
+                return 2
 
-    summary = summarize(results)
-    _print_bench_summary(summary)
-    markdown = render_markdown(questions, targets, results, started)
-    try:
-        md_path, json_path = save_report(markdown, results)
-    except OSError as error:
-        print(f'No se pudo guardar el informe: {error}')
-        return 1
-    print(f'Informe: {md_path}')
-    print(f'Datos: {json_path}')
-    return 0 if any(result.ok for result in results) else 1
+        def on_progress(index, total, target, question, result):
+            if result.skipped:
+                state = f'SALTADA: {result.error_detail or result.error_kind}'
+            elif result.ok:
+                state = f'OK {result.latency_ms} ms'
+            else:
+                state = f'ERROR {result.error_kind}'
+            print(f'[{index}/{total}] {target} {question.id} {state}')
+
+        results = run_bench(
+            questions,
+            targets,
+            provider_factory=provider_from_config,
+            repeat=args.repeat,
+            pause=args.pause,
+            max_tokens=args.max_tokens,
+            db=database,
+            temperature=temperature,
+            on_progress=on_progress,
+        )
+
+        summary = summarize(results)
+        _print_bench_summary(summary)
+        markdown = render_markdown(questions, targets, results, started,
+                                   used_database=database is not None,
+                                   temperature=temperature)
+        try:
+            md_path, json_path = save_report(markdown, results,
+                                             used_database=database is not None,
+                                             temperature=temperature)
+        except OSError as error:
+            print(f'No se pudo guardar el informe: {error}')
+            return 1
+        print(f'Informe: {md_path}')
+        print(f'Datos: {json_path}')
+        return 0 if any(result.ok for result in results) else 1
+    finally:
+        if database is not None:
+            database.close()
 
 
 def _default_wowdb_path() -> Path:
@@ -553,7 +596,11 @@ def _print_dungeon(label: str, dungeon) -> None:
 
 
 def _data_check(args: argparse.Namespace) -> int:
-    path = args.db or os.environ.get('ASKFOREVER_WOWDATA') or str(_default_wowdb_path())
+    if args.db:
+        path = args.db
+    else:
+        resolved = config.get_wowdata_path()
+        path = str(resolved) if resolved else str(_default_wowdb_path())
     db = WowDb(path)
     if not db.available():
         print(f'No se encontro la base de datos de WoW Forever: {path}')
@@ -668,6 +715,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                         help='imprime los bytes decodificados sin formatear')
     listen.add_argument('--ask', action='store_true',
                         help='pregunta a la IA por cada mensaje recibido')
+    listen.add_argument('--no-data', action='store_true',
+                        help='no usa la base de datos de WoW')
     set_key = subparsers.add_parser('set-key', help='guarda la clave de la API de un proveedor')
     set_key.add_argument('--provider', default=None, help='proveedor del registro')
     test_key = subparsers.add_parser('test-key', help='prueba la clave y el proveedor de IA')
@@ -683,6 +732,12 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     ask.add_argument('--faction', help='facción del personaje')
     ask.add_argument('--provider', default=None, help='proveedor del registro')
     ask.add_argument('--model', default=None, help='modelo a usar')
+    ask.add_argument('--temperature', type=float, default=None,
+                     help='temperatura de la respuesta (0..2)')
+    ask.add_argument('--no-data', action='store_true',
+                     help='no usa la base de datos de WoW')
+    ask.add_argument('--show-data', action='store_true',
+                     help='muestra los datos verificados usados')
     list_models_parser = subparsers.add_parser('list-models',
                                                help='lista los modelos del proveedor')
     list_models_parser.add_argument('--provider', default=None, help='proveedor del registro')
@@ -696,6 +751,10 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     bench.add_argument('--pause', type=float, default=1.5, help='segundos entre llamadas')
     bench.add_argument('--max-tokens', type=int, default=None,
                        help='límite de tokens por respuesta')
+    bench.add_argument('--temperature', type=float, default=None,
+                       help='temperatura de las respuestas (0..2)')
+    bench.add_argument('--no-data', action='store_true',
+                       help='no usa la base de datos de WoW')
     data_check = subparsers.add_parser('data-check',
                                        help='comprueba la base de datos de WoW Forever')
     data_check.add_argument('--db', default=None, help='ruta de wow.sqlite')
@@ -706,6 +765,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                            help='segundos que se muestra cada respuesta (por defecto 30)')
     companion.add_argument('--no-ai', action='store_true',
                            help='no llama a la IA; solo muestra la pregunta recibida')
+    companion.add_argument('--no-data', action='store_true',
+                           help='no usa la base de datos de WoW')
     subparsers.add_parser('overlay-demo',
                           help='muestra el overlay de ejemplo durante 8 segundos')
 

@@ -359,7 +359,7 @@ def test_bench_command_success(monkeypatch, capsys, tmp_path):
 
     saved = {}
 
-    def fake_save(markdown, results):
+    def fake_save(markdown, results, **kwargs):
         md_path = tmp_path / 'bench.md'
         json_path = tmp_path / 'bench.json'
         md_path.write_text(markdown, encoding='utf-8')
@@ -369,7 +369,8 @@ def test_bench_command_success(monkeypatch, capsys, tmp_path):
 
     monkeypatch.setattr(cli, 'save_report', fake_save)
 
-    assert cli.main(['bench', '--targets', 'groq:modelo', '--pause', '0']) == 0
+    assert cli.main(['bench', '--targets', 'groq:modelo', '--pause', '0',
+                     '--no-data']) == 0
     output = capsys.readouterr().out
     assert 'groq:modelo q01 OK' in output
     assert 'Informe:' in output
@@ -378,14 +379,14 @@ def test_bench_command_success(monkeypatch, capsys, tmp_path):
 
 def test_bench_command_without_targets(monkeypatch, capsys):
     monkeypatch.setattr(cli.config, 'get_api_key', lambda provider=None: None)
-    assert cli.main(['bench']) == 2
+    assert cli.main(['bench', '--no-data']) == 2
     output = capsys.readouterr().out
     assert 'set-key --provider' in output
     assert 'providers' in output
 
 
 def test_bench_command_invalid_targets(capsys):
-    assert cli.main(['bench', '--targets', ':modelo']) == 2
+    assert cli.main(['bench', '--targets', ':modelo', '--no-data']) == 2
     assert 'Objetivo inválido' in capsys.readouterr().out
 
 
@@ -397,10 +398,10 @@ def test_bench_command_only_filters(monkeypatch, capsys, tmp_path):
     monkeypatch.setattr(cli, 'provider_from_config',
                         lambda provider=None, model=None: fake)
     monkeypatch.setattr(cli, 'save_report',
-                        lambda markdown, results: (tmp_path / 'a.md', tmp_path / 'a.json'))
+                        lambda markdown, results, **kwargs: (tmp_path / 'a.md', tmp_path / 'a.json'))
 
     assert cli.main(['bench', '--targets', 'groq:m', '--only', 'q01,q03',
-                     '--pause', '0']) == 0
+                     '--pause', '0', '--no-data']) == 0
     assert len(fake.calls) == 2
     output = capsys.readouterr().out
     assert 'q01' in output
@@ -416,9 +417,10 @@ def test_bench_command_returns_1_when_nothing_answered(monkeypatch, capsys, tmp_
     monkeypatch.setattr(cli, 'provider_from_config',
                         lambda provider=None, model=None: fake)
     monkeypatch.setattr(cli, 'save_report',
-                        lambda markdown, results: (tmp_path / 'a.md', tmp_path / 'a.json'))
+                        lambda markdown, results, **kwargs: (tmp_path / 'a.md', tmp_path / 'a.json'))
 
-    assert cli.main(['bench', '--targets', 'groq:m', '--pause', '0']) == 1
+    assert cli.main(['bench', '--targets', 'groq:m', '--pause', '0',
+                     '--no-data']) == 1
 
 
 def test_bench_command_default_targets(monkeypatch, capsys, tmp_path):
@@ -435,9 +437,9 @@ def test_bench_command_default_targets(monkeypatch, capsys, tmp_path):
     monkeypatch.setattr(cli, 'load_questions', lambda path=None: questions)
     monkeypatch.setattr(cli, 'provider_from_config', factory)
     monkeypatch.setattr(cli, 'save_report',
-                        lambda markdown, results: (tmp_path / 'a.md', tmp_path / 'a.json'))
+                        lambda markdown, results, **kwargs: (tmp_path / 'a.md', tmp_path / 'a.json'))
 
-    assert cli.main(['bench', '--pause', '0']) == 0
+    assert cli.main(['bench', '--pause', '0', '--no-data']) == 0
     assert created == [('gemini', None), ('groq', None)]
     output = capsys.readouterr().out
     assert 'Aviso: mistral no tiene modelo por defecto' in output

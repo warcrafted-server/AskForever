@@ -4,10 +4,12 @@ from __future__ import annotations
 
 import json
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Optional
 
+from askforever import config
 from askforever.engine.prompt import build_prompt
+from askforever.engine.retriever import retrieve
 from askforever.providers.openai_compat import ProviderError
 
 MAX_ANSWER = 900
@@ -32,6 +34,8 @@ class Answer:
     detail: str = ''
     elapsed_ms: int = 0
     question: str = ''
+    facts: list[str] = field(default_factory=list)
+    sources: list[str] = field(default_factory=list)
 
 
 def _is_spanish(lang) -> bool:
@@ -87,7 +91,7 @@ def _clean_answer(text) -> str:
     return text
 
 
-def answer_message(data: bytes, provider, *, max_tokens=None) -> Answer:
+def answer_message(data: bytes, provider, *, max_tokens=None, db=None, temperature=None) -> Answer:
     """Responde a un mensaje de la tira; nunca lanza."""
     message = parse_message(data)
     if message is None:
@@ -97,21 +101,37 @@ def answer_message(data: bytes, provider, *, max_tokens=None) -> Answer:
 
     lang = message.get('lang') or 'enUS'
     question = str(message.get('q')).strip()
-    system, user = build_prompt(message)
+
+    facts_lines = []
+    sources = []
+    facts_text = ''
+    if db is not None:
+        try:
+            facts = retrieve(message, db)
+            facts_lines = list(facts.lines)
+            sources = list(facts.sources)
+            facts_text = facts.render(lang)
+        except Exception:
+            facts_lines, sources, facts_text = [], [], []
+
+    system, user = build_prompt(message, facts_text)
+    if temperature is None:
+        temperature = config.get_temperature()
 
     started = time.monotonic()
     try:
-        response = provider.chat(system, user, max_tokens=max_tokens)
+        response = provider.chat(system, user, max_tokens=max_tokens, temperature=temperature)
     except ProviderError as error:
         elapsed_ms = int((time.monotonic() - started) * 1000)
         return Answer(False, error.user_message(lang), lang, detail=error.kind,
-                      elapsed_ms=elapsed_ms, question=question)
+                      elapsed_ms=elapsed_ms, question=question, facts=facts_lines,
+                      sources=sources)
     except Exception:
         elapsed_ms = int((time.monotonic() - started) * 1000)
         text = _UNKNOWN_TEXT['es' if _is_spanish(lang) else 'en']
         return Answer(False, text, lang, detail='unknown', elapsed_ms=elapsed_ms,
-                      question=question)
+                      question=question, facts=facts_lines, sources=sources)
 
     elapsed_ms = int((time.monotonic() - started) * 1000)
     return Answer(True, _clean_answer(response), lang, detail='', elapsed_ms=elapsed_ms,
-                  question=question)
+                  question=question, facts=facts_lines, sources=sources)
