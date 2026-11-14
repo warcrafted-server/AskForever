@@ -13,7 +13,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional, Sequence
 
-from askforever import config
+from askforever import config, updates
 from askforever.bench import (
     Target,
     load_questions,
@@ -33,6 +33,16 @@ from askforever.overlay.supervisor import OverlaySupervisor
 from askforever.overlay.window import Overlay, OverlayUnavailable
 from askforever.providers.openai_compat import ProviderError, list_models, provider_from_config
 from askforever.web.wiki import WIKI_PAGE_URL
+
+
+def user_data_dir() -> Path:
+    """Carpeta de datos gestionados del companion."""
+    return config.user_data_dir()
+
+
+def check_and_update(*args, **kwargs):
+    """Comprueba e instala datos; delega para poder sustituirlo en pruebas."""
+    return updates.check_and_update(*args, **kwargs)
 
 
 def _context_summary(ctx) -> str:
@@ -113,6 +123,45 @@ def _open_web(no_web):
     return web
 
 
+def _update_game_data():
+    """Comprueba e instala los datos gestionados, con progreso y resultado."""
+    print('Comprobando datos del juego...')
+    last = {'bucket': -10}
+
+    def progress(downloaded, total):
+        if not total:
+            return
+        percent = min(100, int(downloaded * 100 / total))
+        bucket = percent - percent % 10
+        if bucket != last['bucket']:
+            last['bucket'] = bucket
+            print(f'Descargando datos: {bucket} %')
+
+    status, value = check_and_update(user_data_dir(), progress=progress)
+    if status == 'updated':
+        print(f'Datos actualizados a {value}')
+    elif status == 'current':
+        print(f'Datos del juego: {value}')
+    elif status == 'offline':
+        if value:
+            print(f'Sin conexion: se usan los datos guardados ({value})')
+        else:
+            print('Sin datos del juego: las respuestas tendran menos informacion')
+    else:
+        detail = str(value).encode('ascii', 'replace').decode('ascii')
+        print(f'No se pudieron actualizar los datos: {detail}')
+    return status, value
+
+
+def _update_data() -> int:
+    status, value = _update_game_data()
+    if status in ('updated', 'current'):
+        return 0
+    if status == 'offline' and value:
+        return 0
+    return 1
+
+
 def _handle_report(document, last_exchange, lock, overlay=None) -> None:
     """Gestiona un informe de desarrollo sin pasar por la IA ni la memoria."""
     lang = document.get('lang') or 'enUS'
@@ -163,6 +212,10 @@ def _listen(args: argparse.Namespace) -> int:
         print(f'Ventana del juego: {window.title} ({window.width}x{window.height})')
     print('Escuchando la tira de píxeles (Ctrl+C para salir).')
 
+    if (args.ask and not args.no_data
+            and not getattr(args, 'no_update', False)
+            and config.data_is_managed()):
+        _update_game_data()
     database = _open_data(args.no_data) if args.ask else None
     web = _open_web(args.no_web) if args.ask else None
     store = ConversationStore()
@@ -424,6 +477,10 @@ def _run_companion(args: argparse.Namespace) -> int:
     overlay_class = (Overlay if getattr(args, 'overlay_inprocess', False)
                      else OverlaySupervisor)
     overlay = overlay_class(ttl=args.ttl)
+    if (not args.no_data
+            and not getattr(args, 'no_update', False)
+            and config.data_is_managed()):
+        _update_game_data()
     database = _open_data(args.no_data)
     web = _open_web(args.no_web)
 
@@ -918,6 +975,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                         help='pregunta a la IA por cada mensaje recibido')
     listen.add_argument('--no-data', action='store_true',
                         help='no usa la base de datos de WoW')
+    listen.add_argument('--no-update', action='store_true',
+                        help='no comprueba si hay datos más nuevos')
     listen.add_argument('--no-web', action='store_true',
                         help='no busca en la wiki de warcraft.wiki.gg')
     set_key = subparsers.add_parser('set-key', help='guarda la clave de la API de un proveedor')
@@ -965,6 +1024,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     data_check = subparsers.add_parser('data-check',
                                        help='comprueba la base de datos de WoW Forever')
     data_check.add_argument('--db', default=None, help='ruta de wow.sqlite')
+    subparsers.add_parser('update-data',
+                          help='descarga la última base de datos del juego')
     companion = subparsers.add_parser('run', help='escucha el juego y responde en el overlay')
     companion.add_argument('--fps', type=float, default=30.0,
                            help='capturas por segundo (por defecto 30)')
@@ -974,6 +1035,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                            help='no llama a la IA; solo muestra la pregunta recibida')
     companion.add_argument('--no-data', action='store_true',
                            help='no usa la base de datos de WoW')
+    companion.add_argument('--no-update', action='store_true',
+                           help='no comprueba si hay datos más nuevos')
     companion.add_argument('--no-web', action='store_true',
                            help='no busca en la wiki de warcraft.wiki.gg')
     companion.add_argument('--overlay-inprocess', action='store_true',
@@ -998,6 +1061,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         return _bench(args)
     if args.command == 'data-check':
         return _data_check(args)
+    if args.command == 'update-data':
+        return _update_data()
     if args.command == 'run':
         return _run_companion(args)
     if args.command == 'overlay-demo':

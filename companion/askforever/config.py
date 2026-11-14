@@ -9,6 +9,7 @@ from typing import Optional
 
 import keyring
 
+from askforever import paths
 from askforever.web.wiki import WikiClient
 
 KEYRING_SERVICE = 'AskForever'
@@ -135,8 +136,25 @@ def _sibling_wowdata_path() -> Path:
     return Path(__file__).resolve().parents[2].parent / 'wowdata' / 'datos' / 'wow.sqlite'
 
 
+def user_data_dir() -> Path:
+    """Carpeta de datos gestionados del companion."""
+    return paths.user_data_dir()
+
+
+def managed_wowdata_path() -> Path:
+    """Ruta de la base que gestiona el actualizador, exista o no."""
+    return user_data_dir() / 'wow.sqlite'
+
+
+def data_is_managed() -> bool:
+    """True si el actualizador es quien mantiene los datos del juego."""
+    if os.environ.get(WOWDATA_ENV, '').strip():
+        return False
+    return not _sibling_wowdata_path().is_file()
+
+
 def get_wowdata_path() -> Optional[Path]:
-    """Ruta de la base de wowdata: entorno o hermana, solo si existe."""
+    """Ruta de la base de wowdata: entorno, hermana o gestionada, si existe."""
     env_path = os.environ.get(WOWDATA_ENV, '').strip()
     if env_path:
         candidate = Path(env_path)
@@ -145,6 +163,9 @@ def get_wowdata_path() -> Optional[Path]:
     sibling = _sibling_wowdata_path()
     if sibling.is_file():
         return sibling
+    managed = managed_wowdata_path()
+    if managed.is_file():
+        return managed
     return None
 
 

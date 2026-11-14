@@ -20,3 +20,11 @@ def dev_dir(repo_dev_dir: Path = REPO_DEV_DIR) -> Path:
     if local:
         return Path(local) / 'AskForever'
     return Path.home() / '.askforever'
+
+
+def user_data_dir() -> Path:
+    """Carpeta donde el actualizador guarda los datos del juego; no la crea."""
+    local = os.environ.get('LOCALAPPDATA')
+    if local:
+        return Path(local) / 'AskForever' / 'data'
+    return Path.home() / '.askforever' / 'data'
