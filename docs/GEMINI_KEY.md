@@ -2,7 +2,7 @@
 
 **[Versión en español](CLAVE_GEMINI.md)**
 
-> Needed from the versions that include the **companion** (see the [ROADMAP](../ROADMAP.md)). Version 0.1.x does not use any key: you paste the prompt into the AI of your choice.
+> AskForever's assistant asks for this key the first time you open the companion. The key is saved in the **Windows Credential Manager**, the secure place where Windows stores passwords, not in a text file.
 
 Other services (Groq, Mistral, Cerebras, OpenRouter): see [Free AI keys](API_KEYS.md).
 
@@ -17,26 +17,15 @@ The key is like a password that lets the companion use Google's AI. Creating one
 5. Give it a name, for example `AskForever`. For the project, keep **Default Gemini Project** unless you prefer to create a new one.
 6. After a few seconds Google shows you the key. Copy it with the copy button.
 
-## 2. Store the key on your computer
+## 2. Give the key to AskForever
 
-The companion keeps the key in the **Windows Credential Manager**, never in a text file and never in the repository. Do not paste it into chats, emails or documents.
+1. Open **AskForever**. The first time, the assistant in the console window asks for the free Gemini key.
+2. Paste the key when it asks and press Enter. The assistant tests it and saves it in the **Windows Credential Manager**.
+3. If the assistant does not appear, a key is already saved; see [Change the key](#change-the-key) below.
 
-- From version 0.2 on, the companion will have a command to store it. Until then, open **PowerShell** in the project folder and run:
+## Change the key
 
-  ```powershell
-  $s = Read-Host 'Gemini key' -AsSecureString
-  $env:AF_KEY = [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($s))
-  .\companion\.venv\Scripts\python.exe -c "import keyring, os; keyring.set_password('AskForever', 'gemini', os.environ['AF_KEY'])"
-  Remove-Item Env:AF_KEY
-  ```
-
-  Paste the key when asked (it shows as asterisks) and press Enter.
-
-- To check that it was stored, without showing it:
-
-  ```powershell
-  .\companion\.venv\Scripts\python.exe -c "import keyring; k = keyring.get_password('AskForever', 'gemini'); print('Stored, length', len(k) if k else 'NO KEY')"
-  ```
+To replace the key, open a terminal in `%LOCALAPPDATA%\Programs\AskForever` and run `AskForever.exe setup`. The [installation guide](INSTALL_GUIDE.md#change-the-key) explains how to open the folder and the terminal. Paste the new key in the assistant and press Enter.
 
 ## Important
 

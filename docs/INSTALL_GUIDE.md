@@ -36,6 +36,17 @@ You need:
 
 1. On the [Releases page](https://github.com/warcrafted-server/AskForever/releases), download **`AskForever-Setup-0.3.0-beta.1.exe`**. The file name includes the version.
 2. Double-click the file to run it.
+
+![Installer language selection](img/v0.3.0-install-language.png)
+
+![License agreement](img/v0.3.0-install-license.png)
+
+![Installation folder](img/v0.3.0-install-folder.png)
+
+![Optional desktop shortcut](img/v0.3.0-install-shortcuts.png)
+
+![Final installer screen with the option to run AskForever](img/v0.3.0-install-finish.png)
+
 3. If Windows shows a warning, read [If Windows shows a warning](#if-windows-shows-a-warning) below.
 4. The installer works **only for your Windows user**. It does not ask for administrator permission. It installs AskForever in `%LOCALAPPDATA%\Programs\AskForever` and adds a shortcut to the Start menu.
 5. Click **Finish**. If the installer offers to open AskForever, you can let it open. Otherwise, open **AskForever** from the Start menu.
@@ -44,6 +55,9 @@ You need:
 
 1. Open **AskForever** from the Start menu. A console window, a black window with text, opens.
 2. The first time, an assistant explains that AskForever needs a free Google Gemini key. If you do not have one, follow the [Gemini key guide](GEMINI_KEY.md). It is free and takes a few minutes.
+
+![AskForever first-run assistant asking for the free Gemini key](img/v0.3.0-install-first-run.png)
+
 3. Paste the key when the assistant asks. The assistant tests it and saves it in the **Windows Credential Manager**, the secure place where Windows stores passwords.
 4. When the key works, AskForever downloads the game data: about **32 MB**, only once. It updates automatically later. Keep the window open until it finishes.
 5. If you already saved a key, the assistant does not appear; AskForever starts directly.

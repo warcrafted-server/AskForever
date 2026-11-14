@@ -36,6 +36,17 @@ Necesitas:
 
 1. En la [página de Releases](https://github.com/warcrafted-server/AskForever/releases), descarga **`AskForever-Setup-0.3.0-beta.1.exe`**. El nombre incluye la versión.
 2. Haz doble clic en el archivo para ejecutarlo.
+
+![Selección de idioma del instalador](img/v0.3.0-install-language.png)
+
+![Aceptación de la licencia](img/v0.3.0-install-license.png)
+
+![Carpeta de instalación](img/v0.3.0-install-folder.png)
+
+![Acceso directo opcional en el escritorio](img/v0.3.0-install-shortcuts.png)
+
+![Pantalla final del instalador con la opción de ejecutar AskForever](img/v0.3.0-install-finish.png)
+
 3. Si Windows muestra un aviso, lee [Si Windows muestra un aviso](#si-windows-muestra-un-aviso).
 4. El instalador funciona **solo para tu usuario de Windows**. No pide permisos de administrador. Instala AskForever en `%LOCALAPPDATA%\Programs\AskForever` y añade un acceso directo al menú Inicio.
 5. Pulsa **Finalizar**. Si el instalador ofrece abrir AskForever, puedes dejar que se abra. Si no, abre **AskForever** desde el menú Inicio.
@@ -44,6 +55,9 @@ Necesitas:
 
 1. Abre **AskForever** desde el menú Inicio. Se abre una ventana de consola, una ventana negra con texto.
 2. La primera vez, un asistente explica que AskForever necesita una clave gratuita de Google Gemini. Si no tienes una, sigue la [guía de la clave de Gemini](CLAVE_GEMINI.md). Es gratuita y se tarda unos minutos.
+
+![Asistente del primer arranque pidiendo la clave gratuita de Gemini](img/v0.3.0-install-first-run.png)
+
 3. Pega la clave cuando el asistente la pida. El asistente la prueba y la guarda en el **Administrador de credenciales de Windows**, el lugar seguro donde Windows guarda las contraseñas.
 4. Cuando la clave funciona, AskForever descarga los datos del juego: unos **32 MB**, una sola vez. Después se actualizan solos. Mantén la ventana abierta hasta que termine.
 5. Si ya guardaste una clave, el asistente no aparece; AskForever se inicia directamente.

@@ -2,7 +2,7 @@
 
 **[English version](GEMINI_KEY.md)**
 
-> Hace falta a partir de las versiones que incluyen el **companion** (consulta la [hoja de ruta](../ROADMAP.md)). La versión 0.1.x no usa ninguna clave: tú pegas el prompt en la IA que prefieras.
+> El asistente de AskForever pide esta clave la primera vez que abres el companion. La clave se guarda en el **Administrador de credenciales de Windows**, el lugar seguro donde Windows guarda las contraseñas, no en un archivo de texto.
 
 Otros servicios (Groq, Mistral, Cerebras, OpenRouter): consulta [Claves de IA gratuitas](CLAVES_API.md).
 
@@ -17,26 +17,15 @@ La clave es como una contraseña que permite al companion usar la IA de Google. 
 5. Ponle un nombre, por ejemplo `AskForever`. En proyecto, deja **Default Gemini Project** salvo que prefieras crear uno nuevo.
 6. En unos segundos Google te muestra la clave. Cópiala con el botón de copiar.
 
-## 2. Guardar la clave en tu equipo
+## 2. Dar la clave a AskForever
 
-El companion guarda la clave en el **Administrador de credenciales de Windows**, nunca en un archivo de texto ni en el repositorio. No la pegues en chats, correos ni documentos.
+1. Abre **AskForever**. La primera vez, el asistente de la ventana de consola pide la clave gratuita de Gemini.
+2. Pega la clave cuando la pida y pulsa Enter. El asistente la prueba y la guarda en el **Administrador de credenciales de Windows**.
+3. Si el asistente no aparece, ya hay una clave guardada; consulta [Cambiar la clave](#cambiar-la-clave) más abajo.
 
-- A partir de la versión 0.2, el companion tendrá un comando para guardarla. Mientras tanto, abre **PowerShell** en la carpeta del proyecto y ejecuta:
+## Cambiar la clave
 
-  ```powershell
-  $s = Read-Host 'Clave de Gemini' -AsSecureString
-  $env:AF_KEY = [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($s))
-  .\companion\.venv\Scripts\python.exe -c "import keyring, os; keyring.set_password('AskForever', 'gemini', os.environ['AF_KEY'])"
-  Remove-Item Env:AF_KEY
-  ```
-
-  Pega la clave cuando la pida (se ve como asteriscos) y pulsa Enter.
-
-- Para comprobar que se guardó, sin mostrarla:
-
-  ```powershell
-  .\companion\.venv\Scripts\python.exe -c "import keyring; k = keyring.get_password('AskForever', 'gemini'); print('Guardada, longitud', len(k) if k else 'NO HAY CLAVE')"
-  ```
+Para cambiar la clave, abre una terminal en `%LOCALAPPDATA%\Programs\AskForever` y ejecuta `AskForever.exe setup`. La [guía de instalación](GUIA_INSTALACION.md#cambiar-la-clave) explica cómo abrir la carpeta y la terminal. Pega la clave nueva en el asistente y pulsa Enter.
 
 ## Importante
 
