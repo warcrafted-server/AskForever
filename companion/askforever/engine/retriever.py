@@ -804,6 +804,16 @@ def _detect_route(facts: Facts, graph, question: str, lang: str, ctx: dict) -> b
                 facts.lines.append(f'Fastest route according to the database: {description}')
             _add_source(facts, f'route:{origin}>{destination}')
             route_added = True
+        else:
+            # Origen y destino caen en el mismo punto de la base (misma zona).
+            if lang == 'es':
+                facts.lines.append(f'{destination} está en la misma zona que {origin}: '
+                                   'se llega a pie, sin transporte.')
+            else:
+                facts.lines.append(f'{destination} is in the same zone as {origin}: '
+                                   'walk there, no transport needed.')
+            _add_source(facts, f'route:{origin}>{destination}')
+            route_added = True
     if known is not None and unrestricted is not None and missing_points:
         faster = route is None or route.seconds - unrestricted.seconds >= FLIGHT_GAIN_SECONDS
         if faster:
@@ -848,6 +858,13 @@ def _detect_route(facts: Facts, graph, question: str, lang: str, ctx: dict) -> b
                     'discover them by talking to the flight master when you arrive. (The '
                     "addon does not know which flight points you have yet: open a flight "
                     "master's map to register them.)")
+            ground = _safe(find_route, graph, origin, destination, set())
+            ground_text = describe(ground, 'es' if lang == 'es' else 'en') if ground else ''
+            if ground_text:
+                if lang == 'es':
+                    facts.lines.append(f'Sin vuelos: {ground_text}')
+                else:
+                    facts.lines.append(f'Without flights: {ground_text}')
     if known is not None:
         point = _safe(flight_point_near, graph, destination)
         if point is not None and point.taxi_id not in known:

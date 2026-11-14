@@ -344,7 +344,9 @@ def resolve_place(graph, text) -> list:
     target = normalize(text)
     if not target:
         return []
-    tokens = [token for token in target.split() if len(token) >= 5]
+    # Sin las palabras genéricas, «Valle de Crestanevada» casaría con «Vallefresno».
+    tokens = [token for token in target.split()
+              if len(token) >= 5 and token not in EXCLUDED_WORDS]
     exact = []
     prefixed = []
     for node in graph.nodes.values():

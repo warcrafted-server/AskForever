@@ -6,7 +6,7 @@ import sqlite3
 
 import pytest
 
-from askforever.data.routes import (KIND_FLIGHT, KIND_TRANSPORT, KIND_TRAM, KIND_WALK,
+from askforever.data.routes import (KIND_FLIGHT, Node, KIND_TRANSPORT, KIND_TRAM, KIND_WALK,
                                     Route, RouteGraph, Step, describe, find_route,
                                     flight_point_near, resolve_place,
                                     route_flight_points, transport_between)
@@ -315,3 +315,13 @@ def test_flight_point_near(db):
     assert flight_point_near(graph, 'Thelsamar').taxi_id == 8
     assert flight_point_near(graph, 'Cabo de la Niebla') is None
     assert flight_point_near(graph, 'Lugar Inventado') is None
+
+
+def test_generic_words_do_not_match_by_prefix():
+    node = Node(key=('taxi', 1), name='Astranaar, Vallefresno', name_en='Astranaar, Ashenvale',
+                place='Astranaar', zone='vallefresno', place_en='Astranaar',
+                zone_en='ashenvale', taxi_id=1)
+    graph = RouteGraph({node.key: node}, {})
+
+    assert resolve_place(graph, 'Valle de Crestanevada') == []
+    assert resolve_place(graph, 'Vallefresno') == [node]

@@ -22,6 +22,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Fixed: "and from here to X?" questions now compute the route from the player's position (before, no route was computed and the AI could make it up); travel questions whose places are not recognised are reported as missing data.
 - Added: when the route starts somewhere else, the answer also gives the route from the player's position to that starting point (for example, the tram from Ironforge to Stormwind before the Darkshore boat).
 - Added: routes take the known flight points into account when the addon sends them (`ctx.fp`, TaxiNodes IDs): flights only between known points, a note with the faster route once the missing points are discovered, and a reminder to discover the flight point at the destination. Without that list, the answer names the flight points the route uses and says how to register them.
+- Fixed: generic words in place names ("valle", "bosque"...) no longer match other places by prefix (Coldridge Valley resolved to Astranaar); when origin and destination are in the same zone the answer says to walk; without the list of known flight points, a route without flights is also given.
 - Added (addon): known flight points are saved per character when a flight master's map is opened and sent with each question (`fp`); a chat line confirms new points. The last reading is kept in `AskForeverDB.flightsDebug` to check which taxi API the client has.
 
 ### Español
@@ -42,6 +43,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Corregido: las preguntas del tipo «¿y de aquí a X?» calculan la ruta desde la posición del jugador (antes no se calculaba y la IA podía inventársela); las preguntas de viaje cuyos lugares no se reconocen se marcan como dato ausente.
 - Añadido: cuando la ruta empieza en otro sitio, la respuesta da también la ruta desde la posición del jugador hasta ese origen (por ejemplo, el tranvía de Forjaz a Ventormenta antes del barco a Costa Oscura).
 - Añadido: las rutas tienen en cuenta los puntos de vuelo conocidos cuando el addon los envía (`ctx.fp`, IDs de TaxiNodes): vuelos solo entre puntos conocidos, aviso con la ruta más rápida cuando se descubran los que faltan y recordatorio de descubrir el punto de vuelo del destino. Sin esa lista, la respuesta nombra los puntos de vuelo que usa la ruta y explica cómo registrarlos.
+- Corregido: las palabras genéricas de los nombres de lugar («valle», «bosque»…) ya no casan por prefijo con otros lugares (el Valle de Crestanevada salía como Astranaar); si origen y destino están en la misma zona, la respuesta dice que se va a pie; sin la lista de puntos de vuelo conocidos, se da también la ruta sin vuelos.
 - Añadido (addon): los puntos de vuelo conocidos se guardan por personaje al abrir el mapa de un maestro de vuelo y se envían con cada pregunta (`fp`); una línea en el chat confirma los nuevos. La última lectura queda en `AskForeverDB.flightsDebug` para comprobar qué API de taxi trae el cliente.
 
 ## [0.2.0-beta.1] - 2026-11-14
