@@ -26,6 +26,7 @@ from askforever.capture.grabber import Grabber, ReceivedMessage
 from askforever.capture.window import find_game_window, set_dpi_awareness
 from askforever.data.wowdb import WowDb
 from askforever.engine.answer import answer_message, parse_message
+from askforever.engine.conversation import ConversationStore
 from askforever.overlay.window import Overlay, OverlayUnavailable
 from askforever.providers.openai_compat import ProviderError, list_models, provider_from_config
 
@@ -105,6 +106,7 @@ def _listen(args: argparse.Namespace) -> int:
     print('Escuchando la tira de píxeles (Ctrl+C para salir).')
 
     database = _open_data(args.no_data) if args.ask else None
+    store = ConversationStore()
     provider = None
     provider_failed = False
 
@@ -142,9 +144,17 @@ def _listen(args: argparse.Namespace) -> int:
         if active is None:
             return
 
+        document = parse_message(message.data)
+        conversation_key = store.key(document)
+        history = store.history(conversation_key)
+        previous_question = history[-1].question if history else None
+        question = str(document.get('q') or '') if document is not None else ''
+
         def answer_in_background():
-            result = answer_message(message.data, active, db=database)
+            result = answer_message(message.data, active, db=database, history=history,
+                                    previous_question=previous_question)
             if result.ok:
+                store.add(conversation_key, question, result.text, result.facts_text)
                 print(f'Respuesta ({result.elapsed_ms} ms):')
                 print(result.text)
             else:
@@ -334,6 +344,7 @@ def _run_companion(args: argparse.Namespace) -> int:
 
     stop_event = threading.Event()
     generation = {'value': 0}
+    store = ConversationStore()
 
     def on_message(message: ReceivedMessage) -> None:
         generation['value'] += 1
@@ -343,9 +354,15 @@ def _run_companion(args: argparse.Namespace) -> int:
         if document is not None:
             question = str(document.get('q') or '')
             lang = document.get('lang') or 'enUS'
+            conversation_key = store.key(document)
+            history = store.history(conversation_key)
+            previous_question = history[-1].question if history else None
         else:
             question = ''
             lang = 'enUS'
+            conversation_key = 'default'
+            history = []
+            previous_question = None
 
         stamp = datetime.now().strftime('%H:%M:%S')
         print(f'[{stamp}] msg_id={message.msg_id} {question}')
@@ -359,10 +376,12 @@ def _run_companion(args: argparse.Namespace) -> int:
             return
 
         def answer():
-            result = answer_message(message.data, provider, db=database)
+            result = answer_message(message.data, provider, db=database, history=history,
+                                    previous_question=previous_question)
             if current != generation['value']:
                 return
             if result.ok:
+                store.add(conversation_key, question, result.text, result.facts_text)
                 overlay.show_answer(question, result.text, lang)
                 print(f'Respuesta ({result.elapsed_ms} ms): {result.text}')
             else:

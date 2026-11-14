@@ -34,20 +34,47 @@ _SYSTEM = {
     'es': (
         'Eres un asistente de World of Warcraft Forever. Responde en el idioma en que está '
         'escrita la pregunta, con una respuesta corta de 2 a 5 líneas. Usa texto plano, sin '
-        'Markdown, sin asteriscos ni listas largas. Usa solo información fiable y los datos del '
-        'contexto. Si no estás seguro o faltan datos, dilo claramente y no inventes rutas, '
-        'distancias, niveles, nombres ni coordenadas. No hagas preguntas de vuelta salvo que sea '
-        'imprescindible.'
+        'Markdown, sin asteriscos ni listas largas. Si la pregunta continúa una conversación '
+        'previa, interprétala con ese contexto (pronombres como «la», «allí» o «¿y…?»). Sé '
+        'concreto y útil: si piden recomendaciones, recomienda opciones concretas sacadas de '
+        'los DATOS y del contexto del personaje (zonas, mazmorras o misiones con sus niveles). '
+        'Usa SOLO los datos verificados y el contexto para nombres de lugares, PNJ, misiones, '
+        'objetos, niveles y coordenadas. Si falta un dato o aparece en «SIN DATOS EN LA BASE», '
+        'dilo en UNA frase y responde igualmente con lo que sí sabes. No inventes rutas, '
+        'distancias, niveles, nombres ni coordenadas. Nunca remitas a guías, webs, foros ni a '
+        'otros jugadores. Nunca menciones lugares, PNJ ni objetos que no aparezcan en los datos '
+        'o el contexto.'
     ),
     'en': (
         "You are a World of Warcraft Forever assistant. Answer in the language the question is "
         'written in, with a short reply of 2 to 5 lines. Use plain text, without Markdown, '
-        'asterisks or long bullet lists. Use only reliable information and the data in the '
-        'context. If you are not sure or data is missing, say so clearly and do not invent '
-        'routes, distances, levels, names or coordinates. Do not ask follow-up questions unless '
-        'strictly necessary.'
+        'asterisks or long bullet lists. If the question continues a previous conversation, '
+        'interpret it with that context (pronouns such as "it", "there" or "and...?"). Be '
+        'concrete and useful: if asked for recommendations, recommend concrete options taken '
+        'from the DATA and the character context (zones, dungeons or quests with their levels). '
+        'Use ONLY the verified data and the context for names of places, NPCs, quests, items, '
+        'levels and coordinates. If a piece of data is missing or appears under "NOT IN THE '
+        'DATABASE", say it in ONE sentence and still answer with what you do know. Do not invent '
+        'routes, distances, levels, names or coordinates. Never refer to guides, websites, '
+        'forums or other players. Never mention places, NPCs or items that do not appear in the '
+        'data or the context.'
     ),
 }
+
+_HISTORY = {
+    'es': {
+        'title': 'CONVERSACIÓN PREVIA (de la más antigua a la más reciente):',
+        'user': 'Jugador',
+        'assistant': 'Asistente',
+    },
+    'en': {
+        'title': 'PREVIOUS CONVERSATION (oldest first):',
+        'user': 'Player',
+        'assistant': 'Assistant',
+    },
+}
+
+MAX_HISTORY_ANSWER = 300
 
 _LANGUAGE_NAMES = {
     'es': {'es': 'castellano', 'en': 'inglés'},
@@ -62,23 +89,6 @@ _SPANISH_WORDS = {
 _ENGLISH_WORDS = {
     'what', 'where', 'how', 'is', 'the', 'to', 'who', 'when', 'why', 'which', 'can',
     'do', 'does', 'i', 'my',
-}
-
-_FACTS_RULES = {
-    'es': (
-        ' Usa SOLO los datos del bloque «DATOS VERIFICADOS» para nombres de PNJ, misiones, '
-        'lugares, niveles y coordenadas; incluye la zona y las coordenadas (x, y) cuando estén. '
-        'Si un dato aparece en «SIN DATOS EN LA BASE» o no está en los datos ni en el contexto, '
-        'di claramente que no tienes ese dato y no lo completes con suposiciones. No añadas '
-        'rutas, PNJ ni lugares que no estén en los datos.'
-    ),
-    'en': (
-        ' Use ONLY the data in the "VERIFIED DATA" block for NPC, quest, place, level and '
-        'coordinate names; include the zone and the coordinates (x, y) when present. If a piece '
-        'of data appears under "NOT IN THE DATABASE" or is neither in the data nor in the '
-        'context, say clearly that you do not have it and do not fill it with guesses. Do not '
-        'add routes, NPCs or places that are not in the data.'
-    ),
 }
 
 
@@ -99,7 +109,7 @@ def _detect_question_language(question: str, fallback: str) -> str:
     return fallback
 
 
-def _system_prompt(client_language: str, question_language: str, has_facts: bool) -> str:
+def _system_prompt(client_language: str, question_language: str) -> str:
     text = _SYSTEM[client_language]
     language_name = _LANGUAGE_NAMES[client_language][question_language]
     if client_language == 'es':
@@ -108,8 +118,6 @@ def _system_prompt(client_language: str, question_language: str, has_facts: bool
     else:
         text += (f' The question is written in {language_name}: answer in {language_name} even '
                  'if the context is in another language.')
-    if has_facts:
-        text += _FACTS_RULES[client_language]
     return text
 
 
@@ -187,8 +195,32 @@ def _context_lines(ctx, labels) -> list[str]:
     return lines
 
 
-def build_prompt(message: dict, facts_text: str = '') -> tuple[str, str]:
-    """Devuelve (system, user) con las reglas del idioma y de los datos verificados."""
+def _turn_value(turn, name: str) -> str:
+    if isinstance(turn, dict):
+        value = turn.get(name)
+    else:
+        value = getattr(turn, name, None)
+    return '' if value is None else str(value)
+
+
+def _history_lines(history, language: str) -> list[str]:
+    """Bloque de conversación previa, del turno más antiguo al más reciente."""
+    if not history:
+        return []
+    labels = _HISTORY[language]
+    lines = [labels['title']]
+    for turn in history:
+        question = _turn_value(turn, 'question').strip()
+        answer = _turn_value(turn, 'answer').strip()
+        if not question and not answer:
+            continue
+        lines.append(f"{labels['user']}: {question}")
+        lines.append(f"{labels['assistant']}: {answer[:MAX_HISTORY_ANSWER]}")
+    return lines
+
+
+def build_prompt(message: dict, facts_text: str = '', history=None) -> tuple[str, str]:
+    """Devuelve (system, user) con el idioma, la memoria y los datos verificados."""
     if not isinstance(message, dict):
         message = {}
 
@@ -203,9 +235,10 @@ def build_prompt(message: dict, facts_text: str = '') -> tuple[str, str]:
     question_language = _detect_question_language(question, language)
 
     lines = _context_lines(message.get('ctx'), labels)
+    lines.extend(_history_lines(history, language))
     if facts_text:
         lines.append(str(facts_text).strip())
     lines.append(f'{labels["question"]}: {question}')
 
-    system = _system_prompt(language, question_language, bool(facts_text))
+    system = _system_prompt(language, question_language)
     return system, '\n'.join(lines)

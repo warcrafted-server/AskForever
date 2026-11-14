@@ -36,6 +36,7 @@ class Answer:
     question: str = ''
     facts: list[str] = field(default_factory=list)
     sources: list[str] = field(default_factory=list)
+    facts_text: str = ''
 
 
 def _is_spanish(lang) -> bool:
@@ -91,7 +92,8 @@ def _clean_answer(text) -> str:
     return text
 
 
-def answer_message(data: bytes, provider, *, max_tokens=None, db=None, temperature=None) -> Answer:
+def answer_message(data: bytes, provider, *, max_tokens=None, db=None, temperature=None,
+                   history=None, previous_question=None) -> Answer:
     """Responde a un mensaje de la tira; nunca lanza."""
     message = parse_message(data)
     if message is None:
@@ -108,13 +110,20 @@ def answer_message(data: bytes, provider, *, max_tokens=None, db=None, temperatu
     if db is not None:
         try:
             facts = retrieve(message, db)
+            previous = str(previous_question).strip() if previous_question else ''
+            if not facts.lines and not facts.missing and previous:
+                follow_message = dict(message)
+                follow_message['q'] = f'{previous} {question}'.strip()
+                follow = retrieve(follow_message, db)
+                if follow.lines or follow.missing:
+                    facts = follow
             facts_lines = list(facts.lines)
             sources = list(facts.sources)
             facts_text = facts.render(lang)
         except Exception:
             facts_lines, sources, facts_text = [], [], []
 
-    system, user = build_prompt(message, facts_text)
+    system, user = build_prompt(message, facts_text, history=history)
     if temperature is None:
         temperature = config.get_temperature()
 
@@ -125,13 +134,15 @@ def answer_message(data: bytes, provider, *, max_tokens=None, db=None, temperatu
         elapsed_ms = int((time.monotonic() - started) * 1000)
         return Answer(False, error.user_message(lang), lang, detail=error.kind,
                       elapsed_ms=elapsed_ms, question=question, facts=facts_lines,
-                      sources=sources)
+                      sources=sources, facts_text=facts_text)
     except Exception:
         elapsed_ms = int((time.monotonic() - started) * 1000)
         text = _UNKNOWN_TEXT['es' if _is_spanish(lang) else 'en']
         return Answer(False, text, lang, detail='unknown', elapsed_ms=elapsed_ms,
-                      question=question, facts=facts_lines, sources=sources)
+                      question=question, facts=facts_lines, sources=sources,
+                      facts_text=facts_text)
 
     elapsed_ms = int((time.monotonic() - started) * 1000)
     return Answer(True, _clean_answer(response), lang, detail='', elapsed_ms=elapsed_ms,
-                  question=question, facts=facts_lines, sources=sources)
+                  question=question, facts=facts_lines, sources=sources,
+                  facts_text=facts_text)

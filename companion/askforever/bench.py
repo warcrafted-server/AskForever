@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Callable, Optional
 
 from askforever import config
+from askforever.engine.conversation import Turn
 from askforever.engine.prompt import build_prompt
 from askforever.engine.retriever import retrieve
 from askforever.providers.openai_compat import ProviderError, provider_from_config
@@ -18,6 +19,7 @@ DEFAULT_QUESTIONS = Path(__file__).resolve().parent.parent / 'bench' / 'question
 DEFAULT_OUT_DIR = Path(__file__).resolve().parent.parent / 'tools' / 'out'
 RATE_LIMIT_STREAK = 3
 SKIP_RATE_LIMIT = 'límite de uso alcanzado'
+MAX_CHAIN_TURNS = 4
 
 
 @dataclass
@@ -30,6 +32,7 @@ class Question:
     text: str
     ctx: dict
     notes: str
+    chain: Optional[str] = None
 
 
 @dataclass
@@ -106,9 +109,14 @@ def load_questions(path=None) -> list[Question]:
             own_ctx = {}
         elif not isinstance(own_ctx, dict):
             raise ValueError(f'Pregunta {identifier}: ctx debe ser un objeto')
+        chain = item.get('chain')
+        if not isinstance(chain, str) or not chain.strip():
+            chain = None
+        else:
+            chain = chain.strip()
         merged = dict(default_ctx)
         merged.update(own_ctx)
-        questions.append(Question(identifier, category, lang, text, merged, notes))
+        questions.append(Question(identifier, category, lang, text, merged, notes, chain))
     return questions
 
 
@@ -177,7 +185,15 @@ def run_bench(
 
         streak = 0
         aborted = False
+        chain_name = None
+        chain_turns = []
         for question in questions:
+            question_chain = getattr(question, 'chain', None)
+            if question_chain != chain_name:
+                chain_name = question_chain
+                chain_turns = []
+            history = list(chain_turns[-MAX_CHAIN_TURNS:]) if chain_name else []
+            previous_question = history[-1].question if history else None
             skip_question = aborted
             for _ in range(repeat):
                 if skip_question:
@@ -194,11 +210,17 @@ def run_bench(
                 if db is not None:
                     try:
                         facts = retrieve(message, db)
+                        if not facts.lines and not facts.missing and previous_question:
+                            follow_message = dict(message)
+                            follow_message['q'] = f'{previous_question} {question.text}'.strip()
+                            follow = retrieve(follow_message, db)
+                            if follow.lines or follow.missing:
+                                facts = follow
                         sources = list(facts.sources)
                         facts_text = facts.render(question.lang)
                     except Exception:
                         facts_text, sources = '', []
-                system, user = build_prompt(message, facts_text)
+                system, user = build_prompt(message, facts_text, history=history)
                 started = clock()
                 try:
                     text = provider.chat(system, user, max_tokens=max_tokens,
@@ -207,6 +229,10 @@ def run_bench(
                     result = Result(question.id, target_name, True, text, latency,
                                     sources=sources)
                     streak = 0
+                    if chain_name:
+                        chain_turns.append(Turn(question.text, text, facts_text))
+                        if len(chain_turns) > MAX_CHAIN_TURNS:
+                            chain_turns = chain_turns[-MAX_CHAIN_TURNS:]
                 except ProviderError as error:
                     latency = int((clock() - started) * 1000)
                     result = Result(question.id, target_name, False, '', latency,
@@ -307,9 +333,13 @@ def render_markdown(questions, targets, results, started: str, used_database=Fal
         )
 
     for question in questions:
+        heading = f'## {question.id} · {question.category}'
+        chain = getattr(question, 'chain', None)
+        if chain:
+            heading += f' · cadena {chain}'
         lines += [
             '',
-            f'## {question.id} · {question.category}',
+            heading,
             '',
             f'**Pregunta:** {question.text}',
             '',
