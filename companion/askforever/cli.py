@@ -9,6 +9,7 @@ import os
 import threading
 import time
 from datetime import datetime
+from pathlib import Path
 from typing import Optional, Sequence
 
 from askforever import config
@@ -23,6 +24,7 @@ from askforever.bench import (
 )
 from askforever.capture.grabber import Grabber, ReceivedMessage
 from askforever.capture.window import find_game_window, set_dpi_awareness
+from askforever.data.wowdb import WowDb
 from askforever.engine.answer import answer_message, parse_message
 from askforever.overlay.window import Overlay, OverlayUnavailable
 from askforever.providers.openai_compat import ProviderError, list_models, provider_from_config
@@ -503,6 +505,156 @@ def _bench(args: argparse.Namespace) -> int:
     return 0 if any(result.ok for result in results) else 1
 
 
+def _default_wowdb_path() -> Path:
+    return Path(__file__).resolve().parents[2].parent / 'wowdata' / 'datos' / 'wow.sqlite'
+
+
+def _format_locations(locations) -> str:
+    parts = []
+    for location in locations:
+        zone = location.get('zone') or 'zona desconocida'
+        parts.append(f"{zone} ({location.get('x')}, {location.get('y')})")
+    return '; '.join(parts) or 'sin posicion conocida'
+
+
+def _print_quest(label: str, quest) -> None:
+    if quest is None:
+        print(f'{label}: no encontrada')
+        return
+    print(f"{label}: [{quest['id']}] {quest['name']} "
+          f"(nivel {quest['level']}, requiere {quest['required_level']})")
+    for starter in quest.get('starters', []):
+        print(f"  Inicio: {starter['type']} {starter['id']} {starter['name']} - "
+              f"{_format_locations(starter['locations'])}")
+    for finisher in quest.get('finishers', []):
+        print(f"  Fin: {finisher['type']} {finisher['id']} {finisher['name']} - "
+              f"{_format_locations(finisher['locations'])}")
+    if quest.get('objective_items'):
+        print(f"  Objetivos: {', '.join(quest['objective_items'])}")
+
+
+def _print_npc(label: str, npc) -> None:
+    if npc is None:
+        print(f'{label}: no encontrado')
+        return
+    print(f"{label}: [{npc['id']}] {npc['name']} - {npc['sub_name'] or 'sin subtitulo'} "
+          f"(niveles {npc['min_level']}-{npc['max_level']}, faccion {npc['friendly_to']})")
+    for location in npc['locations']:
+        print(f"  {_format_locations([location])}")
+
+
+def _print_dungeon(label: str, dungeon) -> None:
+    if dungeon is None:
+        print(f'{label}: no encontrada')
+        return
+    print(f"{label}: [{dungeon['id']}] {dungeon['name']} (zona {dungeon['zone']})")
+    for entrance in dungeon['entrances']:
+        print(f"  Entrada: {entrance['zone']} ({entrance['x']}, {entrance['y']})")
+
+
+def _data_check(args: argparse.Namespace) -> int:
+    path = args.db or os.environ.get('ASKFOREVER_WOWDATA') or str(_default_wowdb_path())
+    db = WowDb(path)
+    if not db.available():
+        print(f'No se encontro la base de datos de WoW Forever: {path}')
+        print('Usa --db RUTA o define ASKFOREVER_WOWDATA.')
+        db.close()
+        return 1
+
+    try:
+        print(f'Base: {path}')
+        started = time.monotonic()
+        db.ensure_index()
+        index_ms = int((time.monotonic() - started) * 1000)
+        print(f'Indice de nombres: {index_ms} ms')
+        print()
+
+        for name in ('La amenaza trogg', 'La excavación de Vetaferro',
+                     'Un pedido de Pico Tormenta', 'Incursión en la Antigua Forjaz'):
+            _print_quest(f"Mision '{name}'", db.find_quest(name))
+        print()
+
+        _print_npc("NPC 'Rey Magni Barbabronce'", db.find_npc('Rey Magni Barbabronce'))
+        print()
+
+        print('Hechizos de chaman nivel 18:')
+        for spell in db.class_spells(64, 18, 18):
+            print(f"  {spell['level']}: {spell['name']}")
+        print('Hechizos de chaman nivel 20:')
+        for spell in db.class_spells(64, 20, 20):
+            print(f"  {spell['level']}: {spell['name']}")
+        print()
+
+        trainers = db.class_trainers(64, 'A')
+        print(f'Instructores de chamanes (Alianza): {len(trainers)}')
+        spanish_in_forjaz = 0
+        for trainer in trainers:
+            zones = [location['zone'] for location in trainer['locations']]
+            if 'Forjaz' in zones and trainer['sub_name'] in (
+                    'Instructor de chamanes', 'Instructora de chamanes'):
+                spanish_in_forjaz += 1
+            print(f"  {trainer['id']}: {trainer['name']} - "
+                  f"{trainer['sub_name'] or 'sin subtitulo'} "
+                  f"({_format_locations(trainer['locations'])})")
+        if trainers and spanish_in_forjaz == 0:
+            print("  Hueco conocido: ninguno con sub_name 'Instructor de chamanes' "
+                  "en Forjaz.")
+        print()
+
+        _print_dungeon("Mazmorra 'Las Minas de la Muerte'", db.dungeon('Las Minas de la Muerte'))
+        _print_dungeon("Mazmorra 'Gnomeregan'", db.dungeon('Gnomeregan'))
+        print()
+
+        points = db.flight_points(0, 'A')
+        print(f'Puntos de vuelo de la Alianza en Reinos del Este: {len(points)}')
+        for point in points[:30]:
+            print(f"  {point['id']}: {point['name']}")
+        print()
+
+        print(f"Ramas de talentos de chaman: {', '.join(db.talent_trees(64))}")
+        print()
+
+        item_id = None
+        try:
+            row = db.open().execute(
+                'SELECT item_id FROM ext_item_vendors GROUP BY item_id ORDER BY item_id LIMIT 1'
+            ).fetchone()
+            item_id = row[0] if row else None
+        except Exception:
+            item_id = None
+        if item_id is not None:
+            item = db.item_sources(item_id)
+            if item:
+                print(f"Objeto con vendedores: [{item['id']}] {item['name']}")
+                for vendor in item['vendors']:
+                    print(f"  Vendedor: {vendor['npc']} - {vendor['sub_name']} "
+                          f"({_format_locations(vendor['locations'])})")
+                for drop in item['drops']:
+                    print(f"  Botin: {drop['npc']} en {drop['zone']} ({drop['rate']} %)")
+                if item['quest_rewards']:
+                    print(f"  Recompensa de: {', '.join(item['quest_rewards'])}")
+        else:
+            print('Objeto con vendedores: no encontrado')
+        print()
+
+        phrases = [
+            ('¿Dónde entrego Un pedido de Pico Tormenta?', 'es'),
+            ('¿Dónde está la entrada de Las Minas de la Muerte?', 'es'),
+            ('Where is the entrance to the Deadmines?', 'en'),
+        ]
+        for phrase, lang in phrases:
+            started = time.monotonic()
+            matches = db.match_entities(phrase, lang=lang)
+            elapsed = int((time.monotonic() - started) * 1000)
+            print(f'match_entities({phrase}, {lang}): {len(matches)} resultados '
+                  f'en {elapsed} ms')
+            for match in matches:
+                print(f"  {match['kind']} {match['id']}: {match['name']}")
+    finally:
+        db.close()
+    return 0
+
+
 def main(argv: Optional[Sequence[str]] = None) -> int:
     parser = argparse.ArgumentParser(
         prog='askforever',
@@ -544,6 +696,9 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     bench.add_argument('--pause', type=float, default=1.5, help='segundos entre llamadas')
     bench.add_argument('--max-tokens', type=int, default=None,
                        help='límite de tokens por respuesta')
+    data_check = subparsers.add_parser('data-check',
+                                       help='comprueba la base de datos de WoW Forever')
+    data_check.add_argument('--db', default=None, help='ruta de wow.sqlite')
     companion = subparsers.add_parser('run', help='escucha el juego y responde en el overlay')
     companion.add_argument('--fps', type=float, default=30.0,
                            help='capturas por segundo (por defecto 30)')
@@ -569,6 +724,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         return _providers()
     if args.command == 'bench':
         return _bench(args)
+    if args.command == 'data-check':
+        return _data_check(args)
     if args.command == 'run':
         return _run_companion(args)
     if args.command == 'overlay-demo':
