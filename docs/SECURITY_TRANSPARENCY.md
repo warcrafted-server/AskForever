@@ -46,9 +46,12 @@ to improve their models: check your provider's terms (links in the API key guide
 |---|---|---|
 | The AI provider you configured: Google Gemini (`generativelanguage.googleapis.com`), Groq (`api.groq.com`), Mistral (`api.mistral.ai`), Cerebras (`api.cerebras.ai`) or OpenRouter (`openrouter.ai`) | Each time you ask something | To get the answer |
 | `warcraft.wiki.gg` | Only when the game data has no answer (and never with `--no-web`) | To look up information |
+| GitHub (`api.github.com` and GitHub's download servers) | When the companion starts (never with `--no-update`) | To check whether there is newer game data and, if so, download it from this project's releases (the file's SHA-256 is checked before using it) |
 
-Only the provider you chose is contacted. There are no other connections: no updates checks,
-no analytics, no advertising. The provider list is in `companion/askforever/config.py`.
+Only the AI provider you chose is contacted, plus the two above. There are no other
+connections: no analytics, no advertising, and the program itself does not update on its own.
+The provider list is in `companion/askforever/config.py`; the data download is in
+`companion/askforever/updates.py`.
 
 ### Files and settings it touches
 
@@ -56,10 +59,12 @@ no analytics, no advertising. The provider list is in `companion/askforever/conf
 |---|---|---|
 | Windows Credential Manager, entry `AskForever` | Your API key | When you save the key |
 | `Interface\AddOns\AskForever` (inside your game folder) | The addon itself and its saved settings (`WTF\...\SavedVariables\AskForever.lua`), managed by the game | When you install the addon |
+| `%LOCALAPPDATA%\Programs\AskForever` | The program itself, placed there by the installer (no administrator rights) | When you install it |
+| `%LOCALAPPDATA%\AskForever\data` | The game database downloaded from GitHub (`wow.sqlite`, about 100 MB, plus a backup of the previous version and `version.json`) | First start and when there is newer data |
 | `%LOCALAPPDATA%\AskForever\companion.log` | Error log of the answer window (rotated, at most about 4 MB). It contains no API keys | While the companion runs |
 | `Interface\AddOns\AskForever_Slot*` | *Planned (next milestone):* small helper addons that carry the answer back into the game window | — |
 
-Planned: the uninstaller will remove all of the above (see below).
+Uninstalling removes all of the above except the addon, which you remove like any other addon (see below).
 
 ## What the companion never does
 
@@ -82,9 +87,9 @@ Status of each check (we only list what really exists today):
 |---|---|
 | Full source code public on GitHub | Available |
 | Automated tests | Available: they run on GitHub on every change (CI badge) and locally with `pytest` in `companion/` |
-| Program built automatically on GitHub from the public code (never on a personal computer) | Planned for the first public release |
-| SHA-256 hash of each download published with the release | Planned |
-| Build provenance attestation (`gh attestation verify <file> --repo warcrafted-server/AskForever`) | Planned |
+| Program built automatically on GitHub from the public code (never on a personal computer) | Available from version 0.3.0-beta.1 (see the Release workflow in Actions) |
+| SHA-256 hash of each download published with the release | Available from version 0.3.0-beta.1 (`.sha256` files and release notes) |
+| Build provenance attestation (`gh attestation verify <file> --repo warcrafted-server/AskForever`) | Available from version 0.3.0-beta.1, also for the game data |
 | VirusTotal scan linked from each release | Planned |
 | Automatic code scanning (CodeQL) and dependency updates (Dependabot) | Available (see the badges in the README) |
 
@@ -98,9 +103,10 @@ If you prefer not to, you can build it yourself from the source code.
 
 ## Uninstalling without leftovers
 
-*Planned:* the installer adds AskForever to Windows "Installed apps"; uninstalling removes
-the program, its shortcuts, the addon and its helper addons, the saved API key and its
-settings and logs.
+The installer adds AskForever to Windows "Installed apps". Uninstalling it (Settings > Apps >
+AskForever > Uninstall) removes the program and its shortcuts, the saved API keys, the
+downloaded game data, the log and the helper slot addons. The `AskForever` addon itself is
+removed from the CurseForge app or by deleting its folder, like any other addon.
 
 ## Reporting a security problem
 

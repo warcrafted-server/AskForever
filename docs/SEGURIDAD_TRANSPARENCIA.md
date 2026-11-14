@@ -49,10 +49,12 @@ proveedor (enlaces en la guía de la clave de la API).
 |---|---|---|
 | El proveedor de IA que configuraste: Google Gemini (`generativelanguage.googleapis.com`), Groq (`api.groq.com`), Mistral (`api.mistral.ai`), Cerebras (`api.cerebras.ai`) u OpenRouter (`openrouter.ai`) | Cada vez que preguntas | Para obtener la respuesta |
 | `warcraft.wiki.gg` | Solo cuando los datos del juego no tienen la respuesta (y nunca con `--no-web`) | Para consultar información |
+| GitHub (`api.github.com` y los servidores de descarga de GitHub) | Al arrancar el companion (nunca con `--no-update`) | Para comprobar si hay datos del juego más nuevos y, si los hay, descargarlos de las versiones de este proyecto (se comprueba su SHA-256 antes de usarlos) |
 
-Solo se contacta con el proveedor que elegiste. No hay más conexiones: ni comprobación de
-actualizaciones, ni estadísticas, ni publicidad. La lista de proveedores está en
-`companion/askforever/config.py`.
+Solo se contacta con el proveedor de IA que elegiste y con los dos de arriba. No hay más
+conexiones: ni estadísticas, ni publicidad, y el programa no se actualiza solo. La lista de
+proveedores está en `companion/askforever/config.py`; la descarga de datos, en
+`companion/askforever/updates.py`.
 
 ### Archivos y ajustes que toca
 
@@ -60,10 +62,12 @@ actualizaciones, ni estadísticas, ni publicidad. La lista de proveedores está 
 |---|---|---|
 | Administrador de credenciales de Windows, entrada `AskForever` | Tu clave de la API | Al guardar la clave |
 | `Interface\AddOns\AskForever` (en la carpeta del juego) | El propio addon y sus ajustes guardados (`WTF\...\SavedVariables\AskForever.lua`), que gestiona el juego | Al instalar el addon |
+| `%LOCALAPPDATA%\Programs\AskForever` | El propio programa, instalado ahí por el instalador (sin permisos de administrador) | Al instalarlo |
+| `%LOCALAPPDATA%\AskForever\data` | La base de datos del juego descargada de GitHub (`wow.sqlite`, unos 100 MB, una copia de la versión anterior y `version.json`) | En el primer arranque y cuando hay datos más nuevos |
 | `%LOCALAPPDATA%\AskForever\companion.log` | Registro de errores de la ventana de respuestas (rotativo, como mucho unos 4 MB). No contiene claves | Mientras el companion está abierto |
 | `Interface\AddOns\AskForever_Slot*` | *Previsto (próximo milestone):* pequeños addons auxiliares que llevan la respuesta a la ventana del juego | — |
 
-Previsto: el desinstalador borrará todo lo anterior (ver más abajo).
+Al desinstalar se borra todo lo anterior salvo el addon, que se quita como cualquier otro addon (ver más abajo).
 
 ## Lo que el companion no hace nunca
 
@@ -86,9 +90,9 @@ Estado de cada comprobación (solo ponemos lo que existe de verdad hoy):
 |---|---|
 | Código fuente completo y público en GitHub | Disponible |
 | Pruebas automáticas | Disponible: se ejecutan en GitHub en cada cambio (etiqueta CI) y en local con `pytest` en `companion/` |
-| Programa compilado automáticamente en GitHub desde el código público (nunca en un ordenador personal) | Previsto para la primera versión pública |
-| Hash SHA-256 de cada descarga publicado con la versión | Previsto |
-| Atestación de procedencia de la compilación (`gh attestation verify <archivo> --repo warcrafted-server/AskForever`) | Previsto |
+| Programa compilado automáticamente en GitHub desde el código público (nunca en un ordenador personal) | Disponible desde la versión 0.3.0-beta.1 (ver el workflow Release en Actions) |
+| Hash SHA-256 de cada descarga publicado con la versión | Disponible desde la versión 0.3.0-beta.1 (archivos `.sha256` y notas de la versión) |
+| Atestación de procedencia de la compilación (`gh attestation verify <archivo> --repo warcrafted-server/AskForever`) | Disponible desde la versión 0.3.0-beta.1, también para los datos del juego |
 | Análisis de VirusTotal enlazado en cada versión | Previsto |
 | Análisis automático del código (CodeQL) y actualización de dependencias (Dependabot) | Disponible (ver las etiquetas del README) |
 
@@ -103,9 +107,11 @@ código fuente.
 
 ## Desinstalar sin dejar restos
 
-*Previsto:* el instalador añade AskForever a «Aplicaciones instaladas» de Windows; al
-desinstalarlo se borran el programa, sus accesos directos, el addon y sus addons auxiliares,
-la clave de la API guardada y sus ajustes y registros.
+El instalador añade AskForever a «Aplicaciones instaladas» de Windows. Al desinstalarlo
+(Configuración > Aplicaciones > AskForever > Desinstalar) se borran el programa y sus accesos
+directos, las claves de la API guardadas, los datos del juego descargados, el registro y los
+addons auxiliares de slots. El addon `AskForever` se quita desde la app de CurseForge o
+borrando su carpeta, como cualquier otro addon.
 
 ## Avisar de un problema de seguridad
 
