@@ -27,6 +27,8 @@ DIM_COLOUR = '#a3957c'
 ERROR_COLOUR = '#ff6b62'
 
 
+VISIBLE_ALPHA = 0.94
+
 class OverlayUnavailable(Exception):
     """No se pudo crear la ventana tkinter del overlay."""
 
@@ -124,6 +126,7 @@ class Overlay:
         self._body_label = None
         self._title_visible = False
         self._expires_at = None
+        self._mapped = False
         self._stop = None
         self._close_requested = False
         self._closed = False
@@ -168,7 +171,7 @@ class Overlay:
         root.withdraw()
         root.overrideredirect(True)
         root.attributes('-topmost', True)
-        root.attributes('-alpha', 0.94)
+        root.attributes('-alpha', 0.0)
         root.configure(bg=BORDER)
 
         inner = tk.Frame(root, bg=BG)
@@ -266,14 +269,21 @@ class Overlay:
             client = None
         x, y = compute_position(client, WINDOW_WIDTH, height)
         root.geometry(f'{WINDOW_WIDTH}x{height}+{x}+{y}')
-        root.deiconify()
+        if not self._mapped:
+            # Se mapea una sola vez: ocultar y mostrar con withdraw/deiconify una ventana siempre
+            # encima y transparente a los clics producía destellos sobre el juego.
+            root.attributes('-alpha', 0.0)
+            root.deiconify()
+            root.update_idletasks()
+            self._apply_native_styles()
+            self._mapped = True
         root.update_idletasks()
-        self._apply_native_styles()
+        root.attributes('-alpha', VISIBLE_ALPHA)
 
     def _hide_window(self):
         self._expires_at = None
         try:
-            self._root.withdraw()
+            self._root.attributes('-alpha', 0.0)
         except Exception:
             pass
 
