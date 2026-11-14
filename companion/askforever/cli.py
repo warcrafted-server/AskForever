@@ -363,7 +363,7 @@ def _providers() -> int:
             has_key = bool(config.get_api_key(name))
         except Exception:
             has_key = False
-        mark = '✓' if has_key else '✗'
+        mark = '[x]' if has_key else '[ ]'
         model = preset.default_model or '(elige con --model)'
         print(f'{mark} {name}: {model} · clave en {preset.key_url}')
     return 0

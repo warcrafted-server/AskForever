@@ -201,8 +201,8 @@ def test_providers_command(monkeypatch, capsys):
     output = capsys.readouterr().out
     for name in ('gemini', 'groq', 'mistral', 'cerebras', 'openrouter'):
         assert name in output
-    assert '✓ groq' in output
-    assert '✗ gemini' in output
+    assert '[x] groq' in output
+    assert '[ ] gemini' in output
     assert '(elige con --model)' in output
     assert 'https://console.groq.com' in output
     assert 'SECRETO' not in output
