@@ -27,8 +27,8 @@ ns.L_esES = {
     HELP_INTRO = 'AskForever responde a tus preguntas sobre el juego dentro de WoW. Para recibir '
         .. 'respuestas necesita el programa gratuito AskForever companion abierto en tu PC mientras juegas.',
     HELP_STEP_COMPANION = 'Paso 1: Descarga e instala el companion (Windows) desde GitHub Releases.',
-    HELP_STEP_KEY = 'Paso 2: Crea tu clave gratuita de Google Gemini (no hace falta tarjeta); '
-        .. 'el companion la pide la primera vez.',
+    HELP_STEP_KEY = 'Paso 2: Crea tu clave gratuita de Google Gemini siguiendo esta guía. '
+        .. 'La primera vez que abras el companion, te pedirá que la pegues.',
     HELP_STEP_PLAY = 'Paso 3: Abre el companion y pregunta con /af o el botón del minimapa. Los pasos '
         .. 'completos están en la guía de instalación.',
     HELP_COPY = 'Copiar',

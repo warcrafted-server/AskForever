@@ -11,6 +11,8 @@ local linkBoxes = {}
 
 local function StyleLink(editBox, url)
     editBox:SetText(url)
+    -- Sin esto el recuadro muestra el final del enlace y oculta https://github.com/...
+    editBox:SetCursorPosition(0)
     editBox:SetAutoFocus(false)
     editBox:SetMaxLetters(0)
     editBox:SetScript('OnTextChanged', function(self, userInput)
@@ -24,6 +26,10 @@ local function StyleLink(editBox, url)
     end)
     editBox:HookScript('OnEditFocusGained', function(self)
         self:HighlightText()
+    end)
+    editBox:HookScript('OnEditFocusLost', function(self)
+        self:HighlightText(0, 0)
+        self:SetCursorPosition(0)
     end)
 end
 
