@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import os
+import sys
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Optional
@@ -11,6 +12,21 @@ import keyring
 
 from askforever import paths
 from askforever.web.wiki import WikiClient
+
+
+def _use_windows_credential_manager() -> None:
+    # Empaquetado con PyInstaller, keyring no descubre sus backends (los busca por metadatos
+    # del paquete): sin esto no lee, guarda ni borra la clave.
+    if not getattr(sys, 'frozen', False):
+        return
+    try:
+        from keyring.backends.Windows import WinVaultKeyring
+        keyring.set_keyring(WinVaultKeyring())
+    except Exception:
+        pass
+
+
+_use_windows_credential_manager()
 
 KEYRING_SERVICE = 'AskForever'
 KEYRING_USER = 'gemini'

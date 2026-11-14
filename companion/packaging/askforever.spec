@@ -2,7 +2,7 @@
 
 import os
 
-from PyInstaller.utils.hooks import collect_data_files, collect_submodules
+from PyInstaller.utils.hooks import collect_data_files, collect_submodules, copy_metadata
 
 package_dir = os.path.abspath(SPECPATH)
 if not os.path.isdir(package_dir):
@@ -14,6 +14,8 @@ icon = os.path.join(package_dir, 'askforever.ico')
 
 # Solo datos de ejecución del paquete; no se incluye addon/ ni dev/.
 datas = collect_data_files('askforever')
+# keyring descubre sus backends por los metadatos del paquete.
+datas += copy_metadata('keyring')
 hiddenimports = collect_submodules('askforever')
 hiddenimports += ['keyring.backends.Windows', 'win32ctypes.core']
 

@@ -89,6 +89,24 @@ jobs:
           & 'dist/AskForever/AskForever.exe' --help
           if ($LASTEXITCODE -ne 0) { throw 'AskForever.exe --help fallo.' }
 
+      - name: Smoke test of the built program (Credential Manager)
+        shell: pwsh
+        env:
+          AF_KEY: smoke-test-not-a-real-key
+        run: |
+          # El programa empaquetado debe poder guardar, leer y borrar la clave en el
+          # Administrador de credenciales de Windows (falló en la primera beta de prueba).
+          $exe = 'dist/AskForever/AskForever.exe'
+          & $exe set-key --provider groq
+          if ($LASTEXITCODE -ne 0) { throw 'set-key fallo.' }
+          $listed = (& $exe providers) -join "`n"
+          if ($listed -notmatch '\[x\] groq') { throw "El programa no ve la clave guardada:`n$listed" }
+          & $exe uninstall --yes
+          if ($LASTEXITCODE -ne 0) { throw 'uninstall fallo.' }
+          $listed = (& $exe providers) -join "`n"
+          if ($listed -match '\[x\] groq') { throw "uninstall no borro la clave:`n$listed" }
+          Write-Host 'Credential Manager OK'
+
       - name: Build installer
         shell: pwsh
         working-directory: scripts
