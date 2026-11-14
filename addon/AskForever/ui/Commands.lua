@@ -6,7 +6,70 @@ SLASH_ASKFOREVER2 = '/af'
 local PATTERN_SECONDS = 10
 local PATTERN_DATA_SYMBOLS = 1016
 
+local SELFTEST_FRAME_HEX = '41460100010001000a7b2271223a226869227d4173a9ec'
+local SELFTEST_CRC = 3421780262
+local SELFTEST_SYMBOLS = {
+    16, 20, 24, 1, 0, 0, 4, 0, 0, 16, 0, 10, 30, 50, 9, 49,
+    8, 35, 40, 34, 26, 6, 36, 34, 31, 20, 5, 51, 42, 30, 48,
+}
+local HEX_DIGITS = '0123456789abcdef'
+
 local patternRun = 0
+
+local function Hex32(value)
+    local result = ''
+    for _ = 1, 8 do
+        local digit = value % 16
+        result = HEX_DIGITS:sub(digit + 1, digit + 1) .. result
+        value = math.floor(value / 16)
+    end
+    return result
+end
+
+local function RunSelftest()
+    local frame = ns.Transport.EncodeFrame(1, 0, 1, '{"q":"hi"}')
+    local symbols = ns.Transport.BytesToSymbols(frame)
+    local frameHex = ns.Transport.ToHex(frame)
+    local crc123 = ns.Transport.CRC32('123456789')
+
+    local ok = frameHex == SELFTEST_FRAME_HEX and crc123 == SELFTEST_CRC
+    if #symbols ~= #SELFTEST_SYMBOLS then
+        ok = false
+    end
+    for index = 1, math.min(#symbols, #SELFTEST_SYMBOLS) do
+        if symbols[index] ~= SELFTEST_SYMBOLS[index] then
+            ok = false
+        end
+    end
+
+    local sampleMessage = ns.Transport.BuildMessage('test', ns.Context.Collect())
+    local pages = ns.Transport.Paginate(sampleMessage, 1)
+
+    if type(AskForeverDB) ~= 'table' then
+        AskForeverDB = {}
+    end
+    AskForeverDB.diag = AskForeverDB.diag or {}
+    AskForeverDB.diag.selftest = {
+        frameHex = frameHex,
+        crc123 = Hex32(crc123),
+        symbols = table.concat(symbols, ' '),
+        jsonSample = ns.Json.Encode({
+            b = 2,
+            a = { 'x', ns.Json.null, true },
+            s = 'á"\\n',
+            n = 18.6,
+        }),
+        sampleMessage = sampleMessage,
+        pages = pages and #pages or 0,
+        ok = ok,
+    }
+
+    if ok then
+        print(ns.L.SELFTEST_OK)
+    else
+        print(ns.L.SELFTEST_FAIL)
+    end
+end
 
 local function BuildPatternSymbols()
     local symbols = {}
@@ -83,6 +146,7 @@ SlashCmdList.ASKFOREVER = function(msg)
         print(ns.L.HELP_RESET)
         print(ns.L.HELP_MINIMAP)
         print(ns.L.HELP_PATTERN)
+        print(ns.L.HELP_SELFTEST)
         print(ns.L.HELP_HELP)
     elseif command == 'reset' then
         ns.UI.ResetPosition()
@@ -95,6 +159,8 @@ SlashCmdList.ASKFOREVER = function(msg)
         end
     elseif command == 'pattern' then
         RunPattern()
+    elseif command == 'selftest' then
+        RunSelftest()
     else
         print(ns.L.UNKNOWN_COMMAND)
     end

@@ -59,6 +59,14 @@ local function SendQuestion(text)
     ns.UI.lastQuestion = question
     editBox:SetText('')
     editBox:ClearFocus()
+
+    local inCombat = InCombatLockdown()
+    local accepted = ns.Transport.Send(question)
+    if accepted then
+        AddHistory(inCombat and ns.L.QUEUED_COMBAT or ns.L.SENT_STRIP, colors.textDim)
+    else
+        AddHistory(ns.L.SEND_FAILED, colors.missing)
+    end
 end
 
 local function CopyPrompt()

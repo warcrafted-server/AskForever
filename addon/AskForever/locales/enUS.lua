@@ -35,4 +35,10 @@ ns.L_enUS = {
     PATTERN_SHOWN = 'Showing the test pattern for 10 seconds.',
     PATTERN_HIDDEN = 'Test pattern hidden.',
     HELP_PATTERN = '/af pattern - show a test pattern for 10 seconds (diagnostics)',
+    SENT_STRIP = 'Question sent through the pixel strip. The companion will pick it up if it is running.',
+    QUEUED_COMBAT = 'In combat: the question will be sent when combat ends.',
+    SEND_FAILED = 'The question could not be sent.',
+    SELFTEST_OK = 'Self-test OK: the protocol matches the reference vector.',
+    SELFTEST_FAIL = 'Self-test FAILED: see AskForeverDB.diag.selftest.',
+    HELP_SELFTEST = '/af selftest - check the transport protocol (diagnostics)',
 }

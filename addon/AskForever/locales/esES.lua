@@ -35,4 +35,10 @@ ns.L_esES = {
     PATTERN_SHOWN = 'Mostrando el patrón de prueba durante 10 segundos.',
     PATTERN_HIDDEN = 'Patrón de prueba oculto.',
     HELP_PATTERN = '/af pattern - muestra un patrón de prueba durante 10 segundos (diagnóstico)',
+    SENT_STRIP = 'Pregunta enviada por la tira de píxeles. El companion la recibirá si está abierto.',
+    QUEUED_COMBAT = 'En combate: la pregunta se enviará al salir del combate.',
+    SEND_FAILED = 'No se pudo enviar la pregunta.',
+    SELFTEST_OK = 'Autotest correcto: el protocolo coincide con el vector de referencia.',
+    SELFTEST_FAIL = 'Autotest FALLIDO: revisa AskForeverDB.diag.selftest.',
+    HELP_SELFTEST = '/af selftest - comprueba el protocolo de transporte (diagnóstico)',
 }

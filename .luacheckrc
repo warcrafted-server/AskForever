@@ -33,6 +33,7 @@ read_globals = {
     'GetRealZoneText',
     'GetSubZoneText',
     'GetZoneText',
+    'InCombatLockdown',
     'Minimap',
     'UIParent',
     'UISpecialFrames',

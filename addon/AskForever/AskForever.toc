@@ -13,7 +13,9 @@ locales/esES.lua
 core/Init.lua
 core/Context.lua
 core/Prompt.lua
+core/Json.lua
 core/Strip.lua
+core/Transport.lua
 ui/Theme.lua
 ui/Window.lua
 ui/MainFrame.lua
