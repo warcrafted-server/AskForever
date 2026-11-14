@@ -383,6 +383,8 @@ function ns.DevReport.Attach(body, editBox, addHistory, colors, conversationNumb
                     edit:SetHeight(400)
                     edit:SetAutoFocus(false)
                     edit:SetMaxLetters(0)
+                    if edit.EnableMouse then edit:EnableMouse(true) end
+                    if edit.EnableKeyboard then edit:EnableKeyboard(true) end
                     edit:SetScript('OnEscapePressed', CloseReport)
                     edit:SetScript('OnTextChanged', function()
                         if reportWarning and reportWarning.Hide then
@@ -397,6 +399,16 @@ function ns.DevReport.Attach(body, editBox, addHistory, colors, conversationNumb
                         end
                     end
                     reportScroll:SetScript('OnSizeChanged', Fit)
+                    -- Un clic en cualquier punto del recuadro lleva el cursor al cuadro de texto.
+                    local function FocusEdit()
+                        pcall(edit.SetFocus, edit)
+                    end
+                    for _, area in ipairs({ panel, reportScroll }) do
+                        if area.EnableMouse then
+                            area:EnableMouse(true)
+                            area:SetScript('OnMouseDown', FocusEdit)
+                        end
+                    end
                 end
             end
         end
@@ -550,7 +562,16 @@ function ns.DevReport.Attach(body, editBox, addHistory, colors, conversationNumb
             end
             frame:Show()
             if reportEditBox and reportEditBox.SetFocus then
+                -- El clic que abre la ventana termina en la ventana principal y le devuelve el
+                -- foco: se pide otra vez en el siguiente fotograma.
                 pcall(reportEditBox.SetFocus, reportEditBox)
+                if C_Timer and C_Timer.After then
+                    C_Timer.After(0, function()
+                        if reportFrame and reportFrame:IsShown() then
+                            pcall(reportEditBox.SetFocus, reportEditBox)
+                        end
+                    end)
+                end
             end
         end)
     end

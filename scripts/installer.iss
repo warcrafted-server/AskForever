@@ -22,6 +22,9 @@ OutputBaseFilename=AskForever-Setup-{#AppVersion}
 LicenseFile=..\LICENSE
 SetupIconFile=..\companion\packaging\askforever.ico
 UninstallDisplayIcon={app}\AskForever.exe
+; Al actualizar, cierra AskForever si está abierto (sus archivos estarían en uso).
+CloseApplications=force
+RestartApplications=no
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -41,4 +44,11 @@ Name: "{autodesktop}\AskForever"; Filename: "{app}\AskForever.exe"; Tasks: deskt
 Filename: "{app}\AskForever.exe"; Description: "{cm:LaunchProgram,AskForever}"; Flags: nowait postinstall skipifsilent
 
 [UninstallRun]
+; Primero se cierra AskForever: con el programa abierto Windows no deja borrar sus archivos.
+Filename: "{sys}\taskkill.exe"; Parameters: "/F /T /IM AskForever.exe"; RunOnceId: "AskForeverStop"; Flags: runhidden waituntilterminated
 Filename: "{app}\AskForever.exe"; Parameters: "uninstall --yes"; RunOnceId: "AskForeverUninstall"; Flags: runhidden waituntilterminated
+
+[UninstallDelete]
+; Refuerzo por si algo quedó (archivos creados después de instalar o que no se pudieron borrar).
+Type: filesandordirs; Name: "{app}"
+Type: filesandordirs; Name: "{localappdata}\AskForever"

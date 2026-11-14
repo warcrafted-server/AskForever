@@ -63,6 +63,10 @@ Windows SmartScreen is Windows' built-in warning system. It may show **"Windows 
 
 1. Only run the installer you downloaded from the official [Releases page](https://github.com/warcrafted-server/AskForever/releases).
 2. Click **More info** and then **Run anyway**.
+
+   ![Windows warning: click "More info"](img/v0.3.0-smartscreen-1.png)
+
+   ![Then the "Run anyway" button appears](img/v0.3.0-smartscreen-2.png)
 3. The [security and transparency page](SECURITY_TRANSPARENCY.md) explains what the companion does and how to check the downloaded file.
 
 ## Daily use

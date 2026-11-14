@@ -63,6 +63,10 @@ Windows SmartScreen es el sistema de avisos integrado de Windows. Puede mostrar 
 
 1. Ejecuta solo el instalador que descargaste de la [página oficial de Releases](https://github.com/warcrafted-server/AskForever/releases).
 2. Pulsa **Más información** y después **Ejecutar de todas formas**.
+
+   ![Aviso de Windows: pulsa «Más información»](img/v0.3.0-smartscreen-1.png)
+
+   ![Después aparece el botón «Ejecutar de todas formas»](img/v0.3.0-smartscreen-2.png)
 3. La [página de seguridad y transparencia](SEGURIDAD_TRANSPARENCIA.md) explica qué hace el companion y cómo comprobar el archivo descargado.
 
 ## Uso diario
