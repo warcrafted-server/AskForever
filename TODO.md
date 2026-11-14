@@ -8,7 +8,7 @@ El detalle de cada milestone está en [ROADMAP.md](ROADMAP.md).
 - **Comparar modelos de verdad**: guardar claves de Groq, Mistral, Cerebras y OpenRouter (`set-key --provider NOMBRE`, `providers`, `list-models`), lanzar `bench` con varios objetivos, puntuar a mano el informe y decidir qué servicios recomendar. Línea base Gemini (gemini-3.5-flash-lite): 10/10 respondidas, mediana 742 ms; falló responder en inglés (q10), inventó rutas (q03) y niveles de mazmorras (q06); acertó las preguntas trampa (q08, q09).
 - **Chat dentro de la ventana del addon** (milestone 3, retorno por addons «slot»): escribir y que la respuesta salga en el historial como un chat; el overlay queda como respaldo.
 - **Perfil completo del personaje**: profesiones y niveles, talentos y rama, equipo y bolsas, hechizos y habilidades de armas, reputaciones, etc. Primero verificar en el cliente qué API existe (volcado a SavedVariables); el companion guarda el perfil y a la IA solo se le envía lo relevante para la pregunta (decisión de Marc, 2026-11-14).
-- Calidad de las respuestas: datos fiables de Forever (grafo de rutas, guías) en lugar de depender del conocimiento general del modelo (milestone 5).
+- Calidad de las respuestas, siguiente: rutas de viaje (vuelos + barcos + tranvía) a partir de TaxiPath/TaxiNodes de wowdata (b15 sigue inventando: dice barco desde Ventormenta a Auberdine); puntos de vuelo «cerca de mí» por distancia real; rangos de nivel de mazmorras y zonas y experiencia por nivel (completar en wowdata: tabla ContentTuning); decidir cómo distribuir los datos a los jugadores (licencias); búsqueda web solo como último recurso y marcada.
 
 ## Media
 - Milestones 4–7 del roadmap (instalador, rutas, robustez, multi-proveedor).

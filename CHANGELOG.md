@@ -6,11 +6,15 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ### English
 - Added: the companion supports several OpenAI-compatible cloud providers (Gemini, Groq, Mistral, Cerebras, OpenRouter), one key and one model per provider, with `providers`, `list-models` and `--provider` / `--model` options.
+- Added: verified game data from a local wowdata database (read-only): quests (giver, turn-in, objectives), NPC locations, class trainer spells and trainers, dungeon entrances, flight points, talent trees and item sources are detected in the question and passed to the AI, which must use only that data and say when something is missing. Tested with 19 questions: from 3 correct answers without data to about 16 with data. Developer only for now (the database is not distributed). Commands: `data-check`, `--no-data`, `--show-data`.
+- Changed: answers follow the language of the question; default temperature 0.2 (`ASKFOREVER_TEMPERATURE`).
 - Added: guide to create free keys for each provider with verified links (`docs/API_KEYS.md`).
 - Added: model comparison tool `bench`: runs 10 fixed WoW questions (zones, routes, class, dungeons, quests, honesty traps and an English question) against several providers/models and writes a Markdown + JSON report with latencies, errors and full answers to score by hand.
 
 ### Español
 - Añadido: el companion admite varios proveedores de IA en la nube compatibles con OpenAI (Gemini, Groq, Mistral, Cerebras, OpenRouter), con una clave y un modelo por proveedor, y los comandos `providers`, `list-models` y las opciones `--provider` / `--model`.
+- Añadido: datos de juego verificados desde una base local de wowdata (solo lectura): misiones (quién la da, dónde se entrega, objetivos), posiciones de PNJ, hechizos de instructor e instructores, entradas de mazmorras, puntos de vuelo, ramas de talentos y origen de objetos se detectan en la pregunta y se pasan a la IA, que debe usar solo esos datos y decir cuándo falta algo. Probado con 19 preguntas: de 3 respuestas correctas sin datos a unas 16 con datos. Por ahora solo para desarrollo (la base no se distribuye). Comandos: `data-check`, `--no-data`, `--show-data`.
+- Cambiado: las respuestas siguen el idioma de la pregunta; temperatura por defecto 0,2 (`ASKFOREVER_TEMPERATURE`).
 - Añadido: guía para crear claves gratuitas de cada proveedor con enlaces comprobados (`docs/CLAVES_API.md`).
 - Añadido: herramienta de comparación de modelos `bench`: lanza 10 preguntas fijas de WoW (zonas, rutas, clase, mazmorras, misiones, trampas de honestidad y una pregunta en inglés) a varios proveedores y modelos y genera un informe Markdown + JSON con latencias, errores y respuestas completas para puntuar a mano.
 
