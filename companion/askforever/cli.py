@@ -3,13 +3,18 @@
 from __future__ import annotations
 
 import argparse
+import getpass
 import json
+import os
 import threading
+import time
 from datetime import datetime
 from typing import Optional, Sequence
 
+from askforever import config
 from askforever.capture.grabber import Grabber, ReceivedMessage
 from askforever.capture.window import find_game_window, set_dpi_awareness
+from askforever.providers.openai_compat import ProviderError, provider_from_config
 
 
 def _context_summary(ctx) -> str:
@@ -102,6 +107,51 @@ def _listen(args: argparse.Namespace) -> int:
     return 0
 
 
+def _set_key() -> int:
+    key = os.environ.get('AF_KEY')
+    if key is None:
+        key = getpass.getpass('Clave de la API de Gemini: ')
+    key = (key or '').strip()
+    if not key:
+        print('La clave está vacía; no se ha guardado nada.')
+        return 1
+    try:
+        config.set_api_key(key)
+    except ValueError:
+        print('La clave está vacía; no se ha guardado nada.')
+        return 1
+    except Exception:
+        print('No se pudo guardar la clave en el Administrador de credenciales de Windows.')
+        return 1
+    print(f'Clave guardada: {config.mask_key(key)}')
+    return 0
+
+
+def _test_key() -> int:
+    try:
+        provider = provider_from_config()
+    except ProviderError as error:
+        print(error.user_message('esES'))
+        if error.detail:
+            print(f'Detalle: {error.detail}')
+        print('Guía: docs/CLAVE_GEMINI.md')
+        return 1
+
+    started = time.monotonic()
+    try:
+        answer = provider.chat('Responde solo con la palabra OK.', 'ping', max_tokens=256)
+    except ProviderError as error:
+        print(error.user_message('esES'))
+        if error.detail:
+            print(f'Detalle: {error.detail}')
+        return 1
+    elapsed_ms = (time.monotonic() - started) * 1000.0
+    print(f'Modelo: {provider.model}')
+    print(f'Tiempo: {elapsed_ms:.0f} ms')
+    print(f'Respuesta: {answer[:60]}')
+    return 0
+
+
 def main(argv: Optional[Sequence[str]] = None) -> int:
     parser = argparse.ArgumentParser(
         prog='askforever',
@@ -113,12 +163,18 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                         help='capturas por segundo (por defecto 30)')
     listen.add_argument('--raw', action='store_true',
                         help='imprime los bytes decodificados sin formatear')
+    subparsers.add_parser('set-key', help='guarda la clave de la API de Gemini')
+    subparsers.add_parser('test-key', help='prueba la clave y el proveedor de IA')
 
     args = parser.parse_args(argv)
-    if args.command != 'listen':
-        parser.print_help()
-        return 2
-    return _listen(args)
+    if args.command == 'listen':
+        return _listen(args)
+    if args.command == 'set-key':
+        return _set_key()
+    if args.command == 'test-key':
+        return _test_key()
+    parser.print_help()
+    return 2
 
 
 if __name__ == '__main__':
