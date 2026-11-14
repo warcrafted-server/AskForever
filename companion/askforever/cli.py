@@ -26,6 +26,7 @@ from askforever.bench import (
 from askforever.capture.grabber import Grabber, ReceivedMessage
 from askforever.capture.window import find_game_window, set_dpi_awareness
 from askforever.data.wowdb import WowDb
+from askforever.devreport import parse_report, write_report
 from askforever.engine.answer import answer_message, parse_message
 from askforever.engine.conversation import ConversationStore
 from askforever.overlay.supervisor import OverlaySupervisor
@@ -112,6 +113,26 @@ def _open_web(no_web):
     return web
 
 
+def _handle_report(document, last_exchange, lock, overlay=None) -> None:
+    """Escribe un informe de desarrollo sin pasar por la IA ni la memoria."""
+    lang = document.get('lang') or 'enUS'
+    note = str(document.get('q') or '')
+    report_ctx = document.get('ctx')
+    with lock:
+        exchange = dict(last_exchange) if last_exchange else None
+    try:
+        path = write_report(exchange, note=note, report_ctx=report_ctx)
+    except Exception as error:
+        message = f'No se pudo guardar el informe: {error}'
+        print(message)
+        if overlay is not None:
+            overlay.show_error(message, lang)
+        return
+    print(f'Informe guardado: {path}')
+    if overlay is not None:
+        overlay.show_answer('Informe', f'Guardado: {path.name}', lang)
+
+
 def _listen(args: argparse.Namespace) -> int:
     set_dpi_awareness()
     window = find_game_window()
@@ -124,6 +145,8 @@ def _listen(args: argparse.Namespace) -> int:
     database = _open_data(args.no_data) if args.ask else None
     web = _open_web(args.no_web) if args.ask else None
     store = ConversationStore()
+    last_exchange = {}
+    exchange_lock = threading.Lock()
     provider = None
     provider_failed = False
 
@@ -143,6 +166,11 @@ def _listen(args: argparse.Namespace) -> int:
             return None
 
     def on_message(message: ReceivedMessage) -> None:
+        report = parse_report(message.data)
+        if report is not None:
+            _handle_report(report, last_exchange, exchange_lock)
+            return
+
         stamp = datetime.now().strftime('%H:%M:%S')
         elapsed_ms = (message.completed - message.first_seen) * 1000.0
         print(
@@ -166,10 +194,31 @@ def _listen(args: argparse.Namespace) -> int:
         history = store.history(conversation_key)
         previous_question = history[-1].question if history else None
         question = str(document.get('q') or '') if document is not None else ''
+        lang = (document.get('lang') if document is not None else None) or 'enUS'
 
         def answer_in_background():
             result = answer_message(message.data, active, db=database, history=history,
                                     previous_question=previous_question, web=web)
+            exchange = {
+                'msg_id': message.msg_id,
+                'question': result.question or question,
+                'lang': result.lang or lang,
+                'conv': document.get('conv') if document is not None else None,
+                'ctx': document.get('ctx') if document is not None else None,
+                'moment': datetime.now(),
+                'model': getattr(active, 'model', ''),
+                'ok': result.ok,
+                'text': result.text,
+                'detail': result.detail,
+                'elapsed_ms': result.elapsed_ms,
+                'facts': list(result.facts),
+                'sources': list(result.sources),
+                'facts_text': result.facts_text,
+                'web_titles': list(result.web_titles),
+            }
+            with exchange_lock:
+                last_exchange.clear()
+                last_exchange.update(exchange)
             if result.ok:
                 store.add(conversation_key, question, result.text, result.facts_text)
                 print(f'Respuesta ({result.elapsed_ms} ms):')
@@ -372,8 +421,15 @@ def _run_companion(args: argparse.Namespace) -> int:
     stop_event = threading.Event()
     generation = {'value': 0}
     store = ConversationStore()
+    last_exchange = {}
+    exchange_lock = threading.Lock()
 
     def on_message(message: ReceivedMessage) -> None:
+        report = parse_report(message.data)
+        if report is not None:
+            _handle_report(report, last_exchange, exchange_lock, overlay)
+            return
+
         generation['value'] += 1
         current = generation['value']
 
@@ -407,6 +463,26 @@ def _run_companion(args: argparse.Namespace) -> int:
                                     previous_question=previous_question, web=web)
             if current != generation['value']:
                 return
+            exchange = {
+                'msg_id': message.msg_id,
+                'question': result.question or question,
+                'lang': result.lang or lang,
+                'conv': document.get('conv') if document is not None else None,
+                'ctx': document.get('ctx') if document is not None else None,
+                'moment': datetime.now(),
+                'model': getattr(provider, 'model', ''),
+                'ok': result.ok,
+                'text': result.text,
+                'detail': result.detail,
+                'elapsed_ms': result.elapsed_ms,
+                'facts': list(result.facts),
+                'sources': list(result.sources),
+                'facts_text': result.facts_text,
+                'web_titles': list(result.web_titles),
+            }
+            with exchange_lock:
+                last_exchange.clear()
+                last_exchange.update(exchange)
             if result.ok:
                 store.add(conversation_key, question, result.text, result.facts_text)
                 overlay.show_answer(question, result.text, lang)
