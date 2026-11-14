@@ -1,0 +1,193 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+    # En dev solo se compila (artefactos de prueba en Actions), nunca se publica release.
+    branches:
+      - dev
+    paths:
+      - 'companion/**'
+      - 'scripts/installer.iss'
+      - 'scripts/build-release.ps1'
+      - '.github/workflows/release.yml'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version to build (optional; defaults to VERSION)'
+        required: false
+        default: ''
+        type: string
+
+permissions:
+  contents: write
+  id-token: write
+  attestations: write
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: companion/pyproject.toml
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e "./companion[dev]" pyinstaller
+
+      - name: Run tests
+        working-directory: companion
+        run: python -m pytest -q
+
+      - name: Resolve and check version
+        id: version
+        shell: pwsh
+        env:
+          INPUT_VERSION: ${{ github.event.inputs.version }}
+        run: |
+          $fileVersion = (Get-Content 'VERSION' -Raw).Trim()
+          $tocLine = Select-String -Path 'addon/AskForever/AskForever.toc' -Pattern '^## Version:\s*(.+)$'
+          if (-not $tocLine) { throw 'No se pudo leer la version del .toc.' }
+          $tocVersion = $tocLine.Matches[0].Groups[1].Value.Trim()
+          $selected = $fileVersion
+          $release = 'false'
+          if ($env:GITHUB_EVENT_NAME -eq 'push' -and $env:GITHUB_REF_TYPE -eq 'tag') {
+              $selected = ($env:GITHUB_REF_NAME -replace '^[vV]', '')
+              $release = 'true'
+          } elseif (-not [string]::IsNullOrWhiteSpace($env:INPUT_VERSION)) {
+              $selected = ($env:INPUT_VERSION.Trim() -replace '^[vV]', '')
+          }
+          if ($selected -ne $fileVersion) {
+              throw "La version seleccionada ($selected) no coincide con VERSION ($fileVersion)."
+          }
+          if ($selected -ne $tocVersion) {
+              throw "La version seleccionada ($selected) no coincide con el .toc ($tocVersion)."
+          }
+          "version=$selected" >> $env:GITHUB_OUTPUT
+          "release=$release" >> $env:GITHUB_OUTPUT
+
+      - name: Generate icon
+        run: python companion/packaging/make_ico.py
+
+      - name: Build companion
+        shell: pwsh
+        run: |
+          pyinstaller --noconfirm --clean --distpath dist --workpath build companion/packaging/askforever.spec
+          if ($LASTEXITCODE -ne 0) { throw 'PyInstaller fallo.' }
+          if (-not (Test-Path 'dist/AskForever/AskForever.exe')) {
+              throw 'No existe dist/AskForever/AskForever.exe.'
+          }
+          & 'dist/AskForever/AskForever.exe' --help
+          if ($LASTEXITCODE -ne 0) { throw 'AskForever.exe --help fallo.' }
+
+      - name: Build installer
+        shell: pwsh
+        working-directory: scripts
+        run: |
+          $isccCommand = Get-Command ISCC.exe -ErrorAction SilentlyContinue | Select-Object -First 1
+          $iscc = if ($isccCommand) { $isccCommand.Source } else { $null }
+          if (-not $iscc) {
+              $candidate = 'C:\Program Files (x86)\Inno Setup 6\ISCC.exe'
+              if (Test-Path $candidate) {
+                  $iscc = $candidate
+              } else {
+                  choco install innosetup -y --no-progress
+                  if ($LASTEXITCODE -ne 0) { throw 'No se pudo instalar Inno Setup.' }
+                  $iscc = $candidate
+              }
+          }
+          if (-not (Test-Path $iscc)) { throw 'No se encontro ISCC.exe.' }
+          $workspace = $env:GITHUB_WORKSPACE
+          New-Item -ItemType Directory -Force -Path (Join-Path $workspace 'release') | Out-Null
+          $version = '${{ steps.version.outputs.version }}'
+          $sourceDir = (Resolve-Path (Join-Path $workspace 'dist/AskForever')).Path
+          & $iscc "/DAppVersion=$version" "/DSourceDir=$sourceDir" 'installer.iss'
+          if ($LASTEXITCODE -ne 0) { throw 'ISCC fallo.' }
+          if (-not (Test-Path (Join-Path $workspace "release/AskForever-Setup-$version.exe"))) {
+              throw 'No se genero el instalador.'
+          }
+
+      - name: Build addon zip
+        shell: pwsh
+        run: ./scripts/build-release.ps1
+
+      - name: Compute SHA-256
+        shell: pwsh
+        run: |
+          $version = '${{ steps.version.outputs.version }}'
+          $installer = "release/AskForever-Setup-$version.exe"
+          $zip = "release/AskForever-$version.zip"
+          foreach ($artifact in @($installer, $zip)) {
+              if (-not (Test-Path $artifact)) { throw "Falta $artifact." }
+              $hash = (Get-FileHash -Algorithm SHA256 $artifact).Hash.ToLowerInvariant()
+              $name = Split-Path $artifact -Leaf
+              "$hash  $name" | Out-File -FilePath "$artifact.sha256" -Encoding ascii
+              Write-Host "$hash  $name"
+          }
+
+      - name: Attest artifacts
+        uses: actions/attest-build-provenance@v2
+        with:
+          subject-path: |
+            release/AskForever-Setup-${{ steps.version.outputs.version }}.exe
+            release/AskForever-${{ steps.version.outputs.version }}.zip
+
+      - name: Upload artifacts
+        if: steps.version.outputs.release != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: AskForever-${{ steps.version.outputs.version }}
+          path: |
+            release/AskForever-Setup-${{ steps.version.outputs.version }}.exe
+            release/AskForever-Setup-${{ steps.version.outputs.version }}.exe.sha256
+            release/AskForever-${{ steps.version.outputs.version }}.zip
+            release/AskForever-${{ steps.version.outputs.version }}.zip.sha256
+          if-no-files-found: error
+
+      - name: Create release
+        if: steps.version.outputs.release == 'true'
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $version = '${{ steps.version.outputs.version }}'
+          $installer = "release/AskForever-Setup-$version.exe"
+          $zip = "release/AskForever-$version.zip"
+          gh release view "v$version" --repo "${{ github.repository }}" 2>$null
+          if ($LASTEXITCODE -eq 0) {
+              throw "La release v$version ya existe."
+          }
+          $installerHash = (Get-Content "$installer.sha256" -Raw).Trim()
+          $zipHash = (Get-Content "$zip.sha256" -Raw).Trim()
+          $notes = @"
+          ## AskForever $version
+
+          Cambios: https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md
+          Seguridad y transparencia: https://github.com/${{ github.repository }}/blob/main/docs/SECURITY_TRANSPARENCY.md
+
+          SHA-256:
+          $installerHash
+          $zipHash
+          "@
+          $ghArgs = @(
+              'release', 'create', "v$version",
+              $installer, "$installer.sha256",
+              $zip, "$zip.sha256",
+              '--title', "AskForever $version",
+              '--notes', $notes,
+              '--repo', "${{ github.repository }}"
+          )
+          if ($version.Contains('-')) {
+              $ghArgs += '--prerelease'
+          }
+          gh @ghArgs
+          if ($LASTEXITCODE -ne 0) { throw 'No se pudo crear la release.' }

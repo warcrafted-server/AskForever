@@ -19,6 +19,10 @@ venv/
 build/
 dist/
 *.spec
+!companion/packaging/askforever.spec
+
+# Icono generado para el instalador
+companion/packaging/askforever.ico
 
 # Releases locales
 release/
