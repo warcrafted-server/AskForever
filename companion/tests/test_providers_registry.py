@@ -48,13 +48,13 @@ def test_registry_complete():
         'gemini': (config.GEMINI_BASE_URL, config.DEFAULT_MODEL, 'gemini',
                    'ASKFOREVER_GEMINI_KEY', 'https://aistudio.google.com'),
         'groq': ('https://api.groq.com/openai/v1', 'llama-3.3-70b-versatile', 'groq',
-                 'ASKFOREVER_GROQ_KEY', 'https://console.groq.com'),
+                 'ASKFOREVER_GROQ_KEY', 'https://console.groq.com/keys'),
         'mistral': ('https://api.mistral.ai/v1', None, 'mistral',
-                    'ASKFOREVER_MISTRAL_KEY', 'https://console.mistral.ai'),
+                    'ASKFOREVER_MISTRAL_KEY', 'https://console.mistral.ai/api-keys'),
         'cerebras': ('https://api.cerebras.ai/v1', None, 'cerebras',
                      'ASKFOREVER_CEREBRAS_KEY', 'https://cloud.cerebras.ai'),
         'openrouter': ('https://openrouter.ai/api/v1', None, 'openrouter',
-                       'ASKFOREVER_OPENROUTER_KEY', 'https://openrouter.ai'),
+                       'ASKFOREVER_OPENROUTER_KEY', 'https://openrouter.ai/settings/keys'),
     }
     for name, values in expected.items():
         preset = config.PROVIDERS[name]
