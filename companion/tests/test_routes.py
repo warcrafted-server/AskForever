@@ -8,7 +8,8 @@ import pytest
 
 from askforever.data.routes import (KIND_FLIGHT, KIND_TRANSPORT, KIND_TRAM, KIND_WALK,
                                     Route, RouteGraph, Step, describe, find_route,
-                                    resolve_place, transport_between)
+                                    flight_point_near, resolve_place,
+                                    route_flight_points, transport_between)
 from askforever.data.wowdb import WowDb
 
 FLIGHT = 'vuelo'
@@ -282,3 +283,35 @@ def test_auberdine_to_ventormenta_uses_recorded_boat(db):
     assert any('Cabo de la Niebla' in step.from_name
                or 'Cabo de la Niebla' in step.to_name for step in boats)
     assert any(step.seen_in_game for step in boats)
+
+
+def test_find_route_uses_known_flights_only(db):
+    graph = RouteGraph.build(db, 'A')
+
+    assert find_route(graph, 'Forjaz', 'Thelsamar', set()) is None
+    assert find_route(graph, 'Forjaz', 'Thelsamar', {6}) is None
+    assert find_route(graph, 'Forjaz', 'Thelsamar', {8}) is None
+    route = find_route(graph, 'Forjaz', 'Thelsamar', {6, 8})
+    assert route is not None
+    assert any(step.kind == KIND_FLIGHT for step in route.steps)
+
+
+def test_route_flight_points(db):
+    graph = RouteGraph.build(db, 'A')
+    route = find_route(graph, 'Forjaz', 'Thelsamar', {6, 8})
+
+    assert route_flight_points(route, 'es') == ['Forjaz, Dun Morogh',
+                                                'Thelsamar, Loch Modan']
+    assert route_flight_points(route, 'en') == ['Ironforge, Dun Morogh',
+                                                'Thelsamar, Loch Modan']
+    tram_route = find_route(graph, 'Forjaz', 'Ventormenta')
+    assert route_flight_points(tram_route) == []
+
+
+def test_flight_point_near(db):
+    graph = RouteGraph.build(db, 'A')
+
+    assert flight_point_near(graph, 'Forjaz').taxi_id == 6
+    assert flight_point_near(graph, 'Thelsamar').taxi_id == 8
+    assert flight_point_near(graph, 'Cabo de la Niebla') is None
+    assert flight_point_near(graph, 'Lugar Inventado') is None

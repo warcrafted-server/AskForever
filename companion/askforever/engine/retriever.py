@@ -5,8 +5,10 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 
-from askforever.data.routes import (KIND_TRAM, KIND_TRANSPORT, RouteGraph, describe,
-                                    find_route, resolve_place, transport_between)
+from askforever.data.routes import (KIND_FLIGHT, KIND_TRAM, KIND_TRANSPORT, RouteGraph,
+                                    _walk_neighbors, describe, find_route,
+                                    flight_point_near, resolve_place,
+                                    route_flight_points, transport_between)
 from askforever.data.wowdb import CLASSES, class_mask_from_name, normalize
 
 LIMIT = 1600
@@ -27,9 +29,10 @@ ZONE_KEYWORDS = ('subir de nivel', 'levear', 'zonas', 'zona para mi nivel',
                  'where to level', 'level up', 'zones')
 TRAVEL_PHRASES = (
     'como voy', 'como llego', 'como ir', 'como puedo ir', 'como puedo llegar',
-    'como se va', 'como se llega', 'ir a ', 'ir de ', 'llegar a', 'viajar a',
-    'lo mas rapido', 'mas rapido a', 'ruta', 'camino a', 'how do i get',
-    'how can i get', 'how to get', 'fastest way', 'route', 'travel to', 'get to ',
+    'como se va', 'como se llega', 'de aqui a', 'desde aqui', 'ir a ', 'ir de ',
+    'llegar a', 'viajar a', 'lo mas rapido', 'mas rapido a', 'ruta', 'camino a',
+    'how do i get', 'how can i get', 'how to get', 'fastest way', 'route',
+    'travel to', 'from here', 'get to ',
 )
 TRANSPORT_KEYWORDS = ('barco', 'barcos', 'zepelin', 'tranvia', 'ferry',
                       'transbordador', 'boat', 'ship', 'zeppelin', 'tram')
@@ -48,6 +51,8 @@ PLACE_STOP_WORDS = {
     'sabes', 'si', 'no', 'how', 'do', 'i', 'get', 'can', 'fastest', 'way',
     'travel', 'route', 'where', 'what', 'when', 'which', 'is', 'it', 'there',
 }
+HERE_WORDS = {'aqui', 'aca', 'here', 'donde estoy', 'mi posicion'}
+FLIGHT_GAIN_SECONDS = 60
 PRICE_KEYWORDS = ('cuanto cuesta', 'precio', 'how much')
 FLY_FROM_KEYWORDS = ('volar desde', 'adonde puedo volar', 'vuelos desde',
                      'where can i fly')
@@ -665,6 +670,10 @@ def _ngram_places(graph, text: str) -> list:
     return places
 
 
+def _is_here(text: str) -> bool:
+    return normalize(text) in HERE_WORDS
+
+
 def _ctx_origin(graph, ctx: dict) -> str:
     sub = ctx.get('sub')
     if isinstance(sub, str) and sub.strip() and resolve_place(graph, sub):
@@ -682,7 +691,9 @@ def extract_places(graph, text: str, ctx: dict):
     for pattern in PLACE_PATTERNS:
         found = re.search(pattern, text or '', re.IGNORECASE)
         if found:
-            origin = _clean_place(graph, found.group(1))
+            raw_origin = found.group(1)
+            origin = (_ctx_origin(graph, ctx) if _is_here(raw_origin)
+                      else _clean_place(graph, raw_origin))
             destination = _clean_place(graph, found.group(2))
             return origin, destination
     places = _ngram_places(graph, text)
@@ -698,28 +709,157 @@ def _route_graph(db, ctx: dict):
     return _safe(RouteGraph.build, db, faction)
 
 
+def _known_flights(ctx: dict):
+    fp = ctx.get('fp')
+    if not isinstance(fp, list):
+        return None
+    return {value for value in fp
+            if isinstance(value, int) and not isinstance(value, bool)}
+
+
+def _flight_node_lookup(graph) -> dict:
+    lookup = {}
+    for node in graph.nodes.values():
+        if not node.taxi_id:
+            continue
+        lookup.setdefault(node.name, node)
+        lookup.setdefault(node.name_en, node)
+    return lookup
+
+
+def _missing_flight_points(graph, route, known, lang: str) -> list:
+    if route is None or known is None:
+        return []
+    lookup = _flight_node_lookup(graph)
+    names = []
+    for step in route.steps:
+        if step.kind != KIND_FLIGHT:
+            continue
+        for name, name_en in ((step.from_name, step.from_name_en),
+                              (step.to_name, step.to_name_en)):
+            node = lookup.get(name) or lookup.get(name_en)
+            if node is None or not node.taxi_id or node.taxi_id in known:
+                continue
+            label = ((node.name_en or node.name) if lang != 'es'
+                     else (node.name or node.name_en))
+            if label and label not in names:
+                names.append(label)
+    return names
+
+
+def _position_route_needed(graph, ctx_origin: str, origin: str) -> bool:
+    if not ctx_origin or normalize(origin) == normalize(ctx_origin):
+        return False
+    origin_nodes = resolve_place(graph, origin)
+    ctx_nodes = resolve_place(graph, ctx_origin)
+    if not origin_nodes or not ctx_nodes:
+        return False
+    origin_keys = {node.key for node in origin_nodes}
+    ctx_keys = {node.key for node in ctx_nodes}
+    if origin_keys & ctx_keys:
+        return False
+    if _walk_neighbors(graph, origin_keys) & ctx_keys:
+        return False
+    if _walk_neighbors(graph, ctx_keys) & origin_keys:
+        return False
+    return True
+
+
 def _detect_route(facts: Facts, graph, question: str, lang: str, ctx: dict) -> bool:
-    if graph is None or not is_travel_question(question):
+    if not is_travel_question(question):
         return False
-    origin, destination = extract_places(graph, question, ctx)
+    origin, destination = extract_places(graph, question, ctx) if graph else ('', '')
     if not origin or not destination:
+        facts.missing.append(
+            'ruta: no reconozco el origen o el destino en la base'
+            if lang == 'es'
+            else 'route: origin or destination not recognised in the database')
         return False
-    route = _safe(find_route, graph, origin, destination)
+    known = _known_flights(ctx)
+    route = _safe(find_route, graph, origin, destination, known)
+    unrestricted = (_safe(find_route, graph, origin, destination)
+                    if known is not None else None)
+    missing_points = (_missing_flight_points(graph, unrestricted, known, lang)
+                      if known is not None else [])
+    ctx_origin = _ctx_origin(graph, ctx)
+    if _position_route_needed(graph, ctx_origin, origin):
+        position_route = _safe(find_route, graph, ctx_origin, origin, known)
+        if position_route is not None:
+            description = describe(position_route, 'es' if lang == 'es' else 'en')
+            if description:
+                if lang == 'es':
+                    facts.lines.append(f'Desde tu posición ({ctx_origin}) hasta {origin}: '
+                                       f'{description}')
+                else:
+                    facts.lines.append(f'From your position ({ctx_origin}) to {origin}: '
+                                       f'{description}')
+                _add_source(facts, f'route:{ctx_origin}>{origin}')
+    route_added = False
+    if route is not None:
+        description = describe(route, 'es' if lang == 'es' else 'en')
+        if description:
+            if lang == 'es':
+                facts.lines.append(f'Ruta más rápida según la base: {description}')
+            else:
+                facts.lines.append(f'Fastest route according to the database: {description}')
+            _add_source(facts, f'route:{origin}>{destination}')
+            route_added = True
+    if known is not None and unrestricted is not None and missing_points:
+        faster = route is None or route.seconds - unrestricted.seconds >= FLIGHT_GAIN_SECONDS
+        if faster:
+            description = describe(unrestricted, 'es' if lang == 'es' else 'en')
+            if description:
+                names = ', '.join(missing_points)
+                # Solo se puede volar a puntos ya descubiertos: es una ruta para más adelante.
+                if lang == 'es':
+                    facts.lines.append(
+                        f'Aún no tienes los puntos de vuelo {names}; no puedes volar a ellos '
+                        f'hasta descubrirlos llegando por tierra. Cuando los tengas: '
+                        f'{description}')
+                else:
+                    facts.lines.append(
+                        f'You do not have the flight points {names} yet; you cannot fly '
+                        f'there until you discover them by arriving over land. Once you '
+                        f'have them: {description}')
     if route is None:
         facts.missing.append(
-            f'ruta entre {origin} y {destination} (aún no está en la base)'
+            f'camino por tierra entre {origin} y {destination} con tus puntos de vuelo '
+            '(no está en la base)'
+            if lang == 'es' and known is not None and missing_points
+            else f'ruta entre {origin} y {destination} (aún no está en la base)'
             if lang == 'es'
+            else f'land route between {origin} and {destination} with your flight points '
+                 '(not in the database)'
+            if known is not None and missing_points
             else f'route between {origin} and {destination} (not in the database yet)')
-        return False
-    description = describe(route, 'es' if lang == 'es' else 'en')
-    if not description:
-        return False
-    if lang == 'es':
-        facts.lines.append(f'Ruta más rápida según la base: {description}')
-    else:
-        facts.lines.append(f'Fastest route according to the database: {description}')
-    _add_source(facts, f'route:{origin}>{destination}')
-    return True
+    if known is None and route is not None:
+        names = route_flight_points(route, lang)
+        if names:
+            joined = ', '.join(names)
+            if lang == 'es':
+                facts.lines.append(
+                    f'Esta ruta usa los puntos de vuelo {joined}; si no los tienes, '
+                    'descúbrelos hablando con el maestro de vuelo al llegar. (El addon '
+                    'aún no sabe qué puntos de vuelo conoces: abre el mapa de un maestro '
+                    'de vuelo para registrarlos.)')
+            else:
+                facts.lines.append(
+                    f'This route uses the flight points {joined}; if you do not have them, '
+                    'discover them by talking to the flight master when you arrive. (The '
+                    "addon does not know which flight points you have yet: open a flight "
+                    "master's map to register them.)")
+    if known is not None:
+        point = _safe(flight_point_near, graph, destination)
+        if point is not None and point.taxi_id not in known:
+            name = ((point.name_en or point.name) if lang != 'es'
+                    else (point.name or point.name_en))
+            if lang == 'es':
+                facts.lines.append(
+                    f'Al llegar a {destination}, descubre el punto de vuelo de {name}.')
+            else:
+                facts.lines.append(
+                    f'When you arrive at {destination}, discover the {name} flight point.')
+    return route_added
 
 
 def _detect_transport(facts: Facts, graph, question: str, normalized: str,

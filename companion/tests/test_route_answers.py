@@ -132,9 +132,13 @@ def db(tmp_path):
     database.close()
 
 
-def _message(question, lang='esES', zone='Costa Oscura'):
-    return {'v': 1, 'lang': lang, 'q': question,
-            'ctx': {'fac': 'Alianza', 'zone': zone}}
+def _message(question, lang='esES', zone='Costa Oscura', sub=None, fp=None):
+    ctx = {'fac': 'Alianza', 'zone': zone}
+    if sub is not None:
+        ctx['sub'] = sub
+    if fp is not None:
+        ctx['fp'] = fp
+    return {'v': 1, 'lang': lang, 'q': question, 'ctx': ctx}
 
 
 def _text(facts):
@@ -187,6 +191,102 @@ def test_unknown_destination_does_not_invent_route(db):
     text = _text(facts)
     assert 'Ruta más rápida' not in text
     assert not any('ruta entre' in item for item in facts.missing)
+    assert 'ruta: no reconozco el origen o el destino en la base' in facts.missing
+
+
+def test_from_here_uses_player_position(db):
+    facts = retrieve(
+        _message('¿y de aquí a Ventormenta?', zone='Dun Morogh',
+                 sub='Puertas de Forjaz'), db)
+    text = _text(facts)
+    assert 'Ruta más rápida según la base:' in text
+    assert 'tranvía' in text
+    assert 'Desde tu posición' not in text
+
+
+def test_from_here_falls_back_to_zone(db):
+    facts = retrieve(_message('y de aquí a Ventormenta?', zone='Dun Morogh'), db)
+    text = _text(facts)
+    assert 'Ruta más rápida según la base:' in text
+    assert 'Forjaz' in text
+
+
+def test_from_here_english(db):
+    facts = retrieve(
+        _message('How do I get from here to Ventormenta?', lang='enUS', zone='Forjaz'), db)
+    text = _text(facts)
+    assert 'Fastest route according to the database:' in text
+
+
+def test_position_route_before_main_route(db):
+    facts = retrieve(
+        _message('¿Cómo voy de Ventormenta a Thelsamar?', zone='Dun Morogh',
+                 sub='Puertas de Forjaz'), db)
+    lines = facts.lines
+    position = next(index for index, line in enumerate(lines)
+                    if line.startswith('Desde tu posición (Puertas de Forjaz) '
+                                       'hasta Ventormenta:'))
+    main = next(index for index, line in enumerate(lines)
+                if line.startswith('Ruta más rápida según la base:'))
+    assert position < main
+
+
+def test_no_position_route_when_already_there(db):
+    facts = retrieve(_message('¿Cómo voy de Forjaz a Thelsamar?', zone='Forjaz'), db)
+    text = _text(facts)
+    assert 'Ruta más rápida según la base:' in text
+    assert 'Desde tu posición' not in text
+
+
+def test_missing_flight_points_faster_route(db):
+    facts = retrieve(
+        _message('¿Cómo voy de Forjaz a Thelsamar?', zone='Forjaz', fp=[]), db)
+    text = _text(facts)
+    assert 'Aún no tienes los puntos de vuelo' in text
+    assert 'Cuando los tengas:' in text
+    assert 'Thelsamar, Loch Modan' in text
+    assert not any('ruta entre' in item for item in facts.missing)
+
+
+def test_missing_flight_points_faster_route_english(db):
+    facts = retrieve(
+        _message('How do I get from Forjaz to Thelsamar?', lang='enUS',
+                 zone='Forjaz', fp=[]), db)
+    text = _text(facts)
+    assert 'You do not have the flight points' in text
+    assert 'Once you have them:' in text
+
+
+def test_no_faster_route_warning_with_known_flights(db):
+    facts = retrieve(
+        _message('¿Cómo voy de Forjaz a Thelsamar?', zone='Forjaz', fp=[6, 8]), db)
+    text = _text(facts)
+    assert 'Ruta más rápida según la base:' in text
+    assert 'Con puntos de vuelo que aún no tienes' not in text
+
+
+def test_general_flight_points_warning_without_fp(db):
+    facts = retrieve(_message('¿Cómo voy de Forjaz a Thelsamar?', zone='Forjaz'), db)
+    text = _text(facts)
+    assert 'Esta ruta usa los puntos de vuelo' in text
+    assert 'Forjaz, Dun Morogh' in text
+    assert 'Thelsamar, Loch Modan' in text
+    assert 'El addon aún no sabe qué puntos de vuelo conoces' in text
+
+
+def test_destination_flight_point_reminder(db):
+    facts = retrieve(
+        _message('¿Cómo voy de Forjaz a Ventormenta?', zone='Forjaz', fp=[]), db)
+    text = _text(facts)
+    assert ('Al llegar a Ventormenta, descubre el punto de vuelo de '
+            'Ventormenta, Elwynn.') in text
+
+
+def test_destination_flight_point_known_no_reminder(db):
+    facts = retrieve(
+        _message('¿Cómo voy de Forjaz a Ventormenta?', zone='Forjaz', fp=[2]), db)
+    text = _text(facts)
+    assert 'Al llegar a Ventormenta' not in text
 
 
 def test_is_travel_question():
@@ -194,6 +294,9 @@ def test_is_travel_question():
     assert is_travel_question('¿Cómo voy de Forjaz a Auberdine?')
     assert is_travel_question('How do I get to Auberdine?')
     assert is_travel_question('¿Qué ruta me recomiendas?')
+    assert is_travel_question('¿y de aquí a Ventormenta?')
+    assert is_travel_question('¿Cómo voy desde aquí a Forjaz?')
+    assert is_travel_question('How do I get from here to Auberdine?')
     assert not is_travel_question('¿Qué hechizos aprendo?')
 
 

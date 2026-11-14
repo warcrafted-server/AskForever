@@ -19,6 +19,9 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Changed: answers follow the language of the question; default temperature 0.2 (`ASKFOREVER_TEMPERATURE`).
 - Added: guide to create free keys for each provider with verified links (`docs/API_KEYS.md`).
 - Added: model comparison tool `bench`: runs 10 fixed WoW questions (zones, routes, class, dungeons, quests, honesty traps and an English question) against several providers/models and writes a Markdown + JSON report with latencies, errors and full answers to score by hand.
+- Fixed: "and from here to X?" questions now compute the route from the player's position (before, no route was computed and the AI could make it up); travel questions whose places are not recognised are reported as missing data.
+- Added: when the route starts somewhere else, the answer also gives the route from the player's position to that starting point (for example, the tram from Ironforge to Stormwind before the Darkshore boat).
+- Added: routes take the known flight points into account when the addon sends them (`ctx.fp`, TaxiNodes IDs): flights only between known points, a note with the faster route once the missing points are discovered, and a reminder to discover the flight point at the destination. Without that list, the answer names the flight points the route uses and says how to register them.
 
 ### Español
 - Añadido: el companion admite varios proveedores de IA en la nube compatibles con OpenAI (Gemini, Groq, Mistral, Cerebras, OpenRouter), con una clave y un modelo por proveedor, y los comandos `providers`, `list-models` y las opciones `--provider` / `--model`.
@@ -35,6 +38,9 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Cambiado: las respuestas siguen el idioma de la pregunta; temperatura por defecto 0,2 (`ASKFOREVER_TEMPERATURE`).
 - Añadido: guía para crear claves gratuitas de cada proveedor con enlaces comprobados (`docs/CLAVES_API.md`).
 - Añadido: herramienta de comparación de modelos `bench`: lanza 10 preguntas fijas de WoW (zonas, rutas, clase, mazmorras, misiones, trampas de honestidad y una pregunta en inglés) a varios proveedores y modelos y genera un informe Markdown + JSON con latencias, errores y respuestas completas para puntuar a mano.
+- Corregido: las preguntas del tipo «¿y de aquí a X?» calculan la ruta desde la posición del jugador (antes no se calculaba y la IA podía inventársela); las preguntas de viaje cuyos lugares no se reconocen se marcan como dato ausente.
+- Añadido: cuando la ruta empieza en otro sitio, la respuesta da también la ruta desde la posición del jugador hasta ese origen (por ejemplo, el tranvía de Forjaz a Ventormenta antes del barco a Costa Oscura).
+- Añadido: las rutas tienen en cuenta los puntos de vuelo conocidos cuando el addon los envía (`ctx.fp`, IDs de TaxiNodes): vuelos solo entre puntos conocidos, aviso con la ruta más rápida cuando se descubran los que faltan y recordatorio de descubrir el punto de vuelo del destino. Sin esa lista, la respuesta nombra los puntos de vuelo que usa la ruta y explica cómo registrarlos.
 
 ## [0.2.0-beta.1] - 2026-11-14
 

@@ -372,8 +372,34 @@ def _walk_neighbors(graph, keys):
     return result
 
 
-def find_route(graph, origin_text, destination_text) -> Optional[Route]:
-    """Ruta más rápida entre dos lugares, o None si no hay camino."""
+def _flight_endpoint_keys(graph) -> set:
+    keys = set()
+    for source, edges in graph.adjacency.items():
+        for neighbor, _seconds, step in edges:
+            if step.kind == KIND_FLIGHT:
+                keys.add(source)
+                keys.add(neighbor)
+    return keys
+
+
+def flight_point_near(graph, place_text):
+    """Punto de vuelo (nodo con taxi_id y vuelos) de un lugar, o None."""
+    if graph is None:
+        return None
+    flight_keys = _flight_endpoint_keys(graph)
+    for node in resolve_place(graph, place_text):
+        if node.taxi_id and node.key in flight_keys:
+            return node
+    return None
+
+
+def find_route(graph, origin_text, destination_text,
+               known_flights=None) -> Optional[Route]:
+    """Ruta más rápida entre dos lugares, o None si no hay camino.
+
+    Si known_flights es un conjunto de taxi_id, los vuelos solo pueden usar
+    puntos de vuelo que el personaje conoce.
+    """
     origins = resolve_place(graph, origin_text)
     destinations = resolve_place(graph, destination_text)
     if not origins or not destinations:
@@ -402,7 +428,14 @@ def find_route(graph, origin_text, destination_text) -> Optional[Route]:
                 current = parent
             steps.reverse()
             return Route(steps, int(round(distance)))
+        key_node = graph.nodes.get(key)
         for neighbor, seconds, step in graph.adjacency.get(key, []):
+            if known_flights is not None and step.kind == KIND_FLIGHT:
+                target_node = graph.nodes.get(neighbor)
+                if (key_node is None or target_node is None
+                        or key_node.taxi_id not in known_flights
+                        or target_node.taxi_id not in known_flights):
+                    continue
             candidate = distance + seconds
             if candidate < distances.get(neighbor, math.inf) - 1e-9:
                 distances[neighbor] = candidate
@@ -458,6 +491,22 @@ def _step_name(step: Step, english: bool, end: str) -> str:
     else:
         value = getattr(step, f'{end}_name') or getattr(step, f'{end}_name_en')
     return value
+
+
+def route_flight_points(route, lang: str = 'es') -> list:
+    """Puntos de vuelo usados por la ruta, en orden y sin repetir."""
+    if route is None:
+        return []
+    spanish = lang in ('es', 'esES', 'esMX')
+    names = []
+    for step in route.steps:
+        if step.kind != KIND_FLIGHT:
+            continue
+        for end in ('from', 'to'):
+            name = _step_name(step, not spanish, end)
+            if name and name not in names:
+                names.append(name)
+    return names
 
 
 def describe(route, lang: str) -> str:
