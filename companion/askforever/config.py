@@ -39,11 +39,11 @@ PROVIDERS = {
     ),
     'groq': ProviderPreset(
         'groq', 'https://api.groq.com/openai/v1', 'llama-3.3-70b-versatile', 'groq',
-        'ASKFOREVER_GROQ_KEY', 'https://console.groq.com',
+        'ASKFOREVER_GROQ_KEY', 'https://console.groq.com/keys',
     ),
     'mistral': ProviderPreset(
         'mistral', 'https://api.mistral.ai/v1', None, 'mistral',
-        'ASKFOREVER_MISTRAL_KEY', 'https://console.mistral.ai',
+        'ASKFOREVER_MISTRAL_KEY', 'https://console.mistral.ai/api-keys',
     ),
     'cerebras': ProviderPreset(
         'cerebras', 'https://api.cerebras.ai/v1', None, 'cerebras',
@@ -51,7 +51,7 @@ PROVIDERS = {
     ),
     'openrouter': ProviderPreset(
         'openrouter', 'https://openrouter.ai/api/v1', None, 'openrouter',
-        'ASKFOREVER_OPENROUTER_KEY', 'https://openrouter.ai',
+        'ASKFOREVER_OPENROUTER_KEY', 'https://openrouter.ai/settings/keys',
     ),
 }
 

@@ -6,10 +6,12 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ### English
 - Added: the companion supports several OpenAI-compatible cloud providers (Gemini, Groq, Mistral, Cerebras, OpenRouter), one key and one model per provider, with `providers`, `list-models` and `--provider` / `--model` options.
+- Added: guide to create free keys for each provider with verified links (`docs/API_KEYS.md`).
 - Added: model comparison tool `bench`: runs 10 fixed WoW questions (zones, routes, class, dungeons, quests, honesty traps and an English question) against several providers/models and writes a Markdown + JSON report with latencies, errors and full answers to score by hand.
 
 ### Español
 - Añadido: el companion admite varios proveedores de IA en la nube compatibles con OpenAI (Gemini, Groq, Mistral, Cerebras, OpenRouter), con una clave y un modelo por proveedor, y los comandos `providers`, `list-models` y las opciones `--provider` / `--model`.
+- Añadido: guía para crear claves gratuitas de cada proveedor con enlaces comprobados (`docs/CLAVES_API.md`).
 - Añadido: herramienta de comparación de modelos `bench`: lanza 10 preguntas fijas de WoW (zonas, rutas, clase, mazmorras, misiones, trampas de honestidad y una pregunta en inglés) a varios proveedores y modelos y genera un informe Markdown + JSON con latencias, errores y respuestas completas para puntuar a mano.
 
 ## [0.2.0-beta.1] - 2026-11-14

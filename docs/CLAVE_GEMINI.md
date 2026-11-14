@@ -4,6 +4,8 @@
 
 > Hace falta a partir de las versiones que incluyen el **companion** (consulta la [hoja de ruta](../ROADMAP.md)). La versión 0.1.x no usa ninguna clave: tú pegas el prompt en la IA que prefieras.
 
+Otros servicios (Groq, Mistral, Cerebras, OpenRouter): consulta [Claves de IA gratuitas](CLAVES_API.md).
+
 La clave es como una contraseña que permite al companion usar la IA de Google. Crearla es gratis y no pide tarjeta.
 
 ## 1. Crear la clave

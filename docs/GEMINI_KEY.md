@@ -4,6 +4,8 @@
 
 > Needed from the versions that include the **companion** (see the [ROADMAP](../ROADMAP.md)). Version 0.1.x does not use any key: you paste the prompt into the AI of your choice.
 
+Other services (Groq, Mistral, Cerebras, OpenRouter): see [Free AI keys](API_KEYS.md).
+
 The key is like a password that lets the companion use Google's AI. Creating one is free and needs no credit card.
 
 ## 1. Create the key
