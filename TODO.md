@@ -1,25 +1,31 @@
 # TODO
 
-El detalle de cada milestone está en [ROADMAP.md](ROADMAP.md).
+El detalle de cada hito está en [ROADMAP.md](ROADMAP.md). Lo hecho está en el [CHANGELOG](CHANGELOG.md).
 
 ## Alta
-- Publicar la v0.2.0-beta.1 cuando Marc lo decida (el companion todavía no va en el paquete de CurseForge): push, tag y release en GitHub con su aprobación.
-- **Memoria de conversación** (decisión de Marc, 2026-11-14): mientras la ventana de preguntas siga abierta, las preguntas se encadenan; al cerrarla empieza una conversación nueva. El addon manda un número de conversación (`conv`) en el mensaje y el companion guarda el historial por conversación (últimas preguntas y respuestas, con límite).
-- **Calidad de las respuestas** (tras probar en el juego): panorama fijo del nivel en cada pregunta (zonas, mazmorras, misiones), detección de intención más flexible, prompt que recomiende en concreto y diga en una frase lo que falta sin remitir a guías ni inventar lugares (inventó «Refugio de la Peña» al preguntar por pesca).
-- **Comparar modelos de verdad**: guardar claves de Groq, Mistral, Cerebras y OpenRouter (`set-key --provider NOMBRE`, `providers`, `list-models`), lanzar `bench` con varios objetivos, puntuar a mano el informe y decidir qué servicios recomendar. Línea base Gemini (gemini-3.5-flash-lite): 10/10 respondidas, mediana 742 ms; falló responder en inglés (q10), inventó rutas (q03) y niveles de mazmorras (q06); acertó las preguntas trampa (q08, q09).
-- **Chat dentro de la ventana del addon** (milestone 3, retorno por addons «slot»): escribir y que la respuesta salga en el historial como un chat; el overlay queda como respaldo.
-- **Perfil completo del personaje**: profesiones y niveles, talentos y rama, equipo y bolsas, hechizos y habilidades de armas, reputaciones, etc. Primero verificar en el cliente qué API existe (volcado a SavedVariables); el companion guarda el perfil y a la IA solo se le envía lo relevante para la pregunta (decisión de Marc, 2026-11-14).
-- Calidad de las respuestas, siguiente: rutas de viaje (vuelos + barcos + tranvía) a partir de TaxiPath/TaxiNodes de wowdata (b15 sigue inventando: dice barco desde Ventormenta a Auberdine); puntos de vuelo «cerca de mí» por distancia real; rangos de nivel de mazmorras y zonas y experiencia por nivel (completar en wowdata: tabla ContentTuning); decidir cómo distribuir los datos a los jugadores (licencias); búsqueda web solo como último recurso y marcada.
+- **Publicar la 0.3.0-beta.1 en CurseForge** (Marc): subir el zip de la release de GitHub como «Beta 3» y actualizar resumen y descripción (textos en `docs/CURSEFORGE.md`). Después, añadir el enlace del proyecto de CurseForge al README y a las guías.
+- **VirusTotal**: analizar `AskForever-Setup-0.3.0-beta.1.exe` y enlazar el informe en la release y en la página de transparencia (hoy figura como «Previsto»).
+- **Actualizaciones de datos por CurseForge**: parche acumulado en texto plano dentro del addon (`data/`), lector y aplicador en el companion (siempre base limpia + parche; base exacta desde GitHub si hace falta), script que genera el parche desde wowdata. Diseño en `.agents/plans/publico/publico.PLAN.md`.
+- **Guía de principiantes**: índice de temas hecho (`.agents/plans/guia/indice.md`); siguientes pasos: paquete de pruebas por tema desde wowdata, redacción con citas, verificación guiada y lectura desde el companion. Plan en `.agents/plans/guia/guia.PLAN.md`. Repetir el diagnóstico del colector (`/wdc probe`) con un personaje de nivel 10 o más para ver los talentos.
+- **Créditos de los datos** (Blizzard y Wowhead) cuando wowdata deje de incluir Questie: `CREDITS.md` EN/ES con la Skill `licencias` y autorización de Marc.
 
 ## Media
-- Milestones 4–7 del roadmap (instalador, rutas, robustez, multi-proveedor).
+- **Chat dentro de la ventana del addon** (vuelta por addons «slot»): diseño en `.agents/plans/m3-slots/m3-slots.PLAN.md`; con ello, la ventana de informe podrá mostrar la respuesta.
+- **Perfil completo del personaje**: profesiones, talentos, equipo, reputaciones…; primero verificar en el cliente qué API existe; a la IA solo lo relevante para la pregunta.
+- **Comparar modelos**: claves de Groq, Mistral, Cerebras y OpenRouter, `bench` con varios objetivos y decidir qué servicios recomendar.
+- Elegir y recordar el proveedor de IA desde el asistente del companion (hoy solo Gemini; los demás por variable de entorno).
 - Probar otras resoluciones y escalas de interfaz de la tira de píxeles (probado: 1920x1080, ventana sin bordes).
-- Instalar `luacheck` si el volumen de errores lo justifica (el ejecutable externo se denegó).
 - Validar en el juego el atajo de teclado (Opciones → Atajos → AddOns) tal como lo describen las guías.
+- Instalar `luacheck` si el volumen de errores lo justifica.
 
 ## Baja
-- Contenido (misiones, NPCs, RAG de guías) y lanzamiento estable v1.0.0.
+- «Llévame»: pines y flecha en el mapa.
+- Autoactualización del companion.
+- Microsoft Store, PyPI o winget, si el proyecto tiene buena acogida (aparcado por decisión de Marc, 2026-11-14).
+- Lanzamiento estable v1.0.0.
 
 ## Descartado
 - Simular input, leer memoria del proceso o inyectar overlays: vulnera las reglas del juego y arriesga baneos.
+- Firmar el `.exe` con certificado de pago para quitar el aviso de SmartScreen: desde 2024 no evita el aviso de entrada; Azure Artifact Signing no admite particulares de España; SignPath exige licencia OSI.
+- Construir la base de datos en el PC del jugador desde su cliente y su Questie: demasiado complejo (decisión de Marc, 2026-11-14).
 - Usar `gemini-3.8-flash` como modelo por defecto: no respondió en 60 s en el plan gratuito (2026-11-14); revisar más adelante.

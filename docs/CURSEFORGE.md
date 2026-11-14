@@ -2,119 +2,161 @@
 
 **[English](#english) · [Español](#español)**
 
-Texts to paste into the CurseForge project page and file upload. Nothing here is published automatically: upload is manual, from the project owner's account.
-Textos para pegar en la página del proyecto de CurseForge y en la subida del archivo. Nada se publica solo: la subida es manual, desde la cuenta del propietario.
+Texts to paste into the CurseForge project and into each file upload. Nothing here is published automatically: the upload is manual, from the project owner's account.
+Textos para pegar en el proyecto de CurseForge y en cada subida de archivo. Nada se publica solo: la subida es manual, desde la cuenta del propietario.
 
-For AskForever 0.3.0-beta.1. / Para AskForever 0.3.0-beta.1.
+Current version / Versión actual: **0.3.0-beta.1 (Beta 3)**, 2026-11-15.
 
 ---
 
 ## English
 
-### Checklist
-1. Download the addon zip `AskForever-0.3.0-beta.1.zip` from the [GitHub release](https://github.com/warcrafted-server/AskForever/releases). Do not build it locally.
-2. Create or update the project on CurseForge (World of Warcraft addon, game version **Forever**; check the exact option in the upload form).
-3. Paste the fields below, upload the screenshots from `docs/img/` and the zip.
-4. Release type: **Beta**.
-5. On the project page, add the links to the companion installer on [GitHub Releases](https://github.com/warcrafted-server/AskForever/releases) and to the [installation guide](https://github.com/warcrafted-server/AskForever/blob/main/docs/INSTALL_GUIDE.md).
-6. The GitHub tag and release are created by the release workflow; no manual step is needed.
+### Every new version (update)
+The CurseForge project already exists: a new version is just a **file upload** to it.
 
-In the description, link only to the project page on GitHub; do not add direct download links.
+1. The GitHub release is created by the release workflow when the `v<version>` tag is pushed (installer, addon zip, SHA-256 hashes and build provenance). Nothing is built locally.
+2. Download the addon zip from that release: `https://github.com/warcrafted-server/AskForever/releases/download/v<version>/AskForever-<version>.zip`
+3. On CurseForge: **Files → Upload File**.
+   - **File:** the zip from step 2.
+   - **Display name:** `AskForever <version> (Beta N)`, where N counts the betas published on CurseForge (0.3.0-beta.1 is Beta 3). The version number must stay exactly as in the addon and GitHub, so players can report which one they have.
+   - **Release type:** Beta (Release once there is a stable 1.0).
+   - **Game version:** Forever.
+   - **Changelog:** the file changelog of that version (below), written for players, without development details.
+4. If the features changed, update the **summary** and the **description** with the texts below.
 
-### Fields
-- **Name:** AskForever
-- **Summary (short):** Ask inside the game and get the answer in seconds, with verified game data.
-- **Author:** WarCrafted
-- **License:** Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0). Pick the closest option offered or "Custom" with the text of `LICENSE`.
-- **Source:** https://github.com/warcrafted-server/AskForever
-- **Issues:** https://github.com/warcrafted-server/AskForever/issues
-- **Logo:** `docs/img/logo.png` (400x400).
-- **Screenshots:** `docs/img/v0.2.0-overlay.png`, `docs/img/v0.2.0-window.png`, `docs/img/v0.3.0-install-first-run.png`.
+### Project fields (set once; review when features change)
+| Field | Value |
+|---|---|
+| Name | AskForever |
+| Summary | Ask inside WoW Forever and get the answer over the game in seconds, with verified game data. |
+| Author | WarCrafted |
+| License | Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0); if it is not offered, "Custom" with the text of `LICENSE` |
+| Source | https://github.com/warcrafted-server/AskForever |
+| Issues | https://github.com/warcrafted-server/AskForever/issues |
+| Logo | `docs/img/logo.png` (400x400) |
+| Screenshots | `docs/img/v0.2.0-overlay.png`, `docs/img/v0.2.0-window.png`, `docs/img/v0.3.0-install-first-run.png` |
 
-### Description
-**AskForever** asks your question inside WoW Forever and shows the answer in seconds, using verified data from the game database.
+In the description, link only to pages of the GitHub project (no direct download links).
 
-**What version 0.3 does (beta)**
+### Description (English and Spanish, paste as is)
+
+```markdown
+**AskForever** lets you ask questions inside WoW Forever and shows the answer over the game in seconds, using verified data from the game database.
+
+## What it does
 - Ask with `/af` or the minimap button; the answer appears over the game, on the right.
-- Uses verified data from the game database and routes with flights and transports.
-- English and Spanish.
+- Uses verified game data: quests, NPCs, class trainers, dungeons and their levels, zones for your level, loot and flight points.
+- Travel routes with flights, boats, zeppelins and the Deeprun Tram, starting from where you are.
+- Remembers the conversation, so follow-up questions work ("and from here?").
+- Says "I don't know" instead of guessing. English and Spanish.
 
-**What it needs**
-- The free Windows companion, available from the [project page](https://github.com/warcrafted-server/AskForever).
-- A free Google Gemini key. The first time, the companion's assistant asks for it and saves it in the Windows Credential Manager.
+## How to install (about 10 minutes, once)
+1. Install this addon.
+2. Install the free **AskForever companion** for Windows from the [project page on GitHub](https://github.com/warcrafted-server/AskForever) (Releases).
+3. Open AskForever: the first time, an assistant helps you get a free Google Gemini key and downloads the game data.
+4. Keep the AskForever window open while you play.
 
-**Privacy and security**
-- It does not read game memory or automate any action.
-- It only talks to the AI provider you choose and, when needed, to the wiki.
-- It downloads the game data from GitHub and keeps the key in the Windows Credential Manager, not in a file. See [security and transparency](https://github.com/warcrafted-server/AskForever/blob/main/docs/SECURITY_TRANSPARENCY.md).
+Step-by-step guide with screenshots: [installation guide](https://github.com/warcrafted-server/AskForever/blob/main/docs/INSTALL_GUIDE.md).
 
-**Beta limitations**
+## Privacy and security
+- It does not read game memory and does not automate anything: no keys pressed, no mouse moved.
+- It only talks to the AI provider you choose, the wiki when needed, and GitHub to download the game data.
+- Your key is stored in the Windows Credential Manager, never in a file.
+- The companion is built on GitHub from the public code, with SHA-256 hashes and build provenance. Windows may warn about it because it is not sold in the Microsoft Store: see [security and transparency](https://github.com/warcrafted-server/AskForever/blob/main/docs/SECURITY_TRANSPARENCY.md).
+
+## Beta limitations
 - The answer appears in a small window over the game, not yet inside the addon window.
-- Use Windowed or Windowed (Fullscreen) mode.
-
-**Links**
-- [Project on GitHub](https://github.com/warcrafted-server/AskForever)
-- [Changelog](https://github.com/warcrafted-server/AskForever/blob/main/CHANGELOG.md)
+- Use Windowed or Windowed (Fullscreen) display mode.
 
 AI answers can contain mistakes: double-check important details in game.
 
-*World of Warcraft is a trademark of Blizzard Entertainment, Inc. Not affiliated with Blizzard.*
+---
 
-### File changelog (paste in the upload form)
-0.3.0-beta.1: ask inside the game with the companion, answer over the game, verified data from the game database, routes with flights and transports, Windows installer, free Gemini key, English and Spanish.
+**AskForever** te permite preguntar dentro de WoW Forever y ver la respuesta sobre el juego en segundos, con datos verificados de la base del juego.
+
+## Qué hace
+- Pregunta con `/af` o el botón del minimapa; la respuesta aparece sobre el juego, a la derecha.
+- Usa datos verificados del juego: misiones, PNJ, instructores de clase, mazmorras y sus niveles, zonas para tu nivel, botín y puntos de vuelo.
+- Rutas de viaje con vuelos, barcos, zepelines y el Tranvía Subterráneo, desde donde estás.
+- Recuerda la conversación, así que puedes seguir preguntando («¿y desde aquí?»).
+- Dice «no lo sé» en lugar de inventar. Inglés y español.
+
+## Cómo se instala (unos 10 minutos, una vez)
+1. Instala este addon.
+2. Instala el **companion de AskForever**, gratuito, para Windows, desde la [página del proyecto en GitHub](https://github.com/warcrafted-server/AskForever) (Releases).
+3. Abre AskForever: la primera vez, un asistente te ayuda a conseguir una clave gratuita de Google Gemini y descarga los datos del juego.
+4. Deja la ventana de AskForever abierta mientras juegas.
+
+Guía paso a paso con capturas: [guía de instalación](https://github.com/warcrafted-server/AskForever/blob/main/docs/GUIA_INSTALACION.md).
+
+## Privacidad y seguridad
+- No lee la memoria del juego ni automatiza nada: no pulsa teclas ni mueve el ratón.
+- Solo habla con el proveedor de IA que elijas, con la wiki cuando hace falta y con GitHub para descargar los datos del juego.
+- Tu clave se guarda en el Administrador de credenciales de Windows, nunca en un archivo.
+- El companion se compila en GitHub desde el código público, con hashes SHA-256 y prueba de procedencia. Windows puede avisar porque no se vende en la Microsoft Store: consulta [seguridad y transparencia](https://github.com/warcrafted-server/AskForever/blob/main/docs/SEGURIDAD_TRANSPARENCIA.md).
+
+## Limitaciones de la beta
+- La respuesta aparece en una ventanita sobre el juego, todavía no dentro de la ventana del addon.
+- Usa el modo de pantalla Ventana o Pantalla completa (ventana).
+
+Las respuestas de la IA pueden contener errores: comprueba lo importante en el juego.
+
+*World of Warcraft is a trademark of Blizzard Entertainment, Inc. Not affiliated with Blizzard. / World of Warcraft es una marca de Blizzard Entertainment, Inc. Sin afiliación con Blizzard.*
+```
+
+### File changelogs (paste in the upload form)
+
+#### 0.3.0-beta.1 (Beta 3)
+
+```markdown
+**Beta 3 — AskForever now answers inside the game.**
+
+- New: free Windows companion with a simple installer (GitHub Releases). Ask with `/af` or the minimap button and the answer appears over the game in seconds.
+- New: first-run assistant for the free Google Gemini key (saved in the Windows Credential Manager, never in a file).
+- New: verified data from the game database: quests, NPCs, class trainers, dungeons and their levels, zones for your level, loot and flight points.
+- New: travel routes with flights, boats, zeppelins and the Deeprun Tram, starting from where you are, and a reminder to discover flight points.
+- New: conversation memory: follow-up questions like "and from here?" use the previous answer.
+- Improved: answers follow the language of your question, use the official Spanish names and say "I don't know" instead of guessing.
+- Security: the companion is built on GitHub from the public code, with SHA-256 hashes and build provenance. See the security and transparency page on GitHub.
+
+**Beta 3: AskForever ahora responde dentro del juego.**
+
+- Nuevo: companion gratuito para Windows con instalador sencillo (GitHub Releases). Pregunta con `/af` o el botón del minimapa y la respuesta aparece sobre el juego en segundos.
+- Nuevo: asistente del primer arranque para la clave gratuita de Google Gemini (se guarda en el Administrador de credenciales de Windows, nunca en un archivo).
+- Nuevo: datos verificados de la base del juego: misiones, PNJ, instructores de clase, mazmorras y sus niveles, zonas para tu nivel, botín y puntos de vuelo.
+- Nuevo: rutas de viaje con vuelos, barcos, zepelines y el Tranvía Subterráneo, desde donde estás, y aviso para descubrir puntos de vuelo.
+- Nuevo: memoria de conversación: preguntas de seguimiento como «¿y desde aquí?» tienen en cuenta la respuesta anterior.
+- Mejorado: las respuestas siguen el idioma de tu pregunta, usan los nombres oficiales en español y dicen «no lo sé» en lugar de inventar.
+- Seguridad: el companion se compila en GitHub desde el código público, con hashes SHA-256 y prueba de procedencia. Consulta la página de seguridad y transparencia en GitHub.
+```
 
 ---
 
 ## Español
 
-### Lista de comprobación
-1. Descarga el zip del addon `AskForever-0.3.0-beta.1.zip` de la [release de GitHub](https://github.com/warcrafted-server/AskForever/releases). No lo compiles en local.
-2. Crea o actualiza el proyecto en CurseForge (addon de World of Warcraft, versión de juego **Forever**; comprueba la opción exacta del formulario).
-3. Pega los campos de abajo, sube las capturas de `docs/img/` y el zip.
-4. Tipo de versión: **Beta**.
-5. En la página del proyecto, añade los enlaces al instalador del companion en [GitHub Releases](https://github.com/warcrafted-server/AskForever/releases) y a la [guía de instalación](https://github.com/warcrafted-server/AskForever/blob/main/docs/GUIA_INSTALACION.md).
-6. La etiqueta y la release de GitHub las crea el workflow de release; no hay paso manual.
+### Cada versión nueva (actualización)
+El proyecto de CurseForge ya existe: una versión nueva es solo **subir un archivo** a él.
 
-En la descripción, enlaza solo a la página del proyecto en GitHub; no añadas enlaces de descarga directa.
+1. La release de GitHub la crea el workflow de release al subir la etiqueta `v<versión>` (instalador, zip del addon, hashes SHA-256 y prueba de procedencia). No se compila nada en local.
+2. Descarga el zip del addon de esa release: `https://github.com/warcrafted-server/AskForever/releases/download/v<versión>/AskForever-<versión>.zip`
+3. En CurseForge: **Files → Upload File**.
+   - **Archivo:** el zip del paso 2.
+   - **Nombre visible:** `AskForever <versión> (Beta N)`, donde N cuenta las betas publicadas en CurseForge (la 0.3.0-beta.1 es la Beta 3). El número de versión se mantiene exactamente igual que en el addon y en GitHub, para que los jugadores puedan decir cuál tienen.
+   - **Tipo:** Beta (Release cuando haya una 1.0 estable).
+   - **Versión del juego:** Forever.
+   - **Registro de cambios:** el de esa versión (en la sección inglesa, bilingüe), escrito para el jugador, sin detalles de desarrollo.
+4. Si cambian las funciones, actualiza el **resumen** y la **descripción** con los textos de la sección inglesa (la descripción ya es bilingüe).
 
-### Campos
-- **Nombre:** AskForever
-- **Resumen (corto):** Pregunta dentro del juego y recibe la respuesta en segundos, con datos verificados del juego.
-- **Autor:** WarCrafted
-- **Licencia:** Creative Commons Atribución-NoComercial 4.0 (CC BY-NC 4.0). Elige la opción más parecida o «Custom» con el texto de `LICENSE`.
-- **Código:** https://github.com/warcrafted-server/AskForever
-- **Incidencias:** https://github.com/warcrafted-server/AskForever/issues
-- **Logo:** `docs/img/logo.png` (400x400).
-- **Capturas:** `docs/img/v0.2.0-overlay.png`, `docs/img/v0.2.0-window.png`, `docs/img/v0.3.0-install-first-run.png`.
+### Campos del proyecto (se ponen una vez; revisarlos cuando cambien las funciones)
+| Campo | Valor |
+|---|---|
+| Nombre | AskForever |
+| Resumen | Ask inside WoW Forever and get the answer over the game in seconds, with verified game data. |
+| Autor | WarCrafted |
+| Licencia | Creative Commons Atribución-NoComercial 4.0 (CC BY-NC 4.0); si no aparece, «Custom» con el texto de `LICENSE` |
+| Código | https://github.com/warcrafted-server/AskForever |
+| Incidencias | https://github.com/warcrafted-server/AskForever/issues |
+| Logo | `docs/img/logo.png` (400x400) |
+| Capturas | `docs/img/v0.2.0-overlay.png`, `docs/img/v0.2.0-window.png`, `docs/img/v0.3.0-install-first-run.png` |
 
-### Descripción
-**AskForever** te permite preguntar dentro de WoW Forever y ver la respuesta en segundos, con datos verificados de la base de datos del juego.
-
-**Qué hace la versión 0.3 (beta)**
-- Pregunta con `/af` o el botón del minimapa; la respuesta aparece sobre el juego, a la derecha.
-- Usa datos verificados de la base de datos del juego y rutas con vuelos y transportes.
-- Inglés y español.
-
-**Qué necesita**
-- El companion gratuito de Windows, disponible en la [página del proyecto](https://github.com/warcrafted-server/AskForever).
-- Una clave gratuita de Google Gemini. La primera vez, el asistente del companion la pide y la guarda en el Administrador de credenciales de Windows.
-
-**Privacidad y seguridad**
-- No lee la memoria del juego ni automatiza ninguna acción.
-- Solo habla con el proveedor de IA que elijas y, cuando hace falta, con la wiki.
-- Descarga los datos del juego de GitHub y guarda la clave en el Administrador de credenciales de Windows, no en un archivo. Consulta [seguridad y transparencia](https://github.com/warcrafted-server/AskForever/blob/main/docs/SEGURIDAD_TRANSPARENCIA.md).
-
-**Limitaciones de la beta**
-- La respuesta aparece en una ventanita sobre el juego, aún no dentro de la ventana del addon.
-- Es recomendable usar el modo Ventana o Pantalla completa (ventana).
-
-**Enlaces**
-- [Proyecto en GitHub](https://github.com/warcrafted-server/AskForever)
-- [Changelog](https://github.com/warcrafted-server/AskForever/blob/main/CHANGELOG.md)
-
-Las respuestas de IA pueden contener errores: verifica lo importante en el juego.
-
-*World of Warcraft es una marca de Blizzard Entertainment, Inc. Sin afiliación con Blizzard.*
-
-### Registro de cambios del archivo (para el formulario)
-0.3.0-beta.1: pregunta dentro del juego con el companion, respuesta sobre el juego, datos verificados de la base de datos del juego, rutas con vuelos y transportes, instalador de Windows, clave gratuita de Gemini, inglés y español.
+En la descripción, enlaza solo a páginas del proyecto en GitHub (sin enlaces de descarga directa).
