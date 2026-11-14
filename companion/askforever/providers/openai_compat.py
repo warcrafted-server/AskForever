@@ -188,9 +188,67 @@ class OpenAICompatProvider:
         return None
 
 
-def provider_from_config() -> OpenAICompatProvider:
-    """Crea el proveedor con la clave y el modelo configurados."""
-    api_key = config.get_api_key()
+def _sanitize(text, api_key) -> str:
+    text = str(text)
+    if api_key and api_key in text:
+        text = text.replace(api_key, '<clave>')
+    return text
+
+
+def provider_from_config(provider=None, model=None) -> OpenAICompatProvider:
+    """Crea el proveedor del registro con su clave y modelo configurados."""
+    name = config.get_provider_name(provider)
+    preset = config.get_preset(name)
+    api_key = config.get_api_key(name)
     if not api_key:
-        raise ProviderError('auth', 'no API key configured')
-    return OpenAICompatProvider(config.GEMINI_BASE_URL, api_key, config.get_model())
+        raise ProviderError(
+            'auth',
+            f'No hay clave guardada para {name}. Consíguela en {preset.key_url}',
+        )
+    selected_model = config.get_model(name, model)
+    if not selected_model:
+        raise ProviderError(
+            'bad_request',
+            'Falta el modelo: usa --model o `list-models --provider NOMBRE`',
+        )
+    return OpenAICompatProvider(preset.base_url, api_key, selected_model)
+
+
+def list_models(base_url, api_key, *, client=None, timeout=20.0) -> list[str]:
+    """Lista los modelos del proveedor; traduce los errores de la API."""
+    if client is None:
+        client = openai.OpenAI(
+            base_url=base_url,
+            api_key=api_key,
+            timeout=timeout,
+            max_retries=0,
+        )
+    try:
+        response = client.models.list()
+    except openai.AuthenticationError as exc:
+        raise ProviderError('auth', _sanitize(exc, api_key)) from None
+    except openai.PermissionDeniedError as exc:
+        raise ProviderError('auth', _sanitize(exc, api_key)) from None
+    except openai.BadRequestError as exc:
+        raise ProviderError('bad_request', _sanitize(exc, api_key)) from None
+    except openai.RateLimitError as exc:
+        raise ProviderError('rate_limit', _sanitize(exc, api_key)) from None
+    except openai.APITimeoutError as exc:
+        raise ProviderError('timeout', _sanitize(exc, api_key)) from None
+    except openai.APIConnectionError as exc:
+        raise ProviderError('network', _sanitize(exc, api_key)) from None
+    except openai.InternalServerError as exc:
+        raise ProviderError('server', _sanitize(exc, api_key)) from None
+    except Exception as exc:
+        raise ProviderError('unknown', _sanitize(exc, api_key)) from None
+
+    identifiers = set()
+    for model in getattr(response, 'data', None) or []:
+        identifier = getattr(model, 'id', None)
+        if identifier is None:
+            continue
+        identifier = str(identifier)
+        if identifier.startswith('models/'):
+            identifier = identifier[len('models/'):]
+        identifiers.add(identifier)
+    return sorted(identifiers)

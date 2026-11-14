@@ -14,6 +14,7 @@ from askforever.capture.grabber import ReceivedMessage
 from askforever.overlay.window import (
     Overlay,
     OverlayState,
+    OverlayUnavailable,
     build_state,
     compute_position,
     wrap_estimate,
@@ -117,10 +118,7 @@ def test_apply_click_through_does_not_raise():
 
 def _tk_available() -> bool:
     try:
-        import tkinter as tk
-
-        root = tk.Tk()
-        root.destroy()
+        import tkinter  # noqa: F401
         return True
     except Exception:
         return False
@@ -140,8 +138,12 @@ def test_overlay_runs_with_tk():
         stop_event.set()
 
     threading.Thread(target=stop_later, daemon=True).start()
-    overlay.run(stop_event)
-    overlay.close()
+    try:
+        overlay.run(stop_event)
+    except OverlayUnavailable as error:
+        pytest.skip(f'No se pudo crear la ventana Tk: {error}')
+    finally:
+        overlay.close()
 
 
 def _message_data(question, lang='esES') -> bytes:

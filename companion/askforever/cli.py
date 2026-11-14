@@ -16,7 +16,7 @@ from askforever.capture.grabber import Grabber, ReceivedMessage
 from askforever.capture.window import find_game_window, set_dpi_awareness
 from askforever.engine.answer import answer_message, parse_message
 from askforever.overlay.window import Overlay, OverlayUnavailable
-from askforever.providers.openai_compat import ProviderError, provider_from_config
+from askforever.providers.openai_compat import ProviderError, list_models, provider_from_config
 
 
 def _context_summary(ctx) -> str:
@@ -144,29 +144,43 @@ def _listen(args: argparse.Namespace) -> int:
     return 0
 
 
-def _set_key() -> int:
+def _set_key(args: argparse.Namespace) -> int:
+    try:
+        provider_name = config.get_provider_name(args.provider)
+    except ValueError as error:
+        print(error)
+        return 1
     key = os.environ.get('AF_KEY')
     if key is None:
-        key = getpass.getpass('Clave de la API de Gemini: ')
+        key = getpass.getpass(f'Clave de la API de {provider_name}: ')
     key = (key or '').strip()
     if not key:
         print('La clave está vacía; no se ha guardado nada.')
         return 1
     try:
-        config.set_api_key(key)
+        config.set_api_key(key, provider_name)
     except ValueError:
         print('La clave está vacía; no se ha guardado nada.')
         return 1
     except Exception:
         print('No se pudo guardar la clave en el Administrador de credenciales de Windows.')
         return 1
+    print(f'Proveedor: {provider_name}')
     print(f'Clave guardada: {config.mask_key(key)}')
     return 0
 
 
-def _test_key() -> int:
+def _test_key(args: argparse.Namespace) -> int:
     try:
-        provider = provider_from_config()
+        provider_name = config.get_provider_name(args.provider)
+    except ValueError as error:
+        print(error)
+        return 1
+    try:
+        if args.provider is None and args.model is None:
+            provider = provider_from_config()
+        else:
+            provider = provider_from_config(args.provider, args.model)
     except ProviderError as error:
         print(error.user_message('esES'))
         if error.detail:
@@ -183,6 +197,7 @@ def _test_key() -> int:
             print(f'Detalle: {error.detail}')
         return 1
     elapsed_ms = (time.monotonic() - started) * 1000.0
+    print(f'Proveedor: {provider_name}')
     print(f'Modelo: {provider.model}')
     print(f'Tiempo: {elapsed_ms:.0f} ms')
     print(f'Respuesta: {answer[:60]}')
@@ -211,7 +226,13 @@ def _ask(args: argparse.Namespace) -> int:
     data = json.dumps(message, ensure_ascii=False).encode('utf-8')
 
     try:
-        provider = provider_from_config()
+        if args.provider is None and args.model is None:
+            provider = provider_from_config()
+        else:
+            provider = provider_from_config(args.provider, args.model)
+    except ValueError as error:
+        print(error)
+        return 1
     except ProviderError as error:
         print(error.user_message(args.lang))
         return 1
@@ -335,6 +356,51 @@ def _run_companion(args: argparse.Namespace) -> int:
     return 0
 
 
+def _providers() -> int:
+    for name in sorted(config.PROVIDERS):
+        preset = config.PROVIDERS[name]
+        try:
+            has_key = bool(config.get_api_key(name))
+        except Exception:
+            has_key = False
+        mark = '✓' if has_key else '✗'
+        model = preset.default_model or '(elige con --model)'
+        print(f'{mark} {name}: {model} · clave en {preset.key_url}')
+    return 0
+
+
+def _list_models(args: argparse.Namespace) -> int:
+    if args.provider is None and not os.environ.get(config.PROVIDER_ENV):
+        print('Indica el proveedor: list-models --provider NOMBRE')
+        return 1
+    try:
+        provider_name = config.get_provider_name(args.provider)
+    except ValueError as error:
+        print(error)
+        return 1
+
+    preset = config.get_preset(provider_name)
+    api_key = config.get_api_key(provider_name)
+    if not api_key:
+        print(f'No hay clave guardada para {provider_name}.')
+        print(f'Guárdala con: set-key --provider {provider_name}')
+        print(f'Consigue una clave en: {preset.key_url}')
+        return 1
+
+    try:
+        models = list_models(preset.base_url, api_key)
+    except ProviderError as error:
+        print(error.user_message('esES'))
+        if error.detail:
+            print(f'Detalle: {error.detail}')
+        return 1
+
+    for identifier in models:
+        print(identifier)
+    print(f'Total: {len(models)} modelos.')
+    return 0
+
+
 def main(argv: Optional[Sequence[str]] = None) -> int:
     parser = argparse.ArgumentParser(
         prog='askforever',
@@ -348,8 +414,11 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                         help='imprime los bytes decodificados sin formatear')
     listen.add_argument('--ask', action='store_true',
                         help='pregunta a la IA por cada mensaje recibido')
-    subparsers.add_parser('set-key', help='guarda la clave de la API de Gemini')
-    subparsers.add_parser('test-key', help='prueba la clave y el proveedor de IA')
+    set_key = subparsers.add_parser('set-key', help='guarda la clave de la API de un proveedor')
+    set_key.add_argument('--provider', default=None, help='proveedor del registro')
+    test_key = subparsers.add_parser('test-key', help='prueba la clave y el proveedor de IA')
+    test_key.add_argument('--provider', default=None, help='proveedor del registro')
+    test_key.add_argument('--model', default=None, help='modelo a usar')
     ask = subparsers.add_parser('ask', help='pregunta a la IA desde la consola')
     ask.add_argument('question', nargs='+', help='pregunta, entre comillas')
     ask.add_argument('--lang', default='esES', help='idioma de la respuesta (por defecto esES)')
@@ -358,6 +427,12 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     ask.add_argument('--race', help='raza del personaje')
     ask.add_argument('--class', dest='klass', help='clase del personaje')
     ask.add_argument('--faction', help='facción del personaje')
+    ask.add_argument('--provider', default=None, help='proveedor del registro')
+    ask.add_argument('--model', default=None, help='modelo a usar')
+    list_models_parser = subparsers.add_parser('list-models',
+                                               help='lista los modelos del proveedor')
+    list_models_parser.add_argument('--provider', default=None, help='proveedor del registro')
+    subparsers.add_parser('providers', help='lista los proveedores y si tienen clave')
     companion = subparsers.add_parser('run', help='escucha el juego y responde en el overlay')
     companion.add_argument('--fps', type=float, default=30.0,
                            help='capturas por segundo (por defecto 30)')
@@ -372,11 +447,15 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     if args.command == 'listen':
         return _listen(args)
     if args.command == 'set-key':
-        return _set_key()
+        return _set_key(args)
     if args.command == 'test-key':
-        return _test_key()
+        return _test_key(args)
     if args.command == 'ask':
         return _ask(args)
+    if args.command == 'list-models':
+        return _list_models(args)
+    if args.command == 'providers':
+        return _providers()
     if args.command == 'run':
         return _run_companion(args)
     if args.command == 'overlay-demo':

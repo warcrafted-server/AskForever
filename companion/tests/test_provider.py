@@ -265,15 +265,15 @@ def test_mask_key():
 
 
 def test_provider_from_config_requires_key(monkeypatch):
-    monkeypatch.setattr(config, 'get_api_key', lambda: None)
+    monkeypatch.setattr(config, 'get_api_key', lambda provider=None: None)
     with pytest.raises(ProviderError) as info:
         provider_from_config()
     assert info.value.kind == 'auth'
 
 
 def test_provider_from_config_builds_provider(monkeypatch):
-    monkeypatch.setattr(config, 'get_api_key', lambda: 'test-key')
-    monkeypatch.setattr(config, 'get_model', lambda: 'gemini-test')
+    monkeypatch.setattr(config, 'get_api_key', lambda provider=None: 'test-key')
+    monkeypatch.setattr(config, 'get_model', lambda provider=None, model=None: 'gemini-test')
     provider = provider_from_config()
     assert provider.model == 'gemini-test'
     assert provider.base_url == config.GEMINI_BASE_URL
