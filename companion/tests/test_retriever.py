@@ -240,16 +240,17 @@ def test_b11_dungeon_spanish(db):
 def test_b19_dungeon_english(db):
     facts = retrieve(_message('Where is the entrance to the Deadmines?', lang='enUS'), db)
     text = _text(facts)
-    assert 'Dungeon "The Deadmines": entrance in Westfall (42.5, 71.7).' in text
+    assert 'Dungeon "The Deadmines": entrance in Westfall (42.5, 71.7), levels 17-26.' in text
     rendered = facts.render('enUS')
     assert rendered.startswith('VERIFIED DATA (WoW Forever database):')
     assert 'Mazmorra' not in rendered
 
 
-def test_b13_dungeon_level_ranges_missing(db):
+def test_b13_dungeon_level_ranges(db):
     facts = retrieve(_message('¿A qué nivel puedo hacer Las Minas de la Muerte?'), db)
     assert any('Mazmorra «Las Minas de la Muerte»' in line for line in facts.lines)
-    assert 'rangos de nivel de mazmorras' in facts.missing
+    assert any('niveles 17-26' in line for line in facts.lines)
+    assert 'rangos de nivel de mazmorras' not in facts.missing
 
 
 def test_b14_flight_points(db):

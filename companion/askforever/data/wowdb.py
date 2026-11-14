@@ -89,6 +89,114 @@ def _article_key(text) -> str:
     return normalized
 
 
+# Niveles curados por el mantenedor: mandan sobre los valores del cliente.
+FOREVER_LEVELS_PATH = Path(__file__).with_name('forever_dungeon_levels.json')
+_FOREVER_LEVELS = None
+
+
+def _forever_rows():
+    """Filas curadas de niveles, cargadas una sola vez y sin lanzar errores."""
+    global _FOREVER_LEVELS
+    if _FOREVER_LEVELS is None:
+        _FOREVER_LEVELS = _load_forever_levels(FOREVER_LEVELS_PATH)
+    return _FOREVER_LEVELS
+
+
+def _load_forever_levels(path):
+    try:
+        data = json.loads(Path(path).read_text(encoding='utf-8'))
+    except Exception:
+        return []
+    items = data.get('dungeons') if isinstance(data, dict) else None
+    if not isinstance(items, list):
+        return []
+    rows = []
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        lfg_id = _as_int(item.get('lfg_id'))
+        low = _as_int(item.get('min'))
+        high = _as_int(item.get('max'))
+        name_es = _clean_text(item.get('name_es'))
+        name_en = _clean_text(item.get('name_en'))
+        if lfg_id is None or low is None or high is None or low > high:
+            continue
+        if not name_es and not name_en:
+            continue
+        wing_es = _clean_text(item.get('wing_es')) or _clean_text(item.get('wing_en'))
+        wing_en = _clean_text(item.get('wing_en')) or _clean_text(item.get('wing_es'))
+        rows.append({
+            'lfg_id': lfg_id,
+            'name_es': name_es or name_en,
+            'name_en': name_en or name_es,
+            'wing_es': wing_es,
+            'wing_en': wing_en,
+            'min': low,
+            'max': high,
+        })
+    return rows
+
+
+def _forever_name_rows(rows, target: str):
+    if not target:
+        return []
+    return [row for row in rows
+            if target in (_article_key(row['name_es']), _article_key(row['name_en']))]
+
+
+def _forever_wing_keys(row):
+    return {_article_key(row['wing_es']), _article_key(row['wing_en'])} - {''}
+
+
+def _forever_wing(name_or_id, rows):
+    """Fila del ala pedida, o None si la consulta no identifica un ala."""
+    text = _clean_text(name_or_id)
+    target = _article_key(text)
+    if not target or _forever_name_rows(rows, target):
+        return None
+    for separator in (':', ' - '):
+        if separator not in text:
+            continue
+        base, wing = text.split(separator, 1)
+        wing_key = _article_key(wing)
+        for row in _forever_name_rows(rows, _article_key(base)):
+            if wing_key and wing_key in _forever_wing_keys(row):
+                return row
+    matched = [row for row in rows if target in _forever_wing_keys(row)]
+    if len(matched) == 1:
+        return matched[0]
+    return None
+
+
+def _forever_result(rows, lang: str):
+    name_key = 'name_es' if lang == 'es' else 'name_en'
+    wing_key = 'wing_es' if lang == 'es' else 'wing_en'
+    result = {
+        'name': rows[0][name_key],
+        'min': min(row['min'] for row in rows),
+        'max': max(row['max'] for row in rows),
+        'source': 'forever',
+    }
+    wings = [row for row in rows if row['wing_es'] or row['wing_en']]
+    if wings:
+        result['wings'] = [
+            {'name': row[wing_key], 'min': row['min'], 'max': row['max']}
+            for row in wings
+        ]
+    return result
+
+
+def _forever_wing_result(row, lang: str):
+    name_key = 'name_es' if lang == 'es' else 'name_en'
+    wing_key = 'wing_es' if lang == 'es' else 'wing_en'
+    return {
+        'name': f"{row[name_key]}: {row[wing_key]}",
+        'min': row['min'],
+        'max': row['max'],
+        'source': 'forever',
+    }
+
+
 def class_mask_from_name(name) -> Optional[int]:
     """Máscara de clase a partir de cualquiera de sus nombres normalizados."""
     target = normalize(name)
@@ -735,14 +843,47 @@ class WowDb:
                 return self._lfg_for_ext(ext, lfg_rows)
         return None
 
+    def _forever_rows_for_ext(self, area_id, rows):
+        """Filas curadas de una mazmorra de ext_dungeons, sin depender de LFG."""
+        ext = self._rows(
+            'SELECT name_enUS, name_esES FROM ext_dungeons WHERE area_id = ? LIMIT 1',
+            (area_id,))
+        if not ext:
+            return []
+        keys = {_article_key(ext[0]['name_esES']), _article_key(ext[0]['name_enUS'])}
+        keys.discard('')
+        for key in keys:
+            matched = _forever_name_rows(rows, key)
+            if matched:
+                return matched
+        return []
+
     def dungeon_level(self, name_or_id, lang: str = 'es'):
+        forever = _forever_rows()
+        wing = _forever_wing(name_or_id, forever) if forever else None
+        if wing is not None:
+            return _forever_wing_result(wing, lang)
         row = self._find_lfg_dungeon(name_or_id)
+        rows = []
+        if row is not None:
+            rows = [item for item in forever if item['lfg_id'] == row['ID']]
+        if not rows:
+            rows = _forever_name_rows(forever, _article_key(name_or_id))
+        if not rows:
+            number = _as_int(name_or_id)
+            if number is not None:
+                rows = [item for item in forever if item['lfg_id'] == number]
+                if not rows:
+                    rows = self._forever_rows_for_ext(number, forever)
+        if rows:
+            return _forever_result(rows, lang)
         if row is None:
             return None
         levels = self._content_levels(row['ContentTuningID'])
         if levels is None:
             return None
-        return {'name': self._lfg_name(row, lang), 'min': levels[0], 'max': levels[1]}
+        return {'name': self._lfg_name(row, lang), 'min': levels[0], 'max': levels[1],
+                'source': 'client'}
 
     def dungeons_for_level(self, level, lang: str = 'es', below: int = 2, above: int = 5):
         try:
@@ -751,6 +892,21 @@ class WowDb:
             high_limit = level + int(above)
         except (TypeError, ValueError):
             return []
+        forever = _forever_rows()
+        if forever:
+            name_key = 'name_es' if lang == 'es' else 'name_en'
+            wing_key = 'wing_es' if lang == 'es' else 'wing_en'
+            dungeons = []
+            for row in forever:
+                if not row['min'] <= level <= row['max']:
+                    continue
+                name = row[name_key]
+                if row[wing_key]:
+                    name = f'{name}: {row[wing_key]}'
+                dungeons.append({'name': name, 'min': row['min'], 'max': row['max'],
+                                 'source': 'forever'})
+            dungeons.sort(key=lambda item: item['min'])
+            return dungeons
         ext_keys = set()
         for row in self._rows('SELECT name_enUS, name_esES FROM ext_dungeons'):
             ext_keys.add(_article_key(row['name_esES']))

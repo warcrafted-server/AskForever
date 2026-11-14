@@ -279,7 +279,7 @@ def test_zones_for_my_level(db):
 def test_dungeon_level_question(db):
     facts = retrieve(_message('¿A qué nivel puedo hacer Las Minas de la Muerte?'), db)
     text = _text(facts)
-    assert 'nivel 16' in text
+    assert 'niveles 17-26' in text
     assert facts.missing == []
     assert 'dungeon_level:1581' in facts.sources
 
@@ -288,8 +288,9 @@ def test_dungeons_for_my_level(db):
     facts = retrieve(_message('¿Qué mazmorras puedo hacer a mi nivel?'), db)
     text = _text(facts)
     assert 'Mazmorras cerca de tu nivel:' in text
-    assert 'Minas de la Muerte (16)' in text
-    assert 'Cuevas de los Lamentos (17)' in text
+    assert 'Sima Ígnea (13-18)' in text
+    assert 'Cuevas de los Lamentos (15-24)' in text
+    assert 'Minas de la Muerte' not in text
     assert 'dungeons:16' in facts.sources
 
 

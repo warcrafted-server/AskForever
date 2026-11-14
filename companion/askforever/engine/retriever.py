@@ -223,10 +223,15 @@ def _zones_line(zones, level, lang: str) -> str:
 
 
 def _dungeons_line(dungeons, level, lang: str) -> str:
-    parts = [f"{item['name']} ({item['min']})" for item in dungeons]
+    parts = [f"{item['name']} ({item['min']}-{item['max']})" for item in dungeons]
     if lang == 'es':
         return f'Mazmorras cerca de tu nivel: ' + ', '.join(parts)
     return f'Dungeons near your level: ' + ', '.join(parts)
+
+
+def _wings_line(wings, lang: str) -> str:
+    parts = [f"{wing['name']} {wing['min']}-{wing['max']}" for wing in wings]
+    return ('Alas: ' if lang == 'es' else 'Wings: ') + ', '.join(parts)
 
 
 def _npc_line(npc, lang: str) -> str:
@@ -305,6 +310,8 @@ def _detect_entities(facts: Facts, db, matches, normalized: str, lang: str, ctx:
                 _add_source(facts, f'dungeon_level:{entity_id}')
             facts.lines.append(_dungeon_line(dungeon, lang, levels))
             _add_source(facts, f'dungeon:{dungeon["id"]}')
+            if level_data and level_data.get('wings'):
+                facts.lines.append(_wings_line(level_data['wings'], lang))
             if wants_bosses:
                 bosses = _safe(db.dungeon_bosses, entity_id, lang)
                 if bosses:

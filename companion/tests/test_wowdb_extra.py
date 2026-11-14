@@ -233,19 +233,21 @@ def test_zones_for_level(db):
 
 def test_dungeon_level(db):
     assert db.dungeon_level('Las Minas de la Muerte') == {
-        'name': 'Minas de la Muerte', 'min': 16, 'max': 16}
+        'name': 'Minas de la Muerte', 'min': 17, 'max': 26, 'source': 'forever'}
     assert db.dungeon_level('The Deadmines', 'en') == {
-        'name': 'Deadmines', 'min': 16, 'max': 16}
-    assert db.dungeon_level('Mazmorras de Ventormenta')['min'] == 23
-    assert db.dungeon_level('Gnomeregan')['max'] == 25
+        'name': 'Deadmines', 'min': 17, 'max': 26, 'source': 'forever'}
+    assert db.dungeon_level('Mazmorras de Ventormenta')['min'] == 24
+    assert db.dungeon_level('Gnomeregan')['max'] == 38
     assert db.dungeon_level('No existe') is None
 
 
 def test_dungeons_for_level(db):
     dungeons = db.dungeons_for_level(16)
     assert [(item['name'], item['min'], item['max']) for item in dungeons] == [
-        ('Minas de la Muerte', 16, 16),
-        ('Cuevas de los Lamentos', 17, 17),
+        ('Salón de los Feudales', 13, 20),
+        ('Sima Ígnea', 13, 18),
+        ('Ruinas de Lordaeron', 15, 22),
+        ('Cuevas de los Lamentos', 15, 24),
     ]
 
 
@@ -329,7 +331,7 @@ def test_transports(db):
     assert len(pairs) == len(transports)
 
 
-def test_empty_database_returns_empty(tmp_path):
+def test_empty_database_is_tolerated(tmp_path):
     path = tmp_path / 'empty.sqlite'
     conn = sqlite3.connect(path)
     conn.execute('CREATE TABLE ext_quests (quest_id INTEGER)')
@@ -339,8 +341,9 @@ def test_empty_database_returns_empty(tmp_path):
     database = WowDb(path)
     assert database.zone_levels('Montañas Crestagrana') is None
     assert database.zones_for_level(16) == []
-    assert database.dungeon_level('Las Minas de la Muerte') is None
-    assert database.dungeons_for_level(16) == []
+    # Los niveles curados viven en el paquete y no necesitan tablas de mazmorras.
+    assert database.dungeon_level('Las Minas de la Muerte')['source'] == 'forever'
+    assert database.dungeons_for_level(16)
     assert database.dungeon_bosses('Las Minas de la Muerte') is None
     assert database.xp_to_next_level(16) is None
     assert database.quest_details(255) is None
