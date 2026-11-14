@@ -3,13 +3,16 @@
 from __future__ import annotations
 
 import json
+import re
 import time
 from dataclasses import dataclass, field
 from typing import Optional
 
 from askforever import config
+from askforever.data.wowdb import normalize
 from askforever.engine.prompt import build_prompt
-from askforever.engine.retriever import retrieve
+from askforever.engine.retriever import (PROFESSION_KEYWORDS, is_profession_question,
+                                         retrieve)
 from askforever.providers.openai_compat import ProviderError
 
 MAX_ANSWER = 900
@@ -24,16 +27,15 @@ _UNKNOWN_TEXT = {
 }
 
 _WEB_SEARCH_SYSTEM = (
-    'You generate search queries for the World of Warcraft wiki. Return ONLY a JSON object '
-    'with the shape {"queries": ["..."], "keywords": ["..."]}. Give 1 to 3 short searches of '
-    '2 to 4 words each, using English in-game names as they would appear in page titles (for '
-    'example "Expert Fishing", "Fishing trainer", "Darkshore", "Expert First Aid"). Do not use '
-    'words such as "Classic", "where", "how" or "best", and do not write full sentences. Add a '
-    'few short keywords.'
+    "You turn a World of Warcraft player's question into wiki searches. Output ONLY 1 to 3 "
+    'search terms, one per line, 2 to 4 words each, in English, using in-game names as wiki '
+    'page titles (for example: Expert Fishing, Fishing trainer, Expert First Aid, Darkshore). '
+    'No explanations, no numbering, no quotes, no thinking.'
 )
 _ROUTE_PHRASES = ('cómo voy', 'como voy', 'cómo llego', 'como llego', 'cómo ir',
                   'como ir', 'how do i get', 'how to get', 'route')
 _WEB_MAX_EXCERPTS = 3
+_WEB_MAX_SEARCHES = 3
 
 
 @dataclass
@@ -138,6 +140,12 @@ def needs_web(facts, question, history=None) -> bool:
     sources = list(getattr(facts, 'sources', None) or [])
     if sources and all(str(source).startswith('panorama:') for source in sources):
         return True
+    if is_profession_question(text):
+        normalized = normalize(text)
+        terms = [keyword for keyword in PROFESSION_KEYWORDS if keyword in normalized]
+        if terms and not any(any(term in normalize(line) for term in terms)
+                             for line in lines):
+            return True
     return False
 
 
@@ -153,64 +161,63 @@ def _past_question(previous_question, history) -> str:
 
 
 def _search_user(message, question, previous_question, history) -> str:
-    parts = []
+    parts = [f'Question: {question}']
     past = _past_question(previous_question, history)
     if past:
         parts.append(f'Previous question: {past}')
-    parts.append(f'Question: {question}')
     ctx = message.get('ctx') if isinstance(message, dict) else None
+    level = None
+    race = klass = faction = ''
     if isinstance(ctx, dict):
-        for key, label in (('class', 'Class'), ('race', 'Race'),
-                           ('fac', 'Faction'), ('lvl', 'Level')):
-            value = ctx.get(key)
-            if value is not None and value != '':
-                parts.append(f'{label}: {value}')
+        level = ctx.get('lvl')
+        race = ctx.get('race') or ''
+        klass = ctx.get('class') or ''
+        faction = ctx.get('fac') or ''
+    level_text = '' if level is None else str(level)
+    player = f'Player: level {level_text} {race} {klass}, {faction}.'
+    parts.append(re.sub(r'\s+', ' ', player))
     return '\n'.join(parts)
 
 
-def _parse_search_plan(text):
-    """Extrae el primer objeto JSON del texto del proveedor."""
+def _parse_search_terms(text) -> list[str]:
+    """Convierte la respuesta del proveedor en búsquedas cortas de wiki."""
     if not isinstance(text, str):
-        return None
-    start = text.find('{')
-    while start >= 0:
-        depth = 0
-        for index in range(start, len(text)):
-            char = text[index]
-            if char == '{':
-                depth += 1
-            elif char == '}':
-                depth -= 1
-                if depth == 0:
-                    try:
-                        plan = json.loads(text[start:index + 1])
-                    except (json.JSONDecodeError, TypeError, ValueError):
-                        break
-                    return plan if isinstance(plan, dict) else None
-        start = text.find('{', start + 1)
-    return None
+        return []
+    text = re.sub(r'<thought>.*?</thought>', ' ', text, flags=re.IGNORECASE | re.DOTALL)
+    terms = []
+    seen = set()
+    for raw in text.splitlines():
+        line = raw.strip()
+        if not line or '```' in line or '<' in line or '>' in line or ':' in line:
+            continue
+        line = re.sub(r'^\s*(?:[-*•]+|\d+[.)])\s*', '', line)
+        line = line.strip(' "\'“”‘’«»')
+        line = line.strip()
+        if not line or len(line.split()) > 6:
+            continue
+        if not any(char.isalpha() for char in line):
+            continue
+        key = line.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+        terms.append(line)
+        if len(terms) >= _WEB_MAX_SEARCHES:
+            break
+    return terms
 
 
-def _search_plan(text, question):
-    plan = _parse_search_plan(text)
-    queries = []
+def _search_keywords(terms) -> list[str]:
+    """Palabras de más de tres letras de las búsquedas, sin repetir."""
     keywords = []
-    if isinstance(plan, dict):
-        raw_queries = plan.get('queries')
-        if isinstance(raw_queries, str):
-            raw_queries = [raw_queries]
-        if isinstance(raw_queries, list):
-            queries = [str(item).strip() for item in raw_queries
-                       if isinstance(item, str) and item.strip()][:3]
-        raw_keywords = plan.get('keywords')
-        if isinstance(raw_keywords, str):
-            raw_keywords = [raw_keywords]
-        if isinstance(raw_keywords, list):
-            keywords = [str(item).strip() for item in raw_keywords
-                        if isinstance(item, str) and item.strip()]
-    if not queries:
-        queries = [question]
-    return queries, keywords
+    seen = set()
+    for term in terms:
+        for word in re.findall(r'[^\W\d_]+', term, flags=re.UNICODE):
+            key = word.lower()
+            if len(word) > 3 and key not in seen:
+                seen.add(key)
+                keywords.append(word)
+    return keywords
 
 
 def _excerpt_value(excerpt, name: str) -> str:
@@ -230,9 +237,10 @@ def web_fallback(web, provider, message, facts, question, *, history=None,
         if not needs_web(facts, question, history):
             return [], []
         user = _search_user(message, question, previous_question, history)
-        response = provider.chat(_WEB_SEARCH_SYSTEM, user, max_tokens=150,
+        response = provider.chat(_WEB_SEARCH_SYSTEM, user, max_tokens=400,
                                  temperature=0.0)
-        queries, keywords = _search_plan(response, question)
+        queries = _parse_search_terms(response)
+        keywords = _search_keywords(queries)
         excerpts = []
         seen = set()
         for query in queries:
@@ -289,9 +297,13 @@ def answer_message(data: bytes, provider, *, max_tokens=None, db=None, temperatu
             facts = None
             facts_lines, sources, facts_text = [], [], []
 
+    try:
+        use_web = web is not None and needs_web(facts, question, history)
+    except Exception:
+        use_web = False
     web_excerpts = []
     web_titles = []
-    if web is not None:
+    if use_web:
         web_excerpts, web_titles = web_fallback(
             web, provider, message, facts, question, history=history,
             previous_question=previous_question)
@@ -299,9 +311,10 @@ def answer_message(data: bytes, provider, *, max_tokens=None, db=None, temperatu
             source = f'wiki:{title}'
             if source not in sources:
                 sources.append(source)
+    no_info = bool(use_web and not web_excerpts)
 
     system, user = build_prompt(message, facts_text, history=history,
-                                web_excerpts=web_excerpts or None)
+                                web_excerpts=web_excerpts or None, no_info=no_info)
     if temperature is None:
         temperature = config.get_temperature()
 

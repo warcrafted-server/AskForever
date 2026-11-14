@@ -95,6 +95,15 @@ _WEB_HEADER = {
            'the Forever database takes priority):'),
 }
 
+_NO_INFO = {
+    'es': ('No hay datos en la base de datos ni en la wiki para esta pregunta: dilo en una '
+           'sola frase y NO menciones lugares, PNJ, objetos ni cifras concretas; puedes '
+           'sugerir reformular la pregunta.'),
+    'en': ('There is no data in the database or the wiki for this question: say it in one '
+           'sentence and do NOT mention specific places, NPCs, objects or figures; you may '
+           'suggest rephrasing the question.'),
+}
+
 _LANGUAGE_NAMES = {
     'es': {'es': 'castellano', 'en': 'inglés'},
     'en': {'es': 'Spanish', 'en': 'English'},
@@ -128,7 +137,7 @@ def _detect_question_language(question: str, fallback: str) -> str:
     return fallback
 
 
-def _system_prompt(client_language: str, question_language: str) -> str:
+def _system_prompt(client_language: str, question_language: str, no_info: bool = False) -> str:
     text = _SYSTEM[client_language]
     language_name = _LANGUAGE_NAMES[client_language][question_language]
     if client_language == 'es':
@@ -137,6 +146,8 @@ def _system_prompt(client_language: str, question_language: str) -> str:
     else:
         text += (f' The question is written in {language_name}: answer in {language_name} even '
                  'if the context is in another language.')
+    if no_info:
+        text += ' ' + _NO_INFO[client_language]
     return text
 
 
@@ -264,7 +275,7 @@ def _web_lines(web_excerpts, language: str) -> list[str]:
 
 
 def build_prompt(message: dict, facts_text: str = '', history=None,
-                 web_excerpts=None) -> tuple[str, str]:
+                 web_excerpts=None, no_info: bool = False) -> tuple[str, str]:
     """Devuelve (system, user) con el idioma, la memoria y las fuentes."""
     if not isinstance(message, dict):
         message = {}
@@ -286,5 +297,5 @@ def build_prompt(message: dict, facts_text: str = '', history=None,
     lines.extend(_web_lines(web_excerpts, language))
     lines.append(f'{labels["question"]}: {question}')
 
-    system = _system_prompt(language, question_language)
+    system = _system_prompt(language, question_language, no_info)
     return system, '\n'.join(lines)

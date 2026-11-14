@@ -35,6 +35,20 @@ EXCLUSION_PHRASES = ('que no sea', 'que no sean', 'excepto', 'menos', 'salvo',
                      'aparte de', 'other than', 'except', 'not ')
 PANORAMA_ZONES = 6
 PANORAMA_DUNGEONS = 5
+PROFESSION_KEYWORDS = (
+    'pesca', 'pescar', 'pescador', 'primeros auxilios', 'cocina', 'cocinar',
+    'desuello', 'desollar', 'mineria', 'minar', 'herboristeria', 'alquimia',
+    'herreria', 'ingenieria', 'encantamiento', 'peleteria', 'sastreria',
+    'profesion', 'profesiones', 'fishing', 'first aid', 'cooking', 'skinning',
+    'mining', 'herbalism', 'alchemy', 'blacksmithing', 'engineering',
+    'enchanting', 'leatherworking', 'tailoring', 'profession', 'professions',
+)
+
+
+def is_profession_question(text) -> bool:
+    """True si la pregunta trata de una profesión y no de hechizos de clase."""
+    normalized = normalize(text)
+    return any(keyword in normalized for keyword in PROFESSION_KEYWORDS)
 
 
 @dataclass
@@ -664,6 +678,8 @@ def _flight_name_ok(name: str) -> bool:
 
 
 def _detect_spells(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
+    if is_profession_question(normalized):
+        return
     wanted = any(word in normalized for word in SPELL_KEYWORDS)
     if not wanted and 'train' in normalized and 'trainer' not in normalized:
         wanted = True
@@ -711,6 +727,8 @@ def _spell_level(normalized: str, ctx: dict):
 
 
 def _detect_trainers(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
+    if is_profession_question(normalized):
+        return
     if not any(word in normalized for word in TRAINER_KEYWORDS):
         return
     mask = class_mask_from_name(ctx.get('class'))

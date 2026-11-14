@@ -14,10 +14,7 @@ from askforever.engine.retriever import Facts
 from askforever.providers.openai_compat import ProviderError
 from askforever.web.wiki import WIKI_PAGE_URL, WikiExcerpt
 
-SEARCH_JSON = json.dumps({
-    'queries': ['Expert Fishing', 'Fishing trainer'],
-    'keywords': ['fishing', 'skill'],
-})
+SEARCH_TEXT = 'Expert Fishing\nFishing trainer'
 FOREVER = WikiExcerpt(
     'Forever fishing techniques',
     WIKI_PAGE_URL + 'Forever_fishing_techniques',
@@ -88,7 +85,7 @@ def test_needs_web_cases():
 
 
 def test_answer_message_uses_web_excerpts():
-    provider = FakeProvider([SEARCH_JSON, 'La respuesta final'])
+    provider = FakeProvider([SEARCH_TEXT, 'La respuesta final'])
     web = FakeWeb({
         'Expert Fishing': [EXPERT, TRAINER],
         'Fishing trainer': [FOREVER, EXPERT],
@@ -102,18 +99,15 @@ def test_answer_message_uses_web_excerpts():
 
     assert len(provider.calls) == 2
     search_call, answer_call = provider.calls
-    assert 'JSON' in search_call['system']
-    assert search_call['max_tokens'] == 150
+    assert 'Output ONLY 1 to 3 search terms' in search_call['system']
+    assert search_call['max_tokens'] == 400
     assert search_call['temperature'] == 0.0
     assert 'Question: ¿Y a pescar dónde puedo ir?' in search_call['user']
     assert 'Previous question: ¿Dónde compro la caña?' in search_call['user']
-    assert 'Class: Chamán' in search_call['user']
-    assert 'Race: Enano' in search_call['user']
-    assert 'Faction: Alianza' in search_call['user']
-    assert 'Level: 16' in search_call['user']
+    assert 'Player: level 16 Enano Chamán, Alianza.' in search_call['user']
 
     assert web.calls == ['Expert Fishing', 'Fishing trainer']
-    assert web.keyword_calls == [['fishing', 'skill'], ['fishing', 'skill']]
+    assert web.keyword_calls == [['Expert', 'Fishing', 'trainer']] * 2
     assert result.web_titles == ['Forever fishing techniques', 'Expert Fishing',
                                  'Fishing trainer']
     assert 'FUENTE EXTERNA' in answer_call['user']
@@ -123,20 +117,23 @@ def test_answer_message_uses_web_excerpts():
     assert result.ok is True
 
 
-def test_answer_message_invalid_search_json_uses_question():
-    provider = FakeProvider(['esto no es JSON', 'La respuesta'])
+def test_answer_message_reasoning_only_has_no_search():
+    provider = FakeProvider([
+        '<thought>User is asking about fishing and first aid.</thought>',
+        'La respuesta',
+    ])
     web = FakeWeb({'¿Y a pescar dónde puedo ir?': [FOREVER]})
 
     result = answer_message(_data('¿Y a pescar dónde puedo ir?'), provider, web=web)
 
-    assert web.calls == ['¿Y a pescar dónde puedo ir?']
-    assert web.keyword_calls == [[]]
-    assert 'FUENTE EXTERNA' in provider.calls[1]['user']
-    assert result.web_titles == ['Forever fishing techniques']
+    assert web.calls == []
+    assert web.keyword_calls == []
+    assert 'FUENTE EXTERNA' not in provider.calls[1]['user']
+    assert result.web_titles == []
 
 
 def test_answer_message_empty_web_has_no_block():
-    provider = FakeProvider([SEARCH_JSON, 'La respuesta'])
+    provider = FakeProvider([SEARCH_TEXT, 'La respuesta'])
     web = FakeWeb({})
 
     result = answer_message(_data('¿Y a pescar dónde puedo ir?'), provider, web=web)
@@ -248,7 +245,7 @@ def test_cli_ask_no_web_does_not_open_wiki(monkeypatch, capsys):
 
 
 def test_cli_ask_uses_web_and_shows_titles(monkeypatch, capsys):
-    provider = FakeProvider([SEARCH_JSON, 'La respuesta'])
+    provider = FakeProvider([SEARCH_TEXT, 'La respuesta'])
     web = FakeWeb({'Expert Fishing': [FOREVER]})
     monkeypatch.setattr(cli, 'provider_from_config', lambda: provider)
     monkeypatch.setattr(cli.config, 'open_wiki', lambda: web)
@@ -265,7 +262,7 @@ def test_cli_ask_uses_web_and_shows_titles(monkeypatch, capsys):
 
 def test_bench_web_titles_and_markdown():
     question = Question('q1', 'pesca', 'esES', '¿Y a pescar dónde puedo ir?', {}, 'n')
-    provider = FakeProvider([SEARCH_JSON, 'La respuesta'])
+    provider = FakeProvider([SEARCH_TEXT, 'La respuesta'])
     web = FakeWeb({'Expert Fishing': [FOREVER]})
     target = Target('fake', 'modelo')
 
