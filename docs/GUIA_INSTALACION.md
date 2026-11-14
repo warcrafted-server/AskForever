@@ -2,94 +2,95 @@
 
 **[English version](INSTALL_GUIDE.md)**
 
-> 🚧 Guía de la **v0.1.0-beta**, que funciona en el juego pero aún no está publicada (la página de CurseForge todavía no existe, así que por ahora el addon se instala desde el repositorio). Esta guía se actualiza con cada versión. Si algún paso no coincide con lo que ves, revisa la última versión en GitHub.
+Esta guía es para **AskForever 0.3.0-beta.1**. La primera vez se tarda unos **10 minutos**.
 
-Tiempo estimado: **2 minutos**, una sola vez.
+AskForever tiene dos partes:
 
-## Qué hace la v0.1.0
+- El **addon**: la ventana de AskForever dentro de World of Warcraft.
+- El **companion**: un pequeño programa de Windows que habla con la IA y muestra la respuesta sobre el juego.
 
-La v0.1.0 solo contiene el **addon**. Recoge el contexto de tu personaje (nivel, raza, clase, facción, zona, coordenadas, misiones activas) y construye un prompt listo para copiar y pegar en cualquier chat de IA (Gemini, ChatGPT, Claude…). Recibir la respuesta dentro del juego requiere el **companion**, que llegará en versiones posteriores (consulta la [hoja de ruta](../ROADMAP.md)).
+## Antes de empezar
 
-## Requisitos
+Necesitas:
 
-- WoW Forever instalado.
-- Nada más para la v0.1.0.
+- Windows 10 u 11 de 64 bits.
+- World of Warcraft: **WoW Forever** instalado.
+- Una **cuenta de Google**, gratuita, para crear la clave de Gemini.
 
 ## 1. Instalar el addon
 
-### Opción A: aplicación de CurseForge (recomendada)
-1. Abre la app de **CurseForge** → **World of Warcraft**.
-2. Comprueba que está seleccionada la instalación **Forever**. Si no aparece, usa *Scan for games* o añade a mano la carpeta `World of Warcraft\_forever_`.
-3. Busca **AskForever** y pulsa **Install**.
+### App de CurseForge (recomendada)
 
-### Opción B: manual
-1. Descarga el `.zip` desde la página de AskForever en CurseForge (pestaña **Files**).
+1. Abre la app de **CurseForge** y elige **World of Warcraft**.
+2. Comprueba que está seleccionada la instalación **Forever**. Si no aparece, usa **Scan for games** (buscar juegos) o añade la carpeta `World of Warcraft\_forever_`.
+3. Busca **AskForever**, ábrelo y pulsa **Instalar**.
+
+### Instalación manual
+
+1. Descarga el **.zip** del addon AskForever de la [página de Releases](https://github.com/warcrafted-server/AskForever/releases) (o usa el archivo de CurseForge).
 2. Descomprímelo y copia la carpeta `AskForever` en `World of Warcraft\_forever_\Interface\AddOns\`.
-3. Debe quedar así: `...\AddOns\AskForever\AskForever.toc`
+3. Comprueba que la carpeta contiene `AskForever.toc`: `...\AddOns\AskForever\AskForever.toc`.
+4. Si el juego está abierto, ciérralo del todo y vuelve a abrirlo. `/reload` no carga addons nuevos. En la selección de personaje, pulsa **AddOns** y marca **AskForever**.
 
-### Hasta que esté en CurseForge: desde GitHub
-1. En la [página del repositorio](https://github.com/warcrafted-server/AskForever) pulsa **Code → Download ZIP** y descomprímelo.
-2. Copia solo la carpeta `addon\AskForever` (no todo el repositorio) en `World of Warcraft\_forever_\Interface\AddOns\`.
-3. Debe quedar así: `...\AddOns\AskForever\AskForever.toc`
+## 2. Instalar el companion
 
-## 2. Iniciar el juego
+1. En la [página de Releases](https://github.com/warcrafted-server/AskForever/releases), descarga **`AskForever-Setup-0.3.0-beta.1.exe`**. El nombre incluye la versión.
+2. Haz doble clic en el archivo para ejecutarlo.
+3. Si Windows muestra un aviso, lee [Si Windows muestra un aviso](#si-windows-muestra-un-aviso).
+4. El instalador funciona **solo para tu usuario de Windows**. No pide permisos de administrador. Instala AskForever en `%LOCALAPPDATA%\Programs\AskForever` y añade un acceso directo al menú Inicio.
+5. Pulsa **Finalizar**. Si el instalador ofrece abrir AskForever, puedes dejar que se abra. Si no, abre **AskForever** desde el menú Inicio.
 
-Si el juego estaba abierto, **ciérralo del todo y vuelve a abrirlo**: `/reload` no detecta addons nuevos. En la selección de personaje, pulsa **AddOns** y comprueba que **AskForever** está activado.
+## 3. Primer arranque: clave gratuita de Gemini y datos del juego
 
-## 3. Haz tu primera pregunta
+1. Abre **AskForever** desde el menú Inicio. Se abre una ventana de consola, una ventana negra con texto.
+2. La primera vez, un asistente explica que AskForever necesita una clave gratuita de Google Gemini. Si no tienes una, sigue la [guía de la clave de Gemini](CLAVE_GEMINI.md). Es gratuita y se tarda unos minutos.
+3. Pega la clave cuando el asistente la pida. El asistente la prueba y la guarda en el **Administrador de credenciales de Windows**, el lugar seguro donde Windows guarda las contraseñas.
+4. Cuando la clave funciona, AskForever descarga los datos del juego: unos **32 MB**, una sola vez. Después se actualizan solos. Mantén la ventana abierta hasta que termine.
+5. Si ya guardaste una clave, el asistente no aparece; AskForever se inicia directamente.
 
-1. Entra con tu personaje.
-2. Abre AskForever con `/af` (o `/askforever`), o con el atajo que configures en *Opciones → Atajos → AddOns → AskForever*.
-3. La ventana muestra un resumen de tu personaje (nivel, raza, clase, zona). Escribe tu pregunta, por ejemplo: *¿por dónde voy a Baldíos?*, y pulsa Enter. La pregunta aparece en el historial con el aviso «Prompt listo».
-4. Pulsa **Copiar prompt**. Aparece una caja con el prompt ya seleccionado: pulsa `Ctrl+C`.
-5. Pégalo en el chat de IA que prefieras. No hace falta decir tu nivel, facción ni dónde estás: el prompt ya los incluye.
+## 4. Jugar
 
-El botón del minimapa abre y cierra la ventana. Arrástralo para moverlo; `/af minimap` lo muestra u oculta.
+1. Mantén la ventana de consola de AskForever **abierta** mientras juegas. Si la cierras, AskForever se detiene.
+2. Abre WoW Forever e inicia sesión.
+3. En el juego, escribe `/af` (o `/askforever`) en el chat del juego y pulsa Enter, o haz clic en el botón **AskForever** del minimapa. Se abre la ventana de AskForever.
+4. Escribe tu pregunta en esa ventana y pulsa Enter. Por ejemplo: *¿Por dónde voy a Baldíos?*
+5. La respuesta aparece sobre el juego, a la derecha, durante unos segundos.
+6. Para que funcione mejor, usa el modo de pantalla **Ventana** o **Pantalla completa (ventana)**. La pantalla completa exclusiva (la que ocupa toda la pantalla) puede impedir que aparezca la respuesta.
 
-## Companion (versión para desarrolladores, v0.2)
+## Si Windows muestra un aviso
 
-La versión 0.2 añade el **companion**, un programa en Python que lee tu pregunta de la pantalla, consulta a Google Gemini y muestra la respuesta sobre el juego. Todavía no va en el paquete de CurseForge (el instalador está previsto para la 0.4.0): por ahora se ejecuta desde el repositorio.
+Windows SmartScreen es el sistema de avisos integrado de Windows. Puede mostrar **«Windows protegió su PC»** porque AskForever no se distribuye por la Microsoft Store ni está firmado con un certificado de pago. Eso no significa que el archivo sea peligroso.
 
-**Requisitos:** Windows 10 u 11, Python 3.12, el juego en modo **Ventana** o **Ventana (sin bordes)** (probado a 1920x1080; en pantalla completa exclusiva no se puede capturar), el addon de la misma versión y una clave de Gemini ([guía](CLAVE_GEMINI.md)).
+1. Ejecuta solo el instalador que descargaste de la [página oficial de Releases](https://github.com/warcrafted-server/AskForever/releases).
+2. Pulsa **Más información** y después **Ejecutar de todas formas**.
+3. La [página de seguridad y transparencia](SEGURIDAD_TRANSPARENCIA.md) explica qué hace el companion y cómo comprobar el archivo descargado.
 
-En **PowerShell**, desde la carpeta del proyecto:
+## Uso diario
 
-1. Crea el entorno e instala las dependencias (una sola vez):
+- Deja abierta la ventana de consola de AskForever mientras juegas; si la cierras, AskForever se detiene.
+- Usa `/af` o el botón del minimapa para preguntar.
+- La respuesta aparece a la derecha durante unos segundos. Usa el modo Ventana o Pantalla completa (ventana).
 
-   ```powershell
-   cd companion
-   python -m venv .venv
-   .venv\Scripts\python.exe -m pip install mss pillow keyring openai
-   ```
+## Cambiar la clave
 
-2. Guarda tu clave (una sola vez): sigue el paso 2 de la [guía de la clave de Gemini](CLAVE_GEMINI.md).
-3. Comprueba la clave: `.venv\Scripts\python.exe -m askforever test-key`. Debe mostrar el modelo, el tiempo y `Respuesta: OK`.
-4. Opcional, para ver el overlay sin el juego: `.venv\Scripts\python.exe -m askforever overlay-demo`.
-5. Arráncalo con el juego abierto: `.venv\Scripts\python.exe -m askforever run`. En el juego, abre `/af`, escribe tu pregunta y pulsa Enter: una tira de colores se ve unos 2 segundos arriba a la izquierda y después aparecen «Pensando…» y la respuesta a la derecha de la pantalla. Páralo con `Ctrl+C`.
+1. Pulsa la **tecla Windows + R** (se abre el cuadro Ejecutar), pega `%LOCALAPPDATA%\Programs\AskForever` y pulsa Enter. Se abre la carpeta donde está instalado AskForever para tu usuario.
+2. En la ventana de la carpeta, haz clic en la barra de direcciones de arriba (la que muestra la ruta), escribe `powershell` y pulsa Enter. Se abre una ventana de terminal en esa carpeta.
+3. Escribe `.\AskForever.exe setup` y pulsa Enter. El asistente se abre otra vez para que escribas una clave nueva.
 
-El overlay deja pasar los clics y nunca roba el foco. Si algo falla, `/af selftest` y `/af pattern` en el juego ayudan a diagnosticar el transporte.
+## Actualizar
 
-**Límites conocidos:** sin memoria entre preguntas, sin datos de profesiones, talentos ni inventario y sin datos de juego verificados, así que las respuestas pueden ser erróneas. Están previstos para las próximas versiones.
-
-## Solución de problemas
-
-| Problema | Solución |
-|---|---|
-| `/af` no hace nada | AskForever no está activado o no reiniciaste el juego tras instalarlo. Revisa el paso 2. |
-| Sale un error al entrar | Instala **BugSack** y **BugGrabber**, repite el error y abre una [incidencia en GitHub](https://github.com/warcrafted-server/AskForever/issues) con el texto. |
-| El prompt muestra una zona equivocada o no hay misiones | Vuelve a abrir la ventana tras cambiar de zona; si persiste, avísanos. |
-| La ventana se ha perdido fuera de la pantalla | Ejecuta `/af reset` para restaurar su posición (disponible desde la v0.1.0). |
+1. Descarga el nuevo `AskForever-Setup-<versión>.exe` de la [página de Releases](https://github.com/warcrafted-server/AskForever/releases) y ejecútalo encima de la instalación anterior. La clave guardada se conserva.
+2. Si hay una versión nueva del addon, actualízalo igual que lo instalaste: con la app de CurseForge o copiando la carpeta `AskForever` nueva.
 
 ## Desinstalar
 
-Desinstálalo desde la app de CurseForge o borra `Interface\AddOns\AskForever`. Tus ajustes están en `WTF\Account\<cuenta>\SavedVariables\AskForever.lua` (borrarlos es opcional).
+1. Abre **Configuración > Aplicaciones > AskForever > Desinstalar**. Se borran el programa, la clave guardada y los datos del juego descargados.
+2. Quita el addon desde la app de CurseForge o borra `World of Warcraft\_forever_\Interface\AddOns\AskForever`.
 
-## Preguntas frecuentes
+## Problemas frecuentes
 
-**¿Es gratis?** Sí.
-
-**¿Me pueden banear?** AskForever no simula teclas, no lee la memoria del juego ni automatiza acciones: solo muestra información con la API oficial de addons. Aun así, Blizzard no se ha pronunciado sobre este tipo de herramientas, así que no se puede garantizar nada. Úsalo bajo tu responsabilidad.
-
-**¿Qué datos maneja?** Tu pregunta y el contexto de tu personaje. En la v0.1.0 no se envía nada a ningún sitio: tú decides qué pegas y dónde.
-
-**¿Funciona en Mac o Linux?** El addon funciona donde funcione el juego. El companion (versiones futuras) será solo para Windows al principio.
+| Problema | Qué hacer |
+|---|---|
+| No aparece la respuesta | Comprueba que la ventana de consola de AskForever sigue abierta y que el juego está en modo Ventana o Pantalla completa (ventana). |
+| La respuesta dice que falta la clave o que has llegado al límite del plan gratuito | Espera un minuto y vuelve a preguntar. Si sigue diciendo que falta la clave, ejecuta setup (consulta [Cambiar la clave](#cambiar-la-clave)). |
+| El addon no aparece en el juego | Cierra el juego por completo, vuelve a abrirlo y activa **AskForever** en la lista de AddOns de la selección de personaje. |
