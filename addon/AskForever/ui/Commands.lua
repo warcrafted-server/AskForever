@@ -148,8 +148,10 @@ SlashCmdList.ASKFOREVER = function(msg)
         print(ns.L.HELP_MINIMAP)
         print(ns.L.HELP_PATTERN)
         print(ns.L.HELP_SELFTEST)
-        print(ns.L.HELP_SLOTPROBE)
-        print(ns.L.HELP_SLOTTEST)
+        if ns.SlotSpike then
+            print(ns.L.HELP_SLOTPROBE)
+            print(ns.L.HELP_SLOTTEST)
+        end
         print(ns.L.HELP_HELP)
     elseif command == 'reset' then
         ns.UI.ResetPosition()
@@ -164,9 +166,9 @@ SlashCmdList.ASKFOREVER = function(msg)
         RunPattern()
     elseif command == 'selftest' then
         RunSelftest()
-    elseif command == 'slotprobe' or slotWord == 'slotprobe' then
+    elseif ns.SlotSpike and (command == 'slotprobe' or slotWord == 'slotprobe') then
         ns.SlotSpike.ProbeCmd(tonumber(slotArgument))
-    elseif command == 'slottest' or slotWord == 'slottest' then
+    elseif ns.SlotSpike and (command == 'slottest' or slotWord == 'slottest') then
         ns.SlotSpike.TestCmd(tonumber(slotArgument))
     else
         print(ns.L.UNKNOWN_COMMAND)
