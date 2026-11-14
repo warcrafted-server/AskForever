@@ -158,9 +158,22 @@ local function EnsureMainFrame()
         end
     end
 
+    local reportButton
+    if ns.DevReport and type(ns.DevReport.Attach) == 'function' then
+        local ok, button = pcall(ns.DevReport.Attach, body, editBox, AddHistory, colors,
+                                 ConversationNumber)
+        if ok then
+            reportButton = button
+        end
+    end
+
     local note = ns.UI.CreateText(body, Theme.font.small, colors.textDim)
     note:SetPoint('LEFT', copyButton, 'RIGHT', 10, 0)
-    note:SetPoint('RIGHT', body, 'RIGHT', -8, 0)
+    if reportButton then
+        note:SetPoint('RIGHT', reportButton, 'LEFT', -10, 0)
+    else
+        note:SetPoint('RIGHT', body, 'RIGHT', -8, 0)
+    end
     note:SetJustifyH('LEFT')
     note:SetText(ns.L.OFFLINE_NOTE)
 

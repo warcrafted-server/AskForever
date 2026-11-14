@@ -25,3 +25,4 @@ ui/CopyBox.lua
 ui/Minimap.lua
 ui/Commands.lua
 Bindings.xml
+dev/DevReport.lua
