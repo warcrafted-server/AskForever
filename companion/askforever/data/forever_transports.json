@@ -1,0 +1,8 @@
+{
+  "source": "Transportes de WoW Forever confirmados por el mantenedor que aún no están en wowdata (2026-11-14). Se usan junto a v_ruta para calcular rutas.",
+  "transports": [
+    {"type": "tranvía", "type_en": "tram", "name_es": "Tranvía Subterráneo", "name_en": "Deeprun Tram",
+     "from_es": "Forjaz", "from_en": "Ironforge", "to_es": "Ciudad de Ventormenta", "to_en": "Stormwind City",
+     "faction": "Alianza", "minutes": 2, "both_ways": true}
+  ]
+}
