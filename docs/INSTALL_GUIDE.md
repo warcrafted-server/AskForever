@@ -46,9 +46,30 @@ If the game was open, **close it completely and start it again**: `/reload` does
 
 The minimap button opens and closes the window. Drag it to move it; `/af minimap` shows or hides it.
 
-## Coming next: AI key
+## Companion (developer preview, v0.2)
 
-The next versions add the companion, which needs a free Google Gemini key. Step-by-step guide: [Get your free Gemini key](GEMINI_KEY.md). You do not need it for v0.1.x.
+Version 0.2 adds the **companion**, a Python program that reads your question from the screen, asks Google Gemini and shows the answer over the game. It is not part of the CurseForge package yet (an installer is planned for 0.4.0): for now it runs from the repository.
+
+**Requirements:** Windows 10 or 11, Python 3.12, the game in **Windowed** or **Windowed (Fullscreen)** mode (tested at 1920x1080; exclusive fullscreen cannot be captured), the addon from the same version, and a Gemini key ([guide](GEMINI_KEY.md)).
+
+In **PowerShell**, from the project folder:
+
+1. Create the environment and install the dependencies (once):
+
+   ```powershell
+   cd companion
+   python -m venv .venv
+   .venv\Scripts\python.exe -m pip install mss pillow keyring openai
+   ```
+
+2. Store your key (once): follow step 2 of the [Gemini key guide](GEMINI_KEY.md).
+3. Check the key: `.venv\Scripts\python.exe -m askforever test-key`. It should print the model, the time and `Respuesta: OK`.
+4. Optional, to see the overlay without the game: `.venv\Scripts\python.exe -m askforever overlay-demo`.
+5. Start it with the game open: `.venv\Scripts\python.exe -m askforever run`. In the game, open `/af`, type your question and press Enter: a strip of colors shows for about 2 seconds in the top-left corner, then "Thinking…" and the answer appear on the right side of the screen. Stop it with `Ctrl+C`.
+
+The overlay lets clicks through and never takes focus. If something fails, `/af selftest` and `/af pattern` in the game help to diagnose the transport.
+
+**Known limits:** no memory between questions, no data about professions, talents or inventory, and no verified game data yet, so answers can be wrong. They are planned for the next versions.
 
 ## Troubleshooting
 

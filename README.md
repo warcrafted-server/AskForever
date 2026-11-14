@@ -2,8 +2,8 @@
 
 **[English](#english) · [Español](#español)**
 
-> 🚧 Under development: no downloadable version yet. The first beta (v0.1.0) works in the game but is not published yet.
-> En desarrollo: todavía no hay versión descargable. La primera beta (v0.1.0) ya funciona en el juego pero aún no está publicada.
+> 🚧 Under development: no downloadable version yet. Version 0.2.0 works end to end for developers (the companion runs from source).
+> En desarrollo: todavía no hay versión descargable. La versión 0.2.0 funciona de extremo a extremo para desarrolladores (el companion se ejecuta desde el código).
 
 ---
 
@@ -20,7 +20,8 @@ AskForever knows your level, faction and zone, computes routes from real data (n
 | Version | What it brings | State |
 |---|---|---|
 | 0.1.0 | Addon: chat window, character context, **Copy prompt** button (paste it into any AI) | Working, not published yet |
-| 0.2.0 – 0.4.0 | Companion app that talks to the AI and shows the answer in-game, installer | Planned |
+| 0.2.0 | Companion (developer preview): reads the question from the screen, asks Gemini, shows the answer over the game | Working, developer preview |
+| 0.3.0 – 0.4.0 | Answer inside the addon window, installer | Planned |
 | 0.5.0+ | Reliable routes, **Take me there** button, more AI engines | Planned |
 
 See the [ROADMAP](ROADMAP.md), the [CHANGELOG](CHANGELOG.md) and the [TODO](TODO.md).
@@ -52,7 +53,8 @@ AskForever conoce tu nivel, facción y zona, calcula las rutas con datos reales 
 | Versión | Qué aporta | Estado |
 |---|---|---|
 | 0.1.0 | Addon: ventana de chat, contexto del personaje, botón **Copiar prompt** (pégalo en cualquier IA) | Funciona, sin publicar |
-| 0.2.0 – 0.4.0 | Companion que habla con la IA y muestra la respuesta en el juego, instalador | Planificado |
+| 0.2.0 | Companion (versión para desarrolladores): lee la pregunta de la pantalla, consulta a Gemini y muestra la respuesta sobre el juego | Funciona, para desarrolladores |
+| 0.3.0 – 0.4.0 | Respuesta dentro de la ventana del addon, instalador | Planificado |
 | 0.5.0+ | Rutas fiables, botón **Llévame**, más motores de IA | Planificado |
 
 Consulta la [hoja de ruta](ROADMAP.md), el [CHANGELOG](CHANGELOG.md) y el [TODO](TODO.md).

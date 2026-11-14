@@ -46,9 +46,30 @@ Si el juego estaba abierto, **ciérralo del todo y vuelve a abrirlo**: `/reload`
 
 El botón del minimapa abre y cierra la ventana. Arrástralo para moverlo; `/af minimap` lo muestra u oculta.
 
-## Próximamente: clave de IA
+## Companion (versión para desarrolladores, v0.2)
 
-Las próximas versiones añaden el companion, que necesita una clave gratuita de Google Gemini. Guía paso a paso: [Consigue tu clave de Gemini](CLAVE_GEMINI.md). No la necesitas para la v0.1.x.
+La versión 0.2 añade el **companion**, un programa en Python que lee tu pregunta de la pantalla, consulta a Google Gemini y muestra la respuesta sobre el juego. Todavía no va en el paquete de CurseForge (el instalador está previsto para la 0.4.0): por ahora se ejecuta desde el repositorio.
+
+**Requisitos:** Windows 10 u 11, Python 3.12, el juego en modo **Ventana** o **Ventana (sin bordes)** (probado a 1920x1080; en pantalla completa exclusiva no se puede capturar), el addon de la misma versión y una clave de Gemini ([guía](CLAVE_GEMINI.md)).
+
+En **PowerShell**, desde la carpeta del proyecto:
+
+1. Crea el entorno e instala las dependencias (una sola vez):
+
+   ```powershell
+   cd companion
+   python -m venv .venv
+   .venv\Scripts\python.exe -m pip install mss pillow keyring openai
+   ```
+
+2. Guarda tu clave (una sola vez): sigue el paso 2 de la [guía de la clave de Gemini](CLAVE_GEMINI.md).
+3. Comprueba la clave: `.venv\Scripts\python.exe -m askforever test-key`. Debe mostrar el modelo, el tiempo y `Respuesta: OK`.
+4. Opcional, para ver el overlay sin el juego: `.venv\Scripts\python.exe -m askforever overlay-demo`.
+5. Arráncalo con el juego abierto: `.venv\Scripts\python.exe -m askforever run`. En el juego, abre `/af`, escribe tu pregunta y pulsa Enter: una tira de colores se ve unos 2 segundos arriba a la izquierda y después aparecen «Pensando…» y la respuesta a la derecha de la pantalla. Páralo con `Ctrl+C`.
+
+El overlay deja pasar los clics y nunca roba el foco. Si algo falla, `/af selftest` y `/af pattern` en el juego ayudan a diagnosticar el transporte.
+
+**Límites conocidos:** sin memoria entre preguntas, sin datos de profesiones, talentos ni inventario y sin datos de juego verificados, así que las respuestas pueden ser erróneas. Están previstos para las próximas versiones.
 
 ## Solución de problemas
 
