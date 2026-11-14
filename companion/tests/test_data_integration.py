@@ -215,7 +215,7 @@ def test_run_bench_and_markdown_with_database(db_path, tmp_path):
     database.close()
 
     assert len(results) == 1
-    assert results[0].sources == ['quest:1338']
+    assert 'quest:1338' in results[0].sources
     assert results[0].ok is True
     call = fake_provider.calls[0]
     assert 'Furen Barbalarga' in call['user']
@@ -233,7 +233,7 @@ def test_run_bench_and_markdown_with_database(db_path, tmp_path):
     payload = json.loads(json_path.read_text(encoding='utf-8'))
     assert payload['used_database'] is True
     assert payload['temperature'] == 0.4
-    assert payload['results'][0]['sources'] == ['quest:1338']
+    assert 'quest:1338' in payload['results'][0]['sources']
 
 
 def test_cli_ask_no_data(monkeypatch, capsys):

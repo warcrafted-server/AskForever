@@ -186,12 +186,13 @@ def test_follow_up_reuses_previous_question_facts(db):
     assert result.facts
 
 
-def test_follow_up_without_previous_question_has_no_facts(db):
+def test_follow_up_without_previous_question_has_no_entity_facts(db):
     provider = FakeProvider()
     result = answer_message(_data('¿Y a qué nivel la puedo hacer?'), provider, db=db)
 
-    assert result.facts_text == ''
-    assert 'DATOS VERIFICADOS' not in provider.calls[0]['user']
+    assert 'Mazmorra «Cuevas de los Lamentos»' not in result.facts_text
+    assert 'Mazmorras para tu nivel (16):' in result.facts_text
+    assert 'Mazmorra «Cuevas de los Lamentos»' not in provider.calls[0]['user']
 
 
 def test_answer_message_passes_history_to_prompt(db):

@@ -31,6 +31,10 @@ FLY_FROM_KEYWORDS = ('volar desde', 'adonde puedo volar', 'vuelos desde',
 # Nombres genéricos que aparecen como palabras normales en las preguntas
 # (p. ej. «puntos» en «puntos de vuelo») y no deben tratarse como entidades.
 GENERIC_ENTITY_NAMES = {'puntos', 'points'}
+EXCLUSION_PHRASES = ('que no sea', 'que no sean', 'excepto', 'menos', 'salvo',
+                     'aparte de', 'other than', 'except', 'not ')
+PANORAMA_ZONES = 6
+PANORAMA_DUNGEONS = 5
 
 
 @dataclass
@@ -40,11 +44,12 @@ class Facts:
     lines: list[str] = field(default_factory=list)
     sources: list[str] = field(default_factory=list)
     missing: list[str] = field(default_factory=list)
+    panorama: list[str] = field(default_factory=list)
 
     def render(self, lang: str) -> str:
         """Bloque de texto plano, o cadena vacía si no hay nada que contar."""
         spanish = lang in ('esES', 'esMX')
-        if not self.lines and not self.missing:
+        if not self.lines and not self.missing and not self.panorama:
             return ''
         title = ('DATOS VERIFICADOS (base de WoW Forever):' if spanish
                  else 'VERIFIED DATA (WoW Forever database):')
@@ -53,6 +58,8 @@ class Facts:
             segments.append('SIN DATOS EN LA BASE:' if spanish
                             else 'NOT IN THE DATABASE:')
             segments.extend(self.missing)
+        # El panorama va al final para que el recorte por tamaño lo quite primero.
+        segments.extend(self.panorama)
         text = '\n'.join(segments)
         if len(text) <= LIMIT:
             return text
@@ -350,7 +357,93 @@ def _number_in_text(normalized: str):
     return None
 
 
-def _detect_zone_intents(facts: Facts, db, matches, normalized: str, lang: str, ctx: dict):
+def _has_exclusion(normalized: str) -> bool:
+    return any(phrase in normalized for phrase in EXCLUSION_PHRASES)
+
+
+def _partial_zone_match(name: str, tokens) -> bool:
+    """True si algún token de la pregunta (5+ letras) empieza una palabra de la zona."""
+    for word in normalize(name).split():
+        for token in tokens:
+            if word.startswith(token):
+                return True
+    return False
+
+
+def _excluded_zones(matches, nearby, normalized: str):
+    """Zonas que el jugador descarta: coincidencia completa y por prefijo."""
+    if not _has_exclusion(normalized):
+        return set(), set(), []
+    tokens = [token for token in normalized.split() if len(token) >= 5]
+    if not tokens:
+        return set(), set(), []
+    excluded_ids = set()
+    excluded_keys = set()
+    names = []
+
+    def add(area_id, name):
+        key = normalize(name)
+        if not key or key in excluded_keys:
+            return
+        excluded_keys.add(key)
+        if area_id is not None:
+            excluded_ids.add(area_id)
+        names.append(name)
+
+    for match in matches:
+        if match.get('kind') == 'zone':
+            add(match.get('id'), match.get('name') or '')
+    for zone in nearby or []:
+        if _partial_zone_match(zone.get('name') or '', tokens):
+            add(zone.get('area_id'), zone.get('name') or '')
+    return excluded_ids, excluded_keys, names
+
+
+def _zone_is_excluded(zone, excluded_ids, excluded_keys) -> bool:
+    return (zone.get('area_id') in excluded_ids
+            or normalize(zone.get('name') or '') in excluded_keys)
+
+
+def _panorama_zones_line(zones, level, lang: str) -> str:
+    parts = [f"{zone['name']} ({zone['min']}-{zone['max']})" for zone in zones]
+    if lang == 'es':
+        return f'Zonas para tu nivel ({level}): ' + ', '.join(parts)
+    return f'Zones for your level ({level}): ' + ', '.join(parts)
+
+
+def _panorama_dungeons_line(dungeons, level, lang: str) -> str:
+    parts = [f"{item['name']} ({item['min']}-{item['max']})" for item in dungeons]
+    if lang == 'es':
+        return f'Mazmorras para tu nivel ({level}): ' + ', '.join(parts)
+    return f'Dungeons for your level ({level}): ' + ', '.join(parts)
+
+
+def _add_panorama(facts: Facts, db, lang: str, level, nearby, zones_level,
+                  dungeons_level, excluded_ids, excluded_keys,
+                  excluded_names) -> None:
+    if excluded_names:
+        prefix = ('Excluidas a petición del jugador: ' if lang == 'es'
+                  else 'Excluded by the player: ')
+        facts.panorama.append(prefix + ', '.join(excluded_names))
+    if level is None:
+        return
+    if zones_level != level:
+        zones = [zone for zone in nearby
+                 if not _zone_is_excluded(zone, excluded_ids, excluded_keys)]
+        zones = zones[:PANORAMA_ZONES]
+        if zones:
+            facts.panorama.append(_panorama_zones_line(zones, level, lang))
+            _add_source(facts, f'panorama:zones:{level}')
+    if dungeons_level != level:
+        dungeons = (_safe(db.dungeons_for_level, level, lang) or [])
+        dungeons = dungeons[:PANORAMA_DUNGEONS]
+        if dungeons:
+            facts.panorama.append(_panorama_dungeons_line(dungeons, level, lang))
+            _add_source(facts, f'panorama:dungeons:{level}')
+
+
+def _detect_zone_intents(facts: Facts, db, matches, normalized: str, lang: str,
+                         ctx: dict, nearby, excluded_ids, excluded_keys):
     zone_matches = [match for match in matches if match.get('kind') == 'zone']
     mentions_level = any(word in normalized for word in ('nivel', 'level', 'rango'))
     current_zone = ctx.get('zone')
@@ -359,29 +452,32 @@ def _detect_zone_intents(facts: Facts, db, matches, normalized: str, lang: str, 
         if levels:
             facts.lines.append(_zone_line(levels, lang))
             _add_source(facts, f"zone:{levels['area_id']}")
-            return
+            return None
     if (isinstance(current_zone, str) and current_zone and mentions_level
             and normalize(current_zone) in normalized):
         levels = _safe(db.zone_levels, current_zone, lang)
         if levels:
             facts.lines.append(_zone_line(levels, lang))
             _add_source(facts, f"zone:{levels['area_id']}")
-            return
+            return None
     if zone_matches:
-        return
+        return None
     if any(phrase in normalized for phrase in ZONE_KEYWORDS):
         level = _ctx_level(ctx)
         if level is None:
-            return
-        zones = _safe(db.zones_for_level, level, lang)
+            return None
+        zones = [zone for zone in nearby
+                 if not _zone_is_excluded(zone, excluded_ids, excluded_keys)]
         if zones:
             facts.lines.append(_zones_line(zones, level, lang))
             _add_source(facts, f'zones:{level}')
+            return level
+    return None
 
 
 def _detect_dungeon_intents(facts: Facts, db, matches, normalized: str, lang: str,
                             ctx: dict, has_dungeon: bool,
-                            dungeon_level_answered: bool) -> None:
+                            dungeon_level_answered: bool):
     mentions_level = any(word in normalized for word in ('nivel', 'level', 'rango'))
     mentions_dungeon = any(word in normalized for word in DUNGEON_KEYWORDS)
     if not has_dungeon and mentions_dungeon:
@@ -397,10 +493,11 @@ def _detect_dungeon_intents(facts: Facts, db, matches, normalized: str, lang: st
                 if dungeons:
                     facts.lines.append(_dungeons_line(dungeons, level, lang))
                     _add_source(facts, f'dungeons:{level}')
-                    return
+                    return level
     if mentions_level and (has_dungeon or mentions_dungeon) and not dungeon_level_answered:
         facts.missing.append('rangos de nivel de mazmorras' if lang == 'es'
                              else 'dungeon level ranges')
+    return None
 
 
 def _detect_xp(facts: Facts, db, normalized: str, lang: str, ctx: dict,
@@ -733,21 +830,29 @@ def retrieve(message, db) -> Facts:
         normalized = normalize(question)
 
         matches = _safe(db.match_entities, question, lang) or []
+        level = _ctx_level(ctx)
+        nearby = (_safe(db.zones_for_level, level, lang, 8) or []) if level is not None else []
+        excluded_ids, excluded_keys, excluded_names = _excluded_zones(
+            matches, nearby, normalized)
         has_dungeon, dungeon_level_answered = _detect_entities(
             facts, db, matches, normalized, lang, ctx)
         has_quest = any(match.get('kind') == 'quest' for match in matches)
-        _detect_zone_intents(facts, db, matches, normalized, lang, ctx)
-        _detect_dungeon_intents(facts, db, matches, normalized, lang, ctx,
-                                has_dungeon, dungeon_level_answered)
+        zones_level = _detect_zone_intents(facts, db, matches, normalized, lang, ctx,
+                                           nearby, excluded_ids, excluded_keys)
+        dungeons_level = _detect_dungeon_intents(facts, db, matches, normalized, lang, ctx,
+                                                 has_dungeon, dungeon_level_answered)
         _detect_xp(facts, db, normalized, lang, ctx, has_quest)
         _detect_flights(facts, db, matches, question, normalized, lang, ctx)
         _detect_spells(facts, db, normalized, lang, ctx)
         _detect_trainers(facts, db, normalized, lang, ctx)
         _detect_talents(facts, db, normalized, lang, ctx)
         _detect_quest_list(facts, db, normalized, lang, ctx)
+        _add_panorama(facts, db, lang, level, nearby, zones_level, dungeons_level,
+                      excluded_ids, excluded_keys, excluded_names)
 
         facts.lines = list(dict.fromkeys(facts.lines))
         facts.missing = list(dict.fromkeys(facts.missing))
+        facts.panorama = list(dict.fromkeys(facts.panorama))
         return facts
     except Exception:
         return Facts()

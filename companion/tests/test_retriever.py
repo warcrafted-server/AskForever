@@ -267,7 +267,9 @@ def test_b14_flight_points(db):
 
 
 def test_b17_unknown_npc_has_no_facts(db):
-    facts = retrieve(_message('¿Dónde encuentro al PNJ Gruznik el Brillante?'), db)
+    ctx = dict(CTX)
+    del ctx['lvl']
+    facts = retrieve(_message('¿Dónde encuentro al PNJ Gruznik el Brillante?', ctx=ctx), db)
     assert facts.lines == []
     assert facts.missing == []
     assert facts.render('esES') == ''
