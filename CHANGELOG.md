@@ -13,6 +13,9 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Added: level panorama in every question (zones and dungeons for your level), removing the zones the player excludes.
 - Changed: more useful prompt: concrete recommendations from the data, one sentence for what is missing, never refers to guides and never names places that are not in the data.
 - Fixed: the answer overlay no longer flashes over the game (it hides with transparency instead of unmapping).
+- Added: travel routes computed from the database: flights and transports from wowdata (including trips recorded in the game, such as the Stormwind - Darkshore boat) plus the Deeprun Tram confirmed by the maintainer; the fastest route is described step by step with an approximate time; questions like "is there a boat from X to Y?" are answered from the data. Routes and transports never come from the internet or from the model's general knowledge.
+- Added: warcraft.wiki.gg fallback when the database has no data for the question (not for travel): short English searches, preference for WoW Forever pages, answers say "according to the wiki" and show the sources; if neither the database nor the wiki has it, the AI says so without naming places. `--no-web` disables it.
+- Fixed: profession questions (fishing, first aid, skinning...) no longer trigger the class spells or trainers.
 - Changed: answers follow the language of the question; default temperature 0.2 (`ASKFOREVER_TEMPERATURE`).
 - Added: guide to create free keys for each provider with verified links (`docs/API_KEYS.md`).
 - Added: model comparison tool `bench`: runs 10 fixed WoW questions (zones, routes, class, dungeons, quests, honesty traps and an English question) against several providers/models and writes a Markdown + JSON report with latencies, errors and full answers to score by hand.
@@ -26,6 +29,9 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Añadido: panorama del nivel en cada pregunta (zonas y mazmorras para tu nivel), quitando las zonas que el jugador descarta.
 - Cambiado: prompt más útil: recomendaciones concretas con los datos, una frase para lo que falta, nunca remite a guías ni nombra lugares que no estén en los datos.
 - Corregido: el overlay de respuesta ya no parpadea sobre el juego (se oculta con transparencia en lugar de desmapearse).
+- Añadido: rutas de viaje calculadas con la base: vuelos y transportes de wowdata (incluidos los viajes grabados en el juego, como el barco Ventormenta - Costa Oscura) más el Tranvía Subterráneo confirmado por el mantenedor; la ruta más rápida se describe paso a paso con un tiempo aproximado; preguntas como «¿hay barco de X a Y?» se responden con los datos. Las rutas y los transportes nunca salen de internet ni del conocimiento general del modelo.
+- Añadido: respaldo de warcraft.wiki.gg cuando la base no tiene datos para la pregunta (no para viajes): búsquedas cortas en inglés, preferencia por las páginas de WoW Forever, las respuestas dicen «según la wiki» y muestran las fuentes; si ni la base ni la wiki lo tienen, la IA lo dice sin nombrar lugares. `--no-web` lo desactiva.
+- Corregido: las preguntas de profesiones (pesca, primeros auxilios, desuello…) ya no activan los hechizos ni los instructores de la clase.
 - Cambiado: las respuestas siguen el idioma de la pregunta; temperatura por defecto 0,2 (`ASKFOREVER_TEMPERATURE`).
 - Añadido: guía para crear claves gratuitas de cada proveedor con enlaces comprobados (`docs/CLAVES_API.md`).
 - Añadido: herramienta de comparación de modelos `bench`: lanza 10 preguntas fijas de WoW (zonas, rutas, clase, mazmorras, misiones, trampas de honestidad y una pregunta en inglés) a varios proveedores y modelos y genera un informe Markdown + JSON con latencias, errores y respuestas completas para puntuar a mano.

@@ -5,6 +5,8 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass, field
 
+from askforever.data.routes import (KIND_TRAM, KIND_TRANSPORT, RouteGraph, describe,
+                                    find_route, resolve_place, transport_between)
 from askforever.data.wowdb import CLASSES, class_mask_from_name, normalize
 
 LIMIT = 1600
@@ -23,8 +25,29 @@ DUNGEON_KEYWORDS = ('mazmorra', 'mazmorras', 'instancia', 'instancias', 'dungeon
                     'dungeons')
 ZONE_KEYWORDS = ('subir de nivel', 'levear', 'zonas', 'zona para mi nivel',
                  'where to level', 'level up', 'zones')
-ROUTE_KEYWORDS = ('como voy', 'como llego', 'como ir', 'how do i get', 'how to get',
-                  'route to')
+TRAVEL_PHRASES = (
+    'como voy', 'como llego', 'como ir', 'como puedo ir', 'como puedo llegar',
+    'como se va', 'como se llega', 'ir a ', 'ir de ', 'llegar a', 'viajar a',
+    'lo mas rapido', 'mas rapido a', 'ruta', 'camino a', 'how do i get',
+    'how can i get', 'how to get', 'fastest way', 'route', 'travel to', 'get to ',
+)
+TRANSPORT_KEYWORDS = ('barco', 'barcos', 'zepelin', 'tranvia', 'ferry',
+                      'transbordador', 'boat', 'ship', 'zeppelin', 'tram')
+PLACE_PATTERNS = (
+    r'\bde\s+(.+?)\s+a\s+(.+?)(?:\?|$|\.)',
+    r'\bdesde\s+(.+?)\s+hasta\s+(.+?)(?:\?|$|\.)',
+    r'\bfrom\s+(.+?)\s+to\s+(.+?)(?:\?|$|\.)',
+)
+PLACE_STOP_WORDS = {
+    'de', 'a', 'el', 'la', 'los', 'las', 'un', 'una', 'unos', 'unas', 'al',
+    'del', 'y', 'e', 'o', 'u', 'the', 'to', 'from', 'and', 'of', 'in', 'at',
+    'como', 'puedo', 'puede', 'ir', 'voy', 'va', 'llego', 'llega', 'se',
+    'viajar', 'camino', 'ruta', 'lo', 'mas', 'rapido', 'rapida', 'posible',
+    'que', 'hay', 'barco', 'barcos', 'zepelin', 'tranvia', 'ferry',
+    'transbordador', 'boat', 'ship', 'zeppelin', 'tram', 'directo', 'saber',
+    'sabes', 'si', 'no', 'how', 'do', 'i', 'get', 'can', 'fastest', 'way',
+    'travel', 'route', 'where', 'what', 'when', 'which', 'is', 'it', 'there',
+}
 PRICE_KEYWORDS = ('cuanto cuesta', 'precio', 'how much')
 FLY_FROM_KEYWORDS = ('volar desde', 'adonde puedo volar', 'vuelos desde',
                      'where can i fly')
@@ -581,27 +604,165 @@ def _detect_places(matches, question: str, ctx: dict):
     return (ctx.get('zone') or ''), ''
 
 
+def is_travel_question(text) -> bool:
+    """True si la pregunta pide cómo ir o llegar a un lugar."""
+    normalized = normalize(text)
+    return any(phrase in normalized for phrase in TRAVEL_PHRASES)
+
+
+def _place_words(node) -> set:
+    words = set()
+    for value in (node.place, node.zone, node.place_en, node.zone_en):
+        words |= {word for word in normalize(value).split() if len(word) >= 5}
+    return words
+
+
+def _place_matches(graph, phrase: str) -> bool:
+    target = normalize(phrase)
+    if not target:
+        return False
+    for node in resolve_place(graph, phrase):
+        names = (node.zone, node.zone_en, normalize(node.place),
+                 normalize(node.place_en))
+        if target in names:
+            return True
+        if len(target) >= 5 and any(
+                word.startswith(target) for word in _place_words(node)):
+            return True
+    return False
+
+
+def _clean_place(graph, text: str) -> str:
+    tokens = re.findall(r'[^\W\d_]+', text or '', re.UNICODE)
+    for start in range(len(tokens)):
+        for length in range(min(4, len(tokens) - start), 0, -1):
+            phrase = ' '.join(tokens[start:start + length])
+            if _place_matches(graph, phrase):
+                return phrase
+    return ''
+
+
+def _ngram_places(graph, text: str) -> list:
+    tokens = re.findall(r'[^\W\d_]+', text or '', re.UNICODE)
+    places = []
+    index = 0
+    while index < len(tokens):
+        token = normalize(tokens[index])
+        if token in PLACE_STOP_WORDS or len(token) < 2:
+            index += 1
+            continue
+        matched = None
+        for length in range(min(4, len(tokens) - index), 0, -1):
+            phrase = ' '.join(tokens[index:index + length])
+            if _place_matches(graph, phrase):
+                matched = (phrase, length)
+                break
+        if matched:
+            places.append(matched[0])
+            index += matched[1]
+        else:
+            index += 1
+    return places
+
+
+def _ctx_origin(graph, ctx: dict) -> str:
+    sub = ctx.get('sub')
+    if isinstance(sub, str) and sub.strip() and resolve_place(graph, sub):
+        return sub.strip()
+    zone = ctx.get('zone')
+    if isinstance(zone, str) and zone.strip():
+        return zone.strip()
+    return ''
+
+
+def extract_places(graph, text: str, ctx: dict):
+    """Saca (origen, destino) de la pregunta, o ('', '') si no los reconoce."""
+    if graph is None:
+        return '', ''
+    for pattern in PLACE_PATTERNS:
+        found = re.search(pattern, text or '', re.IGNORECASE)
+        if found:
+            origin = _clean_place(graph, found.group(1))
+            destination = _clean_place(graph, found.group(2))
+            return origin, destination
+    places = _ngram_places(graph, text)
+    if len(places) >= 2:
+        return places[0], places[1]
+    if len(places) == 1:
+        return _ctx_origin(graph, ctx), places[0]
+    return '', ''
+
+
+def _route_graph(db, ctx: dict):
+    faction = _faction(ctx.get('fac'))
+    return _safe(RouteGraph.build, db, faction)
+
+
+def _detect_route(facts: Facts, graph, question: str, lang: str, ctx: dict) -> bool:
+    if graph is None or not is_travel_question(question):
+        return False
+    origin, destination = extract_places(graph, question, ctx)
+    if not origin or not destination:
+        return False
+    route = _safe(find_route, graph, origin, destination)
+    if route is None:
+        facts.missing.append(
+            f'ruta entre {origin} y {destination} (aún no está en la base)'
+            if lang == 'es'
+            else f'route between {origin} and {destination} (not in the database yet)')
+        return False
+    description = describe(route, 'es' if lang == 'es' else 'en')
+    if not description:
+        return False
+    if lang == 'es':
+        facts.lines.append(f'Ruta más rápida según la base: {description}')
+    else:
+        facts.lines.append(f'Fastest route according to the database: {description}')
+    _add_source(facts, f'route:{origin}>{destination}')
+    return True
+
+
+def _detect_transport(facts: Facts, graph, question: str, normalized: str,
+                      lang: str, ctx: dict) -> None:
+    if graph is None or not any(word in normalized for word in TRANSPORT_KEYWORDS):
+        return
+    origin, destination = extract_places(graph, question, ctx)
+    if not origin or not destination:
+        return
+    steps = _safe(transport_between, graph, origin, destination) or []
+    labels = []
+    for step in steps:
+        if step.kind == KIND_TRANSPORT:
+            label = 'barco' if lang == 'es' else 'boat'
+        elif step.kind == KIND_TRAM:
+            label = 'tranvía' if lang == 'es' else 'tram'
+        else:
+            continue
+        if step.seen_in_game:
+            label += ' (visto en el juego)' if lang == 'es' else ' (seen in the game)'
+        if label not in labels:
+            labels.append(label)
+    if labels:
+        if lang == 'es':
+            facts.lines.append(f'Transporte directo entre {origin} y {destination}: '
+                               + ', '.join(labels))
+        else:
+            facts.lines.append(f'Direct transport between {origin} and {destination}: '
+                               + ', '.join(labels))
+    else:
+        facts.missing.append(
+            f'transporte directo entre {origin} y {destination} (no está en la base)'
+            if lang == 'es'
+            else f'direct transport between {origin} and {destination} '
+                 '(not in the database)')
+
+
 def _detect_flights(facts: Facts, db, matches, question: str, normalized: str,
-                    lang: str, ctx: dict) -> None:
+                    lang: str, ctx: dict, skip_generic: bool = False) -> None:
     faction = _faction(ctx.get('fac'))
     current_zone = ctx.get('zone') if isinstance(ctx.get('zone'), str) else ''
     is_price = any(word in normalized for word in PRICE_KEYWORDS)
     is_fly_from = any(word in normalized for word in FLY_FROM_KEYWORDS)
-    is_route = (any(word in normalized for word in ROUTE_KEYWORDS)
-                and not is_price and not is_fly_from)
-
-    if is_route:
-        origin, destination = _detect_places(matches, question, ctx)
-        if origin and destination:
-            facts.missing.append(
-                f'ruta completa entre {origin} y {destination} (aún no está en la base)'
-                if lang == 'es'
-                else f'complete route between {origin} and {destination} '
-                     '(not in the database yet)')
-        else:
-            facts.missing.append('ruta de viaje (aún no está en la base)' if lang == 'es'
-                                 else 'travel route (not in the database yet)')
-        return
 
     if is_price:
         origin, destination = _detect_places(matches, question, ctx)
@@ -640,6 +801,8 @@ def _detect_flights(facts: Facts, db, matches, question: str, normalized: str,
             _add_source(facts, f"flights_from:{data['origin']}")
         return
 
+    if skip_generic:
+        return
     if not any(word in normalized for word in FLIGHT_KEYWORDS):
         return
 
@@ -860,7 +1023,13 @@ def retrieve(message, db) -> Facts:
         dungeons_level = _detect_dungeon_intents(facts, db, matches, normalized, lang, ctx,
                                                  has_dungeon, dungeon_level_answered)
         _detect_xp(facts, db, normalized, lang, ctx, has_quest)
-        _detect_flights(facts, db, matches, question, normalized, lang, ctx)
+        needs_graph = (is_travel_question(question)
+                       or any(word in normalized for word in TRANSPORT_KEYWORDS))
+        graph = _route_graph(db, ctx) if needs_graph else None
+        route_added = _detect_route(facts, graph, question, lang, ctx)
+        _detect_transport(facts, graph, question, normalized, lang, ctx)
+        _detect_flights(facts, db, matches, question, normalized, lang, ctx,
+                        skip_generic=route_added)
         _detect_spells(facts, db, normalized, lang, ctx)
         _detect_trainers(facts, db, normalized, lang, ctx)
         _detect_talents(facts, db, normalized, lang, ctx)

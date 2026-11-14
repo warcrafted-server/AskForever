@@ -12,7 +12,7 @@ from askforever import config
 from askforever.data.wowdb import normalize
 from askforever.engine.prompt import build_prompt
 from askforever.engine.retriever import (PROFESSION_KEYWORDS, is_profession_question,
-                                         retrieve)
+                                         is_travel_question, retrieve)
 from askforever.providers.openai_compat import ProviderError
 
 MAX_ANSWER = 900
@@ -108,6 +108,8 @@ def _clean_answer(text) -> str:
 
 
 def _is_route_question(question: str) -> bool:
+    if is_travel_question(question):
+        return True
     text = (question or '').lower()
     return any(phrase in text for phrase in _ROUTE_PHRASES)
 
@@ -120,10 +122,18 @@ def _is_route_missing(missing) -> bool:
     return False
 
 
+_TRANSPORT_WORDS = ('barco', 'zepelin', 'tranvia', 'ferry', 'transbordador', 'boat', 'ship', 'zeppelin',
+                    'tram')
+
+
 def needs_web(facts, question, history=None) -> bool:
     """True si conviene buscar en la wiki para completar la respuesta."""
     text = str(question or '').strip()
     if _is_route_question(text):
+        return False
+    # Los transportes, como las rutas, salen solo de la base (decisión del mantenedor).
+    normalized_text = normalize(text)
+    if any(word in normalized_text for word in _TRANSPORT_WORDS):
         return False
     if len(text.split()) < 3 and not history:
         return False

@@ -358,12 +358,13 @@ def test_flight_cost_question(db):
     assert any(source.startswith('flight_cost:') for source in facts.sources)
 
 
-def test_route_question_declares_missing(db):
+def test_route_question_without_route_data_has_no_line(db):
     facts = retrieve(_message('¿Cómo voy de Forjaz a Auberdine?'), db)
     text = _text(facts)
     assert 'Vuelos desde' not in text
     assert 'transporte' not in text.lower()
-    assert 'ruta completa entre Forjaz y Auberdine (aún no está en la base)' in facts.missing
+    assert 'Ruta más rápida' not in text
+    assert 'ruta completa entre Forjaz y Auberdine (aún no está en la base)' not in facts.missing
 
 
 def test_english_zone_question(db):
