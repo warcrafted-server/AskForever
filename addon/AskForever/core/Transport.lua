@@ -148,7 +148,7 @@ local function IsInteger(value)
     return value == math.floor(value)
 end
 
-function Transport.BuildMessage(question, ctx, conv, kind)
+function Transport.BuildMessage(question, ctx, conv, kind, extra)
     ctx = ctx or {}
 
     local context = {}
@@ -209,6 +209,19 @@ function Transport.BuildMessage(question, ctx, conv, kind)
     if type(kind) == 'string' and kind ~= '' then
         message.kind = kind
     end
+    if type(extra) == 'table' then
+        local reserved = { q = true, lang = true, ctx = true, conv = true, kind = true,
+                           v = true }
+        for key, value in pairs(extra) do
+            local keyType = type(key)
+            local valueType = type(value)
+            if (keyType == 'string' or keyType == 'number')
+                and (valueType == 'string' or valueType == 'number')
+                and not reserved[key] then
+                message[key] = value
+            end
+        end
+    end
     return ns.Json.Encode(message)
 end
 
@@ -252,9 +265,10 @@ function Transport.IsBusy()
     return state.pages ~= nil
 end
 
-function Transport.Send(question, ctx, conv, kind)
+function Transport.Send(question, ctx, conv, kind, extra)
     if InCombatLockdown() then
-        state.pending = { question = question, ctx = ctx, conv = conv, kind = kind }
+        state.pending = { question = question, ctx = ctx, conv = conv, kind = kind,
+                          extra = extra }
         return true
     end
 
@@ -274,7 +288,7 @@ function Transport.Send(question, ctx, conv, kind)
         ctx = ns.Context.Collect()
     end
 
-    local message = Transport.BuildMessage(question, ctx, conv, kind)
+    local message = Transport.BuildMessage(question, ctx, conv, kind, extra)
     local pages, reason = Transport.Paginate(message, msgId)
     if not pages then
         state.pending = nil
@@ -316,7 +330,8 @@ eventFrame:SetScript('OnEvent', function(_, event)
         local pending = state.pending
         state.pending = nil
         if pending then
-            Transport.Send(pending.question, pending.ctx, pending.conv, pending.kind)
+            Transport.Send(pending.question, pending.ctx, pending.conv, pending.kind,
+                           pending.extra)
         elseif state.pages and state.paused then
             state.paused = false
             ShowPage()
