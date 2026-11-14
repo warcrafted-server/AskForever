@@ -11,6 +11,7 @@ local mainFrame
 local history
 local editBox
 local summaryText
+local sentThisOpening = false
 
 local function AddHistory(text, color)
     history:AddMessage(text, color[1], color[2], color[3])
@@ -49,6 +50,21 @@ local function BuildSummary()
     return text
 end
 
+local function ConversationNumber()
+    if type(AskForeverDB) ~= 'table' then
+        AskForeverDB = {}
+    end
+    if type(AskForeverDB.transport) ~= 'table' then
+        AskForeverDB.transport = {}
+    end
+    local conv = AskForeverDB.transport.conv
+    if type(conv) ~= 'number' or conv ~= math.floor(conv) then
+        conv = 1
+        AskForeverDB.transport.conv = conv
+    end
+    return conv
+end
+
 local function SendQuestion(text)
     local question = (text or ''):match('^%s*(.-)%s*$')
     if question == '' then
@@ -61,8 +77,9 @@ local function SendQuestion(text)
     editBox:ClearFocus()
 
     local inCombat = InCombatLockdown()
-    local accepted = ns.Transport.Send(question)
+    local accepted = ns.Transport.Send(question, nil, ConversationNumber())
     if accepted then
+        sentThisOpening = true
         AddHistory(inCombat and ns.L.QUEUED_COMBAT or ns.L.SENT_STRIP, colors.textDim)
     else
         AddHistory(ns.L.SEND_FAILED, colors.missing)
@@ -150,11 +167,21 @@ local function EnsureMainFrame()
     table.insert(UISpecialFrames, 'AskForeverMainFrame')
 
     mainFrame:SetScript('OnShow', function()
+        sentThisOpening = false
+        ConversationNumber()
         summaryText:SetText(BuildSummary())
         editBox:SetFocus()
     end)
     mainFrame:SetScript('OnHide', function()
         editBox:ClearFocus()
+        if sentThisOpening then
+            local nextConv = ConversationNumber() + 1
+            if nextConv > 65535 then
+                nextConv = 1
+            end
+            AskForeverDB.transport.conv = nextConv
+            sentThisOpening = false
+        end
     end)
     mainFrame.onMoveStop = function()
         SavePosition(mainFrame)

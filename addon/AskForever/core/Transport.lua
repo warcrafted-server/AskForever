@@ -138,7 +138,17 @@ local function Round1(value)
     return math.floor(value * 10 + 0.5) / 10
 end
 
-function Transport.BuildMessage(question, ctx)
+local function IsInteger(value)
+    if type(value) ~= 'number' or value ~= value then
+        return false
+    end
+    if value == math.huge or value == -math.huge then
+        return false
+    end
+    return value == math.floor(value)
+end
+
+function Transport.BuildMessage(question, ctx, conv)
     ctx = ctx or {}
 
     local context = {}
@@ -184,12 +194,16 @@ function Transport.BuildMessage(question, ctx)
         context.quests = quests
     end
 
-    return ns.Json.Encode({
+    local message = {
         v = 1,
         lang = GetLocale(),
         q = question or '',
         ctx = context,
-    })
+    }
+    if IsInteger(conv) then
+        message.conv = conv
+    end
+    return ns.Json.Encode(message)
 end
 
 function Transport.ToHex(str)
@@ -232,9 +246,9 @@ function Transport.IsBusy()
     return state.pages ~= nil
 end
 
-function Transport.Send(question, ctx)
+function Transport.Send(question, ctx, conv)
     if InCombatLockdown() then
-        state.pending = { question = question, ctx = ctx }
+        state.pending = { question = question, ctx = ctx, conv = conv }
         return true
     end
 
@@ -254,7 +268,7 @@ function Transport.Send(question, ctx)
         ctx = ns.Context.Collect()
     end
 
-    local message = Transport.BuildMessage(question, ctx)
+    local message = Transport.BuildMessage(question, ctx, conv)
     local pages, reason = Transport.Paginate(message, msgId)
     if not pages then
         state.pending = nil
@@ -296,7 +310,7 @@ eventFrame:SetScript('OnEvent', function(_, event)
         local pending = state.pending
         state.pending = nil
         if pending then
-            Transport.Send(pending.question, pending.ctx)
+            Transport.Send(pending.question, pending.ctx, pending.conv)
         elseif state.pages and state.paused then
             state.paused = false
             ShowPage()
