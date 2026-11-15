@@ -10,6 +10,16 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
 
+## [0.3.0-beta.4] - 2026-11-15
+
+Fix for the position of the answer window. / Corrección de la posición de la ventana de respuesta.
+
+### English
+- Fixed: since 0.3.0-beta.3 the answer window appeared in the top-left corner instead of on the right, over the pixel strip, so a new question asked while it was visible could be lost.
+
+### Español
+- Corregido: desde la 0.3.0-beta.3 la ventana de respuesta aparecía en la esquina superior izquierda en vez de a la derecha, encima de la tira de píxeles, y una pregunta nueva hecha mientras se veía podía perderse.
+
 ## [0.3.0-beta.3] - 2026-11-15
 
 Quest questions now include where their objective items come from. / Las preguntas de misión ahora incluyen de dónde salen sus objetos objetivo.

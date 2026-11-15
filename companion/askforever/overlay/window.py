@@ -353,7 +353,7 @@ class Overlay:
             height = max(60, root.winfo_reqheight())
             self._ensure_game_window()
             x, y = compute_position(self._game_client, WINDOW_WIDTH, height)
-            root.geometry(f'{WINDOW_WIDTH}x{height}+{x}+{y}')
+            self._place(x, y, WINDOW_WIDTH, height)
             self._set_topmost()
             if self._state_active and not self._expired() and self._visible_allowed():
                 self._set_alpha(VISIBLE_ALPHA)
@@ -460,6 +460,26 @@ class Overlay:
             self._foreground_allowed = game_in_front(
                 hwnd, foreground, self._is_window, self._is_iconic)
         return self._foreground_allowed
+
+    def _place(self, x, y, width, height):
+        # Tk ignora la posición de geometry() en una ventana que mostró Windows sin activarla
+        # (cree que sigue oculta) y la dejaba en (0, 0), encima de la tira de píxeles: la
+        # posición se fija con SetWindowPos, también sin activar.
+        self._root.geometry(f'{width}x{height}+{x}+{y}')
+        user32 = self._get_user32()
+        if user32 is None:
+            return False
+        try:
+            hwnd = self._frame_hwnd()
+            topmost = HWND_TOPMOST
+            if not self._user32_injected:
+                import ctypes
+                topmost = ctypes.c_void_p(HWND_TOPMOST)
+            user32.SetWindowPos(hwnd, topmost, int(x), int(y), int(width), int(height),
+                                SWP_NOACTIVATE)
+            return True
+        except Exception:
+            return False
 
     def _set_topmost(self, hwnd=None):
         user32 = self._get_user32()
