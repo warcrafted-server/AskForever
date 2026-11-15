@@ -1,0 +1,1151 @@
+{
+  "description": "Capítulo 5: Profesiones. Secciones editoriales redactadas desde guías de terceros.",
+  "sections": [
+    {
+      "id": "prof-cuantas-profesiones",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Cuántas profesiones puedes tener",
+      "title_en": "How Many Professions You Can Have",
+      "summary_es": "Nueve primarias y tres secundarias: dos primarias y todas las secundarias por personaje.",
+      "summary_en": "Nine primary and three secondary professions: two primary and every secondary per character.",
+      "keywords_es": [
+        "cuántas profesiones puedo tener",
+        "dos profesiones primarias",
+        "profesiones secundarias",
+        "nueve profesiones",
+        "límite de profesiones"
+      ],
+      "keywords_en": [
+        "how many professions",
+        "two primary professions",
+        "secondary professions",
+        "nine professions",
+        "profession limit"
+      ],
+      "text_es": "En total, Forever ofrece nueve oficios primarios y tres secundarios. Un personaje puede llevar dos de los primarios, mientras que los secundarios no tienen tope. Los primarios se dividen en recolección y artesanía; los secundarios son Cocina, Primeros auxilios y Pesca.",
+      "text_en": "All told, Forever offers nine primary trades and three secondary ones. A character can carry two of the primary trades, while the secondary ones have no cap. Primary trades split into gathering and crafting; the secondary ones are Cooking, First Aid, and Fishing.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Profession Guide › What Are Professions?",
+          "url": "https://www.icy-veins.com/wow-forever/professions-overview",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-profesiones-recoleccion",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Profesiones de recolección",
+      "title_en": "Gathering Professions",
+      "summary_es": "Herboristería, Minería y Desuello recogen materiales para las profesiones de artesanía.",
+      "summary_en": "Herbalism, Mining, and Skinning gather materials for the crafting professions.",
+      "keywords_es": [
+        "profesiones de recolección",
+        "herboristería",
+        "minería",
+        "desuello",
+        "recoger materiales"
+      ],
+      "keywords_en": [
+        "gathering professions",
+        "herbalism",
+        "mining",
+        "skinning",
+        "gather materials"
+      ],
+      "text_es": "Las tres profesiones de recolección son Herboristería, Minería y Desuello. Herboristería recoge hierbas, Minería extrae mineral y piedra, y Desuello obtiene cuero y pieles de bestias derrotadas. Sus materiales son la base de muchas recetas de artesanía, y también se pueden vender a otros jugadores.",
+      "text_en": "The three gathering professions are Herbalism, Mining, and Skinning. Herbalism collects herbs, Mining extracts ore and stone, and Skinning takes leather and hides from defeated beasts. Their materials are the basis of many crafting recipes, and they can also be sold to other players.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Profession Guide › What Are Professions?",
+          "url": "https://www.icy-veins.com/wow-forever/professions-overview",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-profesiones-artesania",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Profesiones de artesanía",
+      "title_en": "Crafting Professions",
+      "summary_es": "Alquimia, Herrería, Encantamiento, Ingeniería, Peletería y Sastrería transforman materiales en equipo y consumibles.",
+      "summary_en": "Alchemy, Blacksmithing, Enchanting, Engineering, Leatherworking, and Tailoring turn materials into gear and consumables.",
+      "keywords_es": [
+        "profesiones de artesanía",
+        "alquimia",
+        "herreria",
+        "encantamiento",
+        "ingenieria",
+        "peleteria",
+        "sastreria"
+      ],
+      "keywords_en": [
+        "crafting professions",
+        "alchemy",
+        "blacksmithing",
+        "enchanting",
+        "engineering",
+        "leatherworking",
+        "tailoring"
+      ],
+      "text_es": "Las profesiones primarias de artesanía son Alquimia, Herrería, Encantamiento, Ingeniería, Peletería y Sastrería. Usan materiales recogidos para crear equipo, consumibles, mejoras y herramientas. Alquimia prepara pociones y frascos; Herrería forja armas y armaduras; Encantamiento mejora equipo; Ingeniería crea artefactos; Peletería y Sastrería fabrican armaduras y bolsas.",
+      "text_en": "The primary crafting professions are Alchemy, Blacksmithing, Enchanting, Engineering, Leatherworking, and Tailoring. They use gathered materials to create gear, consumables, enhancements, and tools. Alchemy makes potions and flasks; Blacksmithing forges weapons and armor; Enchanting improves gear; Engineering creates devices; Leatherworking and Tailoring make armor and bags.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Profession Guide › What Are Professions?",
+          "url": "https://www.icy-veins.com/wow-forever/professions-overview",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-combinaciones",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Profesiones que combinan bien",
+      "title_en": "Professions That Pair Well",
+      "summary_es": "Minería con Herrería o Ingeniería, Herboristería con Alquimia, Desuello con Peletería y Sastrería con Encantamiento.",
+      "summary_en": "Mining with Blacksmithing/Engineering, Herbalism with Alchemy, Skinning with Leatherworking, Tailoring/Enchanting.",
+      "keywords_es": [
+        "profesiones que combinan bien",
+        "minería y herrería",
+        "herboristería y alquimia",
+        "desuello y peletería",
+        "sastrería y encantamiento"
+      ],
+      "keywords_en": [
+        "professions that pair well",
+        "mining and blacksmithing",
+        "herbalism and alchemy",
+        "skinning and leatherworking",
+        "tailoring and enchanting"
+      ],
+      "text_es": "Minería alimenta a Herrería e Ingeniería, Herboristería surte a Alquimia y Desuello aporta cuero a Peletería. Sastrería no necesita una profesión de recolección porque la tela sale de humanoides, y combina con Encantamiento para desencantar el equipo fabricado. Llevar una profesión de recolección junto a una de artesanía reduce el gasto en materiales; también puedes llevar dos de recolección y vender lo que encuentres.",
+      "text_en": "Mining feeds Blacksmithing and Engineering, Herbalism supplies Alchemy, and Skinning provides leather for Leatherworking. Tailoring does not need a gathering profession because cloth comes from humanoids, and it pairs with Enchanting to disenchant crafted gear. Taking a gathering profession with a crafting one reduces material costs; two gathering professions are also an option if you want to sell the materials you collect.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Profession Guide › What Are Professions?",
+          "url": "https://www.icy-veins.com/wow-forever/professions-overview",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-cambiar-profesion",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Cambiar o abandonar una profesión",
+      "title_en": "Changing or Dropping a Profession",
+      "summary_es": "Puedes sustituir una primaria, pero perderás su habilidad y sus recetas; las secundarias no ocupan espacio.",
+      "summary_en": "You can replace a primary profession, but you lose its skill and recipes; secondary professions take no primary slot.",
+      "keywords_es": [
+        "cambiar profesión",
+        "abandonar profesión",
+        "perder recetas",
+        "volver a subir profesión",
+        "profesión primaria"
+      ],
+      "keywords_en": [
+        "change profession",
+        "drop profession",
+        "lose recipes",
+        "relevel profession",
+        "primary profession"
+      ],
+      "text_es": "Puedes cambiar una profesión primaria cuando quieras. Al abandonarla pierdes toda la habilidad y las recetas aprendidas, así que tendrás que subirla de nuevo si vuelves a ella. Las profesiones secundarias no compiten por las dos plazas primarias y no hace falta abandonarlas para probar otra.",
+      "text_en": "A primary profession can be swapped whenever you like. Dropping it removes all of its skill and learned recipes, so returning later means starting its progress again. Secondary professions do not compete for the two primary slots, and you never need to drop them to try another profession.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Profession Guide › Choosing and Changing Professions",
+          "url": "https://www.icy-veins.com/wow-forever/professions-overview",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-aprender-profesion",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Dónde aprender una profesión",
+      "title_en": "Where to Learn a Profession",
+      "summary_es": "Se aprende con un instructor; las zonas iniciales también dan un objeto para una profesión de recolección.",
+      "summary_en": "You learn from a trainer; starting zones also have a quest item for one gathering profession.",
+      "keywords_es": [
+        "dónde aprender profesión",
+        "instructor de profesión",
+        "objeto de misión inicial",
+        "ventana de profesión",
+        "recetas de vendedor"
+      ],
+      "keywords_en": [
+        "where to learn profession",
+        "profession trainer",
+        "starting zone quest item",
+        "profession window",
+        "vendor recipes"
+      ],
+      "text_es": "Para aprender una profesión visita a su instructor, que también enseña las primeras recetas. En cada zona inicial aparece un objeto de misión que permite empezar una de las tres profesiones de recolección sin ir a la ciudad. La ventana de profesión, con la tecla K por defecto, muestra las recetas y los materiales. Además de los instructores, hay recetas en vendedores, misiones y botín, y algunas tareas exigen una herramienta o un puesto de trabajo cercano.",
+      "text_en": "To learn a profession, visit its trainer, who also teaches the first recipes. Every starting zone has a quest item that lets you begin one of the three gathering professions without going to the city. The profession window, bound to K by default, shows recipes and materials. Besides trainers, recipes come from vendors, quests, and loot, and some tasks require a tool or a nearby workstation.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Profession Guide › How to Learn a Profession",
+          "url": "https://www.icy-veins.com/wow-forever/professions-overview",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-subir-rango",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Rangos y habilidad de profesión",
+      "title_en": "Profession Ranks and Skill",
+      "summary_es": "La habilidad es independiente del nivel; cada rango sube el tope y exige más habilidad y nivel de personaje.",
+      "summary_en": "Skill is separate from character level; each rank raises the cap and requires more skill and character level.",
+      "keywords_es": [
+        "subir profesión",
+        "rangos de profesión",
+        "tope de habilidad",
+        "aprendiz oficial experto artesano",
+        "color de receta"
+      ],
+      "keywords_en": [
+        "level profession",
+        "profession ranks",
+        "skill cap",
+        "apprentice journeyman expert artisan",
+        "recipe color"
+      ],
+      "text_es": "La habilidad de una profesión es independiente del nivel de personaje. Los rangos son Aprendiz (tope 75), Oficial (150; 50 de habilidad; nivel 10 si es artesanía), Experto (225; 125; nivel 20 de artesanía o 10 de recolección) y Artesano (300; 200; nivel 35 de artesanía o 25 de recolección). El color de la receta indica la probabilidad de subir: naranja la garantiza, amarillo suele darla, verde la da menos y gris no la da. Aprende el siguiente rango al llegar al tope para no quedarte bloqueado.",
+      "text_en": "Profession skill is separate from character level. The ranks are Apprentice (cap 75), Journeyman (150; 50 skill; level 10 for crafting), Expert (225; 125; level 20 for crafting or 10 for gathering), and Artisan (300; 200; level 35 for crafting or 25 for gathering). Recipe color shows the chance of a skill point: orange guarantees it, yellow usually gives it, green gives it less often, and gray gives none. Learn the next rank when you reach the cap so you do not get stuck.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Profession Guide › How to Level a Profession",
+          "url": "https://www.icy-veins.com/wow-forever/professions-overview",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-puntos-legado",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Puntos Legacy por profesiones",
+      "title_en": "Legacy Points from Professions",
+      "summary_es": "La primera vez que llegas a 150, 225 y 300 de habilidad en una profesión ganas puntos Legacy.",
+      "summary_en": "The first time you reach 150, 225, and 300 skill in a profession, you earn Legacy Points.",
+      "keywords_es": [
+        "puntos legacy profesiones",
+        "legacy 150 225 300",
+        "árbol legacy profesiones",
+        "puntos por profesión"
+      ],
+      "keywords_en": [
+        "profession legacy points",
+        "legacy 150 225 300",
+        "profession legacy tree",
+        "points per profession"
+      ],
+      "text_es": "Alcanzar por primera vez 150, 225 y 300 de habilidad en una profesión otorga puntos Legacy. Su árbol Legacy ofrece ventajas para mejorar la habilidad y la recolección.",
+      "text_en": "Reaching 150, 225, and 300 skill with a profession for the first time awards Legacy Points. Its Legacy tree offers perks for improving skills and gathering.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Profession Guide › What's New for Professions in WoW Forever?",
+          "url": "https://www.icy-veins.com/wow-forever/professions-overview",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-novedades-forever",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Novedades de profesiones en Forever",
+      "title_en": "Profession Changes in Forever",
+      "summary_es": "Forever conserva el sistema de recetas y añade recetas nuevas y bonificaciones poderosas a las profesiones principales.",
+      "summary_en": "Forever keeps the recipe system and adds new recipes and powerful bonuses to the main professions.",
+      "keywords_es": [
+        "novedades profesiones forever",
+        "recetas nuevas",
+        "bonificaciones de profesión",
+        "sistema de recetas",
+        "profesiones principales"
+      ],
+      "keywords_en": [
+        "profession changes forever",
+        "new recipes",
+        "profession bonuses",
+        "recipe system",
+        "main professions"
+      ],
+      "text_es": "Forever mantiene el sistema de recetas con costes de materiales y resultados fijos. Añade recetas nuevas y bonificaciones poderosas a las profesiones principales, algunas con beneficios directos y otras con objetos o herramientas especiales. Las profesiones también aportan características a los campamentos.",
+      "text_en": "Forever keeps the recipe system with set material costs and fixed results. It adds new recipes and powerful bonuses to the main professions, some with direct benefits and others with special items or tools. Professions also contribute features to campsites.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Profession Guide › What's New for Professions in WoW Forever?",
+          "url": "https://www.icy-veins.com/wow-forever/professions-overview",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-alquimia",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Alquimia: pociones, elixires y frascos",
+      "title_en": "Alchemy: Potions, Elixirs, and Flasks",
+      "summary_es": "Convierte hierbas en pociones, elixires, frascos, aceites y reactivos; combina con Herboristería.",
+      "summary_en": "Turns herbs into potions, elixirs, flasks, oils, and reagents; pairs with Herbalism.",
+      "keywords_es": [
+        "alquimia",
+        "pociones",
+        "elixires",
+        "frascos",
+        "piedra filosofal",
+        "alquimia y herboristería"
+      ],
+      "keywords_en": [
+        "alchemy",
+        "potions",
+        "elixirs",
+        "flasks",
+        "philosopher's stone",
+        "alchemy and herbalism"
+      ],
+      "text_es": "Los alquimistas transforman hierbas y componentes en brebajes útiles: pociones, elixires, frascos, aceites, tintes y reactivos. Puedes mantener varios elixires activos y cada uno dura como máximo una hora. Forever deja en Primeros auxilios las pociones de curación habituales; las de Alquimia son descoloridas: curan de golpe y luego restan salud. Con una Piedra de filósofo, el alquimista convierte torio y cristales arcanos en arcanita. Lo más práctico es acompañarla de Herboristería.",
+      "text_en": "Alchemists transform herbs and components into useful brews: potions, elixirs, flasks, oils, dyes, and reagents. You can keep several elixirs active, each lasting at most an hour. Forever leaves the usual healing potions to First Aid; Alchemy's are discolored: they heal at once and then drain health. With a Philosopher's Stone, the alchemist turns thorium and arcane crystals into arcanite. Herbalism is the practical partner.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Alchemy Guide › What Is Alchemy?",
+          "url": "https://www.icy-veins.com/wow-forever/alchemy",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Profession Guide › Alchemy",
+          "url": "https://www.icy-veins.com/wow-forever/professions-overview",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-herreria",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Herrería: armas y armaduras pesadas",
+      "title_en": "Blacksmithing: Weapons and Heavy Armor",
+      "summary_es": "Fabrica armas, escudos, malla y placas, mejoras de arma y objetos útiles; combina con Minería.",
+      "summary_en": "Makes weapons, shields, mail and plate armor, weapon upgrades, and useful items; pairs with Mining.",
+      "keywords_es": [
+        "herreria",
+        "armas",
+        "armaduras de placas",
+        "yunque",
+        "especialización en armas",
+        "herreria y minería"
+      ],
+      "keywords_en": [
+        "blacksmithing",
+        "weapons",
+        "plate armor",
+        "anvil",
+        "weaponsmithing",
+        "blacksmithing and mining"
+      ],
+      "text_es": "Los herreros forjan armas, escudos, malla y placas, además de piedras de afilar, contrapesos, púas de escudo, cadenas de arma, llaves esqueleto y varas para Encantamiento. Las piedras y contrapesos mejoran el daño de forma temporal; púas y cadenas quedan fijas. También salen de su yunque las espuelas de mitril, que aceleran la montura. Para casi todo necesitan martillo y yunque, y ciertas recetas piden una forja. Al subir habilidad se elige especialidad de Armaduras o de Armas; Minería es su pareja natural.",
+      "text_en": "Blacksmiths forge weapons, shields, mail and plate, plus sharpening stones and weightstones, shield spikes, skeleton keys, weapon chains, and rods for Enchanting. Stones and weights boost damage for a time; spikes and chains stay fixed. Mithril Spurs, which speed up mounted travel, also come from their anvil. They need a hammer and anvil for almost everything, and some recipes call for a forge. Higher skill lets them pick Armorsmithing or Weaponsmithing; Mining is the natural partner.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Blacksmithing Guide › What Is Blacksmithing?",
+          "url": "https://www.icy-veins.com/wow-forever/blacksmithing",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-encantamiento",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Encantamiento: mejoras permanentes",
+      "title_en": "Enchanting: Permanent Enhancements",
+      "summary_es": "Desencanta equipo para obtener materiales y añade mejoras permanentes a armas y armadura; combina con Sastrería.",
+      "summary_en": "Disenchants gear for materials and adds permanent enhancements to weapons and armor; pairs with Tailoring.",
+      "keywords_es": [
+        "encantamiento",
+        "desencantar",
+        "mejoras permanentes",
+        "varita",
+        "vara rúnica",
+        "encantamiento y sastrería"
+      ],
+      "keywords_en": [
+        "enchanting",
+        "disenchant",
+        "permanent enchants",
+        "wand",
+        "runed rod",
+        "enchanting and tailoring"
+      ],
+      "text_es": "Encantamiento desencanta equipo poco común o mejor para obtener polvo, esencias y fragmentos. Con esos materiales añade bonificaciones permanentes a armas y armaduras, como aguante en brazales o agilidad en botas. También fabrica varitas, bastones, objetos de mano secundaria, reliquias de clase y aceites de arma. Muchos encantamientos necesitan una vara rúnica; la primera, la Vara de cobre rúnico, se hace con materiales de vendedor, y las varas superiores vienen de Herrería. Combina con Sastrería y resulta útil a Magos, Sacerdotes y Brujos.",
+      "text_en": "Enchanting disenchants uncommon or better gear into dust, essences, and shards. With those materials it adds permanent bonuses to weapons and armor, such as Stamina on bracers or Agility on boots. It also makes wands, staves, off-hand items, class relics, and weapon oils. Many enchants need a runed rod; the first, a Runed Copper Rod, is made from vendor materials, and later rods come from Blacksmithing. It pairs with Tailoring and suits Mages, Priests, and Warlocks.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Enchanting Guide › What Is Enchanting?",
+          "url": "https://www.icy-veins.com/wow-forever/enchanting",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-ingenieria",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Ingeniería: bombas, armas y artilugios",
+      "title_en": "Engineering: Bombs, Guns, and Gadgets",
+      "summary_es": "Crea explosivos, armas de fuego, miras, gafas y herramientas; combina con Minería y tiene dos especializaciones.",
+      "summary_en": "Makes explosives, guns, scopes, goggles, and tools; pairs with Mining and has two specializations.",
+      "keywords_es": [
+        "ingenieria",
+        "bombas",
+        "granadas",
+        "gafas",
+        "ingeniería goblin",
+        "ingeniería gnómica",
+        "ingeniería y minería"
+      ],
+      "keywords_en": [
+        "engineering",
+        "bombs",
+        "grenades",
+        "goggles",
+        "goblin engineering",
+        "gnomish engineering",
+        "engineering and mining"
+      ],
+      "text_es": "Los ingenieros montan explosivos, armas de fuego, munición, miras, gafas y toda clase de aparatos. La Granada de hierro causa fuego y deja aturdidos hasta tres segundos a los enemigos cercanos; la Capa paracaídas frena una caída. Los Pinzas de batería goblin dan una oportunidad de reanimar a un aliado fuera de combate. Con nivel 30 y 200 de habilidad se escoge la escuela Goblin o la Gnómica, con recetas distintas. Minería la abastece; también sirve para JcJ, para huir al subir solo y a los Cazadores que fabrican armas.",
+      "text_en": "Engineers assemble explosives, firearms, ammunition, scopes, goggles, and all sorts of devices. The Iron Grenade deals Fire damage and leaves nearby enemies stunned for up to three seconds; the Parachute Cloak slows a fall. Goblin Jumper Cables offer a chance to revive an ally out of combat. At level 30 and 200 skill you pick the Goblin or Gnomish school, with different recipes. Mining supplies it; it also helps in PvP, when escaping while soloing, and for Hunters who make weapons.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Engineering Guide › What Is Engineering?",
+          "url": "https://www.icy-veins.com/wow-forever/engineering",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-peleteria",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Peletería: cuero, malla y bolsas",
+      "title_en": "Leatherworking: Leather, Mail, and Bags",
+      "summary_es": "Fabrica armaduras de cuero y malla, capas, bolsas y kits de armadura; combina con Desuello.",
+      "summary_en": "Makes leather and mail armor, cloaks, bags, and armor kits; pairs with Skinning.",
+      "keywords_es": [
+        "peleteria",
+        "armadura de cuero",
+        "armadura de malla",
+        "kits de armadura",
+        "carcaj",
+        "peleteria y desuello"
+      ],
+      "keywords_en": [
+        "leatherworking",
+        "leather armor",
+        "mail armor",
+        "armor kits",
+        "quiver",
+        "leatherworking and skinning"
+      ],
+      "text_es": "Los peleteros producen armaduras de cuero y malla, capas y bolsas. Ciertas recetas aprovechan el cuero tal cual sale del Desuello; otras piden pieles curadas antes con sal. Los kits de armadura refuerzan de forma permanente pecho, piernas, manos o pies, y los carcajes y bolsas de munición aceleran el ataque a distancia. Con más habilidad se abre una especialidad: Escamas de dragón, Elemental o Tribal, cada una con patrones distintos. Desuello es su pareja y encaja con Druidas, Pícaros, Cazadores y Chamanes.",
+      "text_en": "Leatherworkers create armor in leather and mail, along with cloaks and bags. Some recipes use hides exactly as Skinning leaves them; others need pelts cured with Salt first. Armor kits permanently reinforce chest, legs, hands, or feet, and quivers and ammo pouches speed up ranged attacks. More skill opens a specialty: Dragonscale, Elemental, or Tribal, each with different patterns. Skinning is the partner, and it suits Druids, Rogues, Hunters, and Shamans.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Leatherworking Guide › What Is Leatherworking?",
+          "url": "https://www.icy-veins.com/wow-forever/leatherworking",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-sastreria",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Sastrería: tela, bolsas y bolsa de reactivos",
+      "title_en": "Tailoring: Cloth, Bags, and Reagent Bag",
+      "summary_es": "Fabrica armaduras de tela, capas, camisas y bolsas; Forever añade una bolsa de reactivos aparte.",
+      "summary_en": "Makes cloth armor, cloaks, shirts, and bags; Forever adds a separate reagent bag.",
+      "keywords_es": [
+        "sastreria",
+        "armadura de tela",
+        "bolsas",
+        "bolsa de reactivos",
+        "tela",
+        "sastreria y encantamiento"
+      ],
+      "keywords_en": [
+        "tailoring",
+        "cloth armor",
+        "bags",
+        "reagent bag",
+        "cloth",
+        "tailoring and enchanting"
+      ],
+      "text_es": "Los sastres cortan y cosen la tela para hacer armaduras, capas, camisas y bolsas. La mayor parte de esa tela llega de humanoides, por lo que no hace falta una profesión recolectora. Forever reserva una ranura propia para la bolsa de reactivos: la de lino admite seis montones y la de tejido mágico doce, sin quitar espacio a las bolsas normales. La Bolsa de lino ofrece seis huecos y la Bolsa de paño rúnico catorce. Encantamiento es su mejor compañero, y el oficio encaja con Magos, Sacerdotes y Brujos.",
+      "text_en": "Tailors sew armor, cloaks, shirts, and bags from cloth. Most of that cloth arrives from humanoids, so no gathering profession is required. Forever sets aside a dedicated reagent-bag slot: the linen version accepts six stacks and the mageweave one twelve, without taking regular bag space. A Linen Bag offers six slots and a Runecloth Bag fourteen. Enchanting is the best companion, and the trade suits Mages, Priests, and Warlocks.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Tailoring Guide › What Is Tailoring?",
+          "url": "https://www.icy-veins.com/wow-forever/tailoring",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-herboristeria",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Herboristería: hierbas y materiales raros",
+      "title_en": "Herbalism: Herbs and Scarce Materials",
+      "summary_es": "Recoge hierbas para Alquimia y Primeros auxilios, y puede encontrar materiales raros para tintes y recetas nuevas.",
+      "summary_en": "Gathers herbs for Alchemy and First Aid, and can find scarce materials for dyes and new recipes.",
+      "keywords_es": [
+        "herboristeria",
+        "recoger hierbas",
+        "buscar hierbas",
+        "materiales raros",
+        "marefoil",
+        "demonsage",
+        "death lotus"
+      ],
+      "keywords_en": [
+        "herbalism",
+        "gather herbs",
+        "find herbs",
+        "scarce materials",
+        "marefoil",
+        "demonsage",
+        "death lotus"
+      ],
+      "text_es": "Herboristería recoge hierbas por todo Azeroth y enseña a ver nodos cercanos en el minimapa con Buscar hierbas. No necesita herramienta: basta con interactuar con la planta si la habilidad alcanza. Las hierbas sirven a Alquimia y, en Forever, también a Primeros auxilios para pociones de curación. Al recoger puedes encontrar materiales raros para tintes, y Forever añade Marefoil, Demonsage y Death Lotus para recetas de nivel máximo. Combina con Alquimia.",
+      "text_en": "Herbalism gathers herbs across Azeroth and teaches Find Herbs to show nearby nodes on the minimap. It needs no tool: you simply interact with the plant if your skill is high enough. Herbs are used by Alchemy and, in Forever, also by First Aid for healing potions. Gathering can also yield scarce materials for dyes, and Forever adds Marefoil, Demonsage, and Death Lotus for endgame recipes. It pairs with Alchemy.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Herbalism Guide › What Is Herbalism?",
+          "url": "https://www.icy-veins.com/wow-forever/herbalism",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-mineria",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Minería: menas, piedra y gemas",
+      "title_en": "Mining: Ore, Stone, and Gems",
+      "summary_es": "Extrae menas, piedra y gemas, y las funde en barras; alimenta Herrería e Ingeniería.",
+      "summary_en": "Extracts ore, stone, and gems and smelts them into bars; feeds Blacksmithing and Engineering.",
+      "keywords_es": [
+        "mineria",
+        "menas",
+        "fundir",
+        "barras",
+        "gemas",
+        "mineria y herreria",
+        "mineria e ingenieria"
+      ],
+      "keywords_en": [
+        "mining",
+        "ore",
+        "smelting",
+        "bars",
+        "gems",
+        "mining and blacksmithing",
+        "mining and engineering"
+      ],
+      "text_es": "Minería extrae menas, piedra y gemas de los depósitos y enseña Fundir para convertirlas en barras junto a una forja. Necesita un pico y permite ver los depósitos en el minimapa con Buscar minerales. Alimenta sobre todo a Herrería e Ingeniería, y sus gemas y materiales raros también sirven a otras profesiones. Forever añade Heavy Thorium Bar, Azerothium Bar y Legionite Bar, además de materiales raros como Pyrite, Bauxite y Pitchblende. Combina con Herrería o Ingeniería.",
+      "text_en": "Mining extracts ore, stone, and gems from deposits and teaches Smelting to turn them into bars at a forge. It needs a pick and shows deposits on the minimap with Find Minerals. It mainly feeds Blacksmithing and Engineering, and its gems and scarce materials also serve other professions. Forever adds Heavy Thorium Bar, Azerothium Bar, and Legionite Bar, plus scarce materials such as Pyrite, Bauxite, and Pitchblende. It pairs with Blacksmithing or Engineering.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Mining Guide › What Is Mining?",
+          "url": "https://www.icy-veins.com/wow-forever/mining",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-desuello",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Desuello: cuero, pieles y escamas",
+      "title_en": "Skinning: Leather, Hides, and Scales",
+      "summary_es": "Saca cuero, pieles y escamas de bestias muertas; Forever suaviza los requisitos y añade materiales nuevos.",
+      "summary_en": "Takes leather, hides, and scales from dead beasts; Forever eases requirements and adds new materials.",
+      "keywords_es": [
+        "desuello",
+        "cuero",
+        "pieles",
+        "escamas",
+        "cuchillo de desuello",
+        "requisito de desuello",
+        "desuello y peleteria"
+      ],
+      "keywords_en": [
+        "skinning",
+        "leather",
+        "hides",
+        "scales",
+        "skinning knife",
+        "skinning requirement",
+        "skinning and leatherworking"
+      ],
+      "text_es": "Desuello obtiene cuero, pieles y escamas de bestias ya saqueadas. Hace falta un Cuchillo para desollar y la habilidad suficiente; en criaturas de nivel 20 o superior suele pedirse cinco veces ese nivel. Un cadáver solo se desuella una vez, aunque haya varios profesionales en el grupo. Forever ha suavizado estos requisitos y suma Fel Leather, Fel Hide y materiales Pristine a las recetas de nivel máximo. Peletería es su compañera.",
+      "text_en": "Skinning obtains leather, hides, and scales from beasts that have already been looted. It requires a skinning knife and enough skill; creatures level 20 or higher usually ask for five times their level. A corpse can be skinned once, even if several professionals are in the group. Forever has eased these requirements and adds Fel Leather, Fel Hide, and Pristine materials to endgame recipes. Leatherworking is its partner.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Skinning Guide › How to Skin Creatures",
+          "url": "https://www.icy-veins.com/wow-forever/skinning",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-cocina",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Cocina: comida, buffs y experiencia",
+      "title_en": "Cooking: Food, Buffs, and Experience",
+      "summary_es": "Prepara comida que cura y da buffs; muchos platos añaden un 5% de experiencia por muertes.",
+      "summary_en": "Prepares food that heals and grants buffs; many dishes add 5% experience from kills.",
+      "keywords_es": [
+        "cocina",
+        "comida",
+        "buffs de comida",
+        "experiencia por muertes",
+        "well fed",
+        "master chef",
+        "cocina y pesca"
+      ],
+      "keywords_en": [
+        "cooking",
+        "food",
+        "food buffs",
+        "experience from kills",
+        "well fed",
+        "master chef",
+        "cooking and fishing"
+      ],
+      "text_es": "Cocina pertenece al grupo de las secundarias y transforma carne, pescado y otros ingredientes en platos y bebidas. Esos alimentos devuelven salud o maná y algunos aportan bonificaciones temporales; hay que permanecer sentado unos 10 segundos para recibir el efecto, que suele durar 15 minutos. Muchos platos de Forever incluyen Well Fed XP Boost, un 5% más de experiencia por muertes que no cuenta en las misiones. Master Chef puede generar raciones adicionales hasta un 50%, y Gourmand estira los buffs hasta el 100%. Pesca es su compañera.",
+      "text_en": "Cooking belongs to the secondary group and transforms meat, fish, and other ingredients into dishes and drinks. Those foods restore health or mana, and some grant temporary bonuses; you must remain seated for about 10 seconds to receive the effect, which usually lasts 15 minutes. Many Forever dishes include Well Fed XP Boost, 5% more experience from kills that does not count for quests. Master Chef can generate extra servings up to 50%, and Gourmand stretches buffs up to 100%. Fishing is its partner.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Cooking Guide › Food Buffs and How They Work",
+          "url": "https://www.icy-veins.com/wow-forever/cooking",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-primeros-auxilios",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Primeros auxilios: vendas y remedios",
+      "title_en": "First Aid: Bandages and Remedies",
+      "summary_es": "Convierte tela en vendas y hierbas en pociones; Forever traslada las pociones de curación estándar desde Alquimia.",
+      "summary_en": "Turns cloth into bandages and herbs into potions; Forever moves the standard healing potions from Alchemy.",
+      "keywords_es": [
+        "primeros auxilios",
+        "vendas",
+        "pociones de curación",
+        "antitoxina",
+        "cataplasma",
+        "torniquete",
+        "recién vendado"
+      ],
+      "keywords_en": [
+        "first aid",
+        "bandages",
+        "healing potions",
+        "anti-venom",
+        "poultice",
+        "tourniquet",
+        "recently bandaged"
+      ],
+      "text_es": "Primeros auxilios es secundaria y trabaja la tela para vendas y las hierbas para pociones curativas. Forever traslada a este oficio las seis recetas de poción de curación habituales, que antes eran de Alquimia. También prepara antitoxinas contra venenos, cataplasmas contra enfermedades y torniquetes contra sangrados; la antitoxina vale en combate, las otras dos solo fuera, y las tres comparten un minuto de espera. Vendar exige canalizar sin moverse ni recibir golpes y aplica Vendado recientemente durante un minuto, lo que impide otra venda. No consume plaza primaria.",
+      "text_en": "First Aid is secondary: cloth becomes bandages, and herbs become healing potions. Forever moves the six usual healing-potion recipes into this trade; they used to belong to Alchemy. It also prepares anti-venoms for poisons, poultices for diseases, and tourniquets for bleeds; anti-venom works in combat, the other two only outside it, and all three share a one-minute wait. Bandaging requires channeling without moving or taking hits and applies Recently Bandaged for a minute, which blocks another bandage. It uses no primary slot.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever First Aid Guide › What Is First Aid?",
+          "url": "https://www.icy-veins.com/wow-forever/first-aid",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-pesca",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Pesca: peces para Cocina y Alquimia",
+      "title_en": "Fishing: Fish for Cooking and Alchemy",
+      "summary_es": "Pesca peces para comer, para aceites de Alquimia y para recompensas; combina con Cocina.",
+      "summary_en": "Catches fish for food, Alchemy oils, and rewards; pairs with Cooking.",
+      "keywords_es": [
+        "pesca",
+        "pescar",
+        "peces",
+        "escuelas de peces",
+        "cebos",
+        "pesca y cocina",
+        "pesca y alquimia"
+      ],
+      "keywords_en": [
+        "fishing",
+        "catch fish",
+        "fish",
+        "fishing schools",
+        "lures",
+        "fishing and cooking",
+        "fishing and alchemy"
+      ],
+      "text_es": "Pesca es una profesión secundaria que recoge peces para comida, aceites y otras recetas. Lo que sacas depende del lugar: aguas iniciales dan peces pequeños y otras zonas peces para recetas superiores. Las escuelas de peces y los restos flotantes permiten buscar capturas concretas, y puedes seguir subiendo habilidad en aguas iniciales hasta 300. Los anzuelos, cañas y cebos mejoran la habilidad efectiva, y la ventaja Legacy Luremaster puede dar peces extra con un cebo activo. Combina con Cocina.",
+      "text_en": "Fishing is a secondary profession that gathers fish for food, oils, and other recipes. Your catch depends on the location: early waters give small fish and other areas give fish for higher recipes. Fishing schools and floating wreckage let you target specific catches, and you can keep gaining skill in starting waters all the way to 300. Lures, poles, and other bonuses improve effective skill, and the Luremaster Legacy perk can give extra fish while a lure is active. It pairs with Cooking.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Fishing Guide › What Is Fishing?",
+          "url": "https://www.icy-veins.com/wow-forever/fishing",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-secundarias-sin-slots",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Profesiones secundarias y las dos plazas",
+      "title_en": "Secondary Professions and the Two Slots",
+      "summary_es": "Cocina, Primeros auxilios y Pesca se aprenden sin gastar ninguna de las dos plazas primarias.",
+      "summary_en": "Cooking, First Aid, and Fishing take none of the two primary profession slots.",
+      "keywords_es": [
+        "profesiones secundarias",
+        "dos plazas primarias",
+        "cocina primeros auxilios pesca",
+        "aprender todas las secundarias"
+      ],
+      "keywords_en": [
+        "secondary professions",
+        "two primary slots",
+        "cooking first aid fishing",
+        "learn all secondary professions"
+      ],
+      "text_es": "Cocina, Primeros auxilios y Pesca son secundarias y no compiten por las dos plazas de profesión primaria. Puedes aprender las tres en el mismo personaje y seguir llevando dos primarias. Sus recetas sirven para curar, comer, preparar buffs y conseguir materiales, y no hace falta abandonar una secundaria para cambiar de primaria.",
+      "text_en": "Cooking, First Aid, and Fishing are secondary professions and do not compete for the two primary profession slots. You can learn all three on the same character and still keep two primary professions. Their recipes help you heal, eat, prepare buffs, and obtain materials, and you never need to drop a secondary profession to change a primary one.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Profession Guide › Secondary Professions",
+          "url": "https://www.icy-veins.com/wow-forever/professions-overview",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-campamento-cocina",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Campamentos: cocina y tamaño de la hoguera",
+      "title_en": "Campsites: Cooking and Campfire Size",
+      "summary_es": "Cocina crea la hoguera; el tamaño del campamento limita cuántas características pueden añadirse.",
+      "summary_en": "Cooking creates the campfire; campsite size limits how many features can be added.",
+      "keywords_es": [
+        "campamento",
+        "hoguera",
+        "cocina y campamento",
+        "características del campamento",
+        "tamaño de hoguera",
+        "descansar en campamento"
+      ],
+      "keywords_en": [
+        "campsite",
+        "campfire",
+        "cooking and camping",
+        "campsite features",
+        "campfire size",
+        "rest at camp"
+      ],
+      "text_es": "Cocina crea la hoguera que sirve de centro al campamento. El kit de hoguera básica se hace con una Madera simple y un Sílex y Yesca reutilizable; la hoguera deja espacio para tres características y los kits superiores amplían el espacio hasta diez. Las características de profesión aparecen a 20, 140 y 300 de habilidad, y los niveles altos conservan los beneficios anteriores. Hay que sentarse o fabricar cerca durante un minuto para recibir los buffs, que duran una hora. Los campamentos se colocan al aire libre, no en ciudades principales, y cada jugador solo puede aportar una característica.",
+      "text_en": "Cooking creates the campfire at the center of a campsite. The Basic Campfire Kit is made with one Simple Wood and a reusable Flint and Tinder; the campfire leaves room for three features and larger kits expand the space up to ten. Profession features appear at 20, 140, and 300 skill, and higher tiers keep the earlier benefits. You must sit or craft nearby for one minute to receive the buffs, which last one hour. Campsites go outdoors, not in major cities, and each player can contribute only one feature.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Warcraft Forever Camping System Guide › Campfire Basics in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/camping",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Cooking Guide › Cooking Campfire Items and Buffs",
+          "url": "https://www.icy-veins.com/wow-forever/cooking",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-campamento-profesiones",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Campamentos: qué aporta cada profesión",
+      "title_en": "Campsites: What Each Profession Adds",
+      "summary_es": "Cada profesión añade buffs, vendedores, reparación o estaciones de trabajo al campamento.",
+      "summary_en": "Each profession adds buffs, vendors, repairs, or crafting stations to a campsite.",
+      "keywords_es": [
+        "características de profesión en campamento",
+        "pozo de maná",
+        "rueda de afilar",
+        "robot de reactivos",
+        "tienda de campaña",
+        "estación de trabajo"
+      ],
+      "keywords_en": [
+        "profession campsite features",
+        "mana well",
+        "sharpening wheel",
+        "reagent bot",
+        "camp tent",
+        "crafting station"
+      ],
+      "text_es": "Cada profesión aporta características al campamento a 20, 140 y 300 de habilidad. La primera suele ser un buff o una ventaja, y las siguientes conservan ese beneficio y añaden vendedores, reparación o estaciones de trabajo. Por ejemplo, Alquimia pone un Pozo de maná, Herrería una Rueda de afilar e Ingeniería un Robot de componentes. Algunas características sirven como estación para recetas que la necesitan. Puedes usar la característica de otro jugador sin tener esa profesión, y los objetos se pueden comerciar o vender, aunque colocarlos exige la habilidad correspondiente.",
+      "text_en": "Each profession adds campsite features at 20, 140, and 300 skill. The first is usually a buff or benefit, and later ones keep that benefit and add vendors, repairs, or crafting stations. For example, Alchemy brings a Mana Well, Blacksmithing a Sharpening Wheel, and Engineering a Reagent Bot. Some features act as stations for recipes that need them. You can use another player's feature without having that profession, and the items can be traded or sold, though placing them requires the right skill.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Warcraft Forever Camping System Guide › Professions and Camping in WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/camping",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-campamento-legado",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Campamentos y ventajas Legacy",
+      "title_en": "Campsites and Legacy Perks",
+      "summary_es": "Field Guide acorta la reutilización, Permanence alarga buffs y Reagent Economy quita reactivos al nivel 1.",
+      "summary_en": "Field Guide lowers the cooldown, Permanence extends buffs, and Reagent Economy removes reagents from the first feature.",
+      "keywords_es": [
+        "field guide campamento",
+        "permanence campamento",
+        "reagent economy",
+        "ventajas legacy campamento",
+        "reutilización de características"
+      ],
+      "keywords_en": [
+        "field guide camping",
+        "permanence camping",
+        "reagent economy",
+        "campsite legacy perks",
+        "feature cooldown"
+      ],
+      "text_es": "El sistema Legacy mejora los campamentos con varias ventajas. Field Guide reduce la reutilización para añadir características, hasta un 25% y de una hora a 45 minutos en el rango máximo. Permanence alarga hasta un 100% la duración de los beneficios de descansar en el campamento. Reagent Economy hace que las características de nivel 1 ya no necesiten reactivos para fabricarse.",
+      "text_en": "The Legacy system improves campsites with several perks. Field Guide reduces the cooldown for adding features, up to 25% and from one hour to 45 minutes at maximum rank. Permanence extends the duration of benefits from resting at a campsite by up to 100%. Reagent Economy means tier 1 features no longer need reagents to craft.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Warcraft Forever Camping System Guide › Camping and the Legacy System",
+          "url": "https://www.icy-veins.com/wow-forever/camping",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Cooking Guide › Cooking Campfire Items and Buffs",
+          "url": "https://www.icy-veins.com/wow-forever/cooking",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-recetas",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "De dónde salen las recetas",
+      "title_en": "Where Recipes Come From",
+      "summary_es": "Los instructores enseñan muchas, pero otras vienen de vendedores, misiones, reputación, botín y planos de mazmorra.",
+      "summary_en": "Trainers teach many, but others come from vendors, quests, reputation, loot, and dungeon blueprints.",
+      "keywords_es": [
+        "recetas de profesión",
+        "dónde conseguir recetas",
+        "recetas de vendedor",
+        "recetas de misión",
+        "planos de campamento",
+        "planos de mazmorra"
+      ],
+      "keywords_en": [
+        "profession recipes",
+        "where to get recipes",
+        "vendor recipes",
+        "quest recipes",
+        "campsite blueprints",
+        "dungeon blueprints"
+      ],
+      "text_es": "Los instructores enseñan muchas recetas de profesión. Otras se compran a vendedores, se obtienen en misiones o recompensas de reputación, o salen como botín de enemigos. Las recetas avanzadas de campamento no las entregan todos los instructores: la mayoría de planos de 140 y 300 son botín de mazmorras u otras fuentes del mundo. Tener la habilidad necesaria permite aprender la receta cuando la consigues, y algunas recetas exigen una herramienta o estación concreta.",
+      "text_en": "Trainers teach many profession recipes. Others are bought from vendors, earned from quests or reputation rewards, or drop from enemies. Advanced campsite recipes are not all taught by trainers: most 140 and 300 blueprints are dungeon drops or come from other world sources. Once you have the needed skill and the recipe, you can learn it; some recipes also need a specific tool or station.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Profession Guide › How to Learn a Profession",
+          "url": "https://www.icy-veins.com/wow-forever/professions-overview",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Warcraft Forever Camping System Guide › Advanced Camping Blueprints",
+          "url": "https://www.icy-veins.com/wow-forever/camping",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-ventajas-recoleccion",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Ventajas Legacy de recolección",
+      "title_en": "Gathering Legacy Perks",
+      "summary_es": "Bountiful Harvest aumenta los materiales raros que obtienen Herboristería, Minería y Desuello.",
+      "summary_en": "Bountiful Harvest increases the scarce materials from Herbalism, Mining, and Skinning.",
+      "keywords_es": [
+        "bountiful harvest",
+        "ventajas de recolección",
+        "materiales raros de hierbas",
+        "materiales raros de minería",
+        "materiales raros de desuello"
+      ],
+      "keywords_en": [
+        "bountiful harvest",
+        "gathering perks",
+        "scarce herb materials",
+        "scarce mining materials",
+        "scarce skinning materials"
+      ],
+      "text_es": "La ventaja Legacy Bountiful Harvest mejora las tres profesiones de recolección. En Herboristería aumenta los materiales raros que salen de los nodos de hierbas. En Minería incrementa lo que se recoge de las vetas, y en Desuello permite obtener más materiales raros de las criaturas. Sirve para reunir reactivos que usan otras profesiones además de venderlos.",
+      "text_en": "The Bountiful Harvest Legacy perk improves all three gathering professions. In Herbalism it increases the scarce materials from herb nodes. In Mining it increases what you gather from veins, and in Skinning it gives more scarce materials from creatures. It helps collect reagents used by other professions as well as materials to sell.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Herbalism Guide › New Scarce Herbalism Materials",
+          "url": "https://www.icy-veins.com/wow-forever/herbalism",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Mining Guide › New Scarce Mining Materials",
+          "url": "https://www.icy-veins.com/wow-forever/mining",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Skinning Guide › New Scarce Skinning Materials",
+          "url": "https://www.icy-veins.com/wow-forever/skinning",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-ventajas-artesania",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Ventajas Legacy de artesanía",
+      "title_en": "Crafting Legacy Perks",
+      "summary_es": "Master Chef, Luremaster, Working Overtime, Dedicated Study, Gourmand y Field Medicine mejoran oficios concretos.",
+      "summary_en": "Master Chef, Luremaster, Working Overtime, Dedicated Study, Gourmand, and Field Medicine improve specific trades.",
+      "keywords_es": [
+        "master chef",
+        "luremaster",
+        "working overtime",
+        "dedicated study",
+        "gourmand",
+        "field medicine"
+      ],
+      "keywords_en": [
+        "master chef",
+        "luremaster",
+        "working overtime",
+        "dedicated study",
+        "gourmand",
+        "field medicine"
+      ],
+      "text_es": "Varias ventajas Legacy mejoran profesiones de artesanía y secundarias. Master Chef da a Cocina una probabilidad de raciones extra, hasta el 50% en el rango máximo. Luremaster permite pescar un pez adicional con un cebo activo. Working Overtime sube hasta un 20% la probabilidad de ganar un punto de habilidad, y Dedicated Study da un punto cada 23 horas a la profesión más baja. Gourmand alarga los buffs de comida hasta el 100%, y Field Medicine acorta Vendado recientemente hasta 10 segundos fuera de mazmorras, bandas y campos de batalla.",
+      "text_en": "Several Legacy perks improve crafting and secondary professions. Master Chef gives Cooking a chance for extra servings, up to 50% at maximum rank. Luremaster lets you catch an extra fish while a lure is active. Working Overtime increases the chance of a skill point by up to 20%, and Dedicated Study gives one point every 23 hours to your lowest profession. Gourmand extends food buffs up to 100%, and Field Medicine shortens Recently Bandaged by up to 10 seconds outside dungeons, raids, and battlegrounds.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Cooking Guide › Cooking Speed and Legacy Perks",
+          "url": "https://www.icy-veins.com/wow-forever/cooking",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Fishing Guide › Fishing Lures",
+          "url": "https://www.icy-veins.com/wow-forever/fishing",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever First Aid Guide › Bandages",
+          "url": "https://www.icy-veins.com/wow-forever/first-aid",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-clases-armadura",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Profesiones según la armadura de tu clase",
+      "title_en": "Professions by Your Class Armor",
+      "summary_es": "Herrería encaja con placas, Peletería con cuero y malla, Sastrería con tela; Encantamiento e Ingeniería tienen público.",
+      "summary_en": "Blacksmithing fits plate, Leatherworking leather and mail, Tailoring cloth; Enchanting and Engineering have clear users.",
+      "keywords_es": [
+        "profesión según clase",
+        "profesión para guerrero",
+        "profesión para druida",
+        "profesión para mago",
+        "armadura de clase"
+      ],
+      "keywords_en": [
+        "profession by class",
+        "profession for warrior",
+        "profession for druid",
+        "profession for mage",
+        "class armor"
+      ],
+      "text_es": "Tu clase no te obliga a elegir una profesión, pero algunas combinaciones encajan mejor. Herrería resulta útil a Guerreros y Paladines que llevan malla o placas y quieren fabricar sus armas y escudos. Peletería encaja con Druidas y Pícaros por el cuero, y con Cazadores y Chamanes que pasan a malla. Sastrería sirve a Magos, Sacerdotes y Brujos por la armadura de tela, Encantamiento también les resulta útil, e Ingeniería permite a los Cazadores fabricar armas de fuego y munición.",
+      "text_en": "Your class does not force a profession, but some combinations fit better. Blacksmithing suits Warriors and Paladins who wear mail or plate and want to make their own weapons and shields. Leatherworking fits Druids and Rogues for leather, and Hunters and Shamans who move to mail. Tailoring serves Mages, Priests, and Warlocks for cloth armor, Enchanting is also useful to them, and Engineering lets Hunters make guns and ammunition.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Blacksmithing Guide › Who Should Pick Blacksmithing?",
+          "url": "https://www.icy-veins.com/wow-forever/blacksmithing",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Leatherworking Guide › Who Should Pick Leatherworking?",
+          "url": "https://www.icy-veins.com/wow-forever/leatherworking",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Tailoring Guide › Who Should Pick Tailoring?",
+          "url": "https://www.icy-veins.com/wow-forever/tailoring",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Enchanting Guide › Who Should Pick Enchanting?",
+          "url": "https://www.icy-veins.com/wow-forever/enchanting",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Engineering Guide › Who Should Pick Engineering?",
+          "url": "https://www.icy-veins.com/wow-forever/engineering",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "prof-herramientas-estaciones",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Herramientas y estaciones de trabajo",
+      "title_en": "Tools and Workstations",
+      "summary_es": "Muchas recetas piden martillo, pico, vara rúnica, yunque, forja u horno; los campamentos aportan algunas estaciones.",
+      "summary_en": "Many recipes need a hammer, pick, runed rod, anvil, forge, oven, or laboratory; campsites provide some stations.",
+      "keywords_es": [
+        "herramientas de profesión",
+        "estaciones de trabajo",
+        "yunque",
+        "forja",
+        "horno de hierro",
+        "laboratorio de alquimia"
+      ],
+      "keywords_en": [
+        "profession tools",
+        "workstations",
+        "anvil",
+        "forge",
+        "iron oven",
+        "alchemy laboratory"
+      ],
+      "text_es": "Muchas recetas de profesión necesitan una herramienta o una estación de trabajo. Herrería usa martillo y yunque, y algunas recetas una forja; Minería necesita pico y una forja para fundir; Encantamiento requiere varas rúnicas; Ingeniería usa herramientas propias. Cocina necesita una fuente de calor y algunas recetas un Horno de hierro, mientras que Alquimia tiene recetas que piden un Laboratorio de alquimia. Los campamentos pueden aportar estaciones como el yunque, la forja, el laboratorio o el horno para trabajar lejos de la ciudad.",
+      "text_en": "Many profession recipes need a tool or a workstation. Blacksmithing uses a hammer and anvil, and some recipes a forge; Mining needs a pick and a forge to smelt; Enchanting requires runed rods; Engineering uses its own tools. Cooking needs a heat source and some recipes an Iron Oven, while Alchemy has recipes that require an Alchemy Laboratory. Campsites can provide stations such as the anvil, forge, laboratory, or oven so you can work away from the city.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Profession Guide › How to Learn a Profession",
+          "url": "https://www.icy-veins.com/wow-forever/professions-overview",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Warcraft Forever Camping System Guide › Profession Features for the Camping System",
+          "url": "https://www.icy-veins.com/wow-forever/camping",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-15"
+    }
+  ]
+}
