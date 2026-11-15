@@ -59,6 +59,30 @@ FLY_FROM_KEYWORDS = ('volar desde', 'adonde puedo volar', 'vuelos desde',
 # Nombres genéricos que aparecen como palabras normales en las preguntas
 # (p. ej. «puntos» en «puntos de vuelo») y no deben tratarse como entidades.
 GENERIC_ENTITY_NAMES = {'puntos', 'points'}
+QUEST_REFERENCE_STOP_WORDS = {
+    'mision', 'misiones', 'quest', 'quests', 'donde', 'adonde', 'esta',
+    'estan', 'este', 'estos', 'estas', 'esos', 'esas', 'aquel', 'aquella',
+    'como', 'consigo', 'encuentro', 'encuentra', 'encuentran', 'encontramos',
+    'encontrar', 'conseguir', 'objeto',
+    'objetos', 'item', 'items', 'cosa', 'cosas', 'npc', 'pnj', 'tira',
+    'tiran', 'suelta', 'sueltan', 'lleva', 'llevan', 'matar', 'mato',
+    'kill', 'drop', 'drops', 'where', 'find', 'para', 'pero', 'tengo',
+    'hacer', 'hago', 'sale', 'salen', 'zona', 'aqui', 'alli', 'cual',
+    'cuales', 'quien', 'quienes', 'what', 'which', 'with', 'from', 'that',
+    'this', 'those', 'these', 'have', 'need', 'does', 'get', 'the', 'and',
+    'algun', 'alguna', 'algunos', 'algunas', 'tambien', 'solo', 'sabes',
+    'saber', 'dime', 'decir', 'puedo', 'puede', 'pueden', 'debo', 'debe',
+    'tiene', 'tienen', 'hay', 'ser', 'son', 'fue', 'era', 'cuando',
+    'cuanto', 'cuanta', 'cuantos', 'cuantas', 'desde', 'hasta', 'sobre',
+    'entre', 'menos', 'ahora', 'entonces', 'porque', 'pues', 'unos', 'unas',
+    'objetivo', 'objetivos', 'creature', 'creatures', 'mob', 'mobs',
+    'npcs', 'thing', 'things', 'who', 'whom', 'whose', 'why', 'when',
+    'could', 'should', 'would', 'were', 'been', 'being', 'about', 'some',
+    'any', 'there', 'here', 'your', 'they', 'their', 'then', 'than',
+    'also', 'just', 'only', 'please', 'tell', 'know', 'look', 'looking',
+    'want', 'give', 'gives', 'take', 'takes', 'kills', 'loot', 'loots',
+    'spawn', 'spawns', 'located', 'location', 'zone',
+}
 EXCLUSION_PHRASES = ('que no sea', 'que no sean', 'excepto', 'menos', 'salvo',
                      'aparte de', 'other than', 'except', 'not ')
 PANORAMA_ZONES = 6
@@ -145,9 +169,9 @@ def _add_source(facts: Facts, source: str) -> None:
         facts.sources.append(source)
 
 
-def _safe(function, *args):
+def _safe(function, *args, **kwargs):
     try:
-        return function(*args)
+        return function(*args, **kwargs)
     except Exception:
         return None
 
@@ -338,8 +362,94 @@ def _item_line(item, lang: str) -> str:
     return prefix + ': no known sources.'
 
 
+def _entry_quest_id(entry):
+    if not isinstance(entry, (list, tuple)) or len(entry) < 4:
+        return None
+    value = entry[3]
+    if isinstance(value, bool):
+        return None
+    if isinstance(value, int):
+        quest_id = value
+    elif isinstance(value, float) and value.is_integer():
+        quest_id = int(value)
+    else:
+        return None
+    return quest_id if quest_id > 0 else None
+
+
+def _active_quest_ids(ctx):
+    if not isinstance(ctx, dict):
+        return []
+    quests = ctx.get('quests')
+    if not isinstance(quests, list):
+        return []
+    ids = []
+    for entry in quests:
+        quest_id = _entry_quest_id(entry)
+        if quest_id is not None and quest_id not in ids:
+            ids.append(quest_id)
+    return ids
+
+
+def _add_quest_facts(facts: Facts, db, quest, lang: str, ctx: dict) -> None:
+    details = _safe(db.quest_details, quest['id'], lang)
+    facts.lines.append(_quest_line(quest, lang, details))
+    _add_source(facts, f'quest:{quest["id"]}')
+    objective_ids = quest.get('objective_item_ids') or []
+    for item_id in objective_ids[:3]:
+        if f'item:{item_id}' in facts.sources:
+            continue
+        item = _safe(db.item_sources, item_id, lang)
+        if item is None:
+            continue
+        facts.lines.append(_item_line(item, lang))
+        _add_source(facts, f'item:{item["id"]}')
+    quest_name = quest.get('name') or ''
+    creatures = quest.get('objective_creatures') or []
+    for creature in creatures[:3]:
+        npc_id = creature.get('id')
+        source = f'npc:{npc_id}'
+        if source in facts.sources:
+            continue
+        locations = _safe(db.npc_locations, npc_id, 2, lang)
+        name = creature.get('name') or ''
+        places = [_location_text(location) for location in (locations or [])]
+        places = [place for place in places if place]
+        if lang == 'es':
+            line = f'Objetivo de la misión «{quest_name}»: matar {name}'
+            if places:
+                line += ' en ' + '; '.join(places) + '.'
+            else:
+                line += ' (ubicación desconocida en la base).'
+        else:
+            line = f'Quest «{quest_name}» objective: kill {name}'
+            if places:
+                line += ' in ' + '; '.join(places) + '.'
+            else:
+                line += ' (location not in the database).'
+        facts.lines.append(line)
+        _add_source(facts, source)
+
+
+def _reference_tokens(value):
+    if not isinstance(value, str):
+        return []
+    return [token for token in re.findall(r'[a-z0-9]+', normalize(value))
+            if len(token) >= 4 and token not in QUEST_REFERENCE_STOP_WORDS]
+
+
+def _token_matches(question_token, vocabulary_token):
+    if question_token == vocabulary_token:
+        return True
+    shorter, longer = ((question_token, vocabulary_token)
+                       if len(question_token) <= len(vocabulary_token)
+                       else (vocabulary_token, question_token))
+    return len(shorter) >= 5 and longer.startswith(shorter)
+
+
 def _detect_entities(facts: Facts, db, matches, normalized: str, lang: str, ctx: dict):
     player_level = ctx.get('lvl')
+    active_ids = _active_quest_ids(ctx)
     wants_final = any(word in normalized for word in FINAL_KEYWORDS)
     wants_bosses = (any(word in normalized for word in BOSS_KEYWORDS)
                     or wants_final)
@@ -351,46 +461,16 @@ def _detect_entities(facts: Facts, db, matches, normalized: str, lang: str, ctx:
         if normalize(match.get('name') or '') in GENERIC_ENTITY_NAMES:
             continue
         if kind == 'quest':
-            quest = db.find_quest(entity_id, lang, player_level=player_level)
+            lookup = match.get('name') if active_ids else entity_id
+            quest = db.find_quest(lookup or entity_id, lang,
+                                  player_level=player_level,
+                                  prefer_ids=active_ids)
+            if quest is None and active_ids and lookup != entity_id:
+                quest = db.find_quest(entity_id, lang, player_level=player_level,
+                                      prefer_ids=active_ids)
             if quest is None:
                 continue
-            details = _safe(db.quest_details, quest['id'], lang)
-            facts.lines.append(_quest_line(quest, lang, details))
-            _add_source(facts, f'quest:{quest["id"]}')
-            objective_ids = quest.get('objective_item_ids') or []
-            for item_id in objective_ids[:3]:
-                if f'item:{item_id}' in facts.sources:
-                    continue
-                item = _safe(db.item_sources, item_id, lang)
-                if item is None:
-                    continue
-                facts.lines.append(_item_line(item, lang))
-                _add_source(facts, f'item:{item["id"]}')
-            quest_name = quest.get('name') or ''
-            creatures = quest.get('objective_creatures') or []
-            for creature in creatures[:3]:
-                npc_id = creature.get('id')
-                source = f'npc:{npc_id}'
-                if source in facts.sources:
-                    continue
-                locations = _safe(db.npc_locations, npc_id, 2, lang)
-                name = creature.get('name') or ''
-                places = [_location_text(location) for location in (locations or [])]
-                places = [place for place in places if place]
-                if lang == 'es':
-                    line = f'Objetivo de la misión «{quest_name}»: matar {name}'
-                    if places:
-                        line += ' en ' + '; '.join(places) + '.'
-                    else:
-                        line += ' (ubicación desconocida en la base).'
-                else:
-                    line = f'Quest «{quest_name}» objective: kill {name}'
-                    if places:
-                        line += ' in ' + '; '.join(places) + '.'
-                    else:
-                        line += ' (location not in the database).'
-                facts.lines.append(line)
-                _add_source(facts, source)
+            _add_quest_facts(facts, db, quest, lang, ctx)
         elif kind == 'dungeon':
             has_dungeon = True
             dungeon = db.dungeon(entity_id, lang)
@@ -424,6 +504,107 @@ def _detect_entities(facts: Facts, db, matches, normalized: str, lang: str, ctx:
             facts.lines.append(_item_line(item, lang))
             _add_source(facts, f'item:{item["id"]}')
     return has_dungeon, dungeon_level_answered
+
+
+def _detect_active_quest_reference(facts: Facts, db, question, normalized: str,
+                                   lang: str, ctx: dict, matches) -> None:
+    if any(isinstance(match, dict) and match.get('kind') == 'quest'
+           for match in (matches or [])):
+        return
+    # «¿Cómo voy a Ventormenta?» no debe arrastrar «Un envío para Ventormenta»: los viajes
+    # los resuelve el grafo de rutas.
+    if is_travel_question(question if isinstance(question, str) else ''):
+        return
+    if not isinstance(ctx, dict):
+        return
+    entries = ctx.get('quests')
+    if not isinstance(entries, list) or not entries:
+        return
+
+    active_ids = _active_quest_ids(ctx)
+    candidates = []
+    for entry in entries[:30]:
+        if not isinstance(entry, (list, tuple)) or not entry:
+            continue
+        quest_id = _entry_quest_id(entry)
+        title = entry[0] if isinstance(entry[0], str) else ''
+        level = entry[1] if len(entry) > 1 else None
+        if quest_id is not None:
+            quest = _safe(db.find_quest, quest_id, lang)
+        elif title:
+            quest = _safe(db.find_quest, title, lang, player_level=level,
+                          prefer_ids=active_ids)
+        else:
+            continue
+        if isinstance(quest, dict):
+            candidates.append(quest)
+    if not candidates:
+        return
+
+    question_tokens = _reference_tokens(normalized)
+    if not question_tokens:
+        return
+
+    vocabularies = []
+    for quest in candidates:
+        vocabulary = {}
+
+        def add(value, source):
+            for token in _reference_tokens(value):
+                vocabulary.setdefault(token, set()).add(source)
+
+        add(quest.get('name'), 'name')
+        items = quest.get('objective_items')
+        if isinstance(items, (list, tuple)):
+            for item in items:
+                add(item, 'item')
+        creatures = quest.get('objective_creatures')
+        if isinstance(creatures, (list, tuple)):
+            for creature in creatures:
+                if isinstance(creature, dict):
+                    add(creature.get('name'), 'creature')
+        vocabularies.append(vocabulary)
+
+    unique_tokens = set(question_tokens)
+    common_tokens = set()
+    for token in unique_tokens:
+        matched_quests = 0
+        for vocabulary in vocabularies:
+            if any(_token_matches(token, candidate_token)
+                   for candidate_token in vocabulary):
+                matched_quests += 1
+        if matched_quests >= 3:
+            common_tokens.add(token)
+    scored_tokens = [token for token in unique_tokens
+                     if token not in common_tokens]
+    if not scored_tokens:
+        return
+
+    scored = []
+    for quest, vocabulary in zip(candidates, vocabularies):
+        score = 0
+        for token in scored_tokens:
+            if any(_token_matches(token, candidate_token)
+                   for candidate_token in vocabulary):
+                score += 1
+        if score > 0:
+            scored.append((score, quest))
+    if not scored:
+        return
+
+    best = max(score for score, _quest in scored)
+    selected = [quest for score, quest in scored if score == best]
+    if len(selected) > 2:
+        return
+    for quest in selected:
+        name = quest.get('name') or ''
+        if lang == 'es':
+            facts.lines.append(
+                f'La pregunta parece referirse a tu misión activa «{name}».')
+        else:
+            facts.lines.append(
+                f'The question seems to refer to your active quest «{name}».')
+        _add_quest_facts(facts, db, quest, lang, ctx)
 
 
 def _ctx_level(ctx: dict):
@@ -1219,6 +1400,8 @@ def retrieve(message, db) -> Facts:
             matches, nearby, normalized)
         has_dungeon, dungeon_level_answered = _detect_entities(
             facts, db, matches, normalized, lang, ctx)
+        _detect_active_quest_reference(
+            facts, db, question, normalized, lang, ctx, matches)
         has_quest = any(match.get('kind') == 'quest' for match in matches)
         zones_level = _detect_zone_intents(facts, db, matches, normalized, lang, ctx,
                                            nearby, excluded_ids, excluded_keys)

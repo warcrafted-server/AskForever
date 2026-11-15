@@ -192,6 +192,7 @@ function Transport.BuildMessage(question, ctx, conv, kind, extra)
                 quest.title or ns.Json.null,
                 quest.level ~= nil and quest.level or ns.Json.null,
                 quest.complete and 1 or 0,
+                quest.id ~= nil and quest.id or ns.Json.null,
             }
         end
         context.quests = quests

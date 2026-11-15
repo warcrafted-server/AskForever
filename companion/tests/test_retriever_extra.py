@@ -7,7 +7,9 @@ import sqlite3
 import pytest
 
 from askforever.data.wowdb import WowDb
-from askforever.engine.retriever import Facts, _detect_entities, _item_line, retrieve
+from askforever.engine.retriever import (Facts, _active_quest_ids,
+                                         _detect_active_quest_reference, _detect_entities,
+                                         _item_line, retrieve)
 
 SCHEMA = [
     'CREATE TABLE ext_quests (quest_id INTEGER, required_level INTEGER, quest_level INTEGER)',
@@ -81,6 +83,11 @@ def db(tmp_path):
         (96393, 9, 16),
         (91775, 10, 12),
         (91776, 10, 12),
+        (91777, 10, 12),
+        (91778, 10, 12),
+        (91779, 10, 12),
+        (92001, 10, 10),
+        (92002, 10, 20),
     ])
     _insert(conn, 'ext_quest_l10n', ['quest_id', 'locale', 'name'], [
         (1338, 'esES', 'Un pedido de Pico Tormenta'),
@@ -93,6 +100,16 @@ def db(tmp_path):
         (91775, 'enUS', 'Book Return'),
         (91776, 'esES', 'Matar troggs'),
         (91776, 'enUS', 'Kill Troggs'),
+        (91777, 'esES', 'Amenaza babosa'),
+        (91777, 'enUS', 'Slime Threat'),
+        (91778, 'esES', 'Amenaza kobold'),
+        (91778, 'enUS', 'Kobold Threat'),
+        (91779, 'esES', 'Amenaza fúngica'),
+        (91779, 'enUS', 'Fungal Threat'),
+        (92001, 'esES', 'Eco repetido'),
+        (92001, 'enUS', 'Echo Repeat'),
+        (92002, 'esES', 'Eco repetido'),
+        (92002, 'enUS', 'Echo Repeat'),
     ])
     _insert(conn, 'ext_quest_starters', ['quest_id', 'entity_type', 'entity_id'], [
         (1338, 'npc', 1343),
@@ -111,6 +128,7 @@ def db(tmp_path):
             ['quest_id', 'position', 'npc_id', 'text', 'icon_type'], [
         (91776, 0, 1162, 'Trog C', None),
         (91776, 1, 900003, 'Criatura sin posición', None),
+        (91778, 0, 900004, 'Kobold', None),
     ])
     _insert(conn, 'ext_npcs', ['npc_id', 'min_level', 'max_level', 'friendly_to_faction'], [
         (1343, 10, 10, 'A'),
@@ -138,6 +156,8 @@ def db(tmp_path):
         (1163, 'esES', 'Trog A', None),
         (1197, 'esES', 'Trog B', None),
         (1162, 'esES', 'Trog C', None),
+        (900004, 'esES', 'Kobold', None),
+        (900004, 'enUS', 'Kobold', None),
     ])
     _insert(conn, 'ext_npc_spawns', ['npc_id', 'zone_id', 'spawn_idx', 'x', 'y'], [
         (1343, 38, 1, 24.8, 18.4),
@@ -149,6 +169,7 @@ def db(tmp_path):
         (1163, 38, 1, 10.0, 20.0),
         (1197, 38, 1, 11.0, 21.0),
         (1162, 38, 1, 12.0, 22.0),
+        (900004, 38, 1, 15.0, 25.0),
     ])
     _insert(conn, 'ext_zones', ['group_id', 'area_id', 'name_enUS', 'name_esES'], [
         (0, 1, 'Dun Morogh', 'Dun Morogh'),
@@ -472,6 +493,102 @@ def test_item_line_without_coordinates_keeps_current_format():
     assert '(41.6' not in line
 
 
+def test_active_quest_ids_handles_entries():
+    ctx = {'quests': [
+        ['A', 10, 0, 123],
+        ['B', 10, 0, 456.0],
+        ['C', 10, 0, None],
+        ['D', 10, 0],
+        ['E', 10, 0, 0],
+        ['F', 10, 0, 78.5],
+        ['G', 10, 0, '123'],
+        ['H', 10, 0, True],
+    ]}
+    assert _active_quest_ids(ctx) == [123, 456]
+
+
+def test_active_quest_vague_book_reference(db):
+    ctx = dict(CTX)
+    ctx['quests'] = [
+        ['Devolución de libros', 12, 0, 91775],
+        ['Amenaza babosa', 12, 0, 91777],
+    ]
+    facts = retrieve(_message('¿Quién suelta el libro?', ctx=ctx), db)
+    text = _text(facts)
+    assert 'La pregunta parece referirse a tu misión activa «Devolución de libros».' in text
+    assert 'Amenaza babosa' not in text
+    assert 'Libro perdido' in text
+    assert 'item:248002' in facts.sources
+
+
+def test_active_quest_reference_uses_title_without_id(db):
+    ctx = dict(CTX)
+    ctx['quests'] = [['Devolución de libros', 12, 0]]
+    facts = retrieve(_message('¿Quién suelta el libro?', ctx=ctx), db)
+    assert 'La pregunta parece referirse a tu misión activa «Devolución de libros».' in _text(facts)
+    assert 'item:248002' in facts.sources
+
+
+def test_active_quest_vague_kobold_reference(db):
+    ctx = dict(CTX)
+    ctx['quests'] = [['Amenaza kobold', 12, 0, 91778]]
+    facts = retrieve(_message('¿Dónde están esos kobolds?', ctx=ctx), db)
+    text = _text(facts)
+    assert 'La pregunta parece referirse a tu misión activa «Amenaza kobold».' in text
+    assert 'matar Kobold en Loch Modan (15.0, 25.0).' in text
+    assert 'npc:900004' in facts.sources
+
+
+def test_active_quest_reference_keeps_two_tied(db):
+    ctx = dict(CTX)
+    ctx['quests'] = [
+        ['Amenaza babosa', 12, 0, 91777],
+        ['Amenaza kobold', 12, 0, 91778],
+    ]
+    facts = retrieve(_message('¿Dónde está la amenaza?', ctx=ctx), db)
+    text = _text(facts)
+    assert 'La pregunta parece referirse a tu misión activa «Amenaza babosa».' in text
+    assert 'La pregunta parece referirse a tu misión activa «Amenaza kobold».' in text
+
+
+def test_active_quest_reference_ignores_common_tokens(db):
+    ctx = dict(CTX)
+    ctx['quests'] = [
+        ['Amenaza babosa', 12, 0, 91777],
+        ['Amenaza kobold', 12, 0, 91778],
+        ['Amenaza fúngica', 12, 0, 91779],
+    ]
+    facts = retrieve(_message('¿Dónde está la amenaza?', ctx=ctx), db)
+    assert facts.lines == []
+    assert not any(source.startswith('quest:') for source in facts.sources)
+
+
+def test_active_quest_reference_skips_named_quest(db):
+    ctx = dict(CTX)
+    ctx['quests'] = [['Devolución de libros', 12, 0, 91775]]
+    facts = retrieve(_message('¿Dónde entrego Devolución de libros?', ctx=ctx), db)
+    assert not any('parece referirse' in line for line in facts.lines)
+    assert 'quest:91775' in facts.sources
+
+
+def test_named_same_quest_prefers_active_id(db):
+    ctx = dict(CTX)
+    ctx['quests'] = [['Eco repetido', 20, 0, 92002]]
+    facts = retrieve(_message('¿Qué es Eco repetido?', ctx=ctx), db)
+    assert 'quest:92002' in facts.sources
+    assert 'quest:92001' not in facts.sources
+
+
+def test_active_quest_reference_needs_content_tokens(db):
+    facts = retrieve(_message('¿Dónde está eso?'), db)
+    assert not any('parece referirse' in line for line in facts.lines)
+
+    ctx = dict(CTX)
+    ctx['quests'] = [['Devolución de libros', 12, 0, 91775]]
+    facts = retrieve(_message('¿Dónde está eso?', ctx=ctx), db)
+    assert not any('parece referirse' in line for line in facts.lines)
+
+
 def test_flights_from_question(db):
     facts = retrieve(_message('¿Adónde puedo volar desde Forjaz?'), db)
     text = _text(facts)
@@ -524,3 +641,26 @@ def test_render_limit_keeps_priority(db):
     rendered = facts.render('esES')
     assert rendered.startswith('DATOS VERIFICADOS')
     assert len(rendered) <= 1600
+
+
+class _PlaceQuestDb:
+    def find_quest(self, name_or_id, lang='es', player_level=None, prefer_ids=None):
+        return {'id': 93001, 'name': 'Un envío para Ventormenta', 'level': 7,
+                'objective_items': [], 'objective_item_ids': [], 'objective_creatures': []}
+
+    def quest_details(self, quest_id, lang='es'):
+        return None
+
+
+def test_active_quest_reference_ignores_place_names():
+    ctx = {'quests': [['Un envío para Ventormenta', 7, 0, 93001]]}
+    matches = [{'kind': 'zone', 'id': 1519, 'name': 'Ventormenta'}]
+    facts = Facts()
+    _detect_active_quest_reference(facts, _PlaceQuestDb(), '¿Cómo voy a Ventormenta?',
+                                   'como voy a ventormenta', 'es', ctx, matches)
+    assert facts.lines == []
+
+    facts = Facts()
+    _detect_active_quest_reference(facts, _PlaceQuestDb(), '¿Dónde dejo el envío?',
+                                   'donde dejo el envio', 'es', ctx, [])
+    assert any('parece referirse' in line for line in facts.lines)

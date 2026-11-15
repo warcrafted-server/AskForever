@@ -57,6 +57,7 @@ local function ReadClassicQuest(index)
         level = results[3],
         isHeader = results[5],
         complete = results[7] and true or false,
+        id = results[9],
     }
 end
 
@@ -90,6 +91,7 @@ local function CollectQuests()
                     complete = info.isComplete and true or false,
                     isHeader = info.isHeader,
                     isHidden = info.isHidden,
+                    id = info.questID,
                 }
             end
         else
@@ -102,6 +104,7 @@ local function CollectQuests()
                 title = entry.title,
                 level = entry.level,
                 complete = entry.complete,
+                id = entry.id,
             }
         end
     end

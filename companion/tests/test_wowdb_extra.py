@@ -223,12 +223,18 @@ def db(tmp_path):
     _insert(conn, 'ext_quests', ['quest_id', 'required_level', 'quest_level'], [
         (91775, 10, 12),
         (91776, 10, 12),
+        (92001, 10, 10),
+        (92002, 10, 20),
     ])
     _insert(conn, 'ext_quest_l10n', ['quest_id', 'locale', 'name'], [
         (91775, 'esES', 'Devolución de libros'),
         (91775, 'enUS', 'Book Return'),
         (91776, 'esES', 'Matar troggs'),
         (91776, 'enUS', 'Kill Troggs'),
+        (92001, 'esES', 'Eco repetido'),
+        (92001, 'enUS', 'Echo Repeat'),
+        (92002, 'esES', 'Eco repetido'),
+        (92002, 'enUS', 'Echo Repeat'),
     ])
     _insert(conn, 'ext_quest_objective_items',
             ['quest_id', 'position', 'item_id', 'text', 'icon_type'], [
@@ -349,6 +355,12 @@ def test_quest_objective_creatures(db):
         {'id': 1162, 'name': 'Trog C'},
         {'id': 900003, 'name': 'Criatura sin posición'},
     ]
+
+
+def test_find_quest_prefers_active_same_name(db):
+    assert db.find_quest('Eco repetido')['id'] == 92001
+    assert db.find_quest('Eco repetido', prefer_ids=[])['id'] == 92001
+    assert db.find_quest('Eco repetido', prefer_ids=[92002])['id'] == 92002
 
 
 def test_item_sources_from_v_botin(db):

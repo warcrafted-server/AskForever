@@ -424,7 +424,8 @@ class WowDb:
             'objective_creatures': objective_creatures,
         }
 
-    def find_quest(self, name_or_id, lang: str = 'es', player_level=None):
+    def find_quest(self, name_or_id, lang: str = 'es', player_level=None,
+                   prefer_ids=None):
         quest_id = _as_int(name_or_id)
         if quest_id is not None:
             return self._quest_dict(quest_id, lang)
@@ -440,6 +441,16 @@ class WowDb:
         if not matches:
             return None
 
+        preferred = set()
+        if prefer_ids:
+            for value in prefer_ids:
+                if isinstance(value, bool):
+                    continue
+                if isinstance(value, int):
+                    preferred.add(value)
+                elif isinstance(value, float) and value.is_integer():
+                    preferred.add(int(value))
+
         def score(candidate):
             quest = self._quest_dict(candidate, lang) or {}
             level = quest.get('level')
@@ -449,7 +460,8 @@ class WowDb:
             else:
                 distance = 0
             level_key = level if isinstance(level, (int, float)) else 10 ** 6
-            return (0 if has_starter else 1, distance, level_key, candidate)
+            return (0 if candidate in preferred else 1,
+                    0 if has_starter else 1, distance, level_key, candidate)
 
         best = min(matches, key=score)
         result = self._quest_dict(best, lang)
