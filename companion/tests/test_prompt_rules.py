@@ -44,3 +44,11 @@ def test_levelling_question_is_not_travel():
     assert not is_travel_question('qué talentos cojo para subir de nivel')
     assert is_travel_question('quiero ir a Forjaz')
     assert is_travel_question('¿Cómo voy a Ventormenta?')
+
+
+def test_prompt_does_not_cite_internal_sources():
+    from askforever.engine.prompt import build_prompt
+    system, _user = build_prompt({'lang': 'esES', 'q': '¿Cuándo tengo montura?'})
+    assert 'No digas de dónde sale cada dato' in system
+    system, _user = build_prompt({'lang': 'enUS', 'q': 'When do I get a mount?'})
+    assert 'Do not say where each piece of data comes from' in system

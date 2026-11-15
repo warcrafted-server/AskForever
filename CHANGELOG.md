@@ -29,6 +29,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Added: for general questions the AI first picks, from a table of contents of the guide, the sections that answer them (falls back to keyword search if it fails); can be turned off with ASKFOREVER_GUIDE_ROUTER=0.
 - Fixed: "level up" questions were taken as travel questions ("ir de" inside "subir de nivel"); sections of another race or class are only used when the question names it; follow-ups starting with "but" or "then" keep the previous topic; the AI gives guide recommendations with their reason; the sleeping bag questline step by step and which hunter pet to pick for levelling.
 - Fixed: the sections chosen by the AI go first even when keyword search had already found them (they could be cut), "when can I go by horse?" is no longer a travel question, and one-word quest names ("Attention!") only match when the question talks about quests.
+- Changed: the AI states facts directly without saying where they come from ("according to the guide").
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
@@ -55,6 +56,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Añadido: en las preguntas generales la IA elige primero, en un índice de la guía, las secciones que las responden (si falla, se usa la búsqueda por palabras); se desactiva con ASKFOREVER_GUIDE_ROUTER=0.
 - Corregido: las preguntas sobre «subir de nivel» se tomaban por preguntas de viaje («ir de» dentro de «subir de nivel»); las secciones de otra raza o clase solo se usan si la pregunta la nombra; los seguimientos que empiezan por «pero» o «entonces» mantienen el tema; la IA da las recomendaciones de la guía con su motivo; la cadena del saco de dormir paso a paso y qué mascota elegir como cazador para subir.
 - Corregido: las secciones elegidas por la IA van primero aunque la búsqueda por palabras ya las hubiera encontrado (podían quedar recortadas), «¿cuándo podré ir a caballo?» ya no se toma por un viaje y las misiones de una sola palabra («¡Atención!») solo se reconocen si la pregunta habla de misiones.
+- Cambiado: la IA da los datos directamente sin decir de dónde salen («según la guía»).
 
 ## [0.3.0-beta.4] - 2026-11-15
 

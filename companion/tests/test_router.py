@@ -184,7 +184,7 @@ def test_answer_router_on_adds_section_first_and_keeps_answer(sections):
     assert 'Sección elegida.' in result.facts_text
     assert 'Las mascotas comen.' in result.facts_text
     guide_lines = [line for line in result.facts
-                   if line.startswith(('Guía de WoW Forever:', 'Guía verificada'))]
+                   if line.startswith(('En WoW Forever:', 'Guía verificada'))]
     assert guide_lines[0].endswith('Sección elegida.')
     assert any('Las mascotas comen.' in line for line in guide_lines)
     assert len(provider.calls) == 2
@@ -311,13 +311,13 @@ def test_routed_section_already_found_moves_to_the_front(monkeypatch):
                  'text_en': f'Text {name}.'} for name in ('a', 'b', 'c', 'd', 'e')]
 
     monkeypatch.setattr(guide_mod, 'load_sections', fake_sections)
-    facts = Facts(lines=['Dato de la base.'] + [f'Guía de WoW Forever: Texto {name}.'
+    facts = Facts(lines=['Dato de la base.'] + [f'En WoW Forever: Texto {name}.'
                                                   for name in ('b', 'c', 'd', 'a')])
 
     class Db:
         pass
 
     add_guide_sections(facts, Db(), ['a', 'e'], 'es')
-    guide_lines = [line for line in facts.lines if line.startswith('Guía')]
-    assert guide_lines[:2] == ['Guía de WoW Forever: Texto a.', 'Guía de WoW Forever: Texto e.']
+    guide_lines = [line for line in facts.lines if line.startswith('En WoW Forever')]
+    assert guide_lines[:2] == ['En WoW Forever: Texto a.', 'En WoW Forever: Texto e.']
     assert len(guide_lines) == 4

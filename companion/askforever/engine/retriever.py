@@ -2035,14 +2035,15 @@ def _detect_quest_list(facts: Facts, db, normalized: str, lang: str, ctx: dict) 
 
 def _guide_label(status, lang: str) -> str:
     spanish = str(lang).lower().startswith('es')
-    if status == 'verificado':
-        return 'Guía verificada de WoW Forever: ' if spanish else 'Verified WoW Forever guide: '
+    # Etiquetas neutras: con «Guía de…» o «Texto oficial…» la IA acababa diciendo «según la
+    # guía», y Marc no quiere que se cite la fuente.
     if status:
-        return 'Guía de WoW Forever: ' if spanish else 'WoW Forever guide: '
-    return 'Texto oficial del juego: ' if spanish else 'Official game text: '
+        return 'En WoW Forever: ' if spanish else 'In WoW Forever: '
+    return 'En el juego: ' if spanish else 'In game: '
 
 
 _GUIDE_LABELS = (
+    'En WoW Forever: ', 'In WoW Forever: ', 'En el juego: ', 'In game: ',
     'Guía verificada de WoW Forever: ', 'Guía de WoW Forever: ',
     'Texto oficial del juego: ', 'Verified WoW Forever guide: ',
     'WoW Forever guide: ', 'Official game text: ',
