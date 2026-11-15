@@ -277,6 +277,10 @@ CAPITAL_FACTION = {
     1519: 'A', 1537: 'A', 1657: 'A',
     1637: 'H', 1497: 'H', 1638: 'H',
 }
+# Mazmorras nuevas de Forever dentro de una capital pero pensadas para las dos facciones
+# (tienen misiones de ambas): no se filtran por facción.
+BOTH_FACTION_DUNGEONS = {'hall of thanes', 'salon de los feudales',
+                         'ruins of lordaeron', 'ruinas de lordaeron'}
 
 
 def _forever_rows():
@@ -1317,7 +1321,7 @@ class WowDb:
         if ':' in text:
             text = text.split(':', 1)[0]
         target = _article_key(text)
-        if not target:
+        if not target or normalize(text).strip() in BOTH_FACTION_DUNGEONS:
             return None
         rows = self._rows(
             'SELECT name_enUS, name_esES, parent_zone_id FROM ext_dungeons')

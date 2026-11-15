@@ -744,3 +744,10 @@ def test_talent_detail_keeps_unresolved_text_as_none(db):
     assert detail['prerequisite'] == 'Tiro mortal'
     assert detail['rank1_text'] is None
     assert '10%' in detail['max_text']
+
+
+def test_new_both_faction_dungeons_are_never_capital_filtered(tmp_path):
+    db = WowDb(tmp_path / 'missing.sqlite')
+    for name in ('Salón de los Feudales', 'Ruinas de Lordaeron', 'Hall of Thanes',
+                 'Ruins of Lordaeron'):
+        assert db.dungeon_capital_faction(name) is None

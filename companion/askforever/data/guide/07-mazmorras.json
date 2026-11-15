@@ -23,8 +23,8 @@
         "new dungeons",
         "dungeon loot"
       ],
-      "text_es": "En Forever hay 35 mazmorras repartidas en 28 instancias, desde nivel 13 hasta 60, con clásicas y nuevas. El botín y las misiones de las mazmorras de nivel alto se descubren jugando, así que las guías se añaden poco a poco. Cada mazmorra tiene un rango de nivel y varias misiones; los jefes y el botín exacto salen de la base de datos.",
-      "text_en": "Forever has 35 dungeons across 28 instances, from level 13 to 60, mixing classic and new ones. Loot and quests for higher-level dungeons are discovered by playing, so their guides are added over time. Each dungeon has a level range and several quests; exact bosses and loot come from the game database.",
+      "text_es": "En Forever hay 35 mazmorras repartidas en 28 instancias, desde nivel 13 hasta 60, con clásicas y nuevas. El botín y las misiones de las mazmorras de nivel alto se van descubriendo al jugarlas. Cada mazmorra tiene un rango de nivel y varias misiones; los jefes y el botín exacto salen de la base de datos.",
+      "text_en": "Forever has 35 dungeons across 28 instances, from level 13 to 60, mixing classic and new ones. Loot and quests for higher-level dungeons are being discovered as people play them. Each dungeon has a level range and several quests; exact bosses and loot come from the game database.",
       "sources": [
         {
           "type": "editorial",
@@ -223,8 +223,8 @@
         "new ironforge dungeon",
         "hall of thanes quests"
       ],
-      "text_es": "El Salón de los Feudales es nuevo, de nivel 13-18, y está en Forjaz, bajo la Sala del Trono, en la Vieja Forjaz. La Alianza tiene tres de sus cinco misiones y un acceso cómodo; la Horda puede entrar, pero llega peor. En Faldrim limpia las apariciones antes; con Magmatus mata primero al summoner y aparta al jefe del grupo; con Durgen ocupa a los gólems y limpia la sala antes. Plunder empuja: llévalo a la sala anterior para no atraer más mobs.",
-      "text_en": "Hall of Thanes is new, level 13-18, and lies in Ironforge under the throne room, in Old Ironforge. Alliance has three of its five quests and an easy approach; Horde can enter but has a harder trip. Clear the apparitions before Faldrim; with Magmatus kill the summoner first and keep the boss away from the group; with Durgen handle the golems and clear the room first. Plunder knocks back: pull him to the previous room so you do not attract more mobs.",
+      "text_es": "El Salón de los Feudales es nuevo, de nivel 13-20, y está en Forjaz, bajo la Sala del Trono, en la Vieja Forjaz. La Alianza tiene tres de sus cinco misiones y un acceso cómodo; la Horda puede entrar, pero llega peor. En Faldrim limpia las apariciones antes; con Magmatus mata primero al summoner y aparta al jefe del grupo; con Durgen ocupa a los gólems y limpia la sala antes. Plunder empuja: llévalo a la sala anterior para no atraer más mobs.",
+      "text_en": "Hall of Thanes is new, level 13-20, and lies in Ironforge under the throne room, in Old Ironforge. Alliance has three of its five quests and an easy approach; Horde can enter but has a harder trip. Clear the apparitions before Faldrim; with Magmatus kill the summoner first and keep the boss away from the group; with Durgen handle the golems and clear the room first. Plunder knocks back: pull him to the previous room so you do not attract more mobs.",
       "sources": [
         {
           "type": "editorial",
@@ -291,8 +291,8 @@
         "new undercity dungeon",
         "ruins of lordaeron quests"
       ],
-      "text_es": "Las Ruinas de Lordaeron son nuevas, de nivel 15-20, y están en Entrañas, a la izquierda de la entrada a las Ruinas. Tiene seis jefes y un raro; las misiones se reparten entre seis de Horda y cuatro de Alianza. El Barón empuja y reduce la amenaza del tanque, que debe volver a provocarlo; Viktor y The Abandoned invocan oleadas, así que guarda curación; Rath'mael exige interrumpir su golpe de llamas. El Lordaeron Captain es raro, amistoso para la Alianza y solo lo puede matar la Horda.",
-      "text_en": "Ruins of Lordaeron is new, level 15-20, and sits in Undercity, left of the entrance to the Ruins. It has six bosses and a rare; quests split into six Horde and four Alliance. The Baron knocks back and lowers the tank's threat, so the tank must taunt him back; Viktor and The Abandoned summon waves, so save healing; Rath'mael requires interrupting his flame strike. The Lordaeron Captain is a rare, friendly to Alliance, and only Horde can kill him.",
+      "text_es": "Las Ruinas de Lordaeron son nuevas, de nivel 15-22, y están en Entrañas, a la izquierda de la entrada a las Ruinas. Tiene seis jefes y un raro; las misiones se reparten entre seis de Horda y cuatro de Alianza. El Barón empuja y reduce la amenaza del tanque, que debe volver a provocarlo; Viktor y The Abandoned invocan oleadas, así que guarda curación; Rath'mael exige interrumpir su golpe de llamas. El Lordaeron Captain es raro, amistoso para la Alianza y solo lo puede matar la Horda.",
+      "text_en": "Ruins of Lordaeron is new, level 15-22, and sits in Undercity, left of the entrance to the Ruins. It has six bosses and a rare; quests split into six Horde and four Alliance. The Baron knocks back and lowers the tank's threat, so the tank must taunt him back; Viktor and The Abandoned summon waves, so save healing; Rath'mael requires interrupting his flame strike. The Lordaeron Captain is a rare, friendly to Alliance, and only Horde can kill him.",
       "sources": [
         {
           "type": "editorial",
