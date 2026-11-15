@@ -53,6 +53,8 @@ SCHEMA = [
     'x REAL, y REAL, phase INTEGER)',
     'CREATE TABLE ext_quest_objective_creatures (quest_id INTEGER, position INTEGER, '
     'npc_id INTEGER, text TEXT, icon_type INTEGER)',
+    'CREATE TABLE ext_npcs (npc_id INTEGER, min_level INTEGER, max_level INTEGER, '
+    'friendly_to_faction TEXT)',
 ]
 
 
@@ -236,6 +238,14 @@ def db(tmp_path):
         (92002, 'esES', 'Eco repetido'),
         (92002, 'enUS', 'Echo Repeat'),
     ])
+    _insert(conn, 'ext_quest_starters', ['quest_id', 'entity_type', 'entity_id'], [
+        (92001, 'npc', 7000),
+        (92002, 'npc', 258098),
+    ])
+    _insert(conn, 'ext_npcs', ['npc_id', 'min_level', 'max_level', 'friendly_to_faction'], [
+        (7000, 60, 60, 'H'),
+        (258098, 60, 60, 'A'),
+    ])
     _insert(conn, 'ext_quest_objective_items',
             ['quest_id', 'position', 'item_id', 'text', 'icon_type'], [
         (91775, 0, 248001, 'Álbum de fotos', None),
@@ -361,6 +371,15 @@ def test_find_quest_prefers_active_same_name(db):
     assert db.find_quest('Eco repetido')['id'] == 92001
     assert db.find_quest('Eco repetido', prefer_ids=[])['id'] == 92001
     assert db.find_quest('Eco repetido', prefer_ids=[92002])['id'] == 92002
+
+
+def test_find_quest_prefers_same_faction_variant(db):
+    assert db.find_quest('Eco repetido', faction='A')['id'] == 92002
+    assert db.find_quest('Eco repetido', faction='H')['id'] == 92001
+    assert db.find_quest('Eco repetido')['id'] == 92001
+    starter = db.find_quest(92001)['starters'][0]
+    assert starter['type'] == 'npc'
+    assert starter['faction'] == 'H'
 
 
 def test_item_sources_from_v_botin(db):

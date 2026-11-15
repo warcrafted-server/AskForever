@@ -364,13 +364,19 @@ class WowDb:
         for row in rows:
             entity_type = row['entity_type']
             entity_id = row['entity_id']
+            faction = None
             if entity_type == 'npc':
                 name, sub_name = self._npc_names(entity_id, lang)
                 locations = self.npc_locations(entity_id, lang=lang)
+                faction_rows = self._rows(
+                    'SELECT friendly_to_faction FROM ext_npcs WHERE npc_id = ? LIMIT 1',
+                    (entity_id,))
+                if faction_rows:
+                    faction = faction_rows[0]['friendly_to_faction'] or None
             elif entity_type == 'object':
                 name = self._localized('ext_object_l10n', 'object_id', entity_id, lang)
                 sub_name = ''
-                locations = []
+                locations = self.object_locations(entity_id, lang=lang)
             elif entity_type == 'item':
                 name = self._localized('ext_item_l10n', 'item_id', entity_id, lang)
                 sub_name = ''
@@ -383,6 +389,7 @@ class WowDb:
                 'name': name,
                 'sub_name': sub_name,
                 'locations': locations,
+                'faction': faction,
             })
         return entities
 
@@ -425,7 +432,7 @@ class WowDb:
         }
 
     def find_quest(self, name_or_id, lang: str = 'es', player_level=None,
-                   prefer_ids=None):
+                   prefer_ids=None, faction=None):
         quest_id = _as_int(name_or_id)
         if quest_id is not None:
             return self._quest_dict(quest_id, lang)
@@ -454,13 +461,23 @@ class WowDb:
         def score(candidate):
             quest = self._quest_dict(candidate, lang) or {}
             level = quest.get('level')
-            has_starter = bool(quest.get('starters'))
+            starters = quest.get('starters') or []
+            has_starter = bool(starters)
+            faction_key = 0
+            if faction in ('A', 'H') and starters:
+                def usable(starter):
+                    if not isinstance(starter, dict):
+                        return True
+                    return (starter.get('type') in ('object', 'item')
+                            or (starter.get('faction') or '') in ('', 'AH', faction))
+
+                faction_key = 0 if any(usable(starter) for starter in starters) else 1
             if player_level is not None and isinstance(level, (int, float)):
                 distance = abs(level - player_level)
             else:
                 distance = 0
             level_key = level if isinstance(level, (int, float)) else 10 ** 6
-            return (0 if candidate in preferred else 1,
+            return (0 if candidate in preferred else 1, faction_key,
                     0 if has_starter else 1, distance, level_key, candidate)
 
         best = min(matches, key=score)

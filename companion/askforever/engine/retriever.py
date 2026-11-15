@@ -164,6 +164,60 @@ def _location_text(location) -> str:
     return zone or ''
 
 
+def _current_zone(ctx) -> str:
+    if isinstance(ctx, str):
+        return normalize(ctx)
+    if not isinstance(ctx, dict):
+        return ''
+    return normalize(ctx.get('zone') or '')
+
+
+def _locations_for_zone(locations, ctx, limit=None):
+    """Ordena las ubicaciones con las de la zona actual primero."""
+    if not isinstance(locations, (list, tuple)):
+        return []
+    ordered = list(locations)
+    zone = _current_zone(ctx)
+    if zone:
+        ordered.sort(key=lambda location: 0 if (
+            isinstance(location, dict)
+            and normalize(location.get('zone') or '') == zone) else 1)
+    return ordered[:limit] if limit is not None else ordered
+
+
+def _entities_for_player(entities, ctx):
+    """Filtra los PNJ de la facción contraria y prioriza la zona actual."""
+    located = []
+    for entity in entities or []:
+        if not isinstance(entity, dict):
+            continue
+        locations = _locations_for_zone(entity.get('locations') or [], ctx)
+        if not locations:
+            continue
+        located.append(dict(entity, locations=locations))
+    faction = _faction(ctx.get('fac')) if isinstance(ctx, dict) else None
+    candidates = located
+    if faction in ('A', 'H'):
+        opposite = 'H' if faction == 'A' else 'A'
+        filtered = []
+        for entity in located:
+            entity_type = entity.get('type')
+            if entity_type not in ('object', 'item'):
+                if (entity.get('faction') or '') == opposite:
+                    continue
+            filtered.append(entity)
+        if filtered:
+            candidates = filtered
+    zone = _current_zone(ctx)
+    if zone:
+        candidates = sorted(
+            candidates,
+            key=lambda entity: 0 if any(
+                normalize(location.get('zone') or '') == zone
+                for location in entity['locations']) else 1)
+    return candidates
+
+
 def _add_source(facts: Facts, source: str) -> None:
     if source not in facts.sources:
         facts.sources.append(source)
@@ -182,23 +236,27 @@ def _level_text(low, high, lang: str) -> str:
     return f'niveles {low}-{high}' if lang == 'es' else f'levels {low}-{high}'
 
 
-def _quest_line(quest, lang: str, details=None) -> str:
+def _quest_line(quest, lang: str, details=None, ctx=None) -> str:
     name = quest.get('name') or ''
     level = quest.get('level')
     required = quest.get('required_level')
-    starters = [item for item in quest.get('starters') or [] if item.get('locations')]
-    finishers = [item for item in quest.get('finishers') or [] if item.get('locations')]
+    starters = _entities_for_player(quest.get('starters') or [], ctx)
+    finishers = _entities_for_player(quest.get('finishers') or [], ctx)
     objectives = quest.get('objective_items') or []
     variants = quest.get('variants') or 1
 
     parts = []
     if lang == 'es':
         if starters:
-            parts.append(f'la da {_entity_name(starters[0])} en '
-                         f'{_location_text(starters[0]["locations"][0])}')
+            places = [f'{_entity_name(item)} en '
+                      f'{_location_text(item["locations"][0])}'
+                      for item in starters[:2]]
+            parts.append('la da ' + ' o '.join(places))
         if finishers:
-            parts.append(f'se entrega a {_entity_name(finishers[0])} en '
-                         f'{_location_text(finishers[0]["locations"][0])}')
+            places = [f'{_entity_name(item)} en '
+                      f'{_location_text(item["locations"][0])}'
+                      for item in finishers[:2]]
+            parts.append('se entrega a ' + ' o '.join(places))
         text = f'Misión «{name}» (nivel {level}, requiere {required})'
         if parts:
             text += ': ' + '; '.join(parts) + '.'
@@ -219,11 +277,15 @@ def _quest_line(quest, lang: str, details=None) -> str:
         return text
 
     if starters:
-        parts.append(f'given by {_entity_name(starters[0])} in '
-                     f'{_location_text(starters[0]["locations"][0])}')
+        places = [f'{_entity_name(item)} in '
+                  f'{_location_text(item["locations"][0])}'
+                  for item in starters[:2]]
+        parts.append('given by ' + ' or '.join(places))
     if finishers:
-        parts.append(f'turned in to {_entity_name(finishers[0])} in '
-                     f'{_location_text(finishers[0]["locations"][0])}')
+        places = [f'{_entity_name(item)} in '
+                  f'{_location_text(item["locations"][0])}'
+                  for item in finishers[:2]]
+        parts.append('turned in to ' + ' or '.join(places))
     text = f'Quest "{name}" (level {level}, requires {required})'
     if parts:
         text += ': ' + '; '.join(parts) + '.'
@@ -316,7 +378,7 @@ def _npc_line(npc, lang: str) -> str:
     return f'NPC {name}: {places}.' if places else f'NPC {name}: no known positions.'
 
 
-def _item_line(item, lang: str) -> str:
+def _item_line(item, lang: str, ctx=None) -> str:
     name = item.get('name') or ''
     parts = []
     vendors = item.get('vendors') or []
@@ -324,7 +386,7 @@ def _item_line(item, lang: str) -> str:
         label = 'vendedores' if lang == 'es' else 'vendors'
         parts.append(f"{label}: " + ', '.join(
             vendor.get('npc') or '' for vendor in vendors))
-    drops = item.get('drops') or []
+    drops = _locations_for_zone(item.get('drops') or [], ctx)
     if drops:
         label = 'botín' if lang == 'es' else 'drops'
         pieces = []
@@ -336,7 +398,7 @@ def _item_line(item, lang: str) -> str:
                 npc = npc + (' en ' if lang == 'es' else ' in ') + place
             pieces.append(f'{npc} ({rate} %)' if rate is not None else npc)
         parts.append(f'{label}: ' + ', '.join(pieces))
-    objects = item.get('objects') or []
+    objects = _locations_for_zone(item.get('objects') or [], ctx)
     if objects:
         label = 'se recoge de' if lang == 'es' else 'gathered from'
         pieces = []
@@ -393,7 +455,7 @@ def _active_quest_ids(ctx):
 
 def _add_quest_facts(facts: Facts, db, quest, lang: str, ctx: dict) -> None:
     details = _safe(db.quest_details, quest['id'], lang)
-    facts.lines.append(_quest_line(quest, lang, details))
+    facts.lines.append(_quest_line(quest, lang, details, ctx))
     _add_source(facts, f'quest:{quest["id"]}')
     objective_ids = quest.get('objective_item_ids') or []
     for item_id in objective_ids[:3]:
@@ -402,7 +464,7 @@ def _add_quest_facts(facts: Facts, db, quest, lang: str, ctx: dict) -> None:
         item = _safe(db.item_sources, item_id, lang)
         if item is None:
             continue
-        facts.lines.append(_item_line(item, lang))
+        facts.lines.append(_item_line(item, lang, ctx))
         _add_source(facts, f'item:{item["id"]}')
     quest_name = quest.get('name') or ''
     creatures = quest.get('objective_creatures') or []
@@ -411,9 +473,10 @@ def _add_quest_facts(facts: Facts, db, quest, lang: str, ctx: dict) -> None:
         source = f'npc:{npc_id}'
         if source in facts.sources:
             continue
-        locations = _safe(db.npc_locations, npc_id, 2, lang)
+        locations = _safe(db.npc_locations, npc_id, 8, lang)
         name = creature.get('name') or ''
-        places = [_location_text(location) for location in (locations or [])]
+        locations = _locations_for_zone(locations or [], ctx, limit=2)
+        places = [_location_text(location) for location in locations]
         places = [place for place in places if place]
         if lang == 'es':
             line = f'Objetivo de la misión «{quest_name}»: matar {name}'
@@ -449,6 +512,7 @@ def _token_matches(question_token, vocabulary_token):
 
 def _detect_entities(facts: Facts, db, matches, normalized: str, lang: str, ctx: dict):
     player_level = ctx.get('lvl')
+    faction = _faction(ctx.get('fac'))
     active_ids = _active_quest_ids(ctx)
     wants_final = any(word in normalized for word in FINAL_KEYWORDS)
     wants_bosses = (any(word in normalized for word in BOSS_KEYWORDS)
@@ -461,13 +525,13 @@ def _detect_entities(facts: Facts, db, matches, normalized: str, lang: str, ctx:
         if normalize(match.get('name') or '') in GENERIC_ENTITY_NAMES:
             continue
         if kind == 'quest':
-            lookup = match.get('name') if active_ids else entity_id
+            lookup = match.get('name') if (active_ids or faction) else entity_id
             quest = db.find_quest(lookup or entity_id, lang,
                                   player_level=player_level,
-                                  prefer_ids=active_ids)
-            if quest is None and active_ids and lookup != entity_id:
+                                  prefer_ids=active_ids, faction=faction)
+            if quest is None and lookup != entity_id:
                 quest = db.find_quest(entity_id, lang, player_level=player_level,
-                                      prefer_ids=active_ids)
+                                      prefer_ids=active_ids, faction=faction)
             if quest is None:
                 continue
             _add_quest_facts(facts, db, quest, lang, ctx)
@@ -501,7 +565,7 @@ def _detect_entities(facts: Facts, db, matches, normalized: str, lang: str, ctx:
             item = db.item_sources(entity_id, lang)
             if item is None:
                 continue
-            facts.lines.append(_item_line(item, lang))
+            facts.lines.append(_item_line(item, lang, ctx))
             _add_source(facts, f'item:{item["id"]}')
     return has_dungeon, dungeon_level_answered
 
@@ -530,10 +594,11 @@ def _detect_active_quest_reference(facts: Facts, db, question, normalized: str,
         title = entry[0] if isinstance(entry[0], str) else ''
         level = entry[1] if len(entry) > 1 else None
         if quest_id is not None:
-            quest = _safe(db.find_quest, quest_id, lang)
+            quest = _safe(db.find_quest, quest_id, lang,
+                          faction=_faction(ctx.get('fac')))
         elif title:
             quest = _safe(db.find_quest, title, lang, player_level=level,
-                          prefer_ids=active_ids)
+                          prefer_ids=active_ids, faction=_faction(ctx.get('fac')))
         else:
             continue
         if isinstance(quest, dict):
@@ -1338,15 +1403,16 @@ def _detect_quest_list(facts: Facts, db, normalized: str, lang: str, ctx: dict) 
         if not isinstance(title, str) or not title.strip():
             continue
         level = entry[1] if len(entry) > 1 else None
-        quest = db.find_quest(title, lang, player_level=level)
+        quest = db.find_quest(title, lang, player_level=level,
+                              faction=_faction(ctx.get('fac')))
         if quest is None:
             if lang == 'es':
                 facts.lines.append(f'Misión «{title}» (nivel {level}): sin datos en la base')
             else:
                 facts.lines.append(f'Quest "{title}" (level {level}): not in the database')
             continue
-        starters = [item for item in quest.get('starters') or [] if item.get('locations')]
-        finishers = [item for item in quest.get('finishers') or [] if item.get('locations')]
+        starters = _entities_for_player(quest.get('starters') or [], ctx)
+        finishers = _entities_for_player(quest.get('finishers') or [], ctx)
         parts = []
         if starters:
             zone = starters[0]['locations'][0].get('zone') or ''

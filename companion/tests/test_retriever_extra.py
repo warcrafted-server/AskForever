@@ -9,7 +9,7 @@ import pytest
 from askforever.data.wowdb import WowDb
 from askforever.engine.retriever import (Facts, _active_quest_ids,
                                          _detect_active_quest_reference, _detect_entities,
-                                         _item_line, retrieve)
+                                         _entities_for_player, _item_line, _quest_line, retrieve)
 
 SCHEMA = [
     'CREATE TABLE ext_quests (quest_id INTEGER, required_level INTEGER, quest_level INTEGER)',
@@ -88,6 +88,7 @@ def db(tmp_path):
         (91779, 10, 12),
         (92001, 10, 10),
         (92002, 10, 20),
+        (79092, 9, 9),
     ])
     _insert(conn, 'ext_quest_l10n', ['quest_id', 'locale', 'name'], [
         (1338, 'esES', 'Un pedido de Pico Tormenta'),
@@ -110,14 +111,23 @@ def db(tmp_path):
         (92001, 'enUS', 'Echo Repeat'),
         (92002, 'esES', 'Eco repetido'),
         (92002, 'enUS', 'Echo Repeat'),
+        (79092, 'esES', 'Diario de investigación del archimago Theocritus'),
+        (79092, 'enUS', 'Archmage Theocritus Research Journal'),
     ])
     _insert(conn, 'ext_quest_starters', ['quest_id', 'entity_type', 'entity_id'], [
         (1338, 'npc', 1343),
         (96393, 'npc', 264936),
+        (79092, 'npc', 211022),
+        (79092, 'npc', 211033),
+        (79092, 'object', 386759),
+        (92001, 'npc', 7000),
+        (92002, 'npc', 258098),
     ])
     _insert(conn, 'ext_quest_finishers', ['quest_id', 'entity_type', 'entity_id'], [
         (1338, 'npc', 5413),
         (96393, 'npc', 2784),
+        (79092, 'npc', 211022),
+        (79092, 'npc', 211033),
     ])
     _insert(conn, 'ext_quest_objective_items',
             ['quest_id', 'position', 'item_id', 'text', 'icon_type'], [
@@ -128,6 +138,7 @@ def db(tmp_path):
             ['quest_id', 'position', 'npc_id', 'text', 'icon_type'], [
         (91776, 0, 1162, 'Trog C', None),
         (91776, 1, 900003, 'Criatura sin posición', None),
+        (91776, 2, 900005, 'Criatura viajera', None),
         (91778, 0, 900004, 'Kobold', None),
     ])
     _insert(conn, 'ext_npcs', ['npc_id', 'min_level', 'max_level', 'friendly_to_faction'], [
@@ -138,6 +149,9 @@ def db(tmp_path):
         (4991, 60, 60, 'A'),
         (258098, 60, 60, 'A'),
         (7000, 60, 60, 'H'),
+        (211022, 9, 9, 'H'),
+        (211033, 9, 9, 'A'),
+        (900005, 5, 5, None),
         (1163, 5, 6, 'A'),
         (1197, 5, 6, 'A'),
         (1162, 5, 6, 'A'),
@@ -153,6 +167,12 @@ def db(tmp_path):
         (258098, 'esES', 'Eldrun Rompetormentas', ''),
         (7000, 'esES', 'Haromm', 'Instructor\u00a0de\u00a0chamanes'),
         (7000, 'enUS', 'Haromm', 'Shaman Trainer'),
+        (211022, 'esES', 'Owen Thadd', None),
+        (211022, 'enUS', 'Owen Thadd', None),
+        (211033, 'esES', 'Garion Wendell', None),
+        (211033, 'enUS', 'Garion Wendell', None),
+        (900005, 'esES', 'Criatura viajera', None),
+        (900005, 'enUS', 'Travelling creature', None),
         (1163, 'esES', 'Trog A', None),
         (1197, 'esES', 'Trog B', None),
         (1162, 'esES', 'Trog C', None),
@@ -166,6 +186,10 @@ def db(tmp_path):
         (2784, 1537, 1, 39.09, 56.2),
         (258098, 1537, 1, 47.1, 13.8),
         (7000, 1637, 1, 10.0, 20.0),
+        (211022, 1497, 1, 60.0, 40.0),
+        (211033, 1519, 1, 48.9, 86.5),
+        (900005, 40, 1, 20.0, 30.0),
+        (900005, 38, 2, 25.0, 35.0),
         (1163, 38, 1, 10.0, 20.0),
         (1197, 38, 1, 11.0, 21.0),
         (1162, 38, 1, 12.0, 22.0),
@@ -179,6 +203,7 @@ def db(tmp_path):
         (0, 148, 'Darkshore', 'Costa Oscura'),
         (0, 1519, 'Stormwind City', 'Ciudad de Ventormenta'),
         (0, 1537, 'Ironforge', 'Forjaz'),
+        (0, 1497, 'Undercity', 'Entrañas'),
         (1, 1637, 'Orgrimmar', 'Orgrimmar'),
     ])
     _insert(conn, 'ext_dungeons', ['area_id', 'name_enUS', 'name_esES', 'parent_zone_id'], [
@@ -231,11 +256,14 @@ def db(tmp_path):
         (900001, 'enUS', 'Book Chest'),
         (900002, 'esES', 'Objeto sin coordenadas'),
         (900002, 'enUS', 'Object without coordinates'),
+        (386759, 'esES', 'Library Book'),
+        (386759, 'enUS', 'Library Book'),
     ])
     _insert(conn, 'ext_object_spawns', ['object_id', 'zone_id', 'spawn_idx', 'x', 'y',
                                         'phase'], [
         (900001, 40, 1, 42.5, 71.7, 0),
         (900002, 40, 1, -1.0, -1.0, 0),
+        (386759, 1519, 1, 50.0, 85.0, 0),
     ])
     _insert(conn, 'v_zona_niveles', ['area_id', 'nombre', 'nombre_en', 'nivel_min',
                                      'nivel_max', 'pnj', 'origen'], [
@@ -621,6 +649,103 @@ def test_english_zone_question(db):
     assert 'Zone Westfall: levels 11-20' in text
 
 
+def test_quest_line_filters_starters_and_finishers_by_faction(db):
+    quest = db.find_quest(79092)
+    alliance = _quest_line(quest, 'es', ctx={'fac': 'Alianza', 'zone': 'Forjaz'})
+    assert 'Garion Wendell' in alliance
+    assert 'Owen Thadd' not in alliance
+    assert 'Library Book' in alliance
+    assert 'se entrega a Garion Wendell' in alliance
+
+    horde = _quest_line(quest, 'es', ctx={'fac': 'Horda', 'zone': 'Orgrimmar'})
+    assert 'Owen Thadd' in horde
+    assert 'Garion Wendell' not in horde
+    assert 'Library Book' in horde
+    assert 'se entrega a Owen Thadd' in horde
+
+    english = _quest_line(quest, 'en', ctx={'fac': 'Alliance',
+                                            'zone': 'Stormwind City'})
+    assert 'given by Garion Wendell' in english
+    assert ' or Library Book' in english
+
+
+def test_quest_line_keeps_old_order_without_faction(db):
+    quest = db.find_quest(79092)
+    line = _quest_line(quest, 'es', ctx={'zone': 'Forjaz'})
+    assert 'Owen Thadd' in line
+    assert 'Garion Wendell' in line
+    assert line.index('Owen Thadd') < line.index('Garion Wendell')
+    assert 'Library Book' not in line
+
+    stormwind = _quest_line(quest, 'es', ctx={'zone': 'Ciudad de Ventormenta'})
+    assert stormwind.index('Garion Wendell') < stormwind.index('Owen Thadd')
+
+
+def test_entities_for_player_falls_back_when_everything_is_filtered():
+    entities = [{
+        'type': 'npc',
+        'name': 'Only Horde',
+        'faction': 'H',
+        'locations': [{'zone': 'Orgrimmar', 'x': 1.0, 'y': 2.0}],
+    }]
+    selected = _entities_for_player(entities, {'fac': 'Alianza'})
+    assert [entity['name'] for entity in selected] == ['Only Horde']
+
+
+def test_named_quest_variant_follows_faction(db):
+    ctx = dict(CTX)
+    ctx['fac'] = 'Alianza'
+    facts = retrieve(_message('¿Qué es Eco repetido?', ctx=ctx), db)
+    assert 'quest:92002' in facts.sources
+    assert 'quest:92001' not in facts.sources
+
+    ctx['fac'] = 'Horda'
+    facts = retrieve(_message('¿Qué es Eco repetido?', ctx=ctx), db)
+    assert 'quest:92001' in facts.sources
+    assert 'quest:92002' not in facts.sources
+
+
+def test_retrieve_quest_giver_follows_faction(db):
+    name = 'Diario de investigación del archimago Theocritus'
+    ctx = dict(CTX)
+    ctx['fac'] = 'Alianza'
+    text = _text(retrieve(_message(f'¿Quién da {name}?', ctx=ctx), db))
+    assert 'Garion Wendell' in text
+    assert 'Owen Thadd' not in text
+    assert 'Library Book' in text
+
+    ctx['fac'] = 'Horda'
+    text = _text(retrieve(_message(f'¿Quién da {name}?', ctx=ctx), db))
+    assert 'Owen Thadd' in text
+    assert 'Garion Wendell' not in text
+
+
+def test_objective_locations_prefer_current_zone(db):
+    ctx = dict(CTX)
+    ctx['zone'] = 'Loch Modan'
+    facts = retrieve(_message('¿Matar troggs?', ctx=ctx), db)
+    line = next(line for line in facts.lines if 'Criatura viajera' in line)
+    assert 'Loch Modan (25.0, 35.0)' in line
+    assert line.index('Loch Modan') < line.index('Páramos de Poniente')
+
+
+def test_item_line_orders_current_zone_first():
+    item = {
+        'name': 'Objeto de prueba',
+        'drops': [
+            {'npc': 'Drop Westfall', 'zone': 'Westfall', 'x': 1.0, 'y': 2.0, 'rate': 1},
+            {'npc': 'Drop Loch', 'zone': 'Loch Modan', 'x': 3.0, 'y': 4.0, 'rate': 1},
+        ],
+        'objects': [
+            {'object': 'Object Westfall', 'zone': 'Westfall', 'x': 5.0, 'y': 6.0},
+            {'object': 'Object Loch', 'zone': 'Loch Modan', 'x': 7.0, 'y': 8.0},
+        ],
+    }
+    line = _item_line(item, 'es', {'zone': 'Loch Modan'})
+    assert line.index('Drop Loch') < line.index('Drop Westfall')
+    assert line.index('Object Loch') < line.index('Object Westfall')
+
+
 def test_old_battery_still_works(db):
     quest = retrieve(_message('¿Dónde entrego Un pedido de Pico Tormenta?'), db)
     assert 'Furen Barbalarga' in _text(quest)
@@ -644,7 +769,8 @@ def test_render_limit_keeps_priority(db):
 
 
 class _PlaceQuestDb:
-    def find_quest(self, name_or_id, lang='es', player_level=None, prefer_ids=None):
+    def find_quest(self, name_or_id, lang='es', player_level=None,
+                   prefer_ids=None, faction=None):
         return {'id': 93001, 'name': 'Un envío para Ventormenta', 'level': 7,
                 'objective_items': [], 'objective_item_ids': [], 'objective_creatures': []}
 
