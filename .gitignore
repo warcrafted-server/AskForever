@@ -40,6 +40,9 @@ agentrelay.config.json
 # Capturas de diagnóstico del companion
 companion/tools/out/
 
+# TOC generado para la copia de desarrollo
+addon/AskForever/AskForeverDev.toc
+
 # Informes y registro de desarrollo
 addon/AskForever/dev/informes/
 addon/AskForever/dev/*.log*

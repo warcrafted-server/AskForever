@@ -82,7 +82,7 @@ try {
     $sourceFull = (Resolve-Path $source).Path
     Get-ChildItem -Path $source -Recurse -File | Where-Object { $_.Name -ne ".gitkeep" } | ForEach-Object {
         $relative = $_.FullName.Substring($sourceFull.Length).TrimStart('\') -replace '\\', '/'
-        if ($relative -like 'dev/*' -or $relative -eq 'AskForever.toc') {
+        if ($relative -like 'dev/*' -or $relative -eq 'AskForever.toc' -or $relative -eq 'AskForeverDev.toc') {
             return
         }
         $entry = "AskForever/$relative"
@@ -136,6 +136,9 @@ try {
     }
     if ($zipToc -match 'DevReport') {
         throw "El .toc del zip menciona DevReport."
+    }
+    if ($null -ne $check.GetEntry('AskForever/AskForeverDev.toc')) {
+        throw "El zip contiene AskForeverDev.toc."
     }
     foreach ($entryName in $requiredEntries) {
         if ($null -eq $check.GetEntry($entryName)) {

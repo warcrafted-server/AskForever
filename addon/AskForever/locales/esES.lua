@@ -2,6 +2,8 @@ local _, ns = ...
 
 ns.L_esES = {
     ADDON_LOADED_MSG = 'AskForever v%s cargado. Escribe /af para abrir la ventana.',
+    MSG_TWO_COPIES = 'AskForever: están activados a la vez el addon público y la copia de desarrollo '
+        .. '(%s). Desactiva uno de los dos en la lista de AddOns.',
     PROMPT_INSTRUCTION = 'Estás ayudando a un jugador de World of Warcraft. Responde de forma breve y '
         .. 'precisa usando solo información fiable; si no estás seguro, dilo.',
     CTX_LEVEL = 'Nivel: %s',

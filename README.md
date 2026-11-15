@@ -41,6 +41,9 @@ The addon folder also includes `README.txt` and a `docs` folder with the install
 
 👉 **[Full installation guide](docs/INSTALL_GUIDE.md)**
 
+### Development
+Run `scripts\dev-link.ps1` to link this repository as a development copy. It appears in the AddOns list as **AskForever (dev)** and can coexist with the CurseForge install; enable only one at a time. Restart WoW completely the first time.
+
 ### Disclaimer
 AI answers may contain mistakes; double-check important details in game. Blizzard has no official position on desktop companions: AskForever is designed not to automate any gameplay action, but use it at your own risk.
 
@@ -76,6 +79,9 @@ Consulta la [hoja de ruta](ROADMAP.md), el [CHANGELOG](CHANGELOG.md) y el [TODO]
 La carpeta del addon también incluye `README.txt` y una carpeta `docs` con la guía de instalación y el informe de seguridad y transparencia de datos.
 
 👉 **[Guía de instalación completa](docs/GUIA_INSTALACION.md)**
+
+### Desarrollo
+Ejecuta `scripts\dev-link.ps1` para enlazar este repositorio como copia de desarrollo. Aparece en la lista de AddOns como **AskForever (desarrollo)** y puede convivir con la instalación de CurseForge; activa solo una a la vez. Reinicia WoW por completo la primera vez.
 
 ### Aviso
 Las respuestas de IA pueden contener errores; verifica lo importante en el juego. Blizzard no tiene una postura oficial sobre programas de escritorio: AskForever está diseñado para no automatizar ninguna acción de juego, pero úsalo bajo tu responsabilidad.

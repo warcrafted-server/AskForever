@@ -1,4 +1,4 @@
-local _, ns = ...
+local ADDON, ns = ...
 
 ns.UI = ns.UI or {}
 
@@ -44,5 +44,5 @@ ns.UI.Theme = {
         edgeFile = 'Interface\\Buttons\\WHITE8X8',
         edgeSize = 1,
     },
-    icon = 'Interface\\AddOns\\AskForever\\Media\\Icon',
+    icon = 'Interface\\AddOns\\' .. ADDON .. '\\Media\\Icon',
 }

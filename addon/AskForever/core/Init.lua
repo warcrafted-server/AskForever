@@ -59,3 +59,15 @@ eventFrame:SetScript('OnEvent', function(self, event, addonName)
 
     print(ns.L.ADDON_LOADED_MSG:format(GetAddonVersion() or '?'))
 end)
+
+local loginFrame = CreateFrame('Frame')
+loginFrame:RegisterEvent('PLAYER_LOGIN')
+loginFrame:SetScript('OnEvent', function(self)
+    self:UnregisterEvent('PLAYER_LOGIN')
+    local other = ADDON == 'AskForever' and 'AskForeverDev' or 'AskForever'
+    local isLoaded = (C_AddOns and C_AddOns.IsAddOnLoaded) or IsAddOnLoaded
+    local ok, loaded = pcall(isLoaded, other)
+    if ok and loaded then
+        print(ns.L.MSG_TWO_COPIES:format(other))
+    end
+end)

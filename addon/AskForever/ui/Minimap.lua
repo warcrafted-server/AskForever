@@ -1,4 +1,4 @@
-local _, ns = ...
+local ADDON, ns = ...
 
 ns.UI = ns.UI or {}
 
@@ -6,7 +6,7 @@ local BUTTON_SIZE = 31
 local ICON_SIZE = 20
 local BORDER_SIZE = 54
 local DEFAULT_ANGLE = 225
-local ICON_TEXTURE = 'Interface\\AddOns\\AskForever\\Media\\MinimapIcon'
+local ICON_TEXTURE = 'Interface\\AddOns\\' .. ADDON .. '\\Media\\MinimapIcon'
 local BORDER_TEXTURE = 'Interface\\Minimap\\MiniMap-TrackingBorder'
 local HIGHLIGHT_TEXTURE = 'Interface\\Minimap\\UI-Minimap-ZoomButton-Highlight'
 local BACKGROUND_TEXTURE = 'Interface\\Minimap\\UI-Minimap-Background'
