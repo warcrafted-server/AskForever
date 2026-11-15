@@ -32,6 +32,53 @@ ERROR_COLOUR = '#ff6b62'
 
 VISIBLE_ALPHA = 0.94
 
+SW_SHOWNOACTIVATE = 4
+HWND_TOPMOST = -1
+SWP_NOMOVE = 0x0002
+SWP_NOSIZE = 0x0001
+SWP_NOACTIVATE = 0x0010
+GAME_REFRESH_SECONDS = 2.0
+FOREGROUND_CHECK_SECONDS = 0.2
+
+
+def _load_user32():
+    """Carga user32 con los tipos que usa el overlay."""
+    import ctypes
+
+    user32 = ctypes.WinDLL('user32', use_last_error=True)
+    user32.GetParent.argtypes = [ctypes.c_void_p]
+    user32.GetParent.restype = ctypes.c_void_p
+    user32.GetWindowLongPtrW.argtypes = [ctypes.c_void_p, ctypes.c_int]
+    user32.GetWindowLongPtrW.restype = ctypes.c_ssize_t
+    user32.SetWindowLongPtrW.argtypes = [ctypes.c_void_p, ctypes.c_int,
+                                         ctypes.c_ssize_t]
+    user32.SetWindowLongPtrW.restype = ctypes.c_ssize_t
+    user32.ShowWindow.argtypes = [ctypes.c_void_p, ctypes.c_int]
+    user32.ShowWindow.restype = ctypes.c_bool
+    user32.SetWindowPos.argtypes = [ctypes.c_void_p, ctypes.c_void_p,
+                                    ctypes.c_int, ctypes.c_int, ctypes.c_int,
+                                    ctypes.c_int, ctypes.c_uint]
+    user32.SetWindowPos.restype = ctypes.c_bool
+    user32.IsWindow.argtypes = [ctypes.c_void_p]
+    user32.IsWindow.restype = ctypes.c_bool
+    user32.IsIconic.argtypes = [ctypes.c_void_p]
+    user32.IsIconic.restype = ctypes.c_bool
+    user32.GetForegroundWindow.restype = ctypes.c_void_p
+    return user32
+
+
+def game_in_front(hwnd, foreground_hwnd, is_window, is_iconic) -> bool:
+    """True solo si la ventana del juego existe, no está minimizada y está delante."""
+    try:
+        if not hwnd or not is_window(hwnd):
+            return False
+        if is_iconic(hwnd):
+            return False
+        return foreground_hwnd == hwnd
+    except Exception:
+        return False
+
+
 class OverlayUnavailable(Exception):
     """No se pudo crear la ventana tkinter del overlay."""
 
@@ -120,18 +167,28 @@ class Overlay:
     """Ventana que muestra el estado de la IA sin interferir con el juego."""
 
     def __init__(self, ttl=30.0, window_fn=find_game_window, clock=time.monotonic,
-                 state_queue=None, heartbeat=None):
+                 state_queue=None, heartbeat=None, user32=None):
         self.ttl = float(ttl)
         self.window_fn = window_fn
         self.clock = clock
         self.queue = state_queue if state_queue is not None else queue.Queue()
         self.heartbeat = heartbeat
+        self._user32 = user32
+        self._user32_loaded = user32 is not None
+        self._user32_injected = user32 is not None
         self._root = None
         self._title_label = None
         self._body_label = None
         self._title_visible = False
         self._expires_at = None
+        self._state_active = False
         self._mapped = False
+        self._shown = False
+        self._game_client = None
+        self._game_hwnd = None
+        self._last_window_refresh = None
+        self._last_foreground_check = None
+        self._foreground_allowed = False
         self._stop = None
         self._close_requested = False
         self._closed = False
@@ -208,6 +265,7 @@ class Overlay:
             root.destroy()
             return
 
+        self._map_invisible()
         root.after(50, self._poll)
         root.mainloop()
 
@@ -227,8 +285,16 @@ class Overlay:
             except queue.Empty:
                 pass
 
-            if self._expires_at is not None and self.clock() >= self._expires_at:
+            if self._state_active and self._expired():
                 self._hide_window()
+            allowed = self._visible_allowed()
+            # Solo se actúa al cambiar: recolocar y reafirmar «siempre encima» cada 50 ms
+            # costaría rendimiento al juego.
+            if self._state_active and allowed != self._shown:
+                if allowed:
+                    self._show_window()
+                else:
+                    self._set_alpha(0.0)
         except Exception:
             LOGGER.exception('Error en el bucle del overlay')
 
@@ -251,6 +317,7 @@ class Overlay:
                 self._hide_window()
                 return
 
+            self._state_active = True
             self._expires_at = state.expires_at
             if state.title:
                 if not self._title_visible:
@@ -273,71 +340,198 @@ class Overlay:
         except Exception:
             LOGGER.exception('Error al aplicar el estado del overlay')
 
+    def _expired(self):
+        return (self._expires_at is not None
+                and self.clock() >= self._expires_at)
+
     def _show_window(self):
         try:
+            if not self._mapped:
+                return
             root = self._root
             root.update_idletasks()
             height = max(60, root.winfo_reqheight())
-            try:
-                client = self.window_fn()
-            except Exception:
-                LOGGER.exception('No se pudo localizar la ventana del juego')
-                client = None
-            x, y = compute_position(client, WINDOW_WIDTH, height)
+            self._ensure_game_window()
+            x, y = compute_position(self._game_client, WINDOW_WIDTH, height)
             root.geometry(f'{WINDOW_WIDTH}x{height}+{x}+{y}')
-            if not self._mapped:
-                # Se mapea una sola vez: ocultar y mostrar con withdraw/deiconify una ventana
-                # siempre encima y transparente a los clics producía destellos sobre el juego.
-                root.attributes('-alpha', 0.0)
-                root.deiconify()
-                root.update_idletasks()
-                self._apply_native_styles()
-                self._mapped = True
-            root.update_idletasks()
-            root.attributes('-alpha', VISIBLE_ALPHA)
+            self._set_topmost()
+            if self._state_active and not self._expired() and self._visible_allowed():
+                self._set_alpha(VISIBLE_ALPHA)
+            else:
+                self._set_alpha(0.0)
         except Exception:
             LOGGER.exception('Error al mostrar la ventana del overlay')
 
     def _hide_window(self):
         self._expires_at = None
+        self._state_active = False
+        self._set_alpha(0.0)
+
+    def _set_alpha(self, alpha):
+        self._shown = alpha > 0
         try:
-            self._root.attributes('-alpha', 0.0)
+            self._root.attributes('-alpha', alpha)
         except Exception:
             pass
 
-    def _apply_native_styles(self):
+    def _get_user32(self):
+        if self._user32_loaded:
+            return self._user32
+        self._user32_loaded = True
         try:
-            import ctypes
-
-            user32 = ctypes.WinDLL('user32')
-            user32.GetParent.argtypes = [ctypes.c_void_p]
-            user32.GetParent.restype = ctypes.c_void_p
-            hwnd = user32.GetParent(ctypes.c_void_p(self._root.winfo_id()))
-            self.apply_click_through(hwnd or self._root.winfo_id())
+            self._user32 = _load_user32()
         except Exception:
-            pass
+            self._user32 = None
+        return self._user32
+
+    def _frame_hwnd(self):
+        try:
+            win_id = self._root.winfo_id()
+        except Exception:
+            return 0
+        user32 = self._get_user32()
+        if user32 is None:
+            return win_id
+        try:
+            return int(user32.GetParent(win_id) or win_id)
+        except Exception:
+            return win_id
+
+    def _is_window(self, hwnd):
+        user32 = self._get_user32()
+        if user32 is None:
+            return False
+        try:
+            return bool(user32.IsWindow(hwnd))
+        except Exception:
+            return False
+
+    def _is_iconic(self, hwnd):
+        user32 = self._get_user32()
+        if user32 is None:
+            return False
+        try:
+            return bool(user32.IsIconic(hwnd))
+        except Exception:
+            return False
+
+    def _get_foreground_window(self):
+        user32 = self._get_user32()
+        if user32 is None:
+            return None
+        try:
+            return user32.GetForegroundWindow()
+        except Exception:
+            return None
+
+    def _ensure_game_window(self):
+        now = self.clock()
+        invalid = False
+        user32 = self._get_user32()
+        if self._game_hwnd and user32 is not None:
+            try:
+                invalid = not bool(user32.IsWindow(self._game_hwnd))
+            except Exception:
+                invalid = False
+        if (self._last_window_refresh is not None and not invalid
+                and now - self._last_window_refresh < GAME_REFRESH_SECONDS):
+            return
+        self._last_window_refresh = now
+        try:
+            client = self.window_fn()
+        except Exception:
+            LOGGER.exception('No se pudo localizar la ventana del juego')
+            client = None
+        self._game_client = client
+        self._game_hwnd = getattr(client, 'hwnd', None)
+
+    def _visible_allowed(self):
+        now = self.clock()
+        if (self._last_foreground_check is not None
+                and now - self._last_foreground_check < FOREGROUND_CHECK_SECONDS):
+            return self._foreground_allowed
+        self._last_foreground_check = now
+        self._ensure_game_window()
+        hwnd = self._game_hwnd
+        if not hwnd:
+            self._foreground_allowed = False
+        else:
+            foreground = self._get_foreground_window()
+            self._foreground_allowed = game_in_front(
+                hwnd, foreground, self._is_window, self._is_iconic)
+        return self._foreground_allowed
+
+    def _set_topmost(self, hwnd=None):
+        user32 = self._get_user32()
+        if user32 is None:
+            return False
+        try:
+            hwnd = hwnd or self._frame_hwnd()
+            topmost = HWND_TOPMOST
+            if not self._user32_injected:
+                import ctypes
+                topmost = ctypes.c_void_p(HWND_TOPMOST)
+            user32.SetWindowPos(hwnd, topmost, 0, 0, 0, 0,
+                                SWP_NOMOVE | SWP_NOSIZE | SWP_NOACTIVATE)
+            return True
+        except Exception:
+            return False
+
+    def _show_no_activate(self, hwnd):
+        user32 = self._get_user32()
+        if user32 is None:
+            return False
+        try:
+            user32.ShowWindow(hwnd, SW_SHOWNOACTIVATE)
+            return True
+        except Exception:
+            return False
+
+    def _map_invisible(self):
+        try:
+            root = self._root
+            root.update_idletasks()
+            hwnd = self._frame_hwnd()
+            self._apply_native_styles(hwnd)
+            self._set_alpha(0.0)
+            if not self._show_no_activate(hwnd):
+                try:
+                    root.deiconify()
+                    root.update_idletasks()
+                except Exception:
+                    pass
+            self._set_topmost(hwnd)
+            self._mapped = True
+        except Exception:
+            LOGGER.exception('No se pudo mapear la ventana del overlay')
+
+    def _apply_native_styles(self, hwnd=None):
+        try:
+            if hwnd is None:
+                hwnd = self._frame_hwnd()
+            user32 = self._get_user32()
+            if user32 is None:
+                return False
+            return self.apply_click_through(hwnd, user32)
+        except Exception:
+            return False
 
     @staticmethod
-    def apply_click_through(hwnd):
+    def apply_click_through(hwnd, user32=None):
         """Marca la ventana como transparente a los clics y sin activación."""
         try:
-            import ctypes
-
-            user32 = ctypes.WinDLL('user32', use_last_error=True)
+            if user32 is None:
+                user32 = _load_user32()
             get_long = user32.GetWindowLongPtrW
             set_long = user32.SetWindowLongPtrW
-            get_long.argtypes = [ctypes.c_void_p, ctypes.c_int]
-            get_long.restype = ctypes.c_ssize_t
-            set_long.argtypes = [ctypes.c_void_p, ctypes.c_int, ctypes.c_ssize_t]
-            set_long.restype = ctypes.c_ssize_t
 
             gwl_exstyle = -20
-            ex_style = get_long(ctypes.c_void_p(hwnd), gwl_exstyle)
+            ex_style = get_long(hwnd, gwl_exstyle)
             ex_style |= 0x00080000  # WS_EX_LAYERED
             ex_style |= 0x00000020  # WS_EX_TRANSPARENT
             ex_style |= 0x08000000  # WS_EX_NOACTIVATE
             ex_style |= 0x00000080  # WS_EX_TOOLWINDOW
-            set_long(ctypes.c_void_p(hwnd), gwl_exstyle, ex_style)
+            set_long(hwnd, gwl_exstyle, ex_style)
             return True
         except Exception:
             return False

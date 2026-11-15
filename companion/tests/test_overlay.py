@@ -15,8 +15,10 @@ from askforever.overlay.window import (
     Overlay,
     OverlayState,
     OverlayUnavailable,
+    VISIBLE_ALPHA,
     build_state,
     compute_position,
+    game_in_front,
     wrap_estimate,
 )
 
@@ -114,6 +116,196 @@ def test_overlay_queues_states_without_tk():
 def test_apply_click_through_does_not_raise():
     result = Overlay.apply_click_through(0)
     assert isinstance(result, bool)
+
+
+def test_game_in_front_truth_table():
+    def is_window(hwnd):
+        return hwnd in (11, 12)
+
+    assert game_in_front(11, 11, is_window, lambda _hwnd: False) is True
+    assert game_in_front(11, 22, is_window, lambda _hwnd: False) is False
+    assert game_in_front(11, 11, is_window, lambda _hwnd: True) is False
+    assert game_in_front(99, 99, is_window, lambda _hwnd: False) is False
+
+
+class _FakeUser32:
+    def __init__(self):
+        self.foreground = 100
+        self.valid = {100, 123}
+        self.iconic = set()
+        self.events = []
+        self.show_calls = []
+        self.set_pos_calls = []
+        self.style_calls = []
+        self.style = 0
+
+    def GetParent(self, hwnd):
+        return hwnd + 1000
+
+    def GetWindowLongPtrW(self, hwnd, index):
+        return self.style
+
+    def SetWindowLongPtrW(self, hwnd, index, value):
+        self.style = value
+        self.style_calls.append((hwnd, index, value))
+        self.events.append(('style', hwnd))
+        return value
+
+    def ShowWindow(self, hwnd, command):
+        self.show_calls.append((hwnd, command))
+        self.events.append(('show', hwnd))
+        return True
+
+    def SetWindowPos(self, hwnd, insert_after, x, y, width, height, flags):
+        self.set_pos_calls.append((hwnd, insert_after, x, y, width, height, flags))
+        self.events.append(('pos', hwnd))
+        return True
+
+    def IsWindow(self, hwnd):
+        return hwnd in self.valid
+
+    def IsIconic(self, hwnd):
+        return hwnd in self.iconic
+
+    def GetForegroundWindow(self):
+        return self.foreground
+
+
+class _FakeLabel:
+    def __init__(self):
+        self.text = ''
+        self.packed = False
+        self.colour = None
+
+    def pack(self, **_kwargs):
+        self.packed = True
+
+    def pack_forget(self):
+        self.packed = False
+
+    def configure(self, **kwargs):
+        if 'text' in kwargs:
+            self.text = kwargs['text']
+        if 'fg' in kwargs:
+            self.colour = kwargs['fg']
+
+
+class _FakeRoot:
+    def __init__(self):
+        self.alphas = []
+        self.geometries = []
+        self.after_calls = []
+        self.deiconify_calls = 0
+        self.destroyed = False
+
+    def update_idletasks(self):
+        return None
+
+    def winfo_id(self):
+        return 123
+
+    def winfo_reqheight(self):
+        return 120
+
+    def attributes(self, name, value=None):
+        if name == '-alpha':
+            self.alphas.append(value)
+        return None
+
+    def geometry(self, value):
+        self.geometries.append(value)
+
+    def after(self, milliseconds, callback):
+        self.after_calls.append((milliseconds, callback))
+
+    def deiconify(self):
+        self.deiconify_calls += 1
+
+    def destroy(self):
+        self.destroyed = True
+
+
+class _FakeClock:
+    def __init__(self):
+        self.value = 0.0
+
+    def __call__(self):
+        return self.value
+
+
+def _fake_overlay(user32, window_fn):
+    overlay = Overlay(ttl=10.0, window_fn=window_fn, clock=_FakeClock(), user32=user32)
+    overlay._root = _FakeRoot()
+    overlay._title_label = _FakeLabel()
+    overlay._body_label = _FakeLabel()
+    overlay._mapped = True
+    return overlay
+
+
+def test_overlay_maps_without_activation():
+    user32 = _FakeUser32()
+    overlay = Overlay(user32=user32)
+    overlay._root = _FakeRoot()
+
+    overlay._map_invisible()
+
+    hwnd = 1123
+    assert overlay._mapped is True
+    assert overlay._root.deiconify_calls == 0
+    assert user32.show_calls == [(hwnd, 4)]
+    assert user32.style_calls[0][0] == hwnd
+    assert user32.events.index(('style', hwnd)) < user32.events.index(('show', hwnd))
+    assert user32.set_pos_calls[0][1] == -1
+    assert overlay._root.alphas == [0.0]
+
+
+def test_overlay_hides_and_restores_with_foreground():
+    user32 = _FakeUser32()
+    client = types.SimpleNamespace(hwnd=100, x=0, y=0, width=1920, height=1080)
+    calls = []
+
+    def window_fn():
+        calls.append(1)
+        return client
+
+    overlay = _fake_overlay(user32, window_fn)
+    state = build_state('answer', 'esES', question='pregunta', text='respuesta',
+                        now=0.0, ttl=10.0)
+    overlay._apply(state)
+    assert overlay._root.alphas[-1] == VISIBLE_ALPHA
+    assert overlay._state_active is True
+
+    expires_at = overlay._expires_at
+    user32.foreground = 222
+    overlay.clock.value = 0.2
+    overlay._poll()
+    assert overlay._root.alphas[-1] == 0.0
+    assert overlay._state_active is True
+    assert overlay._expires_at == expires_at
+
+    user32.foreground = 100
+    overlay.clock.value = 0.4
+    overlay._poll()
+    assert overlay._root.alphas[-1] == VISIBLE_ALPHA
+
+    overlay.clock.value = 10.1
+    overlay._poll()
+    assert overlay._root.alphas[-1] == 0.0
+    assert overlay._state_active is False
+    assert len(calls) <= 2
+
+
+def test_overlay_refreshes_game_window_slowly():
+    user32 = _FakeUser32()
+    client = types.SimpleNamespace(hwnd=100, x=0, y=0, width=1920, height=1080)
+    calls = []
+    overlay = _fake_overlay(user32, lambda: calls.append(1) or client)
+
+    for step in range(11):
+        overlay.clock.value = step * 0.2
+        overlay._visible_allowed()
+
+    assert len(calls) <= 2
 
 
 def _tk_available() -> bool:
