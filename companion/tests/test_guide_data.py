@@ -124,3 +124,17 @@ def test_load_sections_returns_every_section():
     loaded = load_sections()
     loaded_ids = {section['id'] for section in loaded}
     assert expected == loaded_ids
+
+
+SOURCE_MENTION_RE = re.compile(
+    r'\b(?:la página|la guía|según la (?:página|guía|web)|the page|the guide|according to the)\b'
+    r'|icy veins|tier list',
+    re.IGNORECASE)
+
+
+@pytest.mark.parametrize('path', GUIDE_FILES, ids=lambda path: path.name)
+def test_texts_never_mention_the_source(path):
+    # Decisión de Marc: la IA usa estos datos sin citar la fuente; la fuente va solo en sources.
+    for section in _read(path)['sections']:
+        for field in ('text_es', 'text_en', 'summary_es', 'summary_en', 'title_es', 'title_en'):
+            assert not SOURCE_MENTION_RE.search(section[field]), (section['id'], field)

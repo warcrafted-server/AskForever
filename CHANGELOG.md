@@ -23,6 +23,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Added: beginner guide on professions (how many you can have, what each one does, good pairings, secondary professions).
 - Added: stat priority for every class specialization and, verified from the game client, the level of your first talent point (10) and how many you get per level.
 - Added: talent questions get exact WoW Forever data: what a talent does at each rank, its tree, the points it needs and its prerequisite, the talents of a tree, and which talents are new or changed in Forever.
+- Added: beginner guide on races (classes each race can be in WoW Forever, racial abilities, the Skyborne).
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
@@ -43,6 +44,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Añadido: guía de principiantes sobre profesiones (cuántas puedes tener, qué hace cada una, buenas combinaciones, profesiones secundarias).
 - Añadido: prioridad de estadísticas de cada especialización y, verificado con el cliente del juego, el nivel del primer punto de talento (10) y cuántos ganas por nivel.
 - Añadido: las preguntas sobre talentos reciben los datos exactos de WoW Forever: qué hace un talento en cada rango, su rama, los puntos que pide y su requisito, los talentos de una rama y cuáles son nuevos o han cambiado en Forever.
+- Añadido: guía de principiantes sobre razas (qué clases puede ser cada raza en WoW Forever, habilidades raciales, los Cielonatos).
 
 ## [0.3.0-beta.4] - 2026-11-15
 

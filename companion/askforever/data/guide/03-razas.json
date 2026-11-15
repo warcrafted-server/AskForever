@@ -1,0 +1,1112 @@
+{
+  "description": "Capítulo 3: Razas. Secciones editoriales redactadas desde guías de terceros.",
+  "sections": [
+    {
+      "id": "raza-razas-por-faccion",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Razas por facción en Forever",
+      "title_en": "Races by Faction in Forever",
+      "summary_es": "Alianza: Humano, Enano, Elfo de la noche y Gnomo; Horda: Orco, No-muerto, Tauren y Trol; Cielonato elige bando.",
+      "summary_en": "Alliance: Human, Dwarf, Night Elf and Gnome; Horde: Orc, Undead, Tauren and Troll; Skyborne choose a side.",
+      "keywords_es": [
+        "razas por facción",
+        "razas de la alianza",
+        "razas de la horda",
+        "qué razas puedo elegir",
+        "razas jugables"
+      ],
+      "keywords_en": [
+        "races by faction",
+        "alliance races",
+        "horde races",
+        "which races can I choose",
+        "playable races"
+      ],
+      "text_es": "La Alianza cuenta con Humano, Enano, Elfo de la noche y Gnomo. La Horda reúne a Orco, No-muerto, Tauren y Trol. Los Cielonatos son neutrales y escogen Alianza u Horda al crear el personaje, de modo que se suman a los dos bandos. Forever ofrece así diez razas jugables.",
+      "text_en": "The Alliance has Human, Dwarf, Night Elf and Gnome. The Horde brings together Orc, Undead, Tauren and Troll. Skyborne are neutral and pick Alliance or Horde when the character is created, so they join both sides. Forever thus offers ten playable races.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever Racial Guide › Race/Class Combinations in WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-cuatro-raciales",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Cuatro raciales por raza",
+      "title_en": "Four Racials per Race",
+      "summary_es": "Forever rediseña las raciales: dos activas y dos pasivas por raza, con una identidad propia.",
+      "summary_en": "Forever redesigns racials: two active and two passive per race, each with its own identity.",
+      "keywords_es": [
+        "cuántas raciales tiene cada raza",
+        "raciales activas",
+        "raciales pasivas",
+        "rediseño de raciales",
+        "habilidades raciales"
+      ],
+      "keywords_en": [
+        "how many racials per race",
+        "active racials",
+        "passive racials",
+        "racial redesign",
+        "racial abilities"
+      ],
+      "text_es": "Cada raza de Forever tiene cuatro raciales: dos habilidades activas y dos efectos pasivos. Una activa suele ser una habilidad de combate con reutilización y la otra está más orientada a rol o utilidad. Las pasivas completan el estilo de la raza. El rediseño busca que las razas tengan un nivel de potencia más parecido y que la elección dependa del gusto, no de una diferencia enorme.",
+      "text_en": "Every Forever race has four racials: two active abilities and two passive effects. One active is usually a combat ability with a cooldown, while the other leans toward roleplay or utility. The passives complete the race's style. The redesign aims for a more even power level between races, so the choice depends on taste rather than a huge gap.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever Racial Guide › New Racial Abilities in WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-tier-list",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Razas mejor valoradas en PvE y JcJ",
+      "title_en": "Top Races for PvE and PvP",
+      "summary_es": "Elfo de la noche, Humano y Gnomo destacan en PvE; Gnomo, Orco y Humano en JcJ; los Cielonatos quedan en A.",
+      "summary_en": "Night Elf, Human and Gnome lead PvE; Gnome, Orc and Human lead PvP; Skyborne sit in A.",
+      "keywords_es": [
+        "mejores razas pve",
+        "mejores razas pvp",
+        "tier list de razas",
+        "razas s tier",
+        "qué raza elegir"
+      ],
+      "keywords_en": [
+        "best pve races",
+        "best pvp races",
+        "race tier list",
+        "s tier races",
+        "which race to choose"
+      ],
+      "text_es": "Para JcE se consideran entre las mejores razas Elfo de la noche, Humano y Gnomo; después aparecen Orco, Trol y los dos Cielonatos, y por último Enano, No-muerto y Tauren. En JcJ las mejores son Gnomo, Orco y Humano; les siguen No-muerto, Elfo de la noche, Trol y los Cielonatos, mientras Enano y Tauren quedan por detrás.",
+      "text_en": "For PvE, Night Elf, Human and Gnome are considered among the best races; Orc, Troll and both Skyborne follow, with Dwarf, Undead and Tauren last. In PvP the best are Gnome, Orc and Human; Undead, Night Elf, Troll and Skyborne come next, while Dwarf and Tauren trail.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Racial Rankings: A Tier List for WoW Forever Racial Skills › Racial Rankings",
+          "url": "https://www.icy-veins.com/wow-forever/racial-tier-list",
+          "date": "2026-11-02"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-humano-clases",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Clases de Humano en Forever",
+      "title_en": "Human Classes in Forever",
+      "summary_es": "Humano puede ser Cazador, Mago, Paladín, Sacerdote, Pícaro, Brujo y Guerrero.",
+      "summary_en": "Human can be Hunter, Mage, Paladin, Priest, Rogue, Warlock and Warrior.",
+      "keywords_es": [
+        "clases de humano",
+        "humano cazador",
+        "humano paladín",
+        "humano mago",
+        "qué clases puede ser humano"
+      ],
+      "keywords_en": [
+        "human classes",
+        "human hunter",
+        "human paladin",
+        "human mage",
+        "what classes can human be"
+      ],
+      "text_es": "El Humano de Forever puede elegir entre Cazador, Mago, Paladín, Sacerdote, Pícaro, Brujo y Guerrero. Su conjunto racial sirve tanto para PvE como para JcJ: Crueldad y El espíritu humano aportan daño y recursos, mientras Voluntad de supervivencia y Percepción ayudan a controlar y detectar enemigos.",
+      "text_en": "The Forever Human can choose Hunter, Mage, Paladin, Priest, Rogue, Warlock or Warrior. Its racial kit works for both PvE and PvP: Ruthless and The Human Spirit add damage and resources, while Will to Survive and Perception help control and detect enemies.",
+      "tags": [
+        "HUMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Human Race Guide for WoW Forever › Human Playable Classes",
+          "url": "https://www.icy-veins.com/wow-forever/human-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-humano-raciales",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Raciales de Humano",
+      "title_en": "Human Racials",
+      "summary_es": "Voluntad de supervivencia, Percepción, Crueldad y El espíritu humano: control, detección, crítico y espíritu.",
+      "summary_en": "Will to Survive, Perception, Ruthless and The Human Spirit: control, detection, crit and Spirit.",
+      "keywords_es": [
+        "raciales de humano",
+        "voluntad de supervivencia",
+        "percepción",
+        "crueldad",
+        "el espíritu humano"
+      ],
+      "keywords_en": [
+        "human racials",
+        "will to survive",
+        "perception",
+        "ruthless",
+        "the human spirit"
+      ],
+      "text_es": "Voluntad de supervivencia elimina todos los aturdimientos y tiene 3 minutos de reutilización. Percepción aumenta mucho la detección de sigilo durante 20 segundos, también con 3 minutos. Crueldad da un 1% de golpe crítico a todos los ataques y hechizos, y El espíritu humano sube un 10% el espíritu. En Forever el crítico es una estadística única, así que Crueldad sirve a cualquier clase.",
+      "text_en": "Will to Survive removes every stun and has a 3-minute cooldown. Perception greatly increases stealth detection for 20 seconds, also on a 3-minute cooldown. Ruthless grants 1% critical strike to all attacks and spells, and The Human Spirit raises Spirit by 10%. In Forever critical strike is one unified stat, so Ruthless helps any class.",
+      "tags": [
+        "HUMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Human Race Guide for WoW Forever › Human Racials",
+          "url": "https://www.icy-veins.com/wow-forever/human-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-humano-historia",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Historia breve del Humano",
+      "title_en": "Human Background",
+      "summary_es": "Los humanos de Ventormenta reconstruyeron su reino y defienden la Alianza mientras sus ejércitos luchan lejos.",
+      "summary_en": "The humans of Stormwind rebuilt their kingdom and defend the Alliance while their armies fight far away.",
+      "keywords_es": [
+        "historia de los humanos",
+        "lore humano",
+        "ventormenta",
+        "anduin wrynn",
+        "reino humano"
+      ],
+      "keywords_en": [
+        "human lore",
+        "human history",
+        "stormwind",
+        "anduin wrynn",
+        "human kingdom"
+      ],
+      "text_es": "Ventormenta es uno de los últimos bastiones del poder humano. Su pueblo reconstruyó el reino tras las guerras contra la Horda y la Legión Ardiente, y ahora protege sus tierras mientras los ejércitos combaten en otros frentes. Los humanos son orgullosos y tenaces; los gobierna el rey niño Anduin Wrynn y la defensa de la ciudad queda en manos de sus ciudadanos.",
+      "text_en": "Stormwind remains one of humanity's final strongholds. Its people rebuilt the kingdom after the wars against the Horde and the Burning Legion, and now protect their lands while the armies fight elsewhere. Humans are proud and tenacious; the child king Anduin Wrynn rules them and the city's defence falls to its citizens.",
+      "tags": [
+        "HUMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Human Race Guide for WoW Forever › Lore Information for Human",
+          "url": "https://www.icy-veins.com/wow-forever/human-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-enano-clases",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Clases de Enano en Forever",
+      "title_en": "Dwarf Classes in Forever",
+      "summary_es": "Enano puede ser Cazador, Paladín, Sacerdote, Pícaro, Chamán y Guerrero.",
+      "summary_en": "Dwarf can be Hunter, Paladin, Priest, Rogue, Shaman and Warrior.",
+      "keywords_es": [
+        "clases de enano",
+        "enano chamán",
+        "enano paladín",
+        "enano cazador",
+        "qué clases puede ser enano"
+      ],
+      "keywords_en": [
+        "dwarf classes",
+        "dwarf shaman",
+        "dwarf paladin",
+        "dwarf hunter",
+        "what classes can dwarf be"
+      ],
+      "text_es": "El Enano puede ser Cazador, Paladín, Sacerdote, Pícaro, Chamán o Guerrero en Forever. Sus raciales mezclan ataque, defensa y utilidad: Precisión de artesano y Caza mayor mejoran el daño, Petraforma añade supervivencia y Buscar tesoro ayuda a encontrar cofres.",
+      "text_en": "The Forever Dwarf can be Hunter, Paladin, Priest, Rogue, Shaman or Warrior. Its racials mix offence, defence and utility: Artisan's Precision and Big Game Hunter improve damage, Stoneform adds survival and Find Treasure helps find chests.",
+      "tags": [
+        "DWARF"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Dwarf Race Guide for WoW Forever › Dwarf Playable Classes",
+          "url": "https://www.icy-veins.com/wow-forever/dwarf-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-enano-raciales",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Raciales de Enano",
+      "title_en": "Dwarf Racials",
+      "summary_es": "Petraforma, Buscar tesoro, Precisión de artesano y Caza mayor: defensa, botín, golpe y daño contra bestias.",
+      "summary_en": "Stoneform, Find Treasure, Artisan's Precision and Big Game Hunter: defence, loot, hit and beast damage.",
+      "keywords_es": [
+        "raciales de enano",
+        "petraforma",
+        "buscar tesoro",
+        "precisión de artesano",
+        "caza mayor"
+      ],
+      "keywords_en": [
+        "dwarf racials",
+        "stoneform",
+        "find treasure",
+        "artisan's precision",
+        "big game hunter"
+      ],
+      "text_es": "Petraforma elimina y vuelve inmune a sangrados, venenos y enfermedades durante 8 segundos, además de reducir un 10% el daño físico recibido; tiene 3 minutos de reutilización. Buscar tesoro rastrea cofres cercanos y puede dar objetos extra. Precisión de artesano sube un 1% la probabilidad de golpe con hechizos y ataques. Caza mayor aumenta un 5% el daño contra bestias.",
+      "text_en": "Stoneform removes and grants immunity to bleeds, poisons and diseases for 8 seconds, and also reduces Physical damage taken by 10%; it has a 3-minute cooldown. Find Treasure tracks nearby chests and can yield extra items. Artisan's Precision raises spell and attack hit chance by one percent. Big Game Hunter increases damage against Beasts by 5%.",
+      "tags": [
+        "DWARF"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Dwarf Race Guide for WoW Forever › Dwarf Racials",
+          "url": "https://www.icy-veins.com/wow-forever/dwarf-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-enano-historia",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Historia breve del Enano",
+      "title_en": "Dwarf Background",
+      "summary_es": "Los enanos de Forjaz investigaron ruinas sobre su origen y defienden su reino mientras sus ejércitos luchan fuera.",
+      "summary_en": "The dwarves of Ironforge studied ruins about their origin and defend their kingdom while their armies fight abroad.",
+      "keywords_es": [
+        "historia de los enanos",
+        "lore enano",
+        "forjaz",
+        "magni barbabronce",
+        "origen de los enanos"
+      ],
+      "keywords_en": [
+        "dwarf lore",
+        "dwarf history",
+        "ironforge",
+        "magni bronzebeard",
+        "dwarf origin"
+      ],
+      "text_es": "Los enanos son obra de los titanes y sufrieron la Maldición de la Carne. Durante generaciones extrajeron tesoros bajo Forjaz; al descubrir ruinas antiguas, el rey Magni Barbabronce impulsó la arqueología para conocer su origen. Con los ejércitos de la Alianza lejos, la defensa de la montaña queda en manos de los enanos que permanecen en Forjaz.",
+      "text_en": "Dwarves are titan creations who suffered the Curse of Flesh. For generations they mined treasures beneath Ironforge; after uncovering ancient ruins, King Magni Bronzebeard pushed archaeology to learn their origin. With the Alliance armies away, the defence of the mountain falls to the dwarves who remain in Ironforge.",
+      "tags": [
+        "DWARF"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Dwarf Race Guide for WoW Forever › Lore Information for Dwarf",
+          "url": "https://www.icy-veins.com/wow-forever/dwarf-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-elfo-noche-clases",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Clases de Elfo de la noche en Forever",
+      "title_en": "Night Elf Classes in Forever",
+      "summary_es": "Elfo de la noche puede ser Druida, Cazador, Sacerdote, Pícaro y Guerrero; es la única raza de la Alianza con Druida.",
+      "summary_en": "Night Elf can be Druid, Hunter, Priest, Rogue and Warrior; it is the only Alliance race with Druid.",
+      "keywords_es": [
+        "clases de elfo de la noche",
+        "elfo de la noche druida",
+        "elfo de la noche cazador",
+        "elfo de la noche sacerdote",
+        "qué clases puede ser elfo de la noche"
+      ],
+      "keywords_en": [
+        "night elf classes",
+        "night elf druid",
+        "night elf hunter",
+        "night elf priest",
+        "what classes can night elf be"
+      ],
+      "text_es": "El Elfo de la noche puede ser Druida, Cazador, Sacerdote, Pícaro o Guerrero en Forever. Es la única raza de la Alianza que puede ser Druida. Sus raciales se centran en crítico, movilidad, esquiva y sigilo, y son útiles para daño, JcJ y desplazamiento.",
+      "text_en": "The Forever Night Elf can be Druid, Hunter, Priest, Rogue or Warrior. It is the only Alliance race that can be a Druid. Its racials focus on crit, mobility, dodge and stealth, and are useful for damage, PvP and movement.",
+      "tags": [
+        "NIGHTELF"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Night Elf Race Guide for WoW Forever › Night Elf Playable Classes",
+          "url": "https://www.icy-veins.com/wow-forever/night-elf-race-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-elfo-noche-raciales",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Raciales de Elfo de la noche",
+      "title_en": "Night Elf Racials",
+      "summary_es": "Luz de Elune, Fusión de las Sombras, Prontitud y Espíritu de fuego fatuo: crítico, sigilo, movimiento y muerte.",
+      "summary_en": "Elune's Light, Shadowmeld, Quickness and Wisp Spirit: crit, stealth, movement and death.",
+      "keywords_es": [
+        "raciales de elfo de la noche",
+        "luz de elune",
+        "fusión de las sombras",
+        "prontitud",
+        "espíritu de fuego fatuo"
+      ],
+      "keywords_en": [
+        "night elf racials",
+        "elune's light",
+        "shadowmeld",
+        "quickness",
+        "wisp spirit"
+      ],
+      "text_es": "Luz de Elune da un 10% de golpe crítico con hechizos y ataques durante 15 segundos, con 3 minutos de reutilización. Fusión de las Sombras da sigilo hasta que te mueves y puede usarse en combate, pero no permite abrir con Pícaro o Druida. Prontitud da un 1% de esquiva y un 2% de velocidad; la velocidad se acumula con otros aumentos. Espíritu de fuego fatuo sube un 75% la velocidad mientras estás muerto.",
+      "text_en": "Elune's Light grants 10% critical strike with spells and attacks for 15 seconds, on a 3-minute cooldown. Shadowmeld grants stealth until you move and can be used in combat, but it does not enable Rogue or Druid openers. Quickness gives 1% dodge and 2% movement speed; the speed stacks with other increases. Wisp Spirit raises movement speed by 75% while dead.",
+      "tags": [
+        "NIGHTELF"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Night Elf Race Guide for WoW Forever › Night Elf Racials",
+          "url": "https://www.icy-veins.com/wow-forever/night-elf-race-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-elfo-noche-historia",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Historia breve del Elfo de la noche",
+      "title_en": "Night Elf Background",
+      "summary_es": "Los elfos de la noche perdieron la inmortalidad, plantaron Teldrassil y defienden Darnassus de la corrupción.",
+      "summary_en": "The night elves lost immortality, planted Teldrassil and defend Darnassus from corruption.",
+      "keywords_es": [
+        "historia de los elfos de la noche",
+        "lore elfo de la noche",
+        "teldrassil",
+        "darnassus",
+        "pozo de la eternidad"
+      ],
+      "keywords_en": [
+        "night elf lore",
+        "night elf history",
+        "teldrassil",
+        "darnassus",
+        "well of eternity"
+      ],
+      "text_es": "Tras la destrucción del Pozo de la Eternidad, los elfos de la noche se volcaron en el druidismo. La invasión de la Legión Ardiente les costó la inmortalidad y quemó parte de sus bosques. Para recuperarla, unos druidas plantaron Teldrassil y fundaron Darnassus, pero el árbol no recibió la bendición de la naturaleza y empezó a corromperse. Darnassus y la naturaleza están bajo amenaza.",
+      "text_en": "When the Well of Eternity was destroyed, the night elves turned to druidism. The Burning Legion's invasion cost them immortality and burned part of their forests. To regain it, some druids planted Teldrassil and founded Darnassus, but the tree lacked nature's blessing and began to corrupt. Darnassus and the wild are under threat.",
+      "tags": [
+        "NIGHTELF"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Night Elf Race Guide for WoW Forever › Lore Information for Night Elf",
+          "url": "https://www.icy-veins.com/wow-forever/night-elf-race-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-gnomo-clases",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Clases de Gnomo en Forever",
+      "title_en": "Gnome Classes in Forever",
+      "summary_es": "Gnomo puede ser Mago, Sacerdote, Pícaro, Brujo y Guerrero.",
+      "summary_en": "Gnome can be Mage, Priest, Rogue, Warlock and Warrior.",
+      "keywords_es": [
+        "clases de gnomo",
+        "gnomo sacerdote",
+        "gnomo mago",
+        "gnomo brujo",
+        "qué clases puede ser gnomo"
+      ],
+      "keywords_en": [
+        "gnome classes",
+        "gnome priest",
+        "gnome mage",
+        "gnome warlock",
+        "what classes can gnome be"
+      ],
+      "text_es": "El Gnomo puede ser Mago, Sacerdote, Pícaro, Brujo o Guerrero en Forever. Sus raciales se centran en recursos, ráfaga, movilidad e Ingeniería: Mente expansiva, ¡Eureka!, Artista del escape y Especialización de ingeniería.",
+      "text_en": "The Forever Gnome can be Mage, Priest, Rogue, Warlock or Warrior. Its racials focus on resources, burst, mobility and Engineering: Expansive Mind, Eureka!, Escape Artist and Engineering Specialization.",
+      "tags": [
+        "GNOME"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Gnome Race Guide for WoW Forever › Gnome Playable Classes",
+          "url": "https://www.icy-veins.com/wow-forever/gnome-race-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-gnomo-raciales",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Raciales de Gnomo",
+      "title_en": "Gnome Racials",
+      "summary_es": "Artista del escape, ¡Eureka!, Especialización de ingeniería y Mente expansiva: movilidad, ráfaga, ingeniería y recursos.",
+      "summary_en": "Escape Artist, Eureka!, Engineering Specialization and Expansive Mind: mobility, burst, engineering and resources.",
+      "keywords_es": [
+        "raciales de gnomo",
+        "artista del escape",
+        "eureka",
+        "especialización de ingeniería",
+        "mente expansiva"
+      ],
+      "keywords_en": [
+        "gnome racials",
+        "escape artist",
+        "eureka",
+        "engineering specialization",
+        "expansive mind"
+      ],
+      "text_es": "Artista del escape rompe raíces y ralentizaciones y da una inmunidad breve a esos efectos. ¡Eureka! reduce un 10% el coste de habilidades no periódicas y aumenta un 10% su daño o curación durante 8 segundos, con 2 minutos de reutilización. Especialización de ingeniería reduce un 20% las probabilidades de que los aparatos de Ingeniería fallen o se vuelvan en contra. Mente expansiva sube un 5% el maná, la ira o la energía máximos.",
+      "text_en": "Escape Artist breaks roots and snares and grants brief immunity to them. Eureka! lowers the cost of non-periodic abilities by 10% and raises their damage or healing by 10% for 8 seconds, on a 2-minute cooldown. Engineering Specialization cuts the failure or backfire chance of Engineering gadgets by a fifth. Expansive Mind raises maximum Mana, Rage or Energy by 5%.",
+      "tags": [
+        "GNOME"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Gnome Race Guide for WoW Forever › Gnome Racials",
+          "url": "https://www.icy-veins.com/wow-forever/gnome-race-guide",
+          "date": "2026-10-18"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever Racial Guide › Alliance Race Racial Abilities",
+          "url": "https://www.icy-veins.com/wow-forever/race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-gnomo-historia",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Historia breve del Gnomo",
+      "title_en": "Gnome Background",
+      "summary_es": "Los gnomos perdieron Gnomeregan ante una amenaza subterránea y se refugiaron en Forjaz con los enanos.",
+      "summary_en": "The gnomes lost Gnomeregan to an underground threat and took refuge in Ironforge with the dwarves.",
+      "keywords_es": [
+        "historia de los gnomos",
+        "lore gnomo",
+        "gnomeregan",
+        "forjaz",
+        "refugiados gnomos"
+      ],
+      "keywords_en": [
+        "gnome lore",
+        "gnome history",
+        "gnomeregan",
+        "ironforge",
+        "gnome refugees"
+      ],
+      "text_es": "Los gnomos destacan por su ingenio técnico. Vivían en Gnomeregan y compartían Dun Morogh con sus primos enanos hasta que una amenaza surgida del subsuelo invadió la ciudad. Los supervivientes se refugiaron en Forjaz y desde allí planean recuperarla.",
+      "text_en": "Gnomes stand out for their technical ingenuity. They lived in Gnomeregan and shared Dun Morogh with their dwarf cousins until a threat from below invaded the city. The survivors took refuge in Ironforge and plan to retake it from there.",
+      "tags": [
+        "GNOME"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Gnome Race Guide for WoW Forever › Lore Information for Gnome",
+          "url": "https://www.icy-veins.com/wow-forever/gnome-race-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-orco-clases",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Clases de Orco en Forever",
+      "title_en": "Orc Classes in Forever",
+      "summary_es": "Orco puede ser Cazador, Mago, Pícaro, Chamán, Brujo y Guerrero.",
+      "summary_en": "Orc can be Hunter, Mage, Rogue, Shaman, Warlock and Warrior.",
+      "keywords_es": [
+        "clases de orco",
+        "orco mago",
+        "orco chamán",
+        "orco brujo",
+        "qué clases puede ser orco"
+      ],
+      "keywords_en": [
+        "orc classes",
+        "orc mage",
+        "orc shaman",
+        "orc warlock",
+        "what classes can orc be"
+      ],
+      "text_es": "El Orco puede ser Cazador, Mago, Pícaro, Chamán, Brujo o Guerrero en Forever. Sus raciales mezclan ataque y defensa: Furia sangrienta y Ordenar mejoran el daño, Trizar maldición añade protección y Firmeza reduce los aturdimientos.",
+      "text_en": "The Forever Orc can be Hunter, Mage, Rogue, Shaman, Warlock or Warrior. Its racials mix offence and defence: Blood Fury and Command improve damage, Shatter Curse adds protection and Hardiness shortens stuns.",
+      "tags": [
+        "ORC"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Orc Race Guide for WoW Forever › Orc Playable Classes",
+          "url": "https://www.icy-veins.com/wow-forever/orc-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-orco-raciales",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Raciales de Orco",
+      "title_en": "Orc Racials",
+      "summary_es": "Furia sangrienta, Trizar maldición, Ordenar y Firmeza: daño, defensa, mascotas y aturdimientos.",
+      "summary_en": "Blood Fury, Shatter Curse, Command and Hardiness: damage, defence, pets and stuns.",
+      "keywords_es": [
+        "raciales de orco",
+        "furia sangrienta",
+        "trizar maldición",
+        "ordenar",
+        "firmeza"
+      ],
+      "keywords_en": [
+        "orc racials",
+        "blood fury",
+        "shatter curse",
+        "command",
+        "hardiness"
+      ],
+      "text_es": "Furia sangrienta aumenta un 10% el poder de ataque y el poder con hechizos durante 15 segundos. Trizar maldición elimina maldiciones y azotes y reduce un 5% el daño mágico recibido durante 8 segundos. Ordenar aumenta un 5% el daño de las mascotas de Brujo y de las de cualquier otra clase con mascota. Firmeza reduce un 20% la duración de los aturdimientos.",
+      "text_en": "For 15 seconds, Blood Fury adds 10% to both Attack Power and Spell Power. Shatter Curse clears curses and banes, then cuts the Magic damage you take by 5% for eight seconds. Command increases pet damage for Warlocks and any other pet class by 5%. Hardiness reduces stun duration by 20%.",
+      "tags": [
+        "ORC"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Orc Race Guide for WoW Forever › Orc Racials",
+          "url": "https://www.icy-veins.com/wow-forever/orc-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-orco-historia",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Historia breve del Orco",
+      "title_en": "Orc Background",
+      "summary_es": "Los orcos llegaron a Azeroth corrompidos por la Legión; Thrall los liberó y fundó su reino en Durotar.",
+      "summary_en": "The orcs came to Azeroth corrupted by the Legion; Thrall freed them and founded their kingdom in Durotar.",
+      "keywords_es": [
+        "historia de los orcos",
+        "lore orco",
+        "thrall",
+        "durotar",
+        "orgrimmar"
+      ],
+      "keywords_en": [
+        "orc lore",
+        "orc history",
+        "thrall",
+        "durotar",
+        "orgrimmar"
+      ],
+      "text_es": "La Legión Ardiente corrompió a los orcos y los llevó a Azeroth, donde guerrearon contra los reinos humanos. Tras la derrota de la Horda, Thrall lideró a su pueblo para liberarse de la corrupción demoníaca y recuperar el chamanismo. Después de años de nomadismo fundaron Durotar, con Orgrimmar como ciudad principal. Los agentes de la Legión siguen en la tierra y amenazan el reino.",
+      "text_en": "The Burning Legion corrupted the orcs and brought them to Azeroth, where they warred on the human kingdoms. After the Horde's defeat, Thrall led his people to break free of demonic corruption and recover shamanism. After years of wandering they founded Durotar, with Orgrimmar as its main city. The Legion's agents still wander the land and threaten the kingdom.",
+      "tags": [
+        "ORC"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Orc Race Guide for WoW Forever › Lore Information for Orc",
+          "url": "https://www.icy-veins.com/wow-forever/orc-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-no-muerto-clases",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Clases de No-muerto en Forever",
+      "title_en": "Undead Classes in Forever",
+      "summary_es": "No-muerto puede ser Mago, Paladín, Sacerdote, Pícaro, Brujo y Guerrero.",
+      "summary_en": "Undead can be Mage, Paladin, Priest, Rogue, Warlock and Warrior.",
+      "keywords_es": [
+        "clases de no-muerto",
+        "no-muerto paladín",
+        "no-muerto mago",
+        "no-muerto sacerdote",
+        "qué clases puede ser no-muerto"
+      ],
+      "keywords_en": [
+        "undead classes",
+        "undead paladin",
+        "undead mage",
+        "undead priest",
+        "what classes can undead be"
+      ],
+      "text_es": "El No-muerto puede ser Mago, Paladín, Sacerdote, Pícaro, Brujo o Guerrero en Forever. Es una raza centrada en JcJ por su mezcla de sustento, utilidad y resistencia al control; Voluntad de los Renegados, Canibalizar y Toque de la tumba son sus herramientas más características.",
+      "text_en": "The Forever Undead can be Mage, Paladin, Priest, Rogue, Warlock or Warrior. It is a PvP-focused race thanks to its blend of healing, utility and resistance to control; Will of the Forsaken, Cannibalize and Touch of the Grave are its signature tools.",
+      "tags": [
+        "SCOURGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Undead Race Guide for WoW Forever › Undead Playable Classes",
+          "url": "https://www.icy-veins.com/wow-forever/undead-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-no-muerto-raciales",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Raciales de No-muerto",
+      "title_en": "Undead Racials",
+      "summary_es": "Voluntad de los Renegados, Canibalizar, Respiración subacuática y Toque de la tumba: control, sustento y drenaje.",
+      "summary_en": "Will of the Forsaken, Cannibalize, Underwater Breathing and Touch of the Grave: control, sustain and drain.",
+      "keywords_es": [
+        "raciales de no-muerto",
+        "voluntad de los renegados",
+        "canibalizar",
+        "respiración subacuática",
+        "toque de la tumba"
+      ],
+      "keywords_en": [
+        "undead racials",
+        "will of the forsaken",
+        "cannibalize",
+        "underwater breathing",
+        "touch of the grave"
+      ],
+      "text_es": "Voluntad de los Renegados elimina encantamientos, miedo y sueño, pero ya no concede inmunidad. Canibalizar consume un cadáver humanoide o no-muerto cercano y restaura un 7% de salud y maná cada 2 segundos durante 10 segundos, hasta un 35%. Respiración subacuática permite aguantar bajo el agua un 300% más. Toque de la tumba da a hechizos y ataques una probabilidad de drenar salud, con 20% para cuerpo a cuerpo y 30% para lanzadores, y 15 segundos de reutilización.",
+      "text_en": "Will of the Forsaken removes charm, fear and sleep, but no longer grants immunity. Cannibalize consumes a nearby humanoid or undead corpse and restores 7% Health and Mana every 2 seconds for 10 seconds, up to 35%. Underwater Breathing lets you stay underwater 300% longer. Touch of the Grave lets spells and attacks sometimes steal health, with 20% for melee and 30% for casters, on a 15-second cooldown.",
+      "tags": [
+        "SCOURGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Undead Race Guide for WoW Forever › Undead Racials",
+          "url": "https://www.icy-veins.com/wow-forever/undead-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-no-muerto-historia",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Historia breve del No-muerto",
+      "title_en": "Undead Background",
+      "summary_es": "Los Renegados se liberaron del Rey Exánime y, bajo Sylvanas, construyeron Entrañas y se aliaron con la Horda.",
+      "summary_en": "The Forsaken broke free of the Lich King and, under Sylvanas, built the Undercity and joined the Horde.",
+      "keywords_es": [
+        "historia de los no-muertos",
+        "lore no-muerto",
+        "renegados",
+        "entrañas",
+        "sylvanas"
+      ],
+      "keywords_en": [
+        "undead lore",
+        "undead history",
+        "forsaken",
+        "undercity",
+        "sylvanas"
+      ],
+      "text_es": "Los no-muertos jugables son Renegados que rompieron el control del Rey Exánime. Bajo Sylvanas, se establecieron en una fortaleza subterránea bajo las ruinas de Lordaeron, la ciudad de Entrañas. Allí resisten tanto a la Plaga como a quienes los cazan, y se han aliado con la Horda por conveniencia. Sylvanas es su reina banshee.",
+      "text_en": "The playable Undead are Forsaken who broke the Lich King's control. Under Sylvanas, they settled in a subterranean stronghold beneath the ruins of Lordaeron, the Undercity. There they resist both the Scourge and those who hunt them, and they have joined the Horde out of convenience. Sylvanas is their banshee queen.",
+      "tags": [
+        "SCOURGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Undead Race Guide for WoW Forever › Lore Information for Undead",
+          "url": "https://www.icy-veins.com/wow-forever/undead-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-tauren-clases",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Clases de Tauren en Forever",
+      "title_en": "Tauren Classes in Forever",
+      "summary_es": "Tauren puede ser Druida, Cazador, Chamán y Guerrero.",
+      "summary_en": "Tauren can be Druid, Hunter, Shaman and Warrior.",
+      "keywords_es": [
+        "clases de tauren",
+        "tauren druida",
+        "tauren chamán",
+        "tauren cazador",
+        "qué clases puede ser tauren"
+      ],
+      "keywords_en": [
+        "tauren classes",
+        "tauren druid",
+        "tauren shaman",
+        "tauren hunter",
+        "what classes can tauren be"
+      ],
+      "text_es": "El Tauren puede ser Druida, Cazador, Chamán o Guerrero en Forever. Sus raciales encajan con tanques, JcJ y recolección: Pisotón de guerra aporta control, Robustez sube la salud, Correr planicies mejora el desplazamiento y Cultivo genera un nodo extra de Herboristería.",
+      "text_en": "The Forever Tauren can be Druid, Hunter, Shaman or Warrior. Its racials suit tanks, PvP and gathering: War Stomp adds control, Endurance raises health, Plainsrunning improves travel and Cultivation creates an extra Herbalism node.",
+      "tags": [
+        "TAUREN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Tauren Race Guide for WoW Forever › Tauren Playable Classes",
+          "url": "https://www.icy-veins.com/wow-forever/tauren-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-tauren-raciales",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Raciales de Tauren",
+      "title_en": "Tauren Racials",
+      "summary_es": "Pisotón de guerra, Cultivo, Correr planicies y Robustez: aturdir, hierbas, velocidad y salud.",
+      "summary_en": "War Stomp, Cultivation, Plainsrunning and Endurance: stun, herbs, speed and health.",
+      "keywords_es": [
+        "raciales de tauren",
+        "pisotón de guerra",
+        "cultivo",
+        "correr planicies",
+        "robustez"
+      ],
+      "keywords_en": [
+        "tauren racials",
+        "war stomp",
+        "cultivation",
+        "plainsrunning",
+        "endurance"
+      ],
+      "text_es": "Pisotón de guerra aturde hasta 5 enemigos en 8 metros durante 2 segundos y tiene un lanzamiento de 0,5 segundos. Cultivo hace crecer un nodo extra de Herboristería que no exige la profesión y tiene 15 minutos de reutilización. Correr planicies acelera progresivamente hasta un 60% mientras sigues moviéndote, pero pierde las acumulaciones al parar o recibir daño. Robustez aumenta un 5% la salud total.",
+      "text_en": "War Stomp stuns as many as five enemies within eight yards for two seconds and has a 0.5-second cast. Cultivation grows an extra Herbalism node that does not require the profession and has a 15-minute cooldown. Plainsrunning builds up to 60% movement speed while you keep moving, but loses its stacks when you stop or take damage. Endurance increases total Health by 5%.",
+      "tags": [
+        "TAUREN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Tauren Race Guide for WoW Forever › Tauren Racials",
+          "url": "https://www.icy-veins.com/wow-forever/tauren-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-tauren-historia",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Historia breve del Tauren",
+      "title_en": "Tauren Background",
+      "summary_es": "Los tauren unieron sus tribus tras vencer a los centauros con ayuda de los orcos y fundaron Cima del Trueno.",
+      "summary_en": "The tauren united their tribes after beating the centaur with orc help and founded Thunder Bluff.",
+      "keywords_es": [
+        "historia de los tauren",
+        "lore tauren",
+        "cima del trueno",
+        "mulgore",
+        "cairne bloodhoof"
+      ],
+      "keywords_en": [
+        "tauren lore",
+        "tauren history",
+        "thunder bluff",
+        "mulgore",
+        "cairne bloodhoof"
+      ],
+      "text_es": "Los tauren eran nómadas que recorrían Los Baldíos y cazaban kodos. La amenaza de los centauros los mantenía divididos hasta que Cairne Bloodhoof pidió ayuda a los orcos; juntos rechazaron a los centauros y tomaron Mulgore. Cairne construyó Cima del Trueno y las tribus se unieron bajo un mismo estandarte. La Gran Caza sigue siendo el centro de su cultura espiritual.",
+      "text_en": "The tauren were nomads who roamed the Barrens and hunted kodo. The centaur threat kept them divided until Cairne Bloodhoof asked the orcs for help; together they pushed the centaur back and claimed Mulgore. Cairne built Thunder Bluff and the tribes united under one banner. The Great Hunt remains the heart of their spiritual culture.",
+      "tags": [
+        "TAUREN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Tauren Race Guide for WoW Forever › Lore Information for Skyborne",
+          "url": "https://www.icy-veins.com/wow-forever/tauren-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-trol-clases",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Clases de Trol en Forever",
+      "title_en": "Troll Classes in Forever",
+      "summary_es": "Trol puede ser Cazador, Mago, Sacerdote, Pícaro, Chamán, Brujo y Guerrero.",
+      "summary_en": "Troll can be Hunter, Mage, Priest, Rogue, Shaman, Warlock and Warrior.",
+      "keywords_es": [
+        "clases de trol",
+        "trol brujo",
+        "trol mago",
+        "trol chamán",
+        "qué clases puede ser trol"
+      ],
+      "keywords_en": [
+        "troll classes",
+        "troll warlock",
+        "troll mage",
+        "troll shaman",
+        "what classes can troll be"
+      ],
+      "text_es": "El Trol puede ser Cazador, Mago, Sacerdote, Pícaro, Chamán, Brujo o Guerrero en Forever. Es una buena opción de lanzador por la celeridad de Iracundia y por su sustento con Regeneración rápida y Regeneración.",
+      "text_en": "The Forever Troll can be Hunter, Mage, Priest, Rogue, Shaman, Warlock or Warrior. It is a strong caster option thanks to Berserking's haste and solid sustain from Rapid Regeneration and Regeneration.",
+      "tags": [
+        "TROLL"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Troll Race Guide for WoW Forever › Troll Playable Classes",
+          "url": "https://www.icy-veins.com/wow-forever/troll-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-trol-raciales",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Raciales de Trol",
+      "title_en": "Troll Racials",
+      "summary_es": "Iracundia, Regeneración rápida, Matanza de bestias y Regeneración: celeridad, curación y daño contra bestias.",
+      "summary_en": "Berserking, Rapid Regeneration, Beast Slaying and Regeneration: haste, healing and beast damage.",
+      "keywords_es": [
+        "raciales de trol",
+        "iracundia",
+        "regeneración rápida",
+        "matanza de bestias",
+        "regeneración"
+      ],
+      "keywords_en": [
+        "troll racials",
+        "berserking",
+        "rapid regeneration",
+        "beast slaying",
+        "regeneration"
+      ],
+      "text_es": "Iracundia aumenta un 10% la velocidad de ataque y de lanzamiento durante 15 segundos. Regeneración rápida restaura un 50% de la salud máxima en 6 segundos; el canal se corta al moverse, actuar o recibir daño. Matanza de bestias aumenta un 5% el daño contra bestias. Regeneración sube un 20% la regeneración de salud y permite que un 20% siga activa en combate.",
+      "text_en": "For 15 seconds, Berserking adds 10% to attack and casting speed. Rapid Regeneration returns half your maximum Health across 6 seconds; the channel breaks if you move, act or take damage. Beast Slaying increases damage against Beasts by 5%. Regeneration raises Health regeneration by 20% and lets 20% of it continue in combat.",
+      "tags": [
+        "TROLL"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Troll Race Guide for WoW Forever › Troll Racials",
+          "url": "https://www.icy-veins.com/wow-forever/troll-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-trol-historia",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Historia breve del Trol",
+      "title_en": "Troll Background",
+      "summary_es": "Los Lanza Negra sobrevivieron a los murlocs gracias a Thrall y se unieron a la Horda en Durotar.",
+      "summary_en": "The Darkspear survived the murlocs thanks to Thrall and joined the Horde in Durotar.",
+      "keywords_es": [
+        "historia de los trols",
+        "lore trol",
+        "lanza negra",
+        "vol'jin",
+        "durotar"
+      ],
+      "keywords_en": [
+        "troll lore",
+        "troll history",
+        "darkspear",
+        "vol'jin",
+        "durotar"
+      ],
+      "text_es": "Los trols Lanza Negra pertenecen a una tribu exiliada de la Vega de Tuercespina. A punto de ser destruidos por los murlocs, fueron salvados por Thrall y sus guerreros, y juraron lealtad a la Horda. Bajo Vol'jin se establecieron en Durotar junto a los orcos. La tribu busca recuperar su gloria.",
+      "text_en": "The Darkspear trolls belong to a tribe exiled from Stranglethorn Vale. On the brink of destruction by murlocs, they were saved by Thrall and his warriors, and swore loyalty to the Horde. Under Vol'jin they settled in Durotar beside the orcs. The tribe seeks to restore its glory.",
+      "tags": [
+        "TROLL"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Troll Race Guide for WoW Forever › Lore Information for Troll",
+          "url": "https://www.icy-veins.com/wow-forever/troll-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-cielonato-facciones-clases",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Cielonatos: facciones y clases",
+      "title_en": "Skyborne: Factions and Classes",
+      "summary_es": "Neutral: Orden Eminente (Alianza) maga; Formavientos (Horda) chamán; ambos: druida, cazador, pícaro y guerrero.",
+      "summary_en": "Neutral: High Order (Alliance) can be Mage; Windshaper (Horde), Shaman; both: Druid, Hunter, Rogue and Warrior.",
+      "keywords_es": [
+        "cielonato alianza u horda",
+        "cielonato de la orden eminente",
+        "cielonato formavientos",
+        "clases de cielonato",
+        "isla de zephras"
+      ],
+      "keywords_en": [
+        "skyborne alliance or horde",
+        "high order skyborne",
+        "windshaper skyborne",
+        "skyborne classes",
+        "zephras isle"
+      ],
+      "text_es": "Los Cielonatos son neutrales: al crear el personaje eliges Alianza u Horda. Los de la Alianza son Cielonatos de la Orden Eminente y pueden ser Magos; los de la Horda son Cielonatos Formavientos y pueden ser Chamanes. Ambos bandos comparten Druida, Cazador, Pícaro y Guerrero. Su zona de inicio es la Isla de Zephras.",
+      "text_en": "Skyborne are neutral: when you create the character you choose Alliance or Horde. Alliance Skyborne are High Order Skyborne and can be Mages; Horde Skyborne are Windshaper Skyborne and can be Shamans. Both sides share Druid, Hunter, Rogue and Warrior. Their starting area is Zephras Isle.",
+      "tags": [
+        "SKYBORNE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About The Skyborne in World of Warcraft: Forever › Skyborne Factions and Classes",
+          "url": "https://www.icy-veins.com/wow-forever/skyborne",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-cielonato-raciales",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Raciales de Cielonato",
+      "title_en": "Skyborne Racials",
+      "summary_es": "Caminar sobre el aire, Bendición del viento y Perspicacia elemental; la cuarta racial cambia según el bando.",
+      "summary_en": "Walk on Air, Wind Blessed and Elemental Insight; the fourth racial changes with the faction.",
+      "keywords_es": [
+        "raciales de cielonato",
+        "caminar sobre el aire",
+        "bendición del viento",
+        "perspicacia elemental",
+        "visión cielonata"
+      ],
+      "keywords_en": [
+        "skyborne racials",
+        "walk on air",
+        "wind blessed",
+        "elemental insight",
+        "skysight"
+      ],
+      "text_es": "Todos los Cielonatos comparten Caminar sobre el aire, que planea 10 segundos, Bendición del viento, que da un 2% de celeridad, y Perspicacia elemental, que aumenta un 5% el daño contra elementales. La cuarta racial depende del bando: la Orden Eminente recibe Read Ley Line, que regenera un 50% de salud y maná durante 15 segundos y sube al 100% cerca de una línea ley; los Formavientos reciben Visión cielonata, que da un 15% de velocidad durante 15 segundos y sube al 30% en una convergencia elemental. Ambos beneficios especiales duran una hora y se pierden al entrar en banda.",
+      "text_en": "All Skyborne share Walk on Air, a 10-second glide, Wind Blessed, which grants 2% haste, and Elemental Insight, which increases damage against elementals by 5%. The fourth racial depends on the faction: High Order get Read Ley Line, restoring 50% Health and Mana for 15 seconds and rising to 100% near a ley line; Windshaper get Skysight, granting 15% movement speed for 15 seconds and rising to 30% at an elemental convergence. Both special benefits last one hour and are removed on entering a raid.",
+      "tags": [
+        "SKYBORNE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Skyborne Race Guide for WoW Forever › Skyborne Racials",
+          "url": "https://www.icy-veins.com/wow-forever/skyborne-race-guide",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "raza-cielonato-historia",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Historia breve del Cielonato",
+      "title_en": "Skyborne Background",
+      "summary_es": "Los Shen'dorei huyeron de Eldre'Thalas, elevaron Zephras y ahora se dividen entre Orden Eminente y Formavientos.",
+      "summary_en": "The Shen'dorei fled Eldre'Thalas, raised Zephras and now split between High Order and Windshaper.",
+      "keywords_es": [
+        "historia de los cielonatos",
+        "lore cielonato",
+        "shen'dorei",
+        "eldre'thalas",
+        "zephras"
+      ],
+      "keywords_en": [
+        "skyborne lore",
+        "skyborne history",
+        "shen'dorei",
+        "eldre'thalas",
+        "zephras"
+      ],
+      "text_es": "Los Cielonatos descienden de los Shen'dorei de Eldre'Thalas. Tras la destrucción del Pozo de la Eternidad, un grupo se rebeló contra el príncipe Tortheldrin y huyó al oeste; con ayuda de elementales de aire elevaron una gran isla, Zephras, y la anclaron en Skywall. Allí vivieron miles de años y cambiaron físicamente. Cuando los elementales desaparecieron, la isla empezó a fallar y los Cielonatos volvieron a Azeroth divididos entre la Orden Eminente y los Formavientos.",
+      "text_en": "Skyborne descend from the Shen'dorei of Eldre'Thalas. After the Well of Eternity was destroyed, a group rebelled against Prince Tortheldrin and fled west; with air elementals' help they raised a great island, Zephras, and anchored it in Skywall. They lived there for thousands of years and changed physically. When the elementals vanished, the island began to fail and the Skyborne returned to Azeroth split between the High Order and the Windshapers.",
+      "tags": [
+        "SKYBORNE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About The Skyborne in World of Warcraft: Forever › Skyborne Race Lore",
+          "url": "https://www.icy-veins.com/wow-forever/skyborne",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    }
+  ]
+}
