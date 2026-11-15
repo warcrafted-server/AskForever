@@ -1,0 +1,964 @@
+{
+  "description": "Capítulo 4: Clases. Druida. Secciones editoriales redactadas desde guías de terceros.",
+  "sections": [
+    {
+      "id": "clase-druid-que-hace",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Qué hace un Druida",
+      "title_en": "What a Druid Does",
+      "summary_es": "El Druida usa magia natural y formas animales para dañar, curar, tanquear y moverse por el mundo.",
+      "summary_en": "Druid uses nature magic and animal forms to damage, heal, tank, and travel.",
+      "keywords_es": [
+        "qué hace un druida",
+        "druida formas",
+        "druida sanador",
+        "druida tanque",
+        "druida daño"
+      ],
+      "keywords_en": [
+        "what does a druid do",
+        "druid forms",
+        "druid healer",
+        "druid tank",
+        "druid damage"
+      ],
+      "text_es": "El Druida usa magia natural para dañar a distancia o curar y cambia de forma animal para tanquear, pegar, nadar o viajar. Sus formas son el centro: oso para tanque, felino para DPS cuerpo a cuerpo, lechúcico para lanzar y viaje o acuática para moverse. Aporta buffs, control, limpieza y una resurrección en combate. Es la clase más flexible: puede cubrir las cuatro funciones del juego según su rama.",
+      "text_en": "Druid uses nature magic to deal ranged damage or heal, and shifts into animal forms to tank, fight, swim, or travel. Forms are central: Bear for tanking, Cat for melee DPS, Moonkin for casting, and Travel or Aquatic for movement. It brings buffs, control, cleansing, and an in-combat resurrection. It is the most flexible class: it can cover all four group roles depending on its tree.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Druid Class Guide › Comprehensive Guide to Druid in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/druid-class-overview",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-especializaciones",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Especializaciones del Druida",
+      "title_en": "Druid Specializations",
+      "summary_es": "Equilibrio daña a distancia, Combate feral tanquea o pega y Recuperación cura con hechizos en el tiempo.",
+      "summary_en": "Balance deals ranged damage, Feral tanks or fights in melee, and Restoration heals with heal-over-time spells.",
+      "keywords_es": [
+        "especializaciones del druida",
+        "druida equilibrio combate feral recuperación",
+        "druida tanque",
+        "druida sanador",
+        "druida daño a distancia"
+      ],
+      "keywords_en": [
+        "druid specializations",
+        "druid balance feral restoration",
+        "druid tank",
+        "druid healer",
+        "druid ranged damage"
+      ],
+      "text_es": "Equilibrio hace daño a distancia con magia natural y de las estrellas; Combate feral es la rama de oso y felino, que tanquea o pega cuerpo a cuerpo; Recuperación cura con hechizos de sanación en el tiempo. Combate feral es la única rama que puede tanquear y hacer DPS con una misma build. Las tres comparten formas, buffs y utilidad.",
+      "text_en": "Balance deals ranged damage with nature and star magic; Feral is the Bear and Cat tree, tanking or fighting in melee; Restoration heals with heal-over-time spells. Feral is the only tree that can tank and deal damage with one build. All three share forms, buffs, and utility.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Druid Class Guide › Comprehensive Guide to Druid in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/druid-class-overview",
+          "date": "2026-10-27"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Feral Druid Guide › Feral Druid Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/feral-druid-melee-dps-and-tank-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-cambios-forever",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Qué cambia en Forever para el Druida",
+      "title_en": "What Changes for Druid in Forever",
+      "summary_es": "En Forever el Druida usa objetos y habla con PNJ en forma, lanza Raíces en interiores y gana Crecimiento salvaje.",
+      "summary_en": "In Forever Druid uses items and talks to NPCs in form, casts Roots indoors, and gains Wild Growth.",
+      "keywords_es": [
+        "cambios del druida en forever",
+        "druida en forma consumibles",
+        "raíces enredadoras interiores",
+        "crecimiento salvaje",
+        "formas druida forever"
+      ],
+      "keywords_en": [
+        "druid forever changes",
+        "druid items in form",
+        "entangling roots indoors",
+        "wild growth",
+        "druid forms forever"
+      ],
+      "text_es": "En Forever, el Druida puede usar consumibles, abrir cofres, recoger objetos de misión y hablar con PNJ mientras está en Forma de oso o Forma felina; solo Minería, Pesca, algunos pergaminos y ciertos objetos de Ingeniería siguen pidiendo salir de forma. También puede lanzar Raíces enredadoras en interiores, y Recuperación recibe Crecimiento salvaje, una cura en el tiempo de área. Cambiar de forma sigue rompiendo raíces y ralentizaciones.",
+      "text_en": "In Forever, Druid can use consumables, open chests, pick up quest items, and talk to NPCs while in Bear or Cat Form; only Mining, Fishing, some scrolls, and certain Engineering items still require leaving form. It can also cast Entangling Roots indoors, and Restoration gains Wild Growth, an area heal-over-time effect. Shapeshifting still breaks roots and slows.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Feral Druid Leveling Guide › Leveling Tips",
+          "url": "https://www.icy-veins.com/wow-forever/feral-druid-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Balance Druid Guide › Balance Druid Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/balance-druid-ranged-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Restoration Druid Guide › Restoration Druid Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/restoration-druid-healer-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-armas-armadura",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Armas y armadura del Druida",
+      "title_en": "Druid Weapons and Armor",
+      "summary_es": "Lleva cuero y usa bastones o mazas; en oso y felino importa el DPS del arma, no su velocidad.",
+      "summary_en": "Wears leather and uses staves or maces; in Bear and Cat the weapon's DPS matters, not its speed.",
+      "keywords_es": [
+        "armas del druida",
+        "armadura del druida",
+        "druida bastón",
+        "druida maza",
+        "dps del arma feral"
+      ],
+      "keywords_en": [
+        "druid weapons",
+        "druid armor",
+        "druid staff",
+        "druid mace",
+        "feral weapon dps"
+      ],
+      "text_es": "El Druida lleva cuero. Puede usar bastones y mazas de dos manos; para lanzar hechizos busca un bastón con Poder con hechizos, y en las formas ferales el daño del arma escala el daño de oso y felino. A esas formas no les importa la velocidad del arma, solo su DPS, sus estadísticas y sus efectos. Un arma con más DPS mejora a oso y felino aunque no tenga estadísticas de lanzador.",
+      "text_en": "Druid wears leather. It can use staves and two-handed maces; for casting, look for a staff with Spell Power, and in Feral forms weapon damage scales Bear and Cat damage. Those forms do not care about weapon speed, only its DPS, stats, and effects. A higher-DPS weapon improves Bear and Cat even if it has no caster stats.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Feral Druid Leveling Guide › Stats",
+          "url": "https://www.icy-veins.com/wow-forever/feral-druid-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Balance Druid Leveling Guide › Gear and Where to Level",
+          "url": "https://www.icy-veins.com/wow-forever/balance-druid-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-subir-espec",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Mejor especialización para subir",
+      "title_en": "Best Specialization for Leveling",
+      "summary_es": "Combate feral es la mejor para subir; Equilibrio es aceptable y Recuperación es segura pero lenta.",
+      "summary_en": "Feral is the best for leveling; Balance is acceptable and Restoration is safe but slow.",
+      "keywords_es": [
+        "mejor especialización para subir druida",
+        "druida feral para levear",
+        "druida equilibrio para subir",
+        "druida recuperación para subir",
+        "qué spec de druida usar"
+      ],
+      "keywords_en": [
+        "best druid leveling spec",
+        "feral druid leveling",
+        "balance druid leveling",
+        "restoration druid leveling",
+        "which druid spec to level"
+      ],
+      "text_es": "Para subir solo, Combate feral es la mejor opción: es muy versátil, cambia entre oso y felino, tiene gran movilidad y se cura, aunque arranca lento hasta desbloquear las formas a 10 y 20. Equilibrio es aceptable: etiqueta mejor a distancia y tiene control, pero gasta maná y su inicio es lento. Recuperación es muy segura y cura mazmorras, pero hace poco daño; para acelerar, sube como Feral o Equilibrio y cura en grupo.",
+      "text_en": "For solo leveling, Feral is the best option: it is very versatile, swaps between Bear and Cat, has great mobility and self-healing, though it starts slowly until unlocking forms at 10 and 20. Balance is acceptable: it tags better at range and has control, but burns mana and starts slowly. Restoration is very safe and heals dungeons, but deals little damage; to speed up, level as Feral or Balance and heal in groups.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Feral Druid Leveling Guide › Feral Druid Leveling Guide",
+          "url": "https://www.icy-veins.com/wow-forever/feral-druid-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Balance Druid Leveling Guide › Strengths",
+          "url": "https://www.icy-veins.com/wow-forever/balance-druid-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Restoration Druid Leveling Guide › Restoration Druid Leveling Guide",
+          "url": "https://www.icy-veins.com/wow-forever/restoration-druid-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-talentos-feral",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de talentos de Combate feral",
+      "title_en": "Feral Leveling Talent Path",
+      "summary_es": "Ruta feral: Ferocidad, Instinto feral y Presteza feral; luego Carga feral, Lacerar y Mordisco primigenio a 40.",
+      "summary_en": "Feral path: Ferocity, Feral Instinct and Feral Swiftness; then Feral Charge, Lacerate and Primal Bite at 40.",
+      "keywords_es": [
+        "talentos para subir druida feral",
+        "ruta de combate feral",
+        "ferocidad druida",
+        "mordisco primigenio",
+        "poder cambiante"
+      ],
+      "keywords_en": [
+        "feral druid leveling talents",
+        "feral talent path",
+        "ferocity druid",
+        "primal bite",
+        "shifting power"
+      ],
+      "text_es": "Ruta de Combate feral: de 10 a 20, Ferocidad, Instinto feral y Presteza feral; de 20 a 25, Carga feral, Furia salvaje y Garras afiladas; a 25, Lacerar y Frenesí sangriento; hasta 40, más aumentos de daño; a 40, Mordisco primigenio y Poder cambiante; después, pasivas de Restauración y Equilibrio. La idea es abaratar las habilidades y sumar daño en oso y felino mientras subes.",
+      "text_en": "Feral path: at 10-20, Ferocity, Feral Instinct, and Feral Swiftness; at 20-25, Feral Charge, Savage Fury, and Sharpened Claws; at 25, Lacerate and Blood Frenzy; up to 40, more damage increases; at 40, Primal Bite and Shifting Power; afterward, passive talents from Restoration and Balance. The goal is cheaper abilities and more Bear and Cat damage while leveling.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Feral Druid Leveling Guide › Leveling Talent Build",
+          "url": "https://www.icy-veins.com/wow-forever/feral-druid-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-hitos",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Hitos de habilidad por nivel",
+      "title_en": "Ability Milestones by Level",
+      "summary_es": "Forma de oso 10, acuática 16, felina y Acechar 20, viaje 30; varias habilidades clave posibles a 40.",
+      "summary_en": "Bear Form 10, Aquatic 16, Cat and Prowl 20, Travel 30; several key abilities possible at 40.",
+      "keywords_es": [
+        "cuándo aprendo habilidades de druida",
+        "nivel de las formas del druida",
+        "hitos del druida",
+        "forma de viaje nivel",
+        "huracán nivel"
+      ],
+      "keywords_en": [
+        "when druid abilities",
+        "druid form levels",
+        "druid milestones",
+        "travel form level",
+        "hurricane level"
+      ],
+      "text_es": "Forma de oso a 10; Forma acuática a 16; Fuego feérico a 18; Forma felina y Acechar a 20; Enjambre de insectos y Lacerar a 25; Forma de viaje a 30; Huracán, Estimular, Mordisco primigenio, Poder cambiante, Crecimiento salvaje y Forma de lechúcico lunar posibles a 40. Las formas de oso, acuática y felina salen de misiones de clase; la de viaje, del instructor.",
+      "text_en": "Bear Form at 10; Aquatic Form at 16; Faerie Fire at 18; Cat Form and Prowl at 20; Insect Swarm and Lacerate at 25; Travel Form at 30; Hurricane, Innervate, Primal Bite, Shifting Power, Wild Growth, and Moonkin Form possible at 40. Bear, Aquatic, and Cat Forms come from class quests; Travel Form comes from the trainer.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Balance Druid Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/balance-druid-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Feral Druid Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/feral-druid-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Restoration Druid Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/restoration-druid-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-misiones-formas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Misiones de clase: las formas",
+      "title_en": "Class Quests: The Forms",
+      "summary_es": "Las misiones de clase dan Forma de oso a 10, acuática a 16 y felina a 20; viaje a 30 es del instructor.",
+      "summary_en": "Class quests give Bear Form at 10, Aquatic at 16, and Cat at 20; Travel at 30 comes from the trainer.",
+      "keywords_es": [
+        "misiones de clase druida",
+        "misión forma de oso",
+        "misión forma acuática",
+        "misión forma felina",
+        "the great cat spirit"
+      ],
+      "keywords_en": [
+        "druid class quests",
+        "bear form quest",
+        "aquatic form quest",
+        "cat form quest",
+        "the great cat spirit"
+      ],
+      "text_es": "Las formas salen de misiones de clase: Forma de oso a 10 con Escucha la llamada, Claro de la Luna, Espíritu del gran oso y Cuerpo y corazón (o Fuerza y misericordia); Forma acuática a 16 con Una lección que aprender y La prueba del león marino; Forma felina a 20 con The Great Cat Spirit; Forma de viaje a 30 se aprende del instructor y no tiene cadena.",
+      "text_en": "Forms come from class quests: Bear Form at 10 with Heeding the Call, Moonglade, Great Bear Spirit, and Body and Heart (or Strength and Mercy); Aquatic Form at 16 with A Lesson to Learn and Trial of the Sea Lion; Cat Form at 20 with The Great Cat Spirit; Travel Form at 30 is learned from the trainer and has no chain.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Druid Class Quests Guide › Druid Class Quest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/druid-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Druid Shapeshift Forms Guide › How to Unlock Travel Form",
+          "url": "https://www.icy-veins.com/wow-forever/druid-shapeshift-forms",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-formas-recursos",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Formas y recursos",
+      "title_en": "Forms and Resources",
+      "summary_es": "Oso usa rabia, felino energía y puntos de combo, viaje y acuática movilidad, y lechúcico lanza hechizos.",
+      "summary_en": "Bear uses Rage, Cat uses Energy and Combo Points, Travel and Aquatic move, and Moonkin casts.",
+      "keywords_es": [
+        "formas del druida",
+        "rabia forma de oso",
+        "energía forma felina",
+        "puntos de combo druida",
+        "forma de lechúcico lunar"
+      ],
+      "keywords_en": [
+        "druid forms",
+        "bear form rage",
+        "cat form energy",
+        "druid combo points",
+        "moonkin form"
+      ],
+      "text_es": "En Forma de oso usas rabia, que generas al golpear o recibir golpes, y Enfurecer te da rabia extra a cambio de armadura. En Forma felina usas energía, que se regenera sola, y puntos de combo que gastas en Destripar o Mordedura feroz; puedes tener hasta cinco. La Forma de viaje acelera en exteriores, la Forma acuática nada rápido y respira bajo el agua, y la Forma de lechúcico lunar es la forma de lanzador. Cambiar de forma rompe raíces y ralentizaciones.",
+      "text_en": "In Bear Form you use Rage, generated by hitting or being hit, and Enrage gives extra Rage at the cost of armor. In Cat Form you use Energy, which regenerates over time, and Combo Points spent on Rip or Ferocious Bite; you can have up to five. Travel Form speeds you up outdoors, Aquatic Form swims fast and breathes underwater, and Moonkin Form is the caster form. Shapeshifting breaks roots and slows.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Druid Shapeshift Forms Guide › Druid Shapeshifts",
+          "url": "https://www.icy-veins.com/wow-forever/druid-shapeshift-forms",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Feral Druid Leveling Guide › Cat Form Resources",
+          "url": "https://www.icy-veins.com/wow-forever/feral-druid-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-movilidad",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Movilidad y sigilo",
+      "title_en": "Mobility and Stealth",
+      "summary_es": "Acechar permite abrir desde detrás, Forma de viaje corre en exteriores y la acuática nada sin respirar.",
+      "summary_en": "Prowl opens from behind, Travel Form runs outdoors, and Aquatic Form swims without breathing.",
+      "keywords_es": [
+        "movilidad del druida",
+        "acechar druida",
+        "forma de viaje",
+        "forma acuática",
+        "diligencia druida"
+      ],
+      "keywords_en": [
+        "druid mobility",
+        "druid prowl",
+        "travel form",
+        "aquatic form",
+        "druid dash"
+      ],
+      "text_es": "Desde 20, Acechar reduce la distancia a la que te detectan y permite abrir con Devastar o Triturar desde detrás; no es invisibilidad total. La Forma de viaje, a 30, es instantánea, se puede usar en combate y solo funciona en exteriores; Diligencia da un sprint puntual. La Forma acuática, a 16, da nado rápido y respiración ilimitada. Cambiar de forma también te libera de raíces y ralentizaciones.",
+      "text_en": "From 20, Prowl reduces the distance at which enemies notice you and lets you open with Ravage or Shred from behind; it is not full invisibility. Travel Form, at 30, is instant, usable in combat, and works only outdoors; Dash gives a short sprint. Aquatic Form, at 16, gives fast swimming and unlimited breath. Shapeshifting also frees you from roots and slows.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Feral Druid Leveling Guide › How Does Prowl Work?",
+          "url": "https://www.icy-veins.com/wow-forever/feral-druid-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Druid Shapeshift Forms Guide › Travel Form",
+          "url": "https://www.icy-veins.com/wow-forever/druid-shapeshift-forms",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-equilibrio",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Equilibrio: daño a distancia",
+      "title_en": "Balance: Ranged Damage",
+      "summary_es": "Equilibrio usa Fuego lunar, Enjambre de insectos, Cólera y Fuego estelar, y aporta crítico y buffs al grupo.",
+      "summary_en": "Balance uses Moonfire, Insect Swarm, Wrath and Starfire, and brings crit and buffs to the group.",
+      "keywords_es": [
+        "druida equilibrio",
+        "equilibrio daño a distancia",
+        "forma de lechúcico lunar",
+        "fuego lunar",
+        "aura de lechúcico lunar"
+      ],
+      "keywords_en": [
+        "balance druid",
+        "balance ranged damage",
+        "moonkin form",
+        "moonfire",
+        "moonkin aura"
+      ],
+      "text_es": "Equilibrio hace daño a distancia con Fuego lunar, Enjambre de insectos, Cólera y Fuego estelar. Su forma principal es la de lechúcico lunar, que le da armadura y crítico al grupo, y aporta Aura de lechúcico lunar, Marca de lo Salvaje, Fuego feérico, Estimular y Renacer. Es fuerte en mazmorra y puede usar Raíces en interiores; su inicio es lento y gasta maná.",
+      "text_en": "Balance deals ranged damage with Moonfire, Insect Swarm, Wrath, and Starfire. Its main form is Moonkin, which gives it armor and a crit buff to the group, and it brings Moonkin Aura, Mark of the Wild, Faerie Fire, Innervate, and Rebirth. It is strong in dungeons and can use Roots indoors; its start is slow and it burns mana.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Balance Druid Guide › Balance Druid Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/balance-druid-ranged-dps-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-feral",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Combate feral: oso y felino",
+      "title_en": "Feral: Bear and Cat",
+      "summary_es": "Feral tanquea en oso y hace DPS en felino con una build; en felino no tiene AoE real.",
+      "summary_en": "Feral tanks in Bear and deals DPS in Cat with one build; Cat has no real AoE.",
+      "keywords_es": [
+        "druida feral",
+        "combate feral tanque",
+        "forma de oso",
+        "forma felina",
+        "druida dps cuerpo a cuerpo"
+      ],
+      "keywords_en": [
+        "feral druid",
+        "feral tank",
+        "bear form",
+        "cat form",
+        "feral melee dps"
+      ],
+      "text_es": "Combate feral es la única rama que tanquea y hace DPS con una misma build: Forma de oso para aguantar y Forma felina para dañar. En oso genera rabia y usa Magullar, Flagelo, Lacerar y Mordisco primigenio; en felino usa energía, puntos de combo y Destripar. Su movilidad y Acechar son excelentes, pero en felino no tiene AoE real y Triturar exige estar detrás.",
+      "text_en": "Feral is the only tree that tanks and deals damage with one build: Bear Form to endure and Cat Form to damage. In Bear it generates Rage and uses Maul, Swipe, Lacerate, and Primal Bite; in Cat it uses Energy, Combo Points, and Rip. Its mobility and Prowl are excellent, but Cat has no real AoE and Shred requires being behind the target.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Feral Druid Guide › Feral Druid Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/feral-druid-melee-dps-and-tank-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Feral Druid Leveling Guide › Cat Form AoE Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/feral-druid-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-restauracion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Recuperación: sanación",
+      "title_en": "Restoration: Healing",
+      "summary_es": "Recuperación cura con hechizos en el tiempo, Arreglo rápido, Tranquilidad y Crecimiento salvaje; pega poco.",
+      "summary_en": "Restoration heals with heal-over-time spells, Swiftmend, Tranquility and Wild Growth; it deals little damage.",
+      "keywords_es": [
+        "druida recuperación",
+        "druida sanador",
+        "rejuvenecimiento druida",
+        "crecimiento salvaje",
+        "arreglo rápido"
+      ],
+      "keywords_en": [
+        "restoration druid",
+        "druid healer",
+        "rejuvenation druid",
+        "wild growth",
+        "swiftmend"
+      ],
+      "text_es": "Recuperación es la rama sanadora: usa Rejuvenecimiento, Recrecimiento, Toque de sanación, Arreglo rápido, Tranquilidad y Crecimiento salvaje, una cura en el tiempo de área. Es una sanadora de mazmorra muy fuerte y móvil porque muchas curas son instantáneas; su daño es bajo y gasta maná, así que no es la mejor para subir sola. Mantén Marca de lo Salvaje y Espinas en el grupo y usa Estimular para recuperar maná.",
+      "text_en": "Restoration is the healing tree: it uses Rejuvenation, Regrowth, Healing Touch, Swiftmend, Tranquility, and Wild Growth, an area heal-over-time. It is a very strong and mobile dungeon healer because many heals are instant; its damage is low and it burns mana, so it is not the best solo leveler. Keep Mark of the Wild and Thorns on the group and use Innervate to recover mana.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Restoration Druid Guide › Restoration Druid Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/restoration-druid-healer-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-control",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Control y utilidad",
+      "title_en": "Control and Utility",
+      "summary_es": "Raíces enredadoras inmoviliza, Gracia de la naturaleza enraíza al recibir golpe y Hibernar duerme bestias.",
+      "summary_en": "Entangling Roots immobilizes, Nature's Grasp roots when hit, and Hibernate sleeps beasts.",
+      "keywords_es": [
+        "raíces enredadoras",
+        "gracia de la naturaleza",
+        "hibernar druida",
+        "azote druida",
+        "control druida"
+      ],
+      "keywords_en": [
+        "entangling roots",
+        "nature's grasp",
+        "druid hibernate",
+        "druid bash",
+        "druid control"
+      ],
+      "text_es": "Raíces enredadoras inmoviliza a un objetivo y, si queda fuera de melé, tampoco golpea; se rompe al recibir daño. Gracia de la naturaleza puede lanzarla al recibir un golpe, Hibernar duerme bestias y dracónidos, y Azote aturde desde Forma de oso. Hibernar también afecta mascotas de cazador y druidas transformados. Usa Raíces para separar un pull de dos enemigos y Hibernar para bestias o dracónidos.",
+      "text_en": "Entangling Roots immobilizes a target and, if it is outside melee range, it cannot melee either; damage breaks it. Nature's Grasp can cast it when you are hit, Hibernate sleeps Beasts and Dragonkin, and Bash stuns from Bear Form. Hibernate also affects Hunter pets and shapeshifted Druids. Use Roots to split a two-enemy pull and Hibernate for Beasts or Dragonkin.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Balance Druid Leveling Guide › Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/balance-druid-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Feral Druid Leveling Guide › Utility and Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/feral-druid-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-buffs",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Buffs, limpieza y resurrección",
+      "title_en": "Buffs, Cleansing, and Resurrection",
+      "summary_es": "Marca de lo Salvaje, Espinas, Fuego feérico, Renacer, Revivir y limpieza de maldiciones y venenos.",
+      "summary_en": "Mark of the Wild, Thorns, Faerie Fire, Rebirth, Revive, and cleansing of curses and poisons.",
+      "keywords_es": [
+        "buffs del druida",
+        "marca de lo salvaje",
+        "espinas druida",
+        "renacer druida",
+        "deshacer maldición"
+      ],
+      "keywords_en": [
+        "druid buffs",
+        "mark of the wild",
+        "druid thorns",
+        "druid rebirth",
+        "remove curse"
+      ],
+      "text_es": "Marca de lo Salvaje da estadísticas, resistencia y armadura; Espinas devuelve daño a quien golpea y escala con Poder con hechizos. Fuego feérico reduce la armadura y ayuda al daño físico. Renacer resucita en combate, Revivir fuera de combate, y Deshacer maldición y Suprimir veneno limpian maldiciones y venenos, pero no magia ni enfermedad. Estimular acelera la recuperación de maná de un aliado.",
+      "text_en": "Mark of the Wild gives stats, resistance, and armor; Thorns returns damage to attackers and scales with spell power. Faerie Fire reduces armor and helps physical damage. Rebirth resurrects in combat, Revive out of combat, and Remove Curse and Abolish Poison cleanse curses and poisons, but not magic or disease. Innervate speeds up an ally's mana recovery.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Balance Druid Leveling Guide › Other Utility",
+          "url": "https://www.icy-veins.com/wow-forever/balance-druid-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Restoration Druid Leveling Guide › Other Utility",
+          "url": "https://www.icy-veins.com/wow-forever/restoration-druid-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-rotacion-equilibrio",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Equilibrio",
+      "title_en": "Balance Rotation",
+      "summary_es": "Mantén Fuego lunar y Enjambre de insectos, llena con Cólera y usa Fuego estelar con Eclipse.",
+      "summary_en": "Keep Moonfire and Insect Swarm, fill with Wrath, and use Starfire with Eclipse.",
+      "keywords_es": [
+        "rotación de equilibrio",
+        "rotación del druida equilibrio",
+        "fuego lunar rotación",
+        "enjambre de insectos",
+        "eclipse druida"
+      ],
+      "keywords_en": [
+        "balance rotation",
+        "balance druid rotation",
+        "moonfire rotation",
+        "insect swarm",
+        "druid eclipse"
+      ],
+      "text_es": "En Equilibrio, mantén Fuego lunar y Enjambre de insectos y llena con Cólera; en niveles altos, alterna Cólera y Fuego estelar. Antes de entrar, lánzate Rejuvenecimiento y usa Recrecimiento si necesitas curarte; Gracia de la naturaleza si te rodean. Con 40 y tres o más enemigos, aplica los efectos y usa Huracán, con Piel de corteza para que no te interrumpan. Mantén Marca de lo Salvaje y Espinas.",
+      "text_en": "As Balance, keep Moonfire and Insect Swarm up and fill with Wrath; at higher levels, alternate Wrath and Starfire. Before engaging, cast Rejuvenation on yourself and use Regrowth if you need healing; use Nature's Grasp if you are surrounded. At 40 with three or more enemies, apply your effects and use Hurricane, with Barkskin to avoid interruptions. Keep Mark of the Wild and Thorns up.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Balance Druid Leveling Guide › Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/balance-druid-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-rotacion-oso",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de oso",
+      "title_en": "Bear Rotation",
+      "summary_es": "Enfurecer antes del pull, Fuego feérico, Mordisco primigenio y Lacerar; Flagelo para varios enemigos.",
+      "summary_en": "Enrage before the pull, Faerie Fire, Primal Bite and Lacerate; Swipe for multiple enemies.",
+      "keywords_es": [
+        "rotación de oso druida",
+        "rotación tanque druida",
+        "mordisco primigenio",
+        "lacerar druida",
+        "flagelo druida"
+      ],
+      "keywords_en": [
+        "bear druid rotation",
+        "druid tank rotation",
+        "primal bite",
+        "lacerate druid",
+        "swipe druid"
+      ],
+      "text_es": "En oso, mantén Espinas y Marca de lo Salvaje, usa Enfurecer antes del pull para entrar con rabia, Fuego feérico para bajar armadura y Mordisco primigenio en cuanto esté. Lacerar es el relleno; Flagelo sirve de relleno antes de tener esos talentos y pasa a ser el principal contra varios enemigos. Si te sobra rabia, Magullar la convierte en daño. Contra grupos, Clamor desmoralizador reduce el daño que recibes.",
+      "text_en": "As Bear, keep Thorns and Mark of the Wild up, use Enrage before the pull to enter with Rage, Faerie Fire to lower armor, and Primal Bite on cooldown. Lacerate is the filler; Swipe fills before you have those talents and becomes the main filler against several enemies. If you have excess Rage, Maul turns it into damage. Against groups, Demoralizing Roar reduces the damage you take.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Feral Druid Leveling Guide › Bear Form Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/feral-druid-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-rotacion-felino",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de felino",
+      "title_en": "Cat Rotation",
+      "summary_es": "Abre con Devastar desde Acechar, mantén Arañazo, gasta Destripar con 4+ puntos y Triturar desde detrás.",
+      "summary_en": "Open with Ravage from Prowl, keep Rake, spend Rip at 4+ points, and Shred from behind.",
+      "keywords_es": [
+        "rotación de felino",
+        "rotación druida feral dps",
+        "devastar druida",
+        "destripar druida",
+        "triturar druida"
+      ],
+      "keywords_en": [
+        "cat druid rotation",
+        "feral druid dps rotation",
+        "ravage druid",
+        "rip druid",
+        "shred druid"
+      ],
+      "text_es": "En felino, abre desde Acechar con Devastar, o con Triturar si aún no la tienes. Mantén Arañazo y usa Destripar con cuatro o más puntos si el enemigo vivirá lo suficiente; si puedes estar detrás, Triturar, y si no, Zarpa. Usa Poder cambiante con menos de 50 de energía. No hay AoE real en felino: para varios enemigos, cambia a oso o reparte Arañazo.",
+      "text_en": "As Cat, open from Prowl with Ravage, or with Shred before you have it. Keep Rake up and use Rip at four or more Combo Points if the enemy will live long enough; if you can stand behind, Shred, otherwise Claw. Use Shifting Power below 50 Energy. Cat has no real AoE: for several enemies, switch to Bear or spread Rake.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Feral Druid Leveling Guide › Cat Form Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/feral-druid-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-rotacion-restauracion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Sanación en mazmorra",
+      "title_en": "Dungeon Healing",
+      "summary_es": "Rejuvenecimiento en el tanque, Recrecimiento y Toque de sanación, Arreglo rápido, Tranquilidad y Crecimiento salvaje.",
+      "summary_en": "Rejuvenation on the tank, Regrowth and Healing Touch, Swiftmend, Tranquility, and Wild Growth.",
+      "keywords_es": [
+        "rotación de recuperación druida",
+        "sanación druida mazmorra",
+        "rejuvenecimiento tanque",
+        "arreglo rápido",
+        "tranquilidad druida"
+      ],
+      "keywords_en": [
+        "restoration druid rotation",
+        "druid dungeon healing",
+        "rejuvenation tank",
+        "swiftmend",
+        "druid tranquility"
+      ],
+      "text_es": "En mazmorra, mantén Rejuvenecimiento en el tanque y úsalo en aliados; Recrecimiento para cura dirigida y Toque de sanación si el daño sigue. Arreglo rápido tras Rejuvenecimiento es muy eficiente, Tranquilidad cubre una emergencia de grupo y Crecimiento salvaje es la cura de área. Bebe a menudo y usa Estimular en cuanto esté. Para dañar, Fuego lunar, Enjambre de insectos y Cólera; con 40 y tres o más, Huracán.",
+      "text_en": "In dungeons, keep Rejuvenation on the tank and use it on allies; Regrowth for directed healing and Healing Touch if damage continues. Swiftmend after Rejuvenation is very efficient, Tranquility covers a group emergency, and Wild Growth is the area heal. Drink often and use Innervate as soon as you have it. To deal damage, use Moonfire, Insect Swarm, and Wrath; at 40 with three or more enemies, Hurricane.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Restoration Druid Leveling Guide › Dungeon Healing Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/restoration-druid-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-consejos-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consejos para subir de nivel",
+      "title_en": "Leveling Tips",
+      "summary_es": "Lleva agua, haz cada mazmorra una vez, usa campamentos, el Saco de dormir y descansa en tabernas.",
+      "summary_en": "Carry water, do each dungeon once, use campfires and the Sleeping Bag, and rest in inns.",
+      "keywords_es": [
+        "consejos para subir druida",
+        "agua druida",
+        "saco de dormir",
+        "campamentos",
+        "experiencia de descanso"
+      ],
+      "keywords_en": [
+        "druid leveling tips",
+        "druid water",
+        "sleeping bag",
+        "campfires",
+        "rested experience"
+      ],
+      "text_es": "Lleva agua y bebe cada pocos enemigos; el Druida gasta maná, sobre todo Equilibrio y Recuperación. Haz cada mazmorra una vez por sus misiones, para en campamentos cada hora y recoge el Saco de dormir acogedor a 14 para ganar experiencia extra. Descansa en tabernas, usa comida con buff de experiencia y evita pulls de dos al principio; separa con Raíces. Sube profesiones mientras viajas para no volver a zonas bajas.",
+      "text_en": "Carry water and drink every few enemies; Druid burns mana, especially Balance and Restoration. Do each dungeon once for its quests, stop at campfires every hour, and get the Cozy Sleeping Bag at 14 for extra experience. Rest in inns, use food with an experience buff, and avoid two-enemy pulls early; split them with Roots. Level professions as you travel so you do not return to low-level zones.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Balance Druid Leveling Guide › Leveling Tips",
+          "url": "https://www.icy-veins.com/wow-forever/balance-druid-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Restoration Druid Leveling Guide › Leveling Tips",
+          "url": "https://www.icy-veins.com/wow-forever/restoration-druid-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Feral Druid Leveling Guide › Leveling Tips",
+          "url": "https://www.icy-veins.com/wow-forever/feral-druid-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-mazmorras",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "El Druida en mazmorras",
+      "title_en": "Druid in Dungeons",
+      "summary_es": "Separa pulls con Raíces e Hibernar, buffa al grupo, resucita y cambia de forma para tanquear o sobrevivir.",
+      "summary_en": "Split pulls with Roots and Hibernate, buff the group, resurrect, and shift to tank or survive.",
+      "keywords_es": [
+        "druida en mazmorras",
+        "druida en grupo",
+        "raíces en mazmorra",
+        "renacer en combate",
+        "druida tanque mazmorra"
+      ],
+      "keywords_en": [
+        "druid in dungeons",
+        "druid in groups",
+        "roots in dungeon",
+        "rebirth in combat",
+        "druid dungeon tank"
+      ],
+      "text_es": "En mazmorra, Raíces e Hibernar separan pulls, y Marca de lo Salvaje, Espinas y Fuego feérico ayudan a todo el grupo. Renacer resucita en combate y Revivir fuera; Deshacer maldición y Suprimir veneno limpian al grupo. Si eres Feral, puedes tanquear o hacer DPS con la misma build; si eres Equilibrio, lleva Estimular para la sanadora; Recuperación cura. Cambia a oso para aguantar un golpe y a felino para Acechar.",
+      "text_en": "In dungeons, Roots and Hibernate split pulls, while Mark of the Wild, Thorns, and Faerie Fire help the whole group. Rebirth resurrects in combat and Revive outside it; Remove Curse and Abolish Poison cleanse the group. As Feral, you can tank or DPS with the same build; as Balance, bring Innervate for the healer; Restoration heals. Shift to Bear to survive a hit and to Cat to Prowl.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Feral Druid Guide › Feral Druid Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/feral-druid-melee-dps-and-tank-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Restoration Druid Guide › Restoration Druid Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/restoration-druid-healer-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-profesiones",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Profesiones para el Druida",
+      "title_en": "Professions for Druid",
+      "summary_es": "Peletería con Desuello, Herboristería con Alquimia, Ingeniería con Minería y Primeros auxilios.",
+      "summary_en": "Leatherworking with Skinning, Herbalism with Alchemy, Engineering with Mining, and First Aid.",
+      "keywords_es": [
+        "profesiones para druida",
+        "peletería druida",
+        "desuello druida",
+        "alquimia druida",
+        "primeros auxilios"
+      ],
+      "keywords_en": [
+        "druid professions",
+        "druid leatherworking",
+        "druid skinning",
+        "druid alchemy",
+        "first aid"
+      ],
+      "text_es": "Peletería con Desuello da cuero, armaduras y la Tienda de campamento; Herboristería con Alquimia da pociones y elixires, incluidos los de maná. Ingeniería con Minería aporta gadgets y Primeros auxilios da vendas y pociones de salud. Cocina y Pesca se suben juntas y dan comida y materiales. Recuerda que Minería y Pesca exigen salir de forma, aunque consumibles y cofres ya se pueden usar en forma.",
+      "text_en": "Leatherworking with Skinning gives leather, armor, and the camp tent; Herbalism with Alchemy gives potions and elixirs, including mana potions. Engineering with Mining provides gadgets, and First Aid gives bandages and health potions. Cooking and Fishing level together and provide food and materials. Remember that Mining and Fishing require leaving form, though consumables and chests can now be used in form.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Balance Druid Leveling Guide › Professions",
+          "url": "https://www.icy-veins.com/wow-forever/balance-druid-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-grupo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Qué aporta el Druida al grupo",
+      "title_en": "What Druid Brings to a Group",
+      "summary_es": "Puede cubrir las cuatro funciones y aporta buffs, resurrección en combate, Estimular, control y limpieza.",
+      "summary_en": "Can cover all four roles and brings buffs, in-combat resurrection, Innervate, control, and cleansing.",
+      "keywords_es": [
+        "druida en grupo",
+        "druida cuatro roles",
+        "buffs del druida grupo",
+        "renacer druida",
+        "estimular druida"
+      ],
+      "keywords_en": [
+        "druid in groups",
+        "druid four roles",
+        "druid group buffs",
+        "druid rebirth",
+        "druid innervate"
+      ],
+      "text_es": "El Druida puede cubrir las cuatro funciones: Equilibrio hace DPS a distancia, Combate feral tanquea o hace DPS cuerpo a cuerpo y Recuperación sana. Lleva Marca de lo Salvaje, Espinas, Fuego feérico, Renacer, Estimular, Raíces y limpieza; con un solo Druida el grupo recibe la mayoría de esos buffs. Su flexibilidad permite cambiar de forma y de rol según lo que necesite el grupo.",
+      "text_en": "Druid can cover all four roles: Balance deals ranged DPS, Feral tanks or deals melee DPS, and Restoration heals. It brings Mark of the Wild, Thorns, Faerie Fire, Rebirth, Innervate, Roots, and cleansing; one Druid gives the group most of those buffs. Its flexibility lets it change form and role to fit what the group needs.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Druid Class Guide › Comprehensive Guide to Druid in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/druid-class-overview",
+          "date": "2026-10-27"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Restoration Druid Guide › Restoration Druid Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/restoration-druid-healer-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    }
+  ]
+}
