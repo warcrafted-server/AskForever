@@ -1538,7 +1538,13 @@ def _zone_in_question(db, normalized: str, lang: str):
         if any(name and name in normalized for name in (normalize(es), normalize(en))):
             return row['area_id'], es if lang == 'es' else en
     words = set(normalized.split())
+    top_level = {row['ID'] for row in _safe(
+        db._rows, 'SELECT ID FROM AreaTable WHERE ParentAreaID = 0') or []}
     for area_id, es, en in labels:
+        # Una palabra suelta solo identifica zonas principales: «cazador» no es el barco
+        # «El Cazador del Albor».
+        if top_level and area_id not in top_level:
+            continue
         for name in (normalize(es), normalize(en)):
             for token in name.split():
                 if (len(token) >= 5 and token not in ZONE_NAME_STOP_WORDS

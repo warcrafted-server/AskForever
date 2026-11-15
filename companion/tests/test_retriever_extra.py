@@ -6,8 +6,8 @@ import sqlite3
 
 import pytest
 
-from askforever.data.wowdb import WowDb
-from askforever.engine.retriever import (Facts, _active_quest_ids,
+from askforever.data.wowdb import WowDb, normalize
+from askforever.engine.retriever import (Facts, _active_quest_ids, _zone_in_question,
                                          _detect_active_quest_reference, _detect_entities,
                                          _entities_for_player, _item_line, _quest_line, retrieve)
 
@@ -253,6 +253,7 @@ def db(tmp_path):
         (0, 1497, 'Undercity', 'Entrañas'),
         (0, 16593, 'Zephras Isle', 'Isla de Zephras'),
         (1, 1637, 'Orgrimmar', 'Orgrimmar'),
+        (0, 4081, 'The Dawnchaser', 'El Cazador del Albor'),
     ])
     _insert(conn, 'AreaTable', ['ID', 'AreaName_lang', 'ParentAreaID',
                                 'FactionGroupMask'], [
@@ -261,6 +262,9 @@ def db(tmp_path):
         (85, 'Tirisfal Glades', 0, 4),
         (141, 'Teldrassil', 0, 2),
         (16593, 'Zephras Isle', 0, 0),
+        (1519, 'Stormwind City', 0, 2),
+        (1537, 'Ironforge', 0, 2),
+        (1637, 'Orgrimmar', 0, 4),
     ])
     _insert(conn, 'CreatureFamily', ['ID', 'Name_lang', 'Name_lang_esES'], [
         (1, 'Boar', 'Jabalí'),
@@ -1002,3 +1006,11 @@ def test_active_quest_reference_ignores_place_names():
     _detect_active_quest_reference(facts, _PlaceQuestDb(), '¿Dónde dejo el envío?',
                                    'donde dejo el envio', 'es', ctx, [])
     assert any('parece referirse' in line for line in facts.lines)
+
+
+def test_single_word_zone_match_only_for_main_zones(db):
+    zone_id, _name = _zone_in_question(db, normalize('como consigo una mascota de cazador'),
+                                       'es')
+    assert zone_id is None
+    zone_id, _name = _zone_in_question(db, normalize('el banco de ventormenta'), 'es')
+    assert zone_id == 1519

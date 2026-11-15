@@ -16,6 +16,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Added: hunters asking about pets get the tameable beasts of their zone (family, level and coordinates) seen in game.
 - Fixed: the official game texts are found more often and more precisely: tutorial titles count ("Death" for "I died"), race and class tutorials only reach that race and class, and words such as "items" or "quests" are no longer ignored.
 - Fixed: a short follow-up question ("and for levelling, which one?") keeps the topic of the previous one instead of answering only about the new word.
+- Fixed: a single word of the question no longer picks a minor place as the zone ("hunter" chose a ship called "The Dawnchaser"); only main zones are matched that way.
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
@@ -29,6 +30,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Añadido: los cazadores que preguntan por mascotas reciben las bestias domesticables de su zona (familia, nivel y coordenadas) vistas en el juego.
 - Corregido: los textos oficiales del juego se encuentran más y mejor: cuenta el título de los tutoriales («Muerte» para «he muerto»), los tutoriales de una raza o clase solo llegan a esa raza o clase y ya no se ignoran palabras como «objetos» o «misiones».
 - Corregido: una pregunta corta de seguimiento («¿y para subir de nivel, cuál?») mantiene el tema de la anterior en lugar de responder solo sobre la palabra nueva.
+- Corregido: una sola palabra de la pregunta ya no elige como zona un lugar menor («cazador» elegía el barco «El Cazador del Albor»); así solo se reconocen las zonas principales.
 
 ## [0.3.0-beta.4] - 2026-11-15
 
