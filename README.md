@@ -22,7 +22,7 @@ AskForever knows your level, faction and zone, uses verified data from the game 
 ![Answer about a quest: which NPC drops each item, with coordinates](docs/img/v0.3.0-quest-items.png)
 
 ### Status
-**0.3.0-beta.3 (beta).** Quest questions say where to get each objective (drops, world objects, creatures) and understand your active quests. The addon and the Windows companion work together: ask with `/af` or the minimap button and read the answer in game. Verified data from the game database and routes with flights and transports are included. The companion is installed with a normal Windows setup program, and the first launch guides you through the free Google Gemini key. English and Spanish.
+**0.3.0-beta.4 (beta).** Quest questions say where to get each objective (drops, world objects, creatures) and understand your active quests. The addon and the Windows companion work together: ask with `/af` or the minimap button and read the answer in game. Verified data from the game database and routes with flights and transports are included. The companion is installed with a normal Windows setup program, and the first launch guides you through the free Google Gemini key. English and Spanish.
 
 See the [ROADMAP](ROADMAP.md), the [CHANGELOG](CHANGELOG.md) and the [TODO](TODO.md).
 
@@ -61,7 +61,7 @@ AskForever conoce tu nivel, facción y zona, usa datos verificados de la base de
 ![Respuesta sobre una misión: qué PNJ suelta cada objeto, con coordenadas](docs/img/v0.3.0-quest-items.png)
 
 ### Estado
-**0.3.0-beta.3 (beta).** Las preguntas de misión dicen dónde conseguir cada objetivo (botín, objetos del mundo, criaturas) y entienden tus misiones activas. El addon y el companion de Windows funcionan juntos: pregunta con `/af` o el botón del minimapa y lee la respuesta dentro del juego. Incluye datos verificados de la base de datos del juego y rutas con vuelos y transportes. El companion se instala con un programa de instalación normal de Windows y, la primera vez, te guía para conseguir la clave gratuita de Google Gemini. Inglés y español.
+**0.3.0-beta.4 (beta).** Las preguntas de misión dicen dónde conseguir cada objetivo (botín, objetos del mundo, criaturas) y entienden tus misiones activas. El addon y el companion de Windows funcionan juntos: pregunta con `/af` o el botón del minimapa y lee la respuesta dentro del juego. Incluye datos verificados de la base de datos del juego y rutas con vuelos y transportes. El companion se instala con un programa de instalación normal de Windows y, la primera vez, te guía para conseguir la clave gratuita de Google Gemini. Inglés y español.
 
 Consulta la [hoja de ruta](ROADMAP.md), el [CHANGELOG](CHANGELOG.md) y el [TODO](TODO.md).
 

@@ -209,3 +209,52 @@ jobs:
           }
           gh @ghArgs
           if ($LASTEXITCODE -ne 0) { throw 'No se pudo crear la release.' }
+
+      - name: Upload to CurseForge
+        if: steps.version.outputs.release == 'true'
+        shell: pwsh
+        env:
+          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+        run: |
+          if ([string]::IsNullOrWhiteSpace($env:CF_API_KEY)) {
+              Write-Host '::warning::Falta el secreto CF_API_KEY: no se sube a CurseForge.'
+              exit 0
+          }
+          $version = '${{ steps.version.outputs.version }}'
+          $zip = "release/AskForever-$version.zip"
+          $toc = Get-Content 'addon/AskForever/AskForever.toc' -Raw
+          $projectId = [regex]::Match($toc, '(?m)^## X-Curse-Project-ID:\s*(\d+)').Groups[1].Value
+          $interface = [int][regex]::Match($toc, '(?m)^## Interface:\s*(\d+)').Groups[1].Value
+          if (-not $projectId -or -not $interface) { throw 'Faltan X-Curse-Project-ID o Interface en el .toc.' }
+          # 16001 -> 1.60.1 (mayor, menor, parche), el nombre que usa CurseForge.
+          $gameVersion = '{0}.{1}.{2}' -f [math]::Floor($interface / 10000), [math]::Floor(($interface % 10000) / 100), ($interface % 100)
+          $headers = @{ 'X-Api-Token' = $env:CF_API_KEY }
+          $api = 'https://wow.curseforge.com/api'
+          $types = Invoke-RestMethod -Uri "$api/game/version-types" -Headers $headers
+          $foreverTypes = @($types | Where-Object { "$($_.slug) $($_.name)" -match 'forever' } | ForEach-Object { $_.id })
+          $versions = Invoke-RestMethod -Uri "$api/game/versions" -Headers $headers
+          $candidates = @($versions | Where-Object { $_.name -eq $gameVersion -and ($foreverTypes.Count -eq 0 -or $foreverTypes -contains $_.gameVersionTypeID) })
+          if ($candidates.Count -ne 1) {
+              $versions | Where-Object { $_.name -eq $gameVersion } | ForEach-Object { Write-Host "Candidata: id=$($_.id) tipo=$($_.gameVersionTypeID) nombre=$($_.name)" }
+              $types | ForEach-Object { Write-Host "Tipo: id=$($_.id) slug=$($_.slug) nombre=$($_.name)" }
+              throw "No se pudo elegir una unica version de juego $gameVersion para Forever ($($candidates.Count) candidatas)."
+          }
+          $releaseType = if ($version -match 'alpha') { 'alpha' } elseif ($version -match 'beta') { 'beta' } else { 'release' }
+          $notesPath = "docs/curseforge/changelog-$version.md"
+          if (Test-Path $notesPath) {
+              $changelog = Get-Content $notesPath -Raw -Encoding utf8
+          } else {
+              $changelog = "See https://github.com/${{ github.repository }}/blob/main/CHANGELOG.md"
+          }
+          $displayName = "AskForever $version"
+          $beta = [regex]::Match($changelog, 'Beta \d+')
+          if ($beta.Success) { $displayName += " ($($beta.Value))" }
+          $metadata = @{
+              changelog = $changelog
+              changelogType = 'markdown'
+              displayName = $displayName
+              gameVersions = @($candidates[0].id)
+              releaseType = $releaseType
+          } | ConvertTo-Json -Depth 4 -Compress
+          $result = Invoke-RestMethod -Method Post -Uri "$api/projects/$projectId/upload-file" -Headers $headers -Form @{ metadata = $metadata; file = Get-Item $zip }
+          Write-Host "Subido a CurseForge: $displayName ($releaseType), archivo $($result.id)"
