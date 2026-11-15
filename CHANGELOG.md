@@ -25,6 +25,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Added: talent questions get exact WoW Forever data: what a talent does at each rank, its tree, the points it needs and its prerequisite, the talents of a tree, and which talents are new or changed in Forever.
 - Added: beginner guide on races (classes each race can be in WoW Forever, racial abilities, the Skyborne).
 - Added: beginner guide on first steps (presets, camping, sleeping bag, surnames, transmog, controller and more) and on travel and mounts.
+- Added: beginner class guides (roles, what changed in Forever, leveling spec and talent path, class quests and mechanics): Hunter
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
@@ -47,6 +48,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Añadido: las preguntas sobre talentos reciben los datos exactos de WoW Forever: qué hace un talento en cada rango, su rama, los puntos que pide y su requisito, los talentos de una rama y cuáles son nuevos o han cambiado en Forever.
 - Añadido: guía de principiantes sobre razas (qué clases puede ser cada raza en WoW Forever, habilidades raciales, los Cielonatos).
 - Añadido: guía de principiantes sobre los primeros pasos (preajustes, campamentos, saco de dormir, apellidos, transfiguración, mando y más) y sobre viajes y monturas.
+- Añadido: guías de clase para principiantes (roles, qué cambia en Forever, especialización y talentos para subir de nivel, misiones y mecánicas de clase): Cazador
 
 ## [0.3.0-beta.4] - 2026-11-15
 

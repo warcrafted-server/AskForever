@@ -1,0 +1,773 @@
+{
+  "description": "Capítulo 4: Clases. Cazador. Secciones editoriales redactadas desde guías de terceros.",
+  "sections": [
+    {
+      "id": "clase-hunter-que-hace",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Qué hace un Cazador",
+      "title_en": "What a Hunter Does",
+      "summary_es": "Cazador combina un arma a distancia, una mascota y trampas para controlar el combate y subir solo.",
+      "summary_en": "Hunter combines a ranged weapon, a pet and traps to control combat and level alone.",
+      "keywords_es": [
+        "qué hace un cazador",
+        "cazador para principiantes",
+        "compañero animal",
+        "cazador a distancia",
+        "cazador solo"
+      ],
+      "keywords_en": [
+        "what does hunter do",
+        "hunter for beginners",
+        "animal companion",
+        "ranged hunter",
+        "solo hunter"
+      ],
+      "text_es": "El Cazador es un explorador que combina un arma a distancia, un compañero animal y trampas para controlar el combate. Su compañero tanquea, hace daño y le permite matar enemigos con menos riesgo, por lo que es una de las clases más cómodas para jugar solo y subir de nivel. También aporta seguimiento, trampas, redirección de amenaza y varias herramientas de control. Su recurso principal es el maná, y gran parte del daño sale del Tiro automático y el compañero animal. Sus tres especializaciones son de daño: ninguna es tanque ni sanadora.",
+      "text_en": "Hunter is a ranger who combines a ranged weapon, an animal companion and traps to control the fight. The companion tanks, deals damage and lets you kill enemies with less risk, making Hunter one of the most comfortable classes for solo play and leveling. It also brings tracking, traps, threat redirection and several control tools. Its main resource is mana, and much of the damage comes from Auto Shot and the animal companion. All three specializations deal damage: none is a tank or healer.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Hunter Class Guide › Comprehensive Guide to Hunter in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/hunter-class-overview",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-especializaciones",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Especializaciones del Cazador",
+      "title_en": "Hunter Specializations",
+      "summary_es": "Dominio de bestias se apoya en la mascota; Puntería dispara con precisión; Supervivencia lucha cuerpo a cuerpo.",
+      "summary_en": "Beast Mastery relies on the pet; Marksmanship fires with precision; Survival fights in melee.",
+      "keywords_es": [
+        "especializaciones",
+        "dominio de bestias",
+        "puntería",
+        "supervivencia",
+        "qué especialización elegir"
+      ],
+      "keywords_en": [
+        "specializations",
+        "beast mastery",
+        "marksmanship",
+        "survival",
+        "which specialization"
+      ],
+      "text_es": "Dominio de bestias concentra el daño en la mascota y es la mejor para subir solo. Puntería refuerza los disparos propios y tiene el mayor daño de área entre las tres. Supervivencia es una especialización cuerpo a cuerpo que usa Golpe de raptor, Mordedura de mangosta y Patada de zancudo, con buen daño a un solo objetivo pero poco daño de área. En grupo, las tres ocupan el rol de daño; Dominio y Puntería atacan a distancia y Supervivencia necesita acercarse.",
+      "text_en": "Beast Mastery puts the damage in the pet and is the best choice for solo leveling. Marksmanship boosts your own shots and has the highest area damage of the three. Survival is a melee specialization that uses Raptor Strike, Mongoose Bite and Strider Kick, with strong single-target damage but little area damage. In groups all three fill the damage role; Beast Mastery and Marksmanship attack from range, while Survival must close in.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Hunter Class Guide › Comprehensive Guide to Hunter in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/hunter-class-overview",
+          "date": "2026-10-27"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Guide › Beast Mastery Hunter Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-ranged-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Guide › Marksmanship Hunter Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-ranged-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Guide › Survival Hunter Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-cambios-forever",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Qué cambia en Forever para el Cazador",
+      "title_en": "What Changes for Hunter in Forever",
+      "summary_es": "Las trampas se usan en combate, puedes tener una de fuego y otra de hielo, y Supervivencia pasa a ser cuerpo a cuerpo.",
+      "summary_en": "Traps work in combat, you can keep one fire and one ice trap, and Survival becomes a melee spec.",
+      "keywords_es": [
+        "cambios del cazador en forever",
+        "trampas en combate",
+        "supervivencia cuerpo a cuerpo",
+        "compañero escala",
+        "nuevo cazador"
+      ],
+      "keywords_en": [
+        "hunter changes forever",
+        "traps in combat",
+        "survival melee",
+        "companion scaling",
+        "new hunter"
+      ],
+      "text_es": "Forever cambia varias reglas del Cazador. Las trampas ahora pueden colocarse en combate sin usar Fingir muerte, y se puede mantener a la vez una trampa de fuego y otra de hielo. Tiro de puntería y Multidisparo comparten reutilización, así que se elige uno u otro según el número de enemigos. Supervivencia deja de alternar cuerpo a cuerpo y distancia: se especializa en melé, mientras Dominio de bestias y Puntería siguen a distancia. Además, los compañeros animales escalan con tus estadísticas y cada familia tiene su habilidad.",
+      "text_en": "Forever changes several Hunter rules. Traps can now be placed in combat without Feign Death, and you can keep one fire trap and one ice trap active at the same time. Aimed Shot and Multi-Shot share a cooldown, so you pick one or the other based on the number of enemies. Survival no longer alternates melee and ranged: it specializes in melee, while Beast Mastery and Marksmanship stay at range. Animal companions also scale with your stats, and every family has its own ability.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Leveling Guide › Important Abilities",
+          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Guide › Beast Mastery Hunter Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-ranged-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Guide › Survival Hunter Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-armas-armadura",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Armas y equipo del Cazador",
+      "title_en": "Hunter Weapons and Gear",
+      "summary_es": "Usa arcos y armas de fuego; Supervivencia añade un arma cuerpo a cuerpo lenta y el equipo recomendado es de cuero.",
+      "summary_en": "Uses bows and guns; Survival adds a slow melee weapon, and the recommended gear is leather.",
+      "keywords_es": [
+        "armas del cazador",
+        "arco o arma de fuego",
+        "equipo de cuero",
+        "arma cuerpo a cuerpo",
+        "armadura del cazador"
+      ],
+      "keywords_en": [
+        "hunter weapons",
+        "bow or gun",
+        "leather gear",
+        "melee weapon",
+        "hunter armor"
+      ],
+      "text_es": "El Cazador combate con arcos y armas de fuego, y sus tiros dependen del daño del arma. Supervivencia añade un arma cuerpo a cuerpo a dos manos lenta para su rotación de melé. Las piezas de cuero son las que aparecen en las recomendaciones de equipo, y Peletería puede fabricar varias de ellas. Las armas más lentas suelen dar más daño por golpe, que es lo que buscan los tiros del Cazador.",
+      "text_en": "Hunter fights with bows and guns, and its shots depend on weapon damage. Survival adds a slow two-handed melee weapon for its melee rotation. Leather pieces are the ones found in the gear recommendations, and Leatherworking can craft several of them. Slower weapons usually deal more damage per hit, which is what Hunter shots look for.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Hunter Class Guide › Comprehensive Guide to Hunter in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/hunter-class-overview",
+          "date": "2026-10-27"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Leveling Guide › Important Abilities",
+          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-subir-espec",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Mejor especialización para subir",
+      "title_en": "Best Hunter Leveling Spec",
+      "summary_es": "Dominio de bestias es la mejor para subir; Puntería queda cerca; Supervivencia es la más floja hasta sus talentos.",
+      "summary_en": "Beast Mastery is the best leveler; Marksmanship is close and Survival is weakest until its deeper talents.",
+      "keywords_es": [
+        "mejor especialización para subir cazador",
+        "dominio de bestias para nivelar",
+        "puntería para subir",
+        "supervivencia para subir",
+        "cazador leveling"
+      ],
+      "keywords_en": [
+        "best hunter leveling spec",
+        "beast mastery leveling",
+        "marksmanship leveling",
+        "survival leveling",
+        "hunter leveling"
+      ],
+      "text_es": "Para subir de nivel, Dominio de bestias es la opción más fuerte porque el compañero animal tanquea y hace gran parte del daño. Puntería también es muy buena, aunque depende más de los disparos propios y es algo inferior a Dominio. Supervivencia es la más débil de las tres durante buena parte del recorrido: sus mejores talentos de melé llegan tarde y conviene jugar a distancia al menos hasta el nivel 40. Las tres siguen siendo Cazador, así que el compañero animal y el Tiro automático ya dan una base sólida.",
+      "text_en": "For leveling, Beast Mastery is the strongest option because the animal companion tanks and deals much of the damage. Marksmanship is also very good, though it relies more on your own shots and is slightly below Beast Mastery. Survival is the weakest of the three for much of the journey: its best melee talents arrive late, and you should play at range at least until level 40. All three are still Hunters, so the animal companion and Auto Shot already provide a solid base.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Beast Mastery Hunter Leveling Guide",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Guide › Marksmanship Hunter Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-ranged-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Guide › Survival Hunter Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-talentos-subida",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de talentos para subir",
+      "title_en": "Leveling Talent Path",
+      "summary_es": "Ruta de Dominio: Aspectos letales, Encontrar camino y Revivir mascota; Invocar halcón a 25; luego Ira de bestias.",
+      "summary_en": "Beast Mastery path: Deadly Aspects, Pathfinding and Improved Revive Pet; Summon Hawk at 25; then Bestial Wrath.",
+      "keywords_es": [
+        "talentos para subir",
+        "ruta de talentos dominio de bestias",
+        "aspectos letales",
+        "invocar halcón",
+        "ira de bestias"
+      ],
+      "keywords_en": [
+        "leveling talents",
+        "beast mastery talent path",
+        "deadly aspects",
+        "summon hawk",
+        "bestial wrath"
+      ],
+      "text_es": "Para subir como Dominio de bestias, de 10 a 20 empieza por Aspectos letales y recoge pronto Encontrar camino y Revivir mascota mejorado. De 20 a 30, avanza hacia Invocar halcón, que se desbloquea a nivel 25. Después de 30, completa 31 puntos en Dominio de bestias para Ira de bestias y añade Ataques letales y Afinar la puntería. En los últimos niveles puedes completar con Entrenamiento en aguante, Ojo de águila, Vínculo de espíritu o Rastreo mejorado.",
+      "text_en": "To level as Beast Mastery, from 10 to 20 start with Deadly Aspects and pick up Pathfinding and Improved Revive Pet early. From 20 to 30, work toward Summon Hawk, which unlocks at level 25. After 30, reach 31 points in Beast Mastery and take Bestial Wrath, then add Lethal Attacks and Careful Aim. For the last levels you can fill in Endurance Training, Hawk Eye, Spirit Bond or Improved Tracking.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Leveling Talent Build",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-hitos",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Hitos de habilidad por nivel",
+      "title_en": "Ability Milestones by Level",
+      "summary_es": "Mascota 10; Aspecto del guepardo 20; Invocar halcón 25; Fingir muerte 30; Disparo de francotirador 40 en Puntería.",
+      "summary_en": "Pet 10; Aspect of the Cheetah 20; Summon Hawk 25; Feign Death 30; Sniper Shot 40 in Marksmanship.",
+      "keywords_es": [
+        "nivel de las habilidades",
+        "cuándo aprendo mascota",
+        "aspecto del guepardo nivel",
+        "fingir muerte nivel",
+        "disparo de francotirador nivel"
+      ],
+      "keywords_en": [
+        "ability levels",
+        "when do I learn pet",
+        "aspect of the cheetah level",
+        "feign death level",
+        "sniper shot level"
+      ],
+      "text_es": "Los hitos principales son la misión de mascota a nivel 10, Aspecto del guepardo a 20 y Fingir muerte a 30. En Dominio de bestias, Invocar halcón llega con los talentos a nivel 25. En Puntería, Recuperación rápida aparece a 30 y Disparo de francotirador a 40. Aspecto de la manada también se aprende a nivel 40.",
+      "text_en": "The main milestones are the pet quest at level 10, Aspect of the Cheetah at 20 and Feign Death at 30. In Beast Mastery, Summon Hawk arrives through talents at level 25. In Marksmanship, Rapid Recuperation appears at 30 and Sniper Shot at 40. Aspect of the Pack is also learned at level 40.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-mision-clase",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "La misión de clase de nivel 10",
+      "title_en": "The Level 10 Class Quest",
+      "summary_es": "A nivel 10, la misión Taming the Beast desbloquea la mascota y Domesticar bestia tras domesticar tres bestias.",
+      "summary_en": "At level 10, Taming the Beast unlocks the pet and Tame Beast after taming three beasts.",
+      "keywords_es": [
+        "misión de clase",
+        "desbloquear mascota",
+        "taming the beast",
+        "domesticar bestia",
+        "misión nivel 10"
+      ],
+      "keywords_en": [
+        "class quest",
+        "unlock pet",
+        "taming the beast",
+        "tame beast",
+        "level 10 quest"
+      ],
+      "text_es": "La misión de clase importante llega a nivel 10 y desbloquea la mascota. Se llama Taming the Beast y, al completarla, aprendes Domesticar bestia y el resto de habilidades de mascota. Es la mejora más grande de daño y supervivencia del personaje, así que conviene hacerla en cuanto esté disponible.",
+      "text_en": "The key class quest arrives at level 10 and unlocks the pet. It is called Taming the Beast and, when completed, teaches Tame Beast and the rest of the pet abilities. It is the biggest damage and survival upgrade the character gets, so do it as soon as it is available.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Hunter Class Quests Guide › Hunter Class Quest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/hunter-class-quests",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-mascotas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Cómo funcionan las mascotas",
+      "title_en": "How Hunter Pets Work",
+      "summary_es": "Mascota a 10: familia y clasificación, hereda estadísticas y aprende rangos superiores de otras bestias.",
+      "summary_en": "The pet arrives at 10, has a family and classification, inherits stats and learns higher ranks by taming other beasts.",
+      "keywords_es": [
+        "mascotas",
+        "ferocidad astucia tenacidad",
+        "felicidad de la mascota",
+        "habilidades de mascota",
+        "domesticar rangos"
+      ],
+      "keywords_en": [
+        "pets",
+        "ferocity cunning tenacity",
+        "pet happiness",
+        "pet abilities",
+        "tame higher ranks"
+      ],
+      "text_es": "La mascota se desbloquea a nivel 10 y se convierte en tanque, fuente de daño y herramienta para subir. Hay tres clasificaciones: Ferocidad, Astucia y Tenacidad; ninguna recibe un bonus o penalización de daño por su tipo. La felicidad y la lealtad siguen existiendo, así que hay que alimentarla. Hereda parte de tus estadísticas y cada familia tiene su habilidad propia. Para aprender rangos superiores de una habilidad hay que domesticar una bestia que ya la tenga; después se puede enseñar a otras mascotas compatibles.",
+      "text_en": "The pet unlocks at level 10 and becomes a tank, a damage source and a leveling tool. There are three classifications: Ferocity, Cunning and Tenacity; none gets a damage bonus or penalty from its type. Happiness and loyalty still exist, so keep it fed. It inherits some of your stats and every family has its own ability. To learn higher ranks of an ability you must tame a beast that already has it; you can then teach it to other compatible pets.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Pets - Your Trusty Companions",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Leveling Guide › Pets",
+          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-control-mascota",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Controlar a la mascota",
+      "title_en": "Controlling Your Pet",
+      "summary_es": "Manda a la mascota primero, espera amenaza, usa Sanar mascota y Revivir mascota; las macros ayudan a controlarla.",
+      "summary_en": "Send the pet first, wait for threat, use Mend Pet and Revive Pet; macros help control it.",
+      "keywords_es": [
+        "controlar mascota",
+        "mascota coge amenaza",
+        "sanar mascota",
+        "revivir mascota",
+        "macros de mascota"
+      ],
+      "keywords_en": [
+        "control pet",
+        "pet threat",
+        "mend pet",
+        "revive pet",
+        "pet macros"
+      ],
+      "text_es": "La mascota debe atacar antes de que empieces a disparar para que genere amenaza; si atacas demasiado pronto, te quitará la atención. Usa Sanar mascota para mantenerla viva y Revivir mascota si muere; Fingir muerte sirve para salir de combate y empezar de nuevo. Las macros de ataque, seguimiento y parada permiten controlarla sin perder tiempo. En mazmorras, cuidado con mandarla a un grupo cercano: una mala elección puede arruinar el combate.",
+      "text_en": "The pet should attack before you start shooting so it builds threat; if you attack too early, you will pull attention away. Use Mend Pet to keep it alive and Revive Pet if it dies; Feign Death lets you leave combat and start again. Macros for attack, follow and stop let you control it without wasting time. In dungeons, be careful about sending it into a nearby group: one bad choice can ruin the fight.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Important Pet Macros",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Leveling Guide › Important Pet Macros",
+          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-trampas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Trampas del Cazador",
+      "title_en": "Hunter Traps",
+      "summary_es": "Trampa congelante, de Escarcha y explosiva; en Forever se usan en combate y puedes tener una de fuego y otra de hielo.",
+      "summary_en": "Freezing Trap, Frost Trap and Explosive Trap; in Forever they work in combat and you can keep one fire and one ice trap.",
+      "keywords_es": [
+        "trampas",
+        "trampa congelante",
+        "trampa de escarcha",
+        "trampa explosiva",
+        "trampas en combate"
+      ],
+      "keywords_en": [
+        "traps",
+        "freezing trap",
+        "frost trap",
+        "explosive trap",
+        "traps in combat"
+      ],
+      "text_es": "Las trampas son parte central del control del Cazador. Trampa congelante encierra a un enemigo y se rompe con daño; Trampa de Escarcha ralentiza a los que entran en la zona; Trampa explosiva es la opción de daño en área. En Forever se pueden colocar en combate sin usar Fingir muerte, y puedes mantener una trampa de fuego y otra de hielo a la vez. Atrapamiento añade un enraizamiento adicional a las trampas.",
+      "text_en": "Traps are central to Hunter control. Freezing Trap locks an enemy in place and breaks on damage; Frost Trap slows those who enter the area; Explosive Trap is the area-damage option. In Forever they can be placed in combat without Feign Death, and you can keep a fire trap and an ice trap running together. Entrapment adds an extra root to traps.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Leveling Guide › Utility and Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-aspectos",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Aspectos y movilidad",
+      "title_en": "Aspects and Mobility",
+      "summary_es": "Aspecto del guepardo acelera un 30% pero se pierde al daño; Aspecto del halcón da daño; el de la manada llega a 40.",
+      "summary_en": "Aspect of the Cheetah: 30% speed but breaks on damage; Aspect of the Hawk adds damage; Aspect of the Pack comes at 40.",
+      "keywords_es": [
+        "aspectos",
+        "aspecto del guepardo",
+        "aspecto del halcón",
+        "aspecto de la manada",
+        "movilidad del cazador"
+      ],
+      "keywords_en": [
+        "aspects",
+        "aspect of the cheetah",
+        "aspect of the hawk",
+        "aspect of the pack",
+        "hunter mobility"
+      ],
+      "text_es": "Los aspectos son buffs permanentes que el Cazador elige según la situación. Aspecto del guepardo da un 30% de velocidad y puede activarse en combate, pero recibir daño te atonta y lo elimina. Aspecto del halcón es el buff de daño para combatir. A nivel 40 aprendes Aspecto de la manada, que comparte la velocidad con el grupo.",
+      "text_en": "Aspects are permanent buffs Hunter chooses for the situation. Aspect of the Cheetah gives 30% speed and can be enabled in combat, but taking damage dazes you and removes it. Aspect of the Hawk is the combat damage buff. At level 40 you learn Aspect of the Pack, which shares the speed with your group.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Utility and Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Leveling Guide › Utility and Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-rotacion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación básica para subir",
+      "title_en": "Basic Leveling Rotation",
+      "summary_es": "Marca del cazador, mascota primero, Aguijón de serpiente, Tiro de puntería y Tiro automático; Multidisparo para varios.",
+      "summary_en": "Hunter's Mark, pet first, Serpent Sting, Aimed Shot and Auto Shot; Multi-Shot for several enemies.",
+      "keywords_es": [
+        "rotación del cazador",
+        "marca del cazador",
+        "aguijón de serpiente",
+        "tiro de puntería",
+        "multidisparo"
+      ],
+      "keywords_en": [
+        "hunter rotation",
+        "hunter's mark",
+        "serpent sting",
+        "aimed shot",
+        "multi-shot"
+      ],
+      "text_es": "En un objetivo único, pon Marca del cazador, manda al compañero animal y espera a que coja amenaza. Después aplica Aguijón de serpiente, usa Tiro de puntería en cuanto esté disponible y sigue con Tiro automático. Con dos o más enemigos, Multidisparo sustituye a Tiro de puntería; si tienes maná de sobra, Tiro Arcano entra en la rotación. Para área usa Trampa explosiva y Lluvia, y Separación si te quedas en melé con demasiada amenaza.",
+      "text_en": "On a single target, apply Hunter's Mark, send the companion in and wait for it to build threat. Then apply Serpent Sting, use Aimed Shot whenever it is available and keep firing Auto Shot. With two or more enemies, Multi-Shot replaces Aimed Shot; if you have spare mana, Arcane Shot joins the rotation. For area damage use Explosive Trap and Volley, and Disengage if you end up in melee with too much threat.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Beast Mastery Hunter Leveling Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-tips",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consejos para subir de nivel",
+      "title_en": "Leveling Tips",
+      "summary_es": "Mata de uno en uno, no pares de atacar, descansa en tabernas, haz cada mazmorra por sus misiones y busca campamentos.",
+      "summary_en": "Kill one at a time, keep attacking, rest in inns, do each dungeon for its quests, and look for campsites.",
+      "keywords_es": [
+        "consejos para subir cazador",
+        "experiencia descansada",
+        "mazmorras para subir",
+        "campamentos cazador",
+        "saco de dormir cazador"
+      ],
+      "keywords_en": [
+        "hunter leveling tips",
+        "rested experience",
+        "dungeons for leveling",
+        "hunter campsites",
+        "hunter sleeping bag"
+      ],
+      "text_es": "Con compañero animal, la forma más eficiente de subir es no dejar de matar: el Cazador puede encadenar enemigos mientras recupera maná. Es mejor acabar de uno en uno, porque el compañero pierde amenaza con varios objetivos. Descansa en una taberna o ciudad para acumular experiencia descansada, y haz cada mazmorra una vez con sus misiones, ya que las misiones dan más experiencia que repetir enemigos. Los campamentos dan buffs y el Saco de dormir acogedor añade experiencia extra desde nivel 14.",
+      "text_en": "With an animal companion, the most efficient way to level is to keep killing: Hunter can chain enemies while recovering mana. It is better to finish them one at a time, because the companion loses threat against several targets. Rest in an inn or city to build rested experience, and do each dungeon once with its quests, since quests give more experience than repeating enemies. Campsites give buffs and the Cozy Sleeping Bag adds bonus experience from level 14.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Leveling Tips",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-grupo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "El Cazador en grupo y mazmorras",
+      "title_en": "Hunter in Groups and Dungeons",
+      "summary_es": "En grupo controla la mascota, usa trampas para controlar y Fingir muerte para escapar; Puntería aporta más área.",
+      "summary_en": "In groups control the pet, use traps and Feign Death to escape; Marksmanship brings more area damage.",
+      "keywords_es": [
+        "cazador en grupo",
+        "cazador en mazmorras",
+        "compañero en mazmorra",
+        "trampas para grupo",
+        "daño de área cazador"
+      ],
+      "keywords_en": [
+        "hunter in groups",
+        "hunter in dungeons",
+        "companion in dungeon",
+        "traps for group",
+        "hunter area damage"
+      ],
+      "text_es": "En mazmorras, el Cazador ocupa el rol de daño a distancia, salvo Supervivencia, que busca el cuerpo a cuerpo. El compañero animal debe controlarse para no atraer enemigos extra; conviene tener una macro para pararlo y traerlo de vuelta. Trampa congelante y Trampa de Escarcha ayudan a controlar, y Fingir muerte es una salida de emergencia. Dominio de bestias destaca en daño sostenido a un objetivo, Puntería tiene el mejor daño de área y Supervivencia necesita equipo y talentos para rendir en melé.",
+      "text_en": "In dungeons Hunter fills the ranged damage role, except Survival, which moves into melee. The animal companion must be controlled so it does not pull extra enemies; keep a macro to stop it and bring it back. Freezing Trap and Frost Trap help with control, and Feign Death is an emergency exit. Beast Mastery excels at sustained single-target damage, Marksmanship has the best area damage, and Survival needs gear and talents to perform in melee.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Guide › Strong, Persistent Damage",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-ranged-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Guide › Marksmanship Hunter Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-ranged-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Guide › Survival Hunter Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-dominio",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Dominio de bestias",
+      "title_en": "Beast Mastery",
+      "summary_es": "Dominio de bestias gira en torno a la mascota; Invocar halcón a 25 e Ira de bestias a 31 puntos son sus claves.",
+      "summary_en": "Beast Mastery revolves around the pet; Summon Hawk at 25 and Bestial Wrath at 31 points are its keys.",
+      "keywords_es": [
+        "dominio de bestias",
+        "con mascota",
+        "invocar halcón",
+        "ira de bestias",
+        "dominio de bestias para subir"
+      ],
+      "keywords_en": [
+        "beast mastery",
+        "pet specialization",
+        "summon hawk",
+        "bestial wrath",
+        "beast mastery leveling"
+      ],
+      "text_es": "Dominio de bestias pone casi todo el peso en la mascota, que hace daño y aguanta mientras tú disparas. Invocar halcón se desbloquea a nivel 25 y es una de las habilidades clave de la rama; Ira de bestias llega al invertir 31 puntos en el árbol. La mascota escala con tus estadísticas, así que la especialización sigue creciendo en el juego tardío. Es la opción más cómoda para subir y para jugar solo.",
+      "text_en": "Beast Mastery puts almost all the weight on the pet, which deals damage and survives while you shoot. Summon Hawk unlocks at level 25 and is one of the tree's key abilities; Bestial Wrath arrives after investing 31 points in the tree. The pet scales with your stats, so the specialization keeps growing in the late game. It is the most comfortable option for leveling and solo play.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Guide › Beast Mastery Hunter Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-ranged-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter - Spec, Builds, and Talents › PvE Talent Build",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-ranged-dps-pve-spec-builds-talents",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-punteria",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Puntería",
+      "title_en": "Marksmanship",
+      "summary_es": "Puntería refuerza tus disparos y el área; Disparo de francotirador es su talento final.",
+      "summary_en": "Marksmanship boosts your shots and area damage; Sniper Shot is its final talent.",
+      "keywords_es": [
+        "puntería",
+        "precisión",
+        "disparo de francotirador",
+        "lobo solitario",
+        "puntería daño de área"
+      ],
+      "keywords_en": [
+        "marksmanship",
+        "precision spec",
+        "sniper shot",
+        "lone wolf",
+        "marksmanship area damage"
+      ],
+      "text_es": "Puntería concentra el daño en tus propios disparos y tiene el mejor daño de área de las tres especializaciones. Su talento final es Disparo de francotirador, que define su estilo de ráfaga. La rama también incluye Lobo solitario; si prefieres mantener la mascota, Dominio de bestias ofrece Furia desatada e Invocar halcón. Con Aura de disparo certero también aporta un buff al grupo.",
+      "text_en": "Marksmanship focuses damage on your own shots and has the best area damage of the three specializations. Its final talent is Sniper Shot, which defines its burst style. The tree also includes Lone Wolf; if you prefer to keep the pet, Beast Mastery offers Unleashed Fury and Summon Hawk. With Trueshot Aura it also brings a group buff.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Guide › Marksmanship Hunter Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-ranged-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter - Spec, Builds, and Talents › Lone Wolf PvE Talent Build",
+          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-ranged-dps-pve-spec-builds-talents",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-supervivencia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Supervivencia",
+      "title_en": "Survival",
+      "summary_es": "Supervivencia es cuerpo a cuerpo; usa Golpe de raptor, Mordedura de mangosta y Patada de zancudo, y tarda en arrancar.",
+      "summary_en": "Survival is melee, uses Raptor Strike, Mongoose Bite and Strider Kick, and performs better with deeper talents.",
+      "keywords_es": [
+        "supervivencia",
+        "cuerpo a cuerpo",
+        "golpe de raptor",
+        "mordedura de mangosta",
+        "patada de zancudo"
+      ],
+      "keywords_en": [
+        "survival",
+        "melee hunter",
+        "raptor strike",
+        "mongoose bite",
+        "strider kick"
+      ],
+      "text_es": "Supervivencia es la especialización de melé de la clase. Usa Golpe de raptor, Mordedura de mangosta y Patada de zancudo, y sigue apoyándose en Aguijón de serpiente y en el compañero animal. Sus talentos de melé llegan más tarde, así que al subir conviene jugar a distancia al menos hasta el nivel 40. En un objetivo único puede rendir muy bien al final, pero su daño de área es limitado. En grupo ocupa el rol de daño cuerpo a cuerpo.",
+      "text_en": "Survival is the melee-focused specialization. It uses Raptor Strike, Mongoose Bite and Strider Kick, and still relies on Serpent Sting and the animal companion. Its melee talents arrive later, so while leveling you should play at range at least until level 40. Against a single target it can perform very well late, but its area damage is limited. In groups it fills the melee damage role.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Guide › Survival Hunter Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Leveling Guide › Leveling Talent Build",
+          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    }
+  ]
+}
