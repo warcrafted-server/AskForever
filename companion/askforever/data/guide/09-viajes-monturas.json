@@ -1,0 +1,190 @@
+{
+  "description": "Capítulo 9: Viajes y monturas. Secciones editoriales redactadas desde guías de terceros.",
+  "sections": [
+    {
+      "id": "viaje-monturas",
+      "chapter": 9,
+      "status": "editorial",
+      "title_es": "Monturas: transporte por el exterior",
+      "title_en": "Mounts: Outdoor Travel",
+      "summary_es": "Las monturas son el principal medio de transporte terrestre y aumentan la velocidad por el exterior.",
+      "summary_en": "Mounts are the main ground transport and increase movement speed outdoors.",
+      "keywords_es": [
+        "monturas en forever",
+        "viajar más rápido",
+        "transporte terrestre",
+        "monturas coleccionables",
+        "moverse por el mundo"
+      ],
+      "keywords_en": [
+        "forever mounts",
+        "travel faster",
+        "ground travel",
+        "collectible mounts",
+        "move around the world"
+      ],
+      "text_es": "Las monturas son uno de los principales medios de transporte de Forever y permiten recorrer el exterior a más velocidad. Hay muchos tipos y aspectos, y forman parte de las colecciones permanentes del juego. Se usan al aire libre y son la forma habitual de cruzar zonas largas una vez desbloqueadas.",
+      "text_en": "Mounts are one of Forever's main means of transport and let you cross the outdoors at higher speed. There are many kinds and looks, and they are part of the game's permanent collections. They are used outdoors and become the usual way to cross long zones once unlocked.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever Collections Overview › Mounts in WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/collectible-items",
+          "date": "2026-09-21"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "viaje-monturas-nivel",
+      "chapter": 9,
+      "status": "editorial",
+      "title_es": "Nivel 40 y coste de la primera montura",
+      "title_en": "Level 40 and First Mount Cost",
+      "summary_es": "No hay monturas antes del nivel 40; al 40 se desbloquea la montura al 60% por unas 100 monedas de oro.",
+      "summary_en": "There are no mounts before level 40; at 40 the 60% mount unlocks for about 100 gold.",
+      "keywords_es": [
+        "nivel de la montura",
+        "montura al 60",
+        "cuánto cuesta la montura",
+        "entrenamiento de jinete",
+        "montura nivel 40"
+      ],
+      "keywords_en": [
+        "mount level",
+        "60% mount",
+        "mount cost",
+        "riding training",
+        "level 40 mount"
+      ],
+      "text_es": "Antes del nivel 40 no tienes acceso a monturas. Al llegar al 40 se desbloquea la montura al 60% de velocidad; el entrenamiento de jinete y la montura cuestan unas 100 monedas de oro en total. Conviene guardar oro para la montura en lugar de comprar todos los rangos de habilidad.",
+      "text_en": "There are no mounts before level 40. At 40 the 60% speed mount unlocks; riding training and the mount cost about 100 gold in total. It is worth saving gold for the mount instead of buying every ability rank.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Guide › Leveling Information",
+          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Arms Warrior Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/arms-warrior-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "viaje-monturas-coleccion",
+      "chapter": 9,
+      "status": "editorial",
+      "title_es": "Monturas de colección y ediciones",
+      "title_en": "Collection and Edition Mounts",
+      "summary_es": "Monturas de colección; las ediciones incluyen la Garramanada cerúleo y el Compañero fiel de aventurero veterano.",
+      "summary_en": "Mounts are collectible; paid editions include the Cerulean Prideclaw and the Veteran Adventurer's Loyal Companion.",
+      "keywords_es": [
+        "monturas de colección",
+        "garramanada cerúlea",
+        "compañero fiel de aventurero veterano",
+        "monturas de edición",
+        "coleccionar monturas"
+      ],
+      "keywords_en": [
+        "collection mounts",
+        "cerulean prideclaw",
+        "veteran adventurer's loyal companion",
+        "edition mounts",
+        "collect mounts"
+      ],
+      "text_es": "Las monturas forman parte de las colecciones y se pueden conseguir de distintas fuentes. Las ediciones de pago de Forever incluyen la Garramanada cerúleo y el Compañero fiel de aventurero veterano, disponibles tanto en Retail como en Forever. La colección de monturas es una de las actividades de coleccionista del juego.",
+      "text_en": "Mounts are part of the collections and can come from different sources. Forever's paid editions include the Cerulean Prideclaw and the Veteran Adventurer's Loyal Companion, available in both Retail and Forever. Collecting mounts is one of the game's collector activities.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever Collections Overview › Mounts in WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/collectible-items",
+          "date": "2026-09-21"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever Pre-Order Editions and Rewards Explained › Forever Pre-Orders Comparison",
+          "url": "https://www.icy-veins.com/wow-forever/wow-forever-pre-orders",
+          "date": "2026-09-13"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "viaje-forma-viaje-druida",
+      "chapter": 9,
+      "status": "editorial",
+      "title_es": "Forma de viaje del Druida",
+      "title_en": "Druid Travel Form",
+      "summary_es": "La Forma de viaje del Druida aumenta mucho la velocidad, solo funciona al aire libre y sirve antes de tener montura.",
+      "summary_en": "Druid Travel Form greatly increases speed, only works outdoors and serves before you get a mount.",
+      "keywords_es": [
+        "forma de viaje druida",
+        "viajar como druida",
+        "velocidad druida",
+        "druida sin montura",
+        "forma de viaje"
+      ],
+      "keywords_en": [
+        "druid travel form",
+        "travel as druid",
+        "druid speed",
+        "druid without mount",
+        "travel form"
+      ],
+      "text_es": "La Forma de viaje del Druida aumenta mucho la velocidad de movimiento, pero solo puede usarse al aire libre. Antes de tener montura es el medio de desplazamiento principal del Druida, y después sigue siendo útil porque es instantánea y se puede usar en combate. Los Cielonatos tienen una apariencia propia para esta forma.",
+      "text_en": "Druid Travel Form greatly increases movement speed, but it can only be used outdoors. Before you get a mount it is the Druid's main way to travel, and afterwards it remains useful because it is instant and can be used in combat. Skyborne have their own appearance for this form.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Druid Shapeshift Forms Guide › Travel Form",
+          "url": "https://www.icy-veins.com/wow-forever/druid-shapeshift-forms",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "viaje-puntos-vuelo",
+      "chapter": 9,
+      "status": "editorial",
+      "title_es": "Puntos de vuelo para moverte por zonas",
+      "title_en": "Flight Paths for Crossing Zones",
+      "summary_es": "Puntos de vuelo cerca de Humedales, Los Baldíos, Sierra Espolón, Loch Modan y Trabalomas facilitan viajar entre zonas.",
+      "summary_en": "Flight paths near Wetlands, the Barrens, Stonetalon, Loch Modan and Hillsbrad help travel between zones.",
+      "keywords_es": [
+        "puntos de vuelo",
+        "volar entre zonas",
+        "transporte por zonas",
+        "rutas de vuelo",
+        "viajar a humedales"
+      ],
+      "keywords_en": [
+        "flight paths",
+        "fly between zones",
+        "zone travel",
+        "flight routes",
+        "travel to wetlands"
+      ],
+      "text_es": "Los puntos de vuelo desbloqueados son una forma práctica de llegar a zonas lejanas. Para la cadena del Saco de dormir acogedor conviene tener puntos de vuelo cerca de Humedales, Los Baldíos, Sierra Espolón, Loch Modan y Trabalomas. Tener esas rutas abiertas reduce el tiempo de viaje entre las paradas.",
+      "text_en": "Unlocked flight paths are a practical way to reach distant zones. For the Cozy Sleeping Bag questline it helps to have flight paths near the Wetlands, the Barrens, Stonetalon Mountains, Loch Modan and Hillsbrad Foothills. Having those routes open cuts travel time between stops.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: How to Get The Sleeping Bag in World of Warcraft Forever › How to Obtain the Cozy Sleeping Bag",
+          "url": "https://www.icy-veins.com/wow-forever/sleeping-bag",
+          "date": "2026-10-10"
+        }
+      ],
+      "updated": "2026-11-15"
+    }
+  ]
+}

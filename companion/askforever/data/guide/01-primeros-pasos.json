@@ -1,0 +1,725 @@
+{
+  "description": "Capítulo 1: Primeros pasos. Secciones editoriales redactadas desde guías de terceros.",
+  "sections": [
+    {
+      "id": "general-suscripcion",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Qué necesitas para jugar a Forever",
+      "title_en": "What You Need to Play Forever",
+      "summary_es": "Una suscripción normal de WoW cubre Forever; no hace falta comprar el juego ni una prueba gratuita.",
+      "summary_en": "A normal WoW subscription covers Forever; no game purchase or free trial is required.",
+      "keywords_es": [
+        "suscripción para forever",
+        "hace falta comprar forever",
+        "cuenta de battle.net",
+        "prueba gratuita forever",
+        "cliente de forever"
+      ],
+      "keywords_en": [
+        "forever subscription",
+        "do I need to buy forever",
+        "battle.net account",
+        "forever free trial",
+        "forever client"
+      ],
+      "text_es": "Forever funciona con la suscripción habitual de World of Warcraft y no exige una compra aparte. Se juega desde un cliente propio de Forever dentro de Battle.net y hace falta una cuenta de Battle.net. No hay prueba gratuita ni edición de inicio, y con una misma cuenta solo puedes tener abierto un modo de juego a la vez.",
+      "text_en": "Forever runs on the usual World of Warcraft subscription and does not require a separate purchase. It uses its own Forever client inside Battle.net, and a Battle.net account is required. There is no free trial or starter edition, and one account can only have one game mode open at a time.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Warcraft Forever Subscription Explained › What do I Need to Play Forever?",
+          "url": "https://www.icy-veins.com/wow-forever/wow-forever-subscription",
+          "date": "2026-09-13"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-instalacion",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Instalar Forever y requisitos",
+      "title_en": "Installing Forever and Requirements",
+      "summary_es": "Se instala desde Battle.net; pide más que Classic, con Windows 10/11, 8-16 GB de RAM y SSD.",
+      "summary_en": "It installs through Battle.net; it asks for more than Classic, with Windows 10/11, 8-16 GB RAM and an SSD.",
+      "keywords_es": [
+        "instalar forever",
+        "requisitos de forever",
+        "battle.net forever",
+        "ram para forever",
+        "disco para forever"
+      ],
+      "keywords_en": [
+        "install forever",
+        "forever requirements",
+        "battle.net forever",
+        "forever ram",
+        "forever storage"
+      ],
+      "text_es": "Para instalar Forever, abre Battle.net, elige la entrada de Forever en el desplegable de versiones y pulsa Instalar. El juego pide más que Classic: como mínimo Windows 10 de 64 bits, 8 GB de RAM y 128 GB libres en un SSD; la configuración recomendada sube a Windows 11 y 16 GB de RAM. También necesita una tarjeta compatible con DirectX 12 y conexión de banda ancha.",
+      "text_en": "To install Forever, open Battle.net, pick the Forever entry in the version dropdown and press Install. The game asks for more than Classic: at least 64-bit Windows 10, 8 GB of RAM and 128 GB free on an SSD; the recommended setup rises to Windows 11 and 16 GB of RAM. It also needs a DirectX 12-capable card and a broadband connection.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Warcraft Forever Subscription Explained › How to Install and Launch Forever",
+          "url": "https://www.icy-veins.com/wow-forever/wow-forever-subscription",
+          "date": "2026-09-13"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-cuentas",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Personajes, cuentas y transferencias",
+      "title_en": "Characters, Accounts and Transfers",
+      "summary_es": "Hasta 10 personajes por conjunto y 50 por licencia; no hay transferencias salvo la salida de Hardcore.",
+      "summary_en": "Up to 10 characters per ruleset and 50 per licence; there are no transfers except leaving Hardcore.",
+      "keywords_es": [
+        "cuántos personajes puedo crear",
+        "límite de personajes",
+        "transferir personaje forever",
+        "suscripción caducada",
+        "personajes por cuenta"
+      ],
+      "keywords_en": [
+        "how many characters",
+        "character limit",
+        "transfer character forever",
+        "expired subscription",
+        "characters per account"
+      ],
+      "text_es": "Puedes crear hasta 10 personajes por conjunto de reglas y 50 en total por licencia de Battle.net. En JcJ todos los personajes deben ser de la misma facción. No existen transferencias de personaje, salvo que un personaje de Hardcore muera: entonces puede pasar a Normal, JcJ o Rol. Si la suscripción caduca, no puedes entrar, pero tus personajes se conservan.",
+      "text_en": "Each ruleset allows up to 10 characters, and one Battle.net licence holds 50 in total. On the PvP ruleset every character must be on the same faction. There are no character transfers, except when a Hardcore character dies: it can then move to Normal, PvP or Roleplay. If the subscription lapses you cannot log in, but your characters are kept.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Warcraft Forever Subscription Explained › Assorted Questions",
+          "url": "https://www.icy-veins.com/wow-forever/wow-forever-subscription",
+          "date": "2026-09-13"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-ediciones",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Ediciones y recompensas de Forever",
+      "title_en": "Forever Editions and Rewards",
+      "summary_es": "Forever es gratis con la suscripción; las ediciones de pago añaden reserva de nombres, monturas y transfiguraciones.",
+      "summary_en": "Forever is free with the subscription; paid editions add name reservation, mounts and transmogs.",
+      "keywords_es": [
+        "ediciones de forever",
+        "skyborne heroic pack",
+        "skyborne epic pack",
+        "warcraft forever collection",
+        "recompensas de forever"
+      ],
+      "keywords_en": [
+        "forever editions",
+        "skyborne heroic pack",
+        "skyborne epic pack",
+        "warcraft forever collection",
+        "forever rewards"
+      ],
+      "text_es": "La edición base de Forever va incluida con la suscripción. Las ediciones de pago son Skyborne Heroic Pack (29,99), Skyborne Epic Pack (59,99) y Warcraft Forever Collection (79,99). Las tres permiten reservar nombres, y las más caras añaden recompensas para otras versiones de WoW. Entre los extras hay monturas y conjuntos de transfiguración para Retail y Forever. Puedes subir de edición pagando la diferencia.",
+      "text_en": "The base Forever edition comes with the subscription. The paid editions are the Skyborne Heroic Pack (29.99), Skyborne Epic Pack (59.99) and Warcraft Forever Collection (79.99). All three allow name reservations, and the more expensive ones add rewards for other WoW versions. Extras include mounts and transmog sets for Retail and Forever. You can upgrade an edition by paying the difference.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever Pre-Order Editions and Rewards Explained › Forever Pre-Orders Comparison",
+          "url": "https://www.icy-veins.com/wow-forever/wow-forever-pre-orders",
+          "date": "2026-09-13"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-reserva-nombres",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Reservar el nombre antes del lanzamiento",
+      "title_en": "Reserving a Name Before Launch",
+      "summary_es": "Comprar cualquier edición permitió reservar hasta tres nombres entre el 27 de octubre y el 3 de noviembre.",
+      "summary_en": "Buying any edition allowed up to three names to be reserved between October 27 and November 3.",
+      "keywords_es": [
+        "reservar nombre forever",
+        "reserva de nombres",
+        "tres nombres",
+        "nombre antes del lanzamiento",
+        "nombre ocupado"
+      ],
+      "keywords_en": [
+        "reserve forever name",
+        "name reservation",
+        "three names",
+        "name before launch",
+        "name taken"
+      ],
+      "text_es": "Las reservas de nombre estuvieron disponibles para quien compró cualquier edición de Forever, del 27 de octubre al 3 de noviembre. Cada cuenta podía reservar hasta tres nombres entre todos los conjuntos de reglas, por orden de llegada. La reserva solo valía para la cuenta de WoW donde se compró Forever y no garantizaba un nombre si ya estaba ocupado.",
+      "text_en": "Name reservations were available to anyone who bought any Forever edition, from October 27 to November 3. Each account could reserve up to three names across all rulesets, on a first-come, first-served basis. The reservation only applied to the WoW account where Forever was bought and did not guarantee a name if it was already taken.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: How to Reserve Your Name in World of Warcraft: Forever › World of Warcraft: Forever Name Reservations",
+          "url": "https://www.icy-veins.com/wow-forever/name-reservation",
+          "date": "2026-09-18"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-apellidos",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Nombre y apellido del personaje",
+      "title_en": "Character First and Last Names",
+      "summary_es": "Todos los personajes llevan nombre y apellido; el nombre completo es único por conjunto de reglas y región.",
+      "summary_en": "Every character has a first and last name; the full name is unique per ruleset and region.",
+      "keywords_es": [
+        "apellidos en forever",
+        "nombre y apellido",
+        "apellido obligatorio",
+        "ocultar apellido",
+        "nombre único"
+      ],
+      "keywords_en": [
+        "forever surnames",
+        "first and last name",
+        "mandatory surname",
+        "hide surname",
+        "unique name"
+      ],
+      "text_es": "En Forever cada personaje se crea con un nombre y un apellido; el apellido no es opcional. El nombre completo es único por conjunto de reglas y región, pero varios personajes pueden compartir el mismo nombre de pila. Hay una opción en el menú de placas de nombre para ocultar tu apellido, aunque solo lo oculta para ti.",
+      "text_en": "In Forever each character is created with a first and a last name; the surname is not optional. The full name is unique per ruleset and region, but several characters can share the same first name. The nameplates menu has an option to hide your surname, although it only hides it for you.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: How Do Surnames Work in World of Warcraft: Forever? › Character Surnames in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/surnames",
+          "date": "2026-09-20"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-graficos",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Modelos gráficos SD y HD",
+      "title_en": "SD and HD Graphics Models",
+      "summary_es": "Al entrar eliges modelos SD o HD; puedes cambiarlos cuando quieras y previsualizarlos al crear el personaje.",
+      "summary_en": "On entry you choose SD or HD models; you can change them later and preview both during character creation.",
+      "keywords_es": [
+        "gráficos sd hd",
+        "modelos clásicos o hd",
+        "cambiar gráficos forever",
+        "animaciones clásicas",
+        "agua y niebla"
+      ],
+      "keywords_en": [
+        "sd hd graphics",
+        "classic or hd models",
+        "change forever graphics",
+        "classic animations",
+        "water and fog"
+      ],
+      "text_es": "Al entrar por primera vez, el juego pide elegir entre modelos de personaje SD (Classic) o HD (Retail). La opción cambia cómo ves a todos los personajes del mundo, incluidos PNJ y otros jugadores, y puedes alternarla cuando quieras. Durante la creación de personaje puedes previsualizar ambos estilos. Forever también añade niebla volumétrica, iluminación dinámica y agua mejorada, y conserva las animaciones clásicas en los dos modelos.",
+      "text_en": "On first entry the game asks you to choose between SD (Classic) or HD (Retail) character models. The option changes how you see every character in the world, including NPCs and other players, and you can switch it at any time. During character creation you can preview both styles. Forever also adds volumetric fog, dynamic lighting and improved water, and keeps the classic animations on both models.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever Graphics Modes and Updates › World of Warcraft: Forever Character Graphics Toggle",
+          "url": "https://www.icy-veins.com/wow-forever/graphics-options-and-mode",
+          "date": "2026-09-21"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-mando",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Jugar con mando",
+      "title_en": "Playing with a Controller",
+      "summary_es": "Forever admite mando de forma nativa: palancas para mover y cámara, barras de 8 habilidades y 32 comandos.",
+      "summary_en": "Forever natively supports controllers: sticks for movement and camera, eight-slot bars and 32 commands.",
+      "keywords_es": [
+        "jugar con mando",
+        "soporte de mando",
+        "gamepad forever",
+        "barras de mando",
+        "32 comandos"
+      ],
+      "keywords_en": [
+        "play with controller",
+        "controller support",
+        "forever gamepad",
+        "controller bars",
+        "32 commands"
+      ],
+      "text_es": "Forever es la primera versión de WoW con soporte nativo para mando. Al activarlo en Ajustes, las palancas izquierda y derecha controlan movimiento y cámara, y las barras de acción se sustituyen por una distribución para mando. Cada barra tiene 8 hechizos o habilidades, hasta 32 comandos, y se accede combinando botones o cruceta con los gatillos. El mando también enfoca objetivos cercanos y permite recorrer los menús con Start y la cruceta.",
+      "text_en": "Forever is the first WoW version with native controller support. When enabled in Settings, the left and right sticks control movement and camera, and the action bars become a controller layout. Each bar holds 8 spells or abilities, up to 32 commands, reached by combining buttons or the d-pad with the triggers. The controller also focuses nearby targets and lets you move through menus with Start and the d-pad.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever Controller Gameplay and Configurations › Controller Support in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/playing-with-controller",
+          "date": "2026-09-21"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-reglas",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Conjuntos de reglas en lugar de reinos",
+      "title_en": "Rulesets Instead of Realms",
+      "summary_es": "Forever usa conjuntos de reglas regionales: Normal, JcJ, Rol y Rol JcJ; el PvP y el idioma cambian según el conjunto.",
+      "summary_en": "Forever uses regional rulesets: Normal, PvP, Roleplay and Roleplay PvP; forced PvP and language differ by ruleset.",
+      "keywords_es": [
+        "conjuntos de reglas",
+        "reinos de forever",
+        "servidor pve pvp rol",
+        "mega servidor",
+        "reglas de pvp"
+      ],
+      "keywords_en": [
+        "forever rulesets",
+        "forever realms",
+        "pve pvp roleplay server",
+        "mega server",
+        "pvp rules"
+      ],
+      "text_es": "Forever no usa una lista de reinos: eliges un conjunto de reglas y todos los jugadores de ese conjunto y región comparten un mega-servidor. Al lanzamiento hay Normal, JcJ, Rol y Rol JcJ; Hardcore llega después. En JcJ quedas marcado para PvP al entrar en zonas en disputa o enemigas y solo puedes crear personajes de una facción. Las capas agrupan jugadores y los compañeros de hermandad suelen compartir capa.",
+      "text_en": "Forever does not use a realm list: you pick a ruleset, and every player in that ruleset and region shares one mega-server. At launch there are Normal, PvP, Roleplay and Roleplay PvP; Hardcore arrives later. On PvP you are flagged when entering contested or enemy zones and can only create characters on one faction. Layers group players, and guildmates are usually placed in the same layer.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever: Everything You Need to Know About Realms › World of Warcraft: Forever Realm System Guide",
+          "url": "https://www.icy-veins.com/wow-forever/realms",
+          "date": "2026-09-18"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › PvP Ruleset Information in WoW: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-hardcore",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Modo Hardcore y sus reglas",
+      "title_en": "Hardcore Mode and Its Rules",
+      "summary_es": "Hardcore llega después del lanzamiento con una sola vida; al morir puedes pasar a Normal, JcJ o Rol.",
+      "summary_en": "Hardcore arrives after launch with one life; on death you can move to Normal, PvP or Roleplay.",
+      "keywords_es": [
+        "modo hardcore",
+        "una sola vida",
+        "morir en hardcore",
+        "transferir hardcore",
+        "legacy en hardcore"
+      ],
+      "keywords_en": [
+        "hardcore mode",
+        "one life",
+        "die in hardcore",
+        "transfer hardcore",
+        "legacy in hardcore"
+      ],
+      "text_es": "Hardcore llegará después del lanzamiento y se juega con una sola vida. Cuando un personaje muere, puede transferirse a Normal, JcJ o Rol. Los puntos Legacy y las colecciones ganados en Hardcore sí pasan a los demás conjuntos, pero nada de los otros conjuntos entra en Hardcore. Por eso un personaje Hardcore solo puede usar ventajas Legacy conseguidas dentro de Hardcore.",
+      "text_en": "Hardcore arrives after launch and is played with one life. When a character dies, it can transfer to Normal, PvP or Roleplay. Legacy Points and collections earned in Hardcore do pass to the other rulesets, but nothing from the other rulesets enters Hardcore. A Hardcore character can therefore only use Legacy perks earned inside Hardcore.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever: Everything You Need to Know About Realms › Hardcore",
+          "url": "https://www.icy-veins.com/wow-forever/realms",
+          "date": "2026-09-18"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-pvp-mundo",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Cómo funciona el JcJ en el mundo",
+      "title_en": "How World PvP Works",
+      "summary_es": "Puedes activar JcJ con /pvp o desde el retrato; en el conjunto JcJ se activa solo en zonas en disputa o enemigas.",
+      "summary_en": "You can enable PvP with /pvp or from the portrait; on the PvP ruleset it turns on in contested or enemy zones.",
+      "keywords_es": [
+        "activar pvp",
+        "jcj en el mundo",
+        "comando /pvp",
+        "zonas en disputa",
+        "marcarse para pvp"
+      ],
+      "keywords_en": [
+        "enable pvp",
+        "world pvp",
+        "/pvp command",
+        "contested zones",
+        "flag for pvp"
+      ],
+      "text_es": "El JcJ de mundo permite atacar o ser atacado por la facción contraria cuando tienes JcJ activado. En Normal, Rol y Hardcore hay que activarlo a mano escribiendo /pvp o desde el retrato; en el conjunto JcJ se activa automáticamente al entrar en una zona en disputa o enemiga. A partir del nivel 15, casi cualquier zona cuenta como en disputa. También puedes participar en JcJ instanciado desde cualquier conjunto mediante campos de batalla.",
+      "text_en": "World PvP lets you attack or be attacked by the opposite faction while PvP is enabled. On Normal, Roleplay and Hardcore you enable it manually with /pvp or from the portrait; on the PvP ruleset it turns on automatically when you enter a contested or enemy zone. From level 15, almost any zone counts as contested. You can also take part in instanced PvP from any ruleset through battlegrounds.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › World PvP",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-campos-batalla",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Campos de batalla y niveles",
+      "title_en": "Battlegrounds and Levels",
+      "summary_es": "Garganta Grito de Guerra desde nivel 10; Cuenca de Arathi e Islas Lanza Negra después; Valle de Alterac desde 51.",
+      "summary_en": "Warsong Gulch from level 10; Arathi Basin and Darkspear Islands later; Alterac Valley from 51.",
+      "keywords_es": [
+        "campos de batalla",
+        "niveles de campos de batalla",
+        "garganta grito de guerra",
+        "islas lanza negra",
+        "valle de alterac"
+      ],
+      "keywords_en": [
+        "battlegrounds",
+        "battleground levels",
+        "warsong gulch",
+        "darkspear islands",
+        "alterac valley"
+      ],
+      "text_es": "Los campos de batalla tienen tramos de nivel: Garganta Grito de Guerra empieza a nivel 10 en grupos de 10 contra 10; Cuenca de Arathi abre a nivel 20 con 15 contra 15; Islas Lanza Negra, el campo nuevo de Forever, abre a nivel 30 con 15 contra 15; y Valle de Alterac es para nivel 51-60 en 40 contra 40. Ganar da 3 marcas del campo y perder da 1. Las colas mezclan jugadores de distintos conjuntos de reglas.",
+      "text_en": "Battlegrounds use level brackets: Warsong Gulch starts at level 10 with 10v10; Arathi Basin opens at level 20 with 15v15; Darkspear Islands, Forever's new battleground, opens at level 30 with 15v15; and Alterac Valley is for level 51-60 with 40v40. A win gives 3 marks for that battleground and a loss gives 1. Queues mix players from different rulesets.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › Battlegrounds in WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-roadmap",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Calendario de contenido de Forever",
+      "title_en": "Forever Content Schedule",
+      "summary_es": "Lanzamiento el 4 de noviembre de 2026; bandas el 9 de diciembre; Hardcore en invierno y más contenido en 2027.",
+      "summary_en": "Launch on November 4, 2026; raids on December 9; Hardcore in winter and more content in 2027.",
+      "keywords_es": [
+        "calendario de forever",
+        "cuándo salen las bandas",
+        "roadmap de forever",
+        "hardcore forever fecha",
+        "contenido 2027"
+      ],
+      "keywords_en": [
+        "forever roadmap",
+        "when do raids open",
+        "forever content schedule",
+        "hardcore forever date",
+        "2027 content"
+      ],
+      "text_es": "Forever se lanzó el 4 de noviembre de 2026. Las bandas se abren el 9 de diciembre de 2026, con una de 10, otra de 20 y otra de 40 jugadores. Hardcore llega en invierno de 2026. En primavera de 2027 hay previstas dos bandas nuevas, dos mazmorras, contenido de mundo y una temporada JcJ; en verano de 2027 llegan una banda clásica renovada, otra banda, más mundo, dos mazmorras y actualizaciones de profesiones y Legacy.",
+      "text_en": "Forever launched on November 4, 2026. Raids open on December 9, 2026, with one for 10, one for 20 and one for 40 players. Hardcore arrives in winter 2026. Spring 2027 brings two new raids, two dungeons, world content and a PvP season refresh; summer 2027 adds a revamped classic raid, another raid, more world content, two dungeons, and profession and Legacy updates.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever Release Date, Roadmap and Content Schedule › Forever Roadmap and Content Schedule",
+          "url": "https://www.icy-veins.com/wow-forever/roadmap",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-campamento",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Campamentos: qué son y cómo empiezan",
+      "title_en": "Campsites: What They Are and How to Start",
+      "summary_es": "Camping crea un campamento compartido con hoguera, buffs y servicios; se presenta con una misión alrededor del nivel 5.",
+      "summary_en": "Camping creates a shared camp with a fire, buffs and services; a quest introduces it around level 5.",
+      "keywords_es": [
+        "campamento en forever",
+        "camping",
+        "hoguera compartida",
+        "características de campamento",
+        "misión de campamento"
+      ],
+      "keywords_en": [
+        "forever camping",
+        "campsite",
+        "shared campfire",
+        "campsite features",
+        "camping quest"
+      ],
+      "text_es": "Camping convierte la hoguera en un campamento compartido donde varios jugadores aportan mejoras. Alrededor del nivel 5 aparece una misión que enseña a descansar en un campamento y a crear la hoguera básica con Cocina. La hoguera sola no da beneficios: hay que añadir características de profesión y sentarse o fabricar cerca un minuto. Los campamentos se colocan al aire libre, no en ciudades principales.",
+      "text_en": "Camping turns the campfire into a shared campsite where several players contribute features. Around level 5 a quest teaches you to rest at a campsite and create the basic campfire with Cooking. The fire alone gives nothing: you must add profession features and sit or craft nearby for one minute. Campsites go outdoors, not in major cities.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Warcraft Forever Camping System Guide › How to Unlock Camping",
+          "url": "https://www.icy-veins.com/wow-forever/camping",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-hogueras",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Tamaños de hoguera y características",
+      "title_en": "Campfire Sizes and Features",
+      "summary_es": "La hoguera básica admite 3 características; las superiores llegan a 5 y 10, con mejoras de profesión a 20, 140 y 300.",
+      "summary_en": "The basic campfire holds 3 features; larger ones hold 5 and 10, with profession upgrades at 20, 140 and 300.",
+      "keywords_es": [
+        "tamaño de hoguera",
+        "hoguera básica",
+        "hoguera oficial",
+        "hoguera experta",
+        "características de profesión"
+      ],
+      "keywords_en": [
+        "campfire size",
+        "basic campfire",
+        "journeyman campfire",
+        "expert campfire",
+        "profession features"
+      ],
+      "text_es": "El tamaño del campamento depende de Cocina. La hoguera básica deja espacio para 3 características; la de Oficial para 5 y la de Experto para 10. Las características de cada profesión aparecen a 20, 140 y 300 de habilidad, y las versiones altas conservan los beneficios de las anteriores. La hoguera básica tiene 5 minutos de reutilización y cada jugador solo puede aportar una característica al campamento.",
+      "text_en": "Campsite size depends on Cooking. The basic campfire leaves room for 3 features; the Journeyman one for 5 and the Expert one for 10. Each profession's features appear at 20, 140 and 300 skill, and higher tiers keep the earlier benefits. The basic campfire has a 5-minute cooldown and each player can contribute only one feature to a campsite.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Warcraft Forever Camping System Guide › Campfire Sizes and Feature Limits",
+          "url": "https://www.icy-veins.com/wow-forever/camping",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-saco-dormir",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "El saco de dormir y la experiencia extra",
+      "title_en": "The Sleeping Bag and Bonus Experience",
+      "summary_es": "El Saco de dormir acogedor da un 1% de experiencia durante 2 horas; el buff se acumula hasta 3 veces.",
+      "summary_en": "The Cozy Sleeping Bag gives 1% experience for 2 hours; the buff stacks up to 3 times.",
+      "keywords_es": [
+        "saco de dormir acogedor",
+        "bien descansado",
+        "experiencia extra",
+        "buff de experiencia",
+        "saco de dormir forever"
+      ],
+      "keywords_en": [
+        "cozy sleeping bag",
+        "well rested",
+        "bonus experience",
+        "experience buff",
+        "forever sleeping bag"
+      ],
+      "text_es": "El Saco de dormir acogedor se obtiene en una cadena de misiones por varias zonas de nivel bajo. Al usarlo y permanecer dentro al menos un minuto, recibes Bien descansado: un 1% más de experiencia de todas las fuentes durante 2 horas. El buff se acumula hasta tres veces, para un 3% total, y sigue activo tras morir. El objeto tiene una hora de reutilización y los miembros del grupo también pueden usar el saco.",
+      "text_en": "The Cozy Sleeping Bag comes from a questline through several low-level zones. Using it and staying inside for at least one minute grants Well Rested: 1% more experience from all sources for 2 hours. The buff stacks up to three times for 3% total and persists through death. The item has a 1-hour cooldown and party members can use the bag too.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: How to Get The Sleeping Bag in World of Warcraft Forever › What is the Cozy Sleeping Bag",
+          "url": "https://www.icy-veins.com/wow-forever/sleeping-bag",
+          "date": "2026-10-10"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-transmog",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Transfiguración: cómo funciona",
+      "title_en": "Transmogrification: How It Works",
+      "summary_es": "La transfiguración es opcional, cambia el aspecto sin tocar estadísticas y comparte las apariencias en la cuenta.",
+      "summary_en": "Transmog is optional and changes looks without touching stats; appearances are shared account-wide.",
+      "keywords_es": [
+        "transfiguración",
+        "cambiar aspecto del equipo",
+        "apariencias account wide",
+        "transmog opcional",
+        "pnj de transfiguración"
+      ],
+      "keywords_en": [
+        "transmogrification",
+        "change gear appearance",
+        "account-wide appearances",
+        "optional transmog",
+        "transmog npc"
+      ],
+      "text_es": "La transfiguración cambia el aspecto del equipo sin modificar sus estadísticas. Está desactivada al empezar y se activa hablando con un PNJ de transfiguración en una ciudad principal; si la dejas apagada, ves el equipo original. Cada pieza que recoges aprende su apariencia, y las apariencias son de toda la cuenta. En mazmorras, todos los miembros del grupo aprenden la apariencia de un objeto raro aunque pierdan la tirada. Puedes consultar las apariencias con Mayús+P.",
+      "text_en": "Transmogrification changes gear looks without changing its stats. It is off at the start and is enabled by talking to a transmog NPC in a major city; with it off, you see the original gear. Each piece you loot teaches its appearance, and appearances are account-wide. In dungeons every group member learns the appearance of a rare drop even if they lose the roll. You can check appearances with Shift+P.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Transmog in World of Warcraft: Forever › Opting Into the Transmog System",
+          "url": "https://www.icy-veins.com/wow-forever/transmog-system",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-transmog-trajes",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Trajes y situaciones de transfiguración",
+      "title_en": "Transmog Outfits and Situations",
+      "summary_es": "Puedes guardar trajes desde 2 espacios hasta 50 y cambiarlos según lugar, movimiento, especialización, clima u hora.",
+      "summary_en": "You can save outfits from 2 free slots up to 50 and change them by location, movement, specialization, weather or time.",
+      "keywords_es": [
+        "trajes de transfiguración",
+        "situaciones de transmog",
+        "espacios de traje",
+        "outfits forever",
+        "transmog automático"
+      ],
+      "keywords_en": [
+        "transmog outfits",
+        "transmog situations",
+        "outfit slots",
+        "forever outfits",
+        "automatic transmog"
+      ],
+      "text_es": "El menú de transfiguración permite guardar conjuntos de apariencias llamados trajes. Empiezas con dos espacios gratis y puedes comprar hasta 50, con un coste creciente. También puedes usar situaciones para que un traje cambie automáticamente según el lugar, si estás montado o nadando, la especialización, el clima o la hora del día. Puedes elegir varias situaciones para un mismo traje.",
+      "text_en": "The transmog menu lets you save appearance sets called outfits. You start with two free slots and can buy up to 50, at an increasing cost. Situations can also make an outfit change automatically by location, whether you are mounted or swimming, specialization, weather or time of day. You can pick several situations for the same outfit.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Transmog in World of Warcraft: Forever › Transmogrification Outfits",
+          "url": "https://www.icy-veins.com/wow-forever/transmog-system",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-colecciones",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Colecciones: monturas, mascotas y aspecto",
+      "title_en": "Collections: Mounts, Pets and Looks",
+      "summary_es": "Forever tiene colecciones permanentes de monturas, mascotas de compañía y equipo para transfiguración.",
+      "summary_en": "Forever has permanent collections of mounts, companion pets and gear for transmogrification.",
+      "keywords_es": [
+        "colecciones de forever",
+        "monturas coleccionables",
+        "mascotas de compañía",
+        "transmog colección",
+        "completar colecciones"
+      ],
+      "keywords_en": [
+        "forever collections",
+        "collectible mounts",
+        "companion pets",
+        "transmog collection",
+        "complete collections"
+      ],
+      "text_es": "Forever incluye colecciones de monturas, mascotas de compañía y equipo para transfiguración. Son añadidos permanentes y una de las actividades principales para quien quiere completar el juego. Las monturas sirven para desplazarse por el exterior a más velocidad, y las mascotas pueden acompañarte e incluso tener efectos especiales. Las apariencias de transfiguración también se guardan en la colección de la cuenta.",
+      "text_en": "Forever includes collections of mounts, companion pets and gear for transmogrification. They are permanent additions and one of the main activities for players who want to complete the game. Mounts provide faster outdoor travel, and pets can accompany you and even have special effects. Transmog appearances are also stored in the account collection.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever Collections Overview › Collections in WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/collectible-items",
+          "date": "2026-09-21"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-elegir-clase",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Elegir clase y rol",
+      "title_en": "Choosing a Class and Role",
+      "summary_es": "Elige por rol y estilo; el Druida cubre todos los roles y todas las especializaciones buscan ser competitivas.",
+      "summary_en": "Choose by role and style; Druid covers every role and all specializations aim to be competitive.",
+      "keywords_es": [
+        "qué clase elegir",
+        "clase para tanque",
+        "clase para sanador",
+        "clase más fácil",
+        "roles de las clases"
+      ],
+      "keywords_en": [
+        "which class to choose",
+        "tank class",
+        "healer class",
+        "easiest class",
+        "class roles"
+      ],
+      "text_es": "Las nueve clases de Classic vuelven con talentos y habilidades nuevos, y todas las especializaciones buscan ser competitivas. Antes de mirar el daño, conviene decidir si quieres tanquear, sanar o hacer daño, y si prefieres cuerpo a cuerpo o distancia. El Druida es la opción más flexible porque cubre los cuatro roles; el Paladín combina tanque, sanador y daño cuerpo a cuerpo, y el Chamán reparte sanación, daño cuerpo a cuerpo y a distancia. El equilibrio cambia con los ajustes, así que la clase debe gustarte por su estilo.",
+      "text_en": "All nine Classic classes return with new talents and abilities, and every specialization aims to be competitive. Before looking at damage, decide whether you want to tank, heal or deal damage, and whether you prefer melee or ranged. Druid is the most flexible option because it covers all four roles; Paladin combines tanking, healing and melee damage, and Shaman spreads healing, melee and ranged damage. Balance changes with tuning, so pick a class whose style you enjoy.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever - Choosing Your Class › How to Choose Your Class in WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/choosing-your-main",
+          "date": "2026-10-15"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-zonas-niveles",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Zonas nuevas y sus niveles",
+      "title_en": "New Zones and Their Levels",
+      "summary_es": "Monte Hyjal es nivel 60; Riverglades 35-45; Shen'Dralas une Desolace y Feralas; Zephras es el inicio 1-12.",
+      "summary_en": "Mount Hyjal is level 60; Riverglades 35-45; Shen'Dralas links Desolace and Feralas; Zephras is the 1-12 start.",
+      "keywords_es": [
+        "zonas nuevas y niveles",
+        "monte hyjal",
+        "riverglades",
+        "shen'dralas",
+        "isla de zephras"
+      ],
+      "keywords_en": [
+        "new zones and levels",
+        "mount hyjal",
+        "riverglades",
+        "shen'dralas",
+        "zephras isle"
+      ],
+      "text_es": "Monte Hyjal es una zona de nivel máximo con la banda Hyjal Summit. Riverglades cubre los niveles 35-45 y se encuentra entre Montañas Crestagrana y las Estepas Ardientes. Shen'Dralas está entre Desolace y Feralas y amplía la historia de los Shen'dorei. La Isla de Zephras es la zona de inicio de los Cielonatos, para niveles 1-12.",
+      "text_en": "Mount Hyjal is an endgame zone with the Hyjal Summit raid. Riverglades covers levels 35-45 and sits between Redridge Mountains and the Burning Steppes. Shen'Dralas lies between Desolace and Feralas and expands the Shen'dorei story. Zephras Isle is the Skyborne starting zone, for levels 1-12.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever: All Zones and Maps › Mount Hyjal in WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/zones-and-maps",
+          "date": "2026-09-21"
+        }
+      ],
+      "updated": "2026-11-15"
+    }
+  ]
+}
