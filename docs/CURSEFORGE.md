@@ -1,5 +1,8 @@
 # CurseForge — publication kit / Kit de publicación
 
+> ⚠️ **Do not paste this page into CurseForge. / No pegues esta página en CurseForge.**
+> Public description / Descripción pública: [`curseforge/description.md`](curseforge/description.md) · Changelogs / Registros de cambios: [`curseforge/`](curseforge/)
+
 **[English](#english) · [Español](#español)**
 
 Texts to paste into the CurseForge project and into each file upload. Nothing here is published automatically: the upload is manual, from the project owner's account.
