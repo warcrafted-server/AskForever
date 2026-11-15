@@ -2,8 +2,8 @@
 
 **[English](#english) · [Español](#español)**
 
-Texts to paste into the CurseForge project and into each file upload. Nothing here is published automatically: the upload is manual, from the project owner's account.
-Textos para pegar en el proyecto de CurseForge y en cada subida de archivo. Nada se publica solo: la subida es manual, desde la cuenta del propietario.
+Since 0.3.0-beta.4 the file upload is **automatic**: the Release workflow uploads the addon zip when a `v<version>` tag is pushed, with `curseforge/changelog-<version>.md` as changelog (Markdown) and its "Beta N" as display name. The description and project fields are still edited by hand.
+Desde la 0.3.0-beta.4 la subida del archivo es **automática**: el workflow Release sube el zip del addon al subir el tag `v<versión>`, con `curseforge/changelog-<versión>.md` como registro de cambios (Markdown) y su «Beta N» como nombre visible. La descripción y los campos del proyecto se siguen editando a mano.
 
 Current version / Versión actual: **0.3.0-beta.4 (Beta 5)**, 2026-11-15. The 0.3.0-beta.1 was never uploaded to CurseForge; Beta 3 includes it. / La 0.3.0-beta.1 no se subió a CurseForge; la Beta 3 la incluye.
 
