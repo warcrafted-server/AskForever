@@ -1,6 +1,6 @@
 # AskForever
 
-[![CI](https://github.com/warcrafted-server/AskForever/actions/workflows/ci.yml/badge.svg)](https://github.com/warcrafted-server/AskForever/actions/workflows/ci.yml) [![CodeQL](https://github.com/warcrafted-server/AskForever/actions/workflows/codeql.yml/badge.svg)](https://github.com/warcrafted-server/AskForever/actions/workflows/codeql.yml) [![License: CC BY-NC 4.0](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey)](LICENSE) [![Latest release](https://img.shields.io/github/v/release/warcrafted-server/AskForever?include_prereleases)](https://github.com/warcrafted-server/AskForever/releases)
+[![CI](https://github.com/warcrafted-server/AskForever/actions/workflows/ci.yml/badge.svg)](https://github.com/warcrafted-server/AskForever/actions/workflows/ci.yml) [![CodeQL](https://github.com/warcrafted-server/AskForever/actions/workflows/codeql.yml/badge.svg)](https://github.com/warcrafted-server/AskForever/actions/workflows/codeql.yml) [![License: CC BY-NC 4.0](https://img.shields.io/badge/license-CC%20BY--NC%204.0-lightgrey)](LICENSE) [![Latest release](https://img.shields.io/github/v/release/warcrafted-server/AskForever?include_prereleases)](https://github.com/warcrafted-server/AskForever/releases) [![VirusTotal](https://img.shields.io/badge/VirusTotal-v0.3.0--beta.3-blue)](https://www.virustotal.com/gui/file/882e541ae884519ebb20d147770122a857fb81c2f1f9ae8e477c12eb5ecfa077)
 
 **[English](#english) · [Español](#español)**
 

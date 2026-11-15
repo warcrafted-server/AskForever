@@ -90,8 +90,16 @@ Status of each check (we only list what really exists today):
 | Program built automatically on GitHub from the public code (never on a personal computer) | Available from version 0.3.0-beta.1 (see the Release workflow in Actions) |
 | SHA-256 hash of each download published with the release | Available from version 0.3.0-beta.1 (`.sha256` files and release notes) |
 | Build provenance attestation (`gh attestation verify <file> --repo warcrafted-server/AskForever`) | Available from version 0.3.0-beta.1, also for the game data |
-| VirusTotal scan linked from each release | Planned |
+| VirusTotal scan linked from each release | Available from version 0.3.0-beta.3: [installer report](https://www.virustotal.com/gui/file/882e541ae884519ebb20d147770122a857fb81c2f1f9ae8e477c12eb5ecfa077). One engine flags it (see below) |
 | Automatic code scanning (CodeQL) and dependency updates (Dependabot) | Available (see the badges in the README) |
+
+## Antivirus detections
+
+We publish the VirusTotal report of each installer, including detections we believe are false positives.
+
+- **0.3.0-beta.3:** one engine, **SecureAge**, flags the installer with the generic label "Malicious" (no malware family named); the other engines report nothing. The file is the one built on GitHub (its SHA-256 matches the `.sha256` published with the release). Unsigned installers built with PyInstaller and Inno Setup are often flagged this way by heuristic engines. We report it to the vendor as a false positive and will update this page with the answer.
+
+If an antivirus flags AskForever, you can check the hash and the build provenance with the steps above, read the source code, or build it yourself.
 
 ## Why Windows may show a warning
 

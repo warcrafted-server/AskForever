@@ -93,8 +93,16 @@ Estado de cada comprobación (solo ponemos lo que existe de verdad hoy):
 | Programa compilado automáticamente en GitHub desde el código público (nunca en un ordenador personal) | Disponible desde la versión 0.3.0-beta.1 (ver el workflow Release en Actions) |
 | Hash SHA-256 de cada descarga publicado con la versión | Disponible desde la versión 0.3.0-beta.1 (archivos `.sha256` y notas de la versión) |
 | Atestación de procedencia de la compilación (`gh attestation verify <archivo> --repo warcrafted-server/AskForever`) | Disponible desde la versión 0.3.0-beta.1, también para los datos del juego |
-| Análisis de VirusTotal enlazado en cada versión | Previsto |
+| Análisis de VirusTotal enlazado en cada versión | Disponible desde la versión 0.3.0-beta.3: [informe del instalador](https://www.virustotal.com/gui/file/882e541ae884519ebb20d147770122a857fb81c2f1f9ae8e477c12eb5ecfa077). Un motor lo marca (ver abajo) |
 | Análisis automático del código (CodeQL) y actualización de dependencias (Dependabot) | Disponible (ver las etiquetas del README) |
+
+## Detecciones de antivirus
+
+Publicamos el informe de VirusTotal de cada instalador, también las detecciones que creemos que son falsos positivos.
+
+- **0.3.0-beta.3:** un motor, **SecureAge**, marca el instalador con la etiqueta genérica «Malicious» (sin nombrar ninguna familia de malware); el resto de motores no detecta nada. El archivo es el compilado en GitHub (su SHA-256 coincide con el `.sha256` publicado en la versión). Los motores heurísticos suelen marcar así los instaladores sin firmar hechos con PyInstaller e Inno Setup. Lo comunicamos al fabricante como falso positivo y actualizaremos esta página con su respuesta.
+
+Si un antivirus marca AskForever, puedes comprobar el hash y la procedencia de la compilación con los pasos de arriba, leer el código fuente o compilarlo tú mismo.
 
 ## Por qué Windows puede mostrar un aviso
 
