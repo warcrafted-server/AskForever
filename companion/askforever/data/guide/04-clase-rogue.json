@@ -1,0 +1,864 @@
+{
+  "description": "Capítulo 4: Clases. Pícaro. Secciones editoriales redactadas desde guías de terceros.",
+  "sections": [
+    {
+      "id": "clase-rogue-que-hace",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Qué hace un Pícaro",
+      "title_en": "What a Rogue Does",
+      "summary_es": "Pícaro pega cuerpo a cuerpo desde el sigilo, controla con venenos y golpes y evita el daño con evasion.",
+      "summary_en": "Rogue strikes in melee from stealth, controls with poisons and stuns, and avoids damage with evasion.",
+      "keywords_es": [
+        "qué hace un pícaro",
+        "pícaro cuerpo a cuerpo",
+        "pícaro sigilo",
+        "pícaro venenos",
+        "pícaro control"
+      ],
+      "keywords_en": [
+        "what does a rogue do",
+        "rogue melee",
+        "rogue stealth",
+        "rogue poisons",
+        "rogue control"
+      ],
+      "text_es": "El Pícaro es un luchador cuerpo a cuerpo que usa energía y puntos de combo para atacar desde el sigilo o desde un flanco. Sus venenos, golpes bajos y aturdimientos le dan un control enorme, y habilidades como Evasión, Esfumar y Ceguera le permiten escapar de situaciones peligrosas. No tiene curación propia ni daño en área amplio, así que depende de elegir bien los combates y de las vendas. Es una clase exigente, pero muy fuerte contra un solo objetivo.",
+      "text_en": "Rogue is a melee fighter that uses Energy and Combo Points to strike from stealth or from the flank. Poisons, cheap shots, and stuns give it strong control, and abilities such as Evasion, Vanish, and Blind let it escape dangerous situations. It has no self-healing or broad area damage, so it depends on choosing fights well and on bandages. It is demanding, but very strong against a single target.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Rogue Class Guide › Comprehensive Guide to Rogue in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/rogue-class-overview",
+          "date": "2026-10-27"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-especializaciones",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Especializaciones del Pícaro",
+      "title_en": "Rogue Specializations",
+      "summary_es": "Asesinato usa venenos y dagas, Combate pega con Golpe siniestro y Sutileza ataca desde el sigilo.",
+      "summary_en": "Assassination uses poisons and daggers, Combat hits with Sinister Strike, and Subtlety strikes from stealth.",
+      "keywords_es": [
+        "especializaciones del pícaro",
+        "pícaro asesinato combate sutileza",
+        "pícaro venenos",
+        "pícaro sigilo",
+        "qué especialización de pícaro"
+      ],
+      "keywords_en": [
+        "rogue specializations",
+        "rogue assassination combat subtlety",
+        "rogue poisons",
+        "rogue stealth",
+        "which rogue spec"
+      ],
+      "text_es": "Asesinato se apoya en venenos y dagas para un daño alto a un objetivo. Combate usa Golpe siniestro y Eviscerar con armas lentas, y añade Ráfaga con espada para dos enemigos. Sutileza aprovecha el sigilo, la Hemorragia y los sangrados. Las tres son daño cuerpo a cuerpo; ninguna tanquea ni sana.",
+      "text_en": "Assassination relies on poisons and daggers for high single-target damage. Combat uses Sinister Strike and Eviscerate with slow weapons, and adds Blade Flurry for two enemies. Subtlety uses stealth, Hemorrhage, and bleeds. All three are melee damage; none tanks or heals.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Rogue Class Guide › Rogue in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/rogue-class-overview",
+          "date": "2026-10-27"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Guide › Assassination Rogue Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Guide › Combat Rogue Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Guide › Subtlety Rogue Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-melee-dps-pve-guide",
+          "date": "2026-11-07"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-cambios-forever",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Qué cambia en Forever para el Pícaro",
+      "title_en": "What Changes for Rogue in Forever",
+      "summary_es": "Los puntos de combo quedan ligados al objetivo; Asesinato se centra en venenos y Sutileza gana herramientas.",
+      "summary_en": "Combo Points stay on the target; Assassination focuses on poisons and Subtlety gains new tools.",
+      "keywords_es": [
+        "cambios del pícaro en forever",
+        "puntos de combo ligados al objetivo",
+        "pícaro asesinato venenos",
+        "pícaro sutileza",
+        "pícaro combate"
+      ],
+      "keywords_en": [
+        "rogue forever changes",
+        "combo points target locked",
+        "assassination poisons",
+        "subtlety rogue",
+        "combat rogue"
+      ],
+      "text_es": "En Forever, los puntos de combo quedan ligados al objetivo: si cambias de objetivo o muere, no los transfieres. Asesinato recibe un árbol centrado en venenos, con Mutilar y Veneno como piezas clave. Sutileza gana herramientas para el sigilo y los sangrados, y Combate mantiene su daño sostenido con Golpe siniestro, Eviscerar y Ráfaga con espada. El Pícaro sigue sin curación propia ni área amplia, así que depende del control y de las vendas.",
+      "text_en": "In Forever, Combo Points stay on the target: if you switch or it dies, they do not transfer. Assassination receives a poison-focused tree, with Mutilate and Venom as key pieces. Subtlety gains tools for stealth and bleeds, and Combat keeps its sustained damage with Sinister Strike, Eviscerate, and Blade Flurry. Rogue still has no self-healing or broad area damage, so it depends on control and bandages.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Guide › Subtlety Rogue Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-melee-dps-pve-guide",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Guide › Assassination Rogue Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Guide › Combat Rogue Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-armas-armadura",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Armas y armadura del Pícaro",
+      "title_en": "Rogue Weapons and Armor",
+      "summary_es": "El Pícaro viste cuero, lleva dos armas desde nivel 10 y usa dagas o armas lentas de una mano.",
+      "summary_en": "Rogue wears leather, dual wields from level 10, and uses daggers or slow one-handed weapons.",
+      "keywords_es": [
+        "armas del pícaro",
+        "armadura del pícaro",
+        "pícaro dagas",
+        "pícaro doble empuñadura",
+        "pícaro equipo de cuero"
+      ],
+      "keywords_en": [
+        "rogue weapons",
+        "rogue armor",
+        "rogue daggers",
+        "rogue dual wield",
+        "rogue leather gear"
+      ],
+      "text_es": "El Pícaro viste cuero y usa dagas o armas de una mano; desde nivel 10 puede llevar dos armas con Doble empuñadura. Asesinato necesita dos dagas para Mutilar, mientras Combate prefiere un arma lenta y de alto daño en la mano principal. Sutileza puede abrir con una daga y cambiar a un arma lenta, o usar Hemorragia con cualquiera de las dos. La velocidad y el daño del arma importan tanto como el tipo.",
+      "text_en": "Rogue wears leather and uses daggers or one-handed weapons; from level 10 it can dual wield. Assassination needs two daggers for Mutilate, while Combat prefers a slow, high-damage main-hand weapon. Subtlety can open with a dagger and swap to a slow weapon, or use Hemorrhage with either. Weapon speed and damage matter as much as the type.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Leveling Guide › Assassination Rogue Leveling Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Leveling Guide › Combat Rogue Leveling Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Leveling Guide › Important Abilities",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-subir-espec",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Mejor especialización para subir",
+      "title_en": "Best Specialization for Leveling",
+      "summary_es": "Combate es la más sencilla y constante; Asesinato pega más a un objetivo y Sutileza es más técnica.",
+      "summary_en": "Combat is the simplest and steadiest; Assassination hits one target harder and Subtlety is more technical.",
+      "keywords_es": [
+        "mejor especialización para subir pícaro",
+        "pícaro combate para levear",
+        "pícaro asesinato para subir",
+        "pícaro sutileza para subir",
+        "qué spec de pícaro usar"
+      ],
+      "keywords_en": [
+        "best rogue leveling spec",
+        "combat rogue leveling",
+        "assassination rogue leveling",
+        "subtlety rogue leveling",
+        "which rogue spec to level"
+      ],
+      "text_es": "Para empezar, Combate es la opción más sencilla y constante: Golpe siniestro y Eviscerar funcionan desde pronto, y Estocada y Ráfaga con espada mejoran el nivel. Asesinato pega mucho a un solo objetivo, pero depende de los venenos y de Mutilar a 40, así que arranca más lento. Sutileza es la más técnica: necesita posición, sigilo y Hemorragia a 30 para brillar. Si buscas lo más simple, elige Combate.",
+      "text_en": "To start, Combat is the simplest and steadiest option: Sinister Strike and Eviscerate work early, and Riposte and Blade Flurry improve the journey. Assassination hits one target hard, but it depends on poisons and on Mutilate at 40, so it starts slower. Subtlety is the most technical: it needs positioning, stealth, and Hemorrhage at 30 to shine. If you want the simplest route, choose Combat.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Leveling Guide › Combat Rogue Leveling Guide",
+          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Leveling Guide › Assassination Rogue Leveling Guide",
+          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Leveling Guide › Subtlety Rogue Leveling Guide",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-talentos-combate",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de talentos de Combate",
+      "title_en": "Combat Leveling Talent Path",
+      "summary_es": "Ruta de Combate: Golpes eficientes y Precisión; 20 Estocada; 30 Ráfaga con espada; 40 Subidón de adrenalina.",
+      "summary_en": "Combat path: Efficient Strikes and Precision; 20 Riposte; 30 Blade Flurry; 40 Adrenaline Rush.",
+      "keywords_es": [
+        "talentos para subir pícaro combate",
+        "ruta de combate",
+        "golpes eficientes",
+        "estocada",
+        "ráfaga con espada"
+      ],
+      "keywords_en": [
+        "combat rogue leveling talents",
+        "combat talent path",
+        "efficient strikes",
+        "riposte",
+        "blade flurry"
+      ],
+      "text_es": "Ruta de Combate para subir: primero Golpes eficientes y Precisión. A 20 entra Estocada; después, Ejecución impecable. A 30 llega Ráfaga con espada; luego, Cortar y rebanar. A 40, Subidón de adrenalina. Si prefieres una daga, puedes cambiar Golpe siniestro por Puñalada y adaptar los puntos, pero la base de energía y puntos de combo es la misma.",
+      "text_en": "Combat leveling path: first Efficient Strikes and Precision. At 20 comes Riposte; after that, Flawless Execution. At 30 comes Blade Flurry; then Hack and Slash. At 40, Adrenaline Rush. If you prefer a dagger, you can swap Sinister Strike for Backstab and adjust the points, but the Energy and Combo Point base is the same.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Leveling Guide › Leveling Talent Build",
+          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-hitos",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Hitos de habilidad por nivel",
+      "title_en": "Ability Milestones by Level",
+      "summary_es": "Doble empuñadura 10; Ganzúa 15; Emboscada 18; venenos 20; Esfumar 22; Apuñalar 24; Mutilar y Subidón 40.",
+      "summary_en": "Dual wield 10; Pick Lock 15; Ambush 18; poisons 20; Vanish 22; Shank 24; Mutilate and Adrenaline Rush 40.",
+      "keywords_es": [
+        "cuándo aprendo habilidades de pícaro",
+        "nivel de las habilidades del pícaro",
+        "hitos del pícaro",
+        "mutilar nivel",
+        "esfumar nivel"
+      ],
+      "keywords_en": [
+        "when rogue abilities",
+        "rogue ability levels",
+        "rogue milestones",
+        "mutilate level",
+        "vanish level"
+      ],
+      "text_es": "A 10 se desbloquea la doble empuñadura; a 15, la misión de Ganzúa; a 18, Emboscada; a 20, la misión de venenos; a 22, Esfumar; a 24, Apuñalar; a 26, Golpe bajo. A 30 llegan Hemorragia en Sutileza y Ráfaga con espada en Combate; a 34, Ceguera. A 40, Mutilar en Asesinato y Subidón de adrenalina en Combate; a 50 empieza la cadena de Ravenholdt.",
+      "text_en": "At 10 dual wield unlocks; at 15, the Pick Lock quest; at 18, Ambush; at 20, the poison quest; at 22, Vanish; at 24, Shank; at 26, Cheap Shot. At 30 come Hemorrhage for Subtlety and Blade Flurry for Combat; at 34, Blind. At 40, Mutilate for Assassination and Adrenaline Rush for Combat; at 50 the Ravenholdt chain begins.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-energia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Energía y puntos de combo",
+      "title_en": "Energy and Combo Points",
+      "summary_es": "La energía se regenera sola a 10 por segundo y los puntos de combo se gastan en remates sobre el objetivo.",
+      "summary_en": "Energy regenerates at 10 per second and Combo Points are spent on finishers on the target.",
+      "keywords_es": [
+        "energía del pícaro",
+        "puntos de combo",
+        "recursos del pícaro",
+        "remates del pícaro",
+        "no gastar energía de más"
+      ],
+      "keywords_en": [
+        "rogue energy",
+        "combo points",
+        "rogue resources",
+        "rogue finishers",
+        "do not overcap energy"
+      ],
+      "text_es": "La energía se regenera de forma pasiva a unos 10 por segundo y todas tus habilidades la gastan. Puedes guardar energía para una ráfaga, pero no la dejes llegar al máximo o perderás regeneración. Los puntos de combo se acumulan con Golpe siniestro, Puñalada, Emboscada, Mutilar o Hemorragia y se gastan en Eviscerar, Hacer picadillo, Ruptura o Exponer armadura. Quedan ligados al objetivo: si cambias o muere, no los transfieres.",
+      "text_en": "Energy regenerates passively at about 10 per second and every ability spends it. You can pool Energy for a burst, but do not let it cap or you lose regeneration. Combo Points build with Sinister Strike, Backstab, Ambush, Mutilate, or Hemorrhage and are spent on Eviscerate, Slice and Dice, Rupture, or Expose Armor. They stay on the target: if you switch or it dies, they do not transfer.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Leveling Guide › What are Combo Points and Energy?",
+          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Guide › Subtlety Rogue Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-melee-dps-pve-guide",
+          "date": "2026-11-07"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-sigilo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Cómo funciona el sigilo",
+      "title_en": "How Stealth Works",
+      "summary_es": "Sigilo reduce la detección; los enemigos ven peor por la espalda y las aperturas dependen de la diferencia de nivel.",
+      "summary_en": "Stealth lowers detection; enemies see worse from behind and openers depend on the level difference.",
+      "keywords_es": [
+        "sigilo del pícaro",
+        "cómo funciona sigilo",
+        "emboscada desde sigilo",
+        "zapar",
+        "detección de sigilo"
+      ],
+      "keywords_en": [
+        "rogue stealth",
+        "how stealth works",
+        "ambush opener",
+        "sap",
+        "stealth detection"
+      ],
+      "text_es": "Sigilo reduce el radio con el que los enemigos te detectan, pero no lo elimina: cuanto mayor sea su nivel respecto al tuyo, más fácil será que te vean. Los enemigos detectan peor por la espalda, así que acercarte por detrás facilita Puñalada, Emboscada o Zapar. Algunos enemigos llevan un ojo sobre la cabeza y te ven desde más lejos. Si te detectan, suelen girarse antes de atacar, lo que te da un instante para Zapar o abrir.",
+      "text_en": "Stealth lowers the radius at which enemies detect you, but does not remove it: the higher their level compared with yours, the easier they see you. Enemies detect worse from behind, so approaching from the back makes Backstab, Ambush, or Sap easier. Some enemies have an eye above their head and see you from farther away. If they detect you, they usually turn before attacking, giving you a moment to Sap or open.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Leveling Guide › FAQ How Does Stealth Work?",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Leveling Guide › What Is Stealth?",
+          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-venenos",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Venenos y Té de cardo",
+      "title_en": "Poisons and Thistle Tea",
+      "summary_es": "La misión de nivel 20 desbloquea los venenos; úsalos en las dos armas y prepara Té de cardo.",
+      "summary_en": "The level 20 quest unlocks poisons; use them on both weapons and make Thistle Tea.",
+      "keywords_es": [
+        "venenos del pícaro",
+        "misión de venenos nivel 20",
+        "veneno instantáneo",
+        "veneno entorpecedor",
+        "té de cardo"
+      ],
+      "keywords_en": [
+        "rogue poisons",
+        "level 20 poison quest",
+        "instant poison",
+        "crippling poison",
+        "thistle tea"
+      ],
+      "text_es": "Los venenos se desbloquean a nivel 20 con la misión de clase y se aplican a las armas para añadir daño o utilidad. Veneno instantáneo es la opción habitual de daño, y Veneno entorpecedor ayuda contra enemigos que huyen. Algunos enemigos son resistentes o inmunes a los venenos, así que no dependas solo de ellos. La misma misión enseña a preparar Té de cardo, que recupera energía.",
+      "text_en": "Poisons unlock at level 20 through the class quest and are applied to weapons to add damage or utility. Instant Poison is the usual damage choice, and Crippling Poison helps against enemies that flee. Some enemies resist or are immune to poisons, so do not rely only on them. The same quest teaches Thistle Tea, which restores Energy.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Leveling Guide › What are Poisons?",
+          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Rogue Class Quests Guide › Level 20 - Mathias and the Defias",
+          "url": "https://www.icy-veins.com/wow-forever/rogue-class-quests",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-control",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Control, defensas y utilidad",
+      "title_en": "Control, Defenses, and Utility",
+      "summary_es": "Zapar, Golpe bajo, Incapacitación, Ceguera y Golpe a los riñones controlan; Evasión y Esfumar salvan.",
+      "summary_en": "Sap, Cheap Shot, Gouge, Blind, and Kidney Shot control; Evasion and Vanish save you.",
+      "keywords_es": [
+        "control del pícaro",
+        "zapar",
+        "golpe bajo",
+        "golpe a los riñones",
+        "evasión y esfumar"
+      ],
+      "keywords_en": [
+        "rogue control",
+        "sap",
+        "cheap shot",
+        "kidney shot",
+        "evasion vanish"
+      ],
+      "text_es": "Zapar deja fuera a un enemigo desde el sigilo, Golpe bajo aturde al abrir y Golpe a los riñones gasta puntos de combo para aturdir. Incapacitación y Ceguera cortan al enemigo, aunque el daño rompe sus efectos; Patada interrumpe lanzamientos. Evasión sube mucho tu esquiva, Esfumar te devuelve al sigilo y elimina la amenaza, y Desactivar trampa ayuda en mazmorras. En grupo, usa el control para reducir el daño y para que el tanque recupere el pull.",
+      "text_en": "Sap removes an enemy from the fight from stealth, Cheap Shot stuns as an opener, and Kidney Shot spends Combo Points to stun. Gouge and Blind stop the enemy, though damage breaks their effects; Kick interrupts casts. Evasion greatly raises dodge, Vanish returns you to stealth and clears threat, and Disarm Trap helps in dungeons. In a group, use control to reduce damage and let the tank recover a pull.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Leveling Guide › Utility and Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Leveling Guide › Important Abilities",
+          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-rotacion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación básica para subir",
+      "title_en": "Basic Leveling Rotation",
+      "summary_es": "Abre desde Sigilo, genera puntos con Golpe siniestro o Puñalada y gástalos en Eviscerar o Hacer picadillo.",
+      "summary_en": "Open from Stealth, build with Sinister Strike or Backstab, and spend on Eviscerate or Slice and Dice.",
+      "keywords_es": [
+        "rotación del pícaro",
+        "rotación para subir pícaro",
+        "golpe siniestro",
+        "eviscerar",
+        "hacer picadillo"
+      ],
+      "keywords_en": [
+        "rogue rotation",
+        "rogue leveling rotation",
+        "sinister strike",
+        "eviscerate",
+        "slice and dice"
+      ],
+      "text_es": "Abre desde Sigilo con Golpe bajo si puedes aturdir o con Garrote o Emboscada para daño. Genera puntos con Golpe siniestro, Puñalada si estás detrás o Mutilar a 40, y gástalos en Eviscerar para ráfaga o Hacer picadillo si el combate durará. En Asesinato, mantén veneno en las dos armas y usa Mutilar en cuanto lo tengas. En Combate, usa Estocada cuando salga y Ráfaga con espada para dos enemigos. En Sutileza, Hemorragia sustituye a los generadores y Ruptura es el remate para objetivos duraderos.",
+      "text_en": "Open from Stealth with Cheap Shot if you can stun, or with Garrote or Ambush for damage. Build with Sinister Strike, Backstab if you are behind, or Mutilate at 40, and spend on Eviscerate for burst or Slice and Dice if the fight will last. As Assassination, keep poison on both weapons and use Mutilate as soon as you have it. As Combat, use Riposte when it procs and Blade Flurry for two enemies. As Subtlety, Hemorrhage replaces the builders and Rupture is the finisher for durable targets.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Leveling Guide › Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Leveling Guide › Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Leveling Guide › Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-area",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Daño en área y sus límites",
+      "title_en": "Area Damage and Its Limits",
+      "summary_es": "El Pícaro no tiene área real; Combate usa Ráfaga con espada para un segundo objetivo y el resto pega de uno en uno.",
+      "summary_en": "Rogue has no real area damage; Combat uses Blade Flurry for a second target, and the rest hits one at a time.",
+      "keywords_es": [
+        "pícaro daño en área",
+        "ráfaga con espada",
+        "pícaro sin área",
+        "pícaro varios enemigos",
+        "combate cleave"
+      ],
+      "keywords_en": [
+        "rogue aoe",
+        "blade flurry",
+        "rogue no aoe",
+        "rogue multiple enemies",
+        "combat cleave"
+      ],
+      "text_es": "El Pícaro no tiene una rotación de área real: Asesinato y Sutileza siguen pegando a un objetivo aunque haya varios. Combate tiene Ráfaga con espada, que acelera los ataques y golpea a un segundo enemigo cercano durante un rato; úsala cuando haya dos y puedas permitirte el daño extra. En grupos grandes, tu trabajo no es limpiar el pack: controla con Zapar, Incapacitación, Ceguera o Golpe a los riñones y ayuda a matar el objetivo prioritario.",
+      "text_en": "Rogue has no real area rotation: Assassination and Subtlety keep hitting one target even when several are present. Combat has Blade Flurry, which speeds up attacks and hits a second nearby enemy for a while; use it when there are two and you can afford the extra damage. In large groups, your job is not to clear the pack: control with Sap, Gouge, Blind, or Kidney Shot and help kill the priority target.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Leveling Guide › AoE Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Leveling Guide › AoE Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-misiones-clase",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Misiones de clase del Pícaro",
+      "title_en": "Rogue Class Quests",
+      "summary_es": "Nivel 10 Hoja de Astucia; 15 Ganzúa; 20 Mathias y los Defias o El saludo de los Mano Destrozada para venenos.",
+      "summary_en": "Level 10 Blade of Cunning; 15 Pick Lock; 20 Mathias and the Defias or The Shattered Salute for poisons.",
+      "keywords_es": [
+        "misiones de clase pícaro",
+        "hoja de astucia",
+        "misión de ganzúa",
+        "misión de venenos pícaro",
+        "mathias y los defias"
+      ],
+      "keywords_en": [
+        "rogue class quests",
+        "blade of cunning",
+        "pick lock quest",
+        "rogue poison quest",
+        "mathias and the defias"
+      ],
+      "text_es": "La misión de clase de nivel 10 de tu raza da Hoja de Astucia. A 15, la misión de Ganzúa. A 20, Mathias y los Defias (Alianza) o El saludo de los Mano Destrozada (Horda) desbloquean la creación de venenos y Té de cardo. A 50 empieza la cadena de Ravenholdt, pero es opcional. Las misiones de nivel 20 son las importantes para tu daño.",
+      "text_en": "Your race's level 10 class quest gives Blade of Cunning. At 15, the Pick Lock quest. At 20, Mathias and the Defias (Alliance) or The Shattered Salute (Horde) unlock poison crafting and Thistle Tea. At 50 the Ravenholdt chain begins, but it is optional. The level 20 quests are the important ones for your damage.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Rogue Class Quests Guide › Rogue Class Quest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/rogue-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Rogue Class Quests Guide › Level 20 - Mathias and the Defias",
+          "url": "https://www.icy-veins.com/wow-forever/rogue-class-quests",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-tips-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consejos para subir de nivel",
+      "title_en": "Leveling Tips",
+      "summary_es": "Sube Primeros auxilios, lleva vendas y pociones, usa Sastrería o Peletería y aprovecha los buffs de campamento.",
+      "summary_en": "Level First Aid, carry bandages and potions, use Tailoring or Leatherworking, and take campfire buffs.",
+      "keywords_es": [
+        "consejos para subir pícaro",
+        "pícaro primeros auxilios",
+        "pícaro vendas",
+        "peletería y desuello pícaro",
+        "buffs de campamento"
+      ],
+      "keywords_en": [
+        "rogue leveling tips",
+        "rogue first aid",
+        "rogue bandages",
+        "leatherworking skinning rogue",
+        "campfire buffs"
+      ],
+      "text_es": "Sube Primeros auxilios: las vendas curan más rápido que comer y puedes usarlas tras Incapacitación o Ceguera. Lleva también pociones y comida, porque el Pícaro no tiene curación propia y encaja mal los golpes. Peletería con Desuello te da armaduras de cuero; Herboristería con Alquimia o Ingeniería con Minería son otras opciones. Aprovecha los buffs de campamento, descansa en tabernas y no encadenes pull sin vendas.",
+      "text_en": "Level First Aid: bandages heal faster than eating and can be used after Gouge or Blind. Also carry potions and food, because Rogue has no self-healing and takes hits badly. Leatherworking with Skinning gives leather armor; Herbalism with Alchemy or Engineering with Mining are other options. Take campfire buffs, rest in inns, and do not chain pulls without bandages.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Leveling Guide › Leveling Tips",
+          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Leveling Guide › Leveling Tips",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-grupo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "El Pícaro en grupo y mazmorras",
+      "title_en": "Rogue in Groups and Dungeons",
+      "summary_es": "Aporta daño a un objetivo, control y Exponer armadura; no da buffs de grupo ni curación.",
+      "summary_en": "Brings single-target damage, control, and Expose Armor; it gives no group buffs or healing.",
+      "keywords_es": [
+        "pícaro en grupo",
+        "pícaro en mazmorras",
+        "control del pícaro en grupo",
+        "exponer armadura",
+        "amenaza del pícaro"
+      ],
+      "keywords_en": [
+        "rogue in groups",
+        "rogue in dungeons",
+        "rogue group control",
+        "expose armor",
+        "rogue threat"
+      ],
+      "text_es": "En grupo, el Pícaro aporta daño alto a un objetivo y un control excelente con Zapar, Golpe bajo, Incapacitación, Ceguera y Golpe a los riñones. Exponer armadura ayuda al daño físico, pero el Pícaro no da buffs de grupo ni cura. Deja que el tanque tenga amenaza antes de abrir con tu ráfaga; si te la quitan, usa Esfumar o Evasión. En mazmorras, controla un enemigo peligroso y usa Patada para interrumpir.",
+      "text_en": "In a group, Rogue brings high single-target damage and excellent control with Sap, Cheap Shot, Gouge, Blind, and Kidney Shot. Expose Armor helps physical damage, but Rogue gives no group buffs or healing. Let the tank have threat before opening with your burst; if you pull it, use Vanish or Evasion. In dungeons, control a dangerous enemy and use Kick to interrupt.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Guide › Bosskiller and CC-God Without Any AoE",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-melee-dps-pve-guide",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Guide › Endless Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Guide › Endless Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-asesinato",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Asesinato: venenos y un objetivo",
+      "title_en": "Assassination: Poisons and One Target",
+      "summary_es": "Asesinato usa Mutilar y venenos para un daño altísimo a un objetivo, pero no tiene área ni autocuración.",
+      "summary_en": "Assassination uses Mutilate and poisons for very high single-target damage, but has no area or self-healing.",
+      "keywords_es": [
+        "pícaro asesinato",
+        "pícaro venenos",
+        "mutilar",
+        "veneno pícaro",
+        "asesinato un objetivo"
+      ],
+      "keywords_en": [
+        "assassination rogue",
+        "rogue poisons",
+        "mutilate",
+        "rogue venom",
+        "assassination single target"
+      ],
+      "text_es": "Asesinato es la especialización de venenos y daño a un solo objetivo. Mutilar genera puntos de combo y pega más a enemigos con tus venenos, mientras Eviscerar y Hacer picadillo gastan esos puntos. Es excelente contra jefes y objetivos prioritarios, pero no tiene área ni autocuración y sufre contra enemigos inmunes a venenos. En grupo, mata adds peligrosos y usa Exponer armadura para ayudar al daño físico.",
+      "text_en": "Assassination is the poison and single-target damage specialization. Mutilate generates Combo Points and hits poisoned enemies harder, while Eviscerate and Slice and Dice spend them. It is excellent against bosses and priority targets, but it has no area or self-healing and suffers against poison-immune enemies. In a group, kill dangerous adds and use Expose Armor to help physical damage.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Guide › Assassination Rogue Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Leveling Guide › Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-combate",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Combate: daño sostenido y Ráfaga",
+      "title_en": "Combat: Sustained Damage and Blade Flurry",
+      "summary_es": "Combate pega con Golpe siniestro y Eviscerar, usa Estocada y Ráfaga con espada para dos objetivos.",
+      "summary_en": "Combat hits with Sinister Strike and Eviscerate, uses Riposte, and Blade Flurry for two targets.",
+      "keywords_es": [
+        "pícaro combate",
+        "golpe siniestro",
+        "estocada pícaro",
+        "ráfaga con espada",
+        "combate dos enemigos"
+      ],
+      "keywords_en": [
+        "combat rogue",
+        "sinister strike",
+        "rogue riposte",
+        "blade flurry",
+        "combat two targets"
+      ],
+      "text_es": "Combate es el daño sostenido más fiable del Pícaro. Genera puntos con Golpe siniestro, usa Estocada cuando salga y gasta en Eviscerar o Hacer picadillo. Ráfaga con espada le da su única aproximación al área al golpear a un segundo enemigo, y Subidón de adrenalina le permite encadenar más habilidades. No tiene autocuración ni área verdadera, así que depende de Evasión y del control.",
+      "text_en": "Combat is the Rogue's most reliable sustained damage. It builds with Sinister Strike, uses Riposte when it procs, and spends on Eviscerate or Slice and Dice. Blade Flurry gives its only approach to area damage by hitting a second enemy, and Adrenaline Rush lets it chain more abilities. It has no self-healing or true area, so it depends on Evasion and control.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Guide › Combat Rogue Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Leveling Guide › Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-sutileza",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Sutileza: sigilo y sangrados",
+      "title_en": "Subtlety: Stealth and Bleeds",
+      "summary_es": "Sutileza abre con Emboscada, usa Hemorragia y Ruptura y controla con Sigilo; tarda en arrancar.",
+      "summary_en": "Subtlety opens with Ambush, uses Hemorrhage and Rupture, and controls with Stealth; it starts slowly.",
+      "keywords_es": [
+        "pícaro sutileza",
+        "hemorragia pícaro",
+        "ruptura pícaro",
+        "emboscada",
+        "sutileza sigilo"
+      ],
+      "keywords_en": [
+        "subtlety rogue",
+        "rogue hemorrhage",
+        "rogue rupture",
+        "ambush",
+        "subtlety stealth"
+      ],
+      "text_es": "Sutileza es la especialización más técnica: abre desde Sigilo con Emboscada, construye con Hemorragia y gasta en Ruptura o Hacer picadillo. Sus sangrados y su control la hacen fuerte contra un objetivo, y Premeditación y Preparación le dan más recursos y una segunda oportunidad. Le cuesta arrancar: Hemorragia llega a 30 y sufre si no puede atacar por la espalda. No tiene área y depende mucho de Sigilo y de Evasión para sobrevivir.",
+      "text_en": "Subtlety is the most technical specialization: it opens from Stealth with Ambush, builds with Hemorrhage, and spends on Rupture or Slice and Dice. Its bleeds and control make it strong against one target, and Premeditation and Preparation give it more resources and a second chance. It starts slowly: Hemorrhage arrives at 30 and it suffers when it cannot attack from behind. It has no area and relies heavily on Stealth and Evasion to survive.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Guide › Subtlety Rogue Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-melee-dps-pve-guide",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Leveling Guide › Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    }
+  ]
+}
