@@ -22,6 +22,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Changed: the AI only mentions the zones for your level when you ask where to go or what to do, and no longer adds districts or buildings that are not in the data when saying where something is.
 - Added: beginner guide on professions (how many you can have, what each one does, good pairings, secondary professions).
 - Added: stat priority for every class specialization and, verified from the game client, the level of your first talent point (10) and how many you get per level.
+- Added: talent questions get exact WoW Forever data: what a talent does at each rank, its tree, the points it needs and its prerequisite, the talents of a tree, and which talents are new or changed in Forever.
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
@@ -41,6 +42,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Cambiado: la IA solo menciona las zonas para tu nivel cuando preguntas adónde ir o qué hacer, y ya no añade barrios ni edificios que no estén en los datos al decir dónde está algo.
 - Añadido: guía de principiantes sobre profesiones (cuántas puedes tener, qué hace cada una, buenas combinaciones, profesiones secundarias).
 - Añadido: prioridad de estadísticas de cada especialización y, verificado con el cliente del juego, el nivel del primer punto de talento (10) y cuántos ganas por nivel.
+- Añadido: las preguntas sobre talentos reciben los datos exactos de WoW Forever: qué hace un talento en cada rango, su rama, los puntos que pide y su requisito, los talentos de una rama y cuáles son nuevos o han cambiado en Forever.
 
 ## [0.3.0-beta.4] - 2026-11-15
 

@@ -63,6 +63,166 @@ def _clean_text(value) -> str:
     return re.sub(r'\s+', ' ', text).strip()
 
 
+_TALENT_VAR_RE = re.compile(r'\$(?:/\d+;)?(?:\d+)?[a-zA-Z]\d*')
+_TALENT_NUMBER = r'[-+]?(?:\d+(?:[.,]\d+)?|[.,]\d+)'
+_TALENT_VALUE_RE = re.compile(
+    rf'^({_TALENT_NUMBER})(?:\s+(sec(?:ond)?s?|min(?:ute)?s?))?$', re.IGNORECASE)
+
+
+def _talent_literal(text: str) -> str:
+    parts = re.split(r'(\s+)', str(text or ''))
+    return ''.join(r'\s+' if part.isspace() else re.escape(part) for part in parts)
+
+
+def _talent_letter(token: str) -> str:
+    match = re.search(r'([a-zA-Z])\d*$', token)
+    return match.group(1).lower() if match else ''
+
+
+def _talent_pattern(template_en: str):
+    template = re.sub(r'\s+', ' ', str(template_en or '')).strip()
+    pieces = []
+    tokens = []
+    last = 0
+    for match in _TALENT_VAR_RE.finditer(template):
+        pieces.append(_talent_literal(template[last:match.start()]))
+        token = match.group(0)
+        name = f'v{len(tokens)}'
+        if _talent_letter(token) == 'd':
+            pieces.append(
+                f'(?P<{name}>{_TALENT_NUMBER}'
+                r'(?:\s+(?:sec(?:ond)?s?|min(?:ute)?s?))?)')
+        else:
+            pieces.append(f'(?P<{name}>{_TALENT_NUMBER})')
+        tokens.append(token)
+        last = match.end()
+    pieces.append(_talent_literal(template[last:]))
+    return ''.join(pieces), tokens
+
+
+def _talent_value(token: str, raw: str):
+    if _talent_letter(token) != 'd':
+        return raw
+    match = _TALENT_VALUE_RE.match(str(raw or ''))
+    if match is None:
+        return None
+    number, unit = match.group(1), match.group(2) or ''
+    unit = unit.lower()
+    if not unit:
+        return number
+    if unit.startswith('sec'):
+        return f'{number} s'
+    if unit.startswith('min'):
+        return f'{number} min'
+    return None
+
+
+def resolve_talent_text(template_es, template_en, rank_text_en):
+    """Rellena la plantilla española con los números de la descripción inglesa."""
+    if not all(isinstance(value, str) for value in
+               (template_es, template_en, rank_text_en)):
+        return None
+    pattern, tokens = _talent_pattern(template_en)
+    rank_text = re.sub(r'\s+', ' ', rank_text_en).strip()
+    match = re.fullmatch(pattern, rank_text, re.IGNORECASE)
+    if match is None:
+        return None
+    values = {}
+    for index, token in enumerate(tokens):
+        value = _talent_value(token, match.group(f'v{index}'))
+        if value is None:
+            return None
+        values[token] = value
+    pieces = []
+    last = 0
+    for variable in _TALENT_VAR_RE.finditer(template_es):
+        token = variable.group(0)
+        if token not in values:
+            return None
+        pieces.append(template_es[last:variable.start()])
+        pieces.append(values[token])
+        last = variable.end()
+    pieces.append(template_es[last:])
+    return ''.join(pieces)
+
+
+def _talent_int(value, default=0):
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default
+
+
+def _talent_rank_text(talent, rank):
+    ranks = talent.get('ranks') or {}
+    if rank in ranks:
+        return ranks[rank] or ''
+    try:
+        rank = int(rank)
+    except (TypeError, ValueError):
+        return ''
+    return ranks.get(rank) or ranks.get(str(rank)) or ''
+
+
+def _talent_class_name(talent, lang: str) -> str:
+    name = talent.get('clase_es' if lang == 'es' else 'clase_en')
+    if name:
+        return name
+    class_id = _talent_int(talent.get('class_id'))
+    data = CLASSES.get(class_id)
+    if not data:
+        slug = normalize(talent.get('class_slug'))
+        data = next((item for item in CLASSES.values()
+                     if normalize(item.get('english')) == slug), None)
+    if not data:
+        data = next((item for mask, item in CLASSES.items()
+                     if mask.bit_length() == class_id), None)
+    if not data:
+        return ''
+    return data.get('masculine') if lang == 'es' else data.get('english')
+
+
+def talent_detail(talent, lang: str = 'es'):
+    if not isinstance(talent, dict):
+        return None
+    name = talent.get('nombre_es' if lang == 'es' else 'nombre_en') or ''
+    other_name = talent.get('nombre_en' if lang == 'es' else 'nombre_es') or ''
+    tree = talent.get('rama_es' if lang == 'es' else 'rama_en') or ''
+    max_rank = _talent_int(talent.get('max_rank'))
+    if max_rank <= 0:
+        ranks = talent.get('ranks') or {}
+        max_rank = _talent_int(max(ranks)) if ranks else 0
+    rank1_en = _talent_rank_text(talent, 1)
+    max_en = _talent_rank_text(talent, max_rank)
+    template_es = talent.get('descripcion_es') or ''
+    template_en = talent.get('descripcion_en_cliente') or ''
+    change = str(talent.get('cambio') or '').lower() or None
+    if change not in ('new', 'changed'):
+        change = None
+    prerequisite = talent.get(
+        'talento_previo_es' if lang == 'es' else 'talento_previo_en') or None
+    if lang == 'es':
+        rank1_text = (resolve_talent_text(template_es, template_en, rank1_en)
+                      if rank1_en else None)
+        max_text = (resolve_talent_text(template_es, template_en, max_en)
+                    if max_en else None)
+    else:
+        rank1_text = rank1_en or None
+        max_text = max_en or None
+    return {
+        'name': name,
+        'other_name': other_name,
+        'class': _talent_class_name(talent, lang),
+        'tree': tree,
+        'required_points': _talent_int(talent.get('puntos_requeridos')),
+        'prerequisite': prerequisite,
+        'max_rank': max_rank,
+        'change': change,
+        'rank1_text': rank1_text,
+        'max_text': max_text,
+    }
+
+
 CAPITAL_CITIES = {
     'ventormenta', 'forjaz', 'darnassus', 'orgrimmar', 'cima del trueno', 'entranas',
     'stormwind', 'ironforge', 'thunder bluff', 'undercity',
@@ -242,6 +402,7 @@ class WowDb:
         self._conn = None
         self._entries = None
         self._by_first = None
+        self._talents_cache = None
 
     def open(self):
         """Abre la conexión de solo lectura de forma perezosa."""
@@ -806,6 +967,34 @@ class WowDb:
                 name = row['Name_lang'] or row['Name_lang_esES']
             trees.append(_clean_text(name))
         return trees
+
+    def forever_talents(self):
+        """Talentos activos en Forever con el texto inglés de cada rango."""
+        if self._talents_cache is not None:
+            return self._talents_cache
+        ranks = {}
+        for row in self._rows(
+                'SELECT node_id, rank, description_en FROM ext_icy_talento_rangos '
+                'ORDER BY node_id, rank'):
+            node_id = _talent_int(row['node_id'])
+            rank = _talent_int(row['rank'])
+            ranks.setdefault(node_id, {})[rank] = _clean_text(row['description_en'])
+        talents = []
+        for row in self._rows('SELECT * FROM v_talentos_forever'):
+            talent = {key: row[key] for key in row.keys()}
+            talent['ranks'] = ranks.get(_talent_int(talent.get('NodeID')), {})
+            talents.append(talent)
+        self._talents_cache = talents
+        return talents
+
+    def talents_in_text(self, normalized_question, lang: str = 'es'):
+        return talents_in_text(normalized_question, lang, self.forever_talents())
+
+    def talent_detail(self, talent, lang: str = 'es'):
+        return talent_detail(talent, lang)
+
+    def resolve_talent_text(self, template_es, template_en, rank_text_en):
+        return resolve_talent_text(template_es, template_en, rank_text_en)
 
     def item_sources(self, name_or_id, lang: str = 'es', limit: int = 3):
         item_id = _as_int(name_or_id)
@@ -1579,3 +1768,59 @@ class WowDb:
              'name': self._pick(entry['names'], lang)}
             for _start, _end, entry in selected
         ]
+
+
+def _talent_node_id(talent):
+    return _talent_int(talent.get('NodeID'), -1)
+
+
+def talents_in_text(normalized_question, lang: str = 'es', talents=None, db=None):
+    """Hasta dos talentos cuyos nombres completos aparecen en la pregunta."""
+    normalized = normalize(normalized_question)
+    if not normalized:
+        return []
+    if talents is None:
+        talents = forever_talents(db)
+    candidates = []
+    for talent in talents:
+        node_id = _talent_node_id(talent)
+        seen_names = set()
+        for value in (talent.get('nombre_es'), talent.get('nombre_en')):
+            name = normalize(value)
+            if len(name) < 6 or name in seen_names:
+                continue
+            seen_names.add(name)
+            pattern = r'(?<![a-z0-9])' + re.escape(name) + r'(?![a-z0-9])'
+            for match in re.finditer(pattern, normalized):
+                candidates.append((-len(name), match.start(), node_id, talent))
+    candidates.sort(key=lambda item: (item[0], item[1], item[2]))
+    selected = []
+    spans = []
+    selected_ids = set()
+    for neg_length, start, node_id, talent in candidates:
+        if len(selected) >= 2:
+            break
+        end = start - neg_length
+        if node_id in selected_ids:
+            continue
+        if any(start < other_end and end > other_start
+               for other_start, other_end in spans):
+            continue
+        selected.append(talent)
+        spans.append((start, end))
+        selected_ids.add(node_id)
+    return selected
+
+
+def forever_talents(db=None):
+    """Lista cacheada de talentos; sin base explícita usa la de wowdata."""
+    if db is None:
+        from askforever import config
+        db = config.open_wowdata()
+        if db is None:
+            return []
+        try:
+            return db.forever_talents()
+        finally:
+            db.close()
+    return db.forever_talents()

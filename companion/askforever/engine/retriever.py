@@ -9,7 +9,8 @@ from askforever.data.routes import (KIND_FLIGHT, KIND_TRAM, KIND_TRANSPORT, Rout
                                     _walk_neighbors, describe, find_route,
                                     flight_point_near, resolve_place,
                                     route_flight_points, transport_between)
-from askforever.data.wowdb import CLASSES, class_mask_from_name, normalize
+from askforever.data.wowdb import (CLASSES, class_mask_from_name, normalize,
+                                    talent_detail, talents_in_text)
 
 LIMIT = 1600
 MAX_OBJECTIVE = 220
@@ -19,6 +20,9 @@ TRAINER_KEYWORDS = ('instructor', 'instructora', 'entrenador', 'trainer')
 FLIGHT_KEYWORDS = ('vuelo', 'volar', 'grifo', 'maestro de vuelo', 'flight', 'fly',
                    'gryphon')
 TALENT_KEYWORDS = ('talento', 'rama', 'especializ', 'talent', 'spec', 'tree')
+TALENT_NEW_WORDS = ('nuevo', 'nuevos', 'nueva', 'nuevas', 'new')
+TALENT_CHANGED_WORDS = ('cambiado', 'cambiados', 'cambio', 'cambios', 'changed',
+                        'changes')
 LIST_KEYWORDS = ('mi lista', 'mis misiones', 'mi registro', 'my quests', 'my list',
                  'quest log')
 BOSS_KEYWORDS = ('jefe', 'jefes', 'boss', 'bosses')
@@ -1717,21 +1721,258 @@ def _detect_pets(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> Non
     _add_source(facts, f'pets:{zone_id}')
 
 
+def _talent_int(value, default=0):
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default
+
+
+def _talent_name(talent, lang: str) -> str:
+    return talent.get('nombre_es' if lang == 'es' else 'nombre_en') or ''
+
+
+def _talent_class_slug(mask) -> str:
+    data = CLASSES.get(mask) or {}
+    return normalize(data.get('english'))
+
+
+def _talent_matches_class(talent, mask) -> bool:
+    slug = _talent_class_slug(mask)
+    stored_slug = normalize(talent.get('class_slug'))
+    if stored_slug:
+        return stored_slug == slug
+    class_id = _talent_int(talent.get('class_id'))
+    return class_id in (mask, mask.bit_length())
+
+
+def _talent_rank_text(talent, rank):
+    ranks = talent.get('ranks') or {}
+    try:
+        return ranks.get(int(rank)) or ''
+    except (TypeError, ValueError):
+        return ''
+
+
+def _phrase_in_text(phrase: str, normalized: str) -> bool:
+    if not phrase:
+        return False
+    pattern = r'(?<![a-z0-9])' + re.escape(phrase) + r'(?![a-z0-9])'
+    return re.search(pattern, normalized) is not None
+
+
+def _class_mask_in_question(normalized: str):
+    best = None
+    for mask, data in CLASSES.items():
+        for key in ('masculine', 'feminine', 'plural', 'english'):
+            name = normalize(data.get(key))
+            if name and _phrase_in_text(name, normalized):
+                if best is None or len(name) > best[0]:
+                    best = (len(name), mask)
+    return best[1] if best else None
+
+
+def _tree_in_question(normalized: str, talents, lang: str):
+    candidates = []
+    for talent in talents:
+        for key in ('rama_es', 'rama_en'):
+            name = normalize(talent.get(key))
+            if not name or not _phrase_in_text(name, normalized):
+                continue
+            label = (talent.get('rama_es' if lang == 'es' else 'rama_en')
+                     or talent.get('rama_es') or talent.get('rama_en') or '')
+            slug = talent.get('tree_slug') or normalize(label).replace(' ', '-')
+            candidates.append((len(name), slug, label))
+    if not candidates:
+        return None
+    candidates.sort(key=lambda item: (-item[0], item[1]))
+    _length, slug, label = candidates[0]
+    return slug, label
+
+
+def _talent_detail_line(talent, detail, lang: str) -> str:
+    name = detail.get('name') or ''
+    other = detail.get('other_name') or ''
+    class_name = detail.get('class') or ''
+    tree = detail.get('tree') or ''
+    count = detail.get('max_rank') or 0
+    required = detail.get('required_points') or 0
+    prereq = detail.get('prerequisite')
+    change = detail.get('change')
+    rank1 = detail.get('rank1_text')
+    max_text = detail.get('max_text')
+    if lang == 'es':
+        rank_word = 'rango' if count == 1 else 'rangos'
+        line = (f'Talento «{name}» ({other}), {class_name}, rama {tree}: '
+                f'{count} {rank_word}; se desbloquea con {required} puntos en la rama')
+        if prereq:
+            line += f'; requiere el talento «{prereq}»'
+        if change == 'new':
+            line += '; nuevo en WoW Forever'
+        elif change == 'changed':
+            line += '; cambiado respecto a Classic'
+        line += '.'
+        if not rank1:
+            rank1 = _talent_rank_text(talent, 1)
+            if rank1:
+                rank1 += ' (texto en inglés)'
+        if rank1:
+            line += f' Rango 1: {rank1}'
+        if count > 1:
+            if not max_text:
+                max_text = _talent_rank_text(talent, count)
+                if max_text:
+                    max_text += ' (texto en inglés)'
+            if max_text:
+                line += f' Rango {count}: {max_text}'
+    else:
+        rank_word = 'rank' if count == 1 else 'ranks'
+        line = (f'Talent "{name}" ({other}), {class_name}, {tree} tree: '
+                f'{count} {rank_word}; unlocks with {required} points in the tree')
+        if prereq:
+            line += f'; requires the "{prereq}" talent'
+        if change == 'new':
+            line += '; new in WoW Forever'
+        elif change == 'changed':
+            line += '; changed from Classic'
+        line += '.'
+        if rank1:
+            line += f' Rank 1: {rank1}'
+        if count > 1 and max_text:
+            line += f' Rank {count}: {max_text}'
+    return line
+
+
+def _detect_talent_details(facts: Facts, db, normalized: str, lang: str,
+                           ctx: dict) -> None:
+    finder = getattr(db, 'talents_in_text', None)
+    if finder is not None:
+        found = _safe(finder, normalized, lang) or []
+    else:
+        loader = getattr(db, 'forever_talents', None)
+        talents = _safe(loader) if loader is not None else []
+        found = talents_in_text(normalized, lang, talents or [])
+    for talent in found:
+        detail = _safe(talent_detail, talent, lang)
+        if not detail or not detail.get('name'):
+            continue
+        line = _talent_detail_line(talent, detail, lang)
+        node_id = talent.get('NodeID')
+        if node_id is None:
+            node_id = talent.get('node_id')
+        if node_id is None:
+            continue
+        facts.lines.append(line)
+        _add_source(facts, f'talent:{node_id}')
+
+
+def _talent_new_line(talents, mask, lang: str, include_changed: bool):
+    selected = [talent for talent in talents
+                if _talent_matches_class(talent, mask)
+                and (str(talent.get('cambio') or '').lower() == 'new'
+                     or (include_changed
+                         and str(talent.get('cambio') or '').lower() == 'changed'))]
+    if not selected:
+        return None, ''
+    groups = {}
+    for talent in selected:
+        tree = (talent.get('rama_es' if lang == 'es' else 'rama_en')
+                or talent.get('rama_es') or talent.get('rama_en') or '')
+        key = (talent.get('tree_slug') or normalize(tree), tree)
+        groups.setdefault(key, []).append(talent)
+    parts = []
+    for (slug, tree), group in groups.items():
+        group.sort(key=lambda item: (
+            _talent_int(item.get('puntos_requeridos')),
+            _talent_int(item.get('PosY')), _talent_int(item.get('PosX')),
+            _talent_int(item.get('NodeID'))))
+        names = ', '.join(_talent_name(talent, lang) for talent in group)
+        parts.append(f'{tree}: {names}')
+    class_name = _class_name(mask, lang) or ''
+    if lang == 'es':
+        heading = ('Talentos nuevos o cambiados de ' if include_changed
+                   else 'Talentos nuevos de ') + f'{class_name} en WoW Forever: '
+    else:
+        heading = ('New or changed ' if include_changed else 'New ') + \
+                  f'{class_name} talents in WoW Forever: '
+    slug = (selected[0].get('class_slug')
+            or _talent_class_slug(mask).replace(' ', '-'))
+    return heading + '; '.join(parts) + '.', slug
+
+
+def _talent_tree_line(talents, mask, slug, label, lang: str):
+    selected = [talent for talent in talents
+                if _talent_matches_class(talent, mask)
+                and (talent.get('tree_slug') == slug
+                     or normalize(talent.get('rama_es' if lang == 'es' else
+                                            'rama_en')) == normalize(label))]
+    if not selected:
+        return None
+    selected.sort(key=lambda item: (
+        _talent_int(item.get('puntos_requeridos')),
+        _talent_int(item.get('PosY')), _talent_int(item.get('PosX')),
+        _talent_int(item.get('NodeID'))))
+    groups = {}
+    for talent in selected:
+        points = _talent_int(talent.get('puntos_requeridos'))
+        groups.setdefault(points, []).append(talent)
+    parts = []
+    for points in sorted(groups):
+        items = []
+        for talent in groups[points]:
+            rank = _talent_int(talent.get('max_rank'))
+            word = ('rango' if rank == 1 else 'rangos') if lang == 'es' else \
+                   ('rank' if rank == 1 else 'ranks')
+            items.append(f'{_talent_name(talent, lang)} ({rank} {word})')
+        parts.append(f'{points}: ' + ', '.join(items))
+    class_name = _class_name(mask, lang) or ''
+    if lang == 'es':
+        line = (f'Talentos de {label} ({class_name}) por puntos requeridos '
+                f'en la rama: ' + '; '.join(parts) + '.')
+    else:
+        line = (f'{label} ({class_name}) talents by points required in the '
+                f'tree: ' + '; '.join(parts) + '.')
+    return line
+
+
 def _detect_talents(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
     if not any(word in normalized for word in TALENT_KEYWORDS):
         return
-    mask = class_mask_from_name(ctx.get('class'))
+    player_mask = class_mask_from_name(ctx.get('class'))
+    tree_lister = getattr(db, 'talent_trees', None)
+    if player_mask is not None and tree_lister is not None:
+        trees = _safe(tree_lister, player_mask, lang) or []
+        if trees:
+            class_name = _class_name(player_mask, lang)
+            if lang == 'es':
+                facts.lines.append(f'Ramas de talentos de {class_name}: '
+                                   + ', '.join(trees))
+            else:
+                facts.lines.append(f'{class_name} talent trees: '
+                                   + ', '.join(trees))
+            _add_source(facts, f'talents:{player_mask}')
+    mask = _class_mask_in_question(normalized) or player_mask
     if mask is None:
         return
-    trees = db.talent_trees(mask, lang)
-    if not trees:
+    loader = getattr(db, 'forever_talents', None)
+    talents = _safe(loader) if loader is not None else []
+    if not talents:
         return
-    class_name = _class_name(mask, lang)
-    if lang == 'es':
-        facts.lines.append(f'Ramas de talentos de {class_name}: ' + ', '.join(trees))
-    else:
-        facts.lines.append(f'{class_name} talent trees: ' + ', '.join(trees))
-    _add_source(facts, f'talents:{mask}')
+    include_changed = any(word in normalized for word in TALENT_CHANGED_WORDS)
+    if include_changed or any(word in normalized for word in TALENT_NEW_WORDS):
+        line, slug = _talent_new_line(talents, mask, lang, include_changed)
+        if line:
+            facts.lines.append(line)
+            _add_source(facts, f'talents:new:{slug}')
+    class_talents = [talent for talent in talents
+                     if _talent_matches_class(talent, mask)]
+    tree = _tree_in_question(normalized, class_talents, lang)
+    if tree is not None:
+        slug, label = tree
+        line = _talent_tree_line(talents, mask, slug, label, lang)
+        if line:
+            facts.lines.append(line)
+            _add_source(facts, f'talents:tree:{slug}')
 
 
 def _detect_quest_list(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
@@ -1872,6 +2113,7 @@ def retrieve(message, db) -> Facts:
         _detect_services(facts, db, matches, normalized, lang, ctx)
         _detect_pets(facts, db, normalized, lang, ctx)
         _detect_talents(facts, db, normalized, lang, ctx)
+        _detect_talent_details(facts, db, normalized, lang, ctx)
         _detect_quest_list(facts, db, normalized, lang, ctx)
         _detect_guide(facts, db, question, lang, ctx)
         _add_panorama(facts, db, lang, level, nearby, zones_level, dungeons_level,

@@ -6,7 +6,7 @@ import sqlite3
 
 import pytest
 
-from askforever.data.wowdb import WowDb
+from askforever.data.wowdb import WowDb, normalize, resolve_talent_text, talent_detail
 
 NBSP = chr(0xA0)
 
@@ -63,6 +63,15 @@ SCHEMA = [
     'nivel_max INTEGER, clasificacion TEXT, tipo TEXT, familia TEXT, vida INTEGER, '
     'reaccion TEXT)',
     'CREATE TABLE CreatureFamily (ID INTEGER, Name_lang TEXT, Name_lang_esES TEXT)',
+    'CREATE TABLE v_talentos_forever (NodeID INTEGER, TreeID INTEGER, SpellID INTEGER, '
+    'nombre_es TEXT, nombre_en TEXT, class_id INTEGER, clase_es TEXT, clase_en TEXT, '
+    'class_slug TEXT, rama_es TEXT, rama_en TEXT, tree_slug TEXT, '
+    'puntos_requeridos INTEGER, talento_previo_node_id INTEGER, talento_previo_es TEXT, '
+    'talento_previo_en TEXT, max_rank INTEGER, max_rank_cliente INTEGER, cambio TEXT, '
+    'descripcion_es TEXT, descripcion_en_cliente TEXT, PosX INTEGER, PosY INTEGER, '
+    'version TEXT, build TEXT)',
+    'CREATE TABLE ext_icy_talento_rangos (node_id INTEGER, rank INTEGER, '
+    'spell_id INTEGER, description_en TEXT)',
 ]
 
 
@@ -317,6 +326,45 @@ def db(tmp_path):
             ['quest_id', 'position', 'npc_id', 'text', 'icon_type'], [
         (91776, 0, 1162, 'Trog C', None),
         (91776, 1, 900003, 'Criatura sin posición', None),
+    ])
+    _insert(conn, 'v_talentos_forever', [
+        'NodeID', 'TreeID', 'SpellID', 'nombre_es', 'nombre_en', 'class_id',
+        'clase_es', 'clase_en', 'class_slug', 'rama_es', 'rama_en', 'tree_slug',
+        'puntos_requeridos', 'talento_previo_node_id', 'talento_previo_es',
+        'talento_previo_en', 'max_rank', 'max_rank_cliente', 'cambio',
+        'descripcion_es', 'descripcion_en_cliente', 'PosX', 'PosY', 'version', 'build',
+    ], [
+        (1, 1, 101, 'Entrenamiento en aguante', 'Endurance Training', 4,
+         'Cazador', 'Hunter', 'hunter', 'Dominio de bestias', 'Beast Mastery',
+         'beast-mastery', 0, None, None, None, 5, 5, 'changed',
+         'Aumenta un $s1% la salud y la armadura de tus mascotas.',
+         'Increases the Health and Armor of your pets by $s1%.', 10, 10, '1', '1'),
+        (2, 2, 102, 'Tiro mortal', 'Mortal Shots', 4,
+         'Cazador', 'Hunter', 'hunter', 'Puntería', 'Marksmanship',
+         'marksmanship', 0, None, None, None, 5, 5, 'new',
+         'Reduce un $s2% el daño y añade $s1 de daño.',
+         'Adds $s1 damage and reduces damage by $s2%.', 20, 10, '1', '1'),
+        (3, 3, 103, 'Flecha de la muerte', 'Kill Shot', 4,
+         'Cazador', 'Hunter', 'hunter', 'Supervivencia', 'Survival',
+         'survival', 0, None, None, None, 3, 3, 'new',
+         'Aumenta un $s1% el daño.', 'Increases damage by $s1%.',
+         30, 10, '1', '1'),
+        (4, 2, 104, 'Puntería certera', 'True Shot', 4,
+         'Cazador', 'Hunter', 'hunter', 'Puntería', 'Marksmanship',
+         'marksmanship', 5, 2, 'Tiro mortal', 'Mortal Shots', 2, 2, None,
+         'Aumenta un $s1% y reduce un $s2%.',
+         'Increases $s1% and reduces $s2%.', 25, 20, '1', '1'),
+    ])
+    _insert(conn, 'ext_icy_talento_rangos',
+            ['node_id', 'rank', 'spell_id', 'description_en'], [
+        (1, 1, 101, 'Increases the Health and Armor of your pets by 3%.'),
+        (1, 5, 101, 'Increases the Health and Armor of your pets by 15%.'),
+        (2, 1, 102, 'Adds 10 damage and reduces damage by 5%.'),
+        (2, 5, 102, 'Adds 20 damage and reduces damage by 10%.'),
+        (3, 1, 103, 'Increases damage by 4%.'),
+        (3, 3, 103, 'Increases damage by 12%.'),
+        (4, 1, 104, 'Increases 10%.'),
+        (4, 2, 104, 'Increases 10% and reduces 5%.'),
     ])
     conn.commit()
     conn.close()
@@ -622,3 +670,77 @@ def test_empty_database_is_tolerated(tmp_path):
     assert database.flight_cost('Forjaz', 'Thelsamar', 'A') is None
     assert database.transports('A') == []
     database.close()
+
+
+def test_resolve_talent_text_single_variable():
+    assert resolve_talent_text(
+        'Aumenta un $s1% la salud y la armadura de tus mascotas.',
+        'Increases the Health and Armor of your pets by $s1%.',
+        'Increases the Health and Armor of your pets by 15%.') == (
+        'Aumenta un 15% la salud y la armadura de tus mascotas.')
+
+
+def test_resolve_talent_text_multiple_variables_in_any_order():
+    assert resolve_talent_text(
+        'Reduce un $s2% el daño y añade $s1 de daño.',
+        'Adds $s1 damage and reduces damage by $s2%.',
+        'Adds 10 damage and reduces damage by 5%.') == (
+        'Reduce un 5% el daño y añade 10 de daño.')
+
+
+def test_resolve_talent_text_mismatch_or_missing_variable():
+    assert resolve_talent_text(
+        'Aumenta un $s1% el daño.', 'Increases damage by $s1%.',
+        'Increases damage by a lot.') is None
+    assert resolve_talent_text(
+        'Hace $s1 y $s2.', 'Does $s1.', 'Does 5.') is None
+
+
+def test_resolve_talent_text_duration_units():
+    assert resolve_talent_text('Dura $d.', 'Lasts $d.',
+                               'Lasts 12 sec.') == 'Dura 12 s.'
+    assert resolve_talent_text('Dura $d.', 'Lasts $d.',
+                               'Lasts 3 minutes.') == 'Dura 3 min.'
+    assert resolve_talent_text('Dura $d.', 'Lasts $d.',
+                               'Lasts 1 hour.') is None
+
+
+def test_forever_talents_loads_ranks_and_caches(db):
+    talents = db.forever_talents()
+    assert len(talents) == 4
+    assert db.forever_talents() is talents
+    endurance = next(talent for talent in talents if talent['NodeID'] == 1)
+    assert endurance['ranks'][1].endswith('3%.')
+    assert endurance['ranks'][5].endswith('15%.')
+
+
+def test_talents_in_text_prefers_long_names(db):
+    found = db.talents_in_text(normalize('¿Qué hace Entrenamiento en aguante?'), 'es')
+    assert [talent['NodeID'] for talent in found] == [1]
+    found = db.talents_in_text(normalize('Endurance Training y Tiro mortal'), 'en')
+    assert {talent['NodeID'] for talent in found} == {1, 2}
+
+
+def test_talent_detail_resolves_spanish_ranks(db):
+    talent = next(talent for talent in db.forever_talents()
+                  if talent['NodeID'] == 1)
+    detail = db.talent_detail(talent, 'es')
+    assert detail['name'] == 'Entrenamiento en aguante'
+    assert detail['other_name'] == 'Endurance Training'
+    assert detail['class'] == 'Cazador'
+    assert detail['tree'] == 'Dominio de bestias'
+    assert detail['required_points'] == 0
+    assert detail['max_rank'] == 5
+    assert detail['change'] == 'changed'
+    assert '3%' in detail['rank1_text']
+    assert '15%' in detail['max_text']
+    assert talent_detail(talent, 'en')['rank1_text'].endswith('3%.')
+
+
+def test_talent_detail_keeps_unresolved_text_as_none(db):
+    talent = next(talent for talent in db.forever_talents()
+                  if talent['NodeID'] == 4)
+    detail = db.talent_detail(talent, 'es')
+    assert detail['prerequisite'] == 'Tiro mortal'
+    assert detail['rank1_text'] is None
+    assert '10%' in detail['max_text']

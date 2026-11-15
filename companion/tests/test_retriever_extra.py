@@ -45,6 +45,15 @@ SCHEMA = [
     'Name_esES TEXT, Level INTEGER)',
     'CREATE TABLE TalentTab (__id INTEGER, Name_lang TEXT, OrderIndex INTEGER, '
     'ClassMask INTEGER, Name_lang_esES TEXT)',
+    'CREATE TABLE v_talentos_forever (NodeID INTEGER, TreeID INTEGER, SpellID INTEGER, '
+    'nombre_es TEXT, nombre_en TEXT, class_id INTEGER, clase_es TEXT, clase_en TEXT, '
+    'class_slug TEXT, rama_es TEXT, rama_en TEXT, tree_slug TEXT, '
+    'puntos_requeridos INTEGER, talento_previo_node_id INTEGER, talento_previo_es TEXT, '
+    'talento_previo_en TEXT, max_rank INTEGER, max_rank_cliente INTEGER, cambio TEXT, '
+    'descripcion_es TEXT, descripcion_en_cliente TEXT, PosX INTEGER, PosY INTEGER, '
+    'version TEXT, build TEXT)',
+    'CREATE TABLE ext_icy_talento_rangos (node_id INTEGER, rank INTEGER, '
+    'spell_id INTEGER, description_en TEXT)',
     'CREATE TABLE TaxiNodes (__id INTEGER, ID INTEGER, Name_lang TEXT, '
     'Name_lang_esES TEXT, ContinentID INTEGER, MountCreatureID TEXT)',
     'CREATE TABLE ext_item_l10n (item_id INTEGER, locale TEXT, name TEXT)',
@@ -306,6 +315,45 @@ def db(tmp_path):
         (261, 'Elemental', 0, 64, 'Elemental'),
         (263, 'Enhancement', 1, 64, 'Mejora'),
         (262, 'Restoration', 2, 64, 'Recuperación'),
+    ])
+    _insert(conn, 'v_talentos_forever', [
+        'NodeID', 'TreeID', 'SpellID', 'nombre_es', 'nombre_en', 'class_id',
+        'clase_es', 'clase_en', 'class_slug', 'rama_es', 'rama_en', 'tree_slug',
+        'puntos_requeridos', 'talento_previo_node_id', 'talento_previo_es',
+        'talento_previo_en', 'max_rank', 'max_rank_cliente', 'cambio',
+        'descripcion_es', 'descripcion_en_cliente', 'PosX', 'PosY', 'version', 'build',
+    ], [
+        (1, 1, 101, 'Entrenamiento en aguante', 'Endurance Training', 4,
+         'Cazador', 'Hunter', 'hunter', 'Dominio de bestias', 'Beast Mastery',
+         'beast-mastery', 0, None, None, None, 5, 5, 'changed',
+         'Aumenta un $s1% la salud y la armadura de tus mascotas.',
+         'Increases the Health and Armor of your pets by $s1%.', 10, 10, '1', '1'),
+        (2, 2, 102, 'Tiro mortal', 'Mortal Shots', 4,
+         'Cazador', 'Hunter', 'hunter', 'Puntería', 'Marksmanship',
+         'marksmanship', 0, None, None, None, 5, 5, 'new',
+         'Reduce un $s2% el daño y añade $s1 de daño.',
+         'Adds $s1 damage and reduces damage by $s2%.', 20, 10, '1', '1'),
+        (3, 3, 103, 'Flecha de la muerte', 'Kill Shot', 4,
+         'Cazador', 'Hunter', 'hunter', 'Supervivencia', 'Survival',
+         'survival', 0, None, None, None, 3, 3, 'new',
+         'Aumenta un $s1% el daño.', 'Increases damage by $s1%.',
+         30, 10, '1', '1'),
+        (4, 2, 104, 'Puntería certera', 'True Shot', 4,
+         'Cazador', 'Hunter', 'hunter', 'Puntería', 'Marksmanship',
+         'marksmanship', 5, 2, 'Tiro mortal', 'Mortal Shots', 2, 2, None,
+         'Aumenta un $s1% y reduce un $s2%.',
+         'Increases $s1% and reduces $s2%.', 25, 20, '1', '1'),
+    ])
+    _insert(conn, 'ext_icy_talento_rangos',
+            ['node_id', 'rank', 'spell_id', 'description_en'], [
+        (1, 1, 101, 'Increases the Health and Armor of your pets by 3%.'),
+        (1, 5, 101, 'Increases the Health and Armor of your pets by 15%.'),
+        (2, 1, 102, 'Adds 10 damage and reduces damage by 5%.'),
+        (2, 5, 102, 'Adds 20 damage and reduces damage by 10%.'),
+        (3, 1, 103, 'Increases damage by 4%.'),
+        (3, 3, 103, 'Increases damage by 12%.'),
+        (4, 1, 104, 'Increases 10%.'),
+        (4, 2, 104, 'Increases 10% and reduces 5%.'),
     ])
     _insert(conn, 'TaxiNodes', ['__id', 'ID', 'Name_lang', 'Name_lang_esES',
                                 'ContinentID', 'MountCreatureID'], [
@@ -1051,3 +1099,50 @@ def test_single_word_zone_match_only_for_main_zones(db):
     assert zone_id is None
     zone_id, _name = _zone_in_question(db, normalize('el banco de ventormenta'), 'es')
     assert zone_id == 1519
+
+
+def test_talent_detail_question_without_talent_keyword(db):
+    facts = retrieve(_message('¿Qué hace Entrenamiento en aguante?'), db)
+    text = _text(facts)
+    assert ('Talento «Entrenamiento en aguante» (Endurance Training), Cazador, '
+            'rama Dominio de bestias: 5 rangos; se desbloquea con 0 puntos en la '
+            'rama; cambiado respecto a Classic.') in text
+    assert 'Rango 1: Aumenta un 3% la salud y la armadura de tus mascotas.' in text
+    assert 'Rango 5: Aumenta un 15% la salud y la armadura de tus mascotas.' in text
+    assert 'talent:1' in facts.sources
+
+
+def test_talent_detail_english(db):
+    facts = retrieve(_message('What does Endurance Training do?', lang='enUS'), db)
+    text = _text(facts)
+    assert ('Talent "Endurance Training" (Entrenamiento en aguante), Hunter, '
+            'Beast Mastery tree: 5 ranks; unlocks with 0 points in the tree; '
+            'changed from Classic.') in text
+    assert 'Rank 1: Increases the Health and Armor of your pets by 3%.' in text
+    assert 'Rank 5: Increases the Health and Armor of your pets by 15%.' in text
+
+
+def test_talent_detail_falls_back_to_english_text(db):
+    facts = retrieve(_message('¿Qué hace Puntería certera?'), db)
+    text = _text(facts)
+    assert 'requiere el talento «Tiro mortal»' in text
+    assert 'Rango 1: Increases 10%. (texto en inglés)' in text
+    assert 'Rango 2: Aumenta un 10% y reduce un 5%.' in text
+
+
+def test_new_talents_for_class_named_in_question(db):
+    facts = retrieve(_message('¿Qué talentos nuevos tiene el cazador?'), db)
+    text = _text(facts)
+    assert ('Talentos nuevos de Cazador en WoW Forever: Puntería: Tiro mortal; '
+            'Supervivencia: Flecha de la muerte.') in text
+    assert 'talents:new:hunter' in facts.sources
+
+
+def test_talents_of_named_tree_in_order(db):
+    ctx = dict(CTX)
+    ctx['class'] = 'Cazador'
+    facts = retrieve(_message('¿Qué talentos tiene la rama de Puntería?', ctx=ctx), db)
+    text = _text(facts)
+    assert ('Talentos de Puntería (Cazador) por puntos requeridos en la rama: '
+            '0: Tiro mortal (5 rangos); 5: Puntería certera (2 rangos).') in text
+    assert 'talents:tree:marksmanship' in facts.sources
