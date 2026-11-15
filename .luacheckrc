@@ -8,6 +8,7 @@ globals = {
     'BINDING_NAME_ASKFOREVER_TOGGLE',
     'SLASH_ASKFOREVER1',
     'SLASH_ASKFOREVER2',
+    'SLASH_ASKFOREVERDISPLAY1',
     'SlashCmdList',
 }
 
@@ -16,10 +17,12 @@ read_globals = {
     'bit',
     'ButtonFrameTemplate_HideButtonBar',
     'C_AddOns',
+    'C_CVar',
     'C_Map',
     'C_Timer',
     'C_QuestLog',
     'ChatFontNormal',
+    'ConsoleGetAllCommands',
     'CreateFrame',
     'date',
     'GameFontHighlightSmall',
@@ -27,6 +30,7 @@ read_globals = {
     'GameTooltip',
     'GetAddOnInfo',
     'GetAddOnMetadata',
+    'GetCVar',
     'GetCursorPosition',
     'GetLocale',
     'GetNumQuestLogEntries',
