@@ -1,0 +1,865 @@
+{
+  "description": "Capítulo 4: Clases. Sacerdote. Secciones editoriales redactadas desde guías de terceros.",
+  "sections": [
+    {
+      "id": "clase-priest-que-hace",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Qué hace un Sacerdote",
+      "title_en": "What a Priest Does",
+      "summary_es": "Sacerdote cura, protege con escudos y hace daño con las Sombras; también limpia y apoya con buffs.",
+      "summary_en": "Priest heals, protects with shields, damages with Shadow, and supports with cleanses and buffs.",
+      "keywords_es": [
+        "qué hace un sacerdote",
+        "sacerdote curación y daño",
+        "sacerdote escudos",
+        "sacerdote sombras",
+        "sacerdote apoyo"
+      ],
+      "keywords_en": [
+        "what does a priest do",
+        "priest healing and damage",
+        "priest shields",
+        "priest shadow",
+        "priest support"
+      ],
+      "text_es": "El Sacerdote es un lanzador versátil que puede curar, proteger con escudos o hacer daño con las Sombras. Sus tres especializaciones cubren los papeles de sanador y de daño a distancia, y aporta buffs, limpieza y control al grupo. Palabra de poder: escudo, Renovar y los rezos son algunas de sus herramientas más conocidas. Su gran debilidad es la movilidad: casi todo su poder exige quedarse quieto y lanzar.",
+      "text_en": "Priest is a versatile caster that can heal, protect with shields, or deal Shadow damage. Its three specializations cover healer and ranged damage, and it brings buffs, cleansing, and control to the group. Power Word: Shield, Renew, and prayers are some of its best-known tools. Its main weakness is mobility: almost all of its power requires standing still and casting.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Priest Class Guide › Comprehensive Guide to Priest in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/priest-class-overview",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-especializaciones",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Especializaciones del Sacerdote",
+      "title_en": "Priest Specializations",
+      "summary_es": "Disciplina previene daño con escudos, Sagrado cura en área y Sombra hace daño con DoTs y apoyo.",
+      "summary_en": "Discipline prevents damage with shields, Holy heals groups, and Shadow deals DoT damage and support.",
+      "keywords_es": [
+        "especializaciones del sacerdote",
+        "sacerdote disciplina sagrado sombra",
+        "sacerdote sanador",
+        "sacerdote daño sombra",
+        "qué especialización de sacerdote"
+      ],
+      "keywords_en": [
+        "priest specializations",
+        "priest discipline holy shadow",
+        "priest healer",
+        "priest shadow damage",
+        "which priest spec"
+      ],
+      "text_es": "Disciplina es un sanador que previene daño con escudos y mitigación. Sagrado es el sanador reactivo, con curas directas y herramientas para varios aliados. Sombra es daño a distancia con DoTs que también ayuda al grupo con curación pasiva. Las tres usan maná; Disciplina y Sagrado sanan, y Sombra hace daño.",
+      "text_en": "Discipline is a healer that prevents damage with shields and mitigation. Holy is the reactive healer, with direct heals and tools for several allies. Shadow is ranged damage with DoTs that also helps the group through passive healing. All three use mana; Discipline and Holy heal, while Shadow deals damage.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Priest Class Guide › Priest in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/priest-class-overview",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Guide › Discipline Priest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-healer-pve-guide",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Guide › Holy Priest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/holy-priest-healer-pve-guide",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Guide › Shadow Priest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-ranged-dps-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-cambios-forever",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Qué cambia en Forever para el Sacerdote",
+      "title_en": "What Changes for Priest in Forever",
+      "summary_es": "Disciplina deja de ser solo apoyo, Sagrado gana curas para varios aliados y Sombra refuerza su identidad.",
+      "summary_en": "Discipline is no longer only support, Holy gains multi-ally healing, and Shadow strengthens its identity.",
+      "keywords_es": [
+        "cambios del sacerdote en forever",
+        "sacerdote disciplina independiente",
+        "sanación conjunta",
+        "rezo de alivio",
+        "sacerdote sombra"
+      ],
+      "keywords_en": [
+        "priest forever changes",
+        "discipline priest healer",
+        "binding heal",
+        "prayer of mending",
+        "shadow priest"
+      ],
+      "text_es": "En Forever, Disciplina deja de ser solo un apoyo y se convierte en un sanador con identidad propia. Sagrado recibe Sanación conjunta y Rezo de alivio, que mejoran su curación de varios aliados. Sombra tiene una identidad más clara y aporta curación pasiva con Unirse a vampírica. Las tres especializaciones reciben talentos nuevos y retocados, pero el maná y la falta de movilidad siguen marcando su forma de jugar.",
+      "text_en": "In Forever, Discipline is no longer only support and becomes a healer with its own identity. Holy receives Binding Heal and Prayer of Mending, which improve its healing of several allies. Shadow has a clearer identity and provides passive healing through Vampiric Embrace. All three specializations receive new and reworked talents, but mana and low mobility still shape how they play.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Guide › Discipline Priest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-healer-pve-guide",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Guide › Holy Priest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/holy-priest-healer-pve-guide",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Guide › Shadow Priest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-ranged-dps-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-armas-armadura",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Armas y armadura del Sacerdote",
+      "title_en": "Priest Weapons and Armor",
+      "summary_es": "El Sacerdote viste tela y usa varitas, bastones, armas de una mano y objetos de mano izquierda.",
+      "summary_en": "Priest wears cloth and uses wands, staves, one-handed weapons, and off-hand items.",
+      "keywords_es": [
+        "armas del sacerdote",
+        "armadura del sacerdote",
+        "sacerdote varita",
+        "sacerdote bastón",
+        "sacerdote equipo de tela"
+      ],
+      "keywords_en": [
+        "priest weapons",
+        "priest armor",
+        "priest wand",
+        "priest staff",
+        "priest cloth gear"
+      ],
+      "text_es": "El Sacerdote viste tela y usa varitas, bastones, armas de una mano y objetos de mano izquierda. La varita es clave al principio porque hace daño sin gastar maná y puede ser una gran parte de tu daño. No pega con el arma: elige la combinación que mejor acompañe tus hechizos y tu maná.",
+      "text_en": "A Priest wears cloth and uses wands, staves, one-handed weapons, and off-hand items. The wand matters early because it deals damage without mana and can be a large part of your damage. You do not fight with the weapon: choose the combination that best supports your spells and mana.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Gear",
+          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Gear and Where to Level",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-subir-espec",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Mejor especialización para subir",
+      "title_en": "Best Specialization for Leveling",
+      "summary_es": "Sombra es la más rápida en solitario; Disciplina es el sanador más fácil y Sagrado cura en grupo.",
+      "summary_en": "Shadow is the fastest solo; Discipline is the easier healer and Holy heals groups.",
+      "keywords_es": [
+        "mejor especialización para subir sacerdote",
+        "sacerdote sombra para levear",
+        "sacerdote disciplina para subir",
+        "sacerdote sagrado para subir",
+        "qué spec de sacerdote usar"
+      ],
+      "keywords_en": [
+        "best priest leveling spec",
+        "shadow priest leveling",
+        "discipline priest leveling",
+        "holy priest leveling",
+        "which priest spec to level"
+      ],
+      "text_es": "Para subir solo, Sombra suele ser la opción más rápida: convierte el daño en curación y puede encadenar enemigos con la varita y Transfusión de espíritu. Disciplina es el sanador más fácil de llevar en solitario, y Sagrado es más lento para matar pero entra fácil en mazmorras como sanador. Si quieres curar mientras subes, elige Disciplina o Sagrado y haz mazmorras; si prefieres daño, Sombra.",
+      "text_en": "For solo leveling, Shadow is usually the fastest option: it turns damage into healing and can chain enemies with the wand and Spirit Tap. Discipline is the easier healer to play alone, and Holy is slower at killing but finds healer groups easily. If you want to heal while leveling, choose Discipline or Holy and run dungeons; if you prefer damage, choose Shadow.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Shadow Priest Leveling Guide",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Discipline Priest Leveling Guide",
+          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Leveling Guide › Holy Priest Leveling Guide",
+          "url": "https://www.icy-veins.com/wow-forever/holy-priest-leveling",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-talentos-sombra",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de talentos de Sombra",
+      "title_en": "Shadow Leveling Talent Path",
+      "summary_es": "Sombra: varitas y Transfusión de espíritu; 20 Despelleje mental; 25 Unirse a vampírica; 40 Forma de las Sombras.",
+      "summary_en": "Shadow: wands and Spirit Tap; 20 Mind Flay; 25 Vampiric Embrace; 40 Shadowform.",
+      "keywords_es": [
+        "talentos para subir sacerdote sombra",
+        "ruta de sombra",
+        "transfusión de espíritu",
+        "despelleje mental",
+        "forma de las sombras"
+      ],
+      "keywords_en": [
+        "shadow priest leveling talents",
+        "shadow talent path",
+        "spirit tap",
+        "mind flay",
+        "shadowform"
+      ],
+      "text_es": "Ruta de Sombra para subir: empieza con Especialización en varitas y Transfusión de espíritu. A 20 entra Despelleje mental; a 25, Unirse a vampírica; después, Contagio devorador. A 40 llega Forma de las Sombras, y al final Meditación. Si juegas en grupo desde pronto, puedes cambiar algunos puntos, pero la base de daño y maná es esta.",
+      "text_en": "Shadow leveling path: start with Wand Specialization and Spirit Tap. At 20 comes Mind Flay; at 25, Vampiric Embrace; after that, Devouring Contagion. At 40 comes Shadowform, and at the end Meditation. If you group early, you can swap some points, but this is the damage and mana base.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Leveling Talent Build",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-hitos",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Hitos de habilidad por nivel",
+      "title_en": "Ability Milestones by Level",
+      "summary_es": "Palabra de poder: escudo 6; Renovar 8; Curar enfermedad 14; Penitencia 30; Forma de las Sombras 40.",
+      "summary_en": "Power Word: Shield 6; Renew 8; Cure Disease 14; Penance 30; Shadowform 40.",
+      "keywords_es": [
+        "cuándo aprendo habilidades de sacerdote",
+        "nivel de las habilidades del sacerdote",
+        "hitos del sacerdote",
+        "penitencia nivel",
+        "forma de las sombras nivel"
+      ],
+      "keywords_en": [
+        "when priest abilities",
+        "priest ability levels",
+        "priest milestones",
+        "penance level",
+        "shadowform level"
+      ],
+      "text_es": "Palabra de poder: escudo a 6; Renovar y Desvanecer a 8; la primera racial a 10; Curar enfermedad y Alarido psíquico a 14; Curar a 16; Disipar magia a 18; la segunda racial, Custodia de miedo y Fuego Sagrado a 20. Penitencia, Espíritu divino y Rezo de curación a 30; Suprimir enfermedad y Palabra de las Sombras: muerte a 32; Curación superior y Forma de las Sombras a 40.",
+      "text_en": "Power Word: Shield at 6; Renew and Fade at 8; the first racial at 10; Cure Disease and Psychic Scream at 14; Heal at 16; Dispel Magic at 18; the second racial, Fear Ward, and Holy Fire at 20. Penance, Divine Spirit, and Prayer of Healing at 30; Abolish Disease and Shadow Word: Death at 32; Greater Heal and Shadowform at 40.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/holy-priest-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-mana",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Cómo gestionar el maná",
+      "title_en": "Managing Mana",
+      "summary_es": "El maná es el límite del Sacerdote; tras lanzar espera cinco segundos, usa la varita y lleva agua.",
+      "summary_en": "Mana limits the Priest; after casting wait five seconds, use the wand, and carry water.",
+      "keywords_es": [
+        "maná del sacerdote",
+        "regeneración de maná sacerdote",
+        "sacerdote sin maná",
+        "regla de cinco segundos",
+        "varita y maná"
+      ],
+      "keywords_en": [
+        "priest mana",
+        "priest mana regeneration",
+        "priest out of mana",
+        "five second rule",
+        "wand and mana"
+      ],
+      "text_es": "El maná es el límite principal del Sacerdote: los hechizos son caros y, tras gastar maná, la regeneración de maná se detiene cinco segundos. Lleva agua y evita lanzar un hechizo caro a un enemigo que morirá con la varita. Transfusión de espíritu y Meditación ayudan a recuperar maná, y la varita permite seguir haciendo daño sin gastarlo. En grupo, guarda maná para curar; si te quedas sin él, el grupo puede caer.",
+      "text_en": "Mana is the Priest's main limit: spells are expensive, and after spending mana, regeneration stops for five seconds. Carry water and avoid casting an expensive spell on an enemy that will die to the wand. Spirit Tap and Meditation help recover mana, and the wand keeps damage going without spending it. In a group, save mana for healing; if you run out, the group can fall.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Shadow Priest Leveling Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Discipline Priest Leveling Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-escudo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Palabra de poder: escudo",
+      "title_en": "Power Word: Shield",
+      "summary_es": "El escudo evita daño, protege los lanzamientos y deja Alma debilitada, que impide repetirlo.",
+      "summary_en": "The shield prevents damage, protects casts, and leaves Weakened Soul, which blocks reapplying it.",
+      "keywords_es": [
+        "palabra de poder escudo",
+        "escudo del sacerdote",
+        "alma debilitada",
+        "protección de lanzamientos",
+        "sacerdote escudo"
+      ],
+      "keywords_en": [
+        "power word shield",
+        "priest shield",
+        "weakened soul",
+        "spell pushback protection",
+        "priest bubble"
+      ],
+      "text_es": "Palabra de poder: escudo es la herramienta básica de prevención del Sacerdote: absorbe daño y evita que los golpes interrumpan tus lanzamientos. Mientras el escudo está activo no pierdes acumulaciones de Fuego interno ni sufres retroceso de hechizos. A cambio, deja Alma debilitada y no puedes volver a aplicarlo hasta que pase. Úsalo para ganar tiempo antes de una cura o para proteger a alguien que va a recibir daño.",
+      "text_en": "Power Word: Shield is the Priest's basic prevention tool: it absorbs damage and stops hits from interrupting your casts. While the shield is active you do not lose Inner Fire stacks or suffer spell pushback. In exchange, it leaves Weakened Soul and cannot be reapplied until it fades. Use it to buy time before a heal or to protect someone about to take damage.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Important Abilities",
+          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › FAQ What Is Spell Pushback?",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-control",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Control, limpieza y utilidad",
+      "title_en": "Control, Cleansing, and Utility",
+      "summary_es": "Alarido psíquico, Control mental y Encadenar no-muerto controlan; Disipar magia y Curar enfermedad limpian.",
+      "summary_en": "Psychic Scream, Mind Control, and Shackle Undead control; Dispel Magic and Cure Disease cleanse.",
+      "keywords_es": [
+        "control del sacerdote",
+        "alarido psíquico",
+        "control mental",
+        "encadenar no-muerto",
+        "disipar magia"
+      ],
+      "keywords_en": [
+        "priest control",
+        "psychic scream",
+        "mind control",
+        "shackle undead",
+        "dispel magic"
+      ],
+      "text_es": "Alarido psíquico hace huir a los enemigos cercanos, pero puede arrastrar más enemigos; Control mental toma un humanoide y Encadenar no-muerto inmoviliza a un no-muerto. Curar enfermedad y Suprimir enfermedad limpian enfermedades, y Disipar magia quita un efecto mágico aliado o un buff enemigo. Desvanecer reduce tu amenaza y Levitar evita daño de caída y permite caminar sobre el agua. En mazmorras, no limpies todo automáticamente: a veces el maná vale más.",
+      "text_en": "Psychic Scream sends nearby enemies running, but it can pull more enemies; Mind Control takes a humanoid and Shackle Undead immobilizes an undead. Cure Disease and Abolish Disease cleanse diseases, and Dispel Magic removes a friendly magic effect or an enemy buff. Fade lowers your threat, and Levitate prevents fall damage and lets you walk on water. In dungeons, do not cleanse everything automatically: sometimes the mana is worth more.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Utility, Crowd Control, and Cleanses",
+          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Utility and Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-buffs",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Buffs y apoyo al grupo",
+      "title_en": "Buffs and Group Support",
+      "summary_es": "Palabra de poder: entereza, Espíritu divino y Protección de las Sombras son los buffs básicos del Sacerdote.",
+      "summary_en": "Power Word: Fortitude, Divine Spirit, and Shadow Protection are the Priest's basic buffs.",
+      "keywords_es": [
+        "buffs del sacerdote",
+        "palabra de poder entereza",
+        "espíritu divino",
+        "protección de las sombras",
+        "sacerdote apoyo al grupo"
+      ],
+      "keywords_en": [
+        "priest buffs",
+        "power word fortitude",
+        "divine spirit",
+        "shadow protection",
+        "priest group support"
+      ],
+      "text_es": "Palabra de poder: entereza sube la salud máxima del objetivo, Espíritu divino mejora su regeneración y Protección de las Sombras reduce el daño de las Sombras. Los rezos de grupo permiten aplicar estos buffs a varios aliados. Fuego interno sube tu armadura y castiga a quien te golpea. Mantén los buffs activos y renueva a quien muera o se una al grupo.",
+      "text_en": "Power Word: Fortitude raises the target's maximum health, Divine Spirit improves their regeneration, and Shadow Protection reduces Shadow damage. Group prayers apply these buffs to several allies. Inner Fire raises your armor and punishes attackers. Keep buffs active and refresh them for anyone who dies or joins the group.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Leveling Guide › Buffs",
+          "url": "https://www.icy-veins.com/wow-forever/holy-priest-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Buffs",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-rotacion-sombra",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Sombra para subir",
+      "title_en": "Shadow Leveling Rotation",
+      "summary_es": "Sombra abre con Explosión mental, aplica Palabra de las Sombras: Dolor y Peste devoradora, y remata con la varita.",
+      "summary_en": "Shadow opens with Mind Blast, applies Shadow Word: Pain and Devouring Plague, and finishes with the wand.",
+      "keywords_es": [
+        "rotación de sombra",
+        "sacerdote sombra para subir",
+        "explosión mental",
+        "palabra de las sombras dolor",
+        "peste devoradora"
+      ],
+      "keywords_en": [
+        "shadow priest rotation",
+        "shadow leveling rotation",
+        "mind blast",
+        "shadow word pain",
+        "devouring plague"
+      ],
+      "text_es": "En Sombra, mantén Palabra de poder: entereza y Fuego interno, y ponte Palabra de poder: escudo si vas a recibir golpes. Abre con Explosión mental, aplica Palabra de las Sombras: Dolor y Peste devoradora, y usa Despelleje mental mientras el enemigo vive. Remata con la varita para que el maná empiece a regenerarse antes y Transfusión de espíritu haga su trabajo. Si te quedas sin maná, quita Peste devoradora y Despelleje mental y limita el daño a la varita.",
+      "text_en": "As Shadow, keep Power Word: Fortitude and Inner Fire up, and use Power Word: Shield if you will take hits. Open with Mind Blast, apply Shadow Word: Pain and Devouring Plague, and use Mind Flay while the enemy lives. Finish with the wand so mana starts regenerating earlier and Spirit Tap does its job. If you run low on mana, drop Devouring Plague and Mind Flay and limit damage to the wand.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-rotacion-sanador",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de sanador",
+      "title_en": "Healer Rotation",
+      "summary_es": "Destello curativo es la cura habitual; Curar y Curación superior para daño fuerte; Rezo de curación para el grupo.",
+      "summary_en": "Flash Heal is the usual heal; Heal and Greater Heal for heavy damage; Prayer of Healing for the group.",
+      "keywords_es": [
+        "rotación de sanador sacerdote",
+        "destello curativo",
+        "curar sacerdote",
+        "rezo de curación",
+        "rezo de alivio"
+      ],
+      "keywords_en": [
+        "priest healer rotation",
+        "flash heal",
+        "heal priest",
+        "prayer of healing",
+        "prayer of mending"
+      ],
+      "text_es": "En Disciplina y Sagrado, Destello curativo mantiene la salud y Curar o Curación superior cubren el daño fuerte cuando el maná lo permite. Renovar sirve para daño gradual, Rezo de curación para varios aliados heridos y Rezo de alivio para ir rebotando entre el grupo. Penitencia es una cura rápida en Disciplina, y Choque Sagrado o Sanación conjunta dan respuestas inmediatas en Sagrado. Usa Destello curativo con cuidado: es rápido, pero caro.",
+      "text_en": "As Discipline or Holy, Flash Heal maintains health and Heal or Greater Heal cover heavy damage when mana allows. Renew handles gradual damage, Prayer of Healing helps several injured allies, and Prayer of Mending bounces between the group. Penance is a fast heal in Discipline, while Holy Shock or Binding Heal give immediate answers in Holy. Use Flash Heal carefully: it is fast but expensive.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Healing Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Leveling Guide › Healing Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/holy-priest-leveling",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-area",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Daño en área y sus límites",
+      "title_en": "Area Damage and Its Limits",
+      "summary_es": "Sombra no tiene área real; Sagrado usa Nova Sagrada y los sanadores dependen de curas de grupo.",
+      "summary_en": "Shadow has no real area damage; Holy uses Holy Nova, and healers rely on group heals.",
+      "keywords_es": [
+        "sacerdote daño en área",
+        "nova sagrada",
+        "sombra sin área",
+        "palabra de las sombras dolor varios",
+        "sacerdote varios enemigos"
+      ],
+      "keywords_en": [
+        "priest aoe",
+        "holy nova",
+        "shadow no aoe",
+        "shadow word pain multiple",
+        "priest multiple enemies"
+      ],
+      "text_es": "Sombra no tiene una habilidad de área real: su mejor opción es repartir Palabra de las Sombras: Dolor entre varios enemigos y centrarse en uno, con cuidado de no quedarse sin maná ni perder las acumulaciones de Fuego interno. Sagrado puede usar Nova Sagrada, pero cuesta maná y no es barata hasta tener Luz abrasadora. Los sanadores no hacen daño en área; su prioridad es mantener al grupo vivo y usar Rezo de curación o Rezo de alivio cuando hay daño repartido.",
+      "text_en": "Shadow has no real area ability: its best option is spreading Shadow Word: Pain across several enemies and focusing one, while avoiding running out of mana or losing Inner Fire stacks. Holy can use Holy Nova, but it costs mana and is not cheap until Searing Light. Healers do not deal area damage; their priority is keeping the group alive and using Prayer of Healing or Prayer of Mending when damage is spread out.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › AoE Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Leveling Guide › AoE Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/holy-priest-leveling",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-misiones-clase",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Misiones de clase y facultades raciales",
+      "title_en": "Class Quests and Racial Abilities",
+      "summary_es": "A nivel 10 y 20, las misiones de clase dan las dos facultades raciales del Sacerdote; a 4 dan una túnica.",
+      "summary_en": "At level 10 and 20, class quests give the Priest's two racial abilities; at 4 they give a robe.",
+      "keywords_es": [
+        "misiones de clase sacerdote",
+        "facultades raciales sacerdote",
+        "misión de nivel 10 sacerdote",
+        "misión de nivel 20 sacerdote",
+        "sacerdote habilidades raciales"
+      ],
+      "keywords_en": [
+        "priest class quests",
+        "priest racial abilities",
+        "level 10 priest quest",
+        "level 20 priest quest",
+        "priest racials"
+      ],
+      "text_es": "Las misiones de nivel 4 dan una túnica, pero no desbloquean habilidades. A nivel 10 y 20 entregan las dos facultades raciales del Sacerdote; por ejemplo, Fragmentos estelares o Gracia divina a 10, y Gracia de Elune o Castigar a 20. Son mejoras gratuitas, pero no hacen falta para subir.",
+      "text_en": "Level 4 quests give a robe but do not unlock abilities. At level 10 and 20 they give the Priest's two racial abilities; for example, Starshards or Divine Grace at 10, and Elune's Grace or Chastise at 20. They are free upgrades, but they are not required to level.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Priest Class Quests Guide › Priest Class Quest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/priest-class-quests",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-tips-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consejos para subir de nivel",
+      "title_en": "Leveling Tips",
+      "summary_es": "Consigue una varita, lleva agua, entrena hechizos, sube Sastrería con Encantamiento y haz las misiones de mazmorra.",
+      "summary_en": "Get a wand, carry water, train spells, level Tailoring with Enchanting, and do dungeon quests.",
+      "keywords_es": [
+        "consejos para subir sacerdote",
+        "sacerdote varita pronto",
+        "sacerdote agua y maná",
+        "sastrería y encantamiento sacerdote",
+        "sacerdote misiones de mazmorra"
+      ],
+      "keywords_en": [
+        "priest leveling tips",
+        "get a wand early",
+        "priest water mana",
+        "tailoring enchanting priest",
+        "priest dungeon quests"
+      ],
+      "text_es": "Consigue una varita pronto: hace daño sin maná y al principio puede ser una gran parte de tu daño. Lleva agua y aprende las nuevas versiones de tus hechizos en el instructor; Destello curativo, Renovar y Explosión mental mejoran mucho con el nivel. Sube Sastrería con Encantamiento para fabricar túnicas, bolsas y varitas, o Herboristería con Alquimia para pociones. Descansa en tabernas, completa las zonas y recoge las misiones de mazmorra antes de entrar.",
+      "text_en": "Get a wand early: it deals damage without mana and can be a large part of your damage at low levels. Carry water and learn new spell versions from the trainer; Flash Heal, Renew, and Mind Blast improve a lot with level. Level Tailoring with Enchanting to make robes, bags, and wands, or Herbalism with Alchemy for potions. Rest in inns, finish zones, and collect dungeon quests before entering.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Leveling Tips",
+          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Leveling Tips",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-grupo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "El Sacerdote en grupo y mazmorras",
+      "title_en": "Priest in Groups and Dungeons",
+      "summary_es": "Disciplina previene con escudos, Sagrado cura al grupo y Sombra aporta daño y curación pasiva.",
+      "summary_en": "Discipline prevents with shields, Holy heals the group, and Shadow adds damage and passive healing.",
+      "keywords_es": [
+        "sacerdote en grupo",
+        "sacerdote en mazmorras",
+        "sacerdote sanador de grupo",
+        "sacerdote sombra en grupo",
+        "utilidad del sacerdote"
+      ],
+      "keywords_en": [
+        "priest in groups",
+        "priest in dungeons",
+        "priest group healer",
+        "shadow priest group",
+        "priest utility"
+      ],
+      "text_es": "En grupo, Disciplina previene daño con Palabra de poder: escudo y mitigación y cubre bien a un objetivo; Sagrado cura a varios con Rezo de curación, Sanación conjunta y Rezo de alivio; Sombra hace daño y ayuda con Unirse a vampírica y sus buffs. Todos los Sacerdotes aportan Palabra de poder: entereza, Espíritu divino, limpieza y control. Usa Desvanecer si generas amenaza y coordina los rezos con el otro sanador.",
+      "text_en": "In a group, Discipline prevents damage with Power Word: Shield and mitigation and covers one target well; Holy heals several with Prayer of Healing, Binding Heal, and Prayer of Mending; Shadow deals damage and helps with Vampiric Embrace and its buffs. Every Priest brings Power Word: Fortitude, Divine Spirit, cleansing, and control. Use Fade if you build threat and coordinate prayers with the other healer.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Guide › Difficult With Amazing Payout",
+          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-healer-pve-guide",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Guide › Ol' Reliable",
+          "url": "https://www.icy-veins.com/wow-forever/holy-priest-healer-pve-guide",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Guide › Likely the Best Utility DPS in the Game",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-ranged-dps-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-disciplina",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Disciplina: escudos y prevención",
+      "title_en": "Discipline: Shields and Prevention",
+      "summary_es": "Disciplina previene daño con escudos, cura un objetivo y usa Penitencia; le falta curación en área.",
+      "summary_en": "Discipline prevents damage with shields, heals one target, and uses Penance; it lacks area healing.",
+      "keywords_es": [
+        "sacerdote disciplina",
+        "disciplina escudos",
+        "penitencia",
+        "sacerdote sanador preventivo",
+        "disciplina en grupo"
+      ],
+      "keywords_en": [
+        "discipline priest",
+        "discipline shields",
+        "penance",
+        "preventive healer",
+        "discipline group"
+      ],
+      "text_es": "Disciplina es un sanador preventivo: Palabra de poder: escudo y la mitigación evitan daño antes de que ocurra, y Penitencia da una cura rápida y flexible. Es fuerte curando a un solo objetivo y aporta buena utilidad, pero le falta curación en área y es más difícil de jugar que Sagrado. En grupo, protege al tanque y a quien esté a punto de recibir un golpe grande, y usa Penitencia para estabilizar.",
+      "text_en": "Discipline is a preventive healer: Power Word: Shield and mitigation stop damage before it happens, and Penance gives a fast, flexible heal. It is strong at single-target healing and brings good utility, but it lacks area healing and is harder to play than Holy. In a group, shield the tank and anyone about to take a big hit, and use Penance to stabilize.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Guide › Discipline Priest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-healer-pve-guide",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-sagrado",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Sagrado: curación reactiva",
+      "title_en": "Holy: Reactive Healing",
+      "summary_es": "Sagrado cura con Destello curativo, Curar y Curación superior, y usa Rezo de curación y Rezo de alivio.",
+      "summary_en": "Holy heals with Flash Heal, Heal and Greater Heal, and uses Prayer of Healing and Prayer of Mending.",
+      "keywords_es": [
+        "sacerdote sagrado",
+        "sacerdote sanador",
+        "destello curativo",
+        "rezo de curación",
+        "sanación conjunta"
+      ],
+      "keywords_en": [
+        "holy priest",
+        "priest healer",
+        "flash heal",
+        "prayer of healing",
+        "binding heal"
+      ],
+      "text_es": "Sagrado es el sanador reactivo y fácil de aprender: Destello curativo para mantener la salud, Curar y Curación superior para daño fuerte, y Renovar para daño gradual. Rezo de curación cubre a varios aliados, Sanación conjunta cura a ti y a otro, y Rezo de alivio sigue rebotando por el grupo. Su movilidad es nula y hace poco daño en solitario, pero es muy completo en mazmorras.",
+      "text_en": "Holy is the reactive, beginner-friendly healer: Flash Heal maintains health, Heal and Greater Heal cover heavy damage, and Renew handles gradual damage. Prayer of Healing covers several allies, Binding Heal heals you and another, and Prayer of Mending keeps bouncing around the group. Its mobility is nil and it deals little damage alone, but it is very complete in dungeons.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Guide › Holy Priest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/holy-priest-healer-pve-guide",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-sombra",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Sombra: daño con DoTs",
+      "title_en": "Shadow: Damage with DoTs",
+      "summary_es": "Sombra usa Palabra de las Sombras: Dolor, Peste devoradora y Despelleje mental, y cura al grupo con Unirse a vampírica.",
+      "summary_en": "Shadow uses Shadow Word: Pain, Devouring Plague and Mind Flay, and heals the group with Vampiric Embrace.",
+      "keywords_es": [
+        "sacerdote sombra",
+        "sombra dots",
+        "palabra de las sombras dolor",
+        "peste devoradora",
+        "unirse a vampírica"
+      ],
+      "keywords_en": [
+        "shadow priest",
+        "shadow dots",
+        "shadow word pain",
+        "devouring plague",
+        "vampiric embrace"
+      ],
+      "text_es": "Sombra es daño a distancia con DoTs: Palabra de las Sombras: Dolor, Peste devoradora y Despelleje mental, con Explosión mental para abrir. Su gran aporte al grupo es Unirse a vampírica, que cura según el daño que hace, además de buffs como Protección de las Sombras y Espíritu divino. No tiene área real y su movilidad es baja; hasta Forma de las Sombras el maná duele, así que la varita y Transfusión de espíritu son clave.",
+      "text_en": "Shadow is ranged damage with DoTs: Shadow Word: Pain, Devouring Plague, and Mind Flay, with Mind Blast to open. Its big group contribution is Vampiric Embrace, which heals based on its damage, plus buffs such as Shadow Protection and Divine Spirit. It has no real area damage and low mobility; before Shadowform, mana hurts, so the wand and Spirit Tap are key.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Guide › Shadow Priest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-ranged-dps-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    }
+  ]
+}
