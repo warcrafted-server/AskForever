@@ -282,7 +282,11 @@ def db(tmp_path):
     _insert(conn, 'ext_dungeons', ['area_id', 'name_enUS', 'name_esES', 'parent_zone_id'], [
         (1581, 'The Deadmines', 'Las Minas de la Muerte', 40),
         (43, 'Wailing Caverns', 'Cuevas de los Lamentos', 17),
+        (34, 'Stormwind Stockades', 'Mazmorras de Ventormenta', 1519),
         (721, 'Gnomeregan', 'Gnomeregan', 1),
+        (2437, 'Ragefire Chasm', 'Sima Ígnea', 1637),
+        (9998, 'Shadowfang Keep', 'Castillo de Colmillo Oscuro', 130),
+        (9999, 'Razorfen Kraul', 'Horado Rajacieno', 17),
     ])
     _insert(conn, 'ext_dungeon_entrances', ['area_id', 'idx', 'zone_id', 'x', 'y'], [
         (1581, 1, 40, 42.5, 71.7),
@@ -459,10 +463,43 @@ def test_dungeons_for_my_level(db):
     facts = retrieve(_message('¿Qué mazmorras puedo hacer a mi nivel?'), db)
     text = _text(facts)
     assert 'Mazmorras cerca de tu nivel:' in text
-    assert 'Sima Ígnea (13-18)' in text
+    assert 'Sima Ígnea (13-18)' not in text
+    assert 'Ruinas de Lordaeron (15-22)' in text
     assert 'Cuevas de los Lamentos (15-24)' in text
     assert 'Minas de la Muerte' not in text
     assert 'dungeons:16' in facts.sources
+
+
+def test_dungeons_for_my_level_horde(db):
+    ctx = dict(CTX)
+    ctx['fac'] = 'Horda'
+    facts = retrieve(_message('¿Qué mazmorras puedo hacer a mi nivel?', ctx=ctx), db)
+    assert 'Sima Ígnea (13-18)' in _text(facts)
+
+
+def test_dungeon_below_first_level_lists_next(db):
+    ctx = dict(CTX)
+    ctx.update(lvl=9, fac='Alianza')
+    facts = retrieve(_message('¿Qué mazmorra puedo hacer a mi nivel?', ctx=ctx), db)
+    text = _text(facts)
+    assert 'Todavía no hay mazmorras para tu nivel (9).' in text
+    assert 'Las primeras que podrás hacer:' in text
+    assert 'Salón de los Feudales (13-20)' in text
+    assert 'Sima Ígnea' not in text
+    assert 'dungeons:next:9' in facts.sources
+    assert 'rangos de nivel de mazmorras' not in facts.missing
+
+
+def test_dungeon_below_first_level_english(db):
+    ctx = dict(CTX)
+    ctx.update(lvl=9, fac='Alianza')
+    facts = retrieve(_message('Which dungeon can I do at my level?', lang='enUS',
+                              ctx=ctx), db)
+    text = _text(facts)
+    assert 'There are no dungeons for your level (9) yet.' in text
+    assert 'The first ones you will be able to do:' in text
+    assert 'dungeons:next:9' in facts.sources
+    assert 'dungeon level ranges' not in facts.missing
 
 
 def test_dungeon_bosses_question(db):

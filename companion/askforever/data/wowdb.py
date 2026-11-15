@@ -113,6 +113,11 @@ def _article_key(text) -> str:
 FOREVER_LEVELS_PATH = Path(__file__).with_name('forever_dungeon_levels.json')
 _FOREVER_LEVELS = None
 
+CAPITAL_FACTION = {
+    1519: 'A', 1537: 'A', 1657: 'A',
+    1637: 'H', 1497: 'H', 1638: 'H',
+}
+
 
 def _forever_rows():
     """Filas curadas de niveles, cargadas una sola vez y sin lanzar errores."""
@@ -1118,7 +1123,66 @@ class WowDb:
         return {'name': self._lfg_name(row, lang), 'min': levels[0], 'max': levels[1],
                 'source': 'client'}
 
-    def dungeons_for_level(self, level, lang: str = 'es', below: int = 2, above: int = 5):
+    def dungeon_capital_faction(self, name):
+        text = str(name or '')
+        if ':' in text:
+            text = text.split(':', 1)[0]
+        target = _article_key(text)
+        if not target:
+            return None
+        rows = self._rows(
+            'SELECT name_enUS, name_esES, parent_zone_id FROM ext_dungeons')
+        for row in rows:
+            if target in (_article_key(row['name_esES']),
+                          _article_key(row['name_enUS'])):
+                return CAPITAL_FACTION.get(_as_int(row['parent_zone_id']))
+        return None
+
+    def _filter_dungeons_faction(self, dungeons, faction):
+        if faction not in ('A', 'H'):
+            return dungeons
+        opposite = 'H' if faction == 'A' else 'A'
+        return [item for item in dungeons
+                if self.dungeon_capital_faction(item['name']) != opposite]
+
+    def _all_dungeon_rows(self, lang: str):
+        forever = _forever_rows()
+        if forever:
+            name_key = 'name_es' if lang == 'es' else 'name_en'
+            wing_key = 'wing_es' if lang == 'es' else 'wing_en'
+            dungeons = []
+            for row in forever:
+                name = row[name_key]
+                if row[wing_key]:
+                    name = f'{name}: {row[wing_key]}'
+                dungeons.append({'name': name, 'min': row['min'],
+                                 'max': row['max'], 'source': 'forever'})
+            return dungeons
+        ext_keys = set()
+        for row in self._rows('SELECT name_enUS, name_esES FROM ext_dungeons'):
+            ext_keys.add(_article_key(row['name_esES']))
+            ext_keys.add(_article_key(row['name_enUS']))
+        ext_keys.discard('')
+        dungeons = []
+        seen = set()
+        for row in self._lfg_dungeon_rows():
+            name_en = _article_key(row['Name_lang'])
+            name_es = _article_key(row['Name_lang_esES'])
+            if name_en not in ext_keys and name_es not in ext_keys:
+                continue
+            levels = self._content_levels(row['ContentTuningID'])
+            if levels is None:
+                continue
+            key = (levels[0], levels[1], name_en)
+            if key in seen:
+                continue
+            seen.add(key)
+            dungeons.append({'name': self._lfg_name(row, lang),
+                             'min': levels[0], 'max': levels[1]})
+        return dungeons
+
+    def dungeons_for_level(self, level, lang: str = 'es', below: int = 2,
+                           above: int = 5, faction=None):
         try:
             level = int(level)
             low_limit = level - int(below)
@@ -1138,6 +1202,7 @@ class WowDb:
                     name = f'{name}: {row[wing_key]}'
                 dungeons.append({'name': name, 'min': row['min'], 'max': row['max'],
                                  'source': 'forever'})
+            dungeons = self._filter_dungeons_faction(dungeons, faction)
             dungeons.sort(key=lambda item: item['min'])
             return dungeons
         ext_keys = set()
@@ -1163,8 +1228,24 @@ class WowDb:
                 continue
             seen.add(key)
             dungeons.append({'name': self._lfg_name(row, lang), 'min': low, 'max': high})
+        dungeons = self._filter_dungeons_faction(dungeons, faction)
         dungeons.sort(key=lambda item: (item['min'], item['name']))
         return dungeons
+
+    def next_dungeons(self, level, lang: str = 'es', faction=None, limit: int = 3):
+        try:
+            level = int(level)
+        except (TypeError, ValueError):
+            return []
+        dungeons = [item for item in self._all_dungeon_rows(lang)
+                    if item['min'] > level]
+        dungeons = self._filter_dungeons_faction(dungeons, faction)
+        dungeons.sort(key=lambda item: (item['min'], item['name']))
+        try:
+            limit = max(0, int(limit))
+        except (TypeError, ValueError):
+            limit = 3
+        return dungeons[:limit]
 
     def dungeon_bosses(self, name_or_id, lang: str = 'es'):
         row = self._find_lfg_dungeon(name_or_id)

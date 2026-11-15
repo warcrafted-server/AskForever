@@ -109,8 +109,11 @@ def db(tmp_path):
     _insert(conn, 'ext_dungeons', ['area_id', 'name_enUS', 'name_esES', 'parent_zone_id'], [
         (1581, 'The Deadmines', 'Las Minas de la Muerte', 40),
         (43, 'Wailing Caverns', 'Cuevas de los Lamentos', 17),
-        (34, 'Stormwind Stockades', 'Mazmorras de Ventormenta', 1),
+        (34, 'Stormwind Stockades', 'Mazmorras de Ventormenta', 1519),
         (721, 'Gnomeregan', 'Gnomeregan', 1),
+        (2437, 'Ragefire Chasm', 'Sima Ígnea', 1637),
+        (9998, 'Shadowfang Keep', 'Castillo de Colmillo Oscuro', 130),
+        (9999, 'Razorfen Kraul', 'Horado Rajacieno', 17),
     ])
     _insert(conn, 'v_jefe_mazmorra', ['encuentro_id', 'map_id', 'instancia', 'dificultad',
                                       'orden', 'nombre', 'nombre_en', 'npc_id', 'zone_id',
@@ -376,6 +379,39 @@ def test_dungeons_for_level(db):
         ('Ruinas de Lordaeron', 15, 22),
         ('Cuevas de los Lamentos', 15, 24),
     ]
+
+
+def test_dungeon_capital_faction(db):
+    assert db.dungeon_capital_faction('Sima Ígnea') == 'H'
+    assert db.dungeon_capital_faction('Ragefire Chasm') == 'H'
+    assert db.dungeon_capital_faction('Mazmorras de Ventormenta') == 'A'
+    assert db.dungeon_capital_faction('Cuevas de los Lamentos') is None
+    assert db.dungeon_capital_faction('Castillo de Colmillo Oscuro') is None
+    assert db.dungeon_capital_faction('No existe') is None
+
+
+def test_dungeons_for_level_filters_capital_factions(db):
+    alliance = [item['name'] for item in db.dungeons_for_level(16, faction='A')]
+    assert 'Sima Ígnea' not in alliance
+    assert 'Cuevas de los Lamentos' in alliance
+    assert 'Ruinas de Lordaeron' in alliance
+    horde = [item['name'] for item in db.dungeons_for_level(16, faction='H')]
+    assert 'Sima Ígnea' in horde
+    unknown = [item['name'] for item in db.dungeons_for_level(16)]
+    assert 'Sima Ígnea' in unknown
+
+
+def test_next_dungeons_filters_and_sorts(db):
+    alliance = db.next_dungeons(9, faction='A', limit=3)
+    assert len(alliance) == 3
+    assert all(item['min'] > 9 for item in alliance)
+    assert 'Sima Ígnea' not in [item['name'] for item in alliance]
+    assert [item['min'] for item in alliance] == sorted(
+        item['min'] for item in alliance)
+    horde = [item['name'] for item in db.next_dungeons(9, faction='H', limit=3)]
+    assert 'Sima Ígnea' in horde
+    unknown = [item['name'] for item in db.next_dungeons(9, limit=3)]
+    assert 'Sima Ígnea' in unknown
 
 
 def test_dungeon_bosses(db):

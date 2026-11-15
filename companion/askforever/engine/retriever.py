@@ -484,6 +484,15 @@ def _dungeons_line(dungeons, level, lang: str) -> str:
     return f'Dungeons near your level: ' + ', '.join(parts)
 
 
+def _next_dungeons_line(dungeons, level, lang: str) -> str:
+    parts = [f"{item['name']} ({item['min']}-{item['max']})" for item in dungeons]
+    if lang == 'es':
+        return (f'Todavía no hay mazmorras para tu nivel ({level}). '
+                'Las primeras que podrás hacer: ' + ', '.join(parts) + '.')
+    return (f'There are no dungeons for your level ({level}) yet. '
+            'The first ones you will be able to do: ' + ', '.join(parts) + '.')
+
+
 def _wings_line(wings, lang: str) -> str:
     parts = [f"{wing['name']} {wing['min']}-{wing['max']}" for wing in wings]
     return ('Alas: ' if lang == 'es' else 'Wings: ') + ', '.join(parts)
@@ -889,7 +898,7 @@ def _panorama_dungeons_line(dungeons, level, lang: str) -> str:
 
 def _add_panorama(facts: Facts, db, lang: str, level, nearby, zones_level,
                   dungeons_level, excluded_ids, excluded_keys,
-                  excluded_names) -> None:
+                  excluded_names, faction=None) -> None:
     if excluded_names:
         prefix = ('Excluidas a petición del jugador: ' if lang == 'es'
                   else 'Excluded by the player: ')
@@ -904,7 +913,8 @@ def _add_panorama(facts: Facts, db, lang: str, level, nearby, zones_level,
             facts.panorama.append(_panorama_zones_line(zones, level, lang))
             _add_source(facts, f'panorama:zones:{level}')
     if dungeons_level != level:
-        dungeons = (_safe(db.dungeons_for_level, level, lang) or [])
+        dungeons = (_safe(db.dungeons_for_level, level, lang,
+                          faction=faction) or [])
         dungeons = dungeons[:PANORAMA_DUNGEONS]
         if dungeons:
             facts.panorama.append(_panorama_dungeons_line(dungeons, level, lang))
@@ -944,11 +954,12 @@ def _detect_zone_intents(facts: Facts, db, matches, normalized: str, lang: str,
     return None
 
 
-def _detect_dungeon_intents(facts: Facts, db, matches, normalized: str, lang: str,
-                            ctx: dict, has_dungeon: bool,
+def _detect_dungeon_intents(facts: Facts, db, matches, normalized: str,
+                            lang: str, ctx: dict, has_dungeon: bool,
                             dungeon_level_answered: bool):
     mentions_level = any(word in normalized for word in ('nivel', 'level', 'rango'))
     mentions_dungeon = any(word in normalized for word in DUNGEON_KEYWORDS)
+    faction = _faction(ctx.get('fac'))
     if not has_dungeon and mentions_dungeon:
         wants_list = ('mi nivel' in normalized or 'my level' in normalized
                       or 'puedo hacer' in normalized or 'can i do' in normalized
@@ -958,10 +969,20 @@ def _detect_dungeon_intents(facts: Facts, db, matches, normalized: str, lang: st
             if level is None:
                 level = _ctx_level(ctx)
             if level is not None:
-                dungeons = _safe(db.dungeons_for_level, level, lang)
+                dungeons = _safe(db.dungeons_for_level, level, lang,
+                                 faction=faction) or []
                 if dungeons:
                     facts.lines.append(_dungeons_line(dungeons, level, lang))
                     _add_source(facts, f'dungeons:{level}')
+                    return level
+                following = []
+                next_fn = getattr(db, 'next_dungeons', None)
+                if next_fn is not None:
+                    following = _safe(next_fn, level, lang, faction=faction,
+                                      limit=3) or []
+                if following:
+                    facts.lines.append(_next_dungeons_line(following, level, lang))
+                    _add_source(facts, f'dungeons:next:{level}')
                     return level
     if mentions_level and (has_dungeon or mentions_dungeon) and not dungeon_level_answered:
         facts.missing.append('rangos de nivel de mazmorras' if lang == 'es'
@@ -1851,7 +1872,7 @@ def retrieve(message, db) -> Facts:
         _detect_quest_list(facts, db, normalized, lang, ctx)
         _detect_guide(facts, db, question, lang, ctx)
         _add_panorama(facts, db, lang, level, nearby, zones_level, dungeons_level,
-                      excluded_ids, excluded_keys, excluded_names)
+                      excluded_ids, excluded_keys, excluded_names, faction)
 
         facts.lines = list(dict.fromkeys(facts.lines))
         facts.missing = list(dict.fromkeys(facts.missing))

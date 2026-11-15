@@ -18,6 +18,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Fixed: a short follow-up question ("and for levelling, which one?") keeps the topic of the previous one instead of answering only about the new word.
 - Fixed: a single word of the question no longer picks a minor place as the zone ("hunter" chose a ship called "The Dawnchaser"); only main zones are matched that way.
 - Added: verified beginner guide sections, each with its sources, used for general questions: what WoW Forever is, maximum level, new zones, dungeons and raids, the new Skyborne race and class combinations, the Legacy system and its perks and rewards, the experience preset and realm types.
+- Fixed: asking which dungeon you can do below the first dungeon level now lists the first ones you will be able to do, and dungeons inside the other faction's capital cities are no longer suggested.
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
@@ -33,6 +34,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Corregido: una pregunta corta de seguimiento («¿y para subir de nivel, cuál?») mantiene el tema de la anterior en lugar de responder solo sobre la palabra nueva.
 - Corregido: una sola palabra de la pregunta ya no elige como zona un lugar menor («cazador» elegía el barco «El Cazador del Albor»); así solo se reconocen las zonas principales.
 - Añadido: secciones verificadas de la guía de principiantes, cada una con sus fuentes, para las preguntas generales: qué es WoW Forever, nivel máximo, zonas nuevas, mazmorras y bandas, la nueva raza Cielonato y las combinaciones de clase, el sistema Legacy con sus ventajas y recompensas, el preajuste de experiencia y los tipos de reino.
+- Corregido: si preguntas qué mazmorra puedes hacer antes del nivel de la primera, ahora te dice cuáles serán las primeras, y ya no se sugieren mazmorras dentro de las capitales de la otra facción.
 
 ## [0.3.0-beta.4] - 2026-11-15
 
