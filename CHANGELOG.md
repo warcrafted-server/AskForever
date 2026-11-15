@@ -7,10 +7,12 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 ### English
 - Added: the VirusTotal report of the installer is linked from the README badge and the security and transparency page, which also explains the single detection (SecureAge, generic label) of 0.3.0-beta.3.
 - Added: the development copy loads as AskForever (dev) next to the public addon, with a warning when both are enabled.
+- Added: the addon sends the position of its conversation panel and tells the companion when its window opens, closes or moves (for the in-window chat).
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
 - Añadido: la copia de desarrollo se carga como AskForever (desarrollo) junto al addon público, con un aviso cuando ambos están activados.
+- Añadido: el addon envía la posición de su panel de conversación y avisa al companion cuando su ventana se abre, se cierra o se mueve (para el chat dentro de la ventana).
 
 ## [0.3.0-beta.3] - 2026-11-15
 

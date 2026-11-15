@@ -8,6 +8,7 @@ local colors = Theme.colors
 local MAX_HISTORY_LINES = 200
 
 local mainFrame
+local historyPanel
 local history
 local editBox
 local summaryText
@@ -77,7 +78,12 @@ local function SendQuestion(text)
     editBox:ClearFocus()
 
     local inCombat = InCombatLockdown()
-    local accepted = ns.Transport.Send(question, nil, ConversationNumber())
+    local wx, wy, ww, wh = ns.UI.GetChatRect()
+    local extra
+    if wx ~= nil then
+        extra = { wx = wx, wy = wy, ww = ww, wh = wh }
+    end
+    local accepted = ns.Transport.Send(question, nil, ConversationNumber(), nil, extra)
     if accepted then
         sentThisOpening = true
         AddHistory(inCombat and ns.L.QUEUED_COMBAT or ns.L.SENT_STRIP, colors.textDim)
@@ -111,7 +117,7 @@ local function EnsureMainFrame()
     summaryText:SetJustifyH('LEFT')
     summaryText:SetText('')
 
-    local historyPanel = ns.UI.CreatePanel(body)
+    historyPanel = ns.UI.CreatePanel(body)
     historyPanel:SetPoint('TOPLEFT', body, 'TOPLEFT', 8, -26)
     historyPanel:SetPoint('BOTTOMRIGHT', body, 'BOTTOMRIGHT', -8, 92)
 
@@ -204,6 +210,9 @@ local function EnsureMainFrame()
         ConversationNumber()
         summaryText:SetText(BuildSummary())
         editBox:SetFocus()
+        if ns.Transport and type(ns.Transport.SendUi) == 'function' then
+            ns.Transport.SendUi('open')
+        end
     end)
     mainFrame:SetScript('OnHide', function()
         editBox:ClearFocus()
@@ -215,13 +224,68 @@ local function EnsureMainFrame()
             AskForeverDB.transport.conv = nextConv
             sentThisOpening = false
         end
+        if ns.Transport and type(ns.Transport.SendUi) == 'function' then
+            ns.Transport.SendUi('close')
+        end
     end)
     mainFrame.onMoveStop = function()
         SavePosition(mainFrame)
+        if ns.Transport and type(ns.Transport.SendUi) == 'function' then
+            ns.Transport.SendUi('move')
+        end
     end
 
     RestorePosition(mainFrame)
     return mainFrame
+end
+
+function ns.UI.GetChatRect()
+    if not mainFrame or not historyPanel then
+        return nil
+    end
+    local shownOk, shown = pcall(mainFrame.IsShown, mainFrame)
+    if not shownOk or not shown then
+        return nil
+    end
+    local panelOk, left, top, width, height, scale = pcall(function()
+        return historyPanel:GetLeft(), historyPanel:GetTop(),
+               historyPanel:GetWidth(), historyPanel:GetHeight(),
+               historyPanel:GetEffectiveScale()
+    end)
+    if not panelOk then
+        return nil
+    end
+    if type(left) ~= 'number' or type(top) ~= 'number'
+        or type(width) ~= 'number' or type(height) ~= 'number'
+        or type(scale) ~= 'number' then
+        return nil
+    end
+    if left ~= left or top ~= top or width ~= width or height ~= height or scale ~= scale then
+        return nil
+    end
+    if width <= 0 or height <= 0 or scale <= 0 then
+        return nil
+    end
+    if type(GetPhysicalScreenSize) ~= 'function' then
+        return nil
+    end
+    local sizeOk, physW, physH = pcall(GetPhysicalScreenSize)
+    if not sizeOk or type(physW) ~= 'number' or type(physH) ~= 'number' then
+        return nil
+    end
+    if physW <= 0 or physH <= 0 or physW ~= physW or physH ~= physH then
+        return nil
+    end
+
+    local unitsToPx = (physH / 768) * scale
+    local wx = math.floor(left * unitsToPx + 0.5)
+    local wy = math.floor(physH - top * unitsToPx + 0.5)
+    local ww = math.floor(width * unitsToPx + 0.5)
+    local wh = math.floor(height * unitsToPx + 0.5)
+    if wx < 0 or wy < 0 or ww <= 0 or wh <= 0 then
+        return nil
+    end
+    return wx, wy, ww, wh
 end
 
 function ns.UI.ShowMain()

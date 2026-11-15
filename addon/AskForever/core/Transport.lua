@@ -22,6 +22,7 @@ local state = {
     ticker = nil,
     paused = false,
     pending = nil,
+    pendingUi = nil,
 }
 
 local CRC_TABLE
@@ -255,6 +256,11 @@ local function Finish()
     state.totalSteps = 0
     state.paused = false
     ns.Strip.Hide()
+    if state.pendingUi and not InCombatLockdown() then
+        local event = state.pendingUi
+        state.pendingUi = nil
+        Transport.SendUi(event)
+    end
 end
 
 function Transport.Cancel()
@@ -266,15 +272,7 @@ function Transport.IsBusy()
     return state.pages ~= nil
 end
 
-function Transport.Send(question, ctx, conv, kind, extra)
-    if InCombatLockdown() then
-        state.pending = { question = question, ctx = ctx, conv = conv, kind = kind,
-                          extra = extra }
-        return true
-    end
-
-    Transport.Cancel()
-
+local function StartTransmission(message)
     if type(AskForeverDB) ~= 'table' then
         AskForeverDB = {}
     end
@@ -285,11 +283,6 @@ function Transport.Send(question, ctx, conv, kind, extra)
     end
     AskForeverDB.transport.msgId = msgId
 
-    if ctx == nil then
-        ctx = ns.Context.Collect()
-    end
-
-    local message = Transport.BuildMessage(question, ctx, conv, kind, extra)
     local pages, reason = Transport.Paginate(message, msgId)
     if not pages then
         state.pending = nil
@@ -318,6 +311,58 @@ function Transport.Send(question, ctx, conv, kind, extra)
     return true
 end
 
+function Transport.Send(question, ctx, conv, kind, extra)
+    if kind == nil or kind == '' then
+        state.pendingUi = nil
+    end
+    if InCombatLockdown() then
+        state.pending = { question = question, ctx = ctx, conv = conv, kind = kind,
+                          extra = extra }
+        return true
+    end
+
+    Transport.Cancel()
+
+    if ctx == nil then
+        ctx = ns.Context.Collect()
+    end
+
+    local message = Transport.BuildMessage(question, ctx, conv, kind, extra)
+    return StartTransmission(message)
+end
+
+function Transport.SendUi(event)
+    if event ~= 'open' and event ~= 'close' and event ~= 'move' then
+        return nil
+    end
+    if InCombatLockdown() then
+        state.pendingUi = event
+        return true
+    end
+    if Transport.IsBusy() or state.pending ~= nil then
+        state.pendingUi = event
+        return true
+    end
+
+    local extra = { ev = event }
+    if event ~= 'close' and ns.UI and type(ns.UI.GetChatRect) == 'function' then
+        local wx, wy, ww, wh = ns.UI.GetChatRect()
+        if wx ~= nil then
+            extra.wx = wx
+            extra.wy = wy
+            extra.ww = ww
+            extra.wh = wh
+        end
+    end
+
+    local conv
+    if type(AskForeverDB) == 'table' and type(AskForeverDB.transport) == 'table' then
+        conv = AskForeverDB.transport.conv
+    end
+    state.pendingUi = nil
+    return StartTransmission(Transport.BuildMessage('', nil, conv, 'ui', extra))
+end
+
 local eventFrame = CreateFrame('Frame')
 eventFrame:RegisterEvent('PLAYER_REGEN_DISABLED')
 eventFrame:RegisterEvent('PLAYER_REGEN_ENABLED')
@@ -330,12 +375,21 @@ eventFrame:SetScript('OnEvent', function(_, event)
     elseif event == 'PLAYER_REGEN_ENABLED' then
         local pending = state.pending
         state.pending = nil
+        local pendingUi = state.pendingUi
+        state.pendingUi = nil
         if pending then
             Transport.Send(pending.question, pending.ctx, pending.conv, pending.kind,
                            pending.extra)
         elseif state.pages and state.paused then
             state.paused = false
             ShowPage()
+        end
+        if pendingUi and not state.pendingUi then
+            if Transport.IsBusy() or state.pending ~= nil or InCombatLockdown() then
+                state.pendingUi = pendingUi
+            else
+                Transport.SendUi(pendingUi)
+            end
         end
     end
 end)
