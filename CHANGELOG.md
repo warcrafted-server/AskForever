@@ -17,6 +17,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Fixed: the official game texts are found more often and more precisely: tutorial titles count ("Death" for "I died"), race and class tutorials only reach that race and class, and words such as "items" or "quests" are no longer ignored.
 - Fixed: a short follow-up question ("and for levelling, which one?") keeps the topic of the previous one instead of answering only about the new word.
 - Fixed: a single word of the question no longer picks a minor place as the zone ("hunter" chose a ship called "The Dawnchaser"); only main zones are matched that way.
+- Added: verified beginner guide sections, each with its sources, used for general questions: what WoW Forever is, maximum level, new zones, dungeons and raids, the new Skyborne race and class combinations, the Legacy system and its perks and rewards, the experience preset and realm types.
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
@@ -31,6 +32,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Corregido: los textos oficiales del juego se encuentran más y mejor: cuenta el título de los tutoriales («Muerte» para «he muerto»), los tutoriales de una raza o clase solo llegan a esa raza o clase y ya no se ignoran palabras como «objetos» o «misiones».
 - Corregido: una pregunta corta de seguimiento («¿y para subir de nivel, cuál?») mantiene el tema de la anterior en lugar de responder solo sobre la palabra nueva.
 - Corregido: una sola palabra de la pregunta ya no elige como zona un lugar menor («cazador» elegía el barco «El Cazador del Albor»); así solo se reconocen las zonas principales.
+- Añadido: secciones verificadas de la guía de principiantes, cada una con sus fuentes, para las preguntas generales: qué es WoW Forever, nivel máximo, zonas nuevas, mazmorras y bandas, la nueva raza Cielonato y las combinaciones de clase, el sistema Legacy con sus ventajas y recompensas, el preajuste de experiencia y los tipos de reino.
 
 ## [0.3.0-beta.4] - 2026-11-15
 

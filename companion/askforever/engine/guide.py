@@ -2,17 +2,20 @@
 
 from __future__ import annotations
 
+import json
 import re
 from collections import namedtuple
+from pathlib import Path
 
 from askforever.data.wowdb import normalize
 from askforever.engine.retriever import QUEST_REFERENCE_STOP_WORDS
 
+GUIDE_SECTIONS_PATH = Path(__file__).resolve().parents[1] / 'data' / 'guide.json'
 MIN_GLOBAL_LENGTH = 40
 EXTRA_STOP_WORDS = {
     'como', 'puedo', 'juego', 'personaje', 'hacer', 'para', 'quiero', 'saber',
     'significa', 'significan', 'tener', 'sigo', 'recomiendas', 'recomienda',
-    'hola', 'gracias', 'vale', 'adios', 'perfecto', 'genial',
+    'hola', 'gracias', 'vale', 'adios', 'perfecto', 'genial', 'forever', 'warcraft', 'world',
     'how', 'game', 'character', 'what', 'does', 'mean', 'means', 'thanks', 'hello',
 }
 # Las palabras de dominio que el buscador de misiones descarta aquí sí distinguen textos:
@@ -52,6 +55,42 @@ _TIP_RE = re.compile(r'^\s*(?:Consejo|Tip)\s*:\s*', re.IGNORECASE)
 _ALLOWED_TAG_RE = re.compile(r'^(?:TUTORIAL\d+|TUTORIAL_TITLE\d+|NEWBIE_TOOLTIP_)')
 _TITLE_RE = re.compile(r'^TUTORIAL_TITLE(\d+(?:_[A-Z_]+)?)$')
 _SUFFIX_RE = re.compile(r'^TUTORIAL\d+_([A-Z_]+)$')
+
+
+def load_sections(path=None):
+    """Secciones verificadas de la guía escrita a mano; nunca lanza."""
+    if path is None:
+        path = GUIDE_SECTIONS_PATH
+    try:
+        data = json.loads(Path(path).read_text(encoding='utf-8'))
+    except (OSError, TypeError, ValueError):
+        return []
+    items = data.get('sections') if isinstance(data, dict) else None
+    if not isinstance(items, list):
+        return []
+    sections = []
+    for item in items:
+        if not isinstance(item, dict) or item.get('status') != 'verificado':
+            continue
+        section_id = item.get('id')
+        text_es = item.get('text_es')
+        text_en = item.get('text_en')
+        if not isinstance(section_id, str) or not section_id.strip():
+            continue
+        if not isinstance(text_es, str) or not text_es.strip():
+            continue
+        if not isinstance(text_en, str) or not text_en.strip():
+            continue
+        keywords_ok = True
+        for key in ('keywords_es', 'keywords_en'):
+            values = item.get(key, [])
+            if not isinstance(values, list) or any(
+                    not isinstance(value, str) for value in values):
+                keywords_ok = False
+                break
+        if keywords_ok:
+            sections.append(item)
+    return sections
 
 
 def clean_text(value) -> str:
@@ -98,8 +137,10 @@ def _token_match(question_token: str, entry_token: str) -> bool:
 class GuideIndex:
     """Índice perezoso y cacheado por instancia de base de datos."""
 
-    def __new__(cls, db):
-        key = id(db)
+    def __new__(cls, db, sections_path=None):
+        selected_path = (sections_path if sections_path is not None
+                         else GUIDE_SECTIONS_PATH)
+        key = (id(db), str(selected_path))
         cached = _CACHE.get(key)
         if cached is not None and getattr(cached, 'db', None) is db:
             return cached
@@ -107,11 +148,13 @@ class GuideIndex:
         _CACHE[key] = instance
         return instance
 
-    def __init__(self, db):
+    def __init__(self, db, sections_path=None):
         if getattr(self, '_ready', False):
             return
         self.db = db
+        self.sections_path = Path(sections_path) if sections_path is not None else None
         self._entries = None
+        self._section_phrases = {}
         self._ready = True
         try:
             setattr(db, '_guide_index', self)
@@ -119,8 +162,8 @@ class GuideIndex:
             pass
 
     @classmethod
-    def for_db(cls, db):
-        return cls(db)
+    def for_db(cls, db, sections_path=None):
+        return cls(db, sections_path)
 
     @property
     def entries(self):
@@ -131,6 +174,32 @@ class GuideIndex:
     def _load(self):
         entries = []
         seen_refs = set()
+        self._section_phrases = {}
+        for section in load_sections(self.sections_path):
+            ref = f'section:{section["id"]}'
+            if ref in seen_refs:
+                continue
+            text_es = section['text_es']
+            text_en = section['text_en']
+            keywords_es = [normalize(value)
+                           for value in section.get('keywords_es', [])]
+            keywords_en = [normalize(value)
+                           for value in section.get('keywords_en', [])]
+            keywords_es = [value for value in keywords_es if value]
+            keywords_en = [value for value in keywords_en if value]
+            token_text_es = ' '.join([text_es] + keywords_es)
+            token_text_en = ' '.join([text_en] + keywords_en)
+            # Solo las claves de una palabra valen sueltas; las de varias, como frase entera
+            # («no muerto paladín» no debe responder a «he muerto»).
+            heads = frozenset(tokenize(' '.join(
+                value for value in keywords_es + keywords_en if ' ' not in value)))
+            entries.append(GuideEntry(
+                ref, text_es, text_en,
+                frozenset(tokenize(token_text_es)),
+                frozenset(tokenize(token_text_en)),
+                frozenset(), heads))
+            self._section_phrases[ref] = frozenset(keywords_es + keywords_en)
+            seen_refs.add(ref)
         for row in self.db._rows(
                 'SELECT ID, Text_lang, Text_lang_esES FROM gametips') or []:
             ref = f'gametip:{row["ID"]}'
@@ -183,8 +252,9 @@ class GuideIndex:
     def search(self, question, lang, limit=3, ctx=None):
         spanish = str(lang).lower().startswith('es')
         player_tags = player_tags_from_ctx(ctx)
+        normalized_question = normalize(question)
         question_tokens = set(tokenize(question))
-        if not question_tokens:
+        if not question_tokens and not normalized_question:
             return []
         single_token = next(iter(question_tokens)) if len(question_tokens) == 1 else ''
         question_tags = {token: RACE_TAGS.get(token) or CLASS_TAGS.get(token)
@@ -197,22 +267,40 @@ class GuideIndex:
             # Los tutoriales de una raza o clase nombran PNJ y facultades de esa raza o clase.
             if entry.requires and not entry.requires <= player_tags:
                 continue
+            phrases = getattr(self, '_section_phrases', {}).get(entry.ref, ())
+            # Frases completas: «rol» no debe coincidir dentro de «controlar».
+            phrase_hit = bool(phrases) and any(
+                re.search(r'(?<![a-z0-9])' + re.escape(phrase) + r'(?![a-z0-9])',
+                          normalized_question)
+                for phrase in phrases)
+            if not question_tokens and not phrase_hit:
+                continue
             entry_tokens = entry.tokens_es if spanish else entry.tokens_en
             # «cazador» cuenta para el tutorial de cazador aunque su texto no lo diga.
             score = sum(1 for token in question_tokens
                         if question_tags[token] in entry.requires
                         or any(_token_match(token, candidate)
                                for candidate in entry_tokens))
+            if phrase_hit:
+                score += 2
             # Con una sola palabra útil, solo coincidencia exacta o con el título: «muerto»
             # trae el tutorial «Muerte», no los textos de «muertes con honor».
+            # En las secciones, una palabra suelta solo vale si es una de sus claves.
+            in_text = (single_token in entry_tokens
+                       and not entry.ref.startswith('section:'))
             single_hit = (len(question_tokens) == 1 and len(single_token) >= 4
-                          and (single_token in entry_tokens
+                          and (in_text
                                or any(_token_match(single_token, head)
                                       for head in entry.heads)))
             if score < 2 and not single_hit:
                 continue
-            priority = (0 if entry.ref.startswith(('TUTORIAL', 'NEWBIE_TOOLTIP'))
-                        else 1)
+            # Lo verificado para Forever va delante de los textos del cliente al empatar.
+            if entry.ref.startswith('section:'):
+                priority = 0
+            elif entry.ref.startswith(('TUTORIAL', 'NEWBIE_TOOLTIP')):
+                priority = 1
+            else:
+                priority = 2
             ranked.append((-score, priority, len(text), entry.ref, text))
         ranked.sort()
         return [(ref, text) for _score, _priority, _length, ref, text

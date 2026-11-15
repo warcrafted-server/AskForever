@@ -1,0 +1,292 @@
+{
+  "description": "Secciones de la guía de principiantes de WoW Forever. Solo se usan las de estado 'verificado'; cada una cita sus fuentes.",
+  "sections": [
+    {
+      "id": "nivel-maximo",
+      "status": "verificado",
+      "keywords_es": [
+        "nivel máximo",
+        "nivel maximo",
+        "tope de nivel",
+        "nivel 60"
+      ],
+      "keywords_en": [
+        "max level",
+        "level cap",
+        "maximum level",
+        "level 60"
+      ],
+      "text_es": "El nivel máximo de WoW Forever es 60.",
+      "text_en": "The maximum level in WoW Forever is 60.",
+      "sources": [
+        {
+          "type": "cliente",
+          "ref": "WowdataCollector probe: GetMaxPlayerLevel() = 60",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "blizzard",
+          "ref": "World of Warcraft: Forever Now Live! («an adventure to level 60»)",
+          "url": "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "que-es-forever",
+      "status": "verificado",
+      "keywords_es": [
+        "qué es wow forever",
+        "que es wow forever",
+        "qué es forever",
+        "que es forever",
+        "diferencia con classic",
+        "diferencia entre forever y classic"
+      ],
+      "keywords_en": [
+        "what is wow forever",
+        "what is forever",
+        "difference from classic",
+        "forever vs classic"
+      ],
+      "text_es": "WoW Forever es un hogar permanente de World of Warcraft, junto al WoW moderno y Classic. Recorre los continentes originales (Reinos del Este y Kalimdor), ampliados con zonas nuevas y reimaginadas y más de 1000 misiones nuevas, del nivel 1 al 60. La historia transcurre después de Warcraft III Reforged: Forsaken Kingdom y antes del Núcleo de Magma.",
+      "text_en": "WoW Forever is a permanent home for World of Warcraft alongside modern WoW and Classic. It takes you across the original continents (Eastern Kingdoms and Kalimdor), expanded with new and reimagined zones and more than 1,000 new quests across the level 1-60 journey. It is set after Warcraft III Reforged: Forsaken Kingdom and before Molten Core.",
+      "sources": [
+        {
+          "type": "blizzard",
+          "ref": "World of Warcraft: Forever Now Live!",
+          "url": "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "zonas-nuevas",
+      "status": "verificado",
+      "keywords_es": [
+        "zonas nuevas",
+        "zona nueva",
+        "isla de zephras",
+        "riverglades",
+        "shen'dralas",
+        "monte hyjal"
+      ],
+      "keywords_en": [
+        "new zones",
+        "new zone",
+        "zephras isle",
+        "riverglades",
+        "shen'dralas",
+        "mount hyjal"
+      ],
+      "text_es": "Zonas nuevas de WoW Forever (nombres oficiales en inglés salvo la Isla de Zephras): Mount Hyjal, Shen'dralas, Riverglades e Isla de Zephras. La Isla de Zephras es una zona de inicio de nivel 1 a 12. Riverglades tiene más de 150 misiones nuevas para buena parte de los niveles de mediados de 30 a mediados de 40.",
+      "text_en": "New WoW Forever zones: Mount Hyjal, Shen'dralas, Riverglades and Zephras Isle. Zephras Isle is a level 1-12 starting experience. Riverglades has more than 150 new quests across much of the mid-30s to mid-40s experience.",
+      "sources": [
+        {
+          "type": "blizzard",
+          "ref": "World of Warcraft: Forever Now Live!",
+          "url": "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorras-y-bandas",
+      "status": "verificado",
+      "keywords_es": [
+        "mazmorras nuevas",
+        "bandas",
+        "banda",
+        "raids",
+        "onyxia",
+        "cumbre hyjal",
+        "barrow deeps"
+      ],
+      "keywords_en": [
+        "new dungeons",
+        "raids",
+        "raid",
+        "onyxia",
+        "hyjal summit",
+        "barrow deeps"
+      ],
+      "text_es": "WoW Forever añade nueve mazmorras nuevas de cinco jugadores, del nivel 13 al 60. El 9 de diciembre se abren para personajes de nivel 60 tres bandas: Barrow Deeps, Hyjal Summit y la Guarida de Onyxia (nombres oficiales en inglés salvo Onyxia).",
+      "text_en": "WoW Forever adds nine new five-player dungeons for levels 13 through 60. On December 9, level 60 players get three raids: Barrow Deeps, Hyjal Summit and Onyxia's Lair.",
+      "sources": [
+        {
+          "type": "blizzard",
+          "ref": "World of Warcraft: Forever Now Live!",
+          "url": "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "razas-y-clases-nuevas",
+      "status": "verificado",
+      "keywords_es": [
+        "raza nueva",
+        "razas nuevas",
+        "cielonato",
+        "skyborne",
+        "combinaciones",
+        "orco mago",
+        "humano cazador",
+        "no muerto paladin",
+        "enano chaman"
+      ],
+      "keywords_en": [
+        "new race",
+        "new races",
+        "skyborne",
+        "race combinations",
+        "orc mage",
+        "human hunter",
+        "undead paladin",
+        "dwarf shaman"
+      ],
+      "text_es": "Los Cielonatos (Skyborne) son una raza jugable nueva: los Cielonatos Formavientos son de la Horda y pueden ser chamanes; los Cielonatos de la Orden Eminente son de la Alianza y pueden ser magos. Forever también abre combinaciones nuevas, como orcos magos, trols brujos, no-muertos paladines, humanos cazadores, gnomos sacerdotes y enanos chamanes.",
+      "text_en": "The Skyborne are a new playable race: Windshaper Skyborne are Horde-aligned and can become Shaman; High-Order Skyborne are Alliance-aligned and can become Mages. Forever also opens new combinations such as Orc Mages, Troll Warlocks, Undead Paladins, Human Hunters, Gnome Priests and Dwarf Shamans.",
+      "sources": [
+        {
+          "type": "blizzard",
+          "ref": "World of Warcraft: Forever Now Live!",
+          "url": "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "cliente",
+          "ref": "ChrRaces 95 'Cielonato de la Orden Eminente' y 96 'Cielonato Formavientos' (PlayableRaceBit 32 y 33)",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "legacy",
+      "status": "verificado",
+      "keywords_es": [
+        "sistema legacy",
+        "legacy",
+        "puntos legacy",
+        "desafios legacy",
+        "legado"
+      ],
+      "keywords_en": [
+        "legacy system",
+        "legacy",
+        "legacy points",
+        "legacy challenges"
+      ],
+      "text_es": "El sistema Legacy es una progresión horizontal para toda la cuenta. Se desbloquea al ganar tu primer punto Legacy: para la mayoría, cuando su primer personaje llega a nivel 25 (también al llegar a 150 en una profesión principal que no sea de recolección o al explorar todo el mapa del mundo). Se abre con la tecla Y por defecto. Hay 65 desafíos Legacy en seis categorías (clases 27, profesiones 18, JcJ 12, aventura 2, mazmorras 3 y bandas 3); cada uno da un punto, compartido por todos tus personajes de la cuenta que no sean Hardcore. No hace falta crear personajes alternativos.",
+      "text_en": "The Legacy System is an account-wide horizontal progression system. You gain access when you earn your first Legacy Point: for most players, when their first character reaches level 25 (also by reaching 150 in a non-gathering primary tradeskill or by exploring the entire world map). Open it with the default hotkey Y. There are 65 Legacy Challenges in six categories (Classes 27, Tradeskills 18, PvP 12, Adventure 2, Dungeons 3, Raids 3); each one earns one point, shared by all your non-Hardcore characters on the Battle.net account. Creating alts is not required.",
+      "sources": [
+        {
+          "type": "blizzard",
+          "ref": "Get to Know the World of Warcraft: Forever Legacy System (Blue Tracker, 2026-09-23)",
+          "url": "https://www.wowhead.com/forever/blue-tracker/news/us/get-to-know-the-world-of-warcraft-forever-legacy-system-world-of-warcraft-24307383",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "legacy-ventajas-recompensas",
+      "status": "verificado",
+      "keywords_es": [
+        "ventajas legacy",
+        "recompensas legacy",
+        "arboles legacy",
+        "oso espectral",
+        "bien descansado"
+      ],
+      "keywords_en": [
+        "legacy perks",
+        "legacy rewards",
+        "legacy trees",
+        "spectral bear",
+        "well rested"
+      ],
+      "text_es": "Los puntos Legacy se gastan en tres árboles de ventajas: Profesiones, Aventura y Recursos (Resourcefulness). En el lanzamiento puedes gastar hasta 16 puntos en cada personaje. Ejemplos: «Talented» desbloquea puntos de talento hasta 5 niveles antes de lo normal y «Well Rested» sube el tope de experiencia descansada y hace que se acumule más rápido. Recompensas en el lanzamiento: Replica Ironforge Air Rifle, Spectral Bear Cub, Spectral Bear Tabard y la montura Reins of the Spectral Bear (nombres oficiales en inglés).",
+      "text_en": "Legacy Points are spent in three perk trees: Professions, Adventure and Resourcefulness. At launch you can spend up to 16 points on each character. Examples: Talented unlocks talent points up to 5 levels lower than normal, and Well Rested increases the rested experience cap and lets rested experience accumulate faster. Launch rewards: Replica Ironforge Air Rifle, Spectral Bear Cub, Spectral Bear Tabard and the mount Reins of the Spectral Bear.",
+      "sources": [
+        {
+          "type": "blizzard",
+          "ref": "Get to Know the World of Warcraft: Forever Legacy System (Blue Tracker, 2026-09-23)",
+          "url": "https://www.wowhead.com/forever/blue-tracker/news/us/get-to-know-the-world-of-warcraft-forever-legacy-system-world-of-warcraft-24307383",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "preajuste-experiencia",
+      "status": "verificado",
+      "keywords_es": [
+        "preset",
+        "preajuste",
+        "clasico o mejorado",
+        "experiencia clasica",
+        "modo mejorado"
+      ],
+      "keywords_en": [
+        "experience preset",
+        "preset",
+        "classic or enhanced",
+        "enhanced"
+      ],
+      "text_es": "La primera vez que entras, el juego te pide elegir un preajuste de experiencia (Choose Your Experience Preset): Clásico o Mejorado. Si no sabes cuál elegir, Blizzard recomienda empezar con Mejorado.",
+      "text_en": "On your first login the game asks you to Choose Your Experience Preset: Classic or Enhanced. If you are not sure which to choose, Blizzard recommends starting with Enhanced.",
+      "sources": [
+        {
+          "type": "blizzard",
+          "ref": "World of Warcraft: Forever Now Live!",
+          "url": "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "tipos-de-reino",
+      "status": "verificado",
+      "keywords_es": [
+        "tipos de reino",
+        "tipo de reino",
+        "que reino elijo",
+        "hardcore",
+        "reino jcj",
+        "reino de rol"
+      ],
+      "keywords_en": [
+        "realm types",
+        "realm type",
+        "which realm",
+        "hardcore",
+        "ruleset",
+        "pvp realm"
+      ],
+      "text_es": "Tipos de reino de WoW Forever: Normal, JcJ, Rol y Rol JcJ. El modo Hardcore llegará en algún momento después del lanzamiento; los desafíos Legacy de los reinos que no son Hardcore no cuentan en Hardcore.",
+      "text_en": "WoW Forever rulesets: Normal, PvP, Roleplay and Roleplay PvP. The Hardcore ruleset will become available sometime after launch; Legacy Challenges completed in non-Hardcore rulesets will not show up in Hardcore.",
+      "sources": [
+        {
+          "type": "blizzard",
+          "ref": "World of Warcraft: Forever Now Live!",
+          "url": "https://news.blizzard.com/en-us/article/24315820/world-of-warcraft-forever-goes-live-globally-november-4",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "blizzard",
+          "ref": "Get to Know the World of Warcraft: Forever Legacy System (Blue Tracker, 2026-09-23)",
+          "url": "https://www.wowhead.com/forever/blue-tracker/news/us/get-to-know-the-world-of-warcraft-forever-legacy-system-world-of-warcraft-24307383",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-15"
+    }
+  ]
+}

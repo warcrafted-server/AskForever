@@ -1786,10 +1786,13 @@ def _detect_guide(facts: Facts, db, question, lang: str, ctx: dict) -> None:
         return
     hits = _safe(index.search, question, lang, 3, ctx) or []
     for ref, text in hits:
-        if lang == 'es':
-            facts.lines.append(f'Texto oficial del juego: {text}')
+        if ref.startswith('section:'):
+            label = ('Guía verificada de WoW Forever: ' if lang == 'es'
+                     else 'Verified WoW Forever guide: ')
         else:
-            facts.lines.append(f'Official game text: {text}')
+            label = ('Texto oficial del juego: ' if lang == 'es'
+                     else 'Official game text: ')
+        facts.lines.append(label + text)
         _add_source(facts, f'guide:{ref}')
 
 

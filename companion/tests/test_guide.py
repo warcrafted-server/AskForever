@@ -2,11 +2,15 @@
 
 from __future__ import annotations
 
+import json
 import sqlite3
+from pathlib import Path
 
 import pytest
 
-from askforever.engine.guide import GuideIndex, clean_text, tokenize
+from askforever.engine import guide as guide_module
+from askforever.engine.guide import (GuideIndex, clean_text, load_sections,
+                                     tokenize)
 from askforever.engine.retriever import Facts, _detect_guide, retrieve
 
 TUTORIAL7_ES = (
@@ -269,3 +273,93 @@ def test_retrieve_passes_player_context_to_guide(rich_db):
     facts = retrieve(_message('¿Cómo consigo una mascota de cazador?', ctx=ctx), rich_db)
     assert 'guide:TUTORIAL61_HUNTER' in facts.sources
     assert 'guide:TUTORIAL61_WARLOCK' not in facts.sources
+
+
+def _section(section_id='nivel-maximo', status='verificado', text_es=None,
+             text_en=None):
+    return {
+        'id': section_id,
+        'status': status,
+        'keywords_es': ['nivel máximo', 'nivel maximo', 'nivel 60'],
+        'keywords_en': ['max level', 'level cap', 'level 60'],
+        'text_es': text_es or 'El nivel máximo de WoW Forever es 60.',
+        'text_en': text_en or 'The maximum level in WoW Forever is 60.',
+        'sources': [{'type': 'cliente', 'ref': 'prueba'}],
+        'updated': '2026-11-15',
+    }
+
+
+def _write_sections(path: Path, sections):
+    path.write_text(json.dumps({'sections': sections}, ensure_ascii=False,
+                               indent=2), encoding='utf-8')
+
+
+def test_load_sections_only_verified_and_skips_malformed(tmp_path):
+    path = tmp_path / 'guide.json'
+    _write_sections(path, [
+        _section(),
+        _section('pendiente', 'pendiente'),
+        {'id': 'sin-texto', 'status': 'verificado', 'text_es': '',
+         'text_en': 'Text', 'keywords_es': [], 'keywords_en': []},
+        {'id': 'keywords-mal', 'status': 'verificado', 'text_es': 'Uno',
+         'text_en': 'One', 'keywords_es': 'nivel', 'keywords_en': []},
+    ])
+    sections = load_sections(path)
+    assert [section['id'] for section in sections] == ['nivel-maximo']
+    assert load_sections(tmp_path / 'missing.json') == []
+    path.write_text('{no json', encoding='utf-8')
+    assert load_sections(path) == []
+
+
+def test_verified_sections_are_found_in_both_languages(tmp_path, db):
+    path = tmp_path / 'guide.json'
+    _write_sections(path, [_section(), _section('pendiente', 'pendiente')])
+    index = GuideIndex(db, sections_path=path)
+    try:
+        spanish = index.search('¿Cuál es el nivel máximo en WoW Forever?', 'es')
+        assert spanish[0] == (
+            'section:nivel-maximo', 'El nivel máximo de WoW Forever es 60.')
+        english = index.search('What is the level cap?', 'en')
+        assert english[0] == (
+            'section:nivel-maximo', 'The maximum level in WoW Forever is 60.')
+        # Las claves de varias palabras solo valen como frase completa.
+        assert not any(ref.startswith('section:')
+                       for ref, _text in index.search('máximo', 'es'))
+        assert index.search('¿nivel máximo?', 'es')[0][0] == 'section:nivel-maximo'
+        assert index.search('nivel 60', 'es')[0][0] == 'section:nivel-maximo'
+        assert not any(ref.startswith('section:pendiente')
+                       for ref, _text in index.search('nivel máximo', 'es',
+                                                      limit=20))
+    finally:
+        guide_module._CACHE.clear()
+
+
+def test_malformed_sections_do_not_crash(tmp_path, db):
+    path = tmp_path / 'guide.json'
+    path.write_text('[', encoding='utf-8')
+    index = GuideIndex(db, sections_path=path)
+    try:
+        assert load_sections(path) == []
+        assert index.search('¿Cuál es el nivel máximo?', 'es') == []
+    finally:
+        guide_module._CACHE.clear()
+
+
+def test_retrieve_uses_verified_section(monkeypatch, tmp_path, db):
+    path = tmp_path / 'guide.json'
+    _write_sections(path, [_section()])
+    monkeypatch.setattr(guide_module, 'GUIDE_SECTIONS_PATH', path)
+    guide_module._CACHE.clear()
+    facts = retrieve(_message('¿Cuál es el nivel máximo en WoW Forever?'), db)
+    assert ('Guía verificada de WoW Forever: '
+            'El nivel máximo de WoW Forever es 60.') in facts.lines
+    assert 'guide:section:nivel-maximo' in facts.sources
+
+
+def test_real_guide_json_loads_verified_max_level():
+    sections = load_sections()
+    max_level = next(section for section in sections
+                     if section['id'] == 'nivel-maximo')
+    assert max_level['status'] == 'verificado'
+    assert '60' in max_level['text_es']
+    assert '60' in max_level['text_en']
