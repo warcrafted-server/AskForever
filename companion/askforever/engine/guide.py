@@ -11,6 +11,11 @@ from askforever.data.wowdb import normalize
 from askforever.engine.retriever import QUEST_REFERENCE_STOP_WORDS
 
 GUIDE_SECTIONS_PATH = Path(__file__).resolve().parents[1] / 'data' / 'guide.json'
+# Un archivo por capítulo para que se redacten por separado sin pisarse.
+GUIDE_SECTIONS_DIR = Path(__file__).resolve().parents[1] / 'data' / 'guide'
+# 'verificado': Blizzard, el juego o Marc. 'editorial': guías de terceros sin confirmar; la IA
+# las usa sin citarlas y los jugadores reportan los errores.
+USED_STATUSES = ('verificado', 'editorial')
 MIN_GLOBAL_LENGTH = 40
 EXTRA_STOP_WORDS = {
     'como', 'puedo', 'juego', 'personaje', 'hacer', 'para', 'quiero', 'saber',
@@ -26,8 +31,9 @@ DOMAIN_WORDS = {
 }
 STOP_WORDS = (set(QUEST_REFERENCE_STOP_WORDS) - DOMAIN_WORDS) | EXTRA_STOP_WORDS
 _CACHE = {}
-GuideEntry = namedtuple('GuideEntry', 'ref text_es text_en tokens_es tokens_en requires heads',
-                        defaults=(frozenset(), frozenset()))
+GuideEntry = namedtuple('GuideEntry',
+                        'ref text_es text_en tokens_es tokens_en requires heads tags status',
+                        defaults=(frozenset(), frozenset(), frozenset(), ''))
 RACE_TAGS = {
     'humano': 'HUMAN', 'humana': 'HUMAN', 'human': 'HUMAN',
     'orco': 'ORC', 'orca': 'ORC', 'orc': 'ORC',
@@ -57,10 +63,38 @@ _TITLE_RE = re.compile(r'^TUTORIAL_TITLE(\d+(?:_[A-Z_]+)?)$')
 _SUFFIX_RE = re.compile(r'^TUTORIAL\d+_([A-Z_]+)$')
 
 
-def load_sections(path=None):
-    """Secciones verificadas de la guía escrita a mano; nunca lanza."""
+def _section_files(path):
     if path is None:
-        path = GUIDE_SECTIONS_PATH
+        files = [GUIDE_SECTIONS_PATH]
+        try:
+            files += sorted(GUIDE_SECTIONS_DIR.glob('*.json'))
+        except OSError:
+            pass
+        return files
+    path = Path(path)
+    if path.is_dir():
+        return sorted(path.glob('*.json'))
+    return [path]
+
+
+def load_sections(path=None):
+    """Secciones usables de la guía (verificadas y editoriales); nunca lanza.
+
+    Sin ruta lee guide.json y la carpeta data/guide; un id repetido se queda con la primera
+    aparición, así que guide.json (lo verificado) manda.
+    """
+    sections = []
+    seen = set()
+    for file in _section_files(path):
+        for item in _load_section_file(file):
+            if item['id'] in seen:
+                continue
+            seen.add(item['id'])
+            sections.append(item)
+    return sections
+
+
+def _load_section_file(path):
     try:
         data = json.loads(Path(path).read_text(encoding='utf-8'))
     except (OSError, TypeError, ValueError):
@@ -70,7 +104,7 @@ def load_sections(path=None):
         return []
     sections = []
     for item in items:
-        if not isinstance(item, dict) or item.get('status') != 'verificado':
+        if not isinstance(item, dict) or item.get('status') not in USED_STATUSES:
             continue
         section_id = item.get('id')
         text_es = item.get('text_es')
@@ -155,6 +189,7 @@ class GuideIndex:
         self.sections_path = Path(sections_path) if sections_path is not None else None
         self._entries = None
         self._section_phrases = {}
+        self._status = {}
         self._ready = True
         try:
             setattr(db, '_guide_index', self)
@@ -164,6 +199,11 @@ class GuideIndex:
     @classmethod
     def for_db(cls, db, sections_path=None):
         return cls(db, sections_path)
+
+    def status(self, ref) -> str:
+        """Estado de una sección ('verificado', 'editorial') o '' si no es sección."""
+        self.entries
+        return self._status.get(ref, '')
 
     @property
     def entries(self):
@@ -193,12 +233,15 @@ class GuideIndex:
             # («no muerto paladín» no debe responder a «he muerto»).
             heads = frozenset(tokenize(' '.join(
                 value for value in keywords_es + keywords_en if ' ' not in value)))
+            tags = frozenset(str(tag).upper() for tag in section.get('tags') or []
+                             if isinstance(tag, str))
             entries.append(GuideEntry(
                 ref, text_es, text_en,
                 frozenset(tokenize(token_text_es)),
                 frozenset(tokenize(token_text_en)),
-                frozenset(), heads))
+                frozenset(), heads, tags, section['status']))
             self._section_phrases[ref] = frozenset(keywords_es + keywords_en)
+            self._status[ref] = section['status']
             seen_refs.add(ref)
         for row in self.db._rows(
                 'SELECT ID, Text_lang, Text_lang_esES FROM gametips') or []:
@@ -283,6 +326,9 @@ class GuideIndex:
                                for candidate in entry_tokens))
             if phrase_hit:
                 score += 2
+            # La sección de la clase o raza del jugador gana a las demás con la misma puntuación.
+            if score and entry.tags & player_tags:
+                score += 1
             # Con una sola palabra útil, solo coincidencia exacta o con el título: «muerto»
             # trae el tutorial «Muerte», no los textos de «muertes con honor».
             # En las secciones, una palabra suelta solo vale si es una de sus claves.
@@ -295,12 +341,14 @@ class GuideIndex:
             if score < 2 and not single_hit:
                 continue
             # Lo verificado para Forever va delante de los textos del cliente al empatar.
-            if entry.ref.startswith('section:'):
+            if entry.status == 'verificado':
                 priority = 0
             elif entry.ref.startswith(('TUTORIAL', 'NEWBIE_TOOLTIP')):
                 priority = 1
-            else:
+            elif entry.status:
                 priority = 2
+            else:
+                priority = 3
             ranked.append((-score, priority, len(text), entry.ref, text))
         ranked.sort()
         return [(ref, text) for _score, _priority, _length, ref, text

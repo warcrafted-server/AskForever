@@ -16,7 +16,7 @@ dev = ['pytest']
 include = ['askforever*']
 
 [tool.setuptools.package-data]
-'askforever.data' = ['*.json']
+'askforever.data' = ['*.json', 'guide/*.json']
 
 [tool.pytest.ini_options]
 testpaths = ['tests']

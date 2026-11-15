@@ -1807,9 +1807,12 @@ def _detect_guide(facts: Facts, db, question, lang: str, ctx: dict) -> None:
         return
     hits = _safe(index.search, question, lang, 3, ctx) or []
     for ref, text in hits:
-        if ref.startswith('section:'):
+        status = _safe(index.status, ref) if ref.startswith('section:') else ''
+        if status == 'verificado':
             label = ('Guía verificada de WoW Forever: ' if lang == 'es'
                      else 'Verified WoW Forever guide: ')
+        elif status:
+            label = 'Guía de WoW Forever: ' if lang == 'es' else 'WoW Forever guide: '
         else:
             label = ('Texto oficial del juego: ' if lang == 'es'
                      else 'Official game text: ')

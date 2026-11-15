@@ -363,3 +363,53 @@ def test_real_guide_json_loads_verified_max_level():
     assert max_level['status'] == 'verificado'
     assert '60' in max_level['text_es']
     assert '60' in max_level['text_en']
+
+
+def test_editorial_sections_from_folder_are_used_with_their_label(tmp_path, db):
+    folder = tmp_path / 'guide'
+    folder.mkdir()
+    editorial = _section('monturas', 'editorial', 'Las monturas se aprenden a nivel 40.',
+                         'Riding is learned at level 40.')
+    editorial['keywords_es'] = ['montura', 'monturas']
+    editorial['keywords_en'] = ['mount', 'riding']
+    hunter = _section('mascotas-cazador', 'editorial', 'Las mascotas del cazador comen.',
+                      'Hunter pets eat.')
+    hunter['keywords_es'] = ['mascota']
+    hunter['keywords_en'] = ['pet']
+    hunter['tags'] = ['hunter']
+    warlock = _section('demonios-brujo', 'editorial', 'Los demonios del brujo no comen.',
+                       'Warlock demons do not eat.')
+    warlock['keywords_es'] = ['mascota']
+    warlock['keywords_en'] = ['pet']
+    warlock['tags'] = ['warlock']
+    _write_sections(folder / '09-viajes.json', [editorial])
+    _write_sections(folder / '04-clases.json', [hunter, warlock])
+    index = GuideIndex(db, sections_path=folder)
+    try:
+        assert index.search('¿A qué nivel tengo montura?', 'es')[0][0] == 'section:monturas'
+        assert index.status('section:monturas') == 'editorial'
+        hunter_hits = index.search('¿Qué come mi mascota?', 'es',
+                                   ctx={'race': 'Humano', 'class': 'Cazador'})
+        assert hunter_hits[0][0] == 'section:mascotas-cazador'
+        warlock_hits = index.search('¿Qué come mi mascota?', 'es',
+                                    ctx={'race': 'Humano', 'class': 'Brujo'})
+        assert warlock_hits[0][0] == 'section:demonios-brujo'
+    finally:
+        guide_module._CACHE.clear()
+
+
+def test_verified_section_wins_over_editorial_with_same_id(tmp_path, monkeypatch):
+    main = tmp_path / 'guide.json'
+    folder = tmp_path / 'guide'
+    folder.mkdir()
+    _write_sections(main, [_section()])
+    _write_sections(folder / '01.json', [
+        _section('nivel-maximo', 'editorial', 'Otro texto.', 'Other text.'),
+        _section('otra', 'editorial'),
+        _section('borrador', 'pendiente'),
+    ])
+    monkeypatch.setattr(guide_module, 'GUIDE_SECTIONS_PATH', main)
+    monkeypatch.setattr(guide_module, 'GUIDE_SECTIONS_DIR', folder)
+    sections = guide_module.load_sections()
+    assert [(item['id'], item['status']) for item in sections] == [
+        ('nivel-maximo', 'verificado'), ('otra', 'editorial')]
