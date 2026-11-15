@@ -1778,7 +1778,7 @@ def _detect_guide(facts: Facts, db, question, lang: str, ctx: dict) -> None:
     index = _safe(GuideIndex, db)
     if index is None:
         return
-    hits = _safe(index.search, question, lang, 3) or []
+    hits = _safe(index.search, question, lang, 3, ctx) or []
     for ref, text in hits:
         if lang == 'es':
             facts.lines.append(f'Texto oficial del juego: {text}')

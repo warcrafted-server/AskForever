@@ -14,6 +14,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Added: questions about where to find a banker, innkeeper, auctioneer, flight master, stable master or profession trainer list the NPCs of that city or zone with coordinates.
 - Fixed: the zones suggested for your level no longer include the other faction's zones.
 - Added: hunters asking about pets get the tameable beasts of their zone (family, level and coordinates) seen in game.
+- Fixed: the official game texts are found more often and more precisely: tutorial titles count ("Death" for "I died"), race and class tutorials only reach that race and class, and words such as "items" or "quests" are no longer ignored.
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
@@ -25,6 +26,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Añadido: las preguntas sobre dónde está el banquero, el tabernero, el subastador, el maestro de vuelo, el de establos o un instructor de profesión muestran los PNJ de esa ciudad o zona con coordenadas.
 - Corregido: las zonas recomendadas para tu nivel ya no incluyen las de la otra facción.
 - Añadido: los cazadores que preguntan por mascotas reciben las bestias domesticables de su zona (familia, nivel y coordenadas) vistas en el juego.
+- Corregido: los textos oficiales del juego se encuentran más y mejor: cuenta el título de los tutoriales («Muerte» para «he muerto»), los tutoriales de una raza o clase solo llegan a esa raza o clase y ya no se ignoran palabras como «objetos» o «misiones».
 
 ## [0.3.0-beta.4] - 2026-11-15
 

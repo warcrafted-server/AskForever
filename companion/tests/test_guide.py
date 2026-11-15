@@ -196,3 +196,76 @@ def test_specific_facts_do_not_add_guide_lines(db):
     facts = Facts(lines=['Misión «Una prueba» (nivel 10)'])
     _detect_guide(facts, db, 'despojo enemigo', 'es', {})
     assert facts.lines == ['Misión «Una prueba» (nivel 10)']
+
+
+DEATH_ES = 'Ahora eres un fantasma. Podrás volver a la vida si encuentras tu cuerpo.'
+DEATH_EN = 'You are now a ghost. You can return to life if you find your body.'
+PET_HUNTER_ES = ('Ahora tienes una barra de acción de mascota para controlarla y la '
+                 'facultad para domesticar bestias.')
+PET_HUNTER_EN = 'You now have a pet action bar and the ability to tame beasts.'
+PET_WARLOCK_ES = ('Ahora tienes una barra de acción de mascota para controlar mejor a '
+                  'tu demonio.')
+GREY_ITEMS_ES = ('Los objetos con el nombre en color gris son de calidad inferior y se '
+                 'pueden vender.')
+
+
+@pytest.fixture
+def rich_db(db):
+    conn = db.conn
+    conn.executemany(
+        'INSERT INTO GlobalStrings (ID, BaseTag, TagText_lang, TagText_lang_esES, '
+        'Flags) VALUES (?, ?, ?, ?, ?)',
+        [
+            (25, 'TUTORIAL25', DEATH_EN, DEATH_ES, 0),
+            (26, 'TUTORIAL_TITLE25', 'Death', 'Muerte', 0),
+            (27, 'TUTORIAL61_HUNTER', PET_HUNTER_EN, PET_HUNTER_ES, 0),
+            (28, 'TUTORIAL_TITLE61_HUNTER', 'Pet Action Bar', 'Barra de acción de mascota', 0),
+            (29, 'TUTORIAL61_WARLOCK', 'You now have a pet action bar for your demon.',
+             PET_WARLOCK_ES, 0),
+            (30, 'NEWBIE_TOOLTIP_HONORABLE_KILLS',
+             'Every honorable kill of a player gives you honor points.',
+             'Cada muerte con honor de un jugador te da puntos de honor.', 0),
+        ])
+    conn.execute('INSERT INTO gametips (ID, Text_lang, Text_lang_esES) VALUES (?, ?, ?)',
+                 (223, 'Items with a grey name are of poor quality and can be sold.',
+                  GREY_ITEMS_ES))
+    conn.commit()
+    return db
+
+
+def test_clean_text_replaces_literal_newlines():
+    assert clean_text('Uno.\\nDos.') == 'Uno. Dos.'
+
+
+def test_tutorial_title_is_joined_and_found(rich_db):
+    results = GuideIndex(rich_db).search('He muerto, ¿qué hago?', 'es')
+    refs = [ref for ref, _text in results]
+    assert refs[0] == 'TUTORIAL25'
+    assert dict(results)['TUTORIAL25'].startswith('Muerte: Ahora eres un fantasma')
+    assert 'NEWBIE_TOOLTIP_HONORABLE_KILLS' not in refs
+    assert not any(ref.startswith('TUTORIAL_TITLE') for ref in refs)
+
+
+def test_class_tutorial_only_for_that_class(rich_db):
+    index = GuideIndex(rich_db)
+    question = '¿Cómo consigo una mascota de cazador?'
+    hunter = [ref for ref, _text in index.search(
+        question, 'es', ctx={'race': 'Humano', 'class': 'Cazador'})]
+    assert hunter == ['TUTORIAL61_HUNTER']
+    mage = [ref for ref, _text in index.search(
+        question, 'es', ctx={'race': 'Humano', 'class': 'Mago'})]
+    assert 'TUTORIAL61_HUNTER' not in mage
+    assert 'TUTORIAL61_WARLOCK' not in mage
+    assert index.search(question, 'es') == []
+
+
+def test_domain_words_help_general_questions(rich_db):
+    results = GuideIndex(rich_db).search('¿Qué significan los colores de los objetos?', 'es')
+    assert [ref for ref, _text in results] == ['gametip:223']
+
+
+def test_retrieve_passes_player_context_to_guide(rich_db):
+    ctx = {'race': 'Humano', 'class': 'Cazador', 'fac': 'Alianza', 'lvl': 10}
+    facts = retrieve(_message('¿Cómo consigo una mascota de cazador?', ctx=ctx), rich_db)
+    assert 'guide:TUTORIAL61_HUNTER' in facts.sources
+    assert 'guide:TUTORIAL61_WARLOCK' not in facts.sources
