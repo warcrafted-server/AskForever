@@ -5,7 +5,7 @@
 Texts to paste into the CurseForge project and into each file upload. Nothing here is published automatically: the upload is manual, from the project owner's account.
 Textos para pegar en el proyecto de CurseForge y en cada subida de archivo. Nada se publica solo: la subida es manual, desde la cuenta del propietario.
 
-Current version / Versión actual: **0.3.0-beta.2 (Beta 3)**, 2026-11-15. The 0.3.0-beta.1 was never uploaded to CurseForge; Beta 3 includes it. / La 0.3.0-beta.1 no se subió a CurseForge; la Beta 3 la incluye.
+Current version / Versión actual: **0.3.0-beta.3 (Beta 4)**, 2026-11-15. The 0.3.0-beta.1 was never uploaded to CurseForge; Beta 3 includes it. / La 0.3.0-beta.1 no se subió a CurseForge; la Beta 3 la incluye.
 
 ---
 
@@ -18,7 +18,7 @@ The CurseForge project already exists: a new version is just a **file upload** t
 2. Download the addon zip from that release: `https://github.com/warcrafted-server/AskForever/releases/download/v<version>/AskForever-<version>.zip`
 3. On CurseForge: **Files → Upload File**.
    - **File:** the zip from step 2.
-   - **Display name:** `AskForever <version> (Beta N)`, where N counts the betas published on CurseForge (0.3.0-beta.2 is Beta 3; the next upload is Beta 4). The version number must stay exactly as in the addon and GitHub, so players can report which one they have.
+   - **Display name:** `AskForever <version> (Beta N)`, where N counts the betas published on CurseForge (0.3.0-beta.2 is Beta 3, 0.3.0-beta.3 is Beta 4). The version number must stay exactly as in the addon and GitHub, so players can report which one they have.
    - **Release type:** Beta (Release once there is a stable 1.0).
    - **Game version:** Forever.
    - **Changelog:** the file changelog of that version (below), written for players, without development details.
@@ -110,6 +110,24 @@ Las respuestas de la IA pueden contener errores: comprueba lo importante en el j
 
 ### File changelogs (paste in the upload form)
 
+#### 0.3.0-beta.3 (Beta 4)
+
+```markdown
+**Beta 4 — better quest answers and a calmer answer window.**
+
+- Improved: questions about a quest now say where to get what it asks for: which NPC drops each item (with coordinates and drop rate), which chest, crate or plant gives it, and where the creatures to kill are.
+- Improved: you can ask without the quest name ("who drops the book?", "where are those kobolds?"): AskForever uses your active quests when the match is clear.
+- Improved: quests that share a name are told apart with your quest log.
+- Fixed: the answer window no longer flashes or takes the focus from the game, and it hides while the game is minimized or in the background.
+
+**Beta 4: mejores respuestas de misiones y una ventana de respuesta más discreta.**
+
+- Mejorado: las preguntas sobre una misión dicen dónde conseguir lo que pide: qué PNJ suelta cada objeto (con coordenadas y probabilidad), qué cofre, caja o planta lo da y dónde están las criaturas que hay que matar.
+- Mejorado: puedes preguntar sin el nombre de la misión («¿quién suelta el libro?», «¿dónde están esos kóbolds?»): AskForever usa tus misiones activas cuando la coincidencia es clara.
+- Mejorado: las misiones que comparten nombre se distinguen con tu registro de misiones.
+- Corregido: la ventana de respuesta ya no parpadea ni le quita el foco al juego, y se oculta mientras el juego está minimizado o en segundo plano.
+```
+
 #### 0.3.0-beta.2 (Beta 3)
 
 ```markdown
@@ -149,7 +167,7 @@ El proyecto de CurseForge ya existe: una versión nueva es solo **subir un archi
 2. Descarga el zip del addon de esa release: `https://github.com/warcrafted-server/AskForever/releases/download/v<versión>/AskForever-<versión>.zip`
 3. En CurseForge: **Files → Upload File**.
    - **Archivo:** el zip del paso 2.
-   - **Nombre visible:** `AskForever <versión> (Beta N)`, donde N cuenta las betas publicadas en CurseForge (la 0.3.0-beta.2 es la Beta 3; la siguiente subida es la Beta 4). El número de versión se mantiene exactamente igual que en el addon y en GitHub, para que los jugadores puedan decir cuál tienen.
+   - **Nombre visible:** `AskForever <versión> (Beta N)`, donde N cuenta las betas publicadas en CurseForge (la 0.3.0-beta.2 es la Beta 3 y la 0.3.0-beta.3 la Beta 4). El número de versión se mantiene exactamente igual que en el addon y en GitHub, para que los jugadores puedan decir cuál tienen.
    - **Tipo:** Beta (Release cuando haya una 1.0 estable).
    - **Versión del juego:** Forever.
    - **Registro de cambios:** el de esa versión (en la sección inglesa, bilingüe), escrito para el jugador, sin detalles de desarrollo.
