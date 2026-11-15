@@ -34,7 +34,7 @@ The CurseForge project already exists: a new version is just a **file upload** t
 | Source | https://github.com/warcrafted-server/AskForever |
 | Issues | https://github.com/warcrafted-server/AskForever/issues |
 | Logo | `docs/img/logo.png` (400x400) |
-| Screenshots | `docs/img/v0.2.0-overlay.png`, `docs/img/v0.2.0-window.png`, `docs/img/v0.3.0-install-first-run.png` |
+| Screenshots | `docs/img/v0.2.0-overlay.png`, `docs/img/v0.2.0-window.png`, `docs/img/v0.3.0-install-first-run.png`, `docs/img/v0.3.0-quest-items.png` |
 
 In the description, link only to pages of the GitHub project (no direct download links).
 
@@ -165,6 +165,6 @@ El proyecto de CurseForge ya existe: una versión nueva es solo **subir un archi
 | Código | https://github.com/warcrafted-server/AskForever |
 | Incidencias | https://github.com/warcrafted-server/AskForever/issues |
 | Logo | `docs/img/logo.png` (400x400) |
-| Capturas | `docs/img/v0.2.0-overlay.png`, `docs/img/v0.2.0-window.png`, `docs/img/v0.3.0-install-first-run.png` |
+| Capturas | `docs/img/v0.2.0-overlay.png`, `docs/img/v0.2.0-window.png`, `docs/img/v0.3.0-install-first-run.png`, `docs/img/v0.3.0-quest-items.png` |
 
 En la descripción, enlaza solo a páginas del proyecto en GitHub (sin enlaces de descarga directa).
