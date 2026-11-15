@@ -96,6 +96,124 @@ PROFESSION_KEYWORDS = (
     'enchanting', 'leatherworking', 'tailoring', 'profession', 'professions',
 )
 
+SERVICES = {
+    'bank': {
+        'keywords': ('banco', 'banquero', 'bank', 'banker'),
+        'patterns': ('banquer', 'banker'),
+        'es': 'Banquero',
+        'en': 'Banker',
+    },
+    'inn': {
+        'keywords': ('posada', 'tabernero', 'taberna', 'inn', 'innkeeper'),
+        'patterns': ('tabern', 'innkeeper'),
+        'es': 'Tabernero',
+        'en': 'Innkeeper',
+    },
+    'auction': {
+        'keywords': ('subasta', 'subastas', 'subastador', 'auction', 'auctioneer'),
+        'patterns': ('subast', 'auctioneer'),
+        'es': 'Subastador',
+        'en': 'Auctioneer',
+    },
+    'flight': {
+        'keywords': ('grifo', 'grifos', 'maestro de vuelo', 'punto de vuelo',
+                     'flight master', 'gryphon'),
+        'patterns': ('maestro de grifos', 'maestro de vuelo',
+                     'maestro de hipogrifos', 'gryphon master', 'flight master',
+                     'hippogryph master', 'wind rider master'),
+        'es': 'Maestro de vuelo',
+        'en': 'Flight master',
+    },
+    'fishing': {
+        'keywords': ('pesca', 'pescar', 'fishing'),
+        'patterns': ('instructor de pesca', 'fishing trainer'),
+        'es': 'Instructor de pesca',
+        'en': 'Fishing trainer',
+    },
+    'cooking': {
+        'keywords': ('cocina', 'cocinar', 'cooking'),
+        'patterns': ('instructor de cocina', 'cooking trainer'),
+        'es': 'Instructor de cocina',
+        'en': 'Cooking trainer',
+    },
+    'first_aid': {
+        'keywords': ('primeros auxilios', 'first aid'),
+        'patterns': ('instructor de primeros auxilios', 'first aid trainer'),
+        'es': 'Instructor de primeros auxilios',
+        'en': 'First aid trainer',
+    },
+    'blacksmithing': {
+        'keywords': ('herreria', 'blacksmithing'),
+        'patterns': ('instructor de herreria', 'blacksmithing trainer'),
+        'es': 'Instructor de herrería',
+        'en': 'Blacksmithing trainer',
+    },
+    'alchemy': {
+        'keywords': ('alquimia', 'alchemy'),
+        'patterns': ('instructor de alquimia', 'alchemy trainer'),
+        'es': 'Instructor de alquimia',
+        'en': 'Alchemy trainer',
+    },
+    'enchanting': {
+        'keywords': ('encantamiento', 'enchanting'),
+        'patterns': ('instructor de encantamiento', 'enchanting trainer'),
+        'es': 'Instructor de encantamiento',
+        'en': 'Enchanting trainer',
+    },
+    'engineering': {
+        'keywords': ('ingenieria', 'engineering'),
+        'patterns': ('instructor de ingenieria', 'engineering trainer'),
+        'es': 'Instructor de ingeniería',
+        'en': 'Engineering trainer',
+    },
+    'herbalism': {
+        'keywords': ('herboristeria', 'herbalism'),
+        'patterns': ('instructor de herboristeria', 'herbalism trainer'),
+        'es': 'Instructor de herboristería',
+        'en': 'Herbalism trainer',
+    },
+    'mining': {
+        'keywords': ('mineria', 'mining'),
+        'patterns': ('instructor de mineria', 'mining trainer'),
+        'es': 'Instructor de minería',
+        'en': 'Mining trainer',
+    },
+    'skinning': {
+        'keywords': ('desuello', 'skinning'),
+        'patterns': ('instructor de desuello', 'skinning trainer'),
+        'es': 'Instructor de desuello',
+        'en': 'Skinning trainer',
+    },
+    'leatherworking': {
+        'keywords': ('peleteria', 'leatherworking'),
+        'patterns': ('instructor de peleteria', 'leatherworking trainer'),
+        'es': 'Instructor de peletería',
+        'en': 'Leatherworking trainer',
+    },
+    'tailoring': {
+        'keywords': ('sastreria', 'tailoring'),
+        'patterns': ('instructor de sastreria', 'tailoring trainer'),
+        'es': 'Instructor de sastrería',
+        'en': 'Tailoring trainer',
+    },
+    'stable': {
+        'keywords': ('establo', 'establos', 'stable master'),
+        'patterns': ('maestro de establos', 'stable master'),
+        'es': 'Maestro de establos',
+        'en': 'Stable master',
+    },
+}
+
+ZONE_NAME_STOP_WORDS = {
+    'aldea', 'base', 'bosque', 'cavern', 'caverna', 'city', 'ciudad', 'coast',
+    'costa', 'cumbre', 'cueva', 'de', 'del', 'desert', 'desierto', 'el',
+    'forest', 'fortaleza', 'isla', 'isle', 'keep', 'la', 'lands', 'las',
+    'los', 'mine', 'mina', 'montana', 'montanas', 'mountains', 'of', 'pantano',
+    'marsh', 'peak', 'port', 'puerto', 'the', 'tierras', 'vale', 'valle',
+    'valley', 'village', 'zone', 'zona',
+}
+
+
 
 def is_profession_question(text) -> bool:
     """True si la pregunta trata de una profesión y no de hechizos de clase."""
@@ -1373,6 +1491,118 @@ def _detect_trainers(facts: Facts, db, normalized: str, lang: str, ctx: dict) ->
     _add_source(facts, f'trainers:{mask}:{faction or "any"}')
 
 
+def _zone_text(value) -> str:
+    return ' '.join(str(value or '').replace('\u00a0', ' ').split())
+
+
+def _zone_area(db, name, lang: str):
+    if not isinstance(name, str) or not name.strip():
+        return None, ''
+    matches = _safe(db.match_entities, name, lang) or []
+    for match in matches:
+        if isinstance(match, dict) and match.get('kind') == 'zone':
+            return match.get('id'), match.get('name') or name
+    levels = _safe(db.zone_levels, name, lang)
+    if levels:
+        return levels.get('area_id'), levels.get('name') or name
+    return None, name
+
+
+def _zone_in_question(db, normalized: str, lang: str):
+    if not normalized:
+        return None, ''
+    rows = _safe(db._rows, 'SELECT area_id, name_esES, name_enUS FROM ext_zones') or []
+    labels = []
+    for row in rows:
+        es = _zone_text(row['name_esES'])
+        en = _zone_text(row['name_enUS'])
+        labels.append((row['area_id'], es, en))
+        if any(name and name in normalized for name in (normalize(es), normalize(en))):
+            return row['area_id'], es if lang == 'es' else en
+    words = set(normalized.split())
+    for area_id, es, en in labels:
+        for name in (normalize(es), normalize(en)):
+            for token in name.split():
+                if (len(token) >= 5 and token not in ZONE_NAME_STOP_WORDS
+                        and token in words):
+                    return area_id, es if lang == 'es' else en
+    return None, ''
+
+
+def _detect_services(facts: Facts, db, matches, normalized: str, lang: str,
+                     ctx: dict) -> None:
+    if not isinstance(ctx, dict):
+        ctx = {}
+    if not isinstance(normalized, str):
+        normalized = ''
+    selected = [(key, service) for key, service in SERVICES.items()
+                if any(keyword in normalized for keyword in service['keywords'])]
+    if not selected:
+        return
+
+    zone_id = None
+    zone_name = ''
+    keywords = [keyword for _key, service in selected for keyword in service['keywords']]
+    for match in matches or []:
+        if isinstance(match, dict) and match.get('kind') == 'zone':
+            # «¿dónde está la posada?» no debe tomar como zona «Posada de Nuevo Agamand».
+            if any(keyword in normalize(match.get('name') or '') for keyword in keywords):
+                continue
+            zone_id = match.get('id')
+            zone_name = match.get('name') or ''
+            break
+    if zone_id is None:
+        without_service = normalized
+        for keyword in keywords:
+            without_service = without_service.replace(keyword, ' ')
+        zone_id, zone_name = _zone_in_question(db, ' '.join(without_service.split()), lang)
+    if zone_id is None:
+        player_zone = ctx.get('zone') if isinstance(ctx.get('zone'), str) else ''
+        if player_zone:
+            zone_id, resolved = _zone_area(db, player_zone, lang)
+            if zone_id is None:
+                zone_id, resolved = _zone_in_question(
+                    db, normalize(player_zone), lang)
+            zone_name = resolved or player_zone
+    found_zone = zone_name if zone_id is not None else ''
+    faction = _faction(ctx.get('fac'))
+
+    for _key, service in selected:
+        npcs = _safe(db.service_npcs, service['patterns'], zone_id=zone_id,
+                     lang=lang, faction=faction, limit=4) or []
+        points = []
+        for npc in npcs:
+            locations = npc.get('locations') or []
+            if not locations:
+                continue
+            location = locations[0]
+            name = npc.get('name') or ''
+            x = location.get('x')
+            y = location.get('y')
+            if x is not None and y is not None:
+                points.append(f'{name} ({x}, {y})')
+            else:
+                points.append(name)
+        label = service['es'] if lang == 'es' else service['en']
+        if points:
+            if lang == 'es':
+                prefix = f'{label} en {found_zone}: ' if found_zone else f'{label}: '
+            else:
+                prefix = f'{label} in {found_zone}: ' if found_zone else f'{label}: '
+            facts.lines.append(prefix + ', '.join(points) + '.')
+            _add_source(facts, f'service:{service["patterns"][0]}')
+            continue
+        if lang == 'es':
+            message = f'No hay datos de {label.lower()}'
+            if zone_name:
+                message += f' en {zone_name}'
+        else:
+            message = f'No data for {label.lower()}'
+            if zone_name:
+                message += f' in {zone_name}'
+        facts.missing.append(message)
+
+
 def _detect_talents(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
     if not any(word in normalized for word in TALENT_KEYWORDS):
         return
@@ -1511,6 +1741,7 @@ def retrieve(message, db) -> Facts:
                         skip_generic=route_added)
         _detect_spells(facts, db, normalized, lang, ctx)
         _detect_trainers(facts, db, normalized, lang, ctx)
+        _detect_services(facts, db, matches, normalized, lang, ctx)
         _detect_talents(facts, db, normalized, lang, ctx)
         _detect_quest_list(facts, db, normalized, lang, ctx)
         _detect_guide(facts, db, question, lang, ctx)

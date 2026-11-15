@@ -63,6 +63,7 @@ SCHEMA = [
 ]
 
 CTX = {'lvl': 16, 'race': 'Enano', 'class': 'Chamán', 'fac': 'Alianza', 'zone': 'Forjaz'}
+NBSP = chr(0xA0)
 
 
 def _insert(conn, table, columns, rows):
@@ -152,6 +153,12 @@ def db(tmp_path):
         (211022, 9, 9, 'H'),
         (211033, 9, 9, 'A'),
         (900005, 5, 5, None),
+        (6001, 60, 60, 'A'),
+        (6002, 60, 60, 'A'),
+        (6003, 60, 60, 'H'),
+        (6004, 60, 60, 'A'),
+        (6005, 60, 60, 'A'),
+        (6006, 60, 60, 'A'),
         (1163, 5, 6, 'A'),
         (1197, 5, 6, 'A'),
         (1162, 5, 6, 'A'),
@@ -173,6 +180,18 @@ def db(tmp_path):
         (211033, 'enUS', 'Garion Wendell', None),
         (900005, 'esES', 'Criatura viajera', None),
         (900005, 'enUS', 'Travelling creature', None),
+        (6001, 'esES', 'Olivia Ladoquemao', 'Banquero'),
+        (6001, 'enUS', 'Olivia Ladoquemao', 'Banker'),
+        (6002, 'esES', 'Newton Ladoquemao', 'Banquero'),
+        (6002, 'enUS', 'Newton Ladoquemao', 'Banker'),
+        (6003, 'esES', 'Horgar Ladoquemao', 'Banquero'),
+        (6003, 'enUS', 'Horgar Ladoquemao', 'Banker'),
+        (6004, 'esES', 'Reese Langston', 'Tabernero'),
+        (6004, 'enUS', 'Reese Langston', 'Innkeeper'),
+        (6005, 'esES', 'Arnold Leland', f'Instructor{NBSP}de{NBSP}pesca'),
+        (6005, 'enUS', 'Arnold Leland', 'Fishing Trainer'),
+        (6006, 'esES', 'Dungar Tragolargo', f'Maestro{NBSP}de{NBSP}grifos'),
+        (6006, 'enUS', 'Dungar Tragolargo', 'Gryphon Master'),
         (1163, 'esES', 'Trog A', None),
         (1197, 'esES', 'Trog B', None),
         (1162, 'esES', 'Trog C', None),
@@ -190,6 +209,12 @@ def db(tmp_path):
         (211033, 1519, 1, 48.9, 86.5),
         (900005, 40, 1, 20.0, 30.0),
         (900005, 38, 2, 25.0, 35.0),
+        (6001, 1519, 1, 78.1, 19.2),
+        (6002, 1519, 1, 77.8, 18.9),
+        (6003, 1519, 1, 70.0, 10.0),
+        (6004, 1519, 1, 60.2, 75.3),
+        (6005, 1519, 1, 55.1, 56.2),
+        (6006, 1519, 1, 66.3, 77.4),
         (1163, 38, 1, 10.0, 20.0),
         (1197, 38, 1, 11.0, 21.0),
         (1162, 38, 1, 12.0, 22.0),
@@ -759,6 +784,70 @@ def test_old_battery_still_works(db):
 
     dungeon = retrieve(_message('¿Dónde está la entrada de Las Minas de la Muerte?'), db)
     assert 'Páramos de Poniente (42.5, 71.7)' in _text(dungeon)
+
+
+def test_service_bank_in_current_zone(db):
+    ctx = dict(CTX)
+    ctx['zone'] = 'Ciudad de Ventormenta'
+    facts = retrieve(_message('¿Dónde está el banco?', ctx=ctx), db)
+    text = _text(facts)
+    assert 'Banquero en Ciudad de Ventormenta:' in text
+    assert 'Olivia Ladoquemao (78.1, 19.2)' in text
+    assert 'Newton Ladoquemao (77.8, 18.9)' in text
+    assert 'Horgar Ladoquemao' not in text
+    assert 'service:banquer' in facts.sources
+
+
+def test_service_fishing_trainer_in_named_city(db):
+    facts = retrieve(_message('¿dónde aprendo a pescar en Ventormenta?'), db)
+    text = _text(facts)
+    assert 'Instructor de pesca en Ciudad de Ventormenta:' in text
+    assert 'Arnold Leland (55.1, 56.2)' in text
+    assert 'service:instructor de pesca' in facts.sources
+
+
+def test_service_faction_filter(db):
+    ctx = dict(CTX)
+    ctx['zone'] = 'Ciudad de Ventormenta'
+    ctx['fac'] = 'Horda'
+    facts = retrieve(_message('¿Dónde está el banco?', ctx=ctx), db)
+    text = _text(facts)
+    assert 'Horgar Ladoquemao' in text
+    assert 'Olivia Ladoquemao' not in text
+    assert 'Newton Ladoquemao' not in text
+
+
+def test_service_missing_data(db):
+    ctx = dict(CTX)
+    ctx['zone'] = 'Ciudad de Ventormenta'
+    facts = retrieve(_message('¿Dónde está el maestro de establos?', ctx=ctx), db)
+    assert any('No hay datos de maestro de establos' in message
+               for message in facts.missing)
+    assert not any('service:' in source for source in facts.sources)
+
+
+def test_service_english_question(db):
+    ctx = dict(CTX)
+    ctx['zone'] = 'Stormwind City'
+    facts = retrieve(_message('Where is the bank?', lang='enUS', ctx=ctx), db)
+    text = _text(facts)
+    assert 'Banker in Stormwind City:' in text
+    assert 'Olivia Ladoquemao (78.1, 19.2)' in text
+
+
+def test_service_flight_master(db):
+    ctx = dict(CTX)
+    ctx['zone'] = 'Ciudad de Ventormenta'
+    facts = retrieve(_message('¿Dónde está el maestro de vuelo?', ctx=ctx), db)
+    text = _text(facts)
+    assert 'Maestro de vuelo en Ciudad de Ventormenta:' in text
+    assert 'Dungar Tragolargo' in text
+
+
+def test_service_absent_keyword(db):
+    facts = retrieve(_message('¿Dónde está el rey?'), db)
+    assert not any(source.startswith('service:') for source in facts.sources)
+    assert not any('Banquero' in line for line in facts.lines)
 
 
 def test_render_limit_keeps_priority(db):

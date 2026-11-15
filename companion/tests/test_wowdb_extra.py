@@ -8,6 +8,8 @@ import pytest
 
 from askforever.data.wowdb import WowDb
 
+NBSP = chr(0xA0)
+
 SCHEMA = [
     'CREATE TABLE v_zona_niveles (area_id INTEGER, nombre TEXT, nombre_en TEXT, '
     'nivel_min INTEGER, nivel_max INTEGER, pnj INTEGER, origen TEXT)',
@@ -156,16 +158,29 @@ def db(tmp_path):
     _insert(conn, 'ext_npc_l10n', ['npc_id', 'locale', 'name', 'sub_name'], [
         (1163, 'esES', 'Trog A', None),
         (1162, 'esES', 'Trog C', None),
+        (5001, 'esES', 'Olivia Ladoquemao', 'Banquero'),
+        (5001, 'enUS', 'Olivia Ladoquemao', 'Banker'),
+        (5002, 'esES', 'Newton Ladoquemao', 'Banquero'),
+        (5002, 'enUS', 'Newton Ladoquemao', 'Banker'),
+        (5003, 'esES', 'Horgar Ladoquemao', 'Banquero'),
+        (5003, 'enUS', 'Horgar Ladoquemao', 'Banker'),
+        (5004, 'esES', 'Arnold Leland', f'Instructor{NBSP}de{NBSP}pesca'),
+        (5004, 'enUS', 'Arnold Leland', 'Fishing Trainer'),
     ])
     _insert(conn, 'ext_npc_spawns', ['npc_id', 'zone_id', 'spawn_idx', 'x', 'y'], [
         (1163, 38, 1, 10.0, 20.0),
         (1197, 38, 1, 11.0, 21.0),
         (1162, 38, 1, 12.0, 22.0),
         (1161, 38, 1, 13.0, 23.0),
+        (5001, 1519, 1, 78.1, 19.2),
+        (5002, 1519, 1, 77.8, 18.9),
+        (5003, 1519, 1, 70.0, 10.0),
+        (5004, 1519, 1, 55.1, 56.2),
     ])
     _insert(conn, 'ext_zones', ['group_id', 'area_id', 'name_enUS', 'name_esES'], [
         (0, 38, 'Loch Modan', 'Loch Modan'),
         (0, 40, 'Westfall', 'Páramos de Poniente'),
+        (0, 1519, 'Stormwind City', 'Ciudad de Ventormenta'),
     ])
     _insert(conn, 'TaxiNodes', ['__id', 'ID', 'Name_lang', 'Name_lang_esES',
                                 'ContinentID', 'MountCreatureID'], [
@@ -245,6 +260,10 @@ def db(tmp_path):
     _insert(conn, 'ext_npcs', ['npc_id', 'min_level', 'max_level', 'friendly_to_faction'], [
         (7000, 60, 60, 'H'),
         (258098, 60, 60, 'A'),
+        (5001, 60, 60, 'A'),
+        (5002, 60, 60, 'A'),
+        (5003, 60, 60, 'H'),
+        (5004, 60, 60, 'A'),
     ])
     _insert(conn, 'ext_quest_objective_items',
             ['quest_id', 'position', 'item_id', 'text', 'icon_type'], [
@@ -412,6 +431,33 @@ def test_object_locations_drops_negative_coordinates(db):
         'x': None,
         'y': None,
     }]
+
+
+def test_service_npcs_filters_zone_faction_and_nbsp(db):
+    alliance = db.service_npcs(('banquer', 'banker'), zone_id=1519, lang='es',
+                               faction='A')
+    assert [npc['name'] for npc in alliance] == [
+        'Newton Ladoquemao', 'Olivia Ladoquemao']
+    assert all(npc['sub_name'] == 'Banquero' for npc in alliance)
+    assert all(npc['locations'][0]['zone_id'] == 1519 for npc in alliance)
+
+    horde = db.service_npcs(('banquer', 'banker'), zone_id=1519, lang='es',
+                            faction='H')
+    assert [npc['name'] for npc in horde] == ['Horgar Ladoquemao']
+
+    everyone = db.service_npcs(('banquer', 'banker'), zone_id=1519, lang='es')
+    assert [npc['name'] for npc in everyone] == [
+        'Horgar Ladoquemao', 'Newton Ladoquemao', 'Olivia Ladoquemao']
+    assert len(db.service_npcs(('banquer',), zone_id=1519, limit=2)) == 2
+    assert db.service_npcs(('banquer',), zone_id=40) == []
+
+    english = db.service_npcs(('fishing trainer',), zone_id=1519, lang='en',
+                              faction='A')
+    assert english[0]['sub_name'] == 'Fishing Trainer'
+    spanish = db.service_npcs(('instructor de pesca',), zone_id=1519, lang='es',
+                              faction='A')
+    assert spanish[0]['name'] == 'Arnold Leland'
+    assert spanish[0]['sub_name'] == 'Instructor de pesca'
 
 
 def test_flights_from(db):

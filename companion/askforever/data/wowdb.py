@@ -346,6 +346,69 @@ class WowDb:
     def npc_locations(self, npc_id, limit: int = 3, lang: str = 'es'):
         return self._spawn_locations('ext_npc_spawns', 'npc_id', npc_id, limit, lang)
 
+    def service_npcs(self, sub_name_patterns, zone_id=None, lang: str = 'es',
+                     faction=None, limit: int = 4):
+        """PNJ de un servicio, filtrados por zona y facción."""
+        if isinstance(sub_name_patterns, str):
+            sub_name_patterns = (sub_name_patterns,)
+        patterns = []
+        for pattern in sub_name_patterns or ():
+            normalized = normalize(pattern)
+            if normalized:
+                patterns.append(normalized)
+        if not patterns:
+            return []
+
+        zone_npcs = None
+        if zone_id is not None:
+            zone_npcs = {row['npc_id'] for row in self._rows(
+                'SELECT npc_id FROM ext_npc_spawns WHERE zone_id = ?', (zone_id,))}
+            if not zone_npcs:
+                return []
+
+        matched = set()
+        # En Classic algunos oficios van en el nombre (\u00abSubastador Fulano\u00bb), no debajo.
+        for row in self._rows('SELECT npc_id, name, sub_name FROM ext_npc_l10n'):
+            npc_id = row['npc_id']
+            if zone_npcs is not None and npc_id not in zone_npcs:
+                continue
+            text = ' '.join((row['name'] or '', row['sub_name'] or ''))
+            sub_name = normalize(text.replace('\u00a0', ' '))
+            if any(pattern in sub_name for pattern in patterns):
+                matched.add(npc_id)
+        if not matched:
+            return []
+
+        factions = {}
+        if faction in ('A', 'H'):
+            factions = {row['npc_id']: (row['friendly_to_faction'] or None)
+                        for row in self._rows(
+                            'SELECT npc_id, friendly_to_faction FROM ext_npcs')}
+        opposite = 'H' if faction == 'A' else 'A'
+        results = []
+        for npc_id in matched:
+            if faction in ('A', 'H') and factions.get(npc_id) == opposite:
+                continue
+            name, sub_name = self._npc_names(npc_id, lang)
+            locations = self.npc_locations(npc_id, lang=lang)
+            if not locations:
+                continue
+            if zone_id is not None:
+                locations.sort(key=lambda location: 0 if (
+                    location.get('zone_id') == zone_id) else 1)
+            results.append({
+                'id': npc_id,
+                'name': name,
+                'sub_name': sub_name,
+                'locations': locations,
+            })
+        results.sort(key=lambda npc: (normalize(npc['name']), npc['name'], npc['id']))
+        try:
+            limit = max(0, int(limit))
+        except (TypeError, ValueError):
+            limit = 4
+        return results[:limit]
+
     def object_locations(self, object_id, limit: int = 3, lang: str = 'es'):
         return self._spawn_locations('ext_object_spawns', 'object_id', object_id, limit, lang)
 
