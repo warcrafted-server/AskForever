@@ -170,14 +170,14 @@ def test_retrieve_adds_guide_lines(db):
     guide_lines = [line for line in facts.lines
                    if line.startswith('Texto oficial del juego:')]
     assert guide_lines
-    assert any('TUTORIAL7' in line for line in guide_lines)
+    assert not any('TUTORIAL7' in line for line in guide_lines)
     assert 'guide:TUTORIAL7' in facts.sources
 
 
 def test_retrieve_adds_english_guide_lines(db):
     facts = retrieve(_message('how do I loot a corpse?', lang='enUS'), db)
-    assert any(line.startswith('Official game text (TUTORIAL7):')
-               for line in facts.lines)
+    assert any(line.startswith('Official game text:') for line in facts.lines)
+    assert 'guide:TUTORIAL7' in facts.sources
 
 
 def test_travel_question_does_not_add_guide_lines(db):
