@@ -5,7 +5,7 @@
 Texts to paste into the CurseForge project and into each file upload. Nothing here is published automatically: the upload is manual, from the project owner's account.
 Textos para pegar en el proyecto de CurseForge y en cada subida de archivo. Nada se publica solo: la subida es manual, desde la cuenta del propietario.
 
-Current version / Versión actual: **0.3.0-beta.1 (Beta 3)**, 2026-11-15.
+Current version / Versión actual: **0.3.0-beta.2 (Beta 4)**, 2026-11-15.
 
 ---
 
@@ -56,6 +56,8 @@ In the description, link only to pages of the GitHub project (no direct download
 3. Open AskForever: the first time, an assistant helps you get a free Google Gemini key and downloads the game data.
 4. Keep the AskForever window open while you play.
 
+The first time you enter the game, a welcome window shows these steps with the links; `/af help` or the **?** button opens it again. The addon folder also includes the installation guide and the security and transparency report (`docs/`).
+
 Step-by-step guide with screenshots: [installation guide](https://github.com/warcrafted-server/AskForever/blob/main/docs/INSTALL_GUIDE.md).
 
 ## Privacy and security
@@ -87,6 +89,8 @@ AI answers can contain mistakes: double-check important details in game.
 3. Abre AskForever: la primera vez, un asistente te ayuda a conseguir una clave gratuita de Google Gemini y descarga los datos del juego.
 4. Deja la ventana de AskForever abierta mientras juegas.
 
+La primera vez que entras al juego, una ventana de bienvenida muestra estos pasos con los enlaces; `/af help` o el botón **?** la vuelven a abrir. La carpeta del addon incluye también la guía de instalación y el informe de seguridad y transparencia (`docs/`).
+
 Guía paso a paso con capturas: [guía de instalación](https://github.com/warcrafted-server/AskForever/blob/main/docs/GUIA_INSTALACION.md).
 
 ## Privacidad y seguridad
@@ -105,6 +109,22 @@ Las respuestas de la IA pueden contener errores: comprueba lo importante en el j
 ```
 
 ### File changelogs (paste in the upload form)
+
+#### 0.3.0-beta.2 (Beta 4)
+
+```markdown
+**Beta 4 — welcome and help window.**
+
+- New: the first time you enter the game, a welcome window explains what you need: the free AskForever companion for Windows and a free Google Gemini key, with the links ready to copy.
+- New: open that help at any time with `/af help` or the **?** button in the AskForever window.
+- New: the addon folder includes `README.txt`, the installation guide and the security and data transparency report (`docs/`).
+
+**Beta 4: ventana de bienvenida y ayuda.**
+
+- Nuevo: la primera vez que entras al juego, una ventana de bienvenida explica lo que necesitas: el companion gratuito de AskForever para Windows y una clave gratuita de Google Gemini, con los enlaces listos para copiar.
+- Nuevo: abre esa ayuda cuando quieras con `/af help` o el botón **?** de la ventana de AskForever.
+- Nuevo: la carpeta del addon incluye `README.txt`, la guía de instalación y el informe de seguridad y transparencia de datos (`docs/`).
+```
 
 #### 0.3.0-beta.1 (Beta 3)
 
