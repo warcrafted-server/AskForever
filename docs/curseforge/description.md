@@ -12,7 +12,7 @@
 1. Install this addon.
 2. Install the free **AskForever companion** for Windows from the [project page on GitHub](https://github.com/warcrafted-server/AskForever) (Releases).
 3. Open AskForever: the first time, an assistant helps you get a free Google Gemini key and downloads the game data.
-4. Keep the AskForever window open while you play.
+4. Keep the AskForever program (the companion) open while you play.
 
 The first time you enter the game, a welcome window shows these steps with the links; `/af help` or the **?** button opens it again. The addon folder also includes the installation guide and the security and transparency report (`docs/`).
 
@@ -22,7 +22,7 @@ Step-by-step guide with screenshots: [installation guide](https://github.com/war
 - It does not read game memory and does not automate anything: no keys pressed, no mouse moved.
 - It only talks to the AI provider you choose, the wiki when needed, and GitHub to download the game data.
 - Your key is stored in the Windows Credential Manager, never in a file.
-- The companion is built on GitHub from the public code, with SHA-256 hashes and build provenance. Windows may warn about it because it is not sold in the Microsoft Store: see [security and transparency](https://github.com/warcrafted-server/AskForever/blob/main/docs/SECURITY_TRANSPARENCY.md).
+- The companion is built on GitHub from the public code, with SHA-256 hashes and build provenance. Windows may show a warning the first time because the program is not code-signed: see [security and transparency](https://github.com/warcrafted-server/AskForever/blob/main/docs/SECURITY_TRANSPARENCY.md).
 
 ## Beta limitations
 - The answer appears in a small window over the game, not yet inside the addon window. It hides while the game is minimized or in the background.
@@ -45,7 +45,7 @@ AI answers can contain mistakes: double-check important details in game.
 1. Instala este addon.
 2. Instala el **companion de AskForever**, gratuito, para Windows, desde la [página del proyecto en GitHub](https://github.com/warcrafted-server/AskForever) (Releases).
 3. Abre AskForever: la primera vez, un asistente te ayuda a conseguir una clave gratuita de Google Gemini y descarga los datos del juego.
-4. Deja la ventana de AskForever abierta mientras juegas.
+4. Deja abierto el programa AskForever (el companion) mientras juegas.
 
 La primera vez que entras al juego, una ventana de bienvenida muestra estos pasos con los enlaces; `/af help` o el botón **?** la vuelven a abrir. La carpeta del addon incluye también la guía de instalación y el informe de seguridad y transparencia (`docs/`).
 
@@ -55,7 +55,7 @@ Guía paso a paso con capturas: [guía de instalación](https://github.com/warcr
 - No lee la memoria del juego ni automatiza nada: no pulsa teclas ni mueve el ratón.
 - Solo habla con el proveedor de IA que elijas, con la wiki cuando hace falta y con GitHub para descargar los datos del juego.
 - Tu clave se guarda en el Administrador de credenciales de Windows, nunca en un archivo.
-- El companion se compila en GitHub desde el código público, con hashes SHA-256 y prueba de procedencia. Windows puede avisar porque no se vende en la Microsoft Store: consulta [seguridad y transparencia](https://github.com/warcrafted-server/AskForever/blob/main/docs/SEGURIDAD_TRANSPARENCIA.md).
+- El companion se compila en GitHub desde el código público, con hashes SHA-256 y prueba de procedencia. Windows puede mostrar un aviso la primera vez porque el programa no está firmado digitalmente: consulta [seguridad y transparencia](https://github.com/warcrafted-server/AskForever/blob/main/docs/SEGURIDAD_TRANSPARENCIA.md).
 
 ## Limitaciones de la beta
 - La respuesta aparece en una ventanita sobre el juego, todavía no dentro de la ventana del addon. Se oculta mientras el juego está minimizado o en segundo plano.
