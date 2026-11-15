@@ -8,7 +8,7 @@ import time
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
 
-from askforever.overlay.window import Overlay, build_state
+from askforever.overlay.window import ChatState, Overlay, build_state
 from askforever.paths import dev_dir
 
 LOGGER = logging.getLogger('askforever.overlay.supervisor')
@@ -116,6 +116,14 @@ class OverlaySupervisor:
         self._last_state = state
         self._put(state)
 
+    def show_chat(self, view) -> None:
+        """Envía una vista del chat anclado y la conserva para reinicios."""
+        if view is None:
+            return
+        state = ChatState(tuple(view.entries), view.rect, bool(view.visible))
+        self._last_state = state
+        self._put(state)
+
     def hide(self) -> None:
         self._last_state = None
         self._put(None)
@@ -166,7 +174,8 @@ class OverlaySupervisor:
         state = self._last_state
         if state is None:
             return
-        if state.expires_at is not None and self.clock() >= state.expires_at:
+        expires_at = getattr(state, 'expires_at', None)
+        if expires_at is not None and self.clock() >= expires_at:
             self._last_state = None
             return
         self._put(state)

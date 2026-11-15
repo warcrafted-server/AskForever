@@ -93,6 +93,15 @@ class OverlayState:
     expires_at: Optional[float]
 
 
+@dataclass(frozen=True)
+class ChatState:
+    """Vista de chat lista para cruzar el proceso del overlay."""
+
+    entries: tuple[tuple[str, str], ...]
+    rect: Optional[tuple[int, int, int, int]]
+    visible: bool
+
+
 def _truncate_question(question) -> str:
     text = '' if question is None else str(question)
     text = text.strip()
@@ -177,11 +186,17 @@ class Overlay:
         self._user32_loaded = user32 is not None
         self._user32_injected = user32 is not None
         self._root = None
+        self._inner = None
         self._title_label = None
         self._body_label = None
+        self._chat_text = None
         self._title_visible = False
         self._expires_at = None
         self._state_active = False
+        self._visible_requested = False
+        self._chat_mode = False
+        self._chat_rect = None
+        self._chat_layout = False
         self._mapped = False
         self._shown = False
         self._game_client = None
@@ -207,6 +222,13 @@ class Overlay:
     def show_error(self, text, lang):
         """Encola un aviso de error."""
         state = build_state('error', lang, text=text, now=self.clock(), ttl=self.ttl)
+        self.queue.put(state)
+
+    def show_chat(self, view):
+        """Encola una vista del chat anclado al panel del addon."""
+        if view is None:
+            return
+        state = ChatState(tuple(view.entries), view.rect, bool(view.visible))
         self.queue.put(state)
 
     def hide(self):
@@ -238,6 +260,7 @@ class Overlay:
 
         inner = tk.Frame(root, bg=BG)
         inner.pack(fill='both', expand=True, padx=2, pady=2)
+        self._inner = inner
 
         self._title_label = tk.Label(
             inner,
@@ -260,6 +283,26 @@ class Overlay:
             anchor='w',
         )
         self._body_label.pack(fill='x', padx=12, pady=(10, 12))
+
+        self._chat_text = tk.Text(
+            inner,
+            wrap='word',
+            bg=BG,
+            fg=TEXT_COLOUR,
+            font=('Segoe UI', 10),
+            borderwidth=0,
+            highlightthickness=0,
+            padx=8,
+            pady=8,
+            state='disabled',
+            cursor='arrow',
+            takefocus=0,
+        )
+        self._chat_text.tag_configure('question', foreground=TITLE_COLOUR,
+                                      font=('Segoe UI', 10, 'bold'))
+        self._chat_text.tag_configure('thinking', foreground=DIM_COLOUR)
+        self._chat_text.tag_configure('answer', foreground=TEXT_COLOUR)
+        self._chat_text.tag_configure('error', foreground=ERROR_COLOUR)
 
         if self._close_requested:
             root.destroy()
@@ -290,8 +333,9 @@ class Overlay:
             allowed = self._visible_allowed()
             # Solo se actúa al cambiar: recolocar y reafirmar «siempre encima» cada 50 ms
             # costaría rendimiento al juego.
-            if self._state_active and allowed != self._shown:
-                if allowed:
+            should_show = self._state_active and self._visible_requested and allowed
+            if self._state_active and should_show != self._shown:
+                if should_show:
                     self._show_window()
                 else:
                     self._set_alpha(0.0)
@@ -317,6 +361,14 @@ class Overlay:
                 self._hide_window()
                 return
 
+            if self._is_chat_state(state):
+                self._apply_chat(state)
+                return
+
+            self._chat_mode = False
+            self._chat_rect = None
+            self._visible_requested = True
+            self._use_chat_layout(False)
             self._state_active = True
             self._expires_at = state.expires_at
             if state.title:
@@ -340,6 +392,68 @@ class Overlay:
         except Exception:
             LOGGER.exception('Error al aplicar el estado del overlay')
 
+    @staticmethod
+    def _is_chat_state(state) -> bool:
+        if isinstance(state, ChatState):
+            return True
+        return (hasattr(state, 'entries') and hasattr(state, 'rect')
+                and hasattr(state, 'visible') and not hasattr(state, 'kind'))
+
+    def _apply_chat(self, state) -> None:
+        entries = tuple(getattr(state, 'entries', ()) or ())
+        rect = getattr(state, 'rect', None)
+        visible = bool(getattr(state, 'visible', False)) and rect is not None
+        self._chat_mode = True
+        self._chat_rect = rect
+        self._state_active = True
+        self._visible_requested = visible
+        self._expires_at = None
+        self._use_chat_layout(True)
+        self._render_chat(entries)
+        if visible:
+            self._show_window()
+        else:
+            self._set_alpha(0.0)
+
+    def _use_chat_layout(self, chat: bool) -> None:
+        if self._chat_layout == chat:
+            return
+        self._chat_layout = chat
+        if chat:
+            if self._title_label is not None:
+                self._title_label.pack_forget()
+            if self._body_label is not None:
+                self._body_label.pack_forget()
+            if self._chat_text is not None:
+                self._chat_text.pack(fill='both', expand=True)
+        else:
+            if self._chat_text is not None:
+                self._chat_text.pack_forget()
+            if self._body_label is not None:
+                self._body_label.pack(fill='x', padx=12, pady=(10, 12))
+            if self._title_visible and self._title_label is not None:
+                self._title_label.pack(fill='x', padx=12, pady=(12, 2),
+                                       before=self._body_label)
+
+    def _render_chat(self, entries) -> None:
+        widget = self._chat_text
+        if widget is None:
+            return
+        widget.configure(state='normal')
+        widget.delete('1.0', 'end')
+        roles = ('question', 'thinking', 'answer', 'error')
+        previous = None
+        for role, text in entries:
+            if role == 'question' and previous is not None:
+                widget.insert('end', '\n\n')
+            elif previous is not None:
+                widget.insert('end', '\n')
+            tag = role if role in roles else 'answer'
+            widget.insert('end', '' if text is None else str(text), tag)
+            previous = role
+        widget.configure(state='disabled')
+        widget.see('end')
+
     def _expired(self):
         return (self._expires_at is not None
                 and self.clock() >= self._expires_at)
@@ -350,12 +464,30 @@ class Overlay:
                 return
             root = self._root
             root.update_idletasks()
-            height = max(60, root.winfo_reqheight())
             self._ensure_game_window()
-            x, y = compute_position(self._game_client, WINDOW_WIDTH, height)
-            root.geometry(f'{WINDOW_WIDTH}x{height}+{x}+{y}')
+            if self._chat_mode and self._chat_rect:
+                rect = self._chat_rect
+                client = self._game_client
+                left = int(getattr(client, 'x', 0))
+                top = int(getattr(client, 'y', 0))
+                client_width = max(1, int(getattr(client, 'width', DEFAULT_CLIENT_WIDTH)))
+                client_height = max(1, int(getattr(client, 'height', DEFAULT_CLIENT_HEIGHT)))
+                width = max(1, min(int(rect[2]), client_width))
+                height = max(1, min(int(rect[3]), client_height))
+                x = left + int(rect[0])
+                y = top + int(rect[1])
+                max_x = left + max(0, client_width - width)
+                max_y = top + max(0, client_height - height)
+                x = max(left, min(x, max_x))
+                y = max(top, min(y, max_y))
+                root.geometry(f'{width}x{height}+{x}+{y}')
+            else:
+                height = max(60, root.winfo_reqheight())
+                x, y = compute_position(self._game_client, WINDOW_WIDTH, height)
+                root.geometry(f'{WINDOW_WIDTH}x{height}+{x}+{y}')
             self._set_topmost()
-            if self._state_active and not self._expired() and self._visible_allowed():
+            if (self._state_active and self._visible_requested
+                    and not self._expired() and self._visible_allowed()):
                 self._set_alpha(VISIBLE_ALPHA)
             else:
                 self._set_alpha(0.0)
@@ -365,6 +497,7 @@ class Overlay:
     def _hide_window(self):
         self._expires_at = None
         self._state_active = False
+        self._visible_requested = False
         self._set_alpha(0.0)
 
     def _set_alpha(self, alpha):

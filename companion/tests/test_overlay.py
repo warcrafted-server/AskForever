@@ -12,6 +12,7 @@ import pytest
 import askforever.cli as cli
 from askforever.capture.grabber import ReceivedMessage
 from askforever.overlay.window import (
+    ChatState,
     Overlay,
     OverlayState,
     OverlayUnavailable,
@@ -233,6 +234,36 @@ class _FakeClock:
         return self.value
 
 
+class _FakeChatText:
+    def __init__(self):
+        self.packed = False
+        self.text = ''
+        self.tags = []
+        self.seen = False
+        self.state = None
+
+    def pack(self, **_kwargs):
+        self.packed = True
+
+    def pack_forget(self):
+        self.packed = False
+
+    def configure(self, **kwargs):
+        if 'state' in kwargs:
+            self.state = kwargs['state']
+
+    def delete(self, *_args):
+        self.text = ''
+
+    def insert(self, _index, text, tag=None):
+        self.text += text
+        if tag is not None:
+            self.tags.append(tag)
+
+    def see(self, _index):
+        self.seen = True
+
+
 def _fake_overlay(user32, window_fn):
     overlay = Overlay(ttl=10.0, window_fn=window_fn, clock=_FakeClock(), user32=user32)
     overlay._root = _FakeRoot()
@@ -308,6 +339,48 @@ def test_overlay_refreshes_game_window_slowly():
     assert len(calls) <= 2
 
 
+def test_overlay_chat_layout_geometry_and_fallback():
+    user32 = _FakeUser32()
+    client = types.SimpleNamespace(hwnd=100, x=100, y=50, width=1920, height=1080)
+    overlay = _fake_overlay(user32, lambda: client)
+    chat = _FakeChatText()
+    overlay._chat_text = chat
+    state = ChatState(
+        entries=(('question', 'Pregunta'), ('thinking', 'Pensando…'),
+                 ('answer', 'Respuesta')),
+        rect=(10, 20, 300, 200),
+        visible=True,
+    )
+
+    overlay._apply(state)
+
+    assert overlay._root.geometries[-1] == '300x200+110+70'
+    assert overlay._root.alphas[-1] == VISIBLE_ALPHA
+    assert overlay._state_active is True
+    assert overlay._visible_requested is True
+    assert chat.packed is True
+    assert overlay._title_label.packed is False
+    assert 'Pregunta\nPensando…\nRespuesta' == chat.text
+    assert chat.tags == ['question', 'thinking', 'answer']
+    assert chat.seen is True
+
+    hidden = ChatState(entries=state.entries, rect=state.rect, visible=False)
+    overlay._apply(hidden)
+
+    assert overlay._root.alphas[-1] == 0.0
+    assert overlay._state_active is True
+    assert overlay._visible_requested is False
+    assert chat.packed is True
+    assert 'Respuesta' in chat.text
+
+    overlay._apply(OverlayState('thinking', 'Pregunta', 'Pensando…', None))
+
+    assert chat.packed is False
+    assert overlay._body_label.packed is True
+    assert overlay._root.alphas[-1] == VISIBLE_ALPHA
+    assert overlay._chat_mode is False
+
+
 def _tk_available() -> bool:
     try:
         import tkinter  # noqa: F401
@@ -343,6 +416,18 @@ def _message_data(question, lang='esES') -> bytes:
     return json.dumps(document, ensure_ascii=False).encode('utf-8')
 
 
+def _ui_message_data(event='open', conv=1) -> bytes:
+    document = {'v': 1, 'lang': 'esES', 'q': '', 'conv': conv, 'kind': 'ui',
+                'ev': event, 'wx': 10, 'wy': 20, 'ww': 300, 'wh': 200}
+    return json.dumps(document, ensure_ascii=False).encode('utf-8')
+
+
+def _chat_message_data(question, conv=1) -> bytes:
+    document = {'v': 1, 'lang': 'esES', 'q': question, 'conv': conv,
+                'ctx': {'lvl': 10}, 'wx': 10, 'wy': 20, 'ww': 300, 'wh': 200}
+    return json.dumps(document, ensure_ascii=False).encode('utf-8')
+
+
 def _fake_grabber(messages):
     class FakeGrabber:
         def __init__(self, on_message, fps=30.0):
@@ -373,6 +458,9 @@ def _recording_overlay(events):
 
         def show_error(self, text, lang):
             events.append(['error', text, lang])
+
+        def show_chat(self, view):
+            events.append(['chat', view])
 
         def hide(self):
             events.append(['hide'])
@@ -418,7 +506,6 @@ def test_run_command_calls_thinking_then_answer(monkeypatch, capsys):
 def test_run_generation_prevents_stale_answer(monkeypatch):
     events = []
     gate = threading.Event()
-
     class SlowProvider:
         def chat(self, system, user, *, max_tokens=None, temperature=0.3):
             if 'primera' in user:
@@ -481,3 +568,61 @@ def test_run_provider_failure_shows_error(monkeypatch):
     errors = [event for event in events if event[0] == 'error']
     assert errors
     assert errors[0][1] == cli.ProviderError('auth').user_message('esES')
+
+
+def test_ui_message_never_reaches_the_ai(monkeypatch):
+    events = []
+    messages = [ReceivedMessage(1, 1, _ui_message_data('open', 4), 0.0, 0.1)]
+
+    def forbidden(*_args, **_kwargs):
+        raise AssertionError('un evento ui no debe llamar a la IA')
+
+    monkeypatch.setattr(cli, 'Grabber', _fake_grabber(messages))
+    monkeypatch.setattr(cli, 'OverlaySupervisor', _recording_overlay(events))
+    monkeypatch.setattr(cli, 'answer_message', forbidden)
+
+    assert cli.main(['run', '--no-ai', '--no-data', '--no-web']) == 0
+    time.sleep(0.1)
+
+    assert not any(event[0] == 'answer' for event in events)
+    chats = [event for event in events if event[0] == 'chat']
+    assert chats
+    assert chats[0][1].entries == ()
+    assert chats[0][1].visible is False
+
+
+def test_run_chat_question_and_answer(monkeypatch):
+    events = []
+    messages = [ReceivedMessage(1, 1, _chat_message_data('¿Dónde está Hogger?'), 0.0, 0.1)]
+
+    monkeypatch.setattr(cli, 'Grabber', _fake_grabber(messages))
+    monkeypatch.setattr(cli, 'OverlaySupervisor', _recording_overlay(events))
+    monkeypatch.setattr(cli, 'provider_from_config', lambda: FakeProvider())
+
+    assert cli.main(['run', '--no-data', '--no-web']) == 0
+    time.sleep(0.2)
+
+    chats = [event[1] for event in events if event[0] == 'chat']
+    assert chats
+    assert all(view.rect == (10, 20, 300, 200) for view in chats)
+    assert any(view.entries[-1][0] == 'thinking' for view in chats if view.entries)
+    assert any(view.entries[-1][0] == 'answer' for view in chats if view.entries)
+    assert not any(event[0] == 'thinking' for event in events)
+    assert not any(event[0] == 'answer' for event in events)
+
+
+def test_empty_question_without_kind_is_ignored(monkeypatch):
+    events = []
+    messages = [ReceivedMessage(1, 1, _message_data('   '), 0.0, 0.1)]
+
+    def forbidden(*_args, **_kwargs):
+        raise AssertionError('una pregunta vacía no debe llamar a la IA')
+
+    monkeypatch.setattr(cli, 'Grabber', _fake_grabber(messages))
+    monkeypatch.setattr(cli, 'OverlaySupervisor', _recording_overlay(events))
+    monkeypatch.setattr(cli, 'answer_message', forbidden)
+
+    assert cli.main(['run', '--no-ai', '--no-data', '--no-web']) == 0
+    time.sleep(0.1)
+
+    assert not any(event[0] in ('thinking', 'answer', 'error', 'chat') for event in events)

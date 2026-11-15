@@ -10,6 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 import pytest
 
+from askforever.overlay.chat import ChatView
 from askforever.overlay.supervisor import (
     HANG_SECONDS,
     STARTUP_GRACE,
@@ -173,6 +174,26 @@ def test_does_not_forward_expired_state(tmp_path):
     with pytest.raises(queue.Empty):
         factory.queues[1].get(timeout=0.2)
     assert supervisor._last_state is None
+
+
+def test_forwards_hidden_chat_state_on_restart(tmp_path):
+    factory = FakeFactory()
+    clock = FakeClock()
+    supervisor = _supervisor(tmp_path, factory, clock)
+    view = ChatView(entries=(('question', 'pregunta'),), rect=(1, 2, 3, 4),
+                    visible=False)
+    supervisor.show_chat(view)
+    supervisor._start_child()
+    first = factory.queues[0].get(timeout=1.0)
+    assert first.visible is False
+
+    factory.processes[0].alive = False
+    clock.advance(1.0)
+    supervisor._watch()
+
+    second = factory.queues[1].get(timeout=1.0)
+    assert second.visible is False
+    assert second.entries == (('question', 'pregunta'),)
 
 
 def test_disables_after_five_restarts(tmp_path, capsys):

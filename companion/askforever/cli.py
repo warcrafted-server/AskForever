@@ -31,6 +31,7 @@ from askforever.data.wowdb import WowDb
 from askforever.devreport import close_report, parse_report, write_report
 from askforever.engine.answer import answer_message, parse_message
 from askforever.engine.conversation import ConversationStore
+from askforever.overlay.chat import ChatSession
 from askforever.overlay.supervisor import OverlaySupervisor
 from askforever.overlay.window import Overlay, OverlayUnavailable
 from askforever.providers.openai_compat import ProviderError, list_models, provider_from_config
@@ -511,6 +512,26 @@ def _overlay_demo() -> int:
     return 0
 
 
+def _raw_document(data):
+    """Lee un mensaje aunque no tenga pregunta, para distinguir los eventos de UI."""
+    try:
+        document = json.loads(data.decode('utf-8'))
+    except (AttributeError, UnicodeDecodeError, json.JSONDecodeError):
+        return None
+    if not isinstance(document, dict) or document.get('v') != 1:
+        return None
+    return document
+
+
+def _message_rect(document):
+    if not isinstance(document, dict):
+        return None
+    values = [document.get(key) for key in ('wx', 'wy', 'ww', 'wh')]
+    if any(isinstance(value, bool) or not isinstance(value, int) for value in values):
+        return None
+    return tuple(values)
+
+
 def _run_companion(args: argparse.Namespace) -> int:
     set_dpi_awareness()
     overlay_class = (Overlay if getattr(args, 'overlay_inprocess', False)
@@ -540,6 +561,8 @@ def _run_companion(args: argparse.Namespace) -> int:
     store = ConversationStore()
     last_exchange = {}
     exchange_lock = threading.Lock()
+    chat_session = ChatSession()
+    chat_lock = threading.Lock()
 
     def on_message(message: ReceivedMessage) -> None:
         report = parse_report(message.data)
@@ -547,32 +570,56 @@ def _run_companion(args: argparse.Namespace) -> int:
             _handle_report(report, last_exchange, exchange_lock, overlay)
             return
 
+        stamp = datetime.now().strftime('%H:%M:%S')
+        raw = _raw_document(message.data)
+        if raw is not None and raw.get('kind') == 'ui':
+            event = str(raw.get('ev') or '')
+            conv = raw.get('conv')
+            rect = _message_rect(raw)
+            with chat_lock:
+                view = chat_session.ui(event, conv, rect)
+            if view is not None:
+                overlay.show_chat(view)
+            print(f'[{stamp}] ui {event} conv={conv}')
+            return
+
+        document = parse_message(message.data)
+        if document is None:
+            print(f'[{stamp}] mensaje sin pregunta; ignorado')
+            return
+
+        question = str(document.get('q') or '')
+        lang = document.get('lang') or 'enUS'
+        conv = document.get('conv')
+        rect = _message_rect(document)
+        conversation_key = store.key(document)
+        history = store.history(conversation_key)
+        previous_question = history[-1].question if history else None
+
         generation['value'] += 1
         current = generation['value']
 
-        document = parse_message(message.data)
-        if document is not None:
-            question = str(document.get('q') or '')
-            lang = document.get('lang') or 'enUS'
-            conversation_key = store.key(document)
-            history = store.history(conversation_key)
-            previous_question = history[-1].question if history else None
-        else:
-            question = ''
-            lang = 'enUS'
-            conversation_key = 'default'
-            history = []
-            previous_question = None
-
-        stamp = datetime.now().strftime('%H:%M:%S')
         print(f'[{stamp}] msg_id={message.msg_id} {question}')
 
-        overlay.show_thinking(question, lang)
+        with chat_lock:
+            view = chat_session.question(conv, question, rect, lang)
+        if view is not None:
+            overlay.show_chat(view)
+        else:
+            overlay.show_thinking(question, lang)
         if args.no_ai:
             return
         if provider is None:
             text = provider_error.user_message(lang) if provider_error else 'No AI provider.'
-            overlay.show_error(text, lang)
+            if view is not None:
+                with chat_lock:
+                    error_view = chat_session.error(conv, text)
+                if error_view is not None:
+                    overlay.show_chat(error_view)
+                else:
+                    overlay.show_error(text, lang)
+            else:
+                overlay.show_error(text, lang)
             return
 
         def answer():
@@ -584,8 +631,8 @@ def _run_companion(args: argparse.Namespace) -> int:
                 'msg_id': message.msg_id,
                 'question': result.question or question,
                 'lang': result.lang or lang,
-                'conv': document.get('conv') if document is not None else None,
-                'ctx': document.get('ctx') if document is not None else None,
+                'conv': conv,
+                'ctx': document.get('ctx'),
                 'moment': datetime.now(),
                 'model': getattr(provider, 'model', ''),
                 'ok': result.ok,
@@ -602,10 +649,20 @@ def _run_companion(args: argparse.Namespace) -> int:
                 last_exchange.update(exchange)
             if result.ok:
                 store.add(conversation_key, question, result.text, result.facts_text)
-                overlay.show_answer(question, result.text, lang)
+                with chat_lock:
+                    chat_view = chat_session.answer(conv, result.text)
+                if chat_view is not None:
+                    overlay.show_chat(chat_view)
+                else:
+                    overlay.show_answer(question, result.text, lang)
                 print(f'Respuesta ({result.elapsed_ms} ms): {result.text}')
             else:
-                overlay.show_error(result.text, lang)
+                with chat_lock:
+                    chat_view = chat_session.error(conv, result.text)
+                if chat_view is not None:
+                    overlay.show_chat(chat_view)
+                else:
+                    overlay.show_error(result.text, lang)
                 print(f'Error: {result.text}')
 
         threading.Thread(target=answer, daemon=True).start()
