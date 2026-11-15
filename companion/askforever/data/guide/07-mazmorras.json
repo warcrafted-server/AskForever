@@ -1,0 +1,1089 @@
+{
+  "description": "Capítulo 7: Mazmorras. Secciones editoriales redactadas desde guías de terceros.",
+  "sections": [
+    {
+      "id": "mazmorra-general",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Las mazmorras de Forever",
+      "title_en": "Dungeons in Forever",
+      "summary_es": "Hay 35 mazmorras en 28 instancias, de nivel 13 a 60; el botín y las misiones de las altas se descubren jugando.",
+      "summary_en": "There are 35 dungeons across 28 instances, levels 13 to 60; loot and quests for higher ones are discovered by playing.",
+      "keywords_es": [
+        "mazmorras de forever",
+        "cuántas mazmorras hay",
+        "niveles de mazmorras",
+        "mazmorras nuevas",
+        "botín de mazmorra"
+      ],
+      "keywords_en": [
+        "wow forever dungeons",
+        "how many dungeons",
+        "dungeon levels",
+        "new dungeons",
+        "dungeon loot"
+      ],
+      "text_es": "En Forever hay 35 mazmorras repartidas en 28 instancias, desde nivel 13 hasta 60, con clásicas y nuevas. El botín y las misiones de las mazmorras de nivel alto se descubren jugando, así que las guías se añaden poco a poco. Cada mazmorra tiene un rango de nivel y varias misiones; los jefes y el botín exacto salen de la base de datos.",
+      "text_en": "Forever has 35 dungeons across 28 instances, from level 13 to 60, mixing classic and new ones. Loot and quests for higher-level dungeons are discovered by playing, so their guides are added over time. Each dungeon has a level range and several quests; exact bosses and loot come from the game database.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Dungeons in WoW Forever › WoW Forever Dungeons Overview",
+          "url": "https://www.icy-veins.com/wow-forever/dungeons-overview",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-preparacion",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Preparar una mazmorra",
+      "title_en": "Preparing for a Dungeon",
+      "summary_es": "Recoge las misiones, comprueba la facción y reparte tanque, sanador y DPS; el control ayuda con patrullas y adds.",
+      "summary_en": "Pick up quests, check faction, and bring tank, healer, and DPS; control helps with patrols and adds.",
+      "keywords_es": [
+        "preparar mazmorra",
+        "misiones antes de la mazmorra",
+        "grupo de mazmorra",
+        "tanque sanador dps",
+        "control de masas mazmorra"
+      ],
+      "keywords_en": [
+        "dungeon preparation",
+        "dungeon quests",
+        "dungeon group",
+        "tank healer dps",
+        "dungeon crowd control"
+      ],
+      "text_es": "Antes de entrar, recoge las misiones: cada mazmorra tiene varias y algunas dan equipo o experiencia. No todas son para las dos facciones: varias son solo Horda o solo Alianza. Las páginas no fijan un tamaño de grupo; las estrategias reparten tanque, sanador y DPS, y piden control para patrullas y adds. Lleva al sanador con maná y enfoca a los adds peligrosos antes que al jefe.",
+      "text_en": "Before entering, pick up the quests: each dungeon has several, and some give gear or experience. Not all are for both factions: several are Horde-only or Alliance-only. The pages do not fix a group size; the strategies use a tank, healer, and DPS, and ask for control on patrols and adds. Keep the healer supplied with mana and focus dangerous adds before the boss.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Dungeons in WoW Forever › WoW Forever Dungeons Overview",
+          "url": "https://www.icy-veins.com/wow-forever/dungeons-overview",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Quests for Ragefire Chasm › Ragefire Chasm Dungeon Quests",
+          "url": "https://www.icy-veins.com/wow-forever/ragefire-chasm-quests",
+          "date": "2026-09-29"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-nuevas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Las nuevas mazmorras de Forever",
+      "title_en": "Forever's New Dungeons",
+      "summary_es": "Salón de los Feudales, Ruinas de Lordaeron, Excavación: Los Humedales y Ciudad de Dalaran son nuevas.",
+      "summary_en": "Hall of Thanes, Ruins of Lordaeron, Excavation: Wetlands and City of Dalaran are new.",
+      "keywords_es": [
+        "mazmorras nuevas forever",
+        "salón de los feudales",
+        "ruinas de lordaeron",
+        "excavación los humedales",
+        "ciudad de dalaran"
+      ],
+      "keywords_en": [
+        "new forever dungeons",
+        "hall of thanes",
+        "ruins of lordaeron",
+        "excavation wetlands",
+        "city of dalaran"
+      ],
+      "text_es": "Las nuevas son Salón de los Feudales (13-18, Forjaz), Ruinas de Lordaeron (15-20, Entrañas), Excavación: Los Humedales (26-33, Los Humedales) y Ciudad de Dalaran (28-35, Montañas de Alterac). Son exclusivas de Forever y tienen guía completa. Dalaran exige una llave a la Horda para entrar por las cloacas, y el Salón está bajo la Sala del Trono de Forjaz. El resto de mazmorras de esta guía son clásicas.",
+      "text_en": "The new ones are Hall of Thanes (13-18, Ironforge), Ruins of Lordaeron (15-20, Undercity), Excavation: Wetlands (26-33, Wetlands), and City of Dalaran (28-35, Alterac Mountains). They are exclusive to Forever and have full guides. Dalaran requires a key for Horde groups entering through the sewers, and the Hall lies under Ironforge's throne room. The other dungeons in this guide are classic.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Dungeons in WoW Forever › WoW Forever Dungeons Overview",
+          "url": "https://www.icy-veins.com/wow-forever/dungeons-overview",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Hall of Thanes Dungeon Guide › Hall of Thanes Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/hall-of-thanes-guide",
+          "date": "2026-10-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Ruins of Lordaeron Dungeon Guide › Ruins of Lordaeron Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/ruins-of-lordaeron-guide",
+          "date": "2026-10-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Excavation Site: Wetlands Dungeon Guide › Excavation Site: Wetlands Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/excavation-site-wetlands-guide",
+          "date": "2026-10-18"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: City of Dalaran Dungeon Guide › City of Dalaran Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/city-of-dalaran-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-ragefire-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Sima Ígnea: entrada y qué esperar",
+      "title_en": "Ragefire Chasm: Entrance and What to Expect",
+      "summary_es": "Sima Ígnea está en Orgrimmar, es 13-18 y solo tiene misiones de Horda; cuidado con lava y patrullas.",
+      "summary_en": "Ragefire Chasm is in Orgrimmar, level 13-18, and has Horde-only quests; watch the lava and patrols.",
+      "keywords_es": [
+        "sima ígnea",
+        "ragefire chasm",
+        "cómo llegar a sima ígnea",
+        "sima ígnea misiones",
+        "sima ígnea jefes"
+      ],
+      "keywords_en": [
+        "ragefire chasm",
+        "ragefire chasm entrance",
+        "ragefire chasm quests",
+        "ragefire chasm bosses",
+        "orgrimmar dungeon"
+      ],
+      "text_es": "Sima Ígnea está en Orgrimmar, en el nivel más bajo del Risco de las Sombras. Es de nivel 13-18 y es una mazmorra de Horda: sus cinco misiones son de Horda y la Alianza no tiene ninguna. En Taragaman, el tanque no debe pelear junto al borde porque un empuje puede tirarlo a la lava; Jergosh y Bazzalan salen con patrullas, así que lleva control y mata primero a los adds de Bazzalan. Oggleflint comparte sala con troggs: límpiala antes de tirar.",
+      "text_en": "Ragefire Chasm is in Orgrimmar, on the lowest level of the Cleft of Shadow. It is level 13-18 and a Horde dungeon: its five quests are Horde-only and Alliance has none. Against Taragaman, the tank should not fight near the edge because a knockback can throw them into the lava; Jergosh and Bazzalan come with patrols, so bring control and kill Bazzalan's adds first. Oggleflint shares a room with troggs: clear it before pulling.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Ragefire Chasm Dungeon Guide › Ragefire Chasm Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/ragefire-chasm-guide",
+          "date": "2026-10-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-ragefire-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones de Sima Ígnea",
+      "title_en": "Ragefire Chasm Quests",
+      "summary_es": "Cinco misiones de Horda: Cima del Trueno, Entrañas y Orgrimmar; la Alianza no tiene ninguna.",
+      "summary_en": "Five Horde quests from Thunder Bluff, Undercity, and Orgrimmar; Alliance has none.",
+      "keywords_es": [
+        "misiones de sima ígnea",
+        "midiendo fuerzas con el enemigo",
+        "enemigos ocultos",
+        "matar a la bestia",
+        "misiones horda sima ígnea"
+      ],
+      "keywords_en": [
+        "ragefire chasm quests",
+        "testing an enemy's strength",
+        "hidden enemies",
+        "slaying the beast",
+        "horde ragefire quests"
+      ],
+      "text_es": "Sima Ígnea tiene cinco misiones, todas de Horda: Midiendo fuerzas con el enemigo, Buscando la cartera perdida y su seguimiento La vuelta de la cartera perdida (Cima del Trueno, Rahauro); Poder destructivo (Entrañas, Varimathras); Enemigos ocultos (Orgrimmar, Thrall); Matar a la bestia (Orgrimmar, Neeru Fireblade). La Alianza no tiene misiones y no se recomienda correrla.",
+      "text_en": "Ragefire Chasm has five quests, all Horde: Testing an Enemy's Strength, Searching for the Lost Satchel, and its follow-up Returning the Lost Satchel (Thunder Bluff, Rahauro); The Power to Destroy... (Undercity, Varimathras); Hidden Enemies (Orgrimmar, Thrall); Slaying the Beast (Orgrimmar, Neeru Fireblade). Alliance has no quests and is not recommended to run it.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Quests for Ragefire Chasm › Ragefire Chasm Dungeon Quests",
+          "url": "https://www.icy-veins.com/wow-forever/ragefire-chasm-quests",
+          "date": "2026-09-29"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-hall-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Salón de los Feudales: entrada y qué esperar",
+      "title_en": "Hall of Thanes: Entrance and What to Expect",
+      "summary_es": "Nueva mazmorra 13-18 bajo Forjaz; tres misiones de Alianza y jefes con adds, empujes y miedo.",
+      "summary_en": "New level 13-18 dungeon under Ironforge; three Alliance quests and bosses with adds, knockbacks, and fear.",
+      "keywords_es": [
+        "salón de los feudales",
+        "hall of thanes",
+        "cómo llegar al salón de los feudales",
+        "salón de los feudales jefes",
+        "mazmorra nueva forjaz"
+      ],
+      "keywords_en": [
+        "hall of thanes",
+        "hall of thanes entrance",
+        "hall of thanes bosses",
+        "new ironforge dungeon",
+        "hall of thanes quests"
+      ],
+      "text_es": "El Salón de los Feudales es nuevo, de nivel 13-18, y está en Forjaz, bajo la Sala del Trono, en la Vieja Forjaz. La Alianza tiene tres de sus cinco misiones y un acceso cómodo; la Horda puede entrar, pero llega peor. En Faldrim limpia las apariciones antes; con Magmatus mata primero al summoner y aparta al jefe del grupo; con Durgen ocupa a los gólems y limpia la sala antes. Plunder empuja: llévalo a la sala anterior para no atraer más mobs.",
+      "text_en": "Hall of Thanes is new, level 13-18, and lies in Ironforge under the throne room, in Old Ironforge. Alliance has three of its five quests and an easy approach; Horde can enter but has a harder trip. Clear the apparitions before Faldrim; with Magmatus kill the summoner first and keep the boss away from the group; with Durgen handle the golems and clear the room first. Plunder knocks back: pull him to the previous room so you do not attract more mobs.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Hall of Thanes Dungeon Guide › Hall of Thanes Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/hall-of-thanes-guide",
+          "date": "2026-10-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-hall-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones del Salón de los Feudales",
+      "title_en": "Hall of Thanes Quests",
+      "summary_es": "Cinco misiones, tres de Alianza; se cogen dentro del Salón, en Forjaz y en Dun Morogh.",
+      "summary_en": "Five quests, three Alliance-only; they start inside the Hall, in Ironforge, and in Dun Morogh.",
+      "keywords_es": [
+        "misiones del salón de los feudales",
+        "un agravio antiguo",
+        "reliquias importantes",
+        "incursión en la antigua forjaz",
+        "misiones alianza salón"
+      ],
+      "keywords_en": [
+        "hall of thanes quests",
+        "an ancient grudge",
+        "important heirlooms",
+        "old ironforge incursion",
+        "alliance hall of thanes"
+      ],
+      "text_es": "El Salón de los Feudales tiene cinco misiones; tres son solo de Alianza. Un agravio antiguo y El tratado de entendimiento se cogen dentro; Reliquias importantes y Los muertos sin descanso en Forjaz (Thom Filch y Afadra Dunwall), e Incursión en la Antigua Forjaz en Dun Morogh (Earthseer Farsen). Tres de las cinco son solo de Alianza; las otras dos están abiertas a las dos facciones.",
+      "text_en": "Hall of Thanes has five quests; three are Alliance-only. An Ancient Grudge and The Treaty of Understanding start inside; Important Heirlooms and The Restless Dead in Ironforge (Thom Filch and Afadra Dunwall), and Old Ironforge Incursion in Dun Morogh (Earthseer Farsen). The names are the same for both factions, but the Alliance quests are not available to Horde.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Quests for Hall of Thanes › Hall of Thanes Dungeon Quests",
+          "url": "https://www.icy-veins.com/wow-forever/hall-of-thanes-quests",
+          "date": "2026-09-30"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-ruinas-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Ruinas de Lordaeron: entrada y qué esperar",
+      "title_en": "Ruins of Lordaeron: Entrance and What to Expect",
+      "summary_es": "Nueva mazmorra 15-20 en Entrañas; seis jefes, oleadas y un raro que solo puede matar la Horda.",
+      "summary_en": "New level 15-20 dungeon in Undercity; six bosses, waves, and a rare only Horde can kill.",
+      "keywords_es": [
+        "ruinas de lordaeron",
+        "ruins of lordaeron",
+        "cómo llegar a las ruinas de lordaeron",
+        "ruinas de lordaeron jefes",
+        "mazmorra nueva entrañas"
+      ],
+      "keywords_en": [
+        "ruins of lordaeron",
+        "ruins of lordaeron entrance",
+        "ruins of lordaeron bosses",
+        "new undercity dungeon",
+        "ruins of lordaeron quests"
+      ],
+      "text_es": "Las Ruinas de Lordaeron son nuevas, de nivel 15-20, y están en Entrañas, a la izquierda de la entrada a las Ruinas. Tiene seis jefes y un raro; las misiones se reparten entre seis de Horda y cuatro de Alianza. El Barón empuja y reduce la amenaza del tanque, que debe volver a provocarlo; Viktor y The Abandoned invocan oleadas, así que guarda curación; Rath'mael exige interrumpir su golpe de llamas. El Lordaeron Captain es raro, amistoso para la Alianza y solo lo puede matar la Horda.",
+      "text_en": "Ruins of Lordaeron is new, level 15-20, and sits in Undercity, left of the entrance to the Ruins. It has six bosses and a rare; quests split into six Horde and four Alliance. The Baron knocks back and lowers the tank's threat, so the tank must taunt him back; Viktor and The Abandoned summon waves, so save healing; Rath'mael requires interrupting his flame strike. The Lordaeron Captain is a rare, friendly to Alliance, and only Horde can kill him.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Ruins of Lordaeron Dungeon Guide › Ruins of Lordaeron Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/ruins-of-lordaeron-guide",
+          "date": "2026-10-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-ruinas-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones de las Ruinas de Lordaeron",
+      "title_en": "Ruins of Lordaeron Quests",
+      "summary_es": "Diez misiones, seis de Horda y cuatro de Alianza; muchas empiezan dentro o en Entrañas.",
+      "summary_en": "Ten quests, six Horde and four Alliance; many start inside or in Undercity.",
+      "keywords_es": [
+        "misiones de las ruinas de lordaeron",
+        "abominable creatures",
+        "justicia de la luz",
+        "la cólera de rath'mael",
+        "el blasón de lordaeron"
+      ],
+      "keywords_en": [
+        "ruins of lordaeron quests",
+        "abominable creatures",
+        "light's justice",
+        "wrath of rath'mael",
+        "crest of lordaeron"
+      ],
+      "text_es": "Hay diez misiones: seis de Horda y cuatro de Alianza. Dentro empiezan Abominable Creatures (Captain Truman), La insignia ensangrentada, Recuerda el amor que te tengo y Unending Torment; El blasón de Lordaeron tiene versión de Alianza (Ventormenta, Lady Dena) y de Horda (Entrañas, Oran). Fuera: Una petición aterradora (Bosque de Argénteos, Tabitha), Justicia de la Luz y The New Plague (Entrañas), y La cólera de Rath'mael (Claros de Tirisfal, Deathguard Kristof).",
+      "text_en": "There are ten quests: six Horde and four Alliance. Inside start Abominable Creatures (Captain Truman), Bloodied Insignia, Remember That I Love You, and Unending Torment; Crest of Lordaeron has an Alliance version (Stormwind, Lady Dena) and a Horde one (Undercity, Oran). Outside: A Frightened Request (Silverpine Forest, Tabitha), Light's Justice and The New Plague (Undercity), and The Wrath of Rath'mael (Tirisfal Glades, Deathguard Kristof).",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Quests for Ruins of Lordaeron › Ruins of Lordaeron Dungeon Quests",
+          "url": "https://www.icy-veins.com/wow-forever/ruins-of-lordaeron-quests",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-wailing-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Cuevas de los Lamentos: entrada y qué esperar",
+      "title_en": "Wailing Caverns: Entrance and What to Expect",
+      "summary_es": "Cuevas de los Lamentos está en Los Baldíos, es 15-24 y mezcla druidas, agua y un jefe final invocado.",
+      "summary_en": "Wailing Caverns is in the Barrens, level 15-24, mixing druids, water, and a summoned final boss.",
+      "keywords_es": [
+        "cuevas de los lamentos",
+        "wailing caverns",
+        "cómo llegar a cuevas de los lamentos",
+        "cuevas de los lamentos jefes",
+        "mutanus"
+      ],
+      "keywords_en": [
+        "wailing caverns",
+        "wailing caverns entrance",
+        "wailing caverns bosses",
+        "mutanus",
+        "wailing caverns quests"
+      ],
+      "text_es": "Las Cuevas de los Lamentos están en Los Baldíos, junto al oasis Lushwater y al suroeste del Cruce. Son de nivel 15-24; la Horda llega fácil y la Alianza debe venir desde Bahía del Botín o Vallefresno. Los druidas enemigos duermen y lanzan rayos: interrumpe el sueño y separa patrullas. En Verdan, aléjate de su cuerpo si no necesitas melé; Mutanus se invoca tras matar a los cuatro líderes y escoltar al discípulo de Naralex, con oleadas, miedo y sueño.",
+      "text_en": "Wailing Caverns is in the Barrens by Lushwater Oasis, southwest of the Crossroads. It is level 15-24; Horde reaches it easily and Alliance comes from Booty Bay or Ashenvale. The enemy druids sleep and cast lightning: interrupt the sleep and split patrols. Against Verdan, stay away from his body if you do not need melee; Mutanus is summoned after killing the four leaders and escorting the Disciple of Naralex, with waves, fear, and sleep.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Wailing Caverns Dungeon Guide › Wailing Caverns Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/wailing-caverns-guide",
+          "date": "2026-10-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-wailing-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones de las Cuevas de los Lamentos",
+      "title_en": "Wailing Caverns Quests",
+      "summary_es": "Siete misiones, dos solo de Horda; varias empiezan en Los Baldíos y dos en Cima del Trueno.",
+      "summary_en": "Seven quests, two Horde-only; several start in the Barrens and two in Thunder Bluff.",
+      "keywords_es": [
+        "misiones de cuevas de los lamentos",
+        "pellejo de los descarriados",
+        "líderes del colmillo",
+        "erradicación de descarriados",
+        "repitilia"
+      ],
+      "keywords_en": [
+        "wailing caverns quests",
+        "deviate hides",
+        "leaders of the fang",
+        "deviate eradication",
+        "serpentbloom"
+      ],
+      "text_es": "Hay siete misiones; dos son solo de Horda: Repitilia (Cima del Trueno, Apothecary Zamah) y Líderes del Colmillo (Cima del Trueno, Nara Wildmane). En Los Baldíos empiezan Pellejo de los descarriados (Nalpak), ¡A por la botella! (Crane Operator Bigglefuzz), Las bebidas astutas (Mebok Mizzyrix) y Erradicación de descarriados (Ebru). El fragmento brillante empieza con el Fragmento resplandeciente de Mutanus.",
+      "text_en": "There are seven quests; two are Horde-only: Serpentbloom (Thunder Bluff, Apothecary Zamah) and Leaders of the Fang (Thunder Bluff, Nara Wildmane). In the Barrens start Deviate Hides (Nalpak), Trouble at the Docks (Crane Operator Bigglefuzz), Smart Drinks (Mebok Mizzyrix), and Deviate Eradication (Ebru). The Glowing Shard starts from Mutanus's loot.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Quests for Wailing Caverns › Wailing Caverns Dungeon Quests",
+          "url": "https://www.icy-veins.com/wow-forever/wailing-caverns-quests",
+          "date": "2026-09-30"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-deadmines-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Minas de la Muerte: entrada y qué esperar",
+      "title_en": "Deadmines: Entrance and What to Expect",
+      "summary_es": "Minas de la Muerte está en Páramos de Poniente, es 17-26 y sus siete misiones son de Alianza.",
+      "summary_en": "Deadmines is in Westfall, level 17-26, and its seven quests are Alliance-only.",
+      "keywords_es": [
+        "minas de la muerte",
+        "deadmines",
+        "cómo llegar a minas de la muerte",
+        "minas de la muerte jefes",
+        "van cleef"
+      ],
+      "keywords_en": [
+        "deadmines",
+        "deadmines entrance",
+        "deadmines bosses",
+        "van cleef",
+        "deadmines quests"
+      ],
+      "text_es": "Las Minas de la Muerte están en Páramos de Poniente, en una casa de Moonbrook, al sur de la zona. Son de nivel 17-26; la Alianza llega fácil y la Horda debe venir en barco desde Trinquete. Rhahk'Zor comparte sala con dos guardias: sepáralos; Sneed's Shredder tiene miedo en área, así que limpia goblins; Mr. Smite aturde a todos al 66% y 33% y trae guardias, y VanCleef invoca más adds al 50%. Cookie se kitéa y se le interrumpe la curación.",
+      "text_en": "Deadmines is in Westfall, inside a house in Moonbrook at the south of the zone. It is level 17-26; Alliance reaches it easily and Horde must take the boat from Ratchet. Rhahk'Zor shares a room with two guards: separate them; Sneed's Shredder has area fear, so clear goblins; Mr. Smite stuns everyone at 66% and 33% and brings guards, and VanCleef summons more adds at 50%. Kite Cookie and interrupt his healing.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Deadmines Dungeon Guide › Deadmines Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/deadmines-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-deadmines-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones de las Minas de la Muerte",
+      "title_en": "Deadmines Quests",
+      "summary_es": "Siete misiones solo de Alianza; empiezan en Páramos de Poniente y Ventormenta, y una con el botín de VanCleef.",
+      "summary_en": "Seven Alliance-only quests; they start in Westfall and Stormwind, and one from VanCleef's loot.",
+      "keywords_es": [
+        "misiones de minas de la muerte",
+        "la hermandad de los defias",
+        "pañuelos rojos de seda",
+        "la carta sin enviar",
+        "misiones alianza deadmines"
+      ],
+      "keywords_en": [
+        "deadmines quests",
+        "the defias brotherhood",
+        "red silk bandanas",
+        "the unsent letter",
+        "alliance deadmines quests"
+      ],
+      "text_es": "Las siete misiones son solo de Alianza. En Páramos de Poniente empiezan Destrucción en las Minas de la Muerte (Alba Fairmoon), Pañuelos rojos de seda (Scout Riell) y La hermandad de los Defias (Gryan Stoutmantle); en Ventormenta, La recolección de Tarjetas del Sindicato Minero y Oh hermano... (Wilder Thistlenettle) y Asalto subterráneo (Shoni). La carta sin enviar empieza con el botín de VanCleef y se entrega en Ventormenta a Baros Alexston.",
+      "text_en": "All seven quests are Alliance-only. In Westfall start Destruction in Deadmines (Alba Fairmoon), Red Silk Bandanas (Scout Riell), and The Defias Brotherhood (Gryan Stoutmantle); in Stormwind, Collecting Memories and Oh Brother... (Wilder Thistlenettle) and Underground Assault (Shoni). The Unsent Letter starts from VanCleef's loot and is turned in to Baros Alexston in Stormwind.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Quests for Deadmines › Deadmines Dungeon Quests",
+          "url": "https://www.icy-veins.com/wow-forever/deadmines-quests",
+          "date": "2026-09-30"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-shadowfang-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Castillo de Colmillo Oscuro: entrada y qué esperar",
+      "title_en": "Shadowfang Keep: Entrance and What to Expect",
+      "summary_es": "Castillo de Colmillo Oscuro está en Bosque de Argénteos, es 20-30 y castiga con salas estrechas y maldiciones.",
+      "summary_en": "Shadowfang Keep is in Silverpine Forest, level 20-30, and punishes with tight rooms and curses.",
+      "keywords_es": [
+        "castillo de colmillo oscuro",
+        "shadowfang keep",
+        "cómo llegar a colmillo oscuro",
+        "colmillos oscuro jefes",
+        "arugal"
+      ],
+      "keywords_en": [
+        "shadowfang keep",
+        "shadowfang keep entrance",
+        "shadowfang keep bosses",
+        "arugal",
+        "shadowfang keep quests"
+      ],
+      "text_es": "El Castillo de Colmillo Oscuro está en Bosque de Argénteos, subiendo la rampa cerca del Muro de Greymane. Es de nivel 20-30; la Horda llega fácil y la Alianza desde Puerto de Menethil y Costasur. Las salas son estrechas: limpia patrullas y lleva control. Baron Silverlaine aplica una maldición que reduce la curación un 75%, así que disípala; Commander Springvale trae un guardia con silencio y se cura; Arugal se teletransporta y baja la amenaza del tanque: usa esquinas para cortar la línea de visión.",
+      "text_en": "Shadowfang Keep is in Silverpine Forest, up the ramp near the Greymane Wall. It is level 20-30; Horde reaches it easily and Alliance comes from Menethil Harbor and Southshore. Rooms are tight: clear patrols and bring control. Baron Silverlaine applies a curse that cuts healing by 75%, so dispel it; Commander Springvale brings a guard with silence and heals himself; Arugal teleports and drops the tank's threat: use corners to break line of sight.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Shadowfang Keep Dungeon Guide › Shadowfang Keep Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/shadowfang-keep-guide",
+          "date": "2026-10-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-shadowfang-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones del Castillo de Colmillo Oscuro",
+      "title_en": "Shadowfang Keep Quests",
+      "summary_es": "Seis misiones: tres de clase y tres de Horda; incluyen Brujo, Pícaro y Paladín.",
+      "summary_en": "Six quests: three class-specific and three Horde; they include Warlock, Rogue, and Paladin.",
+      "keywords_es": [
+        "misiones de colmillo oscuro",
+        "el orbe de soran'ruk",
+        "the horn of xelthos",
+        "la prueba de rectitud",
+        "arugal debe morir"
+      ],
+      "keywords_en": [
+        "shadowfang keep quests",
+        "orb of soran'ruk",
+        "horn of xelthos",
+        "test of righteousness",
+        "arugal must die"
+      ],
+      "text_es": "Hay seis misiones: tres de clase y tres de Horda. El orbe de Soran'ruk es de Brujo (Los Baldíos, Doan Karhan); The Horn of Xelthos es de Pícaro y obliga a hacerla en solitario (Bosque de Argénteos); La prueba de rectitud es de Paladín (Dun Morogh, Jordan Stilwell). Para la Horda: Mortacechadores en Colmillo Oscuro (Bosque de Argénteos, High Executor Hadrec), El Libro de Ur (Entrañas, Keeper Bel'dugur) y Arugal debe morir (Bosque de Argénteos, Dalar Dawnweaver).",
+      "text_en": "There are six quests: three class-specific and three Horde. The Orb of Soran'ruk is for Warlock (Barrens, Doan Karhan); The Horn of Xelthos is for Rogue and must be done solo (Silverpine Forest); The Test of Righteousness is for Paladin (Dun Morogh, Jordan Stilwell). For Horde: Deathstalkers in Shadowfang (Silverpine Forest, High Executor Hadrec), The Book of Ur (Undercity, Keeper Bel'dugur), and Arugal Must Die (Silverpine Forest, Dalar Dawnweaver).",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Quests for Shadowfang Keep › Shadowfang Keep Dungeon Quests",
+          "url": "https://www.icy-veins.com/wow-forever/shadowfang-keep-quests",
+          "date": "2026-10-02"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-blackfathom-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Cavernas de Brazanegra: entrada y qué esperar",
+      "title_en": "Blackfathom Deeps: Entrance and What to Expect",
+      "summary_es": "Cavernas de Brazanegra está en Vallefresno, es 24-32 y combina agua, patrullas y cuatro braseros.",
+      "summary_en": "Blackfathom Deeps is in Ashenvale, level 24-32, and mixes water, patrols, and four braziers.",
+      "keywords_es": [
+        "cavernas de brazanegra",
+        "blackfathom deeps",
+        "cómo llegar a brazanegra",
+        "brazanegra jefes",
+        "kelris"
+      ],
+      "keywords_en": [
+        "blackfathom deeps",
+        "blackfathom deeps entrance",
+        "blackfathom bosses",
+        "kelris",
+        "blackfathom quests"
+      ],
+      "text_es": "Las Cavernas de Brazanegra están en Vallefresno, al norte de la costa de Zoram, bajo tierra. Son de nivel 24-32 y tienen partes bajo el agua: lleva respiración acuática o pociones. Lady Sarevess y Gelihast castigan a los cuerpos a cuerpo; Lorgus tiene un Escudo de relámpagos que conviene disipar; Kelris duerme a los cercanos y hay que encender cuatro braseros uno a uno; Aku'mai pega fuerte al tanque y deja nubes de veneno. Un sanador atento y control para patrullas marcan la diferencia.",
+      "text_en": "Blackfathom Deeps is in Ashenvale, north of the Zoram Strand, underground. It is level 24-32 and has underwater sections: bring water breathing or potions. Lady Sarevess and Gelihast punish melee; Lorgus has a lightning shield worth dispelling; Kelris sleeps nearby players and you must light four braziers one at a time; Aku'mai hits the tank hard and leaves poison clouds. An attentive healer and control for patrols make the difference.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Blackfathom Deeps Dungeon Guide › Blackfathom Deeps Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/blackfathom-deeps-guide",
+          "date": "2026-10-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-blackfathom-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones de las Cavernas de Brazanegra",
+      "title_en": "Blackfathom Deeps Quests",
+      "summary_es": "Trece misiones, seis de Alianza y seis de Horda, más la de Brujo; muchas empiezan en Darnassus y Vallefresno.",
+      "summary_en": "Thirteen quests, six Alliance and six Horde, plus the Warlock one; many start in Darnassus and Ashenvale.",
+      "keywords_es": [
+        "misiones de brazanegra",
+        "la vileza de brazanegra",
+        "la esencia de aku'mai",
+        "lealtad a los dioses antiguos",
+        "el orbe de soran'ruk"
+      ],
+      "keywords_en": [
+        "blackfathom deeps quests",
+        "blackfathom villainy",
+        "essence of aku'mai",
+        "allegiance to the old gods",
+        "orb of soran'ruk"
+      ],
+      "text_es": "Hay trece misiones: seis de Alianza, seis de Horda y la de Brujo El orbe de Soran'ruk (Los Baldíos, Doan Karhan). En Forjaz: El conocimiento de las profundidades; en Darnassus: Buscando a Thaelrid y Cascada del Crepúsculo; dentro: La vileza de Brazanegra; en Costa Oscura: Investigaciones acerca de la corrupción; en Vallefresno: La esencia de Aku'Mai, Lealtad a los dioses antiguos y Entre ruinas. Barón Aquanis empieza con un objeto y se entrega en Vallefresno a Je'neu; La búsqueda de la gema Kor es de Paladín y tiene versión de cada facción.",
+      "text_en": "There are thirteen quests: six Alliance, six Horde, and the Warlock quest The Orb of Soran'ruk (Barrens, Doan Karhan). In Ironforge: Knowledge in the Deeps; in Darnassus: In Search of Thaelrid and Twilight Falls; inside: Blackfathom Villainy; in Darkshore: Researching the Corruption; in Ashenvale: The Essence of Aku'Mai, Allegiance to the Old Gods, and Amongst the Ruins. Baron Aquanis starts from an item and is turned in at Ashenvale to Je'neu; Seeking the Kor Gem is for Paladin and has a version for each faction.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Quests for Blackfathom Deeps › Blackfathom Deeps Dungeon Quests",
+          "url": "https://www.icy-veins.com/wow-forever/blackfathom-deeps-quests",
+          "date": "2026-09-30"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-stockade-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Mazmorras de Ventormenta: entrada y qué esperar",
+      "title_en": "Stormwind Stockade: Entrance and What to Expect",
+      "summary_es": "Mazmorras de Ventormenta es 24-32, casi solo de Alianza, y sus jefes vienen con guardias Defias.",
+      "summary_en": "Stormwind Stockade is 24-32, effectively Alliance-only, and its bosses come with Defias guards.",
+      "keywords_es": [
+        "mazmorras de ventormenta",
+        "stockade",
+        "cómo llegar a las mazmorras de ventormenta",
+        "mazmorras de ventormenta jefes",
+        "bazil thredd"
+      ],
+      "keywords_en": [
+        "stormwind stockade",
+        "stockade entrance",
+        "stockade bosses",
+        "bazil thredd",
+        "stockade quests"
+      ],
+      "text_es": "Las Mazmorras de Ventormenta están en Ventormenta, en un edificio al norte del Barrio de los Magos. Son de nivel 24-32 y son prácticamente de Alianza: sus seis misiones son de Alianza y no se recomienda a la Horda. Los jefes vienen con guardias Defias: usa control y mata los adds primero. Targorr pega rápido y se enfurece al 30%; Bazil aturde con una bomba de humo y Dextren tiene miedo en área, así que limpia las salas antes. Un sanador atento al tanque durante los aturdimientos ayuda mucho.",
+      "text_en": "Stormwind Stockade is in Stormwind, in a building north of the Mage Quarter. It is level 24-32 and effectively Alliance-only: its six quests are Alliance and Horde is not recommended. Bosses come with Defias guards: use control and kill adds first. Targorr attacks fast and enrages at 30%; Bazil stuns with a smoke bomb and Dextren has area fear, so clear the rooms first. A healer watching the tank during stuns helps a lot.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: The Stockade Dungeon Guide › The Stockade Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/the-stockade-guide",
+          "date": "2026-10-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-stockade-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones de las Mazmorras de Ventormenta",
+      "title_en": "Stormwind Stockade Quests",
+      "summary_es": "Seis misiones solo de Alianza; empiezan en Ventormenta, Crestagrana, Bosque Crepúsculo y Los Humedales.",
+      "summary_en": "Six Alliance-only quests; they start in Stormwind, Redridge, Duskwood, and the Wetlands.",
+      "keywords_es": [
+        "misiones de las mazmorras de ventormenta",
+        "detener el motín",
+        "crimen y castigo",
+        "el color de la sangre",
+        "la furia mora en las profundidades"
+      ],
+      "keywords_en": [
+        "stockade quests",
+        "quell the uprising",
+        "crime and punishment",
+        "the color of blood",
+        "the fury runs deep"
+      ],
+      "text_es": "Las seis misiones son solo de Alianza. En Ventormenta empiezan Detener el motín y El motín de las Mazmorras (Warden Thelwater) y El color de la sangre (Nikova Raskol); en Montañas Crestagrana, Lo que sucede alrededor... (Guard Berton); en Bosque Crepúsculo, Crimen y castigo (Councilman Millstipe); y en Los Humedales, La furia mora en las profundidades (Motley Garmason). La Horda no tiene misiones y no se recomienda entrar.",
+      "text_en": "All six quests are Alliance-only. In Stormwind start Quell the Uprising and The Stockade Riots (Warden Thelwater) and The Color of Blood (Nikova Raskol); in Redridge Mountains, What Comes Around... (Guard Berton); in Duskwood, Crime and Punishment (Councilman Millstipe); and in the Wetlands, The Fury Runs Deep (Motley Garmason). Horde has no quests and is not recommended to enter.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Quests for The Stockade › The Stockades Dungeon Quests",
+          "url": "https://www.icy-veins.com/wow-forever/the-stockade-quests",
+          "date": "2026-09-30"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-excavation-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Excavación: Los Humedales, entrada y qué esperar",
+      "title_en": "Excavation: Wetlands, Entrance and What to Expect",
+      "summary_es": "Nueva mazmorra 26-33 en Los Humedales; raptores, miedo y un guardián que empuja y aturde.",
+      "summary_en": "New level 26-33 dungeon in the Wetlands; raptors, fear, and a guardian that knocks back and stuns.",
+      "keywords_es": [
+        "excavación los humedales",
+        "excavation site wetlands",
+        "cómo llegar a la excavación",
+        "excavación humedales jefes",
+        "shadetooth"
+      ],
+      "keywords_en": [
+        "excavation site wetlands",
+        "excavation wetlands entrance",
+        "excavation wetlands bosses",
+        "shadetooth",
+        "excavation quests"
+      ],
+      "text_es": "Excavación: Los Humedales es nueva, de nivel 26-33, y está en Los Humedales, por un camino al sur de la cueva de Thelgen. Tiene cinco misiones de Alianza y tres de Horda. Saltspine reduce la precisión en melé y frena al tanque; Shadetooth es el más duro: trae dos raptores que reducen la curación del tanque, tiene miedo y se enfurece; el Relic Guardian empuja, aturde y ralentiza, y se activa con el panel. Lleva control y limpia los raptores escondidos antes del jefe.",
+      "text_en": "Excavation: Wetlands is new, level 26-33, and lies in the Wetlands on a path south of Thelgen Rock cavern. It has five Alliance quests and three Horde. Saltspine lowers melee accuracy and slows the tank; Shadetooth is the hardest: he brings two raptors that reduce tank healing, has fear, and enrages; the Relic Guardian knocks back, stuns, and slows, and is activated by the panel. Bring control and clear the hidden raptors before the boss.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Excavation Site: Wetlands Dungeon Guide › Excavation Site: Wetlands Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/excavation-site-wetlands-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-excavation-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones de Excavación: Los Humedales",
+      "title_en": "Excavation: Wetlands Quests",
+      "summary_es": "Ocho misiones, cinco de Alianza y tres de Horda; varias empiezan en Los Humedales.",
+      "summary_en": "Eight quests, five Alliance and three Horde; several start in the Wetlands.",
+      "keywords_es": [
+        "misiones de la excavación",
+        "en busca de filosón",
+        "horrors in the highland",
+        "changing tastes",
+        "dragonmaw rumors"
+      ],
+      "keywords_en": [
+        "excavation wetlands quests",
+        "songblade search",
+        "horrors in the highland",
+        "changing tastes",
+        "dragonmaw rumors"
+      ],
+      "text_es": "Hay ocho misiones: cinco de Alianza y tres de Horda. En Los Humedales empiezan Highland Hides (James Halloran), Horrors in the Highland (Rethiel) y Lost Relic Carry (botín del Guardián, se entrega a Prospector Whelgar); en Montañas Crestagrana, En busca de Filosón (Dorin); en Vallefresno, Seeking Caitlin (Llana). De Horda: Changing Tastes (Orgrimmar, Borstan), Dragonmaw Rumors (Tierras Altas de Arathi, Zaruk) y Elder Knowledge (botín, se entrega en Cima del Trueno a Bashana).",
+      "text_en": "There are eight quests: five Alliance and three Horde. In the Wetlands start Highland Hides (James Halloran), Horrors in the Highland (Rethiel), and Lost Relic Carry (Guardian loot, turned in to Prospector Whelgar); in Redridge Mountains, Songblade Search (Dorin); in Ashenvale, Seeking Caitlin (Llana). For Horde: Changing Tastes (Orgrimmar, Borstan), Dragonmaw Rumors (Arathi Highlands, Zaruk), and Elder Knowledge (loot, turned in at Thunder Bluff to Bashana).",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Quests for Excavation Site: Wetlands › Excavation Site: Wetlands Dungeon Quests",
+          "url": "https://www.icy-veins.com/wow-forever/excavation-site-wetlands-quests",
+          "date": "2026-10-02"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-dalaran-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Ciudad de Dalaran: entrada y qué esperar",
+      "title_en": "City of Dalaran: Entrance and What to Expect",
+      "summary_es": "Nueva mazmorra 28-35 en Alterac; la Horda necesita llave y varios jefes tienen mecánicas letales.",
+      "summary_en": "New level 28-35 dungeon in Alterac; Horde needs a key and several bosses have lethal mechanics.",
+      "keywords_es": [
+        "ciudad de dalaran",
+        "city of dalaran",
+        "cómo llegar a dalaran",
+        "dalaran mazmorra jefes",
+        "llave cloacas dalaran"
+      ],
+      "keywords_en": [
+        "city of dalaran",
+        "dalaran dungeon entrance",
+        "dalaran dungeon bosses",
+        "dalaran sewer key",
+        "city of dalaran quests"
+      ],
+      "text_es": "La Ciudad de Dalaran es nueva, de nivel 28-35, y está en Montañas de Alterac, con la entrada en las cloacas. La Alianza entra desde la ciudad; la Horda necesita la llave de las cloacas, que sale de una cadena en Trabalomas, o sufrirá. Arcane Anomaly tiene un cortador que mata, Mana Devourer drena maná y hay que matarlo rápido, Unstable Sentinel castiga a quien esté a 25 yardas y Shade of the Archmage hace polimorfia masiva si se queda sin maná. Lyn the Ignored se invoca con un objeto de Castillo de Colmillo Oscuro.",
+      "text_en": "City of Dalaran is new, level 28-35, and lies in the Alterac Mountains, with its entrance in the sewers. Alliance enters from the city; Horde needs the sewer key from a Hillsbrad chain or will struggle. Arcane Anomaly has a lethal cutter, Mana Devourer drains mana and must die quickly, Unstable Sentinel punishes anyone within 25 yards, and Shade of the Archmage mass polymorphs if he runs out of mana. Lyn the Ignored is summoned with an item from Shadowfang Keep.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: City of Dalaran Dungeon Guide › City of Dalaran Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/city-of-dalaran-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-dalaran-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones de la Ciudad de Dalaran",
+      "title_en": "City of Dalaran Quests",
+      "summary_es": "Ocho misiones, cuatro de Alianza y cuatro de Horda; Heart of Disruption da la llave de las cloacas.",
+      "summary_en": "Eight quests, four Alliance and four Horde; Heart of Disruption gives the sewer key.",
+      "keywords_es": [
+        "misiones de dalaran",
+        "heart of disruption",
+        "starving arcane",
+        "the grave knight",
+        "source of power"
+      ],
+      "keywords_en": [
+        "city of dalaran quests",
+        "heart of disruption",
+        "starving arcane",
+        "the grave knight",
+        "source of power"
+      ],
+      "text_es": "Hay ocho misiones: cuatro de Alianza y cuatro de Horda; Heart of Disruption existe para las dos y da la llave de las cloacas. En Bosque de Argénteos empiezan Heart of Disruption y Starving Arcane (Image of Archmage Modera); en Ventormenta, A Green Sample (Shylamiir) y Power Overwhelming (Andromath); dentro, Opportunistic Education (Rexxie); en Trabalomas, The Grave Knight (Melisara); y en Entrañas, Source of Power (Doctor Martin Felben).",
+      "text_en": "There are eight quests: four Alliance and four Horde; Heart of Disruption exists for both and gives the sewer key. In Silverpine Forest start Heart of Disruption and Starving Arcane (Image of Archmage Modera); in Stormwind, A Green Sample (Shylamiir) and Power Overwhelming (Andromath); inside, Opportunistic Education (Rexxie); in Hillsbrad, The Grave Knight (Melisara); and in Undercity, Source of Power (Doctor Martin Felben).",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Quests for City of Dalaran › City of Dalaran Dungeon Quests",
+          "url": "https://www.icy-veins.com/wow-forever/city-of-dalaran-quests",
+          "date": "2026-09-30"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-gnomeregan-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Gnomeregan: entrada y qué esperar",
+      "title_en": "Gnomeregan: Entrance and What to Expect",
+      "summary_es": "Gnomeregan está en Dun Morogh, es 29-38 y la Horda puede teletransportarse con una cadena de attunement.",
+      "summary_en": "Gnomeregan is in Dun Morogh, level 29-38, and Horde can teleport in with an attunement chain.",
+      "keywords_es": [
+        "gnomeregan",
+        "cómo llegar a gnomeregan",
+        "gnomeregan jefes",
+        "gnomeregan attunement",
+        "thermaplugg"
+      ],
+      "keywords_en": [
+        "gnomeregan",
+        "gnomeregan entrance",
+        "gnomeregan bosses",
+        "gnomeregan attunement",
+        "thermaplugg"
+      ],
+      "text_es": "Gnomeregan está en Dun Morogh, al noroeste, tras la aldea Brewnall. Es de nivel 29-38; la Alianza llega fácil y la Horda usa una cadena de attunement para teletransportarse desde Bahía del Botín. La Llave de taller sale de Electrocutioner 6000 y abre la entrada del taller. Grubbis empieza con un evento; Electrocutioner castiga si el grupo se apila; Crowd Pummeler golpea en cono e interrumpe; Thermaplugg invoca bombas andantes, así que apaga dispensadores o mátalas. Lleva sanador y control para las oleadas.",
+      "text_en": "Gnomeregan is in Dun Morogh, northwest, past Brewnall Village. It is level 29-38; Alliance reaches it easily and Horde uses an attunement chain to teleport from Booty Bay. The workshop key drops from Electrocutioner 6000 and opens the workshop entrance. Grubbis starts with an event; Electrocutioner punishes stacking; Crowd Pummeler hits in a cone and interrupts; Thermaplugg summons walking bombs, so turn off dispensers or kill them. Bring a healer and control for the waves.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Gnomeregan Dungeon Guide › Gnomeregan Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/gnomeregan-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-gnomeregan-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones de Gnomeregan",
+      "title_en": "Gnomeregan Quests",
+      "summary_es": "Once misiones, siete de Alianza y una de Horda, más la cadena de teletransporte de Horda.",
+      "summary_en": "Eleven quests, seven Alliance and one Horde, plus the Horde teleport chain.",
+      "keywords_es": [
+        "misiones de gnomeregan",
+        "un buen lío",
+        "la gran traición",
+        "las guerras de la plataforma",
+        "gnomer-gooooone"
+      ],
+      "keywords_en": [
+        "gnomeregan quests",
+        "a fine mess",
+        "the grand betrayal",
+        "rig wars",
+        "gnomer-gooooone"
+      ],
+      "text_es": "Hay once misiones (siete de Alianza y una de Horda) y una cadena de attunement. En Forjaz: Rescatar los datos, Esencias artificiales, ¡Salva el cerebro de Techrobot! y La gran traición; en Dun Morogh: Gnogaine y Necesitamos más material verdoso; en Ventormenta: Gyrodrillmatic Excavationators; dentro: Un buen lío, ¡El Destellamatic 5200! y Un anillo sucio, que empieza con el Anillo con mugre incrustada; en Orgrimmar: Las guerras de la plataforma. Las guerras de la plataforma, Chief Engineer Scooty y Gnomer-gooooone! abren el teletransporte de Horda en Bahía del Botín.",
+      "text_en": "There are eleven quests (seven Alliance and one Horde) and an attunement chain. In Ironforge: Data Rescue, Essential Artificials, Save Techbot's Brain!, and The Grand Betrayal; in Dun Morogh: Gnogaine and The Only Cure is More Green Glow; in Stormwind: Gyrodrillmatic Excavationators; inside: A Fine Mess, The Sparklematic 5200!, and Grime-Encrusted Ring; in Orgrimmar: Rig Wars. Rig Wars, Chief Engineer Scooty, and Gnomer-gooooone! open the Horde teleporter in Booty Bay.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Quests for Gnomeregan › Gnomeregan Dungeon Quests",
+          "url": "https://www.icy-veins.com/wow-forever/gnomeregan-quests",
+          "date": "2026-09-30"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-razorfen-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Horado Rajacieno: entrada y qué esperar",
+      "title_en": "Razorfen Kraul: Entrance and What to Expect",
+      "summary_es": "Horado Rajacieno está en Los Baldíos, es 29-38 y tiene jefes con elementales,control mental y adds.",
+      "summary_en": "Razorfen Kraul is in the Barrens, level 29-38, with bosses using elementals, mind control, and adds.",
+      "keywords_es": [
+        "horado rajacieno",
+        "razorfen kraul",
+        "cómo llegar a horado rajacieno",
+        "horado rajacieno jefes",
+        "charlga"
+      ],
+      "keywords_en": [
+        "razorfen kraul",
+        "razorfen kraul entrance",
+        "razorfen kraul bosses",
+        "charlga",
+        "razorfen kraul quests"
+      ],
+      "text_es": "Horado Rajacieno está en Los Baldíos, al sur, en la zona de Rajacieno. Es de nivel 29-38; tiene dos misiones de Alianza y tres de Horda, además de neutrales. Roogug es opcional y trae un elemental; Jargba trae dos casters y control mental; Ramtusk pega fuerte y trae dos spearhide; Charlga se tanquea fuera de la plataforma y hay que interrumpir sus hechizos. Los jefes raros no salen siempre, así que no cuentes con su botín.",
+      "text_en": "Razorfen Kraul is in the Barrens, far south, in the Razorfen area. It is level 29-38; it has two Alliance quests and three Horde, plus neutral ones. Roogug is optional and brings an elemental; Jargba brings two casters and mind control; Ramtusk hits hard and brings two spearhides; Charlga is tanked off her platform and her casts must be interrupted. Rare bosses do not always spawn, so do not count on their loot.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Razorfen Kraul Dungeon Guide › Razorfen Kraul Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/razorfen-kraul-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-razorfen-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones de Horado Rajacieno",
+      "title_en": "Razorfen Kraul Quests",
+      "summary_es": "Siete misiones, dos de Alianza y tres de Horda; varias empiezan en Los Baldíos y Cima del Trueno.",
+      "summary_en": "Seven quests, two Alliance and three Horde; several start in the Barrens and Thunder Bluff.",
+      "keywords_es": [
+        "misiones de horado rajacieno",
+        "los tubérculos hojazul",
+        "willix el importador",
+        "la bruja del horado",
+        "guano del horado"
+      ],
+      "keywords_en": [
+        "razorfen kraul quests",
+        "blueleaf tubers",
+        "willix the importer",
+        "crone of the kraul",
+        "going going guano"
+      ],
+      "text_es": "Hay siete misiones: dos de Alianza y tres de Horda. En Los Baldíos empieza Los tubérculos hojazul (Mebok Mizzyrix); dentro, Willix el Importador y Decaída mortal (Heralath); en Feralas, La bruja del Horado (Falfindel, Alianza); en Cima del Trueno, Un destino vengador (Auld Stonespire, Horda). De Horda también: Guano del Horado (Entrañas, Faranell) y Una alianza nefasta (botín de Charlga, se entrega a Varimathras).",
+      "text_en": "There are seven quests: two Alliance and three Horde. In the Barrens starts Blueleaf Tubers (Mebok Mizzyrix); inside, Willix the Importer and Mortality Wanes (Heralath); in Feralas, The Crone of the Kraul (Falfindel, Alliance); in Thunder Bluff, A Vengeful Fate (Auld Stonespire, Horde). Also Horde: Going, Going, Guano! (Undercity, Faranell) and An Unholy Alliance (Charlga's loot, turned in to Varimathras).",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Quests for Razorfen Kraul › Razorfen Kraul Dungeon Quests",
+          "url": "https://www.icy-veins.com/wow-forever/razorfen-kraul-quests",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-scarlet-graveyard-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Monasterio Escarlata: Cementerio",
+      "title_en": "Scarlet Monastery: Graveyard",
+      "summary_es": "Ala 30-38 en Claros de Tirisfal, sin llave; dos misiones de Horda y tres jefes raros.",
+      "summary_en": "Level 30-38 wing in Tirisfal Glades, no key; two Horde quests and three rare bosses.",
+      "keywords_es": [
+        "monasterio escarlata cementerio",
+        "scarlet monastery graveyard",
+        "cómo llegar al monasterio escarlata",
+        "monasterio escarlata jefes",
+        "bloodmage thalnos"
+      ],
+      "keywords_en": [
+        "scarlet monastery graveyard",
+        "scarlet monastery entrance",
+        "scarlet monastery bosses",
+        "bloodmage thalnos",
+        "scarlet monastery quests"
+      ],
+      "text_es": "El Cementerio es la primera ala del Monasterio Escarlata, de nivel 30-38, en Claros de Tirisfal, al noreste. Es la entrada de la izquierda y no pide la Llave Escarlata. Sus dos misiones son de Horda. Vishas es sencillo; los raros Azshir, Fallen Champion e Ironspine añaden miedo, golpe en abanico o veneno; Thalnos lanza dos áreas de fuego y una Descarga de las Sombras que se interrumpe. Limpia la zona antes de tirar a los raros y lleva un sanador atento.",
+      "text_en": "The Graveyard is the first Scarlet Monastery wing, level 30-38, in Tirisfal Glades to the northeast. It is the left entrance and does not require the Scarlet Key. Its two quests are Horde-only. Vishas is simple; the rares Azshir, Fallen Champion, and Ironspine add fear, cleave, or poison; Thalnos casts two fire areas and a Shadow bolt that can be interrupted. Clear the area before pulling rares and bring an attentive healer.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Scarlet Monastery - Graveyard Dungeon Guide › Scarlet Monastery: Graveyard Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/scarlet-monastery-graveyard-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-scarlet-graveyard-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones del Cementerio Escarlata",
+      "title_en": "Scarlet Monastery Graveyard Quests",
+      "summary_es": "Dos misiones de Horda: Corazones de fervor en Entrañas y La venganza de Vorrel dentro.",
+      "summary_en": "Two Horde quests: Hearts of Zeal in Undercity and Vorrel's Revenge inside.",
+      "keywords_es": [
+        "misiones del cementerio escarlata",
+        "corazones de fervor",
+        "la venganza de vorrel",
+        "misiones horda monasterio",
+        "vorrel sengutz"
+      ],
+      "keywords_en": [
+        "scarlet monastery graveyard quests",
+        "hearts of zeal",
+        "vorrel's revenge",
+        "horde scarlet monastery",
+        "vorrel sengutz"
+      ],
+      "text_es": "El Cementerio tiene dos misiones, ambas de Horda. Corazones de fervor empieza en Entrañas con Master Apothecary Faranell y es la continuación de Guano del Horado, de Horado Rajacieno. La venganza de Vorrel empieza dentro con Vorrel Sengutz, al que tortura Vishas; el anillo que pide está en una casa de Montañas de Alterac, frente al lago Lordamere, y Nancy Vishas es élite. No hay misiones de Alianza en esta ala.",
+      "text_en": "The Graveyard has two quests, both Horde. Hearts of Zeal starts in Undercity with Master Apothecary Faranell and follows Going, Going, Guano! from Razorfen Kraul. Vorrel's Revenge starts inside with Vorrel Sengutz, tortured by Vishas; the ring it needs is in a house in the Alterac Mountains overlooking Lordamere Lake, and Nancy Vishas is elite. There are no Alliance quests in this wing.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Quests for Scarlet Monastery - Graveyard › Scarlet Monastery - Graveyard Dungeon Quests",
+          "url": "https://www.icy-veins.com/wow-forever/scarlet-monastery-graveyard-quests",
+          "date": "2026-09-30"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-scarlet-library-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Monasterio Escarlata: Biblioteca",
+      "title_en": "Scarlet Monastery: Library",
+      "summary_es": "Ala 33-41 en Claros de Tirisfal; no pide llave y aquí sale la Llave Escarlata; Doan es el jefe final.",
+      "summary_en": "Level 33-41 wing in Tirisfal Glades; no key needed and the Scarlet Key drops here; Doan is the final boss.",
+      "keywords_es": [
+        "monasterio escarlata biblioteca",
+        "scarlet monastery library",
+        "cómo llegar a la biblioteca escarlata",
+        "arcanist doan",
+        "llave escarlata"
+      ],
+      "keywords_en": [
+        "scarlet monastery library",
+        "scarlet monastery library entrance",
+        "arcanist doan",
+        "scarlet key",
+        "scarlet monastery quests"
+      ],
+      "text_es": "La Biblioteca es la segunda ala del Monasterio Escarlata, de nivel 33-41, en Claros de Tirisfal, al noreste. Es la entrada de la derecha y no pide la Llave Escarlata: de hecho, la llave sale del cofre detrás de Doan. Tiene tres misiones de Alianza y cuatro de Horda. Loksey trae tres sabuesos que hay que matar primero; Doan es caster: tanque en el centro, ranged en los bordes, huye de Detonación y disipa polimorfia y silencio. Un sanador con disipación mágica ayuda.",
+      "text_en": "The Library is the second Scarlet Monastery wing, level 33-41, in Tirisfal Glades to the northeast. It is the right entrance and does not require the Scarlet Key: the key drops from the chest behind Doan. It has three Alliance quests and four Horde. Loksey brings three hounds that must die first; Doan is a caster: tank in the center, ranged at the edges, run from Detonation, and dispel polymorph and silence. A healer with magic dispels helps.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Scarlet Monastery - Library Dungeon Guide › Scarlet Monastery: Library Dungeon Entrance and Basics",
+          "url": "https://www.icy-veins.com/wow-forever/scarlet-monastery-library-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "mazmorra-scarlet-library-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones de la Biblioteca Escarlata",
+      "title_en": "Scarlet Monastery Library Quests",
+      "summary_es": "Siete misiones, tres de Alianza y cuatro de Horda; varias empiezan en Forjaz, Entrañas y Cima del Trueno.",
+      "summary_en": "Seven quests, three Alliance and four Horde; several start in Ironforge, Undercity, and Thunder Bluff.",
+      "keywords_es": [
+        "misiones de la biblioteca escarlata",
+        "mitología de los titanes",
+        "el compendio de los caídos",
+        "prueba de conocimiento",
+        "en el monasterio escarlata"
+      ],
+      "keywords_en": [
+        "scarlet monastery library quests",
+        "mythology of the titans",
+        "compendium of the fallen",
+        "test of lore",
+        "into the scarlet monastery"
+      ],
+      "text_es": "Hay siete misiones: tres de Alianza y cuatro de Horda. In the Name of the Light (Trabalomas, Raleigh), Mitología de los Titanes (Forjaz, Mae Paledust) y Past Due (Montañas de Alterac, Magus Olvek) son de Alianza. De Horda: El Compendio de los Caídos (Cima del Trueno, Sage Truthseeker; los no-muertos no pueden cogerla), Corazones de fervor (Entrañas, Faranell), En el Monasterio Escarlata (Entrañas, Varimathras) y Test de conocimiento (Entrañas, Parqual Fintallas).",
+      "text_en": "There are seven quests: three Alliance and four Horde. In the Name of the Light (Hillsbrad, Raleigh), Mythology of the Titans (Ironforge, Mae Paledust), and Past Due (Alterac Mountains, Magus Olvek) are Alliance. For Horde: Compendium of the Fallen (Thunder Bluff, Sage Truthseeker; Undead cannot take it), Hearts of Zeal (Undercity, Faranell), Into The Scarlet Monastery (Undercity, Varimathras), and Test of Lore (Undercity, Parqual Fintallas).",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: All Available Quests for Scarlet Monastery - Library › Scarlet Monastery - Library Dungeon Quests",
+          "url": "https://www.icy-veins.com/wow-forever/scarlet-monastery-library-quests",
+          "date": "2026-09-30"
+        }
+      ],
+      "updated": "2026-11-15"
+    }
+  ]
+}
