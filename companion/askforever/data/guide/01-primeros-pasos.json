@@ -552,6 +552,112 @@
       "updated": "2026-11-15"
     },
     {
+      "id": "general-saco-dormir-inicio",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Saco de dormir: cómo empezar la cadena",
+      "title_en": "Sleeping bag: how to start the questline",
+      "summary_es": "Dónde empieza la cadena del Saco de dormir acogedor según tu facción y qué preparar.",
+      "summary_en": "Where the Cozy Sleeping Bag questline starts for each faction and what to prepare.",
+      "keywords_es": [
+        "mision del saco de dormir",
+        "cadena del saco de dormir",
+        "saco de dormir acogedor",
+        "empezar saco de dormir",
+        "y la nota que has encontrado"
+      ],
+      "keywords_en": [
+        "sleeping bag quest",
+        "sleeping bag questline",
+        "cozy sleeping bag",
+        "start sleeping bag",
+        "and that note you found"
+      ],
+      "text_es": "La cadena se puede hacer desde nivel 14. En la Alianza empieza en los Restos carbonizados junto a los escombros de la granja de Alexston, en Páramos de Poniente (37.4, 50.7): coges «y la nota que has encontrado...» y la entregas en los restos de una torre al sur del Campamento Taurajo, en Los Baldíos (46.4, 73.9), donde coges Stepping Stones. En la Horda es igual pero al revés. Antes conviene tener puntos de vuelo cerca de Los Baldíos, Sierra Espolón, Loch Modan, Humedales y Trabalomas.",
+      "text_en": "The questline is available from level 14. For the Alliance it starts at the Burned-Out Remains by the debris of Alexston's Farmstead in Westfall (37.4, 50.7): pick up '... and that note you found' and turn it in at the ruined tower south of Camp Taurajo in The Barrens (46.4, 73.9), where you pick up Stepping Stones. For the Horde it is the same in reverse order. Unlock flight paths near The Barrens, Stonetalon Mountains, Loch Modan, Wetlands and Hillsbrad Foothills first.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: How to Get The Sleeping Bag in World of Warcraft Forever › How to Obtain the Cozy Sleeping Bag",
+          "url": "https://www.icy-veins.com/wow-forever/sleeping-bag",
+          "date": "2026-10-10"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-saco-dormir-pasos",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Saco de dormir: Sierra Espolón y Loch Modan",
+      "title_en": "Sleeping bag: Stonetalon and Loch Modan",
+      "summary_es": "Pasos intermedios de la cadena del Saco de dormir: Stepping Stones, Scramble y Wet Job.",
+      "summary_en": "Middle steps of the sleeping bag questline: Stepping Stones, Scramble and Wet Job.",
+      "keywords_es": [
+        "mision del saco de dormir",
+        "cadena del saco de dormir",
+        "saco de dormir acogedor",
+        "stepping stones",
+        "scramble",
+        "wet job"
+      ],
+      "keywords_en": [
+        "sleeping bag quest",
+        "sleeping bag questline",
+        "cozy sleeping bag",
+        "stepping stones",
+        "scramble",
+        "wet job"
+      ],
+      "text_es": "En Sierra Espolón sube por el camino de la montaña al noreste del Refugio Roca del Sol hasta un campamento abandonado (40.8, 52.6): entrega Stepping Stones y coge Scramble. Sigue subiendo hacia el norte sin fallar el salto, o tendrás que dar toda la vuelta, hasta el montículo de tierra (39.6, 49.8): entrega Scramble y coge Wet Job. Después ve a la presa del norte de Loch Modan, salta desde la cabeza de enano más al este y entrega Wet Job en la figura tallada (49.4, 12.9); allí coges Eagle's Fist. Si fallas ese salto caes hasta Humedales.",
+      "text_en": "In Stonetalon Mountains take the mountain path northeast of Sun Rock Retreat up to an abandoned camp (40.8, 52.6): turn in Stepping Stones and pick up Scramble. Keep climbing north without missing the jump, or you must go all the way around, to the mound of dirt (39.6, 49.8): turn in Scramble and pick up Wet Job. Then go to the dam in northern Loch Modan, jump from the easternmost dwarf head and turn in Wet Job at the carved figurine (49.4, 12.9), where you pick up Eagle's Fist. Missing that jump drops you into the Wetlands.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: How to Get The Sleeping Bag in World of Warcraft Forever › How to Obtain the Cozy Sleeping Bag",
+          "url": "https://www.icy-veins.com/wow-forever/sleeping-bag",
+          "date": "2026-10-10"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "general-saco-dormir-final",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Saco de dormir: el paso final",
+      "title_en": "Sleeping bag: the final step",
+      "summary_es": "Último paso de la cadena del Saco de dormir en el Muro de Thoradin.",
+      "summary_en": "Last step of the sleeping bag questline at Thoradin's Wall.",
+      "keywords_es": [
+        "mision del saco de dormir",
+        "cadena del saco de dormir",
+        "saco de dormir acogedor",
+        "eagle's fist",
+        "this must be the place",
+        "muro de thoradin"
+      ],
+      "keywords_en": [
+        "sleeping bag quest",
+        "sleeping bag questline",
+        "cozy sleeping bag",
+        "eagle's fist",
+        "this must be the place",
+        "thoradin's wall"
+      ],
+      "text_es": "El último paso está en el Muro de Thoradin, entre Trabalomas y las Tierras Altas de Arathi. Desde el lado de Trabalomas busca un carro roto: sus restos forman un recorrido de saltos que sube por el muro. Arriba llegarás a una sala llena de trastos; entrega Eagle's Fist en la bolsa colgada de la pared (Tierras Altas de Arathi 22.5, 24.1), coge This Must Be The Place y entrégala en el pergamino que hay justo debajo para recibir el Saco de dormir acogedor.",
+      "text_en": "The last step is at Thoradin's Wall, between Hillsbrad Foothills and the Arathi Highlands. On the Hillsbrad side look for a broken cart: its debris forms a jumping path up the wall. At the top you reach a room full of knick-knacks; turn in Eagle's Fist at the bag hanging on the wall (Arathi Highlands 22.5, 24.1), pick up This Must Be The Place and turn it in at the scroll just below to receive the Cozy Sleeping Bag.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: How to Get The Sleeping Bag in World of Warcraft Forever › How to Obtain the Cozy Sleeping Bag",
+          "url": "https://www.icy-veins.com/wow-forever/sleeping-bag",
+          "date": "2026-10-10"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
       "id": "general-transmog",
       "chapter": 1,
       "status": "editorial",

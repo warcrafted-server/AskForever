@@ -39,7 +39,7 @@ _ROUTE_PHRASES = ('cómo voy', 'como voy', 'cómo llego', 'como llego', 'cómo i
                   'como ir', 'how do i get', 'how to get', 'route')
 _WEB_MAX_EXCERPTS = 3
 _WEB_MAX_SEARCHES = 3
-_FOLLOW_UP_STARTS = {'y', 'e', 'and'}
+_FOLLOW_UP_STARTS = {'y', 'e', 'pero', 'entonces', 'and', 'but', 'so'}
 _FOLLOW_UP_POINTERS = {'ese', 'esa', 'eso', 'esos', 'esas', 'alli', 'ahi', 'that', 'those',
                        'there'}
 _FOLLOW_UP_MAX_WORDS = 9

@@ -1062,10 +1062,15 @@ def _detect_places(matches, question: str, ctx: dict):
     return (ctx.get('zone') or ''), ''
 
 
+# Palabras enteras: «ir de» no debe encontrarse dentro de «subir de nivel».
+_TRAVEL_RE = re.compile('|'.join(
+    r'(?<![a-z0-9])' + re.escape(phrase.strip()) + r'(?![a-z0-9])'
+    for phrase in TRAVEL_PHRASES))
+
+
 def is_travel_question(text) -> bool:
     """True si la pregunta pide cómo ir o llegar a un lugar."""
-    normalized = normalize(text)
-    return any(phrase in normalized for phrase in TRAVEL_PHRASES)
+    return bool(_TRAVEL_RE.search(normalize(text)))
 
 
 def _place_words(node) -> set:

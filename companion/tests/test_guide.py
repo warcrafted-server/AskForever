@@ -413,3 +413,21 @@ def test_verified_section_wins_over_editorial_with_same_id(tmp_path, monkeypatch
     sections = guide_module.load_sections()
     assert [(item['id'], item['status']) for item in sections] == [
         ('nivel-maximo', 'verificado'), ('otra', 'editorial')]
+
+
+def test_other_race_sections_only_when_named(tmp_path, db):
+    path = tmp_path / 'guide.json'
+    orc = _section('raza-orco-raciales', 'editorial', 'Ordenar mejora el daño de las mascotas.',
+                   'Command increases pet damage.')
+    orc['keywords_es'] = ['mascotas', 'raciales orco']
+    orc['keywords_en'] = ['pets', 'orc racials']
+    orc['tags'] = ['ORC']
+    _write_sections(path, [orc])
+    index = GuideIndex(db, sections_path=path)
+    try:
+        human = {'race': 'Humano', 'class': 'Cazador'}
+        assert index.search('¿qué daño hacen las mascotas?', 'es', ctx=human) == []
+        named = index.search('¿qué raciales tienen los orcos para las mascotas?', 'es', ctx=human)
+        assert named and named[0][0] == 'section:raza-orco-raciales'
+    finally:
+        guide_module._CACHE.clear()

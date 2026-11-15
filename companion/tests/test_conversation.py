@@ -364,3 +364,9 @@ def test_follow_up_with_own_facts_keeps_previous_topic(db, monkeypatch):
     answer_message(_data('¿Dónde está el banco de Ventormenta?'), FakeProvider(), db=db,
                    previous_question='¿Qué ramas de talentos tengo?')
     assert asked == ['¿Dónde está el banco de Ventormenta?']
+
+
+def test_follow_up_starting_with_but():
+    from askforever.engine.answer import is_follow_up
+    assert is_follow_up('pero dime los talentos específicos')
+    assert is_follow_up('entonces, ¿cuál?')

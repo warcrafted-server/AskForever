@@ -385,6 +385,8 @@ class GuideIndex:
     def search(self, question, lang, limit=3, ctx=None):
         spanish = str(lang).lower().startswith('es')
         player_tags = player_tags_from_ctx(ctx)
+        section_player_tags = _toc_player_tags(ctx)
+        named_tags = _toc_named_tags(question)
         normalized_question = normalize(question)
         question_tokens = set(tokenize(question))
         if not question_tokens and not normalized_question:
@@ -399,6 +401,11 @@ class GuideIndex:
                 continue
             # Los tutoriales de una raza o clase nombran PNJ y facultades de esa raza o clase.
             if entry.requires and not entry.requires <= player_tags:
+                continue
+            # Las secciones de otra clase o raza solo salen si la pregunta la nombra: a un humano
+            # cazador no le sirven las raciales del orco aunque hablen de mascotas.
+            if (entry.tags and not entry.tags & section_player_tags
+                    and not entry.tags & named_tags):
                 continue
             phrases = getattr(self, '_section_phrases', {}).get(entry.ref, ())
             # Frases completas: «rol» no debe coincidir dentro de «controlar».

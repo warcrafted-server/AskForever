@@ -395,6 +395,49 @@
       "updated": "2026-11-15"
     },
     {
+      "id": "clase-hunter-mascota-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Qué mascota elegir para subir de nivel",
+      "title_en": "Which pet to pick for levelling",
+      "summary_es": "Qué familia de mascota conviene al cazador para subir de nivel y por qué.",
+      "summary_en": "Which pet family suits a levelling hunter and why.",
+      "keywords_es": [
+        "mascota para subir",
+        "mascota para levear",
+        "que mascota recomiendas",
+        "mejor mascota",
+        "que mascota elijo",
+        "que mascota domestico"
+      ],
+      "keywords_en": [
+        "best pet",
+        "pet for leveling",
+        "which pet",
+        "pet to level"
+      ],
+      "tags": [
+        "HUNTER"
+      ],
+      "text_es": "Hay dos buenas opciones. El Oso es la más cómoda: aguanta bien los golpes y su habilidad nueva Flagelo, cada 5 segundos, daña a todos los enemigos que tiene delante, así que mantiene la atención de varios a la vez mientras tú disparas. Si prefieres matar más rápido, un Felino o un Raptor con Zarpa del rango más alto en automático hace más daño; el Oso solo es algo más resistente que un Felino. Todas las familias hacen el mismo daño base: lo que cambia es su habilidad propia.",
+      "text_en": "There are two good options. The Bear is the most comfortable: it takes hits well and its new Swipe ability hits every enemy in front of it every 5 seconds, so it holds the attention of several at once while you shoot. If you prefer faster kills, a Cat or a Raptor with the highest rank of Claw on autocast deals more damage; the Bear is only slightly sturdier than a Cat. All families deal the same base damage: what changes is their own ability.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Pets",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Leveling Guide › Pets",
+          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
       "id": "clase-hunter-control-mascota",
       "chapter": 4,
       "status": "editorial",
