@@ -168,7 +168,7 @@ def test_index_is_cached_per_database(db):
 def test_retrieve_adds_guide_lines(db):
     facts = retrieve(_message('¿cómo despojo a un enemigo?'), db)
     guide_lines = [line for line in facts.lines
-                   if line.startswith('Texto oficial del juego (')]
+                   if line.startswith('Texto oficial del juego:')]
     assert guide_lines
     assert any('TUTORIAL7' in line for line in guide_lines)
     assert 'guide:TUTORIAL7' in facts.sources
@@ -182,7 +182,7 @@ def test_retrieve_adds_english_guide_lines(db):
 
 def test_travel_question_does_not_add_guide_lines(db):
     facts = retrieve(_message('¿Cómo voy a Ventormenta?'), db)
-    assert not any(line.startswith('Texto oficial del juego (')
+    assert not any(line.startswith('Texto oficial del juego:')
                    for line in facts.lines)
     assert not any(source.startswith('guide:') for source in facts.sources)
 
