@@ -21,6 +21,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Fixed: asking which dungeon you can do below the first dungeon level now lists the first ones you will be able to do, and dungeons inside the other faction's capital cities are no longer suggested.
 - Changed: the AI only mentions the zones for your level when you ask where to go or what to do, and no longer adds districts or buildings that are not in the data when saying where something is.
 - Added: beginner guide on professions (how many you can have, what each one does, good pairings, secondary professions).
+- Added: stat priority for every class specialization and, verified from the game client, the level of your first talent point (10) and how many you get per level.
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
@@ -39,6 +40,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Corregido: si preguntas qué mazmorra puedes hacer antes del nivel de la primera, ahora te dice cuáles serán las primeras, y ya no se sugieren mazmorras dentro de las capitales de la otra facción.
 - Cambiado: la IA solo menciona las zonas para tu nivel cuando preguntas adónde ir o qué hacer, y ya no añade barrios ni edificios que no estén en los datos al decir dónde está algo.
 - Añadido: guía de principiantes sobre profesiones (cuántas puedes tener, qué hace cada una, buenas combinaciones, profesiones secundarias).
+- Añadido: prioridad de estadísticas de cada especialización y, verificado con el cliente del juego, el nivel del primer punto de talento (10) y cuántos ganas por nivel.
 
 ## [0.3.0-beta.4] - 2026-11-15
 

@@ -1,0 +1,977 @@
+{
+  "description": "Capítulo 4: clases. Prioridad de estadísticas por especialización (editorial, generada con tools/stat_sections.py).",
+  "sections": [
+    {
+      "id": "clase-warlock-estadisticas-affliction",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Brujo Aflicción",
+      "title_en": "Affliction Warlock stat priority",
+      "summary_es": "Qué estadísticas priorizar como Brujo Aflicción (daño a distancia) en JcE.",
+      "summary_en": "Which stats to prioritise as a Affliction Warlock (ranged DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas aflicción",
+        "stats aflicción",
+        "prioridad de estadisticas brujo",
+        "que estadisticas brujo",
+        "stats brujo"
+      ],
+      "keywords_en": [
+        "affliction stats",
+        "affliction stat priority",
+        "warlock stat priority",
+        "warlock stats"
+      ],
+      "tags": [
+        "WARLOCK"
+      ],
+      "text_es": "Prioridad de estadísticas para Brujo Aflicción (daño a distancia, JcE), de más a menos importante: Prob. de golpe > Poder con hechizos > Golpe crítico > Celeridad > Inteligencia.",
+      "text_en": "Stat priority for Affliction Warlock (ranged DPS, PvE), from most to least important: Hit Chance > Spell Power > Critical Strike > Haste > Intellect.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Affliction Warlock Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-ranged-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-mage-estadisticas-arcane",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Mago Arcano",
+      "title_en": "Arcane Mage stat priority",
+      "summary_es": "Qué estadísticas priorizar como Mago Arcano (daño a distancia) en JcE.",
+      "summary_en": "Which stats to prioritise as a Arcane Mage (ranged DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas arcano",
+        "stats arcano",
+        "prioridad de estadisticas mago",
+        "que estadisticas mago",
+        "stats mago"
+      ],
+      "keywords_en": [
+        "arcane stats",
+        "arcane stat priority",
+        "mage stat priority",
+        "mage stats"
+      ],
+      "tags": [
+        "MAGE"
+      ],
+      "text_es": "Prioridad de estadísticas para Mago Arcano (daño a distancia, JcE), de más a menos importante: Prob. de golpe (hasta 17 %) > Poder con hechizos > Golpe crítico > Inteligencia > Espíritu > Regeneración de maná cada 5 s.",
+      "text_en": "Stat priority for Arcane Mage (ranged DPS, PvE), from most to least important: Hit Chance (to 17%) > Spell Power > Critical Strike > Intellect > Spirit > MP5.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Arcane Mage Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/arcane-mage-ranged-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-warrior-estadisticas-arms",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Guerrero Armas",
+      "title_en": "Arms Warrior stat priority",
+      "summary_es": "Qué estadísticas priorizar como Guerrero Armas (daño cuerpo a cuerpo) en JcE.",
+      "summary_en": "Which stats to prioritise as a Arms Warrior (melee DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas armas",
+        "stats armas",
+        "prioridad de estadisticas guerrero",
+        "que estadisticas guerrero",
+        "stats guerrero"
+      ],
+      "keywords_en": [
+        "arms stats",
+        "arms stat priority",
+        "warrior stat priority",
+        "warrior stats"
+      ],
+      "tags": [
+        "WARRIOR"
+      ],
+      "text_es": "Prioridad de estadísticas para Guerrero Armas (daño cuerpo a cuerpo, JcE), de más a menos importante: DPS del arma > Prob. de golpe > Pericia > Golpe crítico > Fuerza.",
+      "text_en": "Stat priority for Arms Warrior (melee DPS, PvE), from most to least important: Weapon Dps > Hit Chance > Expertise > Critical Strike > Strength.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Arms Warrior Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/arms-warrior-melee-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-estadisticas-assassination",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Pícaro Asesinato",
+      "title_en": "Assassination Rogue stat priority",
+      "summary_es": "Qué estadísticas priorizar como Pícaro Asesinato (daño cuerpo a cuerpo) en JcE.",
+      "summary_en": "Which stats to prioritise as a Assassination Rogue (melee DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas asesinato",
+        "stats asesinato",
+        "prioridad de estadisticas pícaro",
+        "que estadisticas pícaro",
+        "stats pícaro"
+      ],
+      "keywords_en": [
+        "assassination stats",
+        "assassination stat priority",
+        "rogue stat priority",
+        "rogue stats"
+      ],
+      "tags": [
+        "ROGUE"
+      ],
+      "text_es": "Prioridad de estadísticas para Pícaro Asesinato (daño cuerpo a cuerpo, JcE), de más a menos importante: Pericia (hasta 6,5 %) > Prob. de golpe (hasta 8 %) > Agilidad > Daño del arma > Golpe crítico.",
+      "text_en": "Stat priority for Assassination Rogue (melee DPS, PvE), from most to least important: Expertise (to 6.5%) > Hit Chance (to 8%) > Agility > Weapon Damage > Critical Strike.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Assassination Rogue Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-melee-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-estadisticas-balance",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Druida Equilibrio",
+      "title_en": "Balance Druid stat priority",
+      "summary_es": "Qué estadísticas priorizar como Druida Equilibrio (daño a distancia) en JcE.",
+      "summary_en": "Which stats to prioritise as a Balance Druid (ranged DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas equilibrio",
+        "stats equilibrio",
+        "prioridad de estadisticas druida",
+        "que estadisticas druida",
+        "stats druida"
+      ],
+      "keywords_en": [
+        "balance stats",
+        "balance stat priority",
+        "druid stat priority",
+        "druid stats"
+      ],
+      "tags": [
+        "DRUID"
+      ],
+      "text_es": "Prioridad de estadísticas para Druida Equilibrio (daño a distancia, JcE), de más a menos importante: Prob. de golpe (hasta 17 %) > Golpe crítico > Poder con hechizos > Inteligencia.",
+      "text_en": "Stat priority for Balance Druid (ranged DPS, PvE), from most to least important: Hit Chance (to 17%) > Critical Strike > Spell Power > Intellect.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Balance Druid Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/balance-druid-ranged-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-estadisticas-beast-mastery",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Cazador Dominio de bestias",
+      "title_en": "Beast Mastery Hunter stat priority",
+      "summary_es": "Qué estadísticas priorizar como Cazador Dominio de bestias (daño a distancia) en JcE.",
+      "summary_en": "Which stats to prioritise as a Beast Mastery Hunter (ranged DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas dominio de bestias",
+        "stats dominio de bestias",
+        "prioridad de estadisticas cazador",
+        "que estadisticas cazador",
+        "stats cazador"
+      ],
+      "keywords_en": [
+        "beast mastery stats",
+        "beast mastery stat priority",
+        "hunter stat priority",
+        "hunter stats"
+      ],
+      "tags": [
+        "HUNTER"
+      ],
+      "text_es": "Prioridad de estadísticas para Cazador Dominio de bestias (daño a distancia, JcE), de más a menos importante: Daño del arma > Prob. de golpe (8 %) > Prob. de golpe crítico > Agilidad > Poder de ataque.",
+      "text_en": "Stat priority for Beast Mastery Hunter (ranged DPS, PvE), from most to least important: Weapon Damage > Hit Chance (8%) > Critical Strike Chance > Agility > Attack Power.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Beast Mastery Hunter Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-ranged-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-estadisticas-combat",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Pícaro Combate",
+      "title_en": "Combat Rogue stat priority",
+      "summary_es": "Qué estadísticas priorizar como Pícaro Combate (daño cuerpo a cuerpo) en JcE.",
+      "summary_en": "Which stats to prioritise as a Combat Rogue (melee DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas combate",
+        "stats combate",
+        "prioridad de estadisticas pícaro",
+        "que estadisticas pícaro",
+        "stats pícaro"
+      ],
+      "keywords_en": [
+        "combat stats",
+        "combat stat priority",
+        "rogue stat priority",
+        "rogue stats"
+      ],
+      "tags": [
+        "ROGUE"
+      ],
+      "text_es": "Prioridad de estadísticas para Pícaro Combate (daño cuerpo a cuerpo, JcE), de más a menos importante: Pericia (hasta 6,5 %) > Prob. de golpe (hasta 8 %) > Agilidad > Daño del arma > Golpe crítico.",
+      "text_en": "Stat priority for Combat Rogue (melee DPS, PvE), from most to least important: Expertise (to 6.5%) > Hit Chance (to 8%) > Agility > Weapon Damage > Critical Strike.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Combat Rogue Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-melee-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-warlock-estadisticas-demonology",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Brujo Demonología",
+      "title_en": "Demonology Warlock stat priority",
+      "summary_es": "Qué estadísticas priorizar como Brujo Demonología (daño a distancia) en JcE.",
+      "summary_en": "Which stats to prioritise as a Demonology Warlock (ranged DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas demonología",
+        "stats demonología",
+        "prioridad de estadisticas brujo",
+        "que estadisticas brujo",
+        "stats brujo"
+      ],
+      "keywords_en": [
+        "demonology stats",
+        "demonology stat priority",
+        "warlock stat priority",
+        "warlock stats"
+      ],
+      "tags": [
+        "WARLOCK"
+      ],
+      "text_es": "Prioridad de estadísticas para Brujo Demonología (daño a distancia, JcE), de más a menos importante: Prob. de golpe > Poder con hechizos > Golpe crítico > Celeridad > Inteligencia.",
+      "text_en": "Stat priority for Demonology Warlock (ranged DPS, PvE), from most to least important: Hit Chance > Spell Power > Critical Strike > Haste > Intellect.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Demonology Warlock Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/demonology-warlock-ranged-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-warlock-estadisticas-destruction",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Brujo Destrucción",
+      "title_en": "Destruction Warlock stat priority",
+      "summary_es": "Qué estadísticas priorizar como Brujo Destrucción (daño a distancia) en JcE.",
+      "summary_en": "Which stats to prioritise as a Destruction Warlock (ranged DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas destrucción",
+        "stats destrucción",
+        "prioridad de estadisticas brujo",
+        "que estadisticas brujo",
+        "stats brujo"
+      ],
+      "keywords_en": [
+        "destruction stats",
+        "destruction stat priority",
+        "warlock stat priority",
+        "warlock stats"
+      ],
+      "tags": [
+        "WARLOCK"
+      ],
+      "text_es": "Prioridad de estadísticas para Brujo Destrucción (daño a distancia, JcE), de más a menos importante: Prob. de golpe > Poder con hechizos > Celeridad > Golpe crítico > Inteligencia.",
+      "text_en": "Stat priority for Destruction Warlock (ranged DPS, PvE), from most to least important: Hit Chance > Spell Power > Haste > Critical Strike > Intellect.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Destruction Warlock Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/destruction-warlock-ranged-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-estadisticas-discipline",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Sacerdote Disciplina",
+      "title_en": "Discipline Priest stat priority",
+      "summary_es": "Qué estadísticas priorizar como Sacerdote Disciplina (sanador) en JcE.",
+      "summary_en": "Which stats to prioritise as a Discipline Priest (healer) in PvE.",
+      "keywords_es": [
+        "estadisticas disciplina",
+        "stats disciplina",
+        "prioridad de estadisticas sacerdote",
+        "que estadisticas sacerdote",
+        "stats sacerdote"
+      ],
+      "keywords_en": [
+        "discipline stats",
+        "discipline stat priority",
+        "priest stat priority",
+        "priest stats"
+      ],
+      "tags": [
+        "PRIEST"
+      ],
+      "text_es": "Prioridad de estadísticas para Sacerdote Disciplina (sanador, JcE), de más a menos importante: Sanación con hechizos > Regeneración de maná cada 5 s > Espíritu > Inteligencia > Golpe crítico.",
+      "text_en": "Stat priority for Discipline Priest (healer, PvE), from most to least important: Healing Power > MP5 > Spirit > Intellect > Critical Strike.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Discipline Priest Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-healer-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-shaman-estadisticas-elemental",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Chamán Elemental",
+      "title_en": "Elemental Shaman stat priority",
+      "summary_es": "Qué estadísticas priorizar como Chamán Elemental (daño a distancia) en JcE.",
+      "summary_en": "Which stats to prioritise as a Elemental Shaman (ranged DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas elemental",
+        "stats elemental",
+        "prioridad de estadisticas chamán",
+        "que estadisticas chamán",
+        "stats chamán"
+      ],
+      "keywords_en": [
+        "elemental stats",
+        "elemental stat priority",
+        "shaman stat priority",
+        "shaman stats"
+      ],
+      "tags": [
+        "SHAMAN"
+      ],
+      "text_es": "Prioridad de estadísticas para Chamán Elemental (daño a distancia, JcE), de más a menos importante: Poder con hechizos > Prob. de golpe (hasta 17 %) > Golpe crítico > Inteligencia > Regeneración de maná cada 5 s.",
+      "text_en": "Stat priority for Elemental Shaman (ranged DPS, PvE), from most to least important: Spell Power > Hit Chance (to 17%) > Critical Strike > Intellect > MP5.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Elemental Shaman Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/elemental-shaman-ranged-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-shaman-estadisticas-enhancement",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Chamán Mejora",
+      "title_en": "Enhancement Shaman stat priority",
+      "summary_es": "Qué estadísticas priorizar como Chamán Mejora (daño cuerpo a cuerpo) en JcE.",
+      "summary_en": "Which stats to prioritise as a Enhancement Shaman (melee DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas mejora",
+        "stats mejora",
+        "prioridad de estadisticas chamán",
+        "que estadisticas chamán",
+        "stats chamán"
+      ],
+      "keywords_en": [
+        "enhancement stats",
+        "enhancement stat priority",
+        "shaman stat priority",
+        "shaman stats"
+      ],
+      "tags": [
+        "SHAMAN"
+      ],
+      "text_es": "Prioridad de estadísticas para Chamán Mejora (daño cuerpo a cuerpo, JcE), de más a menos importante: Prob. de golpe > Pericia > Fuerza > Inteligencia > Poder con hechizos.",
+      "text_en": "Stat priority for Enhancement Shaman (melee DPS, PvE), from most to least important: Hit Chance > Expertise > Strength > Intellect > Spell Power.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Enhancement Shaman Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/enhancement-shaman-melee-dps-pve-stat-priority",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-estadisticas-feral",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Druida Combate feral",
+      "title_en": "Feral Druid stat priority",
+      "summary_es": "Qué estadísticas priorizar como Druida Combate feral (daño cuerpo a cuerpo y tanque) en JcE.",
+      "summary_en": "Which stats to prioritise as a Feral Druid (melee DPS and tank) in PvE.",
+      "keywords_es": [
+        "estadisticas combate feral",
+        "stats combate feral",
+        "prioridad de estadisticas druida",
+        "que estadisticas druida",
+        "stats druida"
+      ],
+      "keywords_en": [
+        "feral stats",
+        "feral stat priority",
+        "druid stat priority",
+        "druid stats"
+      ],
+      "tags": [
+        "DRUID"
+      ],
+      "text_es": "Prioridad de estadísticas para Druida Combate feral (daño cuerpo a cuerpo y tanque, JcE), de más a menos importante: DPS del arma > Pericia (6,5 % o 14 %) > Prob. de golpe (8 %) > Agilidad > Fuerza.",
+      "text_en": "Stat priority for Feral Druid (melee DPS and tank, PvE), from most to least important: Weapon Dps > Expertise (6.5% or 14%) > Hit Chance (8%) > Agility > Strength.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Feral Druid Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/feral-druid-melee-dps-and-tank-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-mage-estadisticas-fire",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Mago Fuego",
+      "title_en": "Fire Mage stat priority",
+      "summary_es": "Qué estadísticas priorizar como Mago Fuego (daño a distancia) en JcE.",
+      "summary_en": "Which stats to prioritise as a Fire Mage (ranged DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas fuego",
+        "stats fuego",
+        "prioridad de estadisticas mago",
+        "que estadisticas mago",
+        "stats mago"
+      ],
+      "keywords_en": [
+        "fire stats",
+        "fire stat priority",
+        "mage stat priority",
+        "mage stats"
+      ],
+      "tags": [
+        "MAGE"
+      ],
+      "text_es": "Prioridad de estadísticas para Mago Fuego (daño a distancia, JcE), de más a menos importante: Prob. de golpe (hasta 17 %) > Poder con hechizos > Golpe crítico > Inteligencia > Espíritu > Regeneración de maná cada 5 s.",
+      "text_en": "Stat priority for Fire Mage (ranged DPS, PvE), from most to least important: Hit Chance (to 17%) > Spell Power > Critical Strike > Intellect > Spirit > MP5.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Fire Mage Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/fire-mage-ranged-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-mage-estadisticas-frost",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Mago Escarcha",
+      "title_en": "Frost Mage stat priority",
+      "summary_es": "Qué estadísticas priorizar como Mago Escarcha (daño a distancia) en JcE.",
+      "summary_en": "Which stats to prioritise as a Frost Mage (ranged DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas escarcha",
+        "stats escarcha",
+        "prioridad de estadisticas mago",
+        "que estadisticas mago",
+        "stats mago"
+      ],
+      "keywords_en": [
+        "frost stats",
+        "frost stat priority",
+        "mage stat priority",
+        "mage stats"
+      ],
+      "tags": [
+        "MAGE"
+      ],
+      "text_es": "Prioridad de estadísticas para Mago Escarcha (daño a distancia, JcE), de más a menos importante: Prob. de golpe (hasta 17 %) > Poder con hechizos > Golpe crítico > Inteligencia > Regeneración de maná cada 5 s > Espíritu.",
+      "text_en": "Stat priority for Frost Mage (ranged DPS, PvE), from most to least important: Hit Chance (to 17%) > Spell Power > Critical Strike > Intellect > MP5 > Spirit.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Frost Mage Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/frost-mage-ranged-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-warrior-estadisticas-fury",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Guerrero Furia",
+      "title_en": "Fury Warrior stat priority",
+      "summary_es": "Qué estadísticas priorizar como Guerrero Furia (daño cuerpo a cuerpo) en JcE.",
+      "summary_en": "Which stats to prioritise as a Fury Warrior (melee DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas furia",
+        "stats furia",
+        "prioridad de estadisticas guerrero",
+        "que estadisticas guerrero",
+        "stats guerrero"
+      ],
+      "keywords_en": [
+        "fury stats",
+        "fury stat priority",
+        "warrior stat priority",
+        "warrior stats"
+      ],
+      "tags": [
+        "WARRIOR"
+      ],
+      "text_es": "Prioridad de estadísticas para Guerrero Furia (daño cuerpo a cuerpo, JcE), de más a menos importante: DPS del arma > Prob. de golpe > Pericia > Golpe crítico > Fuerza.",
+      "text_en": "Stat priority for Fury Warrior (melee DPS, PvE), from most to least important: Weapon Dps > Hit Chance > Expertise > Critical Strike > Strength.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Fury Warrior Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/fury-warrior-melee-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-estadisticas-holy",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Paladín Sagrado",
+      "title_en": "Holy Paladin stat priority",
+      "summary_es": "Qué estadísticas priorizar como Paladín Sagrado (sanador) en JcE.",
+      "summary_en": "Which stats to prioritise as a Holy Paladin (healer) in PvE.",
+      "keywords_es": [
+        "estadisticas sagrado",
+        "stats sagrado",
+        "prioridad de estadisticas paladín",
+        "que estadisticas paladín",
+        "stats paladín"
+      ],
+      "keywords_en": [
+        "holy stats",
+        "holy stat priority",
+        "paladin stat priority",
+        "paladin stats"
+      ],
+      "tags": [
+        "PALADIN"
+      ],
+      "text_es": "Prioridad de estadísticas para Paladín Sagrado (sanador, JcE), de más a menos importante: Sanación con hechizos > Inteligencia > Espíritu > Regeneración de maná cada 5 s > Golpe crítico.",
+      "text_en": "Stat priority for Holy Paladin (healer, PvE), from most to least important: Healing Power > Intellect > Spirit > MP5 > Critical Strike.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Holy Paladin Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-healer-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-estadisticas-holy",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Sacerdote Sagrado",
+      "title_en": "Holy Priest stat priority",
+      "summary_es": "Qué estadísticas priorizar como Sacerdote Sagrado (sanador) en JcE.",
+      "summary_en": "Which stats to prioritise as a Holy Priest (healer) in PvE.",
+      "keywords_es": [
+        "estadisticas sagrado",
+        "stats sagrado",
+        "prioridad de estadisticas sacerdote",
+        "que estadisticas sacerdote",
+        "stats sacerdote"
+      ],
+      "keywords_en": [
+        "holy stats",
+        "holy stat priority",
+        "priest stat priority",
+        "priest stats"
+      ],
+      "tags": [
+        "PRIEST"
+      ],
+      "text_es": "Prioridad de estadísticas para Sacerdote Sagrado (sanador, JcE), de más a menos importante: Sanación con hechizos > Regeneración de maná cada 5 s > Espíritu > Inteligencia > Golpe crítico.",
+      "text_en": "Stat priority for Holy Priest (healer, PvE), from most to least important: Healing Power > MP5 > Spirit > Intellect > Critical Strike.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Holy Priest Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/holy-priest-healer-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-estadisticas-marksmanship",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Cazador Puntería",
+      "title_en": "Marksmanship Hunter stat priority",
+      "summary_es": "Qué estadísticas priorizar como Cazador Puntería (daño a distancia) en JcE.",
+      "summary_en": "Which stats to prioritise as a Marksmanship Hunter (ranged DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas puntería",
+        "stats puntería",
+        "prioridad de estadisticas cazador",
+        "que estadisticas cazador",
+        "stats cazador"
+      ],
+      "keywords_en": [
+        "marksmanship stats",
+        "marksmanship stat priority",
+        "hunter stat priority",
+        "hunter stats"
+      ],
+      "tags": [
+        "HUNTER"
+      ],
+      "text_es": "Prioridad de estadísticas para Cazador Puntería (daño a distancia, JcE), de más a menos importante: Daño del arma > Prob. de golpe (8 %) > Prob. de golpe crítico > Agilidad > Poder de ataque.",
+      "text_en": "Stat priority for Marksmanship Hunter (ranged DPS, PvE), from most to least important: Weapon Damage > Hit Chance (8%) > Critical Strike Chance > Agility > Attack Power.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Marksmanship Hunter Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-ranged-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-estadisticas-protection",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Paladín Protección",
+      "title_en": "Protection Paladin stat priority",
+      "summary_es": "Qué estadísticas priorizar como Paladín Protección (tanque) en JcE.",
+      "summary_en": "Which stats to prioritise as a Protection Paladin (tank) in PvE.",
+      "keywords_es": [
+        "estadisticas protección",
+        "stats protección",
+        "prioridad de estadisticas paladín",
+        "que estadisticas paladín",
+        "stats paladín"
+      ],
+      "keywords_en": [
+        "protection stats",
+        "protection stat priority",
+        "paladin stat priority",
+        "paladin stats"
+      ],
+      "tags": [
+        "PALADIN"
+      ],
+      "text_es": "Prioridad de estadísticas para Paladín Protección (tanque, JcE), de más a menos importante: Aguante > Defensa (hasta 440) > Poder con hechizos > Inteligencia > Fuerza.",
+      "text_en": "Stat priority for Protection Paladin (tank, PvE), from most to least important: Stamina > Defense (to 440) > Spell Power > Intellect > Strength.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Protection Paladin Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-tank-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-warrior-estadisticas-protection",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Guerrero Protección",
+      "title_en": "Protection Warrior stat priority",
+      "summary_es": "Qué estadísticas priorizar como Guerrero Protección (tanque) en JcE.",
+      "summary_en": "Which stats to prioritise as a Protection Warrior (tank) in PvE.",
+      "keywords_es": [
+        "estadisticas protección",
+        "stats protección",
+        "prioridad de estadisticas guerrero",
+        "que estadisticas guerrero",
+        "stats guerrero"
+      ],
+      "keywords_en": [
+        "protection stats",
+        "protection stat priority",
+        "warrior stat priority",
+        "warrior stats"
+      ],
+      "tags": [
+        "WARRIOR"
+      ],
+      "text_es": "Prioridad de estadísticas para Guerrero Protección (tanque, JcE), de más a menos importante: Pericia > Prob. de golpe > Agilidad > Fuerza > Aguante.",
+      "text_en": "Stat priority for Protection Warrior (tank, PvE), from most to least important: Expertise > Hit Chance > Agility > Strength > Stamina.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Protection Warrior Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/protection-warrior-tank-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-druid-estadisticas-restoration",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Druida Recuperación",
+      "title_en": "Restoration Druid stat priority",
+      "summary_es": "Qué estadísticas priorizar como Druida Recuperación (sanador) en JcE.",
+      "summary_en": "Which stats to prioritise as a Restoration Druid (healer) in PvE.",
+      "keywords_es": [
+        "estadisticas recuperación",
+        "stats recuperación",
+        "prioridad de estadisticas druida",
+        "que estadisticas druida",
+        "stats druida"
+      ],
+      "keywords_en": [
+        "restoration stats",
+        "restoration stat priority",
+        "druid stat priority",
+        "druid stats"
+      ],
+      "tags": [
+        "DRUID"
+      ],
+      "text_es": "Prioridad de estadísticas para Druida Recuperación (sanador, JcE), de más a menos importante: Sanación con hechizos > Inteligencia > Espíritu > Regeneración de maná cada 5 s > Golpe crítico.",
+      "text_en": "Stat priority for Restoration Druid (healer, PvE), from most to least important: Healing Power > Intellect > Spirit > MP5 > Critical Strike.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Restoration Druid Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/restoration-druid-healer-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-shaman-estadisticas-restoration",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Chamán Recuperación",
+      "title_en": "Restoration Shaman stat priority",
+      "summary_es": "Qué estadísticas priorizar como Chamán Recuperación (sanador) en JcE.",
+      "summary_en": "Which stats to prioritise as a Restoration Shaman (healer) in PvE.",
+      "keywords_es": [
+        "estadisticas recuperación",
+        "stats recuperación",
+        "prioridad de estadisticas chamán",
+        "que estadisticas chamán",
+        "stats chamán"
+      ],
+      "keywords_en": [
+        "restoration stats",
+        "restoration stat priority",
+        "shaman stat priority",
+        "shaman stats"
+      ],
+      "tags": [
+        "SHAMAN"
+      ],
+      "text_es": "Prioridad de estadísticas para Chamán Recuperación (sanador, JcE), de más a menos importante: Sanación con hechizos > Golpe crítico > Inteligencia > Espíritu > Regeneración de maná cada 5 s.",
+      "text_en": "Stat priority for Restoration Shaman (healer, PvE), from most to least important: Healing Power > Critical Strike > Intellect > Spirit > MP5.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Restoration Shaman Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/restoration-shaman-healer-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-estadisticas-retribution",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Paladín Reprensión",
+      "title_en": "Retribution Paladin stat priority",
+      "summary_es": "Qué estadísticas priorizar como Paladín Reprensión (daño cuerpo a cuerpo) en JcE.",
+      "summary_en": "Which stats to prioritise as a Retribution Paladin (melee DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas reprensión",
+        "stats reprensión",
+        "prioridad de estadisticas paladín",
+        "que estadisticas paladín",
+        "stats paladín"
+      ],
+      "keywords_en": [
+        "retribution stats",
+        "retribution stat priority",
+        "paladin stat priority",
+        "paladin stats"
+      ],
+      "tags": [
+        "PALADIN"
+      ],
+      "text_es": "Prioridad de estadísticas para Paladín Reprensión (daño cuerpo a cuerpo, JcE), de más a menos importante: Daño del arma > Prob. de golpe (8 %) > Pericia (6,5 %) > Fuerza > Poder con hechizos.",
+      "text_en": "Stat priority for Retribution Paladin (melee DPS, PvE), from most to least important: Weapon Damage > Hit Chance (8%) > Expertise (6.5%) > Strength > Spell Power.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Retribution Paladin Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-melee-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-priest-estadisticas-shadow",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Sacerdote Sombra",
+      "title_en": "Shadow Priest stat priority",
+      "summary_es": "Qué estadísticas priorizar como Sacerdote Sombra (daño a distancia) en JcE.",
+      "summary_en": "Which stats to prioritise as a Shadow Priest (ranged DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas sombra",
+        "stats sombra",
+        "prioridad de estadisticas sacerdote",
+        "que estadisticas sacerdote",
+        "stats sacerdote"
+      ],
+      "keywords_en": [
+        "shadow stats",
+        "shadow stat priority",
+        "priest stat priority",
+        "priest stats"
+      ],
+      "tags": [
+        "PRIEST"
+      ],
+      "text_es": "Prioridad de estadísticas para Sacerdote Sombra (daño a distancia, JcE), de más a menos importante: Prob. de golpe (hasta 17 %) > Poder con hechizos > Golpe crítico > Perforación de hechizo > Espíritu.",
+      "text_en": "Stat priority for Shadow Priest (ranged DPS, PvE), from most to least important: Hit Chance (to 17%) > Spell Power > Critical Strike > Spell Pierce > Spirit.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Shadow Priest Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-ranged-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-rogue-estadisticas-subtlety",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Pícaro Sutileza",
+      "title_en": "Subtlety Rogue stat priority",
+      "summary_es": "Qué estadísticas priorizar como Pícaro Sutileza (daño cuerpo a cuerpo) en JcE.",
+      "summary_en": "Which stats to prioritise as a Subtlety Rogue (melee DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas sutileza",
+        "stats sutileza",
+        "prioridad de estadisticas pícaro",
+        "que estadisticas pícaro",
+        "stats pícaro"
+      ],
+      "keywords_en": [
+        "subtlety stats",
+        "subtlety stat priority",
+        "rogue stat priority",
+        "rogue stats"
+      ],
+      "tags": [
+        "ROGUE"
+      ],
+      "text_es": "Prioridad de estadísticas para Pícaro Sutileza (daño cuerpo a cuerpo, JcE), de más a menos importante: Daño del arma > Pericia (hasta 6,5 %) > Prob. de golpe (hasta 8 %) > Habilidad con armas > Agilidad.",
+      "text_en": "Stat priority for Subtlety Rogue (melee DPS, PvE), from most to least important: Weapon Damage > Expertise (to 6.5%) > Hit Chance (to 8%) > Weapon Skill > Agility.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Subtlety Rogue Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-melee-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-hunter-estadisticas-survival",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Cazador Supervivencia",
+      "title_en": "Survival Hunter stat priority",
+      "summary_es": "Qué estadísticas priorizar como Cazador Supervivencia (daño cuerpo a cuerpo) en JcE.",
+      "summary_en": "Which stats to prioritise as a Survival Hunter (melee DPS) in PvE.",
+      "keywords_es": [
+        "estadisticas supervivencia",
+        "stats supervivencia",
+        "prioridad de estadisticas cazador",
+        "que estadisticas cazador",
+        "stats cazador"
+      ],
+      "keywords_en": [
+        "survival stats",
+        "survival stat priority",
+        "hunter stat priority",
+        "hunter stats"
+      ],
+      "tags": [
+        "HUNTER"
+      ],
+      "text_es": "Prioridad de estadísticas para Cazador Supervivencia (daño cuerpo a cuerpo, JcE), de más a menos importante: Daño del arma > Prob. de golpe (8 %) > Prob. de golpe crítico > Agilidad > Poder de ataque.",
+      "text_en": "Stat priority for Survival Hunter (melee DPS, PvE), from most to least important: Weapon Damage > Hit Chance (8%) > Critical Strike Chance > Agility > Attack Power.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Forever Survival Hunter Stat Priority",
+          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-melee-dps-pve-stat-priority",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    }
+  ]
+}

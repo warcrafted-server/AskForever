@@ -326,9 +326,6 @@ class GuideIndex:
                                for candidate in entry_tokens))
             if phrase_hit:
                 score += 2
-            # La sección de la clase o raza del jugador gana a las demás con la misma puntuación.
-            if score and entry.tags & player_tags:
-                score += 1
             # Con una sola palabra útil, solo coincidencia exacta o con el título: «muerto»
             # trae el tutorial «Muerte», no los textos de «muertes con honor».
             # En las secciones, una palabra suelta solo vale si es una de sus claves.
@@ -340,6 +337,10 @@ class GuideIndex:
                                       for head in entry.heads)))
             if score < 2 and not single_hit:
                 continue
+            # La sección de la clase o raza del jugador gana a las demás, pero solo al ordenar:
+            # no debe colar secciones que no superan el umbral por sí mismas.
+            if entry.tags & player_tags:
+                score += 1
             # Lo verificado para Forever va delante de los textos del cliente al empatar.
             if entry.status == 'verificado':
                 priority = 0

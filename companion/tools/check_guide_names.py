@@ -29,6 +29,9 @@ QUERIES = (
     ('hechizo', 'SELECT Name_lang, Name_lang_esES FROM SpellName'),
     ('PNJ', "SELECT e.name, s.name FROM ext_npc_l10n e JOIN ext_npc_l10n s "
             "ON s.npc_id = e.npc_id AND s.locale = 'esES' WHERE e.locale = 'enUS'"),
+    # Las ramas de talentos también son nombres oficiales («Beast Mastery» es la rama «Dominio
+    # de bestias» y el hechizo «Maestría en bestias»).
+    ('rama', 'SELECT Name_lang, Name_lang_esES FROM TalentTab'),
 )
 
 

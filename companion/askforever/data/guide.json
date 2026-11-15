@@ -287,6 +287,42 @@
         }
       ],
       "updated": "2026-11-15"
+    },
+    {
+      "id": "talentos-nivel",
+      "status": "verificado",
+      "keywords_es": [
+        "a qué nivel tengo talentos",
+        "a que nivel tengo talentos",
+        "puntos de talento",
+        "primer punto de talento",
+        "cuándo tengo talentos",
+        "cuando tengo talentos",
+        "nivel de talentos"
+      ],
+      "keywords_en": [
+        "talent points",
+        "first talent point",
+        "when do i get talents",
+        "talent level",
+        "what level talents"
+      ],
+      "text_es": "En WoW Forever el primer punto de talento llega a nivel 10 y después ganas uno por cada nivel: 11 puntos a nivel 20, 21 a nivel 30, 31 a nivel 40 y 51 a nivel 60. La ventaja Legacy «Talented» permite desbloquear los puntos hasta 5 niveles antes de lo normal.",
+      "text_en": "In WoW Forever you get your first talent point at level 10 and one more per level after that: 11 points at level 20, 21 at 30, 31 at 40 and 51 at level 60. The Legacy perk Talented unlocks talent points up to 5 levels earlier than normal.",
+      "sources": [
+        {
+          "type": "cliente",
+          "ref": "numtalentsatlevel (NumTalents por nivel: 1 a nivel 10, 51 a nivel 60)",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "blizzard",
+          "ref": "Get to Know the World of Warcraft: Forever Legacy System (perk Talented)",
+          "url": "https://www.wowhead.com/forever/blue-tracker/news/us/get-to-know-the-world-of-warcraft-forever-legacy-system-world-of-warcraft-24307383",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-15"
     }
   ]
 }
