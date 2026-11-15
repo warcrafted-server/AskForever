@@ -1,0 +1,41 @@
+{
+  "default_ctx": {
+    "lvl": 12,
+    "race": "Humano",
+    "class": "Cazador",
+    "fac": "Alianza",
+    "zone": "Bosque de Elwynn"
+  },
+  "questions": [
+    {"id": "g01", "category": "monturas", "lang": "esES", "q": "¿Cuándo podré ir a caballo?", "notes": "Montura a nivel 40 (60 %), unos 100 de oro con el entrenamiento."},
+    {"id": "g02", "category": "monturas", "lang": "esES", "q": "¿Cuánto oro necesito ahorrar para la montura?", "notes": "Unos 100 de oro en total (entrenamiento y montura) a nivel 40."},
+    {"id": "g03", "category": "profesiones", "lang": "esES", "q": "¿Qué oficio me conviene si voy a minar?", "notes": "Minería combina con Herrería o Ingeniería."},
+    {"id": "g04", "category": "profesiones", "lang": "esES", "q": "¿Puedo aprender pesca aunque ya tenga dos profesiones?", "notes": "Sí: las secundarias no ocupan plaza."},
+    {"id": "g05", "category": "profesiones", "lang": "esES", "q": "¿Para qué sirve el encantamiento?", "notes": "Mejoras permanentes al equipo; vara rúnica."},
+    {"id": "g06", "category": "profesiones", "lang": "esES", "q": "¿Cómo hago una hoguera?", "notes": "Campamentos/Cocina: Madera simple y Sílex y Yesca."},
+    {"id": "g07", "category": "razas", "lang": "esES", "q": "¿Qué clases puede ser un gnomo?", "notes": "Mago, Sacerdote, Pícaro, Brujo, Guerrero."},
+    {"id": "g08", "category": "razas", "lang": "esES", "q": "¿Qué raza es mejor para jugar en JcJ?", "notes": "Gnomo, Orco y Humano en lo alto."},
+    {"id": "g09", "category": "razas", "lang": "esES", "q": "¿Qué hace la racial de los humanos?", "notes": "Voluntad de supervivencia, Percepción, Crueldad, El espíritu humano."},
+    {"id": "g10", "category": "razas", "lang": "esES", "q": "¿Dónde empiezan los cielonatos?", "notes": "Isla de Zephras."},
+    {"id": "g11", "category": "cazador", "lang": "esES", "q": "¿Qué talentos cojo para subir de nivel?", "notes": "Ruta de Dominio de bestias por tramos (Aspectos letales, Invocar halcón, Ira de bestias…)."},
+    {"id": "g12", "category": "cazador", "lang": "esES", "q": "¿Cómo hago que mi mascota no me quite la atención de los enemigos?", "notes": "Dejar que la mascota ataque antes; Sanar/Revivir mascota; Fingir muerte."},
+    {"id": "g13", "category": "cazador", "lang": "esES", "q": "¿Mi mascota tiene que comer?", "notes": "Sí: felicidad y lealtad; hay que alimentarla."},
+    {"id": "g14", "category": "cazador", "lang": "esES", "q": "¿Qué misión de clase hay a nivel 10?", "notes": "Misión de clase de nivel 10 (mascota)."},
+    {"id": "g15", "category": "cazador", "lang": "esES", "q": "¿Qué estadísticas necesito como cazador de puntería?", "notes": "Daño del arma > Prob. de golpe (8 %) > Prob. de crítico > Agilidad > Poder de ataque."},
+    {"id": "g16", "category": "talentos", "lang": "esES", "q": "¿Qué hace Fuego enfocado?", "notes": "Datos exactos: +1 %/+2 % daño con mascota activa (base de datos)."},
+    {"id": "g17", "category": "talentos", "lang": "esES", "q": "¿A qué nivel me dan el primer punto de talento?", "notes": "Nivel 10; 51 a nivel 60."},
+    {"id": "g18", "category": "general", "lang": "esES", "q": "¿Qué es eso del saco de dormir?", "notes": "Saco de dormir y experiencia extra (cadena de misiones)."},
+    {"id": "g19", "category": "general", "lang": "esES", "q": "¿Puedo ponerme apellido?", "notes": "Nombre y apellido del personaje."},
+    {"id": "g20", "category": "general", "lang": "esES", "q": "¿Se puede jugar con mando de consola?", "notes": "Sí, soporte de mando."},
+    {"id": "g21", "category": "general", "lang": "esES", "q": "¿Puedo cambiar el aspecto de mi armadura?", "notes": "Transfiguración."},
+    {"id": "g22", "category": "general", "lang": "esES", "q": "¿Qué necesito pagar para jugar?", "notes": "Suscripción."},
+    {"id": "g23", "category": "general", "lang": "esES", "q": "¿Cuándo sale Onyxia?", "notes": "9 de diciembre: Barrow Deeps, Hyjal Summit, Guarida de Onyxia (nivel 60)."},
+    {"id": "g24", "category": "general", "lang": "esES", "q": "¿Qué gano con los puntos de legado?", "notes": "Ventajas en tres árboles, 16 puntos por personaje, recompensas."},
+    {"id": "g25", "category": "general", "lang": "esES", "q": "¿Me conviene el modo clásico o el otro?", "notes": "Preajuste: Blizzard recomienda Mejorado si dudas."},
+    {"id": "g26", "category": "general", "lang": "esES", "q": "¿Hay modo extremo donde si mueres pierdes el personaje?", "notes": "Hardcore llegará después del lanzamiento."},
+    {"id": "g27", "category": "control", "lang": "esES", "q": "¿Dónde está el banco?", "notes": "No es de guía: PNJ de servicio de la base (Elwynn: puede no haber banco; decirlo)."},
+    {"id": "g28", "category": "control", "lang": "esES", "q": "¿Cómo voy a Ventormenta?", "notes": "Ruta de la base; el filtro no debe intervenir."},
+    {"id": "g29", "category": "control", "lang": "esES", "q": "hola", "notes": "Sin guía; respuesta breve."},
+    {"id": "g30", "category": "general", "lang": "enUS", "q": "When can I get a mount?", "notes": "Level 40, about 100 gold in total."}
+  ]
+}
