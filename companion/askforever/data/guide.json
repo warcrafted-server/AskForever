@@ -4,6 +4,11 @@
     {
       "id": "nivel-maximo",
       "status": "verificado",
+      "chapter": 1,
+      "title_es": "Nivel máximo",
+      "title_en": "Maximum level",
+      "summary_es": "Cuál es el nivel máximo de WoW Forever.",
+      "summary_en": "What the level cap in WoW Forever is.",
       "keywords_es": [
         "nivel máximo",
         "nivel maximo",
@@ -36,6 +41,11 @@
     {
       "id": "que-es-forever",
       "status": "verificado",
+      "chapter": 1,
+      "title_es": "Qué es WoW Forever",
+      "title_en": "What WoW Forever is",
+      "summary_es": "Qué es Forever, en qué continentes transcurre y cuándo pasa su historia.",
+      "summary_en": "What Forever is, its continents and when its story takes place.",
       "keywords_es": [
         "qué es wow forever",
         "que es wow forever",
@@ -65,6 +75,11 @@
     {
       "id": "zonas-nuevas",
       "status": "verificado",
+      "chapter": 1,
+      "title_es": "Zonas nuevas",
+      "title_en": "New zones",
+      "summary_es": "Qué zonas nuevas tiene Forever y para qué niveles.",
+      "summary_en": "Which new zones Forever has and for which levels.",
       "keywords_es": [
         "zonas nuevas",
         "zona nueva",
@@ -96,6 +111,11 @@
     {
       "id": "mazmorras-y-bandas",
       "status": "verificado",
+      "chapter": 7,
+      "title_es": "Mazmorras nuevas y bandas",
+      "title_en": "New dungeons and raids",
+      "summary_es": "Cuántas mazmorras nuevas hay y qué bandas se abren y cuándo.",
+      "summary_en": "How many new dungeons there are and which raids open and when.",
       "keywords_es": [
         "mazmorras nuevas",
         "bandas",
@@ -128,6 +148,11 @@
     {
       "id": "razas-y-clases-nuevas",
       "status": "verificado",
+      "chapter": 3,
+      "title_es": "Cielonatos y combinaciones nuevas",
+      "title_en": "Skyborne and new combinations",
+      "summary_es": "La raza nueva Cielonato y las combinaciones de raza y clase nuevas.",
+      "summary_en": "The new Skyborne race and the new race and class combinations.",
       "keywords_es": [
         "raza nueva",
         "razas nuevas",
@@ -169,6 +194,11 @@
     {
       "id": "legacy",
       "status": "verificado",
+      "chapter": 1,
+      "title_es": "Sistema Legacy",
+      "title_en": "Legacy system",
+      "summary_es": "Qué es el sistema Legacy, cómo se desbloquea y cómo se ganan puntos.",
+      "summary_en": "What the Legacy system is, how to unlock it and earn points.",
       "keywords_es": [
         "sistema legacy",
         "legacy",
@@ -197,6 +227,11 @@
     {
       "id": "legacy-ventajas-recompensas",
       "status": "verificado",
+      "chapter": 1,
+      "title_es": "Ventajas y recompensas Legacy",
+      "title_en": "Legacy perks and rewards",
+      "summary_es": "En qué se gastan los puntos Legacy y qué recompensas hay.",
+      "summary_en": "What Legacy points are spent on and which rewards exist.",
       "keywords_es": [
         "ventajas legacy",
         "recompensas legacy",
@@ -226,6 +261,11 @@
     {
       "id": "preajuste-experiencia",
       "status": "verificado",
+      "chapter": 1,
+      "title_es": "Preajuste Clásico o Mejorado",
+      "title_en": "Classic or Enhanced preset",
+      "summary_es": "Qué preajuste de experiencia elegir al entrar por primera vez.",
+      "summary_en": "Which experience preset to choose on first login.",
       "keywords_es": [
         "preset",
         "preajuste",
@@ -254,6 +294,11 @@
     {
       "id": "tipos-de-reino",
       "status": "verificado",
+      "chapter": 1,
+      "title_es": "Tipos de reino y Hardcore",
+      "title_en": "Realm types and Hardcore",
+      "summary_es": "Qué tipos de reino hay y cuándo llega el modo Hardcore.",
+      "summary_en": "Which realm types exist and when Hardcore arrives.",
       "keywords_es": [
         "tipos de reino",
         "tipo de reino",
@@ -291,6 +336,11 @@
     {
       "id": "talentos-nivel",
       "status": "verificado",
+      "chapter": 4,
+      "title_es": "Nivel de los talentos",
+      "title_en": "Talent levels",
+      "summary_es": "A qué nivel llega el primer punto de talento y cuántos se ganan.",
+      "summary_en": "When the first talent point arrives and how many you get.",
       "keywords_es": [
         "a qué nivel tengo talentos",
         "a que nivel tengo talentos",
