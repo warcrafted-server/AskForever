@@ -1442,6 +1442,34 @@ def _detect_quest_list(facts: Facts, db, normalized: str, lang: str, ctx: dict) 
         _add_source(facts, f'quest:{quest["id"]}')
 
 
+def _detect_guide(facts: Facts, db, question, lang: str, ctx: dict) -> None:
+    """Añade textos oficiales solo si la pregunta no es específica."""
+    if is_travel_question(question):
+        return
+    blocked_sources = ('quest:', 'dungeon', 'route:')
+    if any(source.startswith(blocked_sources) for source in facts.sources):
+        return
+    blocked_lines = ('Misión ', 'Quest ', 'Mazmorra ', 'Mazmorras ', 'Dungeon ',
+                     'Dungeons ', 'Ruta ', 'Fastest route', 'Desde tu posición',
+                     'From your position', 'De ', 'From ')
+    if any(line.startswith(blocked_lines) for line in facts.lines):
+        return
+    try:
+        from askforever.engine.guide import GuideIndex
+    except Exception:
+        return
+    index = _safe(GuideIndex, db)
+    if index is None:
+        return
+    hits = _safe(index.search, question, lang, 3) or []
+    for ref, text in hits:
+        if lang == 'es':
+            facts.lines.append(f'Texto oficial del juego ({ref}): {text}')
+        else:
+            facts.lines.append(f'Official game text ({ref}): {text}')
+        _add_source(facts, f'guide:{ref}')
+
+
 def retrieve(message, db) -> Facts:
     """Recupera datos verificados para la pregunta; nunca lanza."""
     facts = Facts()
@@ -1485,6 +1513,7 @@ def retrieve(message, db) -> Facts:
         _detect_trainers(facts, db, normalized, lang, ctx)
         _detect_talents(facts, db, normalized, lang, ctx)
         _detect_quest_list(facts, db, normalized, lang, ctx)
+        _detect_guide(facts, db, question, lang, ctx)
         _add_panorama(facts, db, lang, level, nearby, zones_level, dungeons_level,
                       excluded_ids, excluded_keys, excluded_names)
 

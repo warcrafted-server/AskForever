@@ -1,0 +1,36 @@
+{
+  "default_ctx": {
+    "lvl": 9,
+    "race": "Humano",
+    "class": "Cazador",
+    "fac": "Alianza",
+    "zone": "Ciudad de Ventormenta"
+  },
+  "questions": [
+    {"id": "n01", "category": "primeros pasos", "lang": "esES", "q": "¿Cuál es el nivel máximo en WoW Forever?", "notes": "60 (diagnóstico del cliente). No debe dar el nivel máximo de otras versiones."},
+    {"id": "n02", "category": "primeros pasos", "lang": "esES", "q": "¿Cómo despojo a un enemigo que he matado?", "notes": "Texto oficial TUTORIAL7: el cadáver brilla, clic derecho en el cadáver y en los objetos."},
+    {"id": "n03", "category": "primeros pasos", "lang": "esES", "q": "¿Qué es la experiencia descansada?", "notes": "Solo con fuente oficial (tabla exhaustion o tutorial); si no la tiene, debe decirlo."},
+    {"id": "n04", "category": "primeros pasos", "lang": "esES", "q": "¿Cómo se sube de nivel más rápido al principio?", "notes": "Misiones y zonas para su nivel; no inventar sistemas que no existan en Forever."},
+    {"id": "n05", "category": "primeros pasos", "lang": "esES", "q": "¿Qué es el sistema Legacy?", "notes": "Sistema de progresión de cuenta de Forever (fuente Blizzard). Sin fuente cargada debe decir que no lo sabe."},
+    {"id": "n06", "category": "interfaz", "lang": "esES", "q": "¿Para qué sirve el libro de hechizos?", "notes": "Texto oficial NEWBIE_TOOLTIP_SPELLBOOK."},
+    {"id": "n07", "category": "interfaz", "lang": "esES", "q": "¿Cómo pongo un hechizo en la barra de acción?", "notes": "NEWBIE_TOOLTIP_SPELLBOOK: abrir el libro, arrastrar el hechizo a la barra."},
+    {"id": "n08", "category": "interfaz", "lang": "esES", "q": "¿Cómo cambio los atajos de teclado?", "notes": "Opciones del juego; no inventar rutas de menú que no existan."},
+    {"id": "n09", "category": "interfaz", "lang": "esES", "q": "¿Cómo sigo una misión en el mapa?", "notes": "Texto oficial de tutorial si existe; si no, decir que no tiene el dato."},
+    {"id": "n10", "category": "razas", "lang": "esES", "q": "¿Qué razas puede elegir la Alianza?", "notes": "Solo razas de la Alianza disponibles en Forever (no razas aliadas modernas)."},
+    {"id": "n11", "category": "clases", "lang": "esES", "q": "¿Dónde aprendo nuevas habilidades de mi clase?", "notes": "TUTORIAL14 y los instructores de cazador de Ventormenta con coordenadas."},
+    {"id": "n12", "category": "clases", "lang": "esES", "q": "¿A qué nivel tengo talentos?", "notes": "Pendiente de verificar en Forever; sin dato verificado debe decir que no lo sabe, no copiar otras versiones."},
+    {"id": "n13", "category": "clases", "lang": "esES", "q": "¿Cómo consigo una mascota de cazador?", "notes": "Habilidad de domesticar del instructor; no inventar niveles sin dato."},
+    {"id": "n14", "category": "profesiones", "lang": "esES", "q": "¿Cuántas profesiones puedo tener?", "notes": "Dos principales más secundarias (comprobar con fuente); si no tiene fuente, decirlo."},
+    {"id": "n15", "category": "profesiones", "lang": "esES", "q": "¿Dónde aprendo a pescar en Ventormenta?", "notes": "Instructor de pesca de la ciudad desde los datos; no inventar nombres."},
+    {"id": "n16", "category": "misiones", "lang": "esES", "q": "¿Qué significan los colores de las misiones?", "notes": "Texto oficial si existe; si no, decir que no tiene el dato."},
+    {"id": "n17", "category": "misiones", "lang": "esES", "q": "¿Cómo comparto una misión con mi grupo?", "notes": "Texto oficial (GlobalStrings o tutorial) si existe."},
+    {"id": "n18", "category": "grupos", "lang": "esES", "q": "¿Hay buscador de grupos para mazmorras?", "notes": "Diagnóstico: el buscador está activo en Forever."},
+    {"id": "n19", "category": "grupos", "lang": "esES", "q": "¿Qué mazmorra puedo hacer a mi nivel?", "notes": "Mazmorras de los datos para nivel 9 o cercanas (p. ej. Minas de la Muerte 17-26 no es para nivel 9)."},
+    {"id": "n20", "category": "comercio", "lang": "esES", "q": "¿Qué significan los colores de los objetos?", "notes": "Consejo oficial (gametips) sobre la calidad de los objetos si existe."},
+    {"id": "n21", "category": "comercio", "lang": "esES", "q": "¿Dónde está la casa de subastas en Ventormenta?", "notes": "Subastador de los datos con coordenadas; no inventar."},
+    {"id": "n22", "category": "viajes", "lang": "esES", "q": "¿Cómo uso la piedra de hogar?", "notes": "Texto oficial si existe; vuelve a la posada donde la vinculaste."},
+    {"id": "n23", "category": "viajes", "lang": "esES", "q": "¿A qué nivel puedo tener montura?", "notes": "Pendiente de verificar en Forever; sin dato verificado debe decir que no lo sabe."},
+    {"id": "n24", "category": "social", "lang": "esES", "q": "¿Cómo envío un mensaje privado a otro jugador?", "notes": "Consejo oficial (gametip 221): clic en el nombre del jugador en el chat."},
+    {"id": "n25", "category": "problemas", "lang": "esES", "q": "He muerto, ¿qué hago?", "notes": "Texto oficial de tutorial sobre la muerte y el espíritu si existe."}
+  ]
+}
