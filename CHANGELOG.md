@@ -4,6 +4,16 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+## [0.3.0-beta.3] - 2026-11-15
+
+Quest questions now include where their objective items come from. / Las preguntas de misión ahora incluyen de dónde salen sus objetos objetivo.
+
+### English
+- Fixed: questions about a quest now include where its objective items come from (which NPC drops them, with zone, coordinates and drop rate; vendors; quest rewards).
+
+### Español
+- Corregido: las preguntas sobre una misión ahora incluyen de dónde salen sus objetos objetivo (qué PNJ los suelta, con zona, coordenadas y probabilidad; vendedores; recompensas de misión).
+
 ## [0.3.0-beta.2] - 2026-11-15
 
 Welcome and help window with the setup steps and links. / Ventana de bienvenida y ayuda con los pasos de instalación y los enlaces.

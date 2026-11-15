@@ -306,10 +306,10 @@ def _item_line(item, lang: str) -> str:
         pieces = []
         for drop in drops:
             npc = drop.get('npc') or ''
-            zone = drop.get('zone') or ''
+            place = _location_text(drop)
             rate = drop.get('rate')
-            if zone:
-                npc = npc + (' en ' if lang == 'es' else ' in ') + zone
+            if place:
+                npc = npc + (' en ' if lang == 'es' else ' in ') + place
             pieces.append(f'{npc} ({rate} %)' if rate is not None else npc)
         parts.append(f'{label}: ' + ', '.join(pieces))
     rewards = item.get('quest_rewards') or []
@@ -346,6 +346,15 @@ def _detect_entities(facts: Facts, db, matches, normalized: str, lang: str, ctx:
             details = _safe(db.quest_details, quest['id'], lang)
             facts.lines.append(_quest_line(quest, lang, details))
             _add_source(facts, f'quest:{quest["id"]}')
+            objective_ids = quest.get('objective_item_ids') or []
+            for item_id in objective_ids[:3]:
+                if f'item:{item_id}' in facts.sources:
+                    continue
+                item = _safe(db.item_sources, item_id, lang)
+                if item is None:
+                    continue
+                facts.lines.append(_item_line(item, lang))
+                _add_source(facts, f'item:{item["id"]}')
         elif kind == 'dungeon':
             has_dungeon = True
             dungeon = db.dungeon(entity_id, lang)

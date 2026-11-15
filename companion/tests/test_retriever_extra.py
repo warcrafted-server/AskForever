@@ -7,7 +7,7 @@ import sqlite3
 import pytest
 
 from askforever.data.wowdb import WowDb
-from askforever.engine.retriever import retrieve
+from askforever.engine.retriever import Facts, _detect_entities, _item_line, retrieve
 
 SCHEMA = [
     'CREATE TABLE ext_quests (quest_id INTEGER, required_level INTEGER, quest_level INTEGER)',
@@ -73,6 +73,7 @@ def db(tmp_path):
         (1338, 9, 14),
         (255, 14, 19),
         (96393, 9, 16),
+        (91775, 10, 12),
     ])
     _insert(conn, 'ext_quest_l10n', ['quest_id', 'locale', 'name'], [
         (1338, 'esES', 'Un pedido de Pico Tormenta'),
@@ -81,6 +82,8 @@ def db(tmp_path):
         (255, 'enUS', 'Mercenaries'),
         (96393, 'esES', 'Incursión en la Antigua Forjaz'),
         (96393, 'enUS', 'Old Ironforge Incursion'),
+        (91775, 'esES', 'Devolución de libros'),
+        (91775, 'enUS', 'Book Return'),
     ])
     _insert(conn, 'ext_quest_starters', ['quest_id', 'entity_type', 'entity_id'], [
         (1338, 'npc', 1343),
@@ -89,6 +92,11 @@ def db(tmp_path):
     _insert(conn, 'ext_quest_finishers', ['quest_id', 'entity_type', 'entity_id'], [
         (1338, 'npc', 5413),
         (96393, 'npc', 2784),
+    ])
+    _insert(conn, 'ext_quest_objective_items',
+            ['quest_id', 'position', 'item_id', 'text', 'icon_type'], [
+        (91775, 0, 248001, 'Álbum de fotos', None),
+        (91775, 1, 248002, 'Libro perdido', None),
     ])
     _insert(conn, 'ext_npcs', ['npc_id', 'min_level', 'max_level', 'friendly_to_faction'], [
         (1343, 10, 10, 'A'),
@@ -173,6 +181,10 @@ def db(tmp_path):
     _insert(conn, 'ext_item_l10n', ['item_id', 'locale', 'name'], [
         (2536, 'esES', 'Diente de piedra trogg'),
         (2536, 'enUS', 'Trogg Stone Tooth'),
+        (248001, 'esES', 'Álbum de fotos'),
+        (248001, 'enUS', 'Photo Album'),
+        (248002, 'esES', 'Libro perdido'),
+        (248002, 'enUS', 'Lost Book'),
     ])
     _insert(conn, 'v_zona_niveles', ['area_id', 'nombre', 'nombre_en', 'nivel_min',
                                      'nivel_max', 'pnj', 'origen'], [
@@ -231,6 +243,8 @@ def db(tmp_path):
         (1163, 2536, None, None, 50.0, 'questie'),
         (1197, 2536, None, None, 50.0, 'questie'),
         (1162, 2536, 5, 16, 31.25, 'juego'),
+        (1163, 248001, None, None, 100.0, 'questie'),
+        (1197, 248002, None, None, 100.0, 'questie'),
     ])
     _insert(conn, 'v_npc', ['npc_id', 'nombre', 'nombre_en'], [
         (1163, 'Trog A', 'Trogg A'),
@@ -339,6 +353,74 @@ def test_item_loot_question(db):
     assert 'botín:' in text
     assert '50 %' in text
     assert 'Loch Modan' in text
+
+
+def test_quest_objective_item_drops(db):
+    facts = retrieve(_message('¿Devolución de libros?'), db)
+    text = _text(facts)
+    assert 'Devolución de libros' in text
+    assert 'Trog A en Loch Modan (10.0, 20.0) (100 %)' in text
+    assert 'Trog B en Loch Modan (11.0, 21.0) (100 %)' in text
+    assert 'quest:91775' in facts.sources
+    assert 'item:248001' in facts.sources
+    assert 'item:248002' in facts.sources
+    assert text.count('Trog A') == 1
+
+
+class _QuestDbWithoutObjectiveIds:
+    def __init__(self):
+        self.item_source_calls = []
+
+    def find_quest(self, *args, **kwargs):
+        return {
+            'id': 7,
+            'name': 'Sin objetivos',
+            'level': 10,
+            'required_level': 10,
+            'starters': [],
+            'finishers': [],
+            'objective_items': [],
+        }
+
+    def quest_details(self, *args, **kwargs):
+        return None
+
+    def item_sources(self, *args, **kwargs):
+        self.item_source_calls.append(args)
+        return None
+
+
+def test_quest_without_objective_item_ids_keeps_working():
+    fake = _QuestDbWithoutObjectiveIds()
+    facts = Facts()
+    _detect_entities(facts, fake, [{'kind': 'quest', 'id': 7, 'name': 'Sin objetivos'}],
+                     '', 'es', {})
+    assert facts.lines == ['Misión «Sin objetivos» (nivel 10, requiere 10).']
+    assert facts.sources == ['quest:7']
+    assert fake.item_source_calls == []
+
+
+def test_item_line_uses_drop_coordinates():
+    item = {
+        'name': 'Libro perdido',
+        'drops': [
+            {'npc': 'Nimsy', 'zone': 'Bosque de Elwynn', 'x': 41.6, 'y': 79.9,
+             'rate': 100},
+        ],
+    }
+    assert 'Nimsy en Bosque de Elwynn (41.6, 79.9) (100 %)' in _item_line(item, 'es')
+    item['drops'][0]['zone'] = 'Elwynn Forest'
+    assert 'Nimsy in Elwynn Forest (41.6, 79.9) (100 %)' in _item_line(item, 'en')
+
+
+def test_item_line_without_coordinates_keeps_current_format():
+    item = {
+        'name': 'Libro perdido',
+        'drops': [{'npc': 'Nimsy', 'zone': 'Bosque de Elwynn', 'rate': 100}],
+    }
+    line = _item_line(item, 'es')
+    assert 'Nimsy en Bosque de Elwynn (100 %)' in line
+    assert '(41.6' not in line
 
 
 def test_flights_from_question(db):

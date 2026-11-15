@@ -387,12 +387,14 @@ class WowDb:
             return None
         row = rows[0]
         objective_items = []
+        objective_item_ids = []
         item_rows = self._rows(
             'SELECT item_id, text FROM ext_quest_objective_items WHERE quest_id = ? '
             'ORDER BY position', (quest_id,))
         for item_row in item_rows:
             name = self._localized('ext_item_l10n', 'item_id', item_row['item_id'], lang)
             objective_items.append(name or _clean_text(item_row['text']))
+            objective_item_ids.append(item_row['item_id'])
         return {
             'id': quest_id,
             'name': self._quest_name(quest_id, lang),
@@ -401,6 +403,7 @@ class WowDb:
             'starters': self._quest_entities('ext_quest_starters', quest_id, lang),
             'finishers': self._quest_entities('ext_quest_finishers', quest_id, lang),
             'objective_items': objective_items,
+            'objective_item_ids': objective_item_ids,
         }
 
     def find_quest(self, name_or_id, lang: str = 'es', player_level=None):
@@ -656,9 +659,12 @@ class WowDb:
                 except (TypeError, ValueError):
                     rate = None
             locations = self.npc_locations(row['npc_id'], limit=1, lang=lang)
+            location = locations[0] if locations else {}
             drops.append({
                 'npc': npc_name,
-                'zone': locations[0]['zone'] if locations else '',
+                'zone': location.get('zone') or '',
+                'x': location.get('x'),
+                'y': location.get('y'),
                 'rate': rate,
             })
             if len(drops) >= limit:
@@ -690,13 +696,16 @@ class WowDb:
                         npc_name = _clean_text(
                             npc_rows[0]['nombre'] or npc_rows[0]['nombre_en'])
                 locations = self.npc_locations(npc_id, limit=1, lang=lang)
+                location = locations[0] if locations else {}
                 try:
                     rate = round(float(row['porcentaje']))
                 except (TypeError, ValueError):
                     rate = None
                 drops.append({
                     'npc': npc_name,
-                    'zone': locations[0]['zone'] if locations else '',
+                    'zone': location.get('zone') or '',
+                    'x': location.get('x'),
+                    'y': location.get('y'),
                     'rate': rate,
                 })
                 if len(drops) >= limit:

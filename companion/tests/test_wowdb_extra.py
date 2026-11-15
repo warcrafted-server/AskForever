@@ -41,6 +41,12 @@ SCHEMA = [
     'CREATE TABLE TaxiNodes (__id INTEGER, ID INTEGER, Name_lang TEXT, '
     'Name_lang_esES TEXT, ContinentID INTEGER, MountCreatureID TEXT)',
     'CREATE TABLE ext_item_l10n (item_id INTEGER, locale TEXT, name TEXT)',
+    'CREATE TABLE ext_quests (quest_id INTEGER, required_level INTEGER, quest_level INTEGER)',
+    'CREATE TABLE ext_quest_l10n (quest_id INTEGER, locale TEXT, name TEXT)',
+    'CREATE TABLE ext_quest_starters (quest_id INTEGER, entity_type TEXT, entity_id INTEGER)',
+    'CREATE TABLE ext_quest_finishers (quest_id INTEGER, entity_type TEXT, entity_id INTEGER)',
+    'CREATE TABLE ext_quest_objective_items (quest_id INTEGER, position INTEGER, '
+    'item_id INTEGER, text TEXT, icon_type INTEGER)',
 ]
 
 
@@ -187,6 +193,22 @@ def db(tmp_path):
     _insert(conn, 'ext_item_l10n', ['item_id', 'locale', 'name'], [
         (2536, 'esES', 'Diente de piedra trogg'),
         (2536, 'enUS', 'Trogg Stone Tooth'),
+        (248001, 'esES', 'Álbum de fotos'),
+        (248001, 'enUS', 'Photo Album'),
+        (248002, 'esES', 'Libro perdido'),
+        (248002, 'enUS', 'Lost Book'),
+    ])
+    _insert(conn, 'ext_quests', ['quest_id', 'required_level', 'quest_level'], [
+        (91775, 10, 12),
+    ])
+    _insert(conn, 'ext_quest_l10n', ['quest_id', 'locale', 'name'], [
+        (91775, 'esES', 'Devolución de libros'),
+        (91775, 'enUS', 'Book Return'),
+    ])
+    _insert(conn, 'ext_quest_objective_items',
+            ['quest_id', 'position', 'item_id', 'text', 'icon_type'], [
+        (91775, 0, 248001, 'Álbum de fotos', None),
+        (91775, 1, 248002, 'Libro perdido', None),
     ])
     conn.commit()
     conn.close()
@@ -285,6 +307,12 @@ def test_quest_details(db):
     assert db.quest_details(999) is None
 
 
+def test_quest_objective_item_ids(db):
+    quest = db.find_quest(91775)
+    assert quest['objective_items'] == ['Álbum de fotos', 'Libro perdido']
+    assert quest['objective_item_ids'] == [248001, 248002]
+
+
 def test_item_sources_from_v_botin(db):
     item = db.item_sources('Diente de piedra trogg')
     assert item['name'] == 'Diente de piedra trogg'
@@ -292,6 +320,8 @@ def test_item_sources_from_v_botin(db):
     assert rates == [50, 50, 31]
     assert item['drops'][0]['zone'] == 'Loch Modan'
     assert item['drops'][0]['npc'] in ('Trog A', 'Trog B')
+    trog_a = next(drop for drop in item['drops'] if drop['npc'] == 'Trog A')
+    assert (trog_a['x'], trog_a['y']) == (10.0, 20.0)
 
 
 def test_flights_from(db):
