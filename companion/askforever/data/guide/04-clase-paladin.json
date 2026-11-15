@@ -1,0 +1,901 @@
+{
+  "description": "Capítulo 4: Clases. Paladín. Secciones editoriales redactadas desde guías de terceros.",
+  "sections": [
+    {
+      "id": "clase-paladin-que-hace",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Qué hace un Paladín",
+      "title_en": "What a Paladin Does",
+      "summary_es": "Paladín usa la Luz para dañar, curar y proteger; sus bendiciones, auras y sellos apoyan al grupo.",
+      "summary_en": "Paladin uses the Light to damage, heal, and protect; blessings, auras, and seals support the group.",
+      "keywords_es": [
+        "qué hace un paladín",
+        "paladín daño curación tanque",
+        "paladín bendiciones y auras",
+        "paladín sellos",
+        "paladín clase versátil"
+      ],
+      "keywords_en": [
+        "what does a paladin do",
+        "paladin damage healing tank",
+        "paladin blessings auras",
+        "paladin seals",
+        "versatile paladin class"
+      ],
+      "text_es": "El Paladín es una clase versátil que usa la Luz para hacer daño, curar y proteger. Puede cumplir los tres roles: Reprensión pega cuerpo a cuerpo con un arma a dos manos, Protección tanquea con escudo y Sagrado cura. Sus bendiciones, auras y sellos ayudan a todo el grupo, y sus inmunidades permiten salvar momentos difíciles.",
+      "text_en": "Paladin is a versatile class that uses the Light to damage, heal, and protect. It can fill all three roles: Retribution fights in melee with a two-handed weapon, Protection tanks with a shield, and Holy heals. Its blessings, auras, and seals help the whole group, and its immunities can rescue dangerous moments.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Paladin Class Guide › Comprehensive Guide to Paladin in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/paladin-class-overview",
+          "date": "2026-11-02"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-especializaciones",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Especializaciones del Paladín",
+      "title_en": "Paladin Specializations",
+      "summary_es": "Sagrado cura, Protección tanquea con escudo y Reprensión hace daño cuerpo a cuerpo con dos manos.",
+      "summary_en": "Holy heals, Protection tanks with a shield, and Retribution deals melee damage with two hands.",
+      "keywords_es": [
+        "especializaciones del paladín",
+        "paladín sagrado protección reprensión",
+        "paladín sanador",
+        "paladín tanque",
+        "paladín daño"
+      ],
+      "keywords_en": [
+        "paladin specializations",
+        "paladin holy protection retribution",
+        "paladin healer",
+        "paladin tank",
+        "paladin damage"
+      ],
+      "text_es": "Sagrado se centra en curar y apoyar con bendiciones. Protección aguanta golpes, genera amenaza y tanquea con escudo. Reprensión inflige daño cuerpo a cuerpo con un arma a dos manos. Las tres son Paladín, pero solo Protección es tanque y Sagrado sanador; Reprensión es daño.",
+      "text_en": "Holy focuses on healing and supporting with blessings. Protection endures hits, builds threat, and tanks with a shield. Retribution deals melee damage with a two-handed weapon. All three are Paladins, but only Protection is a tank and Holy a healer; Retribution is damage.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Paladin Class Guide › Paladin in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/paladin-class-overview",
+          "date": "2026-11-02"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Guide › Holy Paladin Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-healer-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Protection Paladin Guide › Protection Paladin Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-tank-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Guide › Retribution Paladin Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-cambios-forever",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Qué cambia en Forever para el Paladín",
+      "title_en": "What Changes for Paladin in Forever",
+      "summary_es": "Protección gana provocación con Sello de furia y Sagrado recibe Vigilia de la Luz para curar en área.",
+      "summary_en": "Protection gains taunt through Seal of Fury, and Holy receives Light's Vigil for area healing.",
+      "keywords_es": [
+        "cambios del paladín en forever",
+        "sello de furia",
+        "vigilia de la luz",
+        "paladín provocar",
+        "paladín curación en área"
+      ],
+      "keywords_en": [
+        "paladin forever changes",
+        "seal of fury",
+        "light's vigil",
+        "paladin taunt",
+        "paladin aoe healing"
+      ],
+      "text_es": "En Forever Protección recibe Sello de furia: al usarlo con Sentencia puede provocar enemigos, algo que antes le faltaba. Sagrado recibe Vigilia de la Luz, que le da curación en área. Reprensión mantiene su daño y su utilidad, y el Paladín sigue usando bendiciones, auras y sellos. La clase puede cubrir los tres roles.",
+      "text_en": "In Forever, Protection receives Seal of Fury: using it with Judgement can taunt enemies, something it previously lacked. Holy receives Light's Vigil, which gives it area healing. Retribution keeps its damage and utility, and the Paladin still uses blessings, auras, and seals. The class can cover all three roles.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Protection Paladin Guide › Reason for Hope",
+          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-tank-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Guide › Decent but Highly Desired",
+          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-healer-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Paladin Class Guide › Comprehensive Guide to Paladin in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/paladin-class-overview",
+          "date": "2026-11-02"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-armas-armadura",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Armas y armadura del Paladín",
+      "title_en": "Paladin Weapons and Armor",
+      "summary_es": "Lleva malla y placas; Protección usa escudo y Reprensión un arma a dos manos.",
+      "summary_en": "Wears mail and plate; Protection uses a shield and Retribution a two-handed weapon.",
+      "keywords_es": [
+        "armas del paladín",
+        "armadura del paladín",
+        "paladín escudo",
+        "paladín arma a dos manos",
+        "paladín placas"
+      ],
+      "keywords_en": [
+        "paladin weapons",
+        "paladin armor",
+        "paladin shield",
+        "paladin two handed",
+        "paladin plate"
+      ],
+      "text_es": "El Paladín lleva malla y, más adelante, placas. Puede usar armas a dos manos, armas de una mano y escudo; Protección tanquea con escudo y Reprensión pega con un arma a dos manos. Sagrado también puede llevar una mano y escudo. La elección depende de la especialización y del papel que quieras cubrir.",
+      "text_en": "A Paladin wears mail and later plate. It can use two-handed weapons, one-handed weapons, and a shield; Protection tanks with a shield and Retribution hits with a two-handed weapon. Holy can also use a one-handed weapon and shield. The choice depends on the specialization and the role you want to fill.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Leveling Guide › Professions",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Protection Paladin Guide › Protection Paladin Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-tank-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Guide › Holy Paladin Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-healer-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-subir-espec",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Mejor especialización para subir",
+      "title_en": "Best Specialization for Leveling",
+      "summary_es": "Reprensión es la más eficiente en solitario; Protección aguanta grupos y Sagrado entra fácil como sanador.",
+      "summary_en": "Retribution is the most efficient solo; Protection handles packs and Holy finds healer groups easily.",
+      "keywords_es": [
+        "mejor especialización para subir paladín",
+        "paladín reprensión para levear",
+        "paladín protección para subir",
+        "paladín sagrado para subir",
+        "qué spec de paladín usar"
+      ],
+      "keywords_en": [
+        "best paladin leveling spec",
+        "retribution paladin leveling",
+        "protection paladin leveling",
+        "holy paladin leveling",
+        "which paladin spec to level"
+      ],
+      "text_es": "Para subir solo, Reprensión es la más eficiente: pega bien, aguanta y se cura. Protección es la mejor si quieres tanquear mazmorras y reunir grupos, y aguanta varios enemigos con Consagración. Sagrado es más lento para matar, pero entra fácil en grupos como sanador. Elige según quieras hacer daño, tanquear o curar.",
+      "text_en": "For solo leveling, Retribution is the most efficient: it hits well, endures, and heals itself. Protection is best if you want to tank dungeons and gather groups, and it handles several enemies with Consecration. Holy is slower at killing but finds healer groups easily. Choose based on whether you want to damage, tank, or heal.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Leveling Guide › Retribution Paladin Leveling Guide",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Protection Paladin Leveling Guide › Protection Paladin Leveling Guide",
+          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Leveling Guide › Holy Paladin Leveling Guide",
+          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-talentos-represion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de talentos de Reprensión",
+      "title_en": "Retribution Leveling Talent Path",
+      "summary_es": "Reprensión: 10-20 Desvío u Oración, Sentencia mejorada y Convicción; 22 Búsqueda de justicia; 30 Arrepentimiento.",
+      "summary_en": "Retribution: 10-20 Deflection or Benediction, Improved Judgement and Conviction; 22 Pursuit of Justice; 30 Repentance.",
+      "keywords_es": [
+        "talentos para subir paladín reprensión",
+        "ruta de reprensión",
+        "desvío u oración",
+        "sentencia mejorada",
+        "búsqueda de justicia"
+      ],
+      "keywords_en": [
+        "retribution paladin leveling talents",
+        "retribution talent path",
+        "deflection benediction",
+        "improved judgement",
+        "pursuit of justice"
+      ],
+      "text_es": "Ruta de Reprensión para subir: de 10 a 20, Desvío u Oración, Sentencia mejorada y Convicción. De 20 a 30: Sello de orden, Búsqueda de justicia a 22 y Arrepentimiento a 30. Después, Campeón de la Luz. Si prefieres más Oración o Sentencia santificada, puedes cambiar algunos puntos, pero mantén la base de daño.",
+      "text_en": "Retribution leveling path: from 10 to 20, Deflection or Benediction, Improved Judgement, and Conviction. From 20 to 30: Seal of Command, Pursuit of Justice at 22, and Repentance at 30. After that, Champion of the Light. If you prefer Benediction or Sanctified Judgement, you can swap some points, but keep the damage base.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Leveling Guide › Leveling Talent Build",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-hitos",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Hitos de habilidad por nivel",
+      "title_en": "Ability Milestones by Level",
+      "summary_es": "Imposición de manos 10; Redención 12; Consagración y Reyes 20; Arrepentimiento 30; Escudo divino 34; Cólera sagrada 50.",
+      "summary_en": "Lay on Hands 10; Redemption 12; Consecration and Kings 20; Repentance 30; Divine Shield 34; Holy Wrath 50.",
+      "keywords_es": [
+        "cuándo aprendo habilidades de paladín",
+        "nivel de las habilidades del paladín",
+        "hitos del paladín",
+        "consagración nivel",
+        "cólera sagrada nivel"
+      ],
+      "keywords_en": [
+        "when paladin abilities",
+        "paladin ability levels",
+        "paladin milestones",
+        "consecration level",
+        "holy wrath level"
+      ],
+      "text_es": "Imposición de manos y Bendición de Protección a 10; Redención con la misión de 12; a 20, Consagración, Bendición de los Reyes y las armas de clase; Búsqueda de justicia a 22; Arrepentimiento a 30; Escudo divino a 34; Martillo de cólera a 44; Cólera sagrada a 50. Choque Sagrado llega a 41 y Vigilia de la Luz a 52 si los eliges.",
+      "text_en": "Lay on Hands and Blessing of Protection at 10; Redemption from the level 12 quest; at 20, Consecration, Blessing of Kings, and the class weapons; Pursuit of Justice at 22; Repentance at 30; Divine Shield at 34; Hammer of Wrath at 44; Holy Wrath at 50. Holy Shock arrives at 41 and Light's Vigil at 52 if you take them.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Protection Paladin Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-mana",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Cómo gestionar el maná",
+      "title_en": "Managing Mana",
+      "summary_es": "El maná limita al Paladín; tras lanzar un hechizo espera cinco segundos para regenerar y lleva agua.",
+      "summary_en": "Mana limits the Paladin; after casting, wait five seconds to regenerate and carry water.",
+      "keywords_es": [
+        "maná del paladín",
+        "regeneración de maná paladín",
+        "paladín sin maná",
+        "regla de cinco segundos",
+        "agua para paladín"
+      ],
+      "keywords_en": [
+        "paladin mana",
+        "paladin mana regeneration",
+        "paladin out of mana",
+        "five second rule",
+        "paladin water"
+      ],
+      "text_es": "El maná limita al Paladín: los hechizos son caros y, tras lanzar uno, la regeneración se detiene cinco segundos. Lleva agua y evita gastar maná en un enemigo que morirá con el siguiente golpe. Imposición de manos cura mucho pero consume toda la barra; úsala como emergencia. Destello de Luz es el heal eficiente, Luz Sagrada cura más pero cuesta más, y Choque Sagrado es instantáneo y caro.",
+      "text_en": "Mana limits the Paladin: spells are expensive, and after casting one, regeneration stops for five seconds. Carry water and avoid spending mana on an enemy that will die to the next hit. Lay on Hands heals a lot but consumes the whole bar; use it as an emergency. Flash of Light is the efficient heal, Holy Light heals more but costs more, and Holy Shock is instant and expensive.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Leveling Guide › Tips Remember the 5 Second Rule!",
+          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Leveling Guide › Retribution Paladin Leveling Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-sellos",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Sellos y Sentencia",
+      "title_en": "Seals and Judgement",
+      "summary_es": "Los sellos cambian daño o curación y Sentencia consume el sello activo; Sello de furia permite provocar.",
+      "summary_en": "Seals change damage or healing and Judgement consumes the active seal; Seal of Fury allows taunting.",
+      "keywords_es": [
+        "sellos del paladín",
+        "sentencia paladín",
+        "sello de rectitud",
+        "sello de luz",
+        "sello de furia"
+      ],
+      "keywords_en": [
+        "paladin seals",
+        "paladin judgement",
+        "seal of righteousness",
+        "seal of light",
+        "seal of fury"
+      ],
+      "text_es": "Los sellos son buffs que cambian tu daño o tu curación, y Sentencia consume el sello activo. Sello de rectitud pega, Sello de luz cura al golpear, Sello de orden golpea con fuerza y Sello del Cruzado aplica un debuff de daño sagrado. Protección usa Sello de furia para que Sentencia provoque; sin él, no tiene provocación.",
+      "text_en": "Seals are buffs that change your damage or healing, and Judgement consumes the active seal. Seal of Righteousness hits, Seal of Light heals on hit, Seal of Command strikes hard, and Seal of the Crusader applies a Holy damage debuff. Protection uses Seal of Fury so Judgement taunts; without it, it has no taunt.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Leveling Guide › FAQ Which Seal Should I Use?",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Protection Paladin Leveling Guide › FAQ Which Seal Should I Use?",
+          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Leveling Guide › FAQ Which Seal Should I Use?",
+          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-auras-bendiciones",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Auras y bendiciones",
+      "title_en": "Auras and Blessings",
+      "summary_es": "Aura de castigo o devoción y una bendición por Paladín; no se acumulan con las de otro Paladín.",
+      "summary_en": "Retribution or Devotion Aura and one blessing per Paladin; they do not stack with another Paladin's.",
+      "keywords_es": [
+        "auras del paladín",
+        "bendiciones del paladín",
+        "aura de castigo",
+        "bendición de los reyes",
+        "bendición de sabiduría"
+      ],
+      "keywords_en": [
+        "paladin auras",
+        "paladin blessings",
+        "retribution aura",
+        "blessing of kings",
+        "blessing of wisdom"
+      ],
+      "text_es": "Aura de castigo devuelve daño a quien te golpea y Aura de devoción reduce el daño recibido; no se acumulan con las de otro Paladín, así que coordinad. Las bendiciones son buffs únicos por Paladín: Poderío para ataque cuerpo a cuerpo, Sabiduría para maná, Reyes para estadísticas y Luz para curar mejor. Mantén una bendición en ti y en el grupo; no apiles la misma.",
+      "text_en": "Retribution Aura returns damage to attackers and Devotion Aura reduces incoming damage; they do not stack with another Paladin's, so coordinate. Blessings are one buff per Paladin: Might for melee attack, Wisdom for mana, Kings for stats, and Light for better healing. Keep a blessing on yourself and the group; do not stack the same one.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Leveling Guide › FAQ Which Aura Should I Use?",
+          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Leveling Guide › Tips Maintain Your Blessings!",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-control",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Control, defensas y limpieza",
+      "title_en": "Control, Defenses, and Cleansing",
+      "summary_es": "Martillo de justicia y Arrepentimiento controlan; Bendición de Libertad y Protección y Escudo divino salvan.",
+      "summary_en": "Hammer of Justice and Repentance control; Blessing of Freedom and Protection and Divine Shield save.",
+      "keywords_es": [
+        "control del paladín",
+        "martillo de justicia",
+        "arrepentimiento paladín",
+        "bendición de libertad",
+        "escudo divino"
+      ],
+      "keywords_en": [
+        "paladin control",
+        "hammer of justice",
+        "paladin repentance",
+        "blessing of freedom",
+        "divine shield"
+      ],
+      "text_es": "Martillo de justicia aturde a un enemigo y Arrepentimiento lo incapacita; el daño rompe Arrepentimiento. Bendición de Libertad quita raíces y ralentizaciones, Bendición de Protección vuelve inmune al daño físico y Escudo divino te hace inmune mientras atacas. Purificar elimina una enfermedad y un veneno. El Paladín no tiene interrupción de lanzamientos, así que depende de aturdimientos y del grupo.",
+      "text_en": "Hammer of Justice stuns an enemy and Repentance incapacitates it; damage breaks Repentance. Blessing of Freedom removes roots and slows, Blessing of Protection grants immunity to physical damage, and Divine Shield makes you immune while attacking. Purify removes one disease and one poison. The Paladin has no cast interrupt, so it relies on stuns and the group.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Leveling Guide › Utility and Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Leveling Guide › Utility",
+          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-rotacion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación básica para subir",
+      "title_en": "Basic Leveling Rotation",
+      "summary_es": "Reprensión mantiene sello y usa Sentencia y Golpe Sagrado; Protección añade Consagración; Sagrado cura.",
+      "summary_en": "Retribution keeps a seal and uses Judgement and Holy Strike; Protection adds Consecration; Holy heals.",
+      "keywords_es": [
+        "rotación del paladín",
+        "rotación para subir paladín",
+        "sentencia y golpe sagrado",
+        "consagración paladín",
+        "destello de luz"
+      ],
+      "keywords_en": [
+        "paladin rotation",
+        "paladin leveling rotation",
+        "judgement holy strike",
+        "paladin consecration",
+        "flash of light"
+      ],
+      "text_es": "En Reprensión, mantén un sello y usa Sentencia y Golpe Sagrado en cuanto puedas; Consagración para varios enemigos y Exorcismo contra no-muertos y demonios. En Protección, mantén Sello de furia y Consagración, y usa Sentencia para provocar; Golpe Sagrado rellena. En Sagrado, Destello de Luz es el heal habitual, Luz Sagrada para daño fuerte y Choque Sagrado para emergencias; Vigilia de la Luz prepara curación en área.",
+      "text_en": "As Retribution, keep a seal up and use Judgement and Holy Strike whenever you can; Consecration for several enemies and Exorcism against Undead and Demons. As Protection, keep Seal of Fury and Consecration active, and use Judgement to taunt; Holy Strike fills the gaps. As Holy, Flash of Light is the usual heal, Holy Light for heavy damage, and Holy Shock for emergencies; Light's Vigil sets up area healing.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Leveling Guide › Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Protection Paladin Leveling Guide › Protection Paladin Leveling Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Leveling Guide › Holy Paladin Leveling Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-area",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Daño en área con Consagración",
+      "title_en": "Area Damage with Consecration",
+      "summary_es": "Consagración castiga a varios y genera amenaza, pero cuesta maná y tarda ocho segundos en hacer todo el daño.",
+      "summary_en": "Consecration hits several enemies and builds threat, but costs mana and takes eight seconds for full damage.",
+      "keywords_es": [
+        "paladín daño en área",
+        "consagración paladín",
+        "paladín varios enemigos",
+        "aura de castigo",
+        "martillo de cólera"
+      ],
+      "keywords_en": [
+        "paladin aoe",
+        "paladin consecration",
+        "paladin multiple enemies",
+        "retribution aura",
+        "hammer of wrath"
+      ],
+      "text_es": "Consagración es el área principal del Paladín: castiga a los enemigos cercanos y genera amenaza, pero cuesta mucha maná y tarda ocho segundos en hacer todo su daño. Aura de castigo ayuda a matar y a mantener amenaza; Reprensión puede usar Martillo de cólera para rematar. Junta a los enemigos antes de Consagración y no la uses si van a morir o si tendrás que moverte.",
+      "text_en": "Consecration is the Paladin's main area tool: it hits nearby enemies and builds threat, but it costs a lot of mana and takes eight seconds to deal all its damage. Retribution Aura helps kill and hold threat; Retribution can use Hammer of Wrath to finish enemies. Gather the enemies before Consecration and do not use it if they will die or if you will have to move.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Leveling Guide › AoE Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Protection Paladin Leveling Guide › Protection Paladin Leveling Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-mision-redencion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "La misión de clase de Redención",
+      "title_en": "The Redemption Class Quest",
+      "summary_es": "A nivel 12, El Libro de la Divinidad o Una lección de divinidad desbloquean Redención.",
+      "summary_en": "At level 12, The Tome of Divinity or A Lesson in Divinity unlock Redemption.",
+      "keywords_es": [
+        "misión de clase paladín",
+        "redención paladín",
+        "el libro de la divinidad",
+        "una lección de divinidad",
+        "resucitar aliados"
+      ],
+      "keywords_en": [
+        "paladin class quest",
+        "paladin redemption",
+        "the tome of divinity",
+        "a lesson in divinity",
+        "resurrect allies"
+      ],
+      "text_es": "El Libro de la Divinidad (Alianza), que usa el Escrito sobre Divinidad, y Una lección de divinidad (Horda) empiezan a nivel 12 y desbloquean Redención. Es la única facultad importante que dan las misiones de clase; hazla antes de mazmorras, porque te pedirán resucitar aliados.",
+      "text_en": "The Tome of Divinity (Alliance) and A Lesson in Divinity (Horde) start at level 12 and unlock Redemption. It is the only important ability granted by the class quests; do it before dungeons, because you will be asked to resurrect allies.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Paladin Class Quests Guide › The Tome of Divinity",
+          "url": "https://www.icy-veins.com/wow-forever/paladin-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Paladin Class Quests Guide › A Lesson in Divinity",
+          "url": "https://www.icy-veins.com/wow-forever/paladin-class-quests",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-misiones-armas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Misiones de clase de nivel 20 y 22",
+      "title_en": "Level 20 and 22 Class Quests",
+      "summary_es": "La prueba de rectitud u Old Fire-Eye dan un arma a nivel 20; A Strange Artifact da una capa a 22.",
+      "summary_en": "The Test of Righteousness or Old Fire-Eye give a weapon at 20; A Strange Artifact gives a cloak at 22.",
+      "keywords_es": [
+        "misiones de clase paladín nivel 20",
+        "la prueba de rectitud",
+        "old fire-eye",
+        "a strange artifact",
+        "arma de clase paladín"
+      ],
+      "keywords_en": [
+        "paladin class quests level 20",
+        "the test of righteousness",
+        "old fire-eye",
+        "a strange artifact",
+        "paladin class weapon"
+      ],
+      "text_es": "La prueba de rectitud (Alianza) y Old Fire-Eye (Horda) empiezan a nivel 20 y dan un arma. A Strange Artifact, a nivel 22, da una capa. Son opcionales, pero las armas duran mucho y se pueden hacer mientras visitas mazmorras.",
+      "text_en": "The Test of Righteousness (Alliance) and Old Fire-Eye (Horde) start at level 20 and give a weapon. A Strange Artifact, at level 22, gives a cloak. They are optional, but the weapons last a long time and can be done while you visit dungeons.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Paladin Class Quests Guide › The Test of Righteousness",
+          "url": "https://www.icy-veins.com/wow-forever/paladin-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Paladin Class Quests Guide › Old Fire-Eye",
+          "url": "https://www.icy-veins.com/wow-forever/paladin-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Paladin Class Quests Guide › Cloak of the Divine Storm",
+          "url": "https://www.icy-veins.com/wow-forever/paladin-class-quests",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-tips-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consejos para subir de nivel",
+      "title_en": "Leveling Tips",
+      "summary_es": "Lleva agua y curación, sube Minería con Herrería o Alquimia, descansa en tabernas y haz las misiones de mazmorra.",
+      "summary_en": "Carry water and healing, level Mining with Blacksmithing or Alchemy, rest in inns, and do dungeon quests.",
+      "keywords_es": [
+        "consejos para subir paladín",
+        "paladín agua y maná",
+        "minería y herrería paladín",
+        "paladín misiones de mazmorra",
+        "descansar en taberna"
+      ],
+      "keywords_en": [
+        "paladin leveling tips",
+        "paladin water mana",
+        "mining blacksmithing paladin",
+        "paladin dungeon quests",
+        "rest in inn"
+      ],
+      "text_es": "Lleva agua y comida, y algo para curarte; el Paladín aguanta, pero el maná se acaba. Sube Minería con Herrería si quieres fabricar armas y armaduras, o Herboristería con Alquimia para pociones. Descansa en tabernas, completa las zonas y haz las misiones de mazmorra antes de entrar. Entrena nuevas versiones de Destello de Luz, Luz Sagrada y tus sellos.",
+      "text_en": "Carry water and food, plus something for healing; the Paladin endures, but mana runs out. Level Mining with Blacksmithing if you want to make weapons and armor, or Herbalism with Alchemy for potions. Rest in inns, finish zones, and do dungeon quests before entering. Train new versions of Flash of Light, Holy Light, and your seals.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Leveling Guide › Leveling Tips",
+          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Leveling Guide › General Leveling Tips",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-grupo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "El Paladín en grupo y mazmorras",
+      "title_en": "Paladin in Groups and Dungeons",
+      "summary_es": "Aporta bendiciones, auras, curación e inmunidades; Protección tanquea, Sagrado cura y Reprensión pega.",
+      "summary_en": "Brings blessings, auras, healing and immunities; Protection tanks, Holy heals and Retribution damages.",
+      "keywords_es": [
+        "paladín en grupo",
+        "paladín en mazmorras",
+        "bendiciones para el grupo",
+        "paladín tanque o sanador",
+        "utilidad del paladín"
+      ],
+      "keywords_en": [
+        "paladin in groups",
+        "paladin in dungeons",
+        "group blessings",
+        "paladin tank or healer",
+        "paladin utility"
+      ],
+      "text_es": "En grupo, el Paladín aporta bendiciones, auras, curación y utilidad. Protección tanquea y mantiene la amenaza con Consagración y Sentencia; Sagrado cura y usa Vigilia de la Luz para el grupo; Reprensión pega y ayuda con bendiciones, aturdimientos e inmunidades. Coordina las bendiciones y auras con otros Paladines, porque no se acumulan.",
+      "text_en": "In a group, the Paladin brings blessings, auras, healing, and utility. Protection tanks and holds threat with Consecration and Judgement; Holy heals and uses Light's Vigil for the group; Retribution damages and helps with blessings, stuns, and immunities. Coordinate blessings and auras with other Paladins because they do not stack.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Guide › The Best",
+          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-healer-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Protection Paladin Guide › The Best",
+          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-tank-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Guide › Great Toolbelt",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-sagrado",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Sagrado: curación y apoyo",
+      "title_en": "Holy: Healing and Support",
+      "summary_es": "Sagrado cura con Destello de Luz y Luz Sagrada, usa Choque Sagrado en emergencias y Vigilia para área.",
+      "summary_en": "Holy heals with Flash of Light and Holy Light, uses Holy Shock in emergencies and Light's Vigil for area.",
+      "keywords_es": [
+        "paladín sagrado",
+        "paladín sanador",
+        "destello de luz",
+        "luz sagrada",
+        "vigilia de la luz"
+      ],
+      "keywords_en": [
+        "holy paladin",
+        "paladin healer",
+        "flash of light",
+        "holy light",
+        "light's vigil"
+      ],
+      "text_es": "Sagrado es el sanador: Destello de Luz mantiene la salud, Luz Sagrada cura más cuando hay daño fuerte y Choque Sagrado es la emergencia instantánea. Vigilia de la Luz le da curación en área, y las bendiciones y auras siguen siendo parte de su apoyo. Su movilidad es muy baja y hace menos daño que las otras especializaciones, pero entra fácil en grupos.",
+      "text_en": "Holy is the healer: Flash of Light maintains health, Holy Light heals more when damage is heavy, and Holy Shock is the instant emergency heal. Light's Vigil gives it area healing, and blessings and auras remain part of its support. Its mobility is very low and it deals less damage than the other specializations, but it finds groups easily.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Guide › Holy Paladin Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-healer-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-proteccion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Protección: tanque con escudo",
+      "title_en": "Protection: Shield Tank",
+      "summary_es": "Protección tanquea con escudo, genera amenaza con Consagración y provoca con Sello de furia y Sentencia.",
+      "summary_en": "Protection tanks with a shield, builds threat with Consecration, and taunts with Seal of Fury and Judgement.",
+      "keywords_es": [
+        "paladín protección",
+        "paladín tanque",
+        "sello de furia",
+        "consagración tanque",
+        "paladín escudo"
+      ],
+      "keywords_en": [
+        "protection paladin",
+        "paladin tank",
+        "seal of fury",
+        "consecration tank",
+        "paladin shield"
+      ],
+      "text_es": "Protección tanquea con escudo y usa Consagración para generar amenaza en área. Sello de furia hace que Sentencia provoque, y Golpe Sagrado, Exorcismo y los sellos completan su daño. Es muy duradero, se cura y aguanta varios enemigos, pero depende del maná y tiene poco alcance para pull.",
+      "text_en": "Protection tanks with a shield and uses Consecration to build area threat. Seal of Fury makes Judgement taunt, and Holy Strike, Exorcism, and seals complete its damage. It is very durable, heals itself, and handles several enemies, but it depends on mana and has little pulling range.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Protection Paladin Guide › Protection Paladin Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-tank-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "clase-paladin-represion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Reprensión: daño con dos manos",
+      "title_en": "Retribution: Two-Handed Damage",
+      "summary_es": "Reprensión mantiene sellos, usa Sentencia y Golpe Sagrado y añade Consagración contra grupos.",
+      "summary_en": "Retribution keeps seals, uses Judgement and Holy Strike, and adds Consecration against groups.",
+      "keywords_es": [
+        "paladín reprensión",
+        "paladín daño cuerpo a cuerpo",
+        "sello de orden",
+        "sentencia y golpe sagrado",
+        "paladín dos manos"
+      ],
+      "keywords_en": [
+        "retribution paladin",
+        "paladin melee damage",
+        "seal of command",
+        "judgement holy strike",
+        "paladin two handed"
+      ],
+      "text_es": "Reprensión es daño cuerpo a cuerpo con un arma a dos manos: mantén un sello, usa Sentencia y Golpe Sagrado, y añade Consagración contra grupos. Tiene buena resistencia, curación e inmunidades, pero carece de interrupción y de ralentizaciones para enemigos que huyen. Su movilidad es limitada fuera de combate, aunque Búsqueda de justicia ayuda.",
+      "text_en": "Retribution is melee damage with a two-handed weapon: keep a seal, use Judgement and Holy Strike, and add Consecration against groups. It has good durability, healing, and immunities, but lacks an interrupt and slows for fleeing enemies. Its mobility is limited outside combat, although Pursuit of Justice helps.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Guide › Retribution Paladin Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-15"
+    }
+  ]
+}
