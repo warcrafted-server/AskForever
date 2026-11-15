@@ -626,3 +626,16 @@ def test_empty_question_without_kind_is_ignored(monkeypatch):
     time.sleep(0.1)
 
     assert not any(event[0] in ('thinking', 'answer', 'error', 'chat') for event in events)
+
+
+def test_overlay_positions_with_set_window_pos():
+    # Tk ignoraba la posición tras mostrar la ventana sin activarla: debe fijarse con SetWindowPos.
+    user32 = _FakeUser32()
+    client = types.SimpleNamespace(hwnd=100, x=0, y=0, width=1920, height=1080)
+    overlay = _fake_overlay(user32, lambda: client)
+    user32.foreground = 100
+    overlay._apply(build_state('answer', 'esES', question='p', text='r', now=0.0, ttl=10.0))
+    moves = [call for call in user32.set_pos_calls if not call[6] & 0x0001]
+    assert moves, 'la ventana clásica no se colocó con SetWindowPos'
+    x, y = moves[-1][2], moves[-1][3]
+    assert x > 0 and y > 0
