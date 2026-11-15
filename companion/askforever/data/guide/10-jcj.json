@@ -1,0 +1,511 @@
+{
+  "description": "Capítulo 10: JcJ. Secciones editoriales redactadas desde guías de terceros.",
+  "sections": [
+    {
+      "id": "jcj-que-cambia",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Qué cambia en el JcJ de Forever",
+      "title_en": "What Changes in Forever PvP",
+      "summary_es": "El rango ya no depende del reino ni decae cada semana; hay 14 rangos por temporada y un campo nuevo.",
+      "summary_en": "Rank no longer depends on the realm or decays weekly; there are 14 ranks per season and a new battleground.",
+      "keywords_es": [
+        "cambios jcj forever",
+        "rangos jcj forever",
+        "campo nuevo jcj",
+        "temporadas jcj",
+        "sistema de honor forever"
+      ],
+      "keywords_en": [
+        "wow forever pvp changes",
+        "forever pvp ranks",
+        "new pvp battleground",
+        "pvp seasons",
+        "forever honor system"
+      ],
+      "text_es": "Forever cambia el sistema clásico: ya no te comparan con el reino ni pierdes progreso cada semana; subes una barra de Puntos de Rango por temporada. Hay 14 rangos, con títulos y compras desbloqueadas por rango, y el JcJ se reparte entre mundo y campos. El campo nuevo es Islas Lanza Negra, de 15 contra 15. Al cambiar de temporada el rango se reinicia, pero los desafíos Legacy no.",
+      "text_en": "Forever changes the classic system: you are no longer compared with the realm and do not lose progress every week; you fill a Rank Points bar per season. There are 14 ranks, with titles and purchases unlocked by rank, and PvP is split between the world and battlegrounds. The new battleground is Darkspear Islands, 15v15. Rank resets between seasons, but Legacy challenges do not.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › What Changed from Classic",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
+          "date": "2026-09-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › What Is The PvP Rank System?",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "jcj-honor-puntos",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Honor y Puntos de Rango",
+      "title_en": "Honor and Rank Points",
+      "summary_es": "El Honor compra equipo y los Puntos de Rango suben el rango; son independientes y no se convierten.",
+      "summary_en": "Honor buys gear and Rank Points raise your rank; they are independent and cannot be converted.",
+      "keywords_es": [
+        "honor y puntos de rango",
+        "para qué sirve el honor",
+        "cómo subir de rango jcj",
+        "límite de honor",
+        "monedas jcj forever"
+      ],
+      "keywords_en": [
+        "honor and rank points",
+        "what is honor for",
+        "how to raise pvp rank",
+        "honor cap",
+        "wow forever pvp currencies"
+      ],
+      "text_es": "El JcJ da dos monedas separadas: Honor y Puntos de Rango. El Honor compra objetos y no sube el rango; los Puntos de Rango llenan la barra y no se gastan. No se convierten entre sí y comprar equipo no frena la subida. Puedes llevar hasta 15.000 de Honor; los Puntos de Rango no bajan durante la temporada. Se ganan en campos, tareas JcJ y JcJ de mundo.",
+      "text_en": "PvP gives two separate currencies: Honor and Rank Points. Honor buys items and does not raise your rank; Rank Points fill the bar and are never spent. They cannot be converted into each other, and buying gear does not slow ranking. You can hold up to 15,000 Honor; Rank Points do not fall during the season. They come from battlegrounds, PvP tasks, and world PvP.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › How PvP Rank Works",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "jcj-rangos",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Los 14 rangos de JcJ",
+      "title_en": "The 14 PvP Ranks",
+      "summary_es": "Cada rango pide más puntos y el 14 necesita 24.750; la barra no decae ni depende de otros jugadores.",
+      "summary_en": "Each rank needs more points and rank 14 needs 24,750; the bar does not decay or depend on other players.",
+      "keywords_es": [
+        "rangos de jcj",
+        "cuántos rangos hay",
+        "puntos para rango 14",
+        "rango jcj sin decadencia",
+        "progreso de rango forever"
+      ],
+      "keywords_en": [
+        "pvp ranks",
+        "how many pvp ranks",
+        "rank 14 points",
+        "pvp rank no decay",
+        "forever rank progress"
+      ],
+      "text_es": "Hay 14 rangos y cada uno pide más Puntos de Rango que el anterior; el 14 necesita 24.750 en total. La barra no decae y no depende de cuántos puntos tengan otros jugadores. Los Puntos de Rango no se gastan: solo se acumulan hasta el siguiente rango. Al cerrar la temporada, el rango se reinicia y hay que volver a subir.",
+      "text_en": "There are 14 ranks, and each needs more Rank Points than the last; rank 14 needs 24,750 in total. The bar does not decay and does not depend on how many points other players have. Rank Points are never spent: they only accumulate toward the next rank. When the season ends, rank resets and must be earned again.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › Rank Points Needed for Every Rank",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "jcj-recompensas",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Recompensas por rango",
+      "title_en": "Rewards by Rank",
+      "summary_es": "Cada rango da un título y desbloquea compras; el 13 completa la transfiguración y el 14 añade las armas.",
+      "summary_en": "Each rank gives a title and unlocks purchases; rank 13 completes the transmog and rank 14 adds weapons.",
+      "keywords_es": [
+        "recompensas por rango jcj",
+        "qué da cada rango",
+        "montura de guerra negra",
+        "transfiguración jcj",
+        "armas rango 14"
+      ],
+      "keywords_en": [
+        "pvp rank rewards",
+        "what each rank gives",
+        "black war mount",
+        "pvp transmog",
+        "rank 14 weapons"
+      ],
+      "text_es": "Los rangos dan títulos de facción y desbloquean compras: 1 tabardo, 2 insignia, 3 capa, 4 collar, 5 pociones de combate, 6 tabardo élite, 7 estandarte de batalla, 8 muñequeras y cintura, 9 botas, 10 guantes, 11 monturas de guerra negras, 12 piernas y hombros, 13 pecho y casco, 14 armas. El 13 completa la transfiguración; el 14 solo añade el arsenal. Los rangos 3, 7, 10, 13 y 14 dan un punto Legacy.",
+      "text_en": "Ranks give faction titles and unlock purchases: 1 tabard, 2 insignia, 3 cloak, 4 necklace, 5 combat potions, 6 elite tabard, 7 battle standard, 8 wrists and waist, 9 boots, 10 gloves, 11 black war mounts, 12 legs and shoulders, 13 chest and helm, 14 weapons. Rank 13 completes the transmog; rank 14 only adds the weapon arsenal. Ranks 3, 7, 10, 13, and 14 each give a Legacy point.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › PvP Rank Rewards in WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
+          "date": "2026-09-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › Legacy Challenges from PvP Ranks",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "jcj-honor-equipo",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Equipo de JcJ y Honor",
+      "title_en": "PvP Gear and Honor",
+      "summary_es": "El Honor compra pociones, insignias y equipo; las piezas raras piden nivel 55 y las armas son de rango 14.",
+      "summary_en": "Honor buys potions, insignias, and gear; rare pieces need level 55 and weapons are rank 14.",
+      "keywords_es": [
+        "equipo de jcj",
+        "comprar equipo jcj",
+        "honor para equipo",
+        "equipo jcj en pve",
+        "armas de rango 14"
+      ],
+      "keywords_en": [
+        "pvp gear",
+        "buy pvp gear",
+        "honor gear",
+        "pvp gear in pve",
+        "rank 14 weapons"
+      ],
+      "text_es": "El Honor compra desde pociones e insignias hasta armas; las piezas mejores también piden marcas de campo. Las piezas raras de JcJ se compran sin rango y piden nivel 55, y las armas están en el rango 14. El equipo de JcJ compite con mazmorra y banda, pero en PvE rinde algo peor por sus estadísticas y bonificaciones. No recibes equipo gratis: todo sale de vendedores.",
+      "text_en": "Honor buys anything from potions and insignias to weapons; the best pieces also cost battleground marks. Rare PvP pieces can be bought without rank and require level 55, while weapons are at rank 14. PvP gear is competitive with dungeon and raid gear, but performs slightly worse in PvE because of its stats and bonuses. You do not get gear for free: it all comes from vendors.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › PvP Gear in Forever",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
+          "date": "2026-09-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › PvP Gear",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "jcj-vendedores-colas",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Vendedores y maestros de batalla",
+      "title_en": "Vendors and Battlemasters",
+      "summary_es": "Los vendedores están en Ventormenta, Orgrimmar y las cloacas de Dalaran; las colas se abren en las capitales.",
+      "summary_en": "Vendors are in Stormwind, Orgrimmar, and the Dalaran sewers; queues open in the capitals.",
+      "keywords_es": [
+        "vendedores jcj",
+        "dónde comprar equipo jcj",
+        "maestros de batalla",
+        "colas de campos de batalla",
+        "salón de los campeones"
+      ],
+      "keywords_en": [
+        "pvp vendors",
+        "where to buy pvp gear",
+        "battlemasters",
+        "battleground queues",
+        "champions hall"
+      ],
+      "text_es": "Los vendedores de JcJ están en el Salón de los Campeones de Ventormenta y el Salón de las Leyendas de Orgrimmar; la Alianza también tiene vendedores en las cloacas de Dalaran. Para entrar en un campo, habla con los maestros de batalla del Castillo de Ventormenta o del Valle del Honor de Orgrimmar. Allí puedes colar solo o con tu grupo y elegir el campo que quieras jugar.",
+      "text_en": "PvP vendors are in Stormwind's Champions' Hall and Orgrimmar's Hall of Legends; Alliance also has vendors in the Dalaran sewers. To enter a battleground, talk to the battlemasters at Stormwind Keep or Orgrimmar's Valley of Honor. There you can queue alone or with your group and choose the battleground you want to play.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › PvP Vendor Locations",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
+          "date": "2026-09-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › Queues",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "jcj-temporadas",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Temporadas y reinicios",
+      "title_en": "Seasons and Resets",
+      "summary_es": "El rango se reinicia al cerrar temporada, las recompensas cambian y los desafíos Legacy permanecen.",
+      "summary_en": "Rank resets when a season ends, rewards change, and Legacy challenges remain.",
+      "keywords_es": [
+        "temporadas de jcj",
+        "reinicio de rango",
+        "recompensas de temporada",
+        "desafíos legacy jcj",
+        "progreso de temporada"
+      ],
+      "keywords_en": [
+        "pvp seasons",
+        "rank reset",
+        "season rewards",
+        "pvp legacy challenges",
+        "season progress"
+      ],
+      "text_es": "Al terminar una temporada, el rango se reinicia y hay que empezar de nuevo; cada temporada trae recompensas nuevas y las de temporadas pasadas ya no se pueden conseguir. El progreso de los desafíos Legacy no se reinicia, así que completar el de rango 14 una vez basta. Los Puntos de Rango no se pierden dentro de la temporada, solo al cerrarla.",
+      "text_en": "When a season ends, rank resets and must be earned again; each season brings new rewards, and past-season rewards can no longer be obtained. Legacy challenge progress does not reset, so completing the rank 14 one once is enough. Rank Points are not lost within a season, only when it closes.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › Seasons and Resets",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "jcj-darkspear",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Islas Lanza Negra",
+      "title_en": "Darkspear Islands",
+      "summary_es": "El campo nuevo es 15v15: cuatro bases, una bandera central y puntos por control; tramos de 30 a 60.",
+      "summary_en": "The new battleground is 15v15: four bases, a central flag, and points from control; brackets 30 to 60.",
+      "keywords_es": [
+        "islas lanza negra",
+        "darkspear islands",
+        "campo nuevo jcj",
+        "cuatro bases",
+        "bandera central"
+      ],
+      "keywords_en": [
+        "darkspear islands",
+        "new pvp battleground",
+        "four bases",
+        "central flag",
+        "darkspear brackets"
+      ],
+      "text_es": "Islas Lanza Negra es el campo nuevo, de 15 contra 15. Tiene cuatro bases que hay que controlar y una bandera en el centro que se lleva a una base controlada. Las bases suman puntos con el tiempo y capturar la bandera da puntos según cuántas bases tengas; se parece a Ojo de la Tormenta. Sus tramos son 30-39, 40-49, 50-59 y 60.",
+      "text_en": "Darkspear Islands is the new 15v15 battleground. It has four bases to control and a central flag that must be carried to a controlled base. Bases generate points over time, and capturing the flag gives points based on how many bases you hold; it is similar to Eye of the Storm. Its brackets are 30-39, 40-49, 50-59, and 60.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › Darkspear Islands",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "jcj-arena",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "No hay arena en Forever",
+      "title_en": "There Is No Arena in Forever",
+      "summary_es": "Forever no tiene arena: el JcJ se juega en el mundo y en los campos de batalla.",
+      "summary_en": "Forever has no arena: PvP takes place in the world and in battlegrounds.",
+      "keywords_es": [
+        "arena en forever",
+        "hay arena jcj",
+        "modos de jcj",
+        "campos de batalla",
+        "jcj de mundo"
+      ],
+      "keywords_en": [
+        "arena in forever",
+        "is there arena",
+        "pvp modes",
+        "battlegrounds",
+        "world pvp"
+      ],
+      "text_es": "No hay arena en Forever: el JcJ se limita al mundo y a los campos de batalla. La arena llegó con una expansión posterior y no forma parte de esta versión, así que no hay colas de arena ni brackets de arena. Si quieres medirte en grupos pequeños, tendrás que hacerlo en el mundo o en un campo.",
+      "text_en": "There is no arena in Forever: PvP is limited to the world and battlegrounds. Arena arrived with a later expansion and is not part of this version, so there are no arena queues or arena brackets. If you want small-group fights, you will have to do them in the world or in a battleground.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › Is there Arena in Forever?",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "jcj-primeras-partidas",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Tus primeras partidas de JcJ",
+      "title_en": "Your First PvP Matches",
+      "summary_es": "Morir mucho al empezar es normal; juega en grupo, practica y prioriza objetivos antes que bajas.",
+      "summary_en": "Dying a lot at first is normal; play in a group, practice, and prioritize objectives over kills.",
+      "keywords_es": [
+        "empezar en jcj",
+        "primeras partidas jcj",
+        "consejos jcj",
+        "objetivos de campo",
+        "morir en jcj"
+      ],
+      "keywords_en": [
+        "start pvp",
+        "first pvp matches",
+        "pvp tips",
+        "battleground objectives",
+        "dying in pvp"
+      ],
+      "text_es": "Al empezar, es normal morir mucho: el JcJ se juega distinto a misiones o mazmorras. Juega en grupo, practica y prioriza los objetivos; matar enemigos no gana por sí solo. Usa control y defensas para sobrevivir y no persigas una baja lejos del objetivo. Aprende a cambiar de objetivo y a retirarte cuando tus reutilizaciones estén gastadas.",
+      "text_en": "At first, dying a lot is normal: PvP plays differently from questing or dungeons. Play in a group, practice, and prioritize objectives; killing enemies does not win by itself. Use control and defensives to survive, and do not chase one kill far from the objective. Learn to switch targets and to retreat when your cooldowns are spent.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › How to Start PvPing",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "jcj-clasificaciones",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Las clasificaciones aún no son finales",
+      "title_en": "Rankings Are Not Final Yet",
+      "summary_es": "La beta tenía nivel 30 y no hay puestos definitivos; se valoran daño, control, defensas y utilidad.",
+      "summary_en": "The beta was level 30 and there are no final placements; damage, control, defense, and utility are weighed.",
+      "keywords_es": [
+        "clasificación jcj",
+        "tier list jcj",
+        "especializaciones fuertes jcj",
+        "criterios jcj",
+        "beta nivel 30"
+      ],
+      "keywords_en": [
+        "pvp rankings",
+        "pvp tier list",
+        "strong pvp specs",
+        "pvp criteria",
+        "level 30 beta"
+      ],
+      "text_es": "Las clasificaciones de JcJ no están cerradas: la beta tenía nivel 30 y la lista sigue sin puestos definitivos, así que pueden cambiar con ajustes, conjuntos y estadísticas. Para valorar una especialización se mira el daño sostenido y el estallido, el control, las defensas y la utilidad; en sanadores, la curación, el maná, el control y las defensas. Las menciones siguientes son herramientas fuertes, no un orden definitivo.",
+      "text_en": "PvP rankings are not closed: the beta was level 30 and the list still has no final placements, so it can change with tuning, sets, and stats. A spec is judged on sustained and burst damage, control, defense, and utility; healers are judged on healing, mana, control, and defense. The mentions below are strong toolkits, not a definitive order.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: PvP DPS Spec Rankings › About the Tier List",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-tier-list-dps-specs",
+          "date": "2026-10-26"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: PvP Healer Spec Rankings › About the Tier List",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-tier-list-healer-specs",
+          "date": "2026-10-26"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "jcj-dps-cuerpo",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "DPS de cuerpo a cuerpo fuertes",
+      "title_en": "Strong Melee DPS",
+      "summary_es": "Guerrero Armas y Furia, Paladín Reprensión y Pícaro Sutileza, Combate y Asesinato destacan por presión y control.",
+      "summary_en": "Arms and Fury Warrior, Retribution Paladin, and all three Rogue specs stand out for pressure and control.",
+      "keywords_es": [
+        "dps cuerpo a cuerpo jcj",
+        "guerrero armas jcj",
+        "paladín reprensión jcj",
+        "pícaro sutileza jcj",
+        "guerrero furia jcj"
+      ],
+      "keywords_en": [
+        "melee pvp dps",
+        "arms warrior pvp",
+        "retribution paladin pvp",
+        "subtlety rogue pvp",
+        "fury warrior pvp"
+      ],
+      "text_es": "Se consideran entre las opciones más fuertes de cuerpo a cuerpo Guerrero Armas, Guerrero Furia, Paladín Reprensión y Pícaro Sutileza, Combate y Asesinato. Armas destaca por presión sostenida, control y reducción de curación; Furia por daño en área y aguante; Reprensión por utilidad, control, inmunidad y apoyo de curación; Sutileza por estallido y control, y los otros Pícaros por control y reinicios. Los Pícaros son difíciles de atrapar y pueden encadenar control.",
+      "text_en": "Arms Warrior, Fury Warrior, Retribution Paladin, and Subtlety, Combat, and Assassination Rogue are considered among the strongest melee options. Arms stands out for sustained pressure, control, and healing reduction; Fury for area damage and durability; Retribution for utility, control, immunity, and off-healing; Subtlety for burst and control, and the other Rogues for control and resets. Rogues are hard to catch and can chain control.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: PvP DPS Spec Rankings › PvP DPS Tier List for World of Warcraft Forever",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-tier-list-dps-specs",
+          "date": "2026-10-26"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "jcj-dps-distancia",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "DPS a distancia fuertes",
+      "title_en": "Strong Ranged DPS",
+      "summary_es": "Brujo Demonología y Aflicción, Mago Escarcha, Sacerdote Sombra y los Cazadores destacan por control y aguante.",
+      "summary_en": "Demonology and Affliction Warlock, Frost Mage, Shadow Priest, and Hunters stand out for control and durability.",
+      "keywords_es": [
+        "dps a distancia jcj",
+        "brujo demonología jcj",
+        "mago escarcha jcj",
+        "sacerdote sombra jcj",
+        "cazador jcj"
+      ],
+      "keywords_en": [
+        "ranged pvp dps",
+        "demonology warlock pvp",
+        "frost mage pvp",
+        "shadow priest pvp",
+        "hunter pvp"
+      ],
+      "text_es": "Se consideran entre las opciones más fuertes a distancia Brujo Demonología, Brujo Aflicción, Mago Escarcha, Sacerdote Sombra y los Cazadores. Demonología aguanta mucho en 1v1 con su demonio, maldiciones y control; Aflicción castiga a varios con daño en el tiempo y se sostiene; Escarcha frena, mantiene la distancia y tiene defensas; Sombra aporta daño, ejecución, control y apoyo de curación; Dominio de bestias y Puntería aportan daño a distancia y control, y Supervivencia aporta daño cuerpo a cuerpo y control. Otras ramas también tienen herramientas, pero estas destacan por su conjunto.",
+      "text_en": "Demonology Warlock, Affliction Warlock, Frost Mage, Shadow Priest, and Hunters are considered among the strongest ranged options. Demonology endures a lot in 1v1 with its demon, curses, and control; Affliction punishes several enemies with damage over time and sustains itself; Frost slows, keeps distance, and has defenses; Shadow brings damage, execute, control, and off-healing; Beast Mastery and Marksmanship bring ranged damage and control, and Survival brings melee damage and control. Other trees have tools too, but these stand out for their package.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: PvP DPS Spec Rankings › PvP DPS Tier List for World of Warcraft Forever",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-tier-list-dps-specs",
+          "date": "2026-10-26"
+        }
+      ],
+      "updated": "2026-11-15"
+    },
+    {
+      "id": "jcj-sanadores",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Sanadores fuertes para JcJ",
+      "title_en": "Strong PvP Healers",
+      "summary_es": "Disciplina, Paladín Sagrado, Sacerdote Sagrado, Chamán y Druida de Recuperación destacan por su kit.",
+      "summary_en": "Discipline, Holy Paladin, Holy Priest, and Restoration Shaman and Druid stand out for their kits.",
+      "keywords_es": [
+        "sanadores jcj",
+        "sacerdote disciplina jcj",
+        "paladín sagrado jcj",
+        "chamán recuperación jcj",
+        "druida recuperación jcj"
+      ],
+      "keywords_en": [
+        "pvp healers",
+        "discipline priest pvp",
+        "holy paladin pvp",
+        "restoration shaman pvp",
+        "restoration druid pvp"
+      ],
+      "text_es": "Se consideran entre los sanadores más fuertes Sacerdote Disciplina, Paladín Sagrado, Sacerdote Sagrado, Chamán Recuperación y Druida Recuperación. Disciplina cura con escudos y una cura rápida y aporta una gran mejora ofensiva; Paladín Sagrado es muy duradero, mezcla curas instantáneas y casteadas y tiene mucha utilidad; Sacerdote Sagrado se centra en curación directa y tiene una segunda vida; Chamán Recuperación cubre tanque y grupo con tótems y es el único sanador con interrupción base; Druida Recuperación usa curas en el tiempo, control y puede hacer daño.",
+      "text_en": "Discipline Priest, Holy Paladin, Holy Priest, Restoration Shaman, and Restoration Druid are considered among the strongest healers. Discipline heals with shields and a fast heal and brings a strong offensive buff; Holy Paladin is very durable, mixes instant and cast heals, and has great utility; Holy Priest focuses on direct healing and has a second life; Restoration Shaman covers tank and group with totems and is the only healer with a baseline interrupt; Restoration Druid uses heal-over-time effects, control, and can deal damage. The list has no final order; these are complete toolkits.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: PvP Healer Spec Rankings › Healer DPS Tier List for World of Warcraft Forever",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-tier-list-healer-specs",
+          "date": "2026-10-26"
+        }
+      ],
+      "updated": "2026-11-15"
+    }
+  ]
+}

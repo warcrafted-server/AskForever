@@ -27,6 +27,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Added: beginner guide on first steps (presets, camping, sleeping bag, surnames, transmog, controller and more) and on travel and mounts.
 - Added: beginner class guides (roles, what changed in Forever, leveling spec and talent path, class quests and mechanics): Hunter, Warrior, Mage, Paladin, Priest, Rogue, Shaman, Warlock, Druid
 - Added: beginner dungeon guide (how to get to each dungeon, what to expect, key mechanics and the quests to pick up before going in).
+- Added: beginner PvP guide (modes, honor and ranks, strong specs).
 - Fixed: Hall of Thanes and Ruins of Lordaeron (new dungeons inside a capital) are suggested to both factions, and their level ranges in the guide match the WoW Forever table.
 - Added: for general questions the AI first picks, from a table of contents of the guide, the sections that answer them (falls back to keyword search if it fails); can be turned off with ASKFOREVER_GUIDE_ROUTER=0.
 - Fixed: "level up" questions were taken as travel questions ("ir de" inside "subir de nivel"); sections of another race or class are only used when the question names it; follow-ups starting with "but" or "then" keep the previous topic; the AI gives guide recommendations with their reason; the sleeping bag questline step by step and which hunter pet to pick for levelling.
@@ -56,6 +57,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Añadido: guía de principiantes sobre los primeros pasos (preajustes, campamentos, saco de dormir, apellidos, transfiguración, mando y más) y sobre viajes y monturas.
 - Añadido: guías de clase para principiantes (roles, qué cambia en Forever, especialización y talentos para subir de nivel, misiones y mecánicas de clase): Cazador, Guerrero, Mago, Paladín, Sacerdote, Pícaro, Chamán, Brujo, Druida
 - Añadido: guía de mazmorras para principiantes (cómo llegar a cada una, qué esperar, mecánicas clave y misiones que coger antes de entrar).
+- Añadido: guía de JcJ para principiantes (modos, honor y rangos, especializaciones fuertes).
 - Corregido: el Salón de los Feudales y las Ruinas de Lordaeron (mazmorras nuevas dentro de una capital) se recomiendan a las dos facciones, y sus rangos de nivel en la guía coinciden con la tabla de WoW Forever.
 - Añadido: en las preguntas generales la IA elige primero, en un índice de la guía, las secciones que las responden (si falla, se usa la búsqueda por palabras); se desactiva con ASKFOREVER_GUIDE_ROUTER=0.
 - Corregido: las preguntas sobre «subir de nivel» se tomaban por preguntas de viaje («ir de» dentro de «subir de nivel»); las secciones de otra raza o clase solo se usan si la pregunta la nombra; los seguimientos que empiezan por «pero» o «entonces» mantienen el tema; la IA da las recomendaciones de la guía con su motivo; la cadena del saco de dormir paso a paso y qué mascota elegir como cazador para subir.
