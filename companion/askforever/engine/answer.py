@@ -11,9 +11,11 @@ from typing import Optional
 from askforever import config
 from askforever.data.glossary import spanish_names
 from askforever.data.wowdb import normalize
+from askforever.engine import router
 from askforever.engine.prompt import _detect_question_language, build_prompt
-from askforever.engine.retriever import (PROFESSION_KEYWORDS, is_profession_question,
-                                         is_travel_question, retrieve)
+from askforever.engine.retriever import (PROFESSION_KEYWORDS, add_guide_sections,
+                                         is_profession_question, is_travel_question,
+                                         retrieve)
 from askforever.providers.openai_compat import ProviderError
 
 MAX_ANSWER = 900
@@ -66,6 +68,7 @@ class Answer:
     sources: list[str] = field(default_factory=list)
     facts_text: str = ''
     web_titles: list[str] = field(default_factory=list)
+    router: str = 'off'
 
 
 def _is_spanish(lang) -> bool:
@@ -304,6 +307,7 @@ def answer_message(data: bytes, provider, *, max_tokens=None, db=None, temperatu
     facts_lines = []
     sources = []
     facts_text = ''
+    router_outcome = 'off'
     if db is not None:
         try:
             facts = retrieve(message, db)
@@ -317,12 +321,31 @@ def answer_message(data: bytes, provider, *, max_tokens=None, db=None, temperatu
                 follow = retrieve(follow_message, db)
                 if follow.lines or follow.missing:
                     facts = follow
+            if (getattr(facts, 'guide_eligible', False)
+                    and config.get_guide_router_enabled()
+                    and provider is not None):
+                try:
+                    ctx = message.get('ctx')
+                    ids = router.route(
+                        provider, question, 'es' if _is_spanish(lang) else 'en',
+                        ctx if isinstance(ctx, dict) else {}, history)
+                    if ids:
+                        add_guide_sections(facts, db, ids,
+                                           'es' if _is_spanish(lang) else 'en')
+                        router_outcome = 'ok:' + ','.join(ids)
+                    elif ids == []:
+                        router_outcome = 'empty'
+                    else:
+                        router_outcome = 'fallback'
+                except Exception:
+                    router_outcome = 'fallback'
             facts_lines = list(facts.lines)
             sources = list(facts.sources)
             facts_text = facts.render(lang)
         except Exception:
             facts = None
             facts_lines, sources, facts_text = [], [], []
+            router_outcome = 'off'
 
     try:
         use_web = web is not None and needs_web(facts, question, history)
@@ -368,15 +391,17 @@ def answer_message(data: bytes, provider, *, max_tokens=None, db=None, temperatu
         elapsed_ms = int((time.monotonic() - started) * 1000)
         return Answer(False, error.user_message(lang), lang, detail=error.kind,
                       elapsed_ms=elapsed_ms, question=question, facts=facts_lines,
-                      sources=sources, facts_text=facts_text, web_titles=web_titles)
+                      sources=sources, facts_text=facts_text, web_titles=web_titles,
+                      router=router_outcome)
     except Exception:
         elapsed_ms = int((time.monotonic() - started) * 1000)
         text = _UNKNOWN_TEXT['es' if _is_spanish(lang) else 'en']
         return Answer(False, text, lang, detail='unknown', elapsed_ms=elapsed_ms,
                       question=question, facts=facts_lines, sources=sources,
-                      facts_text=facts_text, web_titles=web_titles)
+                      facts_text=facts_text, web_titles=web_titles,
+                      router=router_outcome)
 
     elapsed_ms = int((time.monotonic() - started) * 1000)
     return Answer(True, _clean_answer(response), lang, detail='', elapsed_ms=elapsed_ms,
                   question=question, facts=facts_lines, sources=sources,
-                  facts_text=facts_text, web_titles=web_titles)
+                  facts_text=facts_text, web_titles=web_titles, router=router_outcome)

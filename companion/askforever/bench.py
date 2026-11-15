@@ -10,10 +10,11 @@ from pathlib import Path
 from typing import Callable, Optional
 
 from askforever import config
+from askforever.engine import router
 from askforever.engine.answer import web_fallback
 from askforever.engine.conversation import Turn
 from askforever.engine.prompt import build_prompt
-from askforever.engine.retriever import retrieve
+from askforever.engine.retriever import add_guide_sections, retrieve
 from askforever.providers.openai_compat import ProviderError, provider_from_config
 
 DEFAULT_QUESTIONS = Path(__file__).resolve().parent.parent / 'bench' / 'questions.es.json'
@@ -61,6 +62,7 @@ class Result:
     skipped: bool = False
     sources: list[str] = field(default_factory=list)
     web_titles: list[str] = field(default_factory=list)
+    router: str = 'off'
 
 
 def parse_target(text: str) -> Target:
@@ -211,6 +213,8 @@ def run_bench(
                 facts_obj = None
                 facts_text = ''
                 sources = []
+                router_outcome = 'off'
+                started = clock()
                 if db is not None:
                     try:
                         facts_obj = retrieve(message, db)
@@ -220,11 +224,26 @@ def run_bench(
                             follow = retrieve(follow_message, db)
                             if follow.lines or follow.missing:
                                 facts_obj = follow
+                        if (getattr(facts_obj, 'guide_eligible', False)
+                                and config.get_guide_router_enabled()):
+                            try:
+                                ids = router.route(provider, question.text, question.lang,
+                                                   question.ctx, history)
+                                if ids:
+                                    add_guide_sections(facts_obj, db, ids, question.lang)
+                                    router_outcome = 'ok:' + ','.join(ids)
+                                elif ids == []:
+                                    router_outcome = 'empty'
+                                else:
+                                    router_outcome = 'fallback'
+                            except Exception:
+                                router_outcome = 'fallback'
                         sources = list(facts_obj.sources)
                         facts_text = facts_obj.render(question.lang)
                     except Exception:
                         facts_obj = None
                         facts_text, sources = '', []
+                        router_outcome = 'off'
                 web_excerpts, web_titles = web_fallback(
                     web, provider, message, facts_obj, question.text, history=history,
                     previous_question=previous_question)
@@ -234,13 +253,13 @@ def run_bench(
                         sources.append(source)
                 system, user = build_prompt(message, facts_text, history=history,
                                             web_excerpts=web_excerpts or None)
-                started = clock()
                 try:
                     text = provider.chat(system, user, max_tokens=max_tokens,
                                          temperature=temperature)
                     latency = int((clock() - started) * 1000)
                     result = Result(question.id, target_name, True, text, latency,
-                                    sources=sources, web_titles=web_titles)
+                                    sources=sources, web_titles=web_titles,
+                                    router=router_outcome)
                     streak = 0
                     if chain_name:
                         chain_turns.append(Turn(question.text, text, facts_text))
@@ -250,7 +269,8 @@ def run_bench(
                     latency = int((clock() - started) * 1000)
                     result = Result(question.id, target_name, False, '', latency,
                                     error_kind=error.kind, error_detail=error.detail,
-                                    sources=sources, web_titles=web_titles)
+                                    sources=sources, web_titles=web_titles,
+                                    router=router_outcome)
                     if error.kind == 'rate_limit':
                         streak += 1
                     else:
@@ -261,7 +281,8 @@ def run_bench(
                     latency = int((clock() - started) * 1000)
                     result = Result(question.id, target_name, False, '', latency,
                                     error_kind='unknown', error_detail=str(error),
-                                    sources=sources, web_titles=web_titles)
+                                    sources=sources, web_titles=web_titles,
+                                    router=router_outcome)
                     streak = 0
 
                 emit(target, question, result)
@@ -370,6 +391,7 @@ def render_markdown(questions, targets, results, started: str, used_database=Fal
                 if len(matches) > 1:
                     lines += [f'**Repetición {number}**', '']
                 lines.append(f'- Latencia: {result.latency_ms} ms')
+                lines.append(f'- Router: {result.router or "off"}')
                 if result.skipped:
                     detail = result.error_detail or result.error_kind
                     lines.append(f'- Estado: SALTADA: {detail}')

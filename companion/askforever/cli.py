@@ -329,6 +329,7 @@ def _listen(args: argparse.Namespace) -> int:
                 'sources': list(result.sources),
                 'facts_text': result.facts_text,
                 'web_titles': list(result.web_titles),
+                'router': result.router,
             }
             with exchange_lock:
                 last_exchange.clear()
@@ -643,6 +644,7 @@ def _run_companion(args: argparse.Namespace) -> int:
                 'sources': list(result.sources),
                 'facts_text': result.facts_text,
                 'web_titles': list(result.web_titles),
+                'router': result.router,
             }
             with exchange_lock:
                 last_exchange.clear()
@@ -781,6 +783,9 @@ def _bench(args: argparse.Namespace) -> int:
     database = _open_data(args.no_data)
     web = _open_web(args.no_web)
     temperature = args.temperature if args.temperature is not None else config.get_temperature()
+    previous_router = os.environ.get(config.GUIDE_ROUTER_ENV)
+    if getattr(args, 'no_router', False):
+        os.environ[config.GUIDE_ROUTER_ENV] = '0'
     try:
         try:
             targets = _bench_targets(args.targets)
@@ -843,6 +848,11 @@ def _bench(args: argparse.Namespace) -> int:
         print(f'Datos: {json_path}')
         return 0 if any(result.ok for result in results) else 1
     finally:
+        if getattr(args, 'no_router', False):
+            if previous_router is None:
+                os.environ.pop(config.GUIDE_ROUTER_ENV, None)
+            else:
+                os.environ[config.GUIDE_ROUTER_ENV] = previous_router
         if database is not None:
             database.close()
 
@@ -1119,6 +1129,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                        help='no usa la base de datos de WoW')
     bench.add_argument('--no-web', action='store_true',
                        help='no busca en la wiki de warcraft.wiki.gg')
+    bench.add_argument('--no-router', action='store_true',
+                       help='no usa el enrutador de secciones de la guía')
     data_check = subparsers.add_parser('data-check',
                                        help='comprueba la base de datos de WoW Forever')
     data_check.add_argument('--db', default=None, help='ruta de wow.sqlite')

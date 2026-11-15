@@ -26,6 +26,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Added: beginner guide on races (classes each race can be in WoW Forever, racial abilities, the Skyborne).
 - Added: beginner guide on first steps (presets, camping, sleeping bag, surnames, transmog, controller and more) and on travel and mounts.
 - Added: beginner class guides (roles, what changed in Forever, leveling spec and talent path, class quests and mechanics): Hunter
+- Added: for general questions the AI first picks, from a table of contents of the guide, the sections that answer them (falls back to keyword search if it fails); can be turned off with ASKFOREVER_GUIDE_ROUTER=0.
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
@@ -49,6 +50,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Añadido: guía de principiantes sobre razas (qué clases puede ser cada raza en WoW Forever, habilidades raciales, los Cielonatos).
 - Añadido: guía de principiantes sobre los primeros pasos (preajustes, campamentos, saco de dormir, apellidos, transfiguración, mando y más) y sobre viajes y monturas.
 - Añadido: guías de clase para principiantes (roles, qué cambia en Forever, especialización y talentos para subir de nivel, misiones y mecánicas de clase): Cazador
+- Añadido: en las preguntas generales la IA elige primero, en un índice de la guía, las secciones que las responden (si falla, se usa la búsqueda por palabras); se desactiva con ASKFOREVER_GUIDE_ROUTER=0.
 
 ## [0.3.0-beta.4] - 2026-11-15
 

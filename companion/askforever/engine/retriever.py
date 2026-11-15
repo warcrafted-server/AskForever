@@ -235,6 +235,7 @@ class Facts:
     sources: list[str] = field(default_factory=list)
     missing: list[str] = field(default_factory=list)
     panorama: list[str] = field(default_factory=list)
+    guide_eligible: bool = False
 
     def render(self, lang: str) -> str:
         """Bloque de texto plano, o cadena vacía si no hay nada que contar."""
@@ -2027,6 +2028,26 @@ def _detect_quest_list(facts: Facts, db, normalized: str, lang: str, ctx: dict) 
         _add_source(facts, f'quest:{quest["id"]}')
 
 
+def _guide_label(status, lang: str) -> str:
+    spanish = str(lang).lower().startswith('es')
+    if status == 'verificado':
+        return 'Guía verificada de WoW Forever: ' if spanish else 'Verified WoW Forever guide: '
+    if status:
+        return 'Guía de WoW Forever: ' if spanish else 'WoW Forever guide: '
+    return 'Texto oficial del juego: ' if spanish else 'Official game text: '
+
+
+_GUIDE_LABELS = (
+    'Guía verificada de WoW Forever: ', 'Guía de WoW Forever: ',
+    'Texto oficial del juego: ', 'Verified WoW Forever guide: ',
+    'WoW Forever guide: ', 'Official game text: ',
+)
+
+
+def _is_guide_line(line) -> bool:
+    return isinstance(line, str) and line.startswith(_GUIDE_LABELS)
+
+
 def _detect_guide(facts: Facts, db, question, lang: str, ctx: dict) -> None:
     """Añade textos oficiales solo si la pregunta no es específica."""
     if is_travel_question(question):
@@ -2039,6 +2060,7 @@ def _detect_guide(facts: Facts, db, question, lang: str, ctx: dict) -> None:
                      'From your position', 'De ', 'From ')
     if any(line.startswith(blocked_lines) for line in facts.lines):
         return
+    facts.guide_eligible = True
     try:
         from askforever.engine.guide import GuideIndex
     except Exception:
@@ -2049,16 +2071,58 @@ def _detect_guide(facts: Facts, db, question, lang: str, ctx: dict) -> None:
     hits = _safe(index.search, question, lang, 3, ctx) or []
     for ref, text in hits:
         status = _safe(index.status, ref) if ref.startswith('section:') else ''
-        if status == 'verificado':
-            label = ('Guía verificada de WoW Forever: ' if lang == 'es'
-                     else 'Verified WoW Forever guide: ')
-        elif status:
-            label = 'Guía de WoW Forever: ' if lang == 'es' else 'WoW Forever guide: '
-        else:
-            label = ('Texto oficial del juego: ' if lang == 'es'
-                     else 'Official game text: ')
-        facts.lines.append(label + text)
+        facts.lines.append(_guide_label(status, lang) + text)
         _add_source(facts, f'guide:{ref}')
+
+
+def add_guide_sections(facts: Facts, db, ids, lang: str) -> None:
+    """Añade secciones elegidas por el enrutador delante de las de palabras clave."""
+    if not isinstance(facts, Facts) or not ids:
+        return
+    if isinstance(ids, str):
+        ids = [ids]
+    try:
+        from askforever.engine.guide import load_sections
+    except Exception:
+        return
+    index = getattr(db, '_guide_index', None)
+    sections = {section['id']: section
+                for section in load_sections(getattr(index, 'sections_path', None))}
+    spanish = str(lang).lower().startswith('es')
+    additions = []
+    for raw in ids:
+        section_id = str(raw)
+        if section_id.startswith('section:'):
+            section_id = section_id[len('section:'):]
+        section = sections.get(section_id)
+        if section is None:
+            continue
+        text = section.get('text_es' if spanish else 'text_en')
+        if not isinstance(text, str) or not text.strip():
+            continue
+        line = _guide_label(section.get('status'), lang) + text
+        source = f'guide:section:{section_id}'
+        if source in facts.sources or line in facts.lines:
+            continue
+        if any(line == added_line for _source, added_line in additions):
+            continue
+        additions.append((source, line))
+    if not additions:
+        return
+    guide_indices = [index for index, line in enumerate(facts.lines)
+                     if _is_guide_line(line)]
+    insert_at = guide_indices[0] if guide_indices else len(facts.lines)
+    facts.lines[insert_at:insert_at] = [line for _source, line in additions]
+    while sum(1 for line in facts.lines if _is_guide_line(line)) > 4:
+        for index in range(len(facts.lines) - 1, -1, -1):
+            if _is_guide_line(facts.lines[index]):
+                del facts.lines[index]
+                break
+        else:
+            break
+    for source, line in additions:
+        if line in facts.lines:
+            _add_source(facts, source)
 
 
 def retrieve(message, db) -> Facts:

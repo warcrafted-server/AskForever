@@ -31,6 +31,7 @@ DOMAIN_WORDS = {
 }
 STOP_WORDS = (set(QUEST_REFERENCE_STOP_WORDS) - DOMAIN_WORDS) | EXTRA_STOP_WORDS
 _CACHE = {}
+_TOC_CACHE = {}
 GuideEntry = namedtuple('GuideEntry',
                         'ref text_es text_en tokens_es tokens_en requires heads tags status',
                         defaults=(frozenset(), frozenset(), frozenset(), ''))
@@ -52,6 +53,14 @@ CLASS_TAGS = {
     'brujo': 'WARLOCK', 'bruja': 'WARLOCK', 'warlock': 'WARLOCK',
     'druida': 'DRUID', 'druid': 'DRUID',
 }
+# Skyborne no está en RACE_TAGS porque el cliente no usa esa raza para los tutoriales,
+# pero sus secciones de guía sí llevan la etiqueta.
+_EXTRA_TAGS = {
+    'cielonato': 'SKYBORNE', 'cielonata': 'SKYBORNE', 'skyborne': 'SKYBORNE',
+}
+_TAG_WORDS = {**RACE_TAGS, **_EXTRA_TAGS, **CLASS_TAGS}
+_KNOWN_TAGS = set(_TAG_WORDS.values())
+
 
 _COLOUR_RE = re.compile(r'\|c[0-9a-fA-F]{8}|\|r', re.IGNORECASE)
 _NEWLINE_RE = re.compile(r'\|n', re.IGNORECASE)
@@ -146,6 +155,87 @@ def player_tags_from_ctx(ctx) -> frozenset:
         if value in table:
             tags.add(table[value])
     return frozenset(tags)
+
+
+def _toc_player_tags(ctx) -> frozenset:
+    if not isinstance(ctx, dict):
+        return frozenset()
+    cleaned = dict(ctx)
+    for key in ('race', 'class'):
+        value = cleaned.get(key)
+        if isinstance(value, str):
+            cleaned[key] = re.sub(r'[-_]', ' ', value)
+    tags = set(player_tags_from_ctx(cleaned))
+    race = ' '.join(re.findall(r'[a-z]+', normalize(cleaned.get('race') or '')))
+    if race in _EXTRA_TAGS:
+        tags.add(_EXTRA_TAGS[race])
+    return frozenset(tags)
+
+
+def _toc_named_tags(question) -> frozenset:
+    text = normalize(re.sub(r'[-_]', ' ', str(question or '')))
+    tags = set()
+    for phrase, tag in _TAG_WORDS.items():
+        pattern = r'(?<![a-z0-9])' + re.escape(phrase) + r'(?:s|es)?(?![a-z0-9])'
+        if re.search(pattern, text):
+            tags.add(tag)
+    return frozenset(tags)
+
+
+def _section_tags(section) -> frozenset:
+    raw = section.get('tags') or []
+    if isinstance(raw, str):
+        raw = [raw]
+    return frozenset(str(tag).upper() for tag in raw if isinstance(tag, str))
+
+
+def _chapter_order(value):
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return 0 if value is None else 9999
+
+
+def _one_line(value) -> str:
+    return re.sub(r'\s+', ' ', str(value or '')).strip()
+
+
+def build_toc(lang, ctx=None, question='') -> list[tuple[str, str]]:
+    """Índice compacto de secciones usables, filtrado por clase y raza del jugador."""
+    spanish = str(lang).lower().startswith('es')
+    allowed = set(_toc_player_tags(ctx)) | set(_toc_named_tags(question))
+    sections = list(load_sections())
+    fingerprint = tuple(
+        (section['id'], section.get('chapter'),
+         section.get('title_es'), section.get('title_en'),
+         section.get('summary_es'), section.get('summary_en'),
+         tuple(sorted(_section_tags(section))))
+        for section in sections
+    )
+    key = (spanish, frozenset(allowed), fingerprint)
+    cached = _TOC_CACHE.get(key)
+    if cached is not None:
+        return list(cached)
+
+    rows = []
+    for section in sections:
+        tags = _section_tags(section)
+        restricted = tags & _KNOWN_TAGS
+        if restricted and not restricted <= allowed:
+            continue
+        title = _one_line(section.get('title_es' if spanish else 'title_en')
+                          or section.get('title_es') or section.get('title_en'))
+        if not title:
+            continue
+        summary = _one_line(section.get('summary_es' if spanish else 'summary_en')
+                            or section.get('summary_es') or section.get('summary_en'))
+        identifier = section['id']
+        rows.append((_chapter_order(section.get('chapter')), identifier,
+                     f'{identifier} | {title} | {summary}'))
+    rows.sort(key=lambda row: (row[0], row[1]))
+    lines = tuple((identifier, line) for _chapter, identifier, line in rows)
+    _TOC_CACHE[key] = lines
+    return list(lines)
 
 
 def tokenize(text) -> list[str]:

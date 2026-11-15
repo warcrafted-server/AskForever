@@ -123,6 +123,8 @@ def build_report(exchange: dict | None, note: str, report_ctx: dict | None,
     blocks.append(_section('FUENTES', _sources_text(exchange)))
     model = exchange.get('model') if exchange is not None else None
     blocks.append(_section('MODELO', _display(model, '(desconocido)')))
+    router = exchange.get('router') if exchange is not None else None
+    blocks.append(_section('ENRUTADOR', _display(router, 'off')))
     elapsed = exchange.get('elapsed_ms') if exchange is not None else None
     blocks.append(_section('TIEMPO', f'{elapsed} ms' if elapsed is not None else '-'))
     text = exchange.get('text') if exchange is not None else None

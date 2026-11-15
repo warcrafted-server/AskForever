@@ -42,6 +42,7 @@ TEMPERATURE_ENV = 'ASKFOREVER_TEMPERATURE'
 DEFAULT_TEMPERATURE = 0.2
 WOWDATA_ENV = 'ASKFOREVER_WOWDATA'
 WEB_ENV = 'ASKFOREVER_WEB'
+GUIDE_ROUTER_ENV = 'ASKFOREVER_GUIDE_ROUTER'
 
 
 @dataclass(frozen=True)
@@ -202,6 +203,12 @@ def open_wowdata():
 def get_web_enabled() -> bool:
     """True salvo que ASKFOREVER_WEB sea 0, false, no u off."""
     value = os.environ.get(WEB_ENV, '').strip().lower()
+    return value not in ('0', 'false', 'no', 'off')
+
+
+def get_guide_router_enabled() -> bool:
+    """True salvo que ASKFOREVER_GUIDE_ROUTER sea 0, false, no u off."""
+    value = os.environ.get(GUIDE_ROUTER_ENV, '').strip().lower()
     return value not in ('0', 'false', 'no', 'off')
 
 
