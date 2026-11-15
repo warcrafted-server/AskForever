@@ -1725,6 +1725,9 @@ class WowDb:
             return []
 
         kind_order = {kind: index for index, kind in enumerate(kinds)}
+        # Una misión de una sola palabra («¡Atención!») solo cuenta si la pregunta habla de
+        # misiones: si no, «me quita la atención» se tomaba por esa misión.
+        mentions_quest = bool({'mision', 'misiones', 'quest', 'quests'} & set(normalized.split()))
         candidates = set()
         for token in set(normalized.split()):
             for index in self._by_first.get(token, ()):
@@ -1734,6 +1737,8 @@ class WowDb:
         for index in candidates:
             entry = self._entries[index]
             if entry['kind'] not in kind_order:
+                continue
+            if entry['kind'] == 'quest' and ' ' not in entry['text'] and not mentions_quest:
                 continue
             length = len(entry['text'])
             position = normalized.find(entry['text'])

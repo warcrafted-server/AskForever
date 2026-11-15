@@ -227,6 +227,11 @@ def test_answer_router_failure_keeps_keyword_lines(sections):
 
 def test_answer_router_skips_travel_questions(sections, monkeypatch):
     monkeypatch.setenv('ASKFOREVER_GUIDE_ROUTER', '1')
+    # La base falsa no tiene zonas: se simula que «Ventormenta» es un lugar conocido.
+    from askforever.engine import retriever as retriever_module
+    monkeypatch.setattr(retriever_module, '_zone_in_question',
+                        lambda _db, text, _lang: ((1519, 'Ciudad de Ventormenta')
+                                                  if 'ventormenta' in text else (None, '')))
     db = GuideDb()
     provider = FakeProvider(['La respuesta'])
     result = answer_message(_message('¿Cómo voy a Ventormenta?'), provider, db=db)
@@ -286,3 +291,33 @@ def test_bench_no_router_skips_route_and_restores_env(sections, monkeypatch, tmp
                      '--no-web', '--no-router']) == 0
     assert len(fake_provider.calls) == 1
     assert os.environ['ASKFOREVER_GUIDE_ROUTER'] == '1'
+
+
+def test_travel_shaped_question_without_place_uses_router(sections, monkeypatch):
+    monkeypatch.setenv('ASKFOREVER_GUIDE_ROUTER', '1')
+    db = GuideDb()
+    provider = FakeProvider(['{"ids": []}', 'La respuesta'])
+    result = answer_message(_message('¿Cuándo podré ir a caballo?'), provider, db=db)
+    assert result.router == 'empty'
+    assert len(provider.calls) == 2
+
+
+def test_routed_section_already_found_moves_to_the_front(monkeypatch):
+    from askforever.engine import guide as guide_mod
+    from askforever.engine.retriever import Facts, add_guide_sections
+
+    def fake_sections(_path=None):
+        return [{'id': name, 'status': 'editorial', 'text_es': f'Texto {name}.',
+                 'text_en': f'Text {name}.'} for name in ('a', 'b', 'c', 'd', 'e')]
+
+    monkeypatch.setattr(guide_mod, 'load_sections', fake_sections)
+    facts = Facts(lines=['Dato de la base.'] + [f'Guía de WoW Forever: Texto {name}.'
+                                                  for name in ('b', 'c', 'd', 'a')])
+
+    class Db:
+        pass
+
+    add_guide_sections(facts, Db(), ['a', 'e'], 'es')
+    guide_lines = [line for line in facts.lines if line.startswith('Guía')]
+    assert guide_lines[:2] == ['Guía de WoW Forever: Texto a.', 'Guía de WoW Forever: Texto e.']
+    assert len(guide_lines) == 4

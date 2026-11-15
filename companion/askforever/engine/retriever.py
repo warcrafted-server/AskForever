@@ -2055,7 +2055,12 @@ def _is_guide_line(line) -> bool:
 
 def _detect_guide(facts: Facts, db, question, lang: str, ctx: dict) -> None:
     """Añade textos oficiales solo si la pregunta no es específica."""
-    if is_travel_question(question):
+    # Una pregunta con forma de viaje solo se descarta si hay ruta en los datos o nombra un
+    # lugar: «¿cuándo podré ir a caballo?» no es un viaje.
+    if is_travel_question(question) and (
+            any(source.startswith(('route', 'flights')) for source in facts.sources)
+            or (_safe(_zone_in_question, db, normalize(question), lang) or (None,))[0]
+            is not None):
         return
     blocked_sources = ('quest:', 'dungeon', 'route:')
     if any(source.startswith(blocked_sources) for source in facts.sources):
@@ -2107,8 +2112,10 @@ def add_guide_sections(facts: Facts, db, ids, lang: str) -> None:
             continue
         line = _guide_label(section.get('status'), lang) + text
         source = f'guide:section:{section_id}'
-        if source in facts.sources or line in facts.lines:
-            continue
+        # Si la búsqueda por palabras ya la trajo, se recoloca delante en el orden del
+        # enrutador: si se quedara detrás podría salir recortada.
+        while line in facts.lines:
+            facts.lines.remove(line)
         if any(line == added_line for _source, added_line in additions):
             continue
         additions.append((source, line))
