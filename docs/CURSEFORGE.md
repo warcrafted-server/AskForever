@@ -46,6 +46,7 @@ In the description, link only to pages of the GitHub project (no direct download
 ## What it does
 - Ask with `/af` or the minimap button; the answer appears over the game, on the right.
 - Uses verified game data: quests, NPCs, class trainers, dungeons and their levels, zones for your level, loot and flight points.
+- Quest help: where to get what a quest asks for (which NPC drops it, which chest or plant gives it, where the creatures to kill are), with coordinates. It understands your active quests, so "who drops the book?" is enough.
 - Travel routes with flights, boats, zeppelins and the Deeprun Tram, starting from where you are.
 - Remembers the conversation, so follow-up questions work ("and from here?").
 - Says "I don't know" instead of guessing. English and Spanish.
@@ -67,8 +68,7 @@ Step-by-step guide with screenshots: [installation guide](https://github.com/war
 - The companion is built on GitHub from the public code, with SHA-256 hashes and build provenance. Windows may warn about it because it is not sold in the Microsoft Store: see [security and transparency](https://github.com/warcrafted-server/AskForever/blob/main/docs/SECURITY_TRANSPARENCY.md).
 
 ## Beta limitations
-- The answer appears in a small window over the game, not yet inside the addon window.
-- Use Windowed or Windowed (Fullscreen) display mode.
+- The answer appears in a small window over the game, not yet inside the addon window. It hides while the game is minimized or in the background.
 
 AI answers can contain mistakes: double-check important details in game.
 
@@ -79,6 +79,7 @@ AI answers can contain mistakes: double-check important details in game.
 ## Qué hace
 - Pregunta con `/af` o el botón del minimapa; la respuesta aparece sobre el juego, a la derecha.
 - Usa datos verificados del juego: misiones, PNJ, instructores de clase, mazmorras y sus niveles, zonas para tu nivel, botín y puntos de vuelo.
+- Ayuda con misiones: dónde conseguir lo que pide una misión (qué PNJ lo suelta, qué cofre o planta lo da, dónde están las criaturas que hay que matar), con coordenadas. Entiende tus misiones activas, así que basta con «¿quién suelta el libro?».
 - Rutas de viaje con vuelos, barcos, zepelines y el Tranvía Subterráneo, desde donde estás.
 - Recuerda la conversación, así que puedes seguir preguntando («¿y desde aquí?»).
 - Dice «no lo sé» en lugar de inventar. Inglés y español.
@@ -100,8 +101,7 @@ Guía paso a paso con capturas: [guía de instalación](https://github.com/warcr
 - El companion se compila en GitHub desde el código público, con hashes SHA-256 y prueba de procedencia. Windows puede avisar porque no se vende en la Microsoft Store: consulta [seguridad y transparencia](https://github.com/warcrafted-server/AskForever/blob/main/docs/SEGURIDAD_TRANSPARENCIA.md).
 
 ## Limitaciones de la beta
-- La respuesta aparece en una ventanita sobre el juego, todavía no dentro de la ventana del addon.
-- Usa el modo de pantalla Ventana o Pantalla completa (ventana).
+- La respuesta aparece en una ventanita sobre el juego, todavía no dentro de la ventana del addon. Se oculta mientras el juego está minimizado o en segundo plano.
 
 Las respuestas de la IA pueden contener errores: comprueba lo importante en el juego.
 
