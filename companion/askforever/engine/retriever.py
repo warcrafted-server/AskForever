@@ -312,6 +312,17 @@ def _item_line(item, lang: str) -> str:
                 npc = npc + (' en ' if lang == 'es' else ' in ') + place
             pieces.append(f'{npc} ({rate} %)' if rate is not None else npc)
         parts.append(f'{label}: ' + ', '.join(pieces))
+    objects = item.get('objects') or []
+    if objects:
+        label = 'se recoge de' if lang == 'es' else 'gathered from'
+        pieces = []
+        for obj in objects:
+            object_name = obj.get('object') or ''
+            place = _location_text(obj)
+            if place:
+                object_name = object_name + (' en ' if lang == 'es' else ' in ') + place
+            pieces.append(object_name)
+        parts.append(f'{label}: ' + ', '.join(pieces))
     rewards = item.get('quest_rewards') or []
     if rewards:
         label = 'recompensas' if lang == 'es' else 'rewards'
@@ -355,6 +366,31 @@ def _detect_entities(facts: Facts, db, matches, normalized: str, lang: str, ctx:
                     continue
                 facts.lines.append(_item_line(item, lang))
                 _add_source(facts, f'item:{item["id"]}')
+            quest_name = quest.get('name') or ''
+            creatures = quest.get('objective_creatures') or []
+            for creature in creatures[:3]:
+                npc_id = creature.get('id')
+                source = f'npc:{npc_id}'
+                if source in facts.sources:
+                    continue
+                locations = _safe(db.npc_locations, npc_id, 2, lang)
+                name = creature.get('name') or ''
+                places = [_location_text(location) for location in (locations or [])]
+                places = [place for place in places if place]
+                if lang == 'es':
+                    line = f'Objetivo de la misión «{quest_name}»: matar {name}'
+                    if places:
+                        line += ' en ' + '; '.join(places) + '.'
+                    else:
+                        line += ' (ubicación desconocida en la base).'
+                else:
+                    line = f'Quest «{quest_name}» objective: kill {name}'
+                    if places:
+                        line += ' in ' + '; '.join(places) + '.'
+                    else:
+                        line += ' (location not in the database).'
+                facts.lines.append(line)
+                _add_source(facts, source)
         elif kind == 'dungeon':
             has_dungeon = True
             dungeon = db.dungeon(entity_id, lang)

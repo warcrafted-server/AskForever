@@ -317,18 +317,19 @@ class WowDb:
                 return ZONE_GROUP_CONTINENT.get(row['group_id'])
         return None
 
-    def npc_locations(self, npc_id, limit: int = 3, lang: str = 'es'):
+    def _spawn_locations(self, table: str, id_column: str, entity_id, limit: int, lang: str):
         locations = []
         seen = set()
         zones = {}
         rows = self._rows(
-            'SELECT zone_id, spawn_idx, x, y FROM ext_npc_spawns WHERE npc_id = ? '
-            'ORDER BY spawn_idx, zone_id', (npc_id,))
+            f'SELECT zone_id, spawn_idx, x, y FROM {table} WHERE {id_column} = ? '
+            'ORDER BY spawn_idx, zone_id', (entity_id,))
         for row in rows:
             zone_id = row['zone_id']
             x = _round1(row['x'])
             y = _round1(row['y'])
-            # Los PNJ de dentro de instancias llevan (-1, -1) de relleno: se conserva la zona sin coordenadas.
+            # Las entidades de dentro de instancias llevan (-1, -1) de relleno:
+            # se conserva la zona sin coordenadas.
             if x is not None and y is not None and (x < 0 or y < 0):
                 x = y = None
             key = (zone_id, x, y)
@@ -341,6 +342,12 @@ class WowDb:
             if len(locations) >= limit:
                 break
         return locations
+
+    def npc_locations(self, npc_id, limit: int = 3, lang: str = 'es'):
+        return self._spawn_locations('ext_npc_spawns', 'npc_id', npc_id, limit, lang)
+
+    def object_locations(self, object_id, limit: int = 3, lang: str = 'es'):
+        return self._spawn_locations('ext_object_spawns', 'object_id', object_id, limit, lang)
 
     def _quest_name(self, quest_id, lang: str) -> str:
         return self._localized('ext_quest_l10n', 'quest_id', quest_id, lang)
@@ -395,6 +402,16 @@ class WowDb:
             name = self._localized('ext_item_l10n', 'item_id', item_row['item_id'], lang)
             objective_items.append(name or _clean_text(item_row['text']))
             objective_item_ids.append(item_row['item_id'])
+        objective_creatures = []
+        creature_rows = self._rows(
+            'SELECT npc_id, text FROM ext_quest_objective_creatures WHERE quest_id = ? '
+            'ORDER BY position', (quest_id,))
+        for creature_row in creature_rows:
+            npc_name, _sub_name = self._npc_names(creature_row['npc_id'], lang)
+            objective_creatures.append({
+                'id': creature_row['npc_id'],
+                'name': npc_name or _clean_text(creature_row['text']),
+            })
         return {
             'id': quest_id,
             'name': self._quest_name(quest_id, lang),
@@ -404,6 +421,7 @@ class WowDb:
             'finishers': self._quest_entities('ext_quest_finishers', quest_id, lang),
             'objective_items': objective_items,
             'objective_item_ids': objective_item_ids,
+            'objective_creatures': objective_creatures,
         }
 
     def find_quest(self, name_or_id, lang: str = 'es', player_level=None):
@@ -678,6 +696,25 @@ class WowDb:
             if quest_name:
                 rewards.append(quest_name)
 
+        objects = []
+        for row in self._rows(
+                'SELECT object_id FROM ext_item_object_drops WHERE item_id = ? ORDER BY position',
+                (item_id,)):
+            object_name = self._localized('ext_object_l10n', 'object_id',
+                                           row['object_id'], lang)
+            if not object_name:
+                continue
+            locations = self.object_locations(row['object_id'], limit=1, lang=lang)
+            location = locations[0] if locations else {}
+            objects.append({
+                'object': object_name,
+                'zone': location.get('zone') or '',
+                'x': location.get('x'),
+                'y': location.get('y'),
+            })
+            if len(objects) >= limit:
+                break
+
         if not drops:
             seen_npcs = set()
             for row in self._rows(
@@ -711,13 +748,14 @@ class WowDb:
                 if len(drops) >= limit:
                     break
 
-        if not name and not vendors and not drops and not rewards:
+        if not name and not vendors and not drops and not objects and not rewards:
             return None
         return {
             'id': item_id,
             'name': name,
             'vendors': vendors,
             'drops': drops,
+            'objects': objects,
             'quest_rewards': rewards,
         }
 

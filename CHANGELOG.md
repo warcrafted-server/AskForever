@@ -10,9 +10,11 @@ Quest questions now include where their objective items come from. / Las pregunt
 
 ### English
 - Fixed: questions about a quest now include where its objective items come from (which NPC drops them, with zone, coordinates and drop rate; vendors; quest rewards).
+- Fixed: quest questions also include the world objects (chests, crates, plants...) that give the objective items and where the creatures of kill quests are, with zone and coordinates.
 
 ### Español
 - Corregido: las preguntas sobre una misión ahora incluyen de dónde salen sus objetos objetivo (qué PNJ los suelta, con zona, coordenadas y probabilidad; vendedores; recompensas de misión).
+- Corregido: las preguntas de misión también incluyen los objetos del mundo (cofres, cajas, plantas...) que dan los objetos objetivo y dónde están las criaturas de las misiones de matar, con zona y coordenadas.
 
 ## [0.3.0-beta.2] - 2026-11-15
 

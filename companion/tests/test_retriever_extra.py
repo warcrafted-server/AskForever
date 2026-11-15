@@ -16,6 +16,12 @@ SCHEMA = [
     'CREATE TABLE ext_quest_finishers (quest_id INTEGER, entity_type TEXT, entity_id INTEGER)',
     'CREATE TABLE ext_quest_objective_items (quest_id INTEGER, position INTEGER, '
     'item_id INTEGER, text TEXT, icon_type INTEGER)',
+    'CREATE TABLE ext_item_object_drops (item_id INTEGER, position INTEGER, object_id INTEGER)',
+    'CREATE TABLE ext_object_l10n (object_id INTEGER, locale TEXT, name TEXT)',
+    'CREATE TABLE ext_object_spawns (object_id INTEGER, zone_id INTEGER, spawn_idx INTEGER, '
+    'x REAL, y REAL, phase INTEGER)',
+    'CREATE TABLE ext_quest_objective_creatures (quest_id INTEGER, position INTEGER, '
+    'npc_id INTEGER, text TEXT, icon_type INTEGER)',
     'CREATE TABLE ext_npcs (npc_id INTEGER, min_level INTEGER, max_level INTEGER, '
     'friendly_to_faction TEXT)',
     'CREATE TABLE ext_npc_l10n (npc_id INTEGER, locale TEXT, name TEXT, sub_name TEXT)',
@@ -74,6 +80,7 @@ def db(tmp_path):
         (255, 14, 19),
         (96393, 9, 16),
         (91775, 10, 12),
+        (91776, 10, 12),
     ])
     _insert(conn, 'ext_quest_l10n', ['quest_id', 'locale', 'name'], [
         (1338, 'esES', 'Un pedido de Pico Tormenta'),
@@ -84,6 +91,8 @@ def db(tmp_path):
         (96393, 'enUS', 'Old Ironforge Incursion'),
         (91775, 'esES', 'Devolución de libros'),
         (91775, 'enUS', 'Book Return'),
+        (91776, 'esES', 'Matar troggs'),
+        (91776, 'enUS', 'Kill Troggs'),
     ])
     _insert(conn, 'ext_quest_starters', ['quest_id', 'entity_type', 'entity_id'], [
         (1338, 'npc', 1343),
@@ -97,6 +106,11 @@ def db(tmp_path):
             ['quest_id', 'position', 'item_id', 'text', 'icon_type'], [
         (91775, 0, 248001, 'Álbum de fotos', None),
         (91775, 1, 248002, 'Libro perdido', None),
+    ])
+    _insert(conn, 'ext_quest_objective_creatures',
+            ['quest_id', 'position', 'npc_id', 'text', 'icon_type'], [
+        (91776, 0, 1162, 'Trog C', None),
+        (91776, 1, 900003, 'Criatura sin posición', None),
     ])
     _insert(conn, 'ext_npcs', ['npc_id', 'min_level', 'max_level', 'friendly_to_faction'], [
         (1343, 10, 10, 'A'),
@@ -185,6 +199,22 @@ def db(tmp_path):
         (248001, 'enUS', 'Photo Album'),
         (248002, 'esES', 'Libro perdido'),
         (248002, 'enUS', 'Lost Book'),
+        (248003, 'esES', 'Cofre de libros'),
+        (248003, 'enUS', 'Book Chest'),
+    ])
+    _insert(conn, 'ext_item_object_drops', ['item_id', 'position', 'object_id'], [
+        (248003, 0, 900001),
+    ])
+    _insert(conn, 'ext_object_l10n', ['object_id', 'locale', 'name'], [
+        (900001, 'esES', 'Cofre de libros'),
+        (900001, 'enUS', 'Book Chest'),
+        (900002, 'esES', 'Objeto sin coordenadas'),
+        (900002, 'enUS', 'Object without coordinates'),
+    ])
+    _insert(conn, 'ext_object_spawns', ['object_id', 'zone_id', 'spawn_idx', 'x', 'y',
+                                        'phase'], [
+        (900001, 40, 1, 42.5, 71.7, 0),
+        (900002, 40, 1, -1.0, -1.0, 0),
     ])
     _insert(conn, 'v_zona_niveles', ['area_id', 'nombre', 'nombre_en', 'nivel_min',
                                      'nivel_max', 'pnj', 'origen'], [
@@ -365,6 +395,25 @@ def test_quest_objective_item_drops(db):
     assert 'item:248001' in facts.sources
     assert 'item:248002' in facts.sources
     assert text.count('Trog A') == 1
+
+
+def test_quest_kill_objective(db):
+    facts = retrieve(_message('¿Matar troggs?'), db)
+    text = _text(facts)
+    assert 'matar Trog C en Loch Modan (12.0, 22.0).' in text
+    assert 'matar Criatura sin posición (ubicación desconocida en la base).' in text
+    assert 'npc:1162' in facts.sources
+    assert 'npc:900003' in facts.sources
+
+
+def test_item_line_with_object_sources(db):
+    item = db.item_sources(248003)
+    assert item['drops'] == []
+    line = _item_line(item, 'es')
+    assert 'se recoge de: Cofre de libros en Páramos de Poniente (42.5, 71.7)' in line
+    item['objects'][0]['object'] = 'Book Chest'
+    item['objects'][0]['zone'] = 'Westfall'
+    assert 'gathered from: Book Chest in Westfall (42.5, 71.7)' in _item_line(item, 'en')
 
 
 class _QuestDbWithoutObjectiveIds:
