@@ -12,6 +12,8 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Fixed: quest givers and turn-in NPCs are chosen for your faction (an Alliance player was sent to Undercity), same-name quests are picked for your faction, and locations in your current zone come first.
 - Added: general gameplay questions receive the official game texts that match them (tutorials, beginner interface help and loading-screen tips), with their reference.
 - Added: questions about where to find a banker, innkeeper, auctioneer, flight master, stable master or profession trainer list the NPCs of that city or zone with coordinates.
+- Fixed: the zones suggested for your level no longer include the other faction's zones.
+- Added: hunters asking about pets get the tameable beasts of their zone (family, level and coordinates) seen in game.
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
@@ -21,6 +23,8 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Corregido: quién da y recibe una misión se elige según tu facción (a un jugador de la Alianza lo mandaba a Entrañas), las misiones con el mismo nombre se eligen para tu facción y las ubicaciones de tu zona actual salen primero.
 - Añadido: las preguntas generales sobre cómo se juega reciben los textos oficiales del juego que les corresponden (tutoriales, ayudas de la interfaz para novatos y consejos de las pantallas de carga), con su referencia.
 - Añadido: las preguntas sobre dónde está el banquero, el tabernero, el subastador, el maestro de vuelo, el de establos o un instructor de profesión muestran los PNJ de esa ciudad o zona con coordenadas.
+- Corregido: las zonas recomendadas para tu nivel ya no incluyen las de la otra facción.
+- Añadido: los cazadores que preguntan por mascotas reciben las bestias domesticables de su zona (familia, nivel y coordenadas) vistas en el juego.
 
 ## [0.3.0-beta.4] - 2026-11-15
 

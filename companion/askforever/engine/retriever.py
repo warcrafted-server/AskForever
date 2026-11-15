@@ -27,6 +27,8 @@ DUNGEON_KEYWORDS = ('mazmorra', 'mazmorras', 'instancia', 'instancias', 'dungeon
                     'dungeons')
 ZONE_KEYWORDS = ('subir de nivel', 'levear', 'zonas', 'zona para mi nivel',
                  'where to level', 'level up', 'zones')
+PET_KEYWORDS = ('mascota', 'mascotas', 'domesticar', 'domestico', 'domar',
+                'bestia', 'pet', 'pets', 'tame', 'taming')
 TRAVEL_PHRASES = (
     'como voy', 'como llego', 'como ir', 'como puedo ir', 'como puedo llegar',
     'como se va', 'como se llega', 'de aqui a', 'desde aqui', 'ir a ', 'ir de ',
@@ -855,6 +857,22 @@ def _zone_is_excluded(zone, excluded_ids, excluded_keys) -> bool:
             or normalize(zone.get('name') or '') in excluded_keys)
 
 
+def _filter_zone_faction(zones, db, faction, keep_ids):
+    if faction not in ('A', 'H'):
+        return zones
+    opposite = 'H' if faction == 'A' else 'A'
+    filtered = []
+    for zone in zones:
+        area_id = zone.get('area_id')
+        if area_id in keep_ids:
+            filtered.append(zone)
+            continue
+        if _safe(db.zone_faction, area_id) == opposite:
+            continue
+        filtered.append(zone)
+    return filtered
+
+
 def _panorama_zones_line(zones, level, lang: str) -> str:
     parts = [f"{zone['name']} ({zone['min']}-{zone['max']})" for zone in zones]
     if lang == 'es':
@@ -1603,6 +1621,75 @@ def _detect_services(facts: Facts, db, matches, normalized: str, lang: str,
         facts.missing.append(message)
 
 
+def _detect_pets(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
+    if not isinstance(ctx, dict):
+        ctx = {}
+    if not isinstance(normalized, str):
+        normalized = ''
+    player_class = normalize(ctx.get('class') or '')
+    if player_class not in ('cazador', 'cazadora', 'hunter'):
+        return
+    if not any(word in normalized for word in PET_KEYWORDS):
+        return
+    level = _ctx_level(ctx)
+    if level is None:
+        return
+
+    zone_id, zone_name = _zone_in_question(db, normalized, lang)
+    if zone_id is None:
+        player_zone = ctx.get('zone') if isinstance(ctx.get('zone'), str) else ''
+        if player_zone:
+            zone_id, resolved = _zone_area(db, player_zone, lang)
+            if zone_id is None:
+                zone_id, resolved = _zone_in_question(
+                    db, normalize(player_zone), lang)
+            zone_name = resolved or player_zone
+    if zone_id is None:
+        return
+
+    beasts = _safe(db.tameable_beasts, zone_id, level, lang, 6) or []
+    parts = []
+    for beast in beasts:
+        locations = beast.get('locations') or []
+        if not locations:
+            continue
+        location = locations[0]
+        name = beast.get('name') or ''
+        family = beast.get('family') or ''
+        low = beast.get('min_level')
+        high = beast.get('max_level')
+        point = f'{name} ({family}, {low}-{high})'
+        x = location.get('x')
+        y = location.get('y')
+        if x is not None and y is not None:
+            point += f' ({x}, {y})'
+        parts.append(point)
+    if not parts:
+        if lang == 'es':
+            message = 'No hay bestias domesticables observadas'
+            if zone_name:
+                message += f' en {zone_name}'
+            message += ' hasta tu nivel'
+        else:
+            message = 'No tameable beasts observed'
+            if zone_name:
+                message += f' in {zone_name}'
+            message += ' up to your level'
+        facts.missing.append(message)
+        return
+    if lang == 'es':
+        prefix = f'Bestias domesticables observadas en {zone_name} hasta tu nivel'
+        if level is not None:
+            prefix += f' ({level})'
+        facts.lines.append(prefix + ': ' + ', '.join(parts) + '.')
+    else:
+        prefix = f'Tameable beasts observed in {zone_name} up to your level'
+        if level is not None:
+            prefix += f' ({level})'
+        facts.lines.append(prefix + ': ' + ', '.join(parts) + '.')
+    _add_source(facts, f'pets:{zone_id}')
+
+
 def _detect_talents(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
     if not any(word in normalized for word in TALENT_KEYWORDS):
         return
@@ -1720,6 +1807,14 @@ def retrieve(message, db) -> Facts:
         matches = _safe(db.match_entities, question, lang) or []
         level = _ctx_level(ctx)
         nearby = (_safe(db.zones_for_level, level, lang, 8) or []) if level is not None else []
+        faction = _faction(ctx.get('fac'))
+        keep_zone_ids = {match.get('id') for match in matches
+                         if isinstance(match, dict) and match.get('kind') == 'zone'}
+        question_zone_id, _question_zone_name = _zone_in_question(
+            db, normalized, lang)
+        if question_zone_id is not None:
+            keep_zone_ids.add(question_zone_id)
+        nearby = _filter_zone_faction(nearby, db, faction, keep_zone_ids)
         excluded_ids, excluded_keys, excluded_names = _excluded_zones(
             matches, nearby, normalized)
         has_dungeon, dungeon_level_answered = _detect_entities(
@@ -1742,6 +1837,7 @@ def retrieve(message, db) -> Facts:
         _detect_spells(facts, db, normalized, lang, ctx)
         _detect_trainers(facts, db, normalized, lang, ctx)
         _detect_services(facts, db, matches, normalized, lang, ctx)
+        _detect_pets(facts, db, normalized, lang, ctx)
         _detect_talents(facts, db, normalized, lang, ctx)
         _detect_quest_list(facts, db, normalized, lang, ctx)
         _detect_guide(facts, db, question, lang, ctx)

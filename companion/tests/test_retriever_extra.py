@@ -26,6 +26,12 @@ SCHEMA = [
     'npc_id INTEGER, text TEXT, icon_type INTEGER)',
     'CREATE TABLE ext_npcs (npc_id INTEGER, min_level INTEGER, max_level INTEGER, '
     'friendly_to_faction TEXT)',
+    'CREATE TABLE AreaTable (ID INTEGER, AreaName_lang TEXT, ParentAreaID INTEGER, '
+    'FactionGroupMask INTEGER)',
+    'CREATE TABLE obs_wdc_npc (npc_id INTEGER, nombre TEXT, nivel_min INTEGER, '
+    'nivel_max INTEGER, clasificacion TEXT, tipo TEXT, familia TEXT, vida INTEGER, '
+    'reaccion TEXT)',
+    'CREATE TABLE CreatureFamily (ID INTEGER, Name_lang TEXT, Name_lang_esES TEXT)',
     'CREATE TABLE ext_npc_l10n (npc_id INTEGER, locale TEXT, name TEXT, sub_name TEXT)',
     'CREATE TABLE ext_npc_spawns (npc_id INTEGER, zone_id INTEGER, spawn_idx INTEGER, '
     'x REAL, y REAL)',
@@ -192,6 +198,14 @@ def db(tmp_path):
         (6005, 'enUS', 'Arnold Leland', 'Fishing Trainer'),
         (6006, 'esES', 'Dungar Tragolargo', f'Maestro{NBSP}de{NBSP}grifos'),
         (6006, 'enUS', 'Dungar Tragolargo', 'Gryphon Master'),
+        (8001, 'esES', 'Jabalí montés', None),
+        (8001, 'enUS', 'Mountain Boar', None),
+        (8002, 'esES', 'Rondador del bosque', None),
+        (8002, 'enUS', 'Forest Stalker', None),
+        (8003, 'esES', 'Lobo superior', None),
+        (8003, 'enUS', 'Greater Wolf', None),
+        (8004, 'esES', 'Bestia sin familia', None),
+        (8004, 'enUS', 'Familyless Beast', None),
         (1163, 'esES', 'Trog A', None),
         (1197, 'esES', 'Trog B', None),
         (1162, 'esES', 'Trog C', None),
@@ -215,6 +229,10 @@ def db(tmp_path):
         (6004, 1519, 1, 60.2, 75.3),
         (6005, 1519, 1, 55.1, 56.2),
         (6006, 1519, 1, 66.3, 77.4),
+        (8001, 12, 1, 45.0, 67.0),
+        (8002, 12, 1, 51.0, 72.0),
+        (8003, 12, 1, 60.0, 80.0),
+        (8004, 12, 1, 62.0, 82.0),
         (1163, 38, 1, 10.0, 20.0),
         (1197, 38, 1, 11.0, 21.0),
         (1162, 38, 1, 12.0, 22.0),
@@ -222,14 +240,40 @@ def db(tmp_path):
     ])
     _insert(conn, 'ext_zones', ['group_id', 'area_id', 'name_enUS', 'name_esES'], [
         (0, 1, 'Dun Morogh', 'Dun Morogh'),
+        (0, 12, 'Elwynn Forest', 'Bosque de Elwynn'),
+        (0, 14, 'Durotar', 'Durotar'),
         (0, 38, 'Loch Modan', 'Loch Modan'),
         (0, 40, 'Westfall', 'Páramos de Poniente'),
         (0, 44, 'Redridge Mountains', 'Montañas Crestagrana'),
+        (0, 85, 'Tirisfal Glades', 'Claros de Tirisfal'),
+        (0, 141, 'Teldrassil', 'Teldrassil'),
         (0, 148, 'Darkshore', 'Costa Oscura'),
         (0, 1519, 'Stormwind City', 'Ciudad de Ventormenta'),
         (0, 1537, 'Ironforge', 'Forjaz'),
         (0, 1497, 'Undercity', 'Entrañas'),
+        (0, 16593, 'Zephras Isle', 'Isla de Zephras'),
         (1, 1637, 'Orgrimmar', 'Orgrimmar'),
+    ])
+    _insert(conn, 'AreaTable', ['ID', 'AreaName_lang', 'ParentAreaID',
+                                'FactionGroupMask'], [
+        (12, 'Elwynn Forest', 0, 2),
+        (14, 'Durotar', 0, 4),
+        (85, 'Tirisfal Glades', 0, 4),
+        (141, 'Teldrassil', 0, 2),
+        (16593, 'Zephras Isle', 0, 0),
+    ])
+    _insert(conn, 'CreatureFamily', ['ID', 'Name_lang', 'Name_lang_esES'], [
+        (1, 'Boar', 'Jabalí'),
+        (2, 'Spider', 'Araña'),
+        (3, 'Wolf', 'Lobo'),
+    ])
+    _insert(conn, 'obs_wdc_npc',
+            ['npc_id', 'nombre', 'nivel_min', 'nivel_max', 'clasificacion',
+             'tipo', 'familia', 'vida', 'reaccion'], [
+        (8001, 'Jabalí montés', 10, 11, 'Normal', 'Bestia', 'Jabalí', 100, 'Neutral'),
+        (8002, 'Rondador del bosque', 10, 11, 'Normal', 'Bestia', 'Araña', 90, 'Neutral'),
+        (8003, 'Lobo superior', 12, 13, 'Normal', 'Bestia', 'Lobo', 110, 'Neutral'),
+        (8004, 'Bestia sin familia', 1, 2, 'Normal', 'Bestia', '', 50, 'Neutral'),
     ])
     _insert(conn, 'ext_dungeons', ['area_id', 'name_enUS', 'name_esES', 'parent_zone_id'], [
         (1581, 'The Deadmines', 'Las Minas de la Muerte', 40),
@@ -298,6 +342,11 @@ def db(tmp_path):
         (40, 'Páramos de Poniente', 'Westfall', 11, 20, 800, 'deducido'),
         (17, 'Los Baldíos', 'The Barrens', 12, 28, 900, 'deducido'),
         (2437, 'Sima Ígnea', 'Ragefire Chasm', 14, 16, 50, 'deducido'),
+        (12, 'Bosque de Elwynn', 'Elwynn Forest', 2, 15, 1200, 'deducido'),
+        (14, 'Durotar', 'Durotar', 4, 12, 1000, 'deducido'),
+        (85, 'Claros de Tirisfal', 'Tirisfal Glades', 4, 13, 900, 'deducido'),
+        (141, 'Teldrassil', 'Teldrassil', 4, 12, 800, 'deducido'),
+        (16593, 'Isla de Zephras', 'Zephras Isle', 4, 11, 500, 'deducido'),
     ])
     _insert(conn, 'LFGDungeons', ['ID', 'Name_lang', 'Name_lang_esES', 'TypeID',
                                   'MapID', 'ContentTuningID'], [
@@ -848,6 +897,80 @@ def test_service_absent_keyword(db):
     facts = retrieve(_message('¿Dónde está el rey?'), db)
     assert not any(source.startswith('service:') for source in facts.sources)
     assert not any('Banquero' in line for line in facts.lines)
+
+
+def test_panorama_filters_opposite_faction_zones(db):
+    ctx = dict(CTX)
+    ctx.update(lvl=10, fac='Alianza', zone='Bosque de Elwynn')
+    facts = retrieve(_message('¿Qué zonas me tocan a mi nivel?', ctx=ctx), db)
+    text = _text(facts)
+    assert 'Zonas para nivel 10:' in text
+    assert 'Durotar' not in text
+    assert 'Claros de Tirisfal' not in text
+    assert 'Teldrassil' in text
+    assert 'Isla de Zephras' in text
+    assert 'Bosque de Elwynn' in text
+
+
+def test_panorama_keeps_all_zones_without_faction(db):
+    ctx = dict(CTX)
+    ctx.update(lvl=10, fac=None, zone='Bosque de Elwynn')
+    facts = retrieve(_message('¿Qué zonas me tocan a mi nivel?', ctx=ctx), db)
+    text = _text(facts)
+    assert 'Durotar' in text
+    assert 'Claros de Tirisfal' in text
+
+
+def test_explicit_opposite_zone_is_not_filtered(db):
+    ctx = dict(CTX)
+    ctx.update(lvl=10, fac='Alianza')
+    facts = retrieve(_message('¿Qué nivel tiene Durotar?', ctx=ctx), db)
+    assert 'Durotar' in _text(facts)
+
+
+def test_hunter_pet_question_lists_zone_beasts(db):
+    ctx = dict(CTX)
+    ctx.update(lvl=10, fac='Alianza', zone='Bosque de Elwynn', **{'class': 'Cazador'})
+    facts = retrieve(
+        _message('Ya tengo nivel 10 y puedo coger una mascota. ¿Cuál me recomiendas?',
+                 ctx=ctx), db)
+    text = _text(facts)
+    assert 'Bestias domesticables observadas en Bosque de Elwynn hasta tu nivel (10):' in text
+    assert 'Jabalí montés (Jabalí, 10-11) (45.0, 67.0)' in text
+    assert 'Rondador del bosque (Araña, 10-11) (51.0, 72.0)' in text
+    assert 'Lobo superior' not in text
+    assert 'Bestia sin familia' not in text
+    assert 'pets:12' in facts.sources
+
+
+def test_hunter_pet_question_english(db):
+    ctx = dict(CTX)
+    ctx.update(lvl=10, fac='Alianza', zone='Elwynn Forest', **{'class': 'Hunter'})
+    facts = retrieve(_message('Which pet should I tame?', lang='enUS', ctx=ctx), db)
+    text = _text(facts)
+    assert 'Tameable beasts observed in Elwynn Forest up to your level (10):' in text
+    assert 'Mountain Boar (Boar, 10-11)' in text
+    assert 'Forest Stalker (Spider, 10-11)' in text
+
+
+def test_non_hunter_pet_question_does_nothing(db):
+    ctx = dict(CTX)
+    ctx.update(lvl=10, fac='Alianza', zone='Bosque de Elwynn', **{'class': 'Chamán'})
+    facts = retrieve(
+        _message('Ya tengo nivel 10 y puedo coger una mascota. ¿Cuál me recomiendas?',
+                 ctx=ctx), db)
+    assert not any('Bestias domesticables' in line for line in facts.lines)
+    assert not any(source.startswith('pets:') for source in facts.sources)
+
+
+def test_hunter_pet_missing_data(db):
+    ctx = dict(CTX)
+    ctx.update(lvl=10, fac='Alianza', zone='Páramos de Poniente',
+               **{'class': 'Cazador'})
+    facts = retrieve(_message('¿Qué mascota me recomiendas?', ctx=ctx), db)
+    assert any('No hay bestias domesticables observadas en Páramos de Poniente'
+               in message for message in facts.missing)
+    assert not any(source.startswith('pets:') for source in facts.sources)
 
 
 def test_render_limit_keeps_priority(db):

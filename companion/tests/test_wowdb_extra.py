@@ -57,6 +57,12 @@ SCHEMA = [
     'npc_id INTEGER, text TEXT, icon_type INTEGER)',
     'CREATE TABLE ext_npcs (npc_id INTEGER, min_level INTEGER, max_level INTEGER, '
     'friendly_to_faction TEXT)',
+    'CREATE TABLE AreaTable (ID INTEGER, AreaName_lang TEXT, ParentAreaID INTEGER, '
+    'FactionGroupMask INTEGER)',
+    'CREATE TABLE obs_wdc_npc (npc_id INTEGER, nombre TEXT, nivel_min INTEGER, '
+    'nivel_max INTEGER, clasificacion TEXT, tipo TEXT, familia TEXT, vida INTEGER, '
+    'reaccion TEXT)',
+    'CREATE TABLE CreatureFamily (ID INTEGER, Name_lang TEXT, Name_lang_esES TEXT)',
 ]
 
 
@@ -166,6 +172,14 @@ def db(tmp_path):
         (5003, 'enUS', 'Horgar Ladoquemao', 'Banker'),
         (5004, 'esES', 'Arnold Leland', f'Instructor{NBSP}de{NBSP}pesca'),
         (5004, 'enUS', 'Arnold Leland', 'Fishing Trainer'),
+        (7001, 'esES', 'Jabalí montés', None),
+        (7001, 'enUS', 'Mountain Boar', None),
+        (7002, 'esES', 'Rondador del bosque', None),
+        (7002, 'enUS', 'Forest Stalker', None),
+        (7003, 'esES', 'Lobo superior', None),
+        (7003, 'enUS', 'Greater Wolf', None),
+        (7004, 'esES', 'Bestia sin familia', None),
+        (7004, 'enUS', 'Familyless Beast', None),
     ])
     _insert(conn, 'ext_npc_spawns', ['npc_id', 'zone_id', 'spawn_idx', 'x', 'y'], [
         (1163, 38, 1, 10.0, 20.0),
@@ -176,11 +190,37 @@ def db(tmp_path):
         (5002, 1519, 1, 77.8, 18.9),
         (5003, 1519, 1, 70.0, 10.0),
         (5004, 1519, 1, 55.1, 56.2),
+        (7001, 12, 1, 45.0, 67.0),
+        (7002, 12, 1, 51.0, 72.0),
+        (7003, 12, 1, 60.0, 80.0),
+        (7004, 12, 1, 62.0, 82.0),
     ])
     _insert(conn, 'ext_zones', ['group_id', 'area_id', 'name_enUS', 'name_esES'], [
+        (0, 12, 'Elwynn Forest', 'Bosque de Elwynn'),
         (0, 38, 'Loch Modan', 'Loch Modan'),
         (0, 40, 'Westfall', 'Páramos de Poniente'),
         (0, 1519, 'Stormwind City', 'Ciudad de Ventormenta'),
+    ])
+    _insert(conn, 'AreaTable', ['ID', 'AreaName_lang', 'ParentAreaID',
+                                'FactionGroupMask'], [
+        (12, 'Elwynn Forest', 0, 2),
+        (14, 'Durotar', 0, 4),
+        (33, 'Stranglethorn Vale', 0, 0),
+        (85, 'Tirisfal Glades', 0, 4),
+        (141, 'Teldrassil', 0, 2),
+    ])
+    _insert(conn, 'CreatureFamily', ['ID', 'Name_lang', 'Name_lang_esES'], [
+        (1, 'Boar', 'Jabalí'),
+        (2, 'Spider', 'Araña'),
+        (3, 'Wolf', 'Lobo'),
+    ])
+    _insert(conn, 'obs_wdc_npc',
+            ['npc_id', 'nombre', 'nivel_min', 'nivel_max', 'clasificacion',
+             'tipo', 'familia', 'vida', 'reaccion'], [
+        (7001, 'Jabalí montés', 10, 11, 'Normal', 'Bestia', 'Jabalí', 100, 'Neutral'),
+        (7002, 'Rondador del bosque', 10, 11, 'Normal', 'Bestia', 'Araña', 90, 'Neutral'),
+        (7003, 'Lobo superior', 12, 13, 'Normal', 'Bestia', 'Lobo', 110, 'Neutral'),
+        (7004, 'Bestia sin familia', 1, 2, 'Normal', 'Bestia', '', 50, 'Neutral'),
     ])
     _insert(conn, 'TaxiNodes', ['__id', 'ID', 'Name_lang', 'Name_lang_esES',
                                 'ContinentID', 'MountCreatureID'], [
@@ -458,6 +498,35 @@ def test_service_npcs_filters_zone_faction_and_nbsp(db):
                               faction='A')
     assert spanish[0]['name'] == 'Arnold Leland'
     assert spanish[0]['sub_name'] == 'Instructor de pesca'
+
+
+def test_zone_faction(db):
+    assert db.zone_faction(12) == 'A'
+    assert db.zone_faction(14) == 'H'
+    assert db.zone_faction(33) is None
+    assert db.zone_faction(999) is None
+
+
+def test_tameable_beasts_filters_level_family_and_zone(db):
+    beasts = db.tameable_beasts(12, 10, 'es')
+    assert [beast['name'] for beast in beasts] == [
+        'Jabalí montés', 'Rondador del bosque']
+    assert [beast['family'] for beast in beasts] == ['Jabalí', 'Araña']
+    assert all(beast['min_level'] == 10 for beast in beasts)
+    assert all(beast['max_level'] == 11 for beast in beasts)
+    assert all(beast['locations'][0]['zone_id'] == 12 for beast in beasts)
+    assert all(beast['name'] not in ('Lobo superior', 'Bestia sin familia')
+               for beast in beasts)
+
+    english = {beast['id']: beast for beast in db.tameable_beasts(12, 10, 'en')}
+    assert english[7001]['name'] == 'Mountain Boar'
+    assert english[7001]['family'] == 'Boar'
+    assert english[7002]['family'] == 'Spider'
+
+    higher = db.tameable_beasts(12, 13, 'es')
+    assert any(beast['name'] == 'Lobo superior' for beast in higher)
+    assert all(beast['name'] != 'Bestia sin familia' for beast in higher)
+    assert db.tameable_beasts(38, 13, 'es') == []
 
 
 def test_flights_from(db):

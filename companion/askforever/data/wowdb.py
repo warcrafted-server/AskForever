@@ -306,6 +306,22 @@ class WowDb:
             name = row['name_enUS'] or row['name_esES']
         return _clean_text(name)
 
+    def zone_faction(self, area_id):
+        rows = self._rows(
+            'SELECT FactionGroupMask FROM AreaTable WHERE ID = ? LIMIT 1',
+            (area_id,))
+        if not rows:
+            return None
+        try:
+            mask = int(rows[0]['FactionGroupMask'])
+        except (TypeError, ValueError):
+            return None
+        if mask == 2:
+            return 'A'
+        if mask == 4:
+            return 'H'
+        return None
+
     def zone_continent(self, zone_name) -> Optional[int]:
         """Continente de TaxiNodes (0 Reinos del Este, 1 Kalimdor) de una zona."""
         target = normalize(zone_name)
@@ -407,6 +423,64 @@ class WowDb:
             limit = max(0, int(limit))
         except (TypeError, ValueError):
             limit = 4
+        return results[:limit]
+
+    def tameable_beasts(self, zone_id, max_level, lang: str = 'es', limit: int = 6):
+        """Bestias observadas con familia y presencia en una zona."""
+        try:
+            zone_id = int(zone_id)
+            max_level = int(max_level)
+        except (TypeError, ValueError):
+            return []
+        rows = self._rows(
+            'SELECT npc_id, nombre, nivel_min, nivel_max, familia '
+            'FROM obs_wdc_npc WHERE lower(trim(tipo)) = ? '
+            "AND familia IS NOT NULL AND trim(familia) != '' "
+            'AND nivel_min <= ? AND EXISTS ('
+            'SELECT 1 FROM ext_npc_spawns s WHERE s.npc_id = obs_wdc_npc.npc_id '
+            'AND s.zone_id = ?)',
+            ('bestia', max_level, zone_id))
+        families = {}
+        for row in self._rows(
+                'SELECT Name_lang, Name_lang_esES FROM CreatureFamily'):
+            spanish = normalize(row['Name_lang_esES'] or '')
+            if spanish:
+                families[spanish] = _clean_text(
+                    row['Name_lang'] or row['Name_lang_esES'])
+        results = []
+        seen = set()
+        for row in rows:
+            npc_id = row['npc_id']
+            if npc_id in seen:
+                continue
+            seen.add(npc_id)
+            name = self._npc_names(npc_id, lang)[0]
+            fallback = _clean_text(row['nombre'])
+            if not name:
+                name = fallback
+            family = _clean_text(row['familia'])
+            if lang != 'es':
+                family = families.get(normalize(family), family)
+            locations = self.npc_locations(npc_id, 1, lang)
+            if not locations:
+                continue
+            results.append({
+                'id': npc_id,
+                'name': name,
+                'family': family,
+                'min_level': _as_int(row['nivel_min']),
+                'max_level': _as_int(row['nivel_max']),
+                'locations': locations,
+            })
+        results.sort(key=lambda beast: (
+            -(beast['max_level'] or 0),
+            normalize(beast['name'] or ''),
+            beast['name'] or '',
+        ))
+        try:
+            limit = max(0, int(limit))
+        except (TypeError, ValueError):
+            limit = 6
         return results[:limit]
 
     def object_locations(self, object_id, limit: int = 3, lang: str = 'es'):
