@@ -37,6 +37,19 @@ _ROUTE_PHRASES = ('cómo voy', 'como voy', 'cómo llego', 'como llego', 'cómo i
                   'como ir', 'how do i get', 'how to get', 'route')
 _WEB_MAX_EXCERPTS = 3
 _WEB_MAX_SEARCHES = 3
+_FOLLOW_UP_STARTS = {'y', 'e', 'and'}
+_FOLLOW_UP_POINTERS = {'ese', 'esa', 'eso', 'esos', 'esas', 'alli', 'ahi', 'that', 'those',
+                       'there'}
+_FOLLOW_UP_MAX_WORDS = 9
+
+
+def is_follow_up(question) -> bool:
+    """Pregunta corta que continúa la anterior («y para subir de nivel, ¿cuál?»)."""
+    words = re.findall(r'[a-z0-9]+', normalize(str(question or '')))
+    if not words or len(words) > _FOLLOW_UP_MAX_WORDS:
+        return False
+    return words[0] in _FOLLOW_UP_STARTS or any(word in _FOLLOW_UP_POINTERS
+                                                for word in words)
 
 
 @dataclass
@@ -295,7 +308,10 @@ def answer_message(data: bytes, provider, *, max_tokens=None, db=None, temperatu
         try:
             facts = retrieve(message, db)
             previous = str(previous_question).strip() if previous_question else ''
-            if not facts.lines and not facts.missing and previous:
+            # Una continuación puede traer datos propios («levear» trae zonas) y aun así
+            # referirse al tema anterior (las ramas de talentos): se buscan los dos juntos.
+            if previous and ((not facts.lines and not facts.missing)
+                             or is_follow_up(question)):
                 follow_message = dict(message)
                 follow_message['q'] = f'{previous} {question}'.strip()
                 follow = retrieve(follow_message, db)

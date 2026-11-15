@@ -329,3 +329,38 @@ def test_run_command_passes_history_per_conversation(monkeypatch):
     assert 'Jugador: primera' in calls[1]['user']
     assert 'Asistente: primera respuesta' in calls[1]['user']
     assert 'CONVERSACIÓN PREVIA' not in calls[2]['user']
+
+
+def test_is_follow_up_detects_short_continuations():
+    from askforever.engine.answer import is_follow_up
+    assert is_follow_up('y para levear cuál me recomiendas?')
+    assert is_follow_up('¿Y en Forjaz?')
+    assert is_follow_up('and where is that?')
+    assert not is_follow_up('¿Dónde está el banco de Ventormenta?')
+    assert not is_follow_up('y ' + 'palabra ' * 12)
+    assert not is_follow_up('')
+
+
+
+def test_follow_up_with_own_facts_keeps_previous_topic(db, monkeypatch):
+    from askforever.engine import answer as answer_module
+    from askforever.engine.retriever import Facts
+
+    asked = []
+
+    def fake_retrieve(message, _db):
+        asked.append(message['q'])
+        return Facts(lines=[f"dato de: {message['q']}"])
+
+    monkeypatch.setattr(answer_module, 'retrieve', fake_retrieve)
+    result = answer_message(_data('y para levear cuál me recomiendas?'), FakeProvider(),
+                            db=db, previous_question='¿Qué ramas de talentos tengo?')
+
+    assert asked == ['y para levear cuál me recomiendas?',
+                     '¿Qué ramas de talentos tengo? y para levear cuál me recomiendas?']
+    assert 'ramas de talentos' in result.facts_text
+
+    asked.clear()
+    answer_message(_data('¿Dónde está el banco de Ventormenta?'), FakeProvider(), db=db,
+                   previous_question='¿Qué ramas de talentos tengo?')
+    assert asked == ['¿Dónde está el banco de Ventormenta?']
