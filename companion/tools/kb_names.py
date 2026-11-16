@@ -90,9 +90,10 @@ class OfficialNames:
         return result
 
 
-# Enlace al calculador de talentos: …/talent-calc/hunter/v2502-004_t0_r2/… = «v2» + puntos por talento de cada rama
+# Enlace al calculador de talentos: …/talent-calc/hunter/v2502-004_t0_r2/… = «v2» (o «v» + letras, p. ej.
+# «vkndmh») + puntos por talento de cada rama
 # (en orden de posición: fila y columna), ramas separadas por «-»; los ceros finales se omiten.
-TALENT_CALC = re.compile(r'https?://(?:www\.)?wowhead\.com/forever/talent-calc/(?P<cls>[a-z-]+)/v2(?P<code>[0-9-]*)'
+TALENT_CALC = re.compile(r'https?://(?:www\.)?wowhead\.com/forever/talent-calc/(?P<cls>[a-z-]+)/v(?:2|[a-z]+)(?P<code>[0-9-]*)'
                          r'(?:_[^\s)/]*)?(?:/[A-Za-z0-9]*)?')
 
 
