@@ -4,7 +4,7 @@ Uso (desde companion/):
     .venv\\Scripts\\python.exe tools\\check_guide_names.py [archivo.json ...]
 
 Busca en el texto inglés de cada sección nombres de objetos, hechizos y PNJ del cliente (de dos o
-más palabras) y avisa si el texto español no contiene su nombre oficial. Sin argumentos revisa
+más palabras) y avisa si el texto español no contiene su nombre oficial (el nombre inglés no vale). Sin argumentos revisa
 todos los archivos de askforever/data/guide/. Sale con código 1 si encuentra alguno.
 """
 
@@ -57,16 +57,20 @@ def _words(text: str) -> str:
 def check_section(section: dict, names: dict) -> list:
     english = _words(section.get('text_en') or '')
     spanish = _words(section.get('text_es') or '')
-    problems = []
+    found = {}
     for key, (kind, original, spanish_names) in names.items():
         needle = ' ' + ' '.join(re.findall(r'[a-z0-9]+', key)) + ' '
-        if needle not in english:
+        if needle in english:
+            found[needle] = (kind, original, spanish_names,
+                             any(_words(name) in spanish for name in spanish_names))
+    problems = []
+    for needle, (kind, original, spanish_names, ok) in found.items():
+        if ok:
             continue
-        if any(_words(name) in spanish for name in spanish_names):
+        # «Mountain Lion» dentro de «Starving Mountain Lion»: vale si el nombre largo ya está bien.
+        if any(needle != other and needle in other and found[other][3] for other in found):
             continue
-        # El nombre inglés tal cual también vale (regla: si no se sabe el español, en inglés).
-        if needle in spanish:
-            continue
+        # Nunca vale dejar el nombre inglés: el español debe ser el oficial esES del cliente.
         problems.append(f"{section.get('id')}: {kind} «{original}» -> en español: "
                         + ' / '.join(sorted(spanish_names)))
     return problems
