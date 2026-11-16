@@ -7,24 +7,24 @@
       "status": "editorial",
       "title_es": "Qué hace un Cazador",
       "title_en": "What a Hunter Does",
-      "summary_es": "Cazador combina un arma a distancia, una mascota y trampas para controlar el combate y subir solo.",
-      "summary_en": "Hunter combines a ranged weapon, a pet and traps to control combat and level alone.",
+      "summary_es": "Cazador combina un arma a distancia, una mascota y trampas para controlar el combate y sobrevivir.",
+      "summary_en": "Hunter combines a ranged weapon, a pet, and traps to control combat and survive.",
       "keywords_es": [
-        "qué hace un cazador",
-        "cazador para principiantes",
-        "compañero animal",
-        "cazador a distancia",
-        "cazador solo"
+        "qué hace la clase",
+        "clase para principiantes",
+        "mascota de la clase",
+        "combate a distancia",
+        "jugar solo"
       ],
       "keywords_en": [
         "what does hunter do",
         "hunter for beginners",
-        "animal companion",
+        "hunter pet",
         "ranged hunter",
         "solo hunter"
       ],
-      "text_es": "El Cazador es un explorador que combina un arma a distancia, un compañero animal y trampas para controlar el combate. Su compañero tanquea, hace daño y le permite matar enemigos con menos riesgo, por lo que es una de las clases más cómodas para jugar solo y subir de nivel. También aporta seguimiento, trampas, redirección de amenaza y varias herramientas de control. Su recurso principal es el maná, y gran parte del daño sale del Tiro automático y el compañero animal. Sus tres especializaciones son de daño: ninguna es tanque ni sanadora.",
-      "text_en": "Hunter is a ranger who combines a ranged weapon, an animal companion and traps to control the fight. The companion tanks, deals damage and lets you kill enemies with less risk, making Hunter one of the most comfortable classes for solo play and leveling. It also brings tracking, traps, threat redirection and several control tools. Its main resource is mana, and much of the damage comes from Auto Shot and the animal companion. All three specializations deal damage: none is a tank or healer.",
+      "text_es": "El Cazador es un superviviente solitario que combina un arma a distancia, una mascota y trampas. La mascota tanquea y hace daño mientras él controla el combate con rastreo, redirección de amenaza, aguijones, picaduras y trampas. Su recurso es el maná, y gran parte del daño llega de forma pasiva con Tiro automático y la mascota. Es una de las clases más cómodas para subir y jugar solo, y sus tres ramas son de daño: ninguna es tanque ni sanadora.",
+      "text_en": "Hunter is a lone survivalist who combines a ranged weapon, a pet, and traps. The pet tanks and deals damage while the Hunter controls the fight with tracking, threat redirection, stings, and traps. Its resource is mana, and much of its damage comes passively from Auto Shot and the pet. It is one of the most comfortable classes for leveling and solo play, and all three trees deal damage: none is a tank or healer.",
       "tags": [
         "HUNTER"
       ],
@@ -34,14 +34,22 @@
           "ref": "Icy Veins: Hunter Class Guide › Comprehensive Guide to Hunter in World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/hunter-class-overview",
           "date": "2026-10-27"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Beast Mastery Hunter Leveling Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
+        "class:hunter:beast-mastery:leveling",
         "class:hunter:general:hunter-class-overview"
       ],
       "source_hashes": [
-        "section:81879758f0929b92eb9dfc3a45eb561d6bf00b39"
+        "section:81879758f0929b92eb9dfc3a45eb561d6bf00b39",
+        "section:c6da153dc5599024b096fd97b07e326182df761e"
       ]
     },
     {
@@ -50,28 +58,46 @@
       "status": "editorial",
       "title_es": "Especializaciones del Cazador",
       "title_en": "Hunter Specializations",
-      "summary_es": "Dominio de bestias se apoya en la mascota; Puntería dispara con precisión; Supervivencia lucha cuerpo a cuerpo.",
-      "summary_en": "Beast Mastery relies on the pet; Marksmanship fires with precision; Survival fights in melee.",
+      "summary_es": "Dominio de bestias se apoya en la mascota; Puntería es el arquero solitario; Supervivencia es melé.",
+      "summary_en": "Beast Mastery relies on the pet; Marksmanship is the lone archer; Survival is melee.",
       "keywords_es": [
-        "especializaciones",
+        "especializaciones de la clase",
         "dominio de bestias",
         "puntería",
         "supervivencia",
         "qué especialización elegir"
       ],
       "keywords_en": [
-        "specializations",
+        "hunter specializations",
         "beast mastery",
         "marksmanship",
         "survival",
-        "which specialization"
+        "which hunter spec"
       ],
-      "text_es": "Dominio de bestias concentra el daño en la mascota y es la mejor para subir solo. Puntería refuerza los disparos propios y tiene el mayor daño de área entre las tres. Supervivencia es una especialización cuerpo a cuerpo que usa Golpe de raptor, Mordedura de mangosta y Patada de zancudo, con buen daño a un solo objetivo pero poco daño de área. En grupo, las tres ocupan el rol de daño; Dominio y Puntería atacan a distancia y Supervivencia necesita acercarse.",
-      "text_en": "Beast Mastery puts the damage in the pet and is the best choice for solo leveling. Marksmanship boosts your own shots and has the highest area damage of the three. Survival is a melee specialization that uses Raptor Strike, Mongoose Bite and Strider Kick, with strong single-target damage but little area damage. In groups all three fill the damage role; Beast Mastery and Marksmanship attack from range, while Survival must close in.",
+      "text_es": "Dominio de bestias se apoya en la mascota y busca ráfagas con Ira de bestias. Puntería es el arquero solitario: puede renunciar a la mascota con Lobo solitario y castiga con Disparo de francotirador. Supervivencia es melé y combina Golpe de raptor, Mordedura de mangosta, Patada de zancudo y trampas. Las tres hacen daño; Dominio y Puntería atacan a distancia y Supervivencia busca el cuerpo a cuerpo.",
+      "text_en": "Beast Mastery relies on the pet and looks for burst with Bestial Wrath. Marksmanship is the lone archer: it can give up the pet with Lone Wolf and punishes with Sniper Shot. Survival is melee and combines Raptor Strike, Mongoose Bite, Strider Kick, and traps. All three deal damage; Beast Mastery and Marksmanship attack at range, while Survival closes in.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Changes to Beast Mastery Hunter in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › Changes to Marksmanship Hunter in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter DPS Guide - WoW: Forever › Changes to Survival Hunter in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/overview-pve-dps",
+          "date": "2026-11-14"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: Hunter Class Guide › Comprehensive Guide to Hunter in World of Warcraft: Forever",
@@ -80,35 +106,53 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Guide › Beast Mastery Hunter Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-ranged-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Strengths and Weaknesses of Beast Mastery Hunter in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Guide › Marksmanship Hunter Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-ranged-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Guide › Survival Hunter Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Survival Hunter DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Survival Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-20-dps-overview",
+          "date": "2026-11-12"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
         "class:hunter:beast-mastery:overview",
         "class:hunter:general:hunter-class-overview",
         "class:hunter:marksmanship:overview",
+        "class:hunter:survival:level20",
         "class:hunter:survival:overview"
       ],
       "source_hashes": [
-        "section:3c0d7632e65a43c47783aa36a6708ec9ef5f4145",
+        "section:035db25891b81d9534640b3214221ac20753d0fb",
+        "section:4593fd09127090b93914bffdaee2318f217b0400",
+        "section:6648229829a03c9c8a14d2e449ba6ae3a472c4fa",
+        "section:67a3af4f36e5bc1112f7f05b9b315adbf5ed20f8",
         "section:81879758f0929b92eb9dfc3a45eb561d6bf00b39",
-        "section:b56920c41cf4132388fbfc715cbb60606359d779",
-        "section:eec5a176c995c1f63356729a952265dbfeae50d1"
+        "section:90b7020bc0f765f1573a07a3a40acc9413f95a2a",
+        "section:bc385d3f8681b5b7ebedbd573d0d0b979c189466",
+        "section:cbb1cb3f670b84fb68bb10ea657eeb04fcef8982",
+        "section:d5522ac06733bbf35e8a614677c946d0eef39afa"
       ]
     },
     {
@@ -117,57 +161,115 @@
       "status": "editorial",
       "title_es": "Qué cambia en Forever para el Cazador",
       "title_en": "What Changes for Hunter in Forever",
-      "summary_es": "Las trampas se usan en combate, puedes tener una de fuego y otra de hielo, y Supervivencia pasa a ser cuerpo a cuerpo.",
-      "summary_en": "Traps work in combat, you can keep one fire and one ice trap, and Survival becomes a melee spec.",
+      "summary_es": "Supervivencia pasa a melé, Puntería gana Lobo solitario y las mascotas escalan con tus estadísticas.",
+      "summary_en": "Survival becomes melee, Marksmanship gains Lone Wolf, and pets scale with your stats.",
       "keywords_es": [
-        "cambios del cazador en forever",
-        "trampas en combate",
-        "supervivencia cuerpo a cuerpo",
-        "compañero escala",
-        "nuevo cazador"
+        "cambios de la clase en forever",
+        "supervivencia melé",
+        "lobo solitario",
+        "mascotas escalan",
+        "trampas forever"
       ],
       "keywords_en": [
-        "hunter changes forever",
-        "traps in combat",
+        "hunter forever changes",
         "survival melee",
-        "companion scaling",
-        "new hunter"
+        "lone wolf",
+        "pets scale",
+        "forever traps"
       ],
-      "text_es": "Forever cambia varias reglas del Cazador. Las trampas ahora pueden colocarse en combate sin usar Fingir muerte, y se puede mantener a la vez una trampa de fuego y otra de hielo. Tiro de puntería y Multidisparo comparten reutilización, así que se elige uno u otro según el número de enemigos. Supervivencia deja de alternar cuerpo a cuerpo y distancia: se especializa en melé, mientras Dominio de bestias y Puntería siguen a distancia. Además, los compañeros animales escalan con tus estadísticas y cada familia tiene su habilidad.",
-      "text_en": "Forever changes several Hunter rules. Traps can now be placed in combat without Feign Death, and you can keep one fire trap and one ice trap active at the same time. Aimed Shot and Multi-Shot share a cooldown, so you pick one or the other based on the number of enemies. Survival no longer alternates melee and ranged: it specializes in melee, while Beast Mastery and Marksmanship stay at range. Animal companions also scale with your stats, and every family has its own ability.",
+      "text_es": "En Forever, Supervivencia pasa a ser una rama de melé que mezcla ataques y trampas, y Puntería gana Lobo solitario y Disparo de francotirador. Dominio de bestias recibe Invocar halcón y sus mascotas escalan con estadísticas del personaje. Las trampas tienen 30 segundos de reutilización base y Atrapamiento las enraíza; además, cada familia de mascota tiene una habilidad propia. El Tiro automático conserva un lanzamiento de 0,5 segundos y sigue durante otros lanzamientos. Las trampas se colocan en combate sin Fingir muerte, y Multidisparo comparte reutilización con Tiro de puntería.",
+      "text_en": "In Forever, Survival becomes a melee tree mixing attacks and traps, while Marksmanship gains Lone Wolf and Sniper Shot. Beast Mastery gets Summon Hawk, and its pets scale with the Hunter stats. Traps have a 30-second base cooldown and Entrapment roots targets; every pet family also has a unique ability. Auto Shot keeps a 0.5-second cast and continues during other casts. Traps can be placed in combat without Feign Death, and Multi-Shot shares its cooldown with Aimed Shot.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Leveling Guide › Important Abilities",
+          "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Changes to Beast Mastery Hunter in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › Changes to Marksmanship Hunter in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter DPS Guide - WoW: Forever › Changes to Survival Hunter in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Beast Mastery Hunter Specific Systems in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Leveling Guide › Utility and Crowd Control",
           "url": "https://www.icy-veins.com/wow-forever/survival-hunter-leveling",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Guide › Beast Mastery Hunter Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-ranged-dps-pve-guide",
-          "date": "2026-11-09"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Guide › Survival Hunter Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Important Abilities",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
+        "class:hunter:beast-mastery:leveling",
         "class:hunter:beast-mastery:overview",
+        "class:hunter:marksmanship:overview",
         "class:hunter:survival:leveling",
         "class:hunter:survival:overview"
       ],
       "source_hashes": [
-        "section:3c0d7632e65a43c47783aa36a6708ec9ef5f4145",
-        "section:848f98192624424f8f167d565ebe01fdc572e613",
-        "section:eec5a176c995c1f63356729a952265dbfeae50d1"
+        "section:035db25891b81d9534640b3214221ac20753d0fb",
+        "section:180be50b22ce58200948bacf3dd1bada8f0f5b40",
+        "section:65ee6c79512d806cee42e5c340f8fa6242350e23",
+        "section:67a3af4f36e5bc1112f7f05b9b315adbf5ed20f8",
+        "section:6bb5938d777d7d2db5cf875cbd9261dea6f7f5de",
+        "section:76129b5366a7201001211225e326ae7359fff863",
+        "section:7934f62052a2fcc15ecbd2ebba4cee1f7b65b02d",
+        "section:90b7020bc0f765f1573a07a3a40acc9413f95a2a",
+        "section:bc385d3f8681b5b7ebedbd573d0d0b979c189466",
+        "section:cbb1cb3f670b84fb68bb10ea657eeb04fcef8982",
+        "section:d5522ac06733bbf35e8a614677c946d0eef39afa"
       ]
     },
     {
@@ -176,49 +278,56 @@
       "status": "editorial",
       "title_es": "Armas y equipo del Cazador",
       "title_en": "Hunter Weapons and Gear",
-      "summary_es": "Usa arcos y armas de fuego; Supervivencia añade un arma cuerpo a cuerpo lenta y el equipo recomendado es de cuero.",
-      "summary_en": "Uses bows and guns; Survival adds a slow melee weapon, and the recommended gear is leather.",
+      "summary_es": "El Cazador usa armas a distancia y Peletería le fabrica equipo; Supervivencia puede usar un arma a dos manos.",
+      "summary_en": "Hunter uses ranged weapons and Leatherworking gear; Survival can use a two-handed weapon.",
       "keywords_es": [
         "armas del cazador",
-        "arco o arma de fuego",
-        "equipo de cuero",
-        "arma cuerpo a cuerpo",
-        "armadura del cazador"
+        "equipo del cazador",
+        "peletería cazador",
+        "arma a dos manos",
+        "armadura cazador"
       ],
       "keywords_en": [
         "hunter weapons",
-        "bow or gun",
-        "leather gear",
-        "melee weapon",
+        "hunter gear",
+        "leatherworking hunter",
+        "two-handed weapon",
         "hunter armor"
       ],
-      "text_es": "El Cazador combate con arcos y armas de fuego, y sus tiros dependen del daño del arma. Supervivencia añade un arma cuerpo a cuerpo a dos manos lenta para su rotación de melé. Las piezas de cuero son las que aparecen en las recomendaciones de equipo, y Peletería puede fabricar varias de ellas. Las armas más lentas suelen dar más daño por golpe, que es lo que buscan los tiros del Cazador.",
-      "text_en": "Hunter fights with bows and guns, and its shots depend on weapon damage. Survival adds a slow two-handed melee weapon for its melee rotation. Leather pieces are the ones found in the gear recommendations, and Leatherworking can craft several of them. Slower weapons usually deal more damage per hit, which is what Hunter shots look for.",
+      "text_es": "El Cazador combate con arcos, ballestas y armas de fuego, y sus habilidades dependen del arma equipada. Peletería puede fabricar piezas de equipo útiles para él, así que es una profesión natural mientras sube. Supervivencia usa un arma a dos manos en su variante de weaving para aumentar el daño de Mordedura de mangosta. La armadura no cambia el estilo de la rama: el daño sale de las habilidades y del arma.",
+      "text_en": "Hunter fights with bows, crossbows, and guns, and its abilities depend on the equipped weapon. Leatherworking can craft useful gear for the class, making it a natural profession while leveling. Survival uses a two-handed weapon in its weaving variant to increase Mongoose Bite damage.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Hunter Class Guide › Comprehensive Guide to Hunter in World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/hunter-class-overview",
-          "date": "2026-10-27"
+          "ref": "Wowhead: Hunter Leveling Guide:  Specializations, Talent Builds, Professions and More - WoW Forever › Hunter Weapon Skills and Trainers in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/leveling-guide",
+          "date": "2026-11-12"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Leveling Guide › Important Abilities",
-          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Best Survival Hunter Talent Tree Builds - WoW: Forever › Best Survival Hunter Weaving PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/talent-builds-pve-dps",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Hunter Leveling Guide:  Specializations, Talent Builds, Professions and More - WoW Forever › Best Professions For a Hunter in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/leveling-guide",
+          "date": "2026-11-12"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
-        "class:hunter:general:hunter-class-overview",
-        "class:hunter:survival:leveling"
+        "class:hunter:general:leveling-guide",
+        "class:hunter:survival:talents"
       ],
       "source_hashes": [
-        "section:81879758f0929b92eb9dfc3a45eb561d6bf00b39",
-        "section:848f98192624424f8f167d565ebe01fdc572e613"
+        "section:0ef2e774df033a39a56e3cc1137ba58774a6b8d8",
+        "section:e8412d88f4c0f445dacfd5bdd9ade2891d290077",
+        "section:e84e9c7ab1efb3df69df0047185e8629632bc8cf"
       ]
     },
     {
@@ -362,14 +471,22 @@
           "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Leveling Guide › Leveling Milestones",
           "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-leveling",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter Abilities Guide - Forever › Aspects for Survival Hunters in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-abilities",
+          "date": "2026-10-08"
         }
       ],
       "updated": "2026-11-15",
       "topics": [
         "class:hunter:beast-mastery:leveling",
-        "class:hunter:marksmanship:leveling"
+        "class:hunter:marksmanship:leveling",
+        "class:hunter:survival:abilities"
       ],
       "source_hashes": [
+        "section:1516b9df22d41f4149797e04666bc18b00fa8957",
         "section:619453fd61682051dc72128ae93f99a648786e91",
         "section:772f247ab8739c5881c6d07e81653a401589f50d"
       ]
@@ -380,24 +497,24 @@
       "status": "editorial",
       "title_es": "La misión de clase de nivel 10",
       "title_en": "The Level 10 Class Quest",
-      "summary_es": "A nivel 10, la misión Taming the Beast desbloquea la mascota y Domesticar bestia tras domesticar tres bestias.",
-      "summary_en": "At level 10, Taming the Beast unlocks the pet and Tame Beast after taming three beasts.",
+      "summary_es": "A nivel 10, la cadena de clase enseña Domesticar bestia y desbloquea la mascota, la mayor mejora de la subida.",
+      "summary_en": "At level 10, the class chain teaches Tame Beast and unlocks the pet, the biggest leveling upgrade.",
       "keywords_es": [
         "misión de clase",
-        "desbloquear mascota",
-        "taming the beast",
         "domesticar bestia",
-        "misión nivel 10"
+        "mascota nivel 10",
+        "la cadena de nivel 10",
+        "domesticar la bestia"
       ],
       "keywords_en": [
-        "class quest",
-        "unlock pet",
-        "taming the beast",
+        "hunter class quest",
         "tame beast",
-        "level 10 quest"
+        "pet level 10",
+        "hunters path",
+        "taming the beast"
       ],
-      "text_es": "La misión de clase importante llega a nivel 10 y desbloquea la mascota. Se llama Taming the Beast y, al completarla, aprendes Domesticar bestia y el resto de habilidades de mascota. Es la mejora más grande de daño y supervivencia del personaje, así que conviene hacerla en cuanto esté disponible.",
-      "text_en": "The key class quest arrives at level 10 and unlocks the pet. It is called Taming the Beast and, when completed, teaches Tame Beast and the rest of the pet abilities. It is the biggest damage and survival upgrade the character gets, so do it as soon as it is available.",
+      "text_es": "A nivel 10, la cadena El camino del cazador enseña Domesticar bestia y desbloquea la mascota; es la mejora más grande de daño, supervivencia y eficiencia. Conviene hacerla en cuanto esté disponible y completar después la misión de alimentación. Domar a la bestia se repite con tres animales y al terminar da la versión permanente de Domesticar bestia. La mascota rinde al máximo cuando está alimentada y feliz.",
+      "text_en": "At level 10, The Hunter's Path teaches Tame Beast and unlocks the pet; it is the biggest upgrade to damage, survival, and efficiency. Do it as soon as it is available and then complete the feeding quest. Taming the Beast repeats with three animals and ends by granting the permanent Tame Beast spell. The pet performs best when fed and happy.",
       "tags": [
         "HUNTER"
       ],
@@ -407,14 +524,22 @@
           "ref": "Icy Veins: World of Warcraft: Forever Hunter Class Quests Guide › Hunter Class Quest Guide for World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/hunter-class-quests",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How to Tame a Hunter Pet in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
+        "class:hunter:general:best-pets-and-pet-managment-guide",
         "class:hunter:general:hunter-class-quests"
       ],
       "source_hashes": [
-        "section:c4d907afb474597ea2747a7e9825999fb2346f92"
+        "section:c4d907afb474597ea2747a7e9825999fb2346f92",
+        "section:c50a7f4f4aa8a6b2ab1f01089923d0f4487861bd"
       ]
     },
     {
@@ -423,28 +548,40 @@
       "status": "editorial",
       "title_es": "Cómo funcionan las mascotas",
       "title_en": "How Hunter Pets Work",
-      "summary_es": "Mascota a 10: familia y clasificación, hereda estadísticas y aprende rangos superiores de otras bestias.",
-      "summary_en": "The pet arrives at 10, has a family and classification, inherits stats and learns higher ranks by taming other beasts.",
+      "summary_es": "La mascota tanquea, hace daño y escala con tus estadísticas; cada familia tiene una habilidad propia.",
+      "summary_en": "The pet tanks, deals damage, and scales with your stats; each family has a unique ability.",
       "keywords_es": [
-        "mascotas",
-        "ferocidad astucia tenacidad",
-        "felicidad de la mascota",
-        "habilidades de mascota",
-        "domesticar rangos"
+        "mascotas de la clase",
+        "cómo funcionan las mascotas",
+        "mascota escala",
+        "familia de mascota",
+        "mascota tanque"
       ],
       "keywords_en": [
-        "pets",
-        "ferocity cunning tenacity",
-        "pet happiness",
-        "pet abilities",
-        "tame higher ranks"
+        "hunter pets",
+        "how hunter pets work",
+        "pet scaling",
+        "pet family",
+        "pet tank"
       ],
-      "text_es": "La mascota se desbloquea a nivel 10 y se convierte en tanque, fuente de daño y herramienta para subir. Hay tres clasificaciones: Ferocidad, Astucia y Tenacidad; ninguna recibe un bonus o penalización de daño por su tipo. La felicidad y la lealtad siguen existiendo, así que hay que alimentarla. Hereda parte de tus estadísticas y cada familia tiene su habilidad propia. Para aprender rangos superiores de una habilidad hay que domesticar una bestia que ya la tenga; después se puede enseñar a otras mascotas compatibles.",
-      "text_en": "The pet unlocks at level 10 and becomes a tank, a damage source and a leveling tool. There are three classifications: Ferocity, Cunning and Tenacity; none gets a damage bonus or penalty from its type. Happiness and loyalty still exist, so keep it fed. It inherits some of your stats and every family has its own ability. To learn higher ranks of an ability you must tame a beast that already has it; you can then teach it to other compatible pets.",
+      "text_es": "La mascota es tanque, fuente de daño y herramienta de utilidad; permite al personaje sobrevivir y matar cosas que otras clases no pueden. Escala con tus estadísticas: recibe salud de tu aguante, armadura, poder de ataque y crítico, y tiene evitación. Cada familia tiene al menos una habilidad propia, y las mascotas no reciben buffs de otras clases. Alimentarla mantiene su felicidad y su daño. La consigues a nivel 10. Cada mascota tiene una clasificación (Ferocidad, Astucia o Tenacidad), pero ninguna cambia su daño: todas hacen el mismo daño base.",
+      "text_en": "The pet is a tank, damage source, and utility tool; it lets the Hunter survive and kill things other classes cannot. It scales with your stats: it gains health from Stamina, armor, attack power, and crit, and it has avoidance. Every family has at least one unique ability, and pets cannot receive other classes buffs. Feeding it keeps happiness and damage up. You get it at level 10. Each pet has a classification (Ferocity, Cunning or Tenacity), but none changes its damage: all deal the same base damage.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Beast Mastery Hunter Specific Systems in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Best Hunter Pets for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Pets - Your Trusty Companions",
@@ -453,70 +590,73 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Leveling Guide › Pets",
-          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-leveling",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Beast Mastery Hunter Leveling Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
         "class:hunter:beast-mastery:leveling",
-        "class:hunter:survival:leveling"
+        "class:hunter:beast-mastery:overview",
+        "class:hunter:general:best-pets-and-pet-managment-guide"
       ],
       "source_hashes": [
-        "section:2ad4a4bc9b68d736b0435d1cea50daa9c0f1ed84",
-        "section:46fce6253cbf34cd5d9d7b0fe6d482c81867ee53"
+        "section:3fd2c85381c63aa0e591e1c5d659d5d6de616578",
+        "section:46fce6253cbf34cd5d9d7b0fe6d482c81867ee53",
+        "section:76129b5366a7201001211225e326ae7359fff863",
+        "section:c6da153dc5599024b096fd97b07e326182df761e"
       ]
     },
     {
       "id": "clase-hunter-mascota-subir",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Qué mascota elegir para subir de nivel",
-      "title_en": "Which pet to pick for levelling",
-      "summary_es": "Qué familia de mascota conviene al cazador para subir de nivel y por qué.",
-      "summary_en": "Which pet family suits a levelling hunter and why.",
+      "title_es": "Qué mascota elegir para subir",
+      "title_en": "Best Pet for Leveling",
+      "summary_es": "Felino y Raptor hacen más daño para subir; Carroñero es la alternativa por su chirrido.",
+      "summary_en": "Cat and Raptor deal the most damage for leveling; Carrion Bird is the alternative for its screech.",
       "keywords_es": [
         "mascota para subir",
-        "mascota para levear",
-        "que mascota recomiendas",
-        "mejor mascota",
-        "que mascota elijo",
-        "que mascota domestico"
+        "felino o raptor",
+        "ave carroñera",
+        "mejor mascota para subir",
+        "mascota nivel"
       ],
       "keywords_en": [
-        "best pet",
-        "pet for leveling",
-        "which pet",
-        "pet to level"
+        "best leveling pet",
+        "cat or raptor",
+        "carrion bird",
+        "best hunter pet",
+        "leveling pet"
       ],
+      "text_es": "Para subir, Felino y Raptor hacen el mayor daño y aguantan la amenaza mientras disparas. El Carroñero es una alternativa con menos daño, pero su Chirrido desmoralizador reduce el poder de ataque enemigo. Todas las familias hacen un daño base parecido: lo que cambia es la habilidad. Alimenta a la mascota para que no pierda felicidad y rinda al máximo. El Oso es una opción más resistente: su Flagelo hace daño leve a 3 objetivos cercanos, útil cuando te atacan varios enemigos.",
+      "text_en": "For leveling, Cat and Raptor deal the most damage and hold threat while you shoot. Carrion Bird is an alternative with less damage, but its Demoralizing Screech reduces enemy attack power. Feed the pet so it does not lose happiness and keeps performing at its best. The Bear is a sturdier option: its Swipe deals light damage to 3 nearby targets, which helps when several enemies attack.",
       "tags": [
         "HUNTER"
       ],
-      "text_es": "Hay dos buenas opciones. El Oso es la más cómoda: aguanta bien los golpes y su habilidad nueva Flagelo, cada 5 segundos, daña a todos los enemigos que tiene delante, así que mantiene la atención de varios a la vez mientras tú disparas. Si prefieres matar más rápido, un Felino o un Raptor con Zarpa del rango más alto en automático hace más daño; el Oso solo es algo más resistente que un Felino. Todas las familias hacen el mismo daño base: lo que cambia es su habilidad propia.",
-      "text_en": "There are two good options. The Bear is the most comfortable: it takes hits well and its new Swipe ability hits every enemy in front of it every 5 seconds, so it holds the attention of several at once while you shoot. If you prefer faster kills, a Cat or a Raptor with the highest rank of Claw on autocast deals more damage; the Bear is only slightly sturdier than a Cat. All families deal the same base damage: what changes is their own ability.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Pets",
-          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Best Hunter Pets for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Leveling Guide › Pets",
-          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Beast Mastery Hunter Abilities Guide - Forever › Specific Pet Abilities for Beast Mastery Hunters in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-abilities",
+          "date": "2026-10-08"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
-        "class:hunter:beast-mastery:leveling",
-        "class:hunter:survival:leveling"
+        "class:hunter:beast-mastery:abilities",
+        "class:hunter:general:best-pets-and-pet-managment-guide"
       ],
       "source_hashes": [
-        "guide:d6d228e90bf634279fb2f0ec17f696a4d97c4b09",
-        "section:2ad4a4bc9b68d736b0435d1cea50daa9c0f1ed84"
+        "section:3fd2c85381c63aa0e591e1c5d659d5d6de616578",
+        "section:a00f780cfdb6b242a4ec3e0e2caa0cb54f4ff449"
       ]
     },
     {
@@ -525,28 +665,40 @@
       "status": "editorial",
       "title_es": "Controlar a la mascota",
       "title_en": "Controlling Your Pet",
-      "summary_es": "Manda a la mascota primero, espera amenaza, usa Sanar mascota y Revivir mascota; las macros ayudan a controlarla.",
-      "summary_en": "Send the pet first, wait for threat, use Mend Pet and Revive Pet; macros help control it.",
+      "summary_es": "Cómo atacar con la mascota sin quitarle la amenaza y qué hacer si muere.",
+      "summary_en": "How to fight with your pet without pulling its threat, and what to do if it dies.",
       "keywords_es": [
-        "controlar mascota",
-        "mascota coge amenaza",
-        "sanar mascota",
+        "controlar a la mascota",
+        "mascota me quita la aggro",
+        "macro de mascota",
         "revivir mascota",
-        "macros de mascota"
+        "mi mascota muere"
       ],
       "keywords_en": [
-        "control pet",
-        "pet threat",
-        "mend pet",
+        "control my pet",
+        "pet pulls aggro",
+        "pet macro",
         "revive pet",
-        "pet macros"
+        "my pet dies"
       ],
-      "text_es": "La mascota debe atacar antes de que empieces a disparar para que genere amenaza; si atacas demasiado pronto, te quitará la atención. Usa Sanar mascota para mantenerla viva y Revivir mascota si muere; Fingir muerte sirve para salir de combate y empezar de nuevo. Las macros de ataque, seguimiento y parada permiten controlarla sin perder tiempo. En mazmorras, cuidado con mandarla a un grupo cercano: una mala elección puede arruinar el combate.",
-      "text_en": "The pet should attack before you start shooting so it builds threat; if you attack too early, you will pull attention away. Use Mend Pet to keep it alive and Revive Pet if it dies; Feign Death lets you leave combat and start again. Macros for attack, follow and stop let you control it without wasting time. In dungeons, be careful about sending it into a nearby group: one bad choice can ruin the fight.",
+      "text_es": "Manda primero a la mascota y deja que dé un par de golpes antes de disparar: si atacas demasiado pronto, le quitas la amenaza. Una macro que une /petattack con Marca del cazador abre el combate y asegura que la mascota ataque a tu objetivo. Mantenla con vida con Sanar mascota. Si muere, Revivir mascota tarda en lanzarse y la mascota pierde felicidad, así que también hay que alimentarla; si no puedes acabar el combate sin ella, usa Fingir muerte para salir del combate y volver.",
+      "text_en": "Send the pet in first and let it land a couple of attacks before you shoot: if you attack too early you pull threat off it. A macro that combines /petattack with Hunter's Mark starts the pull and makes sure the pet attacks your target. Keep it alive with Mend Pet. If it dies, Revive Pet has a long cast and the pet loses happiness, so you also have to feed it; if you cannot finish the fight without it, use Feign Death to drop combat and come back.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Best Hunter Pets for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Beast Mastery Hunter Leveling Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Important Pet Macros",
@@ -555,17 +707,21 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Leveling Guide › Important Pet Macros",
-          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Marksmanship Hunter Leveling Guide - WoW: Forever › Cons",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/dps-leveling-tips",
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
         "class:hunter:beast-mastery:leveling",
+        "class:hunter:general:best-pets-and-pet-managment-guide",
         "class:hunter:marksmanship:leveling"
       ],
       "source_hashes": [
+        "section:3fd2c85381c63aa0e591e1c5d659d5d6de616578",
+        "section:c6da153dc5599024b096fd97b07e326182df761e",
+        "section:d7392779a8c1646212e061bc29342fe12982676f",
         "section:faa25c8f5f2ebd83c6ac41133cb15b6afcf7e4da"
       ]
     },
@@ -602,13 +758,21 @@
           "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Leveling Guide › Utility and Crowd Control",
           "url": "https://www.icy-veins.com/wow-forever/survival-hunter-leveling",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Survival Hunter in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
         }
       ],
       "updated": "2026-11-15",
       "topics": [
-        "class:hunter:survival:leveling"
+        "class:hunter:survival:leveling",
+        "class:hunter:survival:rotation"
       ],
       "source_hashes": [
+        "section:3c8e743df1e83e3e6af83ab081ebd36faab27a85",
         "section:65ee6c79512d806cee42e5c340f8fa6242350e23"
       ]
     },
@@ -651,14 +815,22 @@
           "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Leveling Guide › Utility and Crowd Control",
           "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-leveling",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter Abilities Guide - Forever › Aspects for Survival Hunters in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-abilities",
+          "date": "2026-10-08"
         }
       ],
       "updated": "2026-11-15",
       "topics": [
         "class:hunter:beast-mastery:leveling",
-        "class:hunter:marksmanship:leveling"
+        "class:hunter:marksmanship:leveling",
+        "class:hunter:survival:abilities"
       ],
       "source_hashes": [
+        "section:1516b9df22d41f4149797e04666bc18b00fa8957",
         "section:ab3d94029b44d479525d929a20e0744a93a697ba"
       ]
     },
@@ -695,13 +867,37 @@
           "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Beast Mastery Hunter Leveling Rotation",
           "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Marksmanship Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Marksmanship Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/level-20-dps-overview",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Survival Hunter in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Survival Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-20-dps-overview",
+          "date": "2026-11-12"
         }
       ],
       "updated": "2026-11-15",
       "topics": [
-        "class:hunter:beast-mastery:leveling"
+        "class:hunter:beast-mastery:leveling",
+        "class:hunter:marksmanship:level20",
+        "class:hunter:survival:level20",
+        "class:hunter:survival:rotation"
       ],
       "source_hashes": [
+        "section:00684cee6b5b97d443eeeaa8ec4e09614e5aec8d",
+        "section:3c8e743df1e83e3e6af83ab081ebd36faab27a85",
+        "section:6648229829a03c9c8a14d2e449ba6ae3a472c4fa",
         "section:c6da153dc5599024b096fd97b07e326182df761e"
       ]
     },
@@ -754,57 +950,65 @@
       "status": "editorial",
       "title_es": "El Cazador en grupo y mazmorras",
       "title_en": "Hunter in Groups and Dungeons",
-      "summary_es": "En grupo controla la mascota, usa trampas para controlar y Fingir muerte para escapar; Puntería aporta más área.",
-      "summary_en": "In groups control the pet, use traps and Feign Death to escape; Marksmanship brings more area damage.",
+      "summary_es": "Las tres ramas hacen daño sin buffs de raid; aportan trampas, picaduras y disrupción.",
+      "summary_en": "All three trees deal damage without raid buffs; they bring traps, stings, and disruption.",
       "keywords_es": [
-        "cazador en grupo",
-        "cazador en mazmorras",
-        "compañero en mazmorra",
-        "trampas para grupo",
-        "daño de área cazador"
+        "clase en grupo",
+        "clase en mazmorras",
+        "trampas en grupo",
+        "picadura de víbora",
+        "disparo tranquilizante"
       ],
       "keywords_en": [
         "hunter in groups",
         "hunter in dungeons",
-        "companion in dungeon",
-        "traps for group",
-        "hunter area damage"
+        "group traps",
+        "viper sting",
+        "tranquilizing shot"
       ],
-      "text_es": "En mazmorras, el Cazador ocupa el rol de daño a distancia, salvo Supervivencia, que busca el cuerpo a cuerpo. El compañero animal debe controlarse para no atraer enemigos extra; conviene tener una macro para pararlo y traerlo de vuelta. Trampa congelante y Trampa de Escarcha ayudan a controlar, y Fingir muerte es una salida de emergencia. Dominio de bestias destaca en daño sostenido a un objetivo, Puntería tiene el mejor daño de área y Supervivencia necesita equipo y talentos para rendir en melé.",
-      "text_en": "In dungeons Hunter fills the ranged damage role, except Survival, which moves into melee. The animal companion must be controlled so it does not pull extra enemies; keep a macro to stop it and bring it back. Freezing Trap and Frost Trap help with control, and Feign Death is an emergency exit. Beast Mastery excels at sustained single-target damage, Marksmanship has the best area damage, and Survival needs gear and talents to perform in melee.",
+      "text_es": "En grupo, las tres ramas hacen daño; Puntería aporta su aura a toda la banda, pero no mejora el daño cuerpo a cuerpo. En combates con enemigos adicionales, Trampa congelante o Trampa de Escarcha pueden controlarlos; Picadura de víbora drena maná y Disparo tranquilizante elimina enfurecimientos. Dominio de bestias y Puntería atacan a distancia; Supervivencia pelea en melé.",
+      "text_en": "In a group, all three trees deal damage; Marksmanship brings its aura to the whole raid, but does not improve melee damage. In fights with extra enemies, Freezing Trap or Frost Trap can control them; Viper Sting drains mana and Tranquilizing Shot removes enrages. Beast Mastery and Marksmanship attack at range; Survival fights in melee.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Guide › Strong, Persistent Damage",
-          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-ranged-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Strengths and Weaknesses of Beast Mastery Hunter in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Guide › Marksmanship Hunter Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-ranged-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › Strengths and Weaknesses of Marksmanship Hunter in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Guide › Survival Hunter Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Survival Hunter DPS Guide - WoW: Forever › Strengths and Weaknesses of Survival Hunter in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Beast Mastery Hunter DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
         "class:hunter:beast-mastery:overview",
+        "class:hunter:beast-mastery:rotation",
         "class:hunter:marksmanship:overview",
         "class:hunter:survival:overview"
       ],
       "source_hashes": [
-        "guide:439d64a11b04cf65cd611b031911430cefa0e28f",
-        "section:b56920c41cf4132388fbfc715cbb60606359d779",
-        "section:eec5a176c995c1f63356729a952265dbfeae50d1"
+        "section:4593fd09127090b93914bffdaee2318f217b0400",
+        "section:46856ce2300d78ee222b4a49afed77d2c6687cdc",
+        "section:624f89870b5b6f37b58a63ee43f60872c6b65834",
+        "section:88560907f787cadc42eb06c965b31b60556e1bbb"
       ]
     },
     {
@@ -813,49 +1017,86 @@
       "status": "editorial",
       "title_es": "Dominio de bestias",
       "title_en": "Beast Mastery",
-      "summary_es": "Dominio de bestias gira en torno a la mascota; Invocar halcón a 25 e Ira de bestias a 31 puntos son sus claves.",
-      "summary_en": "Beast Mastery revolves around the pet; Summon Hawk at 25 and Bestial Wrath at 31 points are its keys.",
+      "summary_es": "Dominio de bestias concentra el daño en la mascota, con estallido de Cólera y buena movilidad.",
+      "summary_en": "Beast Mastery puts damage in the pet, with Bestial Wrath burst and good mobility.",
       "keywords_es": [
         "dominio de bestias",
-        "con mascota",
+        "dominio de bestias",
+        "cólera de las bestias",
         "invocar halcón",
-        "ira de bestias",
-        "dominio de bestias para subir"
+        "mascota dominio"
       ],
       "keywords_en": [
         "beast mastery",
-        "pet specialization",
-        "summon hawk",
+        "beast mastery hunter",
         "bestial wrath",
-        "beast mastery leveling"
+        "summon hawk",
+        "beast mastery pet"
       ],
-      "text_es": "Dominio de bestias pone casi todo el peso en la mascota, que hace daño y aguanta mientras tú disparas. Invocar halcón se desbloquea a nivel 25 y es una de las habilidades clave de la rama; Ira de bestias llega al invertir 31 puntos en el árbol. La mascota escala con tus estadísticas, así que la especialización sigue creciendo en el juego tardío. Es la opción más cómoda para subir y para jugar solo.",
-      "text_en": "Beast Mastery puts almost all the weight on the pet, which deals damage and survives while you shoot. Summon Hawk unlocks at level 25 and is one of the tree's key abilities; Bestial Wrath arrives after investing 31 points in the tree. The pet scales with your stats, so the specialization keeps growing in the late game. It is the most comfortable option for leveling and solo play.",
+      "text_es": "Dominio de bestias concentra el daño en la mascota, con gran estallido durante Ira de bestias y buena capacidad de kiting. Invocar halcón añade un botón y las mascotas aportan utilidad; la rama no da buffs al grupo y sufre un callejón sin disparos a menos de 8 yardas. Es la rama más fácil de jugar y la más cómoda para subir y para contenido en solitario. Invocar halcón llega a nivel 20 con el sistema Legacy (a nivel 25 sin él). Ira de bestias es el talento final de la rama y requiere 31 puntos en ella.",
+      "text_en": "Beast Mastery puts damage in the pet, with strong burst during Bestial Wrath and good kiting. Summon Hawk adds a button and pets bring utility; the tree gives no group buffs and suffers a dead zone inside 8 yards. It is the easiest tree to play and the most comfortable for leveling and solo content. Summon Hawk arrives at level 20 with the Legacy system (level 25 without). Bestial Wrath is the final talent of the tree and needs 31 points in it.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Guide › Beast Mastery Hunter Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-ranged-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Strengths and Weaknesses of Beast Mastery Hunter in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter - Spec, Builds, and Talents › PvE Talent Build",
-          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-ranged-dps-pve-spec-builds-talents",
+          "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Beast Mastery Hunter for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Beast Mastery Hunter Talent Tree Builds - WoW: Forever › Best Beast Mastery Hunter PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/talent-builds-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Leveling Talent Build",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Important Abilities",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Overview of Level 20 Beast Mastery Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-20-dps-overview",
+          "date": "2026-11-12"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
+        "class:hunter:beast-mastery:level20",
+        "class:hunter:beast-mastery:leveling",
         "class:hunter:beast-mastery:overview",
         "class:hunter:beast-mastery:talents"
       ],
       "source_hashes": [
-        "section:3c0d7632e65a43c47783aa36a6708ec9ef5f4145",
-        "section:b58e55937dea631c80a454d839e9d68368be53a9"
+        "section:180be50b22ce58200948bacf3dd1bada8f0f5b40",
+        "section:4593fd09127090b93914bffdaee2318f217b0400",
+        "section:7934f62052a2fcc15ecbd2ebba4cee1f7b65b02d",
+        "section:b6232efb80631488f95a883d5f3343c844e451fd",
+        "section:bc95149e5fb3e0b01a9a39c3cc13749860438f87",
+        "section:cae3f64c600f5175c71c436ea76dd7cfd0667ea5",
+        "section:dce1859a15bacb375c456b0991e680d2e986b1a4"
       ]
     },
     {
@@ -864,49 +1105,76 @@
       "status": "editorial",
       "title_es": "Puntería",
       "title_en": "Marksmanship",
-      "summary_es": "Puntería refuerza tus disparos y el área; Disparo de francotirador es su talento final.",
-      "summary_en": "Marksmanship boosts your shots and area damage; Sniper Shot is its final talent.",
+      "summary_es": "Puntería refuerza tus disparos y la ráfaga; Lobo solitario permite jugar sin mascota.",
+      "summary_en": "Marksmanship boosts your shots and burst; Lone Wolf lets you play without a pet.",
       "keywords_es": [
         "puntería",
-        "precisión",
-        "disparo de francotirador",
         "lobo solitario",
-        "puntería daño de área"
+        "disparo de francotirador",
+        "arquero"
       ],
       "keywords_en": [
         "marksmanship",
-        "precision spec",
-        "sniper shot",
+        "marksmanship hunter",
         "lone wolf",
-        "marksmanship area damage"
+        "sniper shot",
+        "archer"
       ],
-      "text_es": "Puntería concentra el daño en tus propios disparos y tiene el mejor daño de área de las tres especializaciones. Su talento final es Disparo de francotirador, que define su estilo de ráfaga. La rama también incluye Lobo solitario; si prefieres mantener la mascota, Dominio de bestias ofrece Furia desatada e Invocar halcón. Con Aura de disparo certero también aporta un buff al grupo.",
-      "text_en": "Marksmanship focuses damage on your own shots and has the best area damage of the three specializations. Its final talent is Sniper Shot, which defines its burst style. The tree also includes Lone Wolf; if you prefer to keep the pet, Beast Mastery offers Unleashed Fury and Summon Hawk. With Trueshot Aura it also brings a group buff.",
+      "text_es": "Puntería refuerza los disparos propios y el daño de ráfaga; Lobo solitario permite renunciar a la mascota y Disparo de francotirador define su estilo. Es la rama más difícil de jugar de las tres, sobre todo en solitario, y sufre el callejón de 8 yardas. Su Aura de disparo certero llega a toda la banda, pero ya no da poder de ataque cuerpo a cuerpo. Mientras subes necesitas que la mascota tanquee, así que Lobo solitario aún no es una opción.",
+      "text_en": "Marksmanship boosts your own shots and burst damage; Lone Wolf lets you give up the pet, and Sniper Shot defines its style. It is the hardest of the three to play, especially solo, and suffers the 8-yard dead zone. Its Trueshot Aura reaches the whole raid, but no longer grants melee attack power. While leveling you still need the pet to tank, so Lone Wolf is not an option yet.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Guide › Marksmanship Hunter Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-ranged-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › Changes to Marksmanship Hunter in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter - Spec, Builds, and Talents › Lone Wolf PvE Talent Build",
-          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-ranged-dps-pve-spec-builds-talents",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › Marksmanship Hunter for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › Strengths and Weaknesses of Marksmanship Hunter in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Marksmanship Hunter DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/dps-leveling-tips",
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
-        "class:hunter:marksmanship:overview",
-        "class:hunter:marksmanship:talents"
+        "class:hunter:marksmanship:leveling",
+        "class:hunter:marksmanship:overview"
       ],
       "source_hashes": [
-        "section:00a95a0cf13d5d3719f1b33d8d6217e1ef4114c5",
-        "section:b56920c41cf4132388fbfc715cbb60606359d779"
+        "section:0b6abb163bb13e3a195899f281155a51cbc798e6",
+        "section:46856ce2300d78ee222b4a49afed77d2c6687cdc",
+        "section:67a3af4f36e5bc1112f7f05b9b315adbf5ed20f8",
+        "section:b407236e766d49fd9c2b411d1c74e166293d4c92",
+        "section:d5522ac06733bbf35e8a614677c946d0eef39afa",
+        "section:efd8db5e4f29f46ff417a2079019ef89015abce0"
       ]
     },
     {
@@ -915,49 +1183,937 @@
       "status": "editorial",
       "title_es": "Supervivencia",
       "title_en": "Survival",
-      "summary_es": "Supervivencia es cuerpo a cuerpo; usa Golpe de raptor, Mordedura de mangosta y Patada de zancudo, y tarda en arrancar.",
-      "summary_en": "Survival is melee, uses Raptor Strike, Mongoose Bite and Strider Kick, and performs better with deeper talents.",
+      "summary_es": "Supervivencia es melé y mezcla Golpe de raptor, Mordedura de mangosta, Patada de zancudo y trampas.",
+      "summary_en": "Survival is melee and mixes Raptor Strike, Mongoose Bite, Strider Kick, and traps.",
       "keywords_es": [
         "supervivencia",
-        "cuerpo a cuerpo",
+        "cazador supervivencia",
         "golpe de raptor",
         "mordedura de mangosta",
         "patada de zancudo"
       ],
       "keywords_en": [
-        "survival",
-        "melee hunter",
+        "survival hunter",
+        "survival melee",
         "raptor strike",
         "mongoose bite",
         "strider kick"
       ],
-      "text_es": "Supervivencia es la especialización de melé de la clase. Usa Golpe de raptor, Mordedura de mangosta y Patada de zancudo, y sigue apoyándose en Aguijón de serpiente y en el compañero animal. Sus talentos de melé llegan más tarde, así que al subir conviene jugar a distancia al menos hasta el nivel 40. En un objetivo único puede rendir muy bien al final, pero su daño de área es limitado. En grupo ocupa el rol de daño cuerpo a cuerpo.",
-      "text_en": "Survival is the melee-focused specialization. It uses Raptor Strike, Mongoose Bite and Strider Kick, and still relies on Serpent Sting and the animal companion. Its melee talents arrive later, so while leveling you should play at range at least until level 40. Against a single target it can perform very well late, but its area damage is limited. In groups it fills the melee damage role.",
+      "text_es": "Supervivencia es la rama de melé: mezcla Golpe de raptor, Mordedura de mangosta, Patada de zancudo y trampas. Su daño sostenido es alto cuando puede encadenar habilidades, y su variante de weaving alterna disparos y melé. Empieza a brillar hacia el nivel 32, depende de talentos y compite por armas con Guerrero y Pícaro. No aporta buffs de grupo; su valor es el daño y el control.",
+      "text_en": "Survival is the melee tree: it mixes Raptor Strike, Mongoose Bite, Strider Kick, and traps. Its sustained damage is high when it can chain abilities, and its weaving variant alternates shots and melee. It starts to shine around level 32, depends on talents, and competes for weapons with Warrior and Rogue. It gives no group buffs; its value is damage and control.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Guide › Survival Hunter Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Survival Hunter DPS Guide - WoW: Forever › Changes to Survival Hunter in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/overview-pve-dps",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Leveling Guide › Leveling Talent Build",
-          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Survival Hunter DPS Guide - WoW: Forever › Survival Hunter for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter DPS Guide - WoW: Forever › Strengths and Weaknesses of Survival Hunter in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Survival Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-20-dps-overview",
+          "date": "2026-11-12"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
-        "class:hunter:survival:leveling",
+        "class:hunter:survival:level20",
         "class:hunter:survival:overview"
       ],
       "source_hashes": [
-        "section:3ba26508553b8e67ae708d109018045a618bbee3",
-        "section:eec5a176c995c1f63356729a952265dbfeae50d1"
+        "section:035db25891b81d9534640b3214221ac20753d0fb",
+        "section:6648229829a03c9c8a14d2e449ba6ae3a472c4fa",
+        "section:88560907f787cadc42eb06c965b31b60556e1bbb",
+        "section:90b7020bc0f765f1573a07a3a40acc9413f95a2a",
+        "section:c0d0c99db1c69db7b25c9a659a766a412d4acb8e",
+        "section:cbb1cb3f670b84fb68bb10ea657eeb04fcef8982"
+      ]
+    },
+    {
+      "id": "clase-hunter-stats-dominio",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Dominio de bestias",
+      "title_en": "Beast Mastery Stats",
+      "summary_es": "Prioridad de Dominio: golpe hasta 8%, crítico, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante.",
+      "summary_en": "Beast Mastery priority: hit to 8%, crit, agility, intellect, ranged attack power, spirit, and stamina.",
+      "keywords_es": [
+        "estadísticas dominio de bestias",
+        "prioridad de estadísticas cazador",
+        "golpe cazador",
+        "crítico cazador",
+        "agilidad cazador"
+      ],
+      "keywords_en": [
+        "beast mastery stats",
+        "hunter stat priority",
+        "hunter hit",
+        "hunter crit",
+        "hunter agility"
+      ],
+      "text_es": "La prioridad de Dominio de bestias es golpe hasta 8%, crítico, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante. El golpe evita que una habilidad falle; el crítico es la segunda estadística y la agilidad da poder de ataque y crítico. El intelecto sube maná y, con Afinar la puntería, también poder de ataque; el espíritu ayuda a la Regeneración de maná. La lista es la que maneja la beta para el nivel 60.",
+      "text_en": "Beast Mastery priority is hit to 8%, crit, agility, intellect, ranged attack power, spirit, and stamina. Hit prevents an ability from missing; crit is the second stat, and agility gives attack power and crit. Intellect raises mana and, with Careful Aim, also attack power; Spirit helps mana regeneration. This is the beta list for level 60.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter Stat Priority & Attributes - WoW: Forever › Beast Mastery Hunter Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/stat-priority-pve-dps",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:beast-mastery:stats"
+      ],
+      "source_hashes": [
+        "section:cedb962ba03059a6a1f8179390baa3834a996af4"
+      ]
+    },
+    {
+      "id": "clase-hunter-stats-punteria",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Puntería",
+      "title_en": "Marksmanship Stats",
+      "summary_es": "Prioridad de Puntería: golpe hasta 8%, crítico, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante.",
+      "summary_en": "Marksmanship priority: hit to 8%, crit, agility, intellect, ranged attack power, spirit, and stamina.",
+      "keywords_es": [
+        "estadísticas puntería",
+        "prioridad de estadísticas puntería",
+        "golpe puntería",
+        "crítico puntería",
+        "agilidad puntería"
+      ],
+      "keywords_en": [
+        "marksmanship stats",
+        "marksmanship stat priority",
+        "marksmanship hit",
+        "marksmanship crit",
+        "marksmanship agility"
+      ],
+      "text_es": "La prioridad de Puntería es golpe hasta 8%, crítico, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante. El golpe es lo primero porque una habilidad fallida cuesta más que cualquier otra estadística; después vienen el crítico y la agilidad. El intelecto sube maná y, con Afinar la puntería, también poder de ataque. La lista es la que maneja la beta para el nivel 60.",
+      "text_en": "Marksmanship priority is hit to 8%, crit, agility, intellect, ranged attack power, spirit, and stamina. Hit comes first because one missed ability costs more than any other stat; crit and agility follow. Intellect raises mana and, with Careful Aim, also attack power. This is the beta list for level 60.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter Stat Priority & Attributes - WoW: Forever › Marksmanship Hunter Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/stat-priority-pve-dps",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:marksmanship:stats"
+      ],
+      "source_hashes": [
+        "section:1e2ccf23d7d16c5c87b4d562ad23e19a78373d12"
+      ]
+    },
+    {
+      "id": "clase-hunter-stats-supervivencia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Supervivencia",
+      "title_en": "Survival Stats",
+      "summary_es": "Prioridad de Supervivencia: golpe, crítico, agilidad, fuerza, ataque, intelecto, espíritu y aguante.",
+      "summary_en": "Survival priority: hit, crit, agility, strength, attack power, intellect, spirit, and stamina.",
+      "keywords_es": [
+        "estadísticas supervivencia",
+        "prioridad de estadísticas supervivencia",
+        "fuerza supervivencia",
+        "agilidad supervivencia",
+        "golpe supervivencia"
+      ],
+      "keywords_en": [
+        "survival stats",
+        "survival stat priority",
+        "survival strength",
+        "survival agility",
+        "survival hit"
+      ],
+      "text_es": "La prioridad de Supervivencia es golpe, crítico, agilidad, fuerza, poder de ataque, intelecto, espíritu y aguante. El golpe sigue siendo lo primero; la agilidad es la principal y la fuerza solo sube el poder de ataque de melé. El intelecto da maná y, con Afinar la puntería, algo de poder de ataque; el espíritu ayuda a regenerar. La lista es la que maneja la beta para el nivel 60.",
+      "text_en": "Survival priority is hit, crit, agility, strength, attack power, intellect, spirit, and stamina. Hit still comes first; agility is the main stat, and Strength only raises melee attack power. Intellect gives mana and, with Careful Aim, some attack power; Spirit helps regeneration. This is the beta list for level 60.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter Stat Priority & Attributes - WoW: Forever › Survival Hunter Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/stat-priority-pve-dps",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:survival:stats"
+      ],
+      "source_hashes": [
+        "section:0023581f8509db29b1faeb7fb4637b665ec09c65"
+      ]
+    },
+    {
+      "id": "clase-hunter-rotacion-dominio",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Dominio de bestias",
+      "title_en": "Beast Mastery Rotation",
+      "summary_es": "Mantén Marca y Picadura, usa Invocar halcón y Tiro Arcano, y gasta Tiro de puntería y Fuego rápido.",
+      "summary_en": "Keep Hunter’s Mark and Serpent Sting, use Summon Hawk and Arcane Shot, and spend Aimed Shot and Rapid Fire.",
+      "keywords_es": [
+        "rotación dominio de bestias",
+        "rotación cazador dominio",
+        "marca del cazador",
+        "invocar halcón",
+        "fuego rápido"
+      ],
+      "keywords_en": [
+        "beast mastery rotation",
+        "beast mastery hunter rotation",
+        "hunter’s mark",
+        "summon hawk",
+        "rapid fire"
+      ],
+      "text_es": "Mantén Marca del cazador y Aguijón de serpiente en el objetivo. Usa Invocar halcón y alterna Tiro Arcano cada tercer hueco; gasta Tiro de puntería cuando esté. Con cuatro o menos enemigos usa Multidisparo, entra a poner Trampa explosiva si puedes y canaliza Lluvia. Fuego rápido y Ira de bestias se usan en cuanto estén, idealmente junto a un abalorio o una racial.",
+      "text_en": "Keep Hunter’s Mark and Serpent Sting on the target. Use Summon Hawk and alternate Arcane Shot every third gap; spend Aimed Shot when available. With four or fewer enemies use Multi-Shot, run in to place Explosive Trap if you can, and channel Volley. Use Rapid Fire and Bestial Wrath whenever ready, ideally with a trinket or racial.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Beast Mastery Hunter in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Beast Mastery Hunter in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter DPS Rotation and Cooldowns - WoW: Forever › Best Beast Mastery Hunter Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:beast-mastery:rotation"
+      ],
+      "source_hashes": [
+        "section:cdfaa7106d66913948c21767e0596be5f48c1bc1",
+        "section:e33613fb4ec1fd1261af9ff5690ca34ce92521bf",
+        "section:f9e3312ad781c53dc4fbdd9ebd9b9b35a9510316"
+      ]
+    },
+    {
+      "id": "clase-hunter-rotacion-punteria",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Puntería",
+      "title_en": "Marksmanship Rotation",
+      "summary_es": "Mantén Marca y Picadura, usa Tiro Arcano y Tiro de puntería, y añade Disparo de francotirador.",
+      "summary_en": "Keep Hunter’s Mark and Serpent Sting, use Arcane Shot and Aimed Shot, and add Sniper Shot.",
+      "keywords_es": [
+        "rotación puntería",
+        "rotación cazador puntería",
+        "disparo de puntería",
+        "disparo de francotirador",
+        "fuego rápido"
+      ],
+      "keywords_en": [
+        "marksmanship rotation",
+        "marksmanship hunter rotation",
+        "aimed shot",
+        "sniper shot",
+        "rapid fire"
+      ],
+      "text_es": "Mantén Marca del cazador y Aguijón de serpiente. Usa Tiro Arcano, Tiro de puntería y, cuando tengas el talento, Disparo de francotirador. Con cuatro o menos enemigos usa Multidisparo, entra a poner Trampa explosiva si el maná lo permite y canaliza Lluvia. Fuego rápido es el único cooldown de daño de la rama y conviene combinarlo con un abalorio o una racial.",
+      "text_en": "Keep Hunter’s Mark and Serpent Sting. Use Arcane Shot, Aimed Shot, and, when talented, Sniper Shot. With four or fewer enemies use Multi-Shot, run in to place Explosive Trap if mana allows, and channel Volley. Rapid Fire is the tree’s only damage cooldown and should be paired with a trinket or racial.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Marksmanship Hunter in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/rotation-cooldowns-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Marksmanship Hunter in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/rotation-cooldowns-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter DPS Rotation and Cooldowns - WoW: Forever › Best Marksmanship Hunter Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/rotation-cooldowns-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:marksmanship:rotation"
+      ],
+      "source_hashes": [
+        "section:3edd5dabc49a6d317dce484d01b79c97ccbf7ea3",
+        "section:676d3cba2e3813ab6024208de02ec826069a5242",
+        "section:7e23bbd3f11c1d9a3ca93aaec22599032ff11afd"
+      ]
+    },
+    {
+      "id": "clase-hunter-rotacion-supervivencia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Supervivencia",
+      "title_en": "Survival Rotation",
+      "summary_es": "Mantén Golpe de raptor, usa Mordedura de mangosta y Patada de zancudo, y apoya con trampas.",
+      "summary_en": "Keep Raptor Strike queued, use Mongoose Bite and Strider Kick, and support with traps.",
+      "keywords_es": [
+        "rotación supervivencia",
+        "rotación cazador supervivencia",
+        "golpe de raptor",
+        "mordedura de mangosta",
+        "trampa de inmolación"
+      ],
+      "keywords_en": [
+        "survival rotation",
+        "survival hunter rotation",
+        "raptor strike",
+        "mongoose bite",
+        "immolation trap"
+      ],
+      "text_es": "Mantén Marca del cazador y lleva Golpe de raptor siempre en cola. Usa Mordedura de mangosta, Patada de zancudo y Trampa de inmolación; Invocar halcón entra cuando tengas el talento. Con cuatro o menos enemigos usa Multidisparo, y para áreas grandes canaliza Lluvia. Fuego rápido se usa en cuanto esté, idealmente con un abalorio o una racial.",
+      "text_en": "Keep Hunter’s Mark up and Raptor Strike always queued. Use Mongoose Bite, Strider Kick, and Immolation Trap; Summon Hawk joins when talented. With four or fewer enemies use Multi-Shot, and for larger packs channel Volley. Use Rapid Fire whenever ready, ideally with a trinket or racial.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter DPS Rotation and Cooldowns - WoW: Forever › Full Melee Single Target DPS Rotation for Survival Hunter in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Survival Hunter in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter DPS Rotation and Cooldowns - WoW: Forever › Best Survival Hunter Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:survival:rotation"
+      ],
+      "source_hashes": [
+        "section:099dbbe98c9c184d1506faaf95f53cda69f85ce9",
+        "section:3c8e743df1e83e3e6af83ab081ebd36faab27a85",
+        "section:c7de19963e5cb6a28f4614049b9faefaaa852768"
+      ]
+    },
+    {
+      "id": "clase-hunter-talentos-dominio",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Dominio de bestias",
+      "title_en": "Beast Mastery Build",
+      "summary_es": "La build de banda prioriza daño de mascota y maná, con Ataques letales, Afinar la puntería y Rastreo mejorado.",
+      "summary_en": "The raid build prioritizes pet damage and mana, with Lethal Attacks, Careful Aim, and Improved Tracking.",
+      "keywords_es": [
+        "build dominio de bestias",
+        "talentos dominio de bestias",
+        "ataques letales",
+        "afinar la puntería",
+        "rastreo mejorado"
+      ],
+      "keywords_en": [
+        "beast mastery build",
+        "beast mastery talents",
+        "lethal attacks",
+        "careful aim",
+        "improved tracking"
+      ],
+      "text_es": "La build de banda de Dominio de bestias se centra en daño de mascota y maná. Ataques letales, Afinar la puntería y Aura de disparo certero también mejoran a la mascota por la herencia de estadísticas. Rastreo mejorado rinde más que Disparos mortales porque aumenta todo el daño. Los talentos de Dominio que no se toman no aportan daño, así que la build no reparte puntos por completar el árbol.",
+      "text_en": "This Beast Mastery build focuses on pet damage and mana. Lethal Attacks, Careful Aim, and Trueshot Aura also improve the pet through stat inheritance. Improved Tracking beats Mortal Shots because it increases all damage. Untaken Beast Mastery talents add no damage, so the build does not spend points just to fill the tree.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Beast Mastery Hunter Talent Tree Builds - WoW: Forever › Best Beast Mastery Hunter PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/talent-builds-pve-dps",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:beast-mastery:talents"
+      ],
+      "source_hashes": [
+        "section:bc95149e5fb3e0b01a9a39c3cc13749860438f87"
+      ]
+    },
+    {
+      "id": "clase-hunter-talentos-punteria",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Puntería",
+      "title_en": "Marksmanship Build",
+      "summary_es": "Puntería usa Lobo solitario para jugar sin mascota y llega a Disparo de francotirador con Eficacia.",
+      "summary_en": "Marksmanship uses Lone Wolf to play without a pet and reaches Sniper Shot with Efficiency.",
+      "keywords_es": [
+        "build puntería",
+        "talentos puntería",
+        "lobo solitario",
+        "disparo de francotirador",
+        "eficacia"
+      ],
+      "keywords_en": [
+        "marksmanship build",
+        "marksmanship talents",
+        "lone wolf",
+        "sniper shot",
+        "efficiency"
+      ],
+      "text_es": "La build de Puntería usa Lobo solitario para renunciar a la mascota y concentrarse en los disparos. Disparo de francotirador es el talento final y consume mucho maná, por lo que Eficacia importa aunque haya otras fuentes de regeneración. Aspectos letales y Rastreo mejorado son los apoyos útiles de otras ramas. Sin mascota, la rama de Dominio de bestias queda fuera; la variante PvP cambia daño por control y supervivencia.",
+      "text_en": "The Marksmanship build uses Lone Wolf to give up the pet and focus on shots. Sniper Shot is the capstone and costs a lot of mana, so Efficiency matters even with other regeneration sources. Deadly Aspects and Improved Tracking are the useful support talents from other trees. Without a pet, Beast Mastery is left out; the PvP variant trades damage for control and survival.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Marksmanship Hunter Talent Tree Builds - WoW: Forever › Best Marksmanship Hunter PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:marksmanship:talents"
+      ],
+      "source_hashes": [
+        "section:b273cb1ec4966348241552f8a1abbb7bd4a8a1da"
+      ]
+    },
+    {
+      "id": "clase-hunter-talentos-supervivencia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Supervivencia",
+      "title_en": "Survival Build",
+      "summary_es": "La build de melé evita Golpes lacerantes; la de weaving sí la usa con un arma a dos manos.",
+      "summary_en": "The melee build avoids Lacerating Strikes; the weaving build uses it with a two-handed weapon.",
+      "keywords_es": [
+        "build supervivencia",
+        "talentos supervivencia",
+        "golpes lacerantes",
+        "arma a dos manos",
+        "mordedura de mangosta"
+      ],
+      "keywords_en": [
+        "survival build",
+        "survival talents",
+        "lacerating strikes",
+        "two-handed weapon",
+        "mongoose bite"
+      ],
+      "text_es": "La build de melé de Supervivencia evita Golpes lacerantes y Reflejos de relámpago porque rinden poco; usa Patada de zancudo, Exponer presa y Mordedura de mangosta. La build de weaving sí lleva Golpes lacerantes: con un arma a dos manos sube el daño de Mordedura de mangosta y mezcla disparos. En PvP añade Desvío, Disuasión, Pies de plomo y Contraataque para sobrevivir y pegarse al objetivo. La rama empieza a rendir tarde, hacia el nivel 32.",
+      "text_en": "The Survival melee build avoids Lacerating Strikes and Lightning Reflexes because they perform poorly; it uses Strider Kick, Expose Prey, and Mongoose Bite. The weaving build does take Lacerating Strikes: with a two-handed weapon it raises Mongoose Bite damage and mixes in shots. PvP adds Deflection, Deterrence, Surefooted, and Counterattack to survive and stick to the target. The tree starts late, around level 32.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Survival Hunter Talent Tree Builds - WoW: Forever › Best Survival Hunter Melee PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/talent-builds-pve-dps",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Survival Hunter Talent Tree Builds - WoW: Forever › Best Survival Hunter Weaving PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/talent-builds-pve-dps",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 30 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › What Changes for Survival Hunters from Level 20 to Level 30 in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-30-dps-overview",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Survival Hunter Talent Tree Builds - WoW: Forever › Best Survival Hunter PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/talent-builds-pve-dps",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Survival Hunter DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:survival:level30",
+        "class:hunter:survival:leveling",
+        "class:hunter:survival:talents"
+      ],
+      "source_hashes": [
+        "section:2961a4ed516168b5d1f9e3ec53047b009de6db2b",
+        "section:2f29a3fe5626fa4993d12a3ed2f52c6c201421e5",
+        "section:31324fb3aaa7b8b4463c53a9624c7488d59983f8",
+        "section:55da78af272c184af60facef93d749a2bd803c7d",
+        "section:e8412d88f4c0f445dacfd5bdd9ade2891d290077"
+      ]
+    },
+    {
+      "id": "clase-hunter-mascotas-mazmorra",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Mascotas para mazmorras",
+      "title_en": "Pets for Dungeons",
+      "summary_es": "En mazmorra usa la mascota de más daño y desactiva Bramido para no quitarle amenaza al tanque.",
+      "summary_en": "In dungeons use the highest-damage pet and turn off Growl so you do not take threat from the tank.",
+      "keywords_es": [
+        "mascota para mazmorra",
+        "bramido en grupo",
+        "mascota tanque",
+        "mejor mascota mazmorra",
+        "mascota grupo"
+      ],
+      "keywords_en": [
+        "dungeon pet",
+        "growl in groups",
+        "pet tank",
+        "best dungeon pet",
+        "group pet"
+      ],
+      "text_es": "En mazmorra casi nunca hace falta una familia concreta: usa la mascota de mayor daño, como Felino o Raptor. Bramido genera amenaza, pero no es una provocación completa como la de un tanque; apágalo para que la mascota no quite enemigos al tanque. Así el tanque mantiene el control y la mascota sigue aportando daño sin arruinar el pull. Si el grupo necesita una habilidad, cambia de familia antes de entrar.",
+      "text_en": "Dungeons rarely need a specific family: use the highest-damage pet, such as Cat or Raptor. Growl generates threat, but it is not a full taunt like a tank has; turn it off so the pet does not take enemies from the tank. That keeps the tank in control and lets the pet add damage without ruining the pull. If the group needs an ability, change family before entering.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Best Hunter Pets for Dungeons in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How your Hunter Pet Learns New Abilities in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:general:best-pets-and-pet-managment-guide"
+      ],
+      "source_hashes": [
+        "section:10e65179a3f1339beeafa43403b4803392d9c602",
+        "section:24e1bd0db7d3ec1ed1abe51ab0fa54c60e7a5cbe"
+      ]
+    },
+    {
+      "id": "clase-hunter-familias-mascotas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Familias de mascotas y sus habilidades",
+      "title_en": "Pet Families and Abilities",
+      "summary_es": "Cada familia aporta una habilidad distinta; elige por utilidad y por si tiene Zarpa o Mordedura.",
+      "summary_en": "Each family brings a different ability; choose for utility and for whether it has Claw or Bite.",
+      "keywords_es": [
+        "familias de mascotas",
+        "habilidades de mascotas",
+        "lobo aullido furioso",
+        "araña telaraña",
+        "ave de presa"
+      ],
+      "keywords_en": [
+        "pet families",
+        "pet abilities",
+        "wolf furious howl",
+        "spider web",
+        "bird of prey"
+      ],
+      "text_es": "Cada familia tiene una habilidad propia, así que elígela según la situación: Aullido furioso (Lobo), Desmembramiento (Crocolisco), ¡Mío! (Ave rapaz), Chirrido desmoralizador (Carroñero), Desgarro salvaje (Raptor), Nube de polvo (Zancudo) y Telaraña (Araña). Felino, Raptor y otras familias usan Zarpa o Mordedura como relleno; las que no tienen en qué gastar el enfoque pierden daño. Revisa la habilidad antes de domar y cambia de familia si el grupo necesita otra cosa.",
+      "text_en": "Each family has a unique ability, so pick it for the situation: Furious Howl (Wolf), Dismember (Crocolisk), Mine! (Bird of Prey), Demoralizing Screech (Carrion Bird), Savage Rend (Raptor), Dust Cloud (Tallstrider) and Web (Spider). Cat, Raptor and other families use Claw or Bite as filler; those without a Focus spender lose damage. Check the ability before taming and change family if the group needs something else.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How your Hunter Pet Learns New Abilities in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › All Hunter Pet Families in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:general:best-pets-and-pet-managment-guide"
+      ],
+      "source_hashes": [
+        "section:10e65179a3f1339beeafa43403b4803392d9c602",
+        "section:4be41fe9700acaba55d2e3bb8719d4b91c8a924d"
+      ]
+    },
+    {
+      "id": "clase-hunter-mascotas-nuevas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Zorros y aves de presa",
+      "title_en": "Foxes and Birds of Prey",
+      "summary_es": "El Zorro es la familia nueva y el Ave rapaz gana ¡Mío!; ambas son opciones de estilo.",
+      "summary_en": "Fox is the new family and Bird of Prey gains Mine!; both are style options.",
+      "keywords_es": [
+        "zorro mascota",
+        "ave de presa",
+        "mascotas nuevas",
+        "baile de timador",
+        "¡mío!"
+      ],
+      "keywords_en": [
+        "fox pet",
+        "bird of prey",
+        "new hunter pets",
+        "trickster’s dance",
+        "mine"
+      ],
+      "text_es": "El Zorro es la única familia completamente nueva: hace daño normal y tiene Baile de timador, que se combina con Ira de bestias para una ráfaga fuerte. Le falta Zarpa, así que no gasta el enfoque y queda por debajo de las familias que sí la tienen. El Búho pasa a llamarse Ave rapaz y gana ¡Mío!, que desarma brevemente; también incluye nuevos modelos de ave. Son opciones de estilo, no las mejores para daño.",
+      "text_en": "Fox is the only completely new family: it deals standard damage and has Trickster’s Dance, which combines with Bestial Wrath for strong burst. It lacks Claw, so it cannot spend Focus and falls below families that have it. Owl is renamed Bird of Prey and gains Mine!, which briefly disarms; it also includes new bird models. They are style options, not the best for damage.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Foxes Hunter Pet Family",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Birds of Prey Hunter Pet Family",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:general:best-pets-and-pet-managment-guide"
+      ],
+      "source_hashes": [
+        "section:39c6d201e5b45aeb95dd30d167aa8a6081bd21cc",
+        "section:73fd8b39cbbb59fd858cd09977d40ab5a4d0694a"
+      ]
+    },
+    {
+      "id": "clase-hunter-domar-entrenar",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Domar y entrenar mascotas",
+      "title_en": "Taming and Training Pets",
+      "summary_es": "Domesticar exige canalizar 10 segundos; las habilidades se compran o se aprenden de otras bestias.",
+      "summary_en": "Taming requires a 10-second channel; abilities are bought or learned from other beasts.",
+      "keywords_es": [
+        "domar mascota",
+        "entrenar mascota",
+        "domesticar bestia",
+        "puntos de entrenamiento",
+        "doma de bestias"
+      ],
+      "keywords_en": [
+        "tame pet",
+        "train pet",
+        "tame beast",
+        "training points",
+        "beast training"
+      ],
+      "text_es": "A nivel 10, la cadena The Hunter's Path enseña Domesticar bestia y Alimentar mascota. Domesticar requiere canalizar 10 segundos sin actuar y vuelve hostil a la bestia, así que empieza con Disparo de concusión desde la distancia y sin otros enemigos cerca. Las habilidades se compran en Doma de bestias o se aprenden domesticando una bestia que ya las tenga; después se enseñan a otras mascotas compatibles. Algunas habilidades cuestan puntos de entrenamiento.",
+      "text_en": "At level 10, The Hunter’s Path teaches Tame Beast and Feed Pet. Taming requires a 10-second channel with no other actions and turns the beast hostile, so open with Concussive Shot from range and make sure no other enemies are near. Abilities are bought through Beast Training or learned by taming a beast that already has them; then they can be taught to compatible pets. Some abilities cost training points.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How to Tame a Hunter Pet in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How your Hunter Pet Learns New Abilities in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter Leveling Guide - WoW: Forever › Pros",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/dps-leveling-tips",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:general:best-pets-and-pet-managment-guide",
+        "class:hunter:marksmanship:leveling"
+      ],
+      "source_hashes": [
+        "section:10e65179a3f1339beeafa43403b4803392d9c602",
+        "section:c50a7f4f4aa8a6b2ab1f01089923d0f4487861bd",
+        "section:eac9fcbeff65521bacaf32484e2ce2e473ef3335"
+      ]
+    },
+    {
+      "id": "clase-hunter-felicidad-lealtad",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Felicidad, comida y lealtad",
+      "title_en": "Happiness, Food, and Loyalty",
+      "summary_es": "Alimenta a la mascota para que esté feliz y haga daño máximo; la lealtad sube hasta rango 6.",
+      "summary_en": "Feed the pet to keep it happy and doing full damage; loyalty rises to rank 6.",
+      "keywords_es": [
+        "felicidad mascota",
+        "alimentar mascota",
+        "lealtad mascota",
+        "comida mascota",
+        "puntos de entrenamiento"
+      ],
+      "keywords_en": [
+        "pet happiness",
+        "feed pet",
+        "pet loyalty",
+        "pet food",
+        "training points"
+      ],
+      "text_es": "Alimentar a la mascota la pone feliz y la hace rendir al máximo; si no comes, puede perder felicidad y marcharse. La felicidad baja al morir o al descartarla, así que vuelve a alimentarla. La lealtad sube hasta el rango 6 y da puntos de entrenamiento para habilidades; la dieta depende de la familia. Usa Alimentar mascota y el alimento que se resalta en las bolsas.",
+      "text_en": "Feeding the pet makes it happy and lets it deal full damage; if you forget, it can lose happiness and leave. Happiness drops when it dies or is dismissed, so feed it again. Loyalty rises to rank 6 and grants training points for abilities; diet depends on the family. Use Feed Pet and the food highlighted in your bags.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How to Feed Your Pet in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How to Tame a Hunter Pet in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:general:best-pets-and-pet-managment-guide"
+      ],
+      "source_hashes": [
+        "section:709370c659a2c88493535e2e7599b2407998de46",
+        "section:c50a7f4f4aa8a6b2ab1f01089923d0f4487861bd"
+      ]
+    },
+    {
+      "id": "clase-hunter-armas-habilidades",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Armas que puede usar el Cazador",
+      "title_en": "Hunter Weapon Skills",
+      "summary_es": "El Cazador usa casi todas las armas menos mazas, varitas y escudos; las astas cuestan 1 oro.",
+      "summary_en": "Hunter can use almost every weapon except maces, wands, and shields; polearms cost 1 gold.",
+      "keywords_es": [
+        "armas del cazador",
+        "qué armas puede usar cazador",
+        "armas de asta",
+        "entrenar armas cazador",
+        "armas a dos manos"
+      ],
+      "keywords_en": [
+        "hunter weapons",
+        "what weapons can hunter use",
+        "polearms",
+        "train hunter weapons",
+        "two-handed weapons"
+      ],
+      "text_es": "El Cazador puede usar arcos, ballestas, armas de fuego, dagas, armas de puño, Hachas de una mano, Espadas de una mano, armas de asta, bastones, armas arrojadizas, Hachas de dos manos y Espadas de dos manos. No puede usar mazas, varitas ni escudos. Cada habilidad cuesta 10 de plata, salvo Armas de asta, que cuesta 1 de oro y pide nivel 20. No todas las ciudades enseñan todas, así que comprueba el instructor antes de viajar.",
+      "text_en": "Hunter can use bows, crossbows, guns, daggers, fist weapons, one-handed axes and swords, polearms, staves, thrown weapons, and two-handed axes and swords. It cannot use maces, wands, or shields. Each skill costs 10 silver, except Polearms, which costs 1 gold and requires level 20. Not every city teaches every skill, so check the trainer before traveling.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Hunter Leveling Guide:  Specializations, Talent Builds, Professions and More - WoW Forever › Hunter Weapon Skills and Trainers in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/leveling-guide",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Hunter Leveling Guide:  Specializations, Talent Builds, Professions and More - WoW Forever › Where Hunters Can Train Each Weapon Skill",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/leveling-guide",
+          "date": "2026-11-12"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:general:leveling-guide"
+      ],
+      "source_hashes": [
+        "section:0ef2e774df033a39a56e3cc1137ba58774a6b8d8",
+        "section:5f4eb71fd7dde36af5a634ec671e7971a25a4126"
+      ]
+    },
+    {
+      "id": "clase-hunter-mascotas-pvp",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Mascotas para JcJ",
+      "title_en": "Pets for PvP",
+      "summary_es": "En JcJ importan las familias con control: Felino, Raptor, Carroñero y Araña.",
+      "summary_en": "In PvP families with control matter: Cat, Raptor, Carrion Bird, and Spider.",
+      "keywords_es": [
+        "mascota para jcj",
+        "mascota pvp",
+        "araña telaraña",
+        "ave carroñera pvp",
+        "mascota control"
+      ],
+      "keywords_en": [
+        "pvp pet",
+        "hunter pvp pet",
+        "spider web",
+        "carrion bird pvp",
+        "control pet"
+      ],
+      "text_es": "En JcJ las familias con control ganan valor: Felino y Raptor siguen haciendo daño, Carroñero reduce el poder de ataque, Araña enraíza con Telaraña y Ave rapaz desarma con ¡Mío!. No es una lista cerrada: elige la habilidad que responda al rival. La mascota sigue siendo frágil si la enfocan, así que no la dejes sola contra varios enemigos.",
+      "text_en": "In PvP, families with control gain value: Cat and Raptor still deal damage, Carrion Bird reduces attack power, Spider roots with Web, and Bird of Prey disarms with Mine!. It is not a closed list: pick the ability that answers the opponent. The pet is still fragile if focused, so do not leave it alone against several enemies.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Best Hunter Pets for PvP in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Birds of Prey Hunter Pet Family",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:general:best-pets-and-pet-managment-guide"
+      ],
+      "source_hashes": [
+        "section:0e5b0799f752e2b53ba7891e7e53526f094525c3",
+        "section:73fd8b39cbbb59fd858cd09977d40ab5a4d0694a"
+      ]
+    },
+    {
+      "id": "clase-hunter-mascotas-rapidas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Mascotas de ataque rápido",
+      "title_en": "Fast-Attacking Pets",
+      "summary_es": "Las mascotas rápidas presionan a lanzadores; Diente partido es la referencia y no lo es todo.",
+      "summary_en": "Fast pets pressure casters; Broken Tooth is the benchmark but speed is not everything.",
+      "keywords_es": [
+        "mascota ataque rápido",
+        "broken tooth",
+        "mascota jcj rápida",
+        "velocidad de ataque mascota",
+        "the rake"
+      ],
+      "keywords_en": [
+        "fast attack pet",
+        "broken tooth",
+        "fast pvp pet",
+        "pet attack speed",
+        "the rake"
+      ],
+      "text_es": "Las mascotas con ataque rápido interrumpen más a los lanzadores y aprovechan efectos que añaden daño por golpe. Diente partido es la referencia, junto con El Rastrillo, León montés hambriento, Puma de las Agujas, Jaguar del pantano, Lupo esclavizante y Escupetripas. La velocidad no lo es todo: una mascota sin Zarpa pierde daño, así que no la elijas solo por el modelo. Úsalas si buscas presión constante, sobre todo en JcJ.",
+      "text_en": "Fast-attacking pets interrupt casters more often and benefit from effects that add damage per hit. Broken Tooth is the benchmark, along with The Rake, Starving Mountain Lion, Needles Cougar, Swamp Jaguar, Slavering Worg, and Spiteflayer. Speed is not everything: a pet without Claw loses damage, so do not pick it only for the model. Use them for constant pressure, especially in PvP.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Hunter Pets with Fastest Attack Speed in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "date": "2026-11-12"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:general:best-pets-and-pet-managment-guide"
+      ],
+      "source_hashes": [
+        "section:e940a03032cc174a320f93f47490937b55832cc9"
       ]
     }
   ]

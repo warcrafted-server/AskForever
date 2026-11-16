@@ -111,7 +111,7 @@ def _assert_sources(section):
         assert not missing, (section['id'], missing)
         assert source['type'] == 'editorial', section['id']
         assert isinstance(source['ref'], str)
-        assert source['ref'].startswith('Icy Veins: '), section['id']
+        assert source['ref'].startswith(('Icy Veins: ', 'Wowhead: ')), section['id']
         assert isinstance(source['url'], str)
         assert source['url'].startswith('https://'), section['id']
         assert isinstance(source['date'], str)

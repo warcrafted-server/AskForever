@@ -252,15 +252,17 @@ def test_tutorial_title_is_joined_and_found(rich_db):
 
 def test_class_tutorial_only_for_that_class(rich_db):
     index = GuideIndex(rich_db)
-    question = '¿Cómo consigo una mascota de cazador?'
+    # Pregunta del tutorial y no de las fichas: «cómo consigo una mascota» lo responde la ficha de la misión de clase.
+    question = '¿Para qué sirve la barra de acción de mascota de cazador?'
     hunter = [ref for ref, _text in index.search(
         question, 'es', ctx={'race': 'Humano', 'class': 'Cazador'})]
-    assert hunter == ['TUTORIAL61_HUNTER']
+    assert hunter[0] == 'TUTORIAL61_HUNTER'
+    assert 'TUTORIAL61_WARLOCK' not in hunter
     mage = [ref for ref, _text in index.search(
         question, 'es', ctx={'race': 'Humano', 'class': 'Mago'})]
     assert 'TUTORIAL61_HUNTER' not in mage
     assert 'TUTORIAL61_WARLOCK' not in mage
-    assert index.search(question, 'es') == []
+    assert not any(ref.startswith('TUTORIAL61') for ref, _text in index.search(question, 'es'))
 
 
 def test_domain_words_help_general_questions(rich_db):
@@ -270,7 +272,7 @@ def test_domain_words_help_general_questions(rich_db):
 
 def test_retrieve_passes_player_context_to_guide(rich_db):
     ctx = {'race': 'Humano', 'class': 'Cazador', 'fac': 'Alianza', 'lvl': 10}
-    facts = retrieve(_message('¿Cómo consigo una mascota de cazador?', ctx=ctx), rich_db)
+    facts = retrieve(_message('¿Para qué sirve la barra de acción de mascota de cazador?', ctx=ctx), rich_db)
     assert 'guide:TUTORIAL61_HUNTER' in facts.sources
     assert 'guide:TUTORIAL61_WARLOCK' not in facts.sources
 
