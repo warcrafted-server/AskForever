@@ -13,20 +13,21 @@ SPEC = importlib.util.spec_from_file_location('kb_names', TOOLS / 'kb_names.py')
 kb_names = importlib.util.module_from_spec(SPEC)
 SPEC.loader.exec_module(kb_names)
 
-TREE = [  # (tree_slug, rama_es, nombre_en, nombre_es, max_rank, PosY, PosX)
-    ('beast-mastery', 'Dominio de bestias', 'Deadly Aspects', 'Aspectos letales', 5, 1, 1),
-    ('beast-mastery', 'Dominio de bestias', 'Endurance Training', 'Entrenamiento en aguante', 5, 1, 2),
-    ('beast-mastery', 'Dominio de bestias', 'Focused Fire', 'Fuego enfocado', 2, 2, 1),
-    ('marksmanship', 'Puntería', 'Hawk Eye', 'Ojo de halcón', 3, 1, 1),
-    ('marksmanship', 'Puntería', 'Lethal Attacks', 'Ataques letales', 5, 1, 2),
+TREE = [  # (tree_slug, rama_es, nombre_en, nombre_es, max_rank, PosY, PosX, NodeID, puntos_requeridos, previo)
+    ('beast-mastery', 'Dominio de bestias', 'Deadly Aspects', 'Aspectos letales', 5, 1, 1, 1, 0, None),
+    ('beast-mastery', 'Dominio de bestias', 'Endurance Training', 'Entrenamiento en aguante', 5, 1, 2, 2, 0, None),
+    ('beast-mastery', 'Dominio de bestias', 'Focused Fire', 'Fuego enfocado', 2, 2, 1, 3, 5, None),
+    ('beast-mastery', 'Dominio de bestias', 'Bestial Wrath', 'Ira de bestias', 1, 3, 1, 4, 5, 3),
+    ('marksmanship', 'Puntería', 'Hawk Eye', 'Ojo de halcón', 3, 1, 1, 5, 0, None),
+    ('marksmanship', 'Puntería', 'Lethal Attacks', 'Ataques letales', 5, 1, 2, 6, 0, None),
 ]
 
 
 def _conn():
     conn = sqlite3.connect(':memory:')
     conn.execute('CREATE TABLE v_talentos_forever (class_slug, tree_slug, rama_es, nombre_en, nombre_es, '
-                 'max_rank, PosY, PosX)')
-    conn.executemany('INSERT INTO v_talentos_forever VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
+                 'max_rank, PosY, PosX, NodeID, puntos_requeridos, talento_previo_node_id)')
+    conn.executemany('INSERT INTO v_talentos_forever VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
                      [('hunter',) + row for row in TREE])
     conn.execute('CREATE TABLE SpellName (ID, Name_lang, Name_lang_esES)')
     conn.execute('CREATE TABLE SkillLine (ID, DisplayName_lang, DisplayName_lang_esES, CategoryID)')
@@ -49,6 +50,13 @@ def test_decode_rejects_points_above_max_rank_and_too_many_trees():
     builds = kb_names.TalentBuilds(_conn())
     assert builds.decode('hunter', '503') is None
     assert builds.decode('hunter', '5-0-0-1') is None
+
+
+def test_decode_rejects_talents_without_their_requirements():
+    builds = kb_names.TalentBuilds(_conn())
+    assert builds.decode('hunter', '002') is None      # Fuego enfocado sin 5 puntos antes en la rama
+    assert builds.decode('hunter', '5011') is None     # Ira de bestias sin Fuego enfocado al máximo
+    assert builds.decode('hunter', '5021') is not None
 
 
 def test_annotate_markdown_link_keeps_link_intact():

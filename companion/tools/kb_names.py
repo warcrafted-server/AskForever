@@ -105,16 +105,19 @@ class TalentBuilds:
         if conn is None:
             return
         try:
-            rows = conn.execute('SELECT class_slug, tree_slug, rama_es, nombre_en, nombre_es, max_rank '
+            rows = conn.execute('SELECT class_slug, tree_slug, rama_es, nombre_en, nombre_es, max_rank, '
+                                'NodeID, puntos_requeridos, talento_previo_node_id '
                                 'FROM v_talentos_forever ORDER BY class_slug, tree_slug, PosY, PosX').fetchall()
         except sqlite3.Error:
             return
         # Las ramas van en el orden del juego, que en todas las clases coincide con el alfabético del slug.
-        for cls, tree, branch_es, name_en, name_es, max_rank in rows:
+        self.extra: dict[tuple, tuple] = {}
+        for cls, tree, branch_es, name_en, name_es, max_rank, node, required, previous in rows:
             trees = self.trees.setdefault(cls, [])
             if not trees or trees[-1][0][0] != tree:
                 trees.append([])
             trees[-1].append((tree, branch_es, name_en, name_es or name_en, max_rank))
+            self.extra[(cls, tree, len(trees[-1]) - 1)] = (node, required or 0, previous)
 
     def decode(self, cls: str, code: str) -> Optional[list[tuple[str, list[tuple[str, str, int, int]]]]]:
         trees = self.trees.get(cls)
@@ -125,15 +128,25 @@ class TalentBuilds:
         for digits, tree in zip(parts, trees):
             if len(digits) > len(tree):
                 return None
-            picked = []
-            for digit, (_slug, _branch, name_en, name_es, max_rank) in zip(digits, tree):
+            picked, spent, by_node = [], 0, {}
+            for index, (digit, (slug, _branch, name_en, name_es, max_rank)) in enumerate(zip(digits, tree)):
                 points = int(digit)
                 if points > (max_rank or 0):
                     return None
+                node, required, previous = self.extra.get((cls, slug, index), (None, 0, None))
+                by_node[node] = (points, max_rank)
                 if points:
-                    picked.append((name_en, name_es, points, max_rank))
+                    picked.append((name_en, name_es, points, max_rank, required, previous))
+            # Un árbol desalineado da talentos sin sus requisitos: puntos previos en la rama y talento previo
+            # al máximo. Si no se cumplen, la build no se da por buena.
+            for name_en, name_es, points, max_rank, required, previous in picked:
+                before = sum(p for n, _e, p, _m, r, _pr in picked if r < required)
+                if before < required:
+                    return None
+                if previous and by_node.get(previous, (0, 1))[0] < by_node.get(previous, (0, 1))[1]:
+                    return None
             if picked:
-                build.append((tree[0][1], picked))
+                build.append((tree[0][1], [(en, es, p, m) for en, es, p, m, _r, _pr in picked]))
         return build
 
     def annotate(self, text: str) -> str:
