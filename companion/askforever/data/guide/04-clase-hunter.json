@@ -336,8 +336,8 @@
       "status": "editorial",
       "title_es": "Mejor especialización para subir",
       "title_en": "Best Hunter Leveling Spec",
-      "summary_es": "Dominio de bestias es la mejor para subir; Puntería queda cerca; Supervivencia es la más floja hasta sus talentos.",
-      "summary_en": "Beast Mastery is the best leveler; Marksmanship is close and Survival is weakest until its deeper talents.",
+      "summary_es": "Dominio de bestias es la mejor para subir; Puntería queda por debajo; Supervivencia flojea hasta el 32.",
+      "summary_en": "Beast Mastery is the best leveler; Marksmanship is below it; Survival lags until level 32.",
       "keywords_es": [
         "mejor especialización para subir cazador",
         "dominio de bestias para nivelar",
@@ -352,41 +352,63 @@
         "survival leveling",
         "hunter leveling"
       ],
-      "text_es": "Para subir de nivel, Dominio de bestias es la opción más fuerte porque el compañero animal tanquea y hace gran parte del daño. Puntería también es muy buena, aunque depende más de los disparos propios y es algo inferior a Dominio. Supervivencia es la más débil de las tres durante buena parte del recorrido: sus mejores talentos de melé llegan tarde y conviene jugar a distancia al menos hasta el nivel 40. Las tres siguen siendo Cazador, así que el compañero animal y el Tiro automático ya dan una base sólida.",
-      "text_en": "For leveling, Beast Mastery is the strongest option because the animal companion tanks and deals much of the damage. Marksmanship is also very good, though it relies more on your own shots and is slightly below Beast Mastery. Survival is the weakest of the three for much of the journey: its best melee talents arrive late, and you should play at range at least until level 40. All three are still Hunters, so the animal companion and Auto Shot already provide a solid base.",
+      "text_es": "Dominio de bestias es la mejor rama para subir: reparte el daño con la mascota, que tanquea, y perdona más los errores. Puntería es muy buena, aunque depende más de tus disparos propios y queda por debajo de Dominio. Supervivencia es la más débil durante los primeros niveles: sus talentos de melé llegan tarde y no se recomienda jugarla hasta el 32, así que conviene subir como Dominio hasta entonces. Aun así, el Cazador es de las clases más fáciles de subir por la mascota, Tiro automático, el kiting y la ausencia de golpes parciales en los ataques a distancia.",
+      "text_en": "Beast Mastery is the best tree for leveling: it shares the damage with the pet, which tanks, and forgives more mistakes. Marksmanship is very good, though it relies more on your own shots and sits below Beast Mastery. Survival is the weakest during the first levels: its melee talents arrive late and it is not recommended until level 32, so level as Beast Mastery until then. Even so, Hunter is one of the easiest classes to level thanks to the pet, Auto Shot, kiting, and the absence of glancing blows on ranged attacks.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Beast Mastery Hunter Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling as a Beast Mastery Hunter DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Guide › Marksmanship Hunter Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-ranged-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Beast Mastery Hunter DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Guide › Survival Hunter Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Leveling Guide › Marksmanship Hunter Leveling Guide",
+          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Survival Hunter DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling as a Survival Hunter DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Overview of Level 20 Beast Mastery Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-20-dps-overview",
+          "date": "2026-11-12"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
+        "class:hunter:beast-mastery:level20",
         "class:hunter:beast-mastery:leveling",
-        "class:hunter:marksmanship:overview",
-        "class:hunter:survival:overview"
+        "class:hunter:marksmanship:leveling",
+        "class:hunter:survival:leveling"
       ],
       "source_hashes": [
-        "section:78a84a83f179ad2337a466761fb06dca603ee416",
-        "section:b56920c41cf4132388fbfc715cbb60606359d779",
-        "section:eec5a176c995c1f63356729a952265dbfeae50d1"
+        "section:07abcf66e612d766659b634d683ace0ab78ddf6c",
+        "section:2961a4ed516168b5d1f9e3ec53047b009de6db2b",
+        "section:53a817f4dd17ae8a8405b14a436b0b429e8c2744",
+        "section:ae516edb40f77e2ea1faaeb15a2afc01e6587be9",
+        "section:b37e664ac96b4a5925338c0d8ea1816684096cc3",
+        "section:cae3f64c600f5175c71c436ea76dd7cfd0667ea5"
       ]
     },
     {
@@ -395,8 +417,8 @@
       "status": "editorial",
       "title_es": "Ruta de talentos para subir",
       "title_en": "Leveling Talent Path",
-      "summary_es": "Ruta de Dominio: Aspectos letales, Encontrar camino y Revivir mascota; Invocar halcón a 25; luego Ira de bestias.",
-      "summary_en": "Beast Mastery path: Deadly Aspects, Pathfinding and Improved Revive Pet; Summon Hawk at 25; then Bestial Wrath.",
+      "summary_es": "A 10, Aspectos letales; luego de arriba abajo por Dominio; Invocar halcón a 25; Ira de bestias con 31 puntos.",
+      "summary_en": "At 10, Deadly Aspects; then top to bottom in Beast Mastery; Summon Hawk at 25; Bestial Wrath at 31 points.",
       "keywords_es": [
         "talentos para subir",
         "ruta de talentos dominio de bestias",
@@ -411,8 +433,8 @@
         "summon hawk",
         "bestial wrath"
       ],
-      "text_es": "Para subir como Dominio de bestias, de 10 a 20 empieza por Aspectos letales y recoge pronto Encontrar camino y Revivir mascota mejorado. De 20 a 30, avanza hacia Invocar halcón, que se desbloquea a nivel 25. Después de 30, completa 31 puntos en Dominio de bestias para Ira de bestias y añade Ataques letales y Afinar la puntería. En los últimos niveles puedes completar con Entrenamiento en aguante, Ojo de águila, Vínculo de espíritu o Rastreo mejorado.",
-      "text_en": "To level as Beast Mastery, from 10 to 20 start with Deadly Aspects and pick up Pathfinding and Improved Revive Pet early. From 20 to 30, work toward Summon Hawk, which unlocks at level 25. After 30, reach 31 points in Beast Mastery and take Bestial Wrath, then add Lethal Attacks and Careful Aim. For the last levels you can fill in Endurance Training, Hawk Eye, Spirit Bond or Improved Tracking.",
+      "text_es": "A nivel 10, Aspectos letales es un buen primer talento de daño; luego reparte de arriba abajo por Dominio de bestias y después por Puntería. En las dos primeras filas, Encontrar camino, Revivir mascota mejorado y Entrenamiento en aguante cubren los 3 puntos, y los 2 de Matanza rápida pueden ir a otro sitio; Lobo solitario no. Invocar halcón llega a 25 sin Legacy y a 20 con los puntos extra. Cuando completes 31 puntos en Dominio tendrás Ira de bestias; añade Ataques letales y Afinar la puntería. Para el final: Ojo de águila, Vínculo de espíritu o Rastreo mejorado.",
+      "text_en": "At level 10, Deadly Aspects is a good first damage talent; then spend points top to bottom in Beast Mastery and afterwards in Marksmanship. In the first two rows, Pathfinding, Improved Revive Pet and Endurance Training cover the 3 points, and the 2 in Rapid Killing can go elsewhere; not Lone Wolf. Summon Hawk arrives at 25 without Legacy and at 20 with its extra points. When you reach 31 points in Beast Mastery you get Bestial Wrath; add Lethal Attacks and Careful Aim. For the last levels: Hawk Eye, Spirit Bond or Improved Tracking.",
       "tags": [
         "HUNTER"
       ],
@@ -422,14 +444,29 @@
           "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Leveling Talent Build",
           "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Beast Mastery Hunter DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Overview of Level 20 Beast Mastery Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-20-dps-overview",
+          "date": "2026-11-12"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
+        "class:hunter:beast-mastery:level20",
         "class:hunter:beast-mastery:leveling"
       ],
       "source_hashes": [
-        "section:b6232efb80631488f95a883d5f3343c844e451fd"
+        "section:53a817f4dd17ae8a8405b14a436b0b429e8c2744",
+        "section:b6232efb80631488f95a883d5f3343c844e451fd",
+        "section:cae3f64c600f5175c71c436ea76dd7cfd0667ea5"
       ]
     },
     {
@@ -438,8 +475,8 @@
       "status": "editorial",
       "title_es": "Hitos de habilidad por nivel",
       "title_en": "Ability Milestones by Level",
-      "summary_es": "Mascota 10; Aspecto del guepardo 20; Invocar halcón 25; Fingir muerte 30; Disparo de francotirador 40 en Puntería.",
-      "summary_en": "Pet 10; Aspect of the Cheetah 20; Summon Hawk 25; Feign Death 30; Sniper Shot 40 in Marksmanship.",
+      "summary_es": "Mascota 10; Aspecto del guepardo 20; Invocar halcón 25; Fingir muerte 30; Disparo de francotirador 40.",
+      "summary_en": "Pet 10; Aspect of the Cheetah 20; Summon Hawk 25; Feign Death 30; Sniper Shot 40.",
       "keywords_es": [
         "nivel de las habilidades",
         "cuándo aprendo mascota",
@@ -454,8 +491,8 @@
         "feign death level",
         "sniper shot level"
       ],
-      "text_es": "Los hitos principales son la misión de mascota a nivel 10, Aspecto del guepardo a 20 y Fingir muerte a 30. En Dominio de bestias, Invocar halcón llega con los talentos a nivel 25. En Puntería, Recuperación rápida aparece a 30 y Disparo de francotirador a 40. Aspecto de la manada también se aprende a nivel 40.",
-      "text_en": "The main milestones are the pet quest at level 10, Aspect of the Cheetah at 20 and Feign Death at 30. In Beast Mastery, Summon Hawk arrives through talents at level 25. In Marksmanship, Rapid Recuperation appears at 30 and Sniper Shot at 40. Aspect of the Pack is also learned at level 40.",
+      "text_es": "Los hitos del Cazador son la misión de mascota a nivel 10, Aspecto del guepardo a 20 y Fingir muerte a 30. En Dominio de bestias, Invocar halcón llega a 25 sin Legacy y a 20 con puntos extra, y Aura de disparo certero puede aprenderse desde 30. En Puntería, Recuperación rápida aparece a 30 y Disparo de francotirador a 40. Aspecto de la manada también se aprende a nivel 40. Fuego rápido llega a 26 y Trampa de Escarcha a 28.",
+      "text_en": "Hunter milestones are the pet quest at level 10, Aspect of the Cheetah at 20 and Feign Death at 30. In Beast Mastery, Summon Hawk arrives at 25 without Legacy and at 20 with extra points, and Trueshot Aura can be learned from 30. In Marksmanship, Rapid Recuperation appears at 30 and Sniper Shot at 40. Aspect of the Pack is also learned at level 40. Rapid Fire arrives at 26 and Frost Trap at 28.",
       "tags": [
         "HUNTER"
       ],
@@ -474,21 +511,35 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Survival Hunter Abilities Guide - Forever › Aspects for Survival Hunters in Forever Classic",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-abilities",
-          "date": "2026-10-08"
+          "ref": "Wowhead: Level 20 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Overview of Level 20 Beast Mastery Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-20-dps-overview",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Beast Mastery Hunter",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Utility and Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
+        "class:hunter:beast-mastery:level20",
         "class:hunter:beast-mastery:leveling",
-        "class:hunter:marksmanship:leveling",
-        "class:hunter:survival:abilities"
+        "class:hunter:marksmanship:leveling"
       ],
       "source_hashes": [
-        "section:1516b9df22d41f4149797e04666bc18b00fa8957",
+        "section:5f4b7821e0aa6e0f194924a2ec964f58e3b53bd0",
         "section:619453fd61682051dc72128ae93f99a648786e91",
-        "section:772f247ab8739c5881c6d07e81653a401589f50d"
+        "section:772f247ab8739c5881c6d07e81653a401589f50d",
+        "section:ab3d94029b44d479525d929a20e0744a93a697ba",
+        "section:cae3f64c600f5175c71c436ea76dd7cfd0667ea5"
       ]
     },
     {
@@ -731,8 +782,8 @@
       "status": "editorial",
       "title_es": "Trampas del Cazador",
       "title_en": "Hunter Traps",
-      "summary_es": "Trampa congelante, de Escarcha y explosiva; en Forever se usan en combate y puedes tener una de fuego y otra de hielo.",
-      "summary_en": "Freezing Trap, Frost Trap and Explosive Trap; in Forever they work in combat and you can keep one fire and one ice trap.",
+      "summary_es": "Trampa congelante, de Escarcha, explosiva y de inmolación; se usan en combate y caben una de fuego y otra de hielo.",
+      "summary_en": "Freezing, Frost, Explosive and Immolation Trap; usable in combat, with one fire and one ice trap at once.",
       "keywords_es": [
         "trampas",
         "trampa congelante",
@@ -747,8 +798,8 @@
         "explosive trap",
         "traps in combat"
       ],
-      "text_es": "Las trampas son parte central del control del Cazador. Trampa congelante encierra a un enemigo y se rompe con daño; Trampa de Escarcha ralentiza a los que entran en la zona; Trampa explosiva es la opción de daño en área. En Forever se pueden colocar en combate sin usar Fingir muerte, y puedes mantener una trampa de fuego y otra de hielo a la vez. Atrapamiento añade un enraizamiento adicional a las trampas.",
-      "text_en": "Traps are central to Hunter control. Freezing Trap locks an enemy in place and breaks on damage; Frost Trap slows those who enter the area; Explosive Trap is the area-damage option. In Forever they can be placed in combat without Feign Death, and you can keep a fire trap and an ice trap running together. Entrapment adds an extra root to traps.",
+      "text_es": "Las trampas son parte central del control del Cazador. Trampa congelante encierra a un enemigo y se rompe con daño; Trampa de Escarcha ralentiza a quien entra en la zona; Trampa explosiva es la opción de daño en área y Trampa de inmolación también se usa en la rotación de Supervivencia. En Forever se pueden colocar en combate, sin Fingir muerte, y puedes mantener a la vez una trampa de fuego y otra de hielo, así que no hay que elegir entre daño y supervivencia.",
+      "text_en": "Traps are central to Hunter control. Freezing Trap locks an enemy in place and breaks on damage; Frost Trap slows anyone who enters the area; Explosive Trap is the area-damage option and Immolation Trap is also used in the Survival rotation. In Forever they can be placed in combat, without Feign Death, and you can keep a fire trap and an ice trap running together, so you do not have to choose between damage and survival.",
       "tags": [
         "HUNTER"
       ],
@@ -761,18 +812,17 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Survival Hunter DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Survival Hunter in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Survival Hunter DPS in Burning Crusade",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
-        "class:hunter:survival:leveling",
-        "class:hunter:survival:rotation"
+        "class:hunter:survival:leveling"
       ],
       "source_hashes": [
-        "section:3c8e743df1e83e3e6af83ab081ebd36faab27a85",
+        "section:0932b2c4f5955443026575b5d88689aab818fe98",
         "section:65ee6c79512d806cee42e5c340f8fa6242350e23"
       ]
     },
@@ -782,8 +832,8 @@
       "status": "editorial",
       "title_es": "Aspectos y movilidad",
       "title_en": "Aspects and Mobility",
-      "summary_es": "Aspecto del guepardo acelera un 30% pero se pierde al daño; Aspecto del halcón da daño; el de la manada llega a 40.",
-      "summary_en": "Aspect of the Cheetah: 30% speed but breaks on damage; Aspect of the Hawk adds damage; Aspect of the Pack comes at 40.",
+      "summary_es": "Aspecto del guepardo da velocidad; el de la manada llega a 40 y comparte esa velocidad con el grupo.",
+      "summary_en": "Aspect of the Cheetah gives speed; Aspect of the Pack at 40 shares it with the group.",
       "keywords_es": [
         "aspectos",
         "aspecto del guepardo",
@@ -798,8 +848,8 @@
         "aspect of the pack",
         "hunter mobility"
       ],
-      "text_es": "Los aspectos son buffs permanentes que el Cazador elige según la situación. Aspecto del guepardo da un 30% de velocidad y puede activarse en combate, pero recibir daño te atonta y lo elimina. Aspecto del halcón es el buff de daño para combatir. A nivel 40 aprendes Aspecto de la manada, que comparte la velocidad con el grupo.",
-      "text_en": "Aspects are permanent buffs Hunter chooses for the situation. Aspect of the Cheetah gives 30% speed and can be enabled in combat, but taking damage dazes you and removes it. Aspect of the Hawk is the combat damage buff. At level 40 you learn Aspect of the Pack, which shares the speed with your group.",
+      "text_es": "Los aspectos son buffs que el Cazador mantiene y cambia según la situación. Aspecto del guepardo da velocidad de movimiento antes de tener montura y, con Encontrar camino, hace al Cazador de los más rápidos antes del nivel 40. Aspecto de la manada, a nivel 40, comparte esa velocidad con todo el grupo. Aspecto del halcón figura entre las habilidades obligatorias de daño, y Aspecto del mono, que se aprende a nivel 4, añade esquiva cuando toca pelear en melé.",
+      "text_en": "Aspects are buffs Hunter keeps up and changes to fit the situation. Aspect of the Cheetah gives movement speed before a mount and, with Pathfinding, makes Hunter one of the fastest classes before level 40. Aspect of the Pack, at level 40, shares that speed with the whole group. Aspect of the Hawk is on the mandatory damage list, and Aspect of the Monkey, learned at level 4, adds dodge when you have to fight in melee.",
       "tags": [
         "HUNTER"
       ],
@@ -812,25 +862,24 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Leveling Guide › Utility and Crowd Control",
-          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-leveling",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Beast Mastery Hunter",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Survival Hunter Abilities Guide - Forever › Aspects for Survival Hunters in Forever Classic",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-abilities",
-          "date": "2026-10-08"
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Optional Abilities to Train for Beast Mastery Hunter",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
-        "class:hunter:beast-mastery:leveling",
-        "class:hunter:marksmanship:leveling",
-        "class:hunter:survival:abilities"
+        "class:hunter:beast-mastery:leveling"
       ],
       "source_hashes": [
-        "section:1516b9df22d41f4149797e04666bc18b00fa8957",
+        "section:5f4b7821e0aa6e0f194924a2ec964f58e3b53bd0",
+        "section:a8b0c719e08e81cde4d68d6ad79d8634e0309f8d",
         "section:ab3d94029b44d479525d929a20e0744a93a697ba"
       ]
     },
@@ -840,7 +889,7 @@
       "status": "editorial",
       "title_es": "Rotación básica para subir",
       "title_en": "Basic Leveling Rotation",
-      "summary_es": "Marca del cazador, mascota primero, Aguijón de serpiente, Tiro de puntería y Tiro automático; Multidisparo para varios.",
+      "summary_es": "Marca, mascota primero, Aguijón, Tiro de puntería y Tiro automático; Multidisparo para varios enemigos.",
       "summary_en": "Hunter's Mark, pet first, Serpent Sting, Aimed Shot and Auto Shot; Multi-Shot for several enemies.",
       "keywords_es": [
         "rotación del cazador",
@@ -856,49 +905,39 @@
         "aimed shot",
         "multi-shot"
       ],
-      "text_es": "En un objetivo único, pon Marca del cazador, manda al compañero animal y espera a que coja amenaza. Después aplica Aguijón de serpiente, usa Tiro de puntería en cuanto esté disponible y sigue con Tiro automático. Con dos o más enemigos, Multidisparo sustituye a Tiro de puntería; si tienes maná de sobra, Tiro Arcano entra en la rotación. Para área usa Trampa explosiva y Lluvia, y Separación si te quedas en melé con demasiada amenaza.",
-      "text_en": "On a single target, apply Hunter's Mark, send the companion in and wait for it to build threat. Then apply Serpent Sting, use Aimed Shot whenever it is available and keep firing Auto Shot. With two or more enemies, Multi-Shot replaces Aimed Shot; if you have spare mana, Arcane Shot joins the rotation. For area damage use Explosive Trap and Volley, and Disengage if you end up in melee with too much threat.",
+      "text_es": "En un objetivo único, pon Marca del cazador, manda primero a la mascota y deja que genere amenaza antes de disparar. Después aplica Aguijón de serpiente, usa Tiro de puntería en cuanto esté y sigue con Tiro automático; si te sobra maná, Tiro Arcano entra en la rotación. Con dos o más enemigos, Multidisparo sustituye a Tiro de puntería. Para áreas usa Trampa explosiva y Lluvia, y Separación si te quedas en melé con demasiada amenaza.",
+      "text_en": "On a single target, apply Hunter's Mark, send the pet in first and let it build threat before you shoot. Then apply Serpent Sting, use Aimed Shot whenever it is available and keep firing Auto Shot; if you have spare mana, Arcane Shot joins the rotation. With two or more enemies, Multi-Shot replaces Aimed Shot. For area damage use Explosive Trap and Volley, and Disengage if you end up in melee with too much threat.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Beast Mastery Hunter Leveling Rotation",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Beast Mastery Hunter DPS in Burning Crusade",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Single-Target Rotation",
           "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Level 20 Marksmanship Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Marksmanship Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/level-20-dps-overview",
-          "date": "2026-11-12"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Survival Hunter DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Survival Hunter in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Survival Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-20-dps-overview",
-          "date": "2026-11-12"
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › AoE Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
-        "class:hunter:beast-mastery:leveling",
-        "class:hunter:marksmanship:level20",
-        "class:hunter:survival:level20",
-        "class:hunter:survival:rotation"
+        "class:hunter:beast-mastery:leveling"
       ],
       "source_hashes": [
-        "section:00684cee6b5b97d443eeeaa8ec4e09614e5aec8d",
-        "section:3c8e743df1e83e3e6af83ab081ebd36faab27a85",
-        "section:6648229829a03c9c8a14d2e449ba6ae3a472c4fa",
-        "section:c6da153dc5599024b096fd97b07e326182df761e"
+        "section:0275e11aa0bb192e3422bf1dfe5fc95ae64684a0",
+        "section:2b406ca434dd9976b465df0d3320319f922aad91",
+        "section:2ec462abb2522da0ae74706979a15f8e50763c6b"
       ]
     },
     {
@@ -923,8 +962,8 @@
         "hunter campsites",
         "hunter sleeping bag"
       ],
-      "text_es": "Con compañero animal, la forma más eficiente de subir es no dejar de matar: el Cazador puede encadenar enemigos mientras recupera maná. Es mejor acabar de uno en uno, porque el compañero pierde amenaza con varios objetivos. Descansa en una taberna o ciudad para acumular experiencia descansada, y haz cada mazmorra una vez con sus misiones, ya que las misiones dan más experiencia que repetir enemigos. Los campamentos dan buffs y el Saco de dormir acogedor añade experiencia extra desde nivel 14.",
-      "text_en": "With an animal companion, the most efficient way to level is to keep killing: Hunter can chain enemies while recovering mana. It is better to finish them one at a time, because the companion loses threat against several targets. Rest in an inn or city to build rested experience, and do each dungeon once with its quests, since quests give more experience than repeating enemies. Campsites give buffs and the Cozy Sleeping Bag adds bonus experience from level 14.",
+      "text_es": "Con mascota, lo más eficiente es no dejar de matar: el Cazador puede encadenar enemigos mientras recupera maná. Conviene acabar de uno en uno, porque la mascota pierde amenaza con varios objetivos. Descansa en una taberna o ciudad para acumular experiencia descansada y haz cada mazmorra una sola vez con sus misiones, ya que las misiones dan mucha más experiencia que repetir enemigos. Los campamentos dan buffs y el Saco de dormir acogedor, desde nivel 14, añade experiencia extra.",
+      "text_en": "With a pet, the most efficient approach is to keep killing: Hunter can chain enemies while recovering mana. It is better to finish them one at a time, because the pet loses threat against several targets. Rest in an inn or city to build rested experience and do each dungeon once with its quests, since quests give much more experience than repeating enemies. Campsites give buffs and the Cozy Sleeping Bag, from level 14, adds bonus experience.",
       "tags": [
         "HUNTER"
       ],
@@ -936,7 +975,7 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-16",
       "topics": [
         "class:hunter:beast-mastery:leveling"
       ],
@@ -1033,8 +1072,8 @@
         "summon hawk",
         "beast mastery pet"
       ],
-      "text_es": "Dominio de bestias concentra el daño en la mascota, con gran estallido durante Ira de bestias y buena capacidad de kiting. Invocar halcón añade un botón y las mascotas aportan utilidad; la rama no da buffs al grupo y sufre un callejón sin disparos a menos de 8 yardas. Es la rama más fácil de jugar y la más cómoda para subir y para contenido en solitario. Invocar halcón llega a nivel 20 con el sistema Legacy (a nivel 25 sin él). Ira de bestias es el talento final de la rama y requiere 31 puntos en ella.",
-      "text_en": "Beast Mastery puts damage in the pet, with strong burst during Bestial Wrath and good kiting. Summon Hawk adds a button and pets bring utility; the tree gives no group buffs and suffers a dead zone inside 8 yards. It is the easiest tree to play and the most comfortable for leveling and solo content. Summon Hawk arrives at level 20 with the Legacy system (level 25 without). Bestial Wrath is the final talent of the tree and needs 31 points in it.",
+      "text_es": "Dominio de bestias concentra el daño en la mascota, con gran estallido durante Ira de bestias y buena capacidad de kiting. Invocar halcón añade un botón y las mascotas aportan utilidad; la rama no da buffs al grupo y sufre un callejón sin disparos a menos de 8 yardas. Es la rama más fácil de jugar y la más cómoda para subir y para contenido en solitario. Con el sistema Legacy desbloqueas Invocar halcón a nivel 20; sin él, a nivel 25. Ira de bestias es el talento final de la rama y requiere 31 puntos en ella.",
+      "text_en": "Beast Mastery puts damage in the pet, with strong burst during Bestial Wrath and good kiting. Summon Hawk adds a button and pets bring utility; the tree gives no group buffs and suffers a dead zone inside 8 yards. It is the easiest tree to play and the most comfortable for leveling and solo content. With the Legacy system you unlock Summon Hawk at level 20; without it, at 25. Bestial Wrath is the final talent of the tree and needs 31 points in it.",
       "tags": [
         "HUNTER"
       ],
@@ -2114,6 +2153,903 @@
       ],
       "source_hashes": [
         "section:e940a03032cc174a320f93f47490937b55832cc9"
+      ]
+    },
+    {
+      "id": "clase-hunter-build-20-dominio",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Dominio a nivel 20",
+      "title_en": "Level 20 Beast Mastery Build",
+      "summary_es": "A 20 hay poco donde elegir: talentos de daño; con puntos Legacy la build se completa antes.",
+      "summary_en": "At 20 there is little choice: damage talents; with Legacy points the build fills out sooner.",
+      "keywords_es": [
+        "build dominio nivel 20",
+        "talentos dominio subir",
+        "puntos legacy nivel 20",
+        "invocar halcón nivel 20",
+        "talento daño cazador"
+      ],
+      "keywords_en": [
+        "level 20 beast mastery build",
+        "beast mastery leveling talents",
+        "legacy points level 20",
+        "summon hawk level 20",
+        "hunter damage talent"
+      ],
+      "text_es": "A nivel 20, Dominio de bestias apenas ofrece elección: coge los talentos que den daño y no gastes puntos en utilidad. La mascota hace gran parte del trabajo, así que la prioridad es aumentar tu daño y el suyo. Si tienes puntos extra del sistema Legacy, puedes completar más filas del árbol desde el principio. Invocar halcón todavía no está disponible sin Legacy; con Legacy puede llegarte a 20.",
+      "text_en": "At level 20, Beast Mastery offers little choice: take the talents that give damage and do not spend points on utility. The pet does much of the work, so the priority is raising your damage and its damage. If you have extra points from the Legacy system, you can fill more rows of the tree from the start. Summon Hawk is not available yet without Legacy; with Legacy it can arrive at 20.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Overview of Level 20 Beast Mastery Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-20-dps-overview",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Best Level 20 Talent Build for Beast Mastery Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-20-dps-overview",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Additional Talent Points from Legacy System for Beast Mastery Hunters at Level 20",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-20-dps-overview",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling Viability for Beast Mastery Hunter DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:beast-mastery:level20",
+        "class:hunter:beast-mastery:leveling"
+      ],
+      "source_hashes": [
+        "section:9ea512b6839278a19c024a70285e0faebc67b065",
+        "section:cae3f64c600f5175c71c436ea76dd7cfd0667ea5",
+        "section:d41d3c4e4af0e650e0e68fbdecfeee4272105c6f",
+        "section:fedb23334c5f8da252d669c1ea5ee868b4cb2290"
+      ]
+    },
+    {
+      "id": "clase-hunter-build-30-dominio",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Dominio a nivel 30",
+      "title_en": "Level 30 Beast Mastery Build",
+      "summary_es": "A 30 prioriza tu daño y el de la mascota; Invocar halcón ya está y con Legacy hay más puntos.",
+      "summary_en": "At 30 focus on your damage and the pet's; Summon Hawk is available and Legacy adds points.",
+      "keywords_es": [
+        "build dominio nivel 30",
+        "talentos dominio 30",
+        "invocar halcón guardián",
+        "puntos legacy nivel 30",
+        "daño mascota"
+      ],
+      "keywords_en": [
+        "level 30 beast mastery build",
+        "beast mastery talents 30",
+        "summon hawk guardian",
+        "legacy points level 30",
+        "pet damage"
+      ],
+      "text_es": "Con los talentos disponibles a este nivel, Dominio de bestias debe centrarse en lo que aumente tu daño y el de la mascota. Invocar halcón ya está siempre disponible a 25 sin Legacy, y su daño inicial más el guardián que invoca durante 18 segundos redondean la rotación. Con los puntos extra del sistema Legacy puedes completar antes las filas altas del árbol. La build no busca utilidad: el objetivo es que la mascota y tus disparos peguen más.",
+      "text_en": "With the talents available at this level, Beast Mastery should focus on what raises your damage and the pet's damage. Summon Hawk is always available at 25 without Legacy, and its initial damage plus the guardian it summons for 18 seconds rounds out the rotation. With the extra points from the Legacy system you can fill the higher rows of the tree sooner. The build does not chase utility: the goal is for the pet and your shots to hit harder.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 30 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Best Level 30 Talent Build for Beast Mastery Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-30-dps-overview",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 30 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › What Changes for Beast Mastery Hunters from Level 20 to Level 30 in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-30-dps-overview",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 30 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Additional Talent Points from Legacy System for Beast Mastery Hunters at Level 30",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-30-dps-overview",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:beast-mastery:level30"
+      ],
+      "source_hashes": [
+        "section:7e64e8a901bc64ec63567c682443f2cd0582090b",
+        "section:b01ee3e79ff5d98a54188ff5b71e85ed94f8762b",
+        "section:df1a88e98d34aa5320b3eb4d00f244f30c274f2b"
+      ]
+    },
+    {
+      "id": "clase-hunter-build-20-punteria",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Puntería a nivel 20",
+      "title_en": "Level 20 Marksmanship Build",
+      "summary_es": "A 20 Puntería es incómoda: unos puntos en Dominio rinden más que renunciar a la mascota con Lobo solitario.",
+      "summary_en": "At 20 Marksmanship is awkward: a few Beast Mastery points beat giving up the pet for Lone Wolf.",
+      "keywords_es": [
+        "build puntería nivel 20",
+        "talentos puntería subir",
+        "puntos dominio puntería",
+        "lobo solitario nivel 20",
+        "mascota puntería"
+      ],
+      "keywords_en": [
+        "level 20 marksmanship build",
+        "marksmanship leveling talents",
+        "beast mastery points marksmanship",
+        "lone wolf level 20",
+        "marksmanship pet"
+      ],
+      "text_es": "A nivel 20, el árbol de Puntería es incómodo para subir: un compañero animal hace más daño que el bonus de Lobo solitario, así que conviene gastar un par de puntos en Dominio de bestias en lugar de jugar sin mascota. No es una build de Puntería pura, pero mata más y perdona mejor los errores. Con los puntos extra del sistema Legacy puedes completar antes los talentos de daño de ambos árboles. La mascota sigue tanqueando mientras tú disparas.",
+      "text_en": "At level 20, the Marksmanship tree is awkward for leveling: an animal companion deals more damage than the Lone Wolf bonus, so spend a couple of points in Beast Mastery instead of playing without a pet. It is not a pure Marksmanship build, but it kills faster and forgives more mistakes. With the extra points from the Legacy system you can fill the damage talents of both trees sooner. The pet keeps tanking while you shoot.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Marksmanship Hunter Guide: Talents, Rotation and Gearing - Forever › Overview of Level 20 Markmanship Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/level-20-dps-overview",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Marksmanship Hunter Guide: Talents, Rotation and Gearing - Forever › Best Level 20 Talent Build for Marksmanship Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/level-20-dps-overview",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Marksmanship Hunter Guide: Talents, Rotation and Gearing - Forever › Additional Talent Points from Legacy System for Marksmanship Hunters at Level 20",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/level-20-dps-overview",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Marksmanship Hunter DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/dps-leveling-tips",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:marksmanship:level20",
+        "class:hunter:marksmanship:leveling"
+      ],
+      "source_hashes": [
+        "section:75f3d4826faf3042495b084fbdd6879a11e2edef",
+        "section:e1551b9f275dbf8e52bbcd69686291600f9d01fa",
+        "section:efd8db5e4f29f46ff417a2079019ef89015abce0",
+        "section:fea84161ebfdb7d2c98319049da2b9f8e31257a2"
+      ]
+    },
+    {
+      "id": "clase-hunter-build-30-punteria",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Puntería a nivel 30",
+      "title_en": "Level 30 Marksmanship Build",
+      "summary_es": "A 30 ya puedes invertir en Puntería, pero la mascota sigue rindiendo más que Lobo solitario.",
+      "summary_en": "At 30 you can invest in Marksmanship, but the pet still outperforms Lone Wolf.",
+      "keywords_es": [
+        "build puntería nivel 30",
+        "talentos puntería 30",
+        "lobo solitario 30",
+        "aura de disparo certero",
+        "disparo disperso"
+      ],
+      "keywords_en": [
+        "level 30 marksmanship build",
+        "marksmanship talents 30",
+        "lone wolf 30",
+        "trueshot aura",
+        "scatter shot"
+      ],
+      "text_es": "A este nivel ya es aceptable subir con puntos en Puntería, pero la mascota sigue haciendo más daño que el bonus de Lobo solitario, así que la build no renuncia a ella. Con los puntos extra del sistema Legacy completas antes los talentos de daño. Aura de disparo certero y Disparo disperso entran en el kit, y una mascota rápida sigue haciendo mucho daño. La prioridad es tu daño a distancia, no la utilidad.",
+      "text_en": "At this level it is acceptable to level with points in Marksmanship, but the pet still deals more damage than the Lone Wolf bonus, so the build does not give it up. With the extra points from the Legacy system you fill the damage talents sooner. Trueshot Aura and Scatter Shot join the kit, and a fast pet keeps dealing heavy damage. The priority is your ranged damage, not utility.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 30 Marksmanship Hunter Guide: Talents, Rotation and Gearing - Forever › What Changes for Marksmanship Hunters from Level 20 to Level 30 in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/level-30-dps-overview",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 30 Marksmanship Hunter Guide: Talents, Rotation and Gearing - Forever › Best Level 30 Talent Build for Marksmanship Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/level-30-dps-overview",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 30 Marksmanship Hunter Guide: Talents, Rotation and Gearing - Forever › Additional Talent Points from Legacy System for Marksmanship Hunters at Level 30",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/level-30-dps-overview",
+          "date": "2026-10-11"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:marksmanship:level30"
+      ],
+      "source_hashes": [
+        "section:525f79305a478eddeca596b2020cfd8ce1f5a414",
+        "section:64d9df73fa8d74ce3b51884caf3903c03755d68a",
+        "section:d55aa25ec4019b7fb75a4edb1a8620f2979efa01"
+      ]
+    },
+    {
+      "id": "clase-hunter-build-20-supervivencia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Supervivencia a nivel 20",
+      "title_en": "Level 20 Survival Build",
+      "summary_es": "A 20 solo hay talentos de daño; no fuerces el melé, porque la rama no funciona hasta el 32.",
+      "summary_en": "At 20 there are only damage talents; do not force melee, because the tree does not work until 32.",
+      "keywords_es": [
+        "build supervivencia nivel 20",
+        "talentos supervivencia subir",
+        "supervivencia melé nivel 20",
+        "puntos legacy supervivencia",
+        "patada de zancudo"
+      ],
+      "keywords_en": [
+        "level 20 survival build",
+        "survival leveling talents",
+        "survival melee level 20",
+        "legacy points survival",
+        "strider kick"
+      ],
+      "text_es": "A nivel 20, Supervivencia apenas ofrece elección: coge los talentos que den daño y no fuerces el melé, porque la rama no funciona bien hasta el 32. Es mejor usar un estilo híbrido, dejando que la mascota tanque y usando los disparos. Con los puntos extra del sistema Legacy puedes adelantar talentos, pero la recomendación sigue siendo no depender del cuerpo a cuerpo. Patada de zancudo y Exponer presa aún no están disponibles.",
+      "text_en": "At level 20, Survival offers little choice: take the talents that give damage and do not force melee, because the tree does not work well until 32. It is better to use a hybrid style, letting the pet tank and using your shots. With the extra points from the Legacy system you can bring talents forward, but the advice is still not to rely on melee. Strider Kick and Expose Prey are not available yet.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Overview of Level 20 Survival Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-20-dps-overview",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Best Level 20 Talent Build for Survival Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-20-dps-overview",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Additional Talent Points from Legacy System for Survival Hunters at Level 20",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-20-dps-overview",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Survival Hunter DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:survival:level20",
+        "class:hunter:survival:leveling"
+      ],
+      "source_hashes": [
+        "section:049682e1d5761398c153cbbac648bfa45d3b2871",
+        "section:2961a4ed516168b5d1f9e3ec53047b009de6db2b",
+        "section:d45a2fdb1384ff056ffc830d385a1983c13d73fc",
+        "section:d95d5fd77914a460fe6aa44896bcf314e57a9bb3"
+      ]
+    },
+    {
+      "id": "clase-hunter-build-30-supervivencia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Supervivencia a nivel 30",
+      "title_en": "Level 30 Survival Build",
+      "summary_es": "A 30 llega Patada de zancudo y con Legacy Exponer presa; puedes ir a melé o alternar con un arma a dos manos.",
+      "summary_en": "At 30 Strider Kick arrives and Legacy adds Expose Prey; you can stay melee or weave with a two-hander.",
+      "keywords_es": [
+        "build supervivencia nivel 30",
+        "talentos supervivencia 30",
+        "exponer presa",
+        "patada de zancudo",
+        "arma a dos manos"
+      ],
+      "keywords_en": [
+        "level 30 survival build",
+        "survival talents 30",
+        "expose prey",
+        "strider kick",
+        "two-handed weapon"
+      ],
+      "text_es": "A este nivel, Supervivencia ya tiene decisiones: Patada de zancudo está siempre disponible y, con los puntos extra del sistema Legacy, también Exponer presa. Con dos armas puedes quedarte en melé de forma permanente; con un arma a dos manos, alternar melé y distancia rinde mejor. La build de subida prioriza el daño. La rama sigue sin funcionar del todo hasta el 32, así que no fuerces el melé antes.",
+      "text_en": "At this level, Survival has real choices: Strider Kick is always available and, with the extra points from the Legacy system, so is Expose Prey. With two weapons you can stay in melee permanently; with a two-handed weapon, weaving melee and ranged works better. The leveling build prioritizes damage. The tree still does not fully work until 32, so do not force melee before that.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 30 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › What Changes for Survival Hunters from Level 20 to Level 30 in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-30-dps-overview",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 30 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Best Level 30 Talent Build for Survival Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-30-dps-overview",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 30 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Additional Talent Points from Legacy System for Survival Hunters at Level 30",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-30-dps-overview",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling as a Survival Hunter DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:survival:level30",
+        "class:hunter:survival:leveling"
+      ],
+      "source_hashes": [
+        "section:05649db0cf11ffbe2bfb563ec57c59f8b961c868",
+        "section:2f29a3fe5626fa4993d12a3ed2f52c6c201421e5",
+        "section:71a8332bd248c0228738f280376c0284ca5c1136",
+        "section:b37e664ac96b4a5925338c0d8ea1816684096cc3"
+      ]
+    },
+    {
+      "id": "clase-hunter-rotacion-subida-dominio",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Dominio para subir",
+      "title_en": "Beast Mastery Leveling Rotation",
+      "summary_es": "Invocar halcón manda; Tiro Arcano cada tercera vuelta; Tiro de puntería y Tiro automático; Multidisparo en área.",
+      "summary_en": "Summon Hawk leads; Arcane Shot every third round; Aimed Shot and Auto Shot; Multi-Shot for area.",
+      "keywords_es": [
+        "rotación dominio subir",
+        "invocar halcón rotación",
+        "tiro arcano cada tercera",
+        "multidisparo subir",
+        "rotación cazador dominio"
+      ],
+      "keywords_en": [
+        "beast mastery leveling rotation",
+        "summon hawk rotation",
+        "arcane shot every third",
+        "multi-shot leveling",
+        "beast mastery hunter rotation"
+      ],
+      "text_es": "La rotación de Dominio de bestias añade Invocar halcón: úsalo en cuanto puedas y mantén dos halcones activos, porque comparte reutilización con Tiro Arcano. Mientras tengas halcones, Tiro Arcano solo cada tercera vuelta; sin ellos, úsalo siempre que puedas. Mantén Marca del cazador y Aguijón de serpiente, usa Tiro de puntería en cuanto esté y sigue con Tiro automático. Contra varios enemigos, Multidisparo sustituye a Tiro de puntería y puedes entrar a poner Trampa explosiva. Si pierdes la amenaza, Separación.",
+      "text_en": "Beast Mastery adds Summon Hawk: use it whenever you can and keep two hawks active, because it shares a cooldown with Arcane Shot. If you have Summon Hawk, cast Arcane Shot only every third round; without it, use it whenever you can. Keep Hunter's Mark and Serpent Sting up, use Aimed Shot whenever it is available and keep firing Auto Shot. Against several enemies, Multi-Shot replaces Aimed Shot and you can run in to place Explosive Trap. If you lose threat, use Disengage.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › AoE Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Important Abilities",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Beast Mastery Hunter DPS in Burning Crusade",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:beast-mastery:leveling"
+      ],
+      "source_hashes": [
+        "section:0275e11aa0bb192e3422bf1dfe5fc95ae64684a0",
+        "section:2b406ca434dd9976b465df0d3320319f922aad91",
+        "section:2ec462abb2522da0ae74706979a15f8e50763c6b",
+        "section:7934f62052a2fcc15ecbd2ebba4cee1f7b65b02d"
+      ]
+    },
+    {
+      "id": "clase-hunter-rotacion-subida-punteria",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Puntería para subir",
+      "title_en": "Marksmanship Leveling Rotation",
+      "summary_es": "Marca y Aguijón, Tiro Arcano y Tiro de puntería; con Matanza rápida, abre con Disparo de francotirador.",
+      "summary_en": "Hunter's Mark and Serpent Sting, Arcane Shot and Aimed Shot; with Rapid Killing, open with Sniper Shot.",
+      "keywords_es": [
+        "rotación puntería subir",
+        "matanza rápida rotación",
+        "disparo de francotirador subir",
+        "tiro arcano puntería",
+        "rotación cazador puntería"
+      ],
+      "keywords_en": [
+        "marksmanship leveling rotation",
+        "rapid killing rotation",
+        "sniper shot leveling",
+        "arcane shot marksmanship",
+        "marksmanship hunter rotation"
+      ],
+      "text_es": "Puntería mantiene Marca del cazador y Aguijón de serpiente, y usa Tiro de puntería en cuanto esté. Con Invocar halcón, Tiro Arcano solo cada tercera vuelta; sin halcón, entra sin esperar. Cuando tengas Matanza rápida, procura que el enemigo muera con Aguijón de serpiente activo y abre con Disparo de francotirador si tienes el buff; si no, usa Tiro de puntería. Con la mascota tanqueando, Tiro automático hace gran parte del daño. Contra varios enemigos, Multidisparo sustituye a Tiro de puntería, y Trampa explosiva y Lluvia cubren el área.",
+      "text_en": "Marksmanship keeps Hunter's Mark and Serpent Sting up, and uses Aimed Shot whenever it is ready. If you have Summon Hawk, cast Arcane Shot only every third rotation; otherwise cast it freely. If you have the Rapid Killing talent, try to let the enemy die with Serpent Sting active and open with Sniper Shot if you have the buff; if not, use Aimed Shot. With the pet tanking, Auto Shot does much of the damage. Against several enemies, Multi-Shot replaces Aimed Shot, and Explosive Trap and Volley cover the area.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Leveling Guide › Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Leveling Guide › AoE Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Marksmanship Hunter DPS in Burning Crusade",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/dps-leveling-tips",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:marksmanship:leveling"
+      ],
+      "source_hashes": [
+        "section:251c90fdb0ac518e5bff6e89b9ef50fa4b1c13ec",
+        "section:6128f31265d51f8a45ec11dd7085493c5b782540",
+        "section:d5eb540b33a276eb4e90415fad83951c1e7f4b36"
+      ]
+    },
+    {
+      "id": "clase-hunter-rotacion-subida-supervivencia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Supervivencia para subir",
+      "title_en": "Survival Leveling Rotation",
+      "summary_es": "Golpe de raptor en cola, Mordedura de mangosta y Patada de zancudo; alterna melé y disparos.",
+      "summary_en": "Raptor Strike queued, Mongoose Bite and Strider Kick; weave melee and shots.",
+      "keywords_es": [
+        "rotación supervivencia subir",
+        "golpe de raptor en cola",
+        "mordedura de mangosta",
+        "patada de zancudo",
+        "alternar melé distancia"
+      ],
+      "keywords_en": [
+        "survival leveling rotation",
+        "raptor strike queued",
+        "mongoose bite",
+        "strider kick",
+        "melee weaving"
+      ],
+      "text_es": "Supervivencia lleva Golpe de raptor siempre en cola y usa Mordedura de mangosta, Patada de zancudo y Contraataque cuando estés en melé. Mantén Marca del cazador y Aguijón de serpiente, y aprovecha la velocidad de Patada de zancudo para salir a distancia y disparar Tiro Arcano, Aguijón o Tiro de puntería mientras vuelven los golpes de melé. Antes de 32 la rama no funciona bien, así que usa un estilo híbrido. Para área, Multidisparo y Trampa explosiva; cuando peleas en melé, Trampa de inmolación también entra.",
+      "text_en": "Survival keeps Raptor Strike queued at all times and uses Mongoose Bite, Strider Kick and Counterattack while in melee. Keep Hunter's Mark and Serpent Sting up, and use the speed from Strider Kick to step out to range and fire Arcane Shot, Serpent Sting or Aimed Shot while your melee hits come back. Before 32 the tree does not work well, so use a hybrid style. For area damage, Multi-Shot and Explosive Trap; when you fight in melee, Immolation Trap also joins.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 30 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 30 Survival Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-30-dps-overview",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Survival Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-20-dps-overview",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling as a Survival Hunter DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Survival Hunter DPS in Burning Crusade",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Leveling Guide › Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:survival:level20",
+        "class:hunter:survival:level30",
+        "class:hunter:survival:leveling"
+      ],
+      "source_hashes": [
+        "section:0932b2c4f5955443026575b5d88689aab818fe98",
+        "section:6648229829a03c9c8a14d2e449ba6ae3a472c4fa",
+        "section:b37e664ac96b4a5925338c0d8ea1816684096cc3",
+        "section:e0070a16ca303875a84f1d938b588aa504fe1d28",
+        "section:ea3915224f7331382ace4bdc7874c27724e26ca4"
+      ]
+    },
+    {
+      "id": "clase-hunter-habilidades-dano",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades de daño que entrenar",
+      "title_en": "Damage Abilities to Train",
+      "summary_es": "Prioriza Aguijón, Tiro Arcano, Tiro de puntería, Multidisparo y Fuego rápido; el oro no llega para todo.",
+      "summary_en": "Prioritize Serpent Sting, Arcane Shot, Aimed Shot, Multi-Shot and Rapid Fire; gold does not cover everything.",
+      "keywords_es": [
+        "qué habilidades entrenar",
+        "habilidades de daño cazador",
+        "nivel de las habilidades",
+        "ahorrar oro entrenar",
+        "rangos de hechizos"
+      ],
+      "keywords_en": [
+        "abilities to train",
+        "hunter damage abilities",
+        "ability levels",
+        "save gold training",
+        "spell ranks"
+      ],
+      "text_es": "Mientras subes, el oro no llega para todas las habilidades, así que prioriza las que dan daño. Entrena Aguijón de serpiente a 4, Tiro Arcano a 6, Marca del cazador a 6, Tiro de puntería a 20, Multidisparo a 18 y Fuego rápido a 26. Golpe de raptor está desde 1 y Mordedura de mangosta a 16, útiles si peleas en melé. Lluvia llega a 40 y sustituye a la rotación de área primitiva. Sube los rangos nuevos cuando puedas, sobre todo los de tus habilidades principales.",
+      "text_en": "While leveling, gold does not cover every ability, so prioritize the ones that deal damage. Train Serpent Sting at 4, Arcane Shot at 6, Hunter's Mark at 6, Aimed Shot at 20, Multi-Shot at 18 and Rapid Fire at 26. Raptor Strike is available from 1 and Mongoose Bite at 16, useful if you fight in melee. Volley arrives at 40 and replaces the primitive area rotation. Buy new ranks when you can, especially for your main abilities.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Beast Mastery Hunter",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Beast Mastery Hunter DPS in Burning Crusade",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:beast-mastery:leveling"
+      ],
+      "source_hashes": [
+        "section:0275e11aa0bb192e3422bf1dfe5fc95ae64684a0",
+        "section:5f4b7821e0aa6e0f194924a2ec964f58e3b53bd0"
+      ]
+    },
+    {
+      "id": "clase-hunter-habilidades-control",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades de control y supervivencia",
+      "title_en": "Control and Survival Abilities",
+      "summary_es": "Disparo de concusión, Cortar alas, Aspecto del guepardo, trampas, Sanar mascota y Fingir muerte salvan la subida.",
+      "summary_en": "Concussive Shot, Wing Clip, Aspect of the Cheetah, traps, Mend Pet and Feign Death save the leveling run.",
+      "keywords_es": [
+        "habilidades de control cazador",
+        "disparo de concusión",
+        "cortar alas",
+        "trampas para subir",
+        "fingir muerte"
+      ],
+      "keywords_en": [
+        "hunter control abilities",
+        "concussive shot",
+        "wing clip",
+        "leveling traps",
+        "feign death"
+      ],
+      "text_es": "Además del daño, entrena las habilidades que te sacan de apuros: Disparo de concusión a 8, Cortar alas a 12, Aspecto del guepardo a 20, Trampa de inmolación a 16, Trampa congelante a 20, Trampa de Escarcha a 28 y Fingir muerte a 30. Sanar mascota a 12 mantiene vivo al compañero, y Aspecto del halcón a 10 es el buff de daño. Trampa explosiva llega a 34 y añade área. Fingir muerte también sirve para reiniciar un combate que se tuerce.",
+      "text_en": "Beyond damage, train the abilities that get you out of trouble: Concussive Shot at 8, Wing Clip at 12, Aspect of the Cheetah at 20, Immolation Trap at 16, Freezing Trap at 20, Frost Trap at 28 and Feign Death at 30. Mend Pet at 12 keeps the companion alive, and Aspect of the Hawk at 10 is the damage buff. Explosive Trap arrives at 34 and adds area damage. Feign Death also resets a fight that goes wrong.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Beast Mastery Hunter",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Beast Mastery Hunter Leveling Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Utility and Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:beast-mastery:leveling"
+      ],
+      "source_hashes": [
+        "section:5f4b7821e0aa6e0f194924a2ec964f58e3b53bd0",
+        "section:ab3d94029b44d479525d929a20e0744a93a697ba",
+        "section:c6da153dc5599024b096fd97b07e326182df761e"
+      ]
+    },
+    {
+      "id": "clase-hunter-habilidades-opcionales",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades opcionales para ahorrar oro",
+      "title_en": "Optional Abilities to Save Gold",
+      "summary_es": "Rastrear bestias y humanoides, Aspecto del mono, Ojo de águila y Bengala son útiles pero se pueden saltar.",
+      "summary_en": "Track Beasts and Humanoids, Aspect of the Monkey, Eagle Eye and Flare are useful but skippable.",
+      "keywords_es": [
+        "habilidades opcionales cazador",
+        "rastrear bestias",
+        "aspecto del mono",
+        "ojo de águila",
+        "bengala"
+      ],
+      "keywords_en": [
+        "optional hunter abilities",
+        "track beasts",
+        "aspect of the monkey",
+        "eagle eye",
+        "flare"
+      ],
+      "text_es": "Algunas habilidades son útiles pero se pueden saltar para ahorrar oro. Rastrear bestias a 1, Aspecto del mono a 4, Rastrear humanoides a 10, Ojo de águila a 14 y Bengala a 32. Rastrear bestias y humanoides ayuda a encontrar objetivos o evitar enemigos en el minimapa; la esquiva de Aspecto del mono sirve al pelear en melé y Ojo de águila permite explorar a distancia. Bengala revela enemigos sigilosos o invisibles. Si el oro aprieta, estas son las últimas de la lista.",
+      "text_en": "Some abilities are useful but can be skipped to save gold. Track Beasts at 1, Aspect of the Monkey at 4, Track Humanoids at 10, Eagle Eye at 14 and Flare at 32. Tracking beasts and humanoids helps find targets or avoid enemies on the minimap; the dodge from Aspect of the Monkey helps in melee and Eagle Eye lets you scout at range. Flare reveals stealthed or invisible enemies. If gold is tight, these are the last on the list.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Optional Abilities to Train for Beast Mastery Hunter",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Utility and Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:beast-mastery:leveling"
+      ],
+      "source_hashes": [
+        "section:a8b0c719e08e81cde4d68d6ad79d8634e0309f8d",
+        "section:ab3d94029b44d479525d929a20e0744a93a697ba"
+      ]
+    },
+    {
+      "id": "clase-hunter-subida-pros-contras",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ventajas y desventajas de subir",
+      "title_en": "Leveling Pros and Cons",
+      "summary_es": "Mascota, kiting y ataques sin golpes parciales a favor; munición, felicidad y recuperación de la mascota en contra.",
+      "summary_en": "Pet, kiting and no glancing blows on ranged attacks for; ammo, happiness and pet recovery against.",
+      "keywords_es": [
+        "ventajas de subir cazador",
+        "desventajas cazador",
+        "mascota tanque",
+        "munición cazador",
+        "kiting cazador"
+      ],
+      "keywords_en": [
+        "hunter leveling pros",
+        "hunter leveling cons",
+        "pet tank",
+        "hunter ammo",
+        "hunter kiting"
+      ],
+      "text_es": "Subir como Cazador es cómodo por la mascota, que tanquea y hace daño, y por el kiting con Disparo de concusión, Cortar alas y Trampa de Escarcha. Los ataques a distancia no tienen golpes parciales, así que puede con enemigos de más nivel, y Fingir muerte reinicia un combate. En contra, la munición ocupa bolsas y hay que reponerla; la mascota pierde felicidad y daño si no la alimentas, y si muere en combate toca Revivir mascota, alimentarla, curarla y recuperar maná. Aspecto del guepardo, desde 20, ayuda a moverse.",
+      "text_en": "Leveling as Hunter is comfortable thanks to the pet, which tanks and deals damage, and to kiting with Concussive Shot, Wing Clip and Frost Trap. Ranged attacks have no glancing blows, so Hunter can handle higher-level enemies, and Feign Death resets a fight. Against you, ammo fills bags and must be restocked; the pet loses happiness and damage if you do not feed it, and if it dies in combat you have to use Revive Pet, feed it, heal it and recover your mana. Aspect of the Cheetah, from 20, helps you move.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling Viability for Beast Mastery Hunter DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:beast-mastery:leveling"
+      ],
+      "source_hashes": [
+        "section:fedb23334c5f8da252d669c1ea5ee868b4cb2290"
+      ]
+    },
+    {
+      "id": "clase-hunter-subida-profesiones",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Profesiones para subir",
+      "title_en": "Leveling Professions",
+      "summary_es": "Desuello y Peletería se aprovechan de las bestias que matas; Ingeniería no conviene mientras subes.",
+      "summary_en": "Skinning and Leatherworking make use of the beasts you kill; Engineering is not worth it while leveling.",
+      "keywords_es": [
+        "profesiones para subir cazador",
+        "desuello y peletería",
+        "peletería cazador",
+        "ingeniería cazador",
+        "fabricar equipo"
+      ],
+      "keywords_en": [
+        "hunter leveling professions",
+        "skinning and leatherworking",
+        "leatherworking hunter",
+        "hunter engineering",
+        "craft gear"
+      ],
+      "text_es": "Para subir, Desuello y Peletería son la combinación natural: matas muchas bestias, las desuellas y usas el cuero para fabricar equipo. Peletería tiene piezas azules que solo puede usar quien las fabrica, como Botas de cuero oscuro y Cinturón de cuero de trampero, fuertes para su nivel, y cada pocos niveles puedes hacer algo útil. Ingeniería no se recomienda mientras subes porque obliga a combinarla con Minería; mejor cambiar Desuello por Ingeniería más adelante, cuando tengas oro para comprar los materiales.",
+      "text_en": "For leveling, Skinning and Leatherworking are the natural pair: you kill many beasts, skin them and use the leather to craft gear. Leatherworking has blue pieces only the crafter can use, such as Dark Leather Boots and Trapper's Leather Belt, strong for their level, and every few levels you can make something useful. Engineering is not recommended while leveling because it basically requires Mining; replace Skinning later, once you have the gold to buy the materials.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Best Leveling Professions for Beast Mastery Hunter DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:beast-mastery:leveling"
+      ],
+      "source_hashes": [
+        "section:54b9331918bbf0426965a40ed5b1a2c5cbd9da54"
+      ]
+    },
+    {
+      "id": "clase-hunter-subida-consumibles",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consumibles para subir",
+      "title_en": "Leveling Consumables",
+      "summary_es": "Vendas de Primeros auxilios, complementos de Peletería, comida con 5% de experiencia, pociones y elixires.",
+      "summary_en": "First Aid bandages, Leatherworking armor kits, food with 5% experience, potions and elixirs.",
+      "keywords_es": [
+        "consumibles para subir cazador",
+        "vendas primeros auxilios",
+        "comida 5% experiencia",
+        "pociones de curación",
+        "elixires"
+      ],
+      "keywords_en": [
+        "hunter leveling consumables",
+        "first aid bandages",
+        "food 5% experience",
+        "healing potions",
+        "elixirs"
+      ],
+      "text_es": "Guarda la tela para Primeros auxilios y fabrica vendas cuando estés en una ciudad; sirven para curarte sin gastar maná. Si eres Peletero, usa el Complemento para armadura ligera y otros mejores en el equipo nuevo. Algunas comidas de vendedor o Cocina dan un 5% más de experiencia por enemigo, y conviene que además den poder de ataque o agilidad. Lleva siempre comida y bebida, una Poción de curación menor y otras mejores, y los elixires que salgan de misiones para usarlos en mazmorras.",
+      "text_en": "Keep cloth for First Aid and make bandages whenever you are in a city; they heal you without spending mana. If you are a Leatherworker, use Light Armor Kit and better on your new gear. Some vendor or Cooking food gives 5% more experience from enemies, and it is better if it also gives attack power or agility. Always carry food and drink, a Minor Healing Potion and better, and the elixirs that come from quests to use in dungeons.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Best Leveling Consumables for Beast Mastery Hunter DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:beast-mastery:leveling"
+      ],
+      "source_hashes": [
+        "section:878be44ee250cc8a4e76a887e7c443c2135715b2"
+      ]
+    },
+    {
+      "id": "clase-hunter-subida-legado",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Puntos Legacy para subir",
+      "title_en": "Legacy Points for Leveling",
+      "summary_es": "Cosecha generosa para oro; Emoción de la aventura y Talentoso para aguantar; Gastronomía para la comida de experiencia.",
+      "summary_en": "Bountiful Harvest for gold; Thrill of Adventure and Talented for endurance; Gourmand for the experience food.",
+      "keywords_es": [
+        "puntos legacy cazador",
+        "cosecha generosa",
+        "emoción de la aventura",
+        "talentoso",
+        "gastronomía"
+      ],
+      "keywords_en": [
+        "hunter legacy points",
+        "bountiful harvest",
+        "thrill of adventure",
+        "talented",
+        "gourmand"
+      ],
+      "text_es": "Los puntos Legacy te dan varias opciones según lo que busques. Cosecha generosa aumenta la probabilidad de encontrar materiales raros al desollar, así que sirve para ganar algo más de oro mientras subes. Emoción de la aventura y Talentoso aumentan tu aguante y tu fuerza en el campo, lo que hace la subida más rápida y fácil. Gastronomía ayuda a optimizar la duración del buff de experiencia de la comida. Elige según tu objetivo: oro, comodidad o experiencia.",
+      "text_en": "Legacy points give you several options depending on your goal. Bountiful Harvest increases the chance of finding rare materials while skinning, so it helps earn a little extra gold while leveling. Thrill of Adventure and Talented increase your longevity and strength in the field, making leveling faster and easier. Gourmand helps optimize the duration of the experience food buff. Choose by your goal: gold, comfort or experience.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Best use of Legacy Points for Beast Mastery Hunter DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:beast-mastery:leveling"
+      ],
+      "source_hashes": [
+        "section:2192c46f3aa588e05c1b7a044a34b167a31e8301"
       ]
     }
   ]
