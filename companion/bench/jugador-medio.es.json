@@ -1,0 +1,368 @@
+{
+  "default_ctx": {
+    "lvl": 25,
+    "race": "Humano",
+    "class": "Cazador",
+    "fac": "Alianza",
+    "zone": "Páramos de Poniente"
+  },
+  "questions": [
+    {
+      "id": "p01",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué rama de talentos me conviene para levear con el cazador?",
+      "notes": "Dominio de bestias para subir en solitario, con el porqué."
+    },
+    {
+      "id": "p02",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué talentos cojo ahora que soy nivel 25?",
+      "notes": "ruta de talentos por tramos (10-20, 20-30) con nombres concretos."
+    },
+    {
+      "id": "p03",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué hace Invocar halcón?",
+      "notes": "efecto exacto, rama, puntos requeridos (base de datos)."
+    },
+    {
+      "id": "p04",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Cuántos puntos necesito en Dominio de bestias para Ira de bestias?",
+      "notes": "puntos requeridos en la rama (base de datos)."
+    },
+    {
+      "id": "p05",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué talentos son nuevos para el cazador en Forever?",
+      "notes": "lista de talentos nuevos por rama."
+    },
+    {
+      "id": "p06",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Se pueden reiniciar los talentos? ¿Cuánto cuesta?",
+      "notes": "si no hay dato, decirlo sin inventar el precio."
+    },
+    {
+      "id": "p07",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Hay doble especialización en Forever?",
+      "notes": "solo si hay dato; no afirmar ni negar sin fuente."
+    },
+    {
+      "id": "p08",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "Soy guerrero nivel 20, ¿armas o furia para subir?",
+      "notes": "recomendación con motivo de la guía del guerrero.",
+      "ctx": {
+        "lvl": 20,
+        "race": "Humano",
+        "class": "Guerrero",
+        "fac": "Alianza",
+        "zone": "Páramos de Poniente"
+      }
+    },
+    {
+      "id": "p09",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué estadísticas tengo que buscar en el equipo como cazador?",
+      "notes": "prioridad de estadísticas de su especialización."
+    },
+    {
+      "id": "p10",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "Mi mascota se pone a pegar a todo y me quita la aggro, ¿cómo lo controlo?",
+      "notes": "control de mascota (atacar antes, pasivo/defensivo, Fingir muerte)."
+    },
+    {
+      "id": "p11",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué mascota me pillo para mazmorras?",
+      "notes": "recomendación con motivo; si la guía no habla de mazmorras, decirlo."
+    },
+    {
+      "id": "p12",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Cómo enseño a mi mascota rangos nuevos de Zarpa?",
+      "notes": "domesticar una bestia que ya tenga ese rango y usarla hasta aprenderlo."
+    },
+    {
+      "id": "p13",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Dónde está el instructor de cazadores en Ventormenta?",
+      "notes": "PNJ con coordenadas (base de datos)."
+    },
+    {
+      "id": "p14",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué armas puede usar un cazador?",
+      "notes": "armas y armadura de la clase."
+    },
+    {
+      "id": "p15",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Dónde entrego la misión del diario de Theocritus?",
+      "notes": "PNJ de entrega de su facción con coordenadas."
+    },
+    {
+      "id": "p16",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "No encuentro a quien me da la misión Stepping Stones",
+      "notes": "dónde se coge según facción, con coordenadas."
+    },
+    {
+      "id": "p17",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué misiones hay en Páramos de Poniente para mi nivel?",
+      "notes": "misiones de la zona o decir que no tiene la lista."
+    },
+    {
+      "id": "p18",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Quién suelta las cabezas que me piden en la misión de los Defias?",
+      "notes": "botín de la misión desde la base; si es ambigua, preguntar cuál."
+    },
+    {
+      "id": "p19",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Merece la pena hacer la cadena del saco de dormir?",
+      "notes": "qué da (Bien descansado, +1 % por carga, hasta 3 %) y desde qué nivel."
+    },
+    {
+      "id": "p20",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Dónde está Hogger?",
+      "notes": "PNJ con zona y coordenadas."
+    },
+    {
+      "id": "p21",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué misión de clase tengo a nivel 20?",
+      "notes": "si no hay misión de clase a ese nivel, decirlo."
+    },
+    {
+      "id": "p22",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Cómo voy de Páramos de Poniente a Forjaz?",
+      "notes": "ruta paso a paso de la base (vuelo, tranvía…), sin inventar atajos."
+    },
+    {
+      "id": "p23",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Dónde pillo el barco para Kalimdor?",
+      "notes": "puerto y destino desde los datos de transporte."
+    },
+    {
+      "id": "p24",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿A qué zona voy ahora con nivel 25?",
+      "notes": "zonas de su nivel y facción, sin zonas de la Horda."
+    },
+    {
+      "id": "p25",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué es Riverglades y a qué nivel se va?",
+      "notes": "zona nueva, mediados de 30 a mediados de 40, muchas misiones nuevas."
+    },
+    {
+      "id": "p26",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Dónde está el maestro de vuelo de Páramos de Poniente?",
+      "notes": "PNJ de vuelo con coordenadas."
+    },
+    {
+      "id": "p27",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Cuándo puedo tener montura y cuánto me va a costar?",
+      "notes": "nivel 40, unos 100 de oro con el entrenamiento."
+    },
+    {
+      "id": "p28",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué mazmorras puedo hacer con nivel 25?",
+      "notes": "mazmorras de su rango y facción con niveles."
+    },
+    {
+      "id": "p29",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Dónde está la entrada de las Minas de la Muerte?",
+      "notes": "zona y coordenadas de la entrada."
+    },
+    {
+      "id": "p30",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué jefes tiene el Castillo de Colmillo Oscuro?",
+      "notes": "lista de jefes desde la base."
+    },
+    {
+      "id": "p31",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué es el Salón de los Feudales y para qué nivel es?",
+      "notes": "mazmorra nueva, rango 13-20, dónde está."
+    },
+    {
+      "id": "p32",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Hay misiones para las Cuevas de los Lamentos? ¿Las cojo antes de entrar?",
+      "notes": "misiones de la mazmorra y dónde se cogen, o decir que no tiene la lista."
+    },
+    {
+      "id": "p33",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Cómo funciona el buscador de mazmorras?",
+      "notes": "texto oficial (botón del ojo, colas)."
+    },
+    {
+      "id": "p34",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué me cae en la Excavación de los Humedales que sirva para cazador?",
+      "notes": "botín si hay datos; si no, decirlo sin inventar objetos."
+    },
+    {
+      "id": "p35",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué profesiones me recomiendas para un cazador?",
+      "notes": "recomendación con motivo (p. ej., Ingeniería para armas de fuego y munición)."
+    },
+    {
+      "id": "p36",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Dónde subo minería en Páramos de Poniente?",
+      "notes": "menas de la zona si hay datos; si no, decirlo."
+    },
+    {
+      "id": "p37",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué diferencia hay entre ingeniería goblin y gnómica?",
+      "notes": "elección a nivel 30 y 200 de habilidad, recetas distintas."
+    },
+    {
+      "id": "p38",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Dónde aprendo primeros auxilios en Ventormenta?",
+      "notes": "instructor con coordenadas."
+    },
+    {
+      "id": "p39",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Las pociones de curación las hace el alquimista?",
+      "notes": "en Forever las de curación habituales son de Primeros auxilios."
+    },
+    {
+      "id": "p40",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Para qué sirven los campamentos y qué pone cada profesión?",
+      "notes": "hogueras, características de profesión, ventajas."
+    },
+    {
+      "id": "p41",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué raza es mejor para pícaro?",
+      "notes": "razas que pueden ser pícaro y raciales útiles; sin inventar clasificaciones."
+    },
+    {
+      "id": "p42",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué tengo que hacer para conseguir puntos Legacy?",
+      "notes": "desafíos por categorías, primer punto a nivel 25."
+    },
+    {
+      "id": "p43",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿En qué gasto mis puntos Legacy?",
+      "notes": "tres árboles, 16 puntos por personaje, ejemplos de ventajas."
+    },
+    {
+      "id": "p44",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué es la transfiguración y dónde se activa?",
+      "notes": "PNJ en ciudad principal, desactivada al empezar."
+    },
+    {
+      "id": "p45",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Cuándo sale Onyxia y qué más bandas hay?",
+      "notes": "9 de diciembre, tres bandas para nivel 60."
+    },
+    {
+      "id": "p46",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Cómo gano oro rápido siendo nivel 25?",
+      "notes": "solo consejos con fuente; sin inventar métodos."
+    },
+    {
+      "id": "p47",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Dónde está la casa de subastas de Forjaz?",
+      "notes": "subastadores con coordenadas."
+    },
+    {
+      "id": "p48",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué significa que un objeto sea «ligado al equiparlo»?",
+      "notes": "texto oficial si existe."
+    },
+    {
+      "id": "p49",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Cómo entro en una hermandad?",
+      "notes": "texto oficial o decir que no tiene el dato."
+    },
+    {
+      "id": "p50",
+      "category": "jugador-medio",
+      "lang": "esES",
+      "q": "¿Qué hago si estoy atascado en un sitio y no puedo salir?",
+      "notes": "piedra de hogar / ayuda; sin inventar comandos."
+    }
+  ]
+}
