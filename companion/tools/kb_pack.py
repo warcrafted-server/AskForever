@@ -57,7 +57,9 @@ def main(argv: Optional[list[str]] = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument('--corpus', type=Path, default=DEFAULT_CORPUS)
     parser.add_argument('--topic', action='append', required=True, help='patrón LIKE de tema (repetible)')
-    parser.add_argument('--skip', default='', help='aspectos finales de tema que se omiten, separados por comas')
+    # Las guías de nivel 20 y 30 son de la beta y no se usan (decisión de Marc, 2026-11-16).
+    parser.add_argument('--skip', default='level20,level30',
+                        help='aspectos finales de tema que se omiten, separados por comas')
     parser.add_argument('--out', type=Path, required=True)
     parser.add_argument('--wowdb', type=Path, default=None, help='wow.sqlite de wowdata (nombres esES)')
     args = parser.parse_args(argv)

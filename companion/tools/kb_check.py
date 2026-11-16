@@ -88,6 +88,14 @@ class Corpus:
         for guide_key, url in self.conn.execute('SELECT guide_key, url FROM guides'):
             self.by_url[_norm_url(url)] = guide_key
 
+    def excluded(self, source: dict) -> bool:
+        """True si la fuente es una guía de nivel 20 o 30 (beta, no se usa)."""
+        guide_key = self.by_url.get(_norm_url(source.get('url', '')))
+        if guide_key is None:
+            return False
+        row = self.conn.execute('SELECT topic FROM guides WHERE guide_key = ?', (guide_key,)).fetchone()
+        return bool(row) and row[0].rsplit(':', 1)[-1] in ('level20', 'level30')
+
     def source_text(self, source: dict) -> str:
         guide_key = self.by_url.get(_norm_url(source.get('url', '')))
         if guide_key is None:
@@ -138,6 +146,9 @@ def _previous_cards(path: Path, rev: str) -> dict:
 def check_card(card: dict, corpus: Corpus, previous: Optional[dict],
                game: Optional['GameNames'] = None, official: Optional[OfficialNames] = None) -> list[str]:
     problems = []
+    beta = [s['ref'].split(' › ')[0] for s in card.get('sources', []) if corpus.excluded(s)]
+    if beta:
+        problems.append('cita guías de nivel 20/30 (beta, no se usan): ' + ', '.join(sorted(set(beta))))
     raw_source = '\n'.join(corpus.source_text(s) for s in card.get('sources', []))
     if official is not None:
         # Las builds solo vienen como enlaces al calculador: se descodifican para comprobar sus talentos.

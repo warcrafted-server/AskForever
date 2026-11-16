@@ -14,6 +14,8 @@ from urllib.parse import urlsplit
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 REPO_ROOT = Path(__file__).resolve().parents[2]
+# Aspectos de tema que no se usan: las guías de nivel 20 y 30 son de la beta.
+EXCLUDED_ASPECTS = {'level20', 'level30'}
 DEFAULT_CARDS = BASE_DIR / 'askforever' / 'data' / 'guide'
 DEFAULT_CORPUS = REPO_ROOT / '.agents' / 'corpus' / 'corpus.sqlite'
 DEFAULT_REPORT = REPO_ROOT / '.agents' / 'corpus' / 'fichas.md'
@@ -178,6 +180,9 @@ def run_status(cards_dir: Path, corpus_path: Path, report_path: Path,
     if 'guides' in locals():
         for guide in sorted(guides.values(), key=lambda item: item['guide_key']):
             if guide['source'] == 'wowhead' and not guide.get('superseded_by'):
+                # Las guías de nivel 20 y 30 son de la beta: no se usan (decisión de Marc, 2026-11-16).
+                if guide['topic'].rsplit(':', 1)[-1] in EXCLUDED_ASPECTS:
+                    continue
                 if guide['topic'] not in covered:
                     uncovered.append(guide['topic'])
     _write_report(report_path, cards, all_links, stale, superseded,
