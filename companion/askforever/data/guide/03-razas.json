@@ -33,7 +33,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:race-guide"
+      ],
+      "source_hashes": [
+        "section:5da04ca614262d7cda3f620791c0523a30522390"
+      ]
     },
     {
       "id": "raza-cuatro-raciales",
@@ -67,7 +73,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:race-guide"
+      ],
+      "source_hashes": [
+        "section:f2da73fac16cad75ab3660922e4d5bf6220abd3f"
+      ]
     },
     {
       "id": "raza-tier-list",
@@ -101,7 +113,13 @@
           "date": "2026-11-02"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "tierlist:racial-tier-list"
+      ],
+      "source_hashes": [
+        "section:52cba943dd96342be7218d4ca0e5701d53364733"
+      ]
     },
     {
       "id": "raza-humano-clases",
@@ -138,7 +156,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:human"
+      ],
+      "source_hashes": [
+        "section:8524b7bb77638cd2258001d168152fafb6885a1a"
+      ]
     },
     {
       "id": "raza-humano-raciales",
@@ -175,7 +199,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:human"
+      ],
+      "source_hashes": [
+        "section:3008fd7e02b785d2ffbc8b3e4f5358d6e69b4a6e"
+      ]
     },
     {
       "id": "raza-humano-historia",
@@ -212,7 +242,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:human"
+      ],
+      "source_hashes": [
+        "section:f2c52e098846e062e64098d50d5621f93687f3b6"
+      ]
     },
     {
       "id": "raza-enano-clases",
@@ -249,7 +285,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:dwarf"
+      ],
+      "source_hashes": [
+        "section:5e158dccff9a94f229d6bb7dfc74675d6b4e52ee"
+      ]
     },
     {
       "id": "raza-enano-raciales",
@@ -286,7 +328,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:dwarf"
+      ],
+      "source_hashes": [
+        "section:00c52f86316357289184e17a53e477b1cfc48b32"
+      ]
     },
     {
       "id": "raza-enano-historia",
@@ -323,7 +371,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:dwarf"
+      ],
+      "source_hashes": [
+        "section:c301631f15c61db4072741d41c89ab97f0de6641"
+      ]
     },
     {
       "id": "raza-elfo-noche-clases",
@@ -360,7 +414,13 @@
           "date": "2026-10-18"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:night-elf"
+      ],
+      "source_hashes": [
+        "section:452c5e3ceb282228f55cec1963e15c846d53a2ce"
+      ]
     },
     {
       "id": "raza-elfo-noche-raciales",
@@ -397,7 +457,13 @@
           "date": "2026-10-18"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:night-elf"
+      ],
+      "source_hashes": [
+        "section:fab8129825996083246e05a2cef4e07f637e649f"
+      ]
     },
     {
       "id": "raza-elfo-noche-historia",
@@ -434,7 +500,13 @@
           "date": "2026-10-18"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:night-elf"
+      ],
+      "source_hashes": [
+        "section:0614b5d69e0b2ad9e58768fb80817f3186f809eb"
+      ]
     },
     {
       "id": "raza-gnomo-clases",
@@ -471,7 +543,13 @@
           "date": "2026-10-18"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:gnome"
+      ],
+      "source_hashes": [
+        "section:6e110282917cf7d9acad37ccbd3e4ede7870bde6"
+      ]
     },
     {
       "id": "raza-gnomo-raciales",
@@ -514,7 +592,15 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:gnome",
+        "race:race-guide"
+      ],
+      "source_hashes": [
+        "section:dbf8e47c4dd91013dbf90f5a2dd0fcec04dda184",
+        "section:e923fc85be62b80491a763389817c25f1652ee59"
+      ]
     },
     {
       "id": "raza-gnomo-historia",
@@ -551,7 +637,13 @@
           "date": "2026-10-18"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:gnome"
+      ],
+      "source_hashes": [
+        "section:27289477c74268eb4cd40c5ef53ff64d8e9bc8da"
+      ]
     },
     {
       "id": "raza-orco-clases",
@@ -588,7 +680,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:orc"
+      ],
+      "source_hashes": [
+        "section:a6771904885b9fe3b452d35f7741188a87aa14e5"
+      ]
     },
     {
       "id": "raza-orco-raciales",
@@ -625,7 +723,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:orc"
+      ],
+      "source_hashes": [
+        "section:5177cf2497d9cb77a351833263ff4bb6446718e5"
+      ]
     },
     {
       "id": "raza-orco-historia",
@@ -662,7 +766,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:orc"
+      ],
+      "source_hashes": [
+        "section:62297477f24fbb0a35aa94640fbe9e75e77610bd"
+      ]
     },
     {
       "id": "raza-no-muerto-clases",
@@ -699,7 +809,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:undead"
+      ],
+      "source_hashes": [
+        "section:055ed1bfa42c3c5f124266e15c3c21448eb42070"
+      ]
     },
     {
       "id": "raza-no-muerto-raciales",
@@ -736,7 +852,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:undead"
+      ],
+      "source_hashes": [
+        "section:c1c84c696afda9794896eebfe6141f45560de686"
+      ]
     },
     {
       "id": "raza-no-muerto-historia",
@@ -773,7 +895,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:undead"
+      ],
+      "source_hashes": [
+        "section:6f29532a2377394250bb8bc5dd0d001a0e595b36"
+      ]
     },
     {
       "id": "raza-tauren-clases",
@@ -810,7 +938,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:tauren"
+      ],
+      "source_hashes": [
+        "section:deefbacf91065fb8774a23ff1ad88314cfec3e3d"
+      ]
     },
     {
       "id": "raza-tauren-raciales",
@@ -847,7 +981,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:tauren"
+      ],
+      "source_hashes": [
+        "section:79a28a8e9a7f0a3ec6582402647d7f64fb05b1dc"
+      ]
     },
     {
       "id": "raza-tauren-historia",
@@ -884,7 +1024,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:tauren"
+      ],
+      "source_hashes": [
+        "section:7cd33755e39bbbbf55772a59fe3d061457cf135a"
+      ]
     },
     {
       "id": "raza-trol-clases",
@@ -921,7 +1067,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:troll"
+      ],
+      "source_hashes": [
+        "section:ca22870f2f31e67b44e57dd947c6efb44a00c16f"
+      ]
     },
     {
       "id": "raza-trol-raciales",
@@ -958,7 +1110,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:troll"
+      ],
+      "source_hashes": [
+        "section:42010b7c5fba7767524f53168b9f7d4b0915a688"
+      ]
     },
     {
       "id": "raza-trol-historia",
@@ -995,7 +1153,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:troll"
+      ],
+      "source_hashes": [
+        "section:5a756e28edb67f3df8e3588341922e4295754f1e"
+      ]
     },
     {
       "id": "raza-cielonato-facciones-clases",
@@ -1032,7 +1196,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:skyborne"
+      ],
+      "source_hashes": [
+        "section:2946ea95404b170eea85e689d15287fab2e8559e"
+      ]
     },
     {
       "id": "raza-cielonato-raciales",
@@ -1069,7 +1239,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:skyborne"
+      ],
+      "source_hashes": [
+        "section:85bd5d0cd1ae70bfa155f13bbe04e1bec1e8e0e6"
+      ]
     },
     {
       "id": "raza-cielonato-historia",
@@ -1106,7 +1282,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "race:skyborne"
+      ],
+      "source_hashes": [
+        "section:d67f6b967abfb22534872cba3a19af1049b6476b"
+      ]
     }
   ]
 }

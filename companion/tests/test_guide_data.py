@@ -89,6 +89,17 @@ def test_chapter_file_schema(path):
             assert isinstance(tags, list), (section['id'], 'tags')
             assert all(isinstance(tag, str) and tag in ALLOWED_TAGS
                        for tag in tags), (section['id'], tags)
+        topics = section.get('topics')
+        if topics is not None:
+            assert isinstance(topics, list), (section['id'], 'topics')
+            assert all(isinstance(topic, str) and topic.strip()
+                       for topic in topics), (section['id'], topics)
+        source_hashes = section.get('source_hashes')
+        if source_hashes is not None:
+            assert isinstance(source_hashes, list), (section['id'], 'source_hashes')
+            assert all(isinstance(item, str) and (
+                item.startswith('section:') or item.startswith('guide:'))
+                for item in source_hashes), (section['id'], source_hashes)
 
 
 def _assert_sources(section):

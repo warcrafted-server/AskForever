@@ -33,7 +33,13 @@
           "date": "2026-09-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:wow-forever-subscription"
+      ],
+      "source_hashes": [
+        "section:4d62ed83c01e17257e453255ccfdaf180f9273a7"
+      ]
     },
     {
       "id": "general-instalacion",
@@ -67,7 +73,13 @@
           "date": "2026-09-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:wow-forever-subscription"
+      ],
+      "source_hashes": [
+        "section:caac0f68af6891c8f59369b4f6aadd4862626204"
+      ]
     },
     {
       "id": "general-cuentas",
@@ -101,7 +113,13 @@
           "date": "2026-09-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:wow-forever-subscription"
+      ],
+      "source_hashes": [
+        "section:c12ce78a04db2003939fb515967819a8b4a16cea"
+      ]
     },
     {
       "id": "general-ediciones",
@@ -135,7 +153,13 @@
           "date": "2026-09-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:wow-forever-pre-orders"
+      ],
+      "source_hashes": [
+        "section:a87a78ab96319aa8736862a6652e943ae9b98c1e"
+      ]
     },
     {
       "id": "general-reserva-nombres",
@@ -169,7 +193,13 @@
           "date": "2026-09-18"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:name-reservation"
+      ],
+      "source_hashes": [
+        "section:a5e50d3b07d32b9f46331fae5978b3ae32483ec7"
+      ]
     },
     {
       "id": "general-apellidos",
@@ -203,7 +233,13 @@
           "date": "2026-09-20"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:surnames"
+      ],
+      "source_hashes": [
+        "section:6a3bc667117d20a5aa782ae2075c9f66922a3e20"
+      ]
     },
     {
       "id": "general-graficos",
@@ -237,7 +273,13 @@
           "date": "2026-09-21"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:graphics-options-and-mode"
+      ],
+      "source_hashes": [
+        "section:31da9b771f06c5a20c8db6bfb2dda8e60b29cebe"
+      ]
     },
     {
       "id": "general-mando",
@@ -271,7 +313,13 @@
           "date": "2026-09-21"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:playing-with-controller"
+      ],
+      "source_hashes": [
+        "section:0008fa5ca0c263903c2f1ccac77163ddcfc195b3"
+      ]
     },
     {
       "id": "general-reglas",
@@ -311,7 +359,15 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:pvp",
+        "general:realms"
+      ],
+      "source_hashes": [
+        "section:2b928557a2f1139d5ec137ff0204a1126268b3c5",
+        "section:b4a91d0ad5d6c4b593c2d3da243cbe53b00515e6"
+      ]
     },
     {
       "id": "general-hardcore",
@@ -345,7 +401,13 @@
           "date": "2026-09-18"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:realms"
+      ],
+      "source_hashes": [
+        "section:631e9591b6e656ece035e73a4d4fc0f33736c9d2"
+      ]
     },
     {
       "id": "general-pvp-mundo",
@@ -379,7 +441,13 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "section:765a5ee3b6901c3251038dec754a9e019e81b081"
+      ]
     },
     {
       "id": "general-campos-batalla",
@@ -413,7 +481,13 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "section:250e3b8babb410e16eace92d1ce7998e5ca26fce"
+      ]
     },
     {
       "id": "general-roadmap",
@@ -447,7 +521,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:roadmap"
+      ],
+      "source_hashes": [
+        "section:e766e4adbc3a089c6ef33752043e5c0af4a391fe"
+      ]
     },
     {
       "id": "general-campamento",
@@ -481,7 +561,13 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:camping"
+      ],
+      "source_hashes": [
+        "section:d060b84606bee81051903c1ab2b456ba0618ce24"
+      ]
     },
     {
       "id": "general-hogueras",
@@ -515,7 +601,13 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:camping"
+      ],
+      "source_hashes": [
+        "section:2901c299b1a897ab45d63353a796c51cd3dc41e3"
+      ]
     },
     {
       "id": "general-saco-dormir",
@@ -549,7 +641,13 @@
           "date": "2026-10-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:sleeping-bag"
+      ],
+      "source_hashes": [
+        "section:f00299740226cde99fcafb72e408041631900f8d"
+      ]
     },
     {
       "id": "general-saco-dormir-inicio",
@@ -583,7 +681,13 @@
           "date": "2026-10-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:sleeping-bag"
+      ],
+      "source_hashes": [
+        "section:9e8a84e4baf38dd6baa0bbc6ae3b1be325db86eb"
+      ]
     },
     {
       "id": "general-saco-dormir-pasos",
@@ -619,7 +723,13 @@
           "date": "2026-10-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:sleeping-bag"
+      ],
+      "source_hashes": [
+        "section:9e8a84e4baf38dd6baa0bbc6ae3b1be325db86eb"
+      ]
     },
     {
       "id": "general-saco-dormir-final",
@@ -655,7 +765,13 @@
           "date": "2026-10-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:sleeping-bag"
+      ],
+      "source_hashes": [
+        "section:9e8a84e4baf38dd6baa0bbc6ae3b1be325db86eb"
+      ]
     },
     {
       "id": "general-transmog",
@@ -689,7 +805,13 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:transmog-system"
+      ],
+      "source_hashes": [
+        "section:8e28dc3da32f6d39ea43c18d16cb8299387a047d"
+      ]
     },
     {
       "id": "general-transmog-trajes",
@@ -723,7 +845,13 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:transmog-system"
+      ],
+      "source_hashes": [
+        "section:bac3a2162b3f8d377367785aac7442aa72059016"
+      ]
     },
     {
       "id": "general-colecciones",
@@ -757,7 +885,13 @@
           "date": "2026-09-21"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:collectible-items"
+      ],
+      "source_hashes": [
+        "section:4c1437c0f0ba9951f9c724a8f0b0a05007677b88"
+      ]
     },
     {
       "id": "general-elegir-clase",
@@ -791,7 +925,13 @@
           "date": "2026-10-15"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:choosing-your-main"
+      ],
+      "source_hashes": [
+        "section:bc12ddbcba31b0b04092b80a51e7a5e1808b5451"
+      ]
     },
     {
       "id": "general-zonas-niveles",
@@ -825,7 +965,13 @@
           "date": "2026-09-21"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:zones-and-maps"
+      ],
+      "source_hashes": [
+        "section:796b92621cd12232458105789c7d935365146709"
+      ]
     }
   ]
 }

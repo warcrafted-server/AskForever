@@ -33,7 +33,13 @@
           "date": "2026-11-11"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:dungeons-overview"
+      ],
+      "source_hashes": [
+        "section:1af863846ee4e5073a1a5c8fcfdb1da5df54711e"
+      ]
     },
     {
       "id": "mazmorra-preparacion",
@@ -73,7 +79,15 @@
           "date": "2026-09-29"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:_all:quests",
+        "general:dungeons-overview"
+      ],
+      "source_hashes": [
+        "section:1af863846ee4e5073a1a5c8fcfdb1da5df54711e",
+        "section:e76f11c30e94831320711c72cc9d99bffddac614"
+      ]
     },
     {
       "id": "mazmorra-nuevas",
@@ -131,7 +145,21 @@
           "date": "2026-10-18"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:city-of-dalaran",
+        "dungeon:excavation-site-wetlands",
+        "dungeon:hall-of-thanes",
+        "dungeon:ruins-of-lordaeron",
+        "general:dungeons-overview"
+      ],
+      "source_hashes": [
+        "section:0c7a211d76d1a1446a621ab4018ce536ed112140",
+        "section:1af863846ee4e5073a1a5c8fcfdb1da5df54711e",
+        "section:7a47df7d0060d3601a6b5005bff48a17aaffeeea",
+        "section:910464856e8952d442ccfa0678f13b02c1384434",
+        "section:99bc604b3049eba46b7d0de7d49c07f9d50b60f4"
+      ]
     },
     {
       "id": "mazmorra-ragefire-entrada",
@@ -165,7 +193,13 @@
           "date": "2026-10-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:ragefire-chasm"
+      ],
+      "source_hashes": [
+        "section:9c67f2c650b13ca2301a2257dad3123941718c02"
+      ]
     },
     {
       "id": "mazmorra-ragefire-misiones",
@@ -199,7 +233,13 @@
           "date": "2026-09-29"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:_all:quests"
+      ],
+      "source_hashes": [
+        "section:e76f11c30e94831320711c72cc9d99bffddac614"
+      ]
     },
     {
       "id": "mazmorra-hall-entrada",
@@ -233,7 +273,13 @@
           "date": "2026-10-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:hall-of-thanes"
+      ],
+      "source_hashes": [
+        "section:910464856e8952d442ccfa0678f13b02c1384434"
+      ]
     },
     {
       "id": "mazmorra-hall-misiones",
@@ -267,7 +313,13 @@
           "date": "2026-09-30"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:_all:quests"
+      ],
+      "source_hashes": [
+        "section:8e8c09d8bbef981b9a17dea1fabb25c2a1984084"
+      ]
     },
     {
       "id": "mazmorra-ruinas-entrada",
@@ -301,7 +353,13 @@
           "date": "2026-10-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:ruins-of-lordaeron"
+      ],
+      "source_hashes": [
+        "section:7a47df7d0060d3601a6b5005bff48a17aaffeeea"
+      ]
     },
     {
       "id": "mazmorra-ruinas-misiones",
@@ -335,7 +393,13 @@
           "date": "2026-11-06"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:_all:quests"
+      ],
+      "source_hashes": [
+        "section:cd9b53916ba75af46f743780d88d7562b3e2b5ba"
+      ]
     },
     {
       "id": "mazmorra-wailing-entrada",
@@ -369,7 +433,13 @@
           "date": "2026-10-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:wailing-caverns"
+      ],
+      "source_hashes": [
+        "section:5699976e263c00974d32b423df210676029c50f2"
+      ]
     },
     {
       "id": "mazmorra-wailing-misiones",
@@ -403,7 +473,13 @@
           "date": "2026-09-30"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:_all:quests"
+      ],
+      "source_hashes": [
+        "section:a520f9e50ef23b46492e773bcda2e3fa2fc88a73"
+      ]
     },
     {
       "id": "mazmorra-deadmines-entrada",
@@ -437,7 +513,13 @@
           "date": "2026-10-18"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:deadmines"
+      ],
+      "source_hashes": [
+        "section:2aef6de33e03777d9a196558589e0b281d8c4f34"
+      ]
     },
     {
       "id": "mazmorra-deadmines-misiones",
@@ -471,7 +553,13 @@
           "date": "2026-09-30"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:_all:quests"
+      ],
+      "source_hashes": [
+        "section:46f766d3428620720471d43436b3af78b45347d8"
+      ]
     },
     {
       "id": "mazmorra-shadowfang-entrada",
@@ -505,7 +593,13 @@
           "date": "2026-10-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:shadowfang-keep"
+      ],
+      "source_hashes": [
+        "section:78fb4d87065f974a19cf22d7b670fe1c29d31f72"
+      ]
     },
     {
       "id": "mazmorra-shadowfang-misiones",
@@ -539,7 +633,13 @@
           "date": "2026-10-02"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:_all:quests"
+      ],
+      "source_hashes": [
+        "section:920cd23e3b796719874ffc64809d0f6e9a18976a"
+      ]
     },
     {
       "id": "mazmorra-blackfathom-entrada",
@@ -573,7 +673,13 @@
           "date": "2026-10-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:blackfathom-deeps"
+      ],
+      "source_hashes": [
+        "section:7d62d853de7a16590e58d90b21873016cc86c174"
+      ]
     },
     {
       "id": "mazmorra-blackfathom-misiones",
@@ -607,7 +713,13 @@
           "date": "2026-09-30"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:_all:quests"
+      ],
+      "source_hashes": [
+        "section:273e71abd4bd1a9c4222125fcd1d51570d0532d8"
+      ]
     },
     {
       "id": "mazmorra-stockade-entrada",
@@ -641,7 +753,13 @@
           "date": "2026-10-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:stockade"
+      ],
+      "source_hashes": [
+        "section:82f87eb291c49c70aaa917e96ae12e3baebaac03"
+      ]
     },
     {
       "id": "mazmorra-stockade-misiones",
@@ -675,7 +793,13 @@
           "date": "2026-09-30"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:_all:quests"
+      ],
+      "source_hashes": [
+        "section:3ceb3d06a3118887f13334a0cca4d91d2887af98"
+      ]
     },
     {
       "id": "mazmorra-excavation-entrada",
@@ -709,7 +833,13 @@
           "date": "2026-10-18"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:excavation-site-wetlands"
+      ],
+      "source_hashes": [
+        "section:0c7a211d76d1a1446a621ab4018ce536ed112140"
+      ]
     },
     {
       "id": "mazmorra-excavation-misiones",
@@ -743,7 +873,13 @@
           "date": "2026-10-02"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:_all:quests"
+      ],
+      "source_hashes": [
+        "section:00080caba9ca5d1e436d22bd5ed3f98ca7c6849e"
+      ]
     },
     {
       "id": "mazmorra-dalaran-entrada",
@@ -777,7 +913,13 @@
           "date": "2026-10-18"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:city-of-dalaran"
+      ],
+      "source_hashes": [
+        "section:99bc604b3049eba46b7d0de7d49c07f9d50b60f4"
+      ]
     },
     {
       "id": "mazmorra-dalaran-misiones",
@@ -811,7 +953,13 @@
           "date": "2026-09-30"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:_all:quests"
+      ],
+      "source_hashes": [
+        "section:7b2852ae83e9174d0e8da57a2be14a9a9d2c1133"
+      ]
     },
     {
       "id": "mazmorra-gnomeregan-entrada",
@@ -845,7 +993,13 @@
           "date": "2026-10-18"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:gnomeregan"
+      ],
+      "source_hashes": [
+        "section:2f47cca8938f89bad3e7c7179864c2b4add0d591"
+      ]
     },
     {
       "id": "mazmorra-gnomeregan-misiones",
@@ -879,7 +1033,13 @@
           "date": "2026-09-30"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:_all:quests"
+      ],
+      "source_hashes": [
+        "section:4c025b642cf46c466ca7d5e2e3a6c19a3ac4ace9"
+      ]
     },
     {
       "id": "mazmorra-razorfen-entrada",
@@ -913,7 +1073,13 @@
           "date": "2026-10-18"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:razorfen-kraul"
+      ],
+      "source_hashes": [
+        "section:5dd1536f0b6776d0e2e4a3a19699804104e13890"
+      ]
     },
     {
       "id": "mazmorra-razorfen-misiones",
@@ -947,7 +1113,13 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:_all:quests"
+      ],
+      "source_hashes": [
+        "section:604c1e4af80cbb4f09685094098e97175388a6be"
+      ]
     },
     {
       "id": "mazmorra-scarlet-graveyard-entrada",
@@ -981,7 +1153,13 @@
           "date": "2026-10-18"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:scarlet-monastery-graveyard"
+      ],
+      "source_hashes": [
+        "section:b8fcaaee44a6af56564b637893f88dd3da149db7"
+      ]
     },
     {
       "id": "mazmorra-scarlet-graveyard-misiones",
@@ -1015,7 +1193,13 @@
           "date": "2026-09-30"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:_all:quests"
+      ],
+      "source_hashes": [
+        "section:4daca165d5b097ced37e3ac7153bf3133ed8f365"
+      ]
     },
     {
       "id": "mazmorra-scarlet-library-entrada",
@@ -1049,7 +1233,13 @@
           "date": "2026-10-18"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:scarlet-monastery-library"
+      ],
+      "source_hashes": [
+        "section:3e863a27c7c9eff614079a602427e05968dc18b1"
+      ]
     },
     {
       "id": "mazmorra-scarlet-library-misiones",
@@ -1083,7 +1273,13 @@
           "date": "2026-09-30"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "dungeon:_all:quests"
+      ],
+      "source_hashes": [
+        "section:78ae037b33a39bb97952123ea28ddc10be79cd04"
+      ]
     }
   ]
 }

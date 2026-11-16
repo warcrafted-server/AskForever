@@ -33,7 +33,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:_all:overview"
+      ],
+      "source_hashes": [
+        "section:7493349a100772d00e3bd12aae9821b8f638d4f9"
+      ]
     },
     {
       "id": "prof-profesiones-recoleccion",
@@ -67,7 +73,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:_all:overview"
+      ],
+      "source_hashes": [
+        "section:7493349a100772d00e3bd12aae9821b8f638d4f9"
+      ]
     },
     {
       "id": "prof-profesiones-artesania",
@@ -105,7 +117,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:_all:overview"
+      ],
+      "source_hashes": [
+        "section:7493349a100772d00e3bd12aae9821b8f638d4f9"
+      ]
     },
     {
       "id": "prof-combinaciones",
@@ -139,7 +157,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:_all:overview"
+      ],
+      "source_hashes": [
+        "section:7493349a100772d00e3bd12aae9821b8f638d4f9"
+      ]
     },
     {
       "id": "prof-cambiar-profesion",
@@ -173,7 +197,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:_all:overview"
+      ],
+      "source_hashes": [
+        "section:854c8bfa49fabb8cdb3ba79996870cceba973307"
+      ]
     },
     {
       "id": "prof-aprender-profesion",
@@ -207,7 +237,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:_all:overview"
+      ],
+      "source_hashes": [
+        "section:cb06e7b570d821973b4188030d9b587c8ce9a9e8"
+      ]
     },
     {
       "id": "prof-subir-rango",
@@ -241,7 +277,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:_all:overview"
+      ],
+      "source_hashes": [
+        "section:966af58f8ea300502e2f550ebb5a25bc87987126"
+      ]
     },
     {
       "id": "prof-puntos-legado",
@@ -273,7 +315,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:_all:overview"
+      ],
+      "source_hashes": [
+        "section:f1c4ab71829391b5f6b34bbd881b73ac5ef11082"
+      ]
     },
     {
       "id": "prof-novedades-forever",
@@ -307,7 +355,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:_all:overview"
+      ],
+      "source_hashes": [
+        "section:f1c4ab71829391b5f6b34bbd881b73ac5ef11082"
+      ]
     },
     {
       "id": "prof-alquimia",
@@ -349,7 +403,15 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:_all:overview",
+        "profession:alchemy:overview"
+      ],
+      "source_hashes": [
+        "section:1aeefa43753ea121a20724d0db7ea7424d608556",
+        "section:c86415ca4577d5e8c429888d9efcd31a3d799ed9"
+      ]
     },
     {
       "id": "prof-herreria",
@@ -385,7 +447,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:blacksmithing:overview"
+      ],
+      "source_hashes": [
+        "section:d8cc68aa35d154a6f5cb8f7666082b1027f621bb"
+      ]
     },
     {
       "id": "prof-encantamiento",
@@ -421,7 +489,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:enchanting:overview"
+      ],
+      "source_hashes": [
+        "section:188160cad5bd40e46fdd5e4fe0c5bd604f07ecc2"
+      ]
     },
     {
       "id": "prof-ingenieria",
@@ -459,7 +533,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:engineering:overview"
+      ],
+      "source_hashes": [
+        "section:9bbed3c91fa48e86a80574c35454f4743f0d9aec"
+      ]
     },
     {
       "id": "prof-peleteria",
@@ -495,7 +575,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:leatherworking:overview"
+      ],
+      "source_hashes": [
+        "section:86e384a82c9f2fc23475d6baf7d72bbb76a71f98"
+      ]
     },
     {
       "id": "prof-sastreria",
@@ -531,7 +617,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:tailoring:overview"
+      ],
+      "source_hashes": [
+        "section:e0e2dc1f3cdc8873cd0c3df065ab70f1d15c19a8"
+      ]
     },
     {
       "id": "prof-herboristeria",
@@ -569,7 +661,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:herbalism:overview"
+      ],
+      "source_hashes": [
+        "section:c5c0e734d0e045de51055de230fdaba23dc2cd66"
+      ]
     },
     {
       "id": "prof-mineria",
@@ -607,7 +705,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:mining:overview"
+      ],
+      "source_hashes": [
+        "section:7397ce6f8b27273c0c4ad827df0fbd0d66cd121f"
+      ]
     },
     {
       "id": "prof-desuello",
@@ -645,7 +749,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:skinning:overview"
+      ],
+      "source_hashes": [
+        "section:fc8126ea46958bdc40f94a89c81ec6dded6332bc"
+      ]
     },
     {
       "id": "prof-cocina",
@@ -683,7 +793,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:cooking:overview"
+      ],
+      "source_hashes": [
+        "section:fb50e1fc32313e5b04eb835a3df7d014c315b507"
+      ]
     },
     {
       "id": "prof-primeros-auxilios",
@@ -721,7 +837,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:first-aid:overview"
+      ],
+      "source_hashes": [
+        "section:915feb449029dab1b9f107165c51d84067f817e8"
+      ]
     },
     {
       "id": "prof-pesca",
@@ -759,7 +881,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:fishing:overview"
+      ],
+      "source_hashes": [
+        "section:702611c693f14dd11307f4db3c7806a366a6d8d3"
+      ]
     },
     {
       "id": "prof-secundarias-sin-slots",
@@ -791,7 +919,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:_all:overview"
+      ],
+      "source_hashes": [
+        "section:26037c1fef6d7f900acaa4d5975f806d9b94f3d0"
+      ]
     },
     {
       "id": "prof-campamento-cocina",
@@ -833,7 +967,15 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:camping",
+        "profession:cooking:overview"
+      ],
+      "source_hashes": [
+        "section:c9b783787b269a1f3695609c03a7422ebb62edd7",
+        "section:c9e921fa9128343e5d3099c5ded02abc1c4c8d9b"
+      ]
     },
     {
       "id": "prof-campamento-profesiones",
@@ -869,7 +1011,13 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:camping"
+      ],
+      "source_hashes": [
+        "section:030fb5b5deec1b20f31ec84690bd8c749ec090ea"
+      ]
     },
     {
       "id": "prof-campamento-legado",
@@ -909,7 +1057,15 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:camping",
+        "profession:cooking:overview"
+      ],
+      "source_hashes": [
+        "section:12c6385d6fc27e9e8a72ecaf22365be355bd7143",
+        "section:c9b783787b269a1f3695609c03a7422ebb62edd7"
+      ]
     },
     {
       "id": "prof-recetas",
@@ -951,7 +1107,15 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:camping",
+        "profession:_all:overview"
+      ],
+      "source_hashes": [
+        "section:cb06e7b570d821973b4188030d9b587c8ce9a9e8",
+        "section:d388c3829bc2471177722e77cbabb03a4e2d65bc"
+      ]
     },
     {
       "id": "prof-ventajas-recoleccion",
@@ -997,7 +1161,17 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:herbalism:overview",
+        "profession:mining:overview",
+        "profession:skinning:overview"
+      ],
+      "source_hashes": [
+        "section:29fe4e512dc4036933875aab022d5ee76c6c12a5",
+        "section:41ee3c837192408b9a55a18c999b1bdedde3a000",
+        "section:76eae348981b5c6305d2d534b6d6adf803f49697"
+      ]
     },
     {
       "id": "prof-ventajas-artesania",
@@ -1045,7 +1219,17 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:cooking:overview",
+        "profession:first-aid:overview",
+        "profession:fishing:overview"
+      ],
+      "source_hashes": [
+        "section:5c71cd4eea732083207dba8dca155e9f4cc0a024",
+        "section:8bb86bf3ff4096e786c9e53db463c4b559dd2f6e",
+        "section:cd69f812a3ae2ac59f44c344c87723e6a6dcb89c"
+      ]
     },
     {
       "id": "prof-clases-armadura",
@@ -1103,7 +1287,21 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "profession:blacksmithing:overview",
+        "profession:enchanting:overview",
+        "profession:engineering:overview",
+        "profession:leatherworking:overview",
+        "profession:tailoring:overview"
+      ],
+      "source_hashes": [
+        "section:0975884f443d8117de463b717dd4d8f54af051c4",
+        "section:14950165a5bde07e142afd9ac2a894db71d17da0",
+        "section:3090895d83e59c89cf5b56fe75bf311b0b058bcf",
+        "section:6b42ad67fd238b74019e20c4b3f5377640c11f72",
+        "section:c64a47a0abb3a552836a97273fb783a6a8ddeba2"
+      ]
     },
     {
       "id": "prof-herramientas-estaciones",
@@ -1145,7 +1343,15 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:camping",
+        "profession:_all:overview"
+      ],
+      "source_hashes": [
+        "section:8bcd49188e86bbb05caeed69998128193d8105ef",
+        "section:cb06e7b570d821973b4188030d9b587c8ce9a9e8"
+      ]
     }
   ]
 }

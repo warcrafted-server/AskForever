@@ -36,7 +36,13 @@
           "date": "2026-11-02"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:general:paladin-class-overview"
+      ],
+      "source_hashes": [
+        "section:8dbae45cd6354046e7fe2b406a62788f6baa7830"
+      ]
     },
     {
       "id": "clase-paladin-especializaciones",
@@ -91,7 +97,19 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:general:paladin-class-overview",
+        "class:paladin:holy:overview",
+        "class:paladin:protection:overview",
+        "class:paladin:retribution:overview"
+      ],
+      "source_hashes": [
+        "section:008f3ef44cdc93fcd2ee0459d1b847ee873a645c",
+        "section:389a6c23d0ab1ca9f967605881e1646f49331af7",
+        "section:44045ad8642aee734fa4bcdf3a770a4f3a086411",
+        "section:bbd23d7937186416a7c779a4fd77ffefaf43f620"
+      ]
     },
     {
       "id": "clase-paladin-cambios-forever",
@@ -140,7 +158,17 @@
           "date": "2026-11-02"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:general:paladin-class-overview",
+        "class:paladin:holy:overview",
+        "class:paladin:protection:overview"
+      ],
+      "source_hashes": [
+        "guide:22129b8a526bf36e77891942d7b8f199ff587693",
+        "guide:a2129505a61acef5d43361d4b18292d27c5752ff",
+        "section:8dbae45cd6354046e7fe2b406a62788f6baa7830"
+      ]
     },
     {
       "id": "clase-paladin-armas-armadura",
@@ -189,7 +217,17 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:holy:overview",
+        "class:paladin:protection:overview",
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "section:008f3ef44cdc93fcd2ee0459d1b847ee873a645c",
+        "section:b5208e98dd2872aa74ac6d5910681f22267d51a9",
+        "section:bbd23d7937186416a7c779a4fd77ffefaf43f620"
+      ]
     },
     {
       "id": "clase-paladin-subir-espec",
@@ -238,7 +276,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:holy:leveling",
+        "class:paladin:protection:leveling",
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "section:26d6e8c18647aafb69ba7edefc032976da9e882d",
+        "section:847c507ba3d9e9720984119db7fef958aa92e7d9",
+        "section:cb1ee1475501442949a400001895a193479e965d"
+      ]
     },
     {
       "id": "clase-paladin-talentos-represion",
@@ -281,7 +329,14 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "section:0cf1bb5e4b96f8e3c2271ec1772bbc3cc72cb51a",
+        "section:93c0e08625078c87de143d01fc1bf916e38ef870"
+      ]
     },
     {
       "id": "clase-paladin-hitos",
@@ -330,7 +385,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:holy:leveling",
+        "class:paladin:protection:leveling",
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "section:6697aa36f0c205658f84dd61c98b98d4d517918f",
+        "section:7d5b056f9256b015fb6d7eb2a81dc93736fe8070",
+        "section:93c0e08625078c87de143d01fc1bf916e38ef870"
+      ]
     },
     {
       "id": "clase-paladin-mana",
@@ -373,7 +438,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:holy:leveling",
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "guide:321d925069dd13b0fe7234e97029f8122d8c9785",
+        "section:0e6f932ed329d40203d6ab3ea732d99b3be47741"
+      ]
     },
     {
       "id": "clase-paladin-sellos",
@@ -422,7 +495,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:holy:leveling",
+        "class:paladin:protection:leveling",
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "guide:21cd23216f9ee90fb6dd34300dba2617d7b29994",
+        "guide:321d925069dd13b0fe7234e97029f8122d8c9785",
+        "guide:db021c36f36d6a8940eacecb47c558eba9ecb9b7"
+      ]
     },
     {
       "id": "clase-paladin-auras-bendiciones",
@@ -465,7 +548,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:holy:leveling",
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "guide:321d925069dd13b0fe7234e97029f8122d8c9785",
+        "guide:db021c36f36d6a8940eacecb47c558eba9ecb9b7"
+      ]
     },
     {
       "id": "clase-paladin-control",
@@ -508,7 +599,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:holy:leveling",
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "guide:321d925069dd13b0fe7234e97029f8122d8c9785",
+        "section:13270161c1737eece59d847b9b0f462e9ce33f14"
+      ]
     },
     {
       "id": "clase-paladin-rotacion",
@@ -557,7 +656,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:holy:leveling",
+        "class:paladin:protection:leveling",
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "section:35d342c118632235e669e7acff80e9b32f99e0d9",
+        "section:84dbf68d681a9f82648e3182ec92ca9498ae1f80",
+        "section:9302163ba05ae3d46ad2581a4659c88fc01ca831"
+      ]
     },
     {
       "id": "clase-paladin-area",
@@ -600,7 +709,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:protection:leveling",
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "section:84dbf68d681a9f82648e3182ec92ca9498ae1f80",
+        "section:d813f81c4dc8af9d4a0fdaa05f5fa687cad66b96"
+      ]
     },
     {
       "id": "clase-paladin-mision-redencion",
@@ -643,7 +760,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:general:paladin-class-quests"
+      ],
+      "source_hashes": [
+        "guide:06acee0a71bcfde6bbe413b68c47daa45e814638"
+      ]
     },
     {
       "id": "clase-paladin-misiones-armas",
@@ -692,7 +815,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:general:paladin-class-quests"
+      ],
+      "source_hashes": [
+        "guide:06acee0a71bcfde6bbe413b68c47daa45e814638"
+      ]
     },
     {
       "id": "clase-paladin-tips-subir",
@@ -735,7 +864,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:holy:leveling",
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "section:d9a4aaaf797b1f72de5421c3d4d63ac1bd56af56",
+        "section:fb6346313ec6331d5b8c1d5dd5a058e66e4a1701"
+      ]
     },
     {
       "id": "clase-paladin-grupo",
@@ -784,7 +921,17 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:holy:overview",
+        "class:paladin:protection:overview",
+        "class:paladin:retribution:overview"
+      ],
+      "source_hashes": [
+        "guide:22129b8a526bf36e77891942d7b8f199ff587693",
+        "guide:a2129505a61acef5d43361d4b18292d27c5752ff",
+        "guide:a60bca232ae5f18b241de96ceaac602b990bc2e6"
+      ]
     },
     {
       "id": "clase-paladin-sagrado",
@@ -821,7 +968,13 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:holy:overview"
+      ],
+      "source_hashes": [
+        "section:bbd23d7937186416a7c779a4fd77ffefaf43f620"
+      ]
     },
     {
       "id": "clase-paladin-proteccion",
@@ -858,7 +1011,13 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:protection:overview"
+      ],
+      "source_hashes": [
+        "section:008f3ef44cdc93fcd2ee0459d1b847ee873a645c"
+      ]
     },
     {
       "id": "clase-paladin-represion",
@@ -895,7 +1054,13 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:retribution:overview"
+      ],
+      "source_hashes": [
+        "section:44045ad8642aee734fa4bcdf3a770a4f3a086411"
+      ]
     }
   ]
 }

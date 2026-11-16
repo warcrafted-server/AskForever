@@ -36,7 +36,13 @@
           "date": "2026-11-11"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:general:priest-class-overview"
+      ],
+      "source_hashes": [
+        "section:296d2cddc8c19ca6c9ac55c13a6be103faaadb6b"
+      ]
     },
     {
       "id": "clase-priest-especializaciones",
@@ -91,7 +97,19 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:discipline:overview",
+        "class:priest:general:priest-class-overview",
+        "class:priest:holy:overview",
+        "class:priest:shadow:overview"
+      ],
+      "source_hashes": [
+        "section:3f99cbd7294c823bc796a190ba94668088e14680",
+        "section:7aa463342506adf5000be319eaace749f6b794ef",
+        "section:aeeb86ce13ca5bfd0d640535f5dcc1f7097e848e",
+        "section:d52d37854fb8c1d5b2db3c83044f2eb77c25bea6"
+      ]
     },
     {
       "id": "clase-priest-cambios-forever",
@@ -140,7 +158,17 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:discipline:overview",
+        "class:priest:holy:overview",
+        "class:priest:shadow:overview"
+      ],
+      "source_hashes": [
+        "section:3f99cbd7294c823bc796a190ba94668088e14680",
+        "section:7aa463342506adf5000be319eaace749f6b794ef",
+        "section:aeeb86ce13ca5bfd0d640535f5dcc1f7097e848e"
+      ]
     },
     {
       "id": "clase-priest-armas-armadura",
@@ -183,7 +211,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:discipline:leveling",
+        "class:priest:shadow:leveling"
+      ],
+      "source_hashes": [
+        "section:b0b6c75f4eebebafee9d0fd52e2d192dad0a7be4",
+        "section:e0fbafec2b0c227c043afcc081e3cdd7e0d72fbb"
+      ]
     },
     {
       "id": "clase-priest-subir-espec",
@@ -232,7 +268,17 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:discipline:leveling",
+        "class:priest:holy:leveling",
+        "class:priest:shadow:leveling"
+      ],
+      "source_hashes": [
+        "section:2e4076c584ff815df7845bd13932d41a714cc200",
+        "section:9d881fbef86e3d214657d71912a749b20947ffb7",
+        "section:f2d17376dce5d75ce4731cb20d9114f00bd0e6bb"
+      ]
     },
     {
       "id": "clase-priest-talentos-sombra",
@@ -275,7 +321,14 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:shadow:leveling"
+      ],
+      "source_hashes": [
+        "section:e8df9b820616dab46a4506311a5840529db6ffed",
+        "section:fcb8ac9a14e4725882cc65f6081a1f79bd875a06"
+      ]
     },
     {
       "id": "clase-priest-hitos",
@@ -324,7 +377,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:discipline:leveling",
+        "class:priest:holy:leveling",
+        "class:priest:shadow:leveling"
+      ],
+      "source_hashes": [
+        "section:756f100c3998dcfa1b6a3932ca8c339569f82a1f",
+        "section:7707b4f79b4f590b0e2707fd103b338e54617a51",
+        "section:e8df9b820616dab46a4506311a5840529db6ffed"
+      ]
     },
     {
       "id": "clase-priest-mana",
@@ -367,7 +430,15 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:discipline:leveling",
+        "class:priest:shadow:leveling"
+      ],
+      "source_hashes": [
+        "section:06a90daf43f6d39faafb7b2f29372992f72da14c",
+        "section:bc9e4cf1b6dfd78de065ce1d9898e2aa5a071f61"
+      ]
     },
     {
       "id": "clase-priest-escudo",
@@ -410,7 +481,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:discipline:leveling",
+        "class:priest:shadow:leveling"
+      ],
+      "source_hashes": [
+        "guide:f50e975732baf0e7d90a501eb810ad7b1079090a",
+        "section:2f421d977f90621370f5f56eaa5bbc2cd633fc10"
+      ]
     },
     {
       "id": "clase-priest-control",
@@ -453,7 +532,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:discipline:leveling",
+        "class:priest:shadow:leveling"
+      ],
+      "source_hashes": [
+        "section:33d9e5ae4bfc4bb7b8c3b409e1af126f638a8b67",
+        "section:dd571119e41238fd97b25c2fcd7090fedfdcc5ed"
+      ]
     },
     {
       "id": "clase-priest-buffs",
@@ -496,7 +583,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:holy:leveling",
+        "class:priest:shadow:leveling"
+      ],
+      "source_hashes": [
+        "guide:79e315054a9945e7d1e2d15708baa2ab4c06a0b5",
+        "guide:f50e975732baf0e7d90a501eb810ad7b1079090a"
+      ]
     },
     {
       "id": "clase-priest-rotacion-sombra",
@@ -533,7 +628,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:shadow:leveling"
+      ],
+      "source_hashes": [
+        "section:60b6481c4b3d06dd385e8139caf43825e87b4aca"
+      ]
     },
     {
       "id": "clase-priest-rotacion-sanador",
@@ -576,7 +677,15 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:discipline:leveling",
+        "class:priest:holy:leveling"
+      ],
+      "source_hashes": [
+        "section:170bcae89a7044f6cf1fc83ab858cbca055bd005",
+        "section:a7ab49caa92a5166df20b1e1f5d28eda16373444"
+      ]
     },
     {
       "id": "clase-priest-area",
@@ -619,7 +728,15 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:holy:leveling",
+        "class:priest:shadow:leveling"
+      ],
+      "source_hashes": [
+        "section:3968bf55418d8c303b469cfc4429e847caf4aee4",
+        "section:7c944cfab1b348e87f69c4d0d5c69a25d6a85646"
+      ]
     },
     {
       "id": "clase-priest-misiones-clase",
@@ -656,7 +773,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:general:priest-class-quests"
+      ],
+      "source_hashes": [
+        "section:a7ffac83a0ada3183958cf2f008b05307324e7bd"
+      ]
     },
     {
       "id": "clase-priest-tips-subir",
@@ -699,7 +822,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:discipline:leveling",
+        "class:priest:shadow:leveling"
+      ],
+      "source_hashes": [
+        "section:351fb239ae2e54544fded848e9df439ede5812b8",
+        "section:8f7d96f734803292390c32cf1c74fe88fbb9f025"
+      ]
     },
     {
       "id": "clase-priest-grupo",
@@ -748,7 +879,17 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:discipline:overview",
+        "class:priest:holy:overview",
+        "class:priest:shadow:overview"
+      ],
+      "source_hashes": [
+        "guide:3ca012e8bd5aeb6f90573103156a2eafee716ddb",
+        "guide:8e08fd16c502e7b539cf0bcff8d0937e8e5dbadc",
+        "guide:d7ccb0363cd95751d7e4384b0d4301e60fa264f7"
+      ]
     },
     {
       "id": "clase-priest-disciplina",
@@ -785,7 +926,13 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:discipline:overview"
+      ],
+      "source_hashes": [
+        "section:aeeb86ce13ca5bfd0d640535f5dcc1f7097e848e"
+      ]
     },
     {
       "id": "clase-priest-sagrado",
@@ -822,7 +969,13 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:holy:overview"
+      ],
+      "source_hashes": [
+        "section:7aa463342506adf5000be319eaace749f6b794ef"
+      ]
     },
     {
       "id": "clase-priest-sombra",
@@ -859,7 +1012,13 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:shadow:overview"
+      ],
+      "source_hashes": [
+        "section:3f99cbd7294c823bc796a190ba94668088e14680"
+      ]
     }
   ]
 }

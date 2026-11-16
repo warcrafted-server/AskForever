@@ -39,7 +39,14 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "section:984ff0277c99fd047fe00775b54dc47ddd0e217c",
+        "section:99517154cf03d7df90139d64adef3bc3db920cf0"
+      ]
     },
     {
       "id": "jcj-honor-puntos",
@@ -73,7 +80,13 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "section:03085d174c3727847bd3b31eb21125356a687a11"
+      ]
     },
     {
       "id": "jcj-rangos",
@@ -107,7 +120,13 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "section:03e59c9051a43a44dc1b7c8c8f640e1fcd88ec64"
+      ]
     },
     {
       "id": "jcj-recompensas",
@@ -147,7 +166,14 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "section:339d2bb8f0c88b91219501ade0a629b984077528",
+        "section:5650189e54f4cfbc28e504cc474e17b22768bdbd"
+      ]
     },
     {
       "id": "jcj-honor-equipo",
@@ -187,7 +213,14 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "section:0b052b440b62b0ed69c256135a0bacefaeefaf89",
+        "section:559fb7e41795f5edadf783975817f3578a5c97eb"
+      ]
     },
     {
       "id": "jcj-vendedores-colas",
@@ -227,7 +260,14 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "section:cbaab0da3b5c4524ebd872353bd63b32c38bfad6",
+        "section:f9da479258408ccfe740d838e1ce29069aebac15"
+      ]
     },
     {
       "id": "jcj-temporadas",
@@ -261,7 +301,13 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "section:ad95b47570f7ee7580c2e294c651b2d452245f62"
+      ]
     },
     {
       "id": "jcj-darkspear",
@@ -295,7 +341,13 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "section:06227c0fa6107945e885a80c69b570dc7fb95ad3"
+      ]
     },
     {
       "id": "jcj-arena",
@@ -329,7 +381,13 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "guide:e7a20ea7f73bc87b0a71b116bf47306198a01bfa"
+      ]
     },
     {
       "id": "jcj-primeras-partidas",
@@ -363,7 +421,13 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "section:0fe37440ca1da6e0a95740a302073c100082a07c"
+      ]
     },
     {
       "id": "jcj-clasificaciones",
@@ -403,7 +467,14 @@
           "date": "2026-10-26"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "tierlist:pvp-tier-list-dps-specs",
+        "tierlist:pvp-tier-list-healer-specs"
+      ],
+      "source_hashes": [
+        "section:3ff8d31a22b97c005c4d959787fe5f1f4759920e"
+      ]
     },
     {
       "id": "jcj-dps-cuerpo",
@@ -437,7 +508,13 @@
           "date": "2026-10-26"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "tierlist:pvp-tier-list-dps-specs"
+      ],
+      "source_hashes": [
+        "section:e9abe25a91961bbe87fc139976d7bbae374c8199"
+      ]
     },
     {
       "id": "jcj-dps-distancia",
@@ -471,7 +548,13 @@
           "date": "2026-10-26"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "tierlist:pvp-tier-list-dps-specs"
+      ],
+      "source_hashes": [
+        "section:e9abe25a91961bbe87fc139976d7bbae374c8199"
+      ]
     },
     {
       "id": "jcj-sanadores",
@@ -505,7 +588,13 @@
           "date": "2026-10-26"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "tierlist:pvp-tier-list-healer-specs"
+      ],
+      "source_hashes": [
+        "section:cd7686951162acbb672b793e452f22975e2cb660"
+      ]
     }
   ]
 }

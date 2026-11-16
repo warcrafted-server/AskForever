@@ -36,7 +36,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:general:druid-class-overview"
+      ],
+      "source_hashes": [
+        "section:5c32918820f271ad14a658515fde08fc4278bc1b"
+      ]
     },
     {
       "id": "clase-druid-especializaciones",
@@ -79,7 +85,15 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:feral:overview",
+        "class:druid:general:druid-class-overview"
+      ],
+      "source_hashes": [
+        "section:5c32918820f271ad14a658515fde08fc4278bc1b",
+        "section:86b0aca6fe1b57f09cddd4d2c66ddfe1f574d9ff"
+      ]
     },
     {
       "id": "clase-druid-cambios-forever",
@@ -128,7 +142,17 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:balance:overview",
+        "class:druid:feral:leveling",
+        "class:druid:restoration:overview"
+      ],
+      "source_hashes": [
+        "section:60e162e18a9a45fa09e270b4d75e0cec729cb74d",
+        "section:bfc46f77fcb1bad803e63fe2312d391bd3c1da32",
+        "section:cb74403afcf67f32f4f298306119266186983090"
+      ]
     },
     {
       "id": "clase-druid-armas-armadura",
@@ -171,7 +195,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:balance:leveling",
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "section:8feb19b0cd776899b4173e841646a400a9fd0187",
+        "section:960ed58ac7fbe1aa9212ce51086901790d4bf11d"
+      ]
     },
     {
       "id": "clase-druid-subir-espec",
@@ -220,7 +252,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:balance:leveling",
+        "class:druid:feral:leveling",
+        "class:druid:restoration:leveling"
+      ],
+      "source_hashes": [
+        "guide:a31bedad17a1c4722de76250b73f48fbad5dc044",
+        "section:9536e6f7929ad089832e4546596b1f9505442af5",
+        "section:e14bf6dc79b5d8b2d7453a616a12cf6e16da5a10"
+      ]
     },
     {
       "id": "clase-druid-talentos-feral",
@@ -257,7 +299,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "section:9dbfe89b384274b12ea1734282f1401a000d9ef1"
+      ]
     },
     {
       "id": "clase-druid-hitos",
@@ -306,7 +354,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:balance:leveling",
+        "class:druid:feral:leveling",
+        "class:druid:restoration:leveling"
+      ],
+      "source_hashes": [
+        "section:1b580bd04153e6e7287f9935e0f88519de35c30c",
+        "section:363fd83c7ccdb5c9186b43e5778b21d05d7fdab9",
+        "section:ce9826267ea0ce1f4e8fb777c1f2135216149d07"
+      ]
     },
     {
       "id": "clase-druid-misiones-formas",
@@ -349,7 +407,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:general:druid-class-quests",
+        "class:druid:general:druid-shapeshift-forms"
+      ],
+      "source_hashes": [
+        "section:bbfd7cb0a19423b4a68097268bae85c38dc8e4a7",
+        "section:ef20f907d1d6cb2e67dcc20908af95fab625c8cf"
+      ]
     },
     {
       "id": "clase-druid-formas-recursos",
@@ -392,7 +458,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:feral:leveling",
+        "class:druid:general:druid-shapeshift-forms"
+      ],
+      "source_hashes": [
+        "guide:fcccc87ddfc8c52aee3d2139d839e80100e3f616",
+        "section:cdaf54ed3dcf2b9fb3a75bc2bb2a0ef7cbfbe262"
+      ]
     },
     {
       "id": "clase-druid-movilidad",
@@ -435,7 +509,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:feral:leveling",
+        "class:druid:general:druid-shapeshift-forms"
+      ],
+      "source_hashes": [
+        "guide:fcccc87ddfc8c52aee3d2139d839e80100e3f616",
+        "section:bf7368cd5b7349bb6823a504314fd65375a63f20"
+      ]
     },
     {
       "id": "clase-druid-equilibrio",
@@ -472,7 +554,13 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:balance:overview"
+      ],
+      "source_hashes": [
+        "section:cb74403afcf67f32f4f298306119266186983090"
+      ]
     },
     {
       "id": "clase-druid-feral",
@@ -515,7 +603,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:feral:leveling",
+        "class:druid:feral:overview"
+      ],
+      "source_hashes": [
+        "section:86b0aca6fe1b57f09cddd4d2c66ddfe1f574d9ff",
+        "section:c0397e589d9efa02731ccf4a567a6b96f87820b9"
+      ]
     },
     {
       "id": "clase-druid-restauracion",
@@ -552,7 +648,13 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:restoration:overview"
+      ],
+      "source_hashes": [
+        "section:60e162e18a9a45fa09e270b4d75e0cec729cb74d"
+      ]
     },
     {
       "id": "clase-druid-control",
@@ -595,7 +697,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:balance:leveling",
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "section:4fb483f54ce653e037c6a19516f3f36c4d4e3be6",
+        "section:75e5b9aa49514b3b649becce2948636459d27089"
+      ]
     },
     {
       "id": "clase-druid-buffs",
@@ -638,7 +748,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:balance:leveling",
+        "class:druid:restoration:leveling"
+      ],
+      "source_hashes": [
+        "guide:25563a14fb69824162db898b8ff0c28df46d23cf",
+        "guide:a31bedad17a1c4722de76250b73f48fbad5dc044"
+      ]
     },
     {
       "id": "clase-druid-rotacion-equilibrio",
@@ -675,7 +793,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:balance:leveling"
+      ],
+      "source_hashes": [
+        "section:8744e58175ad53a52e7e31205cc8febf1dce179b"
+      ]
     },
     {
       "id": "clase-druid-rotacion-oso",
@@ -712,7 +836,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "section:70c0e613f0789982fba49e0db47650ea1bbc9c57"
+      ]
     },
     {
       "id": "clase-druid-rotacion-felino",
@@ -749,7 +879,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "section:9c984e57c41297361d3c2c5f9e143b0467180e28"
+      ]
     },
     {
       "id": "clase-druid-rotacion-restauracion",
@@ -786,7 +922,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:restoration:leveling"
+      ],
+      "source_hashes": [
+        "section:d9f5ae825b358a031a884f132d8c48cd8e7f79bc"
+      ]
     },
     {
       "id": "clase-druid-consejos-subir",
@@ -835,7 +977,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:balance:leveling",
+        "class:druid:feral:leveling",
+        "class:druid:restoration:leveling"
+      ],
+      "source_hashes": [
+        "section:3b8dbf3e27815c46ac798e0e0b74fc5a78cca2dc",
+        "section:48431c9840d102ce639d2a1d9cc530a069fa561c",
+        "section:bfc46f77fcb1bad803e63fe2312d391bd3c1da32"
+      ]
     },
     {
       "id": "clase-druid-mazmorras",
@@ -878,7 +1030,15 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:feral:overview",
+        "class:druid:restoration:overview"
+      ],
+      "source_hashes": [
+        "section:60e162e18a9a45fa09e270b4d75e0cec729cb74d",
+        "section:86b0aca6fe1b57f09cddd4d2c66ddfe1f574d9ff"
+      ]
     },
     {
       "id": "clase-druid-profesiones",
@@ -915,7 +1075,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:balance:leveling"
+      ],
+      "source_hashes": [
+        "section:eeeba8f23eb8dbfe5ed9be65de2f40fa414e03cd"
+      ]
     },
     {
       "id": "clase-druid-grupo",
@@ -958,7 +1124,15 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:general:druid-class-overview",
+        "class:druid:restoration:overview"
+      ],
+      "source_hashes": [
+        "section:5c32918820f271ad14a658515fde08fc4278bc1b",
+        "section:60e162e18a9a45fa09e270b4d75e0cec729cb74d"
+      ]
     }
   ]
 }

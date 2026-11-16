@@ -36,7 +36,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:general:mage-class-overview"
+      ],
+      "source_hashes": [
+        "section:867ea46bc1285e3b11670935d87afcb9bfa70c0f"
+      ]
     },
     {
       "id": "clase-mage-especializaciones",
@@ -91,7 +97,19 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:arcane:overview",
+        "class:mage:fire:overview",
+        "class:mage:frost:overview",
+        "class:mage:general:mage-class-overview"
+      ],
+      "source_hashes": [
+        "section:581db85b33ee3e85ded3e59f7d4c52940b198e8c",
+        "section:6fd9bf57f1ff60c44f1f9a45094e658bb1621f0a",
+        "section:c0b9f153f80ba400d1f6e813e2eb54270772f18e",
+        "section:f5c329b6db4ef89b6b9ba80fcef316ba5b0ccaa6"
+      ]
     },
     {
       "id": "clase-mage-cambios-forever",
@@ -146,7 +164,19 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:arcane:leveling",
+        "class:mage:fire:leveling",
+        "class:mage:frost:leveling",
+        "class:mage:general:mage-class-overview"
+      ],
+      "source_hashes": [
+        "section:867ea46bc1285e3b11670935d87afcb9bfa70c0f",
+        "section:9c1fa1cc318c2205a17a90e3418519b7d0b046d4",
+        "section:b7f440edc38ac04a65a5646d1a7aa9073587ef15",
+        "section:c00f46091b73ac3d5b8fbe747ecc02e128bf7de6"
+      ]
     },
     {
       "id": "clase-mage-armas-armadura",
@@ -195,7 +225,17 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:arcane:leveling",
+        "class:mage:frost:leveling",
+        "class:mage:general:mage-class-quests"
+      ],
+      "source_hashes": [
+        "guide:83f3009e399872b83ae4e35cbbeb0bca84121613",
+        "section:8c3449fde8bb94666ba2f1ca6bd5166083e34389",
+        "section:f8835b73969640cb3ee8ecda6715e9fcd0bc6420"
+      ]
     },
     {
       "id": "clase-mage-subir-espec",
@@ -244,7 +284,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:arcane:leveling",
+        "class:mage:fire:leveling",
+        "class:mage:frost:leveling"
+      ],
+      "source_hashes": [
+        "section:9c1fa1cc318c2205a17a90e3418519b7d0b046d4",
+        "section:b7f440edc38ac04a65a5646d1a7aa9073587ef15",
+        "section:c00f46091b73ac3d5b8fbe747ecc02e128bf7de6"
+      ]
     },
     {
       "id": "clase-mage-talentos-escarcha",
@@ -281,7 +331,13 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:frost:leveling"
+      ],
+      "source_hashes": [
+        "section:bd01a556cd9ed84d3f95d2eeb3e8e0afccea20a2"
+      ]
     },
     {
       "id": "clase-mage-hitos",
@@ -330,7 +386,17 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:arcane:leveling",
+        "class:mage:fire:leveling",
+        "class:mage:frost:leveling"
+      ],
+      "source_hashes": [
+        "section:1ce834a8f36871949e1eac51aaa1bdb857add36b",
+        "section:47c0c3352730c90d5837da9638028eab2ed610db",
+        "section:63991e0ff2f9be81ae3a0e28cf84030a68e417cc"
+      ]
     },
     {
       "id": "clase-mage-mana",
@@ -373,7 +439,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:arcane:leveling",
+        "class:mage:frost:leveling"
+      ],
+      "source_hashes": [
+        "section:6946f8545a365d5131b41b44b1737af0bdf6460a",
+        "section:914bc874590c1cec0b4c7ebd4ed69ce1fa55c2ef"
+      ]
     },
     {
       "id": "clase-mage-control",
@@ -416,7 +490,15 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:frost:leveling",
+        "class:mage:frost:overview"
+      ],
+      "source_hashes": [
+        "guide:cc9076f1ee8b567457f9a3dedd98d8b5b75ed2e1",
+        "section:78d781f138623ee988315235c6647db6a09cd48b"
+      ]
     },
     {
       "id": "clase-mage-utilidad",
@@ -459,7 +541,15 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:arcane:leveling",
+        "class:mage:frost:leveling"
+      ],
+      "source_hashes": [
+        "section:8c3449fde8bb94666ba2f1ca6bd5166083e34389",
+        "section:914bc874590c1cec0b4c7ebd4ed69ce1fa55c2ef"
+      ]
     },
     {
       "id": "clase-mage-armaduras",
@@ -502,7 +592,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:arcane:leveling",
+        "class:mage:frost:leveling"
+      ],
+      "source_hashes": [
+        "section:182f8e5ef5c8c015001a4166af7f552e108f1fe3",
+        "section:914bc874590c1cec0b4c7ebd4ed69ce1fa55c2ef"
+      ]
     },
     {
       "id": "clase-mage-rotacion",
@@ -551,7 +649,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:arcane:leveling",
+        "class:mage:fire:leveling",
+        "class:mage:frost:leveling"
+      ],
+      "source_hashes": [
+        "section:595a67117ade622550887dfd683f1905578a88c4",
+        "section:a7a54f40133178813f6fe1cd4f49e0b1b2eb9406",
+        "section:dec3246a11fe4b569ca2830f122b9b54dc8040e9"
+      ]
     },
     {
       "id": "clase-mage-area",
@@ -600,7 +708,17 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:arcane:leveling",
+        "class:mage:fire:leveling",
+        "class:mage:frost:leveling"
+      ],
+      "source_hashes": [
+        "section:47a2473f5281aacbe62a7575492a0732c8350143",
+        "section:90b95b73e816b882b6c37e9a82641967af7ca899",
+        "section:9f82bf21cf2f43278be17cd00a5448a654534715"
+      ]
     },
     {
       "id": "clase-mage-misiones-clase",
@@ -637,7 +755,13 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:general:mage-class-quests"
+      ],
+      "source_hashes": [
+        "section:4189b157eb7cc556dd168034a85570907199f4c6"
+      ]
     },
     {
       "id": "clase-mage-misiones-30-60",
@@ -692,7 +816,13 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:general:mage-class-quests"
+      ],
+      "source_hashes": [
+        "guide:83f3009e399872b83ae4e35cbbeb0bca84121613"
+      ]
     },
     {
       "id": "clase-mage-tips-subir",
@@ -741,7 +871,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:arcane:leveling",
+        "class:mage:fire:leveling",
+        "class:mage:frost:leveling"
+      ],
+      "source_hashes": [
+        "section:36cf2932d4c0e7642e87ba437d969e5839f560c9",
+        "section:475fb271a512ff8d08b7cc58954b82259b25ceb2",
+        "section:6946f8545a365d5131b41b44b1737af0bdf6460a"
+      ]
     },
     {
       "id": "clase-mage-grupo",
@@ -790,7 +930,17 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:arcane:overview",
+        "class:mage:fire:overview",
+        "class:mage:frost:overview"
+      ],
+      "source_hashes": [
+        "guide:3072c4116f7564b4942767a489a855671ecd0050",
+        "guide:cc9076f1ee8b567457f9a3dedd98d8b5b75ed2e1",
+        "guide:f07ae0ce1b6be74eb04f1555d0e87e1e624a8fbc"
+      ]
     },
     {
       "id": "clase-mage-arcano",
@@ -827,7 +977,13 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:arcane:overview"
+      ],
+      "source_hashes": [
+        "section:581db85b33ee3e85ded3e59f7d4c52940b198e8c"
+      ]
     },
     {
       "id": "clase-mage-fuego",
@@ -864,7 +1020,13 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:fire:overview"
+      ],
+      "source_hashes": [
+        "section:f5c329b6db4ef89b6b9ba80fcef316ba5b0ccaa6"
+      ]
     },
     {
       "id": "clase-mage-escarcha",
@@ -901,7 +1063,13 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:frost:overview"
+      ],
+      "source_hashes": [
+        "section:6fd9bf57f1ff60c44f1f9a45094e658bb1621f0a"
+      ]
     }
   ]
 }

@@ -36,7 +36,13 @@
           "date": "2026-10-29"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:general:warrior-class-overview"
+      ],
+      "source_hashes": [
+        "section:fefb19994cb70b0fc1b41515055c8cd2f465a686"
+      ]
     },
     {
       "id": "clase-warrior-especializaciones",
@@ -91,7 +97,19 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:arms:overview",
+        "class:warrior:fury:overview",
+        "class:warrior:general:warrior-class-overview",
+        "class:warrior:protection:overview"
+      ],
+      "source_hashes": [
+        "section:11eb2cbc57cacd353c1c0f6d757414126745a6bc",
+        "section:6617c74babb4ae1d4c935cf916c5adf5b020009d",
+        "section:f7711b113329381caf8bf53cbeb12a5e154c2d10",
+        "section:fefb19994cb70b0fc1b41515055c8cd2f465a686"
+      ]
     },
     {
       "id": "clase-warrior-cambios-forever",
@@ -140,7 +158,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:arms:leveling",
+        "class:warrior:fury:leveling",
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:824a7077dca0b358a1b503144c9e80821e3e5b3b",
+        "section:a131ffc0286822744e43f8d04950e1295481c5a3",
+        "section:e952d92f0881bccbee6286a28a2b7bce9fc5a556"
+      ]
     },
     {
       "id": "clase-warrior-armas-armadura",
@@ -189,7 +217,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:arms:leveling",
+        "class:warrior:fury:leveling",
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:3ea04488595b6afdd90219be2c9e2ce0c1113d63",
+        "section:dd91363c3dfc033c1a7f4fafcfae70faeba7e950",
+        "section:f20acc2f54dbd3d784d52147a7015d52f0b9031b"
+      ]
     },
     {
       "id": "clase-warrior-subir-espec",
@@ -238,7 +276,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:arms:leveling",
+        "class:warrior:fury:leveling",
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:824a7077dca0b358a1b503144c9e80821e3e5b3b",
+        "section:a131ffc0286822744e43f8d04950e1295481c5a3",
+        "section:e952d92f0881bccbee6286a28a2b7bce9fc5a556"
+      ]
     },
     {
       "id": "clase-warrior-talentos-subida",
@@ -275,7 +323,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:f36370189c35ee9903e9c97168482bbcc22d5a3d"
+      ]
     },
     {
       "id": "clase-warrior-hitos",
@@ -324,7 +378,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:arms:leveling",
+        "class:warrior:fury:leveling",
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:3ea04488595b6afdd90219be2c9e2ce0c1113d63",
+        "section:baac93a211923cdc30016fa2900c74d1f04aa381",
+        "section:c9dd4bfbdd95895fe5b04bc3a0ea276fd766306f"
+      ]
     },
     {
       "id": "clase-warrior-mision-clase",
@@ -361,7 +425,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:general:warrior-class-quests"
+      ],
+      "source_hashes": [
+        "section:ebf1a34cd2e26c2f6773904572dae61c652a571a"
+      ]
     },
     {
       "id": "clase-warrior-misiones-nivel-20",
@@ -398,7 +468,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:general:warrior-class-quests"
+      ],
+      "source_hashes": [
+        "section:1080ed6271ea0c6efdc91a2d171c39fe0ce28cd1"
+      ]
     },
     {
       "id": "clase-warrior-misiones-nivel-30",
@@ -435,7 +511,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:general:warrior-class-quests"
+      ],
+      "source_hashes": [
+        "section:1080ed6271ea0c6efdc91a2d171c39fe0ce28cd1"
+      ]
     },
     {
       "id": "clase-warrior-gestion-furia",
@@ -478,7 +560,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:arms:leveling",
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "guide:5ce00d93595f1847fe9bc8701d47bbb805d3e581",
+        "guide:7e76df9ec6765aca0de4cb9efcdd8cbfa15cc14f"
+      ]
     },
     {
       "id": "clase-warrior-actitudes",
@@ -521,7 +611,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:arms:leveling",
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "guide:5ce00d93595f1847fe9bc8701d47bbb805d3e581",
+        "guide:7e76df9ec6765aca0de4cb9efcdd8cbfa15cc14f"
+      ]
     },
     {
       "id": "clase-warrior-rotacion",
@@ -564,7 +662,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:arms:leveling",
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:aca09fb9839f8f61036243de7a7a14e41f6923d8",
+        "section:ee3eea740b8de6b03cb7b4dfeed9bf75c404e151"
+      ]
     },
     {
       "id": "clase-warrior-area",
@@ -613,7 +719,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:arms:leveling",
+        "class:warrior:fury:leveling",
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:46e45f1b8dbe6bf168c1b5b76808c577a180d13a",
+        "section:69d3bc3da4dc7f5bb45503f77a2c238226beda59",
+        "section:d208988c839e8bb601d64a181b43b2c8b867313c"
+      ]
     },
     {
       "id": "clase-warrior-control",
@@ -656,7 +772,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:arms:leveling",
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:694242b7d8eac4d8d158a87543de3c40e46133be",
+        "section:adba626b9ae9cf8415a4a72041c1dbd962ba06fd"
+      ]
     },
     {
       "id": "clase-warrior-tips-subir",
@@ -699,7 +823,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:arms:leveling",
+        "class:warrior:fury:leveling"
+      ],
+      "source_hashes": [
+        "section:0775d05837dca6535518349d4ee13f453a6c86b8",
+        "section:e08f7247b85ce6c3d15263348a981da09455f27b"
+      ]
     },
     {
       "id": "clase-warrior-grupo",
@@ -742,7 +874,15 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:arms:overview",
+        "class:warrior:protection:overview"
+      ],
+      "source_hashes": [
+        "section:11eb2cbc57cacd353c1c0f6d757414126745a6bc",
+        "section:f7711b113329381caf8bf53cbeb12a5e154c2d10"
+      ]
     },
     {
       "id": "clase-warrior-armas",
@@ -785,7 +925,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:arms:leveling",
+        "class:warrior:arms:overview"
+      ],
+      "source_hashes": [
+        "section:11eb2cbc57cacd353c1c0f6d757414126745a6bc",
+        "section:f20acc2f54dbd3d784d52147a7015d52f0b9031b"
+      ]
     },
     {
       "id": "clase-warrior-furia",
@@ -828,7 +976,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:fury:leveling",
+        "class:warrior:fury:overview"
+      ],
+      "source_hashes": [
+        "section:6617c74babb4ae1d4c935cf916c5adf5b020009d",
+        "section:e952d92f0881bccbee6286a28a2b7bce9fc5a556"
+      ]
     },
     {
       "id": "clase-warrior-proteccion",
@@ -871,7 +1027,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:protection:leveling",
+        "class:warrior:protection:overview"
+      ],
+      "source_hashes": [
+        "section:824a7077dca0b358a1b503144c9e80821e3e5b3b",
+        "section:f7711b113329381caf8bf53cbeb12a5e154c2d10"
+      ]
     }
   ]
 }

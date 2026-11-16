@@ -36,7 +36,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:general:hunter-class-overview"
+      ],
+      "source_hashes": [
+        "section:81879758f0929b92eb9dfc3a45eb561d6bf00b39"
+      ]
     },
     {
       "id": "clase-hunter-especializaciones",
@@ -91,7 +97,19 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:beast-mastery:overview",
+        "class:hunter:general:hunter-class-overview",
+        "class:hunter:marksmanship:overview",
+        "class:hunter:survival:overview"
+      ],
+      "source_hashes": [
+        "section:3c0d7632e65a43c47783aa36a6708ec9ef5f4145",
+        "section:81879758f0929b92eb9dfc3a45eb561d6bf00b39",
+        "section:b56920c41cf4132388fbfc715cbb60606359d779",
+        "section:eec5a176c995c1f63356729a952265dbfeae50d1"
+      ]
     },
     {
       "id": "clase-hunter-cambios-forever",
@@ -140,7 +158,17 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:beast-mastery:overview",
+        "class:hunter:survival:leveling",
+        "class:hunter:survival:overview"
+      ],
+      "source_hashes": [
+        "section:3c0d7632e65a43c47783aa36a6708ec9ef5f4145",
+        "section:848f98192624424f8f167d565ebe01fdc572e613",
+        "section:eec5a176c995c1f63356729a952265dbfeae50d1"
+      ]
     },
     {
       "id": "clase-hunter-armas-armadura",
@@ -183,7 +211,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:general:hunter-class-overview",
+        "class:hunter:survival:leveling"
+      ],
+      "source_hashes": [
+        "section:81879758f0929b92eb9dfc3a45eb561d6bf00b39",
+        "section:848f98192624424f8f167d565ebe01fdc572e613"
+      ]
     },
     {
       "id": "clase-hunter-subir-espec",
@@ -232,7 +268,17 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:beast-mastery:leveling",
+        "class:hunter:marksmanship:overview",
+        "class:hunter:survival:overview"
+      ],
+      "source_hashes": [
+        "section:78a84a83f179ad2337a466761fb06dca603ee416",
+        "section:b56920c41cf4132388fbfc715cbb60606359d779",
+        "section:eec5a176c995c1f63356729a952265dbfeae50d1"
+      ]
     },
     {
       "id": "clase-hunter-talentos-subida",
@@ -269,7 +315,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:beast-mastery:leveling"
+      ],
+      "source_hashes": [
+        "section:b6232efb80631488f95a883d5f3343c844e451fd"
+      ]
     },
     {
       "id": "clase-hunter-hitos",
@@ -312,7 +364,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:beast-mastery:leveling",
+        "class:hunter:marksmanship:leveling"
+      ],
+      "source_hashes": [
+        "section:619453fd61682051dc72128ae93f99a648786e91",
+        "section:772f247ab8739c5881c6d07e81653a401589f50d"
+      ]
     },
     {
       "id": "clase-hunter-mision-clase",
@@ -349,7 +409,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:general:hunter-class-quests"
+      ],
+      "source_hashes": [
+        "section:c4d907afb474597ea2747a7e9825999fb2346f92"
+      ]
     },
     {
       "id": "clase-hunter-mascotas",
@@ -392,7 +458,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:beast-mastery:leveling",
+        "class:hunter:survival:leveling"
+      ],
+      "source_hashes": [
+        "section:2ad4a4bc9b68d736b0435d1cea50daa9c0f1ed84",
+        "section:46fce6253cbf34cd5d9d7b0fe6d482c81867ee53"
+      ]
     },
     {
       "id": "clase-hunter-mascota-subir",
@@ -435,7 +509,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:beast-mastery:leveling",
+        "class:hunter:survival:leveling"
+      ],
+      "source_hashes": [
+        "guide:d6d228e90bf634279fb2f0ec17f696a4d97c4b09",
+        "section:2ad4a4bc9b68d736b0435d1cea50daa9c0f1ed84"
+      ]
     },
     {
       "id": "clase-hunter-control-mascota",
@@ -478,7 +560,14 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:beast-mastery:leveling",
+        "class:hunter:marksmanship:leveling"
+      ],
+      "source_hashes": [
+        "section:faa25c8f5f2ebd83c6ac41133cb15b6afcf7e4da"
+      ]
     },
     {
       "id": "clase-hunter-trampas",
@@ -515,7 +604,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:survival:leveling"
+      ],
+      "source_hashes": [
+        "section:65ee6c79512d806cee42e5c340f8fa6242350e23"
+      ]
     },
     {
       "id": "clase-hunter-aspectos",
@@ -558,7 +653,14 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:beast-mastery:leveling",
+        "class:hunter:marksmanship:leveling"
+      ],
+      "source_hashes": [
+        "section:ab3d94029b44d479525d929a20e0744a93a697ba"
+      ]
     },
     {
       "id": "clase-hunter-rotacion",
@@ -595,7 +697,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:beast-mastery:leveling"
+      ],
+      "source_hashes": [
+        "section:c6da153dc5599024b096fd97b07e326182df761e"
+      ]
     },
     {
       "id": "clase-hunter-tips",
@@ -632,7 +740,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:beast-mastery:leveling"
+      ],
+      "source_hashes": [
+        "section:d936cb7836abf09a1f57d8a0109f8998164af072"
+      ]
     },
     {
       "id": "clase-hunter-grupo",
@@ -681,7 +795,17 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:beast-mastery:overview",
+        "class:hunter:marksmanship:overview",
+        "class:hunter:survival:overview"
+      ],
+      "source_hashes": [
+        "guide:439d64a11b04cf65cd611b031911430cefa0e28f",
+        "section:b56920c41cf4132388fbfc715cbb60606359d779",
+        "section:eec5a176c995c1f63356729a952265dbfeae50d1"
+      ]
     },
     {
       "id": "clase-hunter-dominio",
@@ -724,7 +848,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:beast-mastery:overview",
+        "class:hunter:beast-mastery:talents"
+      ],
+      "source_hashes": [
+        "section:3c0d7632e65a43c47783aa36a6708ec9ef5f4145",
+        "section:b58e55937dea631c80a454d839e9d68368be53a9"
+      ]
     },
     {
       "id": "clase-hunter-punteria",
@@ -767,7 +899,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:marksmanship:overview",
+        "class:hunter:marksmanship:talents"
+      ],
+      "source_hashes": [
+        "section:00a95a0cf13d5d3719f1b33d8d6217e1ef4114c5",
+        "section:b56920c41cf4132388fbfc715cbb60606359d779"
+      ]
     },
     {
       "id": "clase-hunter-supervivencia",
@@ -810,7 +950,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:survival:leveling",
+        "class:hunter:survival:overview"
+      ],
+      "source_hashes": [
+        "section:3ba26508553b8e67ae708d109018045a618bbee3",
+        "section:eec5a176c995c1f63356729a952265dbfeae50d1"
+      ]
     }
   ]
 }

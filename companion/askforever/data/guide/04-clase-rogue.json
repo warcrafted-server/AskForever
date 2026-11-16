@@ -36,7 +36,13 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:general:rogue-class-overview"
+      ],
+      "source_hashes": [
+        "section:eb91ef8afdf934dd4289c209cdb2ab19758e547a"
+      ]
     },
     {
       "id": "clase-rogue-especializaciones",
@@ -91,7 +97,19 @@
           "date": "2026-11-07"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:assassination:overview",
+        "class:rogue:combat:overview",
+        "class:rogue:general:rogue-class-overview",
+        "class:rogue:subtlety:overview"
+      ],
+      "source_hashes": [
+        "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
+        "section:49c1965775a197c5e9e74095fbac7469ab414c5c",
+        "section:ba14c99925fc9539c2c5e55dbc9550dd0446dcaf",
+        "section:dc4a29f8e6cd5cbd0dd5620d9dacf7b6eaafeb4f"
+      ]
     },
     {
       "id": "clase-rogue-cambios-forever",
@@ -140,7 +158,17 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:assassination:overview",
+        "class:rogue:combat:overview",
+        "class:rogue:subtlety:overview"
+      ],
+      "source_hashes": [
+        "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
+        "section:49c1965775a197c5e9e74095fbac7469ab414c5c",
+        "section:ba14c99925fc9539c2c5e55dbc9550dd0446dcaf"
+      ]
     },
     {
       "id": "clase-rogue-armas-armadura",
@@ -189,7 +217,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:assassination:leveling",
+        "class:rogue:combat:leveling",
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:9705882b6f3dccf73f014f94e4153a434ed0b684",
+        "section:9f1c07223eea2a57925edbc3ffc1c43932dc0a52",
+        "section:f3925ed951693e0e09a70a29096dd8bf5b920870"
+      ]
     },
     {
       "id": "clase-rogue-subir-espec",
@@ -238,7 +276,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:assassination:leveling",
+        "class:rogue:combat:leveling",
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:05fe7a4d98ec112c3ccae72b40b1567853af05b8",
+        "section:07d3f795058fdb036355a9c684a7c9a3e8c56cab",
+        "section:756d25c614dcdeda066443dd60650d4cb775ff70"
+      ]
     },
     {
       "id": "clase-rogue-talentos-combate",
@@ -281,7 +329,14 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:combat:leveling"
+      ],
+      "source_hashes": [
+        "section:9c20251641e93a3c9c6c1b8891ccc89117c52dc2",
+        "section:d1cf6716626bede2367a1ff6e4ebdf5b33d80be3"
+      ]
     },
     {
       "id": "clase-rogue-hitos",
@@ -330,7 +385,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:assassination:leveling",
+        "class:rogue:combat:leveling",
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:4665fcaf304501c786511b2500d79650fbbd914a",
+        "section:8fc11b4903c4e76d43556dc2b0e96da363e18f67",
+        "section:d1cf6716626bede2367a1ff6e4ebdf5b33d80be3"
+      ]
     },
     {
       "id": "clase-rogue-energia",
@@ -373,7 +438,15 @@
           "date": "2026-11-07"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:combat:leveling",
+        "class:rogue:subtlety:overview"
+      ],
+      "source_hashes": [
+        "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
+        "section:d9e9a044c0ff866b5fee1b1687a2b81bf8da141b"
+      ]
     },
     {
       "id": "clase-rogue-sigilo",
@@ -416,7 +489,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:assassination:leveling",
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "guide:cb5c3e7e784c29e838065b914cd5e5d8e95ea666",
+        "section:59ffa16799a4031c06c7e5386d28adffb03d13be"
+      ]
     },
     {
       "id": "clase-rogue-venenos",
@@ -459,7 +540,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:assassination:leveling",
+        "class:rogue:general:rogue-class-quests"
+      ],
+      "source_hashes": [
+        "guide:750a4d44d622fe222033c933c67db06e64ebac63",
+        "section:466bced7063db16f7ec83e0afbd79cca5296d0f4"
+      ]
     },
     {
       "id": "clase-rogue-control",
@@ -502,7 +591,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:combat:leveling",
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:150cf52f5b56830eaa94c63a5d7b9f84b814dcc4",
+        "section:b39de9a76fd21b81b6da8cfa7fa299d9dae03d2c"
+      ]
     },
     {
       "id": "clase-rogue-rotacion",
@@ -551,7 +648,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:assassination:leveling",
+        "class:rogue:combat:leveling",
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:0bd24538b9743ed0473c0c28028e439cf34b5dda",
+        "section:d68b68bdea216929d6d03549586a641d20f2e94a",
+        "section:f85c7ec49379127e67d3bfa11770f19547082c68"
+      ]
     },
     {
       "id": "clase-rogue-area",
@@ -594,7 +701,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:combat:leveling",
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:cb6c9a7f0888cef76b4c1513afd5f3fbb41ebc82",
+        "section:d94bd1d420a44bc59386f036aad2e344b9a6dc01"
+      ]
     },
     {
       "id": "clase-rogue-misiones-clase",
@@ -637,7 +752,14 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:general:rogue-class-quests"
+      ],
+      "source_hashes": [
+        "guide:750a4d44d622fe222033c933c67db06e64ebac63",
+        "section:d394a1c0da0b8efd1ee28fa31eac8ee7ce916467"
+      ]
     },
     {
       "id": "clase-rogue-tips-subir",
@@ -680,7 +802,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:assassination:leveling",
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:207e32a73ea335cdb4be3ebfce3aae634b4bc491",
+        "section:7612697b96f6cc8dd7586d0ebdd7e5d43c4254a0"
+      ]
     },
     {
       "id": "clase-rogue-grupo",
@@ -729,7 +859,17 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:assassination:overview",
+        "class:rogue:combat:overview",
+        "class:rogue:subtlety:overview"
+      ],
+      "source_hashes": [
+        "guide:9c335b7aab2d192e93b9e42bb775a4b138787bfb",
+        "guide:b8a7794a9edced4fef856f01c5aea46b41035371",
+        "guide:c64ca868aebbdf48d4cb5d3fe8641a354692d9dd"
+      ]
     },
     {
       "id": "clase-rogue-asesinato",
@@ -772,7 +912,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:assassination:leveling",
+        "class:rogue:assassination:overview"
+      ],
+      "source_hashes": [
+        "section:0bd24538b9743ed0473c0c28028e439cf34b5dda",
+        "section:49c1965775a197c5e9e74095fbac7469ab414c5c"
+      ]
     },
     {
       "id": "clase-rogue-combate",
@@ -815,7 +963,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:combat:leveling",
+        "class:rogue:combat:overview"
+      ],
+      "source_hashes": [
+        "section:ba14c99925fc9539c2c5e55dbc9550dd0446dcaf",
+        "section:f85c7ec49379127e67d3bfa11770f19547082c68"
+      ]
     },
     {
       "id": "clase-rogue-sutileza",
@@ -858,7 +1014,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:subtlety:leveling",
+        "class:rogue:subtlety:overview"
+      ],
+      "source_hashes": [
+        "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
+        "section:d68b68bdea216929d6d03549586a641d20f2e94a"
+      ]
     }
   ]
 }

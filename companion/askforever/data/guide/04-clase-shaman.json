@@ -36,7 +36,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:general:shaman-class-overview"
+      ],
+      "source_hashes": [
+        "section:eb2fdd7d79281957c674f5d4a7402f7477f9d887"
+      ]
     },
     {
       "id": "clase-shaman-especializaciones",
@@ -91,7 +97,19 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:elemental:overview",
+        "class:shaman:enhancement:overview",
+        "class:shaman:general:shaman-class-overview",
+        "class:shaman:restoration:overview"
+      ],
+      "source_hashes": [
+        "section:15c57f7d8e2f3474d630c1126cea331be603e32c",
+        "section:23c17c41cfbdafceb1fe15f41ae624a58133f173",
+        "section:c3e8367744114cdbbbdc3e66cfdca208a42333fc",
+        "section:f9995ca43545f452582214580ee3c2244fa4e73c"
+      ]
     },
     {
       "id": "clase-shaman-cambios-forever",
@@ -140,7 +158,17 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:elemental:overview",
+        "class:shaman:enhancement:overview",
+        "class:shaman:restoration:overview"
+      ],
+      "source_hashes": [
+        "guide:362ec67c4bf15df52d6468c71723227bb1f1cb56",
+        "guide:81bb51980fd9340dab3a302990f25b62adc4a27c",
+        "guide:d764d15af2190d3f2e13c9624263f798abfe2d07"
+      ]
     },
     {
       "id": "clase-shaman-armas-armadura",
@@ -183,7 +211,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:elemental:leveling",
+        "class:shaman:enhancement:leveling"
+      ],
+      "source_hashes": [
+        "section:85bd401fa2adb6bd753ab1b633fdb5bb2aeda087",
+        "section:b2d262a96c15f0a8e2d6eb5061a4c24997cb1e4d"
+      ]
     },
     {
       "id": "clase-shaman-subir-espec",
@@ -232,7 +268,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:elemental:leveling",
+        "class:shaman:enhancement:leveling",
+        "class:shaman:restoration:leveling"
+      ],
+      "source_hashes": [
+        "section:63453a1509c6a9321b9342a20815c354843b481c",
+        "section:6666ed273774218008eed97e07cb264623a088f2",
+        "section:e112de3300d793a7871bf5c47927a896badb89d8"
+      ]
     },
     {
       "id": "clase-shaman-talentos-mejora",
@@ -269,7 +315,13 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:enhancement:leveling"
+      ],
+      "source_hashes": [
+        "section:e3ad00799b41b121246674d9fb6246cbfc45e056"
+      ]
     },
     {
       "id": "clase-shaman-hitos",
@@ -318,7 +370,16 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:elemental:leveling",
+        "class:shaman:enhancement:leveling",
+        "class:shaman:restoration:leveling"
+      ],
+      "source_hashes": [
+        "section:1f4871849a8c35aa4ff3d2a427d2defbbb8a426a",
+        "section:6dfad11dda09cd425f19219143eeb8e172ed6917"
+      ]
     },
     {
       "id": "clase-shaman-totems",
@@ -361,7 +422,15 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:elemental:leveling",
+        "class:shaman:enhancement:leveling"
+      ],
+      "source_hashes": [
+        "guide:17d5818b63371f552189fd40c345f393ea5e733c",
+        "guide:9fd2fe72860a9b418a1a2d2df35fd9e3632fda74"
+      ]
     },
     {
       "id": "clase-shaman-choques",
@@ -404,7 +473,15 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:elemental:leveling",
+        "class:shaman:enhancement:leveling"
+      ],
+      "source_hashes": [
+        "section:088295d8f34fb8295dbafa4341f3a2eebddad1e9",
+        "section:c1dda0b87714cfe0cf34a5e819dbd1fa4f8c8b90"
+      ]
     },
     {
       "id": "clase-shaman-escudos-mana",
@@ -447,7 +524,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:elemental:leveling",
+        "class:shaman:restoration:leveling"
+      ],
+      "source_hashes": [
+        "guide:17d5818b63371f552189fd40c345f393ea5e733c",
+        "guide:20bd808c2cdfc31da7133079077610e5cba273a8"
+      ]
     },
     {
       "id": "clase-shaman-lobo",
@@ -484,7 +569,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:elemental:leveling"
+      ],
+      "source_hashes": [
+        "section:19f3ce9f398fddf010a3c95602d4b0accae85584"
+      ]
     },
     {
       "id": "clase-shaman-utilidad-control",
@@ -527,7 +618,15 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:elemental:leveling",
+        "class:shaman:enhancement:leveling"
+      ],
+      "source_hashes": [
+        "section:dba13053ab5993758d2d39e84aa515cde2a8770d",
+        "section:f92fffdac32c60a02c0162051405b4c4ea32d664"
+      ]
     },
     {
       "id": "clase-shaman-rotacion",
@@ -576,7 +675,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:elemental:leveling",
+        "class:shaman:enhancement:leveling",
+        "class:shaman:restoration:leveling"
+      ],
+      "source_hashes": [
+        "section:088295d8f34fb8295dbafa4341f3a2eebddad1e9",
+        "section:90503893736956b3e6ee0401924695f53e05f565",
+        "section:c1dda0b87714cfe0cf34a5e819dbd1fa4f8c8b90"
+      ]
     },
     {
       "id": "clase-shaman-area",
@@ -619,7 +728,15 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:elemental:leveling",
+        "class:shaman:enhancement:leveling"
+      ],
+      "source_hashes": [
+        "section:088295d8f34fb8295dbafa4341f3a2eebddad1e9",
+        "section:c1dda0b87714cfe0cf34a5e819dbd1fa4f8c8b90"
+      ]
     },
     {
       "id": "clase-shaman-misiones-totems",
@@ -662,7 +779,14 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:general:shaman-class-quests"
+      ],
+      "source_hashes": [
+        "guide:837e57c5cf98452a46f86e9adb37f4d9bfc5b17f",
+        "section:983e390d82846c7a28eb3b1c984c0b04efadbcf4"
+      ]
     },
     {
       "id": "clase-shaman-tips-subir",
@@ -705,7 +829,15 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:elemental:leveling",
+        "class:shaman:enhancement:leveling"
+      ],
+      "source_hashes": [
+        "section:2ad1aa2dd9aef28c5effd1f85f615709418e526a",
+        "section:b2d262a96c15f0a8e2d6eb5061a4c24997cb1e4d"
+      ]
     },
     {
       "id": "clase-shaman-grupo",
@@ -754,7 +886,17 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:elemental:overview",
+        "class:shaman:enhancement:overview",
+        "class:shaman:restoration:overview"
+      ],
+      "source_hashes": [
+        "guide:362ec67c4bf15df52d6468c71723227bb1f1cb56",
+        "guide:81bb51980fd9340dab3a302990f25b62adc4a27c",
+        "guide:d764d15af2190d3f2e13c9624263f798abfe2d07"
+      ]
     },
     {
       "id": "clase-shaman-elemental",
@@ -791,7 +933,13 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:elemental:overview"
+      ],
+      "source_hashes": [
+        "section:15c57f7d8e2f3474d630c1126cea331be603e32c"
+      ]
     },
     {
       "id": "clase-shaman-mejora",
@@ -828,7 +976,13 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:enhancement:overview"
+      ],
+      "source_hashes": [
+        "section:f9995ca43545f452582214580ee3c2244fa4e73c"
+      ]
     },
     {
       "id": "clase-shaman-restauracion",
@@ -865,7 +1019,13 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:restoration:overview"
+      ],
+      "source_hashes": [
+        "section:c3e8367744114cdbbbdc3e66cfdca208a42333fc"
+      ]
     }
   ]
 }

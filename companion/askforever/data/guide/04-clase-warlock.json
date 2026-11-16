@@ -36,7 +36,13 @@
           "date": "2026-10-29"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:general:warlock-class-overview"
+      ],
+      "source_hashes": [
+        "section:68d4afc3e198df667cbca5caa503b1b201ba63a2"
+      ]
     },
     {
       "id": "clase-warlock-especializaciones",
@@ -91,7 +97,19 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:overview",
+        "class:warlock:demonology:overview",
+        "class:warlock:destruction:overview",
+        "class:warlock:general:warlock-class-overview"
+      ],
+      "source_hashes": [
+        "section:52d74a07212783945ac92c81a5769f645c4061fb",
+        "section:613b699a225e90853da48de95c6282bc2ac79d16",
+        "section:68d4afc3e198df667cbca5caa503b1b201ba63a2",
+        "section:f80f3f0a109a090e41e43917e34a5b5e0f9e0562"
+      ]
     },
     {
       "id": "clase-warlock-cambios-forever",
@@ -134,7 +152,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling",
+        "class:warlock:demonology:leveling"
+      ],
+      "source_hashes": [
+        "guide:2d3090210a1699a629e9d89b14935a1c9285fc6e",
+        "section:ac2ef2af02b12a4ea71eb4aba3d6c68a4dbebb96"
+      ]
     },
     {
       "id": "clase-warlock-armas-armadura",
@@ -177,7 +203,14 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling"
+      ],
+      "source_hashes": [
+        "section:99fbf29026d32be5654d9ec808e0c7e2c53cb7f0",
+        "section:e38116b280415566ac9e5c92db357e0ead03492a"
+      ]
     },
     {
       "id": "clase-warlock-subir-espec",
@@ -226,7 +259,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling",
+        "class:warlock:demonology:leveling",
+        "class:warlock:destruction:leveling"
+      ],
+      "source_hashes": [
+        "guide:2d3090210a1699a629e9d89b14935a1c9285fc6e",
+        "guide:2dd8e2e9301c9c6527d8358e0b16237ee219a478",
+        "section:8e1af482b45e85c606ff3a9ba81aaaeb8c2067ff"
+      ]
     },
     {
       "id": "clase-warlock-talentos-afliccion",
@@ -263,7 +306,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling"
+      ],
+      "source_hashes": [
+        "section:1645da0b6c8fadc86caeb2ad140a7fe0ae3fa3a3"
+      ]
     },
     {
       "id": "clase-warlock-hitos",
@@ -312,7 +361,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling",
+        "class:warlock:demonology:leveling",
+        "class:warlock:destruction:leveling"
+      ],
+      "source_hashes": [
+        "section:99314a8d12f43c7f2bd8acee7c4a003404abd9a0",
+        "section:9a6d888bbb409d8249ecab76ba3b3e7c38bbf6be",
+        "section:eacea6bf294dbb967fe12c44fd3fe5c5acb6f914"
+      ]
     },
     {
       "id": "clase-warlock-misiones-clase",
@@ -349,7 +408,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:general:warlock-class-quests"
+      ],
+      "source_hashes": [
+        "section:4bf8ddd0c8f491241650c271f85e3943ff10984c"
+      ]
     },
     {
       "id": "clase-warlock-demonios",
@@ -392,7 +457,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling",
+        "class:warlock:demonology:leveling"
+      ],
+      "source_hashes": [
+        "section:3cfcc1595573710aae60f86110eecfdf64f9f581",
+        "section:e0deaae2fa6142988aac9593911b5690ef71fb91"
+      ]
     },
     {
       "id": "clase-warlock-control-mascota",
@@ -429,7 +502,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling"
+      ],
+      "source_hashes": [
+        "section:e0deaae2fa6142988aac9593911b5690ef71fb91"
+      ]
     },
     {
       "id": "clase-warlock-maldiciones",
@@ -472,7 +551,14 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling"
+      ],
+      "source_hashes": [
+        "section:c5051c21bf40a8f33983ccb5fc1278a140e60058",
+        "section:c5a9693436796cb0859b87ef7b5e258f7fe80e4c"
+      ]
     },
     {
       "id": "clase-warlock-salud-mana",
@@ -515,7 +601,14 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling"
+      ],
+      "source_hashes": [
+        "section:99fbf29026d32be5654d9ec808e0c7e2c53cb7f0",
+        "section:ac2ef2af02b12a4ea71eb4aba3d6c68a4dbebb96"
+      ]
     },
     {
       "id": "clase-warlock-fragmentos",
@@ -552,7 +645,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling"
+      ],
+      "source_hashes": [
+        "section:ac2ef2af02b12a4ea71eb4aba3d6c68a4dbebb96"
+      ]
     },
     {
       "id": "clase-warlock-piedras-apoyo",
@@ -589,7 +688,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling"
+      ],
+      "source_hashes": [
+        "section:c5051c21bf40a8f33983ccb5fc1278a140e60058"
+      ]
     },
     {
       "id": "clase-warlock-control",
@@ -626,7 +731,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling"
+      ],
+      "source_hashes": [
+        "section:c5051c21bf40a8f33983ccb5fc1278a140e60058"
+      ]
     },
     {
       "id": "clase-warlock-piedras-arma",
@@ -669,7 +780,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling",
+        "class:warlock:destruction:leveling"
+      ],
+      "source_hashes": [
+        "section:990c09719213e7ede5fa5c6a65e1f12411b6878c",
+        "section:a415ff3fff19a2f2e7fd929962dad8649a6fc3eb"
+      ]
     },
     {
       "id": "clase-warlock-area",
@@ -712,7 +831,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling",
+        "class:warlock:destruction:leveling"
+      ],
+      "source_hashes": [
+        "section:6705d267afb9c65f10a4343297947e640eb283ef",
+        "section:fb7ea23692e832f9621cf99018340228fe172b85"
+      ]
     },
     {
       "id": "clase-warlock-rotacion-afliccion",
@@ -749,7 +876,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling"
+      ],
+      "source_hashes": [
+        "section:c5a9693436796cb0859b87ef7b5e258f7fe80e4c"
+      ]
     },
     {
       "id": "clase-warlock-rotacion-demonologia",
@@ -786,7 +919,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:demonology:leveling"
+      ],
+      "source_hashes": [
+        "section:ec9a1ad6e8669616e02faf7e7b44f48fa3067106"
+      ]
     },
     {
       "id": "clase-warlock-rotacion-destruccion",
@@ -823,7 +962,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:destruction:leveling"
+      ],
+      "source_hashes": [
+        "section:5ed0c339f7fd4bcd763d5ec8369a2ec755656bd0"
+      ]
     },
     {
       "id": "clase-warlock-consejos-subir",
@@ -860,7 +1005,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling"
+      ],
+      "source_hashes": [
+        "section:99fbf29026d32be5654d9ec808e0c7e2c53cb7f0"
+      ]
     },
     {
       "id": "clase-warlock-grupo",
@@ -903,7 +1054,15 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:overview",
+        "class:warlock:demonology:overview"
+      ],
+      "source_hashes": [
+        "section:52d74a07212783945ac92c81a5769f645c4061fb",
+        "section:613b699a225e90853da48de95c6282bc2ac79d16"
+      ]
     },
     {
       "id": "clase-warlock-roles",
@@ -952,7 +1111,17 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:overview",
+        "class:warlock:demonology:overview",
+        "class:warlock:destruction:overview"
+      ],
+      "source_hashes": [
+        "section:52d74a07212783945ac92c81a5769f645c4061fb",
+        "section:613b699a225e90853da48de95c6282bc2ac79d16",
+        "section:f80f3f0a109a090e41e43917e34a5b5e0f9e0562"
+      ]
     },
     {
       "id": "clase-warlock-profesiones",
@@ -989,7 +1158,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:leveling"
+      ],
+      "source_hashes": [
+        "section:11fdf0f2821f8d9bc6a32e723958dc711660befd"
+      ]
     }
   ]
 }

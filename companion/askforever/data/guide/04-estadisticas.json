@@ -35,7 +35,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:affliction:stats"
+      ],
+      "source_hashes": [
+        "guide:bf9ebe1c088984b4afb727e4ad684e270762e3d7"
+      ]
     },
     {
       "id": "clase-mage-estadisticas-arcane",
@@ -71,7 +77,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:arcane:stats"
+      ],
+      "source_hashes": [
+        "guide:16cab50b5de4b033d9080c01128612de63e8c2e3"
+      ]
     },
     {
       "id": "clase-warrior-estadisticas-arms",
@@ -107,7 +119,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:arms:stats"
+      ],
+      "source_hashes": [
+        "guide:04c24bd72c40edca95fb81da6fd3ab9bc0646eb8"
+      ]
     },
     {
       "id": "clase-rogue-estadisticas-assassination",
@@ -143,7 +161,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:assassination:stats"
+      ],
+      "source_hashes": [
+        "guide:e005cbc079be2616253ef4f234d9e4c1dbecb2c5"
+      ]
     },
     {
       "id": "clase-druid-estadisticas-balance",
@@ -179,7 +203,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:balance:stats"
+      ],
+      "source_hashes": [
+        "guide:82a0cb2a0332dd927887e9564d1805abb6930a03"
+      ]
     },
     {
       "id": "clase-hunter-estadisticas-beast-mastery",
@@ -215,7 +245,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:beast-mastery:stats"
+      ],
+      "source_hashes": [
+        "guide:2f47e63b77cea5382674fd17aeb7537af25123f6"
+      ]
     },
     {
       "id": "clase-rogue-estadisticas-combat",
@@ -251,7 +287,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:combat:stats"
+      ],
+      "source_hashes": [
+        "guide:8943ad3605b1a138576b4c222dacfd434fe30424"
+      ]
     },
     {
       "id": "clase-warlock-estadisticas-demonology",
@@ -287,7 +329,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:demonology:stats"
+      ],
+      "source_hashes": [
+        "guide:05eb190f1eef6c42bf2d05956e63484b1e02b9b2"
+      ]
     },
     {
       "id": "clase-warlock-estadisticas-destruction",
@@ -323,7 +371,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warlock:destruction:stats"
+      ],
+      "source_hashes": [
+        "guide:596df930692bc46313d26f70321de5fc5603b2c0"
+      ]
     },
     {
       "id": "clase-priest-estadisticas-discipline",
@@ -359,7 +413,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:discipline:stats"
+      ],
+      "source_hashes": [
+        "guide:b8170af7e7458f2f94f50fec69b5851f39584766"
+      ]
     },
     {
       "id": "clase-shaman-estadisticas-elemental",
@@ -395,7 +455,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:elemental:stats"
+      ],
+      "source_hashes": [
+        "guide:e153ca47ccc49e424a5237c499eec4d433d8a208"
+      ]
     },
     {
       "id": "clase-shaman-estadisticas-enhancement",
@@ -431,7 +497,13 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:enhancement:stats"
+      ],
+      "source_hashes": [
+        "guide:c4bfb5421d6fb169b7e1c04d858d25760d3d1249"
+      ]
     },
     {
       "id": "clase-druid-estadisticas-feral",
@@ -467,7 +539,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:feral:stats"
+      ],
+      "source_hashes": [
+        "guide:3b5424e97825fde48d2410096f527ff7bb5d7f46"
+      ]
     },
     {
       "id": "clase-mage-estadisticas-fire",
@@ -503,7 +581,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:fire:stats"
+      ],
+      "source_hashes": [
+        "guide:f4fe01db66bda2e6d4d7ddb102d14e0669581760"
+      ]
     },
     {
       "id": "clase-mage-estadisticas-frost",
@@ -539,7 +623,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:mage:frost:stats"
+      ],
+      "source_hashes": [
+        "guide:25724f82300b17e6a252d203dc1779a80cf2787a"
+      ]
     },
     {
       "id": "clase-warrior-estadisticas-fury",
@@ -575,7 +665,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:fury:stats"
+      ],
+      "source_hashes": [
+        "guide:4ce239edd89c8631e8101ec4cc254dc2cd71a3b7"
+      ]
     },
     {
       "id": "clase-paladin-estadisticas-holy",
@@ -611,7 +707,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:holy:stats"
+      ],
+      "source_hashes": [
+        "guide:89644709b73eb6b225e64d728831a04530547960"
+      ]
     },
     {
       "id": "clase-priest-estadisticas-holy",
@@ -647,7 +749,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:holy:stats"
+      ],
+      "source_hashes": [
+        "guide:24a0481dc278382c5b411dd95e9f3fa0a2ba0bd8"
+      ]
     },
     {
       "id": "clase-hunter-estadisticas-marksmanship",
@@ -683,7 +791,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:marksmanship:stats"
+      ],
+      "source_hashes": [
+        "guide:9aa93bff25c9557dd0c2bed9da68ab93a8af72a1"
+      ]
     },
     {
       "id": "clase-paladin-estadisticas-protection",
@@ -719,7 +833,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:protection:stats"
+      ],
+      "source_hashes": [
+        "guide:56437ea9e493e8cd101252e9be7b3be2c5c82dba"
+      ]
     },
     {
       "id": "clase-warrior-estadisticas-protection",
@@ -755,7 +875,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:warrior:protection:stats"
+      ],
+      "source_hashes": [
+        "guide:6b262229c6a8c3974037ce844fa3b9966b1f320d"
+      ]
     },
     {
       "id": "clase-druid-estadisticas-restoration",
@@ -791,7 +917,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:druid:restoration:stats"
+      ],
+      "source_hashes": [
+        "guide:e10c7c287b212faeb7d14ebad99f07d655892ccb"
+      ]
     },
     {
       "id": "clase-shaman-estadisticas-restoration",
@@ -827,7 +959,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:shaman:restoration:stats"
+      ],
+      "source_hashes": [
+        "guide:f7b1286f5706e5fdb88cbf40cd3f43a94522c791"
+      ]
     },
     {
       "id": "clase-paladin-estadisticas-retribution",
@@ -863,7 +1001,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:paladin:retribution:stats"
+      ],
+      "source_hashes": [
+        "guide:f5e2a10534d2c6c5657d0fd1c092bbf494e6c397"
+      ]
     },
     {
       "id": "clase-priest-estadisticas-shadow",
@@ -899,7 +1043,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:priest:shadow:stats"
+      ],
+      "source_hashes": [
+        "guide:9127c84c05e19f632242e12466fbb293fe1c2913"
+      ]
     },
     {
       "id": "clase-rogue-estadisticas-subtlety",
@@ -935,7 +1085,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:rogue:subtlety:stats"
+      ],
+      "source_hashes": [
+        "guide:7970ccc5b3797e71612926100200502556b711b2"
+      ]
     },
     {
       "id": "clase-hunter-estadisticas-survival",
@@ -971,7 +1127,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15"
+      "updated": "2026-11-15",
+      "topics": [
+        "class:hunter:survival:stats"
+      ],
+      "source_hashes": [
+        "guide:b3ca6b9d9748ae592e9e139a03282f100314082c"
+      ]
     }
   ]
 }
