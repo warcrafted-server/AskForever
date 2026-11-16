@@ -82,13 +82,13 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Changes to Beast Mastery Hunter in WoW Forever",
+          "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Strengths and Weaknesses of Beast Mastery Hunter in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
           "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › Changes to Marksmanship Hunter in WoW Forever",
+          "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › Strengths and Weaknesses of Marksmanship Hunter in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
           "date": "2026-11-14"
         },
@@ -100,59 +100,39 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: Hunter Class Guide › Comprehensive Guide to Hunter in World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/hunter-class-overview",
-          "date": "2026-10-27"
+          "ref": "Wowhead: Best Marksmanship Hunter Talent Tree Builds - WoW: Forever › Best Marksmanship Hunter PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/talent-builds-pve-dps",
+          "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Strengths and Weaknesses of Beast Mastery Hunter in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
-          "date": "2026-11-14"
+          "ref": "Wowhead: Best Survival Hunter Talent Tree Builds - WoW: Forever › Best Survival Hunter Melee PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/talent-builds-pve-dps",
+          "date": "2026-11-07"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
-          "date": "2026-11-14"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Survival Hunter DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/overview-pve-dps",
-          "date": "2026-11-14"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Survival Hunter DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/overview-pve-dps",
-          "date": "2026-11-14"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Survival Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-20-dps-overview",
-          "date": "2026-11-12"
+          "ref": "Wowhead: Survival Hunter DPS Rotation and Cooldowns - WoW: Forever › Full Melee Single Target DPS Rotation for Survival Hunter in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
         }
       ],
       "updated": "2026-11-16",
       "topics": [
         "class:hunter:beast-mastery:overview",
-        "class:hunter:general:hunter-class-overview",
         "class:hunter:marksmanship:overview",
-        "class:hunter:survival:level20",
-        "class:hunter:survival:overview"
+        "class:hunter:marksmanship:talents",
+        "class:hunter:survival:overview",
+        "class:hunter:survival:rotation",
+        "class:hunter:survival:talents"
       ],
       "source_hashes": [
-        "section:035db25891b81d9534640b3214221ac20753d0fb",
         "section:4593fd09127090b93914bffdaee2318f217b0400",
-        "section:6648229829a03c9c8a14d2e449ba6ae3a472c4fa",
-        "section:67a3af4f36e5bc1112f7f05b9b315adbf5ed20f8",
-        "section:81879758f0929b92eb9dfc3a45eb561d6bf00b39",
-        "section:90b7020bc0f765f1573a07a3a40acc9413f95a2a",
-        "section:bc385d3f8681b5b7ebedbd573d0d0b979c189466",
-        "section:cbb1cb3f670b84fb68bb10ea657eeb04fcef8982",
-        "section:d5522ac06733bbf35e8a614677c946d0eef39afa"
+        "section:46856ce2300d78ee222b4a49afed77d2c6687cdc",
+        "section:55da78af272c184af60facef93d749a2bd803c7d",
+        "section:b273cb1ec4966348241552f8a1abbb7bd4a8a1da",
+        "section:c7de19963e5cb6a28f4614049b9faefaaa852768",
+        "section:cbb1cb3f670b84fb68bb10ea657eeb04fcef8982"
       ]
     },
     {
@@ -352,18 +332,12 @@
         "survival leveling",
         "hunter leveling"
       ],
-      "text_es": "Dominio de bestias es la mejor rama para subir: reparte el daño con la mascota, que tanquea, y perdona más los errores. Puntería es muy buena, aunque depende más de tus disparos propios y queda por debajo de Dominio. Supervivencia es la más débil durante los primeros niveles: sus talentos de melé llegan tarde y no se recomienda jugarla hasta el 32, así que conviene subir como Dominio hasta entonces. Aun así, el Cazador es de las clases más fáciles de subir por la mascota, Tiro automático, el kiting y la ausencia de golpes parciales en los ataques a distancia.",
-      "text_en": "Beast Mastery is the best tree for leveling: it shares the damage with the pet, which tanks, and forgives more mistakes. Marksmanship is very good, though it relies more on your own shots and sits below Beast Mastery. Survival is the weakest during the first levels: its melee talents arrive late and it is not recommended until level 32, so level as Beast Mastery until then. Even so, Hunter is one of the easiest classes to level thanks to the pet, Auto Shot, kiting, and the absence of glancing blows on ranged attacks.",
+      "text_es": "Dominio de bestias es la opción recomendada para subir porque pasa buena parte del daño a la mascota, que también tanquea y reduce el efecto de los errores. Puntería puede subir con mascota, aunque su build de talentos queda por detrás de Dominio. Supervivencia no se recomienda antes del nivel 32: hasta entonces faltan talentos para combatir bien en melé, así que conviene usar un estilo híbrido.",
+      "text_en": "Beast Mastery is the recommended leveling choice because much of the damage comes from the pet, which also tanks and reduces the impact of mistakes. Marksmanship can level with a pet, although its leveling talent build falls behind Beast Mastery. Survival is not recommended before level 32: it lacks the talents for effective melee combat, so use a hybrid style until then.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling as a Beast Mastery Hunter DPS in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
-          "date": "2026-11-04"
-        },
         {
           "type": "editorial",
           "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Beast Mastery Hunter DPS in WoW Forever",
@@ -372,43 +346,27 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Leveling Guide › Marksmanship Hunter Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-leveling",
-          "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Survival Hunter DPS in WoW Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Marksmanship Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Marksmanship Hunter DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/dps-leveling-tips",
+          "date": "2026-11-16"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling as a Survival Hunter DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
           "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 20 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Overview of Level 20 Beast Mastery Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-20-dps-overview",
-          "date": "2026-11-12"
         }
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:beast-mastery:level20",
         "class:hunter:beast-mastery:leveling",
         "class:hunter:marksmanship:leveling",
         "class:hunter:survival:leveling"
       ],
       "source_hashes": [
-        "section:07abcf66e612d766659b634d683ace0ab78ddf6c",
-        "section:2961a4ed516168b5d1f9e3ec53047b009de6db2b",
         "section:53a817f4dd17ae8a8405b14a436b0b429e8c2744",
-        "section:ae516edb40f77e2ea1faaeb15a2afc01e6587be9",
         "section:b37e664ac96b4a5925338c0d8ea1816684096cc3",
-        "section:cae3f64c600f5175c71c436ea76dd7cfd0667ea5"
+        "section:efd8db5e4f29f46ff417a2079019ef89015abce0"
       ]
     },
     {
@@ -433,8 +391,8 @@
         "summon hawk",
         "bestial wrath"
       ],
-      "text_es": "Empieza a nivel 10 con Aspectos letales y avanza de arriba abajo por Dominio de bestias; después sigue por Puntería. Para los 3 puntos de las dos primeras filas, elige entre Encontrar camino, Revivir mascota mejorado y Entrenamiento en aguante; los 2 de Matanza rápida pueden ir a otro sitio, no a Lobo solitario. Prioriza Invocar halcón (nivel 25, o 20 con Legacy); con 31 puntos en Dominio obtienes Ira de bestias. Luego reparte 10 puntos para maximizar Ataques letales y Afinar la puntería; al final puedes elegir Ojo de águila, Vínculo de espíritu, Rastreo mejorado o Entrenamiento en aguante.",
-      "text_en": "Start at level 10 with Deadly Aspects and spend points from top to bottom in Beast Mastery, then Marksmanship. For the 3 points in the first two rows, choose Pathfinding, Improved Revive Pet, or Endurance Training; the 2 points in Rapid Killing can go elsewhere, not into Lone Wolf. Summon Hawk should be an early priority (level 25, or 20 with Legacy); 31 points in Beast Mastery unlock Bestial Wrath. Then spend 10 points to max Lethal Attacks and Careful Aim; for the final points, choose Hawk Eye, Spirit Bond, Improved Tracking, or Endurance Training.",
+      "text_es": "Empieza a nivel 10 con Aspectos letales y avanza de arriba abajo por la rama Dominio de bestias, luego Puntería. En las dos primeras filas, reparte los 3 puntos entre Encontrar camino, Revivir mascota mejorado y Entrenamiento en aguante; los 2 de Matanza rápida pueden ir a otra parte, no a Lobo solitario. Invocar halcón es el talento que conviene alcanzar primero (nivel 25). Con 31 puntos en Dominio de bestias, toma Ira de bestias; después dedica 10 puntos a maximizar Ataques letales y Afinar la puntería. Completa con Ojo de águila, Vínculo de espíritu o Rastreo mejorado.",
+      "text_en": "Start at level 10 with Deadly Aspects and spend points from top to bottom in Beast Mastery, then Marksmanship. In the first two rows, place the 3 required points in Pathfinding, Improved Revive Pet, or Endurance Training; the 2 in Rapid Killing can go elsewhere, not into Lone Wolf. Summon Hawk is the talent to reach first (level 25). At 31 points in Beast Mastery, take Bestial Wrath; then spend 10 points to max Lethal Attacks and Careful Aim. Finish with Hawk Eye, Spirit Bond, or Improved Tracking.",
       "tags": [
         "HUNTER"
       ],
@@ -453,20 +411,25 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Level 20 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Overview of Level 20 Beast Mastery Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-20-dps-overview",
-          "date": "2026-11-12"
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
+          "date": "2026-11-04"
         }
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:beast-mastery:level20",
         "class:hunter:beast-mastery:leveling"
       ],
       "source_hashes": [
         "section:53a817f4dd17ae8a8405b14a436b0b429e8c2744",
-        "section:b6232efb80631488f95a883d5f3343c844e451fd",
-        "section:cae3f64c600f5175c71c436ea76dd7cfd0667ea5"
+        "section:772f247ab8739c5881c6d07e81653a401589f50d",
+        "section:b6232efb80631488f95a883d5f3343c844e451fd"
       ]
     },
     {
@@ -475,8 +438,8 @@
       "status": "editorial",
       "title_es": "Hitos de habilidad por nivel",
       "title_en": "Ability Milestones by Level",
-      "summary_es": "Mascota 10; Aspecto del guepardo 20; Invocar halcón 25; Fingir muerte 30; Disparo de francotirador 40.",
-      "summary_en": "Pet 10; Aspect of the Cheetah 20; Summon Hawk 25; Feign Death 30; Sniper Shot 40.",
+      "summary_es": "Mascota a 10; guepardo a 20; halcón a 25; Fingir muerte a 30; otras habilidades hasta 60.",
+      "summary_en": "Pet at 10; Cheetah at 20; Hawk at 25; Feign Death at 30; other key abilities through 60.",
       "keywords_es": [
         "nivel de las habilidades",
         "cuándo aprendo mascota",
@@ -491,8 +454,8 @@
         "feign death level",
         "sniper shot level"
       ],
-      "text_es": "Los hitos del Cazador son la misión de mascota a nivel 10, Aspecto del guepardo a 20 y Fingir muerte a 30. En Dominio de bestias, Invocar halcón llega a 25 sin Legacy y a 20 con puntos extra, y Aura de disparo certero puede aprenderse desde 30. En Puntería, Recuperación rápida aparece a 30 y Disparo de francotirador a 40. Aspecto de la manada también se aprende a nivel 40. Fuego rápido llega a 26 y Trampa de Escarcha a 28.",
-      "text_en": "Hunter milestones are the pet quest at level 10, Aspect of the Cheetah at 20 and Feign Death at 30. In Beast Mastery, Summon Hawk arrives at 25 without Legacy and at 20 with extra points, and Trueshot Aura can be learned from 30. In Marksmanship, Rapid Recuperation appears at 30 and Sniper Shot at 40. Aspect of the Pack is also learned at level 40. Rapid Fire arrives at 26 and Frost Trap at 28.",
+      "text_es": "La cadena de clase desbloquea la mascota a nivel 10; Aspecto del guepardo se aprende a 20 y Fingir muerte a 30. Invocar halcón se desbloquea con talentos a 25; Recuperación rápida llega a 30 y Aura de disparo certero se puede entrenar desde 30. Fuego rápido se aprende a 26, Trampa de Escarcha a 28, Aspecto de la manada a 40 y Disparo de francotirador a 40. Las tablas de habilidades indican los rangos posteriores.",
+      "text_en": "The class quest unlocks the pet at level 10; learn Aspect of the Cheetah at 20 and Feign Death at 30. Summon Hawk is a talent unlock at 25; Rapid Recuperation arrives at 30 and Trueshot Aura can be trained from 30. Learn Rapid Fire at 26, Frost Trap at 28, Aspect of the Pack at 40, and Sniper Shot at 40. The ability tables list later ranks.",
       "tags": [
         "HUNTER"
       ],
@@ -511,14 +474,14 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Level 20 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Overview of Level 20 Beast Mastery Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-20-dps-overview",
-          "date": "2026-11-12"
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Beast Mastery Hunter",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Beast Mastery Hunter",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
           "date": "2026-11-04"
         },
         {
@@ -530,7 +493,6 @@
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:beast-mastery:level20",
         "class:hunter:beast-mastery:leveling",
         "class:hunter:marksmanship:leveling"
       ],
@@ -538,8 +500,7 @@
         "section:5f4b7821e0aa6e0f194924a2ec964f58e3b53bd0",
         "section:619453fd61682051dc72128ae93f99a648786e91",
         "section:772f247ab8739c5881c6d07e81653a401589f50d",
-        "section:ab3d94029b44d479525d929a20e0744a93a697ba",
-        "section:cae3f64c600f5175c71c436ea76dd7cfd0667ea5"
+        "section:ab3d94029b44d479525d929a20e0744a93a697ba"
       ]
     },
     {
@@ -682,7 +643,7 @@
         "leveling pet"
       ],
       "text_es": "Para subir, Felino y Raptor hacen el mayor daño y aguantan la amenaza mientras disparas. El Carroñero es una alternativa con menos daño, pero su Chirrido desmoralizador reduce el poder de ataque enemigo. Todas las familias hacen un daño base parecido: lo que cambia es la habilidad. Alimenta a la mascota para que no pierda felicidad y rinda al máximo. El Oso es una opción más resistente: su Flagelo hace daño leve a 3 objetivos cercanos, útil cuando te atacan varios enemigos.",
-      "text_en": "For leveling, Cat and Raptor deal the most damage and hold threat while you shoot. Carrion Bird is an alternative with less damage, but its Demoralizing Screech reduces enemy attack power. Feed the pet so it does not lose happiness and keeps performing at its best. The Bear is a sturdier option: its Swipe deals light damage to 3 nearby targets, which helps when several enemies attack.",
+      "text_en": "For leveling, Cat and Raptor deal the most damage and hold threat while you shoot. Carrion Bird is an alternative with less damage, but its Demoralizing Screech reduces enemy attack power. Feed the pet so it does not lose happiness and keeps performing at its best. Bears is a sturdier option: its Swipe deals light damage to 3 nearby targets, which helps when several enemies attack.",
       "tags": [
         "HUNTER"
       ],
@@ -889,8 +850,8 @@
       "status": "editorial",
       "title_es": "Rotación básica para subir",
       "title_en": "Basic Leveling Rotation",
-      "summary_es": "Marca, mascota primero, Aguijón, Tiro de puntería y Tiro automático; Multidisparo para varios enemigos.",
-      "summary_en": "Hunter's Mark, pet first, Serpent Sting, Aimed Shot and Auto Shot; Multi-Shot for several enemies.",
+      "summary_es": "Sin mascota, kitea con Tiro automático; después deja tanquear a la mascota y dispara desde lejos.",
+      "summary_en": "Without a pet, kite with Auto Shot; then let the pet tank while you attack from range.",
       "keywords_es": [
         "rotación del cazador",
         "marca del cazador",
@@ -919,35 +880,18 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Level 20 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Beast Mastery Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-20-dps-overview",
-          "date": "2026-11-12"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 20 Marksmanship Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Marksmanship Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/level-20-dps-overview",
-          "date": "2026-11-12"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Survival Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-20-dps-overview",
-          "date": "2026-11-12"
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Beast Mastery Hunter DPS in Burning Crusade",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
         }
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:beast-mastery:level20",
-        "class:hunter:beast-mastery:leveling",
-        "class:hunter:marksmanship:level20",
-        "class:hunter:survival:level20"
+        "class:hunter:beast-mastery:leveling"
       ],
       "source_hashes": [
-        "section:00684cee6b5b97d443eeeaa8ec4e09614e5aec8d",
-        "section:6648229829a03c9c8a14d2e449ba6ae3a472c4fa",
-        "section:c6da153dc5599024b096fd97b07e326182df761e",
-        "section:e0f50ed0e78928e7ab4a4b00d0df3e003cf6e131"
+        "section:0275e11aa0bb192e3422bf1dfe5fc95ae64684a0",
+        "section:c6da153dc5599024b096fd97b07e326182df761e"
       ]
     },
     {
@@ -1082,8 +1026,8 @@
         "summon hawk",
         "beast mastery pet"
       ],
-      "text_es": "Dominio de bestias concentra el daño en la mascota, con gran estallido durante Ira de bestias y buena capacidad de kiting. Invocar halcón añade un botón y las mascotas aportan utilidad; la rama no da buffs al grupo y sufre un callejón sin disparos a menos de 8 yardas. Es la rama más fácil de jugar y la más cómoda para subir y para contenido en solitario. Con el sistema Legacy desbloqueas Invocar halcón a nivel 20; sin él, a nivel 25. Ira de bestias es el talento final de la rama y requiere 31 puntos en ella.",
-      "text_en": "Beast Mastery puts damage in the pet, with strong burst during Bestial Wrath and good kiting. Summon Hawk adds a button and pets bring utility; the tree gives no group buffs and suffers a dead zone inside 8 yards. It is the easiest tree to play and the most comfortable for leveling and solo content. With the Legacy system you unlock Summon Hawk at level 20; without it, at 25. Bestial Wrath is the final talent of the tree and needs 31 points in it.",
+      "text_es": "Dominio de bestias concentra buena parte del daño en la mascota, ofrece una gran ráfaga con Ira de bestias y es la rama más sencilla de jugar. Invocar halcón añade otro ataque y varias mascotas aportan utilidad. La rama no ofrece beneficios al grupo y tiene una zona muerta de 8 yardas para los ataques a distancia. Ira de bestias es el talento final y requiere 31 puntos en Dominio.",
+      "text_en": "Beast Mastery places much of its damage in the pet, has strong burst with Bestial Wrath, and is the easiest tree to play. Summon Hawk adds another attack, and pets provide utility. The tree offers no group buffs and ranged attacks have an 8-yard dead zone. Bestial Wrath is the final talent and requires 31 points in Beast Mastery.",
       "tags": [
         "HUNTER"
       ],
@@ -1102,49 +1046,19 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Beast Mastery Hunter Talent Tree Builds - WoW: Forever › Best Beast Mastery Hunter PvE Dungeon and Raid Build",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/talent-builds-pve-dps",
-          "date": "2026-11-16"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
-          "date": "2026-11-14"
-        },
-        {
-          "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Leveling Talent Build",
           "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
           "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Important Abilities",
-          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
-          "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 20 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Overview of Level 20 Beast Mastery Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-20-dps-overview",
-          "date": "2026-11-12"
         }
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:beast-mastery:level20",
         "class:hunter:beast-mastery:leveling",
-        "class:hunter:beast-mastery:overview",
-        "class:hunter:beast-mastery:talents"
+        "class:hunter:beast-mastery:overview"
       ],
       "source_hashes": [
-        "section:180be50b22ce58200948bacf3dd1bada8f0f5b40",
         "section:4593fd09127090b93914bffdaee2318f217b0400",
-        "section:7934f62052a2fcc15ecbd2ebba4cee1f7b65b02d",
         "section:b6232efb80631488f95a883d5f3343c844e451fd",
-        "section:bc95149e5fb3e0b01a9a39c3cc13749860438f87",
-        "section:cae3f64c600f5175c71c436ea76dd7cfd0667ea5",
         "section:dce1859a15bacb375c456b0991e680d2e986b1a4"
       ]
     },
@@ -1170,7 +1084,7 @@
         "archer"
       ],
       "text_es": "Puntería refuerza los disparos propios y el daño de ráfaga; Lobo solitario permite renunciar a la mascota y Disparo de francotirador define su estilo. Es la rama más difícil de jugar de las tres, sobre todo en solitario, y sufre el callejón de 8 yardas. Su Aura de disparo certero llega a toda la banda, pero ya no da poder de ataque cuerpo a cuerpo. Mientras subes necesitas que la mascota tanquee, así que Lobo solitario aún no es una opción.",
-      "text_en": "Marksmanship boosts your own shots and burst damage; Lone Wolf lets you give up the pet, and Sniper Shot defines its style. It is the hardest of the three to play, especially solo, and suffers the 8-yard dead zone. Its Trueshot Aura reaches the whole raid, but no longer grants melee attack power. While leveling you still need the pet to tank, so Lone Wolf is not an option yet.",
+      "text_en": "Marksmanship boosts your own shots and burst damage; Lone Wolf lets you give up the pet, and Sniper Shot defines its style. It is the hardest of the three to play, especially solo, and suffers the 8-yard dead zone. Trueshot Aura benefits the whole raid, but no longer grants melee attack power. While leveling you still need the pet to tank, so Lone Wolf is not an option yet.",
       "tags": [
         "HUNTER"
       ],
@@ -1274,34 +1188,28 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Survival Hunter DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/overview-pve-dps",
-          "date": "2026-11-14"
+          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling as a Survival Hunter DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
+          "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Survival Hunter DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/overview-pve-dps",
-          "date": "2026-11-14"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Survival Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-20-dps-overview",
-          "date": "2026-11-12"
+          "ref": "Wowhead: Survival Hunter DPS Rotation and Cooldowns - WoW: Forever › Full Melee Single Target DPS Rotation for Survival Hunter in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
         }
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:survival:level20",
-        "class:hunter:survival:overview"
+        "class:hunter:survival:leveling",
+        "class:hunter:survival:overview",
+        "class:hunter:survival:rotation"
       ],
       "source_hashes": [
-        "section:035db25891b81d9534640b3214221ac20753d0fb",
-        "section:6648229829a03c9c8a14d2e449ba6ae3a472c4fa",
         "section:88560907f787cadc42eb06c965b31b60556e1bbb",
-        "section:90b7020bc0f765f1573a07a3a40acc9413f95a2a",
+        "section:b37e664ac96b4a5925338c0d8ea1816684096cc3",
         "section:c0d0c99db1c69db7b25c9a659a766a412d4acb8e",
+        "section:c7de19963e5cb6a28f4614049b9faefaaa852768",
         "section:cbb1cb3f670b84fb68bb10ea657eeb04fcef8982"
       ]
     },
@@ -1327,8 +1235,8 @@
         "hunter crit",
         "hunter agility"
       ],
-      "text_es": "La prioridad de Dominio de bestias es golpe hasta 8%, crítico, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante. El golpe evita que una habilidad falle; el crítico es la segunda estadística y la agilidad da poder de ataque y crítico. El intelecto sube maná y, con Afinar la puntería, también poder de ataque; el espíritu ayuda a la Regeneración de maná. La lista es la que maneja la beta para el nivel 60.",
-      "text_en": "Beast Mastery priority is hit to 8%, crit, agility, intellect, ranged attack power, spirit, and stamina. Hit prevents an ability from missing; crit is the second stat, and agility gives attack power and crit. Intellect raises mana and, with Careful Aim, also attack power; Spirit helps mana regeneration. This is the beta list for level 60.",
+      "text_es": "La prioridad propuesta para Dominio de bestias, aún especulativa y no probada a nivel 60, es: golpe hasta 8%, golpe crítico, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante. El golpe encabeza la lista porque fallar una habilidad supone una pérdida grande; el intelecto gana valor con Afinar la puntería.",
+      "text_en": "The proposed Beast Mastery order, still speculative and untested at level 60, is hit to 8%, critical strike, agility, intellect, ranged attack power, spirit, and stamina. Hit ranks first because a missed ability is a major loss; Intellect gains value with Careful Aim.",
       "tags": [
         "HUNTER"
       ],
@@ -1370,8 +1278,8 @@
         "marksmanship crit",
         "marksmanship agility"
       ],
-      "text_es": "La prioridad de Puntería es golpe hasta 8%, crítico, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante. El golpe es lo primero porque una habilidad fallida cuesta más que cualquier otra estadística; después vienen el crítico y la agilidad. El intelecto sube maná y, con Afinar la puntería, también poder de ataque. La lista es la que maneja la beta para el nivel 60.",
-      "text_en": "Marksmanship priority is hit to 8%, crit, agility, intellect, ranged attack power, spirit, and stamina. Hit comes first because one missed ability costs more than any other stat; crit and agility follow. Intellect raises mana and, with Careful Aim, also attack power. This is the beta list for level 60.",
+      "text_es": "La prioridad propuesta para Puntería, aún especulativa y no probada a nivel 60, es: golpe hasta 8%, golpe crítico, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante. El golpe va primero por el coste de fallar una habilidad; el intelecto también aporta poder de ataque con Afinar la puntería.",
+      "text_en": "The proposed Marksmanship order, still speculative and untested at level 60, is hit to 8%, critical strike, agility, intellect, ranged attack power, spirit, and stamina. Hit comes first because missing an ability is costly; Intellect also adds attack power with Careful Aim.",
       "tags": [
         "HUNTER"
       ],
@@ -1413,8 +1321,8 @@
         "survival agility",
         "survival hit"
       ],
-      "text_es": "La prioridad de Supervivencia es golpe, crítico, agilidad, fuerza, poder de ataque, intelecto, espíritu y aguante. El golpe sigue siendo lo primero; la agilidad es la principal y la fuerza solo sube el poder de ataque de melé. El intelecto da maná y, con Afinar la puntería, algo de poder de ataque; el espíritu ayuda a regenerar. La lista es la que maneja la beta para el nivel 60.",
-      "text_en": "Survival priority is hit, crit, agility, strength, attack power, intellect, spirit, and stamina. Hit still comes first; agility is the main stat, and Strength only raises melee attack power. Intellect gives mana and, with Careful Aim, some attack power; Spirit helps regeneration. This is the beta list for level 60.",
+      "text_es": "La prioridad propuesta para Supervivencia, aún especulativa y no probada a nivel 60, es: golpe, crítico, agilidad, fuerza, poder de ataque, intelecto, espíritu y aguante. El golpe encabeza la lista; la fuerza aumenta el poder de ataque cuerpo a cuerpo y Afinar la puntería puede convertir intelecto en ataque a distancia.",
+      "text_en": "The proposed Survival order, still speculative and untested at level 60, is hit, critical strike, agility, strength, attack power, intellect, spirit, and stamina. Hit comes first; Strength raises melee attack power, while Careful Aim can convert Intellect into ranged attack power.",
       "tags": [
         "HUNTER"
       ],
@@ -1456,8 +1364,8 @@
         "summon hawk",
         "rapid fire"
       ],
-      "text_es": "Mantén Marca del cazador y Aguijón de serpiente en el objetivo. Usa Invocar halcón y alterna Tiro Arcano cada tercer hueco; gasta Tiro de puntería cuando esté. Con cuatro o menos enemigos usa Multidisparo, entra a poner Trampa explosiva si puedes y canaliza Lluvia. Fuego rápido y Ira de bestias se usan en cuanto estén, idealmente junto a un abalorio o una racial.",
-      "text_en": "Keep Hunter’s Mark and Serpent Sting on the target. Use Summon Hawk and alternate Arcane Shot every third gap; spend Aimed Shot when available. With four or fewer enemies use Multi-Shot, run in to place Explosive Trap if you can, and channel Volley. Use Rapid Fire and Bestial Wrath whenever ready, ideally with a trinket or racial.",
+      "text_es": "Contra un objetivo, mantén Marca del cazador y Aguijón de serpiente; mantén Invocar halcón en uso; en uno de cada tres ciclos, Tiro Arcano ocupa su lugar. Después, usa Tiro de puntería. En área, marca al objetivo prioritario, usa Multidisparo con cuatro objetivos o menos, Trampa explosiva si el maná lo permite y canaliza Lluvia hasta el final. Activa Fuego rápido e Ira de bestias cuando estén disponibles; si puedes, combínalos con abalorios de uso o raciales.",
+      "text_en": "Against one target, keep Hunter's Mark and Serpent Sting up; keep Summon Hawk active; in one cycle out of three, Arcane Shot takes its place. Then use Aimed Shot. For area damage, mark the priority target, use Multi-Shot against four or fewer targets, Explosive Trap if mana allows, and channel Volley for its full duration. Use Rapid Fire and Bestial Wrath when ready; combine them with on-use trinkets or racials when possible.",
       "tags": [
         "HUNTER"
       ],
@@ -1513,8 +1421,8 @@
         "sniper shot",
         "rapid fire"
       ],
-      "text_es": "Mantén Marca del cazador y Aguijón de serpiente. Usa Tiro Arcano, Tiro de puntería y, cuando tengas el talento, Disparo de francotirador. Con cuatro o menos enemigos usa Multidisparo, entra a poner Trampa explosiva si el maná lo permite y canaliza Lluvia. Fuego rápido es el único cooldown de daño de la rama y conviene combinarlo con un abalorio o una racial.",
-      "text_en": "Keep Hunter’s Mark and Serpent Sting. Use Arcane Shot, Aimed Shot, and, when talented, Sniper Shot. With four or fewer enemies use Multi-Shot, run in to place Explosive Trap if mana allows, and channel Volley. Rapid Fire is the tree’s only damage cooldown and should be paired with a trinket or racial.",
+      "text_es": "Contra un objetivo, mantén Marca del cazador y Aura de disparo certero; sigue este orden: Aguijón de serpiente, Tiro Arcano, Tiro de puntería y Disparo de francotirador cuando tengas el talento. En área, marca al objetivo prioritario, usa Multidisparo con cuatro objetivos o menos, Trampa explosiva si no falta maná ni necesitas otra trampa y canaliza Lluvia hasta el final. Fuego rápido es su único tiempo de reutilización de daño; úsalo cuando esté disponible, idealmente junto a un abalorio de uso o una racial.",
+      "text_en": "Against one target, keep Hunter's Mark and Trueshot Aura up; follow this order: Serpent Sting, Arcane Shot, Aimed Shot, and Sniper Shot when talented. For area damage, mark the priority target, use Multi-Shot against four or fewer targets, Explosive Trap if mana is sufficient and no other trap is needed, and channel Volley for its full duration. Rapid Fire is the spec's only DPS cooldown; use it when ready, ideally with an on-use trinket or racial.",
       "tags": [
         "HUNTER"
       ],
@@ -1536,6 +1444,12 @@
           "ref": "Wowhead: Marksmanship Hunter DPS Rotation and Cooldowns - WoW: Forever › Best Marksmanship Hunter Cooldown Usage in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/rotation-cooldowns-pve-dps",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Marksmanship Hunter DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/rotation-cooldowns-pve-dps",
+          "date": "2026-11-04"
         }
       ],
       "updated": "2026-11-16",
@@ -1545,6 +1459,7 @@
       "source_hashes": [
         "section:3edd5dabc49a6d317dce484d01b79c97ccbf7ea3",
         "section:676d3cba2e3813ab6024208de02ec826069a5242",
+        "section:7b4ed86599cecb01c7ea30e0b10f678a03de9feb",
         "section:7e23bbd3f11c1d9a3ca93aaec22599032ff11afd"
       ]
     },
@@ -1570,8 +1485,8 @@
         "mongoose bite",
         "immolation trap"
       ],
-      "text_es": "Mantén Marca del cazador y lleva Golpe de raptor siempre en cola. Usa Mordedura de mangosta, Patada de zancudo y Trampa de inmolación; Invocar halcón entra cuando tengas el talento. Con cuatro o menos enemigos usa Multidisparo, y para áreas grandes canaliza Lluvia. Fuego rápido se usa en cuanto esté, idealmente con un abalorio o una racial.",
-      "text_en": "Keep Hunter’s Mark up and Raptor Strike always queued. Use Mongoose Bite, Strider Kick, and Immolation Trap; Summon Hawk joins when talented. With four or fewer enemies use Multi-Shot, and for larger packs channel Volley. Use Rapid Fire whenever ready, ideally with a trinket or racial.",
+      "text_es": "En melé, mantén Marca del cazador y Golpe de raptor en cola; prioriza Mordedura de mangosta, Patada de zancudo, Trampa de inmolación e Invocar halcón si tienes el talento. En área, marca al objetivo prioritario, usa Multidisparo con cuatro objetivos o menos, Trampa explosiva si el maná lo permite y canaliza Lluvia hasta el final. Fuego rápido es su único tiempo de reutilización de daño; úsalo cuando esté disponible, idealmente junto a un abalorio de uso o una racial.",
+      "text_en": "In melee, keep Hunter's Mark up and Raptor Strike queued; prioritize Mongoose Bite, Strider Kick, Immolation Trap, and Summon Hawk if talented. For area damage, mark the priority target, use Multi-Shot against four or fewer targets, Explosive Trap if mana allows, and channel Volley for its full duration. Rapid Fire is the spec's only DPS cooldown; use it when ready, ideally with an on-use trinket or racial.",
       "tags": [
         "HUNTER"
       ],
@@ -1609,26 +1524,24 @@
       "id": "clase-hunter-talentos-dominio",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Build de Dominio de bestias",
-      "title_en": "Beast Mastery Build",
-      "summary_es": "La build de banda prioriza daño de mascota y maná, con Ataques letales, Afinar la puntería y Rastreo mejorado.",
-      "summary_en": "The raid build prioritizes pet damage and mana, with Lethal Attacks, Careful Aim, and Improved Tracking.",
+      "title_es": "Build PvE de Dominio de bestias",
+      "title_en": "Beast Mastery PvE Build",
+      "summary_es": "Build de banda con daño de mascota, herencia de estadísticas y gestión de maná.",
+      "summary_en": "Raid build for pet damage, stat inheritance, and mana management.",
       "keywords_es": [
         "build dominio de bestias",
-        "talentos dominio de bestias",
-        "ataques letales",
-        "afinar la puntería",
-        "rastreo mejorado"
+        "talentos de dominio de bestias",
+        "build cazador banda",
+        "talentos mascota cazador"
       ],
       "keywords_en": [
         "beast mastery build",
         "beast mastery talents",
-        "lethal attacks",
-        "careful aim",
-        "improved tracking"
+        "hunter raid build",
+        "pet damage talents"
       ],
-      "text_es": "La build de banda de Dominio de bestias se centra en daño de mascota y maná. Ataques letales, Afinar la puntería y Aura de disparo certero también mejoran a la mascota por la herencia de estadísticas. Rastreo mejorado rinde más que Disparos mortales porque aumenta todo el daño. Los talentos de Dominio que no se toman no aportan daño, así que la build no reparte puntos por completar el árbol.",
-      "text_en": "This Beast Mastery build focuses on pet damage and mana. Lethal Attacks, Careful Aim, and Trueshot Aura also improve the pet through stat inheritance. Improved Tracking beats Mortal Shots because it increases all damage. Untaken Beast Mastery talents add no damage, so the build does not spend points just to fill the tree.",
+      "text_es": "Dominio de bestias: Aspectos letales 5/5, Entrenamiento en aguante 3/5, Fuego enfocado 2/2, Rapidez de bestias 1/1, Furia desatada 5/5, Ferocidad 5/5, Invocar halcón 1/1, Intimidación 1/1, Disciplina de bestias 2/2, Frenesí 5/5 e Ira de bestias 1/1. Esta rama centra la build en el daño de la mascota y el maná; los puntos no invertidos en Dominio no aumentan el daño.",
+      "text_en": "Beast Mastery: Deadly Aspects 5/5, Endurance Training 3/5, Focused Fire 2/2, Bestial Swiftness 1/1, Unleashed Fury 5/5, Ferocity 5/5, Summon Hawk 1/1, Intimidation 1/1, Bestial Discipline 2/2, Frenzy 5/5, and Bestial Wrath 1/1. This tree centers on pet damage and mana; unspent Beast Mastery points do not increase damage.",
       "tags": [
         "HUNTER"
       ],
@@ -1652,26 +1565,24 @@
       "id": "clase-hunter-talentos-punteria",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Build de Puntería",
-      "title_en": "Marksmanship Build",
-      "summary_es": "Puntería usa Lobo solitario para jugar sin mascota y llega a Disparo de francotirador con Eficacia.",
-      "summary_en": "Marksmanship uses Lone Wolf to play without a pet and reaches Sniper Shot with Efficiency.",
+      "title_es": "Build PvE de Puntería",
+      "title_en": "Marksmanship PvE Build",
+      "summary_es": "Build PvE con Lobo solitario, Eficacia y Disparo de francotirador.",
+      "summary_en": "PvE build with Lone Wolf, Efficiency, and Sniper Shot.",
       "keywords_es": [
         "build puntería",
-        "talentos puntería",
-        "lobo solitario",
-        "disparo de francotirador",
-        "eficacia"
+        "talentos puntería cazador",
+        "build puntería pve",
+        "lobo solitario cazador"
       ],
       "keywords_en": [
         "marksmanship build",
         "marksmanship talents",
-        "lone wolf",
-        "sniper shot",
-        "efficiency"
+        "marksmanship pve build",
+        "hunter lone wolf build"
       ],
-      "text_es": "La build de Puntería usa Lobo solitario para renunciar a la mascota y concentrarse en los disparos. Disparo de francotirador es el talento final y consume mucho maná, por lo que Eficacia importa aunque haya otras fuentes de regeneración. Aspectos letales y Rastreo mejorado son los apoyos útiles de otras ramas. Sin mascota, la rama de Dominio de bestias queda fuera; la variante PvP cambia daño por control y supervivencia.",
-      "text_en": "The Marksmanship build uses Lone Wolf to give up the pet and focus on shots. Sniper Shot is the capstone and costs a lot of mana, so Efficiency matters even with other regeneration sources. Deadly Aspects and Improved Tracking are the useful support talents from other trees. Without a pet, Beast Mastery is left out; the PvP variant trades damage for control and survival.",
+      "text_es": "Dominio de bestias: Aspectos letales 5/5. Puntería: Ataques letales 5/5, Picaduras mejoradas 3/3, Eficacia 5/5, Afinar la puntería 5/5, Matanza rápida 2/2, Disparo Arcano mejorado 5/5, Lobo solitario 1/1, Aura de disparo certero 1/1, Disparos mortales 5/5, Recuperación rápida 2/2, Aluvión 1/3, Especialización en armas a distancia 5/5 y Disparo de francotirador 1/1. Supervivencia: Rastreo mejorado 5/5. Lobo solitario permite prescindir de la mascota; Eficacia ayuda a pagar Disparo de francotirador, que consume mucho maná.",
+      "text_en": "Beast Mastery: Deadly Aspects 5/5. Marksmanship: Lethal Attacks 5/5, Improved Stings 3/3, Efficiency 5/5, Careful Aim 5/5, Rapid Killing 2/2, Improved Arcane Shot 5/5, Lone Wolf 1/1, Trueshot Aura 1/1, Mortal Shots 5/5, Rapid Recuperation 2/2, Barrage 1/3, Ranged Weapon Specialization 5/5, and Sniper Shot 1/1. Survival: Improved Tracking 5/5. Lone Wolf lets you forgo a pet; Efficiency helps fund Sniper Shot, which has a high mana cost.",
       "tags": [
         "HUNTER"
       ],
@@ -1695,26 +1606,24 @@
       "id": "clase-hunter-talentos-supervivencia",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Build de Supervivencia",
-      "title_en": "Survival Build",
-      "summary_es": "La build de melé evita Golpes lacerantes; la de weaving sí la usa con un arma a dos manos.",
-      "summary_en": "The melee build avoids Lacerating Strikes; the weaving build uses it with a two-handed weapon.",
+      "title_es": "Build PvE de Supervivencia",
+      "title_en": "Survival Melee PvE Build",
+      "summary_es": "Build de melé que prioriza daño cuerpo a cuerpo, maná e Invocar halcón.",
+      "summary_en": "Melee build prioritizing melee damage, mana, and Summon Hawk.",
       "keywords_es": [
         "build supervivencia",
-        "talentos supervivencia",
-        "golpes lacerantes",
-        "arma a dos manos",
-        "mordedura de mangosta"
+        "talentos supervivencia cazador",
+        "build melé cazador",
+        "supervivencia pve"
       ],
       "keywords_en": [
         "survival build",
-        "survival talents",
-        "lacerating strikes",
-        "two-handed weapon",
-        "mongoose bite"
+        "survival hunter talents",
+        "hunter melee build",
+        "survival pve"
       ],
-      "text_es": "La build de melé de Supervivencia evita Golpes lacerantes y Reflejos de relámpago porque rinden poco; usa Patada de zancudo, Exponer presa y Mordedura de mangosta. La build de weaving sí lleva Golpes lacerantes: con un arma a dos manos sube el daño de Mordedura de mangosta y mezcla disparos. En PvP añade Desvío, Disuasión, Pies de plomo y Contraataque para sobrevivir y pegarse al objetivo. La rama empieza a rendir tarde, hacia el nivel 32.",
-      "text_en": "The Survival melee build avoids Lacerating Strikes and Lightning Reflexes because they perform poorly; it uses Strider Kick, Expose Prey, and Mongoose Bite. The weaving build does take Lacerating Strikes: with a two-handed weapon it raises Mongoose Bite damage and mixes in shots. PvP adds Deflection, Deterrence, Surefooted, and Counterattack to survive and stick to the target. The tree starts late, around level 32.",
+      "text_es": "Dominio de bestias: Aspectos letales 5/5, Entrenamiento en aguante 1/5, Fuego enfocado 2/2, Revivir mascota mejorado 2/2, Furia desatada 5/5 e Invocar halcón 1/1. Puntería: Ataques letales 4/5. Supervivencia: Rastreo mejorado 5/5, Golpes salvajes 2/2, Sobrevividor 3/5, Trampas inteligentes 2/2, Pies de plomo 3/3, Filo de depredador 5/5, Exponer presa 2/2, Disciplina de superviviente 2/2, Patada de zancudo 1/1, Reflejos de relámpago 5/5 y Golpes lacerantes 1/1. Se centra en daño melé y maná; Invocar halcón añade un ataque.",
+      "text_en": "Beast Mastery: Deadly Aspects 5/5, Endurance Training 1/5, Focused Fire 2/2, Improved Revive Pet 2/2, Unleashed Fury 5/5, and Summon Hawk 1/1. Marksmanship: Lethal Attacks 4/5. Survival: Improved Tracking 5/5, Savage Strikes 2/2, Survivalist 3/5, Clever Traps 2/2, Surefooted 3/3, Predator’s Edge 5/5, Expose Prey 2/2, Survivalist’s Discipline 2/2, Strider Kick 1/1, Lightning Reflexes 5/5, and Lacerating Strikes 1/1. It focuses on melee damage and mana; Summon Hawk adds an attack.",
       "tags": [
         "HUNTER"
       ],
@@ -1724,44 +1633,14 @@
           "ref": "Wowhead: Best Survival Hunter Talent Tree Builds - WoW: Forever › Best Survival Hunter Melee PvE Dungeon and Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/talent-builds-pve-dps",
           "date": "2026-11-07"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Best Survival Hunter Talent Tree Builds - WoW: Forever › Best Survival Hunter Weaving PvE Dungeon and Raid Build",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/talent-builds-pve-dps",
-          "date": "2026-11-07"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 30 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › What Changes for Survival Hunters from Level 20 to Level 30 in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-30-dps-overview",
-          "date": "2026-10-11"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Best Survival Hunter Talent Tree Builds - WoW: Forever › Best Survival Hunter PvP Build",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/talent-builds-pve-dps",
-          "date": "2026-11-07"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Survival Hunter DPS in WoW Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
-          "date": "2026-11-04"
         }
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:survival:level30",
-        "class:hunter:survival:leveling",
         "class:hunter:survival:talents"
       ],
       "source_hashes": [
-        "section:2961a4ed516168b5d1f9e3ec53047b009de6db2b",
-        "section:2f29a3fe5626fa4993d12a3ed2f52c6c201421e5",
-        "section:31324fb3aaa7b8b4463c53a9624c7488d59983f8",
-        "section:55da78af272c184af60facef93d749a2bd803c7d",
-        "section:e8412d88f4c0f445dacfd5bdd9ade2891d290077"
+        "section:55da78af272c184af60facef93d749a2bd803c7d"
       ]
     },
     {
@@ -2045,7 +1924,7 @@
         "two-handed weapons"
       ],
       "text_es": "El Cazador puede usar arcos, ballestas, armas de fuego, dagas, armas de puño, Hachas de una mano, Espadas de una mano, armas de asta, bastones, armas arrojadizas, Hachas de dos manos y Espadas de dos manos. No puede usar mazas, varitas ni escudos. Aprender una habilidad de armas cuesta 10 de plata; Armas de asta es la excepción: 1 de oro y nivel 20. El maestro de armas de cada ciudad solo enseña algunas, así que comprueba cuál antes de viajar.",
-      "text_en": "Hunter can use bows, crossbows, guns, daggers, fist weapons, one-handed axes and swords, polearms, staves, thrown weapons, and two-handed axes and swords. It cannot use maces, wands, or shields. Training a weapon skill costs 10 silver; Polearms is the exception at 1 gold and needs level 20. Each city's weapon master teaches only some skills, so check which one before you travel.",
+      "text_en": "Weapon skill training usually costs 10 silver. Polearms are the exception: learning them requires level 20 and costs 1 gold. Trainers offer different selections, so check which skills are available before making a trip.",
       "tags": [
         "HUNTER"
       ],
@@ -2163,380 +2042,6 @@
       ],
       "source_hashes": [
         "section:e940a03032cc174a320f93f47490937b55832cc9"
-      ]
-    },
-    {
-      "id": "clase-hunter-build-20-dominio",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Build de Dominio a nivel 20",
-      "title_en": "Level 20 Beast Mastery Build",
-      "summary_es": "Talentos de Dominio a nivel 20, con la variante de puntos Legacy.",
-      "summary_en": "Level 20 Beast Mastery talents, including the Legacy-points variant.",
-      "keywords_es": [
-        "build dominio nivel 20",
-        "talentos dominio subir",
-        "puntos legacy nivel 20",
-        "invocar halcón nivel 20",
-        "talento daño cazador"
-      ],
-      "keywords_en": [
-        "level 20 beast mastery build",
-        "beast mastery leveling talents",
-        "legacy points level 20",
-        "summon hawk level 20",
-        "hunter damage talent"
-      ],
-      "text_es": "A nivel 20, la build base lleva Aspectos letales 5/5, Fuego enfocado 2/2 y Ataques letales 4/5. La variante con puntos Legacy usa Aspectos letales 5/5, Entrenamiento en aguante 3/5, Fuego enfocado 2/2, Furia desatada 5/5 e Invocar halcón 1/1. Invocar halcón se obtiene a nivel 20 con Legacy y a 25 sin esos puntos. Se prioriza el daño propio y el de la mascota, que también puede tanquear.",
-      "text_en": "At level 20, the standard build takes Deadly Aspects 5/5, Focused Fire 2/2, and Lethal Attacks 4/5. The build using extra points from the Legacy system uses Deadly Aspects 5/5, Endurance Training 3/5, Focused Fire 2/2, Unleashed Fury 5/5, and Summon Hawk 1/1. Summon Hawk is available at level 20 with Legacy and at 25 without those points. The build prioritizes your damage and the pet’s, and the pet can also tank.",
-      "tags": [
-        "HUNTER"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 20 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Overview of Level 20 Beast Mastery Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-20-dps-overview",
-          "date": "2026-11-12"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 20 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Best Level 20 Talent Build for Beast Mastery Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-20-dps-overview",
-          "date": "2026-11-12"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 20 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Additional Talent Points from Legacy System for Beast Mastery Hunters at Level 20",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-20-dps-overview",
-          "date": "2026-11-12"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling Viability for Beast Mastery Hunter DPS in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-16",
-      "topics": [
-        "class:hunter:beast-mastery:level20",
-        "class:hunter:beast-mastery:leveling"
-      ],
-      "source_hashes": [
-        "section:9ea512b6839278a19c024a70285e0faebc67b065",
-        "section:cae3f64c600f5175c71c436ea76dd7cfd0667ea5",
-        "section:d41d3c4e4af0e650e0e68fbdecfeee4272105c6f",
-        "section:fedb23334c5f8da252d669c1ea5ee868b4cb2290"
-      ]
-    },
-    {
-      "id": "clase-hunter-build-30-dominio",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Build de Dominio a nivel 30",
-      "title_en": "Level 30 Beast Mastery Build",
-      "summary_es": "Talentos de Dominio a nivel 30, con la variante de puntos Legacy.",
-      "summary_en": "Level 30 Beast Mastery talents, including the Legacy-points variant.",
-      "keywords_es": [
-        "build dominio nivel 30",
-        "talentos dominio 30",
-        "invocar halcón guardián",
-        "puntos legacy nivel 30",
-        "daño mascota"
-      ],
-      "keywords_en": [
-        "level 30 beast mastery build",
-        "beast mastery talents 30",
-        "summon hawk guardian",
-        "legacy points level 30",
-        "pet damage"
-      ],
-      "text_es": "A nivel 30, la build base lleva Aspectos letales 5/5, Fuego enfocado 2/2, Revivir mascota mejorado 1/2, Encontrar camino 2/2, Rapidez de bestias 1/1, Furia desatada 5/5, Ferocidad 3/5, Invocar halcón 1/1 e Intimidación 1/1. La variante Legacy sube Ferocidad a 5/5 y añade Disciplina de bestias 2/2 y Frenesí 1/5. Invocar halcón se obtiene a nivel 25 y su guardián dura 18 segundos; la build aumenta el daño propio y el de la mascota.",
-      "text_en": "At level 30, the standard build takes Deadly Aspects 5/5, Focused Fire 2/2, Improved Revive Pet 1/2, Pathfinding 2/2, Bestial Swiftness 1/1, Unleashed Fury 5/5, Ferocity 3/5, Summon Hawk 1/1, and Intimidation 1/1. The extra-point allocation raises Ferocity to 5/5 and adds Bestial Discipline 2/2 and Frenzy 1/5. Summon Hawk is available by level 25 and its guardian lasts 18 seconds; the build raises your damage and your pet’s.",
-      "tags": [
-        "HUNTER"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 30 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Best Level 30 Talent Build for Beast Mastery Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-30-dps-overview",
-          "date": "2026-11-06"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 30 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › What Changes for Beast Mastery Hunters from Level 20 to Level 30 in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-30-dps-overview",
-          "date": "2026-11-06"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 30 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Additional Talent Points from Legacy System for Beast Mastery Hunters at Level 30",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-30-dps-overview",
-          "date": "2026-11-06"
-        }
-      ],
-      "updated": "2026-11-16",
-      "topics": [
-        "class:hunter:beast-mastery:level30"
-      ],
-      "source_hashes": [
-        "section:7e64e8a901bc64ec63567c682443f2cd0582090b",
-        "section:b01ee3e79ff5d98a54188ff5b71e85ed94f8762b",
-        "section:df1a88e98d34aa5320b3eb4d00f244f30c274f2b"
-      ]
-    },
-    {
-      "id": "clase-hunter-build-20-punteria",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Build de Puntería a nivel 20",
-      "title_en": "Level 20 Marksmanship Build",
-      "summary_es": "Talentos de Puntería a nivel 20, con la variante de puntos Legacy.",
-      "summary_en": "Level 20 Marksmanship talents, including the Legacy-points variant.",
-      "keywords_es": [
-        "build puntería nivel 20",
-        "talentos puntería subir",
-        "puntos dominio puntería",
-        "lobo solitario nivel 20",
-        "mascota puntería"
-      ],
-      "keywords_en": [
-        "level 20 marksmanship build",
-        "marksmanship leveling talents",
-        "beast mastery points marksmanship",
-        "lone wolf level 20",
-        "marksmanship pet"
-      ],
-      "text_es": "A nivel 20, la build base combina Aspectos letales 5/5 y Fuego enfocado 2/2 en la rama Dominio de bestias con Ataques letales 4/5 en Puntería. La variante con puntos Legacy usa Aspectos letales 5/5, Fuego enfocado 2/2, Ataques letales 5/5 y Afinar la puntería 4/5. El compañero animal hace más daño que el bonus de Lobo solitario, así que se recomienda conservarlo.",
-      "text_en": "At level 20, the standard build combines Deadly Aspects 5/5 and Focused Fire 2/2 in Beast Mastery with Lethal Attacks 4/5 in Marksmanship. The build using extra points from the Legacy system takes Deadly Aspects 5/5, Focused Fire 2/2, Lethal Attacks 5/5, and Careful Aim 4/5. The pet deals more damage than the Lone Wolf bonus, so keeping it is advised.",
-      "tags": [
-        "HUNTER"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 20 Marksmanship Hunter Guide: Talents, Rotation and Gearing - Forever › Overview of Level 20 Markmanship Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/level-20-dps-overview",
-          "date": "2026-11-12"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 20 Marksmanship Hunter Guide: Talents, Rotation and Gearing - Forever › Best Level 20 Talent Build for Marksmanship Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/level-20-dps-overview",
-          "date": "2026-11-12"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 20 Marksmanship Hunter Guide: Talents, Rotation and Gearing - Forever › Additional Talent Points from Legacy System for Marksmanship Hunters at Level 20",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/level-20-dps-overview",
-          "date": "2026-11-12"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Marksmanship Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Marksmanship Hunter DPS in WoW Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/dps-leveling-tips",
-          "date": "2026-11-16"
-        }
-      ],
-      "updated": "2026-11-16",
-      "topics": [
-        "class:hunter:marksmanship:level20",
-        "class:hunter:marksmanship:leveling"
-      ],
-      "source_hashes": [
-        "section:75f3d4826faf3042495b084fbdd6879a11e2edef",
-        "section:e1551b9f275dbf8e52bbcd69686291600f9d01fa",
-        "section:efd8db5e4f29f46ff417a2079019ef89015abce0",
-        "section:fea84161ebfdb7d2c98319049da2b9f8e31257a2"
-      ]
-    },
-    {
-      "id": "clase-hunter-build-30-punteria",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Build de Puntería a nivel 30",
-      "title_en": "Level 30 Marksmanship Build",
-      "summary_es": "Talentos de Puntería a nivel 30; la variante Legacy añade puntos a ambas ramas.",
-      "summary_en": "Level 30 Marksmanship talents; the Legacy variant adds points in both trees.",
-      "keywords_es": [
-        "build puntería nivel 30",
-        "talentos puntería 30",
-        "lobo solitario 30",
-        "aura de disparo certero",
-        "disparo disperso"
-      ],
-      "keywords_en": [
-        "level 30 marksmanship build",
-        "marksmanship talents 30",
-        "lone wolf 30",
-        "trueshot aura",
-        "scatter shot"
-      ],
-      "text_es": "A nivel 30, la build base lleva Ataques letales 5/5, Afinar la puntería 5/5, Disparo Arcano mejorado 5/5, Aura de disparo certero 1/1, Disparos mortales 4/5 y Disparo disperso 1/1. La variante con puntos Legacy añade Picaduras mejoradas 3/3, Matanza rápida 2/2 y Lobo solitario 1/1, sube Disparo Arcano mejorado a 2/5, Disparos mortales a 5/5 y Recuperación rápida a 2/2; conserva los demás talentos de la build base. La build base evita Lobo solitario porque la mascota aporta más daño.",
-      "text_en": "At level 30, the standard build takes Lethal Attacks 5/5, Careful Aim 5/5, Improved Arcane Shot 5/5, Trueshot Aura 1/1, Mortal Shots 4/5, and Scatter Shot 1/1. The extra-point allocation adds Improved Stings 3/3, Rapid Killing 2/2, and Lone Wolf 1/1; it takes Improved Arcane Shot to 2/5, Mortal Shots to 5/5, and Rapid Recuperation to 2/2, keeping the other standard talents. The standard build skips Lone Wolf because the pet adds more damage.",
-      "tags": [
-        "HUNTER"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 30 Marksmanship Hunter Guide: Talents, Rotation and Gearing - Forever › What Changes for Marksmanship Hunters from Level 20 to Level 30 in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/level-30-dps-overview",
-          "date": "2026-10-11"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 30 Marksmanship Hunter Guide: Talents, Rotation and Gearing - Forever › Best Level 30 Talent Build for Marksmanship Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/level-30-dps-overview",
-          "date": "2026-10-11"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 30 Marksmanship Hunter Guide: Talents, Rotation and Gearing - Forever › Additional Talent Points from Legacy System for Marksmanship Hunters at Level 30",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/level-30-dps-overview",
-          "date": "2026-10-11"
-        }
-      ],
-      "updated": "2026-11-16",
-      "topics": [
-        "class:hunter:marksmanship:level30"
-      ],
-      "source_hashes": [
-        "section:525f79305a478eddeca596b2020cfd8ce1f5a414",
-        "section:64d9df73fa8d74ce3b51884caf3903c03755d68a",
-        "section:d55aa25ec4019b7fb75a4edb1a8620f2979efa01"
-      ]
-    },
-    {
-      "id": "clase-hunter-build-20-supervivencia",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Build de Supervivencia a nivel 20",
-      "title_en": "Level 20 Survival Build",
-      "summary_es": "Talentos de Supervivencia a nivel 20, con la variante de puntos Legacy.",
-      "summary_en": "Level 20 Survival talents, including the Legacy-points variant.",
-      "keywords_es": [
-        "build supervivencia nivel 20",
-        "talentos supervivencia subir",
-        "supervivencia melé nivel 20",
-        "puntos legacy supervivencia",
-        "patada de zancudo"
-      ],
-      "keywords_en": [
-        "level 20 survival build",
-        "survival leveling talents",
-        "survival melee level 20",
-        "legacy points survival",
-        "strider kick"
-      ],
-      "text_es": "A nivel 20, la build base usa Ataques letales 4/5, Rastreo mejorado 5/5 y Golpes salvajes 2/2. La variante con puntos Legacy lleva Rastreo mejorado 5/5, Desvío 4/5, Golpes salvajes 2/2, Pies de plomo 3/3, Disuasión 1/1 y Contraataque 1/1. A este nivel aún no tienes Patada de zancudo ni Exponer presa; la rama no permite hacer la mayor parte del daño en melé hasta el 32, así que conviene mezclar melé y distancia.",
-      "text_en": "At level 20, the standard build takes Lethal Attacks 4/5, Improved Tracking 5/5, and Savage Strikes 2/2. The alternate build with extra points from Legacy takes Improved Tracking 5/5, Deflection 4/5, Savage Strikes 2/2, Surefooted 3/3, Deterrence 1/1, and Counterattack 1/1. Strider Kick and Expose Prey are not available yet; Survival cannot deal most of its damage in melee until level 32, so mix melee and ranged attacks.",
-      "tags": [
-        "HUNTER"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Overview of Level 20 Survival Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-20-dps-overview",
-          "date": "2026-11-12"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Best Level 20 Talent Build for Survival Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-20-dps-overview",
-          "date": "2026-11-12"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Additional Talent Points from Legacy System for Survival Hunters at Level 20",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-20-dps-overview",
-          "date": "2026-11-12"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Survival Hunter DPS in WoW Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-16",
-      "topics": [
-        "class:hunter:survival:level20",
-        "class:hunter:survival:leveling"
-      ],
-      "source_hashes": [
-        "section:049682e1d5761398c153cbbac648bfa45d3b2871",
-        "section:2961a4ed516168b5d1f9e3ec53047b009de6db2b",
-        "section:d45a2fdb1384ff056ffc830d385a1983c13d73fc",
-        "section:d95d5fd77914a460fe6aa44896bcf314e57a9bb3"
-      ]
-    },
-    {
-      "id": "clase-hunter-build-30-supervivencia",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Build de Supervivencia a nivel 30",
-      "title_en": "Level 30 Survival Build",
-      "summary_es": "Talentos de Supervivencia a nivel 30; Legacy añade Ingenio y Exponer presa.",
-      "summary_en": "Level 30 Survival talents; Legacy adds Resourcefulness and Expose Prey.",
-      "keywords_es": [
-        "build supervivencia nivel 30",
-        "talentos supervivencia 30",
-        "exponer presa",
-        "patada de zancudo",
-        "arma a dos manos"
-      ],
-      "keywords_en": [
-        "level 30 survival build",
-        "survival talents 30",
-        "expose prey",
-        "strider kick",
-        "two-handed weapon"
-      ],
-      "text_es": "A nivel 30, la build base lleva Rastreo mejorado 5/5, Desvío 4/5, Golpes salvajes 2/2, Pies de plomo 3/3, Disuasión 1/1, Filo de depredador 4/5, Contraataque 1/1 y Patada de zancudo 1/1. La variante con puntos Legacy sube Filo de depredador a 5/5 y añade Ingenio 2/2 y Exponer presa 2/2. Patada de zancudo permite jugar mejor en melé y Exponer presa deja permanecer en melé o alternar con ataques a distancia usando un arma de dos manos; el estilo híbrido se recomienda hasta el 32.",
-      "text_en": "At level 30, the standard build takes Improved Tracking 5/5, Deflection 4/5, Savage Strikes 2/2, Surefooted 3/3, Deterrence 1/1, Predator’s Edge 4/5, Counterattack 1/1, and Strider Kick 1/1. The extra-point allocation raises Predator’s Edge to 5/5 and adds Resourcefulness 2/2 and Expose Prey 2/2. Strider Kick improves melee play, and Expose Prey lets you stay in melee or weave in ranged attacks with a two-handed weapon; hybrid play is recommended until level 32.",
-      "tags": [
-        "HUNTER"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 30 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › What Changes for Survival Hunters from Level 20 to Level 30 in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-30-dps-overview",
-          "date": "2026-10-11"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 30 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Best Level 30 Talent Build for Survival Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-30-dps-overview",
-          "date": "2026-10-11"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 30 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Additional Talent Points from Legacy System for Survival Hunters at Level 30",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-30-dps-overview",
-          "date": "2026-10-11"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling as a Survival Hunter DPS in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-16",
-      "topics": [
-        "class:hunter:survival:level30",
-        "class:hunter:survival:leveling"
-      ],
-      "source_hashes": [
-        "section:05649db0cf11ffbe2bfb563ec57c59f8b961c868",
-        "section:2f29a3fe5626fa4993d12a3ed2f52c6c201421e5",
-        "section:71a8332bd248c0228738f280376c0284ca5c1136",
-        "section:b37e664ac96b4a5925338c0d8ea1816684096cc3"
       ]
     },
     {
@@ -2669,19 +2174,19 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Survival Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-20-dps-overview",
-          "date": "2026-11-12"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 30 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 30 Survival Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-30-dps-overview",
-          "date": "2026-10-11"
-        },
-        {
-          "type": "editorial",
           "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Survival Hunter DPS in Burning Crusade",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling as a Survival Hunter DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Best Abilities to Train for Survival Hunter DPS in WoW: Forever > Mandatory Abilities to Train for Survival Hunter",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
           "date": "2026-11-04"
         },
@@ -2694,15 +2199,13 @@
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:survival:level20",
-        "class:hunter:survival:level30",
         "class:hunter:survival:leveling"
       ],
       "source_hashes": [
+        "guide:7e9b86a06e93b6fcad4bcfdb7e84d4eb13c1a7f6",
         "section:0932b2c4f5955443026575b5d88689aab818fe98",
         "section:2961a4ed516168b5d1f9e3ec53047b009de6db2b",
-        "section:6648229829a03c9c8a14d2e449ba6ae3a472c4fa",
-        "section:ea3915224f7331382ace4bdc7874c27724e26ca4"
+        "section:b37e664ac96b4a5925338c0d8ea1816684096cc3"
       ]
     },
     {
@@ -3032,6 +2535,211 @@
       ],
       "source_hashes": [
         "section:2192c46f3aa588e05c1b7a044a34b167a31e8301"
+      ]
+    },
+    {
+      "id": "clase-hunter-talentos-dominio-pvp",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build PvP de Dominio de bestias",
+      "title_en": "Beast Mastery PvP Build",
+      "summary_es": "Variante PvP con control adicional, defensa contra melé e Invocar halcón.",
+      "summary_en": "PvP variant with extra control, melee defense, and Summon Hawk.",
+      "keywords_es": [
+        "build dominio pvp",
+        "talentos cazador pvp",
+        "dominio de bestias pvp",
+        "control cazador"
+      ],
+      "keywords_en": [
+        "beast mastery pvp build",
+        "hunter pvp talents",
+        "beast mastery pvp",
+        "hunter crowd control"
+      ],
+      "text_es": "Dominio de bestias: Aspectos letales 5/5, Fuego enfocado 2/2, Aspecto del mono mejorado 3/3, Rapidez de bestias 1/1, Furia desatada 5/5, Ferocidad 5/5, Invocar halcón 1/1, Intimidación 1/1, Disciplina de bestias 2/2, Frenesí 5/5 e Ira de bestias 1/1. Puntería: Disparo de concusión mejorado 5/5, Ataques letales 5/5, Afinar la puntería 5/5 y Aura de disparo certero 1/1. Supervivencia: Rastreo mejorado 4/5. Añade control: Disparo de concusión mejorado puede aturdir, Aspecto del mono ayuda contra melé e Invocar halcón no tiene alcance mínimo.",
+      "text_en": "Beast Mastery: Deadly Aspects 5/5, Focused Fire 2/2, Improved Aspect of the Monkey 3/3, Bestial Swiftness 1/1, Unleashed Fury 5/5, Ferocity 5/5, Summon Hawk 1/1, Intimidation 1/1, Bestial Discipline 2/2, Frenzy 5/5, and Bestial Wrath 1/1. Marksmanship: Improved Concussive Shot 5/5, Lethal Attacks 5/5, Careful Aim 5/5, and Trueshot Aura 1/1. Survival: Improved Tracking 4/5. It adds disruption: Improved Concussive Shot can stun, Improved Aspect of the Monkey helps against melee opponents, and Summon Hawk has no minimum range.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Beast Mastery Hunter Talent Tree Builds - WoW: Forever › Best Beast Mastery Hunter PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/talent-builds-pve-dps",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:beast-mastery:talents"
+      ],
+      "source_hashes": [
+        "section:04cef53106ff7f5dd144fd743ddfa99ea878d110"
+      ]
+    },
+    {
+      "id": "clase-hunter-talentos-punteria-pvp",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build PvP de Puntería",
+      "title_en": "Marksmanship PvP Build",
+      "summary_es": "Variante PvP con talentos de control, interrupción y defensa.",
+      "summary_en": "PvP variant with control, disruption, and defensive talents.",
+      "keywords_es": [
+        "build puntería pvp",
+        "talentos cazador pvp",
+        "disparo disperso",
+        "disparo de concusión mejorado"
+      ],
+      "keywords_en": [
+        "marksmanship pvp build",
+        "hunter pvp talents",
+        "scatter shot build",
+        "improved concussive shot"
+      ],
+      "text_es": "Puntería: Disparo de concusión mejorado 5/5, Ataques letales 5/5, Picaduras mejoradas 3/3, Afinar la puntería 5/5, Disparo Arcano mejorado 5/5, Lobo solitario 1/1, Aura de disparo certero 1/1, Disparos mortales 5/5, Aluvión 3/3, Disparo disperso 1/1, Especialización en armas a distancia 5/5 y Disparo de francotirador 1/1. Supervivencia: Rastreo mejorado 5/5, Sobrevividor 5/5 y Disuasión 1/1. El control y las defensas ayudan a interrumpir y sobrevivir; los disparos potentes son difíciles de lanzar en JcJ, pero devastadores si impactan.",
+      "text_en": "Marksmanship: Improved Concussive Shot 5/5, Lethal Attacks 5/5, Improved Stings 3/3, Careful Aim 5/5, Improved Arcane Shot 5/5, Lone Wolf 1/1, Trueshot Aura 1/1, Mortal Shots 5/5, Barrage 3/3, Scatter Shot 1/1, Ranged Weapon Specialization 5/5, and Sniper Shot 1/1. Survival: Improved Tracking 5/5, Survivalist 5/5, and Deterrence 1/1. Control and defensive talents help disrupt and survive; the powerful shots are hard to cast in PvP, but devastating when they land.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Marksmanship Hunter Talent Tree Builds - WoW: Forever › Best Marksmanship Hunter PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:marksmanship:talents"
+      ],
+      "source_hashes": [
+        "section:65c5f074ba7165e63d19e16b5a5d0966c4065b11"
+      ]
+    },
+    {
+      "id": "clase-hunter-talentos-supervivencia-weaving",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de weaving de Supervivencia",
+      "title_en": "Survival Weaving PvE Build",
+      "summary_es": "Mezcla ataques a distancia y melé con arma a dos manos y Golpes lacerantes.",
+      "summary_en": "Mixes ranged and melee attacks with a two-handed weapon and Lacerating Strikes.",
+      "keywords_es": [
+        "build weaving cazador",
+        "supervivencia weaving",
+        "arma a dos manos cazador",
+        "golpes lacerantes"
+      ],
+      "keywords_en": [
+        "survival weaving build",
+        "hunter weaving",
+        "two-handed hunter",
+        "lacerating strikes"
+      ],
+      "text_es": "Puntería: Ataques letales 5/5, Picaduras mejoradas 3/3, Afinar la puntería 5/5, Disparo Arcano mejorado 1/5, Lobo solitario 1/1, Aura de disparo certero 1/1 y Disparos mortales 4/5. Supervivencia: Rastreo mejorado 5/5, Golpes salvajes 2/2, Sobrevividor 3/5, Trampas inteligentes 2/2, Pies de plomo 3/3, Filo de depredador 5/5, Ingenio 2/2, Exponer presa 2/2, Patada de zancudo 1/1, Reflejos de relámpago 5/5 y Golpes lacerantes 1/1. Rinde con arma a dos manos: Golpes lacerantes aumenta Mordedura de mangosta y Puntería refuerza los disparos.",
+      "text_en": "Marksmanship: Lethal Attacks 5/5, Improved Stings 3/3, Careful Aim 5/5, Improved Arcane Shot 1/5, Lone Wolf 1/1, Trueshot Aura 1/1, and Mortal Shots 4/5. Survival: Improved Tracking 5/5, Savage Strikes 2/2, Survivalist 3/5, Clever Traps 2/2, Surefooted 3/3, Predator’s Edge 5/5, Resourcefulness 2/2, Expose Prey 2/2, Strider Kick 1/1, Lightning Reflexes 5/5, and Lacerating Strikes 1/1. It suits a two-handed weapon: Lacerating Strikes improves Mongoose Bite and Marksmanship boosts ranged attacks.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Survival Hunter Talent Tree Builds - WoW: Forever › Best Survival Hunter Weaving PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/talent-builds-pve-dps",
+          "date": "2026-11-07"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:survival:talents"
+      ],
+      "source_hashes": [
+        "section:e8412d88f4c0f445dacfd5bdd9ade2891d290077"
+      ]
+    },
+    {
+      "id": "clase-hunter-talentos-supervivencia-pvp",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build PvP de Supervivencia",
+      "title_en": "Survival PvP Build",
+      "summary_es": "Build PvP con Invocar halcón, defensas y herramientas para seguir al objetivo.",
+      "summary_en": "PvP build with Summon Hawk, defenses, and tools to stay on target.",
+      "keywords_es": [
+        "build supervivencia pvp",
+        "talentos cazador pvp",
+        "supervivencia pvp",
+        "control cazador melé"
+      ],
+      "keywords_en": [
+        "survival pvp build",
+        "hunter pvp talents",
+        "survival pvp",
+        "melee hunter control"
+      ],
+      "text_es": "Dominio de bestias: Aspectos letales 5/5, Fuego enfocado 2/2, Aspecto del mono mejorado 3/3, Rapidez de bestias 1/1, Furia desatada 4/5 e Invocar halcón 1/1. Supervivencia: Rastreo mejorado 5/5, Atrapamiento 2/5, Golpes salvajes 2/2, Cortar alas mejorado 3/3, Pies de plomo 3/3, Disuasión 1/1, Filo de depredador 5/5, Contraataque 1/1, Ingenio 2/2, Exponer presa 2/2, Disciplina de superviviente 2/2, Patada de zancudo 1/1, Reflejos de relámpago 5/5 y Golpes lacerantes 1/1. Invocar halcón presiona al rival; las defensas mitigan amenazas y las habilidades de melé ayudan a mantenerlo cerca.",
+      "text_en": "Beast Mastery: Deadly Aspects 5/5, Focused Fire 2/2, Improved Aspect of the Monkey 3/3, Bestial Swiftness 1/1, Unleashed Fury 4/5, and Summon Hawk 1/1. Survival: Improved Tracking 5/5, Entrapment 2/5, Savage Strikes 2/2, Improved Wing Clip 3/3, Surefooted 3/3, Deterrence 1/1, Predator’s Edge 5/5, Counterattack 1/1, Resourcefulness 2/2, Expose Prey 2/2, Survivalist’s Discipline 2/2, Strider Kick 1/1, Lightning Reflexes 5/5, and Lacerating Strikes 1/1. Summon Hawk pressures opponents; defensive talents blunt threats and melee abilities help keep targets close.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Survival Hunter Talent Tree Builds - WoW: Forever › Best Survival Hunter PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/talent-builds-pve-dps",
+          "date": "2026-11-07"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:survival:talents"
+      ],
+      "source_hashes": [
+        "section:31324fb3aaa7b8b4463c53a9624c7488d59983f8"
+      ]
+    },
+    {
+      "id": "clase-hunter-talentos-dominio-secundarias",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rama secundaria de Dominio PvE",
+      "title_en": "Beast Mastery Secondary Tree",
+      "summary_es": "Talentos secundarios de Puntería de la build de banda de Dominio y su aporte a la mascota.",
+      "summary_en": "Marksmanship talents in the Beast Mastery raid build and their benefit to the pet.",
+      "keywords_es": [
+        "talentos secundarios dominio",
+        "puntería build dominio",
+        "talentos mascota dominio",
+        "build dominio banda"
+      ],
+      "keywords_en": [
+        "beast mastery secondary talents",
+        "marksmanship in beast mastery",
+        "beast mastery pet talents",
+        "beast mastery raid build"
+      ],
+      "text_es": "Puntería: Ataques letales 5/5, Picaduras mejoradas 3/3, Afinar la puntería 5/5, Matanza rápida 2/2, Aura de disparo certero 1/1 y Disparos mortales 4/5. Estos talentos de Puntería también mejoran la mascota por la herencia de estadísticas. La explicación prefiere Rastreo mejorado a Disparos mortales como aumento general, aunque el reparto anotado asigna 4/5 a Disparos mortales.",
+      "text_en": "Marksmanship: Lethal Attacks 5/5, Improved Stings 3/3, Careful Aim 5/5, Rapid Killing 2/2, Trueshot Aura 1/1, and Mortal Shots 4/5. Several talents from the Marksmanship tree also help the pet through stat inheritance. The explanation favors Improved Tracking over Mortal Shots as a blanket damage increase, although the decoded allocation assigns Mortal Shots 4/5.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Beast Mastery Hunter Talent Tree Builds - WoW: Forever › Best Beast Mastery Hunter PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/talent-builds-pve-dps",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-16",
+      "topics": [
+        "class:hunter:beast-mastery:talents"
+      ],
+      "source_hashes": [
+        "section:bc95149e5fb3e0b01a9a39c3cc13749860438f87"
       ]
     }
   ]
