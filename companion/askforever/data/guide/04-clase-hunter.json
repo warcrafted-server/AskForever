@@ -433,8 +433,8 @@
         "summon hawk",
         "bestial wrath"
       ],
-      "text_es": "A nivel 10, Aspectos letales es un buen primer talento de daño; luego reparte de arriba abajo por Dominio de bestias y después por Puntería. En las dos primeras filas, Encontrar camino, Revivir mascota mejorado y Entrenamiento en aguante cubren los 3 puntos, y los 2 de Matanza rápida pueden ir a otro sitio; Lobo solitario no. Invocar halcón llega a 25 sin Legacy y a 20 con los puntos extra. Cuando completes 31 puntos en Dominio tendrás Ira de bestias; añade Ataques letales y Afinar la puntería. Para el final: Ojo de águila, Vínculo de espíritu o Rastreo mejorado.",
-      "text_en": "At level 10, Deadly Aspects is a good first damage talent; then spend points top to bottom in Beast Mastery and afterwards in Marksmanship. In the first two rows, Pathfinding, Improved Revive Pet and Endurance Training cover the 3 points, and the 2 in Rapid Killing can go elsewhere; not Lone Wolf. Summon Hawk arrives at 25 without Legacy and at 20 with its extra points. When you reach 31 points in Beast Mastery you get Bestial Wrath; add Lethal Attacks and Careful Aim. For the last levels: Hawk Eye, Spirit Bond or Improved Tracking.",
+      "text_es": "Empieza a nivel 10 con Aspectos letales y avanza de arriba abajo por Dominio de bestias; después sigue por Puntería. Para los 3 puntos de las dos primeras filas, elige entre Encontrar camino, Revivir mascota mejorado y Entrenamiento en aguante; los 2 de Matanza rápida pueden ir a otro sitio, no a Lobo solitario. Prioriza Invocar halcón (nivel 25, o 20 con Legacy); con 31 puntos en Dominio obtienes Ira de bestias. Luego reparte 10 puntos para maximizar Ataques letales y Afinar la puntería; al final puedes elegir Ojo de águila, Vínculo de espíritu, Rastreo mejorado o Entrenamiento en aguante.",
+      "text_en": "Start at level 10 with Deadly Aspects and spend points from top to bottom in Beast Mastery, then Marksmanship. For the 3 points in the first two rows, choose Pathfinding, Improved Revive Pet, or Endurance Training; the 2 points in Rapid Killing can go elsewhere, not into Lone Wolf. Summon Hawk should be an early priority (level 25, or 20 with Legacy); 31 points in Beast Mastery unlock Bestial Wrath. Then spend 10 points to max Lethal Attacks and Careful Aim; for the final points, choose Hawk Eye, Spirit Bond, Improved Tracking, or Endurance Training.",
       "tags": [
         "HUNTER"
       ],
@@ -905,39 +905,49 @@
         "aimed shot",
         "multi-shot"
       ],
-      "text_es": "En un objetivo único, pon Marca del cazador, manda primero a la mascota y deja que genere amenaza antes de disparar. Después aplica Aguijón de serpiente, usa Tiro de puntería en cuanto esté y sigue con Tiro automático; si te sobra maná, Tiro Arcano entra en la rotación. Con dos o más enemigos, Multidisparo sustituye a Tiro de puntería. Para áreas usa Trampa explosiva y Lluvia, y Separación si te quedas en melé con demasiada amenaza.",
-      "text_en": "On a single target, apply Hunter's Mark, send the pet in first and let it build threat before you shoot. Then apply Serpent Sting, use Aimed Shot whenever it is available and keep firing Auto Shot; if you have spare mana, Arcane Shot joins the rotation. With two or more enemies, Multi-Shot replaces Aimed Shot. For area damage use Explosive Trap and Volley, and Disengage if you end up in melee with too much threat.",
+      "text_es": "Antes del nivel 10, sin mascota, usa Tiro automático mientras retrocedes y termina en melé con ataques automáticos y Golpe de raptor. Desde el nivel 10, deja que la mascota tanque y ataca a distancia con Tiro automático; mantén Marca del cazador y Aguijón de serpiente, y usa Tiro de puntería cuando puedas. Si atraes la amenaza de la mascota, usa Separación.",
+      "text_en": "Before level 10, without a pet, use Auto Shot while backing away, then finish in melee with auto-attacks and Raptor Strike. From level 10, let your pet tank and attack at range with Auto Shot; keep Hunter's Mark and Serpent Sting up, and use Aimed Shot when possible. If you pull threat from your pet, use Disengage.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Beast Mastery Hunter DPS in Burning Crusade",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
-          "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Single-Target Rotation",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Beast Mastery Hunter Leveling Rotation",
           "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › AoE Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Level 20 Beast Mastery Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Beast Mastery Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/level-20-dps-overview",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Marksmanship Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Marksmanship Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/level-20-dps-overview",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Survival Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-20-dps-overview",
+          "date": "2026-11-12"
         }
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:beast-mastery:leveling"
+        "class:hunter:beast-mastery:level20",
+        "class:hunter:beast-mastery:leveling",
+        "class:hunter:marksmanship:level20",
+        "class:hunter:survival:level20"
       ],
       "source_hashes": [
-        "section:0275e11aa0bb192e3422bf1dfe5fc95ae64684a0",
-        "section:2b406ca434dd9976b465df0d3320319f922aad91",
-        "section:2ec462abb2522da0ae74706979a15f8e50763c6b"
+        "section:00684cee6b5b97d443eeeaa8ec4e09614e5aec8d",
+        "section:6648229829a03c9c8a14d2e449ba6ae3a472c4fa",
+        "section:c6da153dc5599024b096fd97b07e326182df761e",
+        "section:e0f50ed0e78928e7ab4a4b00d0df3e003cf6e131"
       ]
     },
     {
@@ -2034,8 +2044,8 @@
         "train hunter weapons",
         "two-handed weapons"
       ],
-      "text_es": "El Cazador puede usar arcos, ballestas, armas de fuego, dagas, armas de puño, Hachas de una mano, Espadas de una mano, armas de asta, bastones, armas arrojadizas, Hachas de dos manos y Espadas de dos manos. No puede usar mazas, varitas ni escudos. Cada habilidad cuesta 10 de plata, salvo Armas de asta, que cuesta 1 de oro y pide nivel 20. No todas las ciudades enseñan todas, así que comprueba el instructor antes de viajar.",
-      "text_en": "Hunter can use bows, crossbows, guns, daggers, fist weapons, one-handed axes and swords, polearms, staves, thrown weapons, and two-handed axes and swords. It cannot use maces, wands, or shields. Each skill costs 10 silver, except Polearms, which costs 1 gold and requires level 20. Not every city teaches every skill, so check the trainer before traveling.",
+      "text_es": "El Cazador puede usar arcos, ballestas, armas de fuego, dagas, armas de puño, Hachas de una mano, Espadas de una mano, armas de asta, bastones, armas arrojadizas, Hachas de dos manos y Espadas de dos manos. No puede usar mazas, varitas ni escudos. Aprender una habilidad de armas cuesta 10 de plata; Armas de asta es la excepción: 1 de oro y nivel 20. El maestro de armas de cada ciudad solo enseña algunas, así que comprueba cuál antes de viajar.",
+      "text_en": "Hunter can use bows, crossbows, guns, daggers, fist weapons, one-handed axes and swords, polearms, staves, thrown weapons, and two-handed axes and swords. It cannot use maces, wands, or shields. Training a weapon skill costs 10 silver; Polearms is the exception at 1 gold and needs level 20. Each city's weapon master teaches only some skills, so check which one before you travel.",
       "tags": [
         "HUNTER"
       ],
@@ -2161,8 +2171,8 @@
       "status": "editorial",
       "title_es": "Build de Dominio a nivel 20",
       "title_en": "Level 20 Beast Mastery Build",
-      "summary_es": "A 20 hay poco donde elegir: talentos de daño; con puntos Legacy la build se completa antes.",
-      "summary_en": "At 20 there is little choice: damage talents; with Legacy points the build fills out sooner.",
+      "summary_es": "Talentos de Dominio a nivel 20, con la variante de puntos Legacy.",
+      "summary_en": "Level 20 Beast Mastery talents, including the Legacy-points variant.",
       "keywords_es": [
         "build dominio nivel 20",
         "talentos dominio subir",
@@ -2177,8 +2187,8 @@
         "summon hawk level 20",
         "hunter damage talent"
       ],
-      "text_es": "A nivel 20, Dominio de bestias apenas ofrece elección: coge los talentos que den daño y no gastes puntos en utilidad. La mascota hace gran parte del trabajo, así que la prioridad es aumentar tu daño y el suyo. Si tienes puntos extra del sistema Legacy, puedes completar más filas del árbol desde el principio. Invocar halcón todavía no está disponible sin Legacy; con Legacy puede llegarte a 20.",
-      "text_en": "At level 20, Beast Mastery offers little choice: take the talents that give damage and do not spend points on utility. The pet does much of the work, so the priority is raising your damage and its damage. If you have extra points from the Legacy system, you can fill more rows of the tree from the start. Summon Hawk is not available yet without Legacy; with Legacy it can arrive at 20.",
+      "text_es": "A nivel 20, la build base lleva Aspectos letales 5/5, Fuego enfocado 2/2 y Ataques letales 4/5. La variante con puntos Legacy usa Aspectos letales 5/5, Entrenamiento en aguante 3/5, Fuego enfocado 2/2, Furia desatada 5/5 e Invocar halcón 1/1. Invocar halcón se obtiene a nivel 20 con Legacy y a 25 sin esos puntos. Se prioriza el daño propio y el de la mascota, que también puede tanquear.",
+      "text_en": "At level 20, the standard build takes Deadly Aspects 5/5, Focused Fire 2/2, and Lethal Attacks 4/5. The build using extra points from the Legacy system uses Deadly Aspects 5/5, Endurance Training 3/5, Focused Fire 2/2, Unleashed Fury 5/5, and Summon Hawk 1/1. Summon Hawk is available at level 20 with Legacy and at 25 without those points. The build prioritizes your damage and the pet’s, and the pet can also tank.",
       "tags": [
         "HUNTER"
       ],
@@ -2226,8 +2236,8 @@
       "status": "editorial",
       "title_es": "Build de Dominio a nivel 30",
       "title_en": "Level 30 Beast Mastery Build",
-      "summary_es": "A 30 prioriza tu daño y el de la mascota; Invocar halcón ya está y con Legacy hay más puntos.",
-      "summary_en": "At 30 focus on your damage and the pet's; Summon Hawk is available and Legacy adds points.",
+      "summary_es": "Talentos de Dominio a nivel 30, con la variante de puntos Legacy.",
+      "summary_en": "Level 30 Beast Mastery talents, including the Legacy-points variant.",
       "keywords_es": [
         "build dominio nivel 30",
         "talentos dominio 30",
@@ -2242,8 +2252,8 @@
         "legacy points level 30",
         "pet damage"
       ],
-      "text_es": "Con los talentos disponibles a este nivel, Dominio de bestias debe centrarse en lo que aumente tu daño y el de la mascota. Invocar halcón ya está siempre disponible a 25 sin Legacy, y su daño inicial más el guardián que invoca durante 18 segundos redondean la rotación. Con los puntos extra del sistema Legacy puedes completar antes las filas altas del árbol. La build no busca utilidad: el objetivo es que la mascota y tus disparos peguen más.",
-      "text_en": "With the talents available at this level, Beast Mastery should focus on what raises your damage and the pet's damage. Summon Hawk is always available at 25 without Legacy, and its initial damage plus the guardian it summons for 18 seconds rounds out the rotation. With the extra points from the Legacy system you can fill the higher rows of the tree sooner. The build does not chase utility: the goal is for the pet and your shots to hit harder.",
+      "text_es": "A nivel 30, la build base lleva Aspectos letales 5/5, Fuego enfocado 2/2, Revivir mascota mejorado 1/2, Encontrar camino 2/2, Rapidez de bestias 1/1, Furia desatada 5/5, Ferocidad 3/5, Invocar halcón 1/1 e Intimidación 1/1. La variante Legacy sube Ferocidad a 5/5 y añade Disciplina de bestias 2/2 y Frenesí 1/5. Invocar halcón se obtiene a nivel 25 y su guardián dura 18 segundos; la build aumenta el daño propio y el de la mascota.",
+      "text_en": "At level 30, the standard build takes Deadly Aspects 5/5, Focused Fire 2/2, Improved Revive Pet 1/2, Pathfinding 2/2, Bestial Swiftness 1/1, Unleashed Fury 5/5, Ferocity 3/5, Summon Hawk 1/1, and Intimidation 1/1. The extra-point allocation raises Ferocity to 5/5 and adds Bestial Discipline 2/2 and Frenzy 1/5. Summon Hawk is available by level 25 and its guardian lasts 18 seconds; the build raises your damage and your pet’s.",
       "tags": [
         "HUNTER"
       ],
@@ -2283,8 +2293,8 @@
       "status": "editorial",
       "title_es": "Build de Puntería a nivel 20",
       "title_en": "Level 20 Marksmanship Build",
-      "summary_es": "A 20 Puntería es incómoda: unos puntos en Dominio rinden más que renunciar a la mascota con Lobo solitario.",
-      "summary_en": "At 20 Marksmanship is awkward: a few Beast Mastery points beat giving up the pet for Lone Wolf.",
+      "summary_es": "Talentos de Puntería a nivel 20, con la variante de puntos Legacy.",
+      "summary_en": "Level 20 Marksmanship talents, including the Legacy-points variant.",
       "keywords_es": [
         "build puntería nivel 20",
         "talentos puntería subir",
@@ -2299,8 +2309,8 @@
         "lone wolf level 20",
         "marksmanship pet"
       ],
-      "text_es": "A nivel 20, el árbol de Puntería es incómodo para subir: un compañero animal hace más daño que el bonus de Lobo solitario, así que conviene gastar un par de puntos en Dominio de bestias en lugar de jugar sin mascota. No es una build de Puntería pura, pero mata más y perdona mejor los errores. Con los puntos extra del sistema Legacy puedes completar antes los talentos de daño de ambos árboles. La mascota sigue tanqueando mientras tú disparas.",
-      "text_en": "At level 20, the Marksmanship tree is awkward for leveling: an animal companion deals more damage than the Lone Wolf bonus, so spend a couple of points in Beast Mastery instead of playing without a pet. It is not a pure Marksmanship build, but it kills faster and forgives more mistakes. With the extra points from the Legacy system you can fill the damage talents of both trees sooner. The pet keeps tanking while you shoot.",
+      "text_es": "A nivel 20, la build base combina Aspectos letales 5/5 y Fuego enfocado 2/2 en la rama Dominio de bestias con Ataques letales 4/5 en Puntería. La variante con puntos Legacy usa Aspectos letales 5/5, Fuego enfocado 2/2, Ataques letales 5/5 y Afinar la puntería 4/5. El compañero animal hace más daño que el bonus de Lobo solitario, así que se recomienda conservarlo.",
+      "text_en": "At level 20, the standard build combines Deadly Aspects 5/5 and Focused Fire 2/2 in Beast Mastery with Lethal Attacks 4/5 in Marksmanship. The build using extra points from the Legacy system takes Deadly Aspects 5/5, Focused Fire 2/2, Lethal Attacks 5/5, and Careful Aim 4/5. The pet deals more damage than the Lone Wolf bonus, so keeping it is advised.",
       "tags": [
         "HUNTER"
       ],
@@ -2348,8 +2358,8 @@
       "status": "editorial",
       "title_es": "Build de Puntería a nivel 30",
       "title_en": "Level 30 Marksmanship Build",
-      "summary_es": "A 30 ya puedes invertir en Puntería, pero la mascota sigue rindiendo más que Lobo solitario.",
-      "summary_en": "At 30 you can invest in Marksmanship, but the pet still outperforms Lone Wolf.",
+      "summary_es": "Talentos de Puntería a nivel 30; la variante Legacy añade puntos a ambas ramas.",
+      "summary_en": "Level 30 Marksmanship talents; the Legacy variant adds points in both trees.",
       "keywords_es": [
         "build puntería nivel 30",
         "talentos puntería 30",
@@ -2364,8 +2374,8 @@
         "trueshot aura",
         "scatter shot"
       ],
-      "text_es": "A este nivel ya es aceptable subir con puntos en Puntería, pero la mascota sigue haciendo más daño que el bonus de Lobo solitario, así que la build no renuncia a ella. Con los puntos extra del sistema Legacy completas antes los talentos de daño. Aura de disparo certero y Disparo disperso entran en el kit, y una mascota rápida sigue haciendo mucho daño. La prioridad es tu daño a distancia, no la utilidad.",
-      "text_en": "At this level it is acceptable to level with points in Marksmanship, but the pet still deals more damage than the Lone Wolf bonus, so the build does not give it up. With the extra points from the Legacy system you fill the damage talents sooner. Trueshot Aura and Scatter Shot join the kit, and a fast pet keeps dealing heavy damage. The priority is your ranged damage, not utility.",
+      "text_es": "A nivel 30, la build base lleva Ataques letales 5/5, Afinar la puntería 5/5, Disparo Arcano mejorado 5/5, Aura de disparo certero 1/1, Disparos mortales 4/5 y Disparo disperso 1/1. La variante con puntos Legacy añade Picaduras mejoradas 3/3, Matanza rápida 2/2 y Lobo solitario 1/1, sube Disparo Arcano mejorado a 2/5, Disparos mortales a 5/5 y Recuperación rápida a 2/2; conserva los demás talentos de la build base. La build base evita Lobo solitario porque la mascota aporta más daño.",
+      "text_en": "At level 30, the standard build takes Lethal Attacks 5/5, Careful Aim 5/5, Improved Arcane Shot 5/5, Trueshot Aura 1/1, Mortal Shots 4/5, and Scatter Shot 1/1. The extra-point allocation adds Improved Stings 3/3, Rapid Killing 2/2, and Lone Wolf 1/1; it takes Improved Arcane Shot to 2/5, Mortal Shots to 5/5, and Rapid Recuperation to 2/2, keeping the other standard talents. The standard build skips Lone Wolf because the pet adds more damage.",
       "tags": [
         "HUNTER"
       ],
@@ -2405,8 +2415,8 @@
       "status": "editorial",
       "title_es": "Build de Supervivencia a nivel 20",
       "title_en": "Level 20 Survival Build",
-      "summary_es": "A 20 solo hay talentos de daño; no fuerces el melé, porque la rama no funciona hasta el 32.",
-      "summary_en": "At 20 there are only damage talents; do not force melee, because the tree does not work until 32.",
+      "summary_es": "Talentos de Supervivencia a nivel 20, con la variante de puntos Legacy.",
+      "summary_en": "Level 20 Survival talents, including the Legacy-points variant.",
       "keywords_es": [
         "build supervivencia nivel 20",
         "talentos supervivencia subir",
@@ -2421,8 +2431,8 @@
         "legacy points survival",
         "strider kick"
       ],
-      "text_es": "A nivel 20, Supervivencia apenas ofrece elección: coge los talentos que den daño y no fuerces el melé, porque la rama no funciona bien hasta el 32. Es mejor usar un estilo híbrido, dejando que la mascota tanque y usando los disparos. Con los puntos extra del sistema Legacy puedes adelantar talentos, pero la recomendación sigue siendo no depender del cuerpo a cuerpo. Patada de zancudo y Exponer presa aún no están disponibles.",
-      "text_en": "At level 20, Survival offers little choice: take the talents that give damage and do not force melee, because the tree does not work well until 32. It is better to use a hybrid style, letting the pet tank and using your shots. With the extra points from the Legacy system you can bring talents forward, but the advice is still not to rely on melee. Strider Kick and Expose Prey are not available yet.",
+      "text_es": "A nivel 20, la build base usa Ataques letales 4/5, Rastreo mejorado 5/5 y Golpes salvajes 2/2. La variante con puntos Legacy lleva Rastreo mejorado 5/5, Desvío 4/5, Golpes salvajes 2/2, Pies de plomo 3/3, Disuasión 1/1 y Contraataque 1/1. A este nivel aún no tienes Patada de zancudo ni Exponer presa; la rama no permite hacer la mayor parte del daño en melé hasta el 32, así que conviene mezclar melé y distancia.",
+      "text_en": "At level 20, the standard build takes Lethal Attacks 4/5, Improved Tracking 5/5, and Savage Strikes 2/2. The alternate build with extra points from Legacy takes Improved Tracking 5/5, Deflection 4/5, Savage Strikes 2/2, Surefooted 3/3, Deterrence 1/1, and Counterattack 1/1. Strider Kick and Expose Prey are not available yet; Survival cannot deal most of its damage in melee until level 32, so mix melee and ranged attacks.",
       "tags": [
         "HUNTER"
       ],
@@ -2470,8 +2480,8 @@
       "status": "editorial",
       "title_es": "Build de Supervivencia a nivel 30",
       "title_en": "Level 30 Survival Build",
-      "summary_es": "A 30 llega Patada de zancudo y con Legacy Exponer presa; puedes ir a melé o alternar con un arma a dos manos.",
-      "summary_en": "At 30 Strider Kick arrives and Legacy adds Expose Prey; you can stay melee or weave with a two-hander.",
+      "summary_es": "Talentos de Supervivencia a nivel 30; Legacy añade Ingenio y Exponer presa.",
+      "summary_en": "Level 30 Survival talents; Legacy adds Resourcefulness and Expose Prey.",
       "keywords_es": [
         "build supervivencia nivel 30",
         "talentos supervivencia 30",
@@ -2486,8 +2496,8 @@
         "strider kick",
         "two-handed weapon"
       ],
-      "text_es": "A este nivel, Supervivencia ya tiene decisiones: Patada de zancudo está siempre disponible y, con los puntos extra del sistema Legacy, también Exponer presa. Con dos armas puedes quedarte en melé de forma permanente; con un arma a dos manos, alternar melé y distancia rinde mejor. La build de subida prioriza el daño. La rama sigue sin funcionar del todo hasta el 32, así que no fuerces el melé antes.",
-      "text_en": "At this level, Survival has real choices: Strider Kick is always available and, with the extra points from the Legacy system, so is Expose Prey. With two weapons you can stay in melee permanently; with a two-handed weapon, weaving melee and ranged works better. The leveling build prioritizes damage. The tree still does not fully work until 32, so do not force melee before that.",
+      "text_es": "A nivel 30, la build base lleva Rastreo mejorado 5/5, Desvío 4/5, Golpes salvajes 2/2, Pies de plomo 3/3, Disuasión 1/1, Filo de depredador 4/5, Contraataque 1/1 y Patada de zancudo 1/1. La variante con puntos Legacy sube Filo de depredador a 5/5 y añade Ingenio 2/2 y Exponer presa 2/2. Patada de zancudo permite jugar mejor en melé y Exponer presa deja permanecer en melé o alternar con ataques a distancia usando un arma de dos manos; el estilo híbrido se recomienda hasta el 32.",
+      "text_en": "At level 30, the standard build takes Improved Tracking 5/5, Deflection 4/5, Savage Strikes 2/2, Surefooted 3/3, Deterrence 1/1, Predator’s Edge 4/5, Counterattack 1/1, and Strider Kick 1/1. The extra-point allocation raises Predator’s Edge to 5/5 and adds Resourcefulness 2/2 and Expose Prey 2/2. Strider Kick improves melee play, and Expose Prey lets you stay in melee or weave in ranged attacks with a two-handed weapon; hybrid play is recommended until level 32.",
       "tags": [
         "HUNTER"
       ],
@@ -2551,34 +2561,22 @@
         "multi-shot leveling",
         "beast mastery hunter rotation"
       ],
-      "text_es": "La rotación de Dominio de bestias añade Invocar halcón: úsalo en cuanto puedas y mantén dos halcones activos, porque comparte reutilización con Tiro Arcano. Mientras tengas halcones, Tiro Arcano solo cada tercera vuelta; sin ellos, úsalo siempre que puedas. Mantén Marca del cazador y Aguijón de serpiente, usa Tiro de puntería en cuanto esté y sigue con Tiro automático. Contra varios enemigos, Multidisparo sustituye a Tiro de puntería y puedes entrar a poner Trampa explosiva. Si pierdes la amenaza, Separación.",
-      "text_en": "Beast Mastery adds Summon Hawk: use it whenever you can and keep two hawks active, because it shares a cooldown with Arcane Shot. If you have Summon Hawk, cast Arcane Shot only every third round; without it, use it whenever you can. Keep Hunter's Mark and Serpent Sting up, use Aimed Shot whenever it is available and keep firing Auto Shot. Against several enemies, Multi-Shot replaces Aimed Shot and you can run in to place Explosive Trap. If you lose threat, use Disengage.",
+      "text_es": "Contra un objetivo, pon Marca del cazador si da tiempo; deja que la mascota ataque primero y aplica Aguijón de serpiente. Usa Invocar halcón cuando esté disponible, Tiro Arcano cada tercera vuelta si tienes ese talento y Tiro de puntería; sigue con Tiro automático. Si atraes amenaza, usa Separación. En área, marca al objetivo prioritario, usa Multidisparo y Trampa explosiva si es posible; añade Aguijón de serpiente si el combate durará y tienes maná. Con Lluvia, canalízala entera y reserva Multidisparo para cuatro objetivos o menos.",
+      "text_en": "Against one target, apply Hunter's Mark if there is time; send the pet in first and apply Serpent Sting. Use Summon Hawk when available, Arcane Shot every third rotation if talented, and Aimed Shot; continue with Auto Shot. If you pull threat, use Disengage. For area damage, mark the priority target, use Multi-Shot and Explosive Trap if possible, then add Serpent Sting if the fight will last and you have mana. Once you have Volley, channel it fully and save Multi-Shot for four or fewer targets.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Single-Target Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
-          "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › AoE Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
-          "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Important Abilities",
-          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
-          "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
           "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Beast Mastery Hunter DPS in Burning Crusade",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Beast Mastery Hunter Leveling Guide › Beast Mastery Hunter Leveling Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/beast-mastery-hunter-leveling",
           "date": "2026-11-04"
         }
       ],
@@ -2588,9 +2586,7 @@
       ],
       "source_hashes": [
         "section:0275e11aa0bb192e3422bf1dfe5fc95ae64684a0",
-        "section:2b406ca434dd9976b465df0d3320319f922aad91",
-        "section:2ec462abb2522da0ae74706979a15f8e50763c6b",
-        "section:7934f62052a2fcc15ecbd2ebba4cee1f7b65b02d"
+        "section:c6da153dc5599024b096fd97b07e326182df761e"
       ]
     },
     {
@@ -2615,29 +2611,23 @@
         "arcane shot marksmanship",
         "marksmanship hunter rotation"
       ],
-      "text_es": "Puntería mantiene Marca del cazador y Aguijón de serpiente, y usa Tiro de puntería en cuanto esté. Con Invocar halcón, Tiro Arcano solo cada tercera vuelta; sin halcón, entra sin esperar. Cuando tengas Matanza rápida, procura que el enemigo muera con Aguijón de serpiente activo y abre con Disparo de francotirador si tienes el buff; si no, usa Tiro de puntería. Con la mascota tanqueando, Tiro automático hace gran parte del daño. Contra varios enemigos, Multidisparo sustituye a Tiro de puntería, y Trampa explosiva y Lluvia cubren el área.",
-      "text_en": "Marksmanship keeps Hunter's Mark and Serpent Sting up, and uses Aimed Shot whenever it is ready. If you have Summon Hawk, cast Arcane Shot only every third rotation; otherwise cast it freely. If you have the Rapid Killing talent, try to let the enemy die with Serpent Sting active and open with Sniper Shot if you have the buff; if not, use Aimed Shot. With the pet tanking, Auto Shot does much of the damage. Against several enemies, Multi-Shot replaces Aimed Shot, and Explosive Trap and Volley cover the area.",
+      "text_es": "Contra un objetivo, mantén Marca del cazador y Aguijón de serpiente; con el bonus de Matanza rápida, abre con Disparo de francotirador (o Tiro de puntería si aún no lo has aprendido). Usa Invocar halcón cuando tengas el talento, Tiro Arcano cada tercera vuelta y Tiro de puntería; sigue con Tiro automático. Si atraes amenaza, usa Separación. En área, marca al objetivo prioritario, usa Multidisparo y Trampa explosiva si es posible; añade Aguijón de serpiente si hay tiempo y maná. Con Lluvia, canalízala entera y reserva Multidisparo para cuatro objetivos o menos.",
+      "text_en": "Against one target, keep Hunter's Mark and Serpent Sting up; with the Rapid Killing buff, open with Sniper Shot (or Aimed Shot if you have not learned it yet). Use Summon Hawk when talented, Arcane Shot every third rotation, and Aimed Shot; continue with Auto Shot. If you pull threat, use Disengage. For area damage, mark the priority target, use Multi-Shot and Explosive Trap if possible, then add Serpent Sting if the fight will last and you have mana. Once you have Volley, channel it fully and save Multi-Shot for four or fewer targets.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Leveling Guide › Single-Target Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-leveling",
-          "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Leveling Guide › AoE Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-leveling",
-          "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
           "ref": "Wowhead: Marksmanship Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Marksmanship Hunter DPS in Burning Crusade",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/dps-leveling-tips",
           "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Marksmanship Hunter Leveling Guide › Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/marksmanship-hunter-leveling",
+          "date": "2026-11-04"
         }
       ],
       "updated": "2026-11-16",
@@ -2646,7 +2636,6 @@
       ],
       "source_hashes": [
         "section:251c90fdb0ac518e5bff6e89b9ef50fa4b1c13ec",
-        "section:6128f31265d51f8a45ec11dd7085493c5b782540",
         "section:d5eb540b33a276eb4e90415fad83951c1e7f4b36"
       ]
     },
@@ -2672,18 +2661,12 @@
         "strider kick",
         "melee weaving"
       ],
-      "text_es": "Supervivencia lleva Golpe de raptor siempre en cola y usa Mordedura de mangosta, Patada de zancudo y Contraataque cuando estés en melé. Mantén Marca del cazador y Aguijón de serpiente, y aprovecha la velocidad de Patada de zancudo para salir a distancia y disparar Tiro Arcano, Aguijón o Tiro de puntería mientras vuelven los golpes de melé. Antes de 32 la rama no funciona bien, así que usa un estilo híbrido. Para área, Multidisparo y Trampa explosiva; cuando peleas en melé, Trampa de inmolación también entra.",
-      "text_en": "Survival keeps Raptor Strike queued at all times and uses Mongoose Bite, Strider Kick and Counterattack while in melee. Keep Hunter's Mark and Serpent Sting up, and use the speed from Strider Kick to step out to range and fire Arcane Shot, Serpent Sting or Aimed Shot while your melee hits come back. Before 32 the tree does not work well, so use a hybrid style. For area damage, Multi-Shot and Explosive Trap; when you fight in melee, Immolation Trap also joins.",
+      "text_es": "Contra un objetivo, mantén Marca del cazador y Aguijón de serpiente; pon Golpe de raptor en cola al entrar en melé. En melé, usa Mordedura de mangosta, Patada de zancudo y Contraataque, en ese orden. Aprovecha la velocidad de Patada de zancudo para salir y lanzar Tiro Arcano, Aguijón de serpiente o Tiro de puntería; vuelve cuando Golpe de raptor y Mordedura estén casi listos. Contra varios, usa Multidisparo y Trampa explosiva si puedes; en melé, Trampa de inmolación. Hasta el 32, alterna melé y distancia. Con Lluvia, canalízala entera y usa Multidisparo contra cuatro objetivos o menos.",
+      "text_en": "Against one target, keep Hunter's Mark and Serpent Sting up; queue Raptor Strike when entering melee. In melee, use Mongoose Bite, Strider Kick, then Counterattack. Use the movement boost from Strider Kick to leave melee and cast Arcane Shot, Serpent Sting, or Aimed Shot; return when Raptor Strike and Mongoose Bite are nearly ready. Against several targets, use Multi-Shot and Explosive Trap if possible; use Immolation Trap in melee. Until level 32, weave melee and ranged attacks. Once available, channel Volley fully and use Multi-Shot against four or fewer targets.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Level 30 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 30 Survival Hunters in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-30-dps-overview",
-          "date": "2026-10-11"
-        },
         {
           "type": "editorial",
           "ref": "Wowhead: Level 20 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 20 Survival Hunters in Forever",
@@ -2692,9 +2675,9 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling as a Survival Hunter DPS in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Level 30 Survival Hunter Guide: Talents, Rotation and Gearing - Forever › Rotation for Level 30 Survival Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/level-30-dps-overview",
+          "date": "2026-10-11"
         },
         {
           "type": "editorial",
@@ -2704,8 +2687,8 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Leveling Guide › Single-Target Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-leveling",
+          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Survival Hunter DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
           "date": "2026-11-04"
         }
       ],
@@ -2717,9 +2700,8 @@
       ],
       "source_hashes": [
         "section:0932b2c4f5955443026575b5d88689aab818fe98",
+        "section:2961a4ed516168b5d1f9e3ec53047b009de6db2b",
         "section:6648229829a03c9c8a14d2e449ba6ae3a472c4fa",
-        "section:b37e664ac96b4a5925338c0d8ea1816684096cc3",
-        "section:e0070a16ca303875a84f1d938b588aa504fe1d28",
         "section:ea3915224f7331382ace4bdc7874c27724e26ca4"
       ]
     },
@@ -2988,8 +2970,8 @@
         "healing potions",
         "elixirs"
       ],
-      "text_es": "Guarda la tela para Primeros auxilios y fabrica vendas cuando estés en una ciudad; sirven para curarte sin gastar maná. Si eres Peletero, usa el Complemento para armadura ligera y otros mejores en el equipo nuevo. Algunas comidas de vendedor o Cocina dan un 5% más de experiencia por enemigo, y conviene que además den poder de ataque o agilidad. Lleva siempre comida y bebida, una Poción de curación menor y otras mejores, y los elixires que salgan de misiones para usarlos en mazmorras.",
-      "text_en": "Keep cloth for First Aid and make bandages whenever you are in a city; they heal you without spending mana. If you are a Leatherworker, use Light Armor Kit and better on your new gear. Some vendor or Cooking food gives 5% more experience from enemies, and it is better if it also gives attack power or agility. Always carry food and drink, a Minor Healing Potion and better, and the elixirs that come from quests to use in dungeons.",
+      "text_es": "Reserva la tela que encuentres para Primeros auxilios y prepara vendas al pasar por una ciudad principal. Si eres Peletero, guarda un Complemento para armadura ligera (o uno mejor) y aplícalos al equipo nuevo. Algunas comidas de vendedores o de Cocina aumentan un 5% la experiencia por enemigo; busca también bonus de poder de ataque o agilidad. Lleva comida, bebida, pociones de salud apropiadas para tu nivel (desde Poción de curación menor) y los elixires que obtengas en misiones.",
+      "text_en": "Save the cloth you find for First Aid and make bandages when visiting a major city. If you are a Leatherworker, keep an armor kit such as Light Armor Kit or better for new gear. Some vendor or Cooking foods grant 5% more experience per enemy; look for ones that also boost Attack Power or Agility. Carry food, drinks, level-appropriate healing potions (Minor Healing Potion or better), and any elixirs you receive from quests.",
       "tags": [
         "HUNTER"
       ],
@@ -3031,8 +3013,8 @@
         "talented",
         "gourmand"
       ],
-      "text_es": "Los puntos Legacy te dan varias opciones según lo que busques. Cosecha generosa aumenta la probabilidad de encontrar materiales raros al desollar, así que sirve para ganar algo más de oro mientras subes. Emoción de la aventura y Talentoso aumentan tu aguante y tu fuerza en el campo, lo que hace la subida más rápida y fácil. Gastronomía ayuda a optimizar la duración del buff de experiencia de la comida. Elige según tu objetivo: oro, comodidad o experiencia.",
-      "text_en": "Legacy points give you several options depending on your goal. Bountiful Harvest increases the chance of finding rare materials while skinning, so it helps earn a little extra gold while leveling. Thrill of Adventure and Talented increase your longevity and strength in the field, making leveling faster and easier. Gourmand helps optimize the duration of the experience food buff. Choose by your goal: gold, comfort or experience.",
+      "text_es": "Elige los puntos Legacy según tu objetivo. Cosecha generosa mejora la opción de obtener materiales raros al desollar y puede dar más oro; Emoción de la aventura y Talentoso ayudan a conservar recursos y mantener el rendimiento durante la subida. Gastronomía alarga el efecto de la comida que aumenta la experiencia.",
+      "text_en": "Point choices depend on your goal. Bountiful Harvest improves your chance to obtain rare materials from skinning and can bring in more gold; Thrill of Adventure and Talented help you sustain your resources and performance while leveling. Gourmand extends the effect of food that increases experience.",
       "tags": [
         "HUNTER"
       ],
