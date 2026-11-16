@@ -30,6 +30,8 @@ DEFAULT_CORPUS = REPO_ROOT / '.agents' / 'corpus' / 'corpus.sqlite'
 DEFAULT_REPORT = REPO_ROOT / '.agents' / 'corpus' / 'comprobacion.md'
 DEFAULT_WOWDB = REPO_ROOT.parent / 'wowdata' / 'datos' / 'wow.sqlite'
 
+# Diez palabras seguidas iguales a la fuente ya no son un dato suelto, sino una frase copiada.
+COPY_WORDS = 10
 NUMBER = re.compile(r'(?<![\w.])(\d+(?:[.,]\d+)?)(?![\w])')
 # Secuencias de palabras con mayúscula inicial (Aimed Shot, Aspect of the Hawk, Serpent Sting).
 NAME = re.compile(r"\b([A-Z][a-z'’]+(?:\s+(?:of the\s+|of\s+|the\s+)?[A-Z][a-z'’]+)*)\b")
@@ -149,6 +151,13 @@ def check_card(card: dict, corpus: Corpus, previous: Optional[dict],
         if unknown:
             problems.append('nombres que no están en la fuente: '
                             + ', '.join(game.note(n) if game else n for n in unknown))
+    if source:
+        words = re.findall(r"[a-z0-9']+", normalize(text_en))
+        source_words = ' '.join(re.findall(r"[a-z0-9']+", source))
+        copied = [' '.join(words[i:i + COPY_WORDS]) for i in range(len(words) - COPY_WORDS + 1)
+                  if ' '.join(words[i:i + COPY_WORDS]) in source_words]
+        if copied:
+            problems.append(f'posible copia literal de la fuente: «{copied[0]}…»')
     if official is not None:
         wrong = sorted(f'{english} → «{spanish}»' for english, spanish in official.pairs(raw_source).items()
                        if re.search(rf'\b{re.escape(english.lower())}\b', text_en.lower())
