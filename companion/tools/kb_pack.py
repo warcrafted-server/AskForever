@@ -16,7 +16,7 @@ from pathlib import Path
 from typing import Optional
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from kb_names import OfficialNames  # noqa: E402
+from kb_names import OfficialNames, TalentBuilds  # noqa: E402
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_CORPUS = REPO_ROOT / '.agents' / 'corpus' / 'corpus.sqlite'
@@ -25,7 +25,8 @@ DEFAULT_CORPUS = REPO_ROOT / '.agents' / 'corpus' / 'corpus.sqlite'
 def build_pack(corpus: Path, patterns: list[str], skip: set[str],
                names: Optional[OfficialNames] = None) -> str:
     conn = sqlite3.connect(f'file:{corpus.as_posix()}?mode=ro', uri=True)
-    annotate = names.annotate if names else (lambda text: text)
+    builds = TalentBuilds(names.conn) if names else None
+    annotate = (lambda text: builds.annotate(names.annotate(text))) if names else (lambda text: text)
     where = ' OR '.join('g.topic LIKE ?' for _ in patterns)
     lines = []
     for superseded, header in ((False, ''), (True, 'Complemento · ')):

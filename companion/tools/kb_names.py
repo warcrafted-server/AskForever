@@ -88,3 +88,63 @@ class OfficialNames:
             if name and english not in result:
                 result[english] = name
         return result
+
+
+# Enlace al calculador de talentos: …/talent-calc/hunter/v2502-004_t0_r2/… = «v2» + puntos por talento de cada rama
+# (en orden de posición: fila y columna), ramas separadas por «-»; los ceros finales se omiten.
+TALENT_CALC = re.compile(r'https?://(?:www\.)?wowhead\.com/forever/talent-calc/(?P<cls>[a-z-]+)/v2(?P<code>[0-9-]*)'
+                         r'(?:_[^\s)/]*)?(?:/[A-Za-z0-9]*)?')
+
+
+class TalentBuilds:
+    """Descodifica las builds del calculador de Wowhead con los árboles de Forever de wowdata."""
+
+    def __init__(self, conn: Optional[sqlite3.Connection]):
+        self.trees: dict[str, list[list[tuple]]] = {}
+        if conn is None:
+            return
+        try:
+            rows = conn.execute('SELECT class_slug, tree_slug, rama_es, nombre_en, nombre_es, max_rank '
+                                'FROM v_talentos_forever ORDER BY class_slug, tree_slug, PosY, PosX').fetchall()
+        except sqlite3.Error:
+            return
+        # Las ramas van en el orden del juego, que en todas las clases coincide con el alfabético del slug.
+        for cls, tree, branch_es, name_en, name_es, max_rank in rows:
+            trees = self.trees.setdefault(cls, [])
+            if not trees or trees[-1][0][0] != tree:
+                trees.append([])
+            trees[-1].append((tree, branch_es, name_en, name_es or name_en, max_rank))
+
+    def decode(self, cls: str, code: str) -> Optional[list[tuple[str, list[tuple[str, str, int, int]]]]]:
+        trees = self.trees.get(cls)
+        parts = code.split('-')
+        if not trees or len(parts) > len(trees):
+            return None
+        build = []
+        for digits, tree in zip(parts, trees):
+            if len(digits) > len(tree):
+                return None
+            picked = []
+            for digit, (_slug, _branch, name_en, name_es, max_rank) in zip(digits, tree):
+                points = int(digit)
+                if points > (max_rank or 0):
+                    return None
+                if points:
+                    picked.append((name_en, name_es, points, max_rank))
+            if picked:
+                build.append((tree[0][1], picked))
+        return build
+
+    def annotate(self, text: str) -> str:
+        def repl(match):
+            build = self.decode(match.group('cls'), match.group('code'))
+            if build is None:
+                return f'{match.group(0)} {{build: no descodificable}}'
+            body = ' · '.join(f'{branch}: ' + ', '.join(f'{en} / {es} {points}/{max_rank}'
+                                                         for en, es, points, max_rank in talents)
+                              for branch, talents in build)
+            return f'{match.group(0)} {{build: {body}}}'
+        # En un enlace Markdown la nota va tras el paréntesis de cierre, para no romper el enlace.
+        text = re.sub(r'\[[^\]]*\]\((' + TALENT_CALC.pattern + r')\)',
+                      lambda m: m.group(0) + repl(TALENT_CALC.match(m.group(1)))[len(m.group(1)):], text)
+        return re.sub(r'(?<!\()' + TALENT_CALC.pattern, repl, text)

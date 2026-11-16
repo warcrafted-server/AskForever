@@ -21,7 +21,7 @@ from pathlib import Path
 from typing import Optional
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from kb_names import OfficialNames  # noqa: E402
+from kb_names import OfficialNames, TalentBuilds  # noqa: E402
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 REPO_ROOT = BASE_DIR.parent
@@ -139,6 +139,9 @@ def check_card(card: dict, corpus: Corpus, previous: Optional[dict],
                game: Optional['GameNames'] = None, official: Optional[OfficialNames] = None) -> list[str]:
     problems = []
     raw_source = '\n'.join(corpus.source_text(s) for s in card.get('sources', []))
+    if official is not None:
+        # Las builds solo vienen como enlaces al calculador: se descodifican para comprobar sus talentos.
+        raw_source = TalentBuilds(official.conn).annotate(raw_source)
     source = normalize(raw_source)
     text_en, text_es = card.get('text_en', ''), card.get('text_es', '')
     if not source:
