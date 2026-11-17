@@ -7,8 +7,8 @@
       "status": "editorial",
       "title_es": "Qué hace un Sacerdote",
       "title_en": "What a Priest Does",
-      "summary_es": "Sacerdote cura, protege con escudos y hace daño con las Sombras; también limpia y apoya con buffs.",
-      "summary_en": "Priest heals, protects with shields, damages with Shadow, and supports with cleanses and buffs.",
+      "summary_es": "Puede sanar o hacer daño según su especialización; aporta mejoras, disipación y control al grupo.",
+      "summary_en": "Heals or deals damage by specialization, while bringing buffs, dispels, and control to groups.",
       "keywords_es": [
         "qué hace un sacerdote",
         "sacerdote curación y daño",
@@ -23,8 +23,8 @@
         "priest shadow",
         "priest support"
       ],
-      "text_es": "El Sacerdote es un lanzador versátil que puede curar, proteger con escudos o hacer daño con las Sombras. Sus tres especializaciones cubren los papeles de sanador y de daño a distancia, y aporta buffs, limpieza y control al grupo. Palabra de poder: escudo, Renovar y los rezos son algunas de sus herramientas más conocidas. Su gran debilidad es la movilidad: casi todo su poder exige quedarse quieto y lanzar.",
-      "text_en": "Priest is a versatile caster that can heal, protect with shields, or deal Shadow damage. Its three specializations cover healer and ranged damage, and it brings buffs, cleansing, and control to the group. Power Word: Shield, Renew, and prayers are some of its best-known tools. Its main weakness is mobility: almost all of its power requires standing still and casting.",
+      "text_es": "El Sacerdote puede curar o hacer daño según su especialización. Disciplina previene daño con escudos, Sagrado restaura a los heridos y Sombra ataca con las Sombras. Palabra de poder: escudo, Renovar y los rezos son herramientas habituales; también aporta mejoras, disipación y control. No tiene movilidad innata para reposicionarse durante el combate; Levitar ayuda a desplazarse por el mundo.",
+      "text_en": "A Priest can heal or deal damage depending on specialization. Discipline prevents damage with shields, Holy restores injured allies, and Shadow attacks with Shadow magic. Power Word: Shield, Renew, and prayers are common tools; Priests also bring buffs, dispels, and control. They have no innate combat repositioning skill; Levitate helps with overworld travel.",
       "tags": [
         "PRIEST"
       ],
@@ -34,14 +34,53 @@
           "ref": "Icy Veins: Priest Class Guide › Comprehensive Guide to Priest in World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/priest-class-overview",
           "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Guide › Discipline Priest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-healer-pve-guide",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Guide › Holy Priest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/holy-priest-healer-pve-guide",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Guide › Shadow Priest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-ranged-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Changes to Holy Priest in WoW Forever > Strengths and Weaknesses of Holy Priests in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Healer Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/rotation-cooldowns-pve-healer",
+          "date": "2026-10-31"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:priest:general:priest-class-overview"
+        "class:priest:discipline:overview",
+        "class:priest:general:priest-class-overview",
+        "class:priest:holy:overview",
+        "class:priest:holy:rotation",
+        "class:priest:shadow:overview"
       ],
       "source_hashes": [
-        "section:296d2cddc8c19ca6c9ac55c13a6be103faaadb6b"
+        "guide:1237faa726eda6dac8ba5493adfd7ed1df3c7307",
+        "section:24c425cd620eb7eef6e8079c365fafb2a3de3da7",
+        "section:296d2cddc8c19ca6c9ac55c13a6be103faaadb6b",
+        "section:3f99cbd7294c823bc796a190ba94668088e14680",
+        "section:7aa463342506adf5000be319eaace749f6b794ef",
+        "section:aeeb86ce13ca5bfd0d640535f5dcc1f7097e848e"
       ]
     },
     {
@@ -50,8 +89,8 @@
       "status": "editorial",
       "title_es": "Especializaciones del Sacerdote",
       "title_en": "Priest Specializations",
-      "summary_es": "Disciplina previene daño con escudos, Sagrado cura en área y Sombra hace daño con DoTs y apoyo.",
-      "summary_en": "Discipline prevents damage with shields, Holy heals groups, and Shadow deals DoT damage and support.",
+      "summary_es": "Disciplina previene daño; Sagrado ofrece curas flexibles; Sombra hace daño periódico y apoya al grupo.",
+      "summary_en": "Discipline prevents damage; Holy offers flexible healing; Shadow deals periodic damage and supports the group.",
       "keywords_es": [
         "especializaciones del sacerdote",
         "sacerdote disciplina sagrado sombra",
@@ -66,49 +105,73 @@
         "priest shadow damage",
         "which priest spec"
       ],
-      "text_es": "Disciplina es un sanador que previene daño con escudos y mitigación. Sagrado es el sanador reactivo, con curas directas y herramientas para varios aliados. Sombra es daño a distancia con DoTs que también ayuda al grupo con curación pasiva. Las tres usan maná; Disciplina y Sagrado sanan, y Sombra hace daño.",
-      "text_en": "Discipline is a healer that prevents damage with shields and mitigation. Holy is the reactive healer, with direct heals and tools for several allies. Shadow is ranged damage with DoTs that also helps the group through passive healing. All three use mana; Discipline and Holy heal, while Shadow deals damage.",
+      "text_es": "Disciplina previene daño con escudos y mitigación, y destaca en un objetivo, aunque cura menos en área. Sagrado ofrece curas directas y de grupo, pero consume mucho maná y carece de movilidad. Sombra es daño a distancia con efectos periódicos; Unirse a vampírica aporta curación pasiva y su utilidad ayuda al grupo. Las tres especializaciones dependen del maná.",
+      "text_en": "Discipline prevents damage with shields and mitigation and excels at single-target healing, though it has weaker area healing. Holy offers direct and group heals but is mana-intensive and lacks mobility. Shadow deals ranged damage over time; Vampiric Embrace provides passive healing, and its utility supports the group. All three specializations rely on mana.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Priest Class Guide › Priest in World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/priest-class-overview",
-          "date": "2026-11-11"
+          "ref": "Wowhead: Discipline Priest Healer Guide - WoW: Forever › Changes to Discipline Priest in WoW Forever > Strengths and Weaknesses of Discipline Priests in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/overview-pve-healer",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Guide › Discipline Priest Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-healer-pve-guide",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Changes to Holy Priest in WoW Forever > Strengths and Weaknesses of Holy Priests in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/overview-pve-healer",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Guide › Holy Priest Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/holy-priest-healer-pve-guide",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Shadow Priest DPS Guide - WoW: Forever › Changes to Shadow Priest in WoW Forever > Strengths and Weaknesses of Shadow Priests in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/overview-pve-dps",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Guide › Shadow Priest Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-ranged-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Shadow Priest DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Shadow Priest DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Stat Priority & Attributes - WoW: Forever › Discipline Priest Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/stat-priority-pve-healer",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Stat Priority & Attributes - WoW: Forever › Holy Priest Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/stat-priority-pve-healer",
+          "date": "2026-10-31"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest DPS Attribute and Stat Guide - WoW: Forever › Shadow Priest Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/stat-priority-pve-dps",
+          "date": "2026-10-30"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:priest:discipline:overview",
-        "class:priest:general:priest-class-overview",
+        "class:priest:discipline:stats",
         "class:priest:holy:overview",
-        "class:priest:shadow:overview"
+        "class:priest:holy:stats",
+        "class:priest:shadow:overview",
+        "class:priest:shadow:rotation",
+        "class:priest:shadow:stats"
       ],
       "source_hashes": [
-        "section:3f99cbd7294c823bc796a190ba94668088e14680",
-        "section:7aa463342506adf5000be319eaace749f6b794ef",
-        "section:aeeb86ce13ca5bfd0d640535f5dcc1f7097e848e",
-        "section:d52d37854fb8c1d5b2db3c83044f2eb77c25bea6"
+        "guide:1237faa726eda6dac8ba5493adfd7ed1df3c7307",
+        "guide:c0eb91cf44af61f121b0b431e7209b525013181c",
+        "guide:e57d30324b2e84947222413010eb0ee1aa1964b0",
+        "section:1aceaeaab70b05a6b2045fb40e1d706f25197370",
+        "section:92c8f8685f78a11564eb33397f4aee69cb9db258",
+        "section:9510f22c8c31311370b28b66b236b9b6c5c30331",
+        "section:ddf24c444b5df78ebd60cba674da4d3dc336ccf8"
       ]
     },
     {
@@ -117,8 +180,8 @@
       "status": "editorial",
       "title_es": "Qué cambia en Forever para el Sacerdote",
       "title_en": "What Changes for Priest in Forever",
-      "summary_es": "Disciplina deja de ser solo apoyo, Sagrado gana curas para varios aliados y Sombra refuerza su identidad.",
-      "summary_en": "Discipline is no longer only support, Holy gains multi-ally healing, and Shadow strengthens its identity.",
+      "summary_es": "Disciplina gana absorciones, Sagrado nuevas curas compartidas y Sombra mejoras al daño y al maná.",
+      "summary_en": "Discipline gains absorbs, Holy adds split heals, and Shadow improves damage and mana.",
       "keywords_es": [
         "cambios del sacerdote en forever",
         "sacerdote disciplina independiente",
@@ -133,41 +196,75 @@
         "prayer of mending",
         "shadow priest"
       ],
-      "text_es": "En Forever, Disciplina deja de ser solo un apoyo y se convierte en un sanador con identidad propia. Sagrado recibe Sanación conjunta y Rezo de alivio, que mejoran su curación de varios aliados. Sombra tiene una identidad más clara y aporta curación pasiva con Unirse a vampírica. Las tres especializaciones reciben talentos nuevos y retocados, pero el maná y la falta de movilidad siguen marcando su forma de jugar.",
-      "text_en": "In Forever, Discipline is no longer only support and becomes a healer with its own identity. Holy receives Binding Heal and Prayer of Mending, which improve its healing of several allies. Shadow has a clearer identity and provides passive healing through Vampiric Embrace. All three specializations receive new and reworked talents, but mana and low mobility still shape how they play.",
+      "text_es": "Disciplina conserva Curar como cura de objetivo e incorpora Penitencia, que cura a un aliado o daña a un enemigo, y Égida divina. Meditación mantiene el 50% de la regeneración de Espíritu al lanzar, y Custodia de miedo pasa a todos los Sacerdotes. Sagrado añade Sanación conjunta y Rezo de alivio; Espíritu divino se aprende a 30, en vez de ser un talento de Disciplina. Sombra convierte Peste devoradora en hechizo base y Forma de las Sombras reduce a la mitad el coste de sus hechizos y aumenta un 100% su daño crítico. Unirse a vampírica aporta curación pasiva al grupo.",
+      "text_en": "Discipline keeps Heal as an efficient single-target spell and gains Penance, which heals an ally or damages an enemy, plus Divine Aegis. Meditation preserves 50% of Spirit regeneration while casting, and Fear Ward becomes available to all Priests. Holy adds Binding Heal and Prayer of Mending; Divine Spirit is trained at 30 instead of being a Discipline talent. Shadow makes Devouring Plague baseline and reworks Shadowform to halve Shadow spell costs and increase their critical damage by 100%. Vampiric Embrace adds passive group healing.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Guide › Discipline Priest Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-healer-pve-guide",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Discipline Priest Healer Guide - WoW: Forever › Changes to Discipline Priest in WoW Forever > New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/overview-pve-healer",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Guide › Holy Priest Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/holy-priest-healer-pve-guide",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Discipline Priest Healer Guide - WoW: Forever › Changes to Discipline Priest in WoW Forever > Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/overview-pve-healer",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Guide › Shadow Priest Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-ranged-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Changes to Holy Priest in WoW Forever > New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Changes to Holy Priest in WoW Forever > Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Healer Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/rotation-cooldowns-pve-healer",
+          "date": "2026-10-31"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest DPS Guide - WoW: Forever › Changes to Shadow Priest in WoW Forever > New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest DPS Guide - WoW: Forever › Changes to Shadow Priest in WoW Forever > Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Healer Rotation and Cooldowns - WoW: Forever › Single Target Healing Rotation for Discipline Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/rotation-cooldowns-pve-healer",
+          "date": "2026-10-30"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:priest:discipline:overview",
+        "class:priest:discipline:rotation",
         "class:priest:holy:overview",
+        "class:priest:holy:rotation",
         "class:priest:shadow:overview"
       ],
       "source_hashes": [
-        "section:3f99cbd7294c823bc796a190ba94668088e14680",
-        "section:7aa463342506adf5000be319eaace749f6b794ef",
-        "section:aeeb86ce13ca5bfd0d640535f5dcc1f7097e848e"
+        "guide:1237faa726eda6dac8ba5493adfd7ed1df3c7307",
+        "guide:c0eb91cf44af61f121b0b431e7209b525013181c",
+        "guide:e57d30324b2e84947222413010eb0ee1aa1964b0",
+        "section:24c425cd620eb7eef6e8079c365fafb2a3de3da7",
+        "section:b61a87e320d0d9897da8a231c446f75b878cce59"
       ]
     },
     {
@@ -744,8 +841,8 @@
       "status": "editorial",
       "title_es": "Misiones de clase y facultades raciales",
       "title_en": "Class Quests and Racial Abilities",
-      "summary_es": "A nivel 10 y 20, las misiones de clase dan las dos facultades raciales del Sacerdote; a 4 dan una túnica.",
-      "summary_en": "At level 10 and 20, class quests give the Priest's two racial abilities; at 4 they give a robe.",
+      "summary_es": "Las cadenas raciales dan una túnica a 4 y las facultades propias del Sacerdote a 10 y 20.",
+      "summary_en": "Racial quest chains give a robe at 4 and Priest-specific abilities at 10 and 20.",
       "keywords_es": [
         "misiones de clase sacerdote",
         "facultades raciales sacerdote",
@@ -760,25 +857,47 @@
         "level 20 priest quest",
         "priest racials"
       ],
-      "text_es": "Las misiones de nivel 4 dan una túnica, pero no desbloquean habilidades. A nivel 10 y 20 entregan las dos facultades raciales del Sacerdote; por ejemplo, Fragmentos estelares o Gracia divina a 10, y Gracia de Elune o Castigar a 20. Son mejoras gratuitas, pero no hacen falta para subir.",
-      "text_en": "Level 4 quests give a robe but do not unlock abilities. At level 10 and 20 they give the Priest's two racial abilities; for example, Starshards or Divine Grace at 10, and Elune's Grace or Chastise at 20. They are free upgrades, but they are not required to level.",
+      "text_es": "Las cadenas del Sacerdote varían según la raza. La de nivel 4 termina en una túnica; las de nivel 10 y 20 conceden la primera y segunda facultad racial. Por ejemplo, el Elfo de la noche obtiene Fragmentos estelares a 10 y Gracia de Elune a 20; el Humano, Gracia divina y Rebote; el Enano, Rezo desesperado y Castigar. En varias razas puedes acudir directamente al instructor para aprender la facultad sin terminar la cadena.",
+      "text_en": "Priest quest chains vary by race. The level 4 chain ends with a robe; level 10 and 20 quests grant the first and second Priest racial abilities. For example, Night Elves get Starshards at 10 and Elune’s Grace at 20; Humans get Divine Grace and Feedback; Dwarves get Desperate Prayer and Chastise. For several races, you can go straight to the trainer to learn the ability instead of completing the full chain.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Priest Class Quests Guide › Priest Class Quest Guide for World of Warcraft: Forever",
+          "ref": "Wowhead: Discipline Priest Healer Guide - WoW: Forever › Discipline Priest Specific Systems in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Priest Class Quests Guide › Night Elf Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/priest-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Priest Class Quests Guide › Human Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/priest-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Priest Class Quests Guide › Dwarf Class Quests",
           "url": "https://www.icy-veins.com/wow-forever/priest-class-quests",
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
+        "class:priest:discipline:overview",
         "class:priest:general:priest-class-quests"
       ],
       "source_hashes": [
-        "section:a7ffac83a0ada3183958cf2f008b05307324e7bd"
+        "section:4b348d89aab5f2fc93e36a3c141b9766cfb31752",
+        "section:68fd1999e550345adf3f7202992e6bd1eacaa8ac",
+        "section:9bc0185ab6aeef419c0e7fbadd4b25281b5bb440",
+        "section:ab278e3dc61c255c9cbf8f2392471be4d78a3c51"
       ]
     },
     {
@@ -838,8 +957,8 @@
       "status": "editorial",
       "title_es": "El Sacerdote en grupo y mazmorras",
       "title_en": "Priest in Groups and Dungeons",
-      "summary_es": "Disciplina previene con escudos, Sagrado cura al grupo y Sombra aporta daño y curación pasiva.",
-      "summary_en": "Discipline prevents with shields, Holy heals the group, and Shadow adds damage and passive healing.",
+      "summary_es": "Disciplina protege al tanque, Sagrado cubre curas de grupo y Sombra aporta daño y apoyo pasivo.",
+      "summary_en": "Discipline protects the tank, Holy covers group healing, and Shadow adds damage and passive support.",
       "keywords_es": [
         "sacerdote en grupo",
         "sacerdote en mazmorras",
@@ -854,41 +973,56 @@
         "shadow priest group",
         "priest utility"
       ],
-      "text_es": "En grupo, Disciplina previene daño con Palabra de poder: escudo y mitigación y cubre bien a un objetivo; Sagrado cura a varios con Rezo de curación, Sanación conjunta y Rezo de alivio; Sombra hace daño y ayuda con Unirse a vampírica y sus buffs. Todos los Sacerdotes aportan Palabra de poder: entereza, Espíritu divino, limpieza y control. Usa Desvanecer si generas amenaza y coordina los rezos con el otro sanador.",
-      "text_en": "In a group, Discipline prevents damage with Power Word: Shield and mitigation and covers one target well; Holy heals several with Prayer of Healing, Binding Heal, and Prayer of Mending; Shadow deals damage and helps with Vampiric Embrace and its buffs. Every Priest brings Power Word: Fortitude, Divine Spirit, cleansing, and control. Use Fade if you build threat and coordinate prayers with the other healer.",
+      "text_es": "Disciplina mantiene seguro al tanque con Palabra de poder: escudo, Penitencia y Curar. Sagrado combina curas directas con Rezo de curación para el grupo y Rezo de alivio entre aliados. Sombra aporta daño y ayuda a los sanadores con Unirse a vampírica y la bonificación de Espíritu de Inspiración macabra. El Sacerdote ofrece Palabra de poder: entereza, Espíritu divino, disipación y control; si atraes amenaza, Desvanecer permite al tanque recuperarla.",
+      "text_en": "Discipline keeps the tank safe with Power Word: Shield, Penance, and Heal. Holy combines direct heals with Prayer of Healing for the group and Prayer of Mending between allies. Shadow adds damage and helps healers with Vampiric Embrace and the Spirit bonus from Dark Inspiration. Priests provide Power Word: Fortitude, Divine Spirit, dispels, and control; if you draw aggro, Fade lets the tank regain it.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Guide › Difficult With Amazing Payout",
-          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-healer-pve-guide",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Discipline Priest Healer Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Discipline Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/rotation-cooldowns-pve-healer",
+          "date": "2026-10-30"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Guide › Ol' Reliable",
-          "url": "https://www.icy-veins.com/wow-forever/holy-priest-healer-pve-guide",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Holy Priest Healer Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/rotation-cooldowns-pve-healer",
+          "date": "2026-10-31"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Guide › Likely the Best Utility DPS in the Game",
-          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-ranged-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Shadow Priest DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Shadow Priest DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Healer Guide - WoW: Forever › Changes to Discipline Priest in WoW Forever > Strengths and Weaknesses of Discipline Priests in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Healer Rotation and Cooldowns - WoW: Forever › Best Holy Priest Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/rotation-cooldowns-pve-healer",
+          "date": "2026-10-31"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:priest:discipline:overview",
-        "class:priest:holy:overview",
-        "class:priest:shadow:overview"
+        "class:priest:discipline:rotation",
+        "class:priest:holy:rotation",
+        "class:priest:shadow:rotation"
       ],
       "source_hashes": [
-        "guide:3ca012e8bd5aeb6f90573103156a2eafee716ddb",
-        "guide:8e08fd16c502e7b539cf0bcff8d0937e8e5dbadc",
-        "guide:d7ccb0363cd95751d7e4384b0d4301e60fa264f7"
+        "guide:e57d30324b2e84947222413010eb0ee1aa1964b0",
+        "section:172ecffc65bca32e7ba55402e80c0d09b9243431",
+        "section:24c425cd620eb7eef6e8079c365fafb2a3de3da7",
+        "section:736b430ab05b03d69b44f392e5ebe3a3649358ee",
+        "section:92c8f8685f78a11564eb33397f4aee69cb9db258"
       ]
     },
     {
@@ -897,8 +1031,8 @@
       "status": "editorial",
       "title_es": "Disciplina: escudos y prevención",
       "title_en": "Discipline: Shields and Prevention",
-      "summary_es": "Disciplina previene daño con escudos, cura un objetivo y usa Penitencia; le falta curación en área.",
-      "summary_en": "Discipline prevents damage with shields, heals one target, and uses Penance; it lacks area healing.",
+      "summary_es": "Disciplina previene daño con escudos y destaca en un objetivo, pero tiene menos curación en área.",
+      "summary_en": "Discipline prevents damage with shields and excels at single targets, but has weaker area healing.",
       "keywords_es": [
         "sacerdote disciplina",
         "disciplina escudos",
@@ -913,12 +1047,24 @@
         "preventive healer",
         "discipline group"
       ],
-      "text_es": "Disciplina es un sanador preventivo: Palabra de poder: escudo y la mitigación evitan daño antes de que ocurra, y Penitencia da una cura rápida y flexible. Es fuerte curando a un solo objetivo y aporta buena utilidad, pero le falta curación en área y es más difícil de jugar que Sagrado. En grupo, protege al tanque y a quien esté a punto de recibir un golpe grande, y usa Penitencia para estabilizar.",
-      "text_en": "Discipline is a preventive healer: Power Word: Shield and mitigation stop damage before it happens, and Penance gives a fast, flexible heal. It is strong at single-target healing and brings good utility, but it lacks area healing and is harder to play than Holy. In a group, shield the tank and anyone about to take a big hit, and use Penance to stabilize.",
+      "text_es": "Disciplina es un sanador preventivo: Palabra de poder: escudo y Égida divina absorben daño; Penitencia cura a un aliado o daña a un enemigo. Destaca al mantener a salvo a un objetivo y aporta utilidad en mazmorras, pero la curación en área es su punto débil. Es más exigente que Sagrado, aunque su supervivencia y daño permiten jugar en solitario.",
+      "text_en": "Discipline is a proactive healer: Power Word: Shield and Divine Aegis absorb damage, while Penance heals an ally or damages an enemy. It excels at keeping one target safe and brings dungeon utility, but area healing is its main weakness. It is more challenging than Holy, though its survivability and damage support solo play.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Healer Guide - WoW: Forever › Changes to Discipline Priest in WoW Forever > New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Healer Guide - WoW: Forever › Changes to Discipline Priest in WoW Forever > Strengths and Weaknesses of Discipline Priests in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/overview-pve-healer",
+          "date": "2026-11-14"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Guide › Discipline Priest Guide for World of Warcraft: Forever",
@@ -926,11 +1072,12 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:priest:discipline:overview"
       ],
       "source_hashes": [
+        "guide:e57d30324b2e84947222413010eb0ee1aa1964b0",
         "section:aeeb86ce13ca5bfd0d640535f5dcc1f7097e848e"
       ]
     },
@@ -940,8 +1087,8 @@
       "status": "editorial",
       "title_es": "Sagrado: curación reactiva",
       "title_en": "Holy: Reactive Healing",
-      "summary_es": "Sagrado cura con Destello curativo, Curar y Curación superior, y usa Rezo de curación y Rezo de alivio.",
-      "summary_en": "Holy heals with Flash Heal, Heal and Greater Heal, and uses Prayer of Healing and Prayer of Mending.",
+      "summary_es": "Sagrado es un sanador flexible de grupo, con curas para daño repartido y buen apoyo de banda.",
+      "summary_en": "Holy is a flexible group healer with split-damage tools and strong raid support.",
       "keywords_es": [
         "sacerdote sagrado",
         "sacerdote sanador",
@@ -956,25 +1103,46 @@
         "prayer of healing",
         "binding heal"
       ],
-      "text_es": "Sagrado es el sanador reactivo y fácil de aprender: Destello curativo para mantener la salud, Curar y Curación superior para daño fuerte, y Renovar para daño gradual. Rezo de curación cubre a varios aliados, Sanación conjunta cura a ti y a otro, y Rezo de alivio sigue rebotando por el grupo. Su movilidad es nula y hace poco daño en solitario, pero es muy completo en mazmorras.",
-      "text_en": "Holy is the reactive, beginner-friendly healer: Flash Heal maintains health, Heal and Greater Heal cover heavy damage, and Renew handles gradual damage. Prayer of Healing covers several allies, Binding Heal heals you and another, and Prayer of Mending keeps bouncing around the group. Its mobility is nil and it deals little damage alone, but it is very complete in dungeons.",
+      "text_es": "Renovar mantiene curación gradual en el tanque y Curar es la cura eficiente; Destello curativo sirve de emergencia y Curación superior para daño fuerte. Rezo de curación atiende al grupo cuando varios están heridos; Rezo de alivio rebota, y Sanación conjunta cura al Sacerdote y a un aliado. Letanía de la Luz devuelve maná al alternar curas. Sagrado es accesible para quien empieza y ofrece curación flexible, pero sufre ante daño físico, poca movilidad y alto gasto de maná.",
+      "text_en": "Renew maintains gradual healing on the tank and Heal is the efficient spell; Flash Heal is for emergencies and Greater Heal for heavy damage. Prayer of Healing covers the group when several allies are injured; Prayer of Mending bounces, and Binding Heal restores the Priest and an ally. Litany of Light refunds mana when alternating heals. Holy is approachable for new players and offers flexible healing, but is vulnerable to physical damage, has little mobility, and uses a lot of mana.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Guide › Holy Priest Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/holy-priest-healer-pve-guide",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Changes to Holy Priest in WoW Forever > New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Changes to Holy Priest in WoW Forever > Strengths and Weaknesses of Holy Priests in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Healer Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/rotation-cooldowns-pve-healer",
+          "date": "2026-10-31"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Holy Priest for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/overview-pve-healer",
+          "date": "2026-11-14"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:priest:holy:overview"
+        "class:priest:holy:overview",
+        "class:priest:holy:rotation"
       ],
       "source_hashes": [
-        "section:7aa463342506adf5000be319eaace749f6b794ef"
+        "guide:1237faa726eda6dac8ba5493adfd7ed1df3c7307",
+        "section:24c425cd620eb7eef6e8079c365fafb2a3de3da7",
+        "section:5e2a24f575de2ad01bd08b4bcd074a1e0d6baa1c"
       ]
     },
     {
@@ -983,8 +1151,8 @@
       "status": "editorial",
       "title_es": "Sombra: daño con DoTs",
       "title_en": "Shadow: Damage with DoTs",
-      "summary_es": "Sombra usa Palabra de las Sombras: Dolor, Peste devoradora y Despelleje mental, y cura al grupo con Unirse a vampírica.",
-      "summary_en": "Shadow uses Shadow Word: Pain, Devouring Plague and Mind Flay, and heals the group with Vampiric Embrace.",
+      "summary_es": "Sombra hace daño periódico a distancia y ayuda al grupo con curación pasiva y Espíritu.",
+      "summary_en": "Shadow deals ranged damage over time and supports the group with passive healing and Spirit.",
       "keywords_es": [
         "sacerdote sombra",
         "sombra dots",
@@ -999,12 +1167,30 @@
         "devouring plague",
         "vampiric embrace"
       ],
-      "text_es": "Sombra es daño a distancia con DoTs: Palabra de las Sombras: Dolor, Peste devoradora y Despelleje mental, con Explosión mental para abrir. Su gran aporte al grupo es Unirse a vampírica, que cura según el daño que hace, además de buffs como Protección de las Sombras y Espíritu divino. No tiene área real y su movilidad es baja; hasta Forma de las Sombras el maná duele, así que la varita y Transfusión de espíritu son clave.",
-      "text_en": "Shadow is ranged damage with DoTs: Shadow Word: Pain, Devouring Plague, and Mind Flay, with Mind Blast to open. Its big group contribution is Vampiric Embrace, which heals based on its damage, plus buffs such as Shadow Protection and Divine Spirit. It has no real area damage and low mobility; before Shadowform, mana hurts, so the wand and Spirit Tap are key.",
+      "text_es": "Sombra es daño a distancia basado en efectos periódicos: mantiene Palabra de las Sombras: Dolor y Peste devoradora, y completa con Explosión mental y Despelleje mental. Unirse a vampírica cura al grupo según el daño infligido; Inspiración macabra aporta Espíritu. También ofrece Palabra de poder: entereza, Espíritu divino y Protección de las Sombras. El maná cuesta más de sostener hasta obtener Forma de las Sombras; Transfusión de espíritu y la varita ayudan; en Forma no puede lanzar hechizos de sanación y carece de área potente.",
+      "text_en": "Shadow is ranged damage based on damage-over-time effects: maintain Shadow Word: Pain and Devouring Plague, then fill with Mind Blast and Mind Flay. Vampiric Embrace heals the group based on damage dealt; Dark Inspiration grants Spirit. Shadow also brings Power Word: Fortitude, Divine Spirit, and Shadow Protection. Mana is harder to sustain until Shadowform; Spirit Tap and a wand help; in Shadowform, healing spells are unavailable, and Shadow lacks strong AoE.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest DPS Guide - WoW: Forever › Changes to Shadow Priest in WoW Forever > Strengths and Weaknesses of Shadow Priests in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Shadow Priest DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest DPS Guide - WoW: Forever › Changes to Shadow Priest in WoW Forever > Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/overview-pve-dps",
+          "date": "2026-11-14"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Guide › Shadow Priest Guide for World of Warcraft: Forever",
@@ -1012,12 +1198,15 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:priest:shadow:overview"
+        "class:priest:shadow:overview",
+        "class:priest:shadow:rotation"
       ],
       "source_hashes": [
-        "section:3f99cbd7294c823bc796a190ba94668088e14680"
+        "guide:c0eb91cf44af61f121b0b431e7209b525013181c",
+        "section:3f99cbd7294c823bc796a190ba94668088e14680",
+        "section:92c8f8685f78a11564eb33397f4aee69cb9db258"
       ]
     }
   ]
