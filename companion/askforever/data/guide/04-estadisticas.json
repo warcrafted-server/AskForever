@@ -86,48 +86,6 @@
       ]
     },
     {
-      "id": "clase-druid-estadisticas-balance",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Estadísticas de Druida Equilibrio",
-      "title_en": "Balance Druid stat priority",
-      "summary_es": "Qué estadísticas priorizar como Druida Equilibrio (daño a distancia) en JcE.",
-      "summary_en": "Which stats to prioritise as a Balance Druid (ranged DPS) in PvE.",
-      "keywords_es": [
-        "estadisticas equilibrio",
-        "stats equilibrio",
-        "prioridad de estadisticas druida",
-        "que estadisticas druida",
-        "stats druida"
-      ],
-      "keywords_en": [
-        "balance stats",
-        "balance stat priority",
-        "druid stat priority",
-        "druid stats"
-      ],
-      "tags": [
-        "DRUID"
-      ],
-      "text_es": "Prioridad de estadísticas para Druida Equilibrio (daño a distancia, JcE), de más a menos importante: Prob. de golpe (hasta 17 %) > Golpe crítico > Poder con hechizos > Inteligencia.",
-      "text_en": "Stat priority for Balance Druid (ranged DPS, PvE), from most to least important: Hit Chance (to 17%) > Critical Strike > Spell Power > Intellect.",
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Forever Balance Druid Stat Priority",
-          "url": "https://www.icy-veins.com/wow-forever/balance-druid-ranged-dps-pve-stat-priority",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:druid:balance:stats"
-      ],
-      "source_hashes": [
-        "guide:82a0cb2a0332dd927887e9564d1805abb6930a03"
-      ]
-    },
-    {
       "id": "clase-warlock-estadisticas-demonology",
       "chapter": 4,
       "status": "editorial",
@@ -296,48 +254,6 @@
       ]
     },
     {
-      "id": "clase-druid-estadisticas-feral",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Estadísticas de Druida Combate feral",
-      "title_en": "Feral Druid stat priority",
-      "summary_es": "Qué estadísticas priorizar como Druida Combate feral (daño cuerpo a cuerpo y tanque) en JcE.",
-      "summary_en": "Which stats to prioritise as a Feral Druid (melee DPS and tank) in PvE.",
-      "keywords_es": [
-        "estadisticas combate feral",
-        "stats combate feral",
-        "prioridad de estadisticas druida",
-        "que estadisticas druida",
-        "stats druida"
-      ],
-      "keywords_en": [
-        "feral stats",
-        "feral stat priority",
-        "druid stat priority",
-        "druid stats"
-      ],
-      "tags": [
-        "DRUID"
-      ],
-      "text_es": "Prioridad de estadísticas para Druida Combate feral (daño cuerpo a cuerpo y tanque, JcE), de más a menos importante: DPS del arma > Pericia (6,5 % o 14 %) > Prob. de golpe (8 %) > Agilidad > Fuerza.",
-      "text_en": "Stat priority for Feral Druid (melee DPS and tank, PvE), from most to least important: Weapon Dps > Expertise (6.5% or 14%) > Hit Chance (8%) > Agility > Strength.",
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Forever Feral Druid Stat Priority",
-          "url": "https://www.icy-veins.com/wow-forever/feral-druid-melee-dps-and-tank-pve-stat-priority",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:druid:feral:stats"
-      ],
-      "source_hashes": [
-        "guide:3b5424e97825fde48d2410096f527ff7bb5d7f46"
-      ]
-    },
-    {
       "id": "clase-warrior-estadisticas-fury",
       "chapter": 4,
       "status": "editorial",
@@ -503,48 +419,6 @@
       ],
       "source_hashes": [
         "guide:6b262229c6a8c3974037ce844fa3b9966b1f320d"
-      ]
-    },
-    {
-      "id": "clase-druid-estadisticas-restoration",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Estadísticas de Druida Recuperación",
-      "title_en": "Restoration Druid stat priority",
-      "summary_es": "Qué estadísticas priorizar como Druida Recuperación (sanador) en JcE.",
-      "summary_en": "Which stats to prioritise as a Restoration Druid (healer) in PvE.",
-      "keywords_es": [
-        "estadisticas recuperación",
-        "stats recuperación",
-        "prioridad de estadisticas druida",
-        "que estadisticas druida",
-        "stats druida"
-      ],
-      "keywords_en": [
-        "restoration stats",
-        "restoration stat priority",
-        "druid stat priority",
-        "druid stats"
-      ],
-      "tags": [
-        "DRUID"
-      ],
-      "text_es": "Prioridad de estadísticas para Druida Recuperación (sanador, JcE), de más a menos importante: Sanación con hechizos > Inteligencia > Espíritu > Regeneración de maná cada 5 s > Golpe crítico.",
-      "text_en": "Stat priority for Restoration Druid (healer, PvE), from most to least important: Healing Power > Intellect > Spirit > MP5 > Critical Strike.",
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Forever Restoration Druid Stat Priority",
-          "url": "https://www.icy-veins.com/wow-forever/restoration-druid-healer-pve-stat-priority",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:druid:restoration:stats"
-      ],
-      "source_hashes": [
-        "guide:e10c7c287b212faeb7d14ebad99f07d655892ccb"
       ]
     },
     {
