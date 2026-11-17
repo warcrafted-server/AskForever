@@ -61,8 +61,12 @@ If you have the older version of the Windows app installed, install AskForever A
 
 1. Open **AskForever App** from the Start menu. Its window uses the language set in Windows.
 2. On first launch, the **Configure AI** dialog opens for Google Gemini. Follow the [Gemini key guide](GEMINI_KEY.md) to get a free key, enter it in the dialog and click **Test and save**. The app tests the key before saving it encrypted in **Windows Credential Manager**.
+
+   ![The Configure AI dialog](img/v0.4.0-app-clave.png)
 3. If you already have a saved key, the setup dialog does not appear. To change or configure a key later, click **Configure AI** in the app window.
 4. The app downloads the base game database from GitHub when the installed addon needs it, verifies it, then applies the game-data patch and guide cards shipped in the addon's `data` folder. This happens once for each needed base database; rebuilding takes seconds. Keep AskForever App running while it finishes.
+
+![AskForever App window: status cards and activity](img/v0.4.0-app-ventana.png)
 
 The app window shows four status cards:
 
@@ -79,12 +83,14 @@ The activity list reports recent events in plain language. **Open log** opens th
 2. Start WoW Forever and log in.
 3. In the game, type `/af` (or `/askforever`) in the game chat and press Enter, or click the **AskForever** button on the minimap. The AskForever chat window opens.
 4. Type your question in that window and press Enter. For example: *How do I get to The Barrens?*
-5. The answer appears over the game, on the right, for a few seconds. Scroll the conversation with the mouse wheel over it or use its arrow buttons. Resize the addon window from its bottom-right corner.
+5. The answer appears in the conversation of the addon window, with paragraphs and bullets. Scroll the conversation with the mouse wheel over it or use its arrow buttons. Resize the addon window from its bottom-right corner.
 6. For the best result, use the **Windowed** or **Windowed (Fullscreen)** display mode. Exclusive fullscreen (the mode that takes over the whole screen) may prevent the answer from appearing.
 
 ### AskForever App window and system tray
 
 Closing the app window hides it in the system tray; it does **not** quit AskForever App. A notice explains that the addon needs the app running. Click the tray icon to reopen the window. To quit, right-click the icon and choose **Quit**; the app asks you to confirm.
+
+![Notice when the window is closed: the app keeps running in the system tray](img/v0.4.0-app-bandeja.png)
 
 ## If Windows shows a warning
 

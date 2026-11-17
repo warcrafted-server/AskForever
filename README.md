@@ -17,9 +17,13 @@
 > *"How do I get from Westfall to The Barrens at a low level?"*
 
 ### What it does
-AskForever knows your level, faction and zone, uses verified data from the game database (no guessing) and computes routes with flights and transports. The addon sends your question to **AskForever App**, which asks the AI and shows the answer over the game, on the right, for a few seconds.
+AskForever knows your level, faction and zone, uses verified data from the game database (no guessing) and computes routes with flights and transports. The addon sends your question to **AskForever App**, which asks the AI and shows the answer in the conversation of the addon window.
 
-![Answer about a quest: which NPC drops each item, with coordinates](docs/img/v0.3.0-quest-items.png)
+![Advice for your character, in the addon window](docs/img/v0.4.0-chat-consejos.png)
+
+![A complete build, one line per talent tree](docs/img/v0.4.0-chat-build.png)
+
+![AskForever App window](docs/img/v0.4.0-app-ventana.png)
 
 ### Status
 **0.3.0-beta.4 (beta).** Quest questions say where to get each objective (drops, world objects, creatures) and understand your active quests. The addon and AskForever App for Windows work together: ask with `/af` or the minimap button and read the answer in game. Verified game data and routes with flights and transports are included. AskForever App has its own window and system-tray controls, a tested-in-app AI key setup dialog, and automatic app updates. Game data and guide cards are delivered with addon updates through CurseForge. English and Spanish.
@@ -58,9 +62,13 @@ AI answers may contain mistakes; double-check important details in game. Blizzar
 > *"¿Por dónde voy de Páramos de Poniente a Baldíos siendo nivel bajo?"*
 
 ### Qué hace
-AskForever conoce tu nivel, facción y zona, usa datos verificados de la base de datos del juego (no inventa) y calcula rutas con vuelos y transportes. El addon envía tu pregunta a **AskForever App**, que consulta a la IA y muestra la respuesta sobre el juego, a la derecha, durante unos segundos.
+AskForever conoce tu nivel, facción y zona, usa datos verificados de la base de datos del juego (no inventa) y calcula rutas con vuelos y transportes. El addon envía tu pregunta a **AskForever App**, que consulta a la IA y muestra la respuesta en la conversación de la ventana del addon.
 
-![Respuesta sobre una misión: qué PNJ suelta cada objeto, con coordenadas](docs/img/v0.3.0-quest-items.png)
+![Consejos para tu personaje, en la ventana del addon](docs/img/v0.4.0-chat-consejos.png)
+
+![Una build completa, una línea por rama de talentos](docs/img/v0.4.0-chat-build.png)
+
+![Ventana de AskForever App](docs/img/v0.4.0-app-ventana.png)
 
 ### Estado
 **0.3.0-beta.4 (beta).** Las preguntas de misión dicen dónde conseguir cada objetivo (botín, objetos del mundo, criaturas) y entienden tus misiones activas. El addon y AskForever App para Windows funcionan juntos: pregunta con `/af` o el botón del minimapa y lee la respuesta dentro del juego. Incluye datos verificados del juego y rutas con vuelos y transportes. AskForever App tiene ventana y controles en la bandeja del sistema, un diálogo para configurar y probar la clave de IA, y actualizaciones automáticas de la app. Los datos del juego y las fichas llegan con las actualizaciones del addon desde CurseForge. Inglés y español.

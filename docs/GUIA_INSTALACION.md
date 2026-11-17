@@ -61,8 +61,12 @@ Si tienes instalada la versión antigua del programa de Windows, instala AskFore
 
 1. Abre **AskForever App** desde el menú Inicio. La ventana usa el idioma configurado en Windows.
 2. La primera vez se abre el diálogo **Configurar IA** para Google Gemini. Sigue la [guía de la clave de Gemini](CLAVE_GEMINI.md) para conseguir una clave gratuita, introdúcela en el diálogo y pulsa **Probar y guardar**. La app prueba la clave antes de guardarla cifrada en el **Administrador de credenciales de Windows**.
+
+   ![Diálogo Configurar la IA](img/v0.4.0-app-clave.png)
 3. Si ya tienes una clave guardada, el diálogo no aparece. Para configurar o cambiar una clave más adelante, pulsa **Configurar IA** en la ventana de la app.
 4. Cuando el addon instalado necesita la base de datos, la app la descarga desde GitHub, comprueba su integridad y aplica el parche de datos del juego y las fichas incluidos en la carpeta `data` del addon. Esto ocurre una vez por cada base necesaria; la reconstrucción tarda unos segundos. Mantén AskForever App en marcha mientras termina.
+
+![Ventana de AskForever App: tarjetas de estado y actividad](img/v0.4.0-app-ventana.png)
 
 La ventana de la app muestra cuatro tarjetas de estado:
 
@@ -79,12 +83,14 @@ La lista de actividad muestra eventos recientes en lenguaje sencillo. **Abrir re
 2. Abre WoW Forever e inicia sesión.
 3. En el juego, escribe `/af` (o `/askforever`) en el chat del juego y pulsa Enter, o haz clic en el botón **AskForever** del minimapa. Se abre la ventana del chat de AskForever.
 4. Escribe tu pregunta en esa ventana y pulsa Enter. Por ejemplo: *¿Por dónde voy a Baldíos?*
-5. La respuesta aparece sobre el juego, a la derecha, durante unos segundos. Desplázate por la conversación con la rueda del ratón encima o con sus botones de flecha. Cambia el tamaño de la ventana del addon desde la esquina inferior derecha.
+5. La respuesta aparece en la conversación de la ventana del addon, con párrafos y viñetas. Desplázate por la conversación con la rueda del ratón encima o con sus botones de flecha. Cambia el tamaño de la ventana del addon desde la esquina inferior derecha.
 6. Para que funcione mejor, usa el modo de pantalla **Ventana** o **Pantalla completa (ventana)**. La pantalla completa exclusiva (la que ocupa toda la pantalla) puede impedir que aparezca la respuesta.
 
 ### Ventana y bandeja del sistema de AskForever App
 
 Al cerrar la ventana de la app, se oculta en la bandeja del sistema; AskForever App **no se cierra**. Aparece un aviso que explica que el addon necesita la app en marcha. Haz clic en el icono de la bandeja para volver a abrir la ventana. Para salir, haz clic derecho en el icono y elige **Salir**; la app te pedirá confirmación.
+
+![Aviso al cerrar la ventana: la app sigue en marcha en la bandeja del sistema](img/v0.4.0-app-bandeja.png)
 
 ## Si Windows muestra un aviso
 
