@@ -83,7 +83,9 @@ The activity list reports recent events in plain language. **Open log** opens th
 2. Start WoW Forever and log in.
 3. In the game, type `/af` (or `/askforever`) in the game chat and press Enter, or click the **AskForever** button on the minimap. The AskForever chat window opens.
 4. Type your question in that window and press Enter. For example: *How do I get to The Barrens?*
-5. The answer appears in the conversation of the addon window, with paragraphs and bullets. Scroll the conversation with the mouse wheel over it or use its arrow buttons. Resize the addon window from its bottom-right corner.
+5. The answer appears in the conversation of the addon window, with paragraphs and bullets.
+
+   ![Answer in the addon window: quests of your zone](img/v0.4.0-chat-misiones.png) Scroll the conversation with the mouse wheel over it or use its arrow buttons. Resize the addon window from its bottom-right corner.
 6. For the best result, use the **Windowed** or **Windowed (Fullscreen)** display mode. Exclusive fullscreen (the mode that takes over the whole screen) may prevent the answer from appearing.
 
 ### AskForever App window and system tray

@@ -23,6 +23,8 @@ AskForever knows your level, faction and zone, uses verified data from the game 
 
 ![A complete build, one line per talent tree](docs/img/v0.4.0-chat-build.png)
 
+![Quests of your zone for your level, with who gives them and where](docs/img/v0.4.0-chat-misiones.png)
+
 ![AskForever App window](docs/img/v0.4.0-app-ventana.png)
 
 ### Status
@@ -67,6 +69,8 @@ AskForever conoce tu nivel, facción y zona, usa datos verificados de la base de
 ![Consejos para tu personaje, en la ventana del addon](docs/img/v0.4.0-chat-consejos.png)
 
 ![Una build completa, una línea por rama de talentos](docs/img/v0.4.0-chat-build.png)
+
+![Misiones de tu zona para tu nivel, con quién las da y dónde](docs/img/v0.4.0-chat-misiones.png)
 
 ![Ventana de AskForever App](docs/img/v0.4.0-app-ventana.png)
 

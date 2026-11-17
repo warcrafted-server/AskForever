@@ -83,7 +83,9 @@ La lista de actividad muestra eventos recientes en lenguaje sencillo. **Abrir re
 2. Abre WoW Forever e inicia sesión.
 3. En el juego, escribe `/af` (o `/askforever`) en el chat del juego y pulsa Enter, o haz clic en el botón **AskForever** del minimapa. Se abre la ventana del chat de AskForever.
 4. Escribe tu pregunta en esa ventana y pulsa Enter. Por ejemplo: *¿Por dónde voy a Baldíos?*
-5. La respuesta aparece en la conversación de la ventana del addon, con párrafos y viñetas. Desplázate por la conversación con la rueda del ratón encima o con sus botones de flecha. Cambia el tamaño de la ventana del addon desde la esquina inferior derecha.
+5. La respuesta aparece en la conversación de la ventana del addon, con párrafos y viñetas.
+
+   ![Respuesta en la ventana del addon: misiones de tu zona](img/v0.4.0-chat-misiones.png) Desplázate por la conversación con la rueda del ratón encima o con sus botones de flecha. Cambia el tamaño de la ventana del addon desde la esquina inferior derecha.
 6. Para que funcione mejor, usa el modo de pantalla **Ventana** o **Pantalla completa (ventana)**. La pantalla completa exclusiva (la que ocupa toda la pantalla) puede impedir que aparezca la respuesta.
 
 ### Ventana y bandeja del sistema de AskForever App
