@@ -7,24 +7,24 @@
       "status": "editorial",
       "title_es": "Qué hace un Brujo",
       "title_en": "What a Warlock Does",
-      "summary_es": "El Brujo hace daño a distancia con sombras, fuego, demonios y daño en el tiempo, y apoya con piedras y control.",
-      "summary_en": "Warlock deals ranged Shadow and Fire damage with demons and DoTs, and supports with stones and control.",
+      "summary_es": "Inflige daño de Fuego y Sombras y apoya al grupo con demonios, maldiciones y piedras.",
+      "summary_en": "Deals Fire and Shadow damage and supports the group with demons, curses, and stones.",
       "keywords_es": [
         "qué hace un brujo",
-        "brujo daño a distancia",
-        "brujo demonios",
-        "brujo maldiciones",
-        "brujo daño en el tiempo"
+        "daño de brujo",
+        "utilidad del brujo",
+        "demonios del brujo",
+        "maldiciones del brujo"
       ],
       "keywords_en": [
         "what does a warlock do",
-        "warlock ranged damage",
+        "warlock damage",
+        "warlock utility",
         "warlock demons",
-        "warlock curses",
-        "warlock damage over time"
+        "warlock curses"
       ],
-      "text_es": "El Brujo es un lanzador de daño a distancia que combina sombras y fuego con demonios, maldiciones y daño en el tiempo. Puede desgastar a varios enemigos con sus efectos periódicos, cambiar salud por maná con Transfusión de vida y apoyar al grupo con piedras, invocaciones y control. No es sanador ni tanque: sus tres ramas son DPS a distancia y su valor está en el daño sostenido y la utilidad.",
-      "text_en": "Warlock is a ranged damage caster who combines Shadow and Fire with demons, curses, and damage over time. It can wear down several enemies with its periodic effects, trade health for mana with Life Tap, and support the group with stones, summons, and control. It is neither a healer nor a tank: all three trees are ranged DPS, and its value lies in sustained damage and utility.",
+      "text_es": "El Brujo inflige daño de Fuego y Sombras con efectos periódicos, hechizos directos y demonios. Transfusión de vida convierte salud en maná; Crear piedra de salud, Ritual de invocación y las maldiciones aportan apoyo al grupo. Aflicción, Demonología y Destrucción ofrecen distintos estilos: gestionar varios efectos, luchar con un demonio o centrar el daño en lanzamientos.",
+      "text_en": "Warlocks deal Fire and Shadow damage with damage-over-time effects, direct spells, and demons. Life Tap trades health for mana; Create Healthstone, Ritual of Summoning, and curses provide group support. Affliction, Demonology, and Destruction offer different playstyles: managing several effects, fighting with a demon, or focusing damage on casts.",
       "tags": [
         "WARLOCK"
       ],
@@ -36,7 +36,7 @@
           "date": "2026-10-29"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:general:warlock-class-overview"
       ],
@@ -50,54 +50,54 @@
       "status": "editorial",
       "title_es": "Especializaciones del Brujo",
       "title_en": "Warlock Specializations",
-      "summary_es": "Aflicción usa DoTs y drenajes, Demonología pelea con un demonio y Destrucción lanza Fuego y sombra directos.",
-      "summary_en": "Affliction uses DoTs and drains, Demonology fights with a demon, and Destruction casts direct Fire and Shadow.",
+      "summary_es": "Aflicción gestiona efectos periódicos; Demonología se centra en el demonio y Destrucción enlaza Fuego y Sombras.",
+      "summary_en": "Affliction manages damage-over-time effects; Demonology centers on its demon, and Destruction links Fire and Shadow.",
       "keywords_es": [
         "especializaciones del brujo",
-        "brujo aflicción demonología destrucción",
-        "brujo daño en el tiempo",
-        "brujo demonio",
-        "brujo lanzador"
+        "brujo aflicción",
+        "brujo demonología",
+        "brujo destrucción",
+        "estilos del brujo"
       ],
       "keywords_en": [
         "warlock specializations",
-        "warlock affliction demonology destruction",
-        "warlock damage over time",
-        "warlock demon",
-        "warlock caster"
+        "affliction warlock",
+        "demonology warlock",
+        "destruction warlock",
+        "warlock playstyles"
       ],
-      "text_es": "Aflicción se apoya en efectos de sombra en el tiempo y drenajes; Demonología pelea junto a un demonio potenciado; Destrucción usa lanzamientos directos de Fuego y sombra. Las tres son DPS a distancia y comparten maldiciones, demonios y piedras. Ninguna es sanadora ni tanque, así que elige la rama por el estilo de daño que prefieras.",
-      "text_en": "Affliction relies on Shadow damage over time and drains; Demonology fights alongside an empowered demon; Destruction uses direct Fire and Shadow casts. All three are ranged DPS and share curses, demons, and stones. None is a healer or tank, so pick the tree for the damage style you prefer.",
+      "text_es": "Aflicción mantiene efectos de daño en el tiempo y usa drenajes; Arruinar acelera los efectos periódicos del objetivo mientras se canaliza. Demonología gira en torno al demonio: Pacto demoníaco permite mantener uno mientras se aprovecha Sacrificio demoníaco. Destrucción combina Fuego y Sombras; Incinerar es su nuevo hechizo de relleno y Sombras y llamas enlaza ambas escuelas. Las tres comparten demonios, maldiciones y herramientas de apoyo, pero ofrecen estilos de daño distintos.",
+      "text_en": "Affliction maintains damage-over-time effects and uses drains; channeling Wrack speeds up the target's periodic effects. Demonology revolves around its demon: Demonic Pact lets you keep one summoned while benefiting from Demonic Sacrifice. Destruction combines Fire and Shadow; Incinerate is its new filler, and Shadow and Flame links both schools. All three share demons, curses, and group tools, but offer different damage styles.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
         {
           "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock DPS Guide - WoW: Forever › Affliction Warlock Specific Systems in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock DPS Guide - WoW: Forever › Changes to Demonology Warlock in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock DPS Guide - WoW: Forever › Changes to Destruction Warlock in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
           "ref": "Icy Veins: Warlock Class Guide › Comprehensive Guide to Warlock in World of Warcraft Forever",
           "url": "https://www.icy-veins.com/wow-forever/warlock-class-overview",
           "date": "2026-10-29"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Guide › Affliction Warlock Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-ranged-dps-pve-guide",
-          "date": "2026-11-09"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Demonology Warlock Guide › Demonology Warlock Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/demonology-warlock-ranged-dps-pve-guide",
-          "date": "2026-11-09"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Destruction Warlock Guide › Destruction Warlock Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/destruction-warlock-ranged-dps-pve-guide",
-          "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:overview",
         "class:warlock:demonology:overview",
@@ -105,10 +105,10 @@
         "class:warlock:general:warlock-class-overview"
       ],
       "source_hashes": [
-        "section:52d74a07212783945ac92c81a5769f645c4061fb",
-        "section:613b699a225e90853da48de95c6282bc2ac79d16",
+        "section:0139ca37032359782a7de7e3dc75a8f3e46a8d63",
         "section:68d4afc3e198df667cbca5caa503b1b201ba63a2",
-        "section:f80f3f0a109a090e41e43917e34a5b5e0f9e0562"
+        "section:cef868b49045ced15dae7827f315484f5c42190e",
+        "section:d3a5b6ab1fd735b5fb8e1fcd7aec8e6b231de92e"
       ]
     },
     {
@@ -379,41 +379,69 @@
       "status": "editorial",
       "title_es": "Misiones de clase del Brujo",
       "title_en": "Warlock Class Quests",
-      "summary_es": "Las misiones de clase dan diablillo, abisario, súcubo o íncubo, manáfago y corcel nefasto.",
-      "summary_en": "Class quests give the Imp, Voidwalker, Succubus or Incubus, Felhunter, and Felsteed.",
+      "summary_es": "Las cadenas de clase desbloquean los demonios por nivel y una misión ofrece elegir entre un bastón y un orbe.",
+      "summary_en": "Class quest chains unlock demons by level, and one quest offers a choice between a staff and an orb.",
       "keywords_es": [
         "misiones de clase brujo",
         "misión del diablillo",
         "misión del abisario",
         "misión del manáfago",
-        "misión del corcel nefasto"
+        "orbe de Soran'ruk"
       ],
       "keywords_en": [
         "warlock class quests",
         "imp quest",
         "voidwalker quest",
         "felhunter quest",
-        "felsteed quest"
+        "The Orb of Soran'ruk"
       ],
-      "text_es": "Las misiones de clase desbloquean demonios y montura: en la zona inicial, El libro robado, Novato, Familiares viles o Descubrir el misterio dan el diablillo; a 10, la cadena del abisario; a 20, las cadenas de súcubo o íncubo, como Corazones puros, El amor duele o Los corazones de los amantes, abren uno u otro; a 30, Buscando a Strahad abre al manáfago; a 40, la cadena del corcel nefasto da la montura. También hay una misión de 20, El orbe de Soran'ruk, que ofrece un bastón o un orbe.",
-      "text_en": "Class quests unlock demons and the mount: in the starting area, The Stolen Tome, Beginnings, Vile Familiars, or Piercing the Veil grant the Imp; at 10, the Voidwalker chain; at 20, the Succubus or Incubus chains, such as Hearts of the Pure, Love Hurts, or Hearts of the Lovers, open one or the other; at 30, Seeking Strahad opens the Felhunter; at 40, the Felsteed chain grants the mount. There is also a level 20 quest, The Orb of Soran'ruk, offering a staff or an orb.",
+      "text_es": "Las misiones iniciales de cada raza dan el diablillo: El libro robado, Novato, Familiares viles o Descubrir el misterio. A nivel 10 se desbloquea el abisario; a 20, cadenas distintas dan súcubo o íncubo, como Corazones puros, El amor duele, ¿Qué es el amor? y Los corazones de los amantes. Buscando a Strahad, a 30, desbloquea al manáfago. El orbe de Soran'ruk, desde 20, permite elegir entre un bastón y un orbe.",
+      "text_en": "Each race’s starting quests grant the Imp: The Stolen Tome, Beginnings, Vile Familiars, or Piercing the Veil. The level 10 quest unlocks the Voidwalker; at 20, separate chains grant the Succubus or Incubus, such as Hearts of the Pure, Love Hurts, What Is Love?, and Hearts of the Lovers. Seeking Strahad unlocks the Felhunter at 30. The Orb of Soran'ruk quest is available from 20 and lets you choose a staff or an orb.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Warlock Class Quests Guide › Warlock Class Quest Guide for World of Warcraft: Forever",
+          "ref": "Icy Veins: World of Warcraft: Forever Warlock Class Quests Guide › Human Warlock Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/warlock-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Warlock Class Quests Guide › Gnome Warlock Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/warlock-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Warlock Class Quests Guide › Orc and Troll Warlock Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/warlock-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Warlock Class Quests Guide › Undead Warlock Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/warlock-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Warlock Class Quests Guide › Shared Warlock Class Quests",
           "url": "https://www.icy-veins.com/wow-forever/warlock-class-quests",
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:general:warlock-class-quests"
       ],
       "source_hashes": [
-        "section:4bf8ddd0c8f491241650c271f85e3943ff10984c"
+        "section:13ddaaef2385ef8948507b9d4dbb4067227fb335",
+        "section:2938b9e105042a5c31b0a4b4abc8677df21a6e8b",
+        "section:593b77a3081bf9c5b31ab3406fab66dcafd6a5ea",
+        "section:a1a1f97b6285f9693879ed668ab41b4bebd5e648",
+        "section:acf75ef1abfcd7345c2fe0167471109ecccf9570"
       ]
     },
     {
@@ -1019,28 +1047,34 @@
       "status": "editorial",
       "title_es": "El Brujo en grupo y mazmorras",
       "title_en": "Warlock in Groups and Dungeons",
-      "summary_es": "Aporta daño, maldiciones, piedras, invocaciones y control; controla al demonio y no lo dejes pullar.",
-      "summary_en": "Brings damage, curses, stones, summons, and control; manage the demon and do not let it pull.",
+      "summary_es": "Aporta piedras, invocaciones y maldiciones; coordina el Terror y la maldición y protege al demonio.",
+      "summary_en": "Brings stones, summons, and curses; coordinate the Bane and Curse and protect the demon.",
       "keywords_es": [
         "brujo en grupo",
         "brujo en mazmorras",
-        "piedra de alma para sanadora",
-        "maldición de los elementos",
-        "desterrar en mazmorra"
+        "utilidad del brujo",
+        "maldiciones en banda",
+        "demonio en combate"
       ],
       "keywords_en": [
         "warlock in groups",
         "warlock in dungeons",
-        "soulstone for healer",
-        "curse of the elements",
-        "banish in dungeon"
+        "warlock utility",
+        "raid curses",
+        "demon in combat"
       ],
-      "text_es": "En mazmorra, el Brujo aporta daño a distancia, maldiciones, piedras de salud y de alma, Ritual de invocación y control. Ofrece piedra de salud al grupo y pon la piedra de alma en la sanadora para que pueda resucitar tras un wipe. Usa Maldición de los Elementos en jefes con casters, Maldición de las lenguas contra sanadores y Desterrar para apartar un demonio o elemental. Controla al demonio: quita Tormento si el tanque lleva el mob y no lo dejes pullar por una cornisa.",
-      "text_en": "In a dungeon, Warlock brings ranged damage, curses, healthstones and soulstones, Ritual of Summoning, and control. Offer healthstones to the group and put the soulstone on the healer so they can resurrect after a wipe. Use Curse of the Elements on bosses with casters, Curse of Tongues against healers, and Banish to remove a Demon or Elemental. Manage the demon: turn off Torment when the tank holds the mob and do not let it pull mobs from a ledge.",
+      "text_es": "En grupos, el Brujo aporta piedras de salud y de alma, Ritual de invocación, maldiciones y Desterrar, que aparta a un demonio o elemental de un pull difícil. Coordina tu maldición: usa la asignada o, si no hay una, Maldición de los Elementos cuando haya más lanzadores; puede coexistir con Terror de agonía. En Demonología, mantén vivo y fuera de las áreas peligrosas al demonio, porque buena parte del daño depende de él.",
+      "text_en": "In groups, Warlocks bring health stones and soul stones, Ritual of Summoning, curses, and Banish, which removes a Demon or Elemental from a difficult pull. Coordinate your Curse: use the assigned one or, if none is assigned, Curse of the Elements when the raid has more casters; it can coexist with Bane of Agony. As Demonology, keep your demon alive and out of dangerous areas, because much of your damage depends on it.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Warlock Class Guide › Comprehensive Guide to Warlock in World of Warcraft Forever",
+          "url": "https://www.icy-veins.com/wow-forever/warlock-class-overview",
+          "date": "2026-10-29"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Guide › Affliction Warlock Guide for World of Warcraft: Forever",
@@ -1049,19 +1083,36 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Demonology Warlock Guide › Demonology Warlock Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/demonology-warlock-ranged-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Affliction Warlock DPS Guide - WoW: Forever › Changes to Affliction Warlock in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock DPS Guide - WoW: Forever › Strengths and Weaknesses of Demonology Warlocks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Affliction Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/rotation-cooldowns-pve-dps",
+          "date": "2026-11-11"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:overview",
-        "class:warlock:demonology:overview"
+        "class:warlock:affliction:rotation",
+        "class:warlock:demonology:overview",
+        "class:warlock:general:warlock-class-overview"
       ],
       "source_hashes": [
-        "section:52d74a07212783945ac92c81a5769f645c4061fb",
-        "section:613b699a225e90853da48de95c6282bc2ac79d16"
+        "section:613b699a225e90853da48de95c6282bc2ac79d16",
+        "section:68a86ca3337957eb0595d58bfb592787f30dd9b6",
+        "section:68d4afc3e198df667cbca5caa503b1b201ba63a2",
+        "section:aaa309fb5c340fcb1a5dd7dd3f8a8ab2c193bd3c",
+        "section:e204be83f9bac6cb4a1f4336722a0ceea4f473af"
       ]
     },
     {
@@ -1069,58 +1120,80 @@
       "chapter": 4,
       "status": "editorial",
       "title_es": "Rol de cada especialización en grupo",
-      "title_en": "Each Specialization's Group Role",
-      "summary_es": "Aflicción para peleas largas y varios enemigos, Demonología por el demonio y Destrucción por daño directo.",
-      "summary_en": "Affliction for long fights and multiple enemies, Demonology for the demon, and Destruction for direct damage.",
+      "title_en": "Each Specialization’s Group Role",
+      "summary_es": "Aflicción rinde en peleas largas, Demonología depende de su demonio y Destrucción destaca por daño directo y área.",
+      "summary_en": "Affliction excels in long fights, Demonology relies on its demon, and Destruction brings direct and area damage.",
       "keywords_es": [
         "rol de aflicción en grupo",
         "rol de demonología en grupo",
         "rol de destrucción en grupo",
-        "brujo daño sostenido",
-        "brujo daño directo"
+        "daño sostenido del brujo",
+        "daño en área del brujo"
       ],
       "keywords_en": [
         "affliction group role",
         "demonology group role",
         "destruction group role",
         "warlock sustained damage",
-        "warlock direct damage"
+        "warlock area damage"
       ],
-      "text_es": "Aflicción brilla en peleas largas y contra varios enemigos, porque sus efectos siguen haciendo daño mientras se mueve y puede repartirlos. Demonología aporta daño del demonio y del Brujo, con un abisario que aguanta pulls difíciles o un súcubo que suma daño. Destrucción pega fuerte y rápido con lanzamientos directos y tiene herramientas para dos objetivos, pero depende de quedarse quieto. Las tres son DPS a distancia; ninguna cura ni tanquea.",
-      "text_en": "Affliction shines in long fights and against several enemies, because its effects keep dealing damage while it moves and it can spread them. Demonology adds damage from both the demon and the Warlock, with a Voidwalker that holds difficult pulls or a Succubus that adds damage. Destruction hits hard and fast with direct casts and has tools for two targets, but it depends on standing still. All three are ranged DPS; none heals or tanks.",
+      "text_es": "Aflicción destaca en combates largos y contra varios objetivos; sus efectos periódicos tardan en rendir, pero siguen dañando mientras se mueve. Demonología ofrece buen daño a un objetivo con su demonio, aunque depende de mantenerlo vivo y bien colocado; el abisario puede aguantar enemigos mientras lanzas. Destrucción combina buen daño a un objetivo y en área; Conflagrar y Quemadura de las Sombras dan estallidos instantáneos, y Terror de caos transfiere parte del daño a un segundo objetivo. Su área más potente, Piroinferno, exige acercarse y también te daña.",
+      "text_en": "Affliction excels in long fights and against multiple targets; its periodic effects take time to pay off but keep dealing damage while you move. Demonology deals strong single-target damage with its demon, but depends on keeping it alive and well positioned; the Voidwalker can hold enemies while you cast. Destruction combines strong single-target and area damage; Conflagrate and Shadowburn provide instant burst, and Bane of Havoc transfers some damage to a second target. Its strongest area spell, Hellfire, requires close range and also damages you.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
         {
           "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock DPS Guide - WoW: Forever › Strengths and Weaknesses of Affliction Warlocks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock DPS Guide - WoW: Forever › Strengths and Weaknesses of Demonology Warlocks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock DPS Guide - WoW: Forever › Strengths and Weaknesses of Destruction Warlocks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock DPS Guide - WoW: Forever › Destruction Warlock Specific Systems in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Warlock Class Quests Guide › Human Warlock Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/warlock-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Guide › Affliction Warlock Guide for World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-ranged-dps-pve-guide",
           "date": "2026-11-09"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Demonology Warlock Guide › Demonology Warlock Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/demonology-warlock-ranged-dps-pve-guide",
-          "date": "2026-11-09"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Destruction Warlock Guide › Destruction Warlock Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/destruction-warlock-ranged-dps-pve-guide",
-          "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:overview",
         "class:warlock:demonology:overview",
-        "class:warlock:destruction:overview"
+        "class:warlock:destruction:overview",
+        "class:warlock:general:warlock-class-quests"
       ],
       "source_hashes": [
-        "section:52d74a07212783945ac92c81a5769f645c4061fb",
+        "section:204cd5a2aa40c9a9e31a1c21d73a3e8f06489cf4",
+        "section:593b77a3081bf9c5b31ab3406fab66dcafd6a5ea",
         "section:613b699a225e90853da48de95c6282bc2ac79d16",
-        "section:f80f3f0a109a090e41e43917e34a5b5e0f9e0562"
+        "section:aaa309fb5c340fcb1a5dd7dd3f8a8ab2c193bd3c",
+        "section:bdc468605d13da4eb3f4f6fec521e8fbf7864e3e",
+        "section:f3424175a486b8c8eff6a0771032e6a6130d77e2"
       ]
     },
     {
