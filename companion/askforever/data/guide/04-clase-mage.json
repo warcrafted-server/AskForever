@@ -210,9 +210,9 @@
       "chapter": 4,
       "status": "editorial",
       "title_es": "Mejor especialización para subir",
-      "title_en": "Best Specialization for Leveling",
-      "summary_es": "Escarcha es la más cómoda; Arcano es viable y potente; Fuego rinde menos y conviene empezar en Arcano.",
-      "summary_en": "Frost is the most comfortable; Arcane is viable and powerful; Fire is less efficient and better started in Arcane.",
+      "title_en": "Best Mage Spec for Leveling",
+      "summary_es": "Escarcha controla mejor; Arcano ahorra pausas; Fuego ofrece alcance y daño individual.",
+      "summary_en": "Frost controls best; Arcane reduces downtime; Fire offers range and single-target damage.",
       "keywords_es": [
         "mejor especialización para subir mago",
         "mago escarcha para levear",
@@ -227,51 +227,58 @@
         "fire mage leveling",
         "which mage spec to level"
       ],
-      "text_es": "Escarcha es la opción más cómoda para subir: frena y congela, así que recibe menos golpes y controla mejor los combates. Arcano también es viable y potente desde el principio, y puede ser una gran opción si te gusta su ráfaga. Fuego rinde menos al subir; la forma más eficaz de jugarlo es empezar en Arcano y pasar a Fuego más tarde. Escarcha no está completa hasta 30; si quieres, sube con Arcano y cambia alrededor de 31.",
-      "text_en": "Frost is the most comfortable leveling option: it slows and freezes, so it takes fewer hits and controls fights better. Arcane is also viable and powerful from the start, and can be a strong choice if you enjoy its burst. Fire is less efficient while leveling; the best way to play it is to start in Arcane and move into Fire later. Frost does not come together until 30; if you prefer, level with Arcane and switch around 31.",
+      "text_es": "Escarcha es la opción más segura: ralentiza y congela, y Lanza de hielo aprovecha objetivos congelados. Arcano combina buen daño individual y apoyo de maná, por lo que funciona en misiones y mazmorras. Fuego tiene gran alcance y buen daño individual, pero sufre más con el maná y el área y depende del poder con hechizos del equipo. Escarcha tarda en destacar; puedes subir con Arcano y cambiar cerca del 31.",
+      "text_en": "Frost is the safest choice: it slows and freezes, while Ice Lance exploits frozen targets. Arcane combines strong single-target damage with mana support, making it suitable for quests and dungeons. Fire has great range and strong single-target damage, but struggles more with mana and AoE and depends on spell power from gear. Frost takes time to come online; you can level as Arcane and switch around 31.",
       "tags": [
         "MAGE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Frost Mage Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Leveling as an Arcane Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
           "date": "2026-11-10"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Leveling Guide › Arcane Mage Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/arcane-mage-leveling",
+          "ref": "Wowhead: Fire Mage Leveling Guide - WoW: Forever › Leveling Viability for Fire Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/dps-leveling-tips",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Fire Mage Leveling Guide › Fire Mage Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/fire-mage-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Frost Mage Leveling Guide - WoW: Forever › Leveling as a Frost Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Frost Mage Leveling Talent Build for WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
+          "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:mage:arcane:leveling",
         "class:mage:fire:leveling",
         "class:mage:frost:leveling"
       ],
       "source_hashes": [
-        "section:9c1fa1cc318c2205a17a90e3418519b7d0b046d4",
-        "section:b7f440edc38ac04a65a5646d1a7aa9073587ef15",
-        "section:c00f46091b73ac3d5b8fbe747ecc02e128bf7de6"
+        "section:3b67d44d3b8a1a9973604b7cb24e6eb0186027d4",
+        "section:4b9fb6fcdbd18cb1dd31cce98f12aa0102580ffd",
+        "section:8e6f1a177a32669927096280bee225a97a167dff",
+        "section:bd01a556cd9ed84d3f95d2eeb3e8e0afccea20a2"
       ]
     },
     {
       "id": "clase-mage-talentos-escarcha",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Ruta de talentos de Escarcha",
-      "title_en": "Frost Leveling Talent Path",
-      "summary_es": "Ruta de Escarcha: 10-20 Precisión, Mordiescarcha y Fragmentos de hielo; 20 Lanza de hielo; 30 Dedos de Escarcha.",
-      "summary_en": "Frost path: 10-20 Precision, Frostbite and Ice Shards; 20 Ice Lance; 30 Fingers of Frost.",
+      "title_es": "Build de talentos de Escarcha para subir",
+      "title_en": "Frost Leveling Talent Build",
+      "summary_es": "Empieza con Especialización en varitas 2/2 y Precisión 2/3; Mordiescarcha 3/3 habilita combos.",
+      "summary_en": "Start with Wand Specialization 2/2 and Precision 2/3; Frostbite 3/3 enables combos.",
       "keywords_es": [
         "talentos para subir mago escarcha",
         "ruta de escarcha",
@@ -286,12 +293,18 @@
         "ice lance level",
         "fingers of frost"
       ],
-      "text_es": "Ruta de Escarcha: de 10 a 20, Precisión, Mordiescarcha, Fragmentos de hielo y Trizar; a 20 entra Lanza de hielo. De 20 a 30, Bloqueo de hielo y, a 30, Dedos de Escarcha. A 40, Barrera de hielo. Después, Mordedura helada, Cono de frío mejorado, Canalización de Escarcha, Escalofrío del invierno, Alcance ártico, Custodia de Escarcha, Ventisca mejorada y Sutileza Arcana.",
-      "text_en": "Frost path: from 10 to 20, Precision, Frostbite, Ice Shards, and Shatter; at 20 comes Ice Lance. From 20 to 30, Ice Block and, at 30, Fingers of Frost. At 40, Ice Barrier. After that, Cold Snap, Improved Cone of Cold, Frost Channeling, Winter's Chill, Arctic Reach, Frost Warding, Improved Blizzard, and Arcane Subtlety.",
+      "text_es": "Arcano: Especialización en varitas 2/2, Recuperación Arcana 3/3 y Sutileza Arcana 2/2. Escarcha: Descarga de Escarcha mejorada 5/5, Precisión 3/3, Fragmentos de hielo 5/5, Mordiescarcha 3/3, Escarcha permanente 3/3, Canalización de Escarcha 3/3, Ventisca mejorada 3/3, Lanza de hielo 1/1, Alcance ártico 2/2, Bloqueo de hielo 1/1, Trizar 3/3, Cono de frío mejorado 3/3, Mordedura helada 1/1, Dedos de Escarcha 2/2, Escalofrío del invierno 5/5 y Barrera de hielo 1/1.",
+      "text_en": "Arcane: Wand Specialization 2/2, Arcane Resilience 3/3, and Arcane Subtlety 2/2. Frost: Improved Frostbolt 5/5, Precision 3/3, Ice Shards 5/5, Frostbite 3/3, Permafrost 3/3, Frost Channeling 3/3, Improved Blizzard 3/3, Ice Lance 1/1, Arctic Reach 2/2, Ice Block 1/1, Shatter 3/3, Improved Cone of Cold 3/3, Cold Snap 1/1, Fingers of Frost 2/2, Winter’s Chill 5/5, and Ice Barrier 1/1.",
       "tags": [
         "MAGE"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Frost Mage Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Frost Mage DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Frost Mage Leveling Talent Build for WoW Forever",
@@ -299,11 +312,12 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:mage:frost:leveling"
       ],
       "source_hashes": [
+        "section:9f2d2de4ab2c35c2a0e8fdf8f82e48a930203324",
         "section:bd01a556cd9ed84d3f95d2eeb3e8e0afccea20a2"
       ]
     },
@@ -311,10 +325,10 @@
       "id": "clase-mage-hitos",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Hitos de habilidad por nivel",
+      "title_es": "Hitos de habilidades por nivel",
       "title_en": "Ability Milestones by Level",
-      "summary_es": "Deflagración Arcana 14; Traslación, Evocación, Explosión Arcana y Lanza de hielo 20; Cono de frío 26; Pirofrío 40.",
-      "summary_en": "Arcane Explosion 14; Blink, Evocation, Arcane Blast and Ice Lance 20; Cone of Cold 26; Frostfire Bolt 40.",
+      "summary_es": "Deflagración Arcana a 14; hechizos y movilidad desde 20; Gemas de maná hasta 58.",
+      "summary_en": "Arcane Explosion at 14; spells and mobility from 20; Mana Gems through 58.",
       "keywords_es": [
         "cuándo aprendo hechizos de mago",
         "nivel de las habilidades del mago",
@@ -329,12 +343,18 @@
         "ice lance level",
         "frostfire bolt level"
       ],
-      "text_es": "Deflagración Arcana llega a 14; a 20, Traslación, Evocación, Teletransporte a ciudad y Explosión Arcana, además de Lanza de hielo. Tromba de misiles a 25; Cono de frío a 26; Gemas de maná a 28. A 30 llegan más teletransportes, Dedos de Escarcha y la cadena Varitas de mago. A 38 más Gemas de maná; a 40 Portal a ciudad, Descarga de Pirofrío y Barrera de hielo.",
-      "text_en": "Arcane Explosion arrives at 14; at 20, Blink, Evocation, Teleport to a city, and Arcane Blast, as well as Ice Lance. Missile Barrage at 25; Cone of Cold at 26; Mana Gems at 28. At 30 come more teleports, Fingers of Frost, and the Mage's Wand chain. At 38 more Mana Gems; at 40 Portal to a city, Frostfire Bolt, and Ice Barrier.",
+      "text_es": "A 14 se aprende Deflagración Arcana. A 20 llegan Traslación, Evocación, Ventisca, Explosión Arcana, dos teletransportes y Lanza de hielo (talento). Tromba de misiles llega a 25, Cono de frío a 26 y Conjurar ágata de maná a 28. A 30 se aprende otro teletransporte y Dedos de Escarcha (talento de 21 puntos); también se desbloquea Varitas de mago, que recompensa con Varita Furia de Hielo. A 40 llegan Descarga de Pirofrío y los portales; los de Darnassus y Cima del Trueno llegan a 50. La ágata mejora a 38, 48 y 58.",
+      "text_en": "Arcane Explosion is learned at 14. Blink, Evocation, Blizzard, Arcane Blast, two teleports, and Ice Lance (a talent) come at 20. Missile Barrage arrives at 25, Cone of Cold at 26, and Conjure Mana Agate at 28. At 30, another teleport and the 21-point Fingers of Frost talent arrive; the Mage’s Wand class quest line also unlocks, rewarding Icefury Wand. Frostfire Bolt and portals come at 40; those to Darnassus and Thunder Bluff arrive at 50. Mana Agate ranks improve at 38, 48, and 58.",
       "tags": [
         "MAGE"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Arcane Mage",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Leveling Guide › Leveling Milestones",
@@ -352,9 +372,21 @@
           "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Leveling Milestones",
           "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
           "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Frost Mage Leveling Talent Build for WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Fire Mage Leveling Guide › Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/fire-mage-leveling",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:mage:arcane:leveling",
         "class:mage:fire:leveling",
@@ -363,17 +395,20 @@
       "source_hashes": [
         "section:1ce834a8f36871949e1eac51aaa1bdb857add36b",
         "section:47c0c3352730c90d5837da9638028eab2ed610db",
-        "section:63991e0ff2f9be81ae3a0e28cf84030a68e417cc"
+        "section:63991e0ff2f9be81ae3a0e28cf84030a68e417cc",
+        "section:65574cf48c680b433e518d65dbf0b3a5faa61118",
+        "section:a7a54f40133178813f6fe1cd4f49e0b1b2eb9406",
+        "section:bd01a556cd9ed84d3f95d2eeb3e8e0afccea20a2"
       ]
     },
     {
       "id": "clase-mage-mana",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Cómo gestionar el maná",
-      "title_en": "Managing Mana",
-      "summary_es": "El maná no se regenera mientras lanzas; espera cinco segundos, usa la varita y recurre a Evocación y gemas.",
-      "summary_en": "Mana does not regenerate while casting; wait five seconds, use the wand, and rely on Evocation and gems.",
+      "title_es": "Gestión del maná del Mago",
+      "title_en": "Mage Mana Management",
+      "summary_es": "Espíritu, talentos y Armadura de mago sostienen el maná; la varita ayuda a evitar gastos innecesarios.",
+      "summary_en": "Spirit, talents, and Mage Armor sustain mana; a wand helps avoid unnecessary spending.",
       "keywords_es": [
         "cómo gestionar maná de mago",
         "regeneración de maná",
@@ -388,33 +423,47 @@
         "wand and mana",
         "evocation mana gems"
       ],
-      "text_es": "El maná es el recurso del Mago y no se regenera mientras lanzas: tras cinco segundos sin gastarlo vuelve a subir, incluso en combate. La varita permite seguir haciendo daño sin maná, y Evocación recupera gran parte de la barra en ocho segundos. Conjurar comida y agua, las Gemas de maná y la Armadura de mago ayudan a reducir las pausas. Evita gastar maná en enemigos que morirán con la varita.",
-      "text_en": "Mana is the Mage's resource and does not regenerate while casting: after five seconds without spending it, it starts again, even in combat. The wand keeps damage going without mana, and Evocation restores most of the bar over eight seconds. Conjured food and water, Mana Gems, and Mage Armor help reduce downtime. Avoid spending mana on enemies that will die to the wand.",
+      "text_es": "Tras gastar maná, la regeneración por Espíritu se reanuda después de 5 segundos sin gastarlo. Meditación Arcana y Armadura de mago permiten regenerarlo durante el combate. La varita hace daño sin coste de maná; Evocación restaura la mayor parte de la reserva en 8 segundos y las Gemas de maná son una reserva de emergencia. Conjurar comida y agua ayuda a reducir las pausas; remata con varita a los enemigos casi derrotados.",
+      "text_en": "After spending mana, Spirit regeneration resumes after 5 seconds without spending it. Arcane Meditation and Mage Armor allow mana to regenerate in combat. A wand deals damage without mana cost; Evocation restores most of the pool over 8 seconds, and Mana Gems provide an emergency reserve. Conjured food and water help reduce downtime; finish nearly defeated enemies with a wand.",
       "tags": [
         "MAGE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › WoW Forever Frost Mage Leveling Tips",
+          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Frost Mage Single-Target Leveling Rotation",
           "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
           "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Leveling Guide › Leveling Talent Build",
+          "url": "https://www.icy-veins.com/wow-forever/arcane-mage-leveling",
+          "date": "2026-11-04"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Leveling Guide › Important Abilities",
           "url": "https://www.icy-veins.com/wow-forever/arcane-mage-leveling",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Frost Mage Leveling Guide - WoW: Forever › Leveling Tips for Frost Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/dps-leveling-tips",
+          "date": "2026-11-11"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:mage:arcane:leveling",
         "class:mage:frost:leveling"
       ],
       "source_hashes": [
-        "section:6946f8545a365d5131b41b44b1737af0bdf6460a",
-        "section:914bc874590c1cec0b4c7ebd4ed69ce1fa55c2ef"
+        "section:4cbf02e0a32b7557608396491fbeb96293ff6f98",
+        "section:5cdaf030dd2bda6d08876cb231e250832aeb043f",
+        "section:914bc874590c1cec0b4c7ebd4ed69ce1fa55c2ef",
+        "section:dec3246a11fe4b569ca2830f122b9b54dc8040e9"
       ]
     },
     {
@@ -464,10 +513,10 @@
       "id": "clase-mage-utilidad",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Utilidad del Mago",
-      "title_en": "Mage Utility",
-      "summary_es": "Comida, agua, Intelecto Arcano, teletransportes y portales hacen del Mago un gran apoyo de grupo.",
-      "summary_en": "Food, water, Arcane Intellect, teleports and portals make the Mage a strong group support.",
+      "title_es": "Utilidad del Mago al subir",
+      "title_en": "Mage Utility While Leveling",
+      "summary_es": "Comida, agua, Intelecto Arcano, teletransportes, portales y Caída lenta apoyan al grupo.",
+      "summary_en": "Food, water, Arcane Intellect, teleports, portals, and Slow Fall support the group.",
       "keywords_es": [
         "utilidad del mago",
         "mago comida y agua",
@@ -482,12 +531,24 @@
         "arcane intellect",
         "slow fall"
       ],
-      "text_es": "El Mago conjura comida y agua para el grupo, y desde nivel 20 aprende teletransportes a capitales; a 40 también abre portales. Intelecto Arcano sube el intelecto del grupo, Caída lenta evita daño de caída y las Gemas de maná dan maná de emergencia. Entender pergamino es nueva y concede ventajas temporales y objetos de uso exclusivo del Mago.",
-      "text_en": "A Mage conjures food and water for the group, and from level 20 learns teleports to capital cities; at 40 it also opens portals. Arcane Intellect raises the group's Intellect, Slow Fall prevents fall damage, and Mana Gems provide emergency mana. Comprehend Scroll is new and grants temporary benefits and items exclusive to the Mage.",
+      "text_es": "Conjurar comida y Conjurar agua abastecen al grupo; Intelecto Arcano mejora el intelecto y las Gemas de maná aportan una reserva de emergencia. Se aprenden teletransportes a dos ciudades a 20 y a una tercera a 30. Los portales se aprenden a 40, salvo los de Darnassus y Cima del Trueno, que llegan a 50. Caída lenta permite bajar sin daño si llevas una Pluma ligera. Entender pergamino permite usar pergaminos que solo el Mago puede activar para desbloquear mejoras y efectos adicionales.",
+      "text_en": "Conjure Food and Conjure Water supply the group; Arcane Intellect raises Intellect, and Mana Gems provide an emergency reserve. Teleports to two cities are learned at 20 and another at 30. Portals are learned at 40, except those to Darnassus and Thunder Bluff, which come at 50. Slow Fall allows safe descents with a Light Feather. Comprehend Scroll lets Mages use scrolls that only they can activate to unlock extra buffs and effects.",
       "tags": [
         "MAGE"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Arcane Mage",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Optional Abilities to Train for Arcane Mage",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Leveling Guide › Important Abilities",
@@ -496,29 +557,31 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Important Abilities",
-          "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Frost Mage DPS Guide - WoW: Forever › Frost Mage Specific Systems in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/overview-pve-dps",
+          "date": "2026-11-14"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:mage:arcane:leveling",
-        "class:mage:frost:leveling"
+        "class:mage:frost:overview"
       ],
       "source_hashes": [
-        "section:8c3449fde8bb94666ba2f1ca6bd5166083e34389",
-        "section:914bc874590c1cec0b4c7ebd4ed69ce1fa55c2ef"
+        "section:52adeb7f99ce10adf073446dff74caae575749e3",
+        "section:65574cf48c680b433e518d65dbf0b3a5faa61118",
+        "section:914bc874590c1cec0b4c7ebd4ed69ce1fa55c2ef",
+        "section:e0990595135260a100222015ade0ea912423e104"
       ]
     },
     {
       "id": "clase-mage-armaduras",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Armaduras mágicas",
-      "title_en": "Magic Armors",
-      "summary_es": "Armadura de Escarcha, de hielo y de mago son excluyentes; Barrera de hielo y Escudo de maná protegen.",
-      "summary_en": "Frost Armor, Ice Armor and Mage Armor are exclusive; Ice Barrier and Mana Shield protect.",
+      "title_es": "Armaduras y defensas del Mago",
+      "title_en": "Mage Armors and Defenses",
+      "summary_es": "Escarcha ralentiza, hielo protege y Armadura de mago favorece el maná; las armaduras son excluyentes.",
+      "summary_en": "Frost slows, Ice protects, and Mage Armor helps mana; the armors are exclusive.",
       "keywords_es": [
         "armaduras del mago",
         "armadura de escarcha",
@@ -533,8 +596,8 @@
         "mage armor",
         "ice barrier"
       ],
-      "text_es": "Armadura de Escarcha, Armadura de hielo y Armadura de mago son excluyentes: mantén una activa. Armadura de Escarcha ralentiza a quien te golpea, Armadura de hielo añade defensa y Armadura de mago favorece la regeneración de maná. Barrera de hielo y Escudo de maná protegen tus lanzamientos; Empapar magia reduce el daño mágico recibido.",
-      "text_en": "Frost Armor, Ice Armor, and Mage Armor are mutually exclusive: keep one active. Frost Armor slows attackers, Ice Armor adds defense, and Mage Armor supports mana regeneration. Ice Barrier and Mana Shield protect your casts; Dampen Magic reduces incoming magic damage.",
+      "text_es": "Mantén una armadura activa: Armadura de Escarcha ralentiza a los atacantes y ayuda al subir; Armadura de hielo añade defensa; Armadura de mago favorece la regeneración si no esperas golpes de melé. Empapar magia reduce el daño mágico recibido. Barrera de hielo protege y aumenta el daño de Escarcha durante 1 minuto tras lanzarla; Escudo de maná absorbe daño a costa de maná.",
+      "text_en": "Keep one armor active: Frost Armor slows attackers and helps while leveling; Ice Armor adds defense; Mage Armor supports regeneration if you do not expect melee hits. Dampen Magic reduces incoming magic damage. Ice Barrier protects and increases Frost damage for 1 minute after casting; Mana Shield absorbs damage at a mana cost.",
       "tags": [
         "MAGE"
       ],
@@ -547,29 +610,28 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Leveling Guide › Important Abilities",
-          "url": "https://www.icy-veins.com/wow-forever/arcane-mage-leveling",
-          "date": "2026-11-04"
+          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Utility",
+          "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
+          "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:mage:arcane:leveling",
         "class:mage:frost:leveling"
       ],
       "source_hashes": [
         "section:182f8e5ef5c8c015001a4166af7f552e108f1fe3",
-        "section:914bc874590c1cec0b4c7ebd4ed69ce1fa55c2ef"
+        "section:78d781f138623ee988315235c6647db6a09cd48b"
       ]
     },
     {
       "id": "clase-mage-rotacion",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Rotación básica para subir",
-      "title_en": "Basic Leveling Rotation",
-      "summary_es": "Escarcha usa Descarga de Escarcha y Lanza de hielo; Arcano busca Tromba de misiles; Fuego usa Piroexplosión.",
-      "summary_en": "Frost uses Frostbolt and Ice Lance; Arcane fishes for Missile Barrage; Fire uses Pyroblast and Heating Up.",
+      "title_es": "Rotaciones individuales para subir",
+      "title_en": "Single-Target Leveling Rotations",
+      "summary_es": "Arcano alterna Explosión Arcana y Misiles; Fuego usa Calentamiento; Escarcha prioriza Descarga y Lanza de hielo.",
+      "summary_en": "Arcane alternates Blast and Missiles; Fire uses Heating Up; Frost prioritizes Frostbolt and Ice Lance.",
       "keywords_es": [
         "rotación del mago",
         "rotación para subir mago",
@@ -584,51 +646,86 @@
         "arcane blast",
         "pyroblast"
       ],
-      "text_es": "En Escarcha, abre con Descarga de Escarcha a máxima distancia y usa Lanza de hielo cuando el objetivo esté congelado o tengas Dedos de Escarcha; con Escalofrío del invierno, usa Cono de frío. En Arcano, lanza Explosión Arcana hasta que salga Tromba de misiles y luego Misiles Arcanos, sin dejar que las acumulaciones te dejen sin maná. En Fuego, abre con Descarga de Pirofrío o Piroexplosión, usa Explosión de Fuego y Piroexplosión con Calentamiento, y rellena con Chamuscar. La varita remata enemigos con poca salud.",
-      "text_en": "As Frost, open with Frostbolt at max range and use Ice Lance when the target is frozen or you have Fingers of Frost; with Winter's Chill, use Cone of Cold. As Arcane, cast Arcane Blast until Missile Barrage procs, then Arcane Missiles, without letting the stacks leave you out of mana. As Fire, open with Frostfire Bolt or Pyroblast, use Fire Blast and Pyroblast with Heating Up, and fill with Scorch. The wand finishes low-health enemies.",
+      "text_es": "Arcano: Descarga de Escarcha y varita; luego Misiles Arcanos. Al 21: si activa Tromba de misiles 2/2, úsalos; si no, Explosión Arcana 1/1 hasta 2 cargas y luego el canalizado; añade Cólera Arcana 1/1 al 26. Fuego: prelanza Piroexplosión (o Descarga de Pirofrío desde 40). Con 3 Calentamiento 1/1, Piroexplosión; Explosión de Fuego, Misiles Arcanos con Tromba de misiles 2/2 y Bola de Fuego. Chamuscar (>20–30 s, con talentos). Escarcha: Descarga de Escarcha; Lanza de hielo 1/1 con congelación o Dedos de Escarcha 2/2; desde 26, Cono de frío ante congelación, Dedos o 3 Escalofrío del invierno 5/5.",
+      "text_en": "Arcane: Frostbolt and wand, then Arcane Missiles. From 21, use Missiles with Missile Barrage 2/2; otherwise Arcane Blast 1/1 up to 2 stacks, then Missiles; add Arcane Wrath 1/1 at 26. Fire: pre-cast Pyroblast (Frostfire Bolt from 40); at 3 Heating Up 1/1 stacks, use Pyroblast, then Fire Blast, Missiles with Missile Barrage 2/2, and Fireball. Cast Scorch on enemies living over 20–30 seconds if you have its talents. Frost: Frostbolt; Ice Lance 1/1 on frozen targets or with Fingers of Frost 2/2; from 26, Cone of Cold on frozen targets, with Fingers, or at 3 Winter’s Chill 5/5 stacks.",
       "tags": [
         "MAGE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Frost Mage Single-Target Leveling Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Leveling Rotation for Arcane Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
           "date": "2026-11-10"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Leveling Guide › Single-Target Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/arcane-mage-leveling",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Arcane Mage DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage Leveling Guide - WoW: Forever › Single-Target Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/dps-leveling-tips",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Fire Mage DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Frost Mage Leveling Guide - WoW: Forever › Leveling Rotation for Frost Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Frost Mage Leveling Talent Build for WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
+          "date": "2026-11-10"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Fire Mage Leveling Guide › Single-Target Rotation",
           "url": "https://www.icy-veins.com/wow-forever/fire-mage-leveling",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Fire Mage Leveling Guide › Leveling Milestones",
+          "url": "https://www.icy-veins.com/wow-forever/fire-mage-leveling",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:mage:arcane:leveling",
         "class:mage:fire:leveling",
         "class:mage:frost:leveling"
       ],
       "source_hashes": [
-        "section:595a67117ade622550887dfd683f1905578a88c4",
+        "guide:807ae6da55624169605dd7888ba311f52b22a087",
+        "section:1ce834a8f36871949e1eac51aaa1bdb857add36b",
+        "section:4e76f57b836408d76191e70b024f25e06808113e",
+        "section:70db27a356ab4ccd9425439c6cac88327a2f4a6c",
+        "section:7d201ebb590e078e799bccc2ee3b36fc94270624",
         "section:a7a54f40133178813f6fe1cd4f49e0b1b2eb9406",
-        "section:dec3246a11fe4b569ca2830f122b9b54dc8040e9"
+        "section:bd01a556cd9ed84d3f95d2eeb3e8e0afccea20a2",
+        "section:f016d73f244b84f7d7de4e31fe14bdeedd56d4f9"
       ]
     },
     {
       "id": "clase-mage-area",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Daño en área",
-      "title_en": "Area Damage",
-      "summary_es": "Con tres o más enemigos: Deflagración Arcana, Ventisca y Cono de frío o Fogonazo y Ola explosiva.",
-      "summary_en": "With three or more enemies: Arcane Explosion, Blizzard and Cone of Cold, or Flamestrike and Blast Wave.",
+      "title_es": "Rotación de área para subir",
+      "title_en": "Leveling AoE Rotation",
+      "summary_es": "Prepara Fogonazo y usa Deflagración Arcana; Escarcha controla grupos con Nova y Cono de frío.",
+      "summary_en": "Set up Flamestrike and use Arcane Explosion; Frost controls packs with Nova and Cone of Cold.",
       "keywords_es": [
         "mago daño en área",
         "deflagración arcana",
@@ -643,16 +740,22 @@
         "flamestrike",
         "blast wave"
       ],
-      "text_es": "El área del Mago brilla con tres o más enemigos: Arcano usa Deflagración Arcana, Escarcha combina Nova de Escarcha, Cono de frío y Ventisca, y Fuego usa Fogonazo y Ola explosiva. Reúne al grupo antes de gastar maná y no uses área con tres enemigos o menos si puedes evitarlo. En mazmorras, espera a que el tanque tenga amenaza y mantén Escudo de maná o Barrera de hielo para sobrevivir al pull.",
-      "text_en": "Mage area damage shines with three or more enemies: Arcane uses Arcane Explosion, Frost combines Frost Nova, Cone of Cold, and Blizzard, and Fire uses Flamestrike and Blast Wave. Gather the pack before spending mana, and do not use area damage on three enemies or fewer if you can avoid it. In dungeons, wait for the tank to have threat and keep Mana Shield or Ice Barrier up to survive the pull.",
+      "text_es": "Arcano y Fuego: prelanza Fogonazo si la amenaza no preocupa; usa Cono de frío para ralentizar si hace falta y, normalmente, Deflagración Arcana. Fuego puede añadir Ola explosiva si la ha aprendido. Escarcha: contra 3 o más, agrupa con Nova de Escarcha; usa Mordedura helada si Cono de frío está en reutilización, luego Cono de frío y Lanza de hielo con congelación o Dedos de Escarcha. Usa Deflagración Arcana si los enemigos caerán pronto o Ventisca para mantener distancia. En grupo, vigila la amenaza y defiéndete con Barrera de hielo o Escudo de maná.",
+      "text_en": "Arcane and Fire: pre-cast Flamestrike if threat is not a concern; use Cone of Cold to slow if needed and generally cast Arcane Explosion. Fire can add Blast Wave if learned. Frost: against 3 or more targets, group them with Frost Nova; use Cold Snap if Cone of Cold is on cooldown, then Cone of Cold and Ice Lance against frozen targets or with Fingers of Frost. Use Arcane Explosion if enemies will die soon or Blizzard to keep them at range. In groups, watch threat and defend yourself with Ice Barrier or Mana Shield.",
       "tags": [
         "MAGE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Leveling Guide › AoE Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/arcane-mage-leveling",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › AoE Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage Leveling Guide - WoW: Forever › AoE Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/dps-leveling-tips",
           "date": "2026-11-04"
         },
         {
@@ -663,21 +766,36 @@
         },
         {
           "type": "editorial",
+          "ref": "Wowhead: Frost Mage Leveling Guide - WoW: Forever › Leveling Rotation for Frost Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Utility",
+          "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Frost Mage AoE Leveling Rotation",
           "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:mage:arcane:leveling",
         "class:mage:fire:leveling",
         "class:mage:frost:leveling"
       ],
       "source_hashes": [
+        "guide:807ae6da55624169605dd7888ba311f52b22a087",
+        "guide:ed2b7a74972af043e6f53d44fa801ab930090338",
         "section:47a2473f5281aacbe62a7575492a0732c8350143",
-        "section:90b95b73e816b882b6c37e9a82641967af7ca899",
-        "section:9f82bf21cf2f43278be17cd00a5448a654534715"
+        "section:78d781f138623ee988315235c6647db6a09cd48b",
+        "section:9f82bf21cf2f43278be17cd00a5448a654534715",
+        "section:f016d73f244b84f7d7de4e31fe14bdeedd56d4f9"
       ]
     },
     {
@@ -828,8 +946,8 @@
       "status": "editorial",
       "title_es": "Consejos para subir de nivel",
       "title_en": "Leveling Tips",
-      "summary_es": "Consigue una varita, entrena hechizos, lleva comida y agua, sube Sastrería con Encantamiento y usa los teletransportes.",
-      "summary_en": "Get a wand, train spells, carry food and water, level Tailoring with Enchanting, and use teleports.",
+      "summary_es": "Usa varita, prepara comida y agua, conserva maná y aprovecha el control y los teletransportes.",
+      "summary_en": "Use a wand, prepare food and water, conserve mana, and use control and teleports.",
       "keywords_es": [
         "consejos para subir mago",
         "mago varita pronto",
@@ -844,41 +962,76 @@
         "tailoring enchanting mage",
         "mage teleport level 20"
       ],
-      "text_es": "Consigue una varita pronto: hace daño sin maná y al principio puede superar a tus hechizos. Visita al instructor con frecuencia, porque las nuevas versiones de hechizos son tu principal mejora, y lleva comida, agua y pociones. Aprende Sastrería y Encantamiento para fabricar túnicas, bolsas, varitas y encantamientos; si solo quieres oro, recolección y Desuello también sirven. Usa los teletransportes desde 20 para ahorrar viajes y haz cada mazmorra por sus misiones.",
-      "text_en": "Get a wand early: it deals damage without mana and can beat your spells at low levels. Visit the trainer often, because new spell versions are your main upgrade, and carry food, water, and potions. Learn Tailoring and Enchanting to make robes, bags, wands, and enchants; if you only want gold, gathering and Skinning also work. Use teleports from 20 to save travel time and run each dungeon for its quests.",
+      "text_es": "Consigue una varita pronto para rematar enemigos sin gastar maná; prepara comida y agua antes de empezar. Entrena los rangos de daño principales y usa Descarga de Escarcha para mantener distancia. Si atraes enemigos de más, combina Nova de Escarcha y Polimorfia para controlarlos. Usa Evocación cuando baje el maná y aprende pronto los teletransportes. Lleva Poción de maná y Poción de curación, y aprovecha las misiones de mazmorra. Costura y Encantamiento dan mejoras de equipo y varitas; Botánica, Minería y Desollar aportan oro y materiales.",
+      "text_en": "Get a wand early to finish enemies without spending mana; prepare food and water before setting out. Train key damage ranks and use Frostbolt to keep your distance. If you pull extra enemies, combine Frost Nova and Polymorph to control them. Use Evocation when mana runs low and learn teleports early. Pack mana-restoring and healing potions, and make use of dungeon quests. Tailoring and Enchanting provide gear upgrades and wands; Herbalism, Mining, and Skinning provide gold and materials.",
       "tags": [
         "MAGE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › WoW Forever Frost Mage Leveling Tips",
-          "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Leveling Tips for Arcane Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
           "date": "2026-11-10"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Leveling Guide › Leveling Tips",
+          "ref": "Wowhead: Fire Mage Leveling Guide - WoW: Forever › Leveling Tips for Fire Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Frost Mage Leveling Guide - WoW: Forever › Leveling Tips for Frost Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best Abilities to Train for Arcane Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best Leveling Professions for Arcane Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Leveling Guide › Professions",
           "url": "https://www.icy-veins.com/wow-forever/arcane-mage-leveling",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Fire Mage Leveling Guide › Professions",
-          "url": "https://www.icy-veins.com/wow-forever/fire-mage-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best use of Legacy Points for Arcane Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best Leveling Consumables for Arcane Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:mage:arcane:leveling",
         "class:mage:fire:leveling",
         "class:mage:frost:leveling"
       ],
       "source_hashes": [
-        "section:36cf2932d4c0e7642e87ba437d969e5839f560c9",
-        "section:475fb271a512ff8d08b7cc58954b82259b25ceb2",
-        "section:6946f8545a365d5131b41b44b1737af0bdf6460a"
+        "section:0ffffa689e937664c01035a6cc1d53e21bec0a1a",
+        "section:31c5609fc30e981608826a7629f1029c648be3e5",
+        "section:5cdaf030dd2bda6d08876cb231e250832aeb043f",
+        "section:88a03952f5984354db2f328a7dc5dd20af92f5b9",
+        "section:8c691e5e76f6e3b1ff05679e0d1322adb36bc793",
+        "section:973ff0349de45c993d35fdb60a73a5ce3fdf73c8",
+        "section:a64ff3132c27974559d63731180d1d4b37f3a092",
+        "section:b951aef5e33b93066794efdee47ce9c7a67f380f"
       ]
     },
     {
