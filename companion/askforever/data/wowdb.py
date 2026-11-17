@@ -738,7 +738,8 @@ class WowDb:
             'objective_creatures': objective_creatures,
         }
 
-    def quests_in_zone(self, zone, level, faction=None, lang='es', limit=8):
+    def quests_in_zone(self, zone, level, faction=None, lang='es', limit=8,
+                       low=None, high=None):
         """Misiones de una zona que encajan con el nivel y la facción del jugador."""
         try:
             area_id = _as_int(zone)
@@ -756,7 +757,9 @@ class WowDb:
             if level is not None:
                 level = int(level)
                 sql += (' AND required_level <= ? AND quest_level BETWEEN ? AND ?')
-                params.extend((level + 1, level - 2, level + 3))
+                params.extend((level + 1,
+                               level - 2 if low is None else int(low),
+                               level + 3 if high is None else int(high)))
             rows = self._rows(sql, params)
             blacklisted = {row['quest_id'] for row in self._rows(
                 'SELECT quest_id FROM ext_quest_blacklist')}

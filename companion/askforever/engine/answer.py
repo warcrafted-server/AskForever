@@ -15,10 +15,10 @@ from askforever.engine import router
 from askforever.engine.prompt import _detect_question_language, build_prompt
 from askforever.engine.retriever import (PROFESSION_KEYWORDS, add_guide_sections,
                                          is_profession_question, is_travel_question,
-                                         retrieve)
+                                         retrieve, _GUIDE_LABELS)
 from askforever.providers.openai_compat import ProviderError
 
-MAX_ANSWER = 900
+MAX_ANSWER = 2500
 
 _INVALID_TEXT = {
     'es': 'No se entendió la pregunta recibida.',
@@ -43,15 +43,22 @@ _FOLLOW_UP_STARTS = {'y', 'e', 'pero', 'entonces', 'and', 'but', 'so'}
 _FOLLOW_UP_POINTERS = {'ese', 'esa', 'eso', 'esos', 'esas', 'alli', 'ahi', 'that', 'those',
                        'there'}
 _FOLLOW_UP_MAX_WORDS = 9
+_FOLLOW_UP_PHRASES = (
+    'mas opciones', 'otra opcion', 'otras opciones', 'hay mas', 'no hay mas',
+    'alguna mas', 'algo mas', 'any other', 'more options', 'anything else',
+    'what else',
+)
 
 
 def is_follow_up(question) -> bool:
     """Pregunta corta que continúa la anterior («y para subir de nivel, ¿cuál?»)."""
-    words = re.findall(r'[a-z0-9]+', normalize(str(question or '')))
+    normalized = normalize(str(question or ''))
+    words = re.findall(r'[a-z0-9]+', normalized)
     if not words or len(words) > _FOLLOW_UP_MAX_WORDS:
         return False
-    return words[0] in _FOLLOW_UP_STARTS or any(word in _FOLLOW_UP_POINTERS
-                                                for word in words)
+    return (words[0] in _FOLLOW_UP_STARTS
+            or any(word in _FOLLOW_UP_POINTERS for word in words)
+            or any(phrase in normalized for phrase in _FOLLOW_UP_PHRASES))
 
 
 @dataclass
@@ -105,6 +112,16 @@ def _detect_lang(data) -> str:
 
 def _clean_answer(text) -> str:
     text = '' if text is None else str(text)
+
+    lines = []
+    for line in text.splitlines():
+        stripped = line.lstrip()
+        for label in _GUIDE_LABELS:
+            if stripped.startswith(label):
+                stripped = stripped[len(label):]
+                break
+        lines.append(stripped)
+    text = '\n'.join(lines)
     text = text.replace('**', '').replace('```', '')
 
     lines = []
@@ -160,7 +177,8 @@ def needs_web(facts, question, history=None) -> bool:
     if _is_route_missing(missing):
         return False
     sources = list(getattr(facts, 'sources', None) or [])
-    if any(str(source).startswith('guide:section:') for source in sources):
+    if any(str(source).startswith(('guide:section:', 'zone_quests:'))
+           for source in sources):
         return False
     if missing:
         return True

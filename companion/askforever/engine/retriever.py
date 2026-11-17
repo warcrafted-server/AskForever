@@ -2093,6 +2093,12 @@ def _detect_zone_quests(facts: Facts, db, normalized: str, lang: str,
     level = _ctx_level(ctx)
     quests = _safe(db.quests_in_zone, zone_id, level,
                    faction=_faction(ctx.get('fac')), lang=lang) or []
+    below_level = False
+    if not quests and level is not None:
+        quests = _safe(db.quests_in_zone, zone_id, level,
+                       faction=_faction(ctx.get('fac')), lang=lang,
+                       low=level - 7, high=level - 3) or []
+        below_level = bool(quests)
     if not quests:
         facts.missing.append(
             f'misiones de {zone_name} para tu nivel (no están en la base)'
@@ -2125,12 +2131,16 @@ def _detect_zone_quests(facts: Facts, db, normalized: str, lang: str,
         items.append(quoted + (f" ({', '.join(parts)})" if parts else ''))
     if lang == 'es':
         level_text = f' ({level})' if level is not None else ''
-        facts.lines.append(f'Misiones de {zone_name} para tu nivel{level_text}: '
-                           + '; '.join(items))
+        heading = (f'Misiones de {zone_name} por debajo de tu nivel{level_text}: '
+                   if below_level else
+                   f'Misiones de {zone_name} para tu nivel{level_text}: ')
+        facts.lines.append(heading + '; '.join(items))
     else:
         level_text = f' ({level})' if level is not None else ''
-        facts.lines.append(f'Quests in {zone_name} for your level{level_text}: '
-                           + '; '.join(items))
+        heading = (f'Quests in {zone_name} below your level{level_text}: '
+                   if below_level else
+                   f'Quests in {zone_name} for your level{level_text}: ')
+        facts.lines.append(heading + '; '.join(items))
     _add_source(facts, f'zone_quests:{zone_id}')
 
 

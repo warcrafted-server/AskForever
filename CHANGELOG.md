@@ -38,6 +38,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Changed: the AI gives builds in full with every rank, knows how many talent points you have at your level (and stops there when you ask what you should have), answers questions about other classes, and does not fill builds with talents from other game versions.
 - Fixed: build and talent path sections say what they are for (raids, dungeons, PvP or levelling), so the AI no longer says it has no raid build when it has one.
 - Added: asking which quests there are in a zone (or here) for your level lists them with who gives them and where; asking for a boat without naming a port lists the known boats, zeppelins and trams; ambiguous questions get a question back instead of "I do not know".
+- Fixed: long answers (complete builds, "tell me everything") are no longer cut at 900 characters; the AI no longer starts answers with the internal data label; "any other options?" keeps the topic of the previous question; asking which quests there are here when you have outlevelled the zone lists the ones slightly below your level instead of searching the wiki; builds start with their main tree.
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
@@ -73,6 +74,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Cambiado: la IA da las builds completas con todos sus rangos, sabe cuántos puntos de talento tienes a tu nivel (y se detiene ahí cuando preguntas qué deberías tener), responde a preguntas sobre otras clases y no completa las builds con talentos de otras versiones del juego.
 - Corregido: las secciones de builds y rutas de talentos dicen para qué son (bandas, mazmorras, JcJ o subida), así que la IA ya no dice que no tiene la build de banda cuando sí la tiene.
 - Añadido: si preguntas qué misiones hay en una zona (o aquí) para tu nivel, se listan con quién las da y dónde; si preguntas por un barco sin nombrar el puerto, se listan los barcos, zepelines y tranvías conocidos; ante una pregunta ambigua la IA pregunta a qué te refieres en lugar de decir que no lo sabe.
+- Corregido: las respuestas largas (builds completas, «dime todo») ya no se cortan a 900 caracteres; la IA ya no empieza las respuestas con la etiqueta interna de los datos; «¿hay más opciones?» mantiene el tema de la pregunta anterior; si preguntas qué misiones hay aquí y ya has superado la zona, se listan las que están algo por debajo de tu nivel en vez de buscar en la wiki; las builds empiezan por su rama principal.
 
 ## [0.3.0-beta.4] - 2026-11-15
 

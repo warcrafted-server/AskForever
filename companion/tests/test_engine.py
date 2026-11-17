@@ -9,8 +9,10 @@ import pytest
 
 import askforever.cli as cli
 from askforever.capture.grabber import ReceivedMessage
-from askforever.engine.answer import Answer, answer_message, parse_message
+from askforever.engine.answer import (Answer, _clean_answer, answer_message, is_follow_up,
+                                      needs_web, parse_message)
 from askforever.engine.prompt import build_prompt
+from askforever.engine.retriever import Facts
 from askforever.providers.openai_compat import ProviderError
 
 
@@ -156,12 +158,22 @@ def test_answer_message_success_and_cleaning():
     assert call['max_tokens'] is None
 
 
-def test_answer_message_truncates():
-    provider = FakeProvider(response='a' * 1000)
-    result = answer_message(make_data(), provider)
-    assert result.ok is True
-    assert len(result.text) <= 900
-    assert result.text.endswith('…')
+def test_clean_answer_keeps_long_answers_and_removes_guide_labels():
+    text = ('En WoW Forever: ' + 'a' * 1000 + '\n'
+            + 'En WoW Forever: ' + 'b' * 1000)
+    cleaned = _clean_answer(text)
+    assert cleaned == 'a' * 1000 + '\n' + 'b' * 1000
+
+
+def test_is_follow_up_detects_other_options_questions():
+    assert is_follow_up('Hay más opciones para ir a kalimdor?')
+    assert is_follow_up('No hay más?')
+
+
+def test_needs_web_skips_zone_quest_sources():
+    facts = Facts(missing=['misiones de Bosque de Elwynn para tu nivel'],
+                  sources=['zone_quests:12'])
+    assert not needs_web(facts, '¿Qué misiones hay aquí?')
 
 
 def test_answer_message_passes_max_tokens():

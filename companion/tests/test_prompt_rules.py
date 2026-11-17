@@ -89,3 +89,15 @@ def test_system_prompt_contains_complete_build_and_version_rules():
     assert 'never count more points than they have' in system_en
     assert 'The question may be about a class, race or specialization' in system_en
     assert 'Do not fill in talents, ranks, builds or class mechanics' in system_en
+
+
+def test_prompt_orders_build_trees_and_expands_broad_answers():
+    system_es = _system('esES')
+    assert ('empieza por la rama principal (la que tiene más puntos) y sigue con las demás '
+            'de más a menos puntos') in system_es
+    assert 'extiéndete lo necesario y cubre cada tema que pidan con los datos' in system_es
+
+    system_en = _system('enUS')
+    assert ('start with the main tree (the one with most points) and continue with the others '
+            'from most to fewest points') in system_en
+    assert 'take the space you need and cover each topic they ask for with the data' in system_en

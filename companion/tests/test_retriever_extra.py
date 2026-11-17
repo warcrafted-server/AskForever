@@ -547,6 +547,12 @@ def test_quests_in_zone_filters_level_faction_blacklist_class_and_starters(db):
     assert (quests[1]['x'], quests[1]['y']) == (24.8, 18.4)
 
 
+def test_quests_in_zone_accepts_custom_level_window(db):
+    _insert_zone_quest_cases(db)
+    quests = db.quests_in_zone('Páramos de Poniente', 14, faction='A', low=11, high=11)
+    assert [quest['id'] for quest in quests] == [93009]
+
+
 def test_zone_quest_line_and_missing_case(db):
     _insert_zone_quest_cases(db)
     ctx = dict(CTX, lvl=14, zone='Páramos de Poniente')
@@ -573,6 +579,36 @@ def test_here_zone_quest_line_uses_current_zone(db):
     facts = retrieve(_message('¿Qué quests hay aquí para mi nivel?', ctx=ctx), db)
     assert any(line.startswith('Misiones de Páramos de Poniente')
                for line in facts.lines)
+
+
+@pytest.mark.parametrize(('lang', 'zone', 'heading'), [
+    ('esES', 'Bosque de Elwynn',
+     'Misiones de Bosque de Elwynn por debajo de tu nivel (15):'),
+    ('enUS', 'Elwynn Forest', 'Quests in Elwynn Forest below your level (15):'),
+])
+def test_zone_quests_fall_back_to_quests_below_player_level(db, lang, zone, heading):
+    conn = sqlite3.connect(db.path)
+    _insert(conn, 'ext_quests', ['quest_id', 'required_level', 'quest_level',
+                                 'required_classes', 'zone_or_sort'], [
+        (93101, 10, 10, 0, 12),
+    ])
+    _insert(conn, 'ext_quest_l10n', ['quest_id', 'locale', 'name'], [
+        (93101, 'esES', 'Una misión de Elwynn'),
+    ])
+    _insert(conn, 'ext_quest_starters', ['quest_id', 'entity_type', 'entity_id'], [
+        (93101, 'npc', 1343),
+    ])
+    conn.commit()
+    conn.close()
+
+    ctx = dict(CTX, lvl=15, fac='Alianza', zone=zone)
+    question = '¿Qué misiones hay aquí?' if lang == 'esES' else 'What quests are here?'
+    facts = retrieve(_message(question, lang=lang, ctx=ctx), db)
+    line = next(line for line in facts.lines if line.startswith(heading))
+    assert line.startswith(heading)
+    assert 'Una misión de Elwynn' in line
+    assert 'zone_quests:12' in facts.sources
+    assert facts.missing == []
 
 
 def test_zones_for_my_level(db):
