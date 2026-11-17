@@ -3206,6 +3206,496 @@
       "source_hashes": [
         "section:29cd8c54a8c86337d11b7b247201e0032b7acaab"
       ]
+    },
+    {
+      "id": "clase-warlock-build-afliccion-subir-sin-reasignar",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de subida de Aflicción sin cambios",
+      "title_en": "Affliction Leveling Build Without Respec",
+      "summary_es": "Distribución completa de talentos de Aflicción sin reasignar puntos al subir.",
+      "summary_en": "Complete Affliction talent allocation for leveling without respeccing.",
+      "keywords_es": [
+        "build Aflicción sin reasignar",
+        "talentos de brujo Aflicción",
+        "talentos de Aflicción para subir"
+      ],
+      "keywords_en": [
+        "Affliction no-respec build",
+        "Affliction warlock talents",
+        "Affliction leveling talents"
+      ],
+      "text_es": "Aflicción: Transfusión de  vida mejorada 2/2, Supresión 5/5, Corrupción mejorado 5/5, Drenajes mejorados 3/3, Terror de agonía mejorado 2/2, Concentración vil 3/3, Amplificar maldición 1/1, Pandemia 3/3, Malevolencia 5/5, Ocaso 2/2, Succionar vida 1/1, Succión de alma 3/3, Maestría de las Sombras 5/5, Arruinar 1/1; Demonología: Poder profano 5/5, Energías demoníacas 2/2; Destrucción: Descarga de Sombras mejorada 3/5.",
+      "text_en": "Affliction: Improved Life Tap 2/2, Suppression 5/5, Improved Corruption 5/5, Improved Drains 3/3, Improved Bane of Agony 2/2, Fel Concentration 3/3, Amplify Curse 1/1, Pandemic 3/3, Malevolence 5/5, Nightfall 2/2, Siphon Life 1/1, Soul Siphon 3/3, Shadow Mastery 5/5, Wrack 1/1; Demonology: Unholy Power 5/5, Demonic Energies 2/2; Destruction: Improved Shadow Bolt 3/5.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Affliction Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:affliction:leveling"
+      ],
+      "source_hashes": [
+        "section:ace72ab599c1d2952f57c6a945d66879bf8f831f"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-afliccion-subir-respec-40",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Aflicción tras reasignar a 40",
+      "title_en": "Affliction Build After a Level-40 Respec",
+      "summary_es": "Build completa de Aflicción que adelanta Arruinar al reasignar talentos a 40.",
+      "summary_en": "Complete Affliction build that gets Wrack sooner after a level-40 respec.",
+      "keywords_es": [
+        "reasignar talentos brujo nivel 40",
+        "build Aflicción Arruinar temprano",
+        "talentos Aflicción respec"
+      ],
+      "keywords_en": [
+        "warlock level 40 respec",
+        "early Wrack Affliction build",
+        "Affliction respec talents"
+      ],
+      "text_es": "Aflicción: Transfusión de  vida mejorada 2/2, Supresión 5/5, Corrupción mejorado 5/5, Drenajes mejorados 3/3, Terror de agonía mejorado 2/2, Amplificar maldición 1/1, Pandemia 3/3, Succionar vida 1/1, Succión de alma 3/3, Maestría de las Sombras 5/5, Arruinar 1/1. Reasigna a nivel 40 para obtener Arruinar siete niveles antes; los puntos de Demonología quedan libres para gastar.",
+      "text_en": "Affliction: Improved Life Tap 2/2, Suppression 5/5, Improved Corruption 5/5, Improved Drains 3/3, Improved Bane of Agony 2/2, Amplify Curse 1/1, Pandemic 3/3, Siphon Life 1/1, Soul Siphon 3/3, Shadow Mastery 5/5, Wrack 1/1. Respec at level 40 to get Wrack seven levels earlier; the Demonology points are left free to spend.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Affliction Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:affliction:leveling"
+      ],
+      "source_hashes": [
+        "section:ace72ab599c1d2952f57c6a945d66879bf8f831f"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-demonologia-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de subida de Demonología",
+      "title_en": "Demonology Leveling Build",
+      "summary_es": "Distribución completa de talentos de Demonología para subir sin reasignar puntos.",
+      "summary_en": "Complete Demonology talent allocation for leveling without respeccing.",
+      "keywords_es": [
+        "build Demonología para subir",
+        "talentos brujo Demonología leveo",
+        "talentos Marca demoníaca"
+      ],
+      "keywords_en": [
+        "Demonology leveling build",
+        "Demonology warlock leveling talents",
+        "Demonic Brand talents"
+      ],
+      "text_es": "Aflicción: Transfusión de  vida mejorada 2/2, Supresión 5/5, Corrupción mejorado 5/5, Drenajes mejorados 3/3, Amplificar maldición 1/1, Pandemia 3/3, Malevolencia 1/5; Demonología: Abrazo demoníaco 1/5, Poder profano 5/5, Vitalidad vil 3/3, Energías demoníacas 2/2, Sayaad mejorado 3/3, Sacrificio demoníaco 1/1, Maestro invocador 2/2, Dominio de lo maldito 1/1, Marca demoníaca 3/3, Vínculo de alma 1/1, Conocimiento demoníaco 3/3, Maestro demonogista 5/5, Pacto demoníaco 1/1. Mejora Transfusión de vida.",
+      "text_en": "Affliction: Improved Life Tap 2/2, Suppression 5/5, Improved Corruption 5/5, Improved Drains 3/3, Amplify Curse 1/1, Pandemic 3/3, Malevolence 1/5; Demonology: Demonic Embrace 1/5, Unholy Power 5/5, Fel Vitality 3/3, Demonic Energies 2/2, Improved Sayaad 3/3, Demonic Sacrifice 1/1, Master Summoner 2/2, Fel Domination 1/1, Demonic Brand 3/3, Soul Link 1/1, Demonic Knowledge 3/3, Master Demonologist 5/5, Demonic Pact 1/1. This improves Life Tap.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Demonology Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:leveling"
+      ],
+      "source_hashes": [
+        "section:78fcf26e7bd6166d52aca9c362d101229fdad4ba"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-destruccion-solo-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de subida en solitario de Destrucción",
+      "title_en": "Destruction Solo Leveling Build",
+      "summary_es": "Distribución completa de talentos de Destrucción para misiones y combates en solitario.",
+      "summary_en": "Complete Destruction talent allocation for solo questing and leveling.",
+      "keywords_es": [
+        "build solo Destrucción para subir",
+        "talentos brujo Destrucción leveo",
+        "talentos Quemadura de las Sombras brujo"
+      ],
+      "keywords_en": [
+        "Destruction solo leveling build",
+        "Destruction warlock leveling talents",
+        "Warlock Shadowburn talents"
+      ],
+      "text_es": "Aflicción: Transfusión de  vida mejorada 2/2, Supresión 5/5, Drenajes mejorados 3/3, Terror de agonía mejorado 2/2, Amplificar maldición 1/1, Pandemia 3/3, Malevolencia 5/5, Succión de alma 2/3; Demonología: Poder profano 5/5; Destrucción: Aterrar 5/5, Piel de arrabio 2/5, Cataclismo 3/3, Secuelas 5/5, Quemadura de las Sombras 1/1, Llamas agonizantes 3/3, Conflagrar 1/1, Fuego y azufre 3/3. Mejora Transfusión de vida.",
+      "text_en": "Affliction: Improved Life Tap 2/2, Suppression 5/5, Improved Drains 3/3, Improved Bane of Agony 2/2, Amplify Curse 1/1, Pandemic 3/3, Malevolence 5/5, Soul Siphon 2/3; Demonology: Unholy Power 5/5; Destruction: Bane 5/5, Molten Skin 2/5, Cataclysm 3/3, Aftermath 5/5, Shadowburn 1/1, Agonizing Flames 3/3, Conflagrate 1/1, Fire and Brimstone 3/3. This improves Life Tap.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Destruction Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:leveling"
+      ],
+      "source_hashes": [
+        "section:a41d84a98887df06285a814d449ad60b10a4cc3e"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-destruccion-mazmorra-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de mazmorra de Destrucción para subir",
+      "title_en": "Destruction Dungeon Leveling Build",
+      "summary_es": "Distribución completa para subir en mazmorras y llegar a Incinerar a 40.",
+      "summary_en": "Complete dungeon-leveling build that reaches Incinerate at 40.",
+      "keywords_es": [
+        "build de mazmorra Destrucción",
+        "talentos Destrucción para mazmorras",
+        "Incinerar nivel 40 brujo"
+      ],
+      "keywords_en": [
+        "Destruction dungeon leveling build",
+        "Destruction dungeon talents",
+        "Warlock Incinerate level 40"
+      ],
+      "text_es": "Aflicción: Transfusión de  vida mejorada 2/2, Supresión 5/5, Corrupción mejorado 5/5, Amplificar maldición 1/1, Pandemia 3/3, Malevolencia 1/5; Demonología: Diablillo mejorado 3/3; Destrucción: Aterrar 5/5, Cataclismo 3/3, Secuelas 5/5, Ruina 3/5, Quemadura de las Sombras 1/1, Llamas agonizantes 3/3, Conflagrar 1/1, Terror de caos 1/1, Fuego y azufre 3/3, Sombras y llamas 5/5, Incinerar 1/1. Mejora Transfusión de vida.",
+      "text_en": "Affliction: Improved Life Tap 2/2, Suppression 5/5, Improved Corruption 5/5, Amplify Curse 1/1, Pandemic 3/3, Malevolence 1/5; Demonology: Improved Imp 3/3; Destruction: Bane 5/5, Cataclysm 3/3, Aftermath 5/5, Ruin 3/5, Shadowburn 1/1, Agonizing Flames 3/3, Conflagrate 1/1, Bane of Havoc 1/1, Fire and Brimstone 3/3, Shadow and Flame 5/5, Incinerate 1/1.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Destruction Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:leveling"
+      ],
+      "source_hashes": [
+        "section:a41d84a98887df06285a814d449ad60b10a4cc3e"
+      ]
+    },
+    {
+      "id": "clase-warlock-talentos-demonologia-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de talentos de Demonología para subir",
+      "title_en": "Demonology Leveling Talent Path",
+      "summary_es": "Prioriza el demonio y Marca demoníaca; después añade talentos de Aflicción para sostenerte.",
+      "summary_en": "Prioritize the demon and Demonic Brand, then add Affliction talents for sustain.",
+      "keywords_es": [
+        "ruta talentos Demonología leveo",
+        "Marca demoníaca talentos subir",
+        "Pacto demoníaco nivel 40"
+      ],
+      "keywords_en": [
+        "Demonology leveling talent path",
+        "Demonic Brand leveling talents",
+        "Demonic Pact level 40"
+      ],
+      "text_es": "Invierte primero en Poder profano 5/5, Energías demoníacas 2/2 y Vitalidad vil 3/3 para reforzar al demonio; avanza hasta Marca demoníaca 3/3 entre los niveles 25 y 27 y llega a Pacto demoníaco 1/1 a 40. Completa después Aflicción: Corrupción mejorado 5/5 vuelve instantánea Corrupción, Transfusión de  vida mejorada 2/2 mejora Transfusión de vida y Drenajes mejorados 3/3 potencia el daño y la curación de Drenar vida.",
+      "text_en": "Invest first in Unholy Power 5/5, Demonic Energies 2/2, and Fel Vitality 3/3 to strengthen your demon; work toward Demonic Brand 3/3 at levels 25–27 and Demonic Pact 1/1 at 40. Then finish Affliction: Improved Corruption 5/5 makes Corruption instant, Improved Life Tap 2/2 improves Life Tap, and Improved Drains 3/3 increases Drain Life damage and healing.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Demonology Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock Leveling Guide - WoW: Forever › Core Talents",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:leveling"
+      ],
+      "source_hashes": [
+        "section:78fcf26e7bd6166d52aca9c362d101229fdad4ba",
+        "section:a2bc59d4855f5a559f8e2d98ad4860a1b9fa9eee"
+      ]
+    },
+    {
+      "id": "clase-warlock-talentos-destruccion-solo-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de Destrucción para subir en solitario",
+      "title_en": "Destruction Solo Leveling Talent Path",
+      "summary_es": "Prioriza remates de Destrucción, daño del demonio y después drenajes para sostenerte.",
+      "summary_en": "Prioritize Destruction finishers, demon damage, and then drains for sustain.",
+      "keywords_es": [
+        "ruta talentos Destrucción solo",
+        "talentos Conflagrar subir brujo",
+        "talentos brujo solo leveo"
+      ],
+      "keywords_en": [
+        "Destruction solo leveling talent path",
+        "Conflagrate leveling talents",
+        "warlock solo leveling talents"
+      ],
+      "text_es": "Empieza por Aterrar 5/5 y Cataclismo 3/3; sigue con Secuelas 5/5 y Quemadura de las Sombras 1/1 para obtener el remate instantáneo, y Conflagrar 1/1 para consumir Inmolar con un golpe fuerte. Luego toma Poder profano 5/5 para el demonio y talentos de Aflicción como Transfusión de  vida mejorada 2/2, Transfusión de vida, Supresión 5/5 y Drenajes mejorados 3/3, que favorecen el maná y la supervivencia.",
+      "text_en": "Start with Bane 5/5 and Cataclysm 3/3; continue with Aftermath 5/5 and Shadowburn 1/1 for an instant finisher, then Conflagrate 1/1 to consume Immolate for a heavy hit. Next take Unholy Power 5/5 for your demon and Affliction talents such as Improved Life Tap 2/2, Life Tap, Suppression 5/5, and Improved Drains 3/3 to support mana and sustain.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Destruction Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Core talents",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:leveling"
+      ],
+      "source_hashes": [
+        "guide:06caefe3eaeafd39ddc3b82943318222c7b6f978",
+        "section:a41d84a98887df06285a814d449ad60b10a4cc3e"
+      ]
+    },
+    {
+      "id": "clase-warlock-talentos-destruccion-mazmorra-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de Destrucción para subir en mazmorras",
+      "title_en": "Destruction Dungeon Leveling Talent Path",
+      "summary_es": "En mazmorras, concentra los puntos en Destrucción hasta obtener Incinerar a 40.",
+      "summary_en": "For dungeon leveling, invest in Destruction until Incinerate at 40.",
+      "keywords_es": [
+        "ruta Destrucción mazmorras",
+        "Incinerar talentos nivel 40",
+        "talentos brujo subir en grupo"
+      ],
+      "keywords_en": [
+        "Destruction dungeon talent path",
+        "Incinerate level 40 talents",
+        "warlock group leveling talents"
+      ],
+      "text_es": "Si subes sobre todo en mazmorras con un tanque, dedica cada punto a Destrucción hasta Incinerar 1/1 a nivel 40. Prioriza Aterrar 5/5, Cataclismo 3/3, Secuelas 5/5, Ruina 3/5, Quemadura de las Sombras 1/1, Llamas agonizantes 3/3, Conflagrar 1/1, Terror de caos 1/1, Fuego y azufre 3/3 y Sombras y llamas 5/5; este último evita que Conflagrar consuma Inmolar al completarlo. Transfusión de  vida mejorada 2/2 mejora Transfusión de vida.",
+      "text_en": "If you mostly level in dungeons with a tank, put every point into Destruction until Incinerate 1/1 at level 40. Bane 5/5, Cataclysm 3/3, Aftermath 5/5, Ruin 3/5, Shadowburn 1/1, Agonizing Flames 3/3, Conflagrate 1/1, Bane of Havoc 1/1, Fire and Brimstone 3/3, and Shadow and Flame 5/5 form the core; at full rank, the latter stops Conflagrate from consuming Immolate. Improved Life Tap 2/2 improves Life Tap mana.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Destruction Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:leveling"
+      ],
+      "source_hashes": [
+        "section:a41d84a98887df06285a814d449ad60b10a4cc3e"
+      ]
+    },
+    {
+      "id": "clase-warlock-rotacion-destruccion-mazmorra-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Destrucción en mazmorras al subir",
+      "title_en": "Destruction Dungeon Leveling Rotation",
+      "summary_es": "Prioridad de daño de Destrucción en mazmorras, desde Descarga de las Sombras hasta Incinerar.",
+      "summary_en": "Destruction dungeon priority, from Shadow Bolt filler to Incinerate.",
+      "keywords_es": [
+        "rotación Destrucción mazmorras leveo",
+        "Incinerar rotación brujo",
+        "Terror de caos mazmorra"
+      ],
+      "keywords_en": [
+        "Destruction dungeon leveling rotation",
+        "warlock Incinerate rotation",
+        "Bane of Havoc dungeon"
+      ],
+      "text_es": "Con la build de mazmorra, invoca al diablillo. En jefes y enemigos duraderos, aplica Terror de agonía o Terror de caos a un segundo objetivo del grupo, Maldición de los Elementos desde 40 si otro Brujo no la mantiene, Inmolar y Corrupción; después Conflagrar y Quemadura de las Sombras, y rellena con Descarga de las Sombras hasta 40 o Incinerar desde entonces. Con Aterrar 5/5 y Sombras y llamas 5/5, Conflagrar no consume Inmolar; deja que el tanque genere amenaza antes de estallar.",
+      "text_en": "With the dungeon build, summon the Imp. On bosses and durable targets, apply Bane of Agony or Bane of Havoc to a second mob in the pack, Curse of the Elements from 40 if another Warlock is not maintaining it, Immolate, and Corruption; then use Conflagrate and Shadowburn, filling with Shadow Bolt until 40 or Incinerate afterward. Bane 5/5 plus Shadow and Flame 5/5 means Conflagrate does not consume Immolate; let the tank build threat before bursting.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Core talents",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:leveling"
+      ],
+      "source_hashes": [
+        "guide:06caefe3eaeafd39ddc3b82943318222c7b6f978"
+      ]
+    },
+    {
+      "id": "clase-warlock-ventajas-limites-subida",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ventajas y límites al subir",
+      "title_en": "Leveling Strengths and Tradeoffs",
+      "summary_es": "Compara el aguante, la dependencia del equipo y el daño de las tres ramas durante la subida.",
+      "summary_en": "Compare each spec's sustain, gear dependence, and damage while leveling.",
+      "keywords_es": [
+        "ventajas Aflicción leveo",
+        "desventajas Demonología brujo",
+        "Destrucción pros y contras leveo",
+        "comparar ramas brujo subir"
+      ],
+      "keywords_en": [
+        "Affliction leveling pros and cons",
+        "Demonology warlock leveling weaknesses",
+        "Destruction leveling strengths and weaknesses",
+        "compare warlock leveling specs"
+      ],
+      "text_es": "Aflicción descansa poco, resiste bien gracias al demonio y puede atender a varios enemigos, pero exige manejar Miedo y efectos periódicos y su daño depende del equipo. Demonología reduce la dependencia del equipo y genera mucha amenaza con el demonio desde Marca demoníaca, aunque tarda en arrancar y perder la mascota cuesta daño y tiempo. Destrucción remata al instante y destaca en mazmorras por su estallido, pero es la más lenta en solitario y Conflagrar consume Inmolar en la build individual.",
+      "text_en": "Affliction has little downtime, stays safe behind its demon, and can handle several enemies, but managing Fear and damage-over-time effects takes practice and its damage depends on gear. Demonology is less gear-dependent and its demon builds strong threat with Demonic Brand, but it starts slowly and losing the pet costs damage and time. Destruction has an instant finisher and strong dungeon burst, but levels slowest solo, and Conflagrate consumes Immolate in the solo build.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Pros",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Cons",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock Leveling Guide - WoW: Forever › Pros",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock Leveling Guide - WoW: Forever › Cons",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Pros",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Cons",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:affliction:leveling",
+        "class:warlock:demonology:leveling",
+        "class:warlock:destruction:leveling"
+      ],
+      "source_hashes": [
+        "section:1fd813698db91b3c574e8c0e2a23e65200da4f29",
+        "section:22e54acd4ccf47f910aa893925c606ac8b761d17",
+        "section:32d9f19f2afd10bd65c043644e6f85554b73b3fa",
+        "section:95090a3611a5ecfd15a311af75356522f3b882e1",
+        "section:ad387259f2abc78e6f718ae78d72c3859bb46f74",
+        "section:eb898b3d29358f0af7e4320583d8af78d3fcffc3"
+      ]
+    },
+    {
+      "id": "clase-warlock-mejoras-campamento-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Mejoras del campamento para subir",
+      "title_en": "Leveling Camp Buffs",
+      "summary_es": "Prioriza la tienda para experiencia de descanso y usa otras mejoras según tus necesidades.",
+      "summary_en": "Prioritize the tent for rested experience and choose other buffs for your needs.",
+      "keywords_es": [
+        "mejoras campamento leveo",
+        "tienda campamento experiencia descanso",
+        "pozo de maná Brujo",
+        "mejoras intelecto brujo"
+      ],
+      "keywords_en": [
+        "leveling camp buffs",
+        "camp tent rested experience",
+        "warlock mana well",
+        "warlock intellect camp buff"
+      ],
+      "text_es": "La Tienda de campamento aporta la mejora más importante para subir: más experiencia de descanso. Como apoyos opcionales, el Pozo de maná restaura maná cada 5 s, la Vela de incienso aumenta el Intelecto y el Equipo de primeros auxilios da Aguante para gastar más salud con Transfusión de vida; la Silla de campamento aporta Golpe crítico con hechizos, útil para los efectos periódicos.",
+      "text_en": "Camp Tent is the most important leveling camp feature because it increases rested experience. Optional support includes Mana Well, which restores mana every 5 seconds; Incense Candle, which adds Intellect; and First Aid Kit, which grants Stamina so you can spend more health on Life Tap. Camp Chair adds spell crit, which benefits damage-over-time effects.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Affliction Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:affliction:leveling"
+      ],
+      "source_hashes": [
+        "section:0ff0ca66bcb4231400cfcb8f42f50a6558078a1d"
+      ]
     }
   ]
 }
