@@ -7,8 +7,8 @@
       "status": "editorial",
       "title_es": "Qué hace un Mago",
       "title_en": "What a Mage Does",
-      "summary_es": "Mago lanza hechizos de Fuego, Escarcha o Arcano, controla enemigos y aporta comida, agua y portales.",
-      "summary_en": "Mage casts Fire, Frost or Arcane spells, controls enemies, and provides food, water and portals.",
+      "summary_es": "El Mago hace daño a distancia, controla enemigos y ayuda al grupo con conjuraciones y portales.",
+      "summary_en": "Mages deal ranged damage, control enemies, and support groups with conjured goods and portals.",
       "keywords_es": [
         "qué hace un mago",
         "mago daño a distancia",
@@ -23,8 +23,8 @@
         "mage arcane",
         "mage food and portals"
       ],
-      "text_es": "El Mago es un lanzador a distancia que usa Fuego, Escarcha o Arcano para hacer daño. Polimorfia y Nova de Escarcha le permiten controlar enemigos, y Traslación le da movilidad. También conjura comida, agua y portales para el grupo, y Entender pergamino es una ventaja nueva de Forever.",
-      "text_en": "A Mage is a ranged caster who uses Fire, Frost, or Arcane to deal damage. Polymorph and Frost Nova let it control enemies, while Blink gives it mobility. It also conjures food, water, and portals for the group, and Comprehend Scroll is a new Forever tool.",
+      "text_es": "El Mago usa Fuego, Escarcha y Arcano para hacer daño a distancia y controlar enemigos. Polimorfia aparta un objetivo; Nova de Escarcha y Traslación ayudan a manejar el combate. Fuera de combate, puede conjurar comida y agua y transportar al grupo mediante portales.",
+      "text_en": "Mages use Fire, Frost, and Arcane to deal ranged damage and control enemies. Polymorph removes one target; Frost Nova and Blink help manage combat. Outside combat, Mages can conjure food and water and transport the group with portals.",
       "tags": [
         "MAGE"
       ],
@@ -36,7 +36,7 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:mage:general:mage-class-overview"
       ],
@@ -50,8 +50,8 @@
       "status": "editorial",
       "title_es": "Especializaciones del Mago",
       "title_en": "Mage Specializations",
-      "summary_es": "Arcano busca ráfagas y maná; Fuego pega fuerte y quema; Escarcha frena y congela para controlar.",
-      "summary_en": "Arcane builds burst around mana; Fire hits hard and burns; Frost slows and freezes to control.",
+      "summary_es": "Arcano destaca por ráfagas y maná; Fuego por críticos; Escarcha por control y seguridad.",
+      "summary_en": "Arcane brings burst and mana play; Fire relies on criticals; Frost offers control and safety.",
       "keywords_es": [
         "especializaciones del mago",
         "mago arcano fuego escarcha",
@@ -66,59 +66,51 @@
         "mage frost control",
         "which mage spec"
       ],
-      "text_es": "Arcano busca ráfagas de daño y gestión de maná. Fuego concentra daño directo y de área. Escarcha frena y congela para mantener a los enemigos lejos. Las tres son especializaciones de daño a distancia; el Mago no tanquea ni sana.",
-      "text_en": "Arcane looks for damage bursts and mana management. Fire focuses on direct and area damage. Frost slows and freezes to keep enemies away. All three are ranged damage specializations; the Mage neither tanks nor heals.",
+      "text_es": "Arcano convierte la gestión del maná en daño y puede alcanzar ráfagas altas. Fuego escala con equipo y golpes críticos para activar Ignición y Calentamiento. Escarcha ralentiza y congela; ofrece daño constante y control, a cambio de menos ráfaga que las otras dos ramas.",
+      "text_en": "Arcane turns mana management into damage and can deliver powerful bursts. Fire scales with gear and critical strikes to trigger Ignite and Heating Up. Frost slows and freezes, offering steady damage and control at the cost of less burst than the other two trees.",
       "tags": [
         "MAGE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Mage Class Guide › Mage in World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/mage-class-overview",
-          "date": "2026-10-27"
+          "ref": "Wowhead: Arcane Mage DPS Guide - WoW: Forever › Strengths and Weaknesses of Arcane Mage in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/overview-pve-dps",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Guide › Arcane Mage Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/arcane-mage-ranged-dps-pve-guide",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Fire Mage DPS Guide - WoW: Forever › Strengths and Weaknesses of Fire Mage in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/overview-pve-dps",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Fire Mage Guide › Fire Mage Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/fire-mage-ranged-dps-pve-guide",
-          "date": "2026-11-10"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Guide › Frost Mage Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/frost-mage-ranged-dps-pve-guide",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Frost Mage DPS Guide - WoW: Forever › Strengths and Weaknesses of Frost Mages in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/overview-pve-dps",
+          "date": "2026-11-14"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:mage:arcane:overview",
         "class:mage:fire:overview",
-        "class:mage:frost:overview",
-        "class:mage:general:mage-class-overview"
+        "class:mage:frost:overview"
       ],
       "source_hashes": [
-        "section:581db85b33ee3e85ded3e59f7d4c52940b198e8c",
-        "section:6fd9bf57f1ff60c44f1f9a45094e658bb1621f0a",
-        "section:c0b9f153f80ba400d1f6e813e2eb54270772f18e",
-        "section:f5c329b6db4ef89b6b9ba80fcef316ba5b0ccaa6"
+        "section:13076b6abda599255a51b5b2844ceb7954cf69f1",
+        "section:5302603b8b7a44c7903e0a4e315b5c4222234156",
+        "section:befaff6edc623d1fd50d0d5d6708181e2244021d"
       ]
     },
     {
       "id": "clase-mage-cambios-forever",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Qué cambia en Forever para el Mago",
-      "title_en": "What Changes for Mage in Forever",
-      "summary_es": "El área deja de ser la norma, Arcano ya es viable, Fuego gana Pirofrío y Escarcha nuevas herramientas.",
-      "summary_en": "Area grinding is no longer the norm, Arcane is viable, and Fire gains Frostfire while Frost gets new tools.",
+      "title_es": "Cambios del Mago en Forever",
+      "title_en": "Mage Changes in Forever",
+      "summary_es": "Arcano gana una identidad propia; Fuego incorpora Calentamiento y Escarcha suma Lanza de hielo.",
+      "summary_en": "Arcane gains its own identity; Fire adds Heating Up and Frost gains Ice Lance.",
       "keywords_es": [
         "cambios del mago en forever",
         "mago arcano viable",
@@ -133,59 +125,51 @@
         "frost ice lance",
         "comprehend scroll"
       ],
-      "text_es": "En Forever el grind de área deja de ser la norma y las tres especializaciones tienen herramientas propias. Arcano ya es una opción de subida potente, no solo un árbol de apoyo. Fuego recibe Descarga de Pirofrío a nivel 40, y Escarcha gana Lanza de hielo. Entender pergamino es nueva y ofrece ventajas temporales y objetos de uso exclusivo del Mago.",
-      "text_en": "In Forever, area grinding is no longer the norm, and all three specializations have their own tools. Arcane is now a powerful leveling option, not just a support tree. Fire receives Frostfire Bolt at level 40, and Frost gains Ice Lance. Comprehend Scroll is new and offers temporary benefits and items exclusive to the Mage.",
+      "text_es": "Arcano deja de ser solo apoyo: Explosión Arcana y Tromba de misiles permiten una rama de daño propia. Fuego obtiene Calentamiento, que reduce el lanzamiento de Piroexplosión, además de Explosión de Fuego mejorada y Descarga de Pirofrío. Escarcha incorpora Lanza de hielo y Dedos de Escarcha; Barrera de hielo también adquiere uso ofensivo.",
+      "text_en": "Arcane is no longer only a support tree: Arcane Blast and Missile Barrage enable a dedicated damage build. Fire gains Heating Up, which shortens Pyroblast casts, as well as Improved Fire Blast and Frostfire Bolt. Frost adds Ice Lance and Fingers of Frost; Ice Barrier also gains an offensive use.",
       "tags": [
         "MAGE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Mage Class Guide › Comprehensive Guide to Mage in World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/mage-class-overview",
-          "date": "2026-10-27"
+          "ref": "Wowhead: Arcane Mage DPS Guide - WoW: Forever › Changes to Arcane Mage in WoW Forever > New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/overview-pve-dps",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Leveling Guide › Arcane Mage Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/arcane-mage-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Fire Mage DPS Guide - WoW: Forever › Changes to Fire Mage in WoW Forever > New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/overview-pve-dps",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Fire Mage Leveling Guide › Fire Mage Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/fire-mage-leveling",
-          "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Frost Mage Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Frost Mage DPS Guide - WoW: Forever › Changes for Frost Mage in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/overview-pve-dps",
+          "date": "2026-11-14"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:mage:arcane:leveling",
-        "class:mage:fire:leveling",
-        "class:mage:frost:leveling",
-        "class:mage:general:mage-class-overview"
+        "class:mage:arcane:overview",
+        "class:mage:fire:overview",
+        "class:mage:frost:overview"
       ],
       "source_hashes": [
-        "section:867ea46bc1285e3b11670935d87afcb9bfa70c0f",
-        "section:9c1fa1cc318c2205a17a90e3418519b7d0b046d4",
-        "section:b7f440edc38ac04a65a5646d1a7aa9073587ef15",
-        "section:c00f46091b73ac3d5b8fbe747ecc02e128bf7de6"
+        "guide:6baf0cfd8d654fbbea58f486ec3e16abab897d34",
+        "guide:b64e31d011df677ff817121016967f50f569da23",
+        "section:ac327191622fc9c82a948153cfbf7e8fad69e733"
       ]
     },
     {
       "id": "clase-mage-armas-armadura",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Armas y armadura del Mago",
-      "title_en": "Mage Weapons and Armor",
-      "summary_es": "El Mago viste tela y usa varitas, bastones y objetos de mano izquierda.",
-      "summary_en": "Mage wears cloth and uses wands, staves, and off-hand items.",
+      "title_es": "Varitas del Mago",
+      "title_en": "Mage Wands",
+      "summary_es": "Una varita mantiene el daño sin gastar maná mientras se regenera; Especialización en varitas mejora su uso.",
+      "summary_en": "A wand keeps damage going without mana while it regenerates; Wand Specialization improves its use.",
       "keywords_es": [
         "armas del mago",
         "armadura del mago",
@@ -200,41 +184,25 @@
         "mage staff",
         "mage cloth gear"
       ],
-      "text_es": "El Mago viste tela y puede usar varitas, bastones y objetos de mano izquierda. Las varitas son importantes al principio porque hacen daño sin gastar maná, y las misiones de nivel 30 dan una varita específica de especialización. Armadura de Escarcha, Armadura de hielo y Armadura de mago son excluyentes: lleva una activa.",
-      "text_en": "A Mage wears cloth and can use wands, staves, and off-hand items. Wands matter early because they deal damage without spending mana, and the level 30 quests give a specialization-specific wand. Frost Armor, Ice Armor, and Mage Armor are mutually exclusive: keep one active.",
+      "text_es": "Cuando te quedas sin maná, la varita permite seguir dañando y mantener distancia mientras el recurso se recupera. Especialización en varitas aumenta su daño, y las varitas pueden ser especialmente potentes durante los primeros niveles.",
+      "text_en": "When mana runs low, a wand lets you keep dealing damage from range while the resource recovers. Wand Specialization increases its damage, and wands can be especially strong at early levels.",
       "tags": [
         "MAGE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Important Abilities",
-          "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
-          "date": "2026-11-10"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Leveling Guide › Gear and Where to Level",
-          "url": "https://www.icy-veins.com/wow-forever/arcane-mage-leveling",
-          "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Mage Class Quests Guide › Level 30 - Mage's Wand",
-          "url": "https://www.icy-veins.com/wow-forever/mage-class-quests",
+          "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Guide › Arcane Mage Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/arcane-mage-ranged-dps-pve-guide",
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:mage:arcane:leveling",
-        "class:mage:frost:leveling",
-        "class:mage:general:mage-class-quests"
+        "class:mage:arcane:overview"
       ],
       "source_hashes": [
-        "guide:83f3009e399872b83ae4e35cbbeb0bca84121613",
-        "section:8c3449fde8bb94666ba2f1ca6bd5166083e34389",
-        "section:f8835b73969640cb3ee8ecda6715e9fcd0bc6420"
+        "section:581db85b33ee3e85ded3e59f7d4c52940b198e8c"
       ]
     },
     {
@@ -455,8 +423,8 @@
       "status": "editorial",
       "title_es": "Control e interrupciones",
       "title_en": "Control and Interrupts",
-      "summary_es": "Polimorfia saca a un enemigo; Nova de Escarcha y Cono de frío frenan; Contrahechizo interrumpe.",
-      "summary_en": "Polymorph removes one enemy; Frost Nova and Cone of Cold slow; Counterspell interrupts.",
+      "summary_es": "Polimorfia, Nova de Escarcha, ralentizaciones y Contrahechizo controlan enemigos y lanzamientos.",
+      "summary_en": "Polymorph, Frost Nova, slows, and Counterspell control enemies and casts.",
       "keywords_es": [
         "control del mago",
         "polimorfia",
@@ -471,18 +439,12 @@
         "counterspell",
         "mage interrupt"
       ],
-      "text_es": "Polimorfia saca a un enemigo de la lucha, pero solo puedes mantener uno y el daño lo rompe. Nova de Escarcha congela, Cono de frío ralentiza y Ventisca castiga a grupos; Contrahechizo corta lanzamientos enemigos. Traslación te saca de apuros y puede romper raíces o aturdimientos; Bloqueo de hielo y Escudo de maná son tus defensas. En mazmorras, usa Polimorfia en el objetivo marcado y guarda Contrahechizo para curaciones o hechizos peligrosos.",
-      "text_en": "Polymorph removes one enemy from the fight, but you can keep only one and damage breaks it. Frost Nova freezes, Cone of Cold slows, and Blizzard punishes groups; Counterspell stops enemy casts. Blink gets you out of trouble and can break roots or stuns; Ice Block and Mana Shield are your defenses. In dungeons, Polymorph the marked target and save Counterspell for heals or dangerous spells.",
+      "text_es": "Polimorfia aparta a un enemigo, pero cualquier daño puede romperla. Nova de Escarcha congela y Cono de frío ralentiza; Traslación ayuda a escapar y puede romper raíces o aturdimientos. Contrahechizo interrumpe lanzamientos; Bloqueo de hielo y Escudo de maná son defensas de emergencia.",
+      "text_en": "Polymorph removes an enemy, but any damage can break it. Frost Nova freezes and Cone of Cold slows; Blink helps you escape and can break roots or stuns. Counterspell interrupts casts; Ice Block and Mana Shield are emergency defenses.",
       "tags": [
         "MAGE"
       ],
       "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Utility",
-          "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
-          "date": "2026-11-10"
-        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Guide › Would You Like Some Ice With That?",
@@ -490,14 +452,12 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:mage:frost:leveling",
         "class:mage:frost:overview"
       ],
       "source_hashes": [
-        "guide:cc9076f1ee8b567457f9a3dedd98d8b5b75ed2e1",
-        "section:78d781f138623ee988315235c6647db6a09cd48b"
+        "guide:cc9076f1ee8b567457f9a3dedd98d8b5b75ed2e1"
       ]
     },
     {
@@ -724,10 +684,10 @@
       "id": "clase-mage-misiones-clase",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Misiones de clase: equipo opcional",
-      "title_en": "Class Quests: Optional Gear",
-      "summary_es": "Las misiones de clase del Mago no desbloquean habilidades; las de nivel 10, 15 y 26 dan equipo de tela.",
-      "summary_en": "Mage class quests do not unlock abilities; the level 10, 15 and 26 chains give cloth gear.",
+      "title_es": "Misiones de clase del Mago",
+      "title_en": "Mage Class Quests",
+      "summary_es": "Las misiones de clase no desbloquean habilidades; se hacen por sus recompensas y experiencia.",
+      "summary_en": "Class quests unlock no abilities; do them for their rewards and experience.",
       "keywords_es": [
         "misiones de clase del mago",
         "mago misiones de nivel 10",
@@ -742,8 +702,8 @@
         "nether-lace garment",
         "mage class gear"
       ],
-      "text_es": "Las misiones de clase del Mago no desbloquean ninguna facultad: son opcionales y se hacen por equipo o experiencia. Las cadenas de nivel 10, 15 y 26 dan túnicas y otros objetos de tela. A partir de 30 aparecen las recompensas más duraderas, con una varita, un orbe, un collar y una versión cosmética de Polimorfia.",
-      "text_en": "Mage class quests do not unlock any ability: they are optional and done for gear or experience. The level 10, 15, and 26 chains give robes and other cloth items. From level 30 come the longer-lasting rewards: a wand, an orb, a necklace, and a cosmetic version of Polymorph.",
+      "text_es": "Las misiones de clase no desbloquean facultades; son opcionales y ofrecen experiencia o equipo. Las cadenas de nivel 10, 15 y 26 dan recompensas distintas según la raza, como orbes, bastones, varitas o prendas de tela. Algunas piezas pueden quedarse obsoletas pronto, así que valora si compensa el esfuerzo.",
+      "text_en": "Mage class quests unlock no abilities; they are optional and offer experience or gear. The level 10, 15, and 26 chains have race-specific rewards such as orbs, staves, wands, or cloth pieces. Some items can become outdated quickly, so weigh them against the effort.",
       "tags": [
         "MAGE"
       ],
@@ -753,14 +713,49 @@
           "ref": "Icy Veins: World of Warcraft: Forever Mage Class Quests Guide › Mage Class Quest Guide for World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/mage-class-quests",
           "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Mage Class Quests Guide › Orc & Troll Mage Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/mage-class-quests",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Mage Class Quests Guide › Undead Mage Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/mage-class-quests",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Mage Class Quests Guide › Human Mage Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/mage-class-quests",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Mage Class Quests Guide › Gnome Mage Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/mage-class-quests",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Mage Class Quests Guide › Skyborne Mage Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/mage-class-quests",
+          "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:mage:general:mage-class-quests"
       ],
       "source_hashes": [
-        "section:4189b157eb7cc556dd168034a85570907199f4c6"
+        "section:0035466b9afd0fd6d514aaba822d2f2489549820",
+        "section:3d5a96e9ba8dc447b6dd2267a74b9e1a8c071856",
+        "section:4189b157eb7cc556dd168034a85570907199f4c6",
+        "section:6aa53e05d7c115a0c6a3003fe9bc6067d5655a95",
+        "section:975574c7928bdd966b5dfb6335fc2bd6a87b4529",
+        "section:dc1921e56661f6a253a257212702b5e48caa1f48"
       ]
     },
     {
@@ -768,9 +763,9 @@
       "chapter": 4,
       "status": "editorial",
       "title_es": "Misiones de clase de nivel 30 a 60",
-      "title_en": "Class Quests from Level 30 to 60",
-      "summary_es": "Varitas de mago 30, Poder celestial 35, Destruye a Morphaz 50 y Magia fragmentada 60.",
-      "summary_en": "Mage's Wand 30, Celestial Power 35, Destroy Morphaz 50, and Fragmented Magic 60.",
+      "title_en": "Mage Quests from 30 to 60",
+      "summary_es": "Varitas de mago a 30, Poder celestial a 35, Destruye a Morphaz a 50 y Magia fragmentada a 60.",
+      "summary_en": "Mage’s Wand at 30, Celestial Power at 35, Destroy Morphaz at 50, and Fragmented Magic at 60.",
       "keywords_es": [
         "varitas de mago",
         "poder celestial",
@@ -785,43 +780,46 @@
         "fragmented magic",
         "mage quests level 30 50 60"
       ],
-      "text_es": "Varitas de mago empieza a nivel 30 y deja elegir una varita de especialización; el tramo final pide ayuda. Poder celestial empieza a 35 y permite elegir entre un orbe y un bastón; el orbe conserva un efecto de uso útil. Destruye a Morphaz empieza a 50 y da un collar, un objeto de trinket o una daga. Magia fragmentada, a 60, enseña Polimorfia: cerdo, una versión cosmética.",
-      "text_en": "Mage's Wand starts at level 30 and lets you choose a specialization wand; the final stretch needs help. Celestial Power starts at 35 and offers an orb or a staff; the orb keeps a useful on-use effect. Destroy Morphaz starts at 50 and gives a necklace, a trinket, or a dagger. Fragmented Magic, at 60, teaches Polymorph: Pig, a cosmetic version.",
+      "text_es": "Varitas de mago, disponible desde 30, ofrece una varita de especialización: Varita Furia de Hielo, Varita de potencia abisal o Varita Ira Ardiente. Poder celestial (35) permite elegir Orbe celestial o Bastón celestial; se recomienda el orbe por su efecto de uso reutilizable. Destruye a Morphaz (50) es una misión de mazmorra con recompensas que varían. Magia fragmentada (60) enseña Polimorfia: cerdo, una variante cosmética.",
+      "text_en": "Mage's Wand, available from 30, offers a specialization wand: Icefury Wand, Nether Force Wand, or Ragefire Wand. Celestial Power (35) lets you choose Celestial Orb or Celestial Stave; the orb is recommended for its reusable on-use effect. Destroy Morphaz (50) is a dungeon quest with rewards that vary. Fragmented Magic (60) teaches Polymorph: Pig, a cosmetic variant.",
       "tags": [
         "MAGE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Mage Class Quests Guide › Level 30 - Mage's Wand",
+          "ref": "Icy Veins: World of Warcraft: Forever Mage Class Quests Guide › Level 30 – Mage's Wand > Mage's Wand",
           "url": "https://www.icy-veins.com/wow-forever/mage-class-quests",
           "date": "2026-11-10"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Mage Class Quests Guide › Level 35 - Celestial Power",
+          "ref": "Icy Veins: World of Warcraft: Forever Mage Class Quests Guide › Level 35 – Celestial Power",
           "url": "https://www.icy-veins.com/wow-forever/mage-class-quests",
           "date": "2026-11-10"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Mage Class Quests Guide › Level 50 - Destroy Morphaz",
+          "ref": "Icy Veins: World of Warcraft: Forever Mage Class Quests Guide › Level 50 – Destroy Morphaz",
           "url": "https://www.icy-veins.com/wow-forever/mage-class-quests",
           "date": "2026-11-10"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Mage Class Quests Guide › Level 60 - Fragmented Magic",
+          "ref": "Icy Veins: World of Warcraft: Forever Mage Class Quests Guide › Level 60 – Fragmented Magic",
           "url": "https://www.icy-veins.com/wow-forever/mage-class-quests",
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:mage:general:mage-class-quests"
       ],
       "source_hashes": [
-        "guide:83f3009e399872b83ae4e35cbbeb0bca84121613"
+        "guide:83f3009e399872b83ae4e35cbbeb0bca84121613",
+        "section:14a386927081fa7cb9e77db5ace88ec80e3dc45a",
+        "section:2c55e5c3c6f677d1bb40d15d502b68d3a5e73b5f",
+        "section:ed4adaf44d89df4b1fff51f8f06d81cec83ae4d3"
       ]
     },
     {
@@ -889,8 +887,8 @@
       "status": "editorial",
       "title_es": "El Mago en grupo y mazmorras",
       "title_en": "Mage in Groups and Dungeons",
-      "summary_es": "Aporta daño, Polimorfia, Contrahechizo, comida, agua, Intelecto Arcano y portales; controla la amenaza.",
-      "summary_en": "Provides damage, Polymorph, Counterspell, food, water, Arcane Intellect and portals; manage threat.",
+      "summary_es": "Aporta daño, control, interrupciones, comida, agua, mejoras y portales; vigila la amenaza.",
+      "summary_en": "Brings damage, control, interrupts, food, water, buffs, and portals; watch threat.",
       "keywords_es": [
         "mago en grupo",
         "mago en mazmorras",
@@ -905,18 +903,12 @@
         "mage portal group",
         "mage threat"
       ],
-      "text_es": "El Mago aporta daño a distancia, Polimorfia, Contrahechizo, comida, agua, Intelecto Arcano y portales. Controla un enemigo con Polimorfia, interrumpe curaciones y usa Nova de Escarcha o Cono de frío para frenar al grupo. Su daño puede generar amenaza rápido, así que deja que el tanque coja el grupo y ten Traslación o Bloqueo de hielo para escapar. Las tres especializaciones son de daño; el Mago no cambia a tanque ni a sanador.",
-      "text_en": "A Mage brings ranged damage, Polymorph, Counterspell, food, water, Arcane Intellect, and portals. Remove one enemy with Polymorph, interrupt heals, and use Frost Nova or Cone of Cold to slow the pack. Its damage can build threat quickly, so let the tank gather the pack and keep Blink or Ice Block to escape. All three specializations deal damage; the Mage does not switch to tank or healer.",
+      "text_es": "El Mago aporta daño a distancia, Polimorfia, Contrahechizo, comida, agua, Intelecto Arcano y portales. Aparta un objetivo con Polimorfia e interrumpe hechizos peligrosos; Escarcha también ralentiza grupos. Las ráfagas de Arcano o los críticos de Fuego pueden atraer la amenaza del tanque, así que espera a que el grupo quede controlado antes de desatar el daño.",
+      "text_en": "A Mage brings ranged damage, Polymorph, Counterspell, food, water, Arcane Intellect, and portals. Remove one target with Polymorph and interrupt dangerous casts; Frost can also slow groups. Arcane bursts or Fire criticals can pull threat from the tank, so wait until the group is controlled before unleashing damage.",
       "tags": [
         "MAGE"
       ],
       "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Guide › Would You Like Some Ice With That?",
-          "url": "https://www.icy-veins.com/wow-forever/frost-mage-ranged-dps-pve-guide",
-          "date": "2026-11-10"
-        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Guide › Vending Machine, Open Trade?",
@@ -928,9 +920,15 @@
           "ref": "Icy Veins: World of Warcraft: Forever Fire Mage Guide › Vending Machine, Open Trade?",
           "url": "https://www.icy-veins.com/wow-forever/fire-mage-ranged-dps-pve-guide",
           "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Guide › Would You Like Some Ice With That?",
+          "url": "https://www.icy-veins.com/wow-forever/frost-mage-ranged-dps-pve-guide",
+          "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:mage:arcane:overview",
         "class:mage:fire:overview",
@@ -946,10 +944,10 @@
       "id": "clase-mage-arcano",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Arcano: ráfagas y maná",
+      "title_es": "Arcano: ráfaga y maná",
       "title_en": "Arcane: Burst and Mana",
-      "summary_es": "Arcano convierte maná en ráfagas altas; Explosión Arcana y Misiles Arcanos son su base.",
-      "summary_en": "Arcane turns mana into high burst; Arcane Blast and Arcane Missiles are its base.",
+      "summary_es": "Arcano combina gran ráfaga con una gestión de maná exigente y menor daño en movimiento.",
+      "summary_en": "Arcane pairs high burst with demanding mana management and weaker damage while moving.",
       "keywords_es": [
         "mago arcano",
         "arcano ráfaga",
@@ -964,35 +962,49 @@
         "arcane missiles",
         "arcane power"
       ],
-      "text_es": "Arcano destaca por ráfagas altas y por convertir maná en daño; Explosión Arcana y Misiles Arcanos son su base. Puede casi duplicar su daño en la ventana de Poder Arcano, pero depende del maná y se mueve peor que otros lanzadores. En grupo, espera a que el tanque tenga amenaza antes de abrir con la ráfaga y usa Presencia mental o Explosión de Fuego para no perder daño al moverte.",
-      "text_en": "Arcane stands out for high burst and for turning mana into damage; Arcane Blast and Arcane Missiles are its base. It can nearly double its damage during Arcane Power, but it depends on mana and moves worse than other casters. In a group, wait for the tank to have threat before opening with the burst, and use Presence of Mind or Fire Blast so movement does not cost all your damage.",
+      "text_es": "Arcano puede alcanzar una gran ráfaga con Poder Arcano, pero su rendimiento depende de administrar el maná y de la duración del combate. Explosión Arcana y Misiles Arcanos sostienen el daño; al moverte, tiene menos opciones que otras ramas y suele apoyarse en Presencia mental o Explosión de Fuego.",
+      "text_en": "Arcane can deliver powerful burst with Arcane Power, but its performance depends on mana management and fight length. Arcane Blast and Arcane Missiles sustain damage; while moving, it has fewer options than other trees and often relies on Presence of Mind or Fire Blast.",
       "tags": [
         "MAGE"
       ],
       "sources": [
         {
           "type": "editorial",
+          "ref": "Wowhead: Arcane Mage DPS Guide - WoW: Forever › Strengths and Weaknesses of Arcane Mage in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Guide › Arcane Mage Guide for World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/arcane-mage-ranged-dps-pve-guide",
           "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage DPS Guide - WoW: Forever › Changes to Arcane Mage in WoW Forever > New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/overview-pve-dps",
+          "date": "2026-11-14"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:mage:arcane:overview"
       ],
       "source_hashes": [
-        "section:581db85b33ee3e85ded3e59f7d4c52940b198e8c"
+        "guide:b64e31d011df677ff817121016967f50f569da23",
+        "section:581db85b33ee3e85ded3e59f7d4c52940b198e8c",
+        "section:befaff6edc623d1fd50d0d5d6708181e2244021d"
       ]
     },
     {
       "id": "clase-mage-fuego",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Fuego: daño directo y estallido",
-      "title_en": "Fire: Direct Damage and Burst",
-      "summary_es": "Fuego pega con Piroexplosión, Explosión de Fuego y Calentamiento; su área es fuerte pero tiene defensas débiles.",
-      "summary_en": "Fire hits with Pyroblast, Fire Blast and Heating Up; its area is strong but its defenses are weak.",
+      "title_es": "Fuego: críticos y estallido",
+      "title_en": "Fire: Criticals and Burst",
+      "summary_es": "Fuego escala con equipo y críticos para activar Ignición y Calentamiento; su daño depende del azar.",
+      "summary_en": "Fire scales with gear and criticals to trigger Ignite and Heating Up; output has some variance.",
       "keywords_es": [
         "mago fuego",
         "fuego piroexplosión",
@@ -1007,25 +1019,32 @@
         "fire flamestrike",
         "fire mage aoe"
       ],
-      "text_es": "Fuego es la especialización de daño directo y estallido de área; Piroexplosión, Explosión de Fuego y Calentamiento son su núcleo. Fogonazo y Ola explosiva castigan grupos, pero acercarse y generar críticos puede quitarle la amenaza al tanque. Tiene defensas débiles y depende del equipo; mantén Nova de Escarcha o Traslación para escapar y usa Escudo de maná con cuidado.",
-      "text_en": "Fire is the direct-damage and area-burst specialization; Pyroblast, Fire Blast, and Heating Up are its core. Flamestrike and Blast Wave punish groups, but getting close and generating criticals can pull threat from the tank. It has weak defenses and depends on gear; keep Frost Nova or Blink to escape and use Mana Shield carefully.",
+      "text_es": "Fuego tiene un techo de daño alto y escala con el equipo, pero necesita golpes críticos y su rendimiento puede variar. Ignición convierte críticos en daño prolongado; Calentamiento y Explosión de Fuego preparan Piroexplosión rápida. En mazmorras, vigila la amenaza al encadenar críticos y usa herramientas de escape si el enemigo se acerca.",
+      "text_en": "Fire has a high damage ceiling and scales with gear, but it needs critical strikes and its output can vary. Ignite turns criticals into damage over time; Heating Up and Fire Blast set up faster Pyroblast casts. In dungeons, watch threat when chaining criticals and keep an escape tool ready if an enemy closes in.",
       "tags": [
         "MAGE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Fire Mage Guide › Fire Mage Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/fire-mage-ranged-dps-pve-guide",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Fire Mage DPS Guide - WoW: Forever › Strengths and Weaknesses of Fire Mage in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage DPS Guide - WoW: Forever › Fire Mage Specific Systems in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/overview-pve-dps",
+          "date": "2026-11-14"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:mage:fire:overview"
       ],
       "source_hashes": [
-        "section:f5c329b6db4ef89b6b9ba80fcef316ba5b0ccaa6"
+        "section:502f561eb826d854374ac8213be3f23403bd4748",
+        "section:5302603b8b7a44c7903e0a4e315b5c4222234156"
       ]
     },
     {
@@ -1034,8 +1053,8 @@
       "status": "editorial",
       "title_es": "Escarcha: control y seguridad",
       "title_en": "Frost: Control and Safety",
-      "summary_es": "Escarcha cambia daño por control: Descarga de Escarcha, Lanza de hielo y Barrera de hielo la hacen segura.",
-      "summary_en": "Frost trades damage for control: Frostbolt, Ice Lance and Ice Barrier make it safe.",
+      "summary_es": "Escarcha ralentiza y congela para sobrevivir; ofrece daño constante, pero menos ráfaga.",
+      "summary_en": "Frost slows and freezes to survive; it deals steady damage but has less burst.",
       "keywords_es": [
         "mago escarcha",
         "escarcha control",
@@ -1050,25 +1069,986 @@
         "ice lance",
         "ice barrier"
       ],
-      "text_es": "Escarcha cambia daño por control: Descarga de Escarcha, Lanza de hielo y Dedos de Escarcha mantienen al enemigo lejos y permiten un nivel seguro. No suele liderar el daño, pero es constante y tiene Barrera de hielo, Bloqueo de hielo y Escudo de maná para sobrevivir. En grupo, sus ralentizaciones y congelaciones ayudan a kitar y a recuperar un pull; Cono de frío puede mantener el frío en varios enemigos.",
-      "text_en": "Frost trades damage for control: Frostbolt, Ice Lance, and Fingers of Frost keep enemies away and make leveling safe. It rarely leads the damage meter, but it is consistent and has Ice Barrier, Ice Block, and Mana Shield to survive. In a group, its slows and freezes help kite and recover a pull; Cone of Cold can keep several enemies chilled.",
+      "text_es": "Escarcha destaca por ralentizar y congelar enemigos, lo que facilita mantener distancia y sobrevivir. Lanza de hielo aprovecha objetivos congelados y Dedos de Escarcha permite reaccionar a procs; también aporta daño en área. A cambio, tiene menos ráfaga y puede perder eficacia ante enemigos inmunes o resistentes al daño de Escarcha.",
+      "text_en": "Frost excels at slowing and freezing enemies, helping you keep distance and survive. Ice Lance exploits frozen targets and Fingers of Frost rewards reacting to procs; the tree also offers area damage. In return, its burst is lower and it can lose effectiveness against enemies immune or resistant to Frost damage.",
       "tags": [
         "MAGE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Guide › Frost Mage Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/frost-mage-ranged-dps-pve-guide",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Frost Mage DPS Guide - WoW: Forever › Strengths and Weaknesses of Frost Mages in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Frost Mage DPS Guide - WoW: Forever › Overview of Frost Mages in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/overview-pve-dps",
+          "date": "2026-11-14"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:mage:frost:overview"
       ],
       "source_hashes": [
-        "section:6fd9bf57f1ff60c44f1f9a45094e658bb1621f0a"
+        "section:13076b6abda599255a51b5b2844ceb7954cf69f1",
+        "section:e79b13c2d05cdd97fbf0c249381b26d24a67bb1f"
+      ]
+    },
+    {
+      "id": "clase-mage-sistema-arcano",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Acumulaciones de Explosión Arcana",
+      "title_en": "Arcane Blast Stacks",
+      "summary_es": "Cuatro acumulaciones aumentan el daño, pero elevan el coste de Explosión Arcana.",
+      "summary_en": "Four stacks increase damage but raise Arcane Blast’s mana cost.",
+      "keywords_es": [
+        "acumulaciones de explosión arcana",
+        "daño de arcano por intelecto",
+        "coste de explosión arcana",
+        "gestionar maná arcano"
+      ],
+      "keywords_en": [
+        "arcane blast stacks",
+        "arcane damage from intellect",
+        "arcane blast mana cost",
+        "arcane mana management"
+      ],
+      "text_es": "Explosión Arcana acumula hasta 4 efectos durante 18 segundos desde el primero; cada uno añade daño con hechizos equivalente al 12% de tu intelecto. Las acumulaciones también encarecen la siguiente Explosión Arcana, así que puedes construirlas poco a poco o guardarlas para una ventana de daño.",
+      "text_en": "Arcane Blast builds up to 4 stacks lasting 18 seconds from the first application; each adds spell damage equal to 12% of your Intellect. Stacks also raise the mana cost of the next Arcane Blast, so build them gradually or save them for a damage window.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage DPS Guide - WoW: Forever › Arcane Mage Specific Systems in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage DPS Guide - WoW: Forever › Changes to Arcane Mage in WoW Forever > New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/overview-pve-dps",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:overview"
+      ],
+      "source_hashes": [
+        "guide:b64e31d011df677ff817121016967f50f569da23",
+        "section:3086d61e1603bd77328e37a6ed50953d13522230"
+      ]
+    },
+    {
+      "id": "clase-mage-stats-arcano",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Arcano",
+      "title_en": "Arcane Stat Priority",
+      "summary_es": "Propuesta: 17% golpe, daño de hechizos/Arcano, crítico, penetración, celeridad, intelecto, espíritu y aguante.",
+      "summary_en": "Proposed order: hit to 17%, spell/Arcane damage, crit, piercing, haste, Intellect, Spirit, Stamina.",
+      "keywords_es": [
+        "prioridad estadísticas arcano",
+        "golpe arcano 17%",
+        "penetración de hechizos mago",
+        "daño arcano e intelecto"
+      ],
+      "keywords_en": [
+        "arcane stat priority",
+        "17% arcane hit",
+        "mage spell piercing",
+        "arcane damage intellect"
+      ],
+      "text_es": "La prioridad propuesta —especulativa y no probada a nivel 60— es golpe hasta 17%, Poder con hechizos y daño Arcano, golpe crítico, penetración de hechizos, celeridad, intelecto, espíritu y aguante. El golpe es lo primero; el poder de hechizos aumenta el daño y Arcano también escala con intelecto y maná.",
+      "text_en": "The proposed order—speculative and untested at level 60—is hit to 17%, spell and Arcane damage, critical strike, spell piercing, haste, Intellect, Spirit, and Stamina. Hit comes first; spell power raises damage, and Arcane also scales with Intellect and mana.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage DPS Attribute and Stat Guide - WoW: Forever › Arcane Mage Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/stat-priority-pve-dps",
+          "date": "2026-10-28"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:stats"
+      ],
+      "source_hashes": [
+        "section:881a2b3f12b408a34af0b79f6231a7f730885169"
+      ]
+    },
+    {
+      "id": "clase-mage-stats-fuego",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Fuego",
+      "title_en": "Fire Stat Priority",
+      "summary_es": "Propuesta: 17% golpe, daño de hechizos/Fuego, crítico, penetración, celeridad, intelecto, espíritu y aguante.",
+      "summary_en": "Proposed order: hit to 17%, spell/Fire damage, crit, piercing, haste, Intellect, Spirit, Stamina.",
+      "keywords_es": [
+        "prioridad estadísticas fuego",
+        "golpe fuego 17%",
+        "daño de fuego mago",
+        "estadísticas ignición calentamiento"
+      ],
+      "keywords_en": [
+        "fire stat priority",
+        "17% fire hit",
+        "mage fire damage stats",
+        "ignite heating up stats"
+      ],
+      "text_es": "La prioridad propuesta —especulativa y no probada a nivel 60— es golpe hasta 17%, Poder con hechizos y daño de Fuego, golpe crítico, penetración de hechizos, celeridad, intelecto, espíritu y aguante. El golpe evita lanzamientos fallidos; el crítico también potencia Ignición y ayuda a activar Calentamiento.",
+      "text_en": "The proposed order—speculative and untested at level 60—is hit to 17%, spell and Fire damage, critical strike, spell piercing, haste, Intellect, Spirit, and Stamina. Hit prevents missed casts; criticals also strengthen Ignite and help trigger Heating Up.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage DPS Attribute and Stat Guide - WoW: Forever › Fire Mage Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/stat-priority-pve-dps",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage DPS Guide - WoW: Forever › Changes to Fire Mage in WoW Forever > New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage DPS Guide - WoW: Forever › Changes to Fire Mage in WoW Forever > New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/overview-pve-dps",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:fire:overview",
+        "class:mage:fire:stats"
+      ],
+      "source_hashes": [
+        "guide:6baf0cfd8d654fbbea58f486ec3e16abab897d34",
+        "section:ed0030c7d2ca489d2b0efe0bb449c9cfddabc5ff"
+      ]
+    },
+    {
+      "id": "clase-mage-stats-escarcha",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Escarcha",
+      "title_en": "Frost Stat Priority",
+      "summary_es": "Prioridad propuesta: golpe hasta 11–12% (5–6% por talentos), crítico, daño, intelecto, espíritu y aguante.",
+      "summary_en": "Proposed order: hit to 11–12% (5–6% from talents), crit, spell damage, Intellect, Spirit, Stamina.",
+      "keywords_es": [
+        "prioridad estadísticas escarcha",
+        "golpe escarcha 11 12",
+        "talentos golpe escarcha",
+        "daño de escarcha crítico"
+      ],
+      "keywords_en": [
+        "frost stat priority",
+        "11 12 frost hit",
+        "frost hit talents",
+        "frost spell damage crit"
+      ],
+      "text_es": "La prioridad propuesta —especulativa y no probada a nivel 60— es golpe hasta 11–12% (5–6% provienen de talentos), golpe crítico, daño con hechizos de Escarcha y Arcano, intelecto, espíritu y aguante. Fuerza, agilidad y poder de ataque no aportan a esta especialización.",
+      "text_en": "The proposed order—speculative and untested at level 60—is hit to 11–12% (5–6% comes from talents), critical strike, Frost and Arcane spell damage, Intellect, Spirit, and Stamina. Strength, Agility, and Attack Power do not benefit this specialization.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Frost Mage Stat Priority & Attributes - WoW: Forever › Frost Mage Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/stat-priority-pve-dps",
+          "date": "2026-10-29"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:frost:stats"
+      ],
+      "source_hashes": [
+        "section:c285c32d9d20f1ea2bb23a7758ad93024201f92f"
+      ]
+    },
+    {
+      "id": "clase-mage-rotacion-arcano",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación Arcano-Fuego",
+      "title_en": "Arcane Fire Rotation",
+      "summary_es": "Piroexplosión con 3 Calentamiento; Explosión de Fuego; Misiles con Tromba; Explosión Arcana y Cólera Arcana.",
+      "summary_en": "Pyroblast at 3 Heating Up; Fire Blast; Missiles on Barrage; Arcane Blast and Arcane Wrath.",
+      "keywords_es": [
+        "rotación arcano fuego",
+        "prioridad arcano mage",
+        "tres acumulaciones calentamiento",
+        "cuándo lanzar piroexplosión"
+      ],
+      "keywords_en": [
+        "arcane fire rotation",
+        "arcane mage priority",
+        "three heating up stacks",
+        "when to cast pyroblast"
+      ],
+      "text_es": "En la build Arcano-Fuego, usa Piroexplosión con 3 acumulaciones de Calentamiento; Explosión de Fuego al estar disponible; Misiles Arcanos cuando se active Tromba de misiles; Explosión Arcana hasta 4 acumulaciones; y Cólera Arcana si no está en reutilización. Chamuscar es la opción final cuando lo anterior no está disponible. Evocación se usa cuando el maná está por agotarse.",
+      "text_en": "Single-target priority: use Pyroblast at 3 Heating Up stacks; Fire Blast when available; Arcane Missiles when Missile Barrage triggers; Arcane Blast up to its 4-stack limit; and Arcane Wrath when off cooldown. Scorch is the fallback when none of those are available. Use Evocation when mana is nearly depleted.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Arcane Mages in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/rotation-cooldowns-pve-dps",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Arcane Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/rotation-cooldowns-pve-dps",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage DPS Rotation and Cooldowns - WoW: Forever › Best Arcane Mage Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/rotation-cooldowns-pve-dps",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:rotation"
+      ],
+      "source_hashes": [
+        "section:663faea8c3d3b53f9f40994d682eaffeecffffb0",
+        "section:6d749148c52f1075ce3201a7308a11704ff831fe",
+        "section:a37d63aac2e8b17dc5e110cde22bf3b8f85bda43"
+      ]
+    },
+    {
+      "id": "clase-mage-rotacion-arcano-puro",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Arcano puro",
+      "title_en": "Pure Arcane Rotation",
+      "summary_es": "Contra inmunidad al Fuego, alterna Tromba de misiles, Cólera Arcana y Explosión Arcana según el maná.",
+      "summary_en": "Against Fire immunity, cycle Barrage, Arcane Wrath, and Arcane Blast according to mana.",
+      "keywords_es": [
+        "rotación arcano puro",
+        "arcano contra inmunidad fuego",
+        "arcano mucho maná",
+        "arcano poco maná"
+      ],
+      "keywords_en": [
+        "pure arcane rotation",
+        "arcane fire immune",
+        "heavy mana arcane",
+        "low mana arcane"
+      ],
+      "text_es": "Contra enemigos inmunes al daño de Fuego, esta variante causa menos daño que Arcano-Fuego, pero evita depender de esa escuela. Con mucho maná, lanza Misiles Arcanos al activarse Tromba de misiles; si no, Explosión Arcana, y usa Cólera Arcana cuando esté disponible. En la variante de menor consumo, limita Explosión Arcana a 4 acumulaciones y usa Misiles Arcanos como relleno.",
+      "text_en": "When enemies are immune to Fire damage, this variant deals less than Arcane-Fire but avoids relying on that school. With ample mana, cast Arcane Missiles when Missile Barrage procs; otherwise use Arcane Blast, and use Arcane Wrath when available. In the lower-mana variant, cap Arcane Blast at 4 stacks and use Arcane Missiles as filler.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage DPS Rotation and Cooldowns - WoW: Forever › All Arcane Mage DPS Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/rotation-cooldowns-pve-dps",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Arcane Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/rotation-cooldowns-pve-dps",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Arcane Mages in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/rotation-cooldowns-pve-dps",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage DPS Guide - WoW: Forever › Best Arcane Mage PvE Raid and Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage DPS Guide - WoW: Forever › Arcane Mage Specific Systems in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/overview-pve-dps",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:overview",
+        "class:mage:arcane:rotation",
+        "class:mage:arcane:talents"
+      ],
+      "source_hashes": [
+        "section:3086d61e1603bd77328e37a6ed50953d13522230",
+        "section:5f9a0cc83d872d8fbc606574696ce8837d5b45b1",
+        "section:6d749148c52f1075ce3201a7308a11704ff831fe",
+        "section:85c298995930002eba1995892df4455e93c6ade0",
+        "section:a37d63aac2e8b17dc5e110cde22bf3b8f85bda43"
+      ]
+    },
+    {
+      "id": "clase-mage-rotacion-arcano-area",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Área y reutilizaciones de Arcano",
+      "title_en": "Arcane AoE and Cooldowns",
+      "summary_es": "Prelanza Fogonazo si hay tiempo y no atraes amenaza; después, Deflagración Arcana.",
+      "summary_en": "Pre-cast Flamestrike if time and threat allow; then Arcane Explosion.",
+      "keywords_es": [
+        "arcano daño área",
+        "deflagración arcana aoe",
+        "fogonazo antes del pull",
+        "poder arcano secuencia"
+      ],
+      "keywords_en": [
+        "arcane aoe",
+        "arcane explosion rotation",
+        "flamestrike precast",
+        "arcane power sequence"
+      ],
+      "text_es": "En área, prelanza Fogonazo si tienes tiempo y la amenaza lo permite; después usa Deflagración Arcana. Para la ventana de Poder Arcano, prepara Cólera Arcana, lanza Explosión Arcana hasta activar Tromba de misiles, activa Poder Arcano y gasta el proc; luego usa Presencia mental y Cólera Arcana si está disponible, o Explosión Arcana por debajo de 4 acumulaciones.",
+      "text_en": "For area damage, pre-cast Flamestrike if you have time and threat allows, then use Arcane Explosion. Cooldown sequence: prepare Arcane Wrath, cast Arcane Blast until Missile Barrage procs, activate Arcane Power and spend the proc; then use Presence of Mind and Arcane Wrath if available, or Arcane Blast below 4 stacks.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Arcane Mage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/rotation-cooldowns-pve-dps",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage DPS Rotation and Cooldowns - WoW: Forever › Best Arcane Mage Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/rotation-cooldowns-pve-dps",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:rotation"
+      ],
+      "source_hashes": [
+        "section:403f62142b48c094f0554aba3efcd34eb8c3bf10",
+        "section:663faea8c3d3b53f9f40994d682eaffeecffffb0"
+      ]
+    },
+    {
+      "id": "clase-mage-rotacion-fuego",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Fuego profundo",
+      "title_en": "Deep Fire Rotation",
+      "summary_es": "Prelanza Piroexplosión; mantén Chamuscar; gestiona Calentamiento, Explosión de Fuego y Tromba de misiles.",
+      "summary_en": "Pre-cast Pyroblast; maintain Scorch; manage Heating Up, Fire Blast, and Missile Barrage.",
+      "keywords_es": [
+        "rotación fuego profundo",
+        "prioridad fuego mago",
+        "calentamiento tres cargas",
+        "chamuscar cinco acumulaciones"
+      ],
+      "keywords_en": [
+        "deep fire rotation",
+        "fire mage priority",
+        "three heating up stacks",
+        "five scorch stacks"
+      ],
+      "text_es": "En Fuego profundo, prelanza Piroexplosión y mantén Chamuscar con 5 acumulaciones. Usa Piroexplosión con 3 Calentamiento, Explosión de Fuego al estar disponible y Misiles Arcanos con Tromba de misiles; usa Bola de Fuego como relleno. La variante teórica añade Explosión Arcana a 1 acumulación y la renueva al expirar; Bola de Fuego si a Explosión de Fuego le quedan más de 3 segundos, Chamuscar si quedan menos.",
+      "text_en": "Single-target priority: pre-cast Pyroblast and maintain 5 Scorch stacks. Use Pyroblast at 3 Heating Up stacks, Fire Blast when ready, and Arcane Missiles on Missile Barrage; use Fireball as filler. The theoretical variant adds Arcane Blast at 1 stack and refreshes it when it expires; use Fireball if Fire Blast has over 3 seconds remaining, Scorch if under 3.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Fire Mages in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/rotation-cooldowns-pve-dps",
+          "date": "2026-10-31"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:fire:rotation"
+      ],
+      "source_hashes": [
+        "section:08a94efa984bc36e232333b7fb1dd6c9006dbb33"
+      ]
+    },
+    {
+      "id": "clase-mage-rotacion-fuego-pirofrio",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Pirofrío",
+      "title_en": "Frostfire Rotation",
+      "summary_es": "Con Dedos de Escarcha, combina Piroexplosión o Descarga de Pirofrío y encola Explosión de Fuego.",
+      "summary_en": "With Fingers of Frost, use Pyroblast or Frostfire Bolt and queue Fire Blast.",
+      "keywords_es": [
+        "rotación pirofrío",
+        "descarga pirofrío dedos de escarcha",
+        "prioridad fuego escarcha",
+        "piroexplosión calentamiento"
+      ],
+      "keywords_en": [
+        "frostfire rotation",
+        "frostfire fingers of frost",
+        "fire frost priority",
+        "pyroblast heating up"
+      ],
+      "text_es": "Una activación de Dedos de Escarcha concede dos cargas: gasta la primera con Piroexplosión si Calentamiento está a 3; si no, Descarga de Pirofrío. En la segunda, usa Piroexplosión si corresponde y encola Explosión de Fuego; después, Explosión de Fuego al estar disponible y Descarga de Pirofrío.",
+      "text_en": "A Fingers of Frost proc grants two charges: spend the first on Pyroblast if Heating Up is at 3; otherwise cast Frostfire Bolt. On the second, use Pyroblast if applicable and queue Fire Blast; then use Fire Blast when ready and Frostfire Bolt.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Fire Mages in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/rotation-cooldowns-pve-dps",
+          "date": "2026-10-31"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:fire:rotation"
+      ],
+      "source_hashes": [
+        "section:08a94efa984bc36e232333b7fb1dd6c9006dbb33"
+      ]
+    },
+    {
+      "id": "clase-mage-rotacion-fuego-area",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Área y reutilizaciones de Fuego",
+      "title_en": "Fire AoE and Cooldowns",
+      "summary_es": "Prelanza Fogonazo si puedes agrupar; luego Ola explosiva si tienes talento o Deflagración Arcana.",
+      "summary_en": "Pre-cast Flamestrike while gathering; then Blast Wave if talented or Arcane Explosion.",
+      "keywords_es": [
+        "fuego daño área",
+        "fogonazo ola explosiva",
+        "combustión fuego cuándo",
+        "evocación fuego maná"
+      ],
+      "keywords_en": [
+        "fire aoe rotation",
+        "flamestrike blast wave",
+        "when to use combustion",
+        "fire evocation mana"
+      ],
+      "text_es": "Para área, prelanza Fogonazo durante el tiempo de agrupación si la amenaza lo permite; luego usa Ola explosiva si tienes el talento o Deflagración Arcana. Usa Combustión cuando esté disponible con Chamuscar al máximo y Calentamiento preparado. Activa Evocación cuando estés cerca de agotar el maná; puedes cancelarla si ya tienes suficiente para terminar el combate.",
+      "text_en": "For area damage, pre-cast Flamestrike while enemies gather if threat allows; then use Blast Wave if talented or Arcane Explosion. Use Combustion when ready with Scorch fully stacked and Heating Up prepared. Start Evocation when close to running out of mana; cancel early if you already have enough to finish the fight.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Fire Mage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/rotation-cooldowns-pve-dps",
+          "date": "2026-10-31"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage DPS Rotation and Cooldowns - WoW: Forever › Best Fire Mage Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/rotation-cooldowns-pve-dps",
+          "date": "2026-10-31"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:fire:rotation"
+      ],
+      "source_hashes": [
+        "section:98e680db5fd0d42de2bf422509899b009e957ba9",
+        "section:bc060394e015acbcb2bcc483364a3d90852458dd"
+      ]
+    },
+    {
+      "id": "clase-mage-rotacion-escarcha",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Escarcha (1–2 objetivos)",
+      "title_en": "Frost Rotation (1–2 Targets)",
+      "summary_es": "Usa Mordedura helada para reiniciar Cono de frío; aprovecha Dedos de Escarcha, Escalofrío del invierno y Barrera.",
+      "summary_en": "Use Cold Snap to reset Cone of Cold; exploit Fingers of Frost, Winter’s Chill, and Barrier.",
+      "keywords_es": [
+        "rotación escarcha uno dos objetivos",
+        "prioridad dedos de escarcha",
+        "escalofrío del invierno cinco",
+        "mordedura helada cono frío"
+      ],
+      "keywords_en": [
+        "frost rotation one two targets",
+        "fingers of frost priority",
+        "five winters chill stacks",
+        "cold snap cone of cold"
+      ],
+      "text_es": "Antes del pull, usa Barrera de hielo 4 segundos antes y Descarga de Escarcha 2,5 segundos antes. En combate, si falta maná usa Evocación o Rubí de maná; Mordedura helada si Cono de frío tiene más de 7 segundos de reutilización; Cono de frío con 5 Escalofrío del invierno; con 1 Dedos de Escarcha, lanza Descarga de Escarcha y encola Lanza de hielo; mantén Barrera para Poder gélido y rellena con Descarga de Escarcha.",
+      "text_en": "Before the pull, use Ice Barrier 4 seconds ahead and Frostbolt 2.5 seconds ahead. In combat, use Evocation or Mana Ruby if mana is low; Cold Snap if Cone of Cold has over 7 seconds left; Cone of Cold at 5 Winter’s Chill stacks; with 1 Fingers of Frost charge, cast Frostbolt and queue Ice Lance; maintain Barrier for Frigid Power and fill with Frostbolt.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Frost Mage DPS Rotation and Cooldowns - WoW: Forever › All Frost Mage DPS Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/rotation-cooldowns-pve-dps",
+          "date": "2026-11-02"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:frost:rotation"
+      ],
+      "source_hashes": [
+        "section:d4a0bf840e91b67e7f969d25cd2e65ed753f500f"
+      ]
+    },
+    {
+      "id": "clase-mage-rotacion-escarcha-area",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de área de Escarcha (3+ objetivos)",
+      "title_en": "Frost AoE Rotation (3+ Targets)",
+      "summary_es": "Con 3 o más objetivos, alterna Ventisca, Cono de frío y Lanza de hielo según Dedos de Escarcha.",
+      "summary_en": "Against 3+ targets, cycle Blizzard, Cone of Cold, and Ice Lance around Fingers of Frost.",
+      "keywords_es": [
+        "rotación área escarcha tres objetivos",
+        "ventisca cono frío lanza hielo",
+        "dedos de escarcha área",
+        "mordedura helada aoe"
+      ],
+      "keywords_en": [
+        "frost aoe three targets",
+        "blizzard cone cold ice lance",
+        "fingers of frost aoe",
+        "cold snap aoe"
+      ],
+      "text_es": "Con 3 o más objetivos, lanza Lanza de hielo con una carga de Dedos de Escarcha y usa Mordedura helada si Cono de frío tiene más de 5 segundos de reutilización y hay una carga. Usa Cono de frío con la carga, renueva Barrera de hielo si cae y canaliza Ventisca; el ciclo principal es Ventisca, Cono de frío y Lanza de hielo.",
+      "text_en": "Against 3 or more targets, cast Ice Lance with a Fingers of Frost charge and use Cold Snap if Cone of Cold has over 5 seconds left and a charge is available. Use Cone of Cold with a charge, refresh Ice Barrier if it falls, and channel Blizzard; the main cycle is Blizzard, Cone of Cold, and Ice Lance.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Frost Mage DPS Rotation and Cooldowns - WoW: Forever › All Frost Mage DPS Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/rotation-cooldowns-pve-dps",
+          "date": "2026-11-02"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Frost Mage DPS Rotation and Cooldowns - WoW: Forever › Best Frost Mage Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/rotation-cooldowns-pve-dps",
+          "date": "2026-11-02"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:frost:rotation"
+      ],
+      "source_hashes": [
+        "section:6f5fb9654741f66ad81f74afb12468944e045a77",
+        "section:d4a0bf840e91b67e7f969d25cd2e65ed753f500f"
+      ]
+    },
+    {
+      "id": "clase-mage-build-arcano-pve",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build PvE Arcano-Fuego",
+      "title_en": "Arcane-Fire PvE Build",
+      "summary_es": "Build de banda Arcano-Fuego con Calentamiento, Tromba de misiles y Poder Arcano.",
+      "summary_en": "Arcane-Fire raid build with Heating Up, Missile Barrage, and Arcane Power.",
+      "keywords_es": [
+        "build arcano fuego",
+        "talentos arcano fuego",
+        "build arcano pve",
+        "poder arcano mago"
+      ],
+      "keywords_en": [
+        "arcane fire build",
+        "arcane fire talents",
+        "arcane pve build",
+        "mage arcane power"
+      ],
+      "text_es": "Arcano: Canalización mejorada 5/5, Sutileza Arcana 2/2, Concentración Arcana 5/5, Tromba de misiles 2/2, Impacto Arcano 3/3, Explosión Arcana 1/1, Meditación Arcana 3/3, Cólera Arcana 1/1, Presencia mental 1/1, Mente Arcana 5/5, Inestabilidad Arcana 3/3 y Poder Arcano 1/1. Fuego: Incineración 5/5, Acelerante 2/5, Ignición 5/5, Piroexplosión 1/1, Explosión de Fuego mejorada 2/2 y Calentamiento 1/1. Escarcha: Precisión 3/3. Fuego aporta Piroexplosión y Chamuscar mejorado; Arcano añade maná, Tromba de misiles y ráfaga.",
+      "text_en": "Arcane: Improved Channeling 5/5, Arcane Subtlety 2/2, Arcane Concentration 5/5, Missile Barrage 2/2, Arcane Impact 3/3, Arcane Blast 1/1, Arcane Meditation 3/3, Arcane Wrath 1/1, Presence of Mind 1/1, Arcane Mind 5/5, Arcane Instability 3/3, and Arcane Power 1/1. Fire: Incineration 5/5, Accelerant 2/5, Ignite 5/5, Pyroblast 1/1, Improved Fire Blast 2/2, and Heating Up 1/1. Frost: Precision 3/3. Fire adds Pyroblast and Improved Scorch; Arcane supplies mana support, Missile Barrage, and burst.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Arcane Mage Talent Tree Builds - WoW: Forever › Best Arcane Mage PvE Raid and Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:talents"
+      ],
+      "source_hashes": [
+        "section:85c298995930002eba1995892df4455e93c6ade0"
+      ]
+    },
+    {
+      "id": "clase-mage-build-arcano-puro",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build PvE de Arcano puro",
+      "title_en": "Pure Arcane PvE Build",
+      "summary_es": "Alternativa Arcana para encuentros con enemigos inmunes al Fuego.",
+      "summary_en": "Arcane alternative for encounters with Fire-immune enemies.",
+      "keywords_es": [
+        "build arcano puro",
+        "arcano inmunidad fuego",
+        "talentos arcano puro",
+        "build contra fuego inmune"
+      ],
+      "keywords_en": [
+        "pure arcane build",
+        "arcane fire immune",
+        "pure arcane talents",
+        "fire immune build"
+      ],
+      "text_es": "Arcano: Canalización mejorada 5/5, Sutileza Arcana 2/2, Concentración Arcana 5/5, Tromba de misiles 2/2, Geometría Arcana 2/2, Impacto Arcano 3/3, Explosión Arcana 1/1, Contrahechizo mejorado 1/2, Meditación Arcana 3/3, Cólera Arcana 1/1, Presencia mental 1/1, Mente Arcana 5/5, Inestabilidad Arcana 3/3 y Poder Arcano 1/1. Fuego: Incineración 5/5, Acelerante 5/5 y Fogonazo mejorado 3/3. Escarcha: Precisión 3/3. Hace menos daño que Arcano-Fuego, pero sirve contra inmunidad al Fuego; los puntos flexibles añaden área o utilidad.",
+      "text_en": "Arcane: Improved Channeling 5/5, Arcane Subtlety 2/2, Arcane Concentration 5/5, Missile Barrage 2/2, Arcane Geometry 2/2, Arcane Impact 3/3, Arcane Blast 1/1, Improved Counterspell 1/2, Arcane Meditation 3/3, Arcane Wrath 1/1, Presence of Mind 1/1, Arcane Mind 5/5, Arcane Instability 3/3, and Arcane Power 1/1. Fire: Incineration 5/5, Accelerant 5/5, and Improved Flamestrike 3/3. Frost: Precision 3/3. It deals less than Arcane-Fire but works against Fire immunity; flexible points add area damage or utility.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Arcane Mage Talent Tree Builds - WoW: Forever › Best Arcane Mage PvE Raid and Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:talents"
+      ],
+      "source_hashes": [
+        "section:85c298995930002eba1995892df4455e93c6ade0"
+      ]
+    },
+    {
+      "id": "clase-mage-build-arcano-pvp",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build PvP Arcano-Fuego",
+      "title_en": "Arcane-Fire PvP Build",
+      "summary_es": "Build de ráfaga con Presencia mental, Piroexplosión y herramientas de control.",
+      "summary_en": "Burst build with Presence of Mind, Pyroblast, and control tools.",
+      "keywords_es": [
+        "build arcano pvp",
+        "talentos arcano fuego pvp",
+        "piroexplosión presencia mental",
+        "contrahechizo mejorado mago"
+      ],
+      "keywords_en": [
+        "arcane pvp build",
+        "arcane fire pvp talents",
+        "pyroblast presence of mind",
+        "improved counterspell mage"
+      ],
+      "text_es": "Arcano: Canalización mejorada 5/5, Sutileza Arcana 2/2, Concentración Arcana 5/5, Tromba de misiles 2/2, Geometría Arcana 2/2, Explosión Arcana 1/1, Contrahechizo mejorado 2/2, Meditación Arcana 2/3, Cólera Arcana 1/1, Presencia mental 1/1, Mente Arcana 5/5, Inestabilidad Arcana 3/3 y Poder Arcano 1/1. Fuego: Incineración 5/5, Ignición 5/5, Lanzallamas 2/2, Impacto 3/3, Piroexplosión 1/1, Explosión de Fuego mejorada 2/2 y Calentamiento 1/1. La build busca una ráfaga de Piroexplosión y Cólera Arcana tras el control; Impacto añade una posibilidad de aturdir.",
+      "text_en": "Arcane: Improved Channeling 5/5, Arcane Subtlety 2/2, Arcane Concentration 5/5, Missile Barrage 2/2, Arcane Geometry 2/2, Arcane Blast 1/1, Improved Counterspell 2/2, Arcane Meditation 2/3, Arcane Wrath 1/1, Presence of Mind 1/1, Arcane Mind 5/5, Arcane Instability 3/3, and Arcane Power 1/1. Fire: Incineration 5/5, Ignite 5/5, Flame Throwing 2/2, Impact 3/3, Pyroblast 1/1, Improved Fire Blast 2/2, and Heating Up 1/1. The build aims for a Pyroblast and Arcane Wrath burst after control; Impact adds a chance to stun.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Arcane Mage Talent Tree Builds - WoW: Forever › Best Arcane Mage PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:talents"
+      ],
+      "source_hashes": [
+        "section:c594af137d73c3f3701b6490e970f27945624c25"
+      ]
+    },
+    {
+      "id": "clase-mage-build-fuego-profundo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build PvE de Fuego profundo",
+      "title_en": "Deep Fire PvE Build",
+      "summary_es": "Build de banda de Fuego con apoyo Arcano para maná y Tromba de misiles.",
+      "summary_en": "Fire raid build with Arcane mana support and Missile Barrage.",
+      "keywords_es": [
+        "build fuego profundo",
+        "talentos fuego mago",
+        "build fuego pve",
+        "calentamiento piroexplosión"
+      ],
+      "keywords_en": [
+        "deep fire build",
+        "fire mage talents",
+        "fire pve build",
+        "heating up pyroblast"
+      ],
+      "text_es": "Arcano: Canalización mejorada 5/5, Sutileza Arcana 2/2, Concentración Arcana 5/5, Tromba de misiles 2/2, Explosión Arcana 1/1 y Meditación Arcana 1/3. Fuego: Incineración 5/5, Acelerante 5/5, Ignición 5/5, Piroexplosión 1/1, Explosión de Fuego mejorada 2/2, Chamuscar mejorado 3/3, Calentamiento 1/1, Maestro de los elementos 3/3, Masa crítica 3/3, Poder de Fuego 3/3 y Combustión 1/1. Escarcha: Precisión 3/3. Fuego usa Bola de Fuego y Piroexplosión; Arcano ayuda con maná, penetración y Tromba de misiles.",
+      "text_en": "Arcane: Improved Channeling 5/5, Arcane Subtlety 2/2, Arcane Concentration 5/5, Missile Barrage 2/2, Arcane Blast 1/1, and Arcane Meditation 1/3. Fire: Incineration 5/5, Accelerant 5/5, Ignite 5/5, Pyroblast 1/1, Improved Fire Blast 2/2, Improved Scorch 3/3, Heating Up 1/1, Master of Elements 3/3, Critical Mass 3/3, Fire Power 3/3, and Combustion 1/1. Frost: Precision 3/3. Fire uses Fireball and Pyroblast; Arcane adds mana support, spell piercing, and Missile Barrage.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Fire Mage Talent Tree Builds - WoW: Forever › Best Fire Mage PvE Raid and Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:fire:talents"
+      ],
+      "source_hashes": [
+        "section:aea8fd1ad475fb67028438860ea3cbc9d9d4b777"
+      ]
+    },
+    {
+      "id": "clase-mage-build-fuego-pirofrio",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build PvE de Pirofrío",
+      "title_en": "Frostfire PvE Build",
+      "summary_es": "Alternativa híbrida de Fuego y Escarcha con Dedos de Escarcha y Descarga de Pirofrío.",
+      "summary_en": "Fire-Frost hybrid with Fingers of Frost and Frostfire Bolt.",
+      "keywords_es": [
+        "build pirofrío",
+        "fuego escarcha híbrido",
+        "talentos descarga pirofrío",
+        "dedos de escarcha fuego"
+      ],
+      "keywords_en": [
+        "frostfire build",
+        "fire frost hybrid",
+        "frostfire bolt talents",
+        "fingers of frost fire"
+      ],
+      "text_es": "Fuego: Incineración 5/5, Acelerante 5/5, Ignición 5/5, Piroexplosión 1/1, Explosión de Fuego mejorada 2/2, Chamuscar mejorado 3/3, Calentamiento 1/1, Maestro de los elementos 1/3, Masa crítica 3/3 y Poder de Fuego 3/3. Escarcha: Custodia de Escarcha 2/2, Precisión 3/3, Fragmentos de hielo 5/5, Canalización de Escarcha 3/3, Ventisca mejorada 1/3, Lanza de hielo 1/1, Alcance ártico 1/2, Bloqueo de hielo 1/1, Trizar 3/3 y Dedos de Escarcha 2/2. La mezcla permite aprovechar Trizar y Dedos de Escarcha; si falta maná, se pueden pasar 2 puntos de Incineración a Maestro de los elementos.",
+      "text_en": "Fire: Incineration 5/5, Accelerant 5/5, Ignite 5/5, Pyroblast 1/1, Improved Fire Blast 2/2, Improved Scorch 3/3, Heating Up 1/1, Master of Elements 1/3, Critical Mass 3/3, and Fire Power 3/3. Frost: Frost Warding 2/2, Precision 3/3, Ice Shards 5/5, Frost Channeling 3/3, Improved Blizzard 1/3, Ice Lance 1/1, Arctic Reach 1/2, Ice Block 1/1, Shatter 3/3, and Fingers of Frost 2/2. This hybrid uses Shatter and Fingers of Frost; if mana is a problem, 2 points can move from Incineration to Master of Elements.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Fire Mage Talent Tree Builds - WoW: Forever › Best Fire Mage PvE Raid and Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:fire:talents"
+      ],
+      "source_hashes": [
+        "section:aea8fd1ad475fb67028438860ea3cbc9d9d4b777"
+      ]
+    },
+    {
+      "id": "clase-mage-build-fuego-pvp",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build PvP de Fuego",
+      "title_en": "Fire PvP Build",
+      "summary_es": "Build de largo alcance y ráfaga con Presencia mental, Piroexplosión y control.",
+      "summary_en": "Long-range burst build with Presence of Mind, Pyroblast, and control.",
+      "keywords_es": [
+        "build fuego pvp",
+        "talentos fuego mago pvp",
+        "presencia mental piroexplosión",
+        "impacto fuego mago"
+      ],
+      "keywords_en": [
+        "fire pvp build",
+        "fire mage pvp talents",
+        "presence of mind pyroblast",
+        "fire mage impact"
+      ],
+      "text_es": "Arcano: Canalización mejorada 5/5, Sutileza Arcana 2/2, Concentración Arcana 5/5, Tromba de misiles 2/2, Geometría Arcana 2/2, Contrahechizo mejorado 2/2, Meditación Arcana 2/3 y Presencia mental 1/1. Fuego: Incineración 3/5, Acelerante 5/5, Ignición 5/5, Lanzallamas 2/2, Impacto 3/3, Piroexplosión 1/1, Explosión de Fuego mejorada 2/2, Chamuscar mejorado 3/3, Calentamiento 1/1 y Masa crítica 3/3. Escarcha: Precisión 2/3. Combina Explosión de Fuego mejorada y Calentamiento para Piroexplosión rápida, con Contrahechizo mejorado e Impacto para control.",
+      "text_en": "Arcane: Improved Channeling 5/5, Arcane Subtlety 2/2, Arcane Concentration 5/5, Missile Barrage 2/2, Arcane Geometry 2/2, Improved Counterspell 2/2, Arcane Meditation 2/3, and Presence of Mind 1/1. Fire: Incineration 3/5, Accelerant 5/5, Ignite 5/5, Flame Throwing 2/2, Impact 3/3, Pyroblast 1/1, Improved Fire Blast 2/2, Improved Scorch 3/3, Heating Up 1/1, and Critical Mass 3/3. Frost: Precision 2/3. Improved Fire Blast and Heating Up enable quick Pyroblasts, while Improved Counterspell and Impact add control.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Fire Mage Talent Tree Builds - WoW: Forever › Best Fire Mage PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:fire:talents"
+      ],
+      "source_hashes": [
+        "section:586afd426ed6c913b3333ad8c6214feebc3c4945"
+      ]
+    },
+    {
+      "id": "clase-mage-build-escarcha-pve",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build PvE de Escarcha",
+      "title_en": "Frost PvE Build",
+      "summary_es": "Build de banda que también sirve en mazmorras; un punto de Ventisca mejorada habilita área.",
+      "summary_en": "Raid build also suited to dungeons; one Improved Blizzard point enables AoE.",
+      "keywords_es": [
+        "build escarcha pve",
+        "talentos escarcha mago",
+        "build escarcha raid",
+        "ventisca mejorada mago"
+      ],
+      "keywords_en": [
+        "frost pve build",
+        "frost mage talents",
+        "frost raid build",
+        "improved blizzard mage"
+      ],
+      "text_es": "Arcano: Especialización en varitas 2/2, Recuperación Arcana 3/3, Sutileza Arcana 2/2, Concentración Arcana 5/5, Impacto Arcano 3/3 y Meditación Arcana 3/3. Escarcha: Descarga de Escarcha mejorada 5/5, Precisión 3/3, Fragmentos de hielo 5/5, Canalización de Escarcha 3/3, Ventisca mejorada 1/3, Lanza de hielo 1/1, Trizar 3/3, Cono de frío mejorado 3/3, Mordedura helada 1/1, Dedos de Escarcha 2/2, Escalofrío del invierno 5/5 y Barrera de hielo 1/1. Un punto en Ventisca mejorada habilita su opción de área; puedes mover puntos según objetivo, maná y equipo.",
+      "text_en": "Arcane: Wand Specialization 2/2, Arcane Resilience 3/3, Arcane Subtlety 2/2, Arcane Concentration 5/5, Arcane Impact 3/3, and Arcane Meditation 3/3. Frost: Improved Frostbolt 5/5, Precision 3/3, Ice Shards 5/5, Frost Channeling 3/3, Improved Blizzard 1/3, Ice Lance 1/1, Shatter 3/3, Improved Cone of Cold 3/3, Cold Snap 1/1, Fingers of Frost 2/2, Winter’s Chill 5/5, and Ice Barrier 1/1. A single rank in Improved Blizzard unlocks its AoE option; points can be adjusted for target type, mana, and gear.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Frost Mage Talent Tree Builds - WoW: Forever › Best Frost Mage PvE Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/talent-builds-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Frost Mage Talent Tree Builds - WoW: Forever › Best Frost Mage PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/talent-builds-pve-dps",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:frost:talents"
+      ],
+      "source_hashes": [
+        "section:23b1cebb8ebcfc07d84800063eeb906585337b8d",
+        "section:2b89d0fba8329dcc8e0092a188ed840b01e586a3"
+      ]
+    },
+    {
+      "id": "clase-mage-build-escarcha-pvp",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build PvP de Escarcha",
+      "title_en": "Frost PvP Build",
+      "summary_es": "Variante JcJ que cambia conservación de maná por supervivencia y control.",
+      "summary_en": "PvP variant trading mana conservation for survival and control.",
+      "keywords_es": [
+        "build escarcha pvp",
+        "talentos pvp mago",
+        "escarcha control pvp",
+        "mordiescarcha escarcha permanente"
+      ],
+      "keywords_en": [
+        "frost pvp build",
+        "mage pvp talents",
+        "frost control pvp",
+        "frostbite permafrost build"
+      ],
+      "text_es": "Arcano: Especialización en varitas 2/2, Recuperación Arcana 3/3, Sutileza Arcana 2/2, Concentración Arcana 4/5, Tromba de misiles 2/2, Geometría Arcana 2/2 y Contrahechizo mejorado 2/2. Escarcha: Descarga de Escarcha mejorada 5/5, Fragmentos de hielo 5/5, Mordiescarcha 3/3, Escarcha permanente 3/3, Lanza de hielo 1/1, Alcance ártico 2/2, Bloqueo de hielo 1/1, Trizar 3/3, Cono de frío mejorado 3/3, Mordedura helada 1/1, Dedos de Escarcha 2/2, Escalofrío del invierno 4/5 y Barrera de hielo 1/1. Invierte maná en control y defensa; en JcJ masivo puedes optar por Ventisca mejorada.",
+      "text_en": "Arcane: Wand Specialization 2/2, Arcane Resilience 3/3, Arcane Subtlety 2/2, Arcane Concentration 4/5, Missile Barrage 2/2, Arcane Geometry 2/2, and Improved Counterspell 2/2. Frost: Improved Frostbolt 5/5, Ice Shards 5/5, Frostbite 3/3, Permafrost 3/3, Ice Lance 1/1, Arctic Reach 2/2, Ice Block 1/1, Shatter 3/3, Improved Cone of Cold 3/3, Cold Snap 1/1, Fingers of Frost 2/2, Winter’s Chill 4/5, and Ice Barrier 1/1. It trades mana savings for control and survival; for large-scale PvP, Improved Blizzard is an option.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Frost Mage Talent Tree Builds - WoW: Forever › Best Frost Mage PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/talent-builds-pve-dps",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:frost:talents"
+      ],
+      "source_hashes": [
+        "section:b22e49ae8248d0699d7eccd92657e013d753ce90"
+      ]
+    },
+    {
+      "id": "clase-mage-build-arcano-experimental",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build experimental Arcano-Fuego",
+      "title_en": "Experimental Arcane-Fire Build",
+      "summary_es": "Concepto para combates largos y gestión de maná; sacrifica Poder Arcano y daño en peleas breves.",
+      "summary_en": "Concept for long fights and mana control; sacrifices Arcane Power and short-fight damage.",
+      "keywords_es": [
+        "build experimental arcano fuego",
+        "talentos híbridos mago",
+        "arcano fuego combates largos",
+        "gestionar maná mago"
+      ],
+      "keywords_en": [
+        "experimental arcane fire build",
+        "mage hybrid talents",
+        "arcane fire long fights",
+        "mage mana management"
+      ],
+      "text_es": "Arcano: Canalización mejorada 5/5, Sutileza Arcana 2/2, Concentración Arcana 5/5, Tromba de misiles 2/2, Impacto Arcano 3/3, Explosión Arcana 1/1, Meditación Arcana 2/3, Presencia mental 1/1, Mente Arcana 5/5 e Inestabilidad Arcana 3/3. Fuego: Incineración 5/5, Ignición 5/5, Alma ardiente 2/3, Piroexplosión 1/1, Explosión de Fuego mejorada 2/2, Chamuscar mejorado 3/3 y Calentamiento 1/1; Escarcha: Precisión 3/3. Busca sostener el maná y el daño en combates largos, pero renuncia a Poder Arcano y rinde menos en peleas cortas; sigue siendo un concepto pendiente de probar con equipo adecuado.",
+      "text_en": "Arcane: Improved Channeling 5/5, Arcane Subtlety 2/2, Arcane Concentration 5/5, Missile Barrage 2/2, Arcane Impact 3/3, Arcane Blast 1/1, Arcane Meditation 2/3, Presence of Mind 1/1, Arcane Mind 5/5, and Arcane Instability 3/3. Fire: Incineration 5/5, Ignite 5/5, Burning Soul 2/3, Pyroblast 1/1, Improved Fire Blast 2/2, Improved Scorch 3/3, and Heating Up 1/1; Frost: Precision 3/3. It aims to sustain mana and damage in long fights, but gives up Arcane Power and performs worse in short fights; it remains a concept awaiting tests with proper gear.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Arcane Mage Talent Tree Builds - WoW: Forever › Best Arcane Mage PvE Raid and Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:talents"
+      ],
+      "source_hashes": [
+        "section:85c298995930002eba1995892df4455e93c6ade0"
       ]
     }
   ]
