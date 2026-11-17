@@ -85,7 +85,7 @@ def _first_json_object(text):
     return None
 
 
-def route(provider, question, lang, ctx, history=None, timeout=8.0) -> list[str] | None:
+def route(provider, question, lang, ctx, history=None, timeout=20.0) -> list[str] | None:
     """Pide al modelo que elija secciones; nunca lanza y devuelve None si falla."""
     try:
         return _route(provider, question, lang, ctx, history, timeout)
@@ -101,14 +101,14 @@ def _route(provider, question, lang, ctx, history, timeout) -> list[str] | None:
     if not toc:
         return None
     if timeout is None:
-        timeout = 8.0
+        timeout = 20.0
 
     spanish = _spanish(lang)
     executor = ThreadPoolExecutor(max_workers=1)
     future = executor.submit(
         provider.chat, ROUTER_SYSTEM['es' if spanish else 'en'],
         _user_message(question, lang, ctx, history, toc),
-        max_tokens=60, temperature=0,
+        max_tokens=300, temperature=0,
     )
     try:
         response = future.result(timeout=timeout)

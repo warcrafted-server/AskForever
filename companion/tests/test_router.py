@@ -148,7 +148,7 @@ def test_route_parses_json_drops_unknown_and_caps(monkeypatch):
         ('a', 'a | A | A'), ('b', 'b | B | B'), ('c', 'c | C | C')])
     provider = FakeProvider(['texto {"ids": ["a", "nope", "b", "c"]} final'])
     assert router.route(provider, 'pregunta', 'es', {}, timeout=1) == ['a', 'b', 'c']
-    assert provider.calls[0][2] == 60
+    assert provider.calls[0][2] == 300
     assert provider.calls[0][3] == 0
 
 
