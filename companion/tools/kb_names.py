@@ -7,6 +7,7 @@ llevan el ID del juego. Un mismo nombre inglés puede tener varios nombres en es
 
 from __future__ import annotations
 
+import json
 import re
 import sqlite3
 from pathlib import Path
@@ -93,15 +94,33 @@ class OfficialNames:
 # Enlace al calculador de talentos: …/talent-calc/hunter/v2502-004_t0_r2/… = «v2» (o «v» + letras, p. ej.
 # «vkndmh») + puntos por talento de cada rama
 # (en orden de posición: fila y columna), ramas separadas por «-»; los ceros finales se omiten.
-TALENT_CALC = re.compile(r'https?://(?:www\.)?wowhead\.com/forever/talent-calc/(?P<cls>[a-z-]+)/v(?:2|[a-z]+)(?P<code>[0-9-]*)'
-                         r'(?:_[^\s)/]*)?(?:/[A-Za-z0-9]*)?')
+TALENT_CALC = re.compile(r'https?://(?:www\.)?wowhead\.com/forever/talent-calc/(?P<cls>[a-z-]+)/v(?P<ver>2|[a-z]+)'
+                         r'(?P<code>[0-9-]*)(?:_[^\s)/]*)?(?:/[A-Za-z0-9]*)?')
+
+# Árboles del propio calculador de Wowhead (uno por clase + index.json): orden de los talentos en el enlace y
+# árboles antiguos con los que se leen los enlaces «v2». Mandan sobre los de wowdata, que vienen de Icy Veins.
+DEFAULT_TALENT_TREES = REPO_ROOT / '.agents' / 'plans' / 'guia' / 'fuentes' / 'wowhead-talents'
+RETIRED = 'talento retirado, no cuenta'
 
 
 class TalentBuilds:
-    """Descodifica las builds del calculador de Wowhead con los árboles de Forever de wowdata."""
+    """Descodifica las builds del calculador de Wowhead con sus propios árboles de Forever; si faltan, con los de
+    wowdata. Los nombres en español salen de wowdata."""
 
-    def __init__(self, conn: Optional[sqlite3.Connection]):
+    def __init__(self, conn: Optional[sqlite3.Connection], trees_dir: Optional[Path] = DEFAULT_TALENT_TREES):
         self.trees: dict[str, list[list[tuple]]] = {}
+        self.extra: dict[tuple, tuple] = {}
+        self.names_es: dict[tuple[str, str], str] = {}
+        self.branches_es: dict[str, dict[str, set[str]]] = {}
+        self.conn = conn
+        self.wowhead: dict[str, dict[str, list[dict]]] = {}
+        if trees_dir and Path(trees_dir).is_dir():
+            for path in sorted(Path(trees_dir).glob('*.json')):
+                data = json.loads(path.read_text(encoding='utf-8'))
+                if 'trees' in data:
+                    self.wowhead[data['class']] = {
+                        layout: sorted(data.get(key) or [], key=lambda tree: tree['order'])
+                        for layout, key in (('current', 'trees'), ('legacy', 'legacy_v2_trees'))}
         if conn is None:
             return
         try:
@@ -111,15 +130,20 @@ class TalentBuilds:
         except sqlite3.Error:
             return
         # Las ramas van en el orden del juego, que en todas las clases coincide con el alfabético del slug.
-        self.extra: dict[tuple, tuple] = {}
         for cls, tree, branch_es, name_en, name_es, max_rank, node, required, previous in rows:
             trees = self.trees.setdefault(cls, [])
             if not trees or trees[-1][0][0] != tree:
                 trees.append([])
             trees[-1].append((tree, branch_es, name_en, name_es or name_en, max_rank))
             self.extra[(cls, tree, len(trees[-1]) - 1)] = (node, required or 0, previous)
+            if name_es:
+                self.names_es[(cls, name_en)] = name_es
+            self.branches_es.setdefault(cls, {}).setdefault(branch_es, set()).add(name_en)
 
-    def decode(self, cls: str, code: str) -> Optional[list[tuple[str, list[tuple[str, str, int, int]]]]]:
+    def decode(self, cls: str, code: str, version: str = '2'
+               ) -> Optional[list[tuple[str, list[tuple[str, Optional[str], int, int]]]]]:
+        if cls in self.wowhead:
+            return self._decode_wowhead(cls, code, version)
         trees = self.trees.get(cls)
         parts = code.split('-')
         if not trees or len(parts) > len(trees):
@@ -149,12 +173,85 @@ class TalentBuilds:
                 build.append((tree[0][1], [(en, es, p, m) for en, es, p, m, _r, _pr in picked]))
         return build
 
+    @staticmethod
+    def _legal_points(tree: dict, digits: str) -> Optional[list[int]]:
+        talents = tree['talents']
+        if len(digits) > len(talents):
+            return None
+        points = [int(d) for d in digits] + [0] * (len(talents) - len(digits))
+        for talent, spent in zip(talents, points):
+            if spent > talent['max_rank']:
+                return None
+        for talent, spent in zip(talents, points):
+            if not spent:
+                continue
+            if sum(p for t, p in zip(talents, points) if t['row'] < talent['row']) < talent['requires_points_in_tree']:
+                return None
+            previous = talent['requires_talent_index']
+            if previous is not None and points[previous] < (talent['requires_rank'] or talents[previous]['max_rank']):
+                return None
+        return points
+
+    def _branch_es(self, cls: str, tree: dict) -> str:
+        names = {t['name'] for t in tree['talents']}
+        branch, shared = max(self.branches_es.get(cls, {}).items(), key=lambda item: len(item[1] & names),
+                             default=(tree['name'], set()))
+        return branch if shared else tree['name']
+
+    def _name_es(self, cls: str, talent: dict) -> str:
+        name = self.names_es.get((cls, talent['name']))
+        if not name and self.conn is not None and talent.get('spell_ids'):
+            try:
+                row = self.conn.execute('SELECT Name_lang_esES FROM SpellName WHERE ID = ?',
+                                        (talent['spell_ids'][0],)).fetchone()
+            except sqlite3.Error:
+                row = None
+            name = row[0].strip() if row and row[0] else None
+        return name or talent['name']
+
+    def _decode_wowhead(self, cls: str, code: str, version: str):
+        """Como el calculador: un enlace «v2» se prueba primero con el árbol antiguo y luego con el actual, y vale el
+        primero legal. Los talentos antiguos pasan al actual con el mismo nombre o el mismo hechizo; los que ya no
+        existen no cuentan (el calculador los deja a 0) y se listan aparte."""
+        layouts = self.wowhead[cls]
+        current = [t for tree in layouts['current'] for t in tree['talents']]
+        by_name = {t['name']: t for t in current}
+        by_spell = {t['spell_ids'][0]: t for t in current if t.get('spell_ids')}
+        parts = code.split('-')
+        for layout in (('legacy', 'current') if version == '2' and layouts['legacy'] else ('current',)):
+            trees = layouts[layout]
+            if len(parts) > len(trees):
+                continue
+            chosen = [(tree, self._legal_points(tree, digits)) for digits, tree in zip(parts, trees)]
+            if any(points is None for _tree, points in chosen):
+                continue
+            build, retired = [], []
+            for tree, points in chosen:
+                picked = []
+                for talent, spent in zip(tree['talents'], points):
+                    if not spent:
+                        continue
+                    if layout == 'legacy':
+                        now = by_name.get(talent['name']) or by_spell.get((talent.get('spell_ids') or [None])[0])
+                        if now is None:
+                            retired.append((talent['name'], None, spent, talent['max_rank']))
+                            continue
+                        talent, spent = now, min(spent, now['max_rank'])
+                    picked.append((talent['name'], self._name_es(cls, talent), spent, talent['max_rank']))
+                if picked:
+                    build.append((self._branch_es(cls, tree), picked))
+            if retired:
+                build.append((RETIRED, retired))
+            return build
+        return None
+
     def annotate(self, text: str) -> str:
         def repl(match):
-            build = self.decode(match.group('cls'), match.group('code'))
+            build = self.decode(match.group('cls'), match.group('code'), match.group('ver'))
             if build is None:
                 return f'{match.group(0)} {{build: no descodificable}}'
-            body = ' · '.join(f'{branch}: ' + ', '.join(f'{en} / {es} {points}/{max_rank}'
+            body = ' · '.join(f'{branch}: ' + ', '.join(f'{en} / {es} {points}/{max_rank}' if es else
+                                                         f'{en} {points}/{max_rank}'
                                                          for en, es, points, max_rank in talents)
                               for branch, talents in build)
             return f'{match.group(0)} {{build: {body}}}'
