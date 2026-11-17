@@ -9,10 +9,13 @@ El detalle de cada hito está en [ROADMAP.md](ROADMAP.md). Lo hecho está en el 
 - **Guía de principiantes**: índice de temas hecho (`.agents/plans/guia/indice.md`); siguientes pasos: paquete de pruebas por tema desde wowdata, redacción con citas, verificación guiada y lectura desde el companion. Plan en `.agents/plans/guia/guia.PLAN.md`. Repetir el diagnóstico del colector (`/wdc probe`) con un personaje de nivel 10 o más para ver los talentos.
 - **Créditos de los datos** (Blizzard y Wowhead) cuando wowdata deje de incluir Questie: `CREDITS.md` EN/ES con la Skill `licencias` y autorización de Marc.
 
+- **Leer respuestas largas en el chat** (pedido por Marc): ventana del addon redimensionable, desplazamiento con la rueda y botones ▲/▼ sobre el panel (el overlay no recibe clics), y mostrar cada respuesta nueva desde su principio. Diseño en `.agents/plans/consultas/consultas.PLAN.md` (3c).
+
 ## Media
 - **Chat dentro de la ventana del addon** (vuelta por addons «slot»): diseño en `.agents/plans/m3-slots/m3-slots.PLAN.md`; con ello, la ventana de informe podrá mostrar la respuesta.
 - **Perfil completo del personaje**: profesiones, talentos, equipo, reputaciones…; primero verificar en el cliente qué API existe; a la IA solo lo relevante para la pregunta.
-- **Comparar modelos**: claves de Groq, Mistral, Cerebras y OpenRouter, `bench` con varios objetivos y decidir qué servicios recomendar.
+- **Gemma 4 por Cloudflare Workers AI como proveedor opcional** (Gemini Flash-Lite sigue por defecto, decisión de Marc 2026-11-17): proveedor `cloudflare` que pida también el ID de cuenta, sin razonamiento del modelo, y sección en las guías ES/EN (cuenta, token, ID, límite de ~70 preguntas/día). Resultados y detalles en `.agents/plans/consultas/consultas.PLAN.md`.
+- **Puntos de talento por nivel**: con los puntos en el contexto, la IA sigue dando más de los que hay («qué talentos debería tener a nivel 34»); calcular en el companion la parte de la ruta que corresponde al nivel.
 - Elegir y recordar el proveedor de IA desde el asistente del companion (hoy solo Gemini; los demás por variable de entorno).
 - Probar otras resoluciones y escalas de interfaz de la tira de píxeles (probado: 1920x1080, ventana sin bordes).
 - Validar en el juego el atajo de teclado (Opciones → Atajos → AddOns) tal como lo describen las guías.
@@ -29,4 +32,5 @@ El detalle de cada hito está en [ROADMAP.md](ROADMAP.md). Lo hecho está en el 
 - Simular input, leer memoria del proceso o inyectar overlays: vulnera las reglas del juego y arriesga baneos.
 - Firmar el `.exe` con certificado de pago para quitar el aviso de SmartScreen: desde 2024 no evita el aviso de entrada; Azure Artifact Signing no admite particulares de España; SignPath exige licencia OSI.
 - Construir la base de datos en el PC del jugador desde su cliente y su Questie: demasiado complejo (decisión de Marc, 2026-11-14).
-- Usar `gemini-3.8-flash` como modelo por defecto: no respondió en 60 s en el plan gratuito (2026-11-14); revisar más adelante.
+- Usar `gemini-3.8-flash` (o 3.5/3.6/3.7 Flash sin «Lite») como modelo por defecto: en el plan gratuito devuelven 503 (2026-11-14 y 2026-11-17); revisar más adelante.
+- Otros modelos gratuitos probados el 2026-11-17 (Nemotron 3 Ultra y 120B, GLM 4.7 Flash, ERNIE 5.5, Inkling 2, Qwen3 30B, Kimi K2.5): o inventan más que Gemini, o tienen muy pocas peticiones al día, o no están disponibles gratis.
