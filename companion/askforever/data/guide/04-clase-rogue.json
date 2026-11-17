@@ -7,24 +7,24 @@
       "status": "editorial",
       "title_es": "Qué hace un Pícaro",
       "title_en": "What a Rogue Does",
-      "summary_es": "Pícaro pega cuerpo a cuerpo desde el sigilo, controla con venenos y golpes y evita el daño con evasion.",
-      "summary_en": "Rogue strikes in melee from stealth, controls with poisons and stuns, and avoids damage with evasion.",
+      "summary_es": "El Pícaro combina sigilo, daño individual e interrupciones; carece de autocuración y área amplia.",
+      "summary_en": "Rogue combines stealth, single-target damage, and interrupts, but lacks self-healing and broad AoE.",
       "keywords_es": [
         "qué hace un pícaro",
         "pícaro cuerpo a cuerpo",
         "pícaro sigilo",
-        "pícaro venenos",
-        "pícaro control"
+        "pícaro control",
+        "pícaro daño individual"
       ],
       "keywords_en": [
         "what does a rogue do",
         "rogue melee",
         "rogue stealth",
-        "rogue poisons",
-        "rogue control"
+        "rogue control",
+        "rogue single target"
       ],
-      "text_es": "El Pícaro es un luchador cuerpo a cuerpo que usa energía y puntos de combo para atacar desde el sigilo o desde un flanco. Sus venenos, golpes bajos y aturdimientos le dan un control enorme, y habilidades como Evasión, Esfumar y Ceguera le permiten escapar de situaciones peligrosas. No tiene curación propia ni daño en área amplio, así que depende de elegir bien los combates y de las vendas. Es una clase exigente, pero muy fuerte contra un solo objetivo.",
-      "text_en": "Rogue is a melee fighter that uses Energy and Combo Points to strike from stealth or from the flank. Poisons, cheap shots, and stuns give it strong control, and abilities such as Evasion, Vanish, and Blind let it escape dangerous situations. It has no self-healing or broad area damage, so it depends on choosing fights well and on bandages. It is demanding, but very strong against a single target.",
+      "text_es": "El Pícaro es un combatiente cuerpo a cuerpo que combina Sigilo, Energía y puntos de combo para preparar ataques y remates. Aporta daño individual, interrupciones y control, pero no una mejora de banda significativa. Carece de autocuración y área amplia; Evasión, Esfumar, Amago y Ceguera ayudan a sobrevivir y controlar los combates.",
+      "text_en": "Rogue is a melee fighter who combines Stealth, Energy, and Combo Points to set up attacks and finishers. It brings single-target damage, interrupts, and control, but no significant raid buff. It lacks self-healing and broad AoE; defensive tools such as Evasion, Vanish, Feint, and Blind help it survive and control fights.",
       "tags": [
         "ROGUE"
       ],
@@ -34,14 +34,59 @@
           "ref": "Icy Veins: Rogue Class Guide › Comprehensive Guide to Rogue in World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/rogue-class-overview",
           "date": "2026-10-27"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Guide › Assassination Rogue Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Guide › Endless Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Strengths and Weaknesses of Assassination Rogues in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Guide - WoW: Forever › Strengths and Weaknesses of Combat Rogues in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Guide - WoW: Forever › Strengths and Weaknesses of Subtlety Rogues in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Guide - WoW: Forever › Subtlety Rogue for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/overview-pve-dps",
+          "date": "2026-11-15"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:rogue:general:rogue-class-overview"
+        "class:rogue:assassination:overview",
+        "class:rogue:combat:overview",
+        "class:rogue:general:rogue-class-overview",
+        "class:rogue:subtlety:overview"
       ],
       "source_hashes": [
-        "section:eb91ef8afdf934dd4289c209cdb2ab19758e547a"
+        "guide:c64ca868aebbdf48d4cb5d3fe8641a354692d9dd",
+        "section:1b2e8c83c872a9f18591f0866c2202d1ea5af6d2",
+        "section:1d19d39dea22145e568b1cb8e1bf4dd7503be785",
+        "section:26f0593f8706f85629d54f49efb7cdb77b8fd167",
+        "section:49c1965775a197c5e9e74095fbac7469ab414c5c",
+        "section:eb91ef8afdf934dd4289c209cdb2ab19758e547a",
+        "section:f65fb692110f1f996cc73439c0e31148133b5203"
       ]
     },
     {
@@ -50,65 +95,86 @@
       "status": "editorial",
       "title_es": "Especializaciones del Pícaro",
       "title_en": "Rogue Specializations",
-      "summary_es": "Asesinato usa venenos y dagas, Combate pega con Golpe siniestro y Sutileza ataca desde el sigilo.",
-      "summary_en": "Assassination uses poisons and daggers, Combat hits with Sinister Strike, and Subtlety strikes from stealth.",
+      "summary_es": "Asesinato potencia venenos; Combate favorece ataques automáticos y cleave; Sutileza combina sigilo y sangrados.",
+      "summary_en": "Assassination empowers poisons; Combat favors auto-attacks and cleave; Subtlety combines stealth and bleeds.",
       "keywords_es": [
-        "especializaciones del pícaro",
-        "pícaro asesinato combate sutileza",
+        "especializaciones pícaro",
+        "diferencia asesinato combate sutileza",
         "pícaro venenos",
-        "pícaro sigilo",
-        "qué especialización de pícaro"
+        "pícaro sangrados",
+        "cleave combate pícaro"
       ],
       "keywords_en": [
         "rogue specializations",
-        "rogue assassination combat subtlety",
+        "assassination combat subtlety difference",
         "rogue poisons",
-        "rogue stealth",
-        "which rogue spec"
+        "rogue bleeds",
+        "combat rogue cleave"
       ],
-      "text_es": "Asesinato se apoya en venenos y dagas para un daño alto a un objetivo. Combate usa Golpe siniestro y Eviscerar con armas lentas, y añade Ráfaga con espada para dos enemigos. Sutileza aprovecha el sigilo, la Hemorragia y los sangrados. Las tres son daño cuerpo a cuerpo; ninguna tanquea ni sana.",
-      "text_en": "Assassination relies on poisons and daggers for high single-target damage. Combat uses Sinister Strike and Eviscerate with slow weapons, and adds Blade Flurry for two enemies. Subtlety uses stealth, Hemorrhage, and bleeds. All three are melee damage; none tanks or heals.",
+      "text_es": "Asesinato centra el daño en venenos y un objetivo; Mutilar golpea con más fuerza a enemigos envenenados. Combate se apoya en ataques automáticos y cleave: genera puntos con Golpe siniestro o Puñalada, y usa Ráfaga con espada y Eviscerar. Sutileza combina Sigilo y sangrados; genera con Hemorragia y gasta en Hacer picadillo o Ruptura. Asesinato sufre ante inmunidad a venenos y Sutileza, ante inmunidad a sangrados.",
+      "text_en": "Assassination focuses on poisons and single-target damage; Mutilate hits poisoned enemies harder. Combat relies on auto-attacks and cleave: it builds with Sinister Strike or Backstab and uses Blade Flurry and Eviscerate. Subtlety combines Stealth and bleeds, building with Hemorrhage and spending on Slice and Dice or Rupture. Poison immunity hurts Assassination, while bleed immunity hurts Subtlety.",
       "tags": [
         "ROGUE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Rogue Class Guide › Rogue in World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/rogue-class-overview",
-          "date": "2026-10-27"
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
+          "date": "2026-11-15"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Guide › Assassination Rogue Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Assassination Rogue for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
+          "date": "2026-11-15"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Guide › Combat Rogue Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Combat Rogue DPS Guide - WoW: Forever › Combat Rogue for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/overview-pve-dps",
+          "date": "2026-11-15"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Guide › Subtlety Rogue Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-melee-dps-pve-guide",
-          "date": "2026-11-07"
+          "ref": "Wowhead: Combat Rogue DPS Guide - WoW: Forever › Strengths and Weaknesses of Combat Rogues in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Guide - WoW: Forever › Subtlety Rogue for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Guide - WoW: Forever › Strengths and Weaknesses of Subtlety Rogues in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › All Subtlety Rogue DPS Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:rogue:assassination:overview",
         "class:rogue:combat:overview",
-        "class:rogue:general:rogue-class-overview",
-        "class:rogue:subtlety:overview"
+        "class:rogue:subtlety:overview",
+        "class:rogue:subtlety:rotation"
       ],
       "source_hashes": [
-        "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
-        "section:49c1965775a197c5e9e74095fbac7469ab414c5c",
-        "section:ba14c99925fc9539c2c5e55dbc9550dd0446dcaf",
-        "section:dc4a29f8e6cd5cbd0dd5620d9dacf7b6eaafeb4f"
+        "section:1b2e8c83c872a9f18591f0866c2202d1ea5af6d2",
+        "section:26f0593f8706f85629d54f49efb7cdb77b8fd167",
+        "section:46f72368175181fb8a617195f4ebec1f48ab8701",
+        "section:59c963bc3f26b484bec395601436b95523309c52",
+        "section:b34f64d9602aa96c512e23ff5fc9fa620f7f4604",
+        "section:be3e5e048af61e2419fc4dc2b1422866aa2b0c76",
+        "section:f65fb692110f1f996cc73439c0e31148133b5203"
       ]
     },
     {
@@ -117,57 +183,79 @@
       "status": "editorial",
       "title_es": "Qué cambia en Forever para el Pícaro",
       "title_en": "What Changes for Rogue in Forever",
-      "summary_es": "Los puntos de combo quedan ligados al objetivo; Asesinato se centra en venenos y Sutileza gana herramientas.",
-      "summary_en": "Combo Points stay on the target; Assassination focuses on poisons and Subtlety gains new tools.",
+      "summary_es": "Forever actualiza la Energía, los puntos de combo, Apuñalar y las sinergias de venenos y armas.",
+      "summary_en": "Forever updates Energy, Combo Points, Shank, and poison and weapon synergies.",
       "keywords_es": [
-        "cambios del pícaro en forever",
-        "puntos de combo ligados al objetivo",
-        "pícaro asesinato venenos",
-        "pícaro sutileza",
-        "pícaro combate"
+        "cambios pícaro forever",
+        "energía continua pícaro",
+        "puntos de combo objetivo",
+        "apuñalar energía",
+        "talentos pícaro forever"
       ],
       "keywords_en": [
         "rogue forever changes",
-        "combo points target locked",
-        "assassination poisons",
-        "subtlety rogue",
-        "combat rogue"
+        "smooth energy regeneration",
+        "combo points target",
+        "shank energy",
+        "rogue talent changes"
       ],
-      "text_es": "En Forever, los puntos de combo quedan ligados al objetivo: si cambias de objetivo o muere, no los transfieres. Asesinato recibe un árbol centrado en venenos, con Mutilar y Veneno como piezas clave. Sutileza gana herramientas para el sigilo y los sangrados, y Combate mantiene su daño sostenido con Golpe siniestro, Eviscerar y Ráfaga con espada. El Pícaro sigue sin curación propia ni área amplia, así que depende del control y de las vendas.",
-      "text_en": "In Forever, Combo Points stay on the target: if you switch or it dies, they do not transfer. Assassination receives a poison-focused tree, with Mutilate and Venom as key pieces. Subtlety gains tools for stealth and bleeds, and Combat keeps its sustained damage with Sinister Strike, Eviscerate, and Blade Flurry. Rogue still has no self-healing or broad area damage, so it depends on control and bandages.",
+      "text_es": "En Forever, la Energía se regenera de forma continua y los puntos de combo siguen en su objetivo al cambiar, mientras no generes puntos en otro. Ahora se pueden empuñar hachas; Amago reduce la amenaza y Apuñalar devuelve Energía. Los venenos pueden combinarse con Tótem Viento Furioso y piedras de afilar, y escalan con poder de ataque. Asesinato añade Mutilar, Veneno y Salpicadura de sangre; Combate unifica las especializaciones de arma en Cortar y rebanar y mantiene Golpe siniestro, Eviscerar y Ráfaga con espada; Sutileza incorpora Marca de muerte, Cuchillo de bota y Evasión rápida.",
+      "text_en": "Forever brings smooth Energy regeneration and Combo Points stay on their target when you switch, unless you generate points on another. Rogues can now wield axes; Feint reduces threat and Shank restores Energy. Poisons can be used with Windfury Totem and sharpening stones and scale with Attack Power. Assassination adds Mutilate, Venom, and Blood Splatter; its Combat tree combines weapon specializations in Hack and Slash and retains Sinister Strike, Eviscerate, and Blade Flurry; Subtlety adds Death Mark, Boot Knife, and Quick Getaway.",
       "tags": [
         "ROGUE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Guide › Subtlety Rogue Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-melee-dps-pve-guide",
-          "date": "2026-11-07"
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Changes to Assassination Rogue in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
+          "date": "2026-11-15"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Guide › Assassination Rogue Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
+          "date": "2026-11-15"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Guide › Combat Rogue Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Combat Rogue DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Guide - WoW: Forever › Combat Rogue for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Combat Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:rogue:assassination:overview",
         "class:rogue:combat:overview",
+        "class:rogue:combat:rotation",
         "class:rogue:subtlety:overview"
       ],
       "source_hashes": [
-        "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
-        "section:49c1965775a197c5e9e74095fbac7469ab414c5c",
-        "section:ba14c99925fc9539c2c5e55dbc9550dd0446dcaf"
+        "section:46f72368175181fb8a617195f4ebec1f48ab8701",
+        "section:5806c2cca19edf13e5438fdc4ac4ef97f6ccf982",
+        "section:59c963bc3f26b484bec395601436b95523309c52",
+        "section:9f9842e7fd775db7ceb7ca6a639ade43221cd0e4",
+        "section:ab56e54f8c623814ea7b1f18dcd17652b85822ef",
+        "section:ef5b18a83c64beca3f3af6c357e88d60522b996e"
       ]
     },
     {
@@ -403,49 +491,104 @@
       "status": "editorial",
       "title_es": "Energía y puntos de combo",
       "title_en": "Energy and Combo Points",
-      "summary_es": "La energía se regenera sola a 10 por segundo y los puntos de combo se gastan en remates sobre el objetivo.",
-      "summary_en": "Energy regenerates at 10 per second and Combo Points are spent on finishers on the target.",
+      "summary_es": "La Energía fluye de forma continua; los puntos de combo permanecen ligados a su objetivo.",
+      "summary_en": "Energy regenerates smoothly; Combo Points remain attached to their target.",
       "keywords_es": [
-        "energía del pícaro",
+        "energía pícaro",
         "puntos de combo",
-        "recursos del pícaro",
-        "remates del pícaro",
-        "no gastar energía de más"
+        "regeneración energía pícaro",
+        "apuñalar energía",
+        "remates pícaro"
       ],
       "keywords_en": [
         "rogue energy",
         "combo points",
-        "rogue resources",
-        "rogue finishers",
-        "do not overcap energy"
+        "rogue energy regeneration",
+        "shank energy",
+        "rogue finishers"
       ],
-      "text_es": "La energía se regenera de forma pasiva a unos 10 por segundo y todas tus habilidades la gastan. Puedes guardar energía para una ráfaga, pero no la dejes llegar al máximo o perderás regeneración. Los puntos de combo se acumulan con Golpe siniestro, Puñalada, Emboscada, Mutilar o Hemorragia y se gastan en Eviscerar, Hacer picadillo, Ruptura o Exponer armadura. Quedan ligados al objetivo: si cambias o muere, no los transfieres.",
-      "text_en": "Energy regenerates passively at about 10 per second and every ability spends it. You can pool Energy for a burst, but do not let it cap or you lose regeneration. Combo Points build with Sinister Strike, Backstab, Ambush, Mutilate, or Hemorrhage and are spent on Eviscerate, Slice and Dice, Rupture, or Expose Armor. They stay on the target: if you switch or it dies, they do not transfer.",
+      "text_es": "La Energía se recupera de forma continua, no en pulsos; la celeridad aumenta los ataques automáticos, pero no esa regeneración. Las habilidades que gastan Energía generan puntos de combo y los remates los consumen; los puntos permanecen en su objetivo al cambiar, salvo que generes otros en uno distinto. Apuñalar cuesta 5 de Energía, tiene 10 s de reutilización y devuelve 25 a rango máximo. Entre los generadores están Golpe siniestro, Puñalada, Mutilar y Hemorragia; Eviscerar, Hacer picadillo, Ruptura y Exponer armadura gastan puntos.",
+      "text_en": "Energy recovers continuously rather than in ticks; Haste speeds up auto-attacks but not Energy regeneration. Energy-spending abilities generate Combo Points, which finishers consume; the points stay on their target when you switch unless you build them on another. Shank costs 5 Energy, has a 10-second cooldown, and returns 25 at max rank. Builders include Sinister Strike, Backstab, Mutilate, and Hemorrhage. Finishers such as Eviscerate, Slice and Dice, Rupture, and Expose Armor spend points.",
       "tags": [
         "ROGUE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Leveling Guide › What are Combo Points and Energy?",
-          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-leveling",
-          "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Guide › Subtlety Rogue Guide for World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-melee-dps-pve-guide",
           "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Changes to Assassination Rogue in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Stat Priority & Attributes - WoW: Forever › Haste",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/stat-priority-pve-dps",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Assassination Rogues in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Combat Rogues in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Subtlety Rogues in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Assassination Rogue Talent Builds - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Changes to Assassination Rogue in WoW Forever > Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
+          "date": "2026-11-15"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:rogue:combat:leveling",
-        "class:rogue:subtlety:overview"
+        "class:rogue:assassination:overview",
+        "class:rogue:assassination:rotation",
+        "class:rogue:assassination:stats",
+        "class:rogue:assassination:talents",
+        "class:rogue:combat:overview",
+        "class:rogue:combat:rotation",
+        "class:rogue:subtlety:overview",
+        "class:rogue:subtlety:rotation"
       ],
       "source_hashes": [
+        "guide:082b2b2e6d5d749f11c7f3f667ec437f01db5742",
+        "guide:0bc822b16ba35ec311491f09ef440873d90ceb69",
         "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
-        "section:d9e9a044c0ff866b5fee1b1687a2b81bf8da141b"
+        "section:4a9f5acc678a5ea8e23694e0e99d23e4c63ffa4e",
+        "section:554ca40608e72b83cc7d65c4736749a7a845d213",
+        "section:8d43601437befae0d61e722530f8963b9180ad25",
+        "section:8e27e28a1813e1c6a6f6299eca69ba21df485efc",
+        "section:96363f12fbf85a80a36f1ac84e8fed0a9922298b",
+        "section:9f9842e7fd775db7ceb7ca6a639ade43221cd0e4"
       ]
     },
     {
@@ -505,32 +648,32 @@
       "status": "editorial",
       "title_es": "Venenos y Té de cardo",
       "title_en": "Poisons and Thistle Tea",
-      "summary_es": "La misión de nivel 20 desbloquea los venenos; úsalos en las dos armas y prepara Té de cardo.",
-      "summary_en": "The level 20 quest unlocks poisons; use them on both weapons and make Thistle Tea.",
+      "summary_es": "A 20 se desbloquean venenos y Té de cardo; Asesinato combina venenos instantáneos y mortales.",
+      "summary_en": "At 20, poisons and Thistle Tea unlock; Assassination combines Instant and Deadly Poison.",
       "keywords_es": [
         "venenos del pícaro",
         "misión de venenos nivel 20",
         "veneno instantáneo",
-        "veneno entorpecedor",
-        "té de cardo"
+        "veneno mortal",
+        "té de cardo energía"
       ],
       "keywords_en": [
         "rogue poisons",
         "level 20 poison quest",
         "instant poison",
-        "crippling poison",
-        "thistle tea"
+        "deadly poison",
+        "thistle tea energy"
       ],
-      "text_es": "Los venenos se desbloquean a nivel 20 con la misión de clase y se aplican a las armas para añadir daño o utilidad. Veneno instantáneo es la opción habitual de daño, y Veneno entorpecedor ayuda contra enemigos que huyen. Algunos enemigos son resistentes o inmunes a los venenos, así que no dependas solo de ellos. La misma misión enseña a preparar Té de cardo, que recupera energía.",
-      "text_en": "Poisons unlock at level 20 through the class quest and are applied to weapons to add damage or utility. Instant Poison is the usual damage choice, and Crippling Poison helps against enemies that flee. Some enemies resist or are immune to poisons, so do not rely only on them. The same quest teaches Thistle Tea, which restores Energy.",
+      "text_es": "La misión de clase de nivel 20 desbloquea fabricar y usar venenos y preparar Té de cardo, que recupera Energía. Los venenos pueden combinarse con el Tótem Viento Furioso y las piedras de afilar, y escalan con poder de ataque. Asesinato suele llevar Veneno instantáneo en la mano principal y Veneno mortal en la secundaria; cambia las manos si pierdes sus acumulaciones. La inmunidad a venenos reduce mucho el daño de Asesinato.",
+      "text_en": "The level 20 class quest unlocks poison crafting and use, and teaches Thistle Tea, which restores Energy. Poisons can be combined with Windfury Totem and sharpening stones, and scale with Attack Power. Assassination usually applies Instant Poison to the main hand and Deadly Poison to the off-hand; swap hands if its stacks fall off. Poison immunity greatly reduces Assassination damage.",
       "tags": [
         "ROGUE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Leveling Guide › What are Poisons?",
-          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-leveling",
+          "ref": "Icy Veins: World of Warcraft: Forever Rogue Class Quests Guide › Rogue Class Quest Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/rogue-class-quests",
           "date": "2026-11-04"
         },
         {
@@ -538,16 +681,57 @@
           "ref": "Icy Veins: World of Warcraft: Forever Rogue Class Quests Guide › Level 20 - Mathias and the Defias",
           "url": "https://www.icy-veins.com/wow-forever/rogue-class-quests",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Rogue Class Quests Guide › Level 20 - The Shattered Salute",
+          "url": "https://www.icy-veins.com/wow-forever/rogue-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Changes to Assassination Rogue in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Assassination Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Best Assassination Rogue Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Strengths and Weaknesses of Assassination Rogues in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Assassination Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:rogue:assassination:leveling",
+        "class:rogue:assassination:overview",
+        "class:rogue:assassination:rotation",
         "class:rogue:general:rogue-class-quests"
       ],
       "source_hashes": [
         "guide:750a4d44d622fe222033c933c67db06e64ebac63",
-        "section:466bced7063db16f7ec83e0afbd79cca5296d0f4"
+        "section:1d19d39dea22145e568b1cb8e1bf4dd7503be785",
+        "section:55c226c12284b1cde6758da4da07b243d1320341",
+        "section:9f89da9c0b9dbac1a2a342b6865c5c2c233eca95",
+        "section:9f9842e7fd775db7ceb7ca6a639ade43221cd0e4",
+        "section:d394a1c0da0b8efd1ee28fa31eac8ee7ce916467"
       ]
     },
     {
@@ -717,24 +901,24 @@
       "status": "editorial",
       "title_es": "Misiones de clase del Pícaro",
       "title_en": "Rogue Class Quests",
-      "summary_es": "Nivel 10 Hoja de Astucia; 15 Ganzúa; 20 Mathias y los Defias o El saludo de los Mano Destrozada para venenos.",
-      "summary_en": "Level 10 Blade of Cunning; 15 Pick Lock; 20 Mathias and the Defias or The Shattered Salute for poisons.",
+      "summary_es": "Las misiones raciales empiezan en torno a 10; la cadena necesaria para venenos se completa a 20.",
+      "summary_en": "Racial class quests start around 10; the required poison chain is completed at 20.",
       "keywords_es": [
         "misiones de clase pícaro",
         "hoja de astucia",
-        "misión de ganzúa",
         "misión de venenos pícaro",
-        "mathias y los defias"
+        "misión pícaro alianza",
+        "misión pícaro horda"
       ],
       "keywords_en": [
         "rogue class quests",
         "blade of cunning",
-        "pick lock quest",
         "rogue poison quest",
-        "mathias and the defias"
+        "alliance rogue quest",
+        "horde rogue quest"
       ],
-      "text_es": "La misión de clase de nivel 10 de tu raza da Hoja de Astucia. A 15, la misión de Ganzúa. A 20, Mathias y los Defias (Alianza) o El saludo de los Mano Destrozada (Horda) desbloquean la creación de venenos y Té de cardo. A 50 empieza la cadena de Ravenholdt, pero es opcional. Las misiones de nivel 20 son las importantes para tu daño.",
-      "text_en": "Your race's level 10 class quest gives Blade of Cunning. At 15, the Pick Lock quest. At 20, Mathias and the Defias (Alliance) or The Shattered Salute (Horde) unlock poison crafting and Thistle Tea. At 50 the Ravenholdt chain begins, but it is optional. The level 20 quests are the important ones for your damage.",
+      "text_es": "Las misiones de clase de nivel 10 suelen recompensar con Hoja de Astucia. La cadena obligatoria de nivel 20 cambia por facción: en la Alianza, el Maestro Mathias Shaw te envía desde Ventormenta a robar el Calendario de envíos Defias al Maestro de embarcadero Defias usando Sigilo; hacen falta Robar y Ganzúa a 75. La Horda empieza con Shenthul; necesitas Ganzúa 75 para abrir la caja. Al completarla, aprendes a fabricar y usar venenos y preparar Té de cardo.",
+      "text_en": "Level 10 class quests usually reward Blade of Cunning. The required level 20 chain varies by faction: for the Alliance, Master Mathias Shaw in Stormwind sends you to pickpocket the Defias Shipping Schedule from the Defias Dockmaster using Stealth; Pick Pocket and Pick Lock must be at 75. Shenthul starts the Horde chain; Pick Lock 75 is needed to open the chest. Completing the chain teaches you to craft and use poisons and make Thistle Tea.",
       "tags": [
         "ROGUE"
       ],
@@ -747,18 +931,59 @@
         },
         {
           "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Rogue Class Quests Guide › Dwarf and Gnome Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/rogue-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Rogue Class Quests Guide › Human Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/rogue-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Rogue Class Quests Guide › Night Elf Rogue Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/rogue-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Rogue Class Quests Guide › Orc and Troll Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/rogue-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Rogue Class Quests Guide › Undead Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/rogue-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Rogue Class Quests Guide › Level 20 - Mathias and the Defias",
+          "url": "https://www.icy-veins.com/wow-forever/rogue-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Rogue Class Quests Guide › Level 20 - The Shattered Salute",
           "url": "https://www.icy-veins.com/wow-forever/rogue-class-quests",
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:rogue:general:rogue-class-quests"
       ],
       "source_hashes": [
         "guide:750a4d44d622fe222033c933c67db06e64ebac63",
-        "section:d394a1c0da0b8efd1ee28fa31eac8ee7ce916467"
+        "section:2deebdfa09f8b5ea73b69b8fb16a90710c4f5c20",
+        "section:9291c0a1567088ebcda427d197769e8dd3f5847e",
+        "section:97ea5215bb255d449e3850afe35289127840165e",
+        "section:a4f7c78ee6cbaf81bc11212ca33df04f23e4762c",
+        "section:d394a1c0da0b8efd1ee28fa31eac8ee7ce916467",
+        "section:f4ba15b50fe19e66fe4f522375a6acec035ad3af"
       ]
     },
     {
@@ -818,189 +1043,52 @@
       "status": "editorial",
       "title_es": "El Pícaro en grupo y mazmorras",
       "title_en": "Rogue in Groups and Dungeons",
-      "summary_es": "Aporta daño a un objetivo, control y Exponer armadura; no da buffs de grupo ni curación.",
-      "summary_en": "Brings single-target damage, control, and Expose Armor; it gives no group buffs or healing.",
+      "summary_es": "El Pícaro aporta daño individual, interrupciones y control, pero no una mejora de banda importante.",
+      "summary_en": "Rogue brings single-target damage, interrupts, and control, but no significant raid buff.",
       "keywords_es": [
         "pícaro en grupo",
-        "pícaro en mazmorras",
-        "control del pícaro en grupo",
-        "exponer armadura",
-        "amenaza del pícaro"
+        "control pícaro mazmorras",
+        "interrumpir con patada",
+        "exponer armadura pícaro",
+        "ráfaga con espada cleave"
       ],
       "keywords_en": [
         "rogue in groups",
-        "rogue in dungeons",
-        "rogue group control",
-        "expose armor",
-        "rogue threat"
+        "rogue dungeon control",
+        "kick interrupt",
+        "rogue expose armor",
+        "blade flurry cleave"
       ],
-      "text_es": "En grupo, el Pícaro aporta daño alto a un objetivo y un control excelente con Zapar, Golpe bajo, Incapacitación, Ceguera y Golpe a los riñones. Exponer armadura ayuda al daño físico, pero el Pícaro no da buffs de grupo ni cura. Deja que el tanque tenga amenaza antes de abrir con tu ráfaga; si te la quitan, usa Esfumar o Evasión. En mazmorras, controla un enemigo peligroso y usa Patada para interrumpir.",
-      "text_en": "In a group, Rogue brings high single-target damage and excellent control with Sap, Cheap Shot, Gouge, Blind, and Kidney Shot. Expose Armor helps physical damage, but Rogue gives no group buffs or healing. Let the tank have threat before opening with your burst; if you pull it, use Vanish or Evasion. In dungeons, control a dangerous enemy and use Kick to interrupt.",
+      "text_es": "En grupo, el Pícaro aporta mucho daño a un objetivo, interrupciones y control. Patada, Incapacitación, Golpe a los riñones, Golpe bajo y Esfumar pueden detener lanzamientos; Zapar y Ceguera amplían el control. No ofrece una mejora de banda significativa; Exponer armadura no añade una aportación única si ya está Hender armadura. Ráfaga con espada permite golpear a un segundo objetivo y Evasión ayuda a aguantar ataques durante un momento peligroso.",
+      "text_en": "In groups, Rogue brings high single-target damage, interrupts, and control. Kick, Gouge, Kidney Shot, Cheap Shot, and Vanish can stop casts; Sap and Blind add further control. It offers no significant raid buff; Expose Armor adds no unique raid value when Sunder Armor is already present. Blade Flurry can hit a second target, and Survival also benefits from Evasion.",
       "tags": [
         "ROGUE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Guide › Bosskiller and CC-God Without Any AoE",
-          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-melee-dps-pve-guide",
-          "date": "2026-11-07"
+          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Assassination Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Guide › Endless Crowd Control",
-          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Combat Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Subtlety Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Guide › Endless Crowd Control",
           "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-melee-dps-pve-guide",
           "date": "2026-11-09"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:rogue:assassination:overview",
-        "class:rogue:combat:overview",
-        "class:rogue:subtlety:overview"
-      ],
-      "source_hashes": [
-        "guide:9c335b7aab2d192e93b9e42bb775a4b138787bfb",
-        "guide:b8a7794a9edced4fef856f01c5aea46b41035371",
-        "guide:c64ca868aebbdf48d4cb5d3fe8641a354692d9dd"
-      ]
-    },
-    {
-      "id": "clase-rogue-asesinato",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Asesinato: venenos y un objetivo",
-      "title_en": "Assassination: Poisons and One Target",
-      "summary_es": "Asesinato usa Mutilar y venenos para un daño altísimo a un objetivo, pero no tiene área ni autocuración.",
-      "summary_en": "Assassination uses Mutilate and poisons for very high single-target damage, but has no area or self-healing.",
-      "keywords_es": [
-        "pícaro asesinato",
-        "pícaro venenos",
-        "mutilar",
-        "veneno pícaro",
-        "asesinato un objetivo"
-      ],
-      "keywords_en": [
-        "assassination rogue",
-        "rogue poisons",
-        "mutilate",
-        "rogue venom",
-        "assassination single target"
-      ],
-      "text_es": "Asesinato es la especialización de venenos y daño a un solo objetivo. Mutilar genera puntos de combo y pega más a enemigos con tus venenos, mientras Eviscerar y Hacer picadillo gastan esos puntos. Es excelente contra jefes y objetivos prioritarios, pero no tiene área ni autocuración y sufre contra enemigos inmunes a venenos. En grupo, mata adds peligrosos y usa Exponer armadura para ayudar al daño físico.",
-      "text_en": "Assassination is the poison and single-target damage specialization. Mutilate generates Combo Points and hits poisoned enemies harder, while Eviscerate and Slice and Dice spend them. It is excellent against bosses and priority targets, but it has no area or self-healing and suffers against poison-immune enemies. In a group, kill dangerous adds and use Expose Armor to help physical damage.",
-      "tags": [
-        "ROGUE"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Guide › Assassination Rogue Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-melee-dps-pve-guide",
-          "date": "2026-11-09"
         },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Leveling Guide › Single-Target Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-leveling",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:rogue:assassination:leveling",
-        "class:rogue:assassination:overview"
-      ],
-      "source_hashes": [
-        "section:0bd24538b9743ed0473c0c28028e439cf34b5dda",
-        "section:49c1965775a197c5e9e74095fbac7469ab414c5c"
-      ]
-    },
-    {
-      "id": "clase-rogue-combate",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Combate: daño sostenido y Ráfaga",
-      "title_en": "Combat: Sustained Damage and Blade Flurry",
-      "summary_es": "Combate pega con Golpe siniestro y Eviscerar, usa Estocada y Ráfaga con espada para dos objetivos.",
-      "summary_en": "Combat hits with Sinister Strike and Eviscerate, uses Riposte, and Blade Flurry for two targets.",
-      "keywords_es": [
-        "pícaro combate",
-        "golpe siniestro",
-        "estocada pícaro",
-        "ráfaga con espada",
-        "combate dos enemigos"
-      ],
-      "keywords_en": [
-        "combat rogue",
-        "sinister strike",
-        "rogue riposte",
-        "blade flurry",
-        "combat two targets"
-      ],
-      "text_es": "Combate es el daño sostenido más fiable del Pícaro. Genera puntos con Golpe siniestro, usa Estocada cuando salga y gasta en Eviscerar o Hacer picadillo. Ráfaga con espada le da su única aproximación al área al golpear a un segundo enemigo, y Subidón de adrenalina le permite encadenar más habilidades. No tiene autocuración ni área verdadera, así que depende de Evasión y del control.",
-      "text_en": "Combat is the Rogue's most reliable sustained damage. It builds with Sinister Strike, uses Riposte when it procs, and spends on Eviscerate or Slice and Dice. Blade Flurry gives its only approach to area damage by hitting a second enemy, and Adrenaline Rush lets it chain more abilities. It has no self-healing or true area, so it depends on Evasion and control.",
-      "tags": [
-        "ROGUE"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Guide › Combat Rogue Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-melee-dps-pve-guide",
-          "date": "2026-11-09"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Combat Rogue Leveling Guide › Single-Target Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-leveling",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:rogue:combat:leveling",
-        "class:rogue:combat:overview"
-      ],
-      "source_hashes": [
-        "section:ba14c99925fc9539c2c5e55dbc9550dd0446dcaf",
-        "section:f85c7ec49379127e67d3bfa11770f19547082c68"
-      ]
-    },
-    {
-      "id": "clase-rogue-sutileza",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Sutileza: sigilo y sangrados",
-      "title_en": "Subtlety: Stealth and Bleeds",
-      "summary_es": "Sutileza abre con Emboscada, usa Hemorragia y Ruptura y controla con Sigilo; tarda en arrancar.",
-      "summary_en": "Subtlety opens with Ambush, uses Hemorrhage and Rupture, and controls with Stealth; it starts slowly.",
-      "keywords_es": [
-        "pícaro sutileza",
-        "hemorragia pícaro",
-        "ruptura pícaro",
-        "emboscada",
-        "sutileza sigilo"
-      ],
-      "keywords_en": [
-        "subtlety rogue",
-        "rogue hemorrhage",
-        "rogue rupture",
-        "ambush",
-        "subtlety stealth"
-      ],
-      "text_es": "Sutileza es la especialización más técnica: abre desde Sigilo con Emboscada, construye con Hemorragia y gasta en Ruptura o Hacer picadillo. Sus sangrados y su control la hacen fuerte contra un objetivo, y Premeditación y Preparación le dan más recursos y una segunda oportunidad. Le cuesta arrancar: Hemorragia llega a 30 y sufre si no puede atacar por la espalda. No tiene área y depende mucho de Sigilo y de Evasión para sobrevivir.",
-      "text_en": "Subtlety is the most technical specialization: it opens from Stealth with Ambush, builds with Hemorrhage, and spends on Rupture or Slice and Dice. Its bleeds and control make it strong against one target, and Premeditation and Preparation give it more resources and a second chance. It starts slowly: Hemorrhage arrives at 30 and it suffers when it cannot attack from behind. It has no area and relies heavily on Stealth and Evasion to survive.",
-      "tags": [
-        "ROGUE"
-      ],
-      "sources": [
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Guide › Subtlety Rogue Guide for World of Warcraft: Forever",
@@ -1009,19 +1097,258 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Leveling Guide › Single-Target Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Combat Rogue DPS Guide - WoW: Forever › Strengths and Weaknesses of Combat Rogues in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/overview-pve-dps",
+          "date": "2026-11-15"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:rogue:subtlety:leveling",
-        "class:rogue:subtlety:overview"
+        "class:rogue:assassination:overview",
+        "class:rogue:assassination:rotation",
+        "class:rogue:combat:overview",
+        "class:rogue:combat:rotation",
+        "class:rogue:subtlety:overview",
+        "class:rogue:subtlety:rotation"
       ],
       "source_hashes": [
+        "guide:c64ca868aebbdf48d4cb5d3fe8641a354692d9dd",
         "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
-        "section:d68b68bdea216929d6d03549586a641d20f2e94a"
+        "section:5806c2cca19edf13e5438fdc4ac4ef97f6ccf982",
+        "section:9f89da9c0b9dbac1a2a342b6865c5c2c233eca95",
+        "section:b7781da8cb8103673e50b2e5ddaa0fb9c027b537",
+        "section:f65fb692110f1f996cc73439c0e31148133b5203"
+      ]
+    },
+    {
+      "id": "clase-rogue-asesinato",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Asesinato: venenos y un objetivo",
+      "title_en": "Assassination: Poisons and One Target",
+      "summary_es": "Asesinato combina venenos y Mutilar para daño individual, pero sufre ante inmunidades.",
+      "summary_en": "Assassination combines poisons and Mutilate for single-target damage, but struggles against immunities.",
+      "keywords_es": [
+        "pícaro asesinato",
+        "mutilar enemigos envenenados",
+        "veneno talento asesinato",
+        "eviscerar asesinato",
+        "daño un objetivo asesinato"
+      ],
+      "keywords_en": [
+        "assassination rogue",
+        "mutilate poisoned target",
+        "venom talent assassination",
+        "assassination eviscerate",
+        "assassination single target"
+      ],
+      "text_es": "Asesinato concentra el daño en un objetivo con venenos que ignoran armadura. Mutilar genera puntos de combo e inflige 20% más daño a enemigos envenenados. Veneno, un talento pasivo, potencia el daño de veneno y la aplicación tras Apuñalar. Mantén Hacer picadillo y gasta puntos sobrantes en Eviscerar. En grupo puede aplicar Exponer armadura si hace falta; la inmunidad a venenos reduce mucho su daño y no tiene área repetible ni autocuración.",
+      "text_en": "Assassination focuses on single-target damage with poisons that bypass armor. The builder Mutilate generates Combo Points and deals 20% more damage to poisoned enemies. A passive talent named Venom boosts poison damage and application after Shank. Keep Slice and Dice active and spend excess points on Eviscerate. In groups, it can apply Expose Armor when needed; poison immunity greatly reduces its damage, and it lacks repeatable AoE and self-healing.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Assassination Rogue for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Viability of Assassination Rogues in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Strengths and Weaknesses of Assassination Rogues in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Assassination Rogues in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Changes to Assassination Rogue in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:overview",
+        "class:rogue:assassination:rotation"
+      ],
+      "source_hashes": [
+        "section:1d19d39dea22145e568b1cb8e1bf4dd7503be785",
+        "section:2fd53293a8a7ef3554511cba908a39e31b041006",
+        "section:46f72368175181fb8a617195f4ebec1f48ab8701",
+        "section:8e27e28a1813e1c6a6f6299eca69ba21df485efc",
+        "section:9f9842e7fd775db7ceb7ca6a639ade43221cd0e4",
+        "section:b34f64d9602aa96c512e23ff5fc9fa620f7f4604"
+      ]
+    },
+    {
+      "id": "clase-rogue-combate",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Combate: daño sostenido y Ráfaga",
+      "title_en": "Combat: Sustained Damage and Blade Flurry",
+      "summary_es": "Combate se apoya en ataques automáticos y cleave, con variantes de arma lenta o daga.",
+      "summary_en": "Combat relies on auto-attacks and cleave, with slow-weapon and dagger variants.",
+      "keywords_es": [
+        "pícaro combate",
+        "golpe siniestro",
+        "puñalada combate",
+        "ráfaga con espada",
+        "build combate daga"
+      ],
+      "keywords_en": [
+        "combat rogue",
+        "sinister strike",
+        "combat backstab",
+        "blade flurry",
+        "combat dagger build"
+      ],
+      "text_es": "Combate se apoya en ataques automáticos y ofrece el cleave más fuerte del Pícaro, sin depender de venenos o sangrados. Una variante usa una mano principal lenta y Golpe siniestro; otra, daga principal y Puñalada. Mantén Hacer picadillo, gasta puntos sobrantes en Eviscerar y combina Ráfaga con espada con Subidón de adrenalina para cleave y ráfaga. Evasión ayuda a sobrevivir.",
+      "text_en": "Combat relies on auto-attacks and has the strongest Rogue cleave, without relying on poisons or bleeds. One variant uses a slow main hand with Sinister Strike; the other uses a main-hand dagger with Backstab. Keep Slice and Dice active, spend excess points on Eviscerate, and pair Blade Flurry with Adrenaline Rush for cleave and burst. The toolkit also includes Evasion for survival.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Guide - WoW: Forever › Viability of Combat Rogues in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Guide - WoW: Forever › Strengths and Weaknesses of Combat Rogues in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Combat Rogue Talent Builds - WoW: Forever › Best Combat Rogue PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Guide - WoW: Forever › Combat Rogue for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Combat Rogues in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:combat:overview",
+        "class:rogue:combat:rotation",
+        "class:rogue:combat:talents"
+      ],
+      "source_hashes": [
+        "section:22fc526e80f80ba3e0dd788a158fcbc30f586962",
+        "section:59c963bc3f26b484bec395601436b95523309c52",
+        "section:75dd3cb0581f3218022b13f1aec0023dc6cb3f2f",
+        "section:8d43601437befae0d61e722530f8963b9180ad25",
+        "section:f65fb692110f1f996cc73439c0e31148133b5203"
+      ]
+    },
+    {
+      "id": "clase-rogue-sutileza",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Sutileza: sigilo y sangrados",
+      "title_en": "Subtlety: Stealth and Bleeds",
+      "summary_es": "Sutileza combina sigilo y sangrados con una rotación exigente y poca área.",
+      "summary_en": "Subtlety combines stealth and bleeds in a demanding, low-AoE playstyle.",
+      "keywords_es": [
+        "pícaro sutileza",
+        "hemorragia y garrote",
+        "marca de muerte",
+        "premeditación preparación",
+        "inmunidad sangrados"
+      ],
+      "keywords_en": [
+        "subtlety rogue",
+        "hemorrhage and garrote",
+        "death mark",
+        "premeditation preparation",
+        "bleed immunity"
+      ],
+      "text_es": "Sutileza basa su juego en Sigilo y sangrados y es la especialización más compleja: abre con Garrote, genera puntos con Hemorragia y los gasta en Hacer picadillo o Ruptura; Marca de muerte convierte el daño acumulado en una ráfaga. Hemorragia se aprende a 30 y permite atacar desde delante; antes, Puñalada exige colocarse detrás, algo difícil en solitario. Premeditación otorga 2 puntos de combo cada 2 minutos y Preparación permite otra Esfumar. Evasión y Esfumar ayudan a sobrevivir, pero no tiene área verdadera y las inmunidades a sangrados la perjudican.",
+      "text_en": "Its most complex playstyle centers on Stealth and bleeds: open with Garrote, build Combo Points with Hemorrhage, and spend them on Slice and Dice or Rupture; Death Mark turns stored damage into burst. Hemorrhage is learned at 30 and lets you attack from the front; before then, Backstab requires positioning behind the target, which is difficult solo. Cooldowns include Premeditation, which grants 2 Combo Points every 2 minutes, and Preparation, which enables another Vanish, while Evasion helps survival; the spec has no true AoE and is hindered by bleed immunity.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Guide - WoW: Forever › Subtlety Rogue for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Guide - WoW: Forever › Changes to Subtlety Rogue in WoW Forever > New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Guide - WoW: Forever › Strengths and Weaknesses of Subtlety Rogues in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › Best Subtlety Rogue Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Guide › Subtlety Rogue Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-melee-dps-pve-guide",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › All Subtlety Rogue DPS Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:subtlety:overview",
+        "class:rogue:subtlety:rotation"
+      ],
+      "source_hashes": [
+        "guide:237cc15ab0c175040d7d01fd40d828bae804a7cd",
+        "section:1b2e8c83c872a9f18591f0866c2202d1ea5af6d2",
+        "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
+        "section:26f0593f8706f85629d54f49efb7cdb77b8fd167",
+        "section:a7bf4f01127d6f88e6067385c4fd046c8d24418c",
+        "section:be3e5e048af61e2419fc4dc2b1422866aa2b0c76"
       ]
     }
   ]
