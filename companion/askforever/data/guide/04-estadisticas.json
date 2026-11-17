@@ -296,90 +296,6 @@
       ]
     },
     {
-      "id": "clase-paladin-estadisticas-holy",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Estadísticas de Paladín Sagrado",
-      "title_en": "Holy Paladin stat priority",
-      "summary_es": "Qué estadísticas priorizar como Paladín Sagrado (sanador) en JcE.",
-      "summary_en": "Which stats to prioritise as a Holy Paladin (healer) in PvE.",
-      "keywords_es": [
-        "estadisticas sagrado",
-        "stats sagrado",
-        "prioridad de estadisticas paladín",
-        "que estadisticas paladín",
-        "stats paladín"
-      ],
-      "keywords_en": [
-        "holy stats",
-        "holy stat priority",
-        "paladin stat priority",
-        "paladin stats"
-      ],
-      "tags": [
-        "PALADIN"
-      ],
-      "text_es": "Prioridad de estadísticas para Paladín Sagrado (sanador, JcE), de más a menos importante: Sanación con hechizos > Inteligencia > Espíritu > Regeneración de maná cada 5 s > Golpe crítico.",
-      "text_en": "Stat priority for Holy Paladin (healer, PvE), from most to least important: Healing Power > Intellect > Spirit > MP5 > Critical Strike.",
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Forever Holy Paladin Stat Priority",
-          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-healer-pve-stat-priority",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:paladin:holy:stats"
-      ],
-      "source_hashes": [
-        "guide:89644709b73eb6b225e64d728831a04530547960"
-      ]
-    },
-    {
-      "id": "clase-paladin-estadisticas-protection",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Estadísticas de Paladín Protección",
-      "title_en": "Protection Paladin stat priority",
-      "summary_es": "Qué estadísticas priorizar como Paladín Protección (tanque) en JcE.",
-      "summary_en": "Which stats to prioritise as a Protection Paladin (tank) in PvE.",
-      "keywords_es": [
-        "estadisticas protección",
-        "stats protección",
-        "prioridad de estadisticas paladín",
-        "que estadisticas paladín",
-        "stats paladín"
-      ],
-      "keywords_en": [
-        "protection stats",
-        "protection stat priority",
-        "paladin stat priority",
-        "paladin stats"
-      ],
-      "tags": [
-        "PALADIN"
-      ],
-      "text_es": "Prioridad de estadísticas para Paladín Protección (tanque, JcE), de más a menos importante: Aguante > Defensa (hasta 440) > Poder con hechizos > Inteligencia > Fuerza.",
-      "text_en": "Stat priority for Protection Paladin (tank, PvE), from most to least important: Stamina > Defense (to 440) > Spell Power > Intellect > Strength.",
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Forever Protection Paladin Stat Priority",
-          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-tank-pve-stat-priority",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:paladin:protection:stats"
-      ],
-      "source_hashes": [
-        "guide:56437ea9e493e8cd101252e9be7b3be2c5c82dba"
-      ]
-    },
-    {
       "id": "clase-warrior-estadisticas-protection",
       "chapter": 4,
       "status": "editorial",
@@ -461,48 +377,6 @@
       ],
       "source_hashes": [
         "guide:f7b1286f5706e5fdb88cbf40cd3f43a94522c791"
-      ]
-    },
-    {
-      "id": "clase-paladin-estadisticas-retribution",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Estadísticas de Paladín Reprensión",
-      "title_en": "Retribution Paladin stat priority",
-      "summary_es": "Qué estadísticas priorizar como Paladín Reprensión (daño cuerpo a cuerpo) en JcE.",
-      "summary_en": "Which stats to prioritise as a Retribution Paladin (melee DPS) in PvE.",
-      "keywords_es": [
-        "estadisticas reprensión",
-        "stats reprensión",
-        "prioridad de estadisticas paladín",
-        "que estadisticas paladín",
-        "stats paladín"
-      ],
-      "keywords_en": [
-        "retribution stats",
-        "retribution stat priority",
-        "paladin stat priority",
-        "paladin stats"
-      ],
-      "tags": [
-        "PALADIN"
-      ],
-      "text_es": "Prioridad de estadísticas para Paladín Reprensión (daño cuerpo a cuerpo, JcE), de más a menos importante: Daño del arma > Prob. de golpe (8 %) > Pericia (6,5 %) > Fuerza > Poder con hechizos.",
-      "text_en": "Stat priority for Retribution Paladin (melee DPS, PvE), from most to least important: Weapon Damage > Hit Chance (8%) > Expertise (6.5%) > Strength > Spell Power.",
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Forever Retribution Paladin Stat Priority",
-          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-melee-dps-pve-stat-priority",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:paladin:retribution:stats"
-      ],
-      "source_hashes": [
-        "guide:f5e2a10534d2c6c5657d0fd1c092bbf494e6c397"
       ]
     }
   ]
