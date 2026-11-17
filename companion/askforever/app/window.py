@@ -251,6 +251,9 @@ class AppWindow(tk.Tk):
                 self.lift()
             elif command == 'exit':
                 self.request_exit()
+            elif command == 'exit_now' and self.on_exit is not None:
+                # Salida pedida por el programa (actualización): sin confirmación.
+                self.on_exit()
 
     def _open_configuration(self):
         if self.on_configure is not None:

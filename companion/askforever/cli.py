@@ -611,7 +611,8 @@ def _set_game_status(window):
 
 
 def _run_companion(args: argparse.Namespace, stop_event=None,
-                   overlay_factory=None, provider_holder=None) -> int:
+                   overlay_factory=None, provider_holder=None,
+                   busy_event=None) -> int:
     emit('info', 'AskForever App en marcha', 'AskForever App is running')
     set_status('app', 'En marcha', 'Running', ok=True)
     set_dpi_awareness()
@@ -662,6 +663,19 @@ def _run_companion(args: argparse.Namespace, stop_event=None,
 
     stop_event = stop_event or threading.Event()
     generation = {'value': 0}
+    busy_count = {'value': 0}
+    busy_lock = threading.Lock()
+
+    def mark_busy(delta):
+        if busy_event is None:
+            return
+        with busy_lock:
+            busy_count['value'] = max(0, busy_count['value'] + delta)
+            if busy_count['value']:
+                busy_event.set()
+            else:
+                busy_event.clear()
+
     store = ConversationStore()
     last_exchange = {}
     exchange_lock = threading.Lock()
@@ -746,51 +760,60 @@ def _run_companion(args: argparse.Namespace, stop_event=None,
             return
 
         def answer():
-            result = answer_message(message.data, active_provider, db=database, history=history,
-                                    previous_question=previous_question, web=web)
-            if current != generation['value']:
-                return
-            exchange = {
-                'msg_id': message.msg_id,
-                'question': result.question or question,
-                'lang': result.lang or lang,
-                'conv': conv,
-                'ctx': document.get('ctx'),
-                'moment': datetime.now(),
-                'model': getattr(active_provider, 'model', ''),
-                'ok': result.ok,
-                'text': result.text,
-                'detail': result.detail,
-                'elapsed_ms': result.elapsed_ms,
-                'facts': list(result.facts),
-                'sources': list(result.sources),
-                'facts_text': result.facts_text,
-                'web_titles': list(result.web_titles),
-                'router': result.router,
-            }
-            with exchange_lock:
-                last_exchange.clear()
-                last_exchange.update(exchange)
-            if result.ok:
-                store.add(conversation_key, question, result.text, result.facts_text)
-                with chat_lock:
-                    chat_view = chat_session.answer(conv, result.text)
-                if chat_view is not None:
-                    overlay.show_chat(chat_view)
+            try:
+                result = answer_message(message.data, active_provider, db=database, history=history,
+                                        previous_question=previous_question, web=web)
+                if current != generation['value']:
+                    return
+                exchange = {
+                    'msg_id': message.msg_id,
+                    'question': result.question or question,
+                    'lang': result.lang or lang,
+                    'conv': conv,
+                    'ctx': document.get('ctx'),
+                    'moment': datetime.now(),
+                    'model': getattr(active_provider, 'model', ''),
+                    'ok': result.ok,
+                    'text': result.text,
+                    'detail': result.detail,
+                    'elapsed_ms': result.elapsed_ms,
+                    'facts': list(result.facts),
+                    'sources': list(result.sources),
+                    'facts_text': result.facts_text,
+                    'web_titles': list(result.web_titles),
+                    'router': result.router,
+                }
+                with exchange_lock:
+                    last_exchange.clear()
+                    last_exchange.update(exchange)
+                if result.ok:
+                    store.add(conversation_key, question, result.text, result.facts_text)
+                    with chat_lock:
+                        chat_view = chat_session.answer(conv, result.text)
+                    if chat_view is not None:
+                        overlay.show_chat(chat_view)
+                    else:
+                        overlay.show_answer(question, result.text, lang)
+                    _emit_answer_event(result.elapsed_ms, message.msg_id, result.text)
                 else:
-                    overlay.show_answer(question, result.text, lang)
-                _emit_answer_event(result.elapsed_ms, message.msg_id, result.text)
-            else:
-                with chat_lock:
-                    chat_view = chat_session.error(conv, result.text)
-                if chat_view is not None:
-                    overlay.show_chat(chat_view)
-                else:
-                    overlay.show_error(result.text, lang)
-                _emit_answer_error(result.text, message.msg_id)
-                log_detail(f'answer error msg_id={message.msg_id} detail={result.detail}')
+                    with chat_lock:
+                        chat_view = chat_session.error(conv, result.text)
+                    if chat_view is not None:
+                        overlay.show_chat(chat_view)
+                    else:
+                        overlay.show_error(result.text, lang)
+                    _emit_answer_error(result.text, message.msg_id)
+                    log_detail(f'answer error msg_id={message.msg_id} detail={result.detail}')
+            finally:
+                mark_busy(-1)
 
-        threading.Thread(target=answer, daemon=True).start()
+        mark_busy(1)
+        answer_thread = threading.Thread(target=answer, daemon=True)
+        try:
+            answer_thread.start()
+        except Exception:
+            mark_busy(-1)
+            raise
 
     emit('info', 'Deja esta ventana abierta mientras juegas.',
          'Keep this window open while you play.')

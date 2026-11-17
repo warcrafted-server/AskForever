@@ -8,6 +8,7 @@ import threading
 from pathlib import Path
 
 from askforever import config
+from askforever.app.selfupdate import Updater
 from askforever.app.events import emit, log_detail, set_status
 from askforever.app.setup import ProviderHolder, SetupDialog
 from askforever.app.tray import TrayIcon
@@ -101,6 +102,8 @@ def run_app(args) -> int:
     window = None
     tray = None
     core_thread = None
+    updater = None
+    busy_event = threading.Event()
     try:
         provider_holder = ProviderHolder()
 
@@ -134,7 +137,8 @@ def run_app(args) -> int:
             try:
                 _run_companion(args, stop_event=stop_event,
                                overlay_factory=OverlaySupervisor,
-                               provider_holder=provider_holder)
+                               provider_holder=provider_holder,
+                               busy_event=busy_event)
             except Exception as error:
                 log_detail(f'app core failed: {error!r}')
                 emit('error', 'AskForever App encontró un error.',
@@ -144,6 +148,12 @@ def run_app(args) -> int:
         core_thread = threading.Thread(target=run_core, name='AskForeverCore', daemon=True)
 
         def exit_app():
+            if threading.current_thread() is not threading.main_thread():
+                # tkinter solo desde el hilo principal: la ventana lo recoge de su cola.
+                window.submit_command('exit_now')
+                return
+            if updater is not None:
+                updater.stop()
             stop_event.set()
             if core_thread is not None:
                 core_thread.join(timeout=3.0)
@@ -153,6 +163,8 @@ def run_app(args) -> int:
 
         window.on_exit = exit_app
         core_thread.start()
+        updater = Updater(exit_app=exit_app, is_busy=busy_event.is_set)
+        updater.start()
         try:
             missing_key = not bool(config.get_api_key('gemini'))
         except Exception:
@@ -165,6 +177,8 @@ def run_app(args) -> int:
             core_thread.join(timeout=3.0)
         return 0
     except Exception as error:
+        if updater is not None:
+            updater.stop()
         if stop_event is not None:
             stop_event.set()
         if core_thread is not None and core_thread.is_alive():

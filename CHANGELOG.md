@@ -46,6 +46,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Added: the game data and the guide are updated with the addon: the app reads the data shipped in the addon, downloads the base it needs once and rebuilds its database in seconds, so new data no longer requires reinstalling the app.
 - Changed: the app reports its activity in plain language (questions, answers, data updates) and writes technical details to a log file in %LOCALAPPDATA%\AskForever\logs.
 - Changed: the AI key is set up in a window (first run and "Set up the AI"), tested before saving and applied without restarting the app.
+- Added: AskForever App updates itself: it checks GitHub at start and every 6 hours, verifies the new installer, installs it silently when no question is being answered and reopens.
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
@@ -89,6 +90,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Añadido: los datos del juego y la guía se actualizan con el addon: la app lee los datos que trae el addon, descarga una vez la base que necesita y reconstruye su base en segundos, así que los datos nuevos ya no requieren reinstalar la app.
 - Cambiado: la app informa de su actividad en lenguaje sencillo (preguntas, respuestas, actualizaciones de datos) y guarda los detalles técnicos en un registro en %LOCALAPPDATA%\AskForever\logs.
 - Cambiado: la clave de la IA se configura en una ventana (al primer arranque y con «Configurar IA»), se prueba antes de guardarla y se aplica sin reiniciar la app.
+- Añadido: AskForever App se actualiza sola: comprueba GitHub al arrancar y cada 6 horas, verifica el instalador nuevo, lo instala en silencio cuando no hay una pregunta en curso y vuelve a abrirse.
 
 ## [0.3.0-beta.4] - 2026-11-15
 
