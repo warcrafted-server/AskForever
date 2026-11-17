@@ -2176,6 +2176,802 @@
       "source_hashes": [
         "section:9d81690bbd497d8907f7e3fdba450521e9ccee72"
       ]
+    },
+    {
+      "id": "clase-rogue-talentos-asesinato-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Talentos de Asesinato al subir",
+      "title_en": "Assassination Leveling Talents",
+      "summary_es": "Al 30, reinicia para potenciar los venenos; prioriza Oportunidad y Heridas punzantes.",
+      "summary_en": "At 30, respec to strengthen poisons; prioritize Opportunity and Puncturing Wounds.",
+      "keywords_es": [
+        "talentos asesinato leveo",
+        "build asesinato nivel 30",
+        "venenos asesinato",
+        "oportunidad y heridas punzantes"
+      ],
+      "keywords_en": [
+        "assassination leveling talents",
+        "level 30 assassination build",
+        "assassination poisons",
+        "opportunity puncturing wounds"
+      ],
+      "text_es": "Durante los primeros 30 niveles, sigue la ruta inicial compartida. Al 30, reinicia para adquirir la habilidad de venenos y los talentos iniciales que la potencian; después prioriza Oportunidad y Heridas punzantes. La build descodificada asigna Venenos mejorados 4/5, Veneno 1/1, Maldad 5/5 y Hacer picadillo mejorado 3/3.",
+      "text_en": "For the first 30 levels, use the shared opening route. At 30, respec to acquire the poison ability and early talents that strengthen it; then prioritize Opportunity and Puncturing Wounds. The decoded build assigns Improved Poisons 4/5, Venom 1/1, Malice 5/5, and Improved Slice and Dice 3/3.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Assassination Rogue DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:leveling"
+      ],
+      "source_hashes": [
+        "section:e909da805b09e4c7cfc227a032edd6c4c8fc34aa"
+      ]
+    },
+    {
+      "id": "clase-rogue-talentos-sutileza-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Talentos de Sutileza al subir",
+      "title_en": "Subtlety Leveling Talents",
+      "summary_es": "Al 18, reinicia para potenciar Emboscada; la build invierte fuerte en talentos de Sutileza.",
+      "summary_en": "At 18, respec to strengthen Ambush; the build invests deeply in Subtlety talents.",
+      "keywords_es": [
+        "talentos sutileza leveo",
+        "build sutileza nivel 18",
+        "emboscada mejorada",
+        "talentos de sigilo"
+      ],
+      "keywords_en": [
+        "subtlety leveling talents",
+        "level 18 subtlety build",
+        "improved ambush",
+        "stealth talents"
+      ],
+      "text_es": "Hasta el 18, sigue la ruta inicial compartida. Cuando aprendas Emboscada al 18, reinicia para potenciarla. En la build descodificada, Sutileza lleva Emboscada mejorada 3/3, Oportunidad 5/5, Maestro de la decepción 2/3, Camuflaje 2/3 e Iniciativa 3/3; también incluye Premeditación 1/1 y Hemorragia 1/1.",
+      "text_en": "Through 18, use the shared opening route. At 18, respec to amplify Ambush. In the decoded build, Subtlety has Improved Ambush 3/3, Opportunity 5/5, Master of Deception 2/3, Camouflage 2/3, and Initiative 3/3; it also includes Premeditation 1/1 and Hemorrhage 1/1.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Subtlety Rogue DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:33904b741654bce18d86fb423db0d77b84e1d575"
+      ]
+    },
+    {
+      "id": "clase-rogue-entrenar-obligatorias",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades que conviene entrenar",
+      "title_en": "Abilities Worth Training",
+      "summary_es": "Entrena las habilidades esenciales y sus rangos; Sutileza también requiere Emboscada.",
+      "summary_en": "Train core abilities and their ranks; Subtlety also needs Ambush.",
+      "keywords_es": [
+        "habilidades obligatorias pícaro",
+        "rangos de habilidades rogue",
+        "qué entrenar pícaro",
+        "entrenar emboscada sutileza"
+      ],
+      "keywords_en": [
+        "mandatory rogue abilities",
+        "rogue ability ranks",
+        "what to train rogue",
+        "subtlety ambush training"
+      ],
+      "text_es": "Entrena desde nivel 1: Sigilo (rangos 20/40/60), Golpe siniestro (6/14/22/30/38/46/54) y Eviscerar (8/16/24/32/40/48/56/60). Aprende Evasión al 8; Hacer picadillo, Correr y Zapar al 10; Patada al 12 y Esfumar al 22. Sus rangos nuevos llegan, respectivamente, al 42; 34/58; 28/48; 26/42/58 y 42. Sutileza también debe entrenar Emboscada desde el 18 (rangos 26/34/42/50/58).",
+      "text_en": "Train from level 1: Stealth (ranks 20/40/60), Sinister Strike (6/14/22/30/38/46/54), and Eviscerate (8/16/24/32/40/48/56/60). Learn Evasion at 8; Slice and Dice, Sprint, and Sap at 10; Kick at 12 and Vanish at 22. Their next ranks are at 42; 34/58; 28/48; 26/42/58; and 42, respectively. Subtlety should also train Ambush from 18 (ranks 26/34/42/50/58).",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Assassination Rogue",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Combat Rogue",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Subtlety Rogue",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:leveling",
+        "class:rogue:combat:leveling",
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:0f669dd005c439475f91acddf72d204e9c9675da",
+        "section:a9743ecb5b8d22adf02cdb422add0629ec4006a2",
+        "section:ff8a5df8433db4a658b6703313eaac0f493194b3"
+      ]
+    },
+    {
+      "id": "clase-rogue-entrenar-opcionales-dano",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Entrenamiento opcional de daño",
+      "title_en": "Optional Damage Training",
+      "summary_es": "Puedes saltarte habilidades de daño según tu estilo para ahorrar oro.",
+      "summary_en": "Skip optional damage abilities according to your playstyle to save gold.",
+      "keywords_es": [
+        "habilidades opcionales pícaro",
+        "rangos de puñalada",
+        "entrenar emboscada",
+        "entrenar ruptura"
+      ],
+      "keywords_en": [
+        "optional rogue abilities",
+        "backstab ranks",
+        "ambush training",
+        "rupture training"
+      ],
+      "text_es": "Salvo Emboscada en Sutileza, son útiles pero puedes omitirlas según tu estilo para ahorrar oro: Robar y Puñalada al 4 (rangos de Puñalada 12/20/28/36/44/52/60); Exponer armadura al 14 (26/36/46/56), Amago al 16 (28/40/52/60), Emboscada al 18 (26/34/42/50/58) y Ruptura al 20 (28/36/44/52/60).",
+      "text_en": "Except for Ambush in Subtlety, these are useful but you can skip them based on your playstyle to save gold: Pick Pocket and Backstab at 4 (Backstab ranks 12/20/28/36/44/52/60); Expose Armor at 14 (26/36/46/56), Feint at 16 (28/40/52/60), Ambush at 18 (26/34/42/50/58), and Rupture at 20 (28/36/44/52/60).",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Leveling Guide - WoW: Forever › Optional Abilities to Train for Assassination Rogue",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue Leveling Guide - WoW: Forever › Optional Abilities to Train for Combat Rogue",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue Leveling Guide - WoW: Forever › Optional Abilities to Train for Subtlety Rogue",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:leveling",
+        "class:rogue:combat:leveling",
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:2b1609218c0e9e02fbadb2be14112cde70aa268e",
+        "section:63b90cfe33a1534f32d873d1a1f571989c995618",
+        "section:f8393c1f354fc05fda84d93ea8cdfa82622382ba"
+      ]
+    },
+    {
+      "id": "clase-rogue-entrenar-opcionales-control",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Entrenamiento opcional de control",
+      "title_en": "Optional Control Training",
+      "summary_es": "Las habilidades de control son opcionales y puedes omitir rangos para ahorrar oro.",
+      "summary_en": "Control abilities are optional, and you can skip ranks to save gold.",
+      "keywords_es": [
+        "control opcional pícaro",
+        "entrenar incapacitación",
+        "entrenar detectar trampas",
+        "rangos golpe a los riñones"
+      ],
+      "keywords_en": [
+        "optional rogue crowd control",
+        "train gouge",
+        "train detect traps",
+        "kidney shot ranks"
+      ],
+      "text_es": "Para ahorrar oro, puedes omitir habilidades opcionales de control: Incapacitación al 6 (rangos 18/32/46/60), Distraer al 22, Detectar trampas al 24, Golpe bajo al 26, Golpe a los riñones y Desactivar trampa al 30 (rango 50 para Golpe a los riñones), y Ceguera al 34.",
+      "text_en": "To save gold, you can skip optional control abilities: Gouge at 6 (ranks 18/32/46/60), Distract at 22, Detect Traps at 24, Cheap Shot at 26, Kidney Shot and Disarm Trap at 30 (Kidney Shot rank 50), and Blind at 34.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Leveling Guide - WoW: Forever › Optional Abilities to Train for Assassination Rogue",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue Leveling Guide - WoW: Forever › Optional Abilities to Train for Combat Rogue",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue Leveling Guide - WoW: Forever › Optional Abilities to Train for Subtlety Rogue",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:leveling",
+        "class:rogue:combat:leveling",
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:2b1609218c0e9e02fbadb2be14112cde70aa268e",
+        "section:63b90cfe33a1534f32d873d1a1f571989c995618",
+        "section:f8393c1f354fc05fda84d93ea8cdfa82622382ba"
+      ]
+    },
+    {
+      "id": "clase-rogue-consumibles-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consumibles recomendados al subir",
+      "title_en": "Leveling Consumables",
+      "summary_es": "Agilidad, Té de cardo, venenos y piedras de afilar refuerzan el leveo.",
+      "summary_en": "Agility, Thistle Tea, poisons, and sharpening stones support leveling.",
+      "keywords_es": [
+        "consumibles pícaro leveo",
+        "elixir agilidad menor rogue",
+        "filete de coyote rogue",
+        "té de cardo y venenos"
+      ],
+      "keywords_en": [
+        "rogue leveling consumables",
+        "minor agility elixir rogue",
+        "coyote steak rogue",
+        "thistle tea and poisons"
+      ],
+      "text_es": "Al subir, elige consumibles que aumenten Agilidad, como Elixir de agilidad menor y Filete de coyote. La misión de clase da acceso a Té de cardo, útil para disponer enseguida de más Energía. Para mejorar las armas, usa Veneno instantáneo y Piedra de afilar burda.",
+      "text_en": "While leveling, pick Agility-boosting items like Elixir of Minor Agility and Coyote Steak. The class quest provides Thistle Tea, a quick Energy boost when needed. For weapon enhancements, use Instant Poison and Coarse Sharpening Stone.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Leveling Guide - WoW: Forever › Best Leveling Consumables for Assassination Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue Leveling Guide - WoW: Forever › Best Leveling Consumables for Combat Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue Leveling Guide - WoW: Forever › Best Leveling Consumables for Subtlety Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:leveling",
+        "class:rogue:combat:leveling",
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:4ea51891a8d67fcd4adf8197f21f8360d78d1a34",
+        "section:82a004dce1aaeb295d1053e6377c5df107dad1d6",
+        "section:fef37e489c064ca845a5fa40364feac4c5833ab5"
+      ]
+    },
+    {
+      "id": "clase-rogue-buffs-campamento",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Buffs de campamento para Pícaro",
+      "title_en": "Rogue Camp Buffs",
+      "summary_es": "Silla de campamento, Rueda de afilar y Magnetita son las tres mejoras recomendadas.",
+      "summary_en": "Camp Chair, Sharpening Wheel, and Lodestone are the three recommended buffs.",
+      "keywords_es": [
+        "mejores buffs campamento pícaro",
+        "silla de campamento crítico",
+        "rueda de afilar fuerza",
+        "magnetita poder de ataque"
+      ],
+      "keywords_en": [
+        "best rogue camp buffs",
+        "camp chair crit",
+        "sharpening wheel strength",
+        "lodestone attack power"
+      ],
+      "text_es": "Busca la Silla de campamento (+2% de golpe crítico), la Rueda de afilar (Fuerza, que aumenta el poder de ataque) y la Magnetita (poder de ataque cuerpo a cuerpo). Se recomiendan porque los jugadores que dan beneficios suelen ofrecérselos a quienes encuentran mientras recorren el mundo.",
+      "text_en": "Look for Camp Chair (+2% Critical Strike), Sharpening Wheel (Strength, which increases Attack Power), and Lodestone (melee Attack Power). They are recommended because players who provide buffs often share them with others they meet while out in the world.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Assassination Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Combat Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Subtlety Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:leveling",
+        "class:rogue:combat:leveling",
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:9a6deed9dce97c453d2da8f7a5b440c194d03e87",
+        "section:a6a5fd4cc610afa8ed056527a1ccbd59fc9000ed",
+        "section:d0da2c8461b07a6f8f630f58c7656145a369b9ab"
+      ]
+    },
+    {
+      "id": "clase-rogue-robar-oro-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Robar para ganar oro al subir",
+      "title_en": "Pick Pocket for Leveling Gold",
+      "summary_es": "Incluye Robar en la apertura para obtener oro extra durante el leveo.",
+      "summary_en": "Add Pick Pocket to your opener for extra gold while leveling.",
+      "keywords_es": [
+        "ganar oro con robar",
+        "macro robar pícaro",
+        "oro pícaro al subir"
+      ],
+      "keywords_en": [
+        "earn gold with pick pocket",
+        "rogue pick pocket macro",
+        "rogue leveling gold"
+      ],
+      "text_es": "Puedes incluir Robar en una macro de apertura para conseguir oro extra mientras subes de nivel.",
+      "text_en": "You can add Pick Pocket to an opener macro to earn extra gold while leveling.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Leveling Guide - WoW: Forever › Leveling Viability for Assassination Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue Leveling Guide - WoW: Forever › Leveling Viability for Combat Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue Leveling Guide - WoW: Forever › Leveling Viability for Subtlety Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:leveling",
+        "class:rogue:combat:leveling",
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:417f86e451fc3fc6502a5c3e9499cb23efccf995",
+        "section:4d7950e1c327ba43fcd2bbeb061b7153f2a738ee",
+        "section:82f132004710ecc912c6a23078523fd381b9612e"
+      ]
+    },
+    {
+      "id": "clase-rogue-limitacion-combos-asesinato",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Límite de combos de Asesinato al subir",
+      "title_en": "Assassination Combo-Point Leveling Limit",
+      "summary_es": "Un generador de Asesinato cuesta 60 de Energía y dificulta acumular puntos de combo.",
+      "summary_en": "An Assassination builder costs 60 Energy, making Combo Points harder to build.",
+      "keywords_es": [
+        "coste energía asesinato leveo",
+        "generar puntos de combo asesinato",
+        "limitación asesinato nivelación"
+      ],
+      "keywords_en": [
+        "assassination leveling energy cost",
+        "build assassination combo points",
+        "assassination leveling weakness"
+      ],
+      "text_es": "El generador de puntos de combo de esta especialización cuesta 60 de Energía, así que acumularlos puede ser lento. Es una limitación que reduce la fluidez de Asesinato durante la subida.",
+      "text_en": "The builder described for this specialization costs 60 Energy, so accumulating points can be slow. This makes leveling less smooth for Assassination.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Leveling Guide - WoW: Forever › Leveling Viability for Assassination Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:leveling"
+      ],
+      "source_hashes": [
+        "section:4d7950e1c327ba43fcd2bbeb061b7153f2a738ee"
+      ]
+    },
+    {
+      "id": "clase-rogue-grupos-mazmorra-leveo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Grupos de mazmorra al subir",
+      "title_en": "Dungeon Groups While Leveling",
+      "summary_es": "Sin mejoras grupales, cuesta encontrar grupo; Patada e Incapacitación ayudan a reducir daño.",
+      "summary_en": "Without group buffs, groups can be harder to find; Kick and Gouge help limit damage.",
+      "keywords_es": [
+        "buscar grupo mazmorra pícaro",
+        "pícaro leveo en grupo",
+        "interrumpir lanzamientos pícaro"
+      ],
+      "keywords_en": [
+        "rogue leveling dungeon groups",
+        "rogue group leveling",
+        "rogue interrupt casts"
+      ],
+      "text_es": "Puede costar encontrar grupo para mazmorras mientras subes, porque el Pícaro no ofrece mejoras grupales. Compensa interrumpiendo con Patada e Incapacitación para frenar lanzamientos y limitar el daño que recibe el grupo.",
+      "text_en": "Dungeon groups can be harder to find while leveling because Rogue offers no group buffs. Make yourself useful by interrupting casts with Kick and Gouge to limit damage to the party.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Leveling Guide - WoW: Forever › Leveling Viability for Assassination Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue Leveling Guide - WoW: Forever › Leveling Viability for Combat Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue Leveling Guide - WoW: Forever › Leveling Viability for Subtlety Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:leveling",
+        "class:rogue:combat:leveling",
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:417f86e451fc3fc6502a5c3e9499cb23efccf995",
+        "section:4d7950e1c327ba43fcd2bbeb061b7153f2a738ee",
+        "section:82f132004710ecc912c6a23078523fd381b9612e"
+      ]
+    },
+    {
+      "id": "clase-rogue-correr-combate-leveo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Robustez reduce el tiempo de Correr",
+      "title_en": "Endurance Reduces Sprint Cooldown",
+      "summary_es": "La build de Combate lleva Robustez 1/2, que puede bajar Correr a 2 minutos.",
+      "summary_en": "The Combat build has Endurance 1/2, which can reduce Sprint to 2 minutes.",
+      "keywords_es": [
+        "robustez combate pícaro",
+        "reutilización correr rogue",
+        "talento para correr pícaro"
+      ],
+      "keywords_en": [
+        "combat rogue endurance",
+        "rogue sprint cooldown",
+        "combat sprint talent"
+      ],
+      "text_es": "La build descodificada de Combate lleva Robustez 1/2. Este talento puede reducir la reutilización de Correr a 2 minutos, útil para recorrer distancias largas o escapar de un encuentro.",
+      "text_en": "The decoded Combat build has Endurance 1/2. This talent can lower the Sprint cooldown to 2 minutes, helping with long runs or escapes.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue Leveling Guide - WoW: Forever › Leveling Viability for Combat Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Combat Rogue DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:combat:leveling"
+      ],
+      "source_hashes": [
+        "section:337b9f6e75b0a3dc64c854181d6f70f4bdd3537c",
+        "section:82f132004710ecc912c6a23078523fd381b9612e"
+      ]
+    },
+    {
+      "id": "clase-rogue-build-asesinato-subir-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Asesinato al subir · parte 1/2",
+      "title_en": "Assassination Leveling Build · Part 1/2",
+      "summary_es": "Talentos descodificados de Asesinato para subir, parte 1/2.",
+      "summary_en": "Decoded Assassination leveling talents, part 1/2.",
+      "keywords_es": [
+        "build asesinato leveo parte 1",
+        "talentos asesinato rama asesinato",
+        "puntos talentos asesinato"
+      ],
+      "keywords_en": [
+        "assassination leveling build part 1",
+        "assassination asesinato talents",
+        "assassination talent points"
+      ],
+      "text_es": "Asesinato: Ataques implacables 2/2, Maldad 5/5, Hacer picadillo mejorado 3/3, Vigor 2/2, Salpicadura de sangre 1/1, Letalidad 2/2, Sangre fría 1/1, Venenos mejorados 4/5, Veneno 1/1.",
+      "text_en": "Assassination: Remorseless Attacks 2/2, Malice 5/5, Improved Slice and Dice 3/3, Vigor 2/2, Blood Splatter 1/1, Lethality 2/2, Cold Blood 1/1, Improved Poisons 4/5, Venom 1/1.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Assassination Rogue DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:leveling"
+      ],
+      "source_hashes": [
+        "section:e909da805b09e4c7cfc227a032edd6c4c8fc34aa"
+      ]
+    },
+    {
+      "id": "clase-rogue-build-asesinato-subir-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Asesinato al subir · parte 2/2",
+      "title_en": "Assassination Leveling Build · Part 2/2",
+      "summary_es": "Talentos descodificados de Asesinato para subir, parte 2/2.",
+      "summary_en": "Decoded Assassination leveling talents, part 2/2.",
+      "keywords_es": [
+        "build asesinato leveo parte 2",
+        "talentos asesinato rama combate",
+        "puntos talentos asesinato"
+      ],
+      "keywords_en": [
+        "assassination leveling build part 2",
+        "assassination combate talents",
+        "assassination talent points"
+      ],
+      "text_es": "Combate: Golpe de gracia 3/3, Golpes eficientes 2/2, Desvío 3/3, Precisión 3/3, Robustez 1/2, Estocada 1/1, Compostura 2/2, Ejecución impecable 1/1, Experiencia con armas 2/2, Agresión 3/3, Especialización en doble empuñadura 2/2, Ráfaga con espada 1/1, Cortar y rebanar 1/5, Destello de acero 5/5.",
+      "text_en": "Combat: Coup de Grace 3/3, Efficient Strikes 2/2, Deflection 3/3, Precision 3/3, Endurance 1/2, Riposte 1/1, Composure 2/2, Flawless Execution 1/1, Weapon Expertise 2/2, Aggression 3/3, Dual Wield Specialization 2/2, Blade Flurry 1/1, Hack and Slash 1/5, Flash of Steel 5/5.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Assassination Rogue DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:leveling"
+      ],
+      "source_hashes": [
+        "section:e909da805b09e4c7cfc227a032edd6c4c8fc34aa"
+      ]
+    },
+    {
+      "id": "clase-rogue-build-combate-subir-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Combate al subir · parte 1/2",
+      "title_en": "Combat Leveling Build · Part 1/2",
+      "summary_es": "Talentos descodificados de Combate para subir, parte 1/2.",
+      "summary_en": "Decoded Combat leveling talents, part 1/2.",
+      "keywords_es": [
+        "build combate leveo parte 1",
+        "talentos combate rama asesinato",
+        "puntos talentos combate"
+      ],
+      "keywords_en": [
+        "combat leveling build part 1",
+        "combat asesinato talents",
+        "combat talent points"
+      ],
+      "text_es": "Asesinato: Ataques implacables 2/2, Maldad 5/5, Crueldad 1/3, Hacer picadillo mejorado 3/3, Vigor 2/2, Letalidad 2/2, Sangre fría 1/1.",
+      "text_en": "Assassination: Remorseless Attacks 2/2, Malice 5/5, Ruthlessness 1/3, Improved Slice and Dice 3/3, Vigor 2/2, Lethality 2/2, Cold Blood 1/1.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Combat Rogue DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:combat:leveling"
+      ],
+      "source_hashes": [
+        "section:337b9f6e75b0a3dc64c854181d6f70f4bdd3537c"
+      ]
+    },
+    {
+      "id": "clase-rogue-build-combate-subir-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Combate al subir · parte 2/2",
+      "title_en": "Combat Leveling Build · Part 2/2",
+      "summary_es": "Talentos descodificados de Combate para subir, parte 2/2.",
+      "summary_en": "Decoded Combat leveling talents, part 2/2.",
+      "keywords_es": [
+        "build combate leveo parte 2",
+        "talentos combate rama combate",
+        "puntos talentos combate"
+      ],
+      "keywords_en": [
+        "combat leveling build part 2",
+        "combat combate talents",
+        "combat talent points"
+      ],
+      "text_es": "Combate: Golpe de gracia 3/3, Golpes eficientes 2/2, Desvío 3/3, Precisión 3/3, Robustez 1/2, Estocada 1/1, Compostura 2/2, Ejecución impecable 1/1, Experiencia con armas 2/2, Agresión 3/3, Especialización en doble empuñadura 2/2, Ráfaga con espada 1/1, Cortar y rebanar 5/5, Destello de acero 5/5, Subidón de adrenalina 1/1.",
+      "text_en": "Combat: Coup de Grace 3/3, Efficient Strikes 2/2, Deflection 3/3, Precision 3/3, Endurance 1/2, Riposte 1/1, Composure 2/2, Flawless Execution 1/1, Weapon Expertise 2/2, Aggression 3/3, Dual Wield Specialization 2/2, Blade Flurry 1/1, Hack and Slash 5/5, Flash of Steel 5/5, Adrenaline Rush 1/1.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Combat Rogue DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:combat:leveling"
+      ],
+      "source_hashes": [
+        "section:337b9f6e75b0a3dc64c854181d6f70f4bdd3537c"
+      ]
+    },
+    {
+      "id": "clase-rogue-build-sutileza-subir-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Sutileza al subir · parte 1/2",
+      "title_en": "Subtlety Leveling Build · Part 1/2",
+      "summary_es": "Talentos descodificados de Sutileza para subir, parte 1/2.",
+      "summary_en": "Decoded Subtlety leveling talents, part 1/2.",
+      "keywords_es": [
+        "build sutileza leveo parte 1",
+        "talentos sutileza rama asesinato",
+        "puntos talentos sutileza"
+      ],
+      "keywords_en": [
+        "subtlety leveling build part 1",
+        "subtlety asesinato talents",
+        "subtlety talent points"
+      ],
+      "text_es": "Asesinato: Ataques implacables 2/2. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2, Desvío 3/3, Precisión 3/3, Robustez 2/2, Estocada 1/1, Compostura 2/2, Ejecución impecable 1/1, Experiencia con armas 2/2, Agresión 1/3, Especialización en doble empuñadura 2/2, Ráfaga con espada 1/1, Cortar y rebanar 2/5, Destello de acero 2/5.",
+      "text_en": "Assassination: Remorseless Attacks 2/2. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, Deflection 3/3, Precision 3/3, Endurance 2/2, Riposte 1/1, Composure 2/2, Flawless Execution 1/1, Weapon Expertise 2/2, Aggression 1/3, Dual Wield Specialization 2/2, Blade Flurry 1/1, Hack and Slash 2/5, Flash of Steel 2/5.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Subtlety Rogue DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:33904b741654bce18d86fb423db0d77b84e1d575"
+      ]
+    },
+    {
+      "id": "clase-rogue-build-sutileza-subir-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Sutileza al subir · parte 2/2",
+      "title_en": "Subtlety Leveling Build · Part 2/2",
+      "summary_es": "Talentos descodificados de Sutileza para subir, parte 2/2.",
+      "summary_en": "Decoded Subtlety leveling talents, part 2/2.",
+      "keywords_es": [
+        "build sutileza leveo parte 2",
+        "talentos sutileza rama sutileza",
+        "puntos talentos sutileza"
+      ],
+      "keywords_en": [
+        "subtlety leveling build part 2",
+        "subtlety sutileza talents",
+        "subtlety talent points"
+      ],
+      "text_es": "Sutileza: Maestro de la decepción 2/3, Oportunidad 5/5, Camuflaje 2/3, Emboscada mejorada 3/3, Iniciativa 3/3, Premeditación 1/1, Espadas dentadas 3/3, Golpe fantasmal 1/1, Preparación 1/1, Hemorragia 1/1.",
+      "text_en": "Subtlety: Master of Deception 2/3, Opportunity 5/5, Camouflage 2/3, Improved Ambush 3/3, Initiative 3/3, Premeditation 1/1, Serrated Blades 3/3, Ghostly Strike 1/1, Preparation 1/1, Hemorrhage 1/1.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Subtlety Rogue DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:subtlety:leveling"
+      ],
+      "source_hashes": [
+        "section:33904b741654bce18d86fb423db0d77b84e1d575"
+      ]
     }
   ]
 }
