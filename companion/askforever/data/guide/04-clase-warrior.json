@@ -1143,6 +1143,1076 @@
         "section:ed18dc14ad220dad5d4e9b5e30bd9c617535799c",
         "section:f7711b113329381caf8bf53cbeb12a5e154c2d10"
       ]
+    },
+    {
+      "id": "clase-warrior-armas-stats",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Prioridad de estadísticas de Armas",
+      "title_en": "Arms Stat Priority",
+      "summary_es": "Armas prioriza golpe hasta 8%, pericia hasta 6,5% y después crítico y atributos.",
+      "summary_en": "Arms prioritizes hit to 8%, expertise to 6.5%, then crit and attributes.",
+      "keywords_es": [
+        "estadísticas de Armas",
+        "prioridad de estadísticas guerrero",
+        "golpe 8% Armas",
+        "pericia Armas",
+        "crítico de Armas"
+      ],
+      "keywords_en": [
+        "Arms stats",
+        "warrior stat priority",
+        "Arms 8% hit",
+        "Arms expertise",
+        "Arms crit"
+      ],
+      "text_es": "Prioriza probabilidad de golpe hasta 8%, pericia hasta 6,5%, golpe crítico, fuerza, agilidad, celeridad y, por último, más golpe. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Prioritize hit chance to 8%, expertise to 6.5%, critical strike, Strength, Agility, Haste, and finally additional Hit. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior Stat Priority & Attributes - WoW: Forever › Arms Warrior Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/stat-priority-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:stats"
+      ],
+      "source_hashes": [
+        "section:3ed6c034ea262b0996b6e976e399412e433f47fb"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-stats",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Prioridad de estadísticas de Furia",
+      "title_en": "Fury Stat Priority",
+      "summary_es": "Furia prioriza habilidad con armas hasta 305, golpe hasta 9% y crítico.",
+      "summary_en": "Fury prioritizes weapon skill to 305, hit to 9%, and critical strike.",
+      "keywords_es": [
+        "estadísticas de Furia",
+        "prioridad de estadísticas guerrero",
+        "habilidad con armas 305",
+        "golpe 9% Furia",
+        "aguante Furia"
+      ],
+      "keywords_en": [
+        "Fury stats",
+        "warrior stat priority",
+        "weapon skill 305",
+        "Fury 9% hit",
+        "Fury stamina"
+      ],
+      "text_es": "Prioriza habilidad con armas hasta 305, probabilidad de golpe hasta 9%, golpe crítico, fuerza, agilidad y aguante. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Prioritize weapon skill to 305, hit chance to 9%, critical strike, Strength, Agility, and Stamina. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior Stat Priority & Attributes - WoW: Forever › Fury Warrior Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/stat-priority-pve-dps",
+          "date": "2026-10-29"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:stats"
+      ],
+      "source_hashes": [
+        "section:4c3b204d4bbfdf55456789f44584c4d46b7f9cac"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-stats",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Prioridad de estadísticas de Protección",
+      "title_en": "Protection Stat Priority",
+      "summary_es": "Protección puede priorizar defensa, equilibrio o amenaza según el contenido.",
+      "summary_en": "Protection can prioritize defense, balance, or threat depending on content.",
+      "keywords_es": [
+        "estadísticas de Protección",
+        "prioridad defensiva guerrero",
+        "prioridad equilibrada tanque",
+        "prioridad ofensiva Protección",
+        "defensa 440"
+      ],
+      "keywords_en": [
+        "Protection stats",
+        "defensive warrior priority",
+        "balanced tank priority",
+        "offensive Protection priority",
+        "440 defense"
+      ],
+      "text_es": "Defensiva: aguante, defensa hasta 440, armadura, agilidad, defensa por encima de 440, parada, esquiva, pericia (6,5%), bloqueo, poder de ataque/fuerza, golpe (8%), crítico, pericia (14%) y celeridad. Equilibrada: aguante, pericia (6,5%), golpe (8%), defensa hasta 440, pericia (14%), armadura, poder de ataque/fuerza, agilidad, defensa por encima de 440, parada, esquiva, crítico, bloqueo y celeridad. Ofensiva: pericia (6,5%), golpe (8%), pericia (14%), crítico, poder de ataque/fuerza, aguante, celeridad, agilidad, defensa hasta 440, armadura, defensa por encima de 440, parada, esquiva y bloqueo.",
+      "text_en": "Defensive priority: Stamina, Defense to 440, Armor, Agility, Defense above 440, Parry, Dodge, Expertise (6.5%), Block, Attack Power/Strength, Hit (8%), Crit, Expertise (14%), Haste. Balanced: Stamina, Expertise (6.5%), Hit (8%), Defense to 440, Expertise (14%), Armor, Attack Power/Strength, Agility, Defense above 440, Parry, Dodge, Crit, Block, Haste. Offensive: Expertise (6.5%), Hit (8%), Expertise (14%), Crit, Attack Power/Strength, Stamina, Haste, Agility, Defense to 440, Armor, Defense above 440, Parry, Dodge, Block.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Tank Attribute and Stat Guide - WoW: Forever › Defensive Priority",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/stat-priority-pve-tank",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Tank Attribute and Stat Guide - WoW: Forever › Balanced Priority",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/stat-priority-pve-tank",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Tank Attribute and Stat Guide - WoW: Forever › Offensive Priority",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/stat-priority-pve-tank",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:stats"
+      ],
+      "source_hashes": [
+        "section:08d41dbf9a45cb10c735308c5f7cd8edb73320d5",
+        "section:9c558038c02f90c314b38b031c6915b4d6378ce5",
+        "section:a29e9d1087c5328cfd3a328b9baad88bc72fb9da"
+      ]
+    },
+    {
+      "id": "clase-warrior-armas-rotacion-single",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Armas contra un objetivo",
+      "title_en": "Arms Single-Target Rotation",
+      "summary_es": "Mantén Desgarrar y prioriza Golpe mortal, Abrumar y Embate sin quedarte sin furia.",
+      "summary_en": "Maintain Rend and prioritize Mortal Strike, Overpower, and Slam without running out of Rage.",
+      "keywords_es": [
+        "rotación Armas un objetivo",
+        "prioridad Armas nivel 60",
+        "Desgarrar y Golpe mortal",
+        "Golpe heroico 40 furia",
+        "Ejecutar Armas"
+      ],
+      "keywords_en": [
+        "Arms single target rotation",
+        "level 60 Arms priority",
+        "Rend and Mortal Strike",
+        "Heroic Strike 40 Rage",
+        "Arms Execute"
+      ],
+      "text_es": "Mantén Desgarrar. Prioriza Golpe mortal, Abrumar cuando esté disponible y Lanzazo antes de Embate contra gigantes o dragonantes, después Embate; mantén 5 acumulaciones de Hender armadura. Usa Golpe heroico por encima de 40 de furia y Trueno y Grito desmoralizador para mantener sus perjuicios. Desde el 20% de salud del enemigo, intercala Ejecutar y conserva furia para Golpe mortal.",
+      "text_en": "Maintain Rend. Use Mortal Strike, Overpower when available, and Spearing Strike before Slam against giants or Dragonkin, then Slam; keep 5 Sunder Armor stacks. Use Heroic Strike above 40 Rage, and maintain Thunder Clap and Demoralizing Shout debuffs. Below 20% enemy health, weave in Execute and save Rage for Mortal Strike.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Arms Warrior in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/rotation-cooldowns-pve-dps",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:rotation"
+      ],
+      "source_hashes": [
+        "section:532975479cc58ee984311a2f966d8e5fa76013bc"
+      ]
+    },
+    {
+      "id": "clase-warrior-armas-rotacion-area",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Armas en área",
+      "title_en": "Arms AoE Rotation",
+      "summary_es": "Guarda furia para Golpes de barrido y combina los ataques prioritarios.",
+      "summary_en": "Pool Rage for Sweeping Strikes and combine it with priority attacks.",
+      "keywords_es": [
+        "rotación Armas área",
+        "Armas varios objetivos",
+        "Golpes de barrido rotación",
+        "Mellar más de 45 furia",
+        "Huracán Armas"
+      ],
+      "keywords_en": [
+        "Arms AoE rotation",
+        "Arms multiple targets",
+        "Sweeping Strikes rotation",
+        "Cleave above 45 Rage",
+        "Arms Whirlwind"
+      ],
+      "text_es": "Mantén Desgarrar en el objetivo principal y guarda furia antes de Golpes de barrido; combínalo con Golpe mortal y Abrumar cuando esté disponible. Usa Mellar por encima de 45 de furia si faltan más de 5 s para que vuelva Golpes de barrido, y luego Huracán. Contra gigantes o dragonantes, usa Lanzazo antes de Embate; mantén 5 acumulaciones de Hender armadura en el objetivo prioritario y los perjuicios de Trueno y Grito desmoralizador.",
+      "text_en": "Maintain Rend on the primary target and pool Rage before Sweeping Strikes; combine it with Mortal Strike and Overpower when available. Use Cleave above 45 Rage if Sweeping Strikes has more than 5 seconds left, then Whirlwind. Against giants or Dragonkin, use Spearing Strike before Slam; keep 5 Sunder Armor stacks on the priority target and maintain Thunder Clap and Demoralizing Shout debuffs.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Arms Warrior  in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/rotation-cooldowns-pve-dps",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:rotation"
+      ],
+      "source_hashes": [
+        "section:0c70116265461cda8340e2ffb2c8b3f769e409c9"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-rotacion-single",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Furia contra un objetivo",
+      "title_en": "Fury Single-Target Rotation",
+      "summary_es": "Mantén Grito de guerra y ordena los ataques según la furia disponible.",
+      "summary_en": "Maintain Battle Shout and order attacks around available Rage.",
+      "keywords_es": [
+        "rotación Furia un objetivo",
+        "prioridad Furia nivel 60",
+        "Sed de sangre y Huracán",
+        "Golpe heroico 65 furia",
+        "Seccionar 85 furia"
+      ],
+      "keywords_en": [
+        "Fury single target rotation",
+        "level 60 Fury priority",
+        "Bloodthirst and Whirlwind",
+        "Heroic Strike 65 Rage",
+        "Hamstring 85 Rage"
+      ],
+      "text_es": "Mantén Grito de guerra y, si el grupo lo aplica, Hender armadura. Prioriza Ejecutar, Sed de sangre y Huracán; usa Abrumar por debajo de 30 de furia, Golpe heroico por encima de 65 y Seccionar por encima de 85.",
+      "text_en": "Maintain Battle Shout and, if your party uses it, Sunder Armor. Prioritize Execute, Bloodthirst, and Whirlwind; use Overpower below 30 Rage, Heroic Strike above 65, and Hamstring above 85.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Fury Warrior in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/rotation-cooldowns-pve-dps",
+          "date": "2026-10-29"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:rotation"
+      ],
+      "source_hashes": [
+        "section:7a15b9090ffd3175f3b9dd6346b6944f21b4b687"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-rotacion-area",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Furia en área",
+      "title_en": "Fury AoE Rotation",
+      "summary_es": "Huracán encabeza el área; reserva Mellar para más de 60 de furia.",
+      "summary_en": "Whirlwind leads the AoE priority; save Cleave for above 60 Rage.",
+      "keywords_es": [
+        "rotación Furia área",
+        "Furia varios objetivos",
+        "Huracán en área",
+        "Mellar 60 furia",
+        "Ejecutar objetivo prioritario"
+      ],
+      "keywords_en": [
+        "Fury AoE rotation",
+        "Fury multiple targets",
+        "Whirlwind AoE",
+        "Cleave 60 Rage",
+        "Execute priority target"
+      ],
+      "text_es": "Mantén Grito de guerra y, si el grupo lo usa, Hender armadura en el objetivo principal. Prioriza Huracán; usa Ejecutar si hay un objetivo prioritario, después Sed de sangre y Abrumar por debajo de 30 de furia. Mellar se usa por encima de 60 de furia.",
+      "text_en": "Maintain Battle Shout and, if your party uses it, Sunder Armor on the primary target. Prioritize Whirlwind; use Execute if there is a priority target, then Bloodthirst and Overpower below 30 Rage. Use Cleave above 60 Rage.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Fury Warrior in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/rotation-cooldowns-pve-dps",
+          "date": "2026-10-29"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:rotation"
+      ],
+      "source_hashes": [
+        "section:f6ca9739f660e472addc67a9bb4230b70ab9ee11"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-rotacion-single",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Prioridad de Protección contra un objetivo",
+      "title_en": "Protection Single-Target Priority",
+      "summary_es": "Bloquear con escudo y Revancha encabezan la prioridad, con perjuicios de grupo.",
+      "summary_en": "Shield Block and Revenge lead the priority, alongside group debuffs.",
+      "keywords_es": [
+        "rotación Protección un objetivo",
+        "prioridad tanque guerrero",
+        "Bloquear con escudo Revancha",
+        "Hender armadura tanque",
+        "Golpe heroico 30 furia"
+      ],
+      "keywords_en": [
+        "Protection single target rotation",
+        "warrior tank priority",
+        "Shield Block Revenge",
+        "tank Sunder Armor",
+        "Heroic Strike 30 Rage"
+      ],
+      "text_es": "Es una prioridad adaptable: usa Bloquear con escudo, Revancha y Embate con escudo si tienes el talento; Sed de sangre también si está aprendida. En grupo, mantén 5 acumulaciones de Hender armadura, Trueno, Grito de guerra y Grito desmoralizador. Usa Desgarrar si ya tienes mucha amenaza, rellena con Hender armadura si sobra furia y acciones, y Golpe heroico por encima de 30 de furia. A menos del 20% de salud, Ejecutar exige salir de Actitud defensiva.",
+      "text_en": "Treat this as an adaptable priority: use Shield Block, Revenge, and Shield Slam if talented; Bloodthirst too if learned. In a group, maintain 5 Sunder Armor stacks, Thunder Clap, Battle Shout, and Demoralizing Shout. Use Rend when threat is already high, fill with Sunder Armor if Rage and globals allow, and Heroic Strike above 30 Rage. Below 20% health, Execute requires leaving Defensive Stance.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Rotation and Cooldowns - WoW: Forever › Best Protection Warrior Tank Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/rotation-cooldowns-pve-tank",
+          "date": "2026-10-29"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:rotation"
+      ],
+      "source_hashes": [
+        "section:8851f1cc060989d5f47e83645a5062f52fac0924"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-rotacion-area",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Prioridad de Protección en área",
+      "title_en": "Protection AoE Priority",
+      "summary_es": "Trueno abre la prioridad de área; Bloquear con escudo y Revancha siguen.",
+      "summary_en": "Thunder Clap starts the AoE priority, followed by Shield Block and Revenge.",
+      "keywords_es": [
+        "rotación Protección área",
+        "tanquear varios enemigos",
+        "Trueno Protección",
+        "Mellar 30 furia",
+        "Represalias con dos manos"
+      ],
+      "keywords_en": [
+        "Protection AoE rotation",
+        "tank multiple enemies",
+        "Protection Thunder Clap",
+        "Cleave 30 Rage",
+        "two-handed Retaliation"
+      ],
+      "text_es": "Usa Trueno, Bloquear con escudo, Revancha y Embate con escudo si tienes el talento; Sed de sangre también si está aprendida. Mantén 5 acumulaciones de Hender armadura en un objetivo prioritario si estás en grupo, además de Grito de guerra y Grito desmoralizador. Mellar se usa por encima de 30 de furia. Represalias causa mucho daño contra varios enemigos; cambiar a un arma de dos manos durante el efecto aumenta su daño.",
+      "text_en": "Use Thunder Clap, Shield Block, Revenge, and Shield Slam if talented; Bloodthirst too if learned. In a group, maintain 5 Sunder Armor stacks on a priority target, plus Battle Shout and Demoralizing Shout. Use Cleave above 30 Rage. Retaliation deals high damage against several enemies; switching to a two-handed weapon during the effect increases its damage.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Rotation and Cooldowns - WoW: Forever › Best Protection Warrior Tank Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/rotation-cooldowns-pve-tank",
+          "date": "2026-10-29"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:rotation"
+      ],
+      "source_hashes": [
+        "section:8851f1cc060989d5f47e83645a5062f52fac0924"
+      ]
+    },
+    {
+      "id": "clase-warrior-armas-cambios-forever",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Cambios de Armas en Forever",
+      "title_en": "Arms Changes in Forever",
+      "summary_es": "Desgarrar escala con poder de ataque y puede dar críticos y activar Abrumar.",
+      "summary_en": "Rend scales with Attack Power, can crit, and can trigger Overpower.",
+      "keywords_es": [
+        "cambios Armas Forever",
+        "Desgarrar crítico",
+        "Fragor de la sangre",
+        "activar Abrumar",
+        "Heridas profundas crítico"
+      ],
+      "keywords_en": [
+        "Arms Forever changes",
+        "Rend crit",
+        "Bloodthrill",
+        "trigger Overpower",
+        "Deep Wounds crit"
+      ],
+      "text_es": "En Armas, Desgarrar ahora escala mejor con el poder de ataque y puede asestar críticos; Heridas profundas también puede hacerlo. Con puntos en Fragor de la sangre, Desgarrar tiene la posibilidad de activar Abrumar durante 6 s; más puntos aumentan esa posibilidad.",
+      "text_en": "Rend now scales better with Attack Power for Arms and can critically strike; Deep Wounds can also crit. With points in Bloodthrill, Rend can activate Overpower for 6 seconds, and additional points increase the chance.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior DPS Guide - WoW: Forever › Changes to Arms Warrior in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/overview-pve-dps",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:overview"
+      ],
+      "source_hashes": [
+        "section:4c249d48afa3e1ebfaf913f80a148d06d0ca8685"
+      ]
+    },
+    {
+      "id": "clase-warrior-armas-lanzazo-embate",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Lanzazo y Embate mejorado",
+      "title_en": "Spearing Strike and Improved Slam",
+      "summary_es": "Lanzazo desmonta; Embate mejorado reduce su lanzamiento y evita reiniciar el golpe.",
+      "summary_en": "Spearing Strike dismounts; Improved Slam shortens its cast and avoids resetting the swing.",
+      "keywords_es": [
+        "Lanzazo desmontar",
+        "daño de Lanzazo",
+        "Embate mejorado",
+        "tiempo de lanzamiento Embate",
+        "reiniciar golpe cuerpo a cuerpo"
+      ],
+      "keywords_en": [
+        "Spearing Strike dismount",
+        "Spearing Strike damage",
+        "Improved Slam",
+        "Slam cast time",
+        "melee swing reset"
+      ],
+      "text_es": "Lanzazo, exclusivo de Armas, desmonta y causa un 40% del daño del arma; contra gigantes, dragonantes y objetivos montados añade daño equivalente al 80% del daño del arma. Embate tiene 15 s de reutilización, reducidos a 10 s con 2 puntos en Embate mejorado; el talento también hace que lanzarlo ya no interrumpa el tiempo entre golpes cuerpo a cuerpo.",
+      "text_en": "Arms-only Spearing Strike dismounts and deals 40% weapon damage; against Giants, Dragonkin, and mounted targets, it adds damage equal to 80% of weapon damage. Slam has a 15-second cooldown, reduced to 10 seconds with 2 points in Improved Slam; the talent also makes casting it no longer interrupt melee swing time.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/overview-pve-dps",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:overview"
+      ],
+      "source_hashes": [
+        "section:6ebba8e13a11e6a4374f526e70415b6dad7b4772",
+        "section:9ff89aea476a4470ebe9817cf1b5ad906c38856b"
+      ]
+    },
+    {
+      "id": "clase-warrior-maestro-armas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Especialización Maestro de armas",
+      "title_en": "Weaponmaster Specialization",
+      "summary_es": "Maestro de armas unifica especializaciones y permite cambiar de tipo de arma con más libertad.",
+      "summary_en": "Weaponmaster combines weapon specializations and allows more freedom to change weapon types.",
+      "keywords_es": [
+        "Maestro de armas guerrero",
+        "especialización de armas",
+        "mazas ignoran armadura",
+        "bastones guerrero",
+        "cambiar tipo de arma"
+      ],
+      "keywords_en": [
+        "warrior Weaponmaster",
+        "weapon specialization",
+        "maces ignore armor",
+        "warrior staves",
+        "change weapon type"
+      ],
+      "text_es": "Maestro de armas combina las especializaciones de hachas, espadas, armas de asta y mazas, e incluye bastones. Las mazas y los bastones ignoran armadura. Al concentrar esos efectos en un solo talento, puedes cambiar de tipo de arma con más libertad mientras subes de nivel.",
+      "text_en": "Weaponmaster combines specializations for axes, swords, polearms, and maces, and includes staves. Maces and staves ignore armor. Combining these effects in one talent lets you switch weapon types more freely while leveling.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/overview-pve-dps",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:overview"
+      ],
+      "source_hashes": [
+        "section:6ebba8e13a11e6a4374f526e70415b6dad7b4772"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-furia-normalizada",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Furia normalizada en Furia",
+      "title_en": "Normalized Rage for Fury",
+      "summary_es": "El daño del arma y los críticos ya no aumentan la furia generada por Furia.",
+      "summary_en": "Weapon damage and critical hits no longer increase Fury's Rage generation.",
+      "keywords_es": [
+        "furia normalizada Furia",
+        "generación de furia guerrero",
+        "críticos no dan furia",
+        "furia del arma",
+        "Furia Forever cambios"
+      ],
+      "keywords_en": [
+        "Fury normalized Rage",
+        "warrior Rage generation",
+        "crit gives no Rage",
+        "weapon Rage",
+        "Fury Forever changes"
+      ],
+      "text_es": "En Furia, la generación de furia está normalizada: los ataques dan una cantidad fija dentro de un intervalo calculado, no según el daño del arma. Los críticos no generan furia adicional y el equipo no aumenta la furia obtenida; para generar más, hay que recibir daño.",
+      "text_en": "Rage generation for Fury is normalized: attacks grant a fixed amount within a calculated range, not based on weapon damage. Critical hits grant no extra Rage, and gear does not increase Rage gained; taking damage is the way to generate more.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior DPS Guide - WoW: Forever › Changes to Fury Warrior in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/overview-pve-dps",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:overview"
+      ],
+      "source_hashes": [
+        "section:b7bca2ae0c7f74df9db2d5d801391942976b4ae4"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-muro-escudo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Cambios de Muro de escudo y Represalias",
+      "title_en": "Shield Wall and Retaliation Changes",
+      "summary_es": "Muro de escudo dura 12 s y reduce 60% el daño; las reutilizaciones ya no se comparten.",
+      "summary_en": "Shield Wall lasts 12 seconds and reduces damage by 60%; cooldowns are no longer shared.",
+      "keywords_es": [
+        "Muro de escudo cambios",
+        "reutilización Represalias",
+        "Muro de escudo 60%",
+        "reducción de daño guerrero",
+        "reutilizaciones separadas"
+      ],
+      "keywords_en": [
+        "Shield Wall changes",
+        "Retaliation cooldown",
+        "Shield Wall 60%",
+        "warrior damage reduction",
+        "separate cooldowns"
+      ],
+      "text_es": "Muro de escudo ahora reduce un 60% el daño recibido durante 12 s y tiene 15 min de reutilización base, reducible con talentos. Represalias tiene 15 min de reutilización. Temeridad, Represalias y Muro de escudo dejaron de compartir reutilización; Temeridad conserva 30 min.",
+      "text_en": "Shield Wall now reduces damage taken by 60% for 12 seconds and has a 15-minute base cooldown, reducible with talents. Retaliation has a 15-minute cooldown. Recklessness, Retaliation, and Shield Wall no longer share cooldowns; Recklessness remains at 30 minutes.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Tank Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/overview-pve-tank",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Rotation and Cooldowns - WoW: Forever › Best Protection Warrior Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/rotation-cooldowns-pve-tank",
+          "date": "2026-10-29"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:overview",
+        "class:warrior:protection:rotation"
+      ],
+      "source_hashes": [
+        "section:c8ff2acd84722e39fa2c1ae6985614ff2a651913",
+        "section:ed18dc14ad220dad5d4e9b5e30bd9c617535799c"
+      ]
+    },
+    {
+      "id": "clase-warrior-cambio-actitudes-combate",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Cambiar de actitud durante el combate",
+      "title_en": "Stance Dancing in Combat",
+      "summary_es": "Cambia brevemente a otra actitud para usar una facultad y vuelve a la anterior.",
+      "summary_en": "Briefly switch stances to use an ability, then return to the previous stance.",
+      "keywords_es": [
+        "cambiar actitud combate",
+        "cambio rápido de actitud",
+        "usar Abrumar",
+        "Actitud rabiosa y batalla",
+        "furia al cambiar actitud"
+      ],
+      "keywords_en": [
+        "stance dancing",
+        "switch stance in combat",
+        "use Overpower",
+        "Berserker and Battle Stance",
+        "Rage stance change"
+      ],
+      "text_es": "Cambiar de actitud durante el combate permite usar una facultad restringida y volver enseguida a la actitud anterior. Por ejemplo, pasa de Actitud rabiosa a Actitud de batalla para lanzar Abrumar cuando esté disponible y regresa después. Si necesitas reducir el daño recibido al tanquear un enemigo en una mazmorra, puedes cambiar a Actitud defensiva.",
+      "text_en": "Stance dancing lets you use an ability restricted to another stance and quickly return to the previous one. For example, switch from Berserker Stance to Battle Stance to cast Overpower when available, then switch back. To reduce incoming damage while tanking an enemy in a dungeon, you can switch to Defensive Stance.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior DPS Guide - WoW: Forever › Arms Warrior Specific Systems in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/overview-pve-dps",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:overview"
+      ],
+      "source_hashes": [
+        "section:082f291835995244fcef68e69006f4fd916c5ebb"
+      ]
+    },
+    {
+      "id": "clase-warrior-ataque-victoria",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ataque de la victoria",
+      "title_en": "Victory Rush",
+      "summary_es": "Tras matar a un enemigo no trivial, Ataque de la victoria inflige daño y cura un 10% de salud máxima.",
+      "summary_en": "After killing a non-trivial enemy, Victory Rush deals damage and heals 10% of maximum health.",
+      "keywords_es": [
+        "Ataque de la victoria Guerrero",
+        "curación Ataque de la victoria",
+        "activar Ataque de la victoria",
+        "curarse tras matar",
+        "facultad nueva Guerrero"
+      ],
+      "keywords_en": [
+        "Warrior Victory Rush",
+        "Victory Rush healing",
+        "activate Victory Rush",
+        "heal after a kill",
+        "new Warrior ability"
+      ],
+      "text_es": "Ataque de la victoria está disponible para las tres especializaciones. Puedes usarlo tras matar a un enemigo no trivial; inflige daño y restaura un 10% de tu salud máxima.",
+      "text_en": "Victory Rush is available to all three specializations. You can use it after killing a non-trivial enemy; it deals damage and restores 10% of your maximum health.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Tank Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/overview-pve-tank",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:overview",
+        "class:warrior:protection:overview"
+      ],
+      "source_hashes": [
+        "section:6ebba8e13a11e6a4374f526e70415b6dad7b4772",
+        "section:ac4ce0b3e17e24a7f6d6341bd70ec2b76caa77c8"
+      ]
+    },
+    {
+      "id": "clase-warrior-gritos-duracion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Duración de los gritos del Guerrero",
+      "title_en": "Warrior Shout Durations",
+      "summary_es": "Grito de guerra dura 3 minutos y Grito desmoralizador, 45 segundos.",
+      "summary_en": "Battle Shout lasts 3 minutes and Demoralizing Shout lasts 45 seconds.",
+      "keywords_es": [
+        "duración Grito de guerra",
+        "duración Grito desmoralizador",
+        "gritos Guerrero Forever",
+        "Grito de guerra 3 minutos",
+        "Grito desmoralizador 45 segundos"
+      ],
+      "keywords_en": [
+        "Battle Shout duration",
+        "Demoralizing Shout duration",
+        "Forever Warrior shouts",
+        "Battle Shout 3 minutes",
+        "Demoralizing Shout 45 seconds"
+      ],
+      "text_es": "En Forever, Grito de guerra dura 3 minutos en vez de 2, y Grito desmoralizador dura 45 segundos en vez de 30. Esto alarga el tiempo entre renovaciones de ambos efectos.",
+      "text_en": "In Forever, Battle Shout lasts 3 minutes instead of 2, and Demoralizing Shout lasts 45 seconds instead of 30. This lengthens the time between refreshing either effect.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/overview-pve-dps",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:overview"
+      ],
+      "source_hashes": [
+        "section:9ff89aea476a4470ebe9817cf1b5ad906c38856b"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-otros-cambios",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Otros cambios de Furia",
+      "title_en": "Other Fury Changes",
+      "summary_es": "Enfurecer se activa con daño directo y Sed de sangre gana daño fijo por rango.",
+      "summary_en": "Enrage activates from direct damage, and Bloodthirst gains flat damage per rank.",
+      "keywords_es": [
+        "cambios habilidades Furia",
+        "Enfurecer daño directo",
+        "Sed de sangre daño fijo",
+        "Especialización en doble empuñadura furia",
+        "armadura jefes Furia"
+      ],
+      "keywords_en": [
+        "Fury ability changes",
+        "Enrage direct damage",
+        "Bloodthirst flat damage",
+        "Fury Dual Wield Specialization",
+        "Fury boss armor"
+      ],
+      "text_es": "Enfurecer ahora se activa con cualquier instancia de daño directo recibido, no solo con críticos. Sed de sangre añade daño fijo que aumenta con cada rango, y Especialización en doble empuñadura aumenta ligeramente la furia generada por el arma secundaria. Además, Fuego feérico y Maldición de Temeridad ya no acumulan sus efectos de reducción de armadura en los enemigos.",
+      "text_en": "Enrage now activates from any instance of direct damage taken, not only critical hits. Bloodthirst adds flat damage that increases with each rank, and Dual Wield Specialization slightly increases Rage generated by the off-hand weapon. Also, Faerie Fire and Curse of Recklessness no longer stack their armor-reduction effects on enemies.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior DPS Guide - WoW: Forever › Changes to Fury Warrior in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/overview-pve-dps",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:overview"
+      ],
+      "source_hashes": [
+        "section:b7bca2ae0c7f74df9db2d5d801391942976b4ae4",
+        "section:e48d63f79fa1907b0e696fc9a928601c50eeb1b0"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-bloquear-cambios",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Cambios de Bloquear con escudo",
+      "title_en": "Shield Block Changes",
+      "summary_es": "Bloquear con escudo dura 7 segundos y puede bloquear dos ataques por uso.",
+      "summary_en": "Shield Block lasts 7 seconds and can block two attacks per use.",
+      "keywords_es": [
+        "Bloquear con escudo cambios",
+        "duración Bloquear con escudo",
+        "dos bloqueos",
+        "habilidades Protección Forever",
+        "bloquear ataques Guerrero"
+      ],
+      "keywords_en": [
+        "Shield Block changes",
+        "Shield Block duration",
+        "two blocks",
+        "Forever Protection abilities",
+        "Warrior block attacks"
+      ],
+      "text_es": "En Forever, Bloquear con escudo aumenta un 75% la probabilidad de bloqueo durante 7 s y puede bloquear 2 ataques, en vez de durar 5 s y bloquear solo 1. Úsalo para reducir el daño y activar efectos que dependen de bloquear.",
+      "text_en": "In Forever, Shield Block increases block chance by 75% for 7 seconds and can block 2 attacks, rather than lasting 5 seconds and blocking only 1. Use it to reduce damage and trigger effects that depend on blocking.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Tank Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/overview-pve-tank",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:overview"
+      ],
+      "source_hashes": [
+        "section:ed18dc14ad220dad5d4e9b5e30bd9c617535799c"
+      ]
+    },
+    {
+      "id": "clase-warrior-armas-trueno",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Cambio de Trueno en Armas",
+      "title_en": "Arms Thunder Clap Change",
+      "summary_es": "Trueno reduce un 20% la velocidad de ataque, frente al 10% anterior.",
+      "summary_en": "Thunder Clap slows attack speed by 20%, up from 10%.",
+      "keywords_es": [
+        "Trueno Armas Forever",
+        "reducción de velocidad Trueno",
+        "Trueno 20 por ciento",
+        "cambios Guerrero Armas"
+      ],
+      "keywords_en": [
+        "Arms Thunder Clap Forever",
+        "Thunder Clap attack speed reduction",
+        "20 percent Thunder Clap",
+        "Arms Warrior changes"
+      ],
+      "text_es": "En Forever, Trueno reduce un 20% la velocidad de ataque de los enemigos, en vez del 10% anterior.",
+      "text_en": "In Forever, Thunder Clap reduces enemies' attack speed by 20%, up from 10% previously.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/overview-pve-dps",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:overview"
+      ],
+      "source_hashes": [
+        "section:9ff89aea476a4470ebe9817cf1b5ad906c38856b"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-precision-furiosa",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Precisión furiosa",
+      "title_en": "Furious Precision",
+      "summary_es": "Precisión furiosa aumenta el golpe de los ataques del arma secundaria.",
+      "summary_en": "Furious Precision increases hit chance for off-hand attacks.",
+      "keywords_es": [
+        "Precisión furiosa Guerrero",
+        "golpe arma secundaria",
+        "acierto doble empuñadura",
+        "cambios Furia Forever"
+      ],
+      "keywords_en": [
+        "Warrior Furious Precision",
+        "off-hand hit chance",
+        "dual-wield hit",
+        "Fury Forever changes"
+      ],
+      "text_es": "Precisión furiosa aumenta el golpe de los ataques con el arma secundaria; esta facultad compensa la retirada de la cola de Golpe heroico.",
+      "text_en": "Furious Precision increases hit chance for off-hand attacks; the ability compensates for the removal of the Heroic Strike queue.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/overview-pve-dps",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:overview"
+      ],
+      "source_hashes": [
+        "section:e8123f5c62b4208e1a01cf77ca355b993a1a94f4"
+      ]
+    },
+    {
+      "id": "clase-warrior-maestria-tactica",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Maestría táctica básica",
+      "title_en": "Baseline Tactical Mastery",
+      "summary_es": "Maestría táctica permite conservar hasta 10 puntos de furia al cambiar de actitud.",
+      "summary_en": "Tactical Mastery lets Warriors retain up to 10 Rage when changing stances.",
+      "keywords_es": [
+        "Maestría táctica Guerrero",
+        "furia al cambiar de actitud",
+        "retener furia Guerrero",
+        "Maestría táctica básica"
+      ],
+      "keywords_en": [
+        "Warrior Tactical Mastery",
+        "Rage when changing stances",
+        "retain Warrior Rage",
+        "baseline Tactical Mastery"
+      ],
+      "text_es": "Maestría táctica es una facultad básica del Guerrero en Forever: al cambiar de actitud, permite conservar hasta 10 puntos de furia.",
+      "text_en": "Tactical Mastery is a baseline Warrior ability in Forever: when changing stances, it lets you retain up to 10 Rage.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Tank Guide - WoW: Forever › Protection Warrior Specific Systems in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/overview-pve-tank",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:overview"
+      ],
+      "source_hashes": [
+        "section:6ab3846bb01dd45fc7a7179ccbf05954caa4f41d"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-nuevas-herramientas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Nuevas herramientas de Protección",
+      "title_en": "New Protection Tools",
+      "summary_es": "Cuatro talentos amplían la movilidad, el daño, la furia y la defensa con escudo.",
+      "summary_en": "Four talents expand mobility, damage, Rage, and shield-based defense.",
+      "keywords_es": [
+        "nuevos talentos Protección Forever",
+        "Vanguardia Guerrero",
+        "Bastión Guerrero",
+        "Maestro de defensa Guerrero",
+        "Ira enfocada Guerrero"
+      ],
+      "keywords_en": [
+        "new Protection talents Forever",
+        "Warrior Vanguard talent",
+        "Warrior Bastion talent",
+        "Warrior Master of Defense",
+        "Warrior Focused Rage"
+      ],
+      "text_es": "Vanguardia habilita Embestir desde Actitud defensiva. Bastión eleva una décima parte el daño que infliges al llevar escudo; Maestro de defensa te da 5 de furia si esquivas o paras en esas condiciones. Ira enfocada resta 3 puntos de furia al coste de tus facultades ofensivas.",
+      "text_en": "Vanguard enables Charge from Defensive Stance. With a shield on, Bastion raises your damage dealt by one tenth; a successful dodge or parry then yields 5 Rage through Master of Defense. Focused Rage subtracts 3 Rage from offensive ability costs.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Tank Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/overview-pve-tank",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:overview"
+      ],
+      "source_hashes": [
+        "section:ac4ce0b3e17e24a7f6d6341bd70ec2b76caa77c8"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-cambios-talentos",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Cambios en talentos de Protección",
+      "title_en": "Protection Talent Changes",
+      "summary_es": "Especialización en escudos, Anticipación, Revancha mejorada y Desafío cambian en Forever.",
+      "summary_en": "Shield Specialization, Anticipation, Improved Revenge, and Defiance change in Forever.",
+      "keywords_es": [
+        "cambios talentos Protección",
+        "furia por bloquear Guerrero",
+        "Anticipación defensa",
+        "Revancha mejorada daño",
+        "Desafío con escudo"
+      ],
+      "keywords_en": [
+        "Protection talent changes",
+        "Rage from blocking Warrior",
+        "Anticipation Defense",
+        "Improved Revenge damage",
+        "Defiance with shield"
+      ],
+      "text_es": "En Forever, Especialización en escudos genera 5 de furia al bloquear; Anticipación aporta 20 de defensa. Revancha mejorada aumenta un 60% el daño de Revancha en vez de dar una posibilidad de aturdir, y Desafío añade un 15% de amenaza en Actitud defensiva mientras llevas escudo.",
+      "text_en": "In Forever, Shield Specialization grants 5 Rage when you block, and Anticipation adds 20 Defense. Improved Revenge increases Revenge damage by 60% instead of adding a stun chance, while Defiance adds 15% threat in Defensive Stance when a shield is equipped.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Tank Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/overview-pve-tank",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:overview"
+      ],
+      "source_hashes": [
+        "section:ed18dc14ad220dad5d4e9b5e30bd9c617535799c"
+      ]
     }
   ]
 }
