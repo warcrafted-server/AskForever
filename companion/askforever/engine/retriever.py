@@ -2098,6 +2098,8 @@ def _detect_zone_quests(facts: Facts, db, normalized: str, lang: str,
             f'misiones de {zone_name} para tu nivel (no están en la base)'
             if lang == 'es'
             else f'quests in {zone_name} for your level (not in the database)')
+        # Marca la intención para que _detect_guide no añada fichas ajenas (mazmorras de la zona).
+        _add_source(facts, f'zone_quests:{zone_id}')
         return
 
     items = []
@@ -2169,7 +2171,7 @@ def _detect_guide(facts: Facts, db, question, lang: str, ctx: dict) -> None:
             or (_safe(_zone_in_question, db, normalize(question), lang) or (None,))[0]
             is not None):
         return
-    blocked_sources = ('quest:', 'dungeon', 'route:')
+    blocked_sources = ('quest:', 'dungeon', 'route:', 'zone_quests:')
     if any(source.startswith(blocked_sources) for source in facts.sources):
         return
     blocked_lines = ('Misión ', 'Misiones ', 'Quest ', 'Quests in ', 'Mazmorra ',
