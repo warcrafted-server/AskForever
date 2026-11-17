@@ -2203,6 +2203,546 @@
       "source_hashes": [
         "section:85c298995930002eba1995892df4455e93c6ade0"
       ]
+    },
+    {
+      "id": "clase-mage-talentos-arcano-subida",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de talentos de Arcano para subir",
+      "title_en": "Arcane Leveling Talent Build",
+      "summary_es": "Build 1-60 de Arcano con apoyo de maná y talentos de Fuego y Escarcha.",
+      "summary_en": "Arcane leveling build with mana support and Fire and Frost talents.",
+      "keywords_es": [
+        "build de talentos arcano para subir",
+        "talentos arcano nivel 60",
+        "tromba de misiles arcano",
+        "poder arcano leveo"
+      ],
+      "keywords_en": [
+        "arcane leveling talent build",
+        "arcane level 60 talents",
+        "arcane missile barrage",
+        "arcane power leveling"
+      ],
+      "text_es": "Arcano: Especialización en varitas 2/2, Canalización mejorada 5/5, Sutileza Arcana 2/2, Concentración Arcana 5/5, Tromba de misiles 2/2, Geometría Arcana 2/2, Impacto Arcano 3/3, Explosión Arcana 1/1, Meditación Arcana 3/3, Cólera Arcana 1/1, Presencia mental 1/1, Mente Arcana 5/5, Inestabilidad Arcana 3/3 y Poder Arcano 1/1. Fuego: Incineración 5/5, Acelerante 5/5 y Explosión de Fuego mejorada 2/2. Escarcha: Precisión 3/3.",
+      "text_en": "Arcane: Wand Specialization 2/2, Improved Channeling 5/5, Arcane Subtlety 2/2, Arcane Concentration 5/5, Missile Barrage 2/2, Arcane Geometry 2/2, Arcane Impact 3/3, Arcane Blast 1/1, Arcane Meditation 3/3, Arcane Wrath 1/1, Presence of Mind 1/1, Arcane Mind 5/5, Arcane Instability 3/3, and Arcane Power 1/1. Fire: Incineration 5/5, Accelerant 5/5, and Improved Fire Blast 2/2. Frost: Precision 3/3.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Arcane Mage DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:leveling"
+      ],
+      "source_hashes": [
+        "section:4e76f57b836408d76191e70b024f25e06808113e"
+      ]
+    },
+    {
+      "id": "clase-mage-talentos-fuego-subida",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de talentos de Fuego para subir",
+      "title_en": "Fire Leveling Talent Build",
+      "summary_es": "Build 1-60 que combina Calentamiento y daño de Fuego con apoyo Arcano.",
+      "summary_en": "Leveling build combining Heating Up and Fire damage with Arcane support.",
+      "keywords_es": [
+        "build de talentos fuego para subir",
+        "talentos fuego nivel 60",
+        "calentamiento piroexplosión",
+        "build fuego mago leveo"
+      ],
+      "keywords_en": [
+        "fire leveling talent build",
+        "fire level 60 talents",
+        "heating up pyroblast",
+        "fire mage leveling build"
+      ],
+      "text_es": "Arcano: Canalización mejorada 5/5, Sutileza Arcana 2/2, Concentración Arcana 5/5, Tromba de misiles 2/2, Explosión Arcana 1/1 y Meditación Arcana 3/3. Fuego: Incineración 5/5, Acelerante 5/5, Ignición 5/5, Lanzallamas 2/2, Alma ardiente 3/3, Piroexplosión 1/1, Explosión de Fuego mejorada 2/2, Calentamiento 1/1, Masa crítica 3/3, Poder de Fuego 3/3 y Combustión 1/1. Escarcha: Precisión 2/3.",
+      "text_en": "Arcane: Improved Channeling 5/5, Arcane Subtlety 2/2, Arcane Concentration 5/5, Missile Barrage 2/2, Arcane Blast 1/1, and Arcane Meditation 3/3. Fire: Incineration 5/5, Accelerant 5/5, Ignite 5/5, Flame Throwing 2/2, Burning Soul 3/3, Pyroblast 1/1, Improved Fire Blast 2/2, Heating Up 1/1, Critical Mass 3/3, Fire Power 3/3, and Combustion 1/1. Frost: Precision 2/3.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Fire Mage DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:fire:leveling"
+      ],
+      "source_hashes": [
+        "section:70db27a356ab4ccd9425439c6cac88327a2f4a6c"
+      ]
+    },
+    {
+      "id": "clase-mage-ruta-talentos-arcano",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de talentos de Arcano",
+      "title_en": "Arcane Talent Path",
+      "summary_es": "Prioriza varita, Tromba de misiles y apoyo de maná antes de completar la build.",
+      "summary_en": "Prioritize wand, Missile Barrage, and mana support before completing the build.",
+      "keywords_es": [
+        "orden de talentos arcano",
+        "ruta de talentos de arcano",
+        "especialización en varitas arcano",
+        "subir mago arcano"
+      ],
+      "keywords_en": [
+        "arcane talent order",
+        "arcane leveling talent path",
+        "arcane wand specialization",
+        "leveling arcane mage"
+      ],
+      "text_es": "Empieza con Especialización en varitas 2/2 y toma Precisión pronto; prioriza después Canalización mejorada 5/5, Tromba de misiles 2/2 y Sutileza Arcana 2/2. Al desbloquear Explosión Arcana 1/1, úsala para activar Tromba; Cólera Arcana 1/1 se recomienda desde el nivel 26. Después toma Concentración Arcana 5/5 y Meditación Arcana 3/3 para sostener el maná, completa Precisión 3/3 y avanza hacia Poder Arcano 1/1. Termina con los talentos de daño y alcance de la build.",
+      "text_en": "Start with Wand Specialization 2/2 and take Precision early; then prioritize Improved Channeling 5/5, Missile Barrage 2/2, and Arcane Subtlety 2/2. When available, use Arcane Blast 1/1 to trigger Barrage; Arcane Wrath 1/1 is recommended from level 26. Then take Arcane Concentration 5/5 and Arcane Meditation 3/3 for mana sustain, finish Precision 3/3, and work toward Arcane Power 1/1. Complete the build with its damage and range talents.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Arcane Mage DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Leveling as an Arcane Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:leveling"
+      ],
+      "source_hashes": [
+        "section:4e76f57b836408d76191e70b024f25e06808113e",
+        "section:8e6f1a177a32669927096280bee225a97a167dff"
+      ]
+    },
+    {
+      "id": "clase-mage-ruta-talentos-fuego",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de talentos de Fuego",
+      "title_en": "Fire Talent Path",
+      "summary_es": "Acelerante agiliza los lanzamientos; prepara Calentamiento y añade apoyo Arcano.",
+      "summary_en": "Accelerant speeds casts; build toward Heating Up and add Arcane support.",
+      "keywords_es": [
+        "orden de talentos fuego",
+        "ruta de talentos de fuego mago",
+        "acelerante y calentamiento",
+        "explosión de fuego mejorada"
+      ],
+      "keywords_en": [
+        "fire talent order",
+        "fire mage leveling talent path",
+        "accelerant and heating up",
+        "improved fire blast talent"
+      ],
+      "text_es": "Invierte pronto en Acelerante 5/5 para acortar lanzamientos. Cuando se acerquen Calentamiento 1/1 y Piroexplosión 1/1, prepara Explosión de Fuego mejorada 2/2 e Incineración 5/5. Luego sigue con Ignición 5/5, Lanzallamas 2/2, Alma ardiente 3/3, Masa crítica 3/3 y Poder de Fuego 3/3. Canalización mejorada 5/5, Tromba de misiles 2/2 y Sutileza Arcana 2/2 aportan apoyo Arcano; adelanta Concentración Arcana 5/5 y Meditación Arcana 3/3 si necesitas maná.",
+      "text_en": "Invest early in Accelerant 5/5 to shorten casts. As Heating Up 1/1 and Pyroblast 1/1 come into reach, prepare Improved Fire Blast 2/2 and Incineration 5/5. Then take Ignite 5/5, Flame Throwing 2/2, Burning Soul 3/3, Critical Mass 3/3, and Fire Power 3/3. Improved Channeling 5/5, Missile Barrage 2/2, and Arcane Subtlety 2/2 add Arcane support; move Arcane Concentration 5/5 and Arcane Meditation 3/3 earlier if you need mana.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Fire Mage DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:fire:leveling"
+      ],
+      "source_hashes": [
+        "section:70db27a356ab4ccd9425439c6cac88327a2f4a6c"
+      ]
+    },
+    {
+      "id": "clase-mage-ruta-talentos-escarcha",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de talentos de Escarcha",
+      "title_en": "Frost Talent Path",
+      "summary_es": "Empieza con varita; intercala Mordiescarcha y cambia sus puntos al llegar Dedos de Escarcha.",
+      "summary_en": "Start with a wand; take Frostbite early and reallocate when Fingers of Frost arrives.",
+      "keywords_es": [
+        "orden de talentos escarcha",
+        "ruta de talentos de escarcha mago",
+        "mordiescarcha dedos de escarcha",
+        "barrera de hielo escarcha leveo"
+      ],
+      "keywords_en": [
+        "frost talent order",
+        "frost mage leveling talent path",
+        "frostbite fingers of frost",
+        "ice barrier frost leveling"
+      ],
+      "text_es": "Empieza con Especialización en varitas 2/2 y prioriza Precisión (3/3 en la build completa). Intercala Mordiescarcha 3/3 antes de terminar Descarga de Escarcha mejorada 5/5; Fragmentos de hielo 5/5 y Trizar 3/3 potencian los golpes congelados. Lanza de hielo 1/1 se desbloquea a 20. Toma Bloqueo de hielo 1/1 antes de Dedos de Escarcha 2/2; como ambos procs no se acumulan, puedes reasignar Mordiescarcha 3/3 para adelantar Barrera de hielo 1/1 y Cono de frío mejorado 3/3.",
+      "text_en": "Start with Wand Specialization 2/2 and prioritize Precision (3/3 in the completed build). Take Frostbite 3/3 before finishing Improved Frostbolt 5/5; Ice Shards 5/5 and Shatter 3/3 strengthen damage against frozen targets. Ice Lance 1/1 unlocks at 20. Take Ice Block 1/1 before Fingers of Frost 2/2; since their procs do not stack, you can reallocate Frostbite 3/3 to reach Ice Barrier 1/1 and Improved Cone of Cold 3/3 sooner.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Frost Mage Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Frost Mage DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Frost Mage Leveling Talent Build for WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:frost:leveling"
+      ],
+      "source_hashes": [
+        "section:9f2d2de4ab2c35c2a0e8fdf8f82e48a930203324",
+        "section:bd01a556cd9ed84d3f95d2eeb3e8e0afccea20a2"
+      ]
+    },
+    {
+      "id": "clase-mage-rangos-hechizos",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rangos de hechizos de daño",
+      "title_en": "Damage Spell Ranks",
+      "summary_es": "Entrena nuevos rangos de Bola de Fuego, Descarga de Escarcha y Explosión de Fuego durante el leveo.",
+      "summary_en": "Train new Fireball, Frostbolt, and Fire Blast ranks as you level.",
+      "keywords_es": [
+        "rangos de hechizos de mago",
+        "rangos bola de fuego",
+        "rangos descarga de escarcha",
+        "rangos explosión de fuego"
+      ],
+      "keywords_en": [
+        "mage spell ranks",
+        "fireball ranks",
+        "frostbolt ranks",
+        "fire blast ranks"
+      ],
+      "text_es": "Bola de Fuego se aprende a 1 y mejora a 6, 12, 18, 24, 30, 36, 42, 48, 54 y 60. Descarga de Escarcha llega a 4 y recibe rangos a 8, 14, 20, 26, 32, 38, 44, 50, 56 y 60. Explosión de Fuego se aprende a 6 y mejora a 14, 22, 30, 38, 46 y 54. Misiles Arcanos llega a 8 y sus primeros rangos nuevos a 16, 24, 32 y 40; prioriza entrenar los hechizos de daño de tu especialización.",
+      "text_en": "Fireball is learned at 1 and gains ranks at 6, 12, 18, 24, 30, 36, 42, 48, 54, and 60. Frostbolt comes at 4, with ranks at 8, 14, 20, 26, 32, 38, 44, 50, 56, and 60. Fire Blast is learned at 6 and gains ranks at 14, 22, 30, 38, 46, and 54. Arcane Missiles comes at 8, with its first new ranks at 16, 24, 32, and 40; prioritize the damage spells for your specialization.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Arcane Mage",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Fire Mage",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:leveling",
+        "class:mage:fire:leveling"
+      ],
+      "source_hashes": [
+        "section:65574cf48c680b433e518d65dbf0b3a5faa61118",
+        "section:9566ca444cd6c91fd887d99fe2ea7a211a7d7ece"
+      ]
+    },
+    {
+      "id": "clase-mage-hechizos-opcionales",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Hechizos opcionales al subir",
+      "title_en": "Optional Spells While Leveling",
+      "summary_es": "Si escasea el oro, puedes retrasar defensas y hechizos situacionales según tu estilo.",
+      "summary_en": "When gold is tight, delay situational and defensive spells based on your playstyle.",
+      "keywords_es": [
+        "hechizos opcionales mago",
+        "ahorrar oro entrenador mago",
+        "nivel de caída lenta",
+        "rangos de empapar magia"
+      ],
+      "keywords_en": [
+        "optional mage spells",
+        "save mage training gold",
+        "slow fall training level",
+        "dampen magic ranks"
+      ],
+      "text_es": "Para ahorrar oro, puedes retrasar Caída lenta y Empapar magia (nivel 12), Amplificar magia (18), Escudo de maná y Custodia de Fuego (20), y Custodia de Escarcha y Chamuscar (22). Sus rangos posteriores se aprenden más adelante. En Escarcha, Empapar magia y Amplificar magia aportan poca utilidad durante el leveo; decide según tu contenido.",
+      "text_en": "To save gold, you can delay Slow Fall and Dampen Magic (level 12), Amplify Magic (18), Mana Shield and Fire Ward (20), and Frost Ward and Scorch (22). Later ranks are learned at higher levels. For Frost, Dampen Magic and Amplify Magic offer little utility while leveling; choose according to your content.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Optional Abilities to Train for Arcane Mage",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Best Abilities to Train for Frost Mage DPS in WoW: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:leveling",
+        "class:mage:frost:leveling"
+      ],
+      "source_hashes": [
+        "guide:cfdd1fb1edd0569919605d5a27dee82a6b61d41b",
+        "section:52adeb7f99ce10adf073446dff74caae575749e3"
+      ]
+    },
+    {
+      "id": "clase-mage-profesiones-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Profesiones para subir de nivel",
+      "title_en": "Leveling Professions",
+      "summary_es": "Costura y Encantamiento combinan por equipo y desencantado; recolección ofrece ingresos.",
+      "summary_en": "Tailoring and Enchanting pair through gear and disenchanting; gathering earns income.",
+      "keywords_es": [
+        "profesiones mago para subir",
+        "costura y encantamiento mago",
+        "profesiones para ganar oro leveo",
+        "botánica minería desollar mago"
+      ],
+      "keywords_en": [
+        "mage leveling professions",
+        "tailoring enchanting mage",
+        "gold making professions leveling",
+        "herbalism mining skinning mage"
+      ],
+      "text_es": "Costura y Encantamiento se recomiendan juntas: puedes desencantar las prendas que fabricas, y Encantamiento también permite crear varitas. Si priorizas subir rápido o ganar oro, elige dos profesiones de recolección, como Botánica, Minería o Desollar, para obtener ingresos y materiales; puedes cambiar a fabricación más adelante.",
+      "text_en": "Tailoring and Enchanting are a recommended pair: you can disenchant the pieces you craft, and Enchanting also lets you make wands. If you prioritize fast leveling or gold, choose two gathering professions such as Herbalism, Mining, or Skinning for income and materials; you can switch to crafting later.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best Leveling Professions for Arcane Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Arcane Mage Leveling Guide › Professions",
+          "url": "https://www.icy-veins.com/wow-forever/arcane-mage-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Frost Mage Leveling Guide › Best Professions for Leveling Frost Mage in WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/frost-mage-leveling",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:leveling",
+        "class:mage:frost:leveling"
+      ],
+      "source_hashes": [
+        "section:0ffffa689e937664c01035a6cc1d53e21bec0a1a",
+        "section:1f08a7887c45d6928f014c652d25ec8f209d2e1b",
+        "section:88a03952f5984354db2f328a7dc5dd20af92f5b9"
+      ]
+    },
+    {
+      "id": "clase-mage-consumibles-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consumibles para subir de nivel",
+      "title_en": "Leveling Consumables",
+      "summary_es": "Aceite, elixires, comida con experiencia, Primeros auxilios y pociones ayudan a avanzar.",
+      "summary_en": "Oil, elixirs, XP food, First Aid, and potions support leveling.",
+      "keywords_es": [
+        "consumibles mago leveo",
+        "elixir arcano menor",
+        "aceite de zahorí menor",
+        "comida con experiencia mago"
+      ],
+      "keywords_en": [
+        "mage leveling consumables",
+        "minor arcane elixir",
+        "minor wizard oil",
+        "mage experience food"
+      ],
+      "text_es": "El Elixir Arcano menor y el Aceite de zahorí menor aportan poder con hechizos; sus versiones superiores sirven al avanzar. La comida concede un 5% más de experiencia por enemigos derrotados y puede dar intelecto o poder con hechizos. Mantén Primeros auxilios al día y lleva Poción de maná y Poción de curación para reducir pausas y regresos tras morir.",
+      "text_en": "Minor Arcane Elixir and Minor Wizard Oil add spell power; stronger versions help as you progress. Food grants 5% extra experience from kills and can provide Intellect or spell power. Keep First Aid current and carry Mana Potion and Healing Potion to reduce downtime and runbacks after dying.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best Leveling Consumables for Arcane Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:leveling"
+      ],
+      "source_hashes": [
+        "section:a64ff3132c27974559d63731180d1d4b37f3a092"
+      ]
+    },
+    {
+      "id": "clase-mage-ventajas-limites-leveo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ventajas y límites de cada rama al subir",
+      "title_en": "Leveling Spec Strengths and Trade-offs",
+      "summary_es": "Arcano aporta maná, Fuego alcance y Escarcha control, con costes distintos en cada rama.",
+      "summary_en": "Arcane brings mana, Fire range, and Frost control, each with different trade-offs.",
+      "keywords_es": [
+        "pros y contras mago leveo",
+        "ventajas arcano al subir",
+        "desventajas fuego mago leveo",
+        "inmunidad escarcha leveo"
+      ],
+      "keywords_en": [
+        "mage leveling pros and cons",
+        "arcane leveling strengths",
+        "fire mage leveling drawbacks",
+        "frost immune mobs leveling"
+      ],
+      "text_es": "Arcano ofrece talentos de maná, ráfaga y buen rendimiento en mazmorras, pero menos herramientas de JcJ y un estilo menos intuitivo. Fuego tiene gran alcance y progresa bien tras los primeros niveles; a cambio, sufre con el maná y el área y depende del poder con hechizos del equipo. Escarcha facilita el kiteo y destaca contra melé en JcJ, aunque la reutilización compartida de 8 segundos entre Lanza de hielo y Explosión de Fuego puede volver repetitiva su rotación, y los inmunes a Escarcha son difíciles hasta acceder a talentos Arcanos.",
+      "text_en": "Arcane offers mana talents, burst, and strong dungeon performance, but fewer PvP tools and a less intuitive playstyle. Fire has great range and progresses well after the early levels; in return, it struggles with mana and AoE and depends on spell power from gear. Frost makes kiting easy and excels against melee in PvP, though the shared 8-second cooldown between Ice Lance and Fire Blast can make its rotation feel repetitive, and Frost-immune enemies are difficult until Arcane talents become available.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Pros",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Cons",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage Leveling Guide - WoW: Forever › Leveling Viability for Fire Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage Leveling Guide - WoW: Forever › Pros",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage Leveling Guide - WoW: Forever › Cons",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Frost Mage Leveling Guide - WoW: Forever › Pros",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Frost Mage Leveling Guide - WoW: Forever › Cons",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/dps-leveling-tips",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:leveling",
+        "class:mage:fire:leveling",
+        "class:mage:frost:leveling"
+      ],
+      "source_hashes": [
+        "section:1aa5d58ed43b1da8e6f4346578033dffb9994912",
+        "section:3b67d44d3b8a1a9973604b7cb24e6eb0186027d4",
+        "section:848842a66c33a18556553090e9673380704a3747",
+        "section:8678ef51f88c60b1b26990f63a9bffad98bdb648",
+        "section:e46de58ad3a89404e24cd17a2093f1c530ace54c",
+        "section:ece2959de9e471633c5413eca15bc079ad0c5ff4",
+        "section:f3db4ddd15f1f16f94623e129556e1e9a2fcdbd4"
+      ]
+    },
+    {
+      "id": "clase-mage-campamento-leveo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Mejoras de campamento para subir",
+      "title_en": "Leveling Camp Buffs",
+      "summary_es": "La Tienda de campamento destaca para la experiencia descansada; otros puestos ayudan con maná o estadísticas.",
+      "summary_en": "Camp Tent boosts rested XP; other features support mana or stats.",
+      "keywords_es": [
+        "mejoras de campamento mago",
+        "tienda de campamento experiencia",
+        "pozo de maná campamento",
+        "vela de incienso intelecto"
+      ],
+      "keywords_en": [
+        "mage camp buffs",
+        "camp tent rested xp",
+        "mana well camp feature",
+        "incense candle intellect"
+      ],
+      "text_es": "La Tienda de campamento es la mejora más valiosa para la experiencia descansada. El Estandarte de facción aporta Espíritu y el Pozo de maná repone maná cada 5 segundos. La Vela de incienso aumenta el intelecto, pero no se acumula con Intelecto Arcano; el Equipo de primeros auxilios da aguante. La Silla de campamento aporta Golpe crítico; el Cuenco con pescado y el Laúd encantado mejoran estadísticas, armadura o resistencias.",
+      "text_en": "Camp Tent is the most valuable feature for rested experience. Faction Banner grants Spirit and Mana Well restores mana every 5 seconds. Incense Candle increases Intellect but does not stack with Arcane Intellect; First Aid Kit grants Stamina. Camp Chair adds spell critical strike; Fish Bowl and Enchanted Lute improve stats, armor, or resistances.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Arcane Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:mage:arcane:leveling"
+      ],
+      "source_hashes": [
+        "section:c81518b1c41d8cd44c08f0f22f593758592bbc68"
+      ]
     }
   ]
 }
