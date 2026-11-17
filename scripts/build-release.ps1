@@ -13,6 +13,35 @@ $toc      = Join-Path $source "AskForever.toc"
 
 if (-not (Test-Path $toc)) { throw "No existe $toc" }
 
+$dataDir = Join-Path $source 'data'
+$requiredDataEntries = @()
+if (Test-Path $dataDir -PathType Container) {
+    $manifestPath = Join-Path $dataDir 'manifest.lua'
+    if (Test-Path $manifestPath -PathType Leaf) {
+        $manifestText = [System.IO.File]::ReadAllText($manifestPath, [System.Text.Encoding]::UTF8)
+        $manifestMatch = [regex]::Match($manifestText, '(?s)return\s+\[==\[(.*?)\]==\]')
+        if (-not $manifestMatch.Success) { throw "No se pudo leer el manifest: $manifestPath" }
+        try {
+            $manifest = $manifestMatch.Groups[1].Value | ConvertFrom-Json
+        }
+        catch {
+            throw "El manifest no contiene JSON válido: $manifestPath"
+        }
+        $patchFiles = @($manifest.guide) + @($manifest.db)
+        foreach ($fileName in $patchFiles) {
+            if (-not ($fileName -is [string]) -or [System.IO.Path]::GetFileName($fileName) -ne $fileName) {
+                throw "Nombre de archivo no válido en el manifest: $fileName"
+            }
+            $dataFile = Join-Path $dataDir $fileName
+            if (-not (Test-Path $dataFile -PathType Leaf)) {
+                throw "Falta el archivo listado en el manifest: $dataFile"
+            }
+            $requiredDataEntries += "AskForever/data/$fileName"
+        }
+        $requiredDataEntries += 'AskForever/data/manifest.lua'
+    }
+}
+
 $tocLines = Get-Content $toc
 $tocVersion = (Select-String -Path $toc -Pattern '^## Version:\s*(.+)$').Matches[0].Groups[1].Value.Trim()
 if ($tocVersion -ne $version) {
@@ -68,7 +97,7 @@ $rewriteDocsLink = [System.Text.RegularExpressions.MatchEvaluator]{
     return "](https://github.com/warcrafted-server/AskForever/blob/main/$relative$anchor)"
 }
 
-$requiredEntries = @('AskForever/README.txt') + ($docNames | ForEach-Object { "AskForever/docs/$_" })
+$requiredEntries = @('AskForever/README.txt') + ($docNames | ForEach-Object { "AskForever/docs/$_" }) + $requiredDataEntries
 $utf8 = New-Object System.Text.UTF8Encoding -ArgumentList $false
 
 $outDir = Join-Path $repoRoot "release"
@@ -143,6 +172,15 @@ try {
     foreach ($entryName in $requiredEntries) {
         if ($null -eq $check.GetEntry($entryName)) {
             throw "El zip no contiene $entryName."
+        }
+    }
+    if (Test-Path $dataDir -PathType Container) {
+        $dataFiles = @(Get-ChildItem -Path $dataDir -Recurse -File | Where-Object { $_.Name -ne '.gitkeep' })
+        foreach ($dataFile in $dataFiles) {
+            $relative = $dataFile.FullName.Substring($sourceFull.Length).TrimStart('\') -replace '\\', '/'
+            if ($null -eq $check.GetEntry("AskForever/$relative")) {
+                throw "El zip no contiene AskForever/$relative."
+            }
         }
     }
     foreach ($docName in $docNames) {

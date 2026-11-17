@@ -27,16 +27,16 @@ ns.L_enUS = {
     HELP_HELP = '/af help - shows this help and the setup window',
     HELP_WINDOW_TITLE = 'Welcome to AskForever',
     HELP_INTRO = 'AskForever answers your questions about the game inside WoW. To get answers it needs '
-        .. 'the free AskForever companion program running on your PC while you play.',
-    HELP_STEP_COMPANION = 'Step 1: Download and install the companion (Windows) from GitHub Releases.',
+        .. 'the free AskForever App running on your PC while you play.',
+    HELP_STEP_COMPANION = 'Step 1: Download and install AskForever App (Windows) from GitHub Releases.',
     HELP_STEP_KEY = 'Step 2: Create your free Google Gemini key with this guide. The first time you '
-        .. 'open the companion, it will ask you to paste it.',
-    HELP_STEP_PLAY = 'Step 3: Open the companion, then ask with /af or the minimap button. Full steps '
+        .. 'open AskForever App, it will ask you to paste it.',
+    HELP_STEP_PLAY = 'Step 3: Open AskForever App, then ask with /af or the minimap button. Full steps '
         .. 'in the installation guide.',
     HELP_COPY = 'Copy',
     HELP_COPY_HINT = 'Copy: press Copy, then Ctrl+C',
     HELP_OK = 'OK',
-    HELP_FOOTER = "Without the companion you can still use 'Copy prompt' and paste it into any AI; "
+    HELP_FOOTER = "Without AskForever App you can still use 'Copy prompt' and paste it into any AI; "
         .. "'/af help' or the '?' button shows this window again.",
     HELP_BUTTON = '?',
     HELP_BUTTON_TIP = 'Help and setup',
@@ -50,11 +50,12 @@ ns.L_enUS = {
     MINIMAP_SHOWN = 'Minimap button shown.',
     MINIMAP_HIDDEN = 'Minimap button hidden.',
     CTX_SUMMARY = 'Level %s · %s %s · %s',
-    OFFLINE_NOTE = 'No companion: the prompt is copied and pasted into your AI',
+    OFFLINE_NOTE = 'No AskForever App: the prompt is copied and pasted into your AI',
     PATTERN_SHOWN = 'Showing the test pattern for 10 seconds.',
     PATTERN_HIDDEN = 'Test pattern hidden.',
     HELP_PATTERN = '/af pattern - show a test pattern for 10 seconds (diagnostics)',
-    SENT_STRIP = 'Question sent through the pixel strip. The companion will pick it up if it is running.',
+    SENT_STRIP = 'Question sent through the pixel strip. AskForever App will pick it up if it is running.',
+    APP_NOTICE = 'AskForever: the program is now called AskForever App, updates itself, and receives data with the addon. If you use the previous companion, install AskForever App once (it installs over it): github.com/warcrafted-server/AskForever/releases/latest',
     QUEUED_COMBAT = 'In combat: the question will be sent when combat ends.',
     SEND_FAILED = 'The question could not be sent.',
     SELFTEST_OK = 'Self-test OK: the protocol matches the reference vector.',

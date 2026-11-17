@@ -83,11 +83,11 @@ jobs:
         run: |
           pyinstaller --noconfirm --clean --distpath dist --workpath build companion/packaging/askforever.spec
           if ($LASTEXITCODE -ne 0) { throw 'PyInstaller fallo.' }
-          if (-not (Test-Path 'dist/AskForever/AskForever.exe')) {
-              throw 'No existe dist/AskForever/AskForever.exe.'
+          if (-not (Test-Path 'dist/AskForever/AskForeverApp.exe')) {
+              throw 'No existe dist/AskForever/AskForeverApp.exe.'
           }
-          & 'dist/AskForever/AskForever.exe' --help
-          if ($LASTEXITCODE -ne 0) { throw 'AskForever.exe --help fallo.' }
+          & 'dist/AskForever/AskForeverApp.exe' --help
+          if ($LASTEXITCODE -ne 0) { throw 'AskForeverApp.exe --help fallo.' }
 
       - name: Smoke test of the built program (Credential Manager)
         shell: pwsh
@@ -96,15 +96,16 @@ jobs:
         run: |
           # El programa empaquetado debe poder guardar, leer y borrar la clave en el
           # Administrador de credenciales de Windows (falló en la primera beta de prueba).
-          $exe = 'dist/AskForever/AskForever.exe'
+          $exe = 'dist/AskForever/AskForeverApp.exe'
           & $exe set-key --provider groq
           if ($LASTEXITCODE -ne 0) { throw 'set-key fallo.' }
-          $listed = (& $exe providers) -join "`n"
-          if ($listed -notmatch '\[x\] groq') { throw "El programa no ve la clave guardada:`n$listed" }
+          $env:PYTHONPATH = Join-Path $env:GITHUB_WORKSPACE 'companion'
+          python -c "from askforever import config; assert config.get_api_key('groq') == 'smoke-test-not-a-real-key'"
+          if ($LASTEXITCODE -ne 0) { throw 'La clave no se guardo en el Administrador de credenciales.' }
           & $exe uninstall --yes
           if ($LASTEXITCODE -ne 0) { throw 'uninstall fallo.' }
-          $listed = (& $exe providers) -join "`n"
-          if ($listed -match '\[x\] groq') { throw "uninstall no borro la clave:`n$listed" }
+          python -c "from askforever import config; assert config.get_api_key('groq') is None"
+          if ($LASTEXITCODE -ne 0) { throw 'uninstall no borro la clave del Administrador de credenciales.' }
           Write-Host 'Credential Manager OK'
 
       - name: Build installer

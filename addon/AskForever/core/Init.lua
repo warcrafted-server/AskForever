@@ -70,4 +70,8 @@ loginFrame:SetScript('OnEvent', function(self)
     if ok and loaded then
         print(ns.L.MSG_TWO_COPIES:format(other))
     end
+    if AskForeverDB.appNotice ~= '0.4' then
+        DEFAULT_CHAT_FRAME:AddMessage(ns.L.APP_NOTICE, 0.902, 0.722, 0.290)
+        AskForeverDB.appNotice = '0.4'
+    end
 end)

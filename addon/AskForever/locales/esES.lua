@@ -27,16 +27,16 @@ ns.L_esES = {
     HELP_HELP = '/af help - muestra esta ayuda y la ventana de instalación',
     HELP_WINDOW_TITLE = 'Bienvenido a AskForever',
     HELP_INTRO = 'AskForever responde a tus preguntas sobre el juego dentro de WoW. Para recibir '
-        .. 'respuestas necesita el programa gratuito AskForever companion abierto en tu PC mientras juegas.',
-    HELP_STEP_COMPANION = 'Paso 1: Descarga e instala el companion (Windows) desde GitHub Releases.',
+        .. 'respuestas necesita el programa gratuito AskForever App abierto en tu PC mientras juegas.',
+    HELP_STEP_COMPANION = 'Paso 1: Descarga e instala AskForever App (Windows) desde GitHub Releases.',
     HELP_STEP_KEY = 'Paso 2: Crea tu clave gratuita de Google Gemini siguiendo esta guía. '
-        .. 'La primera vez que abras el companion, te pedirá que la pegues.',
-    HELP_STEP_PLAY = 'Paso 3: Abre el companion y pregunta con /af o el botón del minimapa. Los pasos '
+        .. 'La primera vez que abras AskForever App, te pedirá que la pegues.',
+    HELP_STEP_PLAY = 'Paso 3: Abre AskForever App y pregunta con /af o el botón del minimapa. Los pasos '
         .. 'completos están en la guía de instalación.',
     HELP_COPY = 'Copiar',
     HELP_COPY_HINT = 'Copiar: pulsa Copiar y luego Ctrl+C',
     HELP_OK = 'Entendido',
-    HELP_FOOTER = "Sin el companion puedes seguir usando 'Copiar prompt' y pegarlo en cualquier IA; "
+    HELP_FOOTER = "Sin AskForever App puedes seguir usando 'Copiar prompt' y pegarlo en cualquier IA; "
         .. "'/af help' o el botón '?' vuelve a mostrar esta ventana.",
     HELP_BUTTON = '?',
     HELP_BUTTON_TIP = 'Ayuda e instalación',
@@ -50,11 +50,12 @@ ns.L_esES = {
     MINIMAP_SHOWN = 'Botón del minimapa visible.',
     MINIMAP_HIDDEN = 'Botón del minimapa oculto.',
     CTX_SUMMARY = 'Nivel %s · %s %s · %s',
-    OFFLINE_NOTE = 'Sin companion: el prompt se copia y se pega en tu IA',
+    OFFLINE_NOTE = 'Sin AskForever App: el prompt se copia y se pega en tu IA',
     PATTERN_SHOWN = 'Mostrando el patrón de prueba durante 10 segundos.',
     PATTERN_HIDDEN = 'Patrón de prueba oculto.',
     HELP_PATTERN = '/af pattern - muestra un patrón de prueba durante 10 segundos (diagnóstico)',
-    SENT_STRIP = 'Pregunta enviada por la tira de píxeles. El companion la recibirá si está abierto.',
+    SENT_STRIP = 'Pregunta enviada por la tira de píxeles. AskForever App la recibirá si está abierta.',
+    APP_NOTICE = 'AskForever: el programa ahora se llama AskForever App, se actualiza solo y recibe los datos con el addon. Si usas la versión anterior del companion, instala AskForever App una vez (se instala encima): github.com/warcrafted-server/AskForever/releases/latest',
     QUEUED_COMBAT = 'En combate: la pregunta se enviará al salir del combate.',
     SEND_FAILED = 'No se pudo enviar la pregunta.',
     SELFTEST_OK = 'Autotest correcto: el protocolo coincide con el vector de referencia.',
