@@ -354,6 +354,7 @@ def test_check_and_update_returns_error_without_raising(tmp_path):
 
 
 def test_update_data_command_reports_result(monkeypatch, capsys):
+    monkeypatch.setenv('ASKFOREVER_CONSOLE', '1')
     def fake_check(_data_dir, progress=None):
         progress(50, 100)
         progress(100, 100)
@@ -364,21 +365,21 @@ def test_update_data_command_reports_result(monkeypatch, capsys):
 
     assert cli.main(['update-data']) == 0
     output = capsys.readouterr().out
-    assert 'Comprobando datos del juego...' in output
-    assert 'Descargando datos: 50 %' in output
-    assert 'Descargando datos: 100 %' in output
+    assert 'Comprobando los datos del juego' in output
+    assert 'Descargando la base de datos: 50 %' in output
+    assert 'Descargando la base de datos: 100 %' in output
     assert 'Datos actualizados a data-2026.11.14' in output
 
 
 def test_update_data_command_offline_without_data(monkeypatch, capsys):
+    monkeypatch.setenv('ASKFOREVER_CONSOLE', '1')
     monkeypatch.setattr(cli, 'user_data_dir', lambda: 'datos')
     monkeypatch.setattr(cli, 'check_and_update',
                         lambda *_args, **_kwargs: ('offline', None))
 
     assert cli.main(['update-data']) == 1
     output = capsys.readouterr().out
-    assert ('Sin datos del juego: las respuestas tendran menos informacion'
-            in output)
+    assert 'Sin conexión: las respuestas tendrán menos datos' in output
 
 
 def test_user_data_dir_uses_localappdata(monkeypatch, tmp_path):

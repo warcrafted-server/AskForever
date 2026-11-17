@@ -15,6 +15,7 @@ from pathlib import Path
 from typing import Optional, Sequence
 
 from askforever import config, setup_wizard, updates
+from askforever.app.events import emit, log_detail, set_status
 from askforever.data import patch as data_patch
 from askforever import uninstall as uninstall_module
 from askforever.bench import (
@@ -139,34 +140,38 @@ def format_message(data: bytes) -> str:
     return '\n'.join(lines)
 
 
-def _open_data(no_data):
+def _open_data(no_data, quiet=False):
     if no_data:
-        print('Base de datos: no disponible (sin datos verificados)')
+        if not quiet:
+            print('Base de datos: no disponible (sin datos verificados)')
         return None
     database = config.open_wowdata()
-    if database is None:
+    if database is None and not quiet:
         print('Base de datos: no disponible (sin datos verificados)')
-    else:
+    elif database is not None and not quiet:
         print(f'Base de datos: {database.path}')
     return database
 
 
-def _open_web(no_web):
+def _open_web(no_web, quiet=False):
     """Abre el cliente de la wiki o informa de que está desactivada."""
     if no_web:
-        print('Búsqueda web: desactivada')
+        if not quiet:
+            print('Búsqueda web: desactivada')
         return None
     web = config.open_wiki()
-    if web is None:
+    if web is None and not quiet:
         print('Búsqueda web: desactivada')
-    else:
+    elif web is not None and not quiet:
         print('Búsqueda web: warcraft.wiki.gg')
     return web
 
 
 def _update_game_data():
     """Comprueba e instala los datos gestionados, con progreso y resultado."""
-    print('Comprobando datos del juego...')
+    emit('update', 'Comprobando los datos del juego…', 'Checking game data…')
+    set_status('data', 'Comprobando los datos del juego…',
+               'Checking game data…', ok=None)
     last = {'bucket': -10}
 
     def progress(downloaded, total):
@@ -176,21 +181,34 @@ def _update_game_data():
         bucket = percent - percent % 10
         if bucket != last['bucket']:
             last['bucket'] = bucket
-            print(f'Descargando datos: {bucket} %')
+            emit('update', f'Descargando la base de datos: {bucket} %',
+                 f'Downloading the database: {bucket} %',
+                 detail=f'downloaded={downloaded} total={total}')
 
     status, value = check_and_update(user_data_dir(), progress=progress)
     if status == 'updated':
-        print(f'Datos actualizados a {value}')
+        es, en = f'Datos actualizados a {value}', f'Data updated to {value}'
+        emit('data', es, en)
+        set_status('data', es, en, ok=True)
     elif status == 'current':
-        print(f'Datos del juego: {value}')
+        es, en = f'Datos al día ({value})', f'Data is up to date ({value})'
+        emit('data', es, en)
+        set_status('data', es, en, ok=True)
     elif status == 'offline':
         if value:
-            print(f'Sin conexion: se usan los datos guardados ({value})')
+            es, en = 'Sin conexión: se usan los datos guardados', 'Offline: using saved data'
+            emit('data', es, en, detail=f'cached_version={value}')
+            set_status('data', es, en, ok=True)
         else:
-            print('Sin datos del juego: las respuestas tendran menos informacion')
+            es, en = ('Sin conexión: las respuestas tendrán menos datos',
+                      'Offline: answers will have less game data')
+            emit('data', es, en, detail='no cached game data')
+            set_status('data', es, en, ok=False)
     else:
-        detail = str(value).encode('ascii', 'replace').decode('ascii')
-        print(f'No se pudieron actualizar los datos: {detail}')
+        es, en = ('No se pudieron actualizar los datos del juego.',
+                  'Could not update game data.')
+        emit('error', es, en, detail=str(value))
+        set_status('data', es, en, ok=False)
     return status, value
 
 
@@ -199,12 +217,17 @@ def _sync_addon_data(window=None):
     status, value = data_patch.sync(
         exe_path=getattr(window, 'exe_path', None) if window is not None else None)
     if status == 'patched':
-        print(f'Datos del addon aplicados: {value}')
+        es, en = f'Datos del addon aplicados ({value})', f'Addon data applied ({value})'
+        emit('data', es, en)
+        set_status('data', es, en, ok=True)
     elif status in ('current', 'guide-only'):
-        print(f'Datos del addon: {value}')
+        es, en = f'Datos al día ({value})', f'Data is up to date ({value})'
+        emit('data', es, en, detail=f'addon_status={status}')
+        set_status('data', es, en, ok=True)
     elif status == 'error':
-        detail = str(value).encode('ascii', 'replace').decode('ascii')
-        print(f'No se pudieron aplicar los datos del addon: {detail}')
+        es, en = 'No se pudieron aplicar los datos del addon.', 'Could not apply addon data.'
+        emit('error', es, en, detail=str(value))
+        set_status('data', es, en, ok=False)
     return status
 
 
@@ -558,33 +581,75 @@ def _message_rect(document):
     return tuple(values)
 
 
+def _emit_question_event(question, msg_id, conv=None):
+    text = ' '.join(str(question or '').split())[:80]
+    return emit('question', f'Pregunta recibida: {text}',
+                f'Question received: {text}',
+                detail=f'msg_id={msg_id} conv={conv}')
+
+
+def _emit_answer_event(elapsed_ms, msg_id, answer):
+    seconds = max(0.0, float(elapsed_ms or 0)) / 1000
+    return emit('answer', f'Respuesta enviada en {seconds:.1f}'.replace('.', ',') + ' s',
+                f'Answer sent in {seconds:.1f} s',
+                detail=(f'msg_id={msg_id} elapsed_ms={elapsed_ms} '
+                        f'answer_length={len(str(answer or ""))}'))
+
+
+def _emit_answer_error(reason, msg_id=''):
+    short_reason = ' '.join(str(reason or '').split())[:100]
+    es = f'No se pudo responder: {short_reason}' if short_reason else 'No se pudo responder.'
+    en = f'Could not answer: {short_reason}' if short_reason else 'Could not answer.'
+    return emit('error', es, en, detail=f'msg_id={msg_id} reason={reason}')
+
+
+def _set_game_status(window):
+    if window is None:
+        set_status('game', 'Esperando al juego', 'Waiting for the game', ok=False)
+    else:
+        set_status('game', 'Juego detectado', 'Game detected', ok=True)
+
+
 def _run_companion(args: argparse.Namespace) -> int:
+    emit('info', 'AskForever App en marcha', 'AskForever App is running')
+    set_status('app', 'En marcha', 'Running', ok=True)
     set_dpi_awareness()
     overlay_class = (Overlay if getattr(args, 'overlay_inprocess', False)
                      else OverlaySupervisor)
     overlay = overlay_class(ttl=args.ttl)
     addon_sync_pending = False
+    game_window = find_game_window()
+    _set_game_status(game_window)
     if (not args.no_data
             and not getattr(args, 'no_update', False)):
-        game_window = find_game_window()
         addon_status = _sync_addon_data(game_window)
         if addon_status not in ('patched', 'current') and config.data_is_managed():
             _update_game_data()
         addon_sync_pending = game_window is None
-    database = _open_data(args.no_data)
-    web = _open_web(args.no_web)
+    elif args.no_data:
+        set_status('data', 'Datos desactivados', 'Data disabled', ok=None)
+    elif getattr(args, 'no_update', False):
+        set_status('data', 'Se usan los datos guardados', 'Using saved data', ok=None)
+    database = _open_data(args.no_data, quiet=True)
+    web = _open_web(args.no_web, quiet=True)
 
     provider = None
     provider_error = None
     if not args.no_ai:
         try:
             provider = provider_from_config()
+            provider_name = config.get_provider_name()
+            model = getattr(provider, 'model', '')
+            es = f'IA lista: {provider_name} ({model})'
+            en = f'AI ready: {provider_name} ({model})'
+            set_status('ai', es, en, ok=True)
         except ProviderError as error:
             provider_error = error
-            print(error.user_message('esES'))
-            if error.detail:
-                print(f'Detalle: {error.detail}')
-            print('Guía: docs/CLAVE_GEMINI.md')
+            es, en = error.user_message('esES'), error.user_message('enUS')
+            emit('error', es, en, detail=error.detail)
+            set_status('ai', es, en, ok=False)
+    else:
+        set_status('ai', 'IA desactivada', 'AI disabled', ok=None)
 
     stop_event = threading.Event()
     generation = {'value': 0}
@@ -593,9 +658,13 @@ def _run_companion(args: argparse.Namespace) -> int:
     exchange_lock = threading.Lock()
     chat_session = ChatSession()
     chat_lock = threading.Lock()
+    game_detected = {'value': game_window is not None}
 
     def on_message(message: ReceivedMessage) -> None:
         nonlocal database, addon_sync_pending
+        if not game_detected['value']:
+            game_detected['value'] = True
+            _set_game_status(message)
         if addon_sync_pending:
             addon_sync_pending = False
             if _sync_addon_data(find_game_window()) == 'patched':
@@ -607,7 +676,6 @@ def _run_companion(args: argparse.Namespace) -> int:
             _handle_report(report, last_exchange, exchange_lock, overlay)
             return
 
-        stamp = datetime.now().strftime('%H:%M:%S')
         raw = _raw_document(message.data)
         if raw is not None and raw.get('kind') == 'ui':
             event = str(raw.get('ev') or '')
@@ -623,12 +691,12 @@ def _run_companion(args: argparse.Namespace) -> int:
                     view = chat_session.ui(event, conv, rect)
             if view is not None:
                 overlay.show_chat(view)
-            print(f'[{stamp}] ui {event} conv={conv}')
+            log_detail(f'ui event={event} conv={conv} rect={rect} scroll={sd}')
             return
 
         document = parse_message(message.data)
         if document is None:
-            print(f'[{stamp}] mensaje sin pregunta; ignorado')
+            log_detail(f'message without question ignored msg_id={message.msg_id}')
             return
 
         question = str(document.get('q') or '')
@@ -642,7 +710,7 @@ def _run_companion(args: argparse.Namespace) -> int:
         generation['value'] += 1
         current = generation['value']
 
-        print(f'[{stamp}] msg_id={message.msg_id} {question}')
+        _emit_question_event(question, message.msg_id, conv)
 
         with chat_lock:
             view = chat_session.question(conv, question, rect, lang)
@@ -654,6 +722,7 @@ def _run_companion(args: argparse.Namespace) -> int:
             return
         if provider is None:
             text = provider_error.user_message(lang) if provider_error else 'No AI provider.'
+            _emit_answer_error(text, message.msg_id)
             if view is not None:
                 with chat_lock:
                     error_view = chat_session.error(conv, text)
@@ -699,7 +768,7 @@ def _run_companion(args: argparse.Namespace) -> int:
                     overlay.show_chat(chat_view)
                 else:
                     overlay.show_answer(question, result.text, lang)
-                print(f'Respuesta ({result.elapsed_ms} ms): {result.text}')
+                _emit_answer_event(result.elapsed_ms, message.msg_id, result.text)
             else:
                 with chat_lock:
                     chat_view = chat_session.error(conv, result.text)
@@ -707,11 +776,13 @@ def _run_companion(args: argparse.Namespace) -> int:
                     overlay.show_chat(chat_view)
                 else:
                     overlay.show_error(result.text, lang)
-                print(f'Error: {result.text}')
+                _emit_answer_error(result.text, message.msg_id)
+                log_detail(f'answer error msg_id={message.msg_id} detail={result.detail}')
 
         threading.Thread(target=answer, daemon=True).start()
 
-    print('Deja esta ventana abierta mientras juegas. Ciérrala para detener AskForever.')
+    emit('info', 'Deja esta ventana abierta mientras juegas.',
+         'Keep this window open while you play.')
     grabber = Grabber(on_message, fps=args.fps)
     grabber_thread = threading.Thread(target=grabber.run, args=(stop_event,), daemon=True)
     grabber_thread.start()
@@ -721,7 +792,8 @@ def _run_companion(args: argparse.Namespace) -> int:
     except KeyboardInterrupt:
         stop_event.set()
     except OverlayUnavailable as error:
-        print(error)
+        emit('error', 'No se pudo abrir la ventana de AskForever.',
+             'Could not open the AskForever window.', detail=str(error))
         stop_event.set()
         return 1
     finally:
@@ -730,12 +802,10 @@ def _run_companion(args: argparse.Namespace) -> int:
         grabber_thread.join(timeout=1.0)
         if database is not None:
             database.close()
-
-    print()
-    print(
-        f'Capturas: {grabber.captures} · marcos válidos: {grabber.valid_frames} · '
-        f'mensajes: {grabber.messages} · errores: {grabber.errors}'
-    )
+        log_detail(
+            f'capture_stats captures={grabber.captures} valid_frames={grabber.valid_frames} '
+            f'messages={grabber.messages} errors={grabber.errors}')
+        set_status('app', 'Detenida', 'Stopped', ok=False)
     return 0
 
 

@@ -637,6 +637,7 @@ class FakeProvider:
 
 
 def test_run_command_calls_thinking_then_answer(monkeypatch, capsys):
+    monkeypatch.setenv('ASKFOREVER_CONSOLE', '1')
     events = []
     messages = [ReceivedMessage(1, 1, _message_data('¿Dónde está Hogger?'), 0.0, 0.5)]
 
@@ -656,8 +657,8 @@ def test_run_command_calls_thinking_then_answer(monkeypatch, capsys):
     assert answer[2] == 'La respuesta de prueba'
 
     output = capsys.readouterr().out
-    assert '¿Dónde está Hogger?' in output
-    assert 'Respuesta (' in output
+    assert 'Pregunta recibida: ¿Dónde está Hogger?' in output
+    assert 'Respuesta enviada en ' in output
 
 
 def test_run_generation_prevents_stale_answer(monkeypatch):
