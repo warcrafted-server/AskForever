@@ -3070,6 +3070,1925 @@
       "source_hashes": [
         "section:39e7176816c24fd0ae619347680ac7db70093459"
       ]
+    },
+    {
+      "id": "clase-druid-build-equilibrio-subir-mixto",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Equilibrio versátil y sanadora",
+      "title_en": "Balance Versatile/Dungeon-Healing Build",
+      "summary_es": "Reparto mixto recomendado; la variante sanadora usa los mismos puntos finales.",
+      "summary_en": "Recommended mixed allocation; the delayed-healing variant shares these final points.",
+      "keywords_es": [
+        "build druida leveo build-equilibrio",
+        "talentos druida leveo build-equilibrio",
+        "puntos de talento build-equilibrio"
+      ],
+      "keywords_en": [
+        "druid leveling build build-equilibrio",
+        "druid leveling talents build-equilibrio",
+        "druid talent points build-equilibrio"
+      ],
+      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Génesis 2/5, Brillo lunar 3/3, Fuegolunar mejorado 2/2, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Venganza 5/5, Fuego estelar mejorado 5/5, Gracia de la naturaleza 1/1, Eclipse 3/3, Furia de luna 5/5, Forma de lechúcico lunar 1/1. Rama de Recuperación: Enfoque de la naturaleza 5/5, Naturalista 5/5, Refracción 3/3. Este reparto sirve tanto para una ruta mixta como para retrasar la forma lunar al curar mazmorras.",
+      "text_en": "Balance: Improved Wrath 5/5, Genesis 2/5, Moonglow 3/3, Improved Moonfire 2/2, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Insect Swarm 1/1, Vengeance 5/5, Improved Starfire 5/5, Nature's Grace 1/1, Eclipse 3/3, Moonfury 5/5, Moonkin Form 1/1. Restoration: Nature's Focus 5/5, Naturalist 5/5, Reflection 3/3. This allocation supports both mixed play and delayed Moonkin Form for dungeon healing.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Balance Druid DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:balance:leveling"
+      ],
+      "source_hashes": [
+        "section:03bd266526dee91d2a4ffc5368d3575c175c83e5"
+      ]
+    },
+    {
+      "id": "clase-druid-build-equilibrio-subir-segura",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build segura de Equilibrio",
+      "title_en": "Risk-Averse Balance Leveling Build",
+      "summary_es": "Prioriza control y supervivencia para élites y casteo seguro.",
+      "summary_en": "Prioritizes control and safety for elites and uninterrupted casting.",
+      "keywords_es": [
+        "build druida leveo build-equilibrio",
+        "talentos druida leveo build-equilibrio",
+        "puntos de talento build-equilibrio"
+      ],
+      "keywords_en": [
+        "druid leveling build build-equilibrio",
+        "druid leveling talents build-equilibrio",
+        "druid talent points build-equilibrio"
+      ],
+      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Génesis 2/5, Brillo lunar 3/3, Fuegolunar mejorado 2/2, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Venganza 3/5, Fuego estelar mejorado 5/5, Sobrecrecimiento 2/2, Gracia de la naturaleza 1/1, Eclipse 3/3, Furia de luna 5/5, Forma de lechúcico lunar 1/1. Rama de Recuperación: Enfoque de la naturaleza 5/5, Naturalista 5/5, Refracción 3/3. Sobrecrecimiento añade control para mantener enemigos a distancia mientras casteas.",
+      "text_en": "Balance: Improved Wrath 5/5, Genesis 2/5, Moonglow 3/3, Improved Moonfire 2/2, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Insect Swarm 1/1, Vengeance 3/5, Improved Starfire 5/5, Overgrowth 2/2, Nature's Grace 1/1, Eclipse 3/3, Moonfury 5/5, Moonkin Form 1/1. Restoration: Nature's Focus 5/5, Naturalist 5/5, Reflection 3/3. Overgrowth adds control to keep enemies at range while you cast.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Balance Druid DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:balance:leveling"
+      ],
+      "source_hashes": [
+        "section:03bd266526dee91d2a4ffc5368d3575c175c83e5"
+      ]
+    },
+    {
+      "id": "clase-druid-build-equilibrio-subir-multidot",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Equilibrio de multidot",
+      "title_en": "Balance Multi-dot Leveling Build",
+      "summary_es": "Potencial para limpiar grupos rápido, pero sacrifica daño a un objetivo y requiere más pruebas.",
+      "summary_en": "Potentially fast against packs, but trades away single-target damage and needs more testing.",
+      "keywords_es": [
+        "build druida leveo build-equilibrio",
+        "talentos druida leveo build-equilibrio",
+        "puntos de talento build-equilibrio"
+      ],
+      "keywords_en": [
+        "druid leveling build build-equilibrio",
+        "druid leveling talents build-equilibrio",
+        "druid talent points build-equilibrio"
+      ],
+      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Génesis 5/5, Brillo lunar 3/3, Fuegolunar mejorado 2/2, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Venganza 5/5, Fuego estelar mejorado 2/5, Gracia de la naturaleza 1/1, Eclipse 3/3, Furia de luna 5/5, Forma de lechúcico lunar 1/1. Rama de Recuperación: Enfoque de la naturaleza 5/5, Naturalista 5/5, Refracción 3/3. Recomendación provisional hasta que se pruebe a nivel 60. Sacrifica daño a un objetivo por daño periódico en grupo.",
+      "text_en": "Balance: Improved Wrath 5/5, Genesis 5/5, Moonglow 3/3, Improved Moonfire 2/2, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Insect Swarm 1/1, Vengeance 5/5, Improved Starfire 2/5, Nature's Grace 1/1, Eclipse 3/3, Moonfury 5/5, Moonkin Form 1/1. Restoration: Nature's Focus 5/5, Naturalist 5/5, Reflection 3/3. Provisional recommendation until tested at level 60. It trades single-target damage for damage-over-time against packs.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Balance Druid DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:balance:leveling"
+      ],
+      "source_hashes": [
+        "section:03bd266526dee91d2a4ffc5368d3575c175c83e5"
+      ]
+    },
+    {
+      "id": "clase-druid-build-equilibrio-subir-31-7-13",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Equilibrio 31/7/13",
+      "title_en": "Balance 31/7/13 Leveling Build",
+      "summary_es": "Combina daño de Equilibrio, movilidad feral y apoyo de Recuperación.",
+      "summary_en": "Combines Balance damage, Feral mobility, and Restoration support.",
+      "keywords_es": [
+        "build druida leveo build-equilibrio",
+        "talentos druida leveo build-equilibrio",
+        "puntos de talento build-equilibrio"
+      ],
+      "keywords_en": [
+        "druid leveling build build-equilibrio",
+        "druid leveling talents build-equilibrio",
+        "druid talent points build-equilibrio"
+      ],
+      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Brillo lunar 3/3, Fuegolunar mejorado 2/2, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Venganza 5/5, Gracia de la naturaleza 1/1, Eclipse 3/3, Furia de luna 5/5, Forma de lechúcico lunar 1/1. Rama de Combate feral: Corazón de lo Salvaje 5/5, Presteza feral 2/2. Rama de Recuperación: Enfoque de la naturaleza 5/5, Sutileza 2/3, Metamorfosis natural 3/3, Refracción 3/3. La ruta combina la forma lunar con movilidad y apoyo de Recuperación.",
+      "text_en": "Balance: Improved Wrath 5/5, Moonglow 3/3, Improved Moonfire 2/2, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Insect Swarm 1/1, Vengeance 5/5, Nature's Grace 1/1, Eclipse 3/3, Moonfury 5/5, Moonkin Form 1/1. Feral: Heart of the Wild 5/5, Feral Swiftness 2/2. Restoration: Nature's Focus 5/5, Subtlety 2/3, Natural Shapeshifter 3/3, Reflection 3/3. The path combines Moonkin Form with mobility and Restoration support.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid Leveling Guide for WoW: Forever › The build: Balance Leveling (31/7/13)",
+          "url": "https://www.wowhead.com/forever/guide/balance-druid-leveling-guide-for-wow-forever-35076",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:extra:balance-druid-leveling-guide-for-wow-forever"
+      ],
+      "source_hashes": [
+        "section:adf1c6a8080f6c4af9c3293759682010fe41dd7c"
+      ]
+    },
+    {
+      "id": "clase-druid-build-moonglow-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Moonglow 31/0/20",
+      "title_en": "Moonglow 31/0/20 Leveling Build",
+      "summary_es": "Sube como Equilibrio y aporta sanación de mazmorra al invertir los últimos puntos en Recuperación.",
+      "summary_en": "Level as Balance, then add dungeon healing with the final Restoration points.",
+      "keywords_es": [
+        "build druida leveo build-moonglow",
+        "talentos druida leveo build-moonglow",
+        "puntos de talento build-moonglow"
+      ],
+      "keywords_en": [
+        "druid leveling build build-moonglow",
+        "druid leveling talents build-moonglow",
+        "druid talent points build-moonglow"
+      ],
+      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Brillo lunar 3/3, Fuegolunar mejorado 2/2, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Venganza 5/5, Gracia de la naturaleza 1/1, Eclipse 3/3, Furia de luna 5/5, Forma de lechúcico lunar 1/1. Rama de Recuperación: Enfoque de la naturaleza 5/5, Naturalista 5/5, Metamorfosis natural 1/3, Refracción 3/3, Regalo de la Naturaleza 1/5, Rejuvenecimiento mejorado 3/3, Arreglo rápido 1/1. Queda 1 punto libre para gastar por talentos retirados.",
+      "text_en": "Balance: Improved Wrath 5/5, Moonglow 3/3, Improved Moonfire 2/2, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Insect Swarm 1/1, Vengeance 5/5, Nature's Grace 1/1, Eclipse 3/3, Moonfury 5/5, Moonkin Form 1/1. Restoration: Nature's Focus 5/5, Naturalist 5/5, Natural Shapeshifter 1/3, Reflection 3/3, Gift of Nature 1/5, Improved Rejuvenation 3/3, Swiftmend 1/1. 1 point remain free to spend because talents were retired.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Moonglow Druid Hybrid Guide for WoW: Forever › The build: Moonglow (31/0/20)",
+          "url": "https://www.wowhead.com/forever/guide/moonglow-druid-hybrid-guide-for-wow-forever-35081",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:extra:moonglow-druid-hybrid-guide-for-wow-forever"
+      ],
+      "source_hashes": [
+        "section:40cd7a5f0538abf51e904d41c6b5d9a22b09dcf4"
+      ]
+    },
+    {
+      "id": "clase-druid-build-feral-tanque-9-42-0-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de oso 9/42/0",
+      "title_en": "Bear Tank 9/42/0 Leveling Build",
+      "summary_es": "Enfocada en amenaza, armadura y aguante en oso; un punto queda libre.",
+      "summary_en": "Focuses on Bear threat, armor, and durability; one point remains free.",
+      "keywords_es": [
+        "build druida leveo build-feral-tanque-9-42-0",
+        "talentos druida leveo build-feral-tanque-9-42-0",
+        "puntos de talento build-feral-tanque-9-42-0"
+      ],
+      "keywords_en": [
+        "druid leveling build build-feral-tanque-9-42-0",
+        "druid leveling talents build-feral-tanque-9-42-0",
+        "druid talent points build-feral-tanque-9-42-0"
+      ],
+      "text_es": "Rama de Equilibrio: Génesis 5/5, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2. Rama de Combate feral: Ferocidad 4/5, Corazón de lo Salvaje 5/5, Presteza feral 2/2, Instinto feral 3/3, Pellejo grueso 3/3, Furia salvaje 2/2, Carga feral 1/1, Garras afiladas 2/2, Mordisco primigenio 1/1, Golpes depredadores 3/3, Frenesí sangriento 2/2, Líder de la manada 1/1, Instinto natural 2/2, Reacción natural 5/5, Desgarrar y rasgar 5/5. Queda 1 punto libre para gastar por talentos retirados. La prioridad de talentos mejora la amenaza y la defensa en oso.",
+      "text_en": "Balance: Genesis 5/5, Nature's Majesty 2/2, Nature's Reach 2/2. Feral: Ferocity 4/5, Heart of the Wild 5/5, Feral Swiftness 2/2, Feral Instinct 3/3, Thick Hide 3/3, Savage Fury 2/2, Feral Charge 1/1, Sharpened Claws 2/2, Primal Bite 1/1, Predatory Strikes 3/3, Blood Frenzy 2/2, Leader of the Pack 1/1, Natural Instinct 2/2, Natural Reaction 5/5, Rend and Tear 5/5. 1 point remain free to spend because talents were retired. Its talent priorities strengthen Bear threat and defense.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Bear Tank Druid Guide for WoW: Forever › The build: Feral Bear Tank (9/42/0)",
+          "url": "https://www.wowhead.com/forever/guide/feral-bear-tank-druid-guide-for-wow-forever-35078",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:extra:feral-bear-tank-druid-guide-for-wow-forever"
+      ],
+      "source_hashes": [
+        "section:da3a1a808350d60e5a873e6f0fbbdeed38f55b68"
+      ]
+    },
+    {
+      "id": "clase-druid-build-feral-cat-0-36-15-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build felina 0/36/15",
+      "title_en": "Feral Cat 0/36/15 Leveling Build",
+      "summary_es": "Build de leveo en solitario centrada en Energía, sangrados y daño felino.",
+      "summary_en": "Solo leveling build centered on Energy, bleeds, and Cat damage.",
+      "keywords_es": [
+        "build druida leveo build-feral-cat-0-36-15",
+        "talentos druida leveo build-feral-cat-0-36-15",
+        "puntos de talento build-feral-cat-0-36-15"
+      ],
+      "keywords_en": [
+        "druid leveling build build-feral-cat-0-36-15",
+        "druid leveling talents build-feral-cat-0-36-15",
+        "druid talent points build-feral-cat-0-36-15"
+      ],
+      "text_es": "Rama de Combate feral: Ferocidad 5/5, Corazón de lo Salvaje 5/5, Presteza feral 2/2, Ataques trituradores 3/3, Furia salvaje 2/2, Garras afiladas 2/2, Poder cambiante 1/1, Golpes depredadores 3/3, Frenesí sangriento 2/2, Líder de la manada 1/1, Instinto natural 2/2, Desgarrar y rasgar 5/5. Rama de Recuperación: Enfoque de la naturaleza 2/5, Furor 5/5, Naturalista 5/5, Metamorfosis natural 3/3. Quedan 3 puntos libres para gastar por talentos retirados. Favorece el daño felino y deja recursos para recuperarte entre pulls.",
+      "text_en": "Feral: Ferocity 5/5, Heart of the Wild 5/5, Feral Swiftness 2/2, Shredding Attacks 3/3, Savage Fury 2/2, Sharpened Claws 2/2, Shifting Power 1/1, Predatory Strikes 3/3, Blood Frenzy 2/2, Leader of the Pack 1/1, Natural Instinct 2/2, Rend and Tear 5/5. Restoration: Nature's Focus 2/5, Furor 5/5, Naturalist 5/5, Natural Shapeshifter 3/3. 3 pointss remain free to spend because talents were retired. It favors Cat damage and leaves tools for recovery between pulls.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Cat Druid Leveling Guide for WoW: Forever › The build: Feral Cat (0/36/15)",
+          "url": "https://www.wowhead.com/forever/guide/feral-cat-druid-leveling-guide-for-wow-forever-35077",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:extra:feral-cat-druid-leveling-guide-for-wow-forever"
+      ],
+      "source_hashes": [
+        "section:0bc5cc481039700a7e7aecf887eff733bcfc5fd1"
+      ]
+    },
+    {
+      "id": "clase-druid-build-restauracion-11-7-33-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Recuperación 11/7/33",
+      "title_en": "Restoration 11/7/33 Leveling Build",
+      "summary_es": "Build comunitaria de sanación periódica con puntos de apoyo en Equilibrio y Feral.",
+      "summary_en": "Community HoT healing build with Balance and Feral support points.",
+      "keywords_es": [
+        "build druida leveo build-restauracion-11-7-33",
+        "talentos druida leveo build-restauracion-11-7-33",
+        "puntos de talento build-restauracion-11-7-33"
+      ],
+      "keywords_en": [
+        "druid leveling build build-restauracion-11-7-33",
+        "druid leveling talents build-restauracion-11-7-33",
+        "druid talent points build-restauracion-11-7-33"
+      ],
+      "text_es": "Rama de Equilibrio: Génesis 5/5, Brillo lunar 3/3, Majestuosidad de la naturaleza 2/2, Esplendor de la naturaleza 1/1. Rama de Combate feral: Corazón de lo Salvaje 5/5, Presteza feral 2/2. Rama de Recuperación: Enfoque de la naturaleza 5/5, Naturalista 5/5, Refracción 3/3, Regalo de la Naturaleza 5/5, Rejuvenecimiento mejorado 3/3, Arreglo rápido 1/1, Rapidez de la Naturaleza 1/1, Espíritu vivo 3/3, Recrecimiento mejorado 5/5, Crecimiento salvaje 1/1. Queda 1 punto libre para gastar por talentos retirados. Refuerza las sanaciones periódicas para mantener vivo al grupo.",
+      "text_en": "Balance: Genesis 5/5, Moonglow 3/3, Nature's Majesty 2/2, Nature's Splendor 1/1. Feral: Heart of the Wild 5/5, Feral Swiftness 2/2. Restoration: Nature's Focus 5/5, Naturalist 5/5, Reflection 3/3, Gift of Nature 5/5, Improved Rejuvenation 3/3, Swiftmend 1/1, Nature's Swiftness 1/1, Living Spirit 3/3, Improved Regrowth 5/5, Wild Growth 1/1. 1 point remain free to spend because talents were retired. It strengthens healing-over-time effects to keep the party alive.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Healing Guide for WoW: Forever › The build: Restoration Healer (11/7/33)",
+          "url": "https://www.wowhead.com/forever/guide/restoration-druid-healing-guide-for-wow-forever-35079",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:extra:restoration-druid-healing-guide-for-wow-forever"
+      ],
+      "source_hashes": [
+        "section:59a9c16e1ee6ed868f2b731945f21de4f8f37d51"
+      ]
+    },
+    {
+      "id": "clase-druid-build-feral-dps-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Feral DPS de leveo",
+      "title_en": "Feral DPS Leveling Build",
+      "summary_es": "Reparte puntos entre Equilibrio, Combate feral y Recuperación para levear en formas ferales.",
+      "summary_en": "Spreads points across Balance, Feral Combat, and Restoration for shapeshift leveling.",
+      "keywords_es": [
+        "build druida leveo build-feral-dps",
+        "talentos druida leveo build-feral-dps",
+        "puntos de talento build-feral-dps"
+      ],
+      "keywords_en": [
+        "druid leveling build build-feral-dps",
+        "druid leveling talents build-feral-dps",
+        "druid talent points build-feral-dps"
+      ],
+      "text_es": "Rama de Equilibrio: Génesis 5/5, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2. Rama de Combate feral: Ferocidad 5/5, Furor 3/5, Presteza feral 2/2, Furia salvaje 2/2, Carga feral 1/1, Garras afiladas 2/2, Golpes depredadores 3/3, Lacerar 1/1, Disciplina depredadora 1/1, Frenesí sangriento 2/2, Líder de la manada 1/1, Instinto natural 2/2, Desgarrar y rasgar 5/5, Mordisco primigenio 1/1, Poder cambiante 1/1. Rama de Recuperación: Corazón de lo Salvaje 5/5, Naturalista 5/5. Es la distribución híbrida recomendada para subir como Feral.",
+      "text_en": "Balance: Genesis 5/5, Nature's Majesty 2/2, Nature's Reach 2/2. Feral: Ferocity 5/5, Furor 3/5, Feral Swiftness 2/2, Savage Fury 2/2, Feral Charge 1/1, Sharpened Claws 2/2, Predatory Strikes 3/3, Lacerate 1/1, Predatory Discipline 1/1, Blood Frenzy 2/2, Leader of the Pack 1/1, Natural Instinct 2/2, Rend and Tear 5/5, Primal Bite 1/1, Shifting Power 1/1. Restoration: Heart of the Wild 5/5, Naturalist 5/5. This is the recommended hybrid allocation for leveling as Feral.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Feral Druid DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "section:82000e70c5f24a51e8fca7590c975587158e5645"
+      ]
+    },
+    {
+      "id": "clase-druid-build-feral-tanque-reflection-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Feral Reflection para leveo",
+      "title_en": "Feral Reflection Leveling Build",
+      "summary_es": "Reduce el gasto de maná para curarte entre combates sin depender de otros.",
+      "summary_en": "Reduces mana use so you can heal between fights without relying on others.",
+      "keywords_es": [
+        "build druida leveo build-feral-tanque-reflection",
+        "talentos druida leveo build-feral-tanque-reflection",
+        "puntos de talento build-feral-tanque-reflection"
+      ],
+      "keywords_en": [
+        "druid leveling build build-feral-tanque-reflection",
+        "druid leveling talents build-feral-tanque-reflection",
+        "druid talent points build-feral-tanque-reflection"
+      ],
+      "text_es": "Rama de Combate feral: Ferocidad 5/5, Furor 5/5, Presteza feral 2/2, Furia salvaje 2/2, Carga feral 1/1, Garras afiladas 2/2, Golpes depredadores 3/3, Lacerar 1/1, Disciplina depredadora 1/1, Frenesí sangriento 2/2, Líder de la manada 1/1, Instinto natural 2/2, Desgarrar y rasgar 5/5, Mordisco primigenio 1/1, Poder cambiante 1/1. Rama de Recuperación: Corazón de lo Salvaje 5/5, Naturalista 5/5, Refracción 3/3, Metamorfosis natural 3/3, Arreglo rápido 1/1. La Recuperación adicional reduce pausas para beber y sanar.",
+      "text_en": "Feral: Blood Frenzy 2/2, Feral Charge 1/1, Feral Swiftness 2/2, Ferocity 5/5, Furor 5/5, Lacerate 1/1, Leader of the Pack 1/1, Natural Instinct 2/2, Predatory Discipline 1/1, Predatory Strikes 3/3, Primal Bite 1/1, Rend and Tear 5/5, Savage Fury 2/2, Sharpened Claws 2/2, Shifting Power 1/1. Restoration: Bloom 1/1, Heart of the Wild 5/5, Natural Shapeshifter 3/3, Naturalist 5/5, Reflection 3/3. This supports self-healing and mana sustain between fights.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as a Feral Druid Tank in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "section:2a5f71ddfebfcce143d28e624acdb44a715f03f1"
+      ]
+    },
+    {
+      "id": "clase-druid-build-feral-tanque-splendor-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Feral’s Splendor para leveo",
+      "title_en": "Feral’s Splendor Leveling Build",
+      "summary_es": "Más ofensiva y móvil, aunque consume más maná.",
+      "summary_en": "More offensive and mobile, but more mana hungry.",
+      "keywords_es": [
+        "build druida leveo build-feral-tanque-splendor",
+        "talentos druida leveo build-feral-tanque-splendor",
+        "puntos de talento build-feral-tanque-splendor"
+      ],
+      "keywords_en": [
+        "druid leveling build build-feral-tanque-splendor",
+        "druid leveling talents build-feral-tanque-splendor",
+        "druid talent points build-feral-tanque-splendor"
+      ],
+      "text_es": "Rama de Equilibrio: Génesis 5/5, Majestuosidad de la naturaleza 1/2, Alcance de la naturaleza 2/2. Rama de Combate feral: Ferocidad 5/5, Furor 4/5, Presteza feral 2/2, Furia salvaje 2/2, Carga feral 1/1, Garras afiladas 2/2, Golpes depredadores 3/3, Lacerar 1/1, Disciplina depredadora 1/1, Frenesí sangriento 1/2, Líder de la manada 1/1, Instinto natural 2/2, Desgarrar y rasgar 5/5, Mordisco primigenio 1/1, Poder cambiante 1/1. Rama de Recuperación: Corazón de lo Salvaje 5/5, Naturalista 5/5, Floración 1/1. Su inversión en Equilibrio favorece el alcance para atraer objetivos.",
+      "text_en": "Balance: Genesis 5/5, Nature’s Majesty 1/2, Nature’s Reach 2/2. Feral: Ferocity 5/5, Furor 4/5, Feral Swiftness 2/2, Savage Fury 2/2, Feral Charge 1/1, Sharpened Claws 2/2, Predatory Strikes 3/3, Lacerate 1/1, Predatory Discipline 1/1, Blood Frenzy 1/2, Leader of the Pack 1/1, Natural Instinct 2/2, Rend and Tear 5/5, Primal Bite 1/1, Shifting Power 1/1. Restoration: Heart of the Wild 5/5, Naturalist 5/5, Bloom 1/1. This option improves range for tagging but spends more mana.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as a Feral Druid Tank in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "section:2a5f71ddfebfcce143d28e624acdb44a715f03f1"
+      ]
+    },
+    {
+      "id": "clase-druid-build-restauracion-hots-dots-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Recuperación HoT/DoT",
+      "title_en": "Restoration HoT/DoT Leveling Build",
+      "summary_es": "Adecuada para misiones en solitario y grupos de mazmorra gracias a daño y sanación periódicos.",
+      "summary_en": "Fits solo quests and dungeon groups with periodic damage and healing.",
+      "keywords_es": [
+        "build druida leveo build-restauracion-hots-dots",
+        "talentos druida leveo build-restauracion-hots-dots",
+        "puntos de talento build-restauracion-hots-dots"
+      ],
+      "keywords_en": [
+        "druid leveling build build-restauracion-hots-dots",
+        "druid leveling talents build-restauracion-hots-dots",
+        "druid talent points build-restauracion-hots-dots"
+      ],
+      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Génesis 5/5, Brillo lunar 3/3, Majestuosidad de la naturaleza 2/2, Enredaderas 3/3, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Sobrecrecimiento 2/2, Gracia de la naturaleza 1/1. Rama de Recuperación: Enfoque de la naturaleza 5/5, Naturalista 5/5, Refracción 3/3, Regalo de la Naturaleza 5/5, Floración 1/1, Rejuvenecimiento mejorado 3/3, Arreglo rápido 1/1, Rapidez de la Naturaleza 1/1, Espíritu vivo 1/3, Recrecimiento mejorado 3/5. Equilibra el daño en solitario con sanación útil en mazmorras.",
+      "text_en": "Balance: Improved Wrath 5/5, Genesis 5/5, Moonglow 3/3, Nature's Majesty 2/2, Improved Entangling Roots 3/3, Nature's Splendor 1/1, Insect Swarm 1/1, Overgrowth 2/2, Nature's Grace 1/1. Restoration: Nature's Focus 5/5, Naturalist 5/5, Reflection 3/3, Gift of Nature 5/5, Bloom 1/1, Improved Rejuvenation 3/3, Swiftmend 1/1, Nature's Swiftness 1/1, Living Spirit 1/3, Improved Regrowth 3/5. It balances solo damage with useful dungeon healing.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as a Restoration Druid Healer in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:leveling"
+      ],
+      "source_hashes": [
+        "section:fcdd0783e2a5d34d8540642f6a6ac34c77bd476b"
+      ]
+    },
+    {
+      "id": "clase-druid-build-restauracion-estricta-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de sanación estricta",
+      "title_en": "Strict-Healing Leveling Build",
+      "summary_es": "Pensada para un grupo de mazmorra estable; es lenta para el mundo abierto en solitario.",
+      "summary_en": "Designed for a steady dungeon group; slow for solo open-world leveling.",
+      "keywords_es": [
+        "build druida leveo build-restauracion-estricta",
+        "talentos druida leveo build-restauracion-estricta",
+        "puntos de talento build-restauracion-estricta"
+      ],
+      "keywords_en": [
+        "druid leveling build build-restauracion-estricta",
+        "druid leveling talents build-restauracion-estricta",
+        "druid talent points build-restauracion-estricta"
+      ],
+      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Génesis 5/5, Majestuosidad de la naturaleza 2/2, Esplendor de la naturaleza 1/1. Rama de Recuperación: Enfoque de la naturaleza 5/5, Corazón de lo Salvaje 5/5, Naturalista 5/5, Refracción 3/3, Regalo de la Naturaleza 5/5, Floración 1/1, Rejuvenecimiento mejorado 3/3, Arreglo rápido 1/1, Rapidez de la Naturaleza 1/1, Espíritu vivo 3/3, Recrecimiento mejorado 5/5, Crecimiento salvaje 1/1. Conviene para grupos coordinados que avanzan con rapidez.",
+      "text_en": "Balance: Improved Wrath 5/5, Genesis 5/5, Nature's Majesty 2/2, Nature's Splendor 1/1. Restoration: Nature's Focus 5/5, Heart of the Wild 5/5, Naturalist 5/5, Reflection 3/3, Gift of Nature 5/5, Bloom 1/1, Improved Rejuvenation 3/3, Swiftmend 1/1, Nature's Swiftness 1/1, Living Spirit 3/3, Improved Regrowth 5/5, Wild Growth 1/1. It suits coordinated groups that move quickly through dungeons.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as a Restoration Druid Healer in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:leveling"
+      ],
+      "source_hashes": [
+        "section:fcdd0783e2a5d34d8540642f6a6ac34c77bd476b"
+      ]
+    },
+    {
+      "id": "clase-druid-talentos-equilibrio-ruta",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de talentos de Equilibrio al subir",
+      "title_en": "Balance Leveling Talent Path",
+      "summary_es": "Invierte primero en coste, alcance y multidot; retrasa la especialización de casteo largo.",
+      "summary_en": "Take mana efficiency, range, and multi-dot talents first; delay the hard-casting package.",
+      "keywords_es": [
+        "ruta talentos equilibrio leveo",
+        "talentos de equilibrio por nivel",
+        "build equilibrio nivel 60"
+      ],
+      "keywords_en": [
+        "balance leveling talent path",
+        "balance talents by level",
+        "balance level 60 build"
+      ],
+      "text_es": "Empieza con Cólera mejorada 5/5; toma pronto Brillo lunar 3/3 y después Fuegolunar mejorado 2/2, Majestuosidad de la naturaleza 2/2 y Alcance de la naturaleza 2/2. Añade Esplendor de la naturaleza 1/1 y Enjambre de insectos 1/1 para extender el multidot. Más tarde completa Venganza 5/5, Fuego estelar mejorado 5/5 (2/5 en la variante multidot), Eclipse 3/3 y Forma de lechúcico lunar 1/1; elige entre daño a un objetivo, seguridad o sanación de mazmorra.",
+      "text_en": "Start with Improved Wrath 5/5; take Moonglow 3/3 early, then Improved Moonfire 2/2, Nature’s Majesty 2/2, and Nature’s Reach 2/2. Nature’s Splendor 1/1 and Insect Swarm 1/1 extend multi-dotting. Later finish Vengeance 5/5, Improved Starfire 5/5 (2/5 in the multi-dot variant), Eclipse 3/3, and Moonkin Form 1/1; choose between single-target damage, safety, or dungeon healing.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Balance Druid DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Leveling as a Balance Druid DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:balance:leveling"
+      ],
+      "source_hashes": [
+        "section:03bd266526dee91d2a4ffc5368d3575c175c83e5",
+        "section:36e21d4d949262b3b87757defcee873f66e0465a"
+      ]
+    },
+    {
+      "id": "clase-druid-talentos-equilibrio-31-7-13-ruta",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta Equilibrio 31/7/13",
+      "title_en": "Balance 31/7/13 Talent Path",
+      "summary_es": "Obtén Forma de lechúcico lunar al 40; completa movilidad y apoyo después.",
+      "summary_en": "Reach Moonkin Form at 40, then finish mobility and support talents.",
+      "keywords_es": [
+        "ruta build equilibrio 31 7 13",
+        "talentos equilibrio y feral",
+        "forma lechucico nivel 40"
+      ],
+      "keywords_en": [
+        "balance 31 7 13 path",
+        "balance feral talent order",
+        "moonkin form at 40"
+      ],
+      "text_es": "10–14: Cólera mejorada 5/5; 15–17: Brillo lunar 3/3; 18–19: Fuegolunar mejorado 2/2; 20–21: Majestuosidad de la naturaleza 2/2; 22: Esplendor de la naturaleza 1/1; 23–24: Alcance de la naturaleza 2/2; 25: Enjambre de insectos 1/1. Después, Venganza 5/5, Gracia de la naturaleza 1/1, Eclipse 3/3, Furia de luna 5/5 y Forma de lechúcico lunar 1/1 al 40; completa Corazón de lo Salvaje 5/5, Presteza feral 2/2 y Recuperación.",
+      "text_en": "10–14: Improved Wrath 5/5; 15–17: Moonglow 3/3; 18–19: Improved Moonfire 2/2; 20–21: Nature’s Majesty 2/2; 22: Nature’s Splendor 1/1; 23–24: Nature’s Reach 2/2; 25: Insect Swarm 1/1. Then take Vengeance 5/5, Nature’s Grace 1/1, Eclipse 3/3, Moonfury 5/5, and Moonkin Form 1/1 at 40; finish Heart of the Wild 5/5, Feral Swiftness 2/2, and Restoration.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid Leveling Guide for WoW: Forever › Balance: levels 10–40 (31 points)",
+          "url": "https://www.wowhead.com/forever/guide/balance-druid-leveling-guide-for-wow-forever-35076",
+          "date": "2026-10-20"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid Leveling Guide for WoW: Forever › Feral Combat: levels 41–47 (7 points)",
+          "url": "https://www.wowhead.com/forever/guide/balance-druid-leveling-guide-for-wow-forever-35076",
+          "date": "2026-10-20"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid Leveling Guide for WoW: Forever › Restoration: levels 48–60 (13 points)",
+          "url": "https://www.wowhead.com/forever/guide/balance-druid-leveling-guide-for-wow-forever-35076",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:extra:balance-druid-leveling-guide-for-wow-forever"
+      ],
+      "source_hashes": [
+        "section:07248f9867f28c5a5906582627df8ceed136ed12",
+        "section:abf521ef4585edf62ccf3be0823f38f4e5f794c0",
+        "section:e8676394b9a423ddcb898987570b9d17c1687c1d"
+      ]
+    },
+    {
+      "id": "clase-druid-talentos-moonglow-ruta",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de talentos Moonglow",
+      "title_en": "Moonglow Talent Path",
+      "summary_es": "Comparte los primeros 31 puntos de Equilibrio y dedica los últimos 20 a sanar.",
+      "summary_en": "Share the first 31 Balance points, then spend the final 20 on healing.",
+      "keywords_es": [
+        "ruta talentos moonglow",
+        "hibrido equilibrio sanador",
+        "puntos recuperacion moonglow"
+      ],
+      "keywords_en": [
+        "moonglow talent path",
+        "balance healer hybrid",
+        "moonglow restoration points"
+      ],
+      "text_es": "Hasta el 40, sigue la ruta de Equilibrio y toma Forma de lechúcico lunar 1/1. Del 41 al 45, Enfoque de la naturaleza 5/5; del 46 al 50, Naturalista 5/5; del 51 al 53, Refracción 3/3. Luego sube Regalo de la Naturaleza 1/5, Rejuvenecimiento mejorado 3/3, Arreglo rápido 1/1 y Metamorfosis natural 1/3; al 54 queda 1 punto libre por un talento retirado.",
+      "text_en": "Through 40, follow the Balance path and take Moonkin Form 1/1. From 41–45, Nature’s Focus 5/5; 46–50, Naturalist 5/5; 51–53, Reflection 3/3. Then take Gift of Nature 1/5, Improved Rejuvenation 3/3, Swiftmend 1/1, and Natural Shapeshifter 1/3; at 54, 1 point stays free because a talent was retired.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Moonglow Druid Hybrid Guide for WoW: Forever › The build: Moonglow (31/0/20)",
+          "url": "https://www.wowhead.com/forever/guide/moonglow-druid-hybrid-guide-for-wow-forever-35081",
+          "date": "2026-10-20"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Moonglow Druid Hybrid Guide for WoW: Forever › Restoration: levels 41–60 (20 points)",
+          "url": "https://www.wowhead.com/forever/guide/moonglow-druid-hybrid-guide-for-wow-forever-35081",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:extra:moonglow-druid-hybrid-guide-for-wow-forever"
+      ],
+      "source_hashes": [
+        "section:409954ae29bb92179e21102bbf17d587a1076aa2",
+        "section:40cd7a5f0538abf51e904d41c6b5d9a22b09dcf4"
+      ]
+    },
+    {
+      "id": "clase-druid-talentos-oso-9-42-0-ruta-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta oso 9/42/0 · parte 1",
+      "title_en": "Bear 9/42/0 Path · Part 1",
+      "summary_es": "Prioriza eficiencia de Rabia, movilidad, armadura y amenaza felina/oso.",
+      "summary_en": "Prioritize Rage efficiency, mobility, armor, and Bear threat.",
+      "keywords_es": [
+        "ruta oso feral puntos niveles",
+        "build tanque 9 42 0",
+        "talentos oso por nivel"
+      ],
+      "keywords_en": [
+        "feral bear leveling path",
+        "bear tank 9 42 0",
+        "bear talents by level"
+      ],
+      "text_es": "10–13: Ferocidad 4/5; 14–18: Corazón de lo Salvaje 5/5; 19–20: Presteza feral 2/2; 21–23: Instinto feral 3/3; 24–26: Pellejo grueso 3/3; 27–28: Furia salvaje 2/2; 29: Carga feral 1/1; 30–31: Garras afiladas 2/2; 32: Mordisco primigenio 1/1; 33–35: Golpes depredadores 3/3; 36–37: Frenesí sangriento 2/2; 38: Líder de la manada 1/1; 39–40: Instinto natural 2/2; 41–45: Reacción natural 5/5; 46–50: Desgarrar y rasgar 5/5.",
+      "text_en": "10–13: Ferocity 4/5; 14–18: Heart of the Wild 5/5; 19–20: Feral Swiftness 2/2; 21–23: Feral Instinct 3/3; 24–26: Thick Hide 3/3; 27–28: Savage Fury 2/2; 29: Feral Charge 1/1; 30–31: Sharpened Claws 2/2; 32: Primal Bite 1/1; 33–35: Predatory Strikes 3/3; 36–37: Blood Frenzy 2/2; 38: Leader of the Pack 1/1; 39–40: Natural Instinct 2/2; 41–45: Natural Reaction 5/5; 46–50: Rend and Tear 5/5.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Bear Tank Druid Guide for WoW: Forever › Feral Combat: levels 10–51 (42 points)",
+          "url": "https://www.wowhead.com/forever/guide/feral-bear-tank-druid-guide-for-wow-forever-35078",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:extra:feral-bear-tank-druid-guide-for-wow-forever"
+      ],
+      "source_hashes": [
+        "section:fd3c970ec5da7a930ede9c8a9cdcddcf9b2f5021"
+      ]
+    },
+    {
+      "id": "clase-druid-talentos-oso-9-42-0-ruta-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta oso 9/42/0 · parte 2",
+      "title_en": "Bear 9/42/0 Path · Part 2",
+      "summary_es": "El punto de talento retirado queda libre; los nueve puntos finales van a Equilibrio.",
+      "summary_en": "Leave the retired talent point free; spend the final nine points in Balance.",
+      "keywords_es": [
+        "ruta rama equilibrio oso nivel 60",
+        "talentos génesis oso",
+        "alcance druida tanque"
+      ],
+      "keywords_en": [
+        "bear balance tree leveling",
+        "bear genesis talents",
+        "druid tank range talents"
+      ],
+      "text_es": "El punto del nivel 51 queda libre por un talento retirado. Del 52 al 56, Génesis 5/5; del 57 al 58, Majestuosidad de la naturaleza 2/2; del 59 al 60, Alcance de la naturaleza 2/2. Así se completa el reparto 9/42/0 con más daño periódico, crítico y alcance.",
+      "text_en": "The point at level 51 stays free because a talent was retired. From 52–56, take Genesis 5/5; 57–58, Nature’s Majesty 2/2; 59–60, Nature’s Reach 2/2. This completes the 9/42/0 allocation with periodic damage, crit, and range.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Bear Tank Druid Guide for WoW: Forever › Balance: levels 52–60 (9 points)",
+          "url": "https://www.wowhead.com/forever/guide/feral-bear-tank-druid-guide-for-wow-forever-35078",
+          "date": "2026-10-20"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Bear Tank Druid Guide for WoW: Forever › The build: Feral Bear Tank (9/42/0)",
+          "url": "https://www.wowhead.com/forever/guide/feral-bear-tank-druid-guide-for-wow-forever-35078",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:extra:feral-bear-tank-druid-guide-for-wow-forever"
+      ],
+      "source_hashes": [
+        "section:b28f6c98f2b91fe63261850a14590c5084808986",
+        "section:da3a1a808350d60e5a873e6f0fbbdeed38f55b68"
+      ]
+    },
+    {
+      "id": "clase-druid-talentos-feral-tanque-ruta",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta Feral tanque para subir",
+      "title_en": "Feral Tank Leveling Talent Path",
+      "summary_es": "Presteza feral acelera el leveo; elige Recuperación para sostenerte o Equilibrio para más alcance.",
+      "summary_en": "Feral Swiftness speeds leveling; choose Restoration for sustain or Balance for range.",
+      "keywords_es": [
+        "ruta talentos oso druida",
+        "feral tank talentos leveo",
+        "reflection splendor oso"
+      ],
+      "keywords_en": [
+        "bear druid talent path",
+        "feral tank leveling talents",
+        "reflection splendor bear"
+      ],
+      "text_es": "Toma Presteza feral 2/2 pronto y prioriza talentos de amenaza, Rabia y supervivencia de las builds de oso. Para jugar solo con menos pausas, la ruta Reflection lleva puntos a Corazón de lo Salvaje 5/5, Naturalista 5/5 y Refracción 3/3; la alternativa Splendor invierte en Majestuosidad de la naturaleza y Alcance de la naturaleza, con más gasto de maná. Las asignaciones completas están en las tarjetas de build.",
+      "text_en": "Take Feral Swiftness 2/2 early, then prioritize Bear threat, Rage, and survival talents from the Bear builds. For solo play with less downtime, Reflection invests in Heart of the Wild 5/5, Naturalist 5/5, and Reflection 3/3; the Splendor option takes Nature’s Majesty and Nature’s Reach but spends more mana. Full allocations are listed in the build cards.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as a Feral Druid Tank in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "section:2a5f71ddfebfcce143d28e624acdb44a715f03f1"
+      ]
+    },
+    {
+      "id": "clase-druid-talentos-restauracion-hots-dots-ruta",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de Recuperación HoT/DoT",
+      "title_en": "Restoration HoT/DoT Talent Path",
+      "summary_es": "Combina daño inicial de Equilibrio, control y sanación periódica para misiones y mazmorras.",
+      "summary_en": "Mix early Balance damage, control, and healing-over-time for quests and dungeons.",
+      "keywords_es": [
+        "ruta talentos recuperacion hots dots",
+        "build druida solo y mazmorra",
+        "talentos floracion druida"
+      ],
+      "keywords_en": [
+        "restoration hots dots path",
+        "solo and dungeon druid build",
+        "druid bloom talents"
+      ],
+      "text_es": "Empieza con Cólera mejorada 5/5 para misiones. Pasa a Recuperación para Refracción 3/3 y Floración 1/1; vuelve a Equilibrio por Enjambre de insectos 1/1, Gracia de la naturaleza 1/1 y Sobrecrecimiento 2/2. Después llena Recuperación hasta Arreglo rápido 1/1, Rapidez de la Naturaleza 1/1 y Recrecimiento mejorado 3/5; también puedes detenerte antes y añadir daño de Equilibrio.",
+      "text_en": "Start with Improved Wrath 5/5 for questing. Move into Restoration for Reflection 3/3 and Bloom 1/1; return to Balance for Insect Swarm 1/1, Nature’s Grace 1/1, and Overgrowth 2/2. Then fill Restoration toward Swiftmend 1/1, Nature’s Swiftness 1/1, and Improved Regrowth 3/5; you can also stop earlier and add Balance damage.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as a Restoration Druid Healer in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:leveling"
+      ],
+      "source_hashes": [
+        "section:fcdd0783e2a5d34d8540642f6a6ac34c77bd476b"
+      ]
+    },
+    {
+      "id": "clase-druid-talentos-restauracion-estricta-ruta",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de sanación estricta",
+      "title_en": "Strict-Healing Talent Path",
+      "summary_es": "Toma Cólera mejorada para apoyar al grupo al principio y después completa la sanación de mazmorra.",
+      "summary_en": "Take Improved Wrath for early group damage, then complete the dungeon-healing tree.",
+      "keywords_es": [
+        "ruta de talentos sanador druida",
+        "crecimiento salvaje leveo",
+        "recrecimiento mejorado puntos"
+      ],
+      "keywords_en": [
+        "druid healer talent path",
+        "wild growth leveling",
+        "improved regrowth points"
+      ],
+      "text_es": "Empieza con Cólera mejorada 5/5; después, prioriza Recuperación hasta Crecimiento salvaje 1/1 y Recrecimiento mejorado 5/5. Toma Esplendor de la naturaleza 1/1 en Equilibrio y completa Génesis 5/5 con los puntos finales. La ruta rinde en un grupo de mazmorra estable, pero es lenta para misiones en solitario.",
+      "text_en": "Start with Improved Wrath 5/5; then prioritize Restoration through Wild Growth 1/1 and Improved Regrowth 5/5. Take Nature’s Splendor 1/1 in Balance and finish Genesis 5/5 with the remaining points. This route suits a steady dungeon group but is slow for solo quests.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as a Restoration Druid Healer in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:leveling"
+      ],
+      "source_hashes": [
+        "section:fcdd0783e2a5d34d8540642f6a6ac34c77bd476b"
+      ]
+    },
+    {
+      "id": "clase-druid-talentos-restauracion-11-7-33-ruta",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de sanación 11/7/33 · parte 1",
+      "title_en": "Restoration 11/7/33 Path · Part 1",
+      "summary_es": "Completa primero Recuperación; el punto retirado del nivel 28 queda libre.",
+      "summary_en": "Fill Restoration first; the retired point at level 28 remains free.",
+      "keywords_es": [
+        "ruta restoration 11 7 33",
+        "talentos sanador por nivel",
+        "punto libre talento retirado"
+      ],
+      "keywords_en": [
+        "restoration 11 7 33 path",
+        "healer talents by level",
+        "retired talent free point"
+      ],
+      "text_es": "10–14: Enfoque de la naturaleza 5/5; 15–19: Naturalista 5/5; 20–22: Refracción 3/3; 23–27: Regalo de la Naturaleza 5/5. El punto del nivel 28 queda libre por el talento retirado. 29–31: Rejuvenecimiento mejorado 3/3; 32: Arreglo rápido 1/1; 33: Rapidez de la Naturaleza 1/1; 34–36: Espíritu vivo 3/3; 37–41: Recrecimiento mejorado 5/5; 42: Crecimiento salvaje 1/1.",
+      "text_en": "10–14: Nature’s Focus 5/5; 15–19: Naturalist 5/5; 20–22: Reflection 3/3; 23–27: Gift of Nature 5/5. The point at level 28 stays free because a talent was retired. 29–31: Improved Rejuvenation 3/3; 32: Swiftmend 1/1; 33: Nature’s Swiftness 1/1; 34–36: Living Spirit 3/3; 37–41: Improved Regrowth 5/5; 42: Wild Growth 1/1.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Healing Guide for WoW: Forever › Restoration: levels 10–42 (33 points)",
+          "url": "https://www.wowhead.com/forever/guide/restoration-druid-healing-guide-for-wow-forever-35079",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:extra:restoration-druid-healing-guide-for-wow-forever"
+      ],
+      "source_hashes": [
+        "section:44594d89fcbf7877991accd3594ef91382ff8b01"
+      ]
+    },
+    {
+      "id": "clase-druid-talentos-restauracion-11-7-33-ruta-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de sanación 11/7/33 · parte 2",
+      "title_en": "Restoration 11/7/33 Path · Part 2",
+      "summary_es": "Después de Crecimiento salvaje, añade sanación periódica de Equilibrio y movilidad Feral.",
+      "summary_en": "After Wild Growth, add Balance healing-over-time and Feral mobility.",
+      "keywords_es": [
+        "ruta balance feral sanador",
+        "restauracion 11 7 33 final",
+        "esplendor y genesis talentos"
+      ],
+      "keywords_en": [
+        "healer balance feral path",
+        "restoration 11 7 33 endgame",
+        "nature splendor genesis talents"
+      ],
+      "text_es": "Del 43 al 47, Génesis 5/5; 48–50, Brillo lunar 3/3; 51–52, Majestuosidad de la naturaleza 2/2; 53, Esplendor de la naturaleza 1/1. Termina del 54 al 58 con Corazón de lo Salvaje 5/5 y al 59–60 con Presteza feral 2/2. El reparto 11/7/33 mantiene la sanación como función principal.",
+      "text_en": "From 43–47, Genesis 5/5; 48–50, Moonglow 3/3; 51–52, Nature’s Majesty 2/2; 53, Nature’s Splendor 1/1. Finish with Heart of the Wild 5/5 from 54–58 and Feral Swiftness 2/2 at 59–60. The 11/7/33 allocation keeps healing as the main role.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Healing Guide for WoW: Forever › Balance: levels 43–53 (11 points)",
+          "url": "https://www.wowhead.com/forever/guide/restoration-druid-healing-guide-for-wow-forever-35079",
+          "date": "2026-10-20"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Healing Guide for WoW: Forever › Feral Combat: levels 54–60 (7 points)",
+          "url": "https://www.wowhead.com/forever/guide/restoration-druid-healing-guide-for-wow-forever-35079",
+          "date": "2026-10-20"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Healing Guide for WoW: Forever › The build: Restoration Healer (11/7/33)",
+          "url": "https://www.wowhead.com/forever/guide/restoration-druid-healing-guide-for-wow-forever-35079",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:extra:restoration-druid-healing-guide-for-wow-forever"
+      ],
+      "source_hashes": [
+        "section:43872b1cfe37bb7f70d5d5c3f7f39e6f94ad1a4e",
+        "section:59a9c16e1ee6ed868f2b731945f21de4f8f37d51",
+        "section:5a6f28c2c0124283b9081f7fd90777026758157d"
+      ]
+    },
+    {
+      "id": "clase-druid-entrenar-equilibrio-dano",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rangos de daño de Equilibrio",
+      "title_en": "Balance Damage Spell Ranks",
+      "summary_es": "Aprende los rangos de Cólera, Fuegolunar, Fuego estelar y Huracán a sus niveles clave.",
+      "summary_en": "Train Wrath, Moonfire, Starfire, and Hurricane ranks at their key levels.",
+      "keywords_es": [
+        "rangos de cólera druida",
+        "niveles de fuegolunar",
+        "rangos de huracán equilibrio"
+      ],
+      "keywords_en": [
+        "wrath rank levels druid",
+        "moonfire training levels",
+        "balance hurricane ranks"
+      ],
+      "text_es": "Entrena Cólera en 1, 6, 14, 22, 30, 38, 46 y 54; Fuegolunar en 4, 10, 16, 22, 28, 34, 40, 46, 52 y 58; Fuego estelar en 20, 26, 34, 42, 50, 58 y 60. Enjambre de insectos es talento y luego recibe rangos en 30, 40, 50 y 60; Huracán, en 40, 50 y 60.",
+      "text_en": "Train Wrath at 1, 6, 14, 22, 30, 38, 46, and 54; Moonfire at 4, 10, 16, 22, 28, 34, 40, 46, 52, and 58; Starfire at 20, 26, 34, 42, 50, 58, and 60. Insect Swarm is a talent, then gains ranks at 30, 40, 50, and 60; Hurricane at 40, 50, and 60.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Abilities to Train for Balance Druid DPS in WoW: Forever > Mandatory Abilities to Train for Balance Druid",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:balance:leveling"
+      ],
+      "source_hashes": [
+        "guide:c1f9b3c8796c9da85504e92d85f463d8285745e7"
+      ]
+    },
+    {
+      "id": "clase-druid-entrenar-equilibrio-curas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rangos de curación de Equilibrio",
+      "title_en": "Balance Healing Spell Ranks",
+      "summary_es": "Sube las curas para autocuración y apoyo; Toque curativo recibe rangos hasta el 60.",
+      "summary_en": "Train healing ranks for self-sustain and backup support; Healing Touch ranks through 60.",
+      "keywords_es": [
+        "rangos de rejuvenecimiento",
+        "entrenar recrecimiento druida",
+        "toque curativo niveles"
+      ],
+      "keywords_en": [
+        "rejuvenation rank levels",
+        "train regrowth druid",
+        "healing touch training levels"
+      ],
+      "text_es": "Rejuvenecimiento: rangos en 4, 10, 16, 22 y 28; después, 34, 40, 46, 52, 58 y 60. Recrecimiento: 12, 18, 24 y 30; los rangos siguientes llegan en 36, 42, 48, 54 y 60. Toque curativo: 1, 8, 14, 20, 26 y 32; rangos posteriores en 38, 44, 50, 56 y 60. Guarda maná para ayudar al grupo si tu sanador necesita apoyo.",
+      "text_en": "Rejuvenation ranks come at 4, 10, 16, 22, and 28; later at 34, 40, 46, 52, 58, and 60. Regrowth ranks: 12, 18, 24, and 30; later ranks arrive at 36, 42, 48, 54, and 60. Healing Touch: 1, 8, 14, 20, 26, and 32; later ranks at 38, 44, 50, 56, and 60. Keep mana available to help the group if its healer needs support.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Abilities to Train for Balance Druid DPS in WoW: Forever > Mandatory Abilities to Train for Balance Druid",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:balance:leveling"
+      ],
+      "source_hashes": [
+        "guide:c1f9b3c8796c9da85504e92d85f463d8285745e7"
+      ]
+    },
+    {
+      "id": "clase-druid-entrenar-equilibrio-utilidad",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rangos de utilidad de Equilibrio",
+      "title_en": "Balance Utility Spell Ranks",
+      "summary_es": "Mantén los beneficios y sube las herramientas de control que usas con frecuencia.",
+      "summary_en": "Keep buffs current and rank up the control tools you use often.",
+      "keywords_es": [
+        "rangos de espinas druida",
+        "enredaderas rangos",
+        "marca de lo salvaje niveles"
+      ],
+      "keywords_en": [
+        "thorns rank levels druid",
+        "entangling roots ranks",
+        "mark of the wild training"
+      ],
+      "text_es": "Espinas: 6, 14, 24, 34, 44 y 54; Enredaderas: 8, 18, 28, 38, 48 y 58; Fuego feérico: 18, 30, 42 y 54; Marca de lo salvaje: 1, 10, 20 y 30, con rangos posteriores en 40, 50 y 60. Prioriza Enredaderas para apartar enemigos y Fuego feérico cuando el grupo aproveche la reducción de armadura.",
+      "text_en": "Thorns ranks: 6, 14, 24, 34, 44, and 54; Entangling Roots: 8, 18, 28, 38, 48, and 58; Faerie Fire: 18, 30, 42, and 54; Mark of the Wild: 1, 10, 20, and 30, with later ranks at 40, 50, and 60. Entangling Roots separates enemies; Faerie Fire helps when the group can use the armor reduction.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Abilities to Train for Balance Druid DPS in WoW: Forever > Mandatory Abilities to Train for Balance Druid",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:balance:leveling"
+      ],
+      "source_hashes": [
+        "guide:c1f9b3c8796c9da85504e92d85f463d8285745e7"
+      ]
+    },
+    {
+      "id": "clase-druid-entrenar-equilibrio-opcional",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades opcionales de Equilibrio",
+      "title_en": "Optional Balance Abilities to Train",
+      "summary_es": "Compra habilidades de oso solo si las usas para regenerar maná antes de Forma de lechúcico lunar.",
+      "summary_en": "Train Bear abilities only if you use them to regenerate mana before Moonkin Form.",
+      "keywords_es": [
+        "habilidades opcionales equilibrio",
+        "flagelo para recuperar maná",
+        "entrenar habilidades oso druida"
+      ],
+      "keywords_en": [
+        "optional balance spells",
+        "swipe mana regeneration",
+        "bear spells to train"
+      ],
+      "text_es": "Antes del nivel 40, Flagelo y Clamor desmoralizador permiten seguir peleando en Forma de oso mientras recuperas maná; Enfurecer aporta Rabia y Azote aturde o interrumpe. Diligencia sirve para escapar o recorrer terreno y Tranquilidad puede salvar al grupo si falla el sanador. Después de conseguir la Forma de lechúcico lunar, deja de subir las habilidades exclusivas de Forma de oso que no uses.",
+      "text_en": "Train Swipe and Demoralizing Roar only if you use Bear Form for mana recovery before level 40; Enrage adds Rage and Bash stuns or interrupts. Dash helps you escape or travel, and Tranquility can save a group if its healer struggles. Moonkin Form signals when you can stop training Bear Form-only abilities you no longer use.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Abilities to Train for Balance Druid DPS in WoW: Forever > Optional Abilities to Train for Balance Druid",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:balance:leveling"
+      ],
+      "source_hashes": [
+        "guide:c1f9b3c8796c9da85504e92d85f463d8285745e7"
+      ]
+    },
+    {
+      "id": "clase-druid-entrenar-feral-dps",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades obligatorias de Feral DPS",
+      "title_en": "Feral DPS Mandatory Training",
+      "summary_es": "Prioriza las habilidades que sostienen el daño felino, el área y los remates.",
+      "summary_en": "Prioritize core Cat damage, AoE, and finishing abilities.",
+      "keywords_es": [
+        "habilidades feral para entrenar",
+        "rangos zarpa y arañazo",
+        "destripar niveles druida"
+      ],
+      "keywords_en": [
+        "feral spells to train",
+        "claw and rake rank levels",
+        "rip druid training"
+      ],
+      "text_es": "Zarpa: 20, 28, 38, 48 y 58; Arañazo: 24, 34, 44 y 54; Augurio de claridad: 20; Destripar: 20, 28, 36, 44, 52 y 60; Mordisco primigenio: 50 y 60; Flagelo: 16, 24, 34, 44 y 54; Fuego feérico: 18, 30, 42 y 54; Pielcorteza: 44. Mantén al día los rangos que apoyan tu forma habitual.",
+      "text_en": "Claw: 20, 28, 38, 48, and 58; Rake: 24, 34, 44, and 54; Omen of Clarity: 20; Rip: 20, 28, 36, 44, 52, and 60; Primal Bite: 50 and 60; Swipe: 16, 24, 34, 44, and 54; Faerie Fire: 18, 30, 42, and 54; Barkskin: 44. Keep current the ranks that support your usual form.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Best Abilities to Train for Feral Druid DPS in WoW: Forever > Mandatory Abilities to Train for Feral Druid",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "guide:17c573f40e4b11b836ac29a04d4dfd3382f831a5"
+      ]
+    },
+    {
+      "id": "clase-druid-entrenar-feral-dps-opcional",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades opcionales de Feral DPS",
+      "title_en": "Optional Feral DPS Training",
+      "summary_es": "Ahorra oro retrasando habilidades situacionales y rangos que rara vez usas.",
+      "summary_en": "Save gold by delaying situational abilities and ranks you rarely use.",
+      "keywords_es": [
+        "habilidades feral que puedo saltar",
+        "ahorrar oro entrenar druida",
+        "rangos opcionales feral"
+      ],
+      "keywords_en": [
+        "feral spells to skip",
+        "save gold druid training",
+        "optional feral ranks"
+      ],
+      "text_es": "Suprimir veneno suele ser prescindible si ya tienes Curar veneno; Rastrear humanoides, Pavor y Calmar animal son situacionales. Compra el primer rango de Enredaderas, pero puedes retrasar los siguientes. Fuego estelar aporta poco a Feral: al salir de forma, usa Cólera si necesitas daño a distancia.",
+      "text_en": "Abolish Poison is often skippable if you already have Cure Poison; Track Humanoids, Cower, and Soothe Animal are situational. Learn the first rank of Entangling Roots, but later ranks can wait. Starfire adds little for Feral; if you leave form for ranged damage, use Wrath.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Best Abilities to Train for Feral Druid DPS in WoW: Forever > Useful Abilities to Skip Training for Feral Druid",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "guide:17c573f40e4b11b836ac29a04d4dfd3382f831a5"
+      ]
+    },
+    {
+      "id": "clase-druid-entrenar-oso",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades obligatorias de Feral tanque",
+      "title_en": "Feral Tank Mandatory Training",
+      "summary_es": "Mantén rangos de amenaza, forma de oso y ataques para varios objetivos.",
+      "summary_en": "Keep threat, Bear Form, and multi-target attack ranks current.",
+      "keywords_es": [
+        "habilidades obligatorias oso druida",
+        "rangos flagelo tanque",
+        "mordisco primigenio niveles"
+      ],
+      "keywords_en": [
+        "bear tank mandatory spells",
+        "swipe druid ranks",
+        "primal bite training levels"
+      ],
+      "text_es": "Flagelo: 16, 24, 34, 44 y 54; Fuego feérico: 18, 30, 42 y 54; Zarpa: 20, 28, 38, 48 y 58; Augurio de claridad: 20; Destripar: 20, 28, 36, 44, 52 y 60; Arañazo: 24, 34, 44 y 54; Forma de viaje: 30; Mordisco primigenio: 40, 50 y 60; Forma de oso nefasto: 40; Pielcorteza: 44.",
+      "text_en": "Swipe: 16, 24, 34, 44, and 54; Faerie Fire: 18, 30, 42, and 54; Claw: 20, 28, 38, 48, and 58; Omen of Clarity: 20; Rip: 20, 28, 36, 44, 52, and 60; Rake: 24, 34, 44, and 54; Travel Form: 30; Primal Bite: 40, 50, and 60; Dire Bear Form: 40; Barkskin: 44.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Best Abilities to Train for Feral Druid Tanks in WoW: Forever > Mandatory Abilities to Train for Feral Druids",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "guide:4b15796a06b14544139d2faa3a64c5f2e09cf885"
+      ]
+    },
+    {
+      "id": "clase-druid-entrenar-oso-opcional",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades opcionales de Feral tanque",
+      "title_en": "Optional Feral Tank Training",
+      "summary_es": "Compra rangos adicionales según encuentros y oro disponible.",
+      "summary_en": "Train extra ranks according to encounters and available gold.",
+      "keywords_es": [
+        "habilidades opcionales tanque druida",
+        "qué rangos puede saltar oso",
+        "hibernar y huracán druida"
+      ],
+      "keywords_en": [
+        "optional druid tank spells",
+        "bear ranks to skip",
+        "hibernate hurricane druid"
+      ],
+      "text_es": "Suprimir veneno suele sobrar con Curar veneno; Rastrear humanoides, Pavor y Calmar animal son situacionales. El primer rango de Enredaderas ayuda a escapar; los posteriores son opcionales. Fuego estelar aporta poco a Feral, Hibernar controla bestias y dracónidos, y Tranquilidad sirve para una emergencia de grupo. Huracán es daño de área situacional y no se puede lanzar en forma.",
+      "text_en": "Abolish Poison is usually unnecessary with Cure Poison; Track Humanoids, Cower, and Soothe Animal are situational. The first rank of Entangling Roots can help you escape; later ranks are optional. Starfire offers little to Feral, Hibernate controls Beasts and Dragonkin, and Tranquility is an emergency group heal. Hurricane is situational AoE and cannot be cast in form.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Best Abilities to Train for Feral Druid Tanks in WoW: Forever > Optional Abilities to Train",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "guide:4b15796a06b14544139d2faa3a64c5f2e09cf885"
+      ]
+    },
+    {
+      "id": "clase-druid-entrenar-restauracion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades obligatorias de Recuperación",
+      "title_en": "Restoration Mandatory Training",
+      "summary_es": "Mantén al día las curas, mejoras y limpiezas que sostienen a un grupo.",
+      "summary_en": "Keep healing, buff, and cleanse ranks current for group support.",
+      "keywords_es": [
+        "rangos obligatorios recuperación",
+        "entrenar enervar druida",
+        "rangos de curación druida"
+      ],
+      "keywords_en": [
+        "restoration mandatory spell ranks",
+        "train innervate druid",
+        "druid healing spell ranks"
+      ],
+      "text_es": "Suprimir veneno: 26 (rango 1); Enredaderas: 58 (6); Toque curativo: 60 (11); Enervar: 40 (1); Marca de lo salvaje: 60 (7); Augurio de claridad: 20 (1). Sube Recrecimiento a 60 (9), Rejuvenecimiento a 60 (11), Deshacer maldición a 24 (1), Renacer a 60 (5), Revivir a 60 (5) y Espinas a 54 (6).",
+      "text_en": "Abolish Poison: 26 (rank 1); Entangling Roots: 58 (6); Healing Touch: 60 (11); Innervate: 40 (1); Mark of the Wild: 60 (7); Omen of Clarity: 20 (1). Regrowth reaches rank 9 at 60, Rejuvenation rank 11 at 60, Remove Curse rank 1 at 24, Rebirth rank 5 at 60, Revive rank 5 at 60, and Thorns rank 6 at 54.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Abilities to Train for Restoration Druid Healer in WoW: Forever > Mandatory Abilities to Train for Restoration Druid",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:leveling"
+      ],
+      "source_hashes": [
+        "guide:8aaa12809c8f075df7235bcadb54c5559c85ec30"
+      ]
+    },
+    {
+      "id": "clase-druid-entrenar-restauracion-opcional",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades opcionales de Recuperación",
+      "title_en": "Optional Restoration Training",
+      "summary_es": "Retrasa rangos de daño y control si subes como sanador y necesitas ahorrar oro.",
+      "summary_en": "Delay damage and control ranks when leveling as a healer to save gold.",
+      "keywords_es": [
+        "rangos opcionales recuperación",
+        "habilidades de daño sanador",
+        "ahorrar oro rangos druida"
+      ],
+      "keywords_en": [
+        "optional restoration ranks",
+        "healer damage spells",
+        "save gold druid spells"
+      ],
+      "text_es": "Puedes retrasar Pielcorteza (44, rango 1), Azote (46, 3), Diligencia (50, 3), Fuego feérico (54, 4), Hibernar (58, 3), Huracán (60, 3), Fuegolunar (58, 10), Gracia de la naturaleza (58, 6), Fuego estelar (60, 7), Tranquilidad (60, 4) y Cólera (54, 8), según el contenido que hagas.",
+      "text_en": "You can delay Barkskin (44, rank 1), Bash (46, 3), Dash (50, 3), Faerie Fire (54, 4), Hibernate (58, 3), Hurricane (60, 3), Moonfire (58, 10), Nature’s Grasp (58, 6), Starfire (60, 7), Tranquility (60, 4), and Wrath (54, 8), depending on your content.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Abilities to Train for Restoration Druid Healer in WoW: Forever > Optional Abilities to Train for Restoration Druid",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:leveling"
+      ],
+      "source_hashes": [
+        "guide:8aaa12809c8f075df7235bcadb54c5559c85ec30"
+      ]
+    },
+    {
+      "id": "clase-druid-rotacion-feral-dps-area-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de área Feral DPS al subir",
+      "title_en": "Feral DPS Leveling AoE Rotation",
+      "summary_es": "Reparte Arañazo, reserva Destripar para prioridades y controla la Energía.",
+      "summary_en": "Spread Rake, reserve Rip for priority targets, and manage Energy.",
+      "keywords_es": [
+        "rotación feral área leveo",
+        "arañazo varios objetivos",
+        "destripar prioridad feral"
+      ],
+      "keywords_en": [
+        "feral leveling aoe rotation",
+        "rake multiple targets",
+        "feral priority rip"
+      ],
+      "text_es": "Usa Poder cambiante 1/1 por debajo de 50 de Energía. Gasta 5 puntos de combo en Destripar sobre el objetivo prioritario; aplica Arañazo a tantos enemigos como puedas y no lo renueves antes de que termine. Cuando todos sangren, rellena con Triturar, o Zarpa si estás delante; si llegas a 5 puntos mientras esperas para renovar Arañazo, úsalos en Destripar.",
+      "text_en": "Use Shifting Power 1/1 below 50 Energy. Spend 5 combo points on Rip on the priority target; apply Rake to as many enemies as possible and do not refresh it early. Once all targets are bleeding, fill with Shred, or Claw if you are in front; if you reach 5 points while waiting to refresh Rake, spend them on Rip.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Leveling Rotation for Feral Druid DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Cat Druid Leveling Guide for WoW: Forever › The build: Feral Cat (0/36/15)",
+          "url": "https://www.wowhead.com/forever/guide/feral-cat-druid-leveling-guide-for-wow-forever-35077",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:extra:feral-cat-druid-leveling-guide-for-wow-forever",
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "section:0bc5cc481039700a7e7aecf887eff733bcfc5fd1",
+        "section:df73f9d5c6934b64723f5933b3b1e04151305492"
+      ]
+    },
+    {
+      "id": "clase-druid-rotacion-restauracion-solo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Daño en solitario como Recuperación",
+      "title_en": "Restoration Solo Damage Rotation",
+      "summary_es": "Aplica periódicos y raíces antes de rellenar con Cólera; cúrate si el enemigo te alcanza.",
+      "summary_en": "Apply damage-over-time and roots before filling with Wrath; heal if enemies reach you.",
+      "keywords_es": [
+        "rotación recuperación leveo solo",
+        "daño en solitario druida sanador",
+        "enjambre de insectos y cólera"
+      ],
+      "keywords_en": [
+        "restoration solo leveling rotation",
+        "solo damage healer druid",
+        "insect swarm wrath rotation"
+      ],
+      "text_es": "Mantén Espinas en ti. Aplica Fuegolunar a los enemigos que atraigas y, si tienes Enjambre de insectos 1/1, añádelo; usa Enredaderas en tantos objetivos como puedas y rellena con Cólera. Si te alcanzan, cúrate con Rejuvenecimiento o Recrecimiento.",
+      "text_en": "Keep Thorns on yourself. Apply Moonfire to the enemies you pull and add Insect Swarm 1/1 if talented; cast Entangling Roots on as many targets as possible and fill with Wrath. If they reach you, heal with Rejuvenation or Regrowth.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Leveling Rotation for Restoration Druid Healer in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as a Restoration Druid Healer in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:leveling"
+      ],
+      "source_hashes": [
+        "section:6a855656df8c517bbedcb87cb12bd225a7811700",
+        "section:fcdd0783e2a5d34d8540642f6a6ac34c77bd476b"
+      ]
+    },
+    {
+      "id": "clase-druid-camping-equilibrio",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Bonificaciones de campamento: Equilibrio",
+      "title_en": "Balance Camping Buffs",
+      "summary_es": "Elige beneficios de profesión para recuperar maná, ganar intelecto o acelerar la experiencia.",
+      "summary_en": "Choose profession buffs for mana recovery, intellect, or faster rested leveling.",
+      "keywords_es": [
+        "beneficios campamento equilibrio",
+        "profesiones y buffs druida",
+        "experiencia descansada druida"
+      ],
+      "keywords_en": [
+        "balance camping buffs",
+        "druid profession buffs",
+        "druid rested experience"
+      ],
+      "text_es": "Alquimia aporta regeneración de maná, útil para reducir pausas; Botánica, intelecto; Peletería, 5% de experiencia descansada; Desollar, crítico (útil antes del nivel 40); Costura, espíritu. Escoge los efectos según tus pausas para beber y las mejoras que ya tengas.",
+      "text_en": "Alchemy adds mana regeneration to reduce downtime; Herbalism adds Intellect; Leatherworking gives 5% rested experience; Skinning grants crit, useful only before level 40; Tailoring gives Spirit. Choose buffs according to your drinking downtime and effects you already have.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Balance Druid DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:balance:leveling"
+      ],
+      "source_hashes": [
+        "section:84029e499dec9c61e87154d37613149d415aa847"
+      ]
+    },
+    {
+      "id": "clase-druid-camping-feral-dps",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Bonificaciones de campamento: Feral DPS",
+      "title_en": "Feral DPS Camping Buffs",
+      "summary_es": "Combina crítico, estadísticas, poder de ataque y experiencia descansada.",
+      "summary_en": "Combine critical strike, stats, attack power, and rested experience.",
+      "keywords_es": [
+        "campamento feral dps",
+        "cuenco con pescado druida",
+        "tienda de campamento feral"
+      ],
+      "keywords_en": [
+        "feral dps camping buffs",
+        "fish bowl druid",
+        "feral camp tent"
+      ],
+      "text_es": "Para Feral DPS, Silla de campamento (Desollar) da crítico hasta que tengas Líder de la manada. Cuenco con pescado (Pesca) aporta 8% a las estadísticas; Magnetita (Minería), poder de ataque cuerpo a cuerpo; Rueda de afilar (Herrería), fuerza. Tienda de campamento (Peletería) suma 5% de experiencia descansada y gana valor después de 30.",
+      "text_en": "For Feral DPS, Camp Chair (Skinning) grants crit until you get Leader of the Pack. Fish Bowl (Fishing) adds 8% stats; Lodestone (Mining) gives melee attack power; Sharpening Wheel (Blacksmithing) adds Strength. Camp Tent (Leatherworking) gives 5% rested experience and becomes more valuable after 30.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Feral Druid DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "section:25f2d1bbfc12c3f7ed9dd28984fbeaa67f54db68"
+      ]
+    },
+    {
+      "id": "clase-druid-camping-feral-tanque",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Bonificaciones de campamento: Feral tanque",
+      "title_en": "Feral Tank Camping Buffs",
+      "summary_es": "Prioriza estadísticas y aguante; añade fuerza, poder de ataque y experiencia descansada.",
+      "summary_en": "Prioritize stats and stamina; add Strength, attack power, and rested experience.",
+      "keywords_es": [
+        "beneficios campamento oso",
+        "aguante druida tanque",
+        "rueda de afilar magnetita"
+      ],
+      "keywords_en": [
+        "bear tank camping buffs",
+        "druid tank stamina",
+        "sharpening wheel lodestone"
+      ],
+      "text_es": "Cocina permite mantener más beneficios de campamento. Cuenco con pescado aporta 8% a las estadísticas y Equipo de primeros auxilios, aguante. Añade Rueda de afilar para fuerza, Magnetita para poder de ataque cuerpo a cuerpo y Tienda de campamento para experiencia descansada; Desollar y Encantamiento pueden solaparse con las mejoras de grupo.",
+      "text_en": "Cooking lets you keep more camp buffs active. Fish Bowl grants 8% stats and First Aid Kit adds stamina. Sharpening Wheel adds Strength, Lodestone melee attack power, and Camp Tent rested experience; Skinning and Enchanting buffs may overlap with your group buffs.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Feral Druid Tanks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "section:5f82bef643a012949f4947cc0b36673711b4bf7f"
+      ]
+    },
+    {
+      "id": "clase-druid-camping-restauracion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Bonificaciones de campamento: Recuperación",
+      "title_en": "Restoration Camping Buffs",
+      "summary_es": "Prioriza regeneración de maná e intelecto; evita efectos que repliquen Marca de lo salvaje.",
+      "summary_en": "Prioritize mana regeneration and intellect; avoid effects that duplicate Mark of the Wild.",
+      "keywords_es": [
+        "campamento recuperación druida",
+        "pozo de maná",
+        "beneficios profesión sanador"
+      ],
+      "keywords_en": [
+        "restoration druid camping",
+        "mana well druid",
+        "healer profession buffs"
+      ],
+      "text_es": "Alquimia aporta Pozo de maná para regeneración; Pesca, Cuenco con pescado para estadísticas; Botánica, Vela de incienso para intelecto; Desollar, Silla de campamento para crítico; Costura, Estandarte de facción para espíritu. Evita añadir Laúd encantado de Encantamiento si su efecto reemplaza Marca de lo salvaje.",
+      "text_en": "Alchemy provides Mana Well for regeneration; Fishing gives Fish Bowl for stats; Herbalism adds Incense Candle for Intellect; Skinning gives Camp Chair for crit; Tailoring offers Faction Banner for Spirit. Enchanted Lute conflicts with Mark of the Wild, so avoid adding its buff when possible.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Restoration Druid Healer in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:leveling"
+      ],
+      "source_hashes": [
+        "section:a7140ebc9320cba23f96fc184d2f5472a68fd544"
+      ]
+    },
+    {
+      "id": "clase-druid-consumibles-feral-dps",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consumibles de leveo Feral DPS",
+      "title_en": "Feral DPS Leveling Consumables",
+      "summary_es": "Mantén comida de experiencia y cubre fuerza, agilidad, poder de ataque y crítico.",
+      "summary_en": "Keep experience food active and cover Strength, Agility, attack power, and crit.",
+      "keywords_es": [
+        "consumibles feral dps leveo",
+        "comida experiencia druida",
+        "elixir crítico feral"
+      ],
+      "keywords_en": [
+        "feral dps leveling consumables",
+        "druid experience food",
+        "feral crit elixir"
+      ],
+      "text_es": "La comida activa da 5% de experiencia por bajas durante 15 min; Gastronomía alarga su duración a 30. Completa fuerza, agilidad y poder de ataque cuerpo a cuerpo con elixires o pergaminos asequibles, incluido al menos un elixir de crítico 2%. Para peleas difíciles, suma frasco, comida y piedra de afilar o de peso.",
+      "text_en": "Food grants 5% experience from kills for 15 minutes; Gourmand extends it to 30. When possible, select affordable boosts for strength, agility, and melee attack power, including at least one 2% crit elixir. For difficult fights, add a flask, food, and a sharpening or weight stone.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Best Leveling Consumables for Feral Druid DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "section:d19cee37e3111fcf52578f73ad0f442bd703e778"
+      ]
+    },
+    {
+      "id": "clase-druid-consumibles-feral-tanque",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consumibles de leveo Feral tanque",
+      "title_en": "Feral Tank Leveling Consumables",
+      "summary_es": "Lleva pociones de curación y comida; guarda consumibles caros para retos y mazmorras.",
+      "summary_en": "Carry healing potions and food; save expensive consumables for hard quests and dungeons.",
+      "keywords_es": [
+        "consumibles oso druida leveo",
+        "poción curación feral tanque",
+        "comida experiencia tanque"
+      ],
+      "keywords_en": [
+        "bear druid leveling consumables",
+        "feral tank healing potion",
+        "tank experience food"
+      ],
+      "text_es": "Lleva una Poción de curación y mantén comida activa: las bajas dan 5% de experiencia. Usa elixires económicos y reserva los más potentes para retos o mazmorras. Los elixires distintos se acumulan, pero solo puedes tener un beneficio de comida; los consumibles de arma potencian el daño feral, y las pociones comparten reutilización.",
+      "text_en": "Carry a Healing Potion and keep food active: kills grant 5% experience. Use affordable elixirs and save stronger buffs for hard quests or dungeons. Different elixirs stack, but only one food buff can be active; weapon consumables scale Feral damage, and all potions share a cooldown.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Best Leveling Consumables for Feral Druid Tanks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-leveling-tips",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Consumable Stacking",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "section:ac5e2a40cea244a9b425ad866ed383062121d557",
+        "section:d50eb75af9f06d2ff523133f28258e2f4c961a5e"
+      ]
+    },
+    {
+      "id": "clase-druid-consumibles-restauracion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consumibles de leveo Recuperación",
+      "title_en": "Restoration Leveling Consumables",
+      "summary_es": "Guarda pociones para emergencias y usa aceites o infusiones si la economía lo permite.",
+      "summary_en": "Save potions for emergencies and use oils or teas if affordable.",
+      "keywords_es": [
+        "consumibles recuperación druida",
+        "aceite de maná sanador",
+        "elixir de clérigo inferior"
+      ],
+      "keywords_en": [
+        "restoration leveling consumables",
+        "healer mana oil",
+        "lesser cleric elixir"
+      ],
+      "text_es": "Ten pociones para salud y maná a mano para misiones difíciles y mazmorras. Si tienes oro, Té de paz, Aceite de maná menor y Elixir de clérigo inferior aumentan la sanación; no hace falta mantener estos efectos todo el tiempo.",
+      "text_en": "Keep potions for health and mana for difficult quests and dungeons. If affordable, Peace Tea, Minor Mana Oil, and Lesser Cleric’s Elixir boost healing; you do not need to keep these effects active constantly.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Leveling Consumables for Restoration Druid Healer in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:leveling"
+      ],
+      "source_hashes": [
+        "section:4b4fd928916bf963a74bcb13aebdb13c8dd50215"
+      ]
+    },
+    {
+      "id": "clase-druid-profesiones-utilidad-leveo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Equipo y utilidad de profesiones",
+      "title_en": "Profession Gear and Utility",
+      "summary_es": "Peletería ayuda a reemplazar equipo; Ingeniería añade herramientas de emergencia, pero cuesta mantenerla.",
+      "summary_en": "Leatherworking helps replace gear; Engineering adds emergency tools but costs to maintain.",
+      "keywords_es": [
+        "equipo de peletería druida",
+        "muñeco diana ingeniería druida",
+        "profesiones recuperación costura"
+      ],
+      "keywords_en": [
+        "druid leatherworking gear",
+        "engineering target dummy druid",
+        "restoration tailoring profession"
+      ],
+      "text_es": "Peletería fabrica kits de armadura y la Tienda de campamento, que da experiencia descansada y gana valor después de 30. Ingeniería aporta el Muñeco-diana avanzado para evitar una carrera al cadáver y explosivos útiles en grupo, aunque puede ser cara; Minería ayuda a rebajar el coste. Para Recuperación, Costura y Peletería ofrecen recetas de equipo, Encantamiento puede resultar caro y Herrería no tiene un uso recomendado.",
+      "text_en": "Leatherworking makes armor kits and Camp Tent, which grants rested experience and becomes more valuable after 30. Engineering offers the Advanced Target Dummy to avoid a corpse run and explosives for groups, but can be expensive; Mining helps lower its cost. For Restoration, Tailoring and Leatherworking provide gear recipes, Enchanting can be costly, and Blacksmithing has no recommended use.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Best Leveling Professions for Feral Druid Tanks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-leveling-tips",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Leveling Professions for Restoration Druid Healer in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:leveling",
+        "class:druid:restoration:leveling"
+      ],
+      "source_hashes": [
+        "section:3a2ab797576f539e89aa63f40e298e14638967c6",
+        "section:735d7118179c869b3df197bd9e8e35477cf5c322"
+      ]
+    },
+    {
+      "id": "clase-druid-consejos-equilibrio-mazmorras",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Equilibrio como apoyo de mazmorra",
+      "title_en": "Balance as a Dungeon Backup Healer",
+      "summary_es": "Reserva maná para curas y controla corredores para facilitar el trabajo del grupo.",
+      "summary_en": "Save mana for healing and control runners to help your group.",
+      "keywords_es": [
+        "druida equilibrio sanador apoyo",
+        "enredaderas lanzador mazmorra",
+        "equilibrio maná grupo"
+      ],
+      "keywords_en": [
+        "balance druid backup healer",
+        "roots caster dungeon",
+        "balance mana group"
+      ],
+      "text_es": "Equilibrio puede apoyar como sanador de respaldo: conserva maná para Rejuvenecimiento y Recrecimiento en vez de gastarlo todo en daño. Usa Enredaderas para separar a un enemigo que huye o mantener a un lanzador fuera del grupo; prioriza mazmorras por sus mejoras de equipo.",
+      "text_en": "In a dungeon, Balance can cover healing duties: keep enough mana for Rejuvenation and Regrowth instead of spending every cast on damage. Root a fleeing enemy or caster before it rejoins the pack; first dungeon clears are worth prioritizing for gear.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Leveling Tips for Balance Druid DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:balance:leveling"
+      ],
+      "source_hashes": [
+        "section:45af757bbdd606585ac13a9c083bf125d303004b"
+      ]
+    },
+    {
+      "id": "clase-druid-consejos-feral-antes-del-20",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consejos Feral antes del 20",
+      "title_en": "Feral Tips Before Level 20",
+      "summary_es": "El equipo de poder con hechizos y Espinas ayudan antes de obtener las formas ferales.",
+      "summary_en": "Spell-power gear and Thorns help before you unlock Feral forms.",
+      "keywords_es": [
+        "feral antes de forma felina",
+        "poder con hechizos druida leveo",
+        "tanquear mazmorras druida"
+      ],
+      "keywords_en": [
+        "feral before cat form",
+        "druid spell power leveling",
+        "druid tanking dungeons"
+      ],
+      "text_es": "Antes del nivel 20, el equipo con poder con hechizos mejora tus hechizos y Espinas, así que puede acelerar los primeros niveles. Aprende pronto a tanquear: te facilita entrar en mazmorras y afrontar élites. Después, cambia entre felino para enemigos débiles y oso para grupos o cuando recibas mucho daño.",
+      "text_en": "Before level 20, spell-power gear boosts your spells and Thorns, helping early leveling. Learn to tank early: it helps you enter dungeons and tackle elite quests. Later, switch between Cat for weaker enemies and Bear for packs or heavy incoming damage.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Leveling Tips for Feral Druid DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Leveling Tips for Feral Druid Tanks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "section:0039ae8ec6bd72f7f162f2d117334313c8681192",
+        "section:210a5f99158e9a74099a49b6453229da94b6d161"
+      ]
+    },
+    {
+      "id": "clase-druid-consejos-recuperacion-mana",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consejos de maná para Recuperación",
+      "title_en": "Restoration Mana Tips",
+      "summary_es": "Ajusta el rango de cura y aprovecha los procs gratuitos para ahorrar maná.",
+      "summary_en": "Match heal ranks to damage and use free procs to conserve mana.",
+      "keywords_es": [
+        "ahorrar maná druida sanador",
+        "augurio de claridad curas",
+        "rangos de sanación mazmorra"
+      ],
+      "keywords_en": [
+        "druid healer mana tips",
+        "omen of clarity healing",
+        "dungeon heal ranks"
+      ],
+      "text_es": "En mazmorras, usa un rango de cura acorde al daño para no gastar maná de más. Guarda Augurio de claridad para un Recrecimiento o Toque curativo grande sin coste y aprovecha pausas sin lanzar para activar la regeneración natural. Para subir en solitario, Equilibrio o Feral suelen ser más rápidos que Recuperación.",
+      "text_en": "In dungeons, choose a heal rank suited to the damage to avoid wasting mana. Save Omen of Clarity for a large free Regrowth or Healing Touch, and pause casting when possible to trigger natural regeneration. For solo leveling, Balance or Feral is usually faster than Restoration.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Leveling Tips for Restoration Druid Healer in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:leveling"
+      ],
+      "source_hashes": [
+        "section:e5eccf2dc535398a36a2948127fda5ebea015d4e"
+      ]
+    },
+    {
+      "id": "clase-druid-talentos-feral-dps-hibrido-ruta",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de la build híbrida Feral DPS",
+      "title_en": "Feral DPS Hybrid Build Path",
+      "summary_es": "La build tiene puntos finales descodificados, pero no una secuencia de asignación por nivel.",
+      "summary_en": "The build has a decoded final allocation but no level-by-level point order.",
+      "keywords_es": [
+        "ruta híbrida feral dps",
+        "talentos feral druida leveo",
+        "orden de puntos feral"
+      ],
+      "keywords_en": [
+        "feral dps hybrid path",
+        "feral druid leveling talents",
+        "feral talent point order"
+      ],
+      "text_es": "Esta build híbrida ofrece la distribución final, pero no especifica un orden para asignar los puntos durante el leveo. No se inventa una secuencia; consulta la tarjeta de build para ver todos los talentos y puntos.",
+      "text_en": "This hybrid build provides its final allocation but does not specify a level-by-level point order. No sequence is inferred; use the build card for the complete talent distribution.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Feral Druid DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:leveling"
+      ],
+      "source_hashes": [
+        "section:82000e70c5f24a51e8fca7590c975587158e5645"
+      ]
     }
   ]
 }
