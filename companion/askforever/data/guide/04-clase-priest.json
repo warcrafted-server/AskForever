@@ -1208,6 +1208,852 @@
         "section:3f99cbd7294c823bc796a190ba94668088e14680",
         "section:92c8f8685f78a11564eb33397f4aee69cb9db258"
       ]
+    },
+    {
+      "id": "clase-priest-stats-disciplina-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Disciplina a nivel 60",
+      "title_en": "Discipline Level-60 Stats",
+      "summary_es": "Orden propuesto de sanación, maná, crítico y aguante; no probado a nivel 60.",
+      "summary_en": "Suggested healing, mana, crit, and stamina order; untested at level 60.",
+      "keywords_es": [
+        "prioridad estadísticas disciplina sacerdote",
+        "sanación con hechizos disciplina",
+        "intelecto y espíritu disciplina",
+        "estadísticas Disciplina nivel 60"
+      ],
+      "keywords_en": [
+        "discipline priest stat priority",
+        "discipline healing power",
+        "discipline intellect and spirit",
+        "discipline level 60 stats"
+      ],
+      "text_es": "Prioridad: Sanación con hechizos > Intelecto > Espíritu > Crítico con hechizos > Poder con hechizos > Aguante. La Sanación con hechizos aporta alrededor de un tercio de ese valor al daño. Cada punto de Intelecto da 15 de maná y unos 59 puntos, 1% de crítico; cada punto de Aguante, 10 de salud. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Priority: Healing Power > Intellect > Spirit > Crit Chance > Spell Damage > Stamina. Healing Power adds about one-third of its value to damage. You gain 15 Mana per Intellect point; about 59 points yield 1% spell crit; each Stamina gives 10 health. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Stat Priority & Attributes - WoW: Forever › Discipline Priest Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/stat-priority-pve-healer",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Stat Priority & Attributes - WoW: Forever › Healing Power",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/stat-priority-pve-healer",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Stat Priority & Attributes - WoW: Forever › Intellect",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/stat-priority-pve-healer",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Stat Priority & Attributes - WoW: Forever › Stamina",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/stat-priority-pve-healer",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:discipline:stats"
+      ],
+      "source_hashes": [
+        "section:1aceaeaab70b05a6b2045fb40e1d706f25197370",
+        "section:8394a63953d4fd7c46f9f6c2ff4c352b032bc719",
+        "section:ce77a0abb7e9ab59316d1eecb644bc95f0367fa8",
+        "section:d2d60e83b740efd54bd7daa992b8bf1c196674c9"
+      ]
+    },
+    {
+      "id": "clase-priest-stats-sagrado-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Sagrado a nivel 60",
+      "title_en": "Holy Level-60 Stats",
+      "summary_es": "Sanación y maná encabezan el orden; Golpe con hechizos no mejora las curas.",
+      "summary_en": "Healing and mana lead the order; Spell Hit does not improve heals.",
+      "keywords_es": [
+        "prioridad estadísticas sagrado sacerdote",
+        "sanación con hechizos sagrado",
+        "regeneración maná sacerdote sagrado",
+        "estadísticas Holy Priest nivel 60"
+      ],
+      "keywords_en": [
+        "holy priest stat priority",
+        "holy healing power stats",
+        "holy priest mana regeneration",
+        "holy priest level 60 stats"
+      ],
+      "text_es": "Prioridad: Sanación con hechizos > Intelecto > Regeneración de maná cada 5 s > Espíritu > Golpe crítico (Crítico con hechizos) > Aguante. Intelecto da 15 de maná por punto y unos 59,2 puntos, 1% de crítico; 1 Aguante da 10 de salud. La regeneración cada 5 s sigue al lanzar y Golpe con hechizos no aumenta las curas. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Priority: Healing Power > Intellect > Mana per 5 seconds > Spirit > Spell Critical Strike > Stamina. Intellect gives 15 Mana per point and about 59.2 points give 1% spell crit; 1 Stamina gives 10 health. MP5 continues while casting, and Spell Hit does not improve heals. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Stat Priority & Attributes - WoW: Forever › Holy Priest Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/stat-priority-pve-healer",
+          "date": "2026-10-31"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Stat Priority & Attributes - WoW: Forever › Intellect",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/stat-priority-pve-healer",
+          "date": "2026-10-31"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Stat Priority & Attributes - WoW: Forever › Stamina",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/stat-priority-pve-healer",
+          "date": "2026-10-31"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Stat Priority & Attributes - WoW: Forever › Mana per 5 seconds",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/stat-priority-pve-healer",
+          "date": "2026-10-31"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Stat Priority & Attributes - WoW: Forever › Spell Hit",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/stat-priority-pve-healer",
+          "date": "2026-10-31"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:holy:stats"
+      ],
+      "source_hashes": [
+        "section:08d427a4a2ec69fc1d4054866cc19a436eac86a3",
+        "section:9510f22c8c31311370b28b66b236b9b6c5c30331",
+        "section:bb760c46522bd425d9832920c964eb0ce25ca4ba",
+        "section:e0a1937013b1b26e8fe9841f2021017c218ab80e",
+        "section:f4e72ab3c8770f71e1458dca48fe3d0b0e7725b0"
+      ]
+    },
+    {
+      "id": "clase-priest-stats-sombra-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Sombra a nivel 60",
+      "title_en": "Shadow Level-60 Stats",
+      "summary_es": "Llega a 17% de golpe; después prioriza crítico, daño de Sombras, intelecto y espíritu.",
+      "summary_en": "Reach 17% hit, then prioritize crit, Shadow damage, Intellect, and Spirit.",
+      "keywords_es": [
+        "prioridad estadísticas sombra sacerdote",
+        "golpe Sombra hasta 17",
+        "crítico Forma de las Sombras",
+        "estadísticas Shadow Priest nivel 60"
+      ],
+      "keywords_en": [
+        "shadow priest stat priority",
+        "shadow hit 17 percent",
+        "shadowform spell crit",
+        "shadow priest level 60 stats"
+      ],
+      "text_es": "Prioridad: Prob. de golpe hasta 17% > Golpe crítico > Poder con hechizos o daño de Sombras > Intelecto > Espíritu > Aguante. Enfoque de las Sombras deja 12% de golpe por cubrir con equipo contra jefes. Intelecto da 15 de maná por punto; en Forma de las Sombras, el crítico inflige 200% del efecto normal. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Priority: Hit Chance to 17% > Spell Critical Strike > Spell Power or Shadow Damage > Intellect > Spirit > Stamina. Shadow Focus leaves 12% hit to cover with gear against bosses. Intellect gives 15 Mana per point; in Shadowform, spell crits deal 200% of their normal effect. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest DPS Attribute and Stat Guide - WoW: Forever › Shadow Priest Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/stat-priority-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest DPS Attribute and Stat Guide - WoW: Forever › Intellect",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/stat-priority-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest DPS Attribute and Stat Guide - WoW: Forever › Spell Critical Strike Chance",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/stat-priority-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest DPS Attribute and Stat Guide - WoW: Forever › Hit Chance",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/stat-priority-pve-dps",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:shadow:stats"
+      ],
+      "source_hashes": [
+        "section:9844cf4fcd38a98cfbada85a218cd59485a3c990",
+        "section:b9d97deae5800e31b3ecef65c873349abec10bb7",
+        "section:ca4309e8635f3b84d08993c8ad434ad910e9dee4",
+        "section:ddf24c444b5df78ebd60cba674da4d3dc336ccf8"
+      ]
+    },
+    {
+      "id": "clase-priest-rotacion-disciplina-tanque-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Disciplina: objetivo único",
+      "title_en": "Discipline Single-Target Rotation",
+      "summary_es": "Escuda al tanque, usa Penitencia y Renovar; reserva las curas caras para daño fuerte.",
+      "summary_en": "Shield the tank, use Penance and Renew, and save costly heals for heavy damage.",
+      "keywords_es": [
+        "rotación Disciplina tanque nivel 60",
+        "Penitencia Disciplina prioridad",
+        "Curar Sacerdote Disciplina",
+        "escudo tanque sacerdote"
+      ],
+      "keywords_en": [
+        "discipline tank healing rotation",
+        "discipline penance priority",
+        "discipline priest heal priority",
+        "priest tank shield"
+      ],
+      "text_es": "Abre con Palabra de poder: escudo en el tanque; Alma debilitada dura 15 s y los críticos de sanación acortan el efecto. Si está herido, usa Penitencia; mantén Renovar y, si Penitencia se recarga y aún falta salud, lanza Curar. Reserva Curación superior para daño fuerte, reduce su rango para ahorrar maná y cancélala si el objetivo se cura antes. Usa Palabra de poder: escudo ante peligro urgente.",
+      "text_en": "Open with Power Word: Shield on the tank; Weakened Soul lasts 15 seconds and healing crits shorten the effect. If the tank is injured, use Penance; maintain Renew, then cast Heal if Penance is on cooldown and the target is still hurt. Save Greater Heal for heavy damage, downrank to save Mana, and cancel if the target is healed before the cast finishes. Shield urgent targets.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Healer Rotation and Cooldowns - WoW: Forever › Single Target Healing Rotation for Discipline Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/rotation-cooldowns-pve-healer",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:discipline:rotation"
+      ],
+      "source_hashes": [
+        "section:b61a87e320d0d9897da8a231c446f75b878cce59"
+      ]
+    },
+    {
+      "id": "clase-priest-rotacion-disciplina-grupo-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Disciplina: daño de grupo",
+      "title_en": "Discipline Group-Healing Rotation",
+      "summary_es": "Rezo de curación es la cura de grupo principal; escuda a quien esté en peligro urgente.",
+      "summary_en": "Prayer of Healing is the main group heal; shield anyone in immediate danger.",
+      "keywords_es": [
+        "rotación área Disciplina nivel 60",
+        "Rezo de curación Disciplina",
+        "escudo urgente grupo sacerdote",
+        "curación múltiple Disciplina"
+      ],
+      "keywords_en": [
+        "discipline group healing rotation",
+        "discipline prayer of healing",
+        "priest emergency shield group",
+        "discipline area healing"
+      ],
+      "text_es": "Cuando el grupo reciba daño, lanza Rezo de curación sobre el grupo del aliado herido. Si alguien está en peligro inmediato, usa Palabra de poder: escudo: es menos eficiente que un Rezo de curación completo, pero instantáneo y dirigido. Disciplina tiene pocas alternativas para sanar en área, así que reserva el escudo para urgencias.",
+      "text_en": "When the group takes damage, cast Prayer of Healing on the party of an injured ally. If someone is in immediate danger, use Power Word: Shield: it is less efficient than a full Prayer of Healing, but instant and targeted. Discipline has few other area-healing options, so save the shield for urgent situations.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Healer Rotation and Cooldowns - WoW: Forever › AoE Healing Rotation for Discipline Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/rotation-cooldowns-pve-healer",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:discipline:rotation"
+      ],
+      "source_hashes": [
+        "section:f9a2a9b7b64eeae717385ec2625fb51eaf225d95"
+      ]
+    },
+    {
+      "id": "clase-priest-rotacion-sagrado-individual-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Sagrado: objetivo único",
+      "title_en": "Holy Single-Target Rotation",
+      "summary_es": "Renovar y Curar sostienen al tanque; Destello curativo y Curación superior responden a urgencias.",
+      "summary_en": "Renew and Heal sustain the tank; Flash Heal and Greater Heal answer emergencies.",
+      "keywords_es": [
+        "rotación Sagrado objetivo único",
+        "Curar Sacerdote Sagrado nivel 60",
+        "Destello curativo emergencia tanque",
+        "Renovar Sagrado sacerdote"
+      ],
+      "keywords_en": [
+        "holy single target rotation",
+        "holy priest heal priority",
+        "flash heal tank emergency",
+        "holy renew rotation"
+      ],
+      "text_es": "Mantén Renovar en el tanque y usa Curar como cura eficiente; reduce el rango ante daño previsible. Lanza Destello curativo si el tanque está en peligro inmediato: es rápido, pero caro. Usa Sanación conjunta cuando tú y el tanque estéis heridos, y Rezo de alivio para que rebote. Curación superior cubre una gran pérdida de salud, pero cuesta mucho maná; alterna curas con Letanía de la Luz para recuperar parte del coste.",
+      "text_en": "Keep Renew on the tank and use Heal as the efficient spell; downrank for predictable damage. Cast Flash Heal if the tank is in immediate danger: it is fast but expensive. Use Binding Heal when both you and the tank are injured, and Prayer of Mending to let it bounce. Greater Heal covers a large health loss but costs substantial Mana; alternate heals with Litany of Light to refund part of the cost.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Healer Rotation and Cooldowns - WoW: Forever › Single Target Healing for Holy Priests in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/rotation-cooldowns-pve-healer",
+          "date": "2026-10-31"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Healer Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/rotation-cooldowns-pve-healer",
+          "date": "2026-10-31"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:holy:rotation"
+      ],
+      "source_hashes": [
+        "section:1c568a38c2d43fcb8b258948ba4b89c32034e4ef",
+        "section:24c425cd620eb7eef6e8079c365fafb2a3de3da7"
+      ]
+    },
+    {
+      "id": "clase-priest-rotacion-sagrado-grupo-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Sagrado: curación de grupo",
+      "title_en": "Holy Group-Healing Rotation",
+      "summary_es": "Rezo de alivio rebota; usa Rezo de curación con el grupo bajo y Nova Sagrada si está agrupado.",
+      "summary_en": "Prayer of Mending bounces; use Prayer of Healing when the group is low and Holy Nova when stacked.",
+      "keywords_es": [
+        "rotación de grupo Sagrado nivel 60",
+        "Rezo de curación grupo sacerdote",
+        "Rezo de alivio sacerdote",
+        "Nova Sagrada sanación"
+      ],
+      "keywords_en": [
+        "holy group healing rotation",
+        "prayer of healing group",
+        "prayer of mending priest",
+        "holy nova group heal"
+      ],
+      "text_es": "Mantén Renovar en el tanque y lanza Rezo de alivio sobre un aliado herido para que rebote. Usa Rezo de curación cuando la mayoría del grupo esté baja: tarda 3 s, consume mucho maná y sana al grupo del objetivo en un radio de 40 m desde él. Si el grupo está junto, Nova Sagrada cura a todos en 10 m sin generar amenaza. Cuando cese el daño de grupo, vuelve a las curas individuales.",
+      "text_en": "Keep Renew on the tank and cast Prayer of Mending on an injured ally so it can bounce. Use Prayer of Healing when most of the group is low: it has a 3-second cast, costs a lot of Mana, and heals the target’s party within 40 yards of that target. If the group is stacked, Holy Nova heals everyone within 10 yards without threat. Return to single-target heals when group damage ends.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Healer Rotation and Cooldowns - WoW: Forever › Group Healing for Holy Priests in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/rotation-cooldowns-pve-healer",
+          "date": "2026-10-31"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:holy:rotation"
+      ],
+      "source_hashes": [
+        "section:8bf3ec20272d54aa9e5de94025c20839e6275495"
+      ]
+    },
+    {
+      "id": "clase-priest-rotacion-sombra-objetivo-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Sombra: objetivo único",
+      "title_en": "Shadow Single-Target Rotation",
+      "summary_es": "Mantén Dolor y Peste devoradora; usa Explosión mental y Palabra de las Sombras: muerte en reutilización.",
+      "summary_en": "Maintain Pain and Devouring Plague; cast Mind Blast and Shadow Word: Death on cooldown.",
+      "keywords_es": [
+        "rotación de Sombra nivel 60",
+        "Palabra de las Sombras Dolor prioridad",
+        "Peste devoradora rotación",
+        "Despelleje mental sacerdote"
+      ],
+      "keywords_en": [
+        "shadow priest single target rotation",
+        "shadow word pain priority",
+        "devouring plague rotation",
+        "mind flay shadow priest"
+      ],
+      "text_es": "Prelanza Explosión mental, aplica Palabra de las Sombras: Dolor y Peste devoradora, luego Palabra de las Sombras: muerte y Unirse a vampírica; vuelve a Explosión mental y canaliza Despelleje mental completo. Después, renueva Dolor y Peste al expirar, usa Explosión mental y Palabra de las Sombras: muerte en reutilización, mantén Unirse a vampírica si necesitas sanar al grupo y completa los huecos con Despelleje mental sin interrumpirlo.",
+      "text_en": "Pre-cast Mind Blast, apply Shadow Word: Pain and Devouring Plague, then Shadow Word: Death and Vampiric Embrace; cast Mind Blast again and fully channel Mind Flay. After the opener, refresh Pain and Plague as they expire, use Mind Blast and Shadow Word: Death on cooldown, keep Vampiric Embrace up when group healing is needed, and fill with full Mind Flay channels.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Shadow Priests in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Shadow Priest Talent Tree Builds - WoW: Forever › Best Shadow Priest PvE Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:shadow:rotation",
+        "class:priest:shadow:talents"
+      ],
+      "source_hashes": [
+        "section:3d5c5d8e34af44a03bbf4d44543e22b8aaa51ca3",
+        "section:498f16903f5b9ebc87d616a94822228f7036d0a4"
+      ]
+    },
+    {
+      "id": "clase-priest-rotacion-sombra-area-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Sombra: varios objetivos",
+      "title_en": "Shadow Multi-Target Rotation",
+      "summary_es": "Reparte Dolor en objetivos relevantes, reserva Peste devoradora para el principal y vigila el maná.",
+      "summary_en": "Spread Pain to relevant targets, reserve Devouring Plague for the primary, and watch mana.",
+      "keywords_es": [
+        "rotación área Sombra nivel 60",
+        "multidot Sacerdote Sombra",
+        "Dolor varios objetivos",
+        "Contagio devorador varios enemigos"
+      ],
+      "keywords_en": [
+        "shadow aoe rotation",
+        "shadow priest multidot",
+        "shadow word pain multiple targets",
+        "devouring contagion spread"
+      ],
+      "text_es": "Abre como contra un objetivo y aplica Palabra de las Sombras: Dolor también a los secundarios. Mantén Dolor en enemigos relevantes y Peste devoradora en el principal; usa Explosión mental y Palabra de las Sombras: muerte en reutilización, luego Unirse a vampírica y canaliza Despelleje mental. Repartir Dolor cuesta mucho maná; con Contagio devorador, Peste puede saltar desde un enemigo con poca salud. Transfusión de espíritu ayuda a recuperar maná si muere un objetivo afectado por Unirse a vampírica.",
+      "text_en": "Open as on a single target and apply Shadow Word: Pain to secondary enemies too. Shadow Word: Pain should remain active on relevant targets and Devouring Plague on the primary; use Mind Blast and Shadow Word: Death on cooldown, then Vampiric Embrace and channel Mind Flay. Multi-dotting Pain is mana-intensive; with Devouring Contagion, Plague can spread from a low-health enemy. Spirit Tap helps recover mana when an enemy affected by Vampiric Embrace dies.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Shadow Priests in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Shadow Priest Talent Tree Builds - WoW: Forever › Best Shadow Priest PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:shadow:rotation",
+        "class:priest:shadow:talents"
+      ],
+      "source_hashes": [
+        "section:2d3d01911376e581d3144b5e55fdcbffb0010634",
+        "section:e2c8b74f0c350195f76810c4fa9e22aee188ee61"
+      ]
+    },
+    {
+      "id": "clase-priest-build-disciplina-banda-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de banda de Disciplina",
+      "title_en": "Discipline Raid Build",
+      "summary_es": "Build de sanación de banda con Infusión de poder y talentos esenciales de Sagrado.",
+      "summary_en": "Raid-healing build with Power Infusion and key Holy talents.",
+      "keywords_es": [
+        "build Disciplina banda sacerdote",
+        "talentos Disciplina raid nivel 60",
+        "Infusión de poder Disciplina",
+        "build sanador Disciplina PvE"
+      ],
+      "keywords_en": [
+        "discipline raid build",
+        "discipline priest raid talents",
+        "power infusion discipline build",
+        "discipline healer pve build"
+      ],
+      "text_es": "Disciplina: Disciplinas gemelas 5/5, Fuerza mental 5/5, Agilidad mental 3/3, Enfoque interno 1/1, Poder de la palabra mejorado: escudo 3/3, Meditación 3/3, Amparo de alma 1/1, Penitencia 1/1, Esperanza renovada 5/5, Égida divina 3/3 e Infusión de poder 1/1. Sagrado: Renovar mejorado 3/3, Especialización Sagrada 5/5, Furia divina 5/5, Recuperación bendita 1/3, Inspiración 3/3 y Curación mejorada 3/3. Es la variante de sanación de banda con Infusión de poder.",
+      "text_en": "Discipline: Twin Disciplines 5/5, Mental Strength 5/5, Mental Agility 3/3, Inner Focus 1/1, Improved Power Word: Shield 3/3, Meditation 3/3, Soul Warding 1/1, Penance 1/1, Renewed Hope 5/5, Divine Aegis 3/3, and Power Infusion 1/1. Holy: Improved Renew 3/3, Holy Specialization 5/5, Divine Fury 5/5, Blessed Recovery 1/3, Inspiration 3/3, and Improved Healing 3/3. This is the raid-healing variant with Power Infusion.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Discipline Priest Talent Tree Builds - WoW: Forever › Best Discipline Priest PvE Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:discipline:talents"
+      ],
+      "source_hashes": [
+        "section:23e527cfb138257bf9ab7d4f39d17d70e17e488a"
+      ]
+    },
+    {
+      "id": "clase-priest-build-disciplina-mazmorra-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de mazmorra de Disciplina",
+      "title_en": "Discipline Dungeon Build",
+      "summary_es": "Incluye varita para aportar daño e Inspiración para mejorar la defensa del tanque.",
+      "summary_en": "Adds wand damage and Inspiration to improve the tank’s defense.",
+      "keywords_es": [
+        "build Disciplina mazmorra",
+        "talentos Disciplina sacerdote mazmorra",
+        "Especialización en varitas sacerdote",
+        "Inspiración tanque sacerdote"
+      ],
+      "keywords_en": [
+        "discipline dungeon build",
+        "discipline priest dungeon talents",
+        "priest wand specialization build",
+        "inspiration tank priest"
+      ],
+      "text_es": "Disciplina: Especialización en varitas 2/2, Disciplinas gemelas 5/5, Precisión Sagrada 1/3, Fuerza mental 5/5, Agilidad mental 2/3, Enfoque interno 1/1, Poder de la palabra mejorado: escudo 3/3, Meditación 3/3, Amparo de alma 1/1, Penitencia 1/1, Esperanza renovada 5/5, Égida divina 3/3 e Infusión de poder 1/1. Sagrado: Renovar mejorado 1/3, Especialización Sagrada 5/5, Furia divina 5/5, Nova Sagrada 1/1, Inspiración 3/3 y Curación mejorada 3/3. La varita aporta daño cuando no curas; Inspiración refuerza la defensa del tanque.",
+      "text_en": "Discipline: Wand Specialization 2/2, Twin Disciplines 5/5, Holy Precision 1/3, Mental Strength 5/5, Mental Agility 2/3, Inner Focus 1/1, Improved Power Word: Shield 3/3, Meditation 3/3, Soul Warding 1/1, Penance 1/1, Renewed Hope 5/5, Divine Aegis 3/3, and Power Infusion 1/1. Holy: Improved Renew 1/3, Holy Specialization 5/5, Divine Fury 5/5, Holy Nova 1/1, Inspiration 3/3, and Improved Healing 3/3. The wand adds damage while healing is not needed; Inspiration improves tank defense.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Discipline Priest Talent Tree Builds - WoW: Forever › Best Discipline Priest PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:discipline:talents"
+      ],
+      "source_hashes": [
+        "section:f7aabffbecde3192bbb5b6824c3cc47c96a9bad1"
+      ]
+    },
+    {
+      "id": "clase-priest-build-disciplina-pvp-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ de Disciplina",
+      "title_en": "Discipline PvP Build",
+      "summary_es": "Prioriza supervivencia y control; el punto de Sanación conjunta retirada queda libre.",
+      "summary_en": "Prioritizes survival and control; the removed Binding Heal point remains free.",
+      "keywords_es": [
+        "build JcJ Disciplina sacerdote",
+        "talentos PvP Disciplina",
+        "Desmayo sacerdote JcJ",
+        "Sanación conjunta talento retirado"
+      ],
+      "keywords_en": [
+        "discipline pvp build",
+        "discipline priest pvp talents",
+        "blackout priest pvp",
+        "retired binding heal talent"
+      ],
+      "text_es": "Disciplina: Disciplinas gemelas 5/5, Resolución silenciosa 3/3, Martirio 2/2, Enfoque interno 1/1, Poder de la palabra mejorado: escudo 3/3, Meditación 3/3, Fuego interno mejorado 3/3, Quemar maná mejorado 2/2, Amparo de alma 1/1, Penitencia 1/1 y Esperanza renovada 5/5. Sagrado: Enfoque crepuscular 3/3, Renovar mejorado 2/3, Custodia de hechizos 5/5, Nova Sagrada 1/1, Recuperación bendita 3/3 e Inspiración 2/3. Sombra: Desmayo 5/5. Prioriza supervivencia; el punto del antiguo talento Sanación conjunta, hoy hechizo de Sagrado, queda libre.",
+      "text_en": "Discipline: Twin Disciplines 5/5, Silent Resolve 3/3, Martyrdom 2/2, Inner Focus 1/1, Improved Power Word: Shield 3/3, Meditation 3/3, Improved Inner Fire 3/3, Improved Mana Burn 2/2, Soul Warding 1/1, Penance 1/1, and Renewed Hope 5/5. Holy: Twilight Focus 3/3, Improved Renew 2/3, Spell Warding 5/5, Holy Nova 1/1, Blessed Recovery 3/3, and Inspiration 2/3. Shadow: Blackout 5/5. This favors survival; the point of the old Binding Heal talent, now a Holy spell, is free to spend.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Discipline Priest Talent Tree Builds - WoW: Forever › Best Discipline Priest PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:discipline:talents"
+      ],
+      "source_hashes": [
+        "section:2e97167c8c8a35ecf45cefe3a0d579f873fba6af"
+      ]
+    },
+    {
+      "id": "clase-priest-build-sagrado-banda-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de banda de Sagrado",
+      "title_en": "Holy Raid Build",
+      "summary_es": "Build de banda con Nova Sagrada, Rezo de alivio y apoyo de Disciplina.",
+      "summary_en": "Raid build with Holy Nova, Prayer of Mending, and Discipline support.",
+      "keywords_es": [
+        "build banda Sagrado sacerdote",
+        "talentos Holy raid nivel 60",
+        "Rezo de alivio build Sagrado",
+        "sanador Sagrado banda"
+      ],
+      "keywords_en": [
+        "holy priest raid build",
+        "holy raid talents level 60",
+        "prayer of mending holy build",
+        "holy raid healer"
+      ],
+      "text_es": "Disciplina: Disciplinas gemelas 5/5, Fuerza mental 5/5, Enfoque interno 1/1, Poder de la palabra mejorado: escudo 3/3, Meditación 3/3 y Amparo de alma 1/1. Sagrado: Enfoque crepuscular 1/3, Especialización Sagrada 5/5, Furia divina 5/5, Nova Sagrada 1/1, Inspiración 3/3, Alcance Sagrado 2/2, Curación mejorada 3/3, Letanía de la Luz 2/2, Espíritu de redencción 1/1, Guía espiritual 5/5, Curación espiritual 3/3 y Rezo de alivio 1/1. Enfoque interno conserva Espíritu mientras lanzas e Inspiración aporta armadura con curas críticas. Queda libre el punto del antiguo talento Sanación conjunta.",
+      "text_en": "Discipline: Twin Disciplines 5/5, Mental Strength 5/5, Inner Focus 1/1, Improved Power Word: Shield 3/3, Meditation 3/3, and Soul Warding 1/1. Holy: Twilight Focus 1/3, Holy Specialization 5/5, Divine Fury 5/5, Holy Nova 1/1, Inspiration 3/3, Holy Reach 2/2, Improved Healing 3/3, Litany of Light 2/2, Spirit of Redemption 1/1, Spiritual Guidance 5/5, Spiritual Healing 3/3, and Prayer of Mending 1/1. Inner Focus preserves Spirit while casting, and Inspiration adds armor on critical heals. The point of the old Binding Heal talent is free.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Holy Priest Talent Tree Builds - WoW: Forever › Best Holy Priest PvE Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:holy:talents"
+      ],
+      "source_hashes": [
+        "section:4037307f45331e0434800aa97f6d1271a30fbd3a"
+      ]
+    },
+    {
+      "id": "clase-priest-build-sagrado-mazmorra-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de mazmorra de Sagrado",
+      "title_en": "Holy Dungeon Build",
+      "summary_es": "Build híbrida con Penitencia y Especialización en varitas para grupos pequeños.",
+      "summary_en": "Hybrid build with Penance and Wand Specialization for small groups.",
+      "keywords_es": [
+        "build mazmorra Sagrado sacerdote",
+        "build híbrida Disciplina Sagrado",
+        "Penitencia Nova Sagrada build",
+        "varita sacerdote mazmorra"
+      ],
+      "keywords_en": [
+        "holy dungeon build",
+        "discipline holy hybrid build",
+        "penance holy nova build",
+        "priest wand dungeon build"
+      ],
+      "text_es": "Disciplina: Especialización en varitas 2/2, Disciplinas gemelas 5/5, Fuerza mental 5/5, Enfoque interno 1/1, Poder de la palabra mejorado: escudo 3/3, Meditación 3/3, Amparo de alma 1/1 y Penitencia 1/1. Sagrado: Renovar mejorado 3/3, Especialización Sagrada 5/5, Furia divina 5/5, Nova Sagrada 1/1, Inspiración 3/3, Curación mejorada 3/3, Letanía de la Luz 2/2, Guía espiritual 5/5 y Curación espiritual 3/3. La combinación aporta daño de varita y herramientas para grupos pequeños.",
+      "text_en": "Discipline: Wand Specialization 2/2, Twin Disciplines 5/5, Mental Strength 5/5, Inner Focus 1/1, Improved Power Word: Shield 3/3, Meditation 3/3, Soul Warding 1/1, and Penance 1/1. Holy: Improved Renew 3/3, Holy Specialization 5/5, Divine Fury 5/5, Holy Nova 1/1, Inspiration 3/3, Improved Healing 3/3, Litany of Light 2/2, Spiritual Guidance 5/5, and Spiritual Healing 3/3. The hybrid adds wand damage and tools for small groups.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Holy Priest Talent Tree Builds - WoW: Forever › Best Holy Priest PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:holy:talents"
+      ],
+      "source_hashes": [
+        "section:56949b23e5ded6fb206b22db1b635a51d35cdb95"
+      ]
+    },
+    {
+      "id": "clase-priest-build-sagrado-pvp-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ de Sagrado",
+      "title_en": "Holy PvP Build",
+      "summary_es": "Build JcJ que invierte en supervivencia y control además de curación.",
+      "summary_en": "PvP build investing in survival and control alongside healing.",
+      "keywords_es": [
+        "build JcJ Sagrado sacerdote",
+        "talentos PvP Holy",
+        "Penitencia Disciplina JcJ",
+        "supervivencia sanador PvP"
+      ],
+      "keywords_en": [
+        "holy priest pvp build",
+        "holy pvp talents",
+        "discipline penance pvp",
+        "priest healer pvp survival"
+      ],
+      "text_es": "Disciplina: Disciplinas gemelas 5/5, Resolución silenciosa 3/3, Fuerza mental 5/5, Martirio 2/2, Enfoque interno 1/1, Poder de la palabra mejorado: escudo 3/3, Meditación 3/3, Fuego interno mejorado 3/3, Amparo de alma 1/1, Penitencia 1/1, Esperanza renovada 3/5, Égida divina 3/3 e Infusión de poder 1/1. Sagrado: Enfoque crepuscular 3/3, Especialización Sagrada 2/5, Furia divina 5/5, Nova Sagrada 1/1, Recuperación bendita 1/3, Inspiración 3/3 y Curación mejorada 2/3. Prima aguante y utilidad sobre sanación máxima.",
+      "text_en": "Discipline: Twin Disciplines 5/5, Silent Resolve 3/3, Mental Strength 5/5, Martyrdom 2/2, Inner Focus 1/1, Improved Power Word: Shield 3/3, Meditation 3/3, Improved Inner Fire 3/3, Soul Warding 1/1, Penance 1/1, Renewed Hope 3/5, Divine Aegis 3/3, and Power Infusion 1/1. Holy: Twilight Focus 3/3, Holy Specialization 2/5, Divine Fury 5/5, Holy Nova 1/1, Blessed Recovery 1/3, Inspiration 3/3, and Improved Healing 2/3. It favors survival and utility over maximum healing throughput.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Holy Priest Talent Tree Builds - WoW: Forever › Best Holy Priest PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:holy:talents"
+      ],
+      "source_hashes": [
+        "section:66c9fd757f8e31fab71ff57d095ed8a2d422bf22"
+      ]
+    },
+    {
+      "id": "clase-priest-build-sombra-banda-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de banda de Sombra",
+      "title_en": "Shadow Raid Build",
+      "summary_es": "En banda, Explosión mental mejorada 4/5 basta: el quinto punto no acelera la rotación.",
+      "summary_en": "For raids, Improved Mind Blast 4/5 is enough; the fifth point does not speed up the rotation.",
+      "keywords_es": [
+        "build banda Sombra sacerdote",
+        "talentos Shadow raid nivel 60",
+        "Explosión mental mejorada 4/5",
+        "Inspiración macabra raid"
+      ],
+      "keywords_en": [
+        "shadow priest raid build",
+        "shadow raid talents level 60",
+        "improved mind blast 4/5",
+        "dark inspiration raid"
+      ],
+      "text_es": "Disciplina: Disciplinas gemelas 5/5, Resolución silenciosa 3/3, Fuerza mental 4/5 y Meditación 3/3. Sagrado: Enfoque crepuscular 3/3. Sombra: Enfoque de las Sombras 5/5, Explosión mental mejorada 4/5, Palabra de las Sombras: dolor mejorada 2/2, Alcance de las Sombras 2/2, Despelleje mental 1/1, Tortura mental mejorada 2/2, Inspiración macabra 5/5, Unirse a vampírica 1/1, Tejido de las Sombras 3/3, Contagio devorador 2/2, Oscuridad 5/5 y Forma de las Sombras 1/1. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Discipline: Twin Disciplines 5/5, Silent Resolve 3/3, Mental Strength 4/5, and Meditation 3/3. Holy: Twilight Focus 3/3. Shadow: Shadow Focus 5/5, Improved Mind Blast 4/5, Improved Shadow Word: Pain 2/2, Shadow Reach 2/2, Mind Flay 1/1, Improved Mind Flay 2/2, Dark Inspiration 5/5, Vampiric Embrace 1/1, Shadow Weaving 3/3, Devouring Contagion 2/2, Darkness 5/5, and Shadowform 1/1. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Shadow Priest Talent Tree Builds - WoW: Forever › Best Shadow Priest PvE Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Shadow Priest Talent Tree Builds - WoW: Forever › Single Target DPS Rotation for Shadow Priests in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest DPS Attribute and Stat Guide - WoW: Forever › Shadow Priest Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/stat-priority-pve-dps",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:shadow:stats",
+        "class:priest:shadow:talents"
+      ],
+      "source_hashes": [
+        "guide:80714cd8f9dbf9c5a64814e47bffa13627e04da6",
+        "section:498f16903f5b9ebc87d616a94822228f7036d0a4",
+        "section:ddf24c444b5df78ebd60cba674da4d3dc336ccf8"
+      ]
+    },
+    {
+      "id": "clase-priest-build-sombra-mazmorra-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de mazmorra de Sombra",
+      "title_en": "Shadow Dungeon Build",
+      "summary_es": "Transfusión de espíritu sostiene el maná al repartir Dolor entre varios enemigos.",
+      "summary_en": "Spirit Tap sustains mana while spreading Pain across several enemies.",
+      "keywords_es": [
+        "build mazmorra Sombra sacerdote",
+        "Transfusión de espíritu multienemigo",
+        "talentos Shadow mazmorra",
+        "multidot Sombra sacerdote"
+      ],
+      "keywords_en": [
+        "shadow priest dungeon build",
+        "spirit tap multi-target",
+        "shadow dungeon talents",
+        "shadow priest multidot"
+      ],
+      "text_es": "Disciplina: Disciplinas gemelas 5/5, Resolución silenciosa 3/3, Fuerza mental 2/5 y Meditación 3/3. Sombra: Enfoque de las Sombras 5/5, Transfusión de espíritu 5/5, Explosión mental mejorada 4/5, Palabra de las Sombras: dolor mejorada 2/2, Alcance de las Sombras 2/2, Despelleje mental 1/1, Tortura mental mejorada 2/2, Inspiración macabra 5/5, Unirse a vampírica 1/1, Tejido de las Sombras 3/3, Contagio devorador 2/2, Oscuridad 5/5 y Forma de las Sombras 1/1. Transfusión de espíritu apoya el maná al repartir Dolor.",
+      "text_en": "Discipline: Twin Disciplines 5/5, Silent Resolve 3/3, Mental Strength 2/5, and Meditation 3/3. Shadow: Shadow Focus 5/5, Spirit Tap 5/5, Improved Mind Blast 4/5, Improved Shadow Word: Pain 2/2, Shadow Reach 2/2, Mind Flay 1/1, Improved Mind Flay 2/2, Dark Inspiration 5/5, Vampiric Embrace 1/1, Shadow Weaving 3/3, Devouring Contagion 2/2, Darkness 5/5, and Shadowform 1/1. Spirit Tap supports mana while multi-dotting.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Shadow Priest Talent Tree Builds - WoW: Forever › Best Shadow Priest PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:shadow:talents"
+      ],
+      "source_hashes": [
+        "section:e2c8b74f0c350195f76810c4fa9e22aee188ee61"
+      ]
+    },
+    {
+      "id": "clase-priest-build-sombra-pvp-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ de Sombra",
+      "title_en": "Shadow PvP Build",
+      "summary_es": "Build de control con Desmayo, Alarido psíquico mejorado y Silencio.",
+      "summary_en": "Control build with Blackout, Improved Psychic Scream, and Silence.",
+      "keywords_es": [
+        "build JcJ Sombra sacerdote",
+        "Desmayo Sacerdote PvP",
+        "Alarido psíquico mejorado JcJ",
+        "Silencio build Sombra"
+      ],
+      "keywords_en": [
+        "shadow priest pvp build",
+        "blackout priest pvp",
+        "improved psychic scream pvp",
+        "shadow silence build"
+      ],
+      "text_es": "Disciplina: Disciplinas gemelas 5/5, Resolución silenciosa 3/3, Martirio 2/2, Poder de la palabra mejorado: escudo 3/3 y Meditación 3/3. Sagrado: Enfoque crepuscular 3/3. Sombra: Enfoque de las Sombras 5/5, Desmayo 5/5, Palabra de las Sombras: dolor mejorada 2/2, Alcance de las Sombras 2/2, Alarido psíquico mejorado 2/2, Despelleje mental 1/1, Tortura mental mejorada 2/2, Unirse a vampírica 1/1, Tejido de las Sombras 3/3, Silencio 1/1, Contagio devorador 2/2, Oscuridad 5/5 y Forma de las Sombras 1/1. Desmayo y Alarido psíquico mejorado aportan control.",
+      "text_en": "Discipline: Twin Disciplines 5/5, Silent Resolve 3/3, Martyrdom 2/2, Improved Power Word: Shield 3/3, and Meditation 3/3. Holy: Twilight Focus 3/3. Shadow: Shadow Focus 5/5, Blackout 5/5, Improved Shadow Word: Pain 2/2, Shadow Reach 2/2, Improved Psychic Scream 2/2, Mind Flay 1/1, Improved Mind Flay 2/2, Vampiric Embrace 1/1, Shadow Weaving 3/3, Silence 1/1, Devouring Contagion 2/2, Darkness 5/5, and Shadowform 1/1. Blackout and Improved Psychic Scream add control.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Shadow Priest Talent Tree Builds - WoW: Forever › Best Shadow Priest PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:shadow:talents"
+      ],
+      "source_hashes": [
+        "section:b04814265e62c3c471f3112b9303b702be8a6fec"
+      ]
     }
   ]
 }
