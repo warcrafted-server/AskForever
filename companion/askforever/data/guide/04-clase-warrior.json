@@ -3243,6 +3243,870 @@
       "source_hashes": [
         "section:effba622a066684f324b0597eef88936f72d40d4"
       ]
+    },
+    {
+      "id": "clase-warrior-armas-build-subir-wowhead",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de subida de Armas",
+      "title_en": "Arms Leveling Build",
+      "summary_es": "Build de subida de Armas con talentos de las ramas Armas y Furia.",
+      "summary_en": "Arms leveling build with talents from the Arms and Fury trees.",
+      "keywords_es": [
+        "build de subida Armas",
+        "talentos Armas 1-60",
+        "build Guerrero para subir"
+      ],
+      "keywords_en": [
+        "Arms leveling build",
+        "Arms talents 1-60",
+        "Warrior leveling build"
+      ],
+      "text_es": "Armas: Desvío 5/5, Desgarrar mejorado 3/3, Embestir mejorado 2/2, Maestría táctica mejorada 3/3, Abrumar mejorado 2/2, Control de furia 1/1, Heridas profundas 3/3, Lanzazo 1/1, Especialización en armas de dos manos 3/3, Clavar 2/2, Fragor de la sangre 2/2, Golpes de barrido 1/1, Maestro de armas 5/5, Embate mejorado 2/2 y Golpe mortal 1/1. Furia: Crueldad 5/5, Ira persistente 5/5 y Enfurecer 5/5.",
+      "text_en": "Arms: Deflection 5/5, Improved Rend 3/3, Improved Charge 2/2, Improved Tactical Mastery 3/3, Improved Overpower 2/2, Anger Management 1/1, Deep Wounds 3/3, Spearing Strike 1/1, Two-Handed Weapon Specialization 3/3, Impale 2/2, Bloodthrill 2/2, Sweeping Strikes 1/1, Weaponmaster 5/5, Improved Slam 2/2, and Mortal Strike 1/1. Fury: Cruelty 5/5, Lingering Rage 5/5, and Enrage 5/5.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior Leveling Guide  - WoW: Forever › Best Talent Builds for Leveling as Arms Warrior DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/dps-leveling-tips",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:leveling"
+      ],
+      "source_hashes": [
+        "section:dd7ba003c5e6818f2bde2adf5fc132f4f296978c"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-build-subir-pve-armas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de subida de Furia (Armas)",
+      "title_en": "Fury Leveling Build (Arms)",
+      "summary_es": "Talentos de Armas para la build de subida de Furia de 16/35/0.",
+      "summary_en": "Arms talents for the 16/35/0 Fury leveling build.",
+      "keywords_es": [
+        "build subida Furia rama Armas",
+        "talentos Armas Furia leveo",
+        "Furia 16 35 0"
+      ],
+      "keywords_en": [
+        "Fury leveling Arms build",
+        "Fury Arms talents leveling",
+        "Fury 16 35 0"
+      ],
+      "text_es": "Armas: Golpe heroico mejorado 2/3, Desgarrar mejorado 3/3, Maestría táctica mejorada 3/3, Abrumar mejorado 2/2, Control de furia 1/1 y Heridas profundas 3/3.",
+      "text_en": "Arms: Improved Heroic Strike 2/3, Improved Rend 3/3, Improved Tactical Mastery 3/3, Improved Overpower 2/2, Anger Management 1/1, and Deep Wounds 3/3.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: WoW: Forever Fury Warrior Leveling and PvE Guide › The build: Fury Leveling and PvE (16/35/0)",
+          "url": "https://www.wowhead.com/forever/guide/wow-forever-fury-warrior-leveling-and-pve-guide-35029",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:extra:wow-forever-fury-warrior-leveling-and-pve-guide"
+      ],
+      "source_hashes": [
+        "section:a25783a78348023d064550f019a484b59cd79c18"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-build-subir-pve-furia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de subida de Furia (Furia)",
+      "title_en": "Fury Leveling Build (Fury)",
+      "summary_es": "Talentos de Furia para la build de subida 16/35/0.",
+      "summary_en": "Fury talents for the 16/35/0 leveling build.",
+      "keywords_es": [
+        "build subida Furia talentos",
+        "talentos rama Furia leveo",
+        "Furia 35 puntos"
+      ],
+      "keywords_en": [
+        "Fury leveling talents",
+        "Fury tree leveling build",
+        "Fury 35 points"
+      ],
+      "text_es": "Furia: Voz retumbante 1/5, Crueldad 5/5, Cólera desbocada 5/5, Precisión furiosa 3/3, Aullido penetrante 1/1, Manía sangrienta 2/3, Especialización en doble empuñadura 5/5, Torbellino mejorado 1/2, Enfurecer 5/5, Deseo de la Muerte 1/1, Aluvión 3/3 y Sed de sangre 1/1.",
+      "text_en": "Fury: Booming Voice 1/5, Cruelty 5/5, Unbridled Wrath 5/5, Furious Precision 3/3, Piercing Howl 1/1, Blood Craze 2/3, Dual Wield Specialization 5/5, Improved Whirlwind 1/2, Enrage 5/5, Death Wish 1/1, Flurry 3/3, and Bloodthirst 1/1.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: WoW: Forever Fury Warrior Leveling and PvE Guide › The build: Fury Leveling and PvE (16/35/0)",
+          "url": "https://www.wowhead.com/forever/guide/wow-forever-fury-warrior-leveling-and-pve-guide-35029",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:extra:wow-forever-fury-warrior-leveling-and-pve-guide"
+      ],
+      "source_hashes": [
+        "section:a25783a78348023d064550f019a484b59cd79c18"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-build-subir-armas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de subida de Furia: rama Armas",
+      "title_en": "Fury Leveling Build: Arms Tree",
+      "summary_es": "Talentos de Armas en la build de subida principal de Furia.",
+      "summary_en": "Arms talents in the main Fury leveling build.",
+      "keywords_es": [
+        "Furia build subir rama Armas",
+        "talentos Armas Furia",
+        "Desvío y Maestría táctica"
+      ],
+      "keywords_en": [
+        "Fury leveling Arms tree",
+        "Fury Arms talents",
+        "Deflection and Tactical Mastery"
+      ],
+      "text_es": "Armas: Desvío 5/5, Maestría táctica mejorada 3/3, Abrumar mejorado 2/2 y Control de furia 1/1.",
+      "text_en": "Arms: Deflection 5/5, Improved Tactical Mastery 3/3, Improved Overpower 2/2, and Anger Management 1/1.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Fury Warrior DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/dps-leveling-tips",
+          "date": "2026-11-07"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:leveling"
+      ],
+      "source_hashes": [
+        "section:60912d4380d6d5944b83c7f828b03ad767e7af08"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-build-subir-furia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de subida de Furia: rama Furia",
+      "title_en": "Fury Leveling Build: Fury Tree",
+      "summary_es": "Talentos de la rama Furia de la build de subida principal.",
+      "summary_en": "Fury-tree talents from the main leveling build.",
+      "keywords_es": [
+        "build Furia para subir",
+        "talentos rama Furia leveo",
+        "Sed de sangre build subida"
+      ],
+      "keywords_en": [
+        "Fury leveling build",
+        "Fury tree talents leveling",
+        "Bloodthirst leveling build"
+      ],
+      "text_es": "Furia: Crueldad 5/5, Cólera desbocada 5/5, Precisión furiosa 3/3, Manía sangrienta 3/3, Enfurecer 5/5, Especialización en doble empuñadura 5/5, Golpes temerarios 1/1, Ejecutar mejorado 2/2, Ira rabiosa mejorada 2/2, Deseo de la Muerte 1/1, Bebedor de entrañas 2/2, Torbellino mejorado 2/2, Aluvión 3/3 y Sed de sangre 1/1.",
+      "text_en": "Fury: Cruelty 5/5, Unbridled Wrath 5/5, Furious Precision 3/3, Blood Craze 3/3, Enrage 5/5, Dual Wield Specialization 5/5, Reckless Swings 1/1, Improved Execute 2/2, Improved Berserker Rage 2/2, Death Wish 1/1, Gore Drinker 2/2, Improved Whirlwind 2/2, Flurry 3/3, and Bloodthirst 1/1.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Fury Warrior DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/dps-leveling-tips",
+          "date": "2026-11-07"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:leveling"
+      ],
+      "source_hashes": [
+        "section:60912d4380d6d5944b83c7f828b03ad767e7af08"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-build-subir-profunda-furia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de subida de Protección: Furia",
+      "title_en": "Protection Leveling Build: Fury",
+      "summary_es": "Talentos de Furia de la build profunda de Protección.",
+      "summary_en": "Fury talents in the deep Protection leveling build.",
+      "keywords_es": [
+        "build subir Protección Furia",
+        "talentos Furia tanque leveo",
+        "Protección profunda Furia"
+      ],
+      "keywords_en": [
+        "Protection leveling Fury talents",
+        "Fury tank leveling build",
+        "deep Protection Fury"
+      ],
+      "text_es": "Furia: Voz retumbante 5/5, Crueldad 5/5, Aullido penetrante 1/1, Manía sangrienta 3/3 y Enfurecer 5/5.",
+      "text_en": "Fury: Booming Voice 5/5, Cruelty 5/5, Piercing Howl 1/1, Blood Craze 3/3, and Enrage 5/5.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Protection Warrior Tank in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/tank-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:af995e062014605042edf9e56de75be041d3d1fe"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-build-subir-profunda-proteccion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de subida de Protección: Protección",
+      "title_en": "Protection Leveling Build: Protection",
+      "summary_es": "Talentos de Protección de la ruta profunda para subir.",
+      "summary_en": "Protection talents in the deep leveling route.",
+      "keywords_es": [
+        "build subir Protección talentos",
+        "talentos Protección 1-60",
+        "Embate con escudo build subida"
+      ],
+      "keywords_en": [
+        "Protection leveling talent build",
+        "Protection talents 1-60",
+        "Shield Slam leveling build"
+      ],
+      "text_es": "Protección: Sanguinario mejorado 2/2, Especialización en escudos 5/5, Revancha mejorada 3/3, Trueno mejorado 3/3, Última posición 1/1, Maestro de defensa 2/2, Desafío 3/3, Vanguardia 1/1, Muro de escudo mejorado 2/2, Golpe de concusión 1/1, Ira enfocada 3/3, Bastión 5/5 y Embate con escudo 1/1.",
+      "text_en": "Protection: Improved Bloodrage 2/2, Shield Specialization 5/5, Improved Revenge 3/3, Improved Thunder Clap 3/3, Last Stand 1/1, Master of Defense 2/2, Defiance 3/3, Vanguard 1/1, Improved Shield Wall 2/2, Concussion Blow 1/1, Focused Rage 3/3, Bastion 5/5, and Shield Slam 1/1.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Protection Warrior Tank in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/tank-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:af995e062014605042edf9e56de75be041d3d1fe"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-build-subir-alternativa-armas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de subida de Protección: Armas",
+      "title_en": "Protection Leveling Build: Arms",
+      "summary_es": "Talentos de Armas de la alternativa de Protección centrada en cleave.",
+      "summary_en": "Arms talents in the cleave-focused Protection alternative.",
+      "keywords_es": [
+        "Protección build subida Armas",
+        "talentos Armas tanque leveo",
+        "Golpes de barrido Protección"
+      ],
+      "keywords_en": [
+        "Protection Arms leveling build",
+        "Arms talents tank leveling",
+        "Protection Sweeping Strikes"
+      ],
+      "text_es": "Armas: Golpe heroico mejorado 3/3, Desvío 5/5, Desgarrar mejorado 3/3, Maestría táctica mejorada 3/3, Control de furia 1/1, Heridas profundas 3/3, Clavar 2/2, Golpes de barrido 1/1, Maestro de armas 5/5 y Embate mejorado 2/2.",
+      "text_en": "Arms: Improved Heroic Strike 3/3, Deflection 5/5, Improved Rend 3/3, Improved Tactical Mastery 3/3, Anger Management 1/1, Deep Wounds 3/3, Impale 2/2, Sweeping Strikes 1/1, Weaponmaster 5/5, and Improved Slam 2/2.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Protection Warrior Tank in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/tank-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:af995e062014605042edf9e56de75be041d3d1fe"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-build-subir-alternativa-furia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de subida de Protección: Furia y Protección",
+      "title_en": "Protection Leveling Build: Fury and Protection",
+      "summary_es": "Talentos de Furia y Protección de la alternativa de cleave.",
+      "summary_en": "Fury and Protection talents in the cleave-focused alternative.",
+      "keywords_es": [
+        "build Protección Furia",
+        "talentos Protección subida alternativa",
+        "Crueldad tanque Guerrero"
+      ],
+      "keywords_en": [
+        "Protection Fury build",
+        "Protection alternative leveling talents",
+        "Warrior tank Cruelty"
+      ],
+      "text_es": "Furia: Crueldad 5/5. Protección: Especialización en escudos 5/5, Revancha mejorada 3/3, Trueno mejorado 3/3, Última posición 1/1, Maestro de defensa 2/2, Desafío 3/3 y Vanguardia 1/1.",
+      "text_en": "Fury: Cruelty 5/5. Protection: Shield Specialization 5/5, Improved Revenge 3/3, Improved Thunder Clap 3/3, Last Stand 1/1, Master of Defense 2/2, Defiance 3/3, and Vanguard 1/1.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Protection Warrior Tank in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/tank-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:af995e062014605042edf9e56de75be041d3d1fe"
+      ]
+    },
+    {
+      "id": "clase-warrior-habilidades-entrenar-armas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades que entrenar: Armas",
+      "title_en": "Abilities to Train: Arms",
+      "summary_es": "Prioriza los rangos esenciales de Armas y ahorra en facultades opcionales.",
+      "summary_en": "Prioritize essential Arms ranks and save gold on optional abilities.",
+      "keywords_es": [
+        "habilidades entrenar Armas",
+        "rangos Armas Guerrero",
+        "ahorrar oro entrenador Armas"
+      ],
+      "keywords_en": [
+        "Arms abilities to train",
+        "Warrior Arms ranks",
+        "save gold Arms trainer"
+      ],
+      "text_es": "Entrena los rangos de Golpe heroico, Grito de guerra, Embestir, Desgarrar, Hender armadura, Abrumar, Mellar y Golpe mortal; aprende Ataque de la victoria y Temeridad. Trueno, Seccionar, Grito desmoralizador y Falsa arremetida son opcionales y puedes saltarte sus rangos para ahorrar oro.",
+      "text_en": "Train the ranks of Heroic Strike, Battle Shout, Charge, Rend, Sunder Armor, Overpower, Cleave, and Mortal Strike; learn Victory Rush and Recklessness. Thunder Clap, Hamstring, Demoralizing Shout, and Mocking Blow are optional, and you can skip their ranks to save gold.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior Leveling Guide  - WoW: Forever › Mandatory Abilities to Train for Arms Warrior",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/dps-leveling-tips",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior Leveling Guide  - WoW: Forever › Optional Abilities to Train for Arms Warrior",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/dps-leveling-tips",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:leveling"
+      ],
+      "source_hashes": [
+        "section:1c25e003ba1bffe75d7fee38f86dd473b2f6a332",
+        "section:91e6054df3a6e6bb797bc953f8dc6aea6292b7ee"
+      ]
+    },
+    {
+      "id": "clase-warrior-habilidades-entrenar-furia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades que entrenar: Furia",
+      "title_en": "Abilities to Train: Fury",
+      "summary_es": "Furia prioriza Desgarrar, Abrumar, Grito de guerra y Zurrar.",
+      "summary_en": "Fury prioritizes Rend, Overpower, Battle Shout, and Pummel.",
+      "keywords_es": [
+        "habilidades entrenar Furia",
+        "rangos Guerrero Furia",
+        "entrenar Zurrar Guerrero"
+      ],
+      "keywords_en": [
+        "Fury abilities to train",
+        "Fury Warrior ranks",
+        "train Warrior Pummel"
+      ],
+      "text_es": "Como esenciales, entrena Desgarrar, Abrumar, Grito de guerra y Zurrar (un rango). Falsa arremetida, Mellar, Embate y Trueno son opcionales; puedes prescindir de algunos rangos según tu estilo y ahorrar oro.",
+      "text_en": "Train Rend, Overpower, Battle Shout, and one rank of Pummel as core abilities. Mocking Blow, Cleave, Slam, and Thunder Clap are optional; skip some ranks depending on your playstyle to save gold.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Fury Warrior",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/dps-leveling-tips",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior Leveling Guide - WoW: Forever › Optional Abilities to Train for Fury Warrior",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/dps-leveling-tips",
+          "date": "2026-11-07"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:leveling"
+      ],
+      "source_hashes": [
+        "section:4fbdda66e2c1f4c4395c8dbfabc49559c8396b44",
+        "section:9896b463388e4a01390a80f605d8ab1a8ce8afe8"
+      ]
+    },
+    {
+      "id": "clase-warrior-habilidades-entrenar-proteccion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades que entrenar: Protección",
+      "title_en": "Abilities to Train: Protection",
+      "summary_es": "Protección prioriza los gritos, Revancha, Bloquear con escudo y Embate con escudo.",
+      "summary_en": "Protection prioritizes Shouts, Revenge, Shield Block, and Shield Slam.",
+      "keywords_es": [
+        "habilidades entrenar Protección",
+        "rangos tanque Guerrero",
+        "entrenar Revancha escudo"
+      ],
+      "keywords_en": [
+        "Protection abilities to train",
+        "Warrior tank ranks",
+        "train Revenge Shield Block"
+      ],
+      "text_es": "Entrena Golpe heroico, Grito de guerra, Embestir, Desgarrar, Trueno, Hender armadura, Revancha, Grito desmoralizador, Bloquear con escudo, Mellar, Ataque de la victoria y Embate con escudo. Desactivar, Embate, Grito intimidador, Abrumar, Huracán y Zurrar son opcionales y sus rangos se pueden omitir para ahorrar.",
+      "text_en": "Train Heroic Strike, Battle Shout, Charge, Rend, Thunder Clap, Sunder Armor, Revenge, Demoralizing Shout, Shield Block, Cleave, Victory Rush, and Shield Slam. Disarm, Slam, Intimidating Shout, Overpower, Whirlwind, and Pummel are optional, and their ranks can be skipped to save gold.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Protection Warrior",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/tank-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Leveling Guide - WoW: Forever › Optional Abilities to Train for Protection Warrior",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/tank-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:2c64089c5c27f6503e330b5d26e9956ec7aa80cb",
+        "section:e6d673cb048ff24093997836994c87b743d5dbae"
+      ]
+    },
+    {
+      "id": "clase-warrior-profesiones-subida-forever",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Profesiones útiles al subir",
+      "title_en": "Useful Leveling Professions",
+      "summary_es": "Minería, Herrería, Peletería y Desollar ofrecen distintas ventajas durante la subida.",
+      "summary_en": "Mining, Blacksmithing, Leatherworking, and Skinning offer different leveling benefits.",
+      "keywords_es": [
+        "profesiones Guerrero subida",
+        "Peletería Tienda de campamento",
+        "Desollar oro subir",
+        "Minería y Herrería Guerrero"
+      ],
+      "keywords_en": [
+        "Warrior leveling professions",
+        "Leatherworking Camp Tent",
+        "Skinning leveling gold",
+        "Warrior Mining Blacksmithing"
+      ],
+      "text_es": "Minería y Herrería combinan: los materiales permiten fabricar mejoras de equipo y vender armas. Para acelerar la subida, Peletería a nivel 20 habilita Tienda de campamento, que aporta experiencia descansada; no hace falta subirla más si no te interesa. Desollar también da oro pronto con poco esfuerzo.",
+      "text_en": "Mining pairs with Blacksmithing: gathered materials can become gear upgrades, and crafted weapons can be sold. To level faster, Leatherworking at skill 20 unlocks Camp Tent for rested experience; there is little reason to level it further if that is your only goal. Skinning also provides early gold with little effort.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior Leveling Guide  - WoW: Forever › Best Leveling Professions for Arms Warrior DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/dps-leveling-tips",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior Leveling Guide - WoW: Forever › Best Leveling Professions for Fury Warrior DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/dps-leveling-tips",
+          "date": "2026-11-07"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:leveling",
+        "class:warrior:fury:leveling"
+      ],
+      "source_hashes": [
+        "section:02bf871bca6a297024033b4df7710517e23c8634",
+        "section:99d78fd7d07e34e28aebc61d0b756e12f1414bb0"
+      ]
+    },
+    {
+      "id": "clase-warrior-consumibles-subida-comida",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Comida y consumibles para subir",
+      "title_en": "Food and Consumables for Leveling",
+      "summary_es": "La comida aporta experiencia por muertes; las pociones y piedras ayudan en combate.",
+      "summary_en": "Food grants kill experience; potions and sharpening stones help in combat.",
+      "keywords_es": [
+        "comida Guerrero experiencia",
+        "consumibles de subida Guerrero",
+        "Pargo de lodo boquilargo",
+        "piedra de afilar Guerrero"
+      ],
+      "keywords_en": [
+        "Warrior food experience",
+        "Warrior leveling consumables",
+        "Longjaw Mud Snapper",
+        "Warrior sharpening stone"
+      ],
+      "text_es": "Mantén un beneficio de comida: la comida otorga un 5% más de experiencia al matar enemigos. Pargo de lodo boquilargo es una opción barata y temprana que además da 10 de poder de ataque. En tu primer personaje, prioriza pociones de curación para emergencias; las piedras de afilar o de peso también aumentan el daño.",
+      "text_en": "Keep a food buff active: food grants 5% more experience from kills. Longjaw Mud Snapper is an inexpensive early option that also gives 10 Attack Power. On your first character, prioritize Healing Potions for emergencies; sharpening or weightstones also increase damage.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior Leveling Guide - WoW: Forever › Best Leveling Consumables for Fury Warrior DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/dps-leveling-tips",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Leveling Guide - WoW: Forever › Best Leveling Consumables for Protection Warrior Tank in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/tank-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:leveling",
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:27e90d55933440b4e9b3bb6d36b9d24ef6249359",
+        "section:3b42332d7eb3f16b1b3a348e27b7ed13458597c3"
+      ]
+    },
+    {
+      "id": "clase-warrior-armas-ruta-talentos-subida",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Prioridad de talentos de Armas al subir",
+      "title_en": "Arms Talent Priorities While Leveling",
+      "summary_es": "La build de subida potencia la furia, la supervivencia y sus ataques clave.",
+      "summary_en": "The leveling build improves Rage, survivability, and key attacks.",
+      "keywords_es": [
+        "ruta talentos Armas subir",
+        "prioridad de talentos Armas",
+        "Embate mejorado build subir"
+      ],
+      "keywords_en": [
+        "Arms leveling talent path",
+        "Arms talent priorities",
+        "Improved Slam leveling build"
+      ],
+      "text_es": "La build de subida prioriza Desvío 5/5 para aguantar, Abrumar mejorado 2/2, Fragor de la sangre 2/2 y Embate mejorado 2/2 para elevar el daño; Golpe mortal 1/1 es otro salto importante. No uses Embate hasta tener Embate mejorado, que lo incorpora a la rotación.",
+      "text_en": "The leveling build prioritizes Deflection 5/5 for survivability, Improved Overpower 2/2, Bloodthrill 2/2, and Improved Slam 2/2 for damage; Mortal Strike 1/1 is another major spike. Avoid Slam until you have Improved Slam, which brings it into the rotation.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior Leveling Guide  - WoW: Forever › Best Talent Builds for Leveling as Arms Warrior DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/dps-leveling-tips",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:leveling"
+      ],
+      "source_hashes": [
+        "section:dd7ba003c5e6818f2bde2adf5fc132f4f296978c"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-ruta-talentos-subida",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Prioridad de talentos de Furia al subir",
+      "title_en": "Fury Talent Priorities While Leveling",
+      "summary_es": "Sed de sangre y Bebedor de entrañas reducen el tiempo de inactividad.",
+      "summary_en": "Bloodthirst and Gore Drinker reduce downtime.",
+      "keywords_es": [
+        "ruta talentos Furia subir",
+        "prioridad de talentos Furia",
+        "Bebedor de entrañas y Sed de sangre"
+      ],
+      "keywords_en": [
+        "Fury leveling talent path",
+        "Fury talent priorities",
+        "Gore Drinker and Bloodthirst"
+      ],
+      "text_es": "Avanza pronto por Furia para obtener Bebedor de entrañas 2/2 y Sed de sangre 1/1, talentos centrales para reducir las pausas. Después completa Aluvión 3/3 para aprovechar los críticos; luego pasa a Armas por Desvío 5/5, Desgarrar mejorado 3/3 y Abrumar mejorado 2/2.",
+      "text_en": "Move quickly through Fury to reach Gore Drinker 2/2 and Bloodthirst 1/1, core talents for reducing downtime. Then complete Flurry 3/3 to benefit from critical strikes, before moving into Arms for Deflection 5/5, Improved Rend 3/3, and Improved Overpower 2/2.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Fury Warrior DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/dps-leveling-tips",
+          "date": "2026-11-07"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:leveling"
+      ],
+      "source_hashes": [
+        "section:60912d4380d6d5944b83c7f828b03ad767e7af08"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-rutas-talentos-subida",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rutas de talentos de Protección al subir",
+      "title_en": "Protection Leveling Talent Routes",
+      "summary_es": "Protección profunda es más relajada; Armas añade complejidad y Furia, autosuficiencia.",
+      "summary_en": "Deep Protection is more relaxed; Arms adds complexity and Fury adds self-sufficiency.",
+      "keywords_es": [
+        "rutas talentos Protección leveo",
+        "Protección profunda subir",
+        "build Armas Protección experto",
+        "talentos Furia Protección"
+      ],
+      "keywords_en": [
+        "Protection leveling talent routes",
+        "deep Protection leveling",
+        "experienced Arms Protection build",
+        "Fury Protection talents"
+      ],
+      "text_es": "La ruta profunda de Protección es la recomendada para la mayoría por su estilo más relajado. La alternativa de Armas añade daño contra varios enemigos y cambios de actitud, con más complejidad para guerreros experimentados. También puedes elegir Furia para sumar daño y autosuficiencia más adelante.",
+      "text_en": "The deep Protection route is recommended for most players because it offers a more relaxed style. The Arms alternative adds cleave and stance switching, making it more complex and suited to experienced Warriors. Fury is another option for adding damage and self-sufficiency later on.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Protection Warrior Tank in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/tank-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:af995e062014605042edf9e56de75be041d3d1fe"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-hitos-subida",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Hitos de subida de Furia",
+      "title_en": "Fury Leveling Milestones",
+      "summary_es": "Actitud rabiosa llega a 30; Huracán a 36 y Sed de sangre a 40.",
+      "summary_en": "Berserker Stance arrives at 30; Whirlwind at 36 and Bloodthirst at 40.",
+      "keywords_es": [
+        "hitos Furia subir",
+        "nivel Huracán Guerrero",
+        "nivel Sed de sangre Furia",
+        "Golpes temerarios nivel 31"
+      ],
+      "keywords_en": [
+        "Fury leveling milestones",
+        "Warrior Whirlwind level",
+        "Fury Bloodthirst level",
+        "Reckless Swings level 31"
+      ],
+      "text_es": "A nivel 30, completa la misión de clase para Actitud rabiosa y alcanza Deseo de la Muerte; a 36 aprende Huracán, y a 40, Sed de sangre. Temeridad se entrena a 50.",
+      "text_en": "At level 30, complete the class quest for Berserker Stance and reach Death Wish; learn Whirlwind at 36 and Bloodthirst at 40. Train Recklessness at 50.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: WoW: Forever Fury Warrior Leveling and PvE Guide › Leveling playstyle",
+          "url": "https://www.wowhead.com/forever/guide/wow-forever-fury-warrior-leveling-and-pve-guide-35029",
+          "date": "2026-10-20"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: WoW: Forever Fury Warrior Leveling and PvE Guide › Toolkit",
+          "url": "https://www.wowhead.com/forever/guide/wow-forever-fury-warrior-leveling-and-pve-guide-35029",
+          "date": "2026-10-20"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Fury Warrior Leveling Guide › Leveling Milestones > Important Unlocks",
+          "url": "https://www.icy-veins.com/wow-forever/fury-warrior-leveling",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:extra:wow-forever-fury-warrior-leveling-and-pve-guide",
+        "class:warrior:fury:leveling"
+      ],
+      "source_hashes": [
+        "guide:baf6ab9f1243adfa8aac49ced45104e22290f803",
+        "section:72e2b8d0788e2809d2b9de2a8ec4ed5efd153a1f",
+        "section:ee54209c7f2dc45a83973674d89ad8a567e23705"
+      ]
+    },
+    {
+      "id": "clase-warrior-campamento-subida",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Beneficios de campamento al subir",
+      "title_en": "Camp Buffs While Leveling",
+      "summary_es": "Tienda de campamento da experiencia descansada; otras mejoras aportan ataque o crítico.",
+      "summary_en": "Camp Tent grants rested experience; other buffs add Attack Power or crit.",
+      "keywords_es": [
+        "beneficio de campamento Guerrero",
+        "Tienda de campamento experiencia",
+        "Magnetita Poderío",
+        "Silla de campamento crítico"
+      ],
+      "keywords_en": [
+        "Warrior camp buff",
+        "Camp Tent rested experience",
+        "Lodestone Attack Power",
+        "Camp Chair crit"
+      ],
+      "text_es": "Si solo eliges un beneficio para subir, Tienda de campamento aporta hasta un 5% de experiencia descansada; requiere Peletería 20 y no sirve si ya superas ese límite de descanso. Magnetita suma poder de ataque cuerpo a cuerpo, y Silla de campamento otorga un 2% de crítico; elige según los beneficios que ya recibas.",
+      "text_en": "If you choose only one leveling camp buff, Camp Tent grants up to 5% rested experience; it requires Leatherworking 20 and has no effect once you exceed that rested amount. Lodestone adds melee Attack Power, while Camp Chair grants 2% crit; choose based on buffs you already have.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior Leveling Guide  - WoW: Forever › Best Leveling Camping Buffs for Arms Warrior DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/dps-leveling-tips",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior Leveling Guide  - WoW: Forever › Best Leveling Professions for Arms Warrior DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/dps-leveling-tips",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Fury Warrior DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/dps-leveling-tips",
+          "date": "2026-11-07"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:leveling",
+        "class:warrior:fury:leveling"
+      ],
+      "source_hashes": [
+        "section:4d5800361970694b00f44fdffec84b47eb3a0f33",
+        "section:99d78fd7d07e34e28aebc61d0b756e12f1414bb0",
+        "section:d936d2284a3f840ab2c1e6ef0b2e6d6819d088ae"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-orden-talentos-1-52",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Furia: orden de talentos hasta nivel 52",
+      "title_en": "Fury: Talent Order Through Level 52",
+      "summary_es": "Orden de talentos de Furia desde los primeros puntos hasta Maestría táctica mejorada.",
+      "summary_en": "Fury talent order from its early points through Improved Tactical Mastery.",
+      "keywords_es": [
+        "orden talentos Furia",
+        "ruta Furia nivel 52",
+        "talentos Guerrero nivel por nivel"
+      ],
+      "keywords_en": [
+        "Fury talent order",
+        "Fury level 52 path",
+        "Warrior talents by level"
+      ],
+      "text_es": "10-14: Crueldad 5/5; 15-19: Cólera desbocada 5/5; 20-22: Precisión furiosa 3/3; 25-29: Especialización en doble empuñadura 5/5; 30: Deseo de la Muerte 1/1; 31: Golpes temerarios 1/1; 32-33: Ira rabiosa mejorada 2/2; 35-36: Huracán mejorado 2/2; 37-39: Aluvión 3/3; 40: Sed de sangre 1/1; 50-52: Maestría táctica mejorada 3/3. Entrena doble empuñadura a nivel 20.",
+      "text_en": "Levels 10-14: Cruelty 5/5; 15-19: Unbridled Wrath 5/5; 20-22: Furious Precision 3/3; 25-29: Dual Wield Specialization 5/5; 30: Death Wish 1/1; 31: Reckless Swings 1/1; 32-33: Improved Berserker Rage 2/2; 35-36: Improved Whirlwind 2/2; 37-39: Flurry 3/3; 40: Bloodthirst 1/1; 50-52: Improved Tactical Mastery 3/3. Train dual wield at level 20.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Fury Warrior Leveling Guide › Leveling Talent Build",
+          "url": "https://www.icy-veins.com/wow-forever/fury-warrior-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Fury Warrior DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/dps-leveling-tips",
+          "date": "2026-11-07"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:leveling"
+      ],
+      "source_hashes": [
+        "section:60912d4380d6d5944b83c7f828b03ad767e7af08",
+        "section:dd91363c3dfc033c1a7f4fafcfae70faeba7e950"
+      ]
     }
   ]
 }
