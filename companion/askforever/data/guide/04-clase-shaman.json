@@ -7,8 +7,8 @@
       "status": "editorial",
       "title_es": "Qué hace un Chamán",
       "title_en": "What a Shaman Does",
-      "summary_es": "Chamán usa los elementos para dañar a distancia o en cuerpo a cuerpo, curar y apoyar con totems.",
-      "summary_en": "Shaman uses the elements to damage at range or in melee, heal, and support with totems.",
+      "summary_es": "El Chamán canaliza los elementos, apoya con tótems y puede atacar, curar o controlar.",
+      "summary_en": "Shaman channels the elements, supports with totems, and can attack, heal, or control.",
       "keywords_es": [
         "qué hace un chamán",
         "chamán elementos",
@@ -23,25 +23,63 @@
         "shaman healing",
         "shaman melee"
       ],
-      "text_es": "El Chamán domina los cuatro elementos y puede lanzar hechizos a distancia, pelear cuerpo a cuerpo con armas imbuidas o curar a sus aliados. Sus totems son su seña de identidad: son estaciones fijas que dan buffs, dañan o controlan alrededor de donde se colocan. También tiene escudos elementales, interrupciones y herramientas de resurrección. Es una clase muy flexible, pero sus hechizos cuestan mucha maná y casi todo exige quedarse quieto para lanzar.",
-      "text_en": "Shaman commands the four elements and can cast from range, fight in melee with imbued weapons, or heal allies. Totems are its signature: stationary stations that buff, damage, or control around where they are placed. It also has lightning and water shields, interrupts, and resurrection tools. It is very flexible, but its spells cost a lot of mana and almost everything requires standing still to cast.",
+      "text_es": "El Chamán canaliza fuego, agua, aire y tierra para atacar a distancia, combatir cuerpo a cuerpo o sanar. Sus tótems dejan efectos en un radio fijo que fortalecen aliados, dañan enemigos o aportan control. También dispone de Escudo de agua, purgas, interrupción y resurrección; gestionar tótems y maná es esencial.",
+      "text_en": "Shaman channels fire, water, air, and earth to attack at range, fight in melee, or heal. Its totems create fixed-radius effects that buff allies, damage enemies, or control them. It also has Water Shield, dispels, an interrupt, and resurrection; totem and mana management are essential.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
         {
           "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman DPS Guide - WoW: Forever › Elemental Shaman for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Guide - WoW: Forever › Enhancement Shaman for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/overview-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Healer Guide - WoW: Forever › Restoration Shaman for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman DPS Guide - WoW: Forever › Changes to Elemental Shaman in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
           "ref": "Icy Veins: Shaman Class Guide › Comprehensive Guide to Shaman in World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/shaman-class-overview",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Enhancement Shaman Guide › Enhancement Shaman Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/enhancement-shaman-melee-dps-pve-guide",
+          "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:shaman:general:shaman-class-overview"
+        "class:shaman:elemental:overview",
+        "class:shaman:enhancement:overview",
+        "class:shaman:general:shaman-class-overview",
+        "class:shaman:restoration:overview"
       ],
       "source_hashes": [
-        "section:eb2fdd7d79281957c674f5d4a7402f7477f9d887"
+        "section:54b33e866b653415f62f3443937e721fd23af2dc",
+        "section:788f981f22d9bc94be4370be85be069010bdba4e",
+        "section:cd4867699d620eef2476b89815b4eab2cb7c742a",
+        "section:d54b421712ee117d67f46e8635928ec56c1c9d68",
+        "section:eb2fdd7d79281957c674f5d4a7402f7477f9d887",
+        "section:f9995ca43545f452582214580ee3c2244fa4e73c"
       ]
     },
     {
@@ -50,8 +88,8 @@
       "status": "editorial",
       "title_es": "Especializaciones del Chamán",
       "title_en": "Shaman Specializations",
-      "summary_es": "Elemental lanza a distancia, Mejora pega cuerpo a cuerpo con armas imbuidas y Recuperación cura.",
-      "summary_en": "Elemental casts from range, Enhancement fights in melee with imbued weapons, and Restoration heals.",
+      "summary_es": "Elemental destaca a distancia y en área; Mejora pelea a dos manos; Recuperación cura en grupo.",
+      "summary_en": "Elemental excels at ranged AoE; Enhancement fights with a two-hander; Restoration heals groups.",
       "keywords_es": [
         "especializaciones del chamán",
         "chamán elemental mejora recuperación",
@@ -66,17 +104,142 @@
         "shaman melee",
         "shaman healer"
       ],
-      "text_es": "Elemental hace daño a distancia con relámpagos y fuego, y destaca en área con Nova de Fuego y Cadena de relámpagos. Mejora lucha cuerpo a cuerpo, imbuye sus armas y usa Golpe de tormenta y choques. Recuperación es la rama sanadora, con Onda de curación, Curación en cadena y Las Mareas Vivas. Las tres usan totems y maná; solo Recuperación es sanadora y ninguna es tanque.",
-      "text_en": "Elemental deals ranged damage with lightning and fire, and excels in area with Fire Nova and Chain Lightning. Enhancement fights in melee, imbues its weapons, and uses Stormstrike and shocks. Restoration is the healing tree, with Healing Wave, Chain Heal, and Riptide. All three use totems and mana; only Restoration is a healer, and none is a tank.",
+      "text_es": "Elemental lanza Descarga de relámpagos y Choque de llamas a distancia; Cadena de relámpagos y Nova de Fuego dan cleave y área, con alto coste de maná y menos daño a un objetivo. Mejora combate con dos manos; Golpe de tormenta aporta ráfagas y la rama sube bien, aunque su área exige maná. Para sanar, Recuperación es la Especialización en sanación: Onda de curación cubre un objetivo y Mareas vivas potencia Curación en cadena; es eficaz en grupos, no para subir en solitario. Las tres ramas usan tótems y maná.",
+      "text_en": "Elemental casts Lightning Bolt and Flame Shock at range; Chain Lightning and Fire Nova bring cleave/AoE, while single-target output is more modest and mana costs high. Enhancement uses a two-hander and gains burst from Stormstrike; the spec levels well, though its AoE needs mana. For healing, Restoration is the healer branch: Healing Wave covers one target and Riptide boosts Chain Heal; it excels in groups, not solo leveling. All three rely on totems and mana.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Shaman Class Guide › Shaman in World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/shaman-class-overview",
+          "ref": "Wowhead: Elemental Shaman DPS Guide - WoW: Forever › Elemental Shaman for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Guide - WoW: Forever › Viability of Enhancement Shamans in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/overview-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Guide - WoW: Forever › Strengths and Weaknesses of Enhancement Shamans in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/overview-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Healer Guide - WoW: Forever › Changes to Restoration Shaman in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Healer Guide - WoW: Forever › Restoration Shaman for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Enhancement Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/rotation-cooldowns-pve-dps",
+          "date": "2026-10-29"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Elemental Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/rotation-cooldowns-pve-dps",
           "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:elemental:overview",
+        "class:shaman:elemental:rotation",
+        "class:shaman:enhancement:overview",
+        "class:shaman:enhancement:rotation",
+        "class:shaman:restoration:overview"
+      ],
+      "source_hashes": [
+        "section:1ce71735cc97a9e743e76903eb30d978c01da8b8",
+        "section:2981a5842596f99788abac67015ad6ea1739e497",
+        "section:417cce8f5eb0abe0dec3ea0b79a906ebf9e31645",
+        "section:54b33e866b653415f62f3443937e721fd23af2dc",
+        "section:cbfa4ca42d8d3108c72126038f3475700dd4f7f5",
+        "section:d54b421712ee117d67f46e8635928ec56c1c9d68",
+        "section:f589633e3b329c3a5ecba8f5518feccd9e3ea0d7"
+      ]
+    },
+    {
+      "id": "clase-shaman-cambios-forever",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Qué cambia en Forever para el Chamán",
+      "title_en": "What Changes for Shaman in Forever",
+      "summary_es": "Forever cambia la movilidad, las armas de Mejora, el área Elemental y las herramientas de Recuperación.",
+      "summary_en": "Forever changes mobility, Enhancement weapons, Elemental AoE, and Restoration tools.",
+      "keywords_es": [
+        "cambios del chamán en forever",
+        "lobo fantasmal forever",
+        "chamán elemental área",
+        "viento furioso arma y tótem",
+        "chamán recuperación"
+      ],
+      "keywords_en": [
+        "shaman forever changes",
+        "ghost wolf forever",
+        "elemental shaman aoe",
+        "windfury weapon totem",
+        "restoration shaman"
+      ],
+      "text_es": "Lobo fantasmal se lanza en 1 s; Lobo fantasmal mejorado 2/2 lo hace instantáneo y usable en interiores. Elemental recibe Nova de Fuego como hechizo básico y Vinculado a la tierra enraíza 5 s con Tótem Nexo Terrestre. Mejora queda en dos manos; Golpe de tormenta llega a 25 y Arma vorágine permite lanzar Descarga de relámpagos al instante con 5 cargas. Arma tótem Viento Furioso se acumula con Tótem Viento Furioso. Recuperación gana Escudo de agua, Mareas vivas y Conciencia; Mareas vivas potencia Curación en cadena un 25% y Tótem Marea de maná (Tótem de marea de maná) ayuda al grupo.",
+      "text_en": "Ghost Wolf has a 1-second cast; Improved Ghost Wolf 2/2 makes it instant and usable indoors. Elemental gains baseline Fire Nova, and Earthbound roots for 5 seconds with Earthbind Totem. Enhancement becomes two-handed only and gains Stormstrike at 25; Maelstrom Weapon makes Lightning Bolt instant at 5 stacks. Windfury Weapon stacks with Windfury Totem. Restoration gains Water Shield, Riptide, and Mindfulness; Riptide boosts Chain Heal by 25%, and Mana Tide Totem supports the group.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman DPS Guide - WoW: Forever › Changes to Elemental Shaman in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Guide - WoW: Forever › Changes to Enhancement Shaman in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/overview-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/overview-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/overview-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Healer Guide - WoW: Forever › Changes to Restoration Shaman in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Healer Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/overview-pve-healer",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
@@ -92,82 +255,29 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Restoration Shaman Guide › Restoration Shaman Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/restoration-shaman-healer-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Restoration Shaman Healer Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Restoration Shaman Healer in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/rotation-cooldowns-pve-healer",
+          "date": "2026-11-01"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:shaman:elemental:overview",
         "class:shaman:enhancement:overview",
-        "class:shaman:general:shaman-class-overview",
-        "class:shaman:restoration:overview"
+        "class:shaman:restoration:overview",
+        "class:shaman:restoration:rotation"
       ],
       "source_hashes": [
         "section:15c57f7d8e2f3474d630c1126cea331be603e32c",
-        "section:23c17c41cfbdafceb1fe15f41ae624a58133f173",
-        "section:c3e8367744114cdbbbdc3e66cfdca208a42333fc",
+        "section:2dcd1aeb649e9a6b067eb25845d75562a2ffcf46",
+        "section:4da9bfedc6695d6ca5c1d966c0774041bc29d7f5",
+        "section:4e0be73eb57053f6974b86b526385526b67f635c",
+        "section:925caa62d6c0f95b48313677afdc0512dbff0fa4",
+        "section:cd4867699d620eef2476b89815b4eab2cb7c742a",
+        "section:ec9461f42f0086478c70c2fdf1e74705d8f21ca2",
+        "section:f15ba0e6ffeec55586623162f1ad6e950c25f82e",
+        "section:f589633e3b329c3a5ecba8f5518feccd9e3ea0d7",
         "section:f9995ca43545f452582214580ee3c2244fa4e73c"
-      ]
-    },
-    {
-      "id": "clase-shaman-cambios-forever",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Qué cambia en Forever para el Chamán",
-      "title_en": "What Changes for Shaman in Forever",
-      "summary_es": "Lobo fantasmal mejora la movilidad, Elemental gana área, Mejora combina Viento Furioso y Recuperación gana curas.",
-      "summary_en": "Ghost Wolf improves mobility, Elemental gains area, Enhancement combines Windfury, and Restoration gains heals.",
-      "keywords_es": [
-        "cambios del chamán en forever",
-        "lobo fantasmal forever",
-        "chamán elemental área",
-        "viento furioso arma y tótem",
-        "chamán recuperación"
-      ],
-      "keywords_en": [
-        "shaman forever changes",
-        "ghost wolf forever",
-        "elemental shaman aoe",
-        "windfury weapon totem",
-        "restoration shaman"
-      ],
-      "text_es": "En Forever, Lobo fantasmal tiene un lanzamiento de un segundo y Lobo fantasmal mejorado lo hace instantáneo y usable en interiores, lo que da movilidad a las tres ramas. Elemental recibe Nova de Fuego pronto y el talento Vinculado a la tierra para enraizar con Tótem Nexo Terrestre. Mejora llega a Golpe de tormenta a 25 y Tótem Viento Furioso se combina con tu propio Arma tótem Viento Furioso. Recuperación gana Las Mareas Vivas y Curación en cadena, y el Tótem de marea de maná aporta maná al grupo.",
-      "text_en": "In Forever, Ghost Wolf has a one-second cast and Improved Ghost Wolf makes it instant and usable indoors, giving all three trees mobility. Elemental gets Fire Nova early and the Earthbound talent to root with Earthbind Totem. Enhancement reaches Stormstrike at 25, and Windfury Totem combines with your own Windfury Weapon. Restoration gains Riptide and Chain Heal, and Mana Tide Totem gives mana to the group.",
-      "tags": [
-        "SHAMAN"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Guide › Wolf Runners",
-          "url": "https://www.icy-veins.com/wow-forever/elemental-shaman-ranged-dps-pve-guide",
-          "date": "2026-11-09"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Enhancement Shaman Guide › Highly mobile thanks to Ghost Wolf",
-          "url": "https://www.icy-veins.com/wow-forever/enhancement-shaman-melee-dps-pve-guide",
-          "date": "2026-11-13"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Restoration Shaman Guide › Wolf Runners",
-          "url": "https://www.icy-veins.com/wow-forever/restoration-shaman-healer-pve-guide",
-          "date": "2026-11-09"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:shaman:elemental:overview",
-        "class:shaman:enhancement:overview",
-        "class:shaman:restoration:overview"
-      ],
-      "source_hashes": [
-        "guide:362ec67c4bf15df52d6468c71723227bb1f1cb56",
-        "guide:81bb51980fd9340dab3a302990f25b62adc4a27c",
-        "guide:d764d15af2190d3f2e13c9624263f798abfe2d07"
       ]
     },
     {
@@ -744,8 +854,8 @@
       "status": "editorial",
       "title_es": "Misiones de clase de los totems",
       "title_en": "Totem Class Quests",
-      "summary_es": "Clamor de Tierra 4; La llamada del Fuego 10; La llamada del agua 20; La llamada del aire 30; The Tempest's Weapons 30.",
-      "summary_en": "Call of Earth 4; Call of Fire 10; Call of Water 20; Call of Air 30; The Tempest's Weapons 30.",
+      "summary_es": "Las misiones de tótems se desbloquean entre niveles 3 y 30; El azote de la tormenta es difícil al 30.",
+      "summary_en": "Totem quests unlock from levels 3 to 30; The Tempest’s Weapons is difficult at 30.",
       "keywords_es": [
         "misiones de clase chamán",
         "clamor de tierra",
@@ -760,32 +870,46 @@
         "call of water",
         "the tempest's weapons"
       ],
-      "text_es": "Las misiones de tótem son las importantes: Clamor de Tierra a 4, La llamada del Fuego a 10, La llamada del agua a 20 y La llamada del aire a 30. A 30 también se abre The Tempest's Weapons, que da un escudo y un arma, pero es difícil a ese nivel y conviene esperar o llevar ayuda. Las misiones de tótem desbloquean Tótem piel de piedra, Tótem abrasador, Tótem Corriente de sanación, que usa Corriente curativa, y el tótem de aire.",
-      "text_en": "The totem quests are the important ones: Call of Earth at 4, Call of Fire at 10, Call of Water at 20, and Call of Air at 30. At 30, The Tempest's Weapons also opens, giving a shield and a weapon, but it is difficult at that level and worth delaying or bringing help. The totem quests unlock Stoneskin Totem, Searing Totem, Healing Stream Totem, and the air totem.",
+      "text_es": "La llamada de la tierra (Clamor de Tierra para Orco/Trol) se desbloquea al nivel 3 para Cielonato y 4 para otras razas; La llamada del Fuego llega a 10, La llamada del agua a 20 y La llamada del aire a 30. Desbloquean Tótem piel de piedra, Tótem abrasador, Tótem de las llamas cargadas, Tótem Corriente de sanación y Tótem de aire. La cadena del Agua es larga y puede hacerse poco a poco. La llamada del aire abre El azote de la tormenta; pasa por zonas de nivel 35–40 y termina contra élites. Da Guardia de elementalista y un arma a elegir; conviene esperar o pedir ayuda.",
+      "text_en": "Call of Earth unlocks at level 3 for Skyborne and 4 for other races; Call of Fire comes at 10, Call of Water at 20, and Call of Air at 30. They unlock Stoneskin Totem, Searing Totem, Totem of Charged Flames, Healing Stream Totem, and Air Totem. The Water chain is long and can be done gradually. Call of Air opens The Tempest's Weapons; it crosses level 35–40 zones and ends with elites. It awards Elementalist's Guard and a weapon choice, so wait or get help.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Shaman Class Quests Guide › Shaman Class Quest Guide for World of Warcraft: Forever",
+          "ref": "Icy Veins: World of Warcraft: Forever Shaman Class Quests Guide › Dwarf Shaman Class Quests",
           "url": "https://www.icy-veins.com/wow-forever/shaman-class-quests",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Shaman Class Quests Guide › Level 30 - The Tempest's Weapons",
+          "ref": "Icy Veins: World of Warcraft: Forever Shaman Class Quests Guide › Orc & Troll Shaman Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/shaman-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shaman Class Quests Guide › Tauren Shaman Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/shaman-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shaman Class Quests Guide › Skyborne Shaman Class Quests",
           "url": "https://www.icy-veins.com/wow-forever/shaman-class-quests",
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:shaman:general:shaman-class-quests"
       ],
       "source_hashes": [
-        "guide:837e57c5cf98452a46f86e9adb37f4d9bfc5b17f",
-        "section:983e390d82846c7a28eb3b1c984c0b04efadbcf4"
+        "section:0d3236d10ec99ecdb4990a055e073ce537ea9ce1",
+        "section:24a222bfc6cc719bb19ce5271c072364730cc56d",
+        "section:842b5981355c53b89462805ed9809cd44bfbf004",
+        "section:9a7e74fe43c6c3b4ce2aac75256934a86273bbfa"
       ]
     },
     {
@@ -845,8 +969,8 @@
       "status": "editorial",
       "title_es": "El Chamán en grupo y mazmorras",
       "title_en": "Shaman in Groups and Dungeons",
-      "summary_es": "Aporta tótems de buff, interrupción, limpieza, resurrección y curación o daño según la rama.",
-      "summary_en": "Brings buff totems, interrupts, cleansing, resurrection, and healing or damage depending on the tree.",
+      "summary_es": "Tótems aportan mejoras y control; Choque de tierra interrumpe y Recuperación devuelve maná al grupo.",
+      "summary_en": "Totems provide buffs and control; Earth Shock interrupts and Restoration restores group mana.",
       "keywords_es": [
         "chamán en grupo",
         "chamán en mazmorras",
@@ -861,41 +985,64 @@
         "shaman interrupt",
         "shaman resurrection"
       ],
-      "text_es": "En grupo, el Chamán aporta tótems de buff como Tótem Viento Furioso o Tótem Fuerza de la tierra, además de Tótem derribador, Tótem de tremor y limpieza con Purgar, Curar veneno y Curar enfermedad. Choque de tierra interrumpe, Espíritu ancestral resucita y Reencarnación permite recuperar un wipe. Elemental y Mejora hacen daño; Recuperación cura con Onda de curación y Curación en cadena. Coloca los tótems antes de la pull y avisa si tienes que moverte.",
-      "text_en": "In a group, Shaman brings buff totems such as Windfury Totem or the Strength of Earth buff, plus Grounding Totem, Tremor Totem, and cleansing with Purge, Cure Poison, and Cure Disease. Earth Shock interrupts, Ancestral Spirit resurrects, and Reincarnation helps recover a wipe. Elemental and Enhancement deal damage; Restoration heals with Healing Wave and Chain Heal. Place totems before the pull and warn the group when you have to move.",
+      "text_es": "En grupo, Tótem Fuerza de la tierra y Tótem Viento Furioso apoyan a los aliados; Tótem derribador, Tótem de tremor y Tótem Nexo Terrestre aportan utilidad o control. Choque de tierra interrumpe, Purgar elimina beneficios enemigos y Reencarnación permite volver tras morir. Mejora aporta Tótem Viento Furioso al grupo cuerpo a cuerpo; Recuperación cura con Onda de curación y Curación en cadena, y Tótem Marea de maná (Tótem de marea de maná) devuelve maná al grupo. Coloca y reubica los tótems para mantener a los aliados en su radio.",
+      "text_en": "In groups, Strength of Earth and Windfury totems support allies; Grounding Totem, Tremor Totem, and Earthbind Totem provide utility or control. Earth Shock interrupts, Purge removes enemy buffs, and Reincarnation helps recover after a wipe; in melee groups, Enhancement supplies Windfury Totem, while Restoration heals with Healing Wave and Chain Heal and supplies Mana Tide Totem. Place and move totems to keep allies in range.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Guide › WoW Forever's Swiss-Knife",
-          "url": "https://www.icy-veins.com/wow-forever/elemental-shaman-ranged-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Elemental Shaman DPS Guide - WoW: Forever › Elemental Shaman for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/overview-pve-dps",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Enhancement Shaman Guide › An answer for almost every situation",
+          "ref": "Wowhead: Enhancement Shaman DPS Guide - WoW: Forever › Viability of Enhancement Shamans in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/overview-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Healer Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Restoration Shaman Healer in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/rotation-cooldowns-pve-healer",
+          "date": "2026-11-01"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Shaman Class Guide › Comprehensive Guide to Shaman in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/shaman-class-overview",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Enhancement Shaman Guide › Enhancement Shaman Guide for World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/enhancement-shaman-melee-dps-pve-guide",
           "date": "2026-11-13"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Restoration Shaman Guide › WoW Forever's Swiss-Knife",
+          "ref": "Icy Veins: World of Warcraft: Forever Restoration Shaman Guide › Restoration Shaman Guide for World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/restoration-shaman-healer-pve-guide",
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:shaman:elemental:overview",
         "class:shaman:enhancement:overview",
-        "class:shaman:restoration:overview"
+        "class:shaman:general:shaman-class-overview",
+        "class:shaman:restoration:overview",
+        "class:shaman:restoration:rotation"
       ],
       "source_hashes": [
-        "guide:362ec67c4bf15df52d6468c71723227bb1f1cb56",
-        "guide:81bb51980fd9340dab3a302990f25b62adc4a27c",
-        "guide:d764d15af2190d3f2e13c9624263f798abfe2d07"
+        "section:417cce8f5eb0abe0dec3ea0b79a906ebf9e31645",
+        "section:4da9bfedc6695d6ca5c1d966c0774041bc29d7f5",
+        "section:c3e8367744114cdbbbdc3e66cfdca208a42333fc",
+        "section:d54b421712ee117d67f46e8635928ec56c1c9d68",
+        "section:eb2fdd7d79281957c674f5d4a7402f7477f9d887",
+        "section:f9995ca43545f452582214580ee3c2244fa4e73c"
       ]
     },
     {
@@ -904,8 +1051,8 @@
       "status": "editorial",
       "title_es": "Elemental: daño a distancia",
       "title_en": "Elemental: Ranged Damage",
-      "summary_es": "Elemental usa Descarga de relámpagos, Choque de llamas y Cadena de relámpagos; es débil al principio pero escala.",
-      "summary_en": "Elemental uses Lightning Bolt, Flame Shock and Chain Lightning; it is weak early but scales.",
+      "summary_es": "Elemental lanza relámpagos y fuego; sobresale en área, aunque consume mucho maná.",
+      "summary_en": "Elemental casts lightning and fire; it excels at AoE but consumes much mana.",
       "keywords_es": [
         "chamán elemental",
         "elemental relámpagos",
@@ -920,12 +1067,30 @@
         "fire nova",
         "shaman ranged damage"
       ],
-      "text_es": "Elemental hace daño a distancia con Descarga de relámpagos, Choque de llamas y Cadena de relámpagos, y usa Nova de Fuego para grupos. Al principio su daño es bajo y el maná se gasta rápido, pero sus talentos profundos mejoran mucho el daño y el área. Es un buen miembro de mazmorra por su daño flexible y sus tótems, aunque depende de quedarse quieto para lanzar. En grupo, coloca los tótems y guarda Choque de tierra para interrumpir.",
-      "text_en": "Elemental deals ranged damage with Lightning Bolt, Flame Shock, and Chain Lightning, and uses Fire Nova for groups. Its damage is low early and mana drains quickly, but its deep talents greatly improve damage and area. It is a good dungeon member thanks to flexible damage and totems, though it depends on standing still to cast. In a group, place totems and save Earth Shock to interrupt.",
+      "text_es": "Elemental lanza Descarga de relámpagos y Choque de llamas a distancia; Cadena de relámpagos y Nova de Fuego aportan cleave y área. Los talentos profundos aumentan su daño, pero al inicio es flojo y consume mucho maná. Es útil en mazmorras por el daño flexible, los tótems y la curación de apoyo. Vinculado a la tierra enraíza 5 s con Tótem Nexo Terrestre; Choque de tierra interrumpe.",
+      "text_en": "Elemental uses Lightning Bolt and Flame Shock at range; Chain Lightning and Fire Nova provide cleave and AoE. Deep talents raise its damage, but it is weak early and consumes much mana. It helps in dungeons with flexible damage, totems, and off-healing. Earthbound roots for 5 seconds with Earthbind Totem; Earth Shock interrupts.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman DPS Guide - WoW: Forever › Elemental Shaman for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Elemental Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/rotation-cooldowns-pve-dps",
+          "date": "2026-11-04"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Guide › Elemental Shaman Guide for World of Warcraft: Forever",
@@ -933,12 +1098,16 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:shaman:elemental:overview"
+        "class:shaman:elemental:overview",
+        "class:shaman:elemental:rotation"
       ],
       "source_hashes": [
-        "section:15c57f7d8e2f3474d630c1126cea331be603e32c"
+        "section:15c57f7d8e2f3474d630c1126cea331be603e32c",
+        "section:4e0be73eb57053f6974b86b526385526b67f635c",
+        "section:cbfa4ca42d8d3108c72126038f3475700dd4f7f5",
+        "section:d54b421712ee117d67f46e8635928ec56c1c9d68"
       ]
     },
     {
@@ -947,8 +1116,8 @@
       "status": "editorial",
       "title_es": "Mejora: daño con armas imbuidas",
       "title_en": "Enhancement: Imbued Weapon Damage",
-      "summary_es": "Mejora usa Golpe de tormenta, choques y armas imbuidas; pega fuerte y se cura, pero el maná aprieta.",
-      "summary_en": "Enhancement uses Stormstrike, shocks and imbued weapons; it hits hard and self-heals, but mana is tight.",
+      "summary_es": "Mejora pelea con dos manos, aporta ráfagas y se mueve con Lobo fantasmal, pero debe cuidar maná y amenaza.",
+      "summary_en": "Enhancement fights with a two-hander and brings burst and mobility, but must manage mana and threat.",
       "keywords_es": [
         "chamán mejora",
         "mejora cuerpo a cuerpo",
@@ -963,12 +1132,42 @@
         "windfury weapon",
         "enhancement self healing"
       ],
-      "text_es": "Mejora es la rama cuerpo a cuerpo: imbuye sus armas con Arma comerrocas, Arma lengua de Fuego o Arma tótem Viento Furioso y golpea con Golpe de tormenta y choques. Tiene mucho estallido, autocuración y movilidad con Lobo fantasmal, así que es cómoda una vez tiene el equipo y los talentos. Su problema es el maná: los hechizos son caros y necesita controlar el gasto. En grupo, Tótem Viento Furioso ayuda a los cuerpos a cuerpo y Choque de tierra interrumpe.",
-      "text_en": "Enhancement is the melee tree: it imbues weapons with Rockbiter Weapon, Flametongue Weapon, or Windfury Weapon and hits with Stormstrike and shocks. It has strong burst, self-healing, and Ghost Wolf mobility, so it is comfortable once it has gear and talents. Its problem is mana: spells are expensive and it must control spending. In a group, Windfury Totem helps melee and Earth Shock interrupts.",
+      "text_es": "Mejora combate con dos manos, sin doble empuñadura; imbuye con Arma comerrocas, Arma lengua de Fuego o Arma tótem Viento Furioso. Golpe de tormenta llega a 25; Choque de tierra y otros choques completan los ataques. Arma vorágine permite Descarga de relámpagos instantánea y gratis con 5 cargas. Tiene ráfaga, autocuración y movilidad con Lobo fantasmal mejorado, pero maná y amenaza aprietan antes de Armas de espíritu; Nova de Fuego aporta área y Tótem Viento Furioso apoya a melee.",
+      "text_en": "Enhancement fights with a two-hander and no dual-wielding; it imbues weapons with Rockbiter Weapon, Flametongue Weapon, or Windfury Weapon. The spec gains Stormstrike at 25; Earth Shock and other Shocks fill out its attacks. Maelstrom Weapon gives a free instant Lightning Bolt at 5 stacks. It has burst and self-healing; mobility comes from Ghost Wolf and Improved Ghost Wolf, while mana and threat are concerns before Spirit Weapons. Fire Nova adds AoE and Windfury Totem supports melee.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Guide - WoW: Forever › Changes to Enhancement Shaman in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/overview-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/overview-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/overview-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Guide - WoW: Forever › Viability of Enhancement Shamans in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/overview-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Guide - WoW: Forever › Enhancement Shaman Specific Systems in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/overview-pve-dps",
+          "date": "2026-11-16"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Enhancement Shaman Guide › Enhancement Shaman Guide for World of Warcraft: Forever",
@@ -976,11 +1175,16 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:shaman:enhancement:overview"
       ],
       "source_hashes": [
+        "section:16aa001fb34ed869b408af1d65c3258b20aaec42",
+        "section:2dcd1aeb649e9a6b067eb25845d75562a2ffcf46",
+        "section:417cce8f5eb0abe0dec3ea0b79a906ebf9e31645",
+        "section:925caa62d6c0f95b48313677afdc0512dbff0fa4",
+        "section:ec9461f42f0086478c70c2fdf1e74705d8f21ca2",
         "section:f9995ca43545f452582214580ee3c2244fa4e73c"
       ]
     },
@@ -990,8 +1194,8 @@
       "status": "editorial",
       "title_es": "Recuperación: sanación de grupo",
       "title_en": "Restoration: Group Healing",
-      "summary_es": "Recuperación cura con Onda de curación, Curación en cadena y Las Mareas Vivas; es fuerte en grupo, no en solitario.",
-      "summary_en": "Restoration heals with Healing Wave, Chain Heal and Riptide; it is strong in groups, not solo.",
+      "summary_es": "Recuperación cura grupos con Mareas vivas, Onda de curación y Curación en cadena.",
+      "summary_en": "Restoration heals groups with Riptide, Healing Wave, and Chain Heal.",
       "keywords_es": [
         "chamán recuperación",
         "chamán sanador",
@@ -1006,25 +1210,69 @@
         "chain heal",
         "riptide"
       ],
-      "text_es": "Recuperación es la rama sanadora: Onda de curación cubre a un objetivo, Curación en cadena salta entre aliados heridos y Las Mareas Vivas añade una curación en el tiempo que mejora Curación en cadena. Tótem de marea de maná devuelve maná al grupo y Tótem Corriente de sanación aporta Corriente curativa pasiva. Es muy fuerte en mazmorras, pero no se recomienda para subir en solitario porque hace poco daño. Coloca los tótems antes de la pull y guarda Rapidez de la Naturaleza para una emergencia.",
-      "text_en": "Restoration is the healing tree: Healing Wave covers one target, Chain Heal jumps between injured allies, and Riptide adds a heal over time that improves Chain Heal. Mana Tide Totem returns mana to the group and Healing Stream Totem adds passive healing. It is very strong in dungeons, but not recommended for solo leveling because it deals little damage. Place totems before the pull and save Nature's Swiftness for an emergency.",
+      "text_es": "Recuperación es la Especialización en sanación y funciona mejor en grupo que subiendo en solitario. Onda de curación cubre un objetivo, mientras Mareas vivas deja una cura de 15 s y aumenta 25% Curación en cadena sobre ese aliado. Escudo de agua y Conciencia ayudan con el maná, mientras Tótem Marea de maná (Tótem de marea de maná) lo devuelve al grupo. Rapidez de la Naturaleza es una herramienta de emergencia; la misión del Agua desbloquea Tótem Corriente de sanación.",
+      "text_en": "Restoration is the healer branch and works better in groups than solo leveling. Healing Wave handles one target, while Riptide leaves a 15-second heal over time and increases Chain Heal by 25% on that ally. Water Shield and Mindfulness help mana, while Mana Tide Totem restores it to the group. Nature's Swiftness is an emergency tool; the Water quest unlocks Healing Stream Totem.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Restoration Shaman Guide › Restoration Shaman Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/restoration-shaman-healer-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Restoration Shaman Healer Guide - WoW: Forever › Changes to Restoration Shaman in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Healer Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Healer Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Healer Guide - WoW: Forever › Restoration Shaman for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Healer Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Restoration Shaman Healer in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/rotation-cooldowns-pve-healer",
+          "date": "2026-11-01"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Healer Rotation and Cooldowns - WoW: Forever › Best Restoration Shaman Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/rotation-cooldowns-pve-healer",
+          "date": "2026-11-01"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shaman Class Quests Guide › Dwarf Shaman Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/shaman-class-quests",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:shaman:restoration:overview"
+        "class:shaman:general:shaman-class-quests",
+        "class:shaman:restoration:overview",
+        "class:shaman:restoration:rotation"
       ],
       "source_hashes": [
-        "section:c3e8367744114cdbbbdc3e66cfdca208a42333fc"
+        "section:24a222bfc6cc719bb19ce5271c072364730cc56d",
+        "section:4da9bfedc6695d6ca5c1d966c0774041bc29d7f5",
+        "section:54b33e866b653415f62f3443937e721fd23af2dc",
+        "section:7bbe7934096210d22cb876d984f9d5ac73f7499e",
+        "section:c526035c7faddaa4605a2b39ef51786b87984df2",
+        "section:f15ba0e6ffeec55586623162f1ad6e950c25f82e",
+        "section:f589633e3b329c3a5ecba8f5518feccd9e3ea0d7"
       ]
     }
   ]
