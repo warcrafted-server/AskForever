@@ -117,8 +117,8 @@
       "status": "editorial",
       "title_es": "Qué cambia en Forever para el Brujo",
       "title_en": "What Changes for Warlock in Forever",
-      "summary_es": "El Brujo maneja salud, maná y fragmentos de alma; sus demonios escalan con sus estadísticas y se entrenan con grimorios.",
-      "summary_en": "Warlock manages health, mana and soul shards; its demons scale with its stats and are trained with grimoires.",
+      "summary_es": "El Brujo equilibra salud, maná y fragmentos; los grimorios enseñan habilidades a los demonios.",
+      "summary_en": "Warlocks balance health, mana, and soul shards; grimoires teach abilities to their demons.",
       "keywords_es": [
         "cambios del brujo en forever",
         "recursos del brujo",
@@ -133,8 +133,8 @@
         "demons scale",
         "warlock grimoires"
       ],
-      "text_es": "En Forever, el Brujo administra tres recursos: maná, salud y fragmentos de alma. Transfusión de vida, desde nivel 6, cambia salud por maná, y el Espíritu aumenta lo que convierte; Drenar alma, desde 10, genera un fragmento de alma. Los fragmentos no se apilan y una bolsa de fragmentos ocupa el hueco de reactivos. Los demonios escalan con tus estadísticas y sus habilidades se compran en grimorios, aparte de tus hechizos.",
-      "text_en": "In Forever, Warlock manages three resources: mana, health, and soul shards. Life Tap, from level 6, trades health for mana, and Spirit increases the amount converted; Drain Soul, from 10, generates a soul shard. Shards do not stack, and a soul shard bag uses the reagent bag slot. Demons scale with your stats, and their abilities are bought as grimoires, separately from your spells.",
+      "text_es": "El Brujo administra salud, maná y fragmentos de alma. Transfusión de vida, disponible a 6, convierte salud en maná; el Espíritu aumenta la cantidad transferida. Drenar alma se aprende a 10 y puede generar fragmentos; Drenar vida recupera salud. Los fragmentos no se apilan y una bolsa de fragmentos ocupa el hueco de reactivos. Las habilidades del demonio se compran en grimorios y se entrenan por separado.",
+      "text_en": "Warlocks manage health, mana, and soul shards. Life Tap, learned at 6, converts health into mana; Spirit increases the amount transferred. Drain Soul is learned at 10 and can generate shards, while Drain Life restores health. Shards do not stack, and a shard bag uses the reagent-bag slot. Demon abilities come from grimoires and are trained separately.",
       "tags": [
         "WARLOCK"
       ],
@@ -147,19 +147,18 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Demonology Warlock Leveling Guide › Strengths",
-          "url": "https://www.icy-veins.com/wow-forever/demonology-warlock-leveling",
+          "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Demons and Pet Control",
+          "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-leveling",
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:warlock:affliction:leveling",
-        "class:warlock:demonology:leveling"
+        "class:warlock:affliction:leveling"
       ],
       "source_hashes": [
-        "guide:2d3090210a1699a629e9d89b14935a1c9285fc6e",
-        "section:ac2ef2af02b12a4ea71eb4aba3d6c68a4dbebb96"
+        "section:ac2ef2af02b12a4ea71eb4aba3d6c68a4dbebb96",
+        "section:e0deaae2fa6142988aac9593911b5690ef71fb91"
       ]
     },
     {
@@ -168,8 +167,8 @@
       "status": "editorial",
       "title_es": "Armas y armadura del Brujo",
       "title_en": "Warlock Weapons and Armor",
-      "summary_es": "El Brujo lleva tela y usa bastones, orbes y varitas; la varita da daño sin maná pero exige quedarse quieto.",
-      "summary_en": "Warlock wears cloth and uses staves, orbs and wands; a wand deals damage without mana but needs standing still.",
+      "summary_es": "La varita hace daño sin maná y sirve de relleno; busca bastones, orbes y varitas al mejorar equipo.",
+      "summary_en": "A wand deals damage without mana and works as filler; look for staves, orbs, and wands as upgrades.",
       "keywords_es": [
         "armas del brujo",
         "armadura del brujo",
@@ -184,8 +183,8 @@
         "warlock wand",
         "warlock orb"
       ],
-      "text_es": "El Brujo lleva tela. En el equipo de subida aparecen bastones, orbes y varitas: puede llevar un bastón a dos manos o un arma de una mano con orbe, y la varita aporta daño sin gastar maná. Para disparar la varita hay que quedarse quieto un instante, y su daño no aumenta con Poder con hechizos. Cambia de arma cuando encuentres una mejora, sobre todo si sube el daño de tus hechizos.",
-      "text_en": "Warlock wears cloth. Leveling gear includes staves, orbs, and wands: it can use a two-handed staff or a one-handed weapon with an orb, and a wand deals damage without spending mana. Firing a wand requires standing still briefly, and its damage does not increase with spell power. Change weapons when you find an upgrade, especially one that raises your spell damage.",
+      "text_es": "La varita inflige daño sin gastar maná, por lo que sirve de relleno durante la subida; hay que quedarse quieto brevemente antes de dispararla y el Poder con hechizos no aumenta su daño. Consigue una Varita mágica inferior para nivel 5 y una Varita mágica superior para nivel 13 mediante comercio o con un encantador; mantenla actualizada hasta 30. Entre el equipo de subida también hay bastones, orbes y otras armas.",
+      "text_en": "A wand deals damage without spending mana, making it useful as leveling filler; you must stand still briefly before firing, and Spell Power does not increase its damage. An enchanter can make the Lesser Magic Wand for level 5; at 13, the Greater Magic Wand is another inexpensive option through trade, and keep one current until 30. Leveling gear also includes staves, orbs, and other weapons.",
       "tags": [
         "WARLOCK"
       ],
@@ -201,15 +200,22 @@
           "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Leveling Tips",
           "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-leveling",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Solo Leveling Tips",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:leveling"
       ],
       "source_hashes": [
         "section:99fbf29026d32be5654d9ec808e0c7e2c53cb7f0",
-        "section:e38116b280415566ac9e5c92db357e0ead03492a"
+        "section:e38116b280415566ac9e5c92db357e0ead03492a",
+        "section:fdb152ff765284c28444da661d480884e3562ca7"
       ]
     },
     {
@@ -218,8 +224,8 @@
       "status": "editorial",
       "title_es": "Mejor especialización para subir",
       "title_en": "Best Specialization for Leveling",
-      "summary_es": "Aflicción es la más cómoda en solitario; Demonología también sirve y Destrucción es mejor esperar al 40.",
-      "summary_en": "Affliction is the most comfortable solo; Demonology also works, and Destruction is better delayed until 40.",
+      "summary_es": "Aflicción minimiza descansos; Demonología gana fuerza con Marca demoníaca y Destrucción rinde más en mazmorras.",
+      "summary_en": "Affliction limits downtime; Demonology improves with Demonic Brand, while Destruction suits dungeons better.",
       "keywords_es": [
         "mejor especialización para subir brujo",
         "brujo aflicción para levear",
@@ -234,32 +240,56 @@
         "destruction warlock leveling",
         "which warlock spec to level"
       ],
-      "text_es": "Para subir solo, Aflicción es la opción más redonda: sus efectos en el tiempo dañan a varios enemigos, gran parte del daño sigue mientras te mueves y los drenajes le dan autocuración, así que tiene poco tiempo muerto. Demonología también funciona y es más cómoda contra elites y misiones de grupo gracias al abisario. Destrucción no se recomienda al principio por su maná alto y su poco autosanado; si quieres probarla, espera al nivel 40.",
-      "text_en": "For solo leveling, Affliction is the most well-rounded option: its damage over time hits several enemies, much of the damage continues while you move, and drains give it self-healing, so it has little downtime. Demonology also works and is more comfortable against elites and group quests thanks to the Voidwalker. Destruction is not recommended early because of its high mana cost and low self-healing; if you want to try it, wait until level 40.",
+      "text_es": "Para subir en solitario, Aflicción es eficiente: mata algo más despacio, pero descansa poco y puede llevar dos o tres enemigos a la vez. Demonología empieza más floja, pero el abisario ayuda contra élites y misiones de grupo; Marca demoníaca potencia al demonio al obtener el talento. Destrucción es la más lenta en solitario porque sus talentos dan estallido, no aguante; ese daño explosivo resulta más útil en mazmorras, donde importa menos conservar maná.",
+      "text_en": "For solo leveling, Affliction is efficient: kills take a little longer, but downtime is low and it can handle two or three enemies at once. Demonology starts weaker, but the Voidwalker helps against elites and group quests; Demonic Brand empowers the demon when it unlocks. Destruction is the slowest solo option because its talents provide burst rather than sustain; that burst is more useful in dungeons, where mana conservation matters less.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Strengths",
-          "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Leveling Viability for Affliction Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Pros",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock Leveling Guide - WoW: Forever › Leveling Viability for Demonology Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Leveling Viability for Destruction Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Pros",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Demonology Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/dps-leveling-tips",
+          "date": "2026-11-06"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Demonology Warlock Leveling Guide › Strengths",
           "url": "https://www.icy-veins.com/wow-forever/demonology-warlock-leveling",
           "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Destruction Warlock Leveling Guide › Destruction Warlock Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/destruction-warlock-leveling",
-          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:leveling",
         "class:warlock:demonology:leveling",
@@ -267,8 +297,12 @@
       ],
       "source_hashes": [
         "guide:2d3090210a1699a629e9d89b14935a1c9285fc6e",
-        "guide:2dd8e2e9301c9c6527d8358e0b16237ee219a478",
-        "section:8e1af482b45e85c606ff3a9ba81aaaeb8c2067ff"
+        "section:1fd813698db91b3c574e8c0e2a23e65200da4f29",
+        "section:7121d4606aded21f57d20e9078f95d32b2e69553",
+        "section:78fcf26e7bd6166d52aca9c362d101229fdad4ba",
+        "section:9ca8551261493de0fe9d2f6c74a01b954136b8d4",
+        "section:b0e0d83b6d4968bfaf969f058061c04cf8db7164",
+        "section:eb898b3d29358f0af7e4320583d8af78d3fcffc3"
       ]
     },
     {
@@ -277,8 +311,8 @@
       "status": "editorial",
       "title_es": "Ruta de talentos de Aflicción",
       "title_en": "Affliction Leveling Talent Path",
-      "summary_es": "Ruta de Aflicción: Supresión 10-13, Corrupción mejorado 14-18, Ocaso 25-26, Succionar vida 30 y Arruinar 51.",
-      "summary_en": "Affliction path: Suppression 10-13, Improved Corruption 14-18, Nightfall 25-26, Siphon Life 30 and Wrack 51.",
+      "summary_es": "La ruta de Aflicción prioriza daño periódico instantáneo, drenajes y Arruinar a nivel 47.",
+      "summary_en": "The Affliction path prioritizes instant damage-over-time effects, drains, and Wrack at level 47.",
       "keywords_es": [
         "talentos para subir brujo aflicción",
         "ruta de aflicción",
@@ -293,25 +327,32 @@
         "nightfall warlock",
         "wrack warlock"
       ],
-      "text_es": "Ruta de Aflicción para subir: de 10 a 13, Supresión; de 14 a 18, Corrupción mejorado; de 22 a 24, Pandemia; de 25 a 26, Ocaso; a 30, Succionar vida; a 41, Sacrificio demoníaco; a 43, Malevolencia; de 44 a 45, Alcance macabro; a 51, Arruinar; a 52, Transfusión de vida mejorada; a 53, Amplificar maldición; a 54, Maldición de agotamiento.",
-      "text_en": "Affliction leveling path: at 10-13, Suppression; at 14-18, Improved Corruption; at 22-24, Pandemic; at 25-26, Nightfall; at 30, Siphon Life; at 41, Demonic Sacrifice; at 43, Malevolence; at 44-45, Grim Reach; at 51, Wrack; at 52, Improved Life Tap; at 53, Amplify Curse; at 54, Curse of Exhaustion.",
+      "text_es": "Para subir sin reasignar talentos, prioriza Corrupción mejorado 5/5 para lanzar Corrupción al instante, Supresión 5/5 para reducir resistencias y Poder profano 5/5 para potenciar al demonio. Después toma Drenajes mejorados 3/3, Pandemia 3/3, Succionar vida 1/1 y Succión de alma 3/3; reserva Arruinar 1/1 para el nivel 47, cuando ya tienes 30 puntos en Aflicción. Las razones son movilidad, fiabilidad de los efectos, daño y autocuración.",
+      "text_en": "For leveling without respeccing, prioritize Improved Corruption 5/5 for instant Corruption, Suppression 5/5 to reduce resists, and Unholy Power 5/5 to strengthen your demon. Then take Improved Drains 3/3, Pandemic 3/3, Siphon Life 1/1, and Soul Siphon 3/3; take Wrack 1/1 at level 47, when you have 30 points in Affliction. These choices support mobility, reliable effects, damage, and self-healing.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Leveling Talent Build",
-          "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Affliction Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Core Talents",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:leveling"
       ],
       "source_hashes": [
-        "section:1645da0b6c8fadc86caeb2ad140a7fe0ae3fa3a3"
+        "section:ace72ab599c1d2952f57c6a945d66879bf8f831f",
+        "section:b2f4f5642588f6bbe171264068b0c28987b2c99c"
       ]
     },
     {
@@ -320,8 +361,8 @@
       "status": "editorial",
       "title_es": "Hitos de habilidad por nivel",
       "title_en": "Ability Milestones by Level",
-      "summary_es": "Transfusión de vida 6; Terror de agonía 8; Drenar alma 10; Drenar vida 14; Lluvia de Fuego 20; manáfago 30.",
-      "summary_en": "Life Tap 6; Bane of Agony 8; Drain Soul 10; Drain Life 14; Rain of Fire 20; Felhunter 30.",
+      "summary_es": "Hitos de subida: Transfusión de vida 6, abisario 10, súcubo/íncubo 20 y manáfago 30.",
+      "summary_en": "Leveling milestones: Life Tap at 6, Voidwalker at 10, Succubus/Incubus at 20, and Felhunter at 30.",
       "keywords_es": [
         "cuándo aprendo habilidades de brujo",
         "nivel de las habilidades del brujo",
@@ -336,41 +377,47 @@
         "life tap level",
         "felhunter level"
       ],
-      "text_es": "Transfusión de vida a 6; Miedo y Terror de agonía a 8; Drenar alma y Crear piedra de salud a 10; Drenar vida y Maldición de temeridad a 14; Dolor abrasador y Crear piedra de alma a 18; Ritual de invocación, Maldición de los Elementos, Armadura demoníaca y Lluvia de Fuego a 20; abisario a 10, súcubo o íncubo a 20 y manáfago a 30; Piroinferno a 30; corcel nefasto a 40.",
-      "text_en": "Life Tap at 6; Fear and Bane of Agony at 8; Drain Soul and Create Healthstone at 10; Drain Life and Curse of Recklessness at 14; Searing Pain and Create Soulstone at 18; Ritual of Summoning, Curse of the Elements, Demon Armor, and Rain of Fire at 20; Voidwalker at 10, Succubus or Incubus at 20, and Felhunter at 30; Hellfire at 30; Felsteed at 40.",
+      "text_es": "Aprendes Corrupción a 4, Transfusión de vida a 6, y Miedo y Terror de agonía a 8. A 10 llegan Drenar alma, Crear piedra de salud y la misión del abisario; Drenar vida se aprende a 14, igual que Maldición de Temeridad. A 18 obtienes Dolor abrasador y Crear piedra de alma; a 20, Ritual de invocación, Maldición de los Elementos, Lluvia de Fuego, Armadura demoníaca y la súcubo o el íncubo. A 30 llegan Piroinferno y la misión del manáfago; el corcel nefasto se aprende a 40.",
+      "text_en": "Learn Corruption at 4, Life Tap at 6, and Fear and Bane of Agony at 8. At 10, you get Drain Soul, Create Healthstone, and the Voidwalker quest; Drain Life and Curse of Recklessness are learned at 14. At 18, you get Searing Pain and Create Soulstone; at 20, Ritual of Summoning, Curse of the Elements, Rain of Fire, Demon Armor, and the Succubus or Incubus. Hellfire and the Felhunter quest come at 30; Felsteed is learned at 40.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Important Unlocks",
-          "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Must-Have Abilities to Train for Affliction Warlock",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Demonology Warlock Leveling Guide › Important Unlocks",
-          "url": "https://www.icy-veins.com/wow-forever/demonology-warlock-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Demonology Warlock Leveling Guide - WoW: Forever › Must-Have Abilities to Train for Demonology Warlock",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/dps-leveling-tips",
+          "date": "2026-11-06"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Destruction Warlock Leveling Guide › Important Unlocks",
-          "url": "https://www.icy-veins.com/wow-forever/destruction-warlock-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Optional Abilities to Train for Affliction Warlock",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Abilities to Skip While Leveling",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:leveling",
-        "class:warlock:demonology:leveling",
-        "class:warlock:destruction:leveling"
+        "class:warlock:demonology:leveling"
       ],
       "source_hashes": [
-        "section:99314a8d12f43c7f2bd8acee7c4a003404abd9a0",
-        "section:9a6d888bbb409d8249ecab76ba3b3e7c38bbf6be",
-        "section:eacea6bf294dbb967fe12c44fd3fe5c5acb6f914"
+        "section:021e27e37591bfc474fad3dbe184a9c4732ada4c",
+        "section:7ab3a96fb19d9dcc2eec555cbbf8424f8578099a",
+        "section:befc3dbf03db585c712bb92be35cb7b52070c5a7",
+        "section:fa1446d859c0451265edfcc0b23e257610eb68c5"
       ]
     },
     {
@@ -450,8 +497,8 @@
       "status": "editorial",
       "title_es": "Demonios y sus roles",
       "title_en": "Demons and Their Roles",
-      "summary_es": "Diablillo a distancia, abisario tanque, súcubo o íncubo cuerpo a cuerpo y manáfago para magia.",
-      "summary_en": "Imp at range, Voidwalker tanks, Succubus or Incubus melee, and Felhunter for magic.",
+      "summary_es": "El abisario aguanta, súcubo e íncubo atacan cuerpo a cuerpo y el diablillo apoya a grupos.",
+      "summary_en": "The Voidwalker tanks, Succubus and Incubus deal melee damage, and the Imp supports groups.",
       "keywords_es": [
         "demonios del brujo",
         "diablillo brujo",
@@ -466,12 +513,24 @@
         "warlock succubus incubus",
         "warlock felhunter"
       ],
-      "text_es": "El diablillo hace daño de Fuego a distancia y aporta Pacto de sangre y Escudo de Fuego. El abisario genera amenaza y tanquea mientras lanzas, con Tormento, Sacrificio y Consumir sombras. Súcubo e íncubo hacen daño cuerpo a cuerpo y comparten Seducción para controlar humanoides. El manáfago quita magia con Devorar magia y, desde 36, interrumpe con Bloqueo de hechizo.",
-      "text_en": "The Imp deals ranged Fire damage and brings Blood Pact and Fire Shield. The Voidwalker generates threat and tanks while you cast, with Torment, Sacrifice, and Consume Shadows. Succubus and Incubus deal melee damage and share Seduction to control humanoids. The Felhunter removes magic with Devour Magic and, from 36, interrupts with Spell Lock.",
+      "text_es": "El abisario puede tanquear mientras lanzas; mantén Tormento actualizado, usa Sacrificio como escudo y Consumir sombras para curarlo entre combates. La súcubo y el íncubo aportan daño cuerpo a cuerpo y Seducción para controlar humanoides. El diablillo ataca a distancia y aporta Pacto de sangre y Escudo de Fuego al grupo. La misión del manáfago se desbloquea a 30; puede quitar efectos mágicos con Devorar magia y, desde 36, interrumpir con Bloqueo de hechizo.",
+      "text_en": "The Voidwalker can tank while you cast; keep Torment current, use Sacrifice as a shield, and heal it with Consume Shadows to heal it between fights. Succubus and Incubus deal melee damage and have Seduction to control humanoids. The Imp attacks at range and provides Blood Pact and Fire Shield to the group. The Felhunter quest unlocks at 30; it can remove Magic effects with Devour Magic and, from 36, interrupt with Spell Lock.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Demon Abilities to Train for Affliction Warlock",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Demon Abilities to Train for Destruction Warlock",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Demons and Pet Control",
@@ -485,13 +544,16 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:leveling",
-        "class:warlock:demonology:leveling"
+        "class:warlock:demonology:leveling",
+        "class:warlock:destruction:leveling"
       ],
       "source_hashes": [
+        "section:1076390133b9b95d185f78ec00fdcd3ef3f3cd6e",
         "section:3cfcc1595573710aae60f86110eecfdf64f9f581",
+        "section:cf1926e01a84ce174e96633ede8a8deac9216ae1",
         "section:e0deaae2fa6142988aac9593911b5690ef71fb91"
       ]
     },
@@ -501,8 +563,8 @@
       "status": "editorial",
       "title_es": "Control del demonio",
       "title_en": "Demon Control",
-      "summary_es": "Entrena grimorios, usa Move To hasta 100 yardas y controla a mano Seducción, Bloqueo de hechizo y Tormento.",
-      "summary_en": "Train grimoires, use Move To up to 100 yards, and manually control Seduction, Spell Lock, and Torment.",
+      "summary_es": "Entrena grimorios, posiciona al demonio con Move To y usa manualmente sus habilidades de control.",
+      "summary_en": "Train grimoires, position your demon with Move To, and manually control its utility abilities.",
       "keywords_es": [
         "control del demonio brujo",
         "grimorios del brujo",
@@ -517,8 +579,8 @@
         "warlock seduction",
         "spell lock"
       ],
-      "text_es": "Las habilidades del demonio se compran en grimorios a un entrenador de demonios y se entrenan aparte de tus hechizos. Usa Move To para colocarlo hasta 100 yardas, mantén a mano las órdenes de atacar y seguir, y controla Seducción y Bloqueo de hechizo manualmente. En mazmorra, quita Tormento de autocast si el tanque lleva el mob y usa modo pasivo. Cambiar de demonio lo aturde durante la invocación: hazlo antes de un combate y despídelo antes de saltar una cornisa.",
-      "text_en": "Demon abilities are bought as grimoires from a demon trainer and trained separately from your spells. Use Move To to place it up to 100 yards away, keep attack and follow commands at hand, and control Seduction and Spell Lock manually. In dungeons, turn off Torment autocast when the tank holds the mob and use passive mode. Changing demons stuns it for the summon cast: do it before a fight and dismiss it before jumping down a ledge.",
+      "text_es": "Compra grimorios al entrenador de demonios y enseña las habilidades con el demonio correspondiente invocado; se entrenan aparte de tus hechizos. Move To permite enviarlo hasta 100 yardas, y conviene tener a mano las órdenes Atacar y Seguir. Asigna Seducción y Bloqueo de hechizo a teclas para usarlos manualmente; en mazmorras, desactiva Tormento automático si el tanque ya tiene al enemigo y usa modo pasivo para elegir cuándo atacar. Cambiar de demonio lo aturde durante la invocación: hazlo antes de luchar.",
+      "text_en": "Buy grimoires from the Demon Trainer and teach abilities with the matching demon summoned; they are trained separately from your spells. Move To can send it up to 100 yards away, and Attack and Follow commands should be easy to reach. Put Seduction and Spell Lock on manual keybinds; in dungeons, turn off Torment autocast if the tank already has the enemy, and use passive mode to choose when to attack. Changing demons stuns it during the summon cast, so switch before a fight.",
       "tags": [
         "WARLOCK"
       ],
@@ -530,7 +592,7 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:leveling"
       ],
@@ -544,8 +606,8 @@
       "status": "editorial",
       "title_es": "Maldiciones y terrores",
       "title_en": "Curses and Banes",
-      "summary_es": "Puedes llevar un terror de daño y una maldición a la vez; elige Maldición de los Elementos, debilidad o lenguas.",
-      "summary_en": "You can keep one damage Bane and one Curse at once; choose Elements, Weakness, or Tongues.",
+      "summary_es": "Combina Terror de agonía con una maldición útil y elige esta según el enemigo o el grupo.",
+      "summary_en": "Pair Bane of Agony with a utility Curse, choosing the Curse for the enemy or group.",
       "keywords_es": [
         "maldiciones del brujo",
         "terror de agonía",
@@ -560,12 +622,36 @@
         "curse of weakness",
         "curse of tongues"
       ],
-      "text_es": "Puedes mantener un terror de daño y una maldición de utilidad a la vez en el mismo enemigo. Terror de agonía castiga más al final de su duración, así que no lo renueves antes de tiempo; Maldición de los Elementos aumenta el daño mágico recibido, Maldición de debilidad reduce el daño físico y Maldición de las lenguas ralentiza lanzamientos. Maldición de temeridad impide que el objetivo huya y evita Miedo y Horror. Elige la maldición según lo que necesite el grupo.",
-      "text_en": "You can keep one damage Bane and one utility Curse on the same enemy at once. Bane of Agony hits harder at the end of its duration, so do not refresh it early; Curse of the Elements increases Magic damage taken, Curse of Weakness reduces Physical damage, and Curse of Tongues slows casts. Curse of Recklessness stops the target from fleeing and prevents Fear and Horror. Pick the Curse for what the group needs.",
+      "text_es": "Puedes mantener un terror de daño y una maldición sobre el mismo enemigo. Terror de agonía aumenta su daño hacia el final, así que deja que termine antes de renovarlo; a nivel 40, Maldición de los Elementos añade un 10% de daño mágico recibido. Maldición de la lengua ralentiza lanzamientos; Maldición de Temeridad impide que un enemigo huya y también evita Miedo y Horror. No aprendas Maldición de debilidad para subir: no ayuda a llegar a 60.",
+      "text_en": "You can keep one damage Bane and one Curse on the same enemy. Bane of Agony deals more damage toward the end, so let it finish before refreshing; at level 40, Curse of the Elements adds 10% Magic damage taken. Curse of Tongues slows casts; Curse of Recklessness stops an enemy from fleeing and also prevents Fear and Horror. Do not train Curse of Weakness for leveling; it does not help you reach 60.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Must-Have Abilities to Train for Affliction Warlock",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Optional Abilities to Train for Affliction Warlock",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Abilities to Skip While Leveling",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Single-Target Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Single Target Rotation",
@@ -579,11 +665,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:leveling"
       ],
       "source_hashes": [
+        "guide:6314b58a862f872163d7aa23f0152d902f6418ca",
+        "section:021e27e37591bfc474fad3dbe184a9c4732ada4c",
+        "section:7ab3a96fb19d9dcc2eec555cbbf8424f8578099a",
+        "section:befc3dbf03db585c712bb92be35cb7b52070c5a7",
         "section:c5051c21bf40a8f33983ccb5fc1278a140e60058",
         "section:c5a9693436796cb0859b87ef7b5e258f7fe80e4c"
       ]
@@ -594,8 +684,8 @@
       "status": "editorial",
       "title_es": "Salud, maná y Transfusión de vida",
       "title_en": "Health, Mana, and Life Tap",
-      "summary_es": "Transfusión de vida cambia salud por maná; usa drenajes, comida, bebida, vendas y piedra de salud para recuperarte.",
-      "summary_en": "Life Tap trades health for mana; use drains, food, drink, bandages, and a healthstone to recover.",
+      "summary_es": "Equilibra Transfusión de vida con Drenar vida, comida, bebida y vendas para reducir descansos.",
+      "summary_en": "Balance Life Tap with Drain Life, food, drink, and bandages to reduce downtime.",
       "keywords_es": [
         "maná del brujo",
         "transfusión de vida",
@@ -610,8 +700,8 @@
         "healthstone",
         "warlock health recovery"
       ],
-      "text_es": "Transfusión de vida convierte salud en maná, y el Espíritu aumenta ambas cantidades. Úsala antes de quedarte sin maná, pero no gastes tanta salud que no puedas aguantar un golpe. Drenar vida y Succionar vida recuperan salud mientras tus efectos siguen activos; entre combates, come y bebe a la vez, y usa vendas después de una transfusión. La piedra de salud da una Curación instantánea y conviene llevarla siempre.",
-      "text_en": "Life Tap converts health into mana, and Spirit increases both amounts. Use it before running out of mana, but do not spend so much health that you cannot take a hit. Drain Life and Siphon Life restore health while your effects keep running; between fights, eat and drink together, and use bandages after a tap. A healthstone gives an instant heal and is always worth carrying.",
+      "text_es": "Transfusión de vida convierte salud en maná y el Espíritu aumenta ambas cantidades. Úsala cuando tengas salud disponible, sin esperar a vaciar la barra de maná; Drenar vida te cura durante el combate y Succionar vida añade daño periódico y curación cuando tienes ese talento. Si ambas barras están bajas, come y bebe a la vez entre combates; una venda también ayuda tras Transfusión de vida.",
+      "text_en": "Life Tap converts health into mana, and Spirit increases both amounts. Use it when you have health to spare instead of waiting for an empty mana bar; Drain Life heals you during combat, and Siphon Life adds damage over time and healing once you have the talent. If both bars are low, eat and drink together between fights; a bandage also helps after Life Tap.",
       "tags": [
         "WARLOCK"
       ],
@@ -627,13 +717,20 @@
           "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Leveling Tips",
           "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-leveling",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Leveling as an Affliction Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:leveling"
       ],
       "source_hashes": [
+        "section:6d38eb11ef46ac120cdffe9092bfc5184d7611f4",
         "section:99fbf29026d32be5654d9ec808e0c7e2c53cb7f0",
         "section:ac2ef2af02b12a4ea71eb4aba3d6c68a4dbebb96"
       ]
@@ -644,8 +741,8 @@
       "status": "editorial",
       "title_es": "Fragmentos de alma",
       "title_en": "Soul Shards",
-      "summary_es": "Drenar alma genera fragmentos que no se apilan y sirven para invocar, crear piedras y abrir un Ritual de invocación.",
-      "summary_en": "Drain Soul generates shards that do not stack and are used to summon, create stones, and cast Ritual of Summoning.",
+      "summary_es": "Drenar alma genera fragmentos de alma; guarda una reserva para invocaciones y piedras.",
+      "summary_en": "Drain Soul generates soul shards; keep a supply for summons and stones.",
       "keywords_es": [
         "fragmentos de alma brujo",
         "drenar alma",
@@ -660,8 +757,8 @@
         "ritual of summoning",
         "summon warlock demon"
       ],
-      "text_es": "Drenar alma, desde nivel 10, genera un fragmento de alma; sus ticks pueden dártelo antes de que muera el enemigo y también al morir mientras canalizas. Los fragmentos no se apilan y una bolsa de fragmentos de alma ocupa el hueco de reactivos. Se gastan en invocar demonios, crear piedras y lanzar Ritual de invocación. Mantén una reserva mientras haces misiones para no quedarte sin recursos al necesitar una piedra o una invocación.",
-      "text_en": "Drain Soul, from level 10, generates a soul shard; its ticks can give you one before the enemy dies and also when one dies while you channel. Shards do not stack, and a soul shard bag uses the reagent bag slot. They are spent on summoning demons, creating stones, and casting Ritual of Summoning. Keep a reserve while questing so you are not left without resources when you need a stone or a summon.",
+      "text_es": "Drenar alma, disponible a nivel 10, puede generar un fragmento con sus ticks y también cuando muere un enemigo apto mientras lo canalizas. Los fragmentos no se apilan y la bolsa de fragmentos ocupa el hueco de reactivos. Se gastan al invocar demonios, crear piedras y lanzar Ritual de invocación; guarda algunos antes de ir a una mazmorra para poder ofrecer una invocación.",
+      "text_en": "Drain Soul, available at level 10, can generate a shard from its ticks and when an eligible enemy dies while you channel it. Shards do not stack, and a shard bag uses the reagent-bag slot. They are spent to summon demons, create stones, and cast Ritual of Summoning; keep some before a dungeon so you can offer a summon.",
       "tags": [
         "WARLOCK"
       ],
@@ -671,13 +768,20 @@
           "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Warlock Resources",
           "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-leveling",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Dungeon Tips",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:leveling"
       ],
       "source_hashes": [
+        "section:7b381e7e500e3d782e9e3a2974a8bf78019162e0",
         "section:ac2ef2af02b12a4ea71eb4aba3d6c68a4dbebb96"
       ]
     },
@@ -687,8 +791,8 @@
       "status": "editorial",
       "title_es": "Piedras, invocaciones y apoyo",
       "title_en": "Stones, Summons, and Support",
-      "summary_es": "Piedra de salud 10, piedra de alma 18, Ritual de invocación 20, Fuerza inmortal 16 y Detectar invisibilidad 26.",
-      "summary_en": "Healthstone 10, soulstone 18, Ritual of Summoning 20, Unending Breath 16, and Detect Invisibility 26.",
+      "summary_es": "Crea piedras de salud y de alma; elixires, comida y pociones de maná ayudan en combates largos.",
+      "summary_en": "Create healthstones and soulstones; elixirs, food, and mana potions help in long fights.",
       "keywords_es": [
         "piedra de salud brujo",
         "piedra de alma brujo",
@@ -703,24 +807,45 @@
         "unending breath",
         "detect invisibility"
       ],
-      "text_es": "Crear piedra de salud, a 10, da una Curación instantánea; Crear piedra de alma, a 18, permite resucitar al portador si muere con el efecto activo. Ritual de invocación, a 20, trae a un miembro del grupo o banda, cuesta un fragmento y necesita dos ayudantes fuera de combate. Fuerza inmortal, a 16, da 10 minutos de Respiración subacuática, y Detectar invisibilidad, a 26, revela invisibles pero no a quien está en sigilo. Lleva piedras de salud a la mazmorra y ofrece una piedra de alma a la sanadora.",
-      "text_en": "Create Healthstone, at 10, gives an instant heal; Create Soulstone, at 18, lets the bearer resurrect if they die while the effect is active. Ritual of Summoning, at 20, brings a party or raid member, costs a shard, and needs two helpers out of combat. Unending Breath, at 16, gives 10 minutes of underwater breathing, and Detect Invisibility, at 26, reveals invisible enemies but not those in stealth. Bring healthstones to the dungeon and offer a soulstone to the healer.",
+      "text_es": "Crear piedra de salud (10) ofrece curación gratuita; Crear piedra de alma (18) permite resucitar con el efecto activo. Cauce de salud (12) cura al demonio, aunque entre combates suele rendir más una venda o volver a invocarlo. Fuerza inmortal (16) otorga Respiración subacuática durante 10 min; Ritual de invocación (20) requiere un fragmento y dos ayudantes. Detectar invisibilidad (26) no revela enemigos en sigilo. Los elixires de Poder con hechizos y la comida aceleran las bajas; Bien alimentado da +5% de experiencia por enemigo y las pociones de maná convienen en peleas largas.",
+      "text_en": "Create Healthstone (10) provides free healing; Create Soulstone (18) lets its bearer resurrect while the effect is active. Health Funnel (12) heals your demon, though bandaging or resummoning is usually better between fights. Unending Breath (16) grants 10 minutes of underwater breathing; Ritual of Summoning (20) requires a shard and two helpers. Detect Invisibility (26) does not reveal stealthed enemies. Spell Power elixirs and food speed up kills; Well Fed gives +5% experience per kill, and mana potions are useful in long fights.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
         {
           "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Must-Have Abilities to Train for Affliction Warlock",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Best Leveling Consumables for Affliction Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Utility and Crowd Control",
           "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-leveling",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Optional Abilities to Train for Affliction Warlock",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:leveling"
       ],
       "source_hashes": [
+        "section:021e27e37591bfc474fad3dbe184a9c4732ada4c",
+        "section:070cae6be37ea31385f07629d002d8ec591b3fe2",
+        "section:7ab3a96fb19d9dcc2eec555cbbf8424f8578099a",
         "section:c5051c21bf40a8f33983ccb5fc1278a140e60058"
       ]
     },
@@ -730,8 +855,8 @@
       "status": "editorial",
       "title_es": "Miedo, control y emergencias",
       "title_en": "Fear, Control, and Emergencies",
-      "summary_es": "Miedo 8, Aullido de terror 40, Espiral de la muerte 42, Desterrar 28 y Subyugar demonio 30.",
-      "summary_en": "Fear 8, Howl of Terror 40, Death Coil 42, Banish 28, and Subjugate Demon 30.",
+      "summary_es": "Miedo controla un enemigo con riesgo de atraer otros; reserva Aullido de terror y Desterrar para emergencias.",
+      "summary_en": "Fear controls one enemy but may pull others; save Howl of Terror and Banish for emergencies.",
       "keywords_es": [
         "miedo brujo",
         "aullido de terror",
@@ -746,24 +871,45 @@
         "warlock banish",
         "subjugate demon"
       ],
-      "text_es": "Miedo, a 8, hace huir a un enemigo; los no-muertos y las máquinas son inmunes, y el mob puede llevar a otro grupo. Aullido de terror, a 40, afecta hasta cinco enemigos cercanos y sirve para escapar, no para controlar un pack. Espiral de la muerte, a 42, daña, te cura y causa tres segundos de Horror que no se rompe con daño. Desterrar, a 28, saca de la lucha a un demonio o elemental, y Subyugar demonio, a 30, controla un demonio hasta cinco minutos.",
-      "text_en": "Fear, at 8, makes one enemy flee; Undead and Machines are immune, and the mob can run into another pack. Howl of Terror, at 40, affects up to five nearby enemies and is for escaping, not for controlling a pack. Death Coil, at 42, damages, heals you, and causes three seconds of Horror that damage does not break. Banish, at 28, takes a Demon or Elemental out of the fight, and Subjugate Demon, at 30, controls a Demon for up to five minutes.",
+      "text_es": "Miedo, disponible a 8, hace huir a un enemigo; vigila su recorrido porque puede atraer otro grupo, y los no-muertos y las máquinas son inmunes. Aullido de terror (40) afecta hasta cinco enemigos cercanos y puede abrir espacio si te rodean. Espiral mortal (42) daña, te cura y causa tres segundos de Horror. Desterrar (28) aparta temporalmente a un demonio o elemental. Subyugar demonio (30) controla un demonio hasta cinco minutos, pero no lo aprendas al subir.",
+      "text_en": "Fear, available at 8, makes one enemy flee; watch its path because it may pull another group, and Undead and Machines are immune. Howl of Terror (40) affects up to five nearby enemies and can create space if surrounded. Death Coil (42) damages, heals you, and causes three seconds of Horror. Banish (28) temporarily removes a demon or elemental from the fight. Subjugate Demon (30) controls a demon for up to five minutes, but skip it while leveling.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
         {
           "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Must-Have Abilities to Train for Affliction Warlock",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Optional Abilities to Train for Affliction Warlock",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Utility and Crowd Control",
           "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-leveling",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Abilities to Skip While Leveling",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:leveling"
       ],
       "source_hashes": [
+        "section:021e27e37591bfc474fad3dbe184a9c4732ada4c",
+        "section:7ab3a96fb19d9dcc2eec555cbbf8424f8578099a",
+        "section:befc3dbf03db585c712bb92be35cb7b52070c5a7",
         "section:c5051c21bf40a8f33983ccb5fc1278a140e60058"
       ]
     },
@@ -773,8 +919,8 @@
       "status": "editorial",
       "title_es": "Piedras de fuego y de hechizo",
       "title_en": "Firestones and Spellstones",
-      "summary_es": "Crear piedra de fuego 28 y Crear piedra de hechizo 36; se aplican junto a Aceite de zahorí.",
-      "summary_en": "Create Firestone 28 and Create Spellstone 36; they stack with Wizard Oil.",
+      "summary_es": "Aflicción suele usar piedra de hechizo; elige piedra de fuego o hechizo según la rama y su daño.",
+      "summary_en": "Affliction generally uses Spellstone; choose Firestone or Spellstone to match your spec and damage.",
       "keywords_es": [
         "piedra de fuego brujo",
         "piedra de hechizo brujo",
@@ -789,33 +935,55 @@
         "warlock weapon imbue",
         "create firestone"
       ],
-      "text_es": "Crear piedra de fuego, a 28, y Crear piedra de hechizo, a 36, son imbuidos de arma y pueden aplicarse junto a Aceite de zahorí. Aflicción prefiere la piedra de hechizo, porque su daño de sombra mejora los efectos en el tiempo y los drenajes; Destrucción prefiere la de fuego, que suma daño de Fuego y Golpe crítico. Vuelve a aplicar el imbuido al cambiar de arma o cuando caduque.",
-      "text_en": "Create Firestone, at 28, and Create Spellstone, at 36, are weapon imbues and can be applied alongside Wizard Oil. Affliction prefers the spellstone, because its Shadow damage improves damage over time and drains; Destruction prefers the firestone, which adds Fire damage and critical strike. Reapply the imbue when changing weapons or when it expires.",
+      "text_es": "Crear piedra de fuego se aprende a 28; Crear piedra de hechizos, a 36. La piedra de fuego aumenta el daño de Fuego y Golpe crítico con hechizos; la Piedra de hechizos aumenta el daño de Sombras y un poco la celeridad. Aflicción obtiene más de la piedra de hechizo porque la mayoría de su daño es de Sombras. En Demonología de subida también es más fuerte desde 36; vuelve a la piedra de fuego al subir en mazmorras con Destrucción desde 40, cuando predomina el daño de Fuego. Puedes combinarlas con Aceite zahorí; reaplícalas al cambiar de arma o cuando expiren.",
+      "text_en": "Create Firestone is learned at 28; Create Spellstone at 36. Firestone increases Fire damage and spell critical strike, while Spellstone increases Shadow damage and a little Haste. Affliction benefits more from Spellstone because most of its damage is Shadow. It is also stronger for leveling Demonology from 36; switch back to Firestone for dungeon-leveling Destruction from 40, when Fire damage dominates. They can be combined with Wizard Oil; reapply them when changing weapons or when they expire.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Firestones and Spellstones",
-          "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Must-Have Abilities to Train for Affliction Warlock",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Destruction Warlock Leveling Guide › Firestones and Spellstones",
-          "url": "https://www.icy-veins.com/wow-forever/destruction-warlock-leveling",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Affliction Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock Leveling Guide - WoW: Forever › Must-Have Abilities to Train for Demonology Warlock",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Must-Have Abilities to Train for Destruction Warlock",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Firestones and Spellstones",
+          "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-leveling",
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:leveling",
+        "class:warlock:demonology:leveling",
         "class:warlock:destruction:leveling"
       ],
       "source_hashes": [
-        "section:990c09719213e7ede5fa5c6a65e1f12411b6878c",
-        "section:a415ff3fff19a2f2e7fd929962dad8649a6fc3eb"
+        "section:021e27e37591bfc474fad3dbe184a9c4732ada4c",
+        "section:1652e6032b90619b9225273ebb5d8068986cd71a",
+        "section:a415ff3fff19a2f2e7fd929962dad8649a6fc3eb",
+        "section:ace72ab599c1d2952f57c6a945d66879bf8f831f",
+        "section:fa1446d859c0451265edfcc0b23e257610eb68c5"
       ]
     },
     {
@@ -824,8 +992,8 @@
       "status": "editorial",
       "title_es": "Daño en área y varios enemigos",
       "title_en": "Area Damage and Multiple Enemies",
-      "summary_es": "Aflicción reparte DoTs, Lluvia de Fuego ataca a distancia desde 20 y Piroinferno castiga alrededor desde 30.",
-      "summary_en": "Affliction spreads DoTs, Rain of Fire hits at range from 20, and Hellfire burns around you from 30.",
+      "summary_es": "Aflicción reparte efectos periódicos y Miedo entre dos enemigos; en mazmorra, el grupo puede usar Piroinferno.",
+      "summary_en": "Affliction spreads damage-over-time effects and Fear across two enemies; use Hellfire in dungeon packs.",
       "keywords_es": [
         "brujo daño en área",
         "lluvia de fuego",
@@ -840,33 +1008,81 @@
         "warlock multiple enemies",
         "spread dots warlock"
       ],
-      "text_es": "Aflicción reparte Terror de agonía y Corrupción entre enemigos y luego canaliza un drenaje; los efectos siguen mientras cambias de objetivo. Lluvia de Fuego, a 20, es el área a distancia del Brujo, y Piroinferno, a 30, castiga alrededor de ti a cambio de tu salud, así que úsalo con curación y en pulls organizados. El diablillo o el abisario pueden mantener a un enemigo ocupado mientras aplicas efectos a los demás. En mazmorras, ajusta el número de DoTs a la velocidad con la que el grupo mata.",
-      "text_en": "Affliction spreads Bane of Agony and Corruption among enemies and then channels a drain; the effects keep running while you switch targets. Rain of Fire, at 20, is the Warlock's ranged area spell, and Hellfire, at 30, burns around you at the cost of your health, so use it with healing and in organized pulls. The Imp or Voidwalker can keep one enemy busy while you apply effects to the others. In dungeons, match the number of DoTs to how fast the group kills.",
+      "text_es": "En solitario, Aflicción puede aplicar Corrupción y Terror de agonía a un enemigo y luego usar Miedo, mientras el abisario o el diablillo distraen a otro; los efectos siguen dañando al cambiar de objetivo. Terror de agonía solo merece la pena si el enemigo vivirá hasta sus últimos ticks. Lluvia de Fuego se aprende a 20, pero no ayuda a subir; en mazmorra, con el tanque sujetando el grupo, canaliza Piroinferno desde 30 y renueva efectos solo en enemigos duraderos. Avisa al sanador: Piroinferno también te daña.",
+      "text_en": "While solo, Affliction can apply Corruption and Agony damage over time to one enemy and then Fear it while the Voidwalker or Imp distracts another; the effects keep ticking as you switch targets. Use the damage curse only if the enemy will live through its final ticks. Rain of Fire is learned at 20 but does not help with leveling; in dungeons, with the tank holding the pack, channel Hellfire from 30 and refresh effects only on durable enemies. Tell the healer first: Hellfire also damages you.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › AoE Rotation",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Fear Juggle (Two Mobs)",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › AoE Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock Leveling Guide - WoW: Forever › Fear Juggle (Two Mobs)",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock Leveling Guide - WoW: Forever › AoE Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › AoE Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Abilities to Skip While Leveling",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Utility and Crowd Control",
           "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-leveling",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Destruction Warlock Leveling Guide › AoE Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/destruction-warlock-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Demonology Warlock Leveling Guide - WoW: Forever › Demon Abilities to Train for Demonology Warlock",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Demon Abilities to Train for Destruction Warlock",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:leveling",
+        "class:warlock:demonology:leveling",
         "class:warlock:destruction:leveling"
       ],
       "source_hashes": [
-        "section:6705d267afb9c65f10a4343297947e640eb283ef",
-        "section:fb7ea23692e832f9621cf99018340228fe172b85"
+        "guide:06caefe3eaeafd39ddc3b82943318222c7b6f978",
+        "guide:6314b58a862f872163d7aa23f0152d902f6418ca",
+        "guide:af1e73748ba8b481d20982b7af36cc91d6ad18da",
+        "section:1686715485aadbbd1f53233844e262533ad65e6b",
+        "section:befc3dbf03db585c712bb92be35cb7b52070c5a7",
+        "section:c5051c21bf40a8f33983ccb5fc1278a140e60058",
+        "section:cf1926e01a84ce174e96633ede8a8deac9216ae1"
       ]
     },
     {
@@ -875,8 +1091,8 @@
       "status": "editorial",
       "title_es": "Rotación de Aflicción",
       "title_en": "Affliction Rotation",
-      "summary_es": "Aplica Terror de agonía y Corrupción, drena para curarte y remata con varita a los enemigos cortos.",
-      "summary_en": "Apply Bane of Agony and Corruption, drain to heal, and finish short fights with the wand.",
+      "summary_es": "Envía al demonio, aplica los efectos que duren y rellena con Drenar vida desde 30 o varita.",
+      "summary_en": "Send in your demon, apply effects that will last, and fill with Drain Life from 30 or your wand.",
       "keywords_es": [
         "rotación de aflicción",
         "rotación del brujo aflicción",
@@ -891,25 +1107,32 @@
         "drain life rotation",
         "warlock wand"
       ],
-      "text_es": "En Aflicción, aplica Terror de agonía y Corrupción a enemigos que vayan a vivir lo suficiente; con varios, reparte los efectos y usa Drenar vida si necesitas salud. Si el enemigo va a morir rápido, no gastes en todos los DoTs: usa Descarga de las Sombras al principio y termina con la varita. Ocaso permite lanzar Descarga de las Sombras sin detenerte, pero sigue costando maná. Renueva Terror de agonía solo cuando haya terminado para no perder sus últimos ticks.",
-      "text_en": "As Affliction, apply Bane of Agony and Corruption to enemies that will live long enough; with several, spread the effects and use Drain Life if you need health. If the enemy will die quickly, do not spend on every DoT: use Shadow Bolt early and finish with the wand. Nightfall lets you cast Shadow Bolt without stopping, but it still costs mana. Refresh Bane of Agony only after it ends so you do not lose its final ticks.",
+      "text_es": "Envía al demonio y aplica Maldición de los Elementos primero desde 40 contra un enemigo duradero, luego Corrupción; añade Terror de agonía si vivirá hasta sus últimos ticks, Inmolar si tiene mucha salud y Succionar vida cuando aprendas ese talento. No renueves Terror de agonía antes de que termine. Antes de 30, rellena con varita o Drenar vida; desde 30, usa Drenar vida de rango 3 o superior. Con Ocaso, aprovecha Trance de las Sombras para lanzar Descarga de las Sombras instantáneamente; Arruinar sirve para dañar cuando empiezas con salud y maná altos.",
+      "text_en": "Send in your demon and apply Curse of the Elements first from 40 against a durable enemy, then Corruption; add Bane of Agony if it will live through the final ticks, Immolate if it has high health, and Siphon Life after you learn that talent. Do not refresh Bane of Agony early. Before 30, fill with your wand or Drain Life; from 30, use rank 3 or higher Drain Life. With Nightfall, use Shadow Trance for an instant Shadow Bolt; Wrack is for damage on a pull started with high health and mana.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Single Target Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Single-Target Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Affliction Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:leveling"
       ],
       "source_hashes": [
-        "section:c5a9693436796cb0859b87ef7b5e258f7fe80e4c"
+        "guide:6314b58a862f872163d7aa23f0152d902f6418ca",
+        "section:ace72ab599c1d2952f57c6a945d66879bf8f831f"
       ]
     },
     {
@@ -918,8 +1141,8 @@
       "status": "editorial",
       "title_es": "Rotación de Demonología",
       "title_en": "Demonology Rotation",
-      "summary_es": "Manda al demonio, mantén Marca demoníaca con Dolor abrasador, aplica DoTs y remata con varita.",
-      "summary_en": "Send the demon in, keep Demonic Brand with Searing Pain, apply DoTs, and finish with the wand.",
+      "summary_es": "Marca al objetivo con Dolor abrasador, aplica efectos duraderos y rellena con drenaje o varita.",
+      "summary_en": "Brand the target with Searing Pain, apply long-lasting effects, and fill with a drain or wand.",
       "keywords_es": [
         "rotación de demonología",
         "rotación del brujo demonología",
@@ -934,25 +1157,32 @@
         "searing pain rotation",
         "health funnel"
       ],
-      "text_es": "En Demonología, manda al demonio primero y mantén Marca demoníaca con Dolor abrasador sobre el objetivo que está atacando. Aplica Terror de agonía y Corrupción, y usa Descarga de las Sombras entre refrescos; la varita remata a los enemigos débiles. Con el abisario, deja Tormento activo para que aguante; con súcubo o íncubo, busca daño y Seducción cuando haga falta. Si el demonio se queda sin salud, usa Cauce de salud.",
-      "text_en": "As Demonology, send the demon in first and keep Demonic Brand with Searing Pain on the target it is attacking. Apply Bane of Agony and Corruption, and use Shadow Bolt between refreshes; the wand finishes weak enemies. With the Voidwalker, leave Torment on so it holds; with the Succubus or Incubus, go for damage and use Seduction when needed. If the demon runs low on health, use Health Funnel.",
+      "text_es": "En Demonología, envía al demonio y, al obtener Marca demoníaca, usa Dolor abrasador contra su objetivo; renueva el efecto tras seis ataques. A 40, ofrece un diablillo a Sacrificio demoníaco y después llama a la súcubo o al íncubo: Pacto demoníaco conserva Sombra ardiente. Contra enemigos duraderos, aplica Maldición de los Elementos desde 40, Corrupción y Terror de agonía; añade Inmolar si tienen mucha salud. Rellena con varita antes de 30 y Drenar vida desde 30.",
+      "text_en": "As Demonology, send in your demon; once Demonic Brand is available, use Searing Pain on its target and renew it after six hits. At 40, use an Imp for Demonic Sacrifice, then summon a Succubus or Incubus: Demonic Pact preserves Burning Shadow. Against durable enemies, apply Curse of the Elements from 40, Corruption, and Bane of Agony; add Immolate if they have high health. Fill with your wand before 30 and Drain Life from 30.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Demonology Warlock Leveling Guide › Single Target Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/demonology-warlock-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Demonology Warlock Leveling Guide - WoW: Forever › Single-Target Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Demonology Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/dps-leveling-tips",
+          "date": "2026-11-06"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:demonology:leveling"
       ],
       "source_hashes": [
-        "section:ec9a1ad6e8669616e02faf7e7b44f48fa3067106"
+        "guide:af1e73748ba8b481d20982b7af36cc91d6ad18da",
+        "section:78fcf26e7bd6166d52aca9c362d101229fdad4ba"
       ]
     },
     {
@@ -961,8 +1191,8 @@
       "status": "editorial",
       "title_es": "Rotación de Destrucción",
       "title_en": "Destruction Rotation",
-      "summary_es": "Mantén Inmolar, usa Conflagrar al final, remata con Quemadura de las Sombras y desde 40 lanza Incinerar.",
-      "summary_en": "Keep Immolate, use Conflagrate late, finish with Shadowburn, and from 40 cast Incinerate.",
+      "summary_es": "Inmolar prepara Conflagrar; termina con Quemadura de las Sombras y elige relleno según la configuración.",
+      "summary_en": "Immolate sets up Conflagrate; finish with Shadowburn and choose filler for your build.",
       "keywords_es": [
         "rotación de destrucción",
         "rotación del brujo destrucción",
@@ -977,25 +1207,32 @@
         "shadowburn",
         "incinerate"
       ],
-      "text_es": "En Destrucción, mantén Inmolar en el objetivo y usa Conflagrar cuando el DoT esté cerca de terminar; antes de 39, Conflagrar consume Inmolar, así que no lo gastes al principio. Quemadura de las Sombras remata y devuelve el fragmento si el enemigo muere en ocho segundos. Desde 40, Incinerar es tu lanzamiento principal y hace más daño con Inmolar activo. Es una rama de quedarse quieto: moverse corta la mayoría del daño.",
-      "text_en": "As Destruction, keep Immolate on the target and use Conflagrate when the DoT is close to ending; before 39, Conflagrate consumes Immolate, so do not spend it early. Shadowburn finishes and refunds the shard if the enemy dies within eight seconds. From 40, Incinerate is your main cast and deals more damage with Immolate active. This is a stand-still tree: moving cuts most of your damage.",
+      "text_es": "En Destrucción, deja que el demonio gane amenaza y aplica Inmolar; desde 25, usa Conflagrar cerca del final. En solitario, Conflagrar consume Inmolar; con Sombras y llamas 5/5 en mazmorra, no. Aplica Terror de agonía y Corrupción a enemigos duraderos; Aterrar 5/5 acelera Inmolar y Descarga de las Sombras. Remata con Quemadura de las Sombras. Antes de 30, rellena con varita o Drenar vida; desde 30, usa Drenar vida de rango 3. En mazmorras, Descarga de las Sombras hasta 40 y luego Incinerar; deja que el tanque genere amenaza primero.",
+      "text_en": "As Destruction, send in the demon, let it build threat, then cast Immolate. From 25, use Conflagrate near the end. It consumes Immolate in the solo build but not with 5/5 Shadow and Flame in the dungeon build. Use Bane of Agony and Corruption on durable enemies; 5/5 Bane shortens Immolate and Shadow Bolt casts. Finish with Shadowburn. Before 30, fill with wand or Drain Life; from 30, use rank 3 Drain Life. For dungeons, Shadow Bolt until 40, then Incinerate; let the tank build threat first.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Destruction Warlock Leveling Guide › Single Target Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/destruction-warlock-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Single-Target Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Destruction Warlock DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:destruction:leveling"
       ],
       "source_hashes": [
-        "section:5ed0c339f7fd4bcd763d5ec8369a2ec755656bd0"
+        "guide:06caefe3eaeafd39ddc3b82943318222c7b6f978",
+        "section:a41d84a98887df06285a814d449ad60b10a4cc3e"
       ]
     },
     {
@@ -1004,8 +1241,8 @@
       "status": "editorial",
       "title_es": "Consejos para subir de nivel",
       "title_en": "Leveling Tips",
-      "summary_es": "Consigue una varita, lleva comida, agua y vendas, sube hechizos y grimorios y descansa en tabernas.",
-      "summary_en": "Get a wand, carry food, water, and bandages, train spells and grimoires, and rest in inns.",
+      "summary_es": "Compra una varita pronto, mantén vivo al demonio y evita gastar maná en enemigos casi muertos.",
+      "summary_en": "Get a wand early, keep your demon alive, and avoid spending mana on nearly dead enemies.",
       "keywords_es": [
         "consejos para subir brujo",
         "varita brujo",
@@ -1020,12 +1257,30 @@
         "demon grimoires",
         "rested experience"
       ],
-      "text_es": "Consigue una varita pronto: da daño sin maná y sigue siendo útil toda la subida. Lleva comida, agua, vendas y una piedra de salud; come y bebe juntos tras una transfusión. Sube tus hechizos y los grimorios del demonio en visitas planificadas al pueblo, y no olvides las piedras de arma. Haz misiones en zonas descansadas y cierra la sesión en una taberna para acumular experiencia de descanso.",
-      "text_en": "Get a wand early: it deals damage without mana and remains useful all the way to 60. Carry food, water, bandages, and a healthstone; eat and drink together after a tap. Train your spells and the demon's grimoires on planned town visits, and do not forget weapon stones. Quest in rested areas and log out in an inn to build rested experience.",
+      "text_es": "Vende equipo y comida inicial para pagar Inmolar de rango 1 a nivel 1. Usa la Varita mágica inferior (5) y la Varita mágica superior (13), y mantenla al día hasta 30. Entre combates, suele ser mejor vendar al demonio o volver a invocarlo que usar Cauce de salud. Enlaza efectos periódicos y Miedo a un objetivo de foco, no renueves efectos en enemigos casi muertos y termina con la varita. Drenar alma puede darte un fragmento al matar: canalízalo al final, no contra un enemigo con toda la salud. Programa visitas al entrenador y cierra sesión en una posada para acumular experiencia de descanso.",
+      "text_en": "Sell your starting gear and food to pay for rank 1 Immolate, which is useful from level 1; get a Lesser Magic Wand at 5 and a Greater Magic Wand at 13, and keep it current until 30. Between fights, bandaging or resummoning your demon is usually better than using Health Funnel. Bind damage-over-time effects and Fear to a focus target, do not refresh them on nearly dead enemies, and finish with your wand. Drain Soul can grant a shard on a killing blow: channel it near the end, not on a full-health enemy. Plan trainer visits and log out at an inn to build rested experience.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Solo Leveling Tips",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock Leveling Guide - WoW: Forever › Solo Leveling Tips",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock Leveling Guide - WoW: Forever › Solo Leveling Tips",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/dps-leveling-tips",
+          "date": "2026-11-06"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Leveling Tips",
@@ -1033,12 +1288,17 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:warlock:affliction:leveling"
+        "class:warlock:affliction:leveling",
+        "class:warlock:demonology:leveling",
+        "class:warlock:destruction:leveling"
       ],
       "source_hashes": [
-        "section:99fbf29026d32be5654d9ec808e0c7e2c53cb7f0"
+        "section:2492e114a2cda3a0ca0136a08df444178c07eccd",
+        "section:99fbf29026d32be5654d9ec808e0c7e2c53cb7f0",
+        "section:e6f5f6f4350062c34277eff5d1b70ce059bce69c",
+        "section:fdb152ff765284c28444da661d480884e3562ca7"
       ]
     },
     {
@@ -1202,8 +1462,8 @@
       "status": "editorial",
       "title_es": "Profesiones para el Brujo",
       "title_en": "Professions for Warlock",
-      "summary_es": "Sastrería con Encantamiento, o recolección; Primeros auxilios da vendas y Cocina con Pesca se suben juntas.",
-      "summary_en": "Tailoring with Enchanting, or gathering; First Aid gives bandages, and Cooking with Fishing level together.",
+      "summary_es": "Costura combina con Encantamiento; recolección da oro y las profesiones aportan mejoras al campamento.",
+      "summary_en": "Tailoring pairs with Enchanting; gathering earns gold, and professions add camp benefits.",
       "keywords_es": [
         "profesiones para brujo",
         "sastrería brujo",
@@ -1218,12 +1478,18 @@
         "warlock first aid",
         "cooking and fishing"
       ],
-      "text_es": "Sastrería da al Brujo armaduras de tela y bolsas mientras sube, y combina con Encantamiento para desencantar las piezas que no uses; Encantamiento también hace varitas tempranas. Si prefieres oro, Desuello, Herboristería y Minería recogen materiales mientras haces misiones; Herboristería alimenta pociones de sanación con Primeros auxilios. Primeros auxilios es muy útil por las vendas después de Transfusión de vida. Cocina y Pesca se suben juntas, pero consumen tiempo y no ocupan un hueco de profesión principal.",
-      "text_en": "Tailoring gives Warlock cloth armor and bags while leveling, and pairs with Enchanting to disenchant pieces you do not use; Enchanting also makes early wands. If you prefer gold, Skinning, Herbalism, and Mining gather materials as you quest; Herbalism feeds Healing Potions made with First Aid. First Aid is very useful for bandages after Life Tap. Cooking and Fishing level together, but take time and do not use a primary profession slot.",
+      "text_es": "Costura y Encantamiento combinan porque puedes desencantar tus propias creaciones; Costura también da armadura de tela y bolsas, y Encantamiento permite fabricar varitas tempranas. Botánica, Minería y Desollar dan materiales vendibles al subir. Cada profesión añade una función y una mejora al campamento: Botánica da Intelecto, Primeros auxilios Aguante e Ingeniería permite comprar componentes y reparar equipo. Botánica aporta ingredientes para pociones de sanación de Primeros auxilios; las vendas ayudan tras Transfusión de vida. Cocina y Pesca se suben juntas, aunque requieren tiempo.",
+      "text_en": "Tailoring and Enchanting pair well because you can disenchant your own crafts; Tailoring also provides cloth armor and bags, and Enchanting can make early wands. For gathering, Herbalism, Mining, and Skinning provide materials to sell while questing. Each profession adds a camp feature and buff: Herbalism grants Intellect, First Aid grants Stamina, and Engineering lets you buy reagents and repair gear. Herbalism provides ingredients that First Aid uses to make Healing Potions; bandages help after Life Tap. Cooking and Fishing level together, though they take time.",
       "tags": [
         "WARLOCK"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Leveling Guide - WoW: Forever › Best Professions for Affliction Warlock in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-leveling-tips",
+          "date": "2026-11-11"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Affliction Warlock Leveling Guide › Professions",
@@ -1231,12 +1497,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warlock:affliction:leveling"
       ],
       "source_hashes": [
-        "section:11fdf0f2821f8d9bc6a32e723958dc711660befd"
+        "section:11fdf0f2821f8d9bc6a32e723958dc711660befd",
+        "section:2871904a139b125189e2e3a5bef11b168dc9a207"
       ]
     },
     {
