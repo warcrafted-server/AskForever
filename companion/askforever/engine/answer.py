@@ -159,12 +159,14 @@ def needs_web(facts, question, history=None) -> bool:
     missing = list(getattr(facts, 'missing', None) or [])
     if _is_route_missing(missing):
         return False
+    sources = list(getattr(facts, 'sources', None) or [])
+    if any(str(source).startswith('guide:section:') for source in sources):
+        return False
     if missing:
         return True
     lines = list(getattr(facts, 'lines', None) or [])
     if not lines:
         return True
-    sources = list(getattr(facts, 'sources', None) or [])
     if sources and all(str(source).startswith('panorama:') for source in sources):
         return True
     if is_profession_question(text):

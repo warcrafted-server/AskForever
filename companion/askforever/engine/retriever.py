@@ -13,6 +13,7 @@ from askforever.data.wowdb import (CLASSES, class_mask_from_name, normalize,
                                     talent_detail, talents_in_text)
 
 LIMIT = 1600
+GUIDE_LIMIT = 3200
 MAX_OBJECTIVE = 220
 
 SPELL_KEYWORDS = ('aprend', 'hechiz', 'habilidad', 'spell', 'learn', 'abilit')
@@ -252,9 +253,11 @@ class Facts:
         # El panorama va al final para que el recorte por tamaño lo quite primero.
         segments.extend(self.panorama)
         text = '\n'.join(segments)
-        if len(text) <= LIMIT:
+        limit = (GUIDE_LIMIT if any(_is_guide_line(line) for line in self.lines)
+                 else LIMIT)
+        if len(text) <= limit:
             return text
-        cut = text[:LIMIT - 1]
+        cut = text[:limit - 1]
         newline = cut.rfind('\n')
         if newline > 0:
             cut = cut[:newline]
@@ -2054,6 +2057,13 @@ def _is_guide_line(line) -> bool:
     return isinstance(line, str) and line.startswith(_GUIDE_LABELS)
 
 
+def _guide_line(status, title, text, lang: str) -> str:
+    line = _guide_label(status, lang)
+    if isinstance(title, str) and title.strip():
+        return line + f'«{title.strip()}». ' + text
+    return line + text
+
+
 def _detect_guide(facts: Facts, db, question, lang: str, ctx: dict) -> None:
     """Añade textos oficiales solo si la pregunta no es específica."""
     # Una pregunta con forma de viaje solo se descarta si hay ruta en los datos o nombra un
@@ -2073,16 +2083,22 @@ def _detect_guide(facts: Facts, db, question, lang: str, ctx: dict) -> None:
         return
     facts.guide_eligible = True
     try:
-        from askforever.engine.guide import GuideIndex
+        from askforever.engine.guide import GuideIndex, load_sections
     except Exception:
         return
     index = _safe(GuideIndex, db)
     if index is None:
         return
+    sections = {f'section:{section["id"]}': section
+                for section in load_sections(index.sections_path)}
     hits = _safe(index.search, question, lang, 3, ctx) or []
     for ref, text in hits:
         status = _safe(index.status, ref) if ref.startswith('section:') else ''
-        facts.lines.append(_guide_label(status, lang) + text)
+        section = sections.get(ref) if ref.startswith('section:') else None
+        spanish = str(lang).lower().startswith('es')
+        title = (section.get('title_es' if spanish else 'title_en')
+                 if section else None)
+        facts.lines.append(_guide_line(status, title, text, lang))
         _add_source(facts, f'guide:{ref}')
 
 
@@ -2111,7 +2127,8 @@ def add_guide_sections(facts: Facts, db, ids, lang: str) -> None:
         text = section.get('text_es' if spanish else 'text_en')
         if not isinstance(text, str) or not text.strip():
             continue
-        line = _guide_label(section.get('status'), lang) + text
+        title = section.get('title_es' if spanish else 'title_en')
+        line = _guide_line(section.get('status'), title, text, lang)
         source = f'guide:section:{section_id}'
         # Si la búsqueda por palabras ya la trajo, se recoloca delante en el orden del
         # enrutador: si se quedara detrás podría salir recortada.

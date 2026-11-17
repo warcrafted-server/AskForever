@@ -281,6 +281,8 @@ def _section(section_id='nivel-maximo', status='verificado', text_es=None,
              text_en=None):
     return {
         'id': section_id,
+        'title_es': 'Nivel máximo',
+        'title_en': 'Maximum level',
         'status': status,
         'keywords_es': ['nivel máximo', 'nivel maximo', 'nivel 60'],
         'keywords_en': ['max level', 'level cap', 'level 60'],
@@ -353,9 +355,33 @@ def test_retrieve_uses_verified_section(monkeypatch, tmp_path, db):
     monkeypatch.setattr(guide_module, 'GUIDE_SECTIONS_PATH', path)
     guide_module._CACHE.clear()
     facts = retrieve(_message('¿Cuál es el nivel máximo en WoW Forever?'), db)
-    assert ('En WoW Forever: '
+    assert ('En WoW Forever: «Nivel máximo». '
             'El nivel máximo de WoW Forever es 60.') in facts.lines
     assert 'guide:section:nivel-maximo' in facts.sources
+
+
+def test_guide_sections_have_titles_in_both_paths_once(monkeypatch, tmp_path, db):
+    from askforever.engine.retriever import add_guide_sections
+
+    path = tmp_path / 'guide.json'
+    _write_sections(path, [_section()])
+    monkeypatch.setattr(guide_module, 'GUIDE_SECTIONS_PATH', path)
+    guide_module._CACHE.clear()
+    facts = Facts()
+    _detect_guide(facts, db, '¿Cuál es el nivel máximo en WoW Forever?', 'es', {})
+    add_guide_sections(facts, db, ['nivel-maximo'], 'es')
+
+    expected = ('En WoW Forever: «Nivel máximo». '
+                'El nivel máximo de WoW Forever es 60.')
+    assert facts.lines.count(expected) == 1
+    assert facts.sources.count('guide:section:nivel-maximo') == 1
+
+    english = Facts()
+    add_guide_sections(english, db, ['nivel-maximo'], 'en')
+    assert english.lines == [
+        'In WoW Forever: «Maximum level». The maximum level in WoW Forever is 60.'
+    ]
+    guide_module._CACHE.clear()
 
 
 def test_real_guide_json_loads_verified_max_level():
@@ -365,6 +391,21 @@ def test_real_guide_json_loads_verified_max_level():
     assert max_level['status'] == 'verificado'
     assert '60' in max_level['text_es']
     assert '60' in max_level['text_en']
+
+
+def test_section_without_language_title_keeps_old_line_format(tmp_path, db):
+    path = tmp_path / 'guide.json'
+    section = _section()
+    section['title_es'] = ''
+    _write_sections(path, [section])
+    index = GuideIndex(db, sections_path=path)
+    facts = Facts()
+    from askforever.engine.retriever import add_guide_sections
+    add_guide_sections(facts, db, ['nivel-maximo'], 'es')
+    assert facts.lines == [
+        'En WoW Forever: El nivel máximo de WoW Forever es 60.'
+    ]
+    guide_module._CACHE.clear()
 
 
 def test_editorial_sections_from_folder_are_used_with_their_label(tmp_path, db):

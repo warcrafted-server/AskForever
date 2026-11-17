@@ -214,7 +214,7 @@ def test_profession_question_skips_spell_and_trainer_intents(db):
     facts = retrieve(_message(question), db)
     assert not any('Hechizos de' in line for line in facts.lines)
     assert not any('Instructor de' in line for line in facts.lines)
-    assert needs_web(facts, question) is True
+    assert needs_web(facts, question) is False
 
     trainer_question = '¿Dónde está el instructor de pesca?'
     trainer_facts = retrieve(_message(trainer_question), db)

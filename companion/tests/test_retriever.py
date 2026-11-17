@@ -304,6 +304,16 @@ def test_render_limit_and_titles():
     assert Facts().render('esES') == ''
 
 
+def test_render_uses_longer_limit_for_guide_lines():
+    guide = Facts(lines=['In WoW Forever: ' + 'x' * 4000])
+    rendered = guide.render('enUS')
+    assert len(rendered) <= 3200
+    assert rendered.endswith('…')
+
+    ordinary = Facts(lines=['x' * 4000])
+    assert len(ordinary.render('enUS')) <= 1600
+
+
 def test_retrieve_without_database(tmp_path):
     assert retrieve(_message('hola'), None).lines == []
     missing = WowDb(tmp_path / 'no.sqlite')

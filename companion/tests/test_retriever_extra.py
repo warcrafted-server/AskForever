@@ -1066,7 +1066,7 @@ def test_render_limit_keeps_priority(db):
     facts = retrieve(_message('¿Qué zonas me tocan a mi nivel?'), db)
     rendered = facts.render('esES')
     assert rendered.startswith('DATOS VERIFICADOS')
-    assert len(rendered) <= 1600
+    assert len(rendered) <= 3200
 
 
 class _PlaceQuestDb:

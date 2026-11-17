@@ -77,6 +77,10 @@ def test_needs_web_cases():
                      '¿Dónde entrego X?') is False
     assert needs_web(Facts(missing=['experiencia necesaria por nivel']),
                      '¿Cuánta experiencia necesito?') is True
+    assert needs_web(Facts(lines=['En WoW Forever: «Talentos». Datos.'],
+                           sources=['guide:section:talentos'],
+                           missing=['unrelated data']),
+                     '¿Qué talentos debería elegir?') is False
     assert needs_web(Facts(missing=['ruta completa entre A y B']),
                      '¿Cómo voy de A a B?') is False
     assert needs_web(Facts(), '¿Cómo voy a Ventormenta?') is False
