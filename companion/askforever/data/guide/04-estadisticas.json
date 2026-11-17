@@ -86,48 +86,6 @@
       ]
     },
     {
-      "id": "clase-rogue-estadisticas-assassination",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Estadísticas de Pícaro Asesinato",
-      "title_en": "Assassination Rogue stat priority",
-      "summary_es": "Qué estadísticas priorizar como Pícaro Asesinato (daño cuerpo a cuerpo) en JcE.",
-      "summary_en": "Which stats to prioritise as a Assassination Rogue (melee DPS) in PvE.",
-      "keywords_es": [
-        "estadisticas asesinato",
-        "stats asesinato",
-        "prioridad de estadisticas pícaro",
-        "que estadisticas pícaro",
-        "stats pícaro"
-      ],
-      "keywords_en": [
-        "assassination stats",
-        "assassination stat priority",
-        "rogue stat priority",
-        "rogue stats"
-      ],
-      "tags": [
-        "ROGUE"
-      ],
-      "text_es": "Prioridad de estadísticas para Pícaro Asesinato (daño cuerpo a cuerpo, JcE), de más a menos importante: Pericia (hasta 6,5 %) > Prob. de golpe (hasta 8 %) > Agilidad > Daño del arma > Golpe crítico.",
-      "text_en": "Stat priority for Assassination Rogue (melee DPS, PvE), from most to least important: Expertise (to 6.5%) > Hit Chance (to 8%) > Agility > Weapon Damage > Critical Strike.",
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Forever Assassination Rogue Stat Priority",
-          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-melee-dps-pve-stat-priority",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:rogue:assassination:stats"
-      ],
-      "source_hashes": [
-        "guide:e005cbc079be2616253ef4f234d9e4c1dbecb2c5"
-      ]
-    },
-    {
       "id": "clase-druid-estadisticas-balance",
       "chapter": 4,
       "status": "editorial",
@@ -167,48 +125,6 @@
       ],
       "source_hashes": [
         "guide:82a0cb2a0332dd927887e9564d1805abb6930a03"
-      ]
-    },
-    {
-      "id": "clase-rogue-estadisticas-combat",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Estadísticas de Pícaro Combate",
-      "title_en": "Combat Rogue stat priority",
-      "summary_es": "Qué estadísticas priorizar como Pícaro Combate (daño cuerpo a cuerpo) en JcE.",
-      "summary_en": "Which stats to prioritise as a Combat Rogue (melee DPS) in PvE.",
-      "keywords_es": [
-        "estadisticas combate",
-        "stats combate",
-        "prioridad de estadisticas pícaro",
-        "que estadisticas pícaro",
-        "stats pícaro"
-      ],
-      "keywords_en": [
-        "combat stats",
-        "combat stat priority",
-        "rogue stat priority",
-        "rogue stats"
-      ],
-      "tags": [
-        "ROGUE"
-      ],
-      "text_es": "Prioridad de estadísticas para Pícaro Combate (daño cuerpo a cuerpo, JcE), de más a menos importante: Pericia (hasta 6,5 %) > Prob. de golpe (hasta 8 %) > Agilidad > Daño del arma > Golpe crítico.",
-      "text_en": "Stat priority for Combat Rogue (melee DPS, PvE), from most to least important: Expertise (to 6.5%) > Hit Chance (to 8%) > Agility > Weapon Damage > Critical Strike.",
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Forever Combat Rogue Stat Priority",
-          "url": "https://www.icy-veins.com/wow-forever/combat-rogue-melee-dps-pve-stat-priority",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:rogue:combat:stats"
-      ],
-      "source_hashes": [
-        "guide:8943ad3605b1a138576b4c222dacfd434fe30424"
       ]
     },
     {
@@ -713,48 +629,6 @@
       ],
       "source_hashes": [
         "guide:f5e2a10534d2c6c5657d0fd1c092bbf494e6c397"
-      ]
-    },
-    {
-      "id": "clase-rogue-estadisticas-subtlety",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Estadísticas de Pícaro Sutileza",
-      "title_en": "Subtlety Rogue stat priority",
-      "summary_es": "Qué estadísticas priorizar como Pícaro Sutileza (daño cuerpo a cuerpo) en JcE.",
-      "summary_en": "Which stats to prioritise as a Subtlety Rogue (melee DPS) in PvE.",
-      "keywords_es": [
-        "estadisticas sutileza",
-        "stats sutileza",
-        "prioridad de estadisticas pícaro",
-        "que estadisticas pícaro",
-        "stats pícaro"
-      ],
-      "keywords_en": [
-        "subtlety stats",
-        "subtlety stat priority",
-        "rogue stat priority",
-        "rogue stats"
-      ],
-      "tags": [
-        "ROGUE"
-      ],
-      "text_es": "Prioridad de estadísticas para Pícaro Sutileza (daño cuerpo a cuerpo, JcE), de más a menos importante: Daño del arma > Pericia (hasta 6,5 %) > Prob. de golpe (hasta 8 %) > Habilidad con armas > Agilidad.",
-      "text_en": "Stat priority for Subtlety Rogue (melee DPS, PvE), from most to least important: Weapon Damage > Expertise (to 6.5%) > Hit Chance (to 8%) > Weapon Skill > Agility.",
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Forever Subtlety Rogue Stat Priority",
-          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-melee-dps-pve-stat-priority",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:rogue:subtlety:stats"
-      ],
-      "source_hashes": [
-        "guide:7970ccc5b3797e71612926100200502556b711b2"
       ]
     }
   ]
