@@ -170,90 +170,6 @@
       ]
     },
     {
-      "id": "clase-shaman-estadisticas-elemental",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Estadísticas de Chamán Elemental",
-      "title_en": "Elemental Shaman stat priority",
-      "summary_es": "Qué estadísticas priorizar como Chamán Elemental (daño a distancia) en JcE.",
-      "summary_en": "Which stats to prioritise as a Elemental Shaman (ranged DPS) in PvE.",
-      "keywords_es": [
-        "estadisticas elemental",
-        "stats elemental",
-        "prioridad de estadisticas chamán",
-        "que estadisticas chamán",
-        "stats chamán"
-      ],
-      "keywords_en": [
-        "elemental stats",
-        "elemental stat priority",
-        "shaman stat priority",
-        "shaman stats"
-      ],
-      "tags": [
-        "SHAMAN"
-      ],
-      "text_es": "Prioridad de estadísticas para Chamán Elemental (daño a distancia, JcE), de más a menos importante: Poder con hechizos > Prob. de golpe (hasta 17 %) > Golpe crítico > Inteligencia > Regeneración de maná cada 5 s.",
-      "text_en": "Stat priority for Elemental Shaman (ranged DPS, PvE), from most to least important: Spell Power > Hit Chance (to 17%) > Critical Strike > Intellect > MP5.",
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Forever Elemental Shaman Stat Priority",
-          "url": "https://www.icy-veins.com/wow-forever/elemental-shaman-ranged-dps-pve-stat-priority",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:shaman:elemental:stats"
-      ],
-      "source_hashes": [
-        "guide:e153ca47ccc49e424a5237c499eec4d433d8a208"
-      ]
-    },
-    {
-      "id": "clase-shaman-estadisticas-enhancement",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Estadísticas de Chamán Mejora",
-      "title_en": "Enhancement Shaman stat priority",
-      "summary_es": "Qué estadísticas priorizar como Chamán Mejora (daño cuerpo a cuerpo) en JcE.",
-      "summary_en": "Which stats to prioritise as a Enhancement Shaman (melee DPS) in PvE.",
-      "keywords_es": [
-        "estadisticas mejora",
-        "stats mejora",
-        "prioridad de estadisticas chamán",
-        "que estadisticas chamán",
-        "stats chamán"
-      ],
-      "keywords_en": [
-        "enhancement stats",
-        "enhancement stat priority",
-        "shaman stat priority",
-        "shaman stats"
-      ],
-      "tags": [
-        "SHAMAN"
-      ],
-      "text_es": "Prioridad de estadísticas para Chamán Mejora (daño cuerpo a cuerpo, JcE), de más a menos importante: Prob. de golpe > Pericia > Fuerza > Inteligencia > Poder con hechizos.",
-      "text_en": "Stat priority for Enhancement Shaman (melee DPS, PvE), from most to least important: Hit Chance > Expertise > Strength > Intellect > Spell Power.",
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Forever Enhancement Shaman Stat Priority",
-          "url": "https://www.icy-veins.com/wow-forever/enhancement-shaman-melee-dps-pve-stat-priority",
-          "date": "2026-11-13"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:shaman:enhancement:stats"
-      ],
-      "source_hashes": [
-        "guide:c4bfb5421d6fb169b7e1c04d858d25760d3d1249"
-      ]
-    },
-    {
       "id": "clase-warrior-estadisticas-fury",
       "chapter": 4,
       "status": "editorial",
@@ -335,48 +251,6 @@
       ],
       "source_hashes": [
         "guide:6b262229c6a8c3974037ce844fa3b9966b1f320d"
-      ]
-    },
-    {
-      "id": "clase-shaman-estadisticas-restoration",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Estadísticas de Chamán Recuperación",
-      "title_en": "Restoration Shaman stat priority",
-      "summary_es": "Qué estadísticas priorizar como Chamán Recuperación (sanador) en JcE.",
-      "summary_en": "Which stats to prioritise as a Restoration Shaman (healer) in PvE.",
-      "keywords_es": [
-        "estadisticas recuperación",
-        "stats recuperación",
-        "prioridad de estadisticas chamán",
-        "que estadisticas chamán",
-        "stats chamán"
-      ],
-      "keywords_en": [
-        "restoration stats",
-        "restoration stat priority",
-        "shaman stat priority",
-        "shaman stats"
-      ],
-      "tags": [
-        "SHAMAN"
-      ],
-      "text_es": "Prioridad de estadísticas para Chamán Recuperación (sanador, JcE), de más a menos importante: Sanación con hechizos > Golpe crítico > Inteligencia > Espíritu > Regeneración de maná cada 5 s.",
-      "text_en": "Stat priority for Restoration Shaman (healer, PvE), from most to least important: Healing Power > Critical Strike > Intellect > Spirit > MP5.",
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Forever Restoration Shaman Stat Priority",
-          "url": "https://www.icy-veins.com/wow-forever/restoration-shaman-healer-pve-stat-priority",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:shaman:restoration:stats"
-      ],
-      "source_hashes": [
-        "guide:f7b1286f5706e5fdb88cbf40cd3f43a94522c791"
       ]
     }
   ]
