@@ -168,11 +168,22 @@ def test_system_prompt_has_concrete_rules():
     for text in ('Sé concreto y útil', 'UNA frase', 'guías', 'webs', 'foros',
                  'No inventes', 'SOLO', '2 a 5'):
         assert text in system
-
     system, _user = build_prompt({'lang': 'enUS', 'q': 'Where is Hogger?'})
     for text in ('Be concrete and useful', 'ONE sentence', 'guides', 'websites',
                  'Do not invent', 'ONLY', '2 to 5'):
         assert text in system
+
+
+def test_system_prompt_asks_for_clarification_when_ambiguous():
+    system_es, _user = build_prompt({'lang': 'esES', 'q': '¿Cuál misión?'})
+    assert ('Si la pregunta es ambigua (puede referirse a varias misiones, PNJ, objetos '
+            'o lugares) y los datos no permiten saber cuál, pregunta cuál en una frase '
+            'en lugar de decir que no lo sabes.') in system_es
+
+    system_en, _user = build_prompt({'lang': 'enUS', 'q': 'Which quest?'})
+    assert ('If the question is ambiguous (it may refer to several quests, NPCs, items '
+            'or places) and the data cannot tell which, ask which one in one sentence '
+            'instead of saying you do not know.') in system_en
 
 
 def test_follow_up_reuses_previous_question_facts(db):

@@ -738,6 +738,68 @@ class WowDb:
             'objective_creatures': objective_creatures,
         }
 
+    def quests_in_zone(self, zone, level, faction=None, lang='es', limit=8):
+        """Misiones de una zona que encajan con el nivel y la facción del jugador."""
+        try:
+            area_id = _as_int(zone)
+            if area_id is None:
+                zone_data = self.zone_levels(zone, lang)
+                if not zone_data:
+                    return []
+                area_id = zone_data.get('area_id')
+            if area_id is None:
+                return []
+
+            params = [area_id]
+            sql = ('SELECT quest_id FROM ext_quests WHERE zone_or_sort = ? '
+                   'AND (required_classes IS NULL OR required_classes = 0)')
+            if level is not None:
+                level = int(level)
+                sql += (' AND required_level <= ? AND quest_level BETWEEN ? AND ?')
+                params.extend((level + 1, level - 2, level + 3))
+            rows = self._rows(sql, params)
+            blacklisted = {row['quest_id'] for row in self._rows(
+                'SELECT quest_id FROM ext_quest_blacklist')}
+            quests = []
+            for row in rows:
+                quest_id = row['quest_id']
+                if quest_id in blacklisted:
+                    continue
+                quest = self._quest_dict(quest_id, lang)
+                if not quest:
+                    continue
+                starters = quest.get('starters') or []
+                if faction in ('A', 'H'):
+                    starters = [starter for starter in starters
+                                if (starter.get('type') in ('object', 'item')
+                                    or (starter.get('faction') or '')
+                                    in ('', 'AH', faction))]
+                if not starters:
+                    continue
+                starter = starters[0]
+                location = (starter.get('locations') or [{}])[0]
+                result = {
+                    'id': quest_id,
+                    'name': quest.get('name') or '',
+                    'level': quest.get('level'),
+                    'starter': starter.get('name') or '',
+                    'zone': location.get('zone') or '',
+                    'x': location.get('x'),
+                    'y': location.get('y'),
+                }
+                quests.append(result)
+            quests.sort(key=lambda quest: (
+                _as_int(quest.get('level')) if _as_int(quest.get('level')) is not None
+                else 10 ** 6,
+                normalize(quest.get('name')), quest.get('name')))
+            try:
+                limit = max(0, int(limit))
+            except (TypeError, ValueError):
+                limit = 8
+            return quests[:limit]
+        except Exception:
+            return []
+
     def find_quest(self, name_or_id, lang: str = 'es', player_level=None,
                    prefer_ids=None, faction=None):
         quest_id = _as_int(name_or_id)

@@ -1345,7 +1345,43 @@ def _detect_transport(facts: Facts, graph, question: str, normalized: str,
     if graph is None or not any(word in normalized for word in TRANSPORT_KEYWORDS):
         return
     origin, destination = extract_places(graph, question, ctx)
-    if not origin or not destination:
+    if (not origin or not destination or not resolve_place(graph, origin)
+            or not resolve_place(graph, destination)):
+        edges = {}
+        for neighbors in graph.adjacency.values():
+            for _neighbor, _seconds, step in neighbors:
+                if step.kind not in (KIND_TRANSPORT, KIND_TRAM):
+                    continue
+                first, second = step.from_name, step.to_name
+                first_key, second_key = normalize(first), normalize(second)
+                if not first_key or not second_key or first_key == second_key:
+                    continue
+                if (second_key, second) < (first_key, first):
+                    first, second = second, first
+                    first_key, second_key = second_key, first_key
+                key = (step.kind, first_key, second_key)
+                previous = edges.get(key)
+                edges[key] = (first, second,
+                              bool(step.seen_in_game or (previous and previous[2])))
+        if not edges:
+            return
+        parts = []
+        for kind, first_key, second_key in sorted(
+                edges, key=lambda edge: (edge[1], edge[2], edge[0])):
+            first, second, seen = edges[(kind, first_key, second_key)]
+            if kind == KIND_TRAM:
+                label = 'tranvía' if lang == 'es' else 'tram'
+            else:
+                label = 'barco' if lang == 'es' else 'boat'
+            if seen:
+                label += ', visto en el juego' if lang == 'es' else ', seen in the game'
+            parts.append(f'{first} - {second} ({label})')
+        if lang == 'es':
+            facts.lines.append('Barcos, zepelines y tranvías conocidos: '
+                               + '; '.join(parts))
+        else:
+            facts.lines.append('Known boats, zeppelins and trams: ' + '; '.join(parts))
+        _add_source(facts, 'transports')
         return
     steps = _safe(transport_between, graph, origin, destination) or []
     labels = []
@@ -2036,6 +2072,66 @@ def _detect_quest_list(facts: Facts, db, normalized: str, lang: str, ctx: dict) 
         _add_source(facts, f'quest:{quest["id"]}')
 
 
+def _detect_zone_quests(facts: Facts, db, normalized: str, lang: str,
+                        ctx: dict) -> None:
+    words = set(normalized.split())
+    if not words.intersection(('mision', 'misiones', 'quest', 'quests')):
+        return
+    if any(keyword in normalized for keyword in LIST_KEYWORDS):
+        return
+    zone_id, zone_name = _zone_in_question(db, normalized, lang)
+    here_question = ('aqui' in words or 'here' in words
+                     or any(phrase in normalized for phrase in
+                            ('esta zona', 'mi zona', 'this zone')))
+    if zone_id is None and here_question:
+        current_zone = ctx.get('zone')
+        if isinstance(current_zone, str):
+            zone_id, zone_name = _zone_in_question(
+                db, normalize(current_zone), lang)
+    if zone_id is None:
+        return
+    level = _ctx_level(ctx)
+    quests = _safe(db.quests_in_zone, zone_id, level,
+                   faction=_faction(ctx.get('fac')), lang=lang) or []
+    if not quests:
+        facts.missing.append(
+            f'misiones de {zone_name} para tu nivel (no están en la base)'
+            if lang == 'es'
+            else f'quests in {zone_name} for your level (not in the database)')
+        return
+
+    items = []
+    for quest in quests:
+        parts = []
+        if quest.get('level') is not None:
+            parts.append(('nivel ' if lang == 'es' else 'level ')
+                         + str(quest['level']))
+        starter = quest.get('starter')
+        place = quest.get('zone') or ''
+        x, y = quest.get('x'), quest.get('y')
+        location = place
+        if x is not None and y is not None:
+            coords = f'{x}, {y}'
+            location = f'{place} ({coords})' if place else coords
+        if starter:
+            detail = (('la da ' if lang == 'es' else 'given by ') + starter)
+            if location:
+                detail += ((' en ' if lang == 'es' else ' in ') + location)
+            parts.append(detail)
+        name = quest.get('name') or ''
+        quoted = f'«{name}»' if lang == 'es' else f'"{name}"'
+        items.append(quoted + (f" ({', '.join(parts)})" if parts else ''))
+    if lang == 'es':
+        level_text = f' ({level})' if level is not None else ''
+        facts.lines.append(f'Misiones de {zone_name} para tu nivel{level_text}: '
+                           + '; '.join(items))
+    else:
+        level_text = f' ({level})' if level is not None else ''
+        facts.lines.append(f'Quests in {zone_name} for your level{level_text}: '
+                           + '; '.join(items))
+    _add_source(facts, f'zone_quests:{zone_id}')
+
+
 def _guide_label(status, lang: str) -> str:
     spanish = str(lang).lower().startswith('es')
     # Etiquetas neutras: con «Guía de…» o «Texto oficial…» la IA acababa diciendo «según la
@@ -2076,7 +2172,8 @@ def _detect_guide(facts: Facts, db, question, lang: str, ctx: dict) -> None:
     blocked_sources = ('quest:', 'dungeon', 'route:')
     if any(source.startswith(blocked_sources) for source in facts.sources):
         return
-    blocked_lines = ('Misión ', 'Quest ', 'Mazmorra ', 'Mazmorras ', 'Dungeon ',
+    blocked_lines = ('Misión ', 'Misiones ', 'Quest ', 'Quests in ', 'Mazmorra ',
+                     'Mazmorras ', 'Dungeon ',
                      'Dungeons ', 'Ruta ', 'Fastest route', 'Desde tu posición',
                      'From your position', 'De ', 'From ')
     if any(line.startswith(blocked_lines) for line in facts.lines):
@@ -2209,6 +2306,7 @@ def retrieve(message, db) -> Facts:
         _detect_talents(facts, db, normalized, lang, ctx)
         _detect_talent_details(facts, db, normalized, lang, ctx)
         _detect_quest_list(facts, db, normalized, lang, ctx)
+        _detect_zone_quests(facts, db, normalized, lang, ctx)
         _detect_guide(facts, db, question, lang, ctx)
         _add_panorama(facts, db, lang, level, nearby, zones_level, dungeons_level,
                       excluded_ids, excluded_keys, excluded_names, faction)

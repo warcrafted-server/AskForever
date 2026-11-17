@@ -3,17 +3,22 @@
 from __future__ import annotations
 
 import sqlite3
+from types import SimpleNamespace
 
 import pytest
 
 from askforever.data.wowdb import WowDb, normalize
+from askforever.data.routes import KIND_TRANSPORT, KIND_TRAM
+from askforever.engine import retriever as retriever_module
 from askforever.engine.retriever import (Facts, _active_quest_ids, _zone_in_question,
                                          _detect_active_quest_reference, _detect_entities,
                                          _entities_for_player, _item_line, _quest_line, retrieve)
 
 SCHEMA = [
-    'CREATE TABLE ext_quests (quest_id INTEGER, required_level INTEGER, quest_level INTEGER)',
+    'CREATE TABLE ext_quests (quest_id INTEGER, required_level INTEGER, quest_level INTEGER, '
+    'required_classes INTEGER, zone_or_sort INTEGER)',
     'CREATE TABLE ext_quest_l10n (quest_id INTEGER, locale TEXT, name TEXT)',
+    'CREATE TABLE ext_quest_blacklist (quest_id INTEGER, mode TEXT)',
     'CREATE TABLE ext_quest_starters (quest_id INTEGER, entity_type TEXT, entity_id INTEGER)',
     'CREATE TABLE ext_quest_finishers (quest_id INTEGER, entity_type TEXT, entity_id INTEGER)',
     'CREATE TABLE ext_quest_objective_items (quest_id INTEGER, position INTEGER, '
@@ -490,6 +495,86 @@ def test_zone_levels_question(db):
     assert 'rangos de nivel de mazmorras' not in facts.missing
 
 
+def _insert_zone_quest_cases(db):
+    db.close()
+    conn = sqlite3.connect(db.path)
+    _insert(conn, 'ext_quests', ['quest_id', 'required_level', 'quest_level',
+                                 'required_classes', 'zone_or_sort'], [
+        (93001, 13, 14, 0, 40),   # Alianza, dentro de los límites
+        (93002, 14, 14, 0, 40),   # Horda
+        (93003, 14, 14, 1, 40),   # restringida a una clase
+        (93004, 16, 14, 0, 40),   # nivel requerido demasiado alto
+        (93005, 14, 18, 0, 40),   # nivel de misión demasiado alto
+        (93006, 10, 14, 0, 40),   # sin iniciador
+        (93007, 14, 14, 0, 40),   # en lista negra
+        (93008, 10, 12, 0, 40),   # límite inferior y objeto
+        (93009, 10, 11, 0, 40),   # nivel de misión demasiado bajo
+    ])
+    _insert(conn, 'ext_quest_l10n', ['quest_id', 'locale', 'name'], [
+        (93001, 'esES', 'Prueba de Alianza'),
+        (93002, 'esES', 'Prueba de Horda'),
+        (93003, 'esES', 'Prueba de clase'),
+        (93004, 'esES', 'Requiere nivel alto'),
+        (93005, 'esES', 'Misión de nivel alto'),
+        (93006, 'esES', 'Sin iniciador'),
+        (93007, 'esES', 'Lista negra'),
+        (93008, 'enUS', 'Object Quest'),
+        (93009, 'esES', 'Misión de nivel bajo'),
+    ])
+    _insert(conn, 'ext_quest_starters', ['quest_id', 'entity_type', 'entity_id'], [
+        (93001, 'npc', 1343),
+        (93002, 'npc', 7000),
+        (93003, 'npc', 1343),
+        (93004, 'npc', 1343),
+        (93005, 'npc', 1343),
+        (93007, 'npc', 1343),
+        (93008, 'object', 386759),
+        (93009, 'npc', 1343),
+    ])
+    _insert(conn, 'ext_quest_blacklist', ['quest_id', 'mode'], [(93007, 'all')])
+    conn.commit()
+    conn.close()
+
+
+def test_quests_in_zone_filters_level_faction_blacklist_class_and_starters(db):
+    _insert_zone_quest_cases(db)
+    quests = db.quests_in_zone('Páramos de Poniente', 14, faction='A')
+    assert [quest['id'] for quest in quests] == [93008, 93001]
+    assert quests[0]['name'] == 'Object Quest'
+    assert quests[0]['starter'] == 'Library Book'
+    assert quests[1]['starter'] == 'Montaraz Pico Tormenta'
+    assert quests[1]['zone'] == 'Loch Modan'
+    assert (quests[1]['x'], quests[1]['y']) == (24.8, 18.4)
+
+
+def test_zone_quest_line_and_missing_case(db):
+    _insert_zone_quest_cases(db)
+    ctx = dict(CTX, lvl=14, zone='Páramos de Poniente')
+    facts = retrieve(_message(
+        '¿Qué misiones hay en Páramos de Poniente para mi nivel?', ctx=ctx), db)
+    line = next(line for line in facts.lines if line.startswith('Misiones de '))
+    assert line.startswith('Misiones de Páramos de Poniente para tu nivel (14):')
+    assert ('«Prueba de Alianza» (nivel 14, la da Montaraz Pico Tormenta en '
+            'Loch Modan (24.8, 18.4))') in line
+    assert 'Prueba de Horda' not in line
+    assert 'zone_quests:40' in facts.sources
+    assert not any(source.startswith('guide:') for source in facts.sources)
+    assert not facts.guide_eligible
+
+    ctx['lvl'] = 60
+    missing = retrieve(_message('¿Qué misiones hay en Páramos de Poniente para mi nivel?',
+                               ctx=ctx), db)
+    assert 'misiones de Páramos de Poniente para tu nivel (no están en la base)' in missing.missing
+
+
+def test_here_zone_quest_line_uses_current_zone(db):
+    _insert_zone_quest_cases(db)
+    ctx = dict(CTX, lvl=14, zone='Páramos de Poniente')
+    facts = retrieve(_message('¿Qué quests hay aquí para mi nivel?', ctx=ctx), db)
+    assert any(line.startswith('Misiones de Páramos de Poniente')
+               for line in facts.lines)
+
+
 def test_zones_for_my_level(db):
     facts = retrieve(_message('¿Qué zonas me tocan a mi nivel?'), db)
     text = _text(facts)
@@ -787,6 +872,42 @@ def test_flights_from_question(db):
     assert 'Thelsamar, Loch Modan (1 de plata y 10 de cobre)' in text
     assert 'Orgrimmar' not in text
     assert any(source.startswith('flights_from:') for source in facts.sources)
+
+
+def test_transport_question_without_resolved_places_lists_known_edges(monkeypatch):
+    def step(kind, origin, destination, seen=False):
+        return SimpleNamespace(kind=kind, from_name=origin, to_name=destination,
+                               seen_in_game=seen)
+
+    graph = SimpleNamespace(adjacency={
+        'one': [('two', 1, step(KIND_TRANSPORT, 'Beta', 'Alpha'))],
+        'two': [('one', 1, step(KIND_TRANSPORT, 'Alpha', 'Beta'))],
+        'three': [('four', 1, step(KIND_TRAM, 'Gamma', 'Delta', True))],
+        'self': [('self', 1, step(KIND_TRANSPORT, 'Loop', 'Loop'))],
+    })
+    monkeypatch.setattr(retriever_module, 'extract_places', lambda *args: ('', ''))
+    facts = Facts()
+    retriever_module._detect_transport(facts, graph, '¿Dónde pillo un barco?',
+                                       'donde pillo un barco', 'es', {})
+    assert facts.lines == [
+        'Barcos, zepelines y tranvías conocidos: Alpha - Beta (barco); '
+        'Delta - Gamma (tranvía, visto en el juego)']
+    assert facts.sources == ['transports']
+
+
+def test_resolved_transport_question_keeps_direct_transport_behavior(monkeypatch):
+    graph = SimpleNamespace(adjacency={})
+    monkeypatch.setattr(retriever_module, 'extract_places',
+                        lambda *args: ('Forjaz', 'Stormwind'))
+    monkeypatch.setattr(retriever_module, 'resolve_place',
+                        lambda _graph, place: [place])
+    monkeypatch.setattr(retriever_module, 'transport_between', lambda *args: [])
+    facts = Facts()
+    retriever_module._detect_transport(facts, graph, 'barco de Forjaz a Stormwind',
+                                       'barco de forjaz a stormwind', 'es', {})
+    assert facts.lines == []
+    assert facts.missing == [
+        'transporte directo entre Forjaz y Stormwind (no está en la base)']
 
 
 def test_flight_cost_question(db):

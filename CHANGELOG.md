@@ -37,6 +37,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Fixed: guide sections reach the AI with their title and complete (the data block for guide answers is twice as long), so builds are no longer cut or mixed up; the wiki is no longer searched when a guide section already answers, so talents from other game versions stop leaking in.
 - Changed: the AI gives builds in full with every rank, knows how many talent points you have at your level (and stops there when you ask what you should have), answers questions about other classes, and does not fill builds with talents from other game versions.
 - Fixed: build and talent path sections say what they are for (raids, dungeons, PvP or levelling), so the AI no longer says it has no raid build when it has one.
+- Added: asking which quests there are in a zone (or here) for your level lists them with who gives them and where; asking for a boat without naming a port lists the known boats, zeppelins and trams; ambiguous questions get a question back instead of "I do not know".
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
@@ -71,6 +72,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Corregido: las secciones de la guía llegan a la IA con su título y completas (el bloque de datos de las respuestas de la guía es el doble de largo), así que las builds ya no salen cortadas ni mezcladas; ya no se busca en la wiki cuando una sección de la guía responde, y dejan de colarse talentos de otras versiones del juego.
 - Cambiado: la IA da las builds completas con todos sus rangos, sabe cuántos puntos de talento tienes a tu nivel (y se detiene ahí cuando preguntas qué deberías tener), responde a preguntas sobre otras clases y no completa las builds con talentos de otras versiones del juego.
 - Corregido: las secciones de builds y rutas de talentos dicen para qué son (bandas, mazmorras, JcJ o subida), así que la IA ya no dice que no tiene la build de banda cuando sí la tiene.
+- Añadido: si preguntas qué misiones hay en una zona (o aquí) para tu nivel, se listan con quién las da y dónde; si preguntas por un barco sin nombrar el puerto, se listan los barcos, zepelines y tranvías conocidos; ante una pregunta ambigua la IA pregunta a qué te refieres en lugar de decir que no lo sabe.
 
 ## [0.3.0-beta.4] - 2026-11-15
 
