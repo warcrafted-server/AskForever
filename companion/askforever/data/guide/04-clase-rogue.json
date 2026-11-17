@@ -1350,6 +1350,718 @@
         "section:a7bf4f01127d6f88e6067385c4fd046c8d24418c",
         "section:be3e5e048af61e2419fc4dc2b1422866aa2b0c76"
       ]
+    },
+    {
+      "id": "clase-rogue-build-asesinato-pve-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcE de Asesinato",
+      "title_en": "Assassination PvE Build",
+      "summary_es": "Build de venenos que prioriza Hacer picadillo y remata puntos sobrantes con Eviscerar.",
+      "summary_en": "Poison build that prioritizes Slice and Dice and spends excess points on Eviscerate.",
+      "keywords_es": [
+        "build asesinato pícaro",
+        "talentos asesinato pve",
+        "veneno talento pícaro",
+        "eviscerar asesinato"
+      ],
+      "keywords_en": [
+        "assassination rogue build",
+        "assassination pve talents",
+        "rogue venom talent",
+        "assassination eviscerate"
+      ],
+      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3, Vigor 1/2, Salpicadura de sangre 1/1, Letalidad 2/2, Venenos inmundos 3/5, Sangre fría 1/1, Venenos mejorados 2/5, Golpes despiadados 5/5, Veneno 1/1, Sello del destino 3/3 y Mutilar 1/1. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2, Heridas punzantes 3/3, Precisión 3/3, Robustez 2/2, Compostura 2/2, Ejecución impecable 1/1 y Agresión 3/3. Sutileza: Oportunidad 1/5. El enfoque amplifica venenos; mantén Hacer picadillo y gasta puntos extra en Eviscerar.",
+      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, Vigor 1/2, Blood Splatter 1/1, Lethality 2/2, Vile Poisons 3/5, Cold Blood 1/1, Improved Poisons 2/5, Relentless Strikes 5/5, Venom 1/1, Seal Fate 3/3, and Mutilate 1/1. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, Puncturing Wounds 3/3, Precision 3/3, Endurance 2/2, Composure 2/2, Flawless Execution 1/1, and Aggression 3/3. Subtlety: Opportunity 1/5. It amplifies poison damage; maintain Slice and Dice and spend extra points on Eviscerate.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Assassination Rogue Talent Builds - WoW: Forever › Best Assassination Rogue PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:talents"
+      ],
+      "source_hashes": [
+        "section:f81fa015b1cb3ec0a0a3fee832935e35e2f8a7fb"
+      ]
+    },
+    {
+      "id": "clase-rogue-build-asesinato-sin-veneno-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Variante de Asesinato sin Veneno",
+      "title_en": "Assassination No-Venom Variant",
+      "summary_es": "Omite Veneno, mantiene Hacer picadillo y gasta puntos sobrantes en Eviscerar.",
+      "summary_en": "Skips Venom, maintains Slice and Dice, and spends excess points on Eviscerate.",
+      "keywords_es": [
+        "build asesinato sin veneno",
+        "asesinato sin talento veneno",
+        "eviscerar puntos combo",
+        "ráfaga con espada asesinato"
+      ],
+      "keywords_en": [
+        "assassination no venom build",
+        "assassination without venom talent",
+        "combo points eviscerate",
+        "assassination blade flurry"
+      ],
+      "text_es": "La variante alternativa evita activar Veneno y centra los puntos sobrantes en Eviscerar sin perder el mantenimiento de Hacer picadillo. Deja espacio para talentos profundos de Combate, como Ráfaga con espada, Cortar y rebanar y Experiencia con armas.",
+      "text_en": "This alternative leaves the Venom talent unused, maintains Slice and Dice, and spends excess points on Eviscerate. It opens room for deeper Combat choices, including Hack and Slash, Blade Flurry, and Weapon Expertise; simulations favor spending extra points rather than activating Venom.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Assassination Rogue Talent Builds - WoW: Forever › Best Assassination Rogue PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:talents"
+      ],
+      "source_hashes": [
+        "section:f81fa015b1cb3ec0a0a3fee832935e35e2f8a7fb"
+      ]
+    },
+    {
+      "id": "clase-rogue-build-asesinato-mutilar-pvp-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ de Asesinato con Mutilar",
+      "title_en": "Assassination Mutilate PvP Build",
+      "summary_es": "Variante JcJ de Asesinato con Mutilar, venenos y control.",
+      "summary_en": "Assassination PvP variant using Mutilate, poisons, and control.",
+      "keywords_es": [
+        "build mutilar pvp",
+        "talentos asesinato jce",
+        "asesinato control jcj",
+        "venenos pícaro pvp"
+      ],
+      "keywords_en": [
+        "mutilate pvp build",
+        "assassination pvp talents",
+        "assassination rogue control",
+        "rogue pvp poisons"
+      ],
+      "text_es": "Asesinato: Incapacitación mejorada 3/3, Maldad 5/5, Crueldad 2/3, Vigor 2/2, Salpicadura de sangre 1/1, Letalidad 2/2, Venenos inmundos 5/5, Sangre fría 1/1, Venenos mejorados 3/5, Veneno 1/1, Golpe a los riñones mejorado 2/2, Sello del destino 3/3 y Mutilar 1/1. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2 y Heridas punzantes 3/3. Sutileza: Maestro de la decepción 2/3, Oportunidad 5/5, Camuflaje 3/3, Premeditación 1/1 y Espadas dentadas 1/3. La variante combina Mutilar con talentos de veneno y control.",
+      "text_en": "Assassination: Improved Gouge 3/3, Malice 5/5, Ruthlessness 2/3, Vigor 2/2, Blood Splatter 1/1, Lethality 2/2, Vile Poisons 5/5, Cold Blood 1/1, Improved Poisons 3/5, Venom 1/1, Improved Kidney Shot 2/2, Seal Fate 3/3, and Mutilate 1/1. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, and Puncturing Wounds 3/3. Subtlety: Master of Deception 2/3, Opportunity 5/5, Camouflage 3/3, Premeditation 1/1, and Serrated Blades 1/3. The variant combines Mutilate with poison and control talents.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Assassination Rogue Talent Builds - WoW: Forever › Best Assassination Rogue PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:talents"
+      ],
+      "source_hashes": [
+        "section:3001b0631f42bfe11e71f14d1f11a2039407f836"
+      ]
+    },
+    {
+      "id": "clase-rogue-build-pvp-compartida-60-parte1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ compartida del Pícaro: Parte 1",
+      "title_en": "Shared Rogue PvP Build: Part 1",
+      "summary_es": "Primera parte de la build JcJ común: talentos de Asesinato y Combate.",
+      "summary_en": "First part of the shared PvP build: Assassination and Combat talents.",
+      "keywords_es": [
+        "build pícaro pvp",
+        "talentos pvp asesinato",
+        "talentos pvp combate",
+        "build jcj compartida"
+      ],
+      "keywords_en": [
+        "rogue pvp build",
+        "assassination pvp talents",
+        "combat pvp talents",
+        "shared pvp build"
+      ],
+      "text_es": "Asesinato: Incapacitación mejorada 3/3, Ataques implacables 2/2, Maldad 5/5, Vigor 2/2 y Letalidad 2/2. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2, Heridas punzantes 3/3 y Correr mejorado 2/2. Esta parte combina amplificadores de daño con movilidad y control.",
+      "text_en": "Assassination: Improved Gouge 3/3, Remorseless Attacks 2/2, Malice 5/5, Vigor 2/2, and Lethality 2/2. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, Puncturing Wounds 3/3, and Improved Sprint 2/2. This part combines damage amplifiers with mobility and control.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Assassination Rogue Talent Builds - WoW: Forever › Best Assassination Rogue PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Combat Rogue Talent Builds - WoW: Forever › Best Combat Rogue PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Subtlety Rogue Talent Tree Builds - WoW: Forever › Best Subtlety Rogue PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:talents",
+        "class:rogue:combat:talents",
+        "class:rogue:subtlety:talents"
+      ],
+      "source_hashes": [
+        "section:14115a83c8ad7482041b577a8ce3d21483ecda29",
+        "section:3001b0631f42bfe11e71f14d1f11a2039407f836",
+        "section:b9965080ae040aebb70c78fbae4b43b226bc0460"
+      ]
+    },
+    {
+      "id": "clase-rogue-build-pvp-compartida-60-parte2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ compartida del Pícaro: Parte 2",
+      "title_en": "Shared Rogue PvP Build: Part 2",
+      "summary_es": "Continuación de la build común con los talentos de Sutileza para JcJ.",
+      "summary_en": "Continuation of the shared build with Subtlety talents for PvP.",
+      "keywords_es": [
+        "build sutileza pvp",
+        "talentos control pícaro",
+        "preparación sutileza",
+        "hemorragia sutileza pvp"
+      ],
+      "keywords_en": [
+        "subtlety pvp build",
+        "rogue control talents",
+        "preparation subtlety",
+        "hemorrhage subtlety pvp"
+      ],
+      "text_es": "Sutileza: Maestro de la decepción 3/3, Oportunidad 2/5, Trabajos sucios 2/2, Camuflaje 2/3, Emboscada mejorada 3/3, Jugarretas 2/2, Iniciativa 3/3, Premeditación 1/1, Espadas dentadas 3/3, Elusión 2/2, Golpe fantasmal 1/1, Evasión rápida 1/2, Preparación 1/1 y Hemorragia 1/1. Esta rama aporta las herramientas de Sigilo, control y preparación que completan la build JcJ.",
+      "text_en": "Subtlety: Master of Deception 3/3, Opportunity 2/5, Dirty Deeds 2/2, Camouflage 2/3, Improved Ambush 3/3, Dirty Tricks 2/2, Initiative 3/3, Premeditation 1/1, Serrated Blades 3/3, Elusiveness 2/2, Ghostly Strike 1/1, Quick Getaway 1/2, Preparation 1/1, and Hemorrhage 1/1. This branch adds the stealth, control, and setup tools that complete the PvP build.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Assassination Rogue Talent Builds - WoW: Forever › Best Assassination Rogue PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Combat Rogue Talent Builds - WoW: Forever › Best Combat Rogue PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Subtlety Rogue Talent Tree Builds - WoW: Forever › Best Subtlety Rogue PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:talents",
+        "class:rogue:combat:talents",
+        "class:rogue:subtlety:talents"
+      ],
+      "source_hashes": [
+        "section:14115a83c8ad7482041b577a8ce3d21483ecda29",
+        "section:3001b0631f42bfe11e71f14d1f11a2039407f836",
+        "section:b9965080ae040aebb70c78fbae4b43b226bc0460"
+      ]
+    },
+    {
+      "id": "clase-rogue-build-combate-siniestro-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcE de Combate: Golpe siniestro",
+      "title_en": "Combat PvE Build: Sinister Strike",
+      "summary_es": "Build de Combate con arma principal lenta y Golpe siniestro como generador.",
+      "summary_en": "Combat build with a slow main hand and Sinister Strike as builder.",
+      "keywords_es": [
+        "build combate golpe siniestro",
+        "talentos combate pve",
+        "arma lenta pícaro",
+        "especialización armas combate"
+      ],
+      "keywords_en": [
+        "combat sinister strike build",
+        "combat pve talents",
+        "slow weapon rogue",
+        "combat weapon specialization"
+      ],
+      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3, Vigor 2/2, Letalidad 2/2 y Sangre fría 1/1. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2, Desvío 1/3, Precisión 3/3, Correr mejorado 2/2, Robustez 2/2, Compostura 2/2, Ejecución impecable 1/1, Experiencia con armas 2/2, Agresión 3/3, Especialización en doble empuñadura 2/2, Ráfaga con espada 1/1, Cortar y rebanar 5/5, Destello de acero 5/5 y Subidón de adrenalina 1/1. Elige una mano principal lenta y genera puntos con Golpe siniestro para aprovechar el daño automático y Cortar y rebanar.",
+      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, Vigor 2/2, Lethality 2/2, and Cold Blood 1/1. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, Deflection 1/3, Precision 3/3, Improved Sprint 2/2, Endurance 2/2, Composure 2/2, Flawless Execution 1/1, Weapon Expertise 2/2, Aggression 3/3, Dual Wield Specialization 2/2, Blade Flurry 1/1, Hack and Slash 5/5, Flash of Steel 5/5, and Adrenaline Rush 1/1. Use a slow main hand and build with Sinister Strike, then rely on auto-attacks and Hack and Slash.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Combat Rogue Talent Builds - WoW: Forever › Best Combat Rogue PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:combat:talents"
+      ],
+      "source_hashes": [
+        "section:22fc526e80f80ba3e0dd788a158fcbc30f586962"
+      ]
+    },
+    {
+      "id": "clase-rogue-build-combate-punalada-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcE de Combate: Puñalada",
+      "title_en": "Combat PvE Build: Backstab",
+      "summary_es": "Variante JcE con daga en la mano principal, Puñalada y Oportunidad.",
+      "summary_en": "PvE variant using a main-hand dagger, Backstab, and Opportunity.",
+      "keywords_es": [
+        "build combate puñalada",
+        "build pícaro daga principal",
+        "oportunidad combate",
+        "heridas punzantes combate"
+      ],
+      "keywords_en": [
+        "combat backstab build",
+        "rogue main-hand dagger build",
+        "combat opportunity",
+        "combat puncturing wounds"
+      ],
+      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3 y Letalidad 2/2. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2, Heridas punzantes 3/3, Precisión 3/3, Robustez 2/2, Compostura 2/2, Ejecución impecable 1/1, Experiencia con armas 2/2, Agresión 2/3, Especialización en doble empuñadura 2/2, Ráfaga con espada 1/1, Cortar y rebanar 4/5, Destello de acero 5/5 y Subidón de adrenalina 1/1. Sutileza: Oportunidad 5/5. Equipa una daga en la mano principal y genera puntos con Puñalada; Heridas punzantes y Oportunidad apoyan esta variante.",
+      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, and Lethality 2/2. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, Puncturing Wounds 3/3, Precision 3/3, Endurance 2/2, Composure 2/2, Flawless Execution 1/1, Weapon Expertise 2/2, Aggression 2/3, Dual Wield Specialization 2/2, Blade Flurry 1/1, Hack and Slash 4/5, Flash of Steel 5/5, and Adrenaline Rush 1/1. Subtlety: Opportunity 5/5. Equip a main-hand dagger and build with Backstab; Puncturing Wounds and Opportunity support the variant.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Combat Rogue Talent Builds - WoW: Forever › Best Combat Rogue PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:combat:talents"
+      ],
+      "source_hashes": [
+        "section:22fc526e80f80ba3e0dd788a158fcbc30f586962"
+      ]
+    },
+    {
+      "id": "clase-rogue-build-sutileza-hemorragia-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcE de Sutileza: Hemorragia",
+      "title_en": "Subtlety PvE Build: Hemorrhage",
+      "summary_es": "Build flexible de sangrados; puede usar distintas armas y favorece una mano principal lenta.",
+      "summary_en": "Flexible bleed build that can use different weapons and favors a slow main hand.",
+      "keywords_es": [
+        "build sutileza hemorragia",
+        "talentos sutileza pve",
+        "marca de muerte sutileza",
+        "cuchillo de bota pícaro"
+      ],
+      "keywords_en": [
+        "subtlety hemorrhage build",
+        "subtlety pve talents",
+        "subtlety death mark",
+        "rogue boot knife"
+      ],
+      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3 y Salpicadura de sangre 1/1. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2 y Precisión 3/3. Sutileza: Establecer 3/3, Oportunidad 5/5, Trabajos sucios 2/2, Camuflaje 3/3, Iniciativa 3/3, Premeditación 1/1, Espadas dentadas 3/3, Elusión 2/2, Golpe fantasmal 1/1, Preparación 1/1, Hemorragia 1/1, Cuchillo de bota 5/5 y Marca de muerte 1/1. La build de sangrados es flexible con armas y se beneficia de una mano principal lenta. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, and Blood Splatter 1/1. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, and Precision 3/3. Subtlety: Setup 3/3, Opportunity 5/5, Dirty Deeds 2/2, Camouflage 3/3, Initiative 3/3, Premeditation 1/1, Serrated Blades 3/3, Elusiveness 2/2, Ghostly Strike 1/1, Preparation 1/1, Hemorrhage 1/1, Boot Knife 5/5, and Death Mark 1/1. The bleed build is weapon-flexible and favors a slow main hand. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Subtlety Rogue Talent Tree Builds - WoW: Forever › Best Subtlety Rogue PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue Attribute and Stat Priority - WoW: Forever › Subtlety Rogue Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/stat-priority-pve-dps",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:subtlety:stats",
+        "class:rogue:subtlety:talents"
+      ],
+      "source_hashes": [
+        "section:9d81690bbd497d8907f7e3fdba450521e9ccee72",
+        "section:b4c11c48292144def58dcb097aefdcb02f062645"
+      ]
+    },
+    {
+      "id": "clase-rogue-build-sutileza-punalada-alternativa-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Variante de Sutileza con Puñalada",
+      "title_en": "Subtlety Backstab Variant",
+      "summary_es": "La variante de Puñalada requiere daga principal; ambas rutas abren con Garrote.",
+      "summary_en": "The Backstab variant requires a main-hand dagger; both paths open with Garrote.",
+      "keywords_es": [
+        "variante puñalada sutileza",
+        "build sutileza daga",
+        "garrote apertura sutileza",
+        "heridas punzantes degollador"
+      ],
+      "keywords_en": [
+        "subtlety backstab variant",
+        "subtlety dagger build",
+        "garrote subtlety opener",
+        "puncturing wounds cutthroat"
+      ],
+      "text_es": "La alternativa de Puñalada requiere una daga en la mano principal; igual que la ruta de Hemorragia, abre con Garrote. Cambia el generador y depende de las activaciones reactivas de Heridas punzantes y Degollador, por lo que su secuencia difiere del build flexible de sangrados.",
+      "text_en": "The Backstab alternative requires a main-hand dagger; like the Hemorrhage route, it opens with Garrote. It changes the builder and relies on the reactive effects of Puncturing Wounds and Cutthroat, so its sequence differs from the flexible bleed build.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Subtlety Rogue Talent Tree Builds - WoW: Forever › Best Subtlety Rogue PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:subtlety:talents"
+      ],
+      "source_hashes": [
+        "section:b4c11c48292144def58dcb097aefdcb02f062645"
+      ]
+    },
+    {
+      "id": "clase-rogue-rotacion-asesinato-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Asesinato a nivel 60",
+      "title_en": "Assassination Level-60 Rotation",
+      "summary_es": "Mantén Hacer picadillo; genera puntos con Mutilar y gasta los sobrantes en Eviscerar.",
+      "summary_en": "Maintain Slice and Dice; build with Mutilate and spend excess points on Eviscerate.",
+      "keywords_es": [
+        "rotación asesinato nivel 60",
+        "prioridad mutilar pícaro",
+        "ráfaga con espada asesinato",
+        "venenos asesinato pve"
+      ],
+      "keywords_en": [
+        "assassination level 60 rotation",
+        "mutilate rogue priority",
+        "assassination blade flurry",
+        "assassination pve poisons"
+      ],
+      "text_es": "Mantén Hacer picadillo y genera puntos de combo con Mutilar; gasta los excedentes en Eviscerar sin dejar caer el beneficio. Combina Sangre fría y Ráfaga con espada para amplificar el crítico; Ráfaga con espada también sube 20% la velocidad de ataque y sirve para cleave. Aplica Veneno instantáneo en la mano principal y Veneno mortal en la secundaria; cambia las manos si se caen las acumulaciones de mortal. Las simulaciones actuales recomiendan no activar Veneno y gastar esos puntos en Eviscerar.",
+      "text_en": "Keep Slice and Dice active and build Combo Points with Mutilate; spend excess on Eviscerate without letting the buff drop. Use Cold Blood and Blade Flurry together to amplify critical damage; Blade Flurry also raises attack speed by 20% and provides cleave. Apply Instant Poison to the main hand and Deadly Poison to the off-hand; swap them if Deadly stacks fall off. Current simulations advise against pressing Venom and favor spending those points on Eviscerate.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Assassination Rogues in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Best Assassination Rogue Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Assassination Rogue DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Assassination Rogue for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:overview",
+        "class:rogue:assassination:rotation"
+      ],
+      "source_hashes": [
+        "section:55c226c12284b1cde6758da4da07b243d1320341",
+        "section:8e27e28a1813e1c6a6f6299eca69ba21df485efc",
+        "section:9f89da9c0b9dbac1a2a342b6865c5c2c233eca95",
+        "section:b34f64d9602aa96c512e23ff5fc9fa620f7f4604"
+      ]
+    },
+    {
+      "id": "clase-rogue-rotacion-combate-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Combate a nivel 60",
+      "title_en": "Combat Level-60 Rotation",
+      "summary_es": "Mantén Hacer picadillo; genera con Golpe siniestro o Puñalada según la build y gasta el excedente.",
+      "summary_en": "Maintain Slice and Dice; build with Sinister Strike or Backstab by build, then spend excess points.",
+      "keywords_es": [
+        "rotación combate nivel 60",
+        "prioridad golpe siniestro",
+        "rotación puñalada combate",
+        "ráfaga con espada subidón"
+      ],
+      "keywords_en": [
+        "combat level 60 rotation",
+        "sinister strike priority",
+        "combat backstab rotation",
+        "blade flurry adrenaline rush"
+      ],
+      "text_es": "Mantén Hacer picadillo con la máxima continuidad. En la build lenta, genera puntos con Golpe siniestro; en la variante de daga, usa Puñalada. Gasta puntos sobrantes en Eviscerar sin dejar caer Hacer picadillo. Combina Subidón de adrenalina y Ráfaga con espada al inicio junto con raciales, procs y pociones, o para una ventana de ráfaga; con Ráfaga activa, golpea también a un segundo objetivo. La Ráfaga aumenta 20% la velocidad de ataque.",
+      "text_en": "Keep Slice and Dice up as consistently as possible. Use Sinister Strike to build in the slow-weapon build and Backstab in the dagger variant. Spend excess points on Eviscerate without letting Slice and Dice fall off. Use Adrenaline Rush and Blade Flurry together on the pull with racials, procs, and potions, or for a burst window; while Flurry is active, strike an additional target. Blade Flurry increases attack speed by 20%.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Combat Rogues in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › All Combat Rogue DPS Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › Best Combat Rogue Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:combat:rotation"
+      ],
+      "source_hashes": [
+        "section:8d43601437befae0d61e722530f8963b9180ad25",
+        "section:c9ebb0e12e1c959ef6b5432d122d34cb15d4db7b",
+        "section:eee8d8261d54a7db3f8e21763894bc57acea0fd9"
+      ]
+    },
+    {
+      "id": "clase-rogue-rotacion-sutileza-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Sutileza a nivel 60",
+      "title_en": "Subtlety Level-60 Rotation",
+      "summary_es": "Abre con Garrote y repítelo con Esfumar; mantén Hacer picadillo y Ruptura antes de usar Hemorragia.",
+      "summary_en": "Open with Garrote and refresh it with Vanish; maintain Slice and Dice and Rupture before using Hemorrhage.",
+      "keywords_es": [
+        "rotación sutileza nivel 60",
+        "garrote y hemorragia",
+        "premeditación sutileza",
+        "preparación esfumar"
+      ],
+      "keywords_en": [
+        "subtlety level 60 rotation",
+        "garrote hemorrhage rotation",
+        "premeditation subtlety",
+        "preparation vanish"
+      ],
+      "text_es": "Abre con Garrote, que entrega 2 puntos de combo por 30 de Energía; vuelve a usar Esfumar y Garrote cuando el primer sangrado termine. Mantén Hacer picadillo y Ruptura sin sacrificar la continuidad del primero, y genera puntos con Hemorragia. Usa Premeditación en reutilización: concede 2 puntos cada 2 minutos; Preparación permite disponer de otro Esfumar. Combina Té de cardo con los tiempos de daño cuando necesites recuperar Energía.",
+      "text_en": "Open with Garrote, which grants 2 Combo Points for 30 Energy; use Vanish plus Garrote again when the first bleed ends. Keep Slice and Dice and Rupture active without sacrificing the former, and build with Hemorrhage. Use Premeditation on cooldown: it grants 2 points every 2 minutes; Preparation provides another Vanish. Use Thistle Tea with damage cooldowns when your Energy pool is low.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › All Subtlety Rogue DPS Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Subtlety Rogues in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › Best Subtlety Rogue Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:subtlety:rotation"
+      ],
+      "source_hashes": [
+        "section:96363f12fbf85a80a36f1ac84e8fed0a9922298b",
+        "section:a7bf4f01127d6f88e6067385c4fd046c8d24418c",
+        "section:be3e5e048af61e2419fc4dc2b1422866aa2b0c76"
+      ]
+    },
+    {
+      "id": "clase-rogue-stats-asesinato",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Asesinato a nivel 60",
+      "title_en": "Assassination Level-60 Stats",
+      "summary_es": "Orden especulativo: golpe y pericia, habilidad de arma y luego agilidad y daño.",
+      "summary_en": "Speculative order: hit and expertise, weapon skill, then agility and damage.",
+      "keywords_es": [
+        "prioridad estadísticas asesinato 60",
+        "golpe venenos pícaro",
+        "pericia asesinato",
+        "agilidad y crítico asesinato"
+      ],
+      "keywords_en": [
+        "assassination level 60 stats",
+        "rogue poison hit cap",
+        "assassination expertise",
+        "assassination agility crit"
+      ],
+      "text_es": "Prioridad especulativa: Prob. de golpe 8% (cap. de habilidades) > Pericia 6.5% > Habilidad con armas 308 > Prob. de golpe 17% (cap. de venenos) > Agilidad > Golpe crítico > Celeridad > Fuerza > Poder de ataque > Aguante. El arma principal y Poder de ataque dominan el daño. El golpe conserva valor hasta 27% con Doble empuñadura; Pericia 6.5% elimina esquivas de jefes. Sello del destino refuerza el crítico; Crítico y Celeridad valen parecido, pero Celeridad aparece menos en equipo. La disponibilidad de Habilidad con armas es incierta. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Speculative priority: Hit to the 8% ability cap > Expertise to 6.5% > Weapon Skill 308 > Hit to the 17% poison cap > Agility > Critical Strike Chance > Haste > Strength > Attack Power > Stamina. Main-hand weapon DPS and Attack Power drive damage. Hit remains useful to 27% with dual wield; 6.5% Expertise removes boss dodges. Seal Fate raises Crit value; Crit and Haste are similar, but Haste is rarer on gear. Weapon Skill availability is uncertain. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Stat Priority & Attributes - WoW: Forever › Assassination Rogue Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/stat-priority-pve-dps",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Stat Priority & Attributes - WoW: Forever › Crit Chance",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/stat-priority-pve-dps",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:assassination:stats"
+      ],
+      "source_hashes": [
+        "section:811030e51c4d823ab1ca796c598aeec2205de6f2",
+        "section:e2121cc7dbb5453f3023532f0f489c48a61458a4"
+      ]
+    },
+    {
+      "id": "clase-rogue-stats-combate",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Combate a nivel 60",
+      "title_en": "Combat Level-60 Stats",
+      "summary_es": "Orden especulativo: golpe, pericia y habilidad de arma antes de agilidad y estadísticas de daño.",
+      "summary_en": "Speculative order: hit, expertise, and weapon skill before agility and damage stats.",
+      "keywords_es": [
+        "prioridad estadísticas combate 60",
+        "golpe combate pícaro",
+        "pericia combate",
+        "arma principal combate"
+      ],
+      "keywords_en": [
+        "combat level 60 stats",
+        "combat rogue hit cap",
+        "combat expertise",
+        "combat main hand damage"
+      ],
+      "text_es": "Prioridad especulativa: Prob. de golpe hasta 8% (habilidades) > Pericia 6.5% > Habilidad con armas 308 > Prob. de golpe hasta 17% (venenos) > Agilidad > Golpe crítico > Celeridad > Fuerza > Poder de ataque > Aguante. Ataques y habilidades escalan con el DPS de la mano principal; Poder de ataque lo amplifica. El golpe mantiene valor hasta 27% con doble empuñadura y Pericia 6.5% quita esquivas de jefes. Crítico y Celeridad valen parecido, aunque Celeridad es más difícil de encontrar. La disponibilidad de Habilidad con armas es incierta. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Speculative priority: Hit to the 8% ability cap > Expertise to 6.5% > Weapon Skill 308 > Hit to the 17% poison cap > Agility > Critical Strike Chance > Haste > Strength > Attack Power > Stamina. Auto-attacks and abilities scale with main-hand weapon DPS; Attack Power amplifies it. Hit retains value to 27% dual-wield, and 6.5% Expertise removes boss dodges. Crit and Haste are similarly valuable, though Haste is harder to find. Weapon Skill availability is uncertain. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue Stat Priority & Attributes - WoW: Forever › Combat Rogue Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/stat-priority-pve-dps",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:combat:stats"
+      ],
+      "source_hashes": [
+        "section:1348cd603dd9baaa9d8370a3e3491408fc78e51b"
+      ]
+    },
+    {
+      "id": "clase-rogue-stats-sutileza",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Sutileza a nivel 60",
+      "title_en": "Subtlety Level-60 Stats",
+      "summary_es": "Orden especulativo: golpe, pericia y habilidad de arma; después prioriza agilidad, crítico y celeridad.",
+      "summary_en": "Speculative order: hit, expertise, and weapon skill; then prioritize agility, crit, and haste.",
+      "keywords_es": [
+        "prioridad estadísticas sutileza 60",
+        "golpe sutileza",
+        "pericia pícaro",
+        "agilidad sutileza"
+      ],
+      "keywords_en": [
+        "subtlety level 60 stats",
+        "subtlety hit priority",
+        "rogue expertise",
+        "subtlety agility"
+      ],
+      "text_es": "Prioridad especulativa: Prob. de golpe hasta 8% (habilidades) > Pericia 6.5% > Habilidad con armas 308 > Prob. de golpe hasta 17% (venenos) > Agilidad > Golpe crítico > Celeridad > Fuerza > Poder de ataque > Aguante. El arma principal concentra gran parte del daño y Poder de ataque lo potencia. Golpe sigue aportando hasta 27% con doble empuñadura; Pericia 6.5% elimina esquivas de jefes. Crítico y Celeridad tienen valor similar, aunque Celeridad escasea en equipo. La disponibilidad de Habilidad con armas es incierta. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Speculative priority: Hit to the 8% ability cap > Expertise to 6.5% > Weapon Skill 308 > Hit to the 17% poison cap > Agility > Critical Strike Chance > Haste > Strength > Attack Power > Stamina. Main-hand weapon damage is the largest factor, with Attack Power adding value. Hit remains useful to 27% with dual wield; 6.5% Expertise removes boss dodges. Crit and Haste are similarly valuable, but Haste is scarce on gear. Weapon Skill availability is uncertain. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue Attribute and Stat Priority - WoW: Forever › Subtlety Rogue Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/stat-priority-pve-dps",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:rogue:subtlety:stats"
+      ],
+      "source_hashes": [
+        "section:9d81690bbd497d8907f7e3fdba450521e9ccee72"
+      ]
     }
   ]
 }
