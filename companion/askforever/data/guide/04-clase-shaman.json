@@ -284,10 +284,10 @@
       "id": "clase-shaman-armas-armadura",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Armas y armadura del Chamán",
-      "title_en": "Shaman Weapons and Armor",
-      "summary_es": "Lleva cuero y malla; Mejora usa un arma lenta a dos manos y Elemental o Recuperación arma y escudo.",
-      "summary_en": "Wears leather and mail; Enhancement uses a slow two-hander and Elemental or Restoration use weapon and shield.",
+      "title_es": "Armas y equipo para subir",
+      "title_en": "Leveling Weapons and Gear",
+      "summary_es": "Mejora aprovecha un arma lenta a dos manos con Viento Furioso; Peletería fabrica equipo útil para subir.",
+      "summary_en": "Enhancement uses a slow two-hander with Windfury; Leatherworking crafts useful leveling gear.",
       "keywords_es": [
         "armas del chamán",
         "armadura del chamán",
@@ -302,33 +302,41 @@
         "shaman shield",
         "shaman mail"
       ],
-      "text_es": "El Chamán lleva cuero y, más adelante, malla. Puede usar armas de dos manos, armas de una mano y escudo; Elemental y Recuperación suelen llevar arma y escudo, mientras Mejora prefiere un arma lenta a dos manos para Golpe de tormenta y Arma tótem Viento Furioso. Los entrenadores de armas de Orgrimmar o Forjaz permiten aprender Mazas de dos manos y hachas de dos manos, que en Forever traen buenas estadísticas de lanzador.",
-      "text_en": "A Shaman wears leather and later mail. It can use two-handed weapons, one-handed weapons, and a shield; Elemental and Restoration usually use weapon and shield, while Enhancement prefers a slow two-hander for Stormstrike and Windfury Weapon. Weapon trainers in Orgrimmar or Ironforge teach two-handed maces and axes, which in Forever carry good caster stats.",
+      "text_es": "Desde el nivel 30, Mejora puede usar Arma tótem Viento Furioso con un arma lenta a dos manos. Mantén el arma cerca de tu nivel: los nuevos hallazgos mejoran el daño incluso con las imbuiciones. Peletería fabrica equipo de cuero y malla con poder con hechizos y complementos de armadura para varias ranuras.",
+      "text_en": "From level 30, Enhancement can use Windfury Weapon with a slow two-handed weapon. Keep your weapon close to your level: new finds improve damage even with imbues. Leatherworking crafts leather and mail gear with spell power, plus armor kits for several slots.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Enhancement Shaman Leveling Guide › Leveling Tips",
-          "url": "https://www.icy-veins.com/wow-forever/enhancement-shaman-leveling",
-          "date": "2026-11-13"
+          "ref": "Wowhead: Enhancement Shaman Leveling Guide for WoW: Forever › Levels 20–39: Flurry and Maelstrom Weapon",
+          "url": "https://www.wowhead.com/forever/guide/enhancement-shaman-leveling-guide-for-wow-forever-35070",
+          "date": "2026-10-20"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Leveling Guide › Leveling Tips",
-          "url": "https://www.icy-veins.com/wow-forever/elemental-shaman-leveling",
+          "ref": "Wowhead: Enhancement Shaman Leveling Guide - WoW: Forever › Leveling Tips for Enhancement Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/dps-leveling-tips",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman Leveling Guide - WoW: Forever › Best Leveling Professions for Elemental Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-leveling-tips",
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:shaman:elemental:leveling",
-        "class:shaman:enhancement:leveling"
+        "class:shaman:enhancement:leveling",
+        "class:shaman:extra:enhancement-shaman-leveling-guide-for-wow-forever"
       ],
       "source_hashes": [
-        "section:85bd401fa2adb6bd753ab1b633fdb5bb2aeda087",
-        "section:b2d262a96c15f0a8e2d6eb5061a4c24997cb1e4d"
+        "section:7f1e5e355784be87eeb25a6e9883cc79362b5366",
+        "section:8c800dc281a111963a7346ee5a3c569837efad7f",
+        "section:9b40d5c7f5d3dc44d6f297beb0437a160f58e03d"
       ]
     },
     {
@@ -337,8 +345,8 @@
       "status": "editorial",
       "title_es": "Mejor especialización para subir",
       "title_en": "Best Specialization for Leveling",
-      "summary_es": "Mejora es la más cómoda en solitario; Elemental es viable pero sufre maná; Recuperación es para grupo.",
-      "summary_en": "Enhancement is the most comfortable solo; Elemental is viable but mana-hungry; Restoration is for groups.",
+      "summary_es": "Mejora y Spellhance rinden en solitario; Elemental cuesta más maná y Recuperación funciona mejor en grupo.",
+      "summary_en": "Enhancement and Spellhance suit solo play; Elemental is mana-hungry, while Restoration suits groups.",
       "keywords_es": [
         "mejor especialización para subir chamán",
         "chamán mejora para levear",
@@ -353,41 +361,48 @@
         "restoration shaman leveling",
         "which shaman spec to level"
       ],
-      "text_es": "Para subir solo, Mejora es la opción más cómoda: pega fuerte, se cura y se mueve con Lobo fantasmal, aunque el maná aprieta al principio. Elemental es viable y tiene buen estallido y área, pero arranca con daño bajo y hechizos caros. Recuperación no se recomienda en solitario porque hace poco daño; en cambio, es una gran sanadora para mazmorras y grupos. Si quieres subir con una rama sanadora, hazlo en grupo.",
-      "text_en": "For solo leveling, Enhancement is the most comfortable option: it hits hard, heals itself, and moves with Ghost Wolf, though mana is tight early. Elemental is viable and has good burst and area, but starts with low damage and expensive spells. Restoration is not recommended solo because it deals little damage; instead, it is a strong dungeon and group healer. If you want to level as a healer, do it in a group.",
+      "text_es": "Para subir solo, Mejora es flexible y se sostiene con sus curas; Spellhance, híbrida de cuerpo a cuerpo y hechizos, se recomienda como la opción más rápida y eficiente en maná. Elemental ofrece daño de área y apoyo en grupo, pero sufre por el coste de maná y el daño bajo a un objetivo. Recuperación cura bien en grupo, aunque su daño bajo hace lenta la subida en solitario.",
+      "text_en": "For solo leveling, Enhancement is flexible and sustains itself with heals; Spellhance, a melee-and-spell hybrid, is recommended as the faster, more mana-efficient option. Elemental offers AoE damage and group support, but struggles with mana costs and low single-target damage. Restoration heals groups well, but its low damage makes solo leveling slow.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Enhancement Shaman Leveling Guide › Enhancement Shaman Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/enhancement-shaman-leveling",
-          "date": "2026-11-13"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Leveling Guide › Elemental Shaman Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/elemental-shaman-leveling",
+          "ref": "Wowhead: Elemental Shaman Leveling Guide - WoW: Forever › Leveling Viability for Elemental Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-leveling-tips",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Restoration Shaman Leveling Guide › Restoration Shaman Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/restoration-shaman-leveling",
+          "ref": "Wowhead: Elemental Shaman Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Elemental Shaman DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman Leveling Guide - WoW: Forever › Leveling Viability for Enhancement Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/dps-leveling-tips",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Leveling Guide - WoW: Forever › Leveling Viability for Restoration Shaman Healer in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/healer-leveling-tips",
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:shaman:elemental:leveling",
         "class:shaman:enhancement:leveling",
         "class:shaman:restoration:leveling"
       ],
       "source_hashes": [
-        "section:63453a1509c6a9321b9342a20815c354843b481c",
-        "section:6666ed273774218008eed97e07cb264623a088f2",
-        "section:e112de3300d793a7871bf5c47927a896badb89d8"
+        "section:02edca8cefc6a8955b596cb9dc24d17c8c3bb8d8",
+        "section:46f798a58b64565a4b8008794494ae84739c49d2",
+        "section:84702d1e106cbfa4c71f55027da7e4f66b3ecb24",
+        "section:888472ae699639df6186441b5df56e8bd5f76d07"
       ]
     },
     {
@@ -396,8 +411,8 @@
       "status": "editorial",
       "title_es": "Ruta de talentos de Mejora",
       "title_en": "Enhancement Leveling Talent Path",
-      "summary_es": "Ruta de Mejora: Enfoque chamanístico 20; Golpe de tormenta 25; Golpe de tormenta mejorado 30; Conciencia 38.",
-      "summary_en": "Enhancement path: Shamanistic Focus 20; Stormstrike 25; Improved Stormstrike 30; Mindfulness 38.",
+      "summary_es": "Mejora invierte primero 34 puntos en su rama y termina con 17 de Elemental para maná y daño.",
+      "summary_en": "Enhancement spends its first 34 points in its tree, then 17 in Elemental for mana and damage.",
       "keywords_es": [
         "talentos para subir chamán mejora",
         "ruta de mejora",
@@ -412,35 +427,42 @@
         "stormstrike",
         "mindfulness"
       ],
-      "text_es": "Ruta de Mejora para subir: a 20, Enfoque chamanístico; a 25, Golpe de tormenta; a 30, Golpe de tormenta mejorado; a 38, Conciencia; a 46, Escudo de agua; a 57, Enfoque elemental. Si quieres, puedes empezar en Recuperación para Conciencia y Escudo de agua y cambiar a Mejora a 25, cuando Golpe de tormenta esté disponible. Lobo fantasmal mejorado es opcional, pero muy útil para moverte.",
-      "text_en": "Enhancement leveling path: at 20, Shamanistic Focus; at 25, Stormstrike; at 30, Improved Stormstrike; at 38, Mindfulness; at 46, Water Shield; at 57, Elemental Focus. If you prefer, start in Restoration for Mindfulness and Water Shield and switch to Enhancement at 25, when Stormstrike is available. Improved Ghost Wolf is optional but very useful for movement.",
+      "text_es": "La ruta de Mejora prioriza Golpes de trueno 5/5 y Maña mental 3/3 (10–17), Lobo fantasmal mejorado 2/2 y Enfoque chamanístico 1/1 (18–20), Armas elementales 3/3 y Aluvión 5/5 (21–29), Presura mental 2/2 y Arma vorágine 5/5 (30–39), y Golpe de tormenta 1/1, Ira del clarividente 1/1 y Golpe de tormenta mejorado 2/2 (40–43). Después: Convección 5/5, Devastación elemental 3/3, Reverberación 5/5, Llamada de la llama 3/3 y Enfoque elemental 1/1 (44–60), para abaratar hechizos y mejorar sus golpes.",
+      "text_en": "This route prioritizes Thundering Strikes 5/5 and Mental Dexterity 3/3 (10–17), Improved Ghost Wolf 2/2 and Shamanistic Focus 1/1 (18–20), Elemental Weapons 3/3 and Flurry 5/5 (21–29), Mental Quickness 2/2 and Maelstrom Weapon 5/5 (30–39), then Stormstrike 1/1, Rage of the Farseer 1/1, and Improved Stormstrike 2/2 (40–43). Next take Convection 5/5, Elemental Devastation 3/3, Reverberation 5/5, Call of Flame 3/3, and Elemental Focus 1/1 (44–60) to reduce spell costs and improve attacks.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Enhancement Shaman Leveling Guide › Leveling Talent Build",
-          "url": "https://www.icy-veins.com/wow-forever/enhancement-shaman-leveling",
-          "date": "2026-11-13"
+          "ref": "Wowhead: Enhancement Shaman Leveling Guide for WoW: Forever › Enhancement: levels 10–43 (34 points)",
+          "url": "https://www.wowhead.com/forever/guide/enhancement-shaman-leveling-guide-for-wow-forever-35070",
+          "date": "2026-10-20"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman Leveling Guide for WoW: Forever › Elemental: levels 44–60 (17 points)",
+          "url": "https://www.wowhead.com/forever/guide/enhancement-shaman-leveling-guide-for-wow-forever-35070",
+          "date": "2026-10-20"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:shaman:enhancement:leveling"
+        "class:shaman:extra:enhancement-shaman-leveling-guide-for-wow-forever"
       ],
       "source_hashes": [
-        "section:e3ad00799b41b121246674d9fb6246cbfc45e056"
+        "section:3f68b1740dd8834721b7f43bfec2dc03ffe7c63c",
+        "section:7fd980b9d9af043aff41f0f473797dac29d20a4b"
       ]
     },
     {
       "id": "clase-shaman-hitos",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Hitos de habilidad por nivel",
+      "title_es": "Hitos de habilidades por nivel",
       "title_en": "Ability Milestones by Level",
-      "summary_es": "Tótem de tierra 4; Fuego 10; Lobo fantasmal y agua 20; Golpe de tormenta 25; aire y Viento Furioso 30.",
-      "summary_en": "Earth Totem 4; Fire 10; Ghost Wolf and Water 20; Stormstrike 25; Air and Windfury 30.",
+      "summary_es": "Las misiones de tótems llegan a 4, 10, 20 y 30; Lobo fantasmal se aprende a 20.",
+      "summary_en": "Totem quests arrive at 4, 10, 20, and 30; Ghost Wolf is learned at 20.",
       "keywords_es": [
         "cuándo aprendo habilidades de chamán",
         "nivel de las habilidades del chamán",
@@ -455,8 +477,8 @@
         "stormstrike level",
         "ghost wolf level"
       ],
-      "text_es": "Clamor de Tierra a 4; La llamada del Fuego a 10; Lobo fantasmal y La llamada del agua a 20; Golpe de tormenta a 25; La llamada del aire y Arma tótem Viento Furioso a 30; Tótem Viento Furioso y Cadena de relámpagos a 32. Las misiones de tótem son las que marcan estos niveles. A 20 también llega el tercer tótem elemental y la movilidad de Lobo fantasmal.",
-      "text_en": "Call of Earth at 4; Call of Fire at 10; Ghost Wolf and Call of Water at 20; Stormstrike at 25; Call of Air and Windfury Weapon at 30; Windfury Totem and Chain Lightning at 32. The totem quests mark these levels. Level 20 also brings the third elemental totem and Ghost Wolf mobility.",
+      "text_es": "A nivel 4 llega la misión del tótem de tierra; a 10, la de fuego; a 20, la de agua y Lobo fantasmal; a 30, la de aire y Arma tótem Viento Furioso. A 32 se aprenden Tótem Viento Furioso y Cadena de relámpagos. Golpe de tormenta se obtiene como talento de Mejora a 40, no antes.",
+      "text_en": "At level 4 comes the earth totem quest; at 10, fire; at 20, water and Ghost Wolf; at 30, air and Windfury Weapon. Windfury Totem and Chain Lightning are learned at 32. Stormstrike is obtained as an Enhancement talent at 40, not earlier.",
       "tags": [
         "SHAMAN"
       ],
@@ -469,36 +491,43 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Enhancement Shaman Leveling Guide › Leveling Milestones",
-          "url": "https://www.icy-veins.com/wow-forever/enhancement-shaman-leveling",
-          "date": "2026-11-13"
+          "ref": "Wowhead: Elemental Shaman Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Elemental Shaman",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-leveling-tips",
+          "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Restoration Shaman Leveling Guide › Leveling Milestones",
-          "url": "https://www.icy-veins.com/wow-forever/restoration-shaman-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Enhancement Shaman Leveling Guide for WoW: Forever › Leveling toolkit",
+          "url": "https://www.wowhead.com/forever/guide/enhancement-shaman-leveling-guide-for-wow-forever-35070",
+          "date": "2026-10-20"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman Leveling Guide for WoW: Forever › Enhancement: levels 10–43 (34 points)",
+          "url": "https://www.wowhead.com/forever/guide/enhancement-shaman-leveling-guide-for-wow-forever-35070",
+          "date": "2026-10-20"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:shaman:elemental:leveling",
-        "class:shaman:enhancement:leveling",
-        "class:shaman:restoration:leveling"
+        "class:shaman:extra:enhancement-shaman-leveling-guide-for-wow-forever"
       ],
       "source_hashes": [
         "section:1f4871849a8c35aa4ff3d2a427d2defbbb8a426a",
-        "section:6dfad11dda09cd425f19219143eeb8e172ed6917"
+        "section:7fd980b9d9af043aff41f0f473797dac29d20a4b",
+        "section:8c636c1229fe6a624e2d10dad255be89f2d7cb4b",
+        "section:d3a29cfa972b6a9b0ec4f3c3c61fe08d738eff57"
       ]
     },
     {
       "id": "clase-shaman-totems",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Cómo funcionan los totems",
-      "title_en": "How Totems Work",
-      "summary_es": "Los totems son estaciones fijas de tierra, fuego, agua y aire; comparten GCD y se recuperan con Regreso totémico.",
-      "summary_en": "Totems are stationary earth, fire, water, and air stations; they share the GCD and are recalled with Totemic Recall.",
+      "title_es": "Uso táctico de los tótems",
+      "title_en": "Using Totems Tactically",
+      "summary_es": "Coloca tótems donde sirvan durante varios combates y usa los de control para frenar o distraer enemigos.",
+      "summary_en": "Place totems where they can help across several fights, and use control totems to slow or distract enemies.",
       "keywords_es": [
         "totems del chamán",
         "cómo funcionan los totems",
@@ -513,12 +542,30 @@
         "totemic recall",
         "call of the elements"
       ],
-      "text_es": "Los totems son estaciones fijas que colocas en el suelo y afectan a un radio cercano; si te mueves, suelen quedarse atrás. Tienes un totem por elemento: tierra, fuego, agua y aire, y puedes mantener uno de cada a la vez. Llamada de los elementos coloca los cuatro con un lanzamiento de tres segundos, mientras que Regreso totémico los recoge fuera del GCD para recolocarlos. Tótem Nexo Terrestre, Tótem Garra de piedra, Tótem de tremor y Tótem derribador son algunas de sus utilidades.",
-      "text_en": "Totems are stationary stations you place on the ground, affecting a nearby radius; if you move, they are usually left behind. You have one totem per element: earth, fire, water, and air, and can keep one of each active. Call of the Elements places all four with a three-second cast, while Totemic Recall picks them up off the GCD so you can reposition. Earthbind Totem, Stoneclaw Totem, Tremor Totem, and Grounding Totem are some of their utility options.",
+      "text_es": "Los tótems se quedan donde los colocas, así que sitúa los de mejora para aprovecharlos en varios combates. Tótem Nexo Terrestre frena y Vinculado a la tierra puede enraizar; Tótem Garra de piedra desvía la atención y Tótem derribador intercepta hechizos. Llamada de los elementos coloca los cuatro con 3 s de lanzamiento; Regreso totémico los recoge fuera del tiempo global de reutilización para recolocarlos al moverte.",
+      "text_en": "Totems stay where you place them, so position buffs to use them across several fights. Earthbind Totem slows and Earthbound can root; Stoneclaw Totem draws attention, while Grounding Totem intercepts spells. Call of the Elements places all four with a 3-second cast; Totemic Recall picks them up off the global cooldown so you can reposition when moving.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman Leveling Guide - WoW: Forever › Leveling Tips for Elemental Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman Leveling Guide - WoW: Forever › Leveling Tips for Enhancement Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/dps-leveling-tips",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Leveling Guide › Elemental Shaman Leveling Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/elemental-shaman-leveling",
+          "date": "2026-11-04"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Leveling Guide › FAQ Should I use Call of the Elements and Totemic Projection?",
@@ -527,19 +574,22 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Enhancement Shaman Leveling Guide › FAQ Should I use Call of the Elements and Totemic Call?",
-          "url": "https://www.icy-veins.com/wow-forever/enhancement-shaman-leveling",
-          "date": "2026-11-13"
+          "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Leveling Guide › Utility and Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/elemental-shaman-leveling",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:shaman:elemental:leveling",
         "class:shaman:enhancement:leveling"
       ],
       "source_hashes": [
         "guide:17d5818b63371f552189fd40c345f393ea5e733c",
-        "guide:9fd2fe72860a9b418a1a2d2df35fd9e3632fda74"
+        "section:426a25cddbcd00c8dd5cd18426e2363d24658f7d",
+        "section:8c800dc281a111963a7346ee5a3c569837efad7f",
+        "section:a2e862ebc4be5233a4180903c8463d797bf6bb61",
+        "section:f92fffdac32c60a02c0162051405b4c4ea32d664"
       ]
     },
     {
@@ -548,8 +598,8 @@
       "status": "editorial",
       "title_es": "Choques: daño, interrupción y control",
       "title_en": "Shocks: Damage, Interrupt, and Control",
-      "summary_es": "Choque de llamas daña, Choque de tierra interrumpe y Choque de Escarcha ralentiza; comparten reutilización.",
-      "summary_en": "Flame Shock damages, Earth Shock interrupts, and Frost Shock slows; they share a cooldown.",
+      "summary_es": "Choque de llamas daña en el tiempo, Choque de tierra interrumpe y Choque de Escarcha ralentiza.",
+      "summary_en": "Flame Shock deals damage over time, Earth Shock interrupts, and Frost Shock slows.",
       "keywords_es": [
         "choques del chamán",
         "choque de llamas",
@@ -564,33 +614,32 @@
         "frost shock",
         "shaman interrupt"
       ],
-      "text_es": "Los tres choques comparten reutilización, así que elegir uno retrasa los otros. Choque de llamas deja un daño en el tiempo y es la opción habitual de daño; Choque de tierra golpea e interrumpe lanzamientos, ideal contra sanadores y casters; Choque de Escarcha ralentiza durante ocho segundos y ayuda a kitar. Como Choque de tierra es tu interrupción, guarda su reutilización si esperas un hechizo peligroso.",
-      "text_en": "The three shocks share a cooldown, so using one delays the others. Flame Shock leaves damage over time and is the usual damage choice; Earth Shock hits and interrupts casts, ideal against healers and casters; Frost Shock slows for eight seconds and helps kiting. Since Earth Shock is your interrupt, save its cooldown if you expect a dangerous spell.",
+      "text_es": "Los choques comparten reutilización, así que elegir uno retrasa los otros. Choque de llamas aplica daño de fuego en el tiempo; Choque de tierra inflige daño e interrumpe un lanzamiento; Choque de Escarcha ralentiza durante 8 s y sirve para controlar o alejarse de un enemigo. Elige según necesites daño, interrupción o control.",
+      "text_en": "These three spells share a cooldown, so using one delays the others. Flame Shock applies fire damage over time; Earth Shock deals damage and interrupts a cast; Frost Shock slows for 8 seconds and helps control or kite an enemy. Choose based on whether you need damage, an interrupt, or control.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Leveling Guide › Elemental Ability Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/elemental-shaman-leveling",
+          "ref": "Wowhead: Elemental Shaman Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Elemental Shaman",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-leveling-tips",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Enhancement Shaman Leveling Guide › Enhancement Ability Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/enhancement-shaman-leveling",
-          "date": "2026-11-13"
+          "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Leveling Guide › Utility and Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/elemental-shaman-leveling",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:shaman:elemental:leveling",
-        "class:shaman:enhancement:leveling"
+        "class:shaman:elemental:leveling"
       ],
       "source_hashes": [
-        "section:088295d8f34fb8295dbafa4341f3a2eebddad1e9",
-        "section:c1dda0b87714cfe0cf34a5e819dbd1fa4f8c8b90"
+        "section:d3a29cfa972b6a9b0ec4f3c3c61fe08d738eff57",
+        "section:f92fffdac32c60a02c0162051405b4c4ea32d664"
       ]
     },
     {
@@ -599,8 +648,8 @@
       "status": "editorial",
       "title_es": "Escudos y gestión de maná",
       "title_en": "Shields and Mana Management",
-      "summary_es": "El maná se detiene cinco segundos al gastarlo; Escudo de relámpagos y Escudo de agua ayudan a sostenerlo.",
-      "summary_en": "Mana regeneration stops for five seconds after spending it; Lightning Shield and Water Shield help sustain it.",
+      "summary_es": "Cada gasto de maná pausa su regeneración de espíritu durante 5 s; los escudos ayudan a conservarlo.",
+      "summary_en": "Spending mana pauses Spirit regeneration for 5 seconds; shields help conserve it.",
       "keywords_es": [
         "maná del chamán",
         "escudo de relámpagos",
@@ -615,33 +664,47 @@
         "shaman mana regeneration",
         "five second rule"
       ],
-      "text_es": "La regeneración de maná se detiene cinco segundos cada vez que gastas maná, también con totems y hechizos instantáneos. Por eso conviene terminar un enemigo con el arma o la varita y refrescar Escudo de relámpagos justo después, para recuperar antes. Escudo de agua, Tótem Fuente de maná y Tótem de marea de maná ayudan a sostener el maná; los hechizos de curación también cuestan mucho, así que no los gastes si no hacen falta.",
-      "text_en": "Mana regeneration stops for five seconds whenever you spend mana, including totems and instant spells. That is why it pays to finish an enemy with the weapon or wand and refresh Lightning Shield right after, so regeneration starts earlier. Water Shield, Mana Spring Totem, and Mana Tide Totem help sustain mana; healing spells are also expensive, so do not spend them when they are not needed.",
+      "text_es": "Gastar maná —también con tótems o hechizos instantáneos— pausa su regeneración de espíritu durante 5 s. Para aprovecharlo, remata con ataques automáticos y renueva Escudo de relámpagos al terminar. Mantén ese escudo para hacer daño eficiente hasta obtener Escudo de agua; después, conserva uno de los dos activo. Tótem Fuente de maná y Tótem de marea de maná también ayudan a sostener el maná del grupo.",
+      "text_en": "Spending mana—including on totems or instant spells—pauses Spirit regeneration for 5 seconds. To make use of this, finish with auto-attacks and refresh Lightning Shield after the fight. Keep that shield up for efficient damage until you get Water Shield; then maintain one of the two. Mana Spring Totem and Mana Tide Totem also help sustain the group's mana.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Leveling Guide › FAQ How do I Manage my Mana?",
+          "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Leveling Guide › Elemental Shaman Leveling Rotation",
           "url": "https://www.icy-veins.com/wow-forever/elemental-shaman-leveling",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Restoration Shaman Leveling Guide › FAQ How do I Manage my Mana?",
-          "url": "https://www.icy-veins.com/wow-forever/restoration-shaman-leveling",
+          "ref": "Wowhead: Elemental Shaman Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Elemental Shaman",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-leveling-tips",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman Leveling Guide - WoW: Forever › Leveling Rotation for Elemental Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Healing Guide for WoW: Forever › Healing toolkit",
+          "url": "https://www.wowhead.com/forever/guide/restoration-shaman-healing-guide-for-wow-forever-35071",
+          "date": "2026-10-20"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:shaman:elemental:leveling",
-        "class:shaman:restoration:leveling"
+        "class:shaman:extra:restoration-shaman-healing-guide-for-wow-forever"
       ],
       "source_hashes": [
-        "guide:17d5818b63371f552189fd40c345f393ea5e733c",
-        "guide:20bd808c2cdfc31da7133079077610e5cba273a8"
+        "section:4298e9a6b9f493543c1a290cb540b1e0313bc66d",
+        "section:a2e862ebc4be5233a4180903c8463d797bf6bb61",
+        "section:bd0a7038c7ca9f7efc5e6dd3528d0d3224a04549",
+        "section:d3a29cfa972b6a9b0ec4f3c3c61fe08d738eff57"
       ]
     },
     {
@@ -650,8 +713,8 @@
       "status": "editorial",
       "title_es": "Lobo fantasmal y movilidad",
       "title_en": "Ghost Wolf and Mobility",
-      "summary_es": "Lobo fantasmal da un 40% de velocidad y no permite atacar ni lanzar; mejorado lo hace instantáneo e interior.",
-      "summary_en": "Ghost Wolf gives 40% speed and blocks attacks and casts; Improved makes it instant and indoor.",
+      "summary_es": "Lobo fantasmal se aprende a 20 y da un 40% de velocidad al aire libre; su talento lo hace instantáneo e interior.",
+      "summary_en": "Ghost Wolf is learned at 20 and grants 40% outdoor speed; its talent makes it instant and usable indoors.",
       "keywords_es": [
         "lobo fantasmal",
         "movilidad del chamán",
@@ -666,12 +729,24 @@
         "shaman speed",
         "shapeshift"
       ],
-      "text_es": "Lobo fantasmal aumenta tu velocidad un 40% y no tiene duración ni reutilización, así que es la forma habitual de moverte entre combates. Mientras estás transformado no puedes atacar ni lanzar hechizos. Lobo fantasmal mejorado lo hace instantáneo y permite usarlo en interiores, lo que resuelve gran parte de la movilidad del Chamán. Úsalo para llegar antes a una misión o para escapar, pero vuelve a la forma normal antes de pelear.",
-      "text_en": "Ghost Wolf raises your speed by 40% and has no duration or cooldown, so it is the usual way to move between fights. While transformed you cannot attack or cast. Improved Ghost Wolf makes it instant and lets you use it indoors, solving much of the Shaman's mobility. Use it to reach a quest faster or to escape, but return to normal form before fighting.",
+      "text_es": "Desde el nivel 20, Lobo fantasmal aumenta un 40% la velocidad al aire libre, sin duración ni reutilización. Lobo fantasmal mejorado 2/2 hace que su lanzamiento sea instantáneo y permite usarlo en interiores. Mientras estás transformado no puedes lanzar hechizos.",
+      "text_en": "From level 20, Ghost Wolf increases outdoor movement speed by 40%, with no duration or cooldown. Improved Ghost Wolf 2/2 makes its cast instant and lets you use it indoors. You cannot cast spells while transformed.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman Leveling Guide for WoW: Forever › Leveling toolkit",
+          "url": "https://www.wowhead.com/forever/guide/enhancement-shaman-leveling-guide-for-wow-forever-35070",
+          "date": "2026-10-20"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman Leveling Guide for WoW: Forever › Enhancement: levels 10–43 (34 points)",
+          "url": "https://www.wowhead.com/forever/guide/enhancement-shaman-leveling-guide-for-wow-forever-35070",
+          "date": "2026-10-20"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Leveling Guide › Important Abilities",
@@ -679,22 +754,25 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:shaman:elemental:leveling"
+        "class:shaman:elemental:leveling",
+        "class:shaman:extra:enhancement-shaman-leveling-guide-for-wow-forever"
       ],
       "source_hashes": [
-        "section:19f3ce9f398fddf010a3c95602d4b0accae85584"
+        "section:19f3ce9f398fddf010a3c95602d4b0accae85584",
+        "section:7fd980b9d9af043aff41f0f473797dac29d20a4b",
+        "section:8c636c1229fe6a624e2d10dad255be89f2d7cb4b"
       ]
     },
     {
       "id": "clase-shaman-utilidad-control",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Utilidad, control y resurrección",
-      "title_en": "Utility, Control, and Resurrection",
-      "summary_es": "Tótem Nexo, Garra de piedra, tremor y derribador; Purgar, curar veneno y Reencarnación completan el apoyo.",
-      "summary_en": "Earthbind, Stoneclaw, Tremor, and Grounding Totems; Purge, cures, and Reincarnation complete the support.",
+      "title_es": "Utilidad y control del Chamán",
+      "title_en": "Shaman Utility and Control",
+      "summary_es": "Tótems controlan enemigos y protegen al grupo; Purgar, las curas de aflicciones y las resurrecciones dan apoyo.",
+      "summary_en": "Totems control enemies and protect the group; Purge, affliction cures, and resurrection provide support.",
       "keywords_es": [
         "utilidad del chamán",
         "tótem nexo terrestre",
@@ -709,8 +787,8 @@
         "reincarnation",
         "shaman purge"
       ],
-      "text_es": "Tótem Nexo Terrestre frena a los enemigos y Tótem Garra de piedra los provoca para quitarte presión. Tótem de tremor quita miedo, sueño y encantamiento, y Tótem derribador redirige un hechizo enemigo hacia sí mismo. Purgar elimina buffs mágicos, Curar veneno y Curar enfermedad limpian a un aliado, y Reencarnación te revive con 20% de salud y maná una vez por hora si llevas un Ankh. Espíritu ancestral resucita a un aliado fuera de combate.",
-      "text_en": "Earthbind Totem slows enemies and Stoneclaw Totem taunts them to take pressure off you. Tremor Totem removes fear, sleep, and charm, and Grounding Totem redirects one enemy spell to itself. Purge removes magic buffs, Cure Poison and Cure Disease cleanse an ally, and Reincarnation revives you with 20% health and mana once per hour if you carry an Ankh. Ancestral Spirit resurrects an ally out of combat.",
+      "text_es": "Tótem Nexo Terrestre ralentiza y Vinculado a la tierra enraíza 5 s; Tótem Garra de piedra provoca criaturas y Tótem derribador intercepta un hechizo. Tótem de tremor elimina miedo, sueño y encantamiento. Purgar quita hasta dos efectos mágicos beneficiosos; Curar veneno y Curar enfermedad limpian aliados. Reencarnación te resucita con un 20% de salud y maná, con 1 h de reutilización; Espíritu ancestral resucita a un aliado tras lanzarse.",
+      "text_en": "Earthbind Totem slows and Earthbound roots for 5 seconds; Stoneclaw Totem taunts creatures, and Grounding Totem intercepts a spell. Tremor Totem removes fear, sleep, and charm. Purge removes up to two beneficial magic effects; Cure Poison and Cure Disease cleanse allies. Reincarnation revives you with 20% health and mana on a 1-hour cooldown; Ancestral Spirit resurrects an ally after its cast.",
       "tags": [
         "SHAMAN"
       ],
@@ -723,18 +801,17 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Enhancement Shaman Leveling Guide › Utility and Crowd Control",
-          "url": "https://www.icy-veins.com/wow-forever/enhancement-shaman-leveling",
-          "date": "2026-11-13"
+          "ref": "Wowhead: Elemental Shaman Leveling Guide - WoW: Forever › Leveling Tips for Elemental Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-leveling-tips",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:shaman:elemental:leveling",
-        "class:shaman:enhancement:leveling"
+        "class:shaman:elemental:leveling"
       ],
       "source_hashes": [
-        "section:dba13053ab5993758d2d39e84aa515cde2a8770d",
+        "section:426a25cddbcd00c8dd5cd18426e2363d24658f7d",
         "section:f92fffdac32c60a02c0162051405b4c4ea32d664"
       ]
     },
@@ -742,10 +819,10 @@
       "id": "clase-shaman-rotacion",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Rotación básica para subir",
-      "title_en": "Basic Leveling Rotation",
-      "summary_es": "Elemental usa Descarga de relámpagos y Nova de Fuego; Mejora Golpe de tormenta; Recuperación Onda de curación.",
-      "summary_en": "Elemental uses Lightning Bolt and Fire Nova; Enhancement uses Stormstrike; Restoration uses Healing Wave.",
+      "title_es": "Prioridades de combate para subir",
+      "title_en": "Leveling Combat Priorities",
+      "summary_es": "Elemental lanza a distancia, Mejora combate con ataques automáticos y Recuperación prioriza curar.",
+      "summary_en": "Elemental casts at range, Enhancement relies on auto-attacks, and Restoration prioritizes healing.",
       "keywords_es": [
         "rotación del chamán",
         "rotación para subir chamán",
@@ -760,41 +837,48 @@
         "stormstrike",
         "healing wave"
       ],
-      "text_es": "En Elemental, mantén Choque de llamas en el objetivo y usa Descarga de relámpagos; con tres o más enemigos, Nova de Fuego y Cadena de relámpagos. En Mejora, mantén un arma imbuida, abre con Descarga de relámpagos de rango 1 si hace falta y usa Golpe de tormenta y choques; los autos completan el daño. En Recuperación, Las Mareas Vivas y Onda de curación cubren a un aliado, Curación en cadena al grupo y Onda inferior de curación las emergencias. Recuerda beber y curarte entre combates.",
-      "text_en": "As Elemental, keep Flame Shock on the target and use Lightning Bolt; with three or more enemies, Fire Nova and Chain Lightning. As Enhancement, keep a weapon imbued, open with rank-1 Lightning Bolt if needed, and use Stormstrike and shocks; auto-attacks fill the rest. As Restoration, Riptide and Healing Wave cover one ally, Chain Heal the group, and Lesser Healing Wave emergencies. Remember to drink and heal between fights.",
+      "text_es": "Elemental: arma imbuida, escudo y tótems de grupo; Tótem abrasador, Choque de llamas y Golpe de tormenta si tienes el talento. Usa Cadena de relámpagos con Conjuro libre o maná suficiente; Descarga de relámpagos es la opción a distancia. Mejora: arma imbuida, abre con Descarga de relámpagos o Choque de llamas; Golpe de tormenta si lo tienes, Choque de tierra y ataques automáticos. Recuperación: arma, escudo y tótems de grupo; Mareas vivas al aliado más herido, luego Onda de curación; Curación en cadena para el grupo y Onda inferior de curación en emergencias.",
+      "text_en": "Elemental: imbued weapon, shield, and group totems; Searing Totem, Flame Shock, and Stormstrike if talented. Use Chain Lightning with Clearcasting or enough mana; Lightning Bolt is the ranged option. Enhancement: imbued weapon, open with Lightning Bolt or Flame Shock; Stormstrike if talented, Earth Shock, and auto-attacks. Restoration: weapon, shield, and group totems; Riptide on the most injured ally, then Healing Wave; Chain Heal for the group and Lesser Healing Wave in emergencies.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Leveling Guide › Elemental Ability Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/elemental-shaman-leveling",
+          "ref": "Wowhead: Elemental Shaman Leveling Guide - WoW: Forever › Leveling Rotation for Elemental Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-leveling-tips",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Enhancement Shaman Leveling Guide › Enhancement Ability Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/enhancement-shaman-leveling",
-          "date": "2026-11-13"
+          "ref": "Wowhead: Enhancement Shaman Leveling Guide - WoW: Forever › Leveling Rotation for Enhancement Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/dps-leveling-tips",
+          "date": "2026-11-16"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Restoration Shaman Leveling Guide › Restoration Ability Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/restoration-shaman-leveling",
+          "ref": "Wowhead: Restoration Shaman Leveling Guide - WoW: Forever › Leveling Rotation for Restoration Shaman Healer in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/healer-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Leveling Guide - WoW: Forever › Optional Abilities to Train for Restoration Shaman",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/healer-leveling-tips",
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:shaman:elemental:leveling",
         "class:shaman:enhancement:leveling",
         "class:shaman:restoration:leveling"
       ],
       "source_hashes": [
-        "section:088295d8f34fb8295dbafa4341f3a2eebddad1e9",
-        "section:90503893736956b3e6ee0401924695f53e05f565",
-        "section:c1dda0b87714cfe0cf34a5e819dbd1fa4f8c8b90"
+        "section:4298e9a6b9f493543c1a290cb540b1e0313bc66d",
+        "section:76ff15a95d17c1cccc55cc99ad44c19594898bc4",
+        "section:7dfcf958249908df66fcbba96a2d5d3d72afca50",
+        "section:e541687890b15e2c3b9062567d601729859bdfb6"
       ]
     },
     {
@@ -803,8 +887,8 @@
       "status": "editorial",
       "title_es": "Daño en área con Nova de Fuego",
       "title_en": "Area Damage with Fire Nova",
-      "summary_es": "Nova de Fuego daña alrededor del tótem de fuego; Cadena de relámpagos y Tótem de magma completan el área.",
-      "summary_en": "Fire Nova damages around the fire totem; Chain Lightning and Magma Totem complete the area.",
+      "summary_es": "Elemental prioriza Tótem de magma y Nova de Fuego; Mejora coloca un tótem y reparte Choque de llamas.",
+      "summary_en": "Elemental prioritizes Magma Totem and Fire Nova; Enhancement drops a totem and spreads Flame Shock.",
       "keywords_es": [
         "chamán daño en área",
         "nova de fuego",
@@ -819,33 +903,33 @@
         "magma totem",
         "shaman multiple enemies"
       ],
-      "text_es": "Nova de Fuego es el área principal del Chamán: daña alrededor del tótem de fuego activo y castiga a varios enemigos, pero cuesta mucha maná. Cadena de relámpagos golpea a varios objetivos y Tótem de magma añade daño continuo si tienes maná. Coloca el tótem de fuego antes de la pull, reúne a los enemigos y usa Nova de Fuego con tres o más. Si estás solo y no puedes permitirte el gasto, quédate en daño de un objetivo.",
-      "text_en": "Fire Nova is the Shaman's main area tool: it damages around the active fire totem and hits several enemies, but costs a lot of mana. Chain Lightning hits multiple targets and Magma Totem adds continuous damage if you have mana. Place the fire totem before the pull, gather the enemies, and use Fire Nova with three or more. If you are alone and cannot afford the cost, stay on single-target damage.",
+      "text_es": "Elemental: mantén imbuición, escudo y tótems de mejora; coloca Tótem de magma para daño de área y lanza Nova de Fuego, que aporta la mayor parte del daño pero consume mucho maná. Cadena de relámpagos se usa con la configuración Elemental a distancia; puedes omitir los choques. Mejora: coloca un tótem de fuego, usa Nova de Fuego y reparte Choque de llamas; espera a que el tanque genere amenaza y remata a un objetivo débil con ataques automáticos.",
+      "text_en": "Elemental: maintain an imbue, shield, and buff totems; place Magma Totem for AoE damage and cast Fire Nova, which deals most of the damage but uses a lot of mana. Chain Lightning is used with the ranged Elemental build; you can skip Shocks. Enhancement: place a Fire Totem, use Fire Nova, and spread Flame Shock; let the tank establish threat first and finish a weak target with auto-attacks.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Leveling Guide › Elemental Ability Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/elemental-shaman-leveling",
+          "ref": "Wowhead: Elemental Shaman Leveling Guide - WoW: Forever › Leveling Rotation for Elemental Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-leveling-tips",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Enhancement Shaman Leveling Guide › Enhancement Ability Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/enhancement-shaman-leveling",
-          "date": "2026-11-13"
+          "ref": "Wowhead: Enhancement Shaman Leveling Guide - WoW: Forever › Leveling Rotation for Enhancement Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/dps-leveling-tips",
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:shaman:elemental:leveling",
         "class:shaman:enhancement:leveling"
       ],
       "source_hashes": [
-        "section:088295d8f34fb8295dbafa4341f3a2eebddad1e9",
-        "section:c1dda0b87714cfe0cf34a5e819dbd1fa4f8c8b90"
+        "section:4298e9a6b9f493543c1a290cb540b1e0313bc66d",
+        "section:7dfcf958249908df66fcbba96a2d5d3d72afca50"
       ]
     },
     {
@@ -918,8 +1002,8 @@
       "status": "editorial",
       "title_es": "Consejos para subir de nivel",
       "title_en": "Leveling Tips",
-      "summary_es": "Lleva agua, entrena rangos, sube Peletería con Desuello y usa los tótems y los buffs de campamento.",
-      "summary_en": "Carry water, train ranks, level Leatherworking with Skinning, and use totems and campfire buffs.",
+      "summary_es": "Ahorra maná, entrena rangos con regularidad y aprovecha profesiones, comida y consumibles.",
+      "summary_en": "Conserve mana, train ranks regularly, and make use of professions, food, and consumables.",
       "keywords_es": [
         "consejos para subir chamán",
         "chamán agua y maná",
@@ -934,33 +1018,47 @@
         "totems leveling",
         "shaman campfire buffs"
       ],
-      "text_es": "Lleva agua, sobre todo, y también comida y pociones: el Chamán gasta maná muy rápido. Vuelve al instructor cada dos niveles para aprender rangos nuevos, y entrena Mazas de dos manos y hachas de dos manos si quieres usarlas. Peletería con Desuello te da armaduras de cuero y tiendas de campamento; Alquimia con Herboristería aporta pociones y Pozo de maná. Usa los tótems antes de cada pull, aprovecha los buffs de campamento y descansa en tabernas.",
-      "text_en": "Carry water above all, plus food and potions: Shaman burns mana very quickly. Visit the trainer every two levels for new ranks, and train two-handed maces and axes if you want to use them. Leatherworking with Skinning gives leather armor and camp tents; Alchemy with Herbalism provides potions and Mana Well. Use totems before each pull, take campfire buffs, and rest in inns.",
+      "text_es": "Haz pulls pausados y ahorra maná: Mejora causa mucho daño con ataques automáticos; si escasea, reduce los choques. Lleva agua, visita al instructor cada dos niveles y aprende las habilidades de arma que usarás. Peletería con Desuello da equipo; Alquimia con Herboristería facilita pociones y Pozo de maná. La comida activa da un 5% más de experiencia por enemigos muertos; el aceite de zahorí añade poder con hechizos y se acumula con imbuiciones. Coloca tótems antes de luchar, aprovecha las mejoras de campamento y cierra sesión en una posada para acumular experiencia descansada.",
+      "text_en": "Pull slowly and conserve mana: Enhancement deals much of its damage with auto-attacks; when low, reduce the use of shocks. Carry water, visit your trainer every two levels, and learn the weapon skills you will use. Leatherworking with Skinning provides gear; Alchemy with Herbalism helps supply potions and Mana Well. Food grants 5% more experience from kills; Wizard Oil adds spell power and stacks with imbues. Place totems before fighting, use camp buffs, and log out at an inn to build rested experience.",
       "tags": [
         "SHAMAN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Leveling Guide › Leveling Tips",
-          "url": "https://www.icy-veins.com/wow-forever/elemental-shaman-leveling",
+          "ref": "Wowhead: Enhancement Shaman Leveling Guide - WoW: Forever › Leveling Tips for Enhancement Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/dps-leveling-tips",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman Leveling Guide - WoW: Forever › Best Leveling Consumables for Elemental Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-leveling-tips",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Enhancement Shaman Leveling Guide › Professions",
-          "url": "https://www.icy-veins.com/wow-forever/enhancement-shaman-leveling",
-          "date": "2026-11-13"
+          "ref": "Wowhead: Elemental Shaman Leveling Guide - WoW: Forever › Best Leveling Professions for Elemental Shaman DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Elemental Shaman Leveling Guide › Leveling Tips",
+          "url": "https://www.icy-veins.com/wow-forever/elemental-shaman-leveling",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:shaman:elemental:leveling",
         "class:shaman:enhancement:leveling"
       ],
       "source_hashes": [
-        "section:2ad1aa2dd9aef28c5effd1f85f615709418e526a",
-        "section:b2d262a96c15f0a8e2d6eb5061a4c24997cb1e4d"
+        "section:8c800dc281a111963a7346ee5a3c569837efad7f",
+        "section:9b40d5c7f5d3dc44d6f297beb0437a160f58e03d",
+        "section:b2d262a96c15f0a8e2d6eb5061a4c24997cb1e4d",
+        "section:fe7a5492abf841706c41ec240e08643af945c19d"
       ]
     },
     {
