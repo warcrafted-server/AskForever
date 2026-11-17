@@ -2,48 +2,6 @@
   "description": "Capítulo 4: clases. Prioridad de estadísticas por especialización (editorial, generada con tools/stat_sections.py).",
   "sections": [
     {
-      "id": "clase-warlock-estadisticas-affliction",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Estadísticas de Brujo Aflicción",
-      "title_en": "Affliction Warlock stat priority",
-      "summary_es": "Qué estadísticas priorizar como Brujo Aflicción (daño a distancia) en JcE.",
-      "summary_en": "Which stats to prioritise as a Affliction Warlock (ranged DPS) in PvE.",
-      "keywords_es": [
-        "estadisticas aflicción",
-        "stats aflicción",
-        "prioridad de estadisticas brujo",
-        "que estadisticas brujo",
-        "stats brujo"
-      ],
-      "keywords_en": [
-        "affliction stats",
-        "affliction stat priority",
-        "warlock stat priority",
-        "warlock stats"
-      ],
-      "tags": [
-        "WARLOCK"
-      ],
-      "text_es": "Prioridad de estadísticas para Brujo Aflicción (daño a distancia, JcE), de más a menos importante: Prob. de golpe > Poder con hechizos > Golpe crítico > Celeridad > Inteligencia.",
-      "text_en": "Stat priority for Affliction Warlock (ranged DPS, PvE), from most to least important: Hit Chance > Spell Power > Critical Strike > Haste > Intellect.",
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Forever Affliction Warlock Stat Priority",
-          "url": "https://www.icy-veins.com/wow-forever/affliction-warlock-ranged-dps-pve-stat-priority",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:warlock:affliction:stats"
-      ],
-      "source_hashes": [
-        "guide:bf9ebe1c088984b4afb727e4ad684e270762e3d7"
-      ]
-    },
-    {
       "id": "clase-warrior-estadisticas-arms",
       "chapter": 4,
       "status": "editorial",
@@ -83,90 +41,6 @@
       ],
       "source_hashes": [
         "guide:04c24bd72c40edca95fb81da6fd3ab9bc0646eb8"
-      ]
-    },
-    {
-      "id": "clase-warlock-estadisticas-demonology",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Estadísticas de Brujo Demonología",
-      "title_en": "Demonology Warlock stat priority",
-      "summary_es": "Qué estadísticas priorizar como Brujo Demonología (daño a distancia) en JcE.",
-      "summary_en": "Which stats to prioritise as a Demonology Warlock (ranged DPS) in PvE.",
-      "keywords_es": [
-        "estadisticas demonología",
-        "stats demonología",
-        "prioridad de estadisticas brujo",
-        "que estadisticas brujo",
-        "stats brujo"
-      ],
-      "keywords_en": [
-        "demonology stats",
-        "demonology stat priority",
-        "warlock stat priority",
-        "warlock stats"
-      ],
-      "tags": [
-        "WARLOCK"
-      ],
-      "text_es": "Prioridad de estadísticas para Brujo Demonología (daño a distancia, JcE), de más a menos importante: Prob. de golpe > Poder con hechizos > Golpe crítico > Celeridad > Inteligencia.",
-      "text_en": "Stat priority for Demonology Warlock (ranged DPS, PvE), from most to least important: Hit Chance > Spell Power > Critical Strike > Haste > Intellect.",
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Forever Demonology Warlock Stat Priority",
-          "url": "https://www.icy-veins.com/wow-forever/demonology-warlock-ranged-dps-pve-stat-priority",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:warlock:demonology:stats"
-      ],
-      "source_hashes": [
-        "guide:05eb190f1eef6c42bf2d05956e63484b1e02b9b2"
-      ]
-    },
-    {
-      "id": "clase-warlock-estadisticas-destruction",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Estadísticas de Brujo Destrucción",
-      "title_en": "Destruction Warlock stat priority",
-      "summary_es": "Qué estadísticas priorizar como Brujo Destrucción (daño a distancia) en JcE.",
-      "summary_en": "Which stats to prioritise as a Destruction Warlock (ranged DPS) in PvE.",
-      "keywords_es": [
-        "estadisticas destrucción",
-        "stats destrucción",
-        "prioridad de estadisticas brujo",
-        "que estadisticas brujo",
-        "stats brujo"
-      ],
-      "keywords_en": [
-        "destruction stats",
-        "destruction stat priority",
-        "warlock stat priority",
-        "warlock stats"
-      ],
-      "tags": [
-        "WARLOCK"
-      ],
-      "text_es": "Prioridad de estadísticas para Brujo Destrucción (daño a distancia, JcE), de más a menos importante: Prob. de golpe > Poder con hechizos > Celeridad > Golpe crítico > Inteligencia.",
-      "text_en": "Stat priority for Destruction Warlock (ranged DPS, PvE), from most to least important: Hit Chance > Spell Power > Haste > Critical Strike > Intellect.",
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Forever Destruction Warlock Stat Priority",
-          "url": "https://www.icy-veins.com/wow-forever/destruction-warlock-ranged-dps-pve-stat-priority",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-15",
-      "topics": [
-        "class:warlock:destruction:stats"
-      ],
-      "source_hashes": [
-        "guide:596df930692bc46313d26f70321de5fc5603b2c0"
       ]
     },
     {
