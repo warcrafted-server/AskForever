@@ -100,6 +100,7 @@ class ChatState:
     entries: tuple[tuple[str, str], ...]
     rect: Optional[tuple[int, int, int, int]]
     visible: bool
+    scroll: int = 0
 
 
 def _truncate_question(question) -> str:
@@ -190,6 +191,7 @@ class Overlay:
         self._title_label = None
         self._body_label = None
         self._chat_text = None
+        self._rendered_chat_entries = None
         self._title_visible = False
         self._expires_at = None
         self._state_active = False
@@ -228,7 +230,8 @@ class Overlay:
         """Encola una vista del chat anclado al panel del addon."""
         if view is None:
             return
-        state = ChatState(tuple(view.entries), view.rect, bool(view.visible))
+        state = ChatState(tuple(view.entries), view.rect, bool(view.visible),
+                          getattr(view, 'scroll', 0))
         self.queue.put(state)
 
     def hide(self):
@@ -302,6 +305,10 @@ class Overlay:
                                       font=('Segoe UI', 10, 'bold'))
         self._chat_text.tag_configure('thinking', foreground=DIM_COLOUR)
         self._chat_text.tag_configure('answer', foreground=TEXT_COLOUR)
+        self._chat_text.tag_configure('answer_bold', foreground=TEXT_COLOUR,
+                                      font=('Segoe UI', 10, 'bold'))
+        self._chat_text.tag_configure('bullet', foreground=TEXT_COLOUR,
+                                      font=('Segoe UI', 10), lmargin1=0, lmargin2=14)
         self._chat_text.tag_configure('error', foreground=ERROR_COLOUR)
 
         if self._close_requested:
@@ -409,7 +416,11 @@ class Overlay:
         self._visible_requested = visible
         self._expires_at = None
         self._use_chat_layout(True)
-        self._render_chat(entries)
+        scroll = getattr(state, 'scroll', 0)
+        if scroll and entries == self._rendered_chat_entries and self._chat_text is not None:
+            self._chat_text.yview_scroll(scroll, 'units')
+        else:
+            self._render_chat(entries)
         if visible:
             self._show_window()
         else:
@@ -443,16 +454,47 @@ class Overlay:
         widget.delete('1.0', 'end')
         roles = ('question', 'thinking', 'answer', 'error')
         previous = None
+        last_question_index = None
         for role, text in entries:
             if role == 'question' and previous is not None:
                 widget.insert('end', '\n\n')
             elif previous is not None:
                 widget.insert('end', '\n')
             tag = role if role in roles else 'answer'
-            widget.insert('end', '' if text is None else str(text), tag)
+            text = '' if text is None else str(text)
+            if role == 'question':
+                last_question_index = widget.index('end-1c')
+            if role == 'answer':
+                self._insert_answer(widget, text)
+            else:
+                widget.insert('end', text, tag)
             previous = role
         widget.configure(state='disabled')
-        widget.see('end')
+        self._rendered_chat_entries = tuple(entries)
+        if last_question_index is None:
+            widget.see('end')
+        else:
+            widget.yview(last_question_index)
+
+    @staticmethod
+    def _insert_answer(widget, text) -> None:
+        lines = text.splitlines(keepends=True)
+        if not lines:
+            widget.insert('end', '', 'answer')
+            return
+        for line in lines:
+            content = line.rstrip('\r\n')
+            ending = line[len(content):]
+            if content.startswith('• '):
+                widget.insert('end', content + ending, 'bullet')
+                continue
+            colon = content.find(':')
+            label = content[:colon + 1] if colon >= 0 else ''
+            if label and len(label) <= 40 and '.' not in label:
+                widget.insert('end', label, 'answer_bold')
+                widget.insert('end', content[len(label):] + ending, 'answer')
+            else:
+                widget.insert('end', content + ending, 'answer')
 
     def _expired(self):
         return (self._expires_at is not None

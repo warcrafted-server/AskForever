@@ -11,6 +11,7 @@ import pytest
 
 import askforever.cli as cli
 from askforever.capture.grabber import ReceivedMessage
+from askforever.overlay.chat import ChatSession
 from askforever.overlay.window import (
     ChatState,
     Overlay,
@@ -239,8 +240,12 @@ class _FakeChatText:
         self.packed = False
         self.text = ''
         self.tags = []
+        self.inserts = []
         self.seen = False
         self.state = None
+        self.yviews = []
+        self.yview_scrolls = []
+        self.deleted = 0
 
     def pack(self, **_kwargs):
         self.packed = True
@@ -253,15 +258,26 @@ class _FakeChatText:
             self.state = kwargs['state']
 
     def delete(self, *_args):
+        self.deleted += 1
         self.text = ''
 
     def insert(self, _index, text, tag=None):
         self.text += text
+        self.inserts.append((text, tag))
         if tag is not None:
             self.tags.append(tag)
 
     def see(self, _index):
         self.seen = True
+
+    def index(self, index):
+        return index
+
+    def yview(self, index):
+        self.yviews.append(index)
+
+    def yview_scroll(self, amount, what):
+        self.yview_scrolls.append((amount, what))
 
 
 def _fake_overlay(user32, window_fn):
@@ -362,7 +378,7 @@ def test_overlay_chat_layout_geometry_and_fallback():
     assert overlay._title_label.packed is False
     assert 'Pregunta\nPensando…\nRespuesta' == chat.text
     assert chat.tags == ['question', 'thinking', 'answer']
-    assert chat.seen is True
+    assert chat.yviews == ['end-1c']
 
     hidden = ChatState(entries=state.entries, rect=state.rect, visible=False)
     overlay._apply(hidden)
@@ -379,6 +395,43 @@ def test_overlay_chat_layout_geometry_and_fallback():
     assert overlay._body_label.packed is True
     assert overlay._root.alphas[-1] == VISIBLE_ALPHA
     assert overlay._chat_mode is False
+
+
+def test_chat_scroll_moves_without_rerendering():
+    overlay = Overlay()
+    chat = _FakeChatText()
+    overlay._chat_text = chat
+    entries = (('question', 'Pregunta'), ('answer', 'Respuesta'))
+    overlay._apply(ChatState(entries, (0, 0, 300, 200), True))
+    deleted = chat.deleted
+
+    overlay._apply(ChatState(entries, (0, 0, 300, 200), True, scroll=3))
+
+    assert chat.yview_scrolls == [(3, 'units')]
+    assert chat.deleted == deleted
+
+
+def test_answer_labels_and_bullets_have_separate_tags():
+    overlay = Overlay()
+    chat = _FakeChatText()
+    overlay._chat_text = chat
+
+    overlay._render_chat((('answer', 'Combate feral: Ferocidad 5/5\n• uno'),))
+
+    assert ('Combate feral:', 'answer_bold') in chat.inserts
+    assert ('• uno', 'bullet') in chat.inserts
+    assert chat.tags == ['answer_bold', 'answer', 'bullet']
+
+
+@pytest.mark.parametrize('amount,expected', [(90, 50), (-90, -50)])
+def test_chat_session_scroll_clamps_without_changing_entries(amount, expected):
+    session = ChatSession()
+    session.question(1, 'Pregunta', (0, 0, 300, 200), 'esES')
+
+    view = session.ui('scroll', 1, None, scroll=amount)
+
+    assert view.entries == tuple(session.entries)
+    assert view.scroll == expected
 
 
 def _tk_available() -> bool:
@@ -416,9 +469,11 @@ def _message_data(question, lang='esES') -> bytes:
     return json.dumps(document, ensure_ascii=False).encode('utf-8')
 
 
-def _ui_message_data(event='open', conv=1) -> bytes:
+def _ui_message_data(event='open', conv=1, sd=None) -> bytes:
     document = {'v': 1, 'lang': 'esES', 'q': '', 'conv': conv, 'kind': 'ui',
                 'ev': event, 'wx': 10, 'wy': 20, 'ww': 300, 'wh': 200}
+    if sd is not None:
+        document['sd'] = sd
     return json.dumps(document, ensure_ascii=False).encode('utf-8')
 
 
@@ -589,6 +644,19 @@ def test_ui_message_never_reaches_the_ai(monkeypatch):
     assert chats
     assert chats[0][1].entries == ()
     assert chats[0][1].visible is False
+
+
+def test_ui_scroll_message_reaches_chat_session(monkeypatch):
+    events = []
+    messages = [ReceivedMessage(1, 1, _ui_message_data('scroll', 4, sd=-5), 0.0, 0.1)]
+
+    monkeypatch.setattr(cli, 'Grabber', _fake_grabber(messages))
+    monkeypatch.setattr(cli, 'OverlaySupervisor', _recording_overlay(events))
+
+    assert cli.main(['run', '--no-ai', '--no-data', '--no-web']) == 0
+
+    chats = [event[1] for event in events if event[0] == 'chat']
+    assert chats and chats[0].scroll == -5
 
 
 def test_run_chat_question_and_answer(monkeypatch):

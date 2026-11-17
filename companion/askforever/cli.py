@@ -577,8 +577,14 @@ def _run_companion(args: argparse.Namespace) -> int:
             event = str(raw.get('ev') or '')
             conv = raw.get('conv')
             rect = _message_rect(raw)
+            sd = raw.get('sd')
+            if isinstance(sd, bool) or not isinstance(sd, int):
+                sd = 0
             with chat_lock:
-                view = chat_session.ui(event, conv, rect)
+                if event == 'scroll':
+                    view = chat_session.ui(event, conv, rect, scroll=sd)
+                else:
+                    view = chat_session.ui(event, conv, rect)
             if view is not None:
                 overlay.show_chat(view)
             print(f'[{stamp}] ui {event} conv={conv}')

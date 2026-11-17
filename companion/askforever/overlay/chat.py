@@ -16,6 +16,7 @@ class ChatView:
     entries: tuple[tuple[str, str], ...]
     rect: Optional[tuple[int, int, int, int]]
     visible: bool
+    scroll: int = 0
 
 
 def _valid_rect(rect):
@@ -38,10 +39,10 @@ class ChatSession:
         self.rect = None
         self.window_open = False
 
-    def _view(self) -> ChatView:
+    def _view(self, scroll=0) -> ChatView:
         visible = (self.window_open and self.rect is not None
                    and bool(self.entries))
-        return ChatView(tuple(self.entries), self.rect, visible)
+        return ChatView(tuple(self.entries), self.rect, visible, scroll)
 
     def _trim(self) -> None:
         question_indexes = [index for index, (role, _text) in enumerate(self.entries)
@@ -87,7 +88,11 @@ class ChatSession:
         self._replace_last_thinking('error', '' if text is None else str(text))
         return self._view()
 
-    def ui(self, event, conv, rect) -> ChatView:
+    def ui(self, event, conv, rect, scroll=0) -> ChatView:
+        if event == 'scroll':
+            if isinstance(scroll, bool) or not isinstance(scroll, int):
+                scroll = 0
+            return self._view(max(-50, min(50, scroll)))
         if event == 'close':
             self.window_open = False
             return self._view()

@@ -120,7 +120,8 @@ class OverlaySupervisor:
         """Envía una vista del chat anclado y la conserva para reinicios."""
         if view is None:
             return
-        state = ChatState(tuple(view.entries), view.rect, bool(view.visible))
+        state = ChatState(tuple(view.entries), view.rect, bool(view.visible),
+                          getattr(view, 'scroll', 0))
         self._last_state = state
         self._put(state)
 
