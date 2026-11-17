@@ -23,8 +23,8 @@
         "paladin seals",
         "versatile paladin class"
       ],
-      "text_es": "El Paladín es una clase versátil que usa la Luz para hacer daño, curar y proteger. Puede cumplir los tres roles: Reprensión pega cuerpo a cuerpo con un arma a dos manos, Protección tanquea con escudo y Sagrado cura. Sus bendiciones, auras y sellos ayudan a todo el grupo, y sus inmunidades permiten salvar momentos difíciles.",
-      "text_en": "Paladin is a versatile class that uses the Light to damage, heal, and protect. It can fill all three roles: Retribution fights in melee with a two-handed weapon, Protection tanks with a shield, and Holy heals. Its blessings, auras, and seals help the whole group, and its immunities can rescue dangerous moments.",
+      "text_es": "El Paladín canaliza la Luz para dañar, curar y proteger al grupo. Sagrado sana, Protección mantiene la amenaza con escudo y Reprensión convierte un arma a dos manos y los sellos en daño cuerpo a cuerpo. Bendiciones, auras e inmunidades aportan apoyo y respuestas defensivas en distintos encuentros.",
+      "text_en": "Paladin channels the Light to damage, heal, and protect the group. Holy heals, Protection holds threat with a shield, and Retribution turns a two-handed weapon and seals into melee damage. Blessings, auras, and immunities provide support and defensive answers in varied encounters.",
       "tags": [
         "PALADIN"
       ],
@@ -34,14 +34,52 @@
           "ref": "Icy Veins: Paladin Class Guide › Comprehensive Guide to Paladin in World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/paladin-class-overview",
           "date": "2026-11-02"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Paladin Healer Guide - WoW: Forever › Holy Paladin for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Guide - WoW: Forever › Protection Paladin for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/overview-pve-tank",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Guide - WoW: Forever › Retribution Paladins for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/overview-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Guide › Holy Paladin Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-healer-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Guide › Retribution Paladin Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-melee-dps-pve-guide",
+          "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:paladin:general:paladin-class-overview"
+        "class:paladin:general:paladin-class-overview",
+        "class:paladin:holy:overview",
+        "class:paladin:protection:overview",
+        "class:paladin:retribution:overview"
       ],
       "source_hashes": [
-        "section:8dbae45cd6354046e7fe2b406a62788f6baa7830"
+        "section:2680a27f47a98913eb95d35b2beeab208b5ee5eb",
+        "section:44045ad8642aee734fa4bcdf3a770a4f3a086411",
+        "section:710e692a4fa67f2192555d97ba03aa902f739fa2",
+        "section:8dbae45cd6354046e7fe2b406a62788f6baa7830",
+        "section:b49160744e9163b19cedd33a305683db13dc9f99",
+        "section:bbd23d7937186416a7c779a4fd77ffefaf43f620"
       ]
     },
     {
@@ -66,49 +104,55 @@
         "paladin tank",
         "paladin damage"
       ],
-      "text_es": "Sagrado se centra en curar y apoyar con bendiciones. Protección aguanta golpes, genera amenaza y tanquea con escudo. Reprensión inflige daño cuerpo a cuerpo con un arma a dos manos. Las tres son Paladín, pero solo Protección es tanque y Sagrado sanador; Reprensión es daño.",
-      "text_en": "Holy focuses on healing and supporting with blessings. Protection endures hits, builds threat, and tanks with a shield. Retribution deals melee damage with a two-handed weapon. All three are Paladins, but only Protection is a tank and Holy a healer; Retribution is damage.",
+      "text_es": "Sagrado ofrece curas potentes a un objetivo y Vigilia de la Luz permite responder al daño grupal. Protección tanquea con escudo, Consagración y Sello de furia; destaca ante magia y varios enemigos. Reprensión inflige daño cuerpo a cuerpo con dos manos y apoya al grupo, pero carece de interrupción y ralentización.",
+      "text_en": "Holy provides strong single-target healing, while Light's Vigil answers group damage. Protection tanks with a shield, Consecration, and Seal of Fury; it excels against magic and multiple enemies. Retribution deals two-handed melee damage and supports the group, but lacks an interrupt and a slow.",
       "tags": [
         "PALADIN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Paladin Class Guide › Paladin in World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/paladin-class-overview",
-          "date": "2026-11-02"
+          "ref": "Wowhead: Holy Paladin Healer Guide - WoW: Forever › Holy Paladin for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/overview-pve-healer",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Guide › Holy Paladin Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-healer-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Holy Paladin Healer Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/overview-pve-healer",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Protection Paladin Guide › Protection Paladin Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-tank-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Protection Paladin Tank Guide - WoW: Forever › Viability of Protection Paladin Tank in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/overview-pve-tank",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Guide › Retribution Paladin Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Protection Paladin Tank Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/overview-pve-tank",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Guide - WoW: Forever › Strengths and Weaknesses of Retribution Paladins in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/overview-pve-dps",
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:paladin:general:paladin-class-overview",
         "class:paladin:holy:overview",
         "class:paladin:protection:overview",
         "class:paladin:retribution:overview"
       ],
       "source_hashes": [
-        "section:008f3ef44cdc93fcd2ee0459d1b847ee873a645c",
-        "section:389a6c23d0ab1ca9f967605881e1646f49331af7",
-        "section:44045ad8642aee734fa4bcdf3a770a4f3a086411",
-        "section:bbd23d7937186416a7c779a4fd77ffefaf43f620"
+        "section:576c08dc1e411b0103d71403b3e5d55105fcb5ab",
+        "section:6de93a2e5f1db204854d458c82af2491bb1d24fc",
+        "section:710e692a4fa67f2192555d97ba03aa902f739fa2",
+        "section:88add09bcfaabe1f747809ea349477490af1a14a",
+        "section:e96c2c8893d1872f12fd3da623c5f074f0da68bb"
       ]
     },
     {
@@ -133,41 +177,62 @@
         "paladin taunt",
         "paladin aoe healing"
       ],
-      "text_es": "En Forever Protección recibe Sello de furia: al usarlo con Sentencia puede provocar enemigos, algo que antes le faltaba. Sagrado recibe Vigilia de la Luz, que le da curación en área. Reprensión mantiene su daño y su utilidad, y el Paladín sigue usando bendiciones, auras y sellos. La clase puede cubrir los tres roles.",
-      "text_en": "In Forever, Protection receives Seal of Fury: using it with Judgement can taunt enemies, something it previously lacked. Holy receives Light's Vigil, which gives it area healing. Retribution keeps its damage and utility, and the Paladin still uses blessings, auras, and seals. The class can cover all three roles.",
+      "text_es": "Sagrado obtiene Vigilia de la Luz para sanar al grupo; Protección suma Sello de furia, que provoca con Sentencia, y Baluarte de templario. Reprensión recibe Golpe Sagrado y Cólera desellada para almacenar efectos del sello y gastarlos al cambiar. Además, Sentencia ya no consume el sello activo, las bendiciones duran 1 hora y Consagración pasa a ser básica en nivel 20. El Paladín conserva sus tres funciones de grupo.",
+      "text_en": "Holy gains Light's Vigil for group healing; Protection adds Seal of Fury, which taunts through Judgement, and Templar's Bulwark. Retribution receives Holy Strike and Unsealed Wrath to store seal effects and spend them when switching. Judgement also stops consuming the active seal, blessings last 1 hour, and Consecration becomes baseline at level 20. Paladin retains its three group roles.",
       "tags": [
         "PALADIN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Protection Paladin Guide › Reason for Hope",
-          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-tank-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Holy Paladin Healer Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/overview-pve-healer",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Guide › Decent but Highly Desired",
-          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-healer-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Holy Paladin Healer Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/overview-pve-healer",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: Paladin Class Guide › Comprehensive Guide to Paladin in World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/paladin-class-overview",
-          "date": "2026-11-02"
+          "ref": "Wowhead: Protection Paladin Tank Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/overview-pve-tank",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/overview-pve-tank",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/overview-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/overview-pve-dps",
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:paladin:general:paladin-class-overview",
         "class:paladin:holy:overview",
-        "class:paladin:protection:overview"
+        "class:paladin:protection:overview",
+        "class:paladin:retribution:overview"
       ],
       "source_hashes": [
-        "guide:22129b8a526bf36e77891942d7b8f199ff587693",
-        "guide:a2129505a61acef5d43361d4b18292d27c5752ff",
-        "section:8dbae45cd6354046e7fe2b406a62788f6baa7830"
+        "section:04d4ba591beabf5febf8f89b32f1f47124bcd84e",
+        "section:6be8e272d7be3efbb19297610f1c04a8cffd016a",
+        "section:6de93a2e5f1db204854d458c82af2491bb1d24fc",
+        "section:a6b6f36e9aed025a1659968a005a58a40fdcd11a",
+        "section:ae4cd702182a2185ffe2e082a7514a263c0b3c23",
+        "section:e96c2c8893d1872f12fd3da623c5f074f0da68bb"
       ]
     },
     {
@@ -192,40 +257,47 @@
         "paladin two handed",
         "paladin plate"
       ],
-      "text_es": "El Paladín lleva malla y, más adelante, placas. Puede usar armas a dos manos, armas de una mano y escudo; Protección tanquea con escudo y Reprensión pega con un arma a dos manos. Sagrado también puede llevar una mano y escudo. La elección depende de la especialización y del papel que quieras cubrir.",
-      "text_en": "A Paladin wears mail and later plate. It can use two-handed weapons, one-handed weapons, and a shield; Protection tanks with a shield and Retribution hits with a two-handed weapon. Holy can also use a one-handed weapon and shield. The choice depends on the specialization and the role you want to fill.",
+      "text_es": "Las placas son la armadura característica del Paladín, aunque piezas de otras clases de armadura pueden servirle. Herrería puede fabricar malla o placas con poder con hechizos al subir Protección. Protección tanquea con escudo; Reprensión se orienta a armas a dos manos. Sello de orden favorece armas lentas y Sello de rectitud puede rendir mejor con armas rápidas.",
+      "text_en": "Plate is the Paladin’s signature armor, though useful items from other armor classes can also fit. Blacksmithing can craft mail or plate with spell power for Protection while leveling. Protection tanks with a shield; Retribution favors two-handed weapons. Seal of Command favors slower weapons, while Seal of Righteousness can perform better with faster ones.",
       "tags": [
         "PALADIN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Leveling Guide › Professions",
-          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-leveling",
-          "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Protection Paladin Guide › Protection Paladin Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-tank-pve-guide",
-          "date": "2026-11-09"
-        },
-        {
-          "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Guide › Holy Paladin Guide for World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/holy-paladin-healer-pve-guide",
           "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Guide - WoW: Forever › Best Professions for Protection Paladin in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/overview-pve-tank",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Retribution Paladin DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Rotation and Cooldowns - WoW: Forever › All Retribution Paladin DPS Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
+          "date": "2026-11-15"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:paladin:holy:overview",
         "class:paladin:protection:overview",
-        "class:paladin:retribution:leveling"
+        "class:paladin:retribution:rotation"
       ],
       "source_hashes": [
-        "section:008f3ef44cdc93fcd2ee0459d1b847ee873a645c",
-        "section:b5208e98dd2872aa74ac6d5910681f22267d51a9",
+        "section:0fdbe3e868618560b3ef766915f734b7d27da2f2",
+        "section:33c0c2f10d61ed94116930ebec6ba4e7dbd7fd86",
+        "section:b07086cea79a600fea410483650d49bcc16be54c",
         "section:bbd23d7937186416a7c779a4fd77ffefaf43f620"
       ]
     },
@@ -741,8 +813,8 @@
         "a lesson in divinity",
         "resurrect allies"
       ],
-      "text_es": "El Libro de la Divinidad (Alianza), que usa el Escrito sobre Divinidad, y Una lección de divinidad (Horda) empiezan a nivel 12 y desbloquean Redención. Es la única facultad importante que dan las misiones de clase; hazla antes de mazmorras, porque te pedirán resucitar aliados.",
-      "text_en": "The Tome of Divinity (Alliance) and A Lesson in Divinity (Horde) start at level 12 and unlock Redemption. It is the only important ability granted by the class quests; do it before dungeons, because you will be asked to resurrect allies.",
+      "text_es": "Alianza: El Libro de la Divinidad usa el Escrito sobre Divinidad y se ofrece al nivel 12; Horda: Una lección de divinidad también comienza a 12 y recorre varias zonas. Ambas cadenas desbloquean Redención. Complétala antes de ir a mazmorras, pues el grupo puede depender de que resucites a un aliado.",
+      "text_en": "Alliance: The Tome of Divinity uses a required quest writ and is available at level 12; Horde: A Lesson in Divinity also begins at 12 and takes you around several areas. Both chains unlock Redemption. Finish yours before dungeons, since your group may rely on you to resurrect an ally.",
       "tags": [
         "PALADIN"
       ],
@@ -760,7 +832,7 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:paladin:general:paladin-class-quests"
       ],
@@ -790,8 +862,8 @@
         "a strange artifact",
         "paladin class weapon"
       ],
-      "text_es": "La prueba de rectitud (Alianza) y Old Fire-Eye (Horda) empiezan a nivel 20 y dan un arma. A Strange Artifact, a nivel 22, da una capa. Son opcionales, pero las armas duran mucho y se pueden hacer mientras visitas mazmorras.",
-      "text_en": "The Test of Righteousness (Alliance) and Old Fire-Eye (Horde) start at level 20 and give a weapon. A Strange Artifact, at level 22, gives a cloak. They are optional, but the weapons last a long time and can be done while you visit dungeons.",
+      "text_es": "Alianza: La prueba de rectitud se inicia al nivel 20, reúne piezas en tres mazmorras y recompensa con Puño de Verigan; es más cómoda desde el 22. Horda: Viejo Ojofuego se abre mediante Incidente diplomático al 20 y da un arma. Al 22, Un artefacto extraño comienza al recuperar el Orbe de Althalaxx y da la Capa de la tormenta divina; la cadena recorre varias zonas y la capa acabará reemplazada. Las armas duran varios niveles y puedes avanzar sus cadenas durante las mazmorras.",
+      "text_en": "Alliance: The Test of Righteousness starts at 20, gathers pieces from three dungeons, and rewards Verigan’s Fist; it is easier from 22. Horde: Old Fire-Eye opens through Diplomatic Incident at 20 and rewards a weapon. At 22, A Strange Artifact begins by recovering the Althalaxx Orb and rewards the Cloak of the Divine Storm; its chain visits several areas and the cloak will eventually be replaced. The weapons last for several levels, and you can progress their chains during dungeon runs.",
       "tags": [
         "PALADIN"
       ],
@@ -815,7 +887,7 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:paladin:general:paladin-class-quests"
       ],
@@ -896,41 +968,65 @@
         "paladin tank or healer",
         "paladin utility"
       ],
-      "text_es": "En grupo, el Paladín aporta bendiciones, auras, curación y utilidad. Protección tanquea y mantiene la amenaza con Consagración y Sentencia; Sagrado cura y usa Vigilia de la Luz para el grupo; Reprensión pega y ayuda con bendiciones, aturdimientos e inmunidades. Coordina las bendiciones y auras con otros Paladines, porque no se acumulan.",
-      "text_en": "In a group, the Paladin brings blessings, auras, healing, and utility. Protection tanks and holds threat with Consecration and Judgement; Holy heals and uses Light's Vigil for the group; Retribution damages and helps with blessings, stuns, and immunities. Coordinate blessings and auras with other Paladins because they do not stack.",
+      "text_es": "En mazmorras, Protección mantiene amenaza con Consagración y Sello de furia; Sagrado cura a un objetivo y puede extender Vigilia de la Luz al grupo con Choque Sagrado; Reprensión aporta daño, aturdimientos e inmunidades. Las bendiciones y auras mejoran al grupo, mientras las auras de resistencia alcanzan a la banda. Coordina qué mejoras y efectos de Sentencia conviene llevar.",
+      "text_en": "In dungeons, Protection holds threat with Consecration and Seal of Fury; Holy heals one target and can spread Light's Vigil group healing with Holy Shock; Retribution adds damage, stuns, and immunities. Blessings and auras boost the group, while resistance auras reach the raid. Coordinate the buffs and Judgement effects the encounter needs.",
       "tags": [
         "PALADIN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Guide › The Best",
-          "url": "https://www.icy-veins.com/wow-forever/holy-paladin-healer-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Holy Paladin Healer Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Holy Paladin DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/rotation-cooldowns-pve-healer",
+          "date": "2026-10-29"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Protection Paladin Guide › The Best",
-          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-tank-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Holy Paladin Healer Guide - WoW: Forever › Holy Paladin Specific Systems in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/overview-pve-healer",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Guide › Great Toolbelt",
-          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Protection Paladin Tank Guide - WoW: Forever › Viability of Protection Paladin Tank in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/overview-pve-tank",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Protection Paladin Tank in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/rotation-cooldowns-pve-tank",
+          "date": "2026-11-02"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/overview-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Retribution Paladin DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
+          "date": "2026-11-15"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:paladin:holy:overview",
+        "class:paladin:holy:rotation",
         "class:paladin:protection:overview",
-        "class:paladin:retribution:overview"
+        "class:paladin:protection:rotation",
+        "class:paladin:retribution:overview",
+        "class:paladin:retribution:rotation"
       ],
       "source_hashes": [
-        "guide:22129b8a526bf36e77891942d7b8f199ff587693",
-        "guide:a2129505a61acef5d43361d4b18292d27c5752ff",
-        "guide:a60bca232ae5f18b241de96ceaac602b990bc2e6"
+        "section:04d4ba591beabf5febf8f89b32f1f47124bcd84e",
+        "section:4dc5e022cc927c5a5bfc03d24d3554a4bca4c01a",
+        "section:576c08dc1e411b0103d71403b3e5d55105fcb5ab",
+        "section:5f74e4ec70a3b103611846256100f72632224a09",
+        "section:7e1b704f528234635d164accdb537bf1f5d6592d",
+        "section:b07086cea79a600fea410483650d49bcc16be54c"
       ]
     },
     {
@@ -955,12 +1051,36 @@
         "holy light",
         "light's vigil"
       ],
-      "text_es": "Sagrado es el sanador: Destello de Luz mantiene la salud, Luz Sagrada cura más cuando hay daño fuerte y Choque Sagrado es la emergencia instantánea. Vigilia de la Luz le da curación en área, y las bendiciones y auras siguen siendo parte de su apoyo. Su movilidad es muy baja y hace menos daño que las otras especializaciones, pero entra fácil en grupos.",
-      "text_en": "Holy is the healer: Flash of Light maintains health, Holy Light heals more when damage is heavy, and Holy Shock is the instant emergency heal. Light's Vigil gives it area healing, and blessings and auras remain part of its support. Its mobility is very low and it deals less damage than the other specializations, but it finds groups easily.",
+      "text_es": "Destello de Luz es una cura rápida y barata; Luz Sagrada tarda más, pero cura mucho; Choque Sagrado sirve para una urgencia instantánea o para activar Vigilia de la Luz. Aplica Vigilia a un aliado antes del daño grupal y actívala con Choque Sagrado; los críticos de Destello o Choque activan Infusión de Luz para acelerar la siguiente Luz Sagrada. Tiene curación potente y utilidad muy buscada, por eso suele encontrar grupo, aunque su movilidad y daño en solitario son bajos.",
+      "text_en": "Flash of Light is a quick, cheap heal; Holy Light casts more slowly but heals more; Holy Shock handles an instant emergency or activates Light's Vigil. Apply Vigil to an ally before group damage and trigger it with Holy Shock; critical Flash or Shock casts grant Infusion of Light and speed up the next Holy Light. Holy brings strong healing and sought-after utility, so it finds groups easily, but its mobility and solo damage are low.",
       "tags": [
         "PALADIN"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Paladin Healer Guide - WoW: Forever › Holy Paladin for New Players in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/overview-pve-healer",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Paladin Healer Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Holy Paladin DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/rotation-cooldowns-pve-healer",
+          "date": "2026-10-29"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Paladin Healer Rotation and Cooldowns - WoW: Forever › All Holy Paladin Rotation in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/rotation-cooldowns-pve-healer",
+          "date": "2026-10-29"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Paladin Healer Rotation and Cooldowns - WoW: Forever › Best Holy Paladin Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/rotation-cooldowns-pve-healer",
+          "date": "2026-10-29"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Holy Paladin Guide › Holy Paladin Guide for World of Warcraft: Forever",
@@ -968,11 +1088,16 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:paladin:holy:overview"
+        "class:paladin:holy:overview",
+        "class:paladin:holy:rotation"
       ],
       "source_hashes": [
+        "section:4dc5e022cc927c5a5bfc03d24d3554a4bca4c01a",
+        "section:710e692a4fa67f2192555d97ba03aa902f739fa2",
+        "section:84402d662ba833a10183a1b121fa0285df2bd9ff",
+        "section:9a512485bc7d7c309b2a510821d897d41a371c71",
         "section:bbd23d7937186416a7c779a4fd77ffefaf43f620"
       ]
     },
@@ -998,25 +1123,54 @@
         "consecration tank",
         "paladin shield"
       ],
-      "text_es": "Protección tanquea con escudo y usa Consagración para generar amenaza en área. Sello de furia hace que Sentencia provoque, y Golpe Sagrado, Exorcismo y los sellos completan su daño. Es muy duradero, se cura y aguanta varios enemigos, pero depende del maná y tiene poco alcance para pull.",
-      "text_en": "Protection tanks with a shield and uses Consecration to build area threat. Seal of Fury makes Judgement taunt, and Holy Strike, Exorcism, and seals complete its damage. It is very durable, heals itself, and handles several enemies, but it depends on mana and has little pulling range.",
+      "text_es": "Mantén Sello de furia para provocar con Sentencia y generar amenaza con Consagración; Escudo Sagrado y Golpe Sagrado completan tus acciones cuando están disponibles. Contra demonios o no-muertos, usa Exorcismo. El maná limita los combates largos, así que reserva Baluarte de templario para daño intenso. Protección es muy resistente y puede curarse, destaca contra magia y varios enemigos, pero su amenaza inicial depende de talentos y puede sufrir ante un solo objetivo con mucha vida.",
+      "text_en": "Keep Seal of Fury to taunt with Judgement and build threat with Consecration; Holy Shield and Holy Strike fill your actions when available. Exorcism can damage Undead or Demon targets. Mana limits long fights, so reserve Templar's Bulwark for heavy damage. Protection is durable and can heal itself; it excels against magic and groups, but its initial threat depends on talents and it can struggle against a high-health solo target.",
       "tags": [
         "PALADIN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Protection Paladin Guide › Protection Paladin Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/protection-paladin-tank-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Protection Paladin Tank Guide - WoW: Forever › Strengths and Weaknesses of Protection Paladin in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/overview-pve-tank",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/overview-pve-tank",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Protection Paladin Tank in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/rotation-cooldowns-pve-tank",
+          "date": "2026-11-02"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Rotation and Cooldowns - WoW: Forever › Best Protection Paladin Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/rotation-cooldowns-pve-tank",
+          "date": "2026-11-02"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Rotation and Cooldowns - WoW: Forever › All Protection Paladins DPS Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/rotation-cooldowns-pve-tank",
+          "date": "2026-11-02"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:paladin:protection:overview"
+        "class:paladin:protection:overview",
+        "class:paladin:protection:rotation"
       ],
       "source_hashes": [
-        "section:008f3ef44cdc93fcd2ee0459d1b847ee873a645c"
+        "section:3a7de739acf643d114882924fe81c2e8fa171b54",
+        "section:5f74e4ec70a3b103611846256100f72632224a09",
+        "section:9be04cfb54735c0517c21b976a0e926f9c209149",
+        "section:be49b833d37001ac5b86d4da772ecb367bf26525",
+        "section:e96c2c8893d1872f12fd3da623c5f074f0da68bb"
       ]
     },
     {
@@ -1041,25 +1195,47 @@
         "judgement holy strike",
         "paladin two handed"
       ],
-      "text_es": "Reprensión es daño cuerpo a cuerpo con un arma a dos manos: mantén un sello, usa Sentencia y Golpe Sagrado, y añade Consagración contra grupos. Tiene buena resistencia, curación e inmunidades, pero carece de interrupción y de ralentizaciones para enemigos que huyen. Su movilidad es limitada fuera de combate, aunque Búsqueda de justicia ayuda.",
-      "text_en": "Retribution is melee damage with a two-handed weapon: keep a seal, use Judgement and Holy Strike, and add Consecration against groups. It has good durability, healing, and immunities, but lacks an interrupt and slows for fleeing enemies. Its mobility is limited outside combat, although Pursuit of Justice helps.",
+      "text_es": "Reprensión combina daño físico y sagrado con arma a dos manos. Golpe Sagrado es instantáneo; al invertir 31 puntos (nivel 40), Cólera desellada almacena efectos del sello activo y los gasta al cambiar, sin depender del antiguo ritmo de golpes. Mantén Sello de orden, usa Sentencia y Golpe Sagrado y añade Consagración contra grupos. Imposición de manos y Escudo divino ofrecen curación e inmunidad de emergencia; Búsqueda de justicia mejora la movilidad, pero carece de interrupción y ralentización y su daño en área es débil.",
+      "text_en": "Retribution combines physical and Holy damage with a two-handed weapon. Holy Strike is instant; at 31 points (level 40), Unsealed Wrath stores effects from your active Seal and spends them when you switch, without relying on the old swing-timing rhythm. Keep Seal of Command, use Judgement and Holy Strike, and add Consecration against packs. Lay on Hands and Divine Shield provide emergency healing and immunity; Pursuit of Justice improves movement, but the spec lacks an interrupt and a slow and has weak AoE damage.",
       "tags": [
         "PALADIN"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Retribution Paladin Guide › Retribution Paladin Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/retribution-paladin-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Retribution Paladin DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Retribution Paladin DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Guide - WoW: Forever › Retribution Paladin-Specific Systems in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/overview-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Guide - WoW: Forever › Strengths and Weaknesses of Retribution Paladins in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/overview-pve-dps",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Guide - WoW: Forever › Retribution Talent Changes in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/overview-pve-dps",
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:paladin:retribution:overview"
+        "class:paladin:retribution:overview",
+        "class:paladin:retribution:rotation"
       ],
       "source_hashes": [
-        "section:44045ad8642aee734fa4bcdf3a770a4f3a086411"
+        "section:6d50402e17783ba758a9eccee614c9fc0338fc7a",
+        "section:88add09bcfaabe1f747809ea349477490af1a14a",
+        "section:b07086cea79a600fea410483650d49bcc16be54c",
+        "section:b57620293c5e08723d5f9c042e8c86a9cc5a56d9"
       ]
     }
   ]
