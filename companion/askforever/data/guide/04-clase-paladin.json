@@ -2677,6 +2677,598 @@
         "section:7213262a00d4aa76a5786c4c9afe516c45d86f98",
         "section:ffaaa89e6dd1c8566bbc0004f53d9aa449a6ca78"
       ]
+    },
+    {
+      "id": "clase-paladin-build-sagrado-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de subida: Sagrado",
+      "title_en": "Holy Leveling Build",
+      "summary_es": "Reparto completo para Sagrado, con apoyo de Protección y Reprensión.",
+      "summary_en": "Complete Holy build with support talents from Protection and Retribution.",
+      "keywords_es": [
+        "build sagrado para subir",
+        "talentos sagrado paladín leveling",
+        "puntos build santo paladín"
+      ],
+      "keywords_en": [
+        "holy paladin leveling build",
+        "holy leveling talents",
+        "holy paladin talent points"
+      ],
+      "text_es": "Sagrado: Enfoque espiritual 5/5, Luz curativa 3/3, Reverencia 2/2, Favor divino 1/1, Iluminación 5/5, Conducto Sagrado 2/2, Precisión divina 2/2, Infusión de Luz 2/2, Juramento de luz 1/1, Suelo consagrado 2/2, Choque Sagrado 1/1, Luz sin límites 2/2, Poder Sagrado 5/5 y Vigilia de la Luz 1/1. Protección: Intelecto divino 5/5. Reprensión: Oración 5/5, Sentencia mejorada 2/2, Convicción 3/3 y Búsqueda de justicia 2/2. Reverencia mejora el maná; Búsqueda acelera los trayectos, elige según priorices mazmorras o movimiento.",
+      "text_en": "Holy: Spiritual Focus 5/5, Healing Light 3/3, Reverence 2/2, Divine Favor 1/1, Illumination 5/5, Holy Conduit 2/2, Divine Precision 2/2, Infusion of Light 2/2, Oath of Light 1/1, Consecrated Ground 2/2, Holy Shock 1/1, Boundless Light 2/2, Holy Power 5/5, and Light’s Vigil 1/1. Protection: Divine Intellect 5/5. Retribution: Benediction 5/5, Improved Judgement 2/2, Conviction 3/3, and Pursuit of Justice 2/2. Reverence improves mana; Pursuit speeds travel, so choose based on whether you prioritize dungeons or movement.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Paladin Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Holy Paladin DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/healer-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:holy:leveling"
+      ],
+      "source_hashes": [
+        "section:74323ea3e6b3940e8d2ef0a821b3f03420a55786"
+      ]
+    },
+    {
+      "id": "clase-paladin-build-proteccion-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de subida: Protección",
+      "title_en": "Protection Leveling Build",
+      "summary_es": "Reparto completo de tanque con talentos de Reprensión para maná y utilidad.",
+      "summary_en": "Complete tank build with Retribution talents for mana and utility.",
+      "keywords_es": [
+        "build protección paladín para subir",
+        "talentos tanque leveling",
+        "puntos build protección paladín"
+      ],
+      "keywords_en": [
+        "protection paladin leveling build",
+        "tank leveling talents",
+        "protection paladin talent points"
+      ],
+      "text_es": "Protección: Baluarte 5/5, Precisión 3/3, Favor del Guardián 2/2, Deber sagrado 2/2, Baluarte de templario 1/1, Especialización en escudos 2/2, Dureza 3/5, Juicio presto 1/1, Furia justa mejorada 3/3, Escudo Sagrado 1/1, La hora de la verdad 5/5, Credo férreo 3/3 y Juramento de escudo 1/1. Reprensión: Oración 5/5, Sentencia mejorada 2/2, Convicción 3/3, Sentencia santificada 3/3, Reivindicación 3/3, Búsqueda de justicia 2/2 y Enjuiciador Sagrado 1/1. El reparto prioriza Búsqueda de justicia 2/2 y reduce el gasto de maná en grupo.",
+      "text_en": "Protection: Redoubt 5/5, Precision 3/3, Guardian’s Favor 2/2, Sacred Duty 2/2, Templar’s Bulwark 1/1, Shield Specialization 2/2, Toughness 3/5, Swift Judgement 1/1, Improved Righteous Fury 3/3, Holy Shield 1/1, Reckoning 5/5, Iron Creed 3/3, and Shieldsworn 1/1. Retribution: Benediction 5/5, Improved Judgement 2/2, Conviction 3/3, Sanctified Judgement 3/3, Vindication 3/3, Pursuit of Justice 2/2, and Sacred Arbiter 1/1. The build prioritizes Pursuit of Justice 2/2 and reduces group mana costs.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Protection Paladin Tank in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/tank-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:541400db19159956319eb28cb7b4f5c674055e45"
+      ]
+    },
+    {
+      "id": "clase-paladin-build-represion-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de subida: Reprensión",
+      "title_en": "Retribution Leveling Build",
+      "summary_es": "Reparto completo para reducir descansos y adquirir talentos de daño al desbloquearse.",
+      "summary_en": "Complete build to reduce downtime and take damage talents as they unlock.",
+      "keywords_es": [
+        "build reprensión paladín para subir",
+        "talentos reprensión leveling",
+        "puntos build retribution paladin"
+      ],
+      "keywords_en": [
+        "retribution paladin leveling build",
+        "retribution leveling talents",
+        "retribution paladin talent points"
+      ],
+      "text_es": "Sagrado: Fuerza divina 5/5, Sellos mejorados 5/5 y Conducto Sagrado 2/2. Protección: Intelecto divino 5/5 y Precisión 3/3. Reprensión: Oración 5/5, Sentencia mejorada 2/2, Convicción 3/3, Sentencia santificada 3/3, Fe implacable 1/2, Sello de orden 1/1, Búsqueda de justicia 2/2, Enjuiciador Sagrado 1/1, Especialización en armas de dos manos 3/3, Arrepentimiento 1/1, Venganza 3/3, Campeón de la Luz 5/5 y Cólera desellada 1/1. Oración ahorra maná, Búsqueda acelera el viaje y Sello de orden aporta daño explosivo.",
+      "text_en": "Holy: Divine Strength 5/5, Improved Seals 5/5, and Holy Conduit 2/2. Protection: Divine Intellect 5/5 and Precision 3/3. Retribution: Benediction 5/5, Improved Judgement 2/2, Conviction 3/3, Sanctified Judgement 3/3, Unyielding Faith 1/2, Seal of Command 1/1, Pursuit of Justice 2/2, Sacred Arbiter 1/1, Two-Handed Weapon Specialization 3/3, Repentance 1/1, Vengeance 3/3, Champion of the Light 5/5, and Unsealed Wrath 1/1. Benediction saves mana, Pursuit speeds travel, and Seal of Command adds burst.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as a Retribution Paladin DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "section:12d6be15e99636475ab49fc55652edcc12c7417a"
+      ]
+    },
+    {
+      "id": "clase-paladin-talentos-sagrado-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de talentos Sagrado",
+      "title_en": "Holy Leveling Talent Path",
+      "summary_es": "Puedes priorizar la regeneración de maná o la velocidad de movimiento al comenzar.",
+      "summary_en": "Choose mana regeneration or movement speed as your early priority.",
+      "keywords_es": [
+        "ruta talentos sagrado paladín subir",
+        "reverencia o búsqueda de justicia",
+        "talentos sagrado mazmorras"
+      ],
+      "keywords_en": [
+        "holy paladin leveling talent path",
+        "reverence or pursuit of justice",
+        "holy dungeon talents"
+      ],
+      "text_es": "Los primeros puntos admiten dos órdenes que llegan al mismo reparto: Reverencia 2/2 primero mejora la regeneración de maná al curar mazmorras; Búsqueda de justicia 2/2 primero facilita recorrer el mundo. Elige según priorices sanar grupos o moverte más rápido.",
+      "text_en": "Early points allow two orders that reach the same build: taking Reverence 2/2 first improves mana regeneration while healing dungeons; taking Pursuit of Justice 2/2 first makes travel easier. Choose based on whether you prioritize group healing or faster movement.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Paladin Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Holy Paladin DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/healer-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:holy:leveling"
+      ],
+      "source_hashes": [
+        "section:74323ea3e6b3940e8d2ef0a821b3f03420a55786"
+      ]
+    },
+    {
+      "id": "clase-paladin-talentos-proteccion-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de talentos Protección",
+      "title_en": "Protection Leveling Talent Path",
+      "summary_es": "Prioriza movilidad y maná, y sopesa defensa y regeneración según los enemigos.",
+      "summary_en": "Prioritize movement and mana, balancing defense and regeneration by encounter.",
+      "keywords_es": [
+        "ruta talentos protección paladín",
+        "búsqueda de justicia nivel 21",
+        "escudo sagrado protección leveo"
+      ],
+      "keywords_en": [
+        "protection paladin talent path",
+        "pursuit of justice level 21",
+        "holy shield leveling protection"
+      ],
+      "text_es": "Al principio, enfoca Reprensión en Búsqueda de justicia 2/2, que completas al nivel 21. Oración 5/5 suele convenir en grupos porque reduce el gasto de maná. Si quieres tanquear mazmorras, redistribuye a nivel 30 para tomar Escudo Sagrado 1/1, a cambio de subir más despacio. Sentencia santificada 3/3 devuelve maná contra un objetivo; Especialización en escudos 2/2 rinde más frente a varios. Después de elegir Juramento de escudo 1/1, usa Escudo Sagrado antes de Golpe Sagrado.",
+      "text_en": "Start the Retribution branch with Pursuit of Justice 2/2; finish it by level 21. Benediction 5/5 is usually better in groups because it reduces mana costs. For more dungeon tanking, respec at level 30 to take Holy Shield 1/1, accepting slower leveling. Sanctified Judgement 3/3 returns mana against one target; Shield Specialization 2/2 helps more against packs. After taking Shieldsworn 1/1, use Holy Shield before Holy Strike.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Protection Paladin Tank in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/tank-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:541400db19159956319eb28cb7b4f5c674055e45"
+      ]
+    },
+    {
+      "id": "clase-paladin-habilidades-sagrado-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades para entrenar: Sagrado",
+      "title_en": "Holy Abilities to Train",
+      "summary_es": "Aprende las habilidades esenciales y ahorra oro con las opciones de estilo.",
+      "summary_en": "Train core spells and save gold on playstyle-dependent options.",
+      "keywords_es": [
+        "habilidades sagrado paladín entrenar",
+        "qué hechizos subir sagrado",
+        "habilidades opcionales paladín santo"
+      ],
+      "keywords_en": [
+        "holy paladin abilities to train",
+        "which holy spells to train",
+        "optional holy paladin spells"
+      ],
+      "text_es": "Aprende el núcleo al desbloquearlo: Sentencia a nivel 4 (rango 1); Aura de castigo a 16; Consagración y Destello de Luz a 20; Sello de luz a 30. Para ahorrar oro, deja para después Sello de furia (10) y Furia justa (16), útiles como apoyo, y Sello de justicia (22) o Ahuyentar a no-muerto (24), de uso situacional; todos son de rango 1.",
+      "text_en": "Train the core as it unlocks: learn Judgement at level 4 (rank 1); add Retribution Aura at 16; train Consecration and Flash of Light at 20; take Seal of Light at 30. To save gold, delay Seal of Fury (10) and Righteous Fury (16) as utility, and Seal of Justice (22) or Turn Undead (24) as situational picks; each is rank 1.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Paladin Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Holy Paladin",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/healer-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Paladin Leveling Guide - WoW: Forever › Optional Abilities to Train for Holy Paladin",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/healer-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:holy:leveling"
+      ],
+      "source_hashes": [
+        "section:1e41acc97d7aa841820103f515312b147446d28a",
+        "section:c993c87971cbcc8aa7f078530bf938d3262baccb"
+      ]
+    },
+    {
+      "id": "clase-paladin-habilidades-proteccion-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades para entrenar: Protección",
+      "title_en": "Protection Abilities to Train",
+      "summary_es": "Prioriza las habilidades de tanque y omite auras situacionales para ahorrar.",
+      "summary_en": "Train core tank abilities and skip situational auras to save gold.",
+      "keywords_es": [
+        "habilidades protección paladín entrenar",
+        "rangos golpes protección",
+        "auras opcionales tanque paladín"
+      ],
+      "keywords_en": [
+        "protection paladin abilities to train",
+        "protection spell ranks",
+        "optional tank auras"
+      ],
+      "text_es": "Aprende Sentencia a nivel 4 (rango 1), Golpe Sagrado desde el 6 (rangos 1–8), Sello de furia desde el 10 (1–7) y Aura de castigo desde el 16 (1–5); añade Consagración desde el 20 (1–5). Para ahorrar, puedes saltarte Sello de justicia a 22 (1) y las auras de resistencia: Sombras desde 28, Escarcha desde 32 y Fuego desde 36, todas hasta rango 3.",
+      "text_en": "Train Judgement at level 4 (rank 1), Holy Strike from 6 (ranks 1–8), Seal of Fury from 10 (1–7), and Retribution Aura from 16 (1–5); add Consecration from 20 (1–5). To save gold, skip Seal of Justice at 22 (1) and the resistance auras: Shadow from 28, Frost from 32, and Fire from 36, each through rank 3.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Protection Paladin",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/tank-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Leveling Guide - WoW: Forever › Optional Abilities to Train for Protection Paladin",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/tank-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:39d3e735dd6af006f32b775ff1cab1a19120c837",
+        "section:e659a0e09cc118fc03fdd0c794cd135de02705d2"
+      ]
+    },
+    {
+      "id": "clase-paladin-habilidades-represion-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades obligatorias: Reprensión",
+      "title_en": "Retribution Mandatory Abilities",
+      "summary_es": "Entrena los hechizos básicos y cada rango nuevo, salvo Sentencia.",
+      "summary_en": "Train core spells and each new rank, except Judgement.",
+      "keywords_es": [
+        "habilidades obligatorias reprensión",
+        "qué entrenar paladín retribution",
+        "rangos hechizos reprensión"
+      ],
+      "keywords_en": [
+        "retribution mandatory abilities",
+        "what to train retribution paladin",
+        "retribution spell ranks"
+      ],
+      "text_es": "Nivel 1: Sello de rectitud (todos los rangos hasta 20 y otra vez con Cólera desellada) y Luz Sagrada. Nivel 4: Bendición del poderío y Sentencia; 6: Golpe Sagrado y Sello del Cruzado; 8: Martillo de justicia; 16: Aura de castigo; 18: Bendición de Libertad. Nivel 20: Consagración, Sello de orden, Destello de Luz y Exorcismo contra demonios o no-muertos; 34: Escudo divino; 42: Purgación; 44: Martillo de cólera. Entrena todos los rangos nuevos salvo Sentencia.",
+      "text_en": "Level 1: Seal of Righteousness (all ranks through 20, then again with Unsealed Wrath) and Holy Light. Level 4: Blessing of Might and Judgement; 6: Holy Strike and Seal of the Crusader; 8: Hammer of Justice; 16: Retribution Aura; 18: Blessing of Freedom. Level 20: Consecration, Seal of Command, Flash of Light, and Exorcism against Demons or Undead; 34: Divine Shield; 42: Cleanse; 44: Hammer of Wrath. Train every new rank except Judgement.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Retribution Paladin",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "section:b762ccab74541fa9e2c228783a54c000d64e0dbe"
+      ]
+    },
+    {
+      "id": "clase-paladin-habilidades-represion-opcionales",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades opcionales: Reprensión",
+      "title_en": "Retribution Optional Abilities",
+      "summary_es": "Ahorra oro omitiendo hechizos poco útiles salvo que elijas tanqueo o JcJ.",
+      "summary_en": "Save gold by skipping low-value spells unless tanking or choosing PvP.",
+      "keywords_es": [
+        "habilidades opcionales reprensión",
+        "hechizos saltar paladín",
+        "sello de furia tanque paladín"
+      ],
+      "keywords_en": [
+        "retribution optional abilities",
+        "paladin spells to skip",
+        "seal of fury paladin tank"
+      ],
+      "text_es": "Para ahorrar, omite Sello de justicia (22), Aura de concentración (22), Ahuyentar a no-muerto (24) y Cólera sagrada (50). Aprende solo el primer rango de Aura de devoción (1) e Imposición de manos (10); compra Sello de furia (10) solo si tanqueas. Bendición de Sacrificio (46) puede omitirse; en JcJ, su primer rango ayuda a romper control.",
+      "text_en": "To save gold, skip Seal of Justice (22), Concentration Aura (22), Turn Undead (24), and Holy Wrath (50). Learn only the first rank of Devotion Aura (1) and Lay on Hands (10); train Seal of Fury (10) only if tanking. Blessing of Sacrifice (46) can be skipped; in PvP, its first rank can break crowd control.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Optional Abilities to Train for Retribution Paladin",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "section:726235c29476e7b3bfea6f425964453cef449819"
+      ]
+    },
+    {
+      "id": "clase-paladin-consumibles-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consumibles para subir de nivel",
+      "title_en": "Leveling Consumables",
+      "summary_es": "Comida con experiencia y pociones reducen descansos; usa mejoras de arma para más daño.",
+      "summary_en": "Bonus-XP food and potions reduce downtime; use weapon buffs for damage.",
+      "keywords_es": [
+        "consumibles paladín subir",
+        "comida experiencia paladín",
+        "pociones de maná aceite escarchado"
+      ],
+      "keywords_en": [
+        "paladin leveling consumables",
+        "bonus xp food paladin",
+        "mana potions frost oil paladin"
+      ],
+      "text_es": "La comida con bonificación de experiencia es prioritaria: en Protección otorga 5% extra por cada enemigo muerto. Lleva pociones de maná y curación; Primeros auxilios permite crear las de curación. Reprensión gana daño con Aceite escarchado o aceite de poder con hechizos; las pociones ofensivas ayudan, y el poder con hechizos favorece el área. Sagrado puede usar Encantar arma: revelación y Encantar botas: velocidad menor.",
+      "text_en": "Bonus-XP food is a priority: Protection gets 5% extra experience per enemy killed. Carry mana and healing potions; First Aid lets you make healing potions. Retribution gains damage from Frost Oil or spell-power weapon oil; offensive potions help, and spell power favors AoE. Holy can use Enchant Weapon: Revelation and Enchant Boots: Minor Speed.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Paladin Leveling Guide - WoW: Forever › Best Leveling Consumables for Holy Paladin DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/healer-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Leveling Guide - WoW: Forever › Best Leveling Consumables for Protection Paladin Tank in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/tank-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Best Leveling Consumables for Retribution Paladin DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:holy:leveling",
+        "class:paladin:protection:leveling",
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "section:01abc7575493d2ab37e12e95adee3292f8c96e60",
+        "section:61bc6b094e02f6ebe9df72c6b5c990c72e700a2d",
+        "section:daf53d25b584d73af12ac456c5a171a70a224d88"
+      ]
+    },
+    {
+      "id": "clase-paladin-campamentos-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Beneficios de campamento para Paladín",
+      "title_en": "Paladin Camping Buffs",
+      "summary_es": "Combina atributos de campamento con el rol y evita duplicar beneficios de clase.",
+      "summary_en": "Match camp stats to your role and avoid duplicating class buffs.",
+      "keywords_es": [
+        "beneficios campamento paladín",
+        "camp buffs paladín",
+        "magnetita rueda afilar paladín"
+      ],
+      "keywords_en": [
+        "paladin camping buffs",
+        "paladin camp professions",
+        "lodestone sharpening wheel paladin"
+      ],
+      "text_es": "Los beneficios de campamento duran 1 h y no se acumulan con el beneficio de clase equivalente: alterna la bendición. Rueda de afilar (Fuerza) y Magnetita (poder de ataque) apoyan Golpe Sagrado; la Silla de campamento da 2% de crítico y favorece Venganza. Para maná, Pozo de maná y Vela de incienso aportan regeneración o Intelecto; Intelecto también mejora Campeón de la Luz. Desde 22–25, Tienda de campamento gana valor; Cuenco con pescado da 8% a atributos como alternativa a Reyes si usas Poderío.",
+      "text_en": "Camp buffs last 1 hour and do not stack with the matching class buff, so rotate blessings. Sharpening Wheel (Strength) and Lodestone (attack power) support Holy Strike; Camp Chair grants 2% crit and benefits Vengeance. For mana, Mana Well and Incense Candle add regeneration or Intellect; Intellect also boosts Champion of the Light. From 22–25, Camp Tent becomes more valuable; Fish Bowl gives 8% to stats as an alternative to Kings when using Might.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Paladin Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Holy Paladin DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/healer-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Protection Paladin Tank in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/tank-leveling-tips",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Retribution Paladin DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:holy:leveling",
+        "class:paladin:protection:leveling",
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "section:8cb50821da6a6b7a8e504fe3bb361fef3280fc9b",
+        "section:9537a5b7b35f8086d006c9e9137102d51f2b65d4",
+        "section:9c6ee4f1cf3d047d42a5559759b3e33ebb1ac38c"
+      ]
+    },
+    {
+      "id": "clase-paladin-legado-sagrado-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Puntos de legado: Sagrado",
+      "title_en": "Legacy Points: Holy",
+      "summary_es": "Prioriza la ventaja de experiencia descansada para acelerar la subida.",
+      "summary_en": "Prioritize the rested-experience perk to speed up leveling.",
+      "keywords_es": [
+        "puntos legado paladín sagrado",
+        "experiencia descansada holy",
+        "legado sagrado subir"
+      ],
+      "keywords_en": [
+        "holy paladin legacy points",
+        "holy rested experience perk",
+        "holy leveling legacy"
+      ],
+      "text_es": "Si dispones de puntos de legado, elige pronto Bien descansado: aumenta la experiencia descansada acumulada y ayuda a avanzar durante una subida larga.",
+      "text_en": "If you have Legacy Points, choose Well Rested early: it increases accumulated rested experience and helps through a long leveling journey.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Paladin Leveling Guide - WoW: Forever › Best use of Legacy Points for Holy Paladin DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/healer-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:holy:leveling"
+      ],
+      "source_hashes": [
+        "section:dec636c49bb3c328e7fe6427b673137ddf173d45"
+      ]
+    },
+    {
+      "id": "clase-paladin-legado-proteccion-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Puntos de legado: Protección",
+      "title_en": "Legacy Points: Protection",
+      "summary_es": "Distribuye los puntos según cuántos tengas para curarte, ganar experiencia y extender comida.",
+      "summary_en": "Spend points by budget on recovery, experience, and longer food buffs.",
+      "keywords_es": [
+        "puntos legado paladín protección",
+        "legado protección experiencia",
+        "puntos talento protección legado"
+      ],
+      "keywords_en": [
+        "protection paladin legacy points",
+        "protection legacy experience",
+        "protection legacy talent points"
+      ],
+      "text_es": "Para un personaje secundario, con 1–5 puntos elige la ventaja que restaura 1% de salud y maná durante 10 s al matar un enemigo no trivial; no funciona en mazmorras, bandas o campos de batalla. Con 5–10 puntos suma experiencia descansada (+4% de acumulación y límite) y gana talentos desde nivel 9 en vez de 10, hasta 51 puntos totales; con 10–15 añade también la restauración. El punto final alarga 33% la comida para conservar su 5% de experiencia.",
+      "text_en": "For an alternate character, with 1–5 points choose the perk that restores 1% health and mana over 10 seconds after killing a non-trivial enemy; it does not work in dungeons, raids, or battlegrounds. With 5–10 points, add rested experience (+4% accumulation and cap) and gain talents from level 9 instead of 10, up to 51 total points; with 10–15, add the recovery perk too. The final point extends food by 33% to retain its 5% experience bonus.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Leveling Guide - WoW: Forever › Best use of Legacy Points for Protection Paladin Tank in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/tank-leveling-tips",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:protection:leveling"
+      ],
+      "source_hashes": [
+        "section:e04ebf637bbd05d97200a474fc43efcb95764d98"
+      ]
+    },
+    {
+      "id": "clase-paladin-legado-represion-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Puntos de legado: Reprensión",
+      "title_en": "Legacy Points: Retribution",
+      "summary_es": "Reduce descansos con recuperación en mundo abierto y adelanta puntos de talento.",
+      "summary_en": "Reduce downtime with open-world recovery and earlier talent points.",
+      "keywords_es": [
+        "puntos legado paladín reprensión",
+        "legado reprensión experiencia",
+        "talentos temprano paladín legado"
+      ],
+      "keywords_en": [
+        "retribution paladin legacy points",
+        "retribution legacy leveling",
+        "early talent points legacy"
+      ],
+      "text_es": "Los puntos de legado se gastan por personaje y hay un máximo de 16 al lanzamiento. Primero, usa hasta 5 rangos de la ventaja que restaura 5% de salud y maná durante 10 s al matar enemigos que dan experiencia en mundo abierto. Después invierte 5 puntos en experiencia descansada y otros 5 para obtener talentos desde nivel 5 en vez de 10; el último punto puede mejorar las rutas de vuelo. A nivel 60, redistribuye los puntos del talento de nivelación.",
+      "text_en": "Legacy Points are spent per character, with a launch cap of 16. First, use up to 5 ranks of the perk that restores 5% health and mana over 10 seconds after killing an XP-granting open-world enemy. Then spend 5 points on rested experience and 5 more to gain talents from level 5 instead of 10; the last point can improve flight paths. At level 60, respec the leveling perk.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Best use of Legacy Points for Retribution Paladin DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:retribution:leveling"
+      ],
+      "source_hashes": [
+        "section:c363d5818d9bb2d253cf3fad9d2d014ec472dbf3"
+      ]
     }
   ]
 }
