@@ -2232,6 +2232,639 @@
       "source_hashes": [
         "section:b04814265e62c3c471f3112b9303b702be8a6fec"
       ]
+    },
+    {
+      "id": "clase-priest-pros-leveo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ventajas y límites del Sacerdote al subir",
+      "title_en": "Priest Leveling Strengths and Limits",
+      "summary_es": "El Sacerdote cura desde el inicio y aporta daño y sanación al grupo, pero su movilidad y maná limitan el leveo.",
+      "summary_en": "Priests can heal early and contribute damage or healing in groups, but mobility and mana can limit leveling.",
+      "keywords_es": [
+        "ventajas sacerdote leveo",
+        "desventajas sacerdote",
+        "sacerdote movilidad",
+        "sacerdote maná al subir"
+      ],
+      "keywords_en": [
+        "priest leveling pros",
+        "priest leveling cons",
+        "priest mobility",
+        "priest mana leveling"
+      ],
+      "text_es": "El Sacerdote dispone de curas desde el nivel 1 y puede alternar entre daño y sanación en mazmorras; la varita sostiene el daño inicial sin gastar maná. Disciplina combina supervivencia con buen daño para un sanador, y Sombra puede afrontar varios enemigos con efectos periódicos. Al subir, la movilidad escasea y el maná limita los lanzamientos; Sombra no tiene daño en área tradicional y las especializaciones de sanación matan más despacio en solitario.",
+      "text_en": "Priests have healing spells from level 1 and can switch between damage and healing in dungeons; a wand sustains early damage without mana. Discipline combines survivability with good damage for a healer, while Shadow can handle several enemies with damage-over-time effects. Leveling is limited by low mobility and mana; Shadow has no traditional AoE, and the healing specializations kill more slowly solo.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Leveling as a Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Leveling Viability for Discipline Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest Leveling Guide - WoW: Forever › Pros",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips",
+          "date": "2026-11-08"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest Leveling Guide - WoW: Forever › Cons",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips",
+          "date": "2026-11-08"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:discipline:leveling",
+        "class:priest:holy:leveling",
+        "class:priest:shadow:leveling"
+      ],
+      "source_hashes": [
+        "section:271b8ebab7ef6dd1b579aa69fc6b3e87ab9681a8",
+        "section:703e651fcf0881d07e4fa202c924f037bb76638f",
+        "section:e03e7d2d0c3f83e40d017c7743eebeca568571a4",
+        "section:e4e93c108ebf5c1b6d88b7b2fca5e41c1212a9cc"
+      ]
+    },
+    {
+      "id": "clase-priest-talentos-disciplina-leveo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de talentos de Disciplina",
+      "title_en": "Discipline Leveling Talent Path",
+      "summary_es": "Empieza con varita y regeneración de maná; después de Penitencia, añade talentos Sagrados para lanzar hechizos.",
+      "summary_en": "Start with wand damage and mana regeneration; after Penance, add Holy talents to shift toward casting.",
+      "keywords_es": [
+        "talentos disciplina subir",
+        "especialización en varitas",
+        "penitencia talentos",
+        "furia divina sacerdote"
+      ],
+      "keywords_en": [
+        "discipline leveling talents",
+        "wand specialization",
+        "penance talents",
+        "divine fury priest"
+      ],
+      "text_es": "Disciplina: Poder en la Luz 5/5, Especialización en varitas 2/2, Precisión Sagrada 1/3, Fuerza mental 5/5, Agilidad mental 3/3, Enfoque interno 1/1, Poder de la palabra mejorado: escudo 3/3 (Palabra de poder: escudo), Meditación 3/3, Fuego interno mejorado 3/3, Amparo de alma 1/1 y Penitencia 1/1. Sagrado: Enfoque crepuscular 3/3, Especialización Sagrada 5/5, Furia divina 5/5, Nova Sagrada 1/1, Recuperación bendita 1/3, Alcance Sagrado 1/2 y Luz abrasadora 2/2. Sombra: Transfusión de espíritu 5/5. Empieza con varita; Meditación sostiene el maná y Penitencia abre la fase de lanzar hechizos.",
+      "text_en": "Discipline: Power in Light 5/5, Wand Specialization 2/2, Holy Precision 1/3, Mental Strength 5/5, Mental Agility 3/3, Inner Focus 1/1, Improved Power Word: Shield 3/3 (Power Word: Shield), Meditation 3/3, Improved Inner Fire 3/3, Soul Warding 1/1, and Penance 1/1. Holy: Twilight Focus 3/3, Holy Specialization 5/5, Divine Fury 5/5, Holy Nova 1/1, Blessed Recovery 1/3, Holy Reach 1/2, and Searing Light 2/2. Shadow: Spirit Tap 5/5. Start with wanding; Meditation supports mana, and Penance opens the casting phase.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Discipline Priest in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Open World Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:discipline:leveling"
+      ],
+      "source_hashes": [
+        "section:943a7e5d8a7092c71a66f6640c2b7b1c892beb71",
+        "section:d1bd6a6912195f57c946093438b21017992da3e8"
+      ]
+    },
+    {
+      "id": "clase-priest-talentos-sagrado-leveo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de talentos de Sagrado",
+      "title_en": "Holy Leveling Talent Path",
+      "summary_es": "Para misiones, toma Especialización en varitas 2/2; para sanar mazmorras, puedes omitirla.",
+      "summary_en": "For questing, take Wand Specialization 2/2; for dungeon healing, you can skip it.",
+      "keywords_es": [
+        "talentos sagrado leveo",
+        "especialización en varitas sagrado",
+        "renovar mejorado",
+        "rezo de alivio talento"
+      ],
+      "keywords_en": [
+        "holy leveling talents",
+        "wand specialization holy",
+        "improved renew",
+        "prayer of mending talent"
+      ],
+      "text_es": "Si subes en solitario, toma primero Especialización en varitas 2/2: aporta mucho daño mientras la varita sea tu fuente principal; si curas mazmorras la mayor parte del tiempo, puedes omitirla. En Sagrado, prioriza Renovar mejorado 3/3, Especialización Sagrada 5/5 y Furia divina 5/5; después añade Nova Sagrada 1/1 y Vinculación sagrada 1/1. Rezo de alivio 1/1 es el último talento del árbol y llega a comienzos de los cuarenta; luego puedes invertir en Disciplina con Enfoque interno 1/1 y Meditación 3/3. Esta ruta pura puede llegar a 60 sin cambiar talentos.",
+      "text_en": "If you level solo, take Wand Specialization 2/2 first: it adds substantial damage while the wand is your main source; if you heal dungeons most of the time, you can skip it. In Holy, prioritize Improved Renew 3/3, Holy Specialization 5/5, and Divine Fury 5/5; then add Holy Nova 1/1 and Holy Binding 1/1. Prayer of Mending 1/1 is the tree’s final talent and arrives in the early forties; afterward, you can invest in Discipline with Inner Focus 1/1 and Meditation 3/3. This pure route can reach 60 without respeccing.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Holy Priest in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:holy:leveling"
+      ],
+      "source_hashes": [
+        "section:80fac1ee8913cfea611101363504eaa195f7b81f"
+      ]
+    },
+    {
+      "id": "clase-priest-ruta-sombra-disciplina-40",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ruta de Disciplina a Sombra a nivel 40",
+      "title_en": "Discipline-to-Shadow Route at 40",
+      "summary_es": "Empezar en Disciplina con Meditación suaviza el maná inicial; cambiar a Sombra a 40 adelanta Forma de las Sombras.",
+      "summary_en": "Starting Discipline with Meditation eases early mana; switching to Shadow at 40 gets Shadowform sooner.",
+      "keywords_es": [
+        "disciplina a sombra nivel 40",
+        "cambiar talentos sacerdote",
+        "meditación antes de sombra",
+        "forma de las sombras leveo"
+      ],
+      "keywords_en": [
+        "discipline to shadow level 40",
+        "priest respec leveling",
+        "meditation before shadow",
+        "shadowform leveling"
+      ],
+      "text_es": "Si el maná y las pausas te frenan antes del 40, puedes empezar en Disciplina y tomar Meditación 3/3; después cambia a Sombra al 40 para acceder a Forma de las Sombras. La ruta de Sombra sin cambio de talentos llega a 60, pero Especialización en varitas 2/2 retrasa Forma de las Sombras dos niveles. Elige el cambio si priorizas daño y supervivencia cuanto antes; conserva la ruta sin cambio si prefieres evitar el coste de reasignar talentos.",
+      "text_en": "If mana and drinking breaks slow you before 40, you can start in Discipline and take Meditation 3/3, then switch to Shadow at 40 to access Shadowform. With no reset, a Shadow build reaches 60, but Wand Specialization 2/2 delays Shadowform by two levels. Choose the reset to gain damage and survivability sooner; keep the no-reset route if you prefer to avoid the respec cost.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest Leveling Guide - WoW: Forever › Leveling Viability for Shadow Priest DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips",
+          "date": "2026-11-08"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Shadow Priest DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips",
+          "date": "2026-11-08"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:shadow:leveling"
+      ],
+      "source_hashes": [
+        "section:6c47394a8cc686fb35961e93a0ed6afb061861b7",
+        "section:9c4f8a9f677581b514a13e7ed5614bdaa6d16c20"
+      ]
+    },
+    {
+      "id": "clase-priest-rotacion-disciplina-solo-1-40",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Disciplina en solitario: niveles 1-40",
+      "title_en": "Discipline Solo Rotation: Levels 1-40",
+      "summary_es": "Hasta cerca del 40, la varita hace la mayor parte del trabajo; usa Penitencia desde 30 o Dolor para marcar deprisa.",
+      "summary_en": "Until around 40, the wand does most of the work; use Penance from 30 or Pain for a quick tag.",
+      "keywords_es": [
+        "rotación disciplina solo",
+        "disciplina niveles 1 40",
+        "penitencia leveo",
+        "varita sacerdote solo"
+      ],
+      "keywords_en": [
+        "discipline solo rotation",
+        "discipline levels 1 40",
+        "penance leveling",
+        "priest wand solo"
+      ],
+      "text_es": "Antes del combate, mantén Palabra de poder: entereza y Fuego interno, y usa Palabra de poder: escudo. Hasta cerca del 40, la varita aporta la mayor parte del daño; desde 30, abre con Penitencia si no compites por el objetivo, o usa Palabra de las Sombras: Dolor para marcarlo rápido si hay otros jugadores. Ataca con la varita hasta derrotarlo, renueva Dolor si aún tiene mucha salud y usa Renovar si te falta vida. Repón maná cada uno o dos enemigos.",
+      "text_en": "Before combat, keep Power Word: Fortitude and Inner Fire active, and cast Power Word: Shield. Until around 40, the wand supplies most of your damage; from 30, open with Penance if the target is uncontested, or use Shadow Word: Pain for a quick tag when other players are present. Wand until the enemy dies, refresh Pain if it still has substantial health, and use Renew if you are low. Refill mana every one or two enemies.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Open World Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:discipline:leveling"
+      ],
+      "source_hashes": [
+        "section:d1bd6a6912195f57c946093438b21017992da3e8"
+      ]
+    },
+    {
+      "id": "clase-priest-rotacion-disciplina-solo-41-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Disciplina en solitario: niveles 41-60",
+      "title_en": "Discipline Solo Rotation: Levels 41-60",
+      "summary_es": "Desde cerca del 41, combina Fuego Sagrado, Penitencia y Acometida; usa Dolor para marcar objetivos disputados.",
+      "summary_en": "From around 41, combine Holy Fire, Penance, and Smite; use Pain to tag contested targets.",
+      "keywords_es": [
+        "rotación disciplina 41",
+        "disciplina leveo avanzado",
+        "fuego sagrado penitencia",
+        "acometida sacerdote"
+      ],
+      "keywords_en": [
+        "discipline rotation 41",
+        "discipline leveling late",
+        "holy fire penance",
+        "smite priest"
+      ],
+      "text_es": "Mantén Palabra de poder: entereza, Espíritu divino y Fuego interno; antes del pull usa Palabra de poder: escudo. Desde cerca del 41, abre con Fuego Sagrado y Penitencia si el objetivo está libre; si hay competencia, marca con Palabra de las Sombras: Dolor. Lanza Acometida mientras Penitencia se recarga y renueva Fuego Sagrado cuando termina su daño periódico; omite el ciclo si el enemigo está a punto de caer. Usa Renovar si te falta salud; según el equipo, la varita aún puede competir durante un tramo.",
+      "text_en": "Keep Power Word: Fortitude, Divine Spirit, and Inner Fire active; cast Power Word: Shield before the pull. From around 41, open with Holy Fire and Penance if the target is uncontested; if others are competing, tag it with Shadow Word: Pain. Cast Smite while Penance recharges and refresh Holy Fire when its damage-over-time ends; skip the cycle if the enemy is nearly dead. Use Renew if you are low; depending on gear, the wand may still remain competitive for a while.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Open World Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:discipline:leveling"
+      ],
+      "source_hashes": [
+        "section:d1bd6a6912195f57c946093438b21017992da3e8"
+      ]
+    },
+    {
+      "id": "clase-priest-rotacion-sagrado-solo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Sagrado en solitario",
+      "title_en": "Holy Solo Rotation",
+      "summary_es": "Abre con Explosión mental o Fuego Sagrado desde 20, aplica Dolor y termina con la varita.",
+      "summary_en": "Open with Mind Blast or Holy Fire from 20, apply Pain, and finish with the wand.",
+      "keywords_es": [
+        "rotación sagrado solo",
+        "levear sacerdote sagrado",
+        "explosión mental sacerdote",
+        "fuego sagrado nivel 20"
+      ],
+      "keywords_en": [
+        "holy solo rotation",
+        "level holy priest",
+        "mind blast priest",
+        "holy fire level 20"
+      ],
+      "text_es": "Mantén Palabra de poder: entereza y Fuego interno, y usa Palabra de poder: escudo antes del pull. Abre con Explosión mental, o con Fuego Sagrado desde 20; aplica Palabra de las Sombras: Dolor y lanza Acometida si al enemigo todavía le queda mucha salud. Termina con la varita y repite Explosión mental cuando esté disponible si el combate se alarga; usa Renovar si recibes golpes. Contra un enemigo débil que cae con pocos ataques de varita, puedes omitir Dolor para no retrasar la regeneración de maná.",
+      "text_en": "Keep Power Word: Fortitude and Inner Fire active, and cast Power Word: Shield before the pull. Open with Mind Blast, or with Holy Fire from 20; apply Shadow Word: Pain and cast Smite if the enemy still has substantial health. Finish with the wand and recast Mind Blast when available if the fight lasts; use Renew if you take hits. Against a weak enemy that dies to a few wand attacks, skip Pain so you do not delay mana regeneration.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Leveling Rotation for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:holy:leveling"
+      ],
+      "source_hashes": [
+        "section:00ee99ee77ac0b309d4dc67c1fe2d57abbb22c3f"
+      ]
+    },
+    {
+      "id": "clase-priest-entrenar-hechizos",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Qué rangos de hechizos entrenar",
+      "title_en": "Which Spell Ranks to Train",
+      "summary_es": "Con poco oro, prioriza curas y defensas de uso frecuente; puedes retrasar utilidades y algunos rangos de daño.",
+      "summary_en": "With little gold, prioritize frequent heals and defenses; utility and some damage ranks can wait.",
+      "keywords_es": [
+        "entrenar rangos sacerdote",
+        "hechizos obligatorios sacerdote",
+        "rangos curas y daño",
+        "ahorrar oro entrenador"
+      ],
+      "keywords_en": [
+        "priest spell ranks",
+        "mandatory priest spells",
+        "healing and damage ranks",
+        "save gold trainer"
+      ],
+      "text_es": "Con poco oro, prioriza rangos recientes de curas y defensas; Sombra debe mantener al día sus hechizos de daño. Sagrado también usa Palabra de las Sombras: Dolor y Explosión mental en misiones en solitario; actualiza sus curas si sanas mazmorras. Disciplina entrena todos los rangos de Renovar, Palabra de poder: escudo, Palabra de las Sombras: Dolor, Peste devoradora, Fuego Sagrado y Acometida, aunque puede saltarse algunos de estos dos últimos mientras la varita sea más eficaz, hasta cerca de 40. Los rangos altos hacen más daño y cuestan más maná; retrasa utilidades si falta oro.",
+      "text_en": "With little gold, prioritize current ranks of rotational heals and defenses; Shadow should keep its damage spells current. Holy also uses Shadow Word: Pain and Mind Blast for solo questing; update healing ranks if you heal dungeons. Discipline trains all ranks of Renew, Power Word: Shield, Shadow Word: Pain, Devouring Plague, Holy Fire, and Smite, but can skip some of the last two while the wand is more effective, until around 40. Higher ranks deal more damage but cost more mana; delay utility spells if gold is tight.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Best Abilities to Train for Discipline Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Discipline Priest",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Best Abilities to Train for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest Leveling Guide - WoW: Forever › Best Abilities to Train for Shadow Priest DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips",
+          "date": "2026-11-08"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:discipline:leveling",
+        "class:priest:holy:leveling",
+        "class:priest:shadow:leveling"
+      ],
+      "source_hashes": [
+        "section:628b2e1e68dbaa8e9b35135f3b30906598527a79",
+        "section:6a0ae65cee81c24ec47cc141bc290e8a6f8a07ee",
+        "section:9e9442a5fbb345fbe5ff6e817a113d7444aaa85c",
+        "section:d05a5ef314c97953d17cd27ca13f6d3643053f55"
+      ]
+    },
+    {
+      "id": "clase-priest-profesiones-leveo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Profesiones recomendadas para subir",
+      "title_en": "Recommended Leveling Professions",
+      "summary_es": "Costura mejora el equipo de tela y Encantamiento fabrica varitas; hay alternativas para consumibles y oro.",
+      "summary_en": "Tailoring improves cloth gear and Enchanting crafts wands; alternatives support consumables and gold.",
+      "keywords_es": [
+        "profesiones sacerdote leveo",
+        "costura y encantamiento",
+        "alquimia sacerdote",
+        "primeros auxilios sacerdote"
+      ],
+      "keywords_en": [
+        "priest leveling professions",
+        "tailoring enchanting",
+        "priest alchemy",
+        "priest first aid"
+      ],
+      "text_es": "Costura y Encantamiento combinan bien: la primera convierte la tela que sueltan los enemigos en equipo útil, y la segunda fabrica varitas que aumentan el daño y permite encantar objetos. Alquimia ofrece consumibles; las profesiones de recolección ayudan a vender materiales, e Ingeniería da opciones útiles para JcJ. Primeros auxilios es una profesión secundaria adicional: permite fabricar vendas y pociones de salud.",
+      "text_en": "Tailoring and Enchanting work well together: Tailoring turns enemy cloth drops into useful gear, while Enchanting crafts damage-boosting wands and adds item enchants. Alchemy provides consumables; gathering professions help sell materials, and Engineering offers useful PvP options. First Aid is an additional secondary profession that lets you craft bandages and health potions.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Best Leveling Professions for Discipline Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Best Leveling Professions for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest Leveling Guide - WoW: Forever › Best Leveling Professions for Shadow Priest DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips",
+          "date": "2026-11-08"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:discipline:leveling",
+        "class:priest:holy:leveling",
+        "class:priest:shadow:leveling"
+      ],
+      "source_hashes": [
+        "section:542995445c19a7dd1394b04b666d48aaa4c5ca79",
+        "section:7ad212942aa111bb4468f6e46b223a685aa87443",
+        "section:e29968562b631fcb0956f81f0b5906c052936625"
+      ]
+    },
+    {
+      "id": "clase-priest-consumibles-leveo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consumibles para subir",
+      "title_en": "Leveling Consumables",
+      "summary_es": "Agua y pociones de salud y maná reducen las pausas; comida con experiencia aporta una bonificación útil.",
+      "summary_en": "Water and health and mana potions reduce downtime; experience food adds a useful bonus.",
+      "keywords_es": [
+        "agua sacerdote leveo",
+        "pociones salud maná",
+        "comida experiencia sacerdote",
+        "consumibles baratos leveling"
+      ],
+      "keywords_en": [
+        "priest leveling water",
+        "health mana potions",
+        "priest experience food",
+        "leveling consumables cost"
+      ],
+      "text_es": "Prioriza agua y pociones de salud y maná; aparecen bebidas mejores aproximadamente cada 5 niveles y conviene llevar 3 montones de 20, bebiendo cada 1-2 enemigos. La comida de salud importa menos porque el Sacerdote puede curarse, pero el Huevo cocido con hierbas aporta 5% de experiencia. Reserva las pociones para emergencias: Alquimia fabrica las de maná y Primeros auxilios las de salud. Elixires, frascos y potenciadores de combate suelen ser demasiado caros para mantenerlos durante el leveo.",
+      "text_en": "Prioritize water and health and mana potions; stronger drinks become available about every 5 levels, and carrying 3 stacks of 20 lets you drink every 1-2 enemies. Health food matters less because your healing spells restore health, but Herb Baked Egg grants 5% experience. Save potions for emergencies: Alchemy crafts mana potions and First Aid crafts health potions. Elixirs, flasks, and combat boosts are usually too expensive to keep stocked while leveling.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Best Leveling Consumables for Discipline Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Best Leveling Consumables for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:discipline:leveling",
+        "class:priest:holy:leveling"
+      ],
+      "source_hashes": [
+        "section:b94f5c3dd7227a413bc41b95204780037e012e4b",
+        "section:d66edf3b06143c37a7529d0b510b2d3bc33ad60a"
+      ]
+    },
+    {
+      "id": "clase-priest-campamento-leveo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Bonificaciones de campamento para subir",
+      "title_en": "Leveling Campfire Bonuses",
+      "summary_es": "Al volver a la ciudad, aprovecha la hoguera: hay bonificaciones de experiencia, maná, intelecto y estadísticas.",
+      "summary_en": "Use campfires when returning to town for experience, mana, intellect, and stat bonuses.",
+      "keywords_es": [
+        "bonificaciones campamento sacerdote",
+        "tienda de campamento",
+        "pozo de maná",
+        "laúd encantado vela incienso"
+      ],
+      "keywords_en": [
+        "priest camping buffs",
+        "camp tent bonus",
+        "mana well",
+        "enchanted lute incense candle"
+      ],
+      "text_es": "Al regresar a la ciudad, descansa junto a una hoguera para recibir los objetos que hayan dejado otros jugadores. La Tienda de campamento, de Peletería, aumenta la experiencia descansada hasta 5% de un nivel; el Pozo de maná de Alquimia da regeneración de maná cada 5 s. El Laúd encantado de Encantamiento aporta armadura, estadísticas principales y resistencias; la Vela de incienso de Herboristería mejora el Intelecto. Estas bonificaciones no se acumulan con sus mejoras de clase correspondientes.",
+      "text_en": "When you return to town, rest by a campfire to receive items other players have left there. Camp Tent from Leatherworking increases rested experience by up to 5% of a level; Mana Well from Alchemy grants mana regeneration every 5 seconds. Enchanted Lute from Enchanting adds armor, primary stats, and resistances; Incense Candle from Herbalism increases Intellect. These bonuses do not stack with their corresponding class buffs.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Discipline Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:discipline:leveling",
+        "class:priest:holy:leveling"
+      ],
+      "source_hashes": [
+        "section:366fc480e602eb185119f424a2f8d3a4de18478e",
+        "section:c4beb1d72eb3d91765e7b0895e9846e047f8d06d"
+      ]
+    },
+    {
+      "id": "clase-priest-legado-leveo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Puntos de Legado para subir",
+      "title_en": "Legacy Points for Leveling",
+      "summary_es": "Al llegar el primer punto a 25, prioriza experiencia descansada, talentos adicionales y recuperación tras cada muerte.",
+      "summary_en": "When the first point arrives at 25, prioritize rested experience, extra talents, and recovery after each kill.",
+      "keywords_es": [
+        "puntos de legado sacerdote",
+        "bien descansado talentoso",
+        "emoción de la aventura",
+        "legado para levear sacerdote"
+      ],
+      "keywords_en": [
+        "priest legacy points",
+        "well rested talented",
+        "thrill of adventure",
+        "legacy leveling priest"
+      ],
+      "text_es": "El primer punto de Legado llega a 25. Para acelerar el leveo, prioriza Bien descansado y Talentoso en la rama Aventura: la experiencia descansada y los puntos de talento adicionales ayudan a avanzar y alcanzar nodos clave antes. Emoción de la aventura también reduce las pausas porque cura y devuelve maná tras cada muerte. Si morir en mazmorras te hace perder tiempo, Este muerto está muy vivo facilita volver; en un reino JcJ, Alerta máxima ayuda contra enemigos en sigilo al aire libre, pero no sirve en campos de batalla.",
+      "text_en": "The first Legacy Point arrives at 25. To speed leveling, prioritize Well Rested and Talented in the Adventure tree: rested experience and extra talent points help you progress and reach key nodes sooner. Thrill of Adventure also reduces downtime by healing and restoring mana after each kill. If dungeon deaths cost time, The Quick and the Dead eases the run back; on a PvP realm, High Alert helps against stealth enemies in the open world but does not work in battlegrounds.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Best use of Legacy Points for Discipline Priest DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Best use of Legacy Points for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:discipline:leveling",
+        "class:priest:holy:leveling"
+      ],
+      "source_hashes": [
+        "section:213cb4d5d89ec5702a87be3c227e5c5bf144351e",
+        "section:5ae3e95c5648e48c77683cdd3d90446ef7dfceb5"
+      ]
+    },
+    {
+      "id": "clase-priest-rotacion-disciplina-area-leveo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Daño en área de Disciplina al subir",
+      "title_en": "Discipline AoE While Leveling",
+      "summary_es": "Disciplina carece de un área eficiente al subir; suele rendir mejor concentrar el daño en un enemigo.",
+      "summary_en": "Discipline lacks efficient leveling AoE; focusing damage on one enemy is usually more effective.",
+      "keywords_es": [
+        "disciplina daño área",
+        "nova sagrada disciplina leveo",
+        "varios enemigos disciplina",
+        "rotación AoE sacerdote"
+      ],
+      "keywords_en": [
+        "discipline AoE damage",
+        "holy nova discipline leveling",
+        "multiple enemies discipline",
+        "priest AoE rotation"
+      ],
+      "text_es": "La Nova Sagrada requiere invertir en Sagrado y resulta poco eficiente para Disciplina por el maná y los talentos que consume. Repartir Palabra de las Sombras: Dolor entre varios enemigos también puede vaciar el maná; suele ser mejor centrarse en un objetivo y usar la varita. Considera Nova Sagrada solo si ya tienes los talentos y el coste compensa la situación.",
+      "text_en": "Holy Nova requires investment in Holy and is inefficient for Discipline because of its mana and talent cost. Multiple applications of Shadow Word: Pain can also consume mana; focusing on one target and using the wand is usually better. Holy Nova is worth considering only when you already have its talents and the cost suits the situation.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › AoE DPS Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:priest:discipline:leveling"
+      ],
+      "source_hashes": [
+        "section:ac2500827c8dd08f9a6f1bda7121540adb346938"
+      ]
     }
   ]
 }
