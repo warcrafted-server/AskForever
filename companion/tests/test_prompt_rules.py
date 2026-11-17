@@ -77,14 +77,22 @@ def test_prompt_includes_talent_points_for_numeric_levels():
 
 def test_system_prompt_contains_complete_build_and_version_rules():
     system_es = _system('esES')
-    assert 'con una respuesta corta de 2 a 5 líneas (las builds, completas; ver abajo).' in system_es
+    assert 'con una respuesta breve de 2 a 5 frases (las builds, completas; ver abajo).' in system_es
+    assert 'separa cada tema en su propio párrafo con una línea en blanco' in system_es
+    assert 'pon uno por línea empezando por «- »' in system_es
+    assert 'cada rama en su propia línea empezando por su nombre y dos puntos' in system_es
+    assert 'texto seguido' not in system_es
     assert 'todas sus ramas y cada talento con sus rangos' in system_es
     assert 'nunca cuentes más puntos de los que tiene' in system_es
     assert 'La pregunta puede tratar de otra clase, raza o especialización' in system_es
     assert 'No completes talentos, rangos, builds ni mecánicas de clase' in system_es
 
     system_en = _system('enUS')
-    assert 'with a short reply of 2 to 5 lines (builds in full; see below).' in system_en
+    assert 'with a brief reply of 2 to 5 sentences (builds in full; see below).' in system_en
+    assert 'put each topic in its own paragraph separated by a blank line' in system_en
+    assert 'put one per line starting with "- "' in system_en
+    assert 'each tree on its own line starting with its name and a colon' in system_en
+    assert 'running text' not in system_en
     assert 'all its trees and every talent with its ranks' in system_en
     assert 'never count more points than they have' in system_en
     assert 'The question may be about a class, race or specialization' in system_en

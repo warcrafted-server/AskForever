@@ -165,6 +165,13 @@ def test_clean_answer_keeps_long_answers_and_removes_guide_labels():
     assert cleaned == 'a' * 1000 + '\n' + 'b' * 1000
 
 
+def test_clean_answer_formats_list_markers_and_preserves_paragraphs():
+    assert _clean_answer('- a\n* b\n1. c') == '• a\n• b\n• c'
+    assert _clean_answer('Intro\n\n- item\n\n\n\nConclusion') == (
+        'Intro\n\n• item\n\nConclusion')
+    assert _clean_answer('  – item   \n2) another  ') == '• item\n• another'
+
+
 def test_is_follow_up_detects_other_options_questions():
     assert is_follow_up('Hay más opciones para ir a kalimdor?')
     assert is_follow_up('No hay más?')

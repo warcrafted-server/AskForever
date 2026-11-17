@@ -130,7 +130,9 @@ def _clean_answer(text) -> str:
         while stripped.startswith('#'):
             stripped = stripped[1:].lstrip()
         lines.append(stripped)
-    text = '\n'.join(lines).strip()
+    lines = [re.sub(r'^(?:[-*•–]\s+|\d+[.)]\s+)', '• ', line).rstrip()
+             for line in lines]
+    text = re.sub(r'\n{3,}', '\n\n', '\n'.join(lines).strip())
 
     if len(text) > MAX_ANSWER:
         cut = text[:MAX_ANSWER - 1]
