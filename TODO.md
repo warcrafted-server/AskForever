@@ -15,6 +15,7 @@ El detalle de cada hito está en [ROADMAP.md](ROADMAP.md). Lo hecho está en el 
 - **Chat dentro de la ventana del addon** (vuelta por addons «slot»): diseño en `.agents/plans/m3-slots/m3-slots.PLAN.md`; con ello, la ventana de informe podrá mostrar la respuesta.
 - **Perfil completo del personaje**: profesiones, talentos, equipo, reputaciones…; primero verificar en el cliente qué API existe; a la IA solo lo relevante para la pregunta.
 - **Gemma 4 por Cloudflare Workers AI como proveedor opcional** (Gemini Flash-Lite sigue por defecto, decisión de Marc 2026-11-17): proveedor `cloudflare` que pida también el ID de cuenta, sin razonamiento del modelo, y sección en las guías ES/EN (cuenta, token, ID, límite de ~70 preguntas/día). Resultados y detalles en `.agents/plans/consultas/consultas.PLAN.md`.
+- **Publicar las bases de datos sin pasos a mano** (Marc, 2026-11-18): hoy la release `data-…` se sube desde la web porque las claves SSH no sirven para la API de releases. Estudiar un workflow que genere y publique la base con el token de Actions (necesita acceso a la base de wowdata) o que la publique wowdata.
 - **Puntos de talento por nivel**: con los puntos en el contexto, la IA sigue dando más de los que hay («qué talentos debería tener a nivel 34»); calcular en el companion la parte de la ruta que corresponde al nivel.
 - Elegir y recordar el proveedor de IA desde el asistente del companion (hoy solo Gemini; los demás por variable de entorno).
 - Probar otras resoluciones y escalas de interfaz de la tira de píxeles (probado: 1920x1080, ventana sin bordes).
