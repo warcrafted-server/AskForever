@@ -52,3 +52,40 @@ def test_prompt_does_not_cite_internal_sources():
     assert 'No digas de dónde sale cada dato' in system
     system, _user = build_prompt({'lang': 'enUS', 'q': 'When do I get a mount?'})
     assert 'Do not say where each piece of data comes from' in system
+
+
+def test_prompt_includes_talent_points_for_numeric_levels():
+    _system, user = build_prompt({
+        'lang': 'esES', 'q': '¿Qué talentos debería tener?', 'ctx': {'lvl': 34},
+    })
+    assert 'Puntos de talento a este nivel: 25 (uno por nivel desde el 10)' in user
+
+    _system, user = build_prompt({'lang': 'esES', 'q': '¿Qué talentos?', 'ctx': {'lvl': 5}})
+    assert 'Puntos de talento a este nivel: 0 (uno por nivel desde el 10)' in user
+
+    _system, user = build_prompt({'lang': 'esES', 'q': '¿Qué talentos?', 'ctx': {'lvl': 60}})
+    assert 'Puntos de talento a este nivel: 51 (uno por nivel desde el 10)' in user
+
+    _system, user = build_prompt({
+        'lang': 'enUS', 'q': 'Which talents should I have?', 'ctx': {'lvl': 34},
+    })
+    assert 'Talent points at this level: 25 (one per level from 10)' in user
+
+    _system, user = build_prompt({'lang': 'esES', 'q': '¿Qué talentos?', 'ctx': {}})
+    assert 'Puntos de talento a este nivel' not in user
+
+
+def test_system_prompt_contains_complete_build_and_version_rules():
+    system_es = _system('esES')
+    assert 'con una respuesta corta de 2 a 5 líneas (las builds, completas; ver abajo).' in system_es
+    assert 'todas sus ramas y cada talento con sus rangos' in system_es
+    assert 'nunca cuentes más puntos de los que tiene' in system_es
+    assert 'La pregunta puede tratar de otra clase, raza o especialización' in system_es
+    assert 'No completes talentos, rangos, builds ni mecánicas de clase' in system_es
+
+    system_en = _system('enUS')
+    assert 'with a short reply of 2 to 5 lines (builds in full; see below).' in system_en
+    assert 'all its trees and every talent with its ranks' in system_en
+    assert 'never count more points than they have' in system_en
+    assert 'The question may be about a class, race or specialization' in system_en
+    assert 'Do not fill in talents, ranks, builds or class mechanics' in system_en
