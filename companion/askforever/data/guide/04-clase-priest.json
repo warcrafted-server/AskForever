@@ -273,8 +273,8 @@
       "status": "editorial",
       "title_es": "Armas y armadura del Sacerdote",
       "title_en": "Priest Weapons and Armor",
-      "summary_es": "El Sacerdote viste tela y usa varitas, bastones, armas de una mano y objetos de mano izquierda.",
-      "summary_en": "Priest wears cloth and uses wands, staves, one-handed weapons, and off-hand items.",
+      "summary_es": "La varita evita gastar maná; Encantamiento y equipo de tela ayudan a mejorarla durante el leveo.",
+      "summary_en": "A wand deals damage without mana; Enchanting and cloth gear help upgrade your leveling kit.",
       "keywords_es": [
         "armas del sacerdote",
         "armadura del sacerdote",
@@ -289,33 +289,48 @@
         "priest staff",
         "priest cloth gear"
       ],
-      "text_es": "El Sacerdote viste tela y usa varitas, bastones, armas de una mano y objetos de mano izquierda. La varita es clave al principio porque hace daño sin gastar maná y puede ser una gran parte de tu daño. No pega con el arma: elige la combinación que mejor acompañe tus hechizos y tu maná.",
-      "text_en": "A Priest wears cloth and uses wands, staves, one-handed weapons, and off-hand items. The wand matters early because it deals damage without mana and can be a large part of your damage. You do not fight with the weapon: choose the combination that best supports your spells and mana.",
+      "text_es": "El Sacerdote solo viste tela. Puede usar Dagas, Mazas de una mano, Bastones y Varitas; no puede usar otros tipos de armas ni escudos. Todos empiezan con Mazas de una mano y Varitas aprendidas; para aprender Dagas y Bastones hay que acudir a un maestro de armas. Durante la mayor parte del leveo, la varita suele superar en daño a los golpes cuerpo a cuerpo y no consume maná. Costura permite crear equipo de tela y Encantamiento, fabricar varitas.",
+      "text_en": "Priests wear cloth only. Their weapon proficiencies are Daggers, One-Handed Maces, Staves, and Wands; shields and all other weapon classes are unavailable. One-Handed Maces and Wands are already trained at character creation, while a Weapon Master teaches Daggers and Staves. For most of leveling, wands outdamage melee attacks without spending mana. Tailoring produces cloth gear, and Enchanting produces wands.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Gear",
-          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Discipline Priest Healer Guide - WoW: Forever › Best Professions for Discipline Priest in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/overview-pve-healer",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Gear and Where to Level",
-          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "ref": "Wowhead: Priest Leveling Guide: Specializations, Talent Builds & Professions and More - WoW Forever › Priest Weapon Skills and Trainers in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/leveling-guide",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Priest Leveling Guide: Specializations, Talent Builds & Professions and More - WoW Forever › Priest Starting Weapon Skills",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/leveling-guide",
+          "date": "2026-11-12"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Open World Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:priest:discipline:leveling",
-        "class:priest:shadow:leveling"
+        "class:priest:discipline:overview",
+        "class:priest:general:leveling-guide"
       ],
       "source_hashes": [
-        "section:b0b6c75f4eebebafee9d0fd52e2d192dad0a7be4",
-        "section:e0fbafec2b0c227c043afcc081e3cdd7e0d72fbb"
+        "section:136fcf472ebb95c1f8001af06728e6d7b8f1ba67",
+        "section:ce34cc51ba368a9a4b8c8583cc3da12110aec5b4",
+        "section:d1bd6a6912195f57c946093438b21017992da3e8",
+        "section:fe5e72833721347304a454d9c8437843f9463070"
       ]
     },
     {
@@ -324,8 +339,8 @@
       "status": "editorial",
       "title_es": "Mejor especialización para subir",
       "title_en": "Best Specialization for Leveling",
-      "summary_es": "Sombra es la más rápida en solitario; Disciplina es el sanador más fácil y Sagrado cura en grupo.",
-      "summary_en": "Shadow is the fastest solo; Discipline is the easier healer and Holy heals groups.",
+      "summary_es": "Sombra suele ser más rápida en solitario; Disciplina y Sagrado encajan mejor al curar mazmorras.",
+      "summary_en": "Shadow is usually faster solo; Discipline and Holy suit dungeon healing better.",
       "keywords_es": [
         "mejor especialización para subir sacerdote",
         "sacerdote sombra para levear",
@@ -340,41 +355,55 @@
         "holy priest leveling",
         "which priest spec to level"
       ],
-      "text_es": "Para subir solo, Sombra suele ser la opción más rápida: convierte el daño en curación y puede encadenar enemigos con la varita y Transfusión de espíritu. Disciplina es el sanador más fácil de llevar en solitario, y Sagrado es más lento para matar pero entra fácil en mazmorras como sanador. Si quieres curar mientras subes, elige Disciplina o Sagrado y haz mazmorras; si prefieres daño, Sombra.",
-      "text_en": "For solo leveling, Shadow is usually the fastest option: it turns damage into healing and can chain enemies with the wand and Spirit Tap. Discipline is the easier healer to play alone, and Holy is slower at killing but finds healer groups easily. If you want to heal while leveling, choose Discipline or Holy and run dungeons; if you prefer damage, choose Shadow.",
+      "text_es": "Para subir en solitario, Sombra suele ser la más rápida: combina daño y curación y sus DoT permiten afrontar varios enemigos, aunque hay que vigilar el maná. Una varita y los golpes finales que activan Transfusión de espíritu reducen las pausas. Disciplina hace menos daño que Sombra, pero su supervivencia y rendimiento como sanador la hacen sólida en mazmorras. Sagrado es más lento en solitario; encaja si vas con amigos o pasas la mayor parte del tiempo en mazmorras.",
+      "text_en": "For solo leveling, Shadow is usually fastest: it combines damage and healing, and its DoTs let you handle several enemies, though mana needs attention. A wand and killing blows that activate Spirit Tap reduce downtime. Discipline deals less damage than Shadow, but its survivability and healing make it strong in dungeons. Holy is slower solo; it suits playing with friends or spending most of your time in dungeons.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Shadow Priest Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Leveling Viability for Discipline Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Discipline Priest Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Leveling Viability for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Leveling Guide › Holy Priest Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/holy-priest-leveling",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Shadow Priest Leveling Guide - WoW: Forever › Leveling Viability for Shadow Priest DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips",
+          "date": "2026-11-08"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest Leveling Guide - WoW: Forever › Pros",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips",
+          "date": "2026-11-08"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest Leveling Guide - WoW: Forever › Leveling Tips for Shadow Priest DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips",
+          "date": "2026-11-08"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:priest:discipline:leveling",
         "class:priest:holy:leveling",
         "class:priest:shadow:leveling"
       ],
       "source_hashes": [
-        "section:2e4076c584ff815df7845bd13932d41a714cc200",
-        "section:9d881fbef86e3d214657d71912a749b20947ffb7",
-        "section:f2d17376dce5d75ce4731cb20d9114f00bd0e6bb"
+        "section:271b8ebab7ef6dd1b579aa69fc6b3e87ab9681a8",
+        "section:6bba6c54196b6b99aa39f72329c5e7185c185e0c",
+        "section:9c4f8a9f677581b514a13e7ed5614bdaa6d16c20",
+        "section:a8dd7c09bc2e94038de4410ae559595a1b8bbf7e",
+        "section:e03e7d2d0c3f83e40d017c7743eebeca568571a4"
       ]
     },
     {
@@ -383,8 +412,8 @@
       "status": "editorial",
       "title_es": "Ruta de talentos de Sombra",
       "title_en": "Shadow Leveling Talent Path",
-      "summary_es": "Sombra: varitas y Transfusión de espíritu; 20 Despelleje mental; 25 Unirse a vampírica; 40 Forma de las Sombras.",
-      "summary_en": "Shadow: wands and Spirit Tap; 20 Mind Flay; 25 Vampiric Embrace; 40 Shadowform.",
+      "summary_es": "Ruta: varita y Transfusión de espíritu; Despelleje mental 20, Unirse a vampírica 25 y Forma de las Sombras 40.",
+      "summary_en": "Path: wand and Spirit Tap; Mind Flay at 20, Vampiric Embrace at 25, Shadowform at 40.",
       "keywords_es": [
         "talentos para subir sacerdote sombra",
         "ruta de sombra",
@@ -399,12 +428,18 @@
         "mind flay",
         "shadowform"
       ],
-      "text_es": "Ruta de Sombra para subir: empieza con Especialización en varitas y Transfusión de espíritu. A 20 entra Despelleje mental; a 25, Unirse a vampírica; después, Contagio devorador. A 40 llega Forma de las Sombras, y al final Meditación. Si juegas en grupo desde pronto, puedes cambiar algunos puntos, pero la base de daño y maná es esta.",
-      "text_en": "Shadow leveling path: start with Wand Specialization and Spirit Tap. At 20 comes Mind Flay; at 25, Vampiric Embrace; after that, Devouring Contagion. At 40 comes Shadowform, and at the end Meditation. If you group early, you can swap some points, but this is the damage and mana base.",
+      "text_es": "Disciplina: Especialización en varitas 2/2, Disciplinas gemelas 3/5, Resolución silenciosa 3/3, Fuerza mental 5/5 y Meditación 3/3. Sagrado: Enfoque crepuscular 3/3. Sombra: Enfoque de las Sombras 3/5, Transfusión de espíritu 5/5, Explosión mental mejorada 4/5, Palabra de las Sombras: dolor mejorada 2/2, Alcance de las Sombras 2/2, Despelleje mental 1/1, Tortura mental mejorada 2/2, Unirse a vampírica 1/1, Tejido de las Sombras 3/3, Silencio 1/1, Contagio devorador 2/2, Oscuridad 5/5 y Forma de las Sombras 1/1. Hitos: Despelleje mental 20, Unirse a vampírica 25, Forma de las Sombras 40.",
+      "text_en": "Discipline: Wand Specialization 2/2, Twin Disciplines 3/5, Silent Resolve 3/3, Mental Strength 5/5, and Meditation 3/3. Holy: Twilight Focus 3/3. Shadow: Shadow Focus 3/5, Spirit Tap 5/5, Improved Mind Blast 4/5, Improved Shadow Word: Pain 2/2, Shadow Reach 2/2, Mind Flay 1/1, Improved Mind Flay 2/2, Vampiric Embrace 1/1, Shadow Weaving 3/3, Silence 1/1, Devouring Contagion 2/2, Darkness 5/5, and Shadowform 1/1. Milestones: Mind Flay 20, Vampiric Embrace 25, Shadowform 40.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Shadow Priest DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips",
+          "date": "2026-11-08"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Leveling Talent Build",
@@ -418,11 +453,12 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:priest:shadow:leveling"
       ],
       "source_hashes": [
+        "section:6c47394a8cc686fb35961e93a0ed6afb061861b7",
         "section:e8df9b820616dab46a4506311a5840529db6ffed",
         "section:fcb8ac9a14e4725882cc65f6081a1f79bd875a06"
       ]
@@ -433,8 +469,8 @@
       "status": "editorial",
       "title_es": "Hitos de habilidad por nivel",
       "title_en": "Ability Milestones by Level",
-      "summary_es": "Palabra de poder: escudo 6; Renovar 8; Curar enfermedad 14; Penitencia 30; Forma de las Sombras 40.",
-      "summary_en": "Power Word: Shield 6; Renew 8; Cure Disease 14; Penance 30; Shadowform 40.",
+      "summary_es": "Escudo 6; Renovar y Desvanecer 8; facultades raciales 10 y 20; Forma de las Sombras 40.",
+      "summary_en": "Shield 6; Renew and Fade 8; racial abilities 10 and 20; Shadowform 40.",
       "keywords_es": [
         "cuándo aprendo habilidades de sacerdote",
         "nivel de las habilidades del sacerdote",
@@ -449,12 +485,24 @@
         "penance level",
         "shadowform level"
       ],
-      "text_es": "Palabra de poder: escudo a 6; Renovar y Desvanecer a 8; la primera racial a 10; Curar enfermedad y Alarido psíquico a 14; Curar a 16; Disipar magia a 18; la segunda racial, Custodia de miedo y Fuego Sagrado a 20. Penitencia, Espíritu divino y Rezo de curación a 30; Suprimir enfermedad y Palabra de las Sombras: muerte a 32; Curación superior y Forma de las Sombras a 40.",
-      "text_en": "Power Word: Shield at 6; Renew and Fade at 8; the first racial at 10; Cure Disease and Psychic Scream at 14; Heal at 16; Dispel Magic at 18; the second racial, Fear Ward, and Holy Fire at 20. Penance, Divine Spirit, and Prayer of Healing at 30; Abolish Disease and Shadow Word: Death at 32; Greater Heal and Shadowform at 40.",
+      "text_es": "Palabra de poder: escudo se aprende a 6; Renovar y Desvanecer, a 8; la primera facultad racial, a 10; Fuego interno, a 12; Curar enfermedad y Alarido psíquico, a 14; Curar, a 16; Disipar magia, a 18. A 20 llegan la segunda racial, Custodia de miedo y Fuego Sagrado; Sombra aprende Peste devoradora y puede desbloquear Despelleje mental. Unirse a vampírica llega a 25. Penitencia, Espíritu divino y Rezo de curación llegan a 30; Suprimir enfermedad y Palabra de las Sombras: muerte, a 32; Curación superior y Forma de las Sombras, a 40.",
+      "text_en": "Power Word: Shield is learned at 6; Renew and Fade at 8; the first racial ability at 10; Inner Fire at 12; Cure Disease and Psychic Scream at 14; Heal at 16; Dispel Magic at 18. At 20 come the second racial, Fear Ward, and Holy Fire; Shadow learns Devouring Plague and can unlock Mind Flay. Vampiric Embrace arrives at 25. Penance, Divine Spirit, and Prayer of Healing arrive at 30; Abolish Disease and Shadow Word: Death at 32; Greater Heal and Shadowform at 40.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Holy Priest",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Optional Abilities to Train for Holy Priest",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Leveling Milestones",
@@ -472,9 +520,15 @@
           "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Leveling Milestones",
           "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest Leveling Guide - WoW: Forever › Leveling as a Shadow Priest DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips",
+          "date": "2026-11-08"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:priest:discipline:leveling",
         "class:priest:holy:leveling",
@@ -483,6 +537,9 @@
       "source_hashes": [
         "section:756f100c3998dcfa1b6a3932ca8c339569f82a1f",
         "section:7707b4f79b4f590b0e2707fd103b338e54617a51",
+        "section:932c689078bc4fe0efab3c0ea70106289f620257",
+        "section:c6ae0efa7408c1fac57754c03bc8c366b4ba0b11",
+        "section:d5d9988af0e4b7813a6d87469ae8384b0625a0ff",
         "section:e8df9b820616dab46a4506311a5840529db6ffed"
       ]
     },
@@ -492,8 +549,8 @@
       "status": "editorial",
       "title_es": "Cómo gestionar el maná",
       "title_en": "Managing Mana",
-      "summary_es": "El maná es el límite del Sacerdote; tras lanzar espera cinco segundos, usa la varita y lleva agua.",
-      "summary_en": "Mana limits the Priest; after casting wait five seconds, use the wand, and carry water.",
+      "summary_es": "La varita no gasta maná y permite dejar pasar cinco segundos para reanudar la regeneración por Espíritu.",
+      "summary_en": "Wand attacks cost no mana and let the five-second Spirit-regeneration timer resume.",
       "keywords_es": [
         "maná del sacerdote",
         "regeneración de maná sacerdote",
@@ -508,33 +565,55 @@
         "five second rule",
         "wand and mana"
       ],
-      "text_es": "El maná es el límite principal del Sacerdote: los hechizos son caros y, tras gastar maná, la regeneración de maná se detiene cinco segundos. Lleva agua y evita lanzar un hechizo caro a un enemigo que morirá con la varita. Transfusión de espíritu y Meditación ayudan a recuperar maná, y la varita permite seguir haciendo daño sin gastarlo. En grupo, guarda maná para curar; si te quedas sin él, el grupo puede caer.",
-      "text_en": "Mana is the Priest's main limit: spells are expensive, and after spending mana, regeneration stops for five seconds. Carry water and avoid casting an expensive spell on an enemy that will die to the wand. Spirit Tap and Meditation help recover mana, and the wand keeps damage going without spending it. In a group, save mana for healing; if you run out, the group can fall.",
+      "text_es": "Tras gastar maná, la regeneración por Espíritu se reanuda después de 5 segundos sin lanzar hechizos que cuesten maná; Meditación permite regenerar parte del Espíritu mientras lanzas. Transfusión de espíritu acelera la recuperación al dar el golpe final. La varita no cuesta maná ni reinicia el temporizador, así que úsala para rematar enemigos y lleva agua. En mazmorras, conserva maná mientras el grupo esté estable: quedarte sin él puede ponerlo en peligro. Bebe entre combates.",
+      "text_en": "After spending mana, Spirit regeneration resumes after 5 seconds without casting mana-costing spells; Meditation lets some Spirit regeneration continue while casting. Spirit Tap speeds recovery when you land the killing blow. Wand attacks cost no mana and do not reset the timer, so use them to finish enemies and carry water. In dungeons, conserve mana while the party is stable; running out can put the group at risk. Drink between pulls.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Shadow Priest Leveling Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Leveling Tips for Discipline Priest DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
           "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Discipline Priest Leveling Rotation",
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Dungeon Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest Leveling Guide - WoW: Forever › Leveling Tips for Shadow Priest DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips",
+          "date": "2026-11-08"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Leveling Talent Build",
           "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
           "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Holy Priest in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:priest:discipline:leveling",
+        "class:priest:holy:leveling",
         "class:priest:shadow:leveling"
       ],
       "source_hashes": [
-        "section:06a90daf43f6d39faafb7b2f29372992f72da14c",
-        "section:bc9e4cf1b6dfd78de065ce1d9898e2aa5a071f61"
+        "section:5940d4eaaa3b0a4181733d44fed5e3cc42dbfe59",
+        "section:6bba6c54196b6b99aa39f72329c5e7185c185e0c",
+        "section:80fac1ee8913cfea611101363504eaa195f7b81f",
+        "section:be5149747f6cb6dbbf5e2ec48609adf8963454c5",
+        "section:eec8bafa26de119ae4d9bdd21966124bd735cb4e"
       ]
     },
     {
@@ -543,8 +622,8 @@
       "status": "editorial",
       "title_es": "Palabra de poder: escudo",
       "title_en": "Power Word: Shield",
-      "summary_es": "El escudo evita daño, protege los lanzamientos y deja Alma debilitada, que impide repetirlo.",
-      "summary_en": "The shield prevents damage, protects casts, and leaves Weakened Soul, which blocks reapplying it.",
+      "summary_es": "Palabra de poder: escudo absorbe daño y evita el retroceso de hechizos; Alma debilitada impide reaplicarlo.",
+      "summary_en": "Power Word: Shield absorbs damage and prevents spell pushback; Weakened Soul blocks reapplication.",
       "keywords_es": [
         "palabra de poder escudo",
         "escudo del sacerdote",
@@ -559,33 +638,40 @@
         "spell pushback protection",
         "priest bubble"
       ],
-      "text_es": "Palabra de poder: escudo es la herramienta básica de prevención del Sacerdote: absorbe daño y evita que los golpes interrumpan tus lanzamientos. Mientras el escudo está activo no pierdes acumulaciones de Fuego interno ni sufres retroceso de hechizos. A cambio, deja Alma debilitada y no puedes volver a aplicarlo hasta que pase. Úsalo para ganar tiempo antes de una cura o para proteger a alguien que va a recibir daño.",
-      "text_en": "Power Word: Shield is the Priest's basic prevention tool: it absorbs damage and stops hits from interrupting your casts. While the shield is active you do not lose Inner Fire stacks or suffer spell pushback. In exchange, it leaves Weakened Soul and cannot be reapplied until it fades. Use it to buy time before a heal or to protect someone about to take damage.",
+      "text_es": "Palabra de poder: escudo absorbe daño y evita el retroceso de tus hechizos mientras está activo; también impide que los golpes consuman acumulaciones de Fuego interno. Deja Alma debilitada, que bloquea otro escudo sobre el mismo objetivo hasta que desaparece. Dura hasta 30 segundos: úsalo antes del combate para proteger a quien recibirá golpes o para poder terminar una cura.",
+      "text_en": "Power Word: Shield absorbs damage and prevents spell pushback while active; it also stops hits from consuming Inner Fire stacks. It applies Weakened Soul, which blocks another shield on the same target until it fades. It lasts up to 30 seconds: cast it before combat to protect someone who will take hits or to complete your cast.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Important Abilities",
-          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Leveling Tips for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › FAQ What Is Spell Pushback?",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Utility and Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Single-Target Rotation",
           "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:priest:discipline:leveling",
+        "class:priest:holy:leveling",
         "class:priest:shadow:leveling"
       ],
       "source_hashes": [
-        "guide:f50e975732baf0e7d90a501eb810ad7b1079090a",
-        "section:2f421d977f90621370f5f56eaa5bbc2cd633fc10"
+        "section:60b6481c4b3d06dd385e8139caf43825e87b4aca",
+        "section:7d3c08bf4c44983c9f09a0449075cec5737dc4a0",
+        "section:dd571119e41238fd97b25c2fcd7090fedfdcc5ed"
       ]
     },
     {
@@ -594,8 +680,8 @@
       "status": "editorial",
       "title_es": "Control, limpieza y utilidad",
       "title_en": "Control, Cleansing, and Utility",
-      "summary_es": "Alarido psíquico, Control mental y Encadenar no-muerto controlan; Disipar magia y Curar enfermedad limpian.",
-      "summary_en": "Psychic Scream, Mind Control, and Shackle Undead control; Dispel Magic and Cure Disease cleanse.",
+      "summary_es": "Alarido psíquico puede atraer más enemigos; otras facultades controlan humanoides o no-muertos y limpian efectos.",
+      "summary_en": "Psychic Scream can pull extra enemies; other spells control humanoids or undead and cleanse effects.",
       "keywords_es": [
         "control del sacerdote",
         "alarido psíquico",
@@ -610,32 +696,47 @@
         "shackle undead",
         "dispel magic"
       ],
-      "text_es": "Alarido psíquico hace huir a los enemigos cercanos, pero puede arrastrar más enemigos; Control mental toma un humanoide y Encadenar no-muerto inmoviliza a un no-muerto. Curar enfermedad y Suprimir enfermedad limpian enfermedades, y Disipar magia quita un efecto mágico aliado o un buff enemigo. Desvanecer reduce tu amenaza y Levitar evita daño de caída y permite caminar sobre el agua. En mazmorras, no limpies todo automáticamente: a veces el maná vale más.",
-      "text_en": "Psychic Scream sends nearby enemies running, but it can pull more enemies; Mind Control takes a humanoid and Shackle Undead immobilizes an undead. Cure Disease and Abolish Disease cleanse diseases, and Dispel Magic removes a friendly magic effect or an enemy buff. Fade lowers your threat, and Levitate prevents fall damage and lets you walk on water. In dungeons, do not cleanse everything automatically: sometimes the mana is worth more.",
+      "text_es": "Alarido psíquico hace huir a los enemigos cercanos y puede atraer otros, así que resérvalo para emergencias en zonas pobladas. Control mental canaliza el control de un humanoide; Encadenar no-muerto inmoviliza a un no-muerto y Calma mental reduce el radio de agresión de un humanoide. Curar enfermedad y Suprimir enfermedad limpian enfermedades; Disipar magia elimina efectos mágicos perjudiciales de aliados o beneficios de enemigos. Desvanecer reduce tu amenaza y Levitar evita daño de caída y permite flotar sobre el agua.",
+      "text_en": "Psychic Scream makes nearby enemies flee and can pull others, so save it for emergencies in populated areas. Mind Control channels control of a humanoid; Shackle Undead immobilizes an undead, and Mind Soothe reduces a humanoid’s aggro radius. Cure Disease and Abolish Disease cleanse diseases; Dispel Magic removes harmful magic effects from allies or buffs from enemies. Fade reduces your threat, and Levitate prevents fall damage and lets you float above water.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Utility, Crowd Control, and Cleanses",
-          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Utility and Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Important Abilities",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Leveling Guide › Utility, Crowd Control, and Cleanses",
+          "url": "https://www.icy-veins.com/wow-forever/holy-priest-leveling",
           "date": "2026-11-10"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Utility and Crowd Control",
-          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
-          "date": "2026-11-04"
+          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Optional Abilities to Train for Discipline Priest",
+          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
+          "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:priest:discipline:leveling",
+        "class:priest:holy:leveling",
         "class:priest:shadow:leveling"
       ],
       "source_hashes": [
-        "section:33d9e5ae4bfc4bb7b8c3b409e1af126f638a8b67",
+        "guide:e7d507477ac574da471748b756f0331abbb6ddbd",
+        "section:200c080989530ac5abe34dd72096dc223b80e93f",
+        "section:a7936a5e2d7a0e69c6ad4b464a417fcadeefe7e3",
         "section:dd571119e41238fd97b25c2fcd7090fedfdcc5ed"
       ]
     },
@@ -645,8 +746,8 @@
       "status": "editorial",
       "title_es": "Buffs y apoyo al grupo",
       "title_en": "Buffs and Group Support",
-      "summary_es": "Palabra de poder: entereza, Espíritu divino y Protección de las Sombras son los buffs básicos del Sacerdote.",
-      "summary_en": "Power Word: Fortitude, Divine Spirit, and Shadow Protection are the Priest's basic buffs.",
+      "summary_es": "Palabra de poder: entereza y Espíritu divino mejoran aliados; Protección de las Sombras reduce ese daño.",
+      "summary_en": "Power Word: Fortitude and Divine Spirit buff allies; Shadow Protection reduces that damage.",
       "keywords_es": [
         "buffs del sacerdote",
         "palabra de poder entereza",
@@ -661,33 +762,25 @@
         "shadow protection",
         "priest group support"
       ],
-      "text_es": "Palabra de poder: entereza sube la salud máxima del objetivo, Espíritu divino mejora su regeneración y Protección de las Sombras reduce el daño de las Sombras. Los rezos de grupo permiten aplicar estos buffs a varios aliados. Fuego interno sube tu armadura y castiga a quien te golpea. Mantén los buffs activos y renueva a quien muera o se una al grupo.",
-      "text_en": "Power Word: Fortitude raises the target's maximum health, Divine Spirit improves their regeneration, and Shadow Protection reduces Shadow damage. Group prayers apply these buffs to several allies. Inner Fire raises your armor and punishes attackers. Keep buffs active and refresh them for anyone who dies or joins the group.",
+      "text_es": "Palabra de poder: entereza aumenta el aguante y la salud máxima; Rezo de entereza aplica el beneficio al grupo durante 1 hora. Espíritu divino aumenta el Espíritu, que mejora la regeneración de salud y la Regeneración de maná fuera de combate; Rezo de espíritu extiende el efecto a varios aliados. Protección de las Sombras reduce el daño de Sombras. Fuego interno aumenta la armadura y tiene 20 acumulaciones, que se consumen al recibir ataques directos.",
+      "text_en": "Power Word: Fortitude increases Stamina and maximum health; Prayer of Fortitude applies the buff to the group for 1 hour. Divine Spirit increases Spirit, which improves health and mana regeneration out of combat; Prayer of Spirit extends the effect to several allies. Shadow Protection reduces Shadow damage. Inner Fire increases armor and has 20 stacks, consumed by direct attacks.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Leveling Guide › Buffs",
-          "url": "https://www.icy-veins.com/wow-forever/holy-priest-leveling",
-          "date": "2026-11-10"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Buffs",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Utility and Crowd Control",
           "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:priest:holy:leveling",
         "class:priest:shadow:leveling"
       ],
       "source_hashes": [
-        "guide:79e315054a9945e7d1e2d15708baa2ab4c06a0b5",
-        "guide:f50e975732baf0e7d90a501eb810ad7b1079090a"
+        "section:dd571119e41238fd97b25c2fcd7090fedfdcc5ed"
       ]
     },
     {
@@ -696,8 +789,8 @@
       "status": "editorial",
       "title_es": "Rotación de Sombra para subir",
       "title_en": "Shadow Leveling Rotation",
-      "summary_es": "Sombra abre con Explosión mental, aplica Palabra de las Sombras: Dolor y Peste devoradora, y remata con la varita.",
-      "summary_en": "Shadow opens with Mind Blast, applies Shadow Word: Pain and Devouring Plague, and finishes with the wand.",
+      "summary_es": "Abre con Explosión mental y DoTs; usa Despelleje mental y remata con varita para recuperar maná.",
+      "summary_en": "Open with Mind Blast and DoTs; use Mind Flay and finish with a wand to recover mana.",
       "keywords_es": [
         "rotación de sombra",
         "sacerdote sombra para subir",
@@ -712,25 +805,39 @@
         "shadow word pain",
         "devouring plague"
       ],
-      "text_es": "En Sombra, mantén Palabra de poder: entereza y Fuego interno, y ponte Palabra de poder: escudo si vas a recibir golpes. Abre con Explosión mental, aplica Palabra de las Sombras: Dolor y Peste devoradora, y usa Despelleje mental mientras el enemigo vive. Remata con la varita para que el maná empiece a regenerarse antes y Transfusión de espíritu haga su trabajo. Si te quedas sin maná, quita Peste devoradora y Despelleje mental y limita el daño a la varita.",
-      "text_en": "As Shadow, keep Power Word: Fortitude and Inner Fire up, and use Power Word: Shield if you will take hits. Open with Mind Blast, apply Shadow Word: Pain and Devouring Plague, and use Mind Flay while the enemy lives. Finish with the wand so mana starts regenerating earlier and Spirit Tap does its job. If you run low on mana, drop Devouring Plague and Mind Flay and limit damage to the wand.",
+      "text_es": "Mantén Palabra de poder: entereza y Fuego interno; antes del combate, usa Palabra de poder: escudo si recibirás golpes. Abre con Explosión mental, aplica Palabra de las Sombras: Dolor y Peste devoradora, y usa Despelleje mental si tienes maná; remata con la varita para recuperar maná y activar Transfusión de espíritu con el golpe final. Contra enemigos resistentes, repite Explosión mental cuando esté disponible y renueva los efectos periódicos. Si escasea el maná, omite Peste devoradora y Despelleje mental; si el objetivo morirá pronto, omite Peste devoradora.",
+      "text_en": "Keep Power Word: Fortitude and Inner Fire active; before combat, use Power Word: Shield if you will take hits. Open with Mind Blast, apply Shadow Word: Pain and Devouring Plague, and use Mind Flay if you have mana; finish with the wand to recover mana and activate Spirit Tap with the killing blow. Against durable enemies, cast Mind Blast when available and refresh the DoTs. If mana is low, skip Devouring Plague and Mind Flay; if the target will die soon, skip Devouring Plague.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Single-Target Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Shadow Priest Leveling Guide - WoW: Forever › Leveling Rotation for Shadow Priest DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips",
+          "date": "2026-11-08"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest Leveling Guide - WoW: Forever › Leveling Tips for Shadow Priest DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips",
+          "date": "2026-11-08"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Shadow Priest DPS in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips",
+          "date": "2026-11-08"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:priest:shadow:leveling"
       ],
       "source_hashes": [
-        "section:60b6481c4b3d06dd385e8139caf43825e87b4aca"
+        "section:1fa43c25236b272520b5e2e6099e56288af85bd9",
+        "section:6bba6c54196b6b99aa39f72329c5e7185c185e0c",
+        "section:6c47394a8cc686fb35961e93a0ed6afb061861b7"
       ]
     },
     {
@@ -739,8 +846,8 @@
       "status": "editorial",
       "title_es": "Rotación de sanador",
       "title_en": "Healer Rotation",
-      "summary_es": "Destello curativo es la cura habitual; Curar y Curación superior para daño fuerte; Rezo de curación para el grupo.",
-      "summary_en": "Flash Heal is the usual heal; Heal and Greater Heal for heavy damage; Prayer of Healing for the group.",
+      "summary_es": "Disciplina prioriza escudo y Penitencia; Sagrado mantiene Renovar y reserva curas rápidas para emergencias.",
+      "summary_en": "Discipline prioritizes Shield and Penance; Holy maintains Renew and saves fast heals for emergencies.",
       "keywords_es": [
         "rotación de sanador sacerdote",
         "destello curativo",
@@ -755,33 +862,47 @@
         "prayer of healing",
         "prayer of mending"
       ],
-      "text_es": "En Disciplina y Sagrado, Destello curativo mantiene la salud y Curar o Curación superior cubren el daño fuerte cuando el maná lo permite. Renovar sirve para daño gradual, Rezo de curación para varios aliados heridos y Rezo de alivio para ir rebotando entre el grupo. Penitencia es una cura rápida en Disciplina, y Choque Sagrado o Sanación conjunta dan respuestas inmediatas en Sagrado. Usa Destello curativo con cuidado: es rápido, pero caro.",
-      "text_en": "As Discipline or Holy, Flash Heal maintains health and Heal or Greater Heal cover heavy damage when mana allows. Renew handles gradual damage, Prayer of Healing helps several injured allies, and Prayer of Mending bounces between the group. Penance is a fast heal in Discipline, while Holy Shock or Binding Heal give immediate answers in Holy. Use Flash Heal carefully: it is fast but expensive.",
+      "text_es": "En mazmorras, Disciplina: escuda al tanque antes del combate, mantén Renovar y usa Penitencia 1/1 o Curar; reserva Destello curativo para peligro inmediato y bebe entre combates. Sagrado: mantén Renovar y usa Curar, acelerado por Furia divina 5/5; reserva Destello curativo para emergencias. Sanación conjunta, con Vinculación sagrada 1/1, cura a ti y al tanque si ambos están heridos. Usa Rezo de curación si la mayoría del grupo está bajo; Rezo de alivio rebota entre aliados. Curación superior es una cura grande y lenta disponible a 40.",
+      "text_en": "In dungeons, Discipline: shield the tank before combat, maintain Renew, and use Penance 1/1 or Heal; save Flash Heal for immediate danger and drink between pulls. Holy: maintain Renew and use Heal, sped up by Divine Fury 5/5; save Flash Heal for emergencies. Binding Heal, with Holy Binding 1/1, heals you and the tank if both are injured. Use Prayer of Healing when most of the party is low; Prayer of Mending bounces between allies. Greater Heal is a large, slow heal available at 40.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Healing Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Dungeon Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
+          "date": "2026-11-04"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Leveling Guide › Healing Rotation",
-          "url": "https://www.icy-veins.com/wow-forever/holy-priest-leveling",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Discipline Priest in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Leveling Rotation for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Holy Priest in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:priest:discipline:leveling",
         "class:priest:holy:leveling"
       ],
       "source_hashes": [
-        "section:170bcae89a7044f6cf1fc83ab858cbca055bd005",
-        "section:a7ab49caa92a5166df20b1e1f5d28eda16373444"
+        "section:00ee99ee77ac0b309d4dc67c1fe2d57abbb22c3f",
+        "section:80fac1ee8913cfea611101363504eaa195f7b81f",
+        "section:943a7e5d8a7092c71a66f6640c2b7b1c892beb71",
+        "section:eec8bafa26de119ae4d9bdd21966124bd735cb4e"
       ]
     },
     {
@@ -790,8 +911,8 @@
       "status": "editorial",
       "title_es": "Daño en área y sus límites",
       "title_en": "Area Damage and Its Limits",
-      "summary_es": "Sombra no tiene área real; Sagrado usa Nova Sagrada y los sanadores dependen de curas de grupo.",
-      "summary_en": "Shadow has no real area damage; Holy uses Holy Nova, and healers rely on group heals.",
+      "summary_es": "Sombra reparte Dolor en varios enemigos; Sagrado usa Nova Sagrada con Luz abrasadora, pero el área cuesta maná.",
+      "summary_en": "Shadow spreads Pain across enemies; Holy uses Holy Nova with Searing Light, but AoE costs mana.",
       "keywords_es": [
         "sacerdote daño en área",
         "nova sagrada",
@@ -806,12 +927,18 @@
         "shadow word pain multiple",
         "priest multiple enemies"
       ],
-      "text_es": "Sombra no tiene una habilidad de área real: su mejor opción es repartir Palabra de las Sombras: Dolor entre varios enemigos y centrarse en uno, con cuidado de no quedarse sin maná ni perder las acumulaciones de Fuego interno. Sagrado puede usar Nova Sagrada, pero cuesta maná y no es barata hasta tener Luz abrasadora. Los sanadores no hacen daño en área; su prioridad es mantener al grupo vivo y usar Rezo de curación o Rezo de alivio cuando hay daño repartido.",
-      "text_en": "Shadow has no real area ability: its best option is spreading Shadow Word: Pain across several enemies and focusing one, while avoiding running out of mana or losing Inner Fire stacks. Holy can use Holy Nova, but it costs mana and is not cheap until Searing Light. Healers do not deal area damage; their priority is keeping the group alive and using Prayer of Healing or Prayer of Mending when damage is spread out.",
+      "text_es": "Sombra no tiene daño en área tradicional: reparte Palabra de las Sombras: Dolor entre objetivos y céntrate en uno; con Contagio devorador, Peste devoradora puede propagarse. Atacar a varios enemigos consume antes las acumulaciones de Fuego interno y aumenta el gasto de maná. Para Sagrado, Nova Sagrada es su único daño en área; es poco eficiente hasta Luz abrasadora y conviene usarla cuando se activa para dañar y curar. Sana al grupo con Rezo de curación cuando la mayoría esté herida y deja que Rezo de alivio rebote.",
+      "text_en": "Shadow has no traditional AoE damage: spread Shadow Word: Pain across targets and focus on one; with Devouring Contagion, Devouring Plague can spread. Fighting several enemies consumes Inner Fire stacks faster and increases mana use. For Holy, Holy Nova is its only AoE damage; it is inefficient until Searing Light and is best used when it procs to damage and heal. Heal the group with Prayer of Healing when most members are injured, and let Prayer of Mending bounce.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadow Priest Leveling Guide - WoW: Forever › Leveling Rotation for Shadow Priest DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/dps-leveling-tips",
+          "date": "2026-11-08"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › AoE Rotation",
@@ -823,16 +950,38 @@
           "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Leveling Guide › AoE Rotation",
           "url": "https://www.icy-veins.com/wow-forever/holy-priest-leveling",
           "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Holy Priest Leveling Guide › Healing Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/holy-priest-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Leveling Rotation for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Important Abilities",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:priest:holy:leveling",
         "class:priest:shadow:leveling"
       ],
       "source_hashes": [
+        "section:00ee99ee77ac0b309d4dc67c1fe2d57abbb22c3f",
+        "section:1fa43c25236b272520b5e2e6099e56288af85bd9",
+        "section:200c080989530ac5abe34dd72096dc223b80e93f",
         "section:3968bf55418d8c303b469cfc4429e847caf4aee4",
-        "section:7c944cfab1b348e87f69c4d0d5c69a25d6a85646"
+        "section:7c944cfab1b348e87f69c4d0d5c69a25d6a85646",
+        "section:a7ab49caa92a5166df20b1e1f5d28eda16373444"
       ]
     },
     {
@@ -906,8 +1055,8 @@
       "status": "editorial",
       "title_es": "Consejos para subir de nivel",
       "title_en": "Leveling Tips",
-      "summary_es": "Consigue una varita, lleva agua, entrena hechizos, sube Sastrería con Encantamiento y haz las misiones de mazmorra.",
-      "summary_en": "Get a wand, carry water, train spells, level Tailoring with Enchanting, and do dungeon quests.",
+      "summary_es": "Mejora la varita, lleva agua, entrena rangos útiles y prepara las misiones de mazmorra antes de entrar.",
+      "summary_en": "Upgrade your wand, carry water, train useful ranks, and collect dungeon quests before entering.",
       "keywords_es": [
         "consejos para subir sacerdote",
         "sacerdote varita pronto",
@@ -922,33 +1071,62 @@
         "tailoring enchanting priest",
         "priest dungeon quests"
       ],
-      "text_es": "Consigue una varita pronto: hace daño sin maná y al principio puede ser una gran parte de tu daño. Lleva agua y aprende las nuevas versiones de tus hechizos en el instructor; Destello curativo, Renovar y Explosión mental mejoran mucho con el nivel. Sube Sastrería con Encantamiento para fabricar túnicas, bolsas y varitas, o Herboristería con Alquimia para pociones. Descansa en tabernas, completa las zonas y recoge las misiones de mazmorra antes de entrar.",
-      "text_en": "Get a wand early: it deals damage without mana and can be a large part of your damage at low levels. Carry water and learn new spell versions from the trainer; Flash Heal, Renew, and Mind Blast improve a lot with level. Level Tailoring with Enchanting to make robes, bags, and wands, or Herbalism with Alchemy for potions. Rest in inns, finish zones, and collect dungeon quests before entering.",
+      "text_es": "Consigue pronto Varita de prácticas de novicio (1), Varita mágica inferior (5) y Varita mágica superior (13); Encantamiento permite fabricarlas. Lleva agua y pociones de salud y maná; evita hechizos innecesarios y remata con la varita para reanudar la regeneración tras 5 segundos. Entrena rangos clave cada pocos niveles. Mantén las mejoras, completa las cadenas de la zona y recoge sus misiones de mazmorra antes de entrar; cierra sesión en una posada para obtener experiencia descansada. Costura da equipo; Alquimia y Herboristería ayudan con consumibles.",
+      "text_en": "Get Novice’s Practice Wand (1), Lesser Magic Wand (5), and Greater Magic Wand (13) early; Enchanting lets you craft them. Carry water and health and mana potions; avoid unnecessary casts and finish enemies with the wand so regeneration resumes after 5 seconds. Train key ranks every few levels. Keep buffs up, complete zone quest chains and collect their dungeon quests before entering; log out at an inn for rested experience. Tailoring provides gear; Alchemy and Herbalism help with consumables.",
       "tags": [
         "PRIEST"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Discipline Priest Leveling Guide › Leveling Tips",
-          "url": "https://www.icy-veins.com/wow-forever/discipline-priest-leveling",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Leveling Tips for Discipline Priest DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Best Leveling Consumables for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Leveling Tips for Holy Priest in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Gear and Where to Level",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Leveling Tips",
           "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Shadow Priest Leveling Guide › Professions",
+          "url": "https://www.icy-veins.com/wow-forever/shadow-priest-leveling",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:priest:discipline:leveling",
+        "class:priest:holy:leveling",
         "class:priest:shadow:leveling"
       ],
       "source_hashes": [
         "section:351fb239ae2e54544fded848e9df439ede5812b8",
-        "section:8f7d96f734803292390c32cf1c74fe88fbb9f025"
+        "section:6e0cc1d8193ee90f5362ddca78e311a807cb609c",
+        "section:7d3c08bf4c44983c9f09a0449075cec5737dc4a0",
+        "section:b0b6c75f4eebebafee9d0fd52e2d192dad0a7be4",
+        "section:b94f5c3dd7227a413bc41b95204780037e012e4b",
+        "section:be5149747f6cb6dbbf5e2ec48609adf8963454c5"
       ]
     },
     {
