@@ -7,7 +7,9 @@ import os
 import threading
 from pathlib import Path
 
+from askforever import config
 from askforever.app.events import emit, log_detail, set_status
+from askforever.app.setup import ProviderHolder, SetupDialog
 from askforever.app.tray import TrayIcon
 from askforever.app.window import AppWindow, ui_language
 from askforever.overlay.supervisor import OverlaySupervisor
@@ -100,7 +102,23 @@ def run_app(args) -> int:
     tray = None
     core_thread = None
     try:
-        window = AppWindow(language=language)
+        provider_holder = ProviderHolder()
+
+        def provider_saved():
+            from askforever.providers.openai_compat import provider_from_config
+
+            provider = provider_from_config('gemini')
+            provider_holder.swap(provider)
+            model = getattr(provider, 'model', '')
+            set_status('ai', f'IA lista: Gemini ({model})',
+                       f'AI ready: Gemini ({model})', ok=True)
+            emit('info', f'IA lista: Gemini ({model})',
+                 f'AI ready: Gemini ({model})')
+
+        window = AppWindow(
+            language=language,
+            on_configure=lambda: SetupDialog(window, language, provider_saved),
+        )
         tooltip = ('AskForever App: en marcha (necesaria para el addon)'
                    if language == 'es' else
                    'AskForever App: running (needed by the addon)')
@@ -115,7 +133,8 @@ def run_app(args) -> int:
         def run_core():
             try:
                 _run_companion(args, stop_event=stop_event,
-                               overlay_factory=OverlaySupervisor)
+                               overlay_factory=OverlaySupervisor,
+                               provider_holder=provider_holder)
             except Exception as error:
                 log_detail(f'app core failed: {error!r}')
                 emit('error', 'AskForever App encontró un error.',
@@ -134,6 +153,12 @@ def run_app(args) -> int:
 
         window.on_exit = exit_app
         core_thread.start()
+        try:
+            missing_key = not bool(config.get_api_key('gemini'))
+        except Exception:
+            missing_key = True
+        if missing_key:
+            window.after(100, window._open_configuration)
         window.mainloop()
         stop_event.set()
         if core_thread.is_alive():

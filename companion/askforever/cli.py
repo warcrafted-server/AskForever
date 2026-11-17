@@ -611,7 +611,7 @@ def _set_game_status(window):
 
 
 def _run_companion(args: argparse.Namespace, stop_event=None,
-                   overlay_factory=None) -> int:
+                   overlay_factory=None, provider_holder=None) -> int:
     emit('info', 'AskForever App en marcha', 'AskForever App is running')
     set_status('app', 'En marcha', 'Running', ok=True)
     set_dpi_awareness()
@@ -638,8 +638,12 @@ def _run_companion(args: argparse.Namespace, stop_event=None,
     provider_error = None
     if not args.no_ai:
         try:
-            provider = provider_from_config()
-            provider_name = config.get_provider_name()
+            provider_name = 'gemini' if provider_holder is not None else None
+            provider = (provider_from_config(provider_name) if provider_holder is not None
+                        else provider_from_config())
+            if provider_holder is not None:
+                provider_holder.swap(provider)
+            provider_name = config.get_provider_name(provider_name)
             model = getattr(provider, 'model', '')
             es = f'IA lista: {provider_name} ({model})'
             en = f'AI ready: {provider_name} ({model})'
@@ -725,7 +729,9 @@ def _run_companion(args: argparse.Namespace, stop_event=None,
             overlay.show_thinking(question, lang)
         if args.no_ai:
             return
-        if provider is None:
+        active_provider = (provider_holder.get() if provider_holder is not None
+                           else provider)
+        if active_provider is None:
             text = provider_error.user_message(lang) if provider_error else 'No AI provider.'
             _emit_answer_error(text, message.msg_id)
             if view is not None:
@@ -740,7 +746,7 @@ def _run_companion(args: argparse.Namespace, stop_event=None,
             return
 
         def answer():
-            result = answer_message(message.data, provider, db=database, history=history,
+            result = answer_message(message.data, active_provider, db=database, history=history,
                                     previous_question=previous_question, web=web)
             if current != generation['value']:
                 return
@@ -751,7 +757,7 @@ def _run_companion(args: argparse.Namespace, stop_event=None,
                 'conv': conv,
                 'ctx': document.get('ctx'),
                 'moment': datetime.now(),
-                'model': getattr(provider, 'model', ''),
+                'model': getattr(active_provider, 'model', ''),
                 'ok': result.ok,
                 'text': result.text,
                 'detail': result.detail,
