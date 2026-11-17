@@ -42,6 +42,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Changed: answers are easier to read: one paragraph per topic, lists with one item per line and builds with one line per talent tree.
 - Added: the in-window chat can be scrolled from the addon (mouse wheel over the conversation or the arrow buttons) and each new answer is shown from its beginning.
 - Added: the addon window can be resized from its bottom right corner and remembers its size; the mouse wheel over the conversation and the new arrow buttons scroll the chat drawn by the companion.
+- Changed: bigger scroll arrows, faster and smooth chat scrolling, and the in-window chat box is opaque so the addon text no longer shows through.
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
@@ -81,6 +82,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Cambiado: las respuestas son más fáciles de leer: un párrafo por tema, listas con un elemento por línea y builds con una línea por rama de talentos.
 - Añadido: el chat dentro de la ventana se puede desplazar desde el addon (rueda del ratón sobre la conversación o botones de flecha) y cada respuesta nueva se muestra desde su principio.
 - Añadido: la ventana del addon se puede redimensionar desde la esquina inferior derecha y recuerda su tamaño; la rueda del ratón sobre la conversación y los nuevos botones de flecha desplazan el chat que dibuja el companion.
+- Cambiado: flechas de desplazamiento más grandes, desplazamiento del chat más rápido y suave, y el cuadro del chat es opaco para que no se transparente el texto del addon.
 
 ## [0.3.0-beta.4] - 2026-11-15
 

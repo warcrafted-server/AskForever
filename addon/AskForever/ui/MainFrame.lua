@@ -166,7 +166,7 @@ local function EnsureMainFrame()
     local function CreateScrollButton(direction, amount, tip)
         local base = 'Interface\\Buttons\\UI-ScrollBar-Scroll' .. direction .. 'Button-'
         local button = CreateFrame('Button', nil, body)
-        button:SetSize(20, 20)
+        button:SetSize(26, 26)
         button:SetNormalTexture(base .. 'Up')
         button:SetPushedTexture(base .. 'Down')
         button:SetDisabledTexture(base .. 'Disabled')
@@ -188,7 +188,7 @@ local function EnsureMainFrame()
     end
 
     local scrollDownButton = CreateScrollButton('Down', 6, ns.L.SCROLL_DOWN_TIP)
-    scrollDownButton:SetPoint('TOPRIGHT', body, 'TOPRIGHT', -8, -3)
+    scrollDownButton:SetPoint('TOPRIGHT', body, 'TOPRIGHT', -4, -2)
     local scrollUpButton = CreateScrollButton('Up', -6, ns.L.SCROLL_UP_TIP)
     scrollUpButton:SetPoint('TOPRIGHT', scrollDownButton, 'TOPLEFT', -2, 0)
 
@@ -199,7 +199,7 @@ local function EnsureMainFrame()
     summaryText:SetText('')
 
     historyPanel = ns.UI.CreatePanel(body)
-    historyPanel:SetPoint('TOPLEFT', body, 'TOPLEFT', 8, -26)
+    historyPanel:SetPoint('TOPLEFT', body, 'TOPLEFT', 8, -32)
     historyPanel:SetPoint('BOTTOMRIGHT', body, 'BOTTOMRIGHT', -8, 92)
 
     history = CreateFrame('ScrollingMessageFrame', nil, historyPanel)

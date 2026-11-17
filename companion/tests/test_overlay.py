@@ -14,6 +14,7 @@ from askforever.capture.grabber import ReceivedMessage
 from askforever.overlay.chat import ChatSession
 from askforever.overlay.window import (
     ChatState,
+    CHAT_ALPHA,
     Overlay,
     OverlayState,
     OverlayUnavailable,
@@ -197,6 +198,8 @@ class _FakeRoot:
         self.alphas = []
         self.geometries = []
         self.after_calls = []
+        self.after_cancel_calls = []
+        self._next_after_id = 0
         self.deiconify_calls = 0
         self.destroyed = False
 
@@ -218,7 +221,18 @@ class _FakeRoot:
         self.geometries.append(value)
 
     def after(self, milliseconds, callback):
-        self.after_calls.append((milliseconds, callback))
+        self._next_after_id += 1
+        after_id = f'after-{self._next_after_id}'
+        self.after_calls.append((after_id, milliseconds, callback))
+        return after_id
+
+    def after_cancel(self, after_id):
+        self.after_cancel_calls.append(after_id)
+        self.after_calls = [call for call in self.after_calls if call[0] != after_id]
+
+    def run_next(self):
+        after_id, _milliseconds, callback = self.after_calls.pop(0)
+        callback()
 
     def deiconify(self):
         self.deiconify_calls += 1
@@ -245,6 +259,7 @@ class _FakeChatText:
         self.state = None
         self.yviews = []
         self.yview_scrolls = []
+        self.raise_pixel_scroll = False
         self.deleted = 0
 
     def pack(self, **_kwargs):
@@ -278,6 +293,13 @@ class _FakeChatText:
 
     def yview_scroll(self, amount, what):
         self.yview_scrolls.append((amount, what))
+        if what == 'pixels' and self.raise_pixel_scroll:
+            import tkinter
+            raise tkinter.TclError('pixel scrolling unsupported')
+
+    def cget(self, name):
+        assert name == 'font'
+        return 'fake-font'
 
 
 def _fake_overlay(user32, window_fn):
@@ -371,7 +393,7 @@ def test_overlay_chat_layout_geometry_and_fallback():
     overlay._apply(state)
 
     assert overlay._root.geometries[-1] == '300x200+110+70'
-    assert overlay._root.alphas[-1] == VISIBLE_ALPHA
+    assert overlay._root.alphas[-1] == CHAT_ALPHA
     assert overlay._state_active is True
     assert overlay._visible_requested is True
     assert chat.packed is True
@@ -397,8 +419,24 @@ def test_overlay_chat_layout_geometry_and_fallback():
     assert overlay._chat_mode is False
 
 
-def test_chat_scroll_moves_without_rerendering():
+def _set_fake_line_height(monkeypatch, linespace):
+    import tkinter.font as tkfont
+
+    class FakeFont:
+        def __init__(self, **kwargs):
+            assert kwargs == {'font': 'fake-font'}
+
+        def metrics(self, name):
+            assert name == 'linespace'
+            return linespace
+
+    monkeypatch.setattr(tkfont, 'Font', FakeFont)
+
+
+def test_chat_scroll_moves_without_rerendering(monkeypatch):
+    _set_fake_line_height(monkeypatch, 12)
     overlay = Overlay()
+    overlay._root = _FakeRoot()
     chat = _FakeChatText()
     overlay._chat_text = chat
     entries = (('question', 'Pregunta'), ('answer', 'Respuesta'))
@@ -407,8 +445,72 @@ def test_chat_scroll_moves_without_rerendering():
 
     overlay._apply(ChatState(entries, (0, 0, 300, 200), True, scroll=3))
 
-    assert chat.yview_scrolls == [(3, 'units')]
+    assert overlay._root.after_calls[0][1] == 15
+    for _ in range(6):
+        overlay._root.run_next()
+    assert len(chat.yview_scrolls) == 6
+    assert all(what == 'pixels' for _, what in chat.yview_scrolls)
+    assert sum(amount for amount, _ in chat.yview_scrolls) == 3 * 12
     assert chat.deleted == deleted
+
+
+def test_chat_scroll_cancels_and_accumulates(monkeypatch):
+    _set_fake_line_height(monkeypatch, 10)
+    overlay = Overlay()
+    overlay._root = _FakeRoot()
+    chat = _FakeChatText()
+    overlay._chat_text = chat
+    entries = (('question', 'Pregunta'), ('answer', 'Respuesta'))
+    overlay._apply(ChatState(entries, (0, 0, 300, 200), True))
+
+    overlay._apply(ChatState(entries, (0, 0, 300, 200), True, scroll=3))
+    overlay._root.run_next()
+    pending_after_id = overlay._root.after_calls[0][0]
+    overlay._apply(ChatState(entries, (0, 0, 300, 200), True, scroll=2))
+
+    assert pending_after_id in overlay._root.after_cancel_calls
+    assert len(overlay._root.after_calls) == 1
+    for _ in range(6):
+        overlay._root.run_next()
+    assert sum(amount for amount, _ in chat.yview_scrolls) == 5 * 10
+    assert len(chat.yview_scrolls) == 7
+
+
+def test_chat_scroll_falls_back_to_units_on_tcl_error(monkeypatch):
+    _set_fake_line_height(monkeypatch, 16)
+    overlay = Overlay()
+    overlay._root = _FakeRoot()
+    chat = _FakeChatText()
+    chat.raise_pixel_scroll = True
+    overlay._chat_text = chat
+    entries = (('question', 'Pregunta'), ('answer', 'Respuesta'))
+    overlay._apply(ChatState(entries, (0, 0, 300, 200), True))
+
+    overlay._apply(ChatState(entries, (0, 0, 300, 200), True, scroll=3))
+    overlay._root.run_next()
+
+    assert chat.yview_scrolls == [(8, 'pixels'), (3, 'units')]
+    assert overlay._scroll_after_id is None
+    assert overlay._root.after_calls == []
+
+
+def test_rendering_chat_cancels_scroll_animation(monkeypatch):
+    _set_fake_line_height(monkeypatch, 12)
+    overlay = Overlay()
+    overlay._root = _FakeRoot()
+    chat = _FakeChatText()
+    overlay._chat_text = chat
+    entries = (('question', 'Pregunta'), ('answer', 'Respuesta'))
+    overlay._apply(ChatState(entries, (0, 0, 300, 200), True))
+    overlay._apply(ChatState(entries, (0, 0, 300, 200), True, scroll=3))
+    pending_after_id = overlay._root.after_calls[0][0]
+
+    overlay._apply(ChatState(entries + (('answer', 'Nueva respuesta'),),
+                             (0, 0, 300, 200), True))
+
+    assert pending_after_id in overlay._root.after_cancel_calls
+    assert overlay._root.after_calls == []
+    assert 'Nueva respuesta' in chat.text
 
 
 def test_answer_labels_and_bullets_have_separate_tags():

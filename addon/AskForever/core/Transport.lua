@@ -288,7 +288,7 @@ function Transport.IsBusy()
     return state.pages ~= nil
 end
 
-local function StartTransmission(message)
+local function StartTransmission(message, kind)
     if type(AskForeverDB) ~= 'table' then
         AskForeverDB = {}
     end
@@ -306,7 +306,11 @@ local function StartTransmission(message)
     end
 
     state.pages = pages
-    state.totalSteps = math.max(#pages * LOOPS, MIN_STEPS)
+    if kind == 'ui' then
+        state.totalSteps = math.max(#pages, 2)
+    else
+        state.totalSteps = math.max(#pages * LOOPS, MIN_STEPS)
+    end
     state.step = 0
     state.paused = false
     ShowPage()
@@ -345,7 +349,7 @@ function Transport.Send(question, ctx, conv, kind, extra)
     end
 
     local message = Transport.BuildMessage(question, ctx, conv, kind, extra)
-    local result, reason = StartTransmission(message)
+    local result, reason = StartTransmission(message, kind)
     state.starting = false
     return result, reason
 end
@@ -395,7 +399,7 @@ function Transport.SendUi(event, amount)
         conv = AskForeverDB.transport.conv
     end
     state.pendingUi = nil
-    return StartTransmission(Transport.BuildMessage('', nil, conv, 'ui', extra))
+    return StartTransmission(Transport.BuildMessage('', nil, conv, 'ui', extra), 'ui')
 end
 
 local eventFrame = CreateFrame('Frame')

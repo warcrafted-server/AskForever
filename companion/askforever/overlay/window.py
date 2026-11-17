@@ -31,6 +31,7 @@ ERROR_COLOUR = '#ff6b62'
 
 
 VISIBLE_ALPHA = 0.94
+CHAT_ALPHA = 1.0
 
 SW_SHOWNOACTIVATE = 4
 HWND_TOPMOST = -1
@@ -192,6 +193,11 @@ class Overlay:
         self._body_label = None
         self._chat_text = None
         self._rendered_chat_entries = None
+        self._scroll_after_id = None
+        self._scroll_remaining_pixels = 0
+        self._scroll_fallback_lines = 0.0
+        self._scroll_steps_remaining = 0
+        self._scroll_line_height = 16
         self._title_visible = False
         self._expires_at = None
         self._state_active = False
@@ -418,7 +424,7 @@ class Overlay:
         self._use_chat_layout(True)
         scroll = getattr(state, 'scroll', 0)
         if scroll and entries == self._rendered_chat_entries and self._chat_text is not None:
-            self._chat_text.yview_scroll(scroll, 'units')
+            self._scroll_chat(scroll)
         else:
             self._render_chat(entries)
         if visible:
@@ -447,6 +453,7 @@ class Overlay:
                                        before=self._body_label)
 
     def _render_chat(self, entries) -> None:
+        self._cancel_scroll_animation()
         widget = self._chat_text
         if widget is None:
             return
@@ -475,6 +482,73 @@ class Overlay:
             widget.see('end')
         else:
             widget.yview(last_question_index)
+
+    def _cancel_scroll_animation(self) -> None:
+        if self._scroll_after_id is not None:
+            try:
+                self._root.after_cancel(self._scroll_after_id)
+            except Exception:
+                pass
+        self._scroll_after_id = None
+        self._scroll_remaining_pixels = 0
+        self._scroll_fallback_lines = 0.0
+        self._scroll_steps_remaining = 0
+
+    def _scroll_chat(self, lines: int) -> None:
+        import tkinter.font as tkfont
+
+        widget = self._chat_text
+        try:
+            line_height = tkfont.Font(font=widget.cget('font')).metrics('linespace')
+            if not isinstance(line_height, int) or line_height <= 0:
+                line_height = 16
+        except Exception:
+            line_height = 16
+
+        remaining_pixels = self._scroll_remaining_pixels
+        remaining_lines = self._scroll_fallback_lines
+        self._cancel_scroll_callback()
+        self._scroll_remaining_pixels = remaining_pixels + lines * line_height
+        self._scroll_fallback_lines = remaining_lines + lines
+        self._scroll_line_height = line_height
+        self._scroll_steps_remaining = 6
+        self._schedule_scroll_step()
+
+    def _cancel_scroll_callback(self) -> None:
+        if self._scroll_after_id is not None:
+            try:
+                self._root.after_cancel(self._scroll_after_id)
+            except Exception:
+                pass
+        self._scroll_after_id = None
+
+    def _schedule_scroll_step(self) -> None:
+        self._scroll_after_id = self._root.after(15, self._scroll_animation_step)
+
+    def _scroll_animation_step(self) -> None:
+        import tkinter as tk
+
+        self._scroll_after_id = None
+        steps = self._scroll_steps_remaining
+        if steps <= 0:
+            return
+        pixels = int(round(self._scroll_remaining_pixels / steps))
+        try:
+            self._chat_text.yview_scroll(pixels, 'pixels')
+        except tk.TclError:
+            fallback_lines = int(round(self._scroll_fallback_lines))
+            self._cancel_scroll_animation()
+            if fallback_lines:
+                self._chat_text.yview_scroll(fallback_lines, 'units')
+            return
+
+        self._scroll_remaining_pixels -= pixels
+        self._scroll_fallback_lines -= pixels / self._scroll_line_height
+        self._scroll_steps_remaining -= 1
+        if self._scroll_steps_remaining:
+            self._schedule_scroll_step()
+        else:
+            self._cancel_scroll_animation()
 
     @staticmethod
     def _insert_answer(widget, text) -> None:
@@ -530,7 +604,7 @@ class Overlay:
             self._set_topmost()
             if (self._state_active and self._visible_requested
                     and not self._expired() and self._visible_allowed()):
-                self._set_alpha(VISIBLE_ALPHA)
+                self._set_alpha(CHAT_ALPHA if self._chat_mode else VISIBLE_ALPHA)
             else:
                 self._set_alpha(0.0)
         except Exception:
