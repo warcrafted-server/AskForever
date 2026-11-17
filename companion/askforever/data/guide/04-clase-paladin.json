@@ -1237,6 +1237,1285 @@
         "section:b07086cea79a600fea410483650d49bcc16be54c",
         "section:b57620293c5e08723d5f9c042e8c86a9cc5a56d9"
       ]
+    },
+    {
+      "id": "clase-paladin-build-sagrado-pve-banda",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Sagrado para banda",
+      "title_en": "Holy PvE Raid Build",
+      "summary_es": "Potencia la sanación de banda con Vigilia de la Luz y añade utilidad de Protección y Reprensión.",
+      "summary_en": "Maximizes group healing through Light’s Vigil with Protection and Retribution utility.",
+      "keywords_es": [
+        "build paladín sagrado jce",
+        "talentos paladín sagrado",
+        "puntos build paladín sagrado"
+      ],
+      "keywords_en": [
+        "paladin sagrado build",
+        "paladin sagrado talents",
+        "paladin sagrado talent points"
+      ],
+      "text_es": "Rama de Sagrado: Luz sin límites 2/2, Favor divino 1/1, Precisión divina 2/2, Luz curativa 3/3, Poder Sagrado 5/5, Choque Sagrado 1/1, Iluminación 5/5, Infusión de Luz 2/2, Vigilia de la Luz 1/1, Juramento de luz 1/1, Poder purificador 1/2, Reverencia 2/2, Enfoque espiritual 5/5. Rama de Protección: Intelecto divino 5/5, Deber sagrado 2/2. Rama de Reprensión: Oración 5/5, Convicción 3/3, Búsqueda de justicia 2/2, Sentencia santificada 3/3. La ruta alcanza Vigilia de la Luz y añade mejoras de sanación; los puntos finales aportan utilidad.",
+      "text_en": "Holy: Boundless Light 2/2, Divine Favor 1/1, Divine Precision 2/2, Healing Light 3/3, Holy Power 5/5, Holy Shock 1/1, Illumination 5/5, Infusion of Light 2/2, Light's Vigil 1/1, Oath of Light 1/1, Purifying Power 1/2, Reverence 2/2, Spiritual Focus 5/5. Protection: Divine Intellect 5/5, Sacred Duty 2/2. Retribution: Benediction 5/5, Conviction 3/3, Pursuit of Justice 2/2, Sanctified Judgement 3/3. The route reaches Light’s Vigil and healing increases, then uses the last points for utility.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Holy Paladin Talent Tree Builds - WoW: Forever › Best Holy Paladin PvE Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:holy:talents"
+      ],
+      "source_hashes": [
+        "section:ced35d1b188702e9186a7062770ae6f3ed6e9483"
+      ]
+    },
+    {
+      "id": "clase-paladin-build-sagrado-pve-mazmorra",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Sagrado para mazmorras",
+      "title_en": "Holy PvE Dungeon Build",
+      "summary_es": "Incluye talentos de Consagración para apoyar el daño de área en mazmorras.",
+      "summary_en": "Adds Consecration talents to support dungeon AoE damage.",
+      "keywords_es": [
+        "build paladín sagrado jce",
+        "talentos paladín sagrado",
+        "puntos build paladín sagrado"
+      ],
+      "keywords_en": [
+        "paladin sagrado build",
+        "paladin sagrado talents",
+        "paladin sagrado talent points"
+      ],
+      "text_es": "Rama de Sagrado: Luz sin límites 2/2, Suelo consagrado 2/2, Favor divino 1/1, Precisión divina 2/2, Luz curativa 3/3, Conducto Sagrado 2/2, Poder Sagrado 5/5, Choque Sagrado 1/1, Iluminación 5/5, Infusión de Luz 2/2, Vigilia de la Luz 1/1, Juramento de luz 1/1, Reverencia 2/2, Enfoque espiritual 5/5. Rama de Protección: Intelecto divino 5/5. Rama de Reprensión: Oración 5/5, Convicción 3/3, Sentencia mejorada 2/2, Búsqueda de justicia 2/2. Los puntos de Suelo consagrado aumentan el aporte de área sin abandonar el núcleo sanador.",
+      "text_en": "Holy: Boundless Light 2/2, Consecrated Ground 2/2, Divine Favor 1/1, Divine Precision 2/2, Healing Light 3/3, Holy Conduit 2/2, Holy Power 5/5, Holy Shock 1/1, Illumination 5/5, Infusion of Light 2/2, Light's Vigil 1/1, Oath of Light 1/1, Reverence 2/2, Spiritual Focus 5/5. Protection: Divine Intellect 5/5. Retribution: Benediction 5/5, Conviction 3/3, Improved Judgement 2/2, Pursuit of Justice 2/2. Consecrated Ground adds AoE while preserving the healing core.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Holy Paladin Talent Tree Builds - WoW: Forever › Best Holy Paladin PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:holy:talents"
+      ],
+      "source_hashes": [
+        "section:cec97cd2eeb1370f4edf2c642d739c6c32c7ea50"
+      ]
+    },
+    {
+      "id": "clase-paladin-build-sagrado-pvp",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Sagrado JcJ",
+      "title_en": "Holy PvP Build",
+      "summary_es": "Refuerza el poder purificador y el apoyo defensivo para jugar contra otros jugadores.",
+      "summary_en": "Improves purification and defensive support for player-versus-player combat.",
+      "keywords_es": [
+        "build paladín sagrado jcj",
+        "talentos paladín sagrado",
+        "puntos build paladín sagrado"
+      ],
+      "keywords_en": [
+        "paladin sagrado build",
+        "paladin sagrado talents",
+        "paladin sagrado talent points"
+      ],
+      "text_es": "Rama de Sagrado: Luz sin límites 2/2, Favor divino 1/1, Precisión divina 2/2, Luz curativa 3/3, Poder Sagrado 5/5, Choque Sagrado 1/1, Iluminación 5/5, Infusión de Luz 2/2, Vigilia de la Luz 1/1, Juramento de luz 1/1, Poder purificador 2/2, Reverencia 2/2, Enfoque espiritual 5/5. Rama de Protección: Intelecto divino 5/5, Favor del Guardián 2/2. Rama de Reprensión: Oración 5/5, Convicción 3/3, Sentencia mejorada 2/2, Búsqueda de justicia 2/2. Poder purificador 2/2 y Favor del Guardián 2/2 añaden herramientas defensivas y ofensivas.",
+      "text_en": "Holy: Boundless Light 2/2, Divine Favor 1/1, Divine Precision 2/2, Healing Light 3/3, Holy Power 5/5, Holy Shock 1/1, Illumination 5/5, Infusion of Light 2/2, Light's Vigil 1/1, Oath of Light 1/1, Purifying Power 2/2, Reverence 2/2, Spiritual Focus 5/5. Protection: Divine Intellect 5/5, Guardian's Favor 2/2. Retribution: Benediction 5/5, Conviction 3/3, Improved Judgement 2/2, Pursuit of Justice 2/2. Purifying Power 2/2 and Guardian’s Favor 2/2 add offensive and defensive options.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Holy Paladin Talent Tree Builds - WoW: Forever › Best Holy Paladin PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:holy:talents"
+      ],
+      "source_hashes": [
+        "section:4186c5a114fd545badbc26a4d8964c4a9b6e380c"
+      ]
+    },
+    {
+      "id": "clase-paladin-build-proteccion-estandar",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build estándar de Protección",
+      "title_en": "Standard Protection Build",
+      "summary_es": "Elección equilibrada: defensa fluida con utilidad ofensiva; adapta Dureza según tu equipo.",
+      "summary_en": "Balanced choice: smooth defense with offensive utility; adjust Toughness to your gear.",
+      "keywords_es": [
+        "build paladín proteccion talentos",
+        "talentos paladín proteccion",
+        "puntos build paladín proteccion"
+      ],
+      "keywords_en": [
+        "paladin proteccion build",
+        "paladin proteccion talents",
+        "paladin proteccion talent points"
+      ],
+      "text_es": "Rama de Protección: Anticipación 5/5, Escudo Sagrado 1/1, Furia justa mejorada 3/3, Credo férreo 3/3, Precisión 3/3, La hora de la verdad 5/5, Baluarte 5/5, Deber sagrado 2/2, Especialización en escudos 2/2, Juramento de escudo 1/1, Juicio presto 1/1, Baluarte de templario 1/1, Dureza 3/5. Rama de Reprensión: Convicción 3/3, Desvío 5/5, Sentencia mejorada 2/2, Búsqueda de justicia 2/2, Enjuiciador Sagrado 1/1, Sentencia santificada 3/3. Anticipación suaviza el daño recibido. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Protection: Anticipation 5/5, Holy Shield 1/1, Improved Righteous Fury 3/3, Iron Creed 3/3, Precision 3/3, Reckoning 5/5, Redoubt 5/5, Sacred Duty 2/2, Shield Specialization 2/2, Shieldsworn 1/1, Swift Judgement 1/1, Templar's Bulwark 1/1, Toughness 3/5. Retribution: Conviction 3/3, Deflection 5/5, Improved Judgement 2/2, Pursuit of Justice 2/2, Sacred Arbiter 1/1, Sanctified Judgement 3/3. Anticipation smooths incoming damage. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Paladin Talent Tree Builds - WoW:  Forever › Standard Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Attribute and Stat Guide - WoW: Forever › Defense Rating",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/stat-priority-pve-tank",
+          "date": "2026-10-28"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:protection:stats",
+        "class:paladin:protection:talents"
+      ],
+      "source_hashes": [
+        "section:5c96f5a98e19f61e93347135fad01ca3a127a3bd",
+        "section:fd149a608ef1507bfbcbc646dc051d6c557f3a05"
+      ]
+    },
+    {
+      "id": "clase-paladin-build-proteccion-shock",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Protección con Choque Sagrado",
+      "title_en": "Shockprot Build",
+      "summary_es": "Aumenta amenaza a un objetivo con Choque Sagrado, a cambio de parte de la defensa y más maná.",
+      "summary_en": "Raises single-target threat with Holy Shock, trading away some defense and mana.",
+      "keywords_es": [
+        "build paladín proteccion talentos",
+        "talentos paladín proteccion",
+        "puntos build paladín proteccion"
+      ],
+      "keywords_en": [
+        "paladin proteccion build",
+        "paladin proteccion talents",
+        "paladin proteccion talent points"
+      ],
+      "text_es": "Rama de Sagrado: Suelo consagrado 2/2, Favor divino 1/1, Precisión divina 2/2, Fuerza divina 5/5, Conducto Sagrado 2/2, Choque Sagrado 1/1, Iluminación 1/5, Sellos mejorados 5/5, Poder purificador 2/2, Reverencia 2/2. Rama de Protección: Anticipación 1/5, Escudo Sagrado 1/1, Furia justa mejorada 3/3, Credo férreo 2/3, Precisión 3/3, La hora de la verdad 5/5, Baluarte 5/5, Deber sagrado 2/2, Especialización en escudos 2/2, Juicio presto 1/1, Baluarte de templario 1/1, Dureza 2/5.  Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Holy: Consecrated Ground 2/2, Divine Favor 1/1, Divine Precision 2/2, Divine Strength 5/5, Holy Conduit 2/2, Holy Shock 1/1, Illumination 1/5, Improved Seals 5/5, Purifying Power 2/2, Reverence 2/2. Protection: Anticipation 1/5, Holy Shield 1/1, Improved Righteous Fury 3/3, Iron Creed 2/3, Precision 3/3, Reckoning 5/5, Redoubt 5/5, Sacred Duty 2/2, Shield Specialization 2/2, Swift Judgement 1/1, Templar's Bulwark 1/1, Toughness 2/5.  Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Paladin Talent Tree Builds - WoW:  Forever › Shockprot Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Attribute and Stat Guide - WoW: Forever › Defense Rating",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/stat-priority-pve-tank",
+          "date": "2026-10-28"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:protection:stats",
+        "class:paladin:protection:talents"
+      ],
+      "source_hashes": [
+        "section:7daf09ec9d23fd5c577d7275b0b754f653392ff0",
+        "section:fd149a608ef1507bfbcbc646dc051d6c557f3a05"
+      ]
+    },
+    {
+      "id": "clase-paladin-build-proteccion-hibrida-reprension",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build híbrida Protección/Reprensión",
+      "title_en": "Retprot Build",
+      "summary_es": "Aporta amenaza de tanque y daño de área mediante talentos de Reprensión.",
+      "summary_en": "Combines tank threat and AoE damage through Retribution talents.",
+      "keywords_es": [
+        "build paladín proteccion talentos",
+        "talentos paladín proteccion",
+        "puntos build paladín proteccion"
+      ],
+      "keywords_en": [
+        "paladin proteccion build",
+        "paladin proteccion talents",
+        "paladin proteccion talent points"
+      ],
+      "text_es": "Rama de Protección: Anticipación 1/5, Escudo Sagrado 1/1, Furia justa mejorada 3/3, Precisión 3/3, Baluarte 5/5, Deber sagrado 2/2, Especialización en escudos 2/2, Juicio presto 1/1, Baluarte de templario 1/1, Dureza 2/5. Rama de Reprensión: Oración 2/5, Campeón de la Luz 5/5, Convicción 3/3, Desvío 5/5, Sentencia mejorada 2/2, Búsqueda de justicia 2/2, Enjuiciador Sagrado 1/1, Sentencia santificada 3/3, Sello de orden 1/1, Venganza 3/3, Reivindicación 3/3.  Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Protection: Anticipation 1/5, Holy Shield 1/1, Improved Righteous Fury 3/3, Precision 3/3, Redoubt 5/5, Sacred Duty 2/2, Shield Specialization 2/2, Swift Judgement 1/1, Templar's Bulwark 1/1, Toughness 2/5. Retribution: Benediction 2/5, Champion of the Light 5/5, Conviction 3/3, Deflection 5/5, Improved Judgement 2/2, Pursuit of Justice 2/2, Sacred Arbiter 1/1, Sanctified Judgement 3/3, Seal of Command 1/1, Vengeance 3/3, Vindication 3/3.  Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Paladin Talent Tree Builds - WoW:  Forever › Retprot Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Attribute and Stat Guide - WoW: Forever › Defense Rating",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/stat-priority-pve-tank",
+          "date": "2026-10-28"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:protection:stats",
+        "class:paladin:protection:talents"
+      ],
+      "source_hashes": [
+        "section:59eb473a4e05ba2e4e80d7b13d9151315f0e8ad9",
+        "section:fd149a608ef1507bfbcbc646dc051d6c557f3a05"
+      ]
+    },
+    {
+      "id": "clase-paladin-build-proteccion-segundo-tanque",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build ofensiva de segundo tanque",
+      "title_en": "Offensive Off-Tank Build",
+      "summary_es": "Una opción de daño para peleas donde no hace falta mantener un segundo tanque todo el tiempo.",
+      "summary_en": "A damage option for encounters that do not need a second tank at all times.",
+      "keywords_es": [
+        "build paladín proteccion talentos",
+        "talentos paladín proteccion",
+        "puntos build paladín proteccion"
+      ],
+      "keywords_en": [
+        "paladin proteccion build",
+        "paladin proteccion talents",
+        "paladin proteccion talent points"
+      ],
+      "text_es": "Rama de Sagrado: Suelo consagrado 2/2, Favor divino 1/1, Precisión divina 2/2, Fuerza divina 5/5, Conducto Sagrado 2/2, Choque Sagrado 1/1, Iluminación 1/5, Sellos mejorados 5/5, Poder purificador 2/2, Reverencia 2/2. Rama de Reprensión: Oración 5/5, Campeón de la Luz 3/5, Convicción 3/3, Desvío 5/5, Sentencia mejorada 2/2, Búsqueda de justicia 2/2, Enjuiciador Sagrado 1/1, Sentencia santificada 3/3, Sello de orden 1/1, Venganza 3/3.  Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Holy: Consecrated Ground 2/2, Divine Favor 1/1, Divine Precision 2/2, Divine Strength 5/5, Holy Conduit 2/2, Holy Shock 1/1, Illumination 1/5, Improved Seals 5/5, Purifying Power 2/2, Reverence 2/2. Retribution: Benediction 5/5, Champion of the Light 3/5, Conviction 3/3, Deflection 5/5, Improved Judgement 2/2, Pursuit of Justice 2/2, Sacred Arbiter 1/1, Sanctified Judgement 3/3, Seal of Command 1/1, Vengeance 3/3.  Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Paladin Talent Tree Builds - WoW:  Forever › Offensive Off-Tank Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Attribute and Stat Guide - WoW: Forever › Defense Rating",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/stat-priority-pve-tank",
+          "date": "2026-10-28"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:protection:stats",
+        "class:paladin:protection:talents"
+      ],
+      "source_hashes": [
+        "section:bb95d260d589bba87c29bb2fbd1c8db3e01a91f7",
+        "section:fd149a608ef1507bfbcbc646dc051d6c557f3a05"
+      ]
+    },
+    {
+      "id": "clase-paladin-build-proteccion-mazmorras",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Protección para mazmorras",
+      "title_en": "Protection Dungeon Build",
+      "summary_es": "Prioriza movilidad y herramientas útiles en mazmorra frente a la defensa de banda.",
+      "summary_en": "Prioritizes mobility and dungeon utility over raid defense.",
+      "keywords_es": [
+        "build paladín proteccion talentos",
+        "talentos paladín proteccion",
+        "puntos build paladín proteccion"
+      ],
+      "keywords_en": [
+        "paladin proteccion build",
+        "paladin proteccion talents",
+        "paladin proteccion talent points"
+      ],
+      "text_es": "Rama de Protección: Favor del Guardián 2/2, Escudo Sagrado 1/1, Furia justa mejorada 3/3, Credo férreo 3/3, Precisión 3/3, La hora de la verdad 5/5, Baluarte 5/5, Deber sagrado 2/2, Especialización en escudos 2/2, Juramento de escudo 1/1, Juicio presto 1/1, Baluarte de templario 1/1, Dureza 3/5. Rama de Reprensión: Convicción 3/3, Desvío 5/5, Sentencia mejorada 2/2, Búsqueda de justicia 2/2, Enjuiciador Sagrado 1/1, Sentencia santificada 3/3, Reivindicación 3/3.  Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Protection: Guardian's Favor 2/2, Holy Shield 1/1, Improved Righteous Fury 3/3, Iron Creed 3/3, Precision 3/3, Reckoning 5/5, Redoubt 5/5, Sacred Duty 2/2, Shield Specialization 2/2, Shieldsworn 1/1, Swift Judgement 1/1, Templar's Bulwark 1/1, Toughness 3/5. Retribution: Conviction 3/3, Deflection 5/5, Improved Judgement 2/2, Pursuit of Justice 2/2, Sacred Arbiter 1/1, Sanctified Judgement 3/3, Vindication 3/3.  Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Paladin Talent Tree Builds - WoW:  Forever › Best Protection Paladin PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Attribute and Stat Guide - WoW: Forever › Defense Rating",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/stat-priority-pve-tank",
+          "date": "2026-10-28"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:protection:stats",
+        "class:paladin:protection:talents"
+      ],
+      "source_hashes": [
+        "section:d1c5d0df1c558391aabbcfbec5f201ea089597f8",
+        "section:fd149a608ef1507bfbcbc646dc051d6c557f3a05"
+      ]
+    },
+    {
+      "id": "clase-paladin-build-proteccion-pvp",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Protección JcJ con Choque Sagrado",
+      "title_en": "Protection PvP Shockadin Build",
+      "summary_es": "Combina ráfaga de Choque Sagrado con apoyo de sanación secundaria y supervivencia.",
+      "summary_en": "Combines Holy Shock burst with off-healing and survival.",
+      "keywords_es": [
+        "build paladín proteccion jcj",
+        "talentos paladín proteccion",
+        "puntos build paladín proteccion"
+      ],
+      "keywords_en": [
+        "paladin proteccion build",
+        "paladin proteccion talents",
+        "paladin proteccion talent points"
+      ],
+      "text_es": "Rama de Sagrado: Suelo consagrado 2/2, Favor divino 1/1, Precisión divina 2/2, Luz curativa 3/3, Choque Sagrado 1/1, Sellos mejorados 5/5, Poder purificador 2/2, Reverencia 2/2, Enfoque espiritual 5/5. Rama de Protección: Intelecto divino 5/5, Favor del Guardián 2/2, Escudo Sagrado 1/1, Martillo de justicia mejorado 3/3, Furia justa mejorada 3/3, Precisión 3/3, La hora de la verdad 5/5, Deber sagrado 2/2, Estoicismo 2/2, Juicio presto 1/1, Baluarte de templario 1/1. Juicio presto reinicia Sentencia. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Holy: Consecrated Ground 2/2, Divine Favor 1/1, Divine Precision 2/2, Healing Light 3/3, Holy Shock 1/1, Improved Seals 5/5, Purifying Power 2/2, Reverence 2/2, Spiritual Focus 5/5. Protection: Divine Intellect 5/5, Guardian's Favor 2/2, Holy Shield 1/1, Improved Hammer of Justice 3/3, Improved Righteous Fury 3/3, Precision 3/3, Reckoning 5/5, Sacred Duty 2/2, Stoicism 2/2, Swift Judgement 1/1, Templar's Bulwark 1/1.  Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Paladin Talent Tree Builds - WoW:  Forever › Best Protection Paladin PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Attribute and Stat Guide - WoW: Forever › Defense Rating",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/stat-priority-pve-tank",
+          "date": "2026-10-28"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:protection:stats",
+        "class:paladin:protection:talents"
+      ],
+      "source_hashes": [
+        "section:fac1681ec7467c108e7c97cf44ed3153ec2178ea",
+        "section:fd149a608ef1507bfbcbc646dc051d6c557f3a05"
+      ]
+    },
+    {
+      "id": "clase-paladin-build-represion-pve-unsealed",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Reprensión PvE de Cólera desellada",
+      "title_en": "Retribution Unsealed Wrath PvE Build",
+      "summary_es": "Build de dos manos lentas que alterna Sello de orden y Sello de rectitud.",
+      "summary_en": "Slow two-handed build that swaps between Seal of Command and Seal of Righteousness.",
+      "keywords_es": [
+        "build paladín represion jce",
+        "talentos paladín represion",
+        "puntos build paladín represion"
+      ],
+      "keywords_en": [
+        "paladin represion build",
+        "paladin represion talents",
+        "paladin represion talent points"
+      ],
+      "text_es": "Rama de Sagrado: Fuerza divina 5/5, Conducto Sagrado 2/2, Sellos mejorados 5/5. Rama de Protección: Intelecto divino 5/5, Precisión 3/3. Rama de Reprensión: Oración 5/5, Campeón de la Luz 5/5, Convicción 3/3, Sentencia mejorada 2/2, Búsqueda de justicia 2/2, Arrepentimiento 1/1, Enjuiciador Sagrado 1/1, Sentencia santificada 3/3, Sello de orden 1/1, Especialización en armas de dos manos 3/3, Cólera desellada 1/1, Fe implacable 1/2, Venganza 3/3. Enjuiciador Sagrado mantiene efectos de Sentencia; Campeón de la Luz escala con intelecto. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Holy: Divine Strength 5/5, Holy Conduit 2/2, Improved Seals 5/5. Protection: Divine Intellect 5/5, Precision 3/3. Retribution: Benediction 5/5, Champion of the Light 5/5, Conviction 3/3, Improved Judgement 2/2, Pursuit of Justice 2/2, Repentance 1/1, Sacred Arbiter 1/1, Sanctified Judgement 3/3, Seal of Command 1/1, Two-Handed Weapon Specialization 3/3, Unsealed Wrath 1/1, Unyielding Faith 1/2, Vengeance 3/3. Sacred Arbiter refreshes Judgement effects; Champion of the Light scales with Intellect. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Retribution Paladin Talent Tree Builds - WoW: Forever › Retribution (Unsealed Wrath) PvE DPS Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/talent-builds-pve-dps",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Guide - WoW: Forever › Viability of Retribution Paladins in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/overview-pve-dps",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:retribution:overview",
+        "class:paladin:retribution:talents"
+      ],
+      "source_hashes": [
+        "section:184c5d3524a4c508fbe95f2d0c76d182f7c383ee",
+        "section:6eec4bf14a594c37dcd26a8311729531f8e28c68"
+      ]
+    },
+    {
+      "id": "clase-paladin-build-represion-pve-shock",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build híbrida Reprensión/Sagrado PvE",
+      "title_en": "Retribution Holy Shock PvE Build",
+      "summary_es": "Usa armas rápidas y Sello de rectitud; ofrece daño de área y sanación de apoyo.",
+      "summary_en": "Uses faster weapons and Seal of Righteousness for AoE and off-healing.",
+      "keywords_es": [
+        "build paladín represion jce",
+        "talentos paladín represion",
+        "puntos build paladín represion"
+      ],
+      "keywords_en": [
+        "paladin represion build",
+        "paladin represion talents",
+        "paladin represion talent points"
+      ],
+      "text_es": "Rama de Sagrado: Suelo consagrado 2/2, Favor divino 1/1, Precisión divina 2/2, Fuerza divina 5/5, Conducto Sagrado 2/2, Choque Sagrado 1/1, Sellos mejorados 5/5, Infusión de Luz 1/2, Poder purificador 2/2, Reverencia 2/2. Rama de Reprensión: Oración 5/5, Campeón de la Luz 3/5, Convicción 3/3, Sentencia mejorada 2/2, Búsqueda de justicia 2/2, Enjuiciador Sagrado 1/1, Sentencia santificada 3/3, Sello de orden 1/1, Especialización en armas de dos manos 3/3, Venganza 3/3, Reivindicación 2/3.  Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Holy: Consecrated Ground 2/2, Divine Favor 1/1, Divine Precision 2/2, Divine Strength 5/5, Holy Conduit 2/2, Holy Shock 1/1, Improved Seals 5/5, Infusion of Light 1/2, Purifying Power 2/2, Reverence 2/2. Retribution: Benediction 5/5, Champion of the Light 3/5, Conviction 3/3, Improved Judgement 2/2, Pursuit of Justice 2/2, Sacred Arbiter 1/1, Sanctified Judgement 3/3, Seal of Command 1/1, Two-Handed Weapon Specialization 3/3, Vengeance 3/3, Vindication 2/3.  Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Retribution Paladin Talent Tree Builds - WoW: Forever › Holy \"Shockadin\" PvE DPS Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/talent-builds-pve-dps",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Guide - WoW: Forever › Viability of Retribution Paladins in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/overview-pve-dps",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:retribution:overview",
+        "class:paladin:retribution:talents"
+      ],
+      "source_hashes": [
+        "section:184c5d3524a4c508fbe95f2d0c76d182f7c383ee",
+        "section:ffaaa89e6dd1c8566bbc0004f53d9aa449a6ca78"
+      ]
+    },
+    {
+      "id": "clase-paladin-build-represion-pvp-unsealed",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Reprensión JcJ de Cólera desellada",
+      "title_en": "Retribution Unsealed Wrath PvP Build",
+      "summary_es": "Mantiene la base de JcE con más defensa contra golpes críticos.",
+      "summary_en": "Keeps the PvE core with more defense against critical strikes.",
+      "keywords_es": [
+        "build paladín represion jcj",
+        "talentos paladín represion",
+        "puntos build paladín represion"
+      ],
+      "keywords_en": [
+        "paladin represion build",
+        "paladin represion talents",
+        "paladin represion talent points"
+      ],
+      "text_es": "Rama de Sagrado: Fuerza divina 5/5, Conducto Sagrado 2/2, Sellos mejorados 5/5. Rama de Protección: Intelecto divino 5/5, Precisión 3/3. Rama de Reprensión: Campeón de la Luz 5/5, Convicción 3/3, Desvío 5/5, Sentencia mejorada 2/2, Búsqueda de justicia 2/2, Arrepentimiento 1/1, Enjuiciador Sagrado 1/1, Sentencia santificada 3/3, Sello de orden 1/1, Especialización en armas de dos manos 3/3, Cólera desellada 1/1, Fe implacable 1/2, Venganza 3/3. Desvío reemplaza Oración; puedes ajustar para defensa o maná en combates largos. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Holy: Divine Strength 5/5, Holy Conduit 2/2, Improved Seals 5/5. Protection: Divine Intellect 5/5, Precision 3/3. Retribution: Champion of the Light 5/5, Conviction 3/3, Deflection 5/5, Improved Judgement 2/2, Pursuit of Justice 2/2, Repentance 1/1, Sacred Arbiter 1/1, Sanctified Judgement 3/3, Seal of Command 1/1, Two-Handed Weapon Specialization 3/3, Unsealed Wrath 1/1, Unyielding Faith 1/2, Vengeance 3/3. Deflection replaces Benediction; you can adjust for defense or mana in longer fights. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Retribution Paladin Talent Tree Builds - WoW: Forever › Retribution PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/talent-builds-pve-dps",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Guide - WoW: Forever › Viability of Retribution Paladins in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/overview-pve-dps",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:retribution:overview",
+        "class:paladin:retribution:talents"
+      ],
+      "source_hashes": [
+        "section:184c5d3524a4c508fbe95f2d0c76d182f7c383ee",
+        "section:f7cf7d2fb07e9669ce8b8bd4b64fddc374f0352d"
+      ]
+    },
+    {
+      "id": "clase-paladin-build-represion-pvp-shock",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build híbrida JcJ de Choque Sagrado",
+      "title_en": "Retribution Shockadin PvP Build",
+      "summary_es": "Aporta daño y sanación secundaria, pero depende de sostener el maná.",
+      "summary_en": "Provides damage and off-healing, but depends on sustaining mana.",
+      "keywords_es": [
+        "build paladín represion jcj",
+        "talentos paladín represion",
+        "puntos build paladín represion"
+      ],
+      "keywords_en": [
+        "paladin represion build",
+        "paladin represion talents",
+        "paladin represion talent points"
+      ],
+      "text_es": "Rama de Sagrado: Favor divino 1/1, Precisión divina 2/2, Luz curativa 1/3, Conducto Sagrado 2/2, Choque Sagrado 1/1, Sellos mejorados 5/5, Infusión de Luz 2/2, Reverencia 2/2, Enfoque espiritual 5/5. Rama de Reprensión: Campeón de la Luz 5/5, Convicción 3/3, Desvío 5/5, Sentencia mejorada 2/2, Búsqueda de justicia 2/2, Arrepentimiento 1/1, Enjuiciador Sagrado 1/1, Sentencia santificada 3/3, Sello de orden 1/1, Especialización en armas de dos manos 3/3, Venganza 3/3, Reivindicación 1/3.  Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Holy: Divine Favor 1/1, Divine Precision 2/2, Healing Light 1/3, Holy Conduit 2/2, Holy Shock 1/1, Improved Seals 5/5, Infusion of Light 2/2, Reverence 2/2, Spiritual Focus 5/5. Retribution: Champion of the Light 5/5, Conviction 3/3, Deflection 5/5, Improved Judgement 2/2, Pursuit of Justice 2/2, Repentance 1/1, Sacred Arbiter 1/1, Sanctified Judgement 3/3, Seal of Command 1/1, Two-Handed Weapon Specialization 3/3, Vengeance 3/3, Vindication 1/3.  Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Retribution Paladin Talent Tree Builds - WoW: Forever › Holy \"Shockadin\" Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/talent-builds-pve-dps",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Guide - WoW: Forever › Viability of Retribution Paladins in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/overview-pve-dps",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:retribution:overview",
+        "class:paladin:retribution:talents"
+      ],
+      "source_hashes": [
+        "section:184c5d3524a4c508fbe95f2d0c76d182f7c383ee",
+        "section:feeed618ed1a1afaf6340a18fe1a4bd6328b77f1"
+      ]
+    },
+    {
+      "id": "clase-paladin-stats-sagrado",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Sagrado a nivel 60",
+      "title_en": "Holy Level-60 Stats",
+      "summary_es": "Prioridad especulativa: sanación, intelecto, crítico y espíritu; el golpe no afecta a las curas.",
+      "summary_en": "Speculative order: healing, intellect, crit, and spirit; hit does not affect heals.",
+      "keywords_es": [
+        "prioridad estadísticas sagrado paladín",
+        "poder de sanación sagrado",
+        "intelecto crítico espíritu paladín"
+      ],
+      "keywords_en": [
+        "holy paladin stat priority",
+        "holy healing power",
+        "holy intellect crit spirit"
+      ],
+      "text_es": "Prioridad especulativa: poder de sanación > intelecto > golpe crítico > espíritu. Las curas no requieren golpe; Precisión divina cubre el golpe de los hechizos ofensivos. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Speculative priority: healing power > intellect > critical strike > spirit. Heals do not need hit; Divine Precision covers offensive spell hit. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Paladin Stat Priority & Attributes - WoW: Forever › Holy Paladin Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/stat-priority-pve-healer",
+          "date": "2026-10-29"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:holy:stats"
+      ],
+      "source_hashes": [
+        "section:87a602b46b76c9e79276f6db439077c984c8b201"
+      ]
+    },
+    {
+      "id": "clase-paladin-stats-proteccion-defensiva",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas defensivas de Protección",
+      "title_en": "Protection Defensive Stats",
+      "summary_es": "Para aguantar, prioriza aguante y defensa hasta 440 antes de añadir amenaza.",
+      "summary_en": "For survival, prioritize stamina and defense to 440 before adding threat.",
+      "keywords_es": [
+        "estadísticas defensivas paladín tanque",
+        "defensa 440 protección",
+        "aguante armadura bloqueo"
+      ],
+      "keywords_en": [
+        "protection defensive stats",
+        "paladin defense 440",
+        "stamina armor block"
+      ],
+      "text_es": "Prioridad defensiva: aguante > defensa hasta 440 > armadura > agilidad > bloqueo > defensa después de 440 > poder con hechizos > parada > esquiva > fuerza > golpe 8% (tope cuerpo a cuerpo) > pericia 6.5% (límite suave) > crítico > golpe 17% (tope de hechizos) > pericia 14% (límite duro) > celeridad > intelecto. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Defensive priority: stamina > defense to 440 > armor > agility > block chance > defense after 440 > spell power > parry > dodge > strength > hit 8% (melee cap) > expertise 6.5% (soft cap) > crit > hit 17% (spell cap) > expertise 14% (hard cap) > haste > intellect. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Attribute and Stat Guide - WoW: Forever › Defensive Priority",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/stat-priority-pve-tank",
+          "date": "2026-10-28"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Attribute and Stat Guide - WoW: Forever › Defense Rating",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/stat-priority-pve-tank",
+          "date": "2026-10-28"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:protection:stats"
+      ],
+      "source_hashes": [
+        "section:08f4b07c17f536d38b9c4bb5ca32d41496e4c3d2",
+        "section:fd149a608ef1507bfbcbc646dc051d6c557f3a05"
+      ]
+    },
+    {
+      "id": "clase-paladin-stats-proteccion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas equilibradas de Protección",
+      "title_en": "Protection Balanced Stats",
+      "summary_es": "La prioridad equilibrada sirve como punto de partida entre supervivencia y amenaza.",
+      "summary_en": "Use the balanced order as a starting point between survival and threat.",
+      "keywords_es": [
+        "estadísticas equilibradas protección",
+        "amenaza y supervivencia tanque",
+        "prioridad paladín prot"
+      ],
+      "keywords_en": [
+        "protection balanced stats",
+        "paladin tank threat survival",
+        "protection paladin stat order"
+      ],
+      "text_es": "Prioridad equilibrada: aguante > poder con hechizos > golpe 8% (tope cuerpo a cuerpo) > defensa hasta 440 > armadura > pericia 6.5% (límite suave) > agilidad > bloqueo > defensa después de 440 > parada > esquiva > crítico > golpe 17% (tope de hechizos) > pericia 14% (límite duro) > celeridad > fuerza > intelecto. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Balanced priority: stamina > spell power > hit 8% (melee cap) > defense to 440 > armor > expertise 6.5% (soft cap) > agility > block chance > defense after 440 > parry > dodge > crit > hit 17% (spell cap) > expertise 14% (hard cap) > haste > strength > intellect. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Attribute and Stat Guide - WoW: Forever › Balanced Priority",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/stat-priority-pve-tank",
+          "date": "2026-10-28"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Attribute and Stat Guide - WoW: Forever › Defense Rating",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/stat-priority-pve-tank",
+          "date": "2026-10-28"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:protection:stats"
+      ],
+      "source_hashes": [
+        "section:a968956751c11c716de777351cf649276b7e8e99",
+        "section:fd149a608ef1507bfbcbc646dc051d6c557f3a05"
+      ]
+    },
+    {
+      "id": "clase-paladin-stats-proteccion-ofensiva",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas ofensivas de Protección",
+      "title_en": "Protection Offensive Stats",
+      "summary_es": "Para aumentar amenaza, sube poder con hechizos y alcanza primero los topes de golpe y pericia.",
+      "summary_en": "For more threat, raise spell power and reach hit and expertise caps first.",
+      "keywords_es": [
+        "estadísticas amenaza protección",
+        "poder con hechizos tanque paladín",
+        "golpe y pericia protección"
+      ],
+      "keywords_en": [
+        "protection threat stats",
+        "paladin tank spell power",
+        "protection hit expertise"
+      ],
+      "text_es": "Prioridad ofensiva: poder con hechizos > golpe 8% (tope cuerpo a cuerpo) > pericia 6.5% (límite suave) > crítico > aguante > golpe 17% (tope de hechizos) > pericia 14% (límite duro) > celeridad > fuerza > agilidad > defensa antes de 440 > armadura > bloqueo > defensa después de 440 > parada > esquiva > intelecto. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Offensive priority: spell power > hit 8% (melee cap) > expertise 6.5% (soft cap) > crit > stamina > hit 17% (spell cap) > expertise 14% (hard cap) > haste > strength > agility > defense before 440 > armor > block chance > defense after 440 > parry > dodge > intellect. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Attribute and Stat Guide - WoW: Forever › Offensive Priority",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/stat-priority-pve-tank",
+          "date": "2026-10-28"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Attribute and Stat Guide - WoW: Forever › Defense Rating",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/stat-priority-pve-tank",
+          "date": "2026-10-28"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:protection:stats"
+      ],
+      "source_hashes": [
+        "section:6f54b724aa873dedadc830aa783ce64270184c72",
+        "section:fd149a608ef1507bfbcbc646dc051d6c557f3a05"
+      ]
+    },
+    {
+      "id": "clase-paladin-stats-represion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Reprensión a nivel 60",
+      "title_en": "Retribution Level-60 Stats",
+      "summary_es": "Orden provisional: habilidad y daño del arma, golpe 9%, pericia y daño con hechizos.",
+      "summary_en": "Provisional order: weapon skill and damage, 9% hit, expertise, and spell damage.",
+      "keywords_es": [
+        "prioridad estadísticas reprensión",
+        "DPS arma paladín",
+        "golpe pericia reprensión"
+      ],
+      "keywords_en": [
+        "retribution stat priority",
+        "paladin weapon dps",
+        "retribution hit expertise"
+      ],
+      "text_es": "Prioridad especulativa: habilidad con armas > DPS y velocidad del arma > golpe 9% > pericia 6.5% > daño con hechizos > intelecto > fuerza y poder de ataque > agilidad y golpe crítico > aguante. El arma aporta gran parte del daño; golpe y pericia evitan que fallen o esquiven los ataques y los sellos. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Speculative priority: weapon skill > weapon DPS and speed > hit 9% > expertise 6.5% > spell damage > intellect > strength and attack power > agility and critical strike > stamina. Weapon damage drives much of your output; hit and expertise help attacks and seals land. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin Stat Priority & Attributes - WoW: Forever › Retribution Paladin Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/stat-priority-pve-dps",
+          "date": "2026-10-31"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:retribution:stats"
+      ],
+      "source_hashes": [
+        "section:1e5f41a80eab5fe493b1dfddb16b669a101a669e"
+      ]
+    },
+    {
+      "id": "clase-paladin-rotacion-sagrado-curas-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de sanación Sagrado",
+      "title_en": "Holy Healing Rotation",
+      "summary_es": "Prepara Vigilia para daño grupal; elige cura rápida, potente o de emergencia según la presión.",
+      "summary_en": "Prepare Vigil for group damage; choose fast, large, or emergency heals as needed.",
+      "keywords_es": [
+        "rotación curas paladín sagrado",
+        "vigilia de la luz prioridad",
+        "choque sagrado sanación"
+      ],
+      "keywords_en": [
+        "holy paladin healing rotation",
+        "lights vigil priority",
+        "holy shock healing"
+      ],
+      "text_es": "Aplica Sello de luz y usa Sentencia en el enemigo principal. Si prevés daño grupal, marca a un aliado con Vigilia de la Luz 1/1 y actívala con Choque Sagrado 1/1; usa Infusión de Luz 2/2 para acelerar Luz Sagrada. Elige Destello de Luz para curas rápidas, Luz Sagrada para grandes picos y Choque Sagrado cuando no puedas esperar un lanzamiento.",
+      "text_en": "Keep Seal of Light judged on the main target. If group damage is coming, apply Light’s Vigil 1/1 to an ally and activate it with Holy Shock 1/1; use Infusion of Light 2/2 to speed up Holy Light. Choose Flash of Light for quick heals, Holy Light for large spikes, and Holy Shock when a cast cannot wait.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Paladin Healer Rotation and Cooldowns - WoW: Forever › All Holy Paladin Rotation in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/rotation-cooldowns-pve-healer",
+          "date": "2026-10-29"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Holy Paladin Talent Tree Builds - WoW: Forever › Best Holy Paladin PvE Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:holy:rotation",
+        "class:paladin:holy:talents"
+      ],
+      "source_hashes": [
+        "section:9a512485bc7d7c309b2a510821d897d41a371c71",
+        "section:ced35d1b188702e9186a7062770ae6f3ed6e9483"
+      ]
+    },
+    {
+      "id": "clase-paladin-rotacion-sagrado-dano-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Daño de Sagrado a nivel 60",
+      "title_en": "Holy Paladin Damage Rotation",
+      "summary_es": "Mantén el sello, usa Sentencia y Golpe Sagrado; reserva hechizos según el objetivo y el maná.",
+      "summary_en": "Maintain your seal and use Judgement and Holy Strike; adapt spells to the target and mana.",
+      "keywords_es": [
+        "daño sagrado paladín",
+        "rotación dps paladín holy",
+        "exorcismo contra demonios"
+      ],
+      "keywords_en": [
+        "holy paladin damage rotation",
+        "holy paladin dps",
+        "exorcism undead demon"
+      ],
+      "text_es": "Mantén Sello de rectitud y usa Sentencia y Golpe Sagrado cuando estén disponibles. Contra demonios o no-muertos, añade Exorcismo; usa Choque Sagrado 1/1 si lo tienes y deja Consagración para cuando el maná permita más daño de área.",
+      "text_en": "Keep Seal of Righteousness active and use Judgement and Holy Strike when available. Against Demons or Undead, add Exorcism; use Holy Shock 1/1 if talented, and cast Consecration when mana allows extra area damage.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Paladin Healer Rotation and Cooldowns - WoW: Forever › Damage Rotation",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/rotation-cooldowns-pve-healer",
+          "date": "2026-10-29"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Holy Paladin Talent Tree Builds - WoW: Forever › Best Holy Paladin PvE Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:holy:rotation",
+        "class:paladin:holy:talents"
+      ],
+      "source_hashes": [
+        "guide:8a5478c8ffd4ef65e1afacfc69d8b9d0b75cecbd",
+        "section:ced35d1b188702e9186a7062770ae6f3ed6e9483"
+      ]
+    },
+    {
+      "id": "clase-paladin-cooldowns-sagrado-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Enfriamientos de Sagrado",
+      "title_en": "Holy Paladin Cooldowns",
+      "summary_es": "Reserva Imposición de manos para una emergencia; usa la inmunidad y el silencio según la mecánica.",
+      "summary_en": "Save Lay on Hands for emergencies; use immunity and silence protection when needed.",
+      "keywords_es": [
+        "enfriamientos paladín sagrado",
+        "imposición de manos 20 min",
+        "voz de la verdad inmunidad"
+      ],
+      "keywords_en": [
+        "holy paladin cooldowns",
+        "lay on hands 20 minutes",
+        "voice of truth immunity"
+      ],
+      "text_es": "Imposición de manos restaura la salud máxima del objetivo y algo de maná, pero consume tu maná actual y tiene 20 min de reutilización: guárdala para una emergencia. Escudo divino, Protección divina y Bendición de Protección protegen mientras sigues sanando; Voz de la verdad te hace inmune a silencios e interrupciones durante 6 s.",
+      "text_en": "Lay on Hands restores the target to maximum health and some mana, but consumes your current mana and has a 20-minute cooldown; save it for an emergency. Divine Shield, Divine Protection, and Blessing of Protection can protect allies while you continue healing; Voice of Truth grants immunity to silence and interrupts for 6 seconds.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Paladin Healer Rotation and Cooldowns - WoW: Forever › Best Holy Paladin Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/rotation-cooldowns-pve-healer",
+          "date": "2026-10-29"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:holy:rotation"
+      ],
+      "source_hashes": [
+        "section:84402d662ba833a10183a1b121fa0285df2bd9ff"
+      ]
+    },
+    {
+      "id": "clase-paladin-rotacion-proteccion-objetivo-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Prioridad de Protección a un objetivo",
+      "title_en": "Protection Single-Target Priority",
+      "summary_es": "Prepara amenaza y sello; prioriza Sentencia y Consagración sin agotar el maná.",
+      "summary_en": "Set up threat and your seal; prioritize Judgement and Consecration without exhausting mana.",
+      "keywords_es": [
+        "prioridad protección un objetivo",
+        "sello de furia tanque paladín",
+        "consagración maná prot"
+      ],
+      "keywords_en": [
+        "protection single target priority",
+        "seal of fury tank paladin",
+        "protection consecration mana"
+      ],
+      "text_es": "Antes del pull, activa Furia justa y Aura de castigo; juzga Sello del Cruzado o de sabiduría si el objetivo vivirá más de 20–30 s. Mantén Sello de furia y usa Sentencia (fuera del tiempo global); lanza Consagración si tienes maná. Después: Choque Sagrado 1/1 si está en tu build, Escudo Sagrado 1/1, Golpe Sagrado, Exorcismo contra demonios o no-muertos y Martillo de cólera si tanqueas 0–1 objetivos.",
+      "text_en": "Before the pull, activate Righteous Fury and Retribution Aura; judge Seal of the Crusader or Wisdom if the target will live over 20–30 seconds. Keep Seal of Fury and use Judgement (off the global cooldown); cast Consecration if mana allows. Then use Holy Shock 1/1 if in your build, Holy Shield 1/1, Holy Strike, Exorcism against Demons or Undead, and Hammer of Wrath when tanking 0–1 targets.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Rotation and Cooldowns - WoW: Forever › All Protection Paladins DPS Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/rotation-cooldowns-pve-tank",
+          "date": "2026-11-02"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Paladin Talent Tree Builds - WoW:  Forever › Standard Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Paladin Talent Tree Builds - WoW:  Forever › Shockprot Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:protection:rotation",
+        "class:paladin:protection:talents"
+      ],
+      "source_hashes": [
+        "section:5c96f5a98e19f61e93347135fad01ca3a127a3bd",
+        "section:7daf09ec9d23fd5c577d7275b0b754f653392ff0",
+        "section:be49b833d37001ac5b86d4da772ecb367bf26525"
+      ]
+    },
+    {
+      "id": "clase-paladin-rotacion-proteccion-area-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Prioridad de área de Protección",
+      "title_en": "Protection AoE Priority",
+      "summary_es": "Mantén el sello y usa Consagración si el maná alcanza; ajusta hechizos a los enemigos y al rol.",
+      "summary_en": "Maintain your seal and use Consecration if mana allows; adapt to enemies and your role.",
+      "keywords_es": [
+        "prioridad área protección paladín",
+        "consagración tanque varios enemigos",
+        "cólera sagrada tanque"
+      ],
+      "keywords_en": [
+        "protection paladin aoe priority",
+        "consecration multiple enemies",
+        "holy wrath protection"
+      ],
+      "text_es": "Mantén Sello de furia y usa Sentencia; lanza Consagración si tienes maná. Contra demonios o no-muertos y si no tanqueas activamente, añade Cólera sagrada; luego Escudo Sagrado 1/1 y Choque Sagrado 1/1 si tu build los lleva, Golpe Sagrado y Exorcismo. Martillo de cólera queda para cuando tanquees 0–1 objetivos.",
+      "text_en": "Keep Seal of Fury and use Judgement; cast Consecration if mana permits. Against Demons or Undead when you are not actively tanking, add Holy Wrath; then use Holy Shield 1/1 and Holy Shock 1/1 if talented, Holy Strike, and Exorcism. Save Hammer of Wrath for when tanking 0–1 targets.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Rotation and Cooldowns - WoW: Forever › All Protection Paladins DPS Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/rotation-cooldowns-pve-tank",
+          "date": "2026-11-02"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Paladin Talent Tree Builds - WoW:  Forever › Standard Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Paladin Talent Tree Builds - WoW:  Forever › Shockprot Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:protection:rotation",
+        "class:paladin:protection:talents"
+      ],
+      "source_hashes": [
+        "section:5c96f5a98e19f61e93347135fad01ca3a127a3bd",
+        "section:7daf09ec9d23fd5c577d7275b0b754f653392ff0",
+        "section:be49b833d37001ac5b86d4da772ecb367bf26525"
+      ]
+    },
+    {
+      "id": "clase-paladin-cooldowns-proteccion-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Enfriamientos de Protección",
+      "title_en": "Protection Paladin Cooldowns",
+      "summary_es": "Reserva Baluarte para picos; usa las inmunidades y la provocación para recuperar control.",
+      "summary_en": "Save Bulwark for spikes; use immunities and taunt to regain control.",
+      "keywords_es": [
+        "enfriamientos paladín protección",
+        "baluarte de templario reutilización",
+        "imposición manos tanque"
+      ],
+      "keywords_en": [
+        "protection paladin cooldowns",
+        "templars bulwark cooldown",
+        "lay on hands tank"
+      ],
+      "text_es": "Durante 8 s, Baluarte de templario 1/1 absorbe una cantidad igual a tu salud máxima (100%); su reutilización base es 5 min y Deber sagrado 2/2 la reduce a 4 min. Imposición de manos restaura toda la salud (100%), pero consume el maná y tiene 20 min de reutilización. Escudo divino dura 12 s y reduce 50% tu daño; Sello de furia y Juicio presto 1/1, que reinicia Sentencia, pueden mantenerte como objetivo mientras eres inmune.",
+      "text_en": "For 8 seconds, Templar’s Bulwark 1/1 absorbs an amount equal to your maximum health; the absorb is 100%. Its base cooldown is 5 minutes and Sacred Duty 2/2 reduces it to 4. Lay on Hands restores full health (100%) but consumes your mana and has a 20-minute cooldown. Divine Shield lasts 12 seconds and reduces your damage by 50%; Seal of Fury and Swift Judgement 1/1 can keep the enemy on you while immune.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Paladin Tank Rotation and Cooldowns - WoW: Forever › Best Protection Paladin Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/rotation-cooldowns-pve-tank",
+          "date": "2026-11-02"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Paladin Talent Tree Builds - WoW:  Forever › Standard Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:protection:rotation",
+        "class:paladin:protection:talents"
+      ],
+      "source_hashes": [
+        "section:3a7de739acf643d114882924fe81c2e8fa171b54",
+        "section:5c96f5a98e19f61e93347135fad01ca3a127a3bd"
+      ]
+    },
+    {
+      "id": "clase-paladin-rotacion-represion-unsealed-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación Unsealed Wrath a un objetivo",
+      "title_en": "Retribution Unsealed Wrath Single-Target",
+      "summary_es": "Prepara una Sentencia que dure, mantén Sello de orden y gasta las acumulaciones con cambios de sello.",
+      "summary_en": "Set up a lasting Judgement, maintain Seal of Command, and spend stored stacks by switching seals.",
+      "keywords_es": [
+        "rotación reprensión unsealed un objetivo",
+        "cólera desellada acumulaciones",
+        "sello de orden rotación"
+      ],
+      "keywords_en": [
+        "retribution unsealed single target",
+        "unsealed wrath stacks",
+        "seal of command rotation"
+      ],
+      "text_es": "Antes del pull, juzga Sello del Cruzado si el rival vivirá varios segundos y cambia a Sello de orden. Mantén el sello; usa Sentencia y Golpe Sagrado en reutilización, y Martillo de cólera bajo 20% de salud. Con Cólera desellada 1/1, guarda 2–3 acumulaciones y cambia una vez a Sello de rectitud para gastarlas; vuelve después a Sello de orden. Usa Exorcismo contra demonios o no-muertos y evita Consagración si el maná escasea.",
+      "text_en": "Before the pull, judge Seal of the Crusader if the target will live several seconds, then switch to Seal of Command. Keep the seal active; use Judgement and Holy Strike on cooldown, and Hammer of Wrath below 20% health. With Unsealed Wrath 1/1, store 2–3 stacks, switch once to Seal of Righteousness to spend them, then return to Seal of Command. Use Exorcism against Demons or Undead; skip Consecration if mana is low.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Rotation and Cooldowns - WoW: Forever › Single Target Rotation (Unsealed Wrath)",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Retribution Paladin Talent Tree Builds - WoW: Forever › Retribution (Unsealed Wrath) PvE DPS Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/talent-builds-pve-dps",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:retribution:rotation",
+        "class:paladin:retribution:talents"
+      ],
+      "source_hashes": [
+        "section:062cec4cc958c51481d195c87d6d777770bfef10",
+        "section:6eec4bf14a594c37dcd26a8311729531f8e28c68"
+      ]
+    },
+    {
+      "id": "clase-paladin-rotacion-represion-area-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de área de Reprensión",
+      "title_en": "Retribution AoE Rotation",
+      "summary_es": "Prioriza Sentencia y Consagración; convierte las acumulaciones de Cólera desellada en golpes de sello.",
+      "summary_en": "Prioritize Judgement and Consecration; convert Unsealed Wrath stacks into extra seal hits.",
+      "keywords_es": [
+        "reprensión daño área paladín",
+        "consagración reprensión varios",
+        "rotación sello cólera desellada"
+      ],
+      "keywords_en": [
+        "retribution paladin aoe rotation",
+        "retribution consecration multiple targets",
+        "unsealed wrath seal rotation"
+      ],
+      "text_es": "Juzga Sello del Cruzado contra objetivos duraderos y cambia a Sello de orden. Mantén ese sello, usa Sentencia y Consagración si el maná lo permite; añade Martillo de cólera bajo 20% de salud y Golpe Sagrado en reutilización. Con Cólera desellada 1/1, gasta 2–3 acumulaciones con un golpe de Sello de rectitud y regresa a Sello de orden; contra demonios o no-muertos, añade Exorcismo o Cólera sagrada.",
+      "text_en": "Judge Seal of the Crusader on targets that will live, then switch to Seal of Command. Maintain it, use Judgement and Consecration if mana allows; add Hammer of Wrath below 20% health and Holy Strike on cooldown. With Unsealed Wrath 1/1, spend 2–3 stacks on a Seal of Righteousness swing and return to Seal of Command; against Demons or Undead, add Exorcism or Holy Wrath.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Rotation and Cooldowns - WoW: Forever › AoE Rotation (Unsealed Wrath)",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Retribution Paladin Talent Tree Builds - WoW: Forever › Retribution (Unsealed Wrath) PvE DPS Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/talent-builds-pve-dps",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:retribution:rotation",
+        "class:paladin:retribution:talents"
+      ],
+      "source_hashes": [
+        "section:0b21960c40e62c874356a0d37ae28c9483afe74c",
+        "section:6eec4bf14a594c37dcd26a8311729531f8e28c68"
+      ]
+    },
+    {
+      "id": "clase-paladin-rotacion-represion-shockadin-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Reprensión con Choque Sagrado",
+      "title_en": "Retribution Holy Shock Rotation",
+      "summary_es": "Mantén Sello de rectitud, usa Favor divino para críticos y descarga las curas o el daño listos.",
+      "summary_en": "Maintain Seal of Righteousness, use Divine Favor for a guaranteed crit, and spend ready heals or attacks.",
+      "keywords_es": [
+        "rotación reprensión choque sagrado",
+        "favor divino choque sagrado",
+        "build híbrida dps sanación"
+      ],
+      "keywords_en": [
+        "retribution holy shock rotation",
+        "divine favor holy shock",
+        "hybrid dps healing paladin"
+      ],
+      "text_es": "Juzga Sello del Cruzado contra objetivos duraderos y cambia a Sello de rectitud. Favor divino 1/1 prepara un crítico garantizado de Choque Sagrado; mantén Suelo consagrado 2/2 con Consagración si hay maná. Usa Golpe Sagrado y Choque Sagrado en reutilización, Martillo de cólera bajo 20% y Exorcismo contra demonios o no-muertos; prioriza el hechizo disponible sin vaciar tu maná.",
+      "text_en": "Judge Seal of the Crusader on durable targets, then switch to Seal of Righteousness. Divine Favor 1/1 guarantees a Holy Shock critical; maintain Consecrated Ground 2/2 with Consecration when mana permits. Use Holy Strike and Holy Shock on cooldown, Hammer of Wrath below 20%, and Exorcism against Demons or Undead; cast the highest-priority ready spell without draining mana.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Rotation and Cooldowns - WoW: Forever › Rotation for Shockadin (Holy Shock)",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Retribution Paladin Talent Tree Builds - WoW: Forever › Holy \"Shockadin\" PvE DPS Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/talent-builds-pve-dps",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:retribution:rotation",
+        "class:paladin:retribution:talents"
+      ],
+      "source_hashes": [
+        "section:1826dea41a37e48de47fc7d976c1155e45b7eba2",
+        "section:ffaaa89e6dd1c8566bbc0004f53d9aa449a6ca78"
+      ]
+    },
+    {
+      "id": "clase-paladin-cooldowns-represion-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Enfriamientos de Reprensión",
+      "title_en": "Retribution Paladin Cooldowns",
+      "summary_es": "Reprensión no tiene un gran enfriamiento de daño; usa los recursos de combate al inicio de peleas largas.",
+      "summary_en": "Retribution has no major damage cooldown; use combat consumables early in long fights.",
+      "keywords_es": [
+        "enfriamientos reprensión paladín",
+        "favor divino reprensión",
+        "pociones ofensivas paladín"
+      ],
+      "keywords_en": [
+        "retribution paladin cooldowns",
+        "divine favor retribution",
+        "retribution offensive potions"
+      ],
+      "text_es": "Reprensión no dispone de un gran enfriamiento de daño: activa abalorios, pociones ofensivas y raciales al inicio de peleas largas para aprovechar su duración. En la variante con Choque Sagrado, Favor divino 1/1 garantiza el crítico de Choque Sagrado cada 2 min; úsalo antes del pull y repítelo al volver. Imposición de manos 20 min y las inmunidades son herramientas de emergencia, no de daño sostenido.",
+      "text_en": "Retribution has no major damage cooldown: use on-use trinkets, offensive potions, and racials at the start of long fights to benefit from their full duration. In the Holy Shock variant, Divine Favor 1/1 guarantees a Holy Shock critical every 2 minutes; use it before the pull and again when ready. Lay on Hands (20 minutes) and immunities are emergency tools, not sustained damage cooldowns.",
+      "tags": [
+        "PALADIN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin DPS Rotation and Cooldowns - WoW: Forever › Best Retribution Paladin Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Retribution Paladin Talent Tree Builds - WoW: Forever › Holy \"Shockadin\" PvE DPS Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/talent-builds-pve-dps",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:paladin:retribution:rotation",
+        "class:paladin:retribution:talents"
+      ],
+      "source_hashes": [
+        "section:7213262a00d4aa76a5786c4c9afe516c45d86f98",
+        "section:ffaaa89e6dd1c8566bbc0004f53d9aa449a6ca78"
+      ]
     }
   ]
 }
