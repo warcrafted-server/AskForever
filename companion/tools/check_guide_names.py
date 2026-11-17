@@ -33,6 +33,8 @@ QUERIES = (
     # de bestias» y el hechizo «Maestría en bestias»).
     ('rama', 'SELECT Name_lang, Name_lang_esES FROM TalentTab'),
 )
+QUEST_QUERY = ("SELECT e.name, s.name FROM ext_quest_l10n e JOIN ext_quest_l10n s "
+               "ON s.quest_id = e.quest_id AND s.locale = 'esES' WHERE e.locale = 'enUS'")
 
 
 def official_names(db) -> dict:
@@ -47,6 +49,12 @@ def official_names(db) -> dict:
                 continue
             entry = names.setdefault(key, (kind, english, set()))
             entry[2].add(spanish.strip())
+    # Una misión puede compartir nombre inglés con un hechizo y traducirse distinto («Path of
+    # Defense»: misión «Camino de defensa», hechizo «Camino de la defensa»): su nombre vale como
+    # alternativa. Solo como alternativa: muchos títulos de misión son frases comunes.
+    for english, spanish in db._rows(QUEST_QUERY) or []:
+        if english and spanish and normalize(english) in names:
+            names[normalize(english)][2].add(spanish.strip())
     return names
 
 
