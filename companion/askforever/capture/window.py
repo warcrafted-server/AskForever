@@ -69,6 +69,7 @@ class GameWindow:
     y: int
     width: int
     height: int
+    exe_path: str = ''
 
 
 def _process_image_path(hwnd: int) -> Optional[str]:
@@ -119,7 +120,7 @@ def find_game_window(process_name: str = 'Wow.exe') -> Optional[GameWindow]:
             return True
         title = ctypes.create_unicode_buffer(512)
         user32.GetWindowTextW(hwnd, title, 512)
-        found.append(GameWindow(int(hwnd), title.value, *area))
+        found.append(GameWindow(int(hwnd), title.value, *area, path))
         return True
 
     user32.EnumWindows(WNDENUMPROC(callback), 0)

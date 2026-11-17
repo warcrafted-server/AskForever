@@ -15,6 +15,7 @@ from pathlib import Path
 from typing import Optional, Sequence
 
 from askforever import config, setup_wizard, updates
+from askforever.data import patch as data_patch
 from askforever import uninstall as uninstall_module
 from askforever.bench import (
     Target,
@@ -193,6 +194,20 @@ def _update_game_data():
     return status, value
 
 
+def _sync_addon_data(window=None):
+    """Apply addon data when available and report its version or failure."""
+    status, value = data_patch.sync(
+        exe_path=getattr(window, 'exe_path', None) if window is not None else None)
+    if status == 'patched':
+        print(f'Datos del addon aplicados: {value}')
+    elif status in ('current', 'guide-only'):
+        print(f'Datos del addon: {value}')
+    elif status == 'error':
+        detail = str(value).encode('ascii', 'replace').decode('ascii')
+        print(f'No se pudieron aplicar los datos del addon: {detail}')
+    return status
+
+
 def _update_data() -> int:
     status, value = _update_game_data()
     if status in ('updated', 'current'):
@@ -252,10 +267,13 @@ def _listen(args: argparse.Namespace) -> int:
         print(f'Ventana del juego: {window.title} ({window.width}x{window.height})')
     print('Escuchando la tira de píxeles (Ctrl+C para salir).')
 
+    addon_sync_pending = False
     if (args.ask and not args.no_data
-            and not getattr(args, 'no_update', False)
-            and config.data_is_managed()):
-        _update_game_data()
+            and not getattr(args, 'no_update', False)):
+        addon_status = _sync_addon_data(window)
+        if addon_status not in ('patched', 'current') and config.data_is_managed():
+            _update_game_data()
+        addon_sync_pending = window is None
     database = _open_data(args.no_data) if args.ask else None
     web = _open_web(args.no_web) if args.ask else None
     store = ConversationStore()
@@ -280,6 +298,13 @@ def _listen(args: argparse.Namespace) -> int:
             return None
 
     def on_message(message: ReceivedMessage) -> None:
+        nonlocal database, addon_sync_pending
+        if addon_sync_pending:
+            addon_sync_pending = False
+            if _sync_addon_data(find_game_window()) == 'patched':
+                if database is not None:
+                    database.close()
+                database = _open_data(args.no_data)
         report = parse_report(message.data)
         if report is not None:
             _handle_report(report, last_exchange, exchange_lock)
@@ -538,10 +563,14 @@ def _run_companion(args: argparse.Namespace) -> int:
     overlay_class = (Overlay if getattr(args, 'overlay_inprocess', False)
                      else OverlaySupervisor)
     overlay = overlay_class(ttl=args.ttl)
+    addon_sync_pending = False
     if (not args.no_data
-            and not getattr(args, 'no_update', False)
-            and config.data_is_managed()):
-        _update_game_data()
+            and not getattr(args, 'no_update', False)):
+        game_window = find_game_window()
+        addon_status = _sync_addon_data(game_window)
+        if addon_status not in ('patched', 'current') and config.data_is_managed():
+            _update_game_data()
+        addon_sync_pending = game_window is None
     database = _open_data(args.no_data)
     web = _open_web(args.no_web)
 
@@ -566,6 +595,13 @@ def _run_companion(args: argparse.Namespace) -> int:
     chat_lock = threading.Lock()
 
     def on_message(message: ReceivedMessage) -> None:
+        nonlocal database, addon_sync_pending
+        if addon_sync_pending:
+            addon_sync_pending = False
+            if _sync_addon_data(find_game_window()) == 'patched':
+                if database is not None:
+                    database.close()
+                database = _open_data(args.no_data)
         report = parse_report(message.data)
         if report is not None:
             _handle_report(report, last_exchange, exchange_lock, overlay)
