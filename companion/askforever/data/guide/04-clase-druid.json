@@ -1374,6 +1374,1437 @@
         "section:dd92549e3deed4432030445deb4101fe72e37c88",
         "section:ddf87fac7dd5ef5c82e65aabdee91c9d97fd589e"
       ]
+    },
+    {
+      "id": "clase-druid-stats-equilibrio",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Equilibrio a nivel 60",
+      "title_en": "Balance Level-60 Stats",
+      "summary_es": "Orden especulativo: golpe hasta 17%, después daño y penetración con hechizos.",
+      "summary_en": "Speculative order: hit to 17%, then spell damage and spell penetration.",
+      "keywords_es": [
+        "estadísticas equilibrio nivel 60",
+        "prioridad de golpe equilibrio",
+        "daño con hechizos druida",
+        "maná equilibrio estadísticas"
+      ],
+      "keywords_en": [
+        "balance level 60 stats",
+        "balance hit priority",
+        "druid spell damage",
+        "balance mana stats"
+      ],
+      "text_es": "Prioridad especulativa: golpe hasta 17% > daño con hechizos > Penetración de hechizo > Golpe crítico > celeridad > intelecto > espíritu > aguante. El golpe evita fallos y el daño con hechizos aumenta directamente el daño; conserva maná para sostener la rotación. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Speculative priority: hit to 17% > spell damage > Spell Penetration > Critical Strike > haste > intellect > spirit > stamina. Hit prevents misses and spell damage directly boosts damage; preserve mana to sustain the rotation. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid DPS Attribute and Stat Guide - WoW: Forever › Balance Druid Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/stat-priority-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid DPS Attribute and Stat Guide - WoW: Forever › Hit Chance",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/stat-priority-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid DPS Attribute and Stat Guide - WoW: Forever › Spell Power",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/stat-priority-pve-dps",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:balance:stats"
+      ],
+      "source_hashes": [
+        "section:52de31cb4bf74e245837d24ecac96c0e1188260e",
+        "section:e7504b2080b6f08bfd2427035aa1873caec61be7",
+        "section:ec16bdba7c32f33ad9c5d9d56ac65a9d3f16ae2e"
+      ]
+    },
+    {
+      "id": "clase-druid-stats-feral-dps",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Feral DPS a nivel 60",
+      "title_en": "Feral DPS Level-60 Stats",
+      "summary_es": "Prioriza crítico, golpe hasta 8% y reducción de esquiva/parada hasta 6.5%.",
+      "summary_en": "Prioritize crit, hit to 8%, and dodge/parry reduction to 6.5%.",
+      "keywords_es": [
+        "estadísticas feral dps 60",
+        "prioridad de golpe feral",
+        "cap esquiva parada feral",
+        "dps arma druida feral"
+      ],
+      "keywords_en": [
+        "feral dps level 60 stats",
+        "feral hit priority",
+        "feral dodge parry cap",
+        "feral weapon dps"
+      ],
+      "text_es": "Prioridad especulativa: Golpe crítico 1% > golpe 1% hasta 8% > reducción de esquiva/parada 1% hasta 6.5% > celeridad 1% > DPS del arma > agilidad = fuerza > poder de ataque > intelecto > espíritu > aguante. Asegura que los ataques conecten antes de apilar daño; intelecto, espíritu y aguante aportan recursos o supervivencia. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Speculative priority: Critical Strike 1% > hit 1% to 8% > dodge/parry reduction 1% to 6.5% > haste 1% > weapon DPS > agility = strength > attack power > intellect > spirit > stamina. Make attacks land before stacking damage; intellect, spirit, and stamina mainly add resources or survivability. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid DPS Stat Priority & Attributes - WoW: Forever › Feral Druid Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-dps",
+          "date": "2026-10-29"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid DPS Stat Priority & Attributes - WoW: Forever › Crit Chance",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-dps",
+          "date": "2026-10-29"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid DPS Stat Priority & Attributes - WoW: Forever › Hit Chance",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-dps",
+          "date": "2026-10-29"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:stats"
+      ],
+      "source_hashes": [
+        "section:1255ad04a2bb618346edfd8fc591782d69a29780",
+        "section:4f3ca9b46912b902ee2c2376b0eb2f295510ef50",
+        "section:bd7ad975ff797897106a50f86181a6b0a8bfb6be"
+      ]
+    },
+    {
+      "id": "clase-druid-stats-feral-tank",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Feral tanque a nivel 60",
+      "title_en": "Feral Tank Level-60 Stats",
+      "summary_es": "Prioriza aguante y defensa hasta 440; en ofensiva, golpe y reducción de esquiva/parada.",
+      "summary_en": "Prioritize stamina and defense to 440; offensively, hit and dodge/parry reduction.",
+      "keywords_es": [
+        "estadísticas oso tanque",
+        "defensa 440 druida",
+        "prioridad ofensiva feral tanque",
+        "aguante armadura oso"
+      ],
+      "keywords_en": [
+        "bear tank stats",
+        "druid defense 440",
+        "feral tank offensive priority",
+        "bear stamina armor"
+      ],
+      "text_es": "Prioridad defensiva especulativa: aguante > defensa hasta 440 > armadura > agilidad > evitación > defensa después de 440. Ofensiva: golpe > reducción de esquiva/parada > celeridad > crítico > DPS del arma > fuerza > agilidad > fuerza. Defensa 440 evita críticos de jefes; en ataque, busca que las habilidades conecten antes de apilar daño. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Speculative defensive priority: stamina > defense to 440 > armor > agility > avoidance > defense after 440. Offensive: hit > dodge/parry reduction > haste > crit > weapon DPS > strength > agility > strength. Defense 440 prevents boss critical hits; offensively, make abilities land before stacking damage. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Attribute and Stat Guide - WoW: Forever › Feral Druid Tank Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-tank",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Attribute and Stat Guide - WoW: Forever › Defensive Priority",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-tank",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Attribute and Stat Guide - WoW: Forever › Offensive Priority",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-tank",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:stats"
+      ],
+      "source_hashes": [
+        "section:011ef23da83937a1a78bc981b9bb4a7b902d451b",
+        "section:08197c0a079c80835aa30965d688b6c786ecc4bf",
+        "section:211854d235b4e9cf635662913690dc90f0bea247"
+      ]
+    },
+    {
+      "id": "clase-druid-stats-restauracion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Recuperación a nivel 60",
+      "title_en": "Restoration Level-60 Stats",
+      "summary_es": "Prioridad especulativa: poder de sanación, crítico y celeridad; no descuides el maná.",
+      "summary_en": "Speculative order: spell healing, crit, and haste; do not neglect mana.",
+      "keywords_es": [
+        "estadísticas recuperación druida",
+        "prioridad poder de sanación",
+        "crítico y celeridad sanador",
+        "maná mp5 espíritu druida"
+      ],
+      "keywords_en": [
+        "restoration druid stats",
+        "spell healing priority",
+        "healer crit haste",
+        "druid mana mp5 spirit"
+      ],
+      "text_es": "Prioridad especulativa: poder de sanación > Golpe crítico > celeridad con hechizos > espíritu > intelecto > MP5 > aguante. El orden favorece la sanación, pero el maná sigue importando: equilibra potencia y regeneración para sostener los encuentros. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Speculative priority: spell healing > Critical Strike > spell haste > spirit > intellect > MP5 > stamina. The order favors healing throughput, but mana still matters: balance power and regeneration to sustain encounters. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Healer Attribute and Stat Guide - WoW: Forever › Restoration Druid Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/stat-priority-pve-healer",
+          "date": "2026-11-01"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Healer Attribute and Stat Guide - WoW: Forever › Spell Healing",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/stat-priority-pve-healer",
+          "date": "2026-11-01"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:stats"
+      ],
+      "source_hashes": [
+        "section:644caea9c1fe36fbbd25ab6421a11328dabd721c",
+        "section:ea48f95d5ac58f539870acc856cdb39c5ca584d0"
+      ]
+    },
+    {
+      "id": "clase-druid-rotacion-equilibrio-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Equilibrio a nivel 60",
+      "title_en": "Balance Level-60 Rotation",
+      "summary_es": "Abre con Cólera, aplica los dos efectos periódicos y alterna Cólera con Fuego estelar.",
+      "summary_en": "Open with Wrath, apply both damage-over-time effects, then cycle Wrath and Starfire.",
+      "keywords_es": [
+        "rotación equilibrio 60",
+        "rotación cólera fuego estelar",
+        "cargas eclipse druida",
+        "maná banda equilibrio"
+      ],
+      "keywords_en": [
+        "balance rotation level 60",
+        "wrath starfire rotation",
+        "eclipse charges druid",
+        "balance raid mana"
+      ],
+      "text_es": "Antes del pull, asigna Fuego feérico a un Druida. Prelanza Cólera, aplica Enjambre de insectos y Fuegolunar (14 y 15 s), y alterna una Cólera acertada con dos lanzamientos de Fuego estelar: Cólera carga dos marcas de Eclipse y los lanzamientos las consumen. Renueva los efectos al caer; Augurio de claridad no se consume con Cólera. Usa Enervar al llegar al 10% de maná.",
+      "text_en": "Before the pull, assign Faerie Fire to one Druid and cast Wrath. Apply Insect Swarm and Moonfire (14 and 15 seconds), then cycle one landed Wrath with two Starfire casts: Wrath banks two Eclipse charges and the casts spend them. Refresh effects as they expire; Omen of Clarity is not consumed by Wrath. Use Innervate at 10% mana.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Balance Druids in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Balance Druid DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid DPS Rotation and Cooldowns - WoW: Forever › Best Balance Druid Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:balance:rotation"
+      ],
+      "source_hashes": [
+        "section:09b17c346e7b65f92aea5009c1ccb2bee329d036",
+        "section:d64859588b9f4b5d5fc658fe8b90cebc9d471d9b",
+        "section:dec900afdb559e63a19ee470665cb695cefe1b39"
+      ]
+    },
+    {
+      "id": "clase-druid-rotacion-equilibrio-area-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Equilibrio: rotación de área a nivel 60",
+      "title_en": "Balance Level-60 AoE Rotation",
+      "summary_es": "Con 2–4 objetivos, reparte los efectos; con 5 o más, canaliza Huracán.",
+      "summary_en": "With 2–4 targets, spread the effects; at 5 or more, channel Hurricane.",
+      "keywords_es": [
+        "equilibrio área 60",
+        "huracán con cinco enemigos",
+        "multidot equilibrio banda",
+        "rotación aoe druida"
+      ],
+      "keywords_en": [
+        "balance aoe level 60",
+        "hurricane five enemies",
+        "balance multidot raid",
+        "druid aoe rotation"
+      ],
+      "text_es": "Elige un objetivo principal para Cólera y Fuego estelar. Con dos a cuatro enemigos, aplica primero Enjambre de insectos y luego Fuegolunar a cada uno, y vuelve al ciclo del principal; renueva efectos si el objetivo seguirá vivo. Con cinco o más, distribúyelos y canaliza Huracán; detén el canal si tienes que moverte. Si falta maná, retira Fuegolunar de objetivos secundarios.",
+      "text_en": "Choose a main target for Wrath and Starfire. With two to four enemies, apply Insect Swarm then Moonfire to each, return to the main-target cycle, and refresh effects on targets that will live long enough. At five or more, spread them and channel Hurricane; stop the channel if you must move. If mana is low, drop Moonfire from secondary targets.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Balance Druid DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Balance Druids in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/rotation-cooldowns-pve-dps",
+          "date": "2026-10-30"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:balance:rotation"
+      ],
+      "source_hashes": [
+        "section:234b080fc11f78b1d942cf88557658478dbab12c"
+      ]
+    },
+    {
+      "id": "clase-druid-rotacion-feral-dps-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Feral DPS a nivel 60",
+      "title_en": "Feral DPS Level-60 Rotation",
+      "summary_es": "Mantén Arañazo y Destripar en objetivos duraderos; reserva Mordedura feroz para remates.",
+      "summary_en": "Maintain Rake and Rip on durable targets; save Ferocious Bite for finishing.",
+      "keywords_es": [
+        "rotación feral gato 60",
+        "arañazo y destripar",
+        "mordedura feroz feral",
+        "poder cambiante energía"
+      ],
+      "keywords_en": [
+        "feral cat rotation level 60",
+        "rake and rip",
+        "ferocious bite feral",
+        "shifting power energy"
+      ],
+      "text_es": "Si el objetivo vivirá 6 s o más, mantén Arañazo y Destripar de 5 puntos. Usa Triturar con Conjuro libre; si no puedes colocarte detrás, Zarpa. Si morirá en 3 s o menos y tienes más de 3 puntos, remata con Mordedura feroz. Activa Poder cambiante solo si no desperdicias Energía y reserva energía para renovar sangrados; rellena con Triturar o Zarpa.",
+      "text_en": "If the target will live 6 seconds or longer, maintain Rake and a 5-point Rip. Use Shred with Clearcasting; if you cannot attack from behind, use Claw. If the target will die in 3 seconds or less and you have over 3 points, finish with Ferocious Bite. Use Shifting Power only if no Energy is wasted; pool Energy for bleeds and fill with Shred or Claw.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid DPS Rotation and Cooldowns - WoW: Forever › All Feral Druid DPS Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/rotation-cooldowns-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:rotation"
+      ],
+      "source_hashes": [
+        "section:c4049f76ec48ccf7e48a5e4794a2cc8f9f523647"
+      ]
+    },
+    {
+      "id": "clase-druid-rotacion-feral-dps-area-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Feral DPS: rotación de área a nivel 60",
+      "title_en": "Feral DPS Level-60 AoE Rotation",
+      "summary_es": "Reparte Arañazo, reserva Destripar para objetivos prioritarios y controla la Energía.",
+      "summary_en": "Spread Rake, reserve Rip for priority targets, and manage Energy.",
+      "keywords_es": [
+        "feral dps área 60",
+        "arañazo varios objetivos",
+        "destripar objetivo prioritario",
+        "energía feral área"
+      ],
+      "keywords_en": [
+        "feral dps aoe level 60",
+        "rake multiple targets",
+        "rip priority target",
+        "feral aoe energy"
+      ],
+      "text_es": "Con menos de 50 de Energía, usa Poder cambiante. Mantén Destripar de 5 puntos en objetivos prioritarios y aplica Arañazo a todos, sin renovarlo antes de que caiga. Cuando todos sangren, rellena con Triturar o Zarpa si estás delante; si llegas a 5 puntos mientras esperas, gástalos en Destripar.",
+      "text_en": "Below 50 Energy, use Shifting Power. Maintain a 5-point Rip on priority targets and spread Rake without refreshing it early. Once every target is bleeding, fill with Shred or Claw from the front; if you reach 5 points while waiting, spend them on Rip.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid DPS Rotation and Cooldowns - WoW: Forever › All Feral Druid DPS Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/rotation-cooldowns-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:rotation"
+      ],
+      "source_hashes": [
+        "section:c4049f76ec48ccf7e48a5e4794a2cc8f9f523647"
+      ]
+    },
+    {
+      "id": "clase-druid-rotacion-feral-tanque-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Feral tanque a nivel 60",
+      "title_en": "Feral Tank Level-60 Rotation",
+      "summary_es": "Mantén cinco acumulaciones de Lacerar y reserva Rabia para Mordisco primigenio.",
+      "summary_en": "Maintain five Lacerate stacks and reserve Rage for Primal Bite.",
+      "keywords_es": [
+        "rotación oso tanque 60",
+        "mordisco primigenio prioridad",
+        "lacerar cinco acumulaciones",
+        "machaque rabia oso"
+      ],
+      "keywords_en": [
+        "bear tank rotation level 60",
+        "primal bite priority",
+        "five lacerate stacks",
+        "maul rage bear"
+      ],
+      "text_es": "Antes del pull, mantén Marca de lo salvaje y Espinas; conserva Clamor desmoralizador y Fuego feérico si nadie los aporta. Prioriza Mordisco primigenio cuando esté disponible y mantén cinco acumulaciones de Lacerar; rellena con Lacerar. Usa Machaque para gastar Rabia por encima de 35 solo si no retrasa las habilidades prioritarias. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Before the pull, keep Mark of the Wild and Thorns up; maintain Demoralizing Roar and Faerie Fire if nobody else provides them. Use Primal Bite when available and maintain five Lacerate stacks, filling with Lacerate. Use Maul to dump Rage above 35 only if it does not delay higher-priority abilities. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Rotation and Cooldowns - WoW: Forever › All Feral Druid Tank Rotations in WoW: Forever > Single Target Priority",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/rotation-cooldowns-pve-tank",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Rotation and Cooldowns - WoW: Forever › All Feral Druid Tank Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/rotation-cooldowns-pve-tank",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Rotation and Cooldowns - WoW: Forever › Feral Druid Tank Opener in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/rotation-cooldowns-pve-tank",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Attribute and Stat Guide - WoW: Forever › Feral Druid Tank Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-tank",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:rotation",
+        "class:druid:feral:stats"
+      ],
+      "source_hashes": [
+        "guide:d12518213ad7377235eeafa92e4f595e19c15932",
+        "section:211854d235b4e9cf635662913690dc90f0bea247",
+        "section:81d41d7268756c9caa01ff3d417c2a77bab8a502",
+        "section:ef261040c71cf417cbc7ae0a64d024a72f4bf2b1"
+      ]
+    },
+    {
+      "id": "clase-druid-rotacion-feral-tanque-area-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Feral tanque: rotación de área a nivel 60",
+      "title_en": "Feral Tank Level-60 AoE Rotation",
+      "summary_es": "Mantén Lacerar en objetivos prioritarios, usa Flagelo para amenaza de área y gasta Rabia sobrante.",
+      "summary_en": "Keep Lacerate on priority targets, use Swipe for AoE threat, and spend excess Rage.",
+      "keywords_es": [
+        "feral tanque área",
+        "flagelo amenaza área oso",
+        "clamor desafiante oso",
+        "machaque rabia sobrante"
+      ],
+      "keywords_en": [
+        "feral tank aoe",
+        "bear swipe aoe threat",
+        "challenging roar bear",
+        "maul excess rage"
+      ],
+      "text_es": "Con varios enemigos, mantén Lacerar en los objetivos importantes y usa Mordisco primigenio en los que necesiten amenaza. Lanza Flagelo para daño y amenaza de área; Machaque gasta Rabia por encima de 50, priorizando a quien necesite amenaza. Si los enemigos persiguen a un aliado, recurre a Bramido o Clamor desafiante. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Against several enemies, maintain Lacerate on important targets and use Primal Bite on those needing threat. Cast Swipe for AoE damage and threat; use Maul to spend Rage above 50 on targets that need threat. If enemies turn to an ally, use Growl or Challenging Roar. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Rotation and Cooldowns - WoW: Forever › All Feral Druid Tank Rotations in WoW: Forever > AoE Priority",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/rotation-cooldowns-pve-tank",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Rotation and Cooldowns - WoW: Forever › All Feral Druid Tank Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/rotation-cooldowns-pve-tank",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Attribute and Stat Guide - WoW: Forever › Feral Druid Tank Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-tank",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:rotation",
+        "class:druid:feral:stats"
+      ],
+      "source_hashes": [
+        "guide:d12518213ad7377235eeafa92e4f595e19c15932",
+        "section:211854d235b4e9cf635662913690dc90f0bea247",
+        "section:81d41d7268756c9caa01ff3d417c2a77bab8a502"
+      ]
+    },
+    {
+      "id": "clase-druid-rotacion-restauracion-single-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Recuperación: sanación a un objetivo",
+      "title_en": "Restoration Single-Target Healing",
+      "summary_es": "Ajusta la respuesta a la gravedad: Rejuvenecimiento, Recrecimiento o Arreglo rápido.",
+      "summary_en": "Match the response to severity: Rejuvenation, Regrowth, or Swiftmend.",
+      "keywords_es": [
+        "sanación a un objetivo recuperación",
+        "rejuvenecimiento daño leve",
+        "recrecimiento picos de daño",
+        "arreglo rápido emergencia"
+      ],
+      "keywords_en": [
+        "restoration single target healing",
+        "rejuvenation light damage",
+        "regrowth damage spikes",
+        "swiftmend emergency"
+      ],
+      "text_es": "Con daño leve, usa Rejuvenecimiento y añade Recrecimiento si no basta. Ante un pico, lanza Recrecimiento; si el daño es letal, usa Arreglo rápido si hay un HoT activo. Sin HoT, aplica Rejuvenecimiento y luego Arreglo rápido. Si Arreglo rápido está en reutilización o un segundo es demasiado, combina Rapidez de la Naturaleza con Toque curativo.",
+      "text_en": "For light damage, use Rejuvenation and add Regrowth if needed. For a spike, cast Regrowth; if damage is lethal, use Swiftmend when a HoT is active. Without a HoT, apply Rejuvenation then Swiftmend. If it is on cooldown or waiting a second is too long, combine Nature’s Swiftness with Healing Touch.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Healing Rotation and Cooldowns - WoW: Forever › All Restoration Druid Healing Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/rotation-cooldowns-pve-healer",
+          "date": "2026-11-01"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Healing Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Restoration Druid Healing in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/rotation-cooldowns-pve-healer",
+          "date": "2026-11-01"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:rotation"
+      ],
+      "source_hashes": [
+        "section:3a57516c6f9be01c02e40229bcbc0762dfbd66cd",
+        "section:a36ad137ad7e1d4b0907d17f24661a2a48242647"
+      ]
+    },
+    {
+      "id": "clase-druid-rotacion-restauracion-grupo-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Recuperación: varios objetivos y grupo",
+      "title_en": "Restoration Multi-Target and Party Healing",
+      "summary_es": "Distribuye Rejuvenecimiento y reserva Crecimiento salvaje para daño a tres o más del grupo.",
+      "summary_en": "Spread Rejuvenation and save Wild Growth for damage to three or more party members.",
+      "keywords_es": [
+        "sanar varios objetivos druida",
+        "crecimiento salvaje tres jugadores",
+        "curación grupo recuperación",
+        "rejuvenecimiento recrecimiento área"
+      ],
+      "keywords_en": [
+        "restoration multi target healing",
+        "wild growth three party members",
+        "restoration party healing",
+        "rejuvenation regrowth group"
+      ],
+      "text_es": "Con daño leve en varios, aplica Rejuvenecimiento a cada objetivo y Recrecimiento a los picos. Ante daño intenso, prepara Rejuvenecimiento; con tres o más heridos del mismo grupo, lanza Crecimiento salvaje y sigue con Recrecimiento y Arreglo rápido en los más bajos que tengan HoT. Si el daño es letal, combina Rapidez de la Naturaleza y Toque curativo en el más bajo, Arreglo rápido en el siguiente y Recrecimiento para rematar.",
+      "text_en": "For light damage on several targets, apply Rejuvenation to each and Regrowth to spikes. Before heavy damage, pre-apply Rejuvenation; with three or more injured players in one party, cast Wild Growth, then Regrowth and Swiftmend on the lowest targets with a HoT. For lethal damage, use Nature’s Swiftness and Healing Touch on the lowest, Swiftmend on the next, and Regrowth to finish.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Healing Rotation and Cooldowns - WoW: Forever › All Restoration Druid Healing Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/rotation-cooldowns-pve-healer",
+          "date": "2026-11-01"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:rotation"
+      ],
+      "source_hashes": [
+        "section:a36ad137ad7e1d4b0907d17f24661a2a48242647"
+      ]
+    },
+    {
+      "id": "clase-druid-rotacion-restauracion-banda-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Recuperación: sanación de banda",
+      "title_en": "Restoration Raid Healing",
+      "summary_es": "Prioriza tu grupo asignado, extiende Rejuvenecimiento y alterna Crecimiento salvaje con curas de pico.",
+      "summary_en": "Prioritize your assigned party, spread Rejuvenation, and alternate Wild Growth with spike heals.",
+      "keywords_es": [
+        "sanación banda druida",
+        "grupo asignado recuperación raid",
+        "rejuvenecimiento en banda",
+        "crecimiento salvaje banda"
+      ],
+      "keywords_en": [
+        "restoration raid healing",
+        "assigned party raid druid",
+        "raid rejuvenation",
+        "wild growth raid healing"
+      ],
+      "text_es": "Si te asignan un grupo, céntrate en él; sin asignación, mantén a salvo a tu grupo y luego ayuda a otros. Con daño leve, extiende Rejuvenecimiento por la banda. Ante daño fuerte, prioriza tu grupo y alterna Crecimiento salvaje con Rejuvenecimiento. En crisis, usa Rapidez de la Naturaleza y Toque curativo, Arreglo rápido y Recrecimiento en ese orden; después vuelve a extender Rejuvenecimiento.",
+      "text_en": "If assigned a party, focus on it; without an assignment, keep your own party safe before helping others. For light damage, spread Rejuvenation across the raid. During heavy damage, prioritize your party and alternate Wild Growth with Rejuvenation. In a crisis, use Nature’s Swiftness and Healing Touch, Swiftmend, and Regrowth in that order; then spread Rejuvenation again.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Healing Rotation and Cooldowns - WoW: Forever › All Restoration Druid Healing Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/rotation-cooldowns-pve-healer",
+          "date": "2026-11-01"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:rotation"
+      ],
+      "source_hashes": [
+        "section:a36ad137ad7e1d4b0907d17f24661a2a48242647"
+      ]
+    },
+    {
+      "id": "clase-druid-build-equilibrio-pve",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Equilibrio JcE para banda/mazmorra",
+      "title_en": "Balance PvE Raid/Dungeon Build",
+      "summary_es": "Ruta inicial de multidot; mueve Refracción a Génesis si el maná alcanza.",
+      "summary_en": "Early multidot path; move Reflection to Genesis if mana allows.",
+      "keywords_es": [
+        "build druida equilibrio pve",
+        "talentos druida equilibrio pve",
+        "puntos talentos druida equilibrio pve"
+      ],
+      "keywords_en": [
+        "druid build equilibrio pve",
+        "druid talents equilibrio pve",
+        "druid talent points equilibrio pve"
+      ],
+      "text_es": "Rama de Equilibrio: Eclipse 3/3, Génesis 2/5, Fuegolunar mejorado 2/2, Fuego estelar mejorado 5/5, Cólera mejorada 5/5, Enjambre de insectos 1/1, Furia de luna 5/5, Brillo lunar 3/3, Forma de lechúcico lunar 1/1, Gracia de la naturaleza 1/1, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Venganza 5/5. Rama de Recuperación: Naturalista 5/5, Enfoque de la naturaleza 5/5, Sutileza 3/3.",
+      "text_en": "Balance: Eclipse 3/3, Genesis 2/5, Improved Moonfire 2/2, Improved Starfire 5/5, Improved Wrath 5/5, Insect Swarm 1/1, Moonfury 5/5, Moonglow 3/3, Moonkin Form 1/1, Nature's Grace 1/1, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Vengeance 5/5. Restoration: Naturalist 5/5, Nature's Focus 5/5, Subtlety 3/3.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Balance Druid Talent Tree Builds - Forever › Best Balance Druid PvE Raid and Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:balance:talents"
+      ],
+      "source_hashes": [
+        "section:d91f22f6e2cdd1646d64e398c955f8500f7f6218"
+      ]
+    },
+    {
+      "id": "clase-druid-build-equilibrio-pvp",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ de Equilibrio",
+      "title_en": "Balance PvP Build",
+      "summary_es": "Prioriza daño periódico, supervivencia y control para mantener la distancia.",
+      "summary_en": "Prioritizes damage-over-time, survivability, and control to maintain distance.",
+      "keywords_es": [
+        "build druida equilibrio pvp",
+        "talentos druida equilibrio pvp",
+        "puntos talentos druida equilibrio pvp"
+      ],
+      "keywords_en": [
+        "druid build equilibrio pvp",
+        "druid talents equilibrio pvp",
+        "druid talent points equilibrio pvp"
+      ],
+      "text_es": "Rama de Equilibrio: Génesis 3/5, Enredaderas 3/3, Fuegolunar mejorado 2/2, Cólera mejorada 5/5, Enjambre de insectos 1/1, Furia de luna 5/5, Brillo lunar 3/3, Forma de lechúcico lunar 1/1, Gracia de la naturaleza 1/1, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Sobrecrecimiento 2/2, Venganza 5/5. Rama de Combate feral: Impacto brutal 2/2, Corazón de lo Salvaje 5/5, Pellejo grueso 3/3. Rama de Recuperación: Enfoque de la naturaleza 5/5.",
+      "text_en": "Balance: Genesis 3/5, Improved Entangling Roots 3/3, Improved Moonfire 2/2, Improved Wrath 5/5, Insect Swarm 1/1, Moonfury 5/5, Moonglow 3/3, Moonkin Form 1/1, Nature's Grace 1/1, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Overgrowth 2/2, Vengeance 5/5. Feral: Brutal Impact 2/2, Heart of the Wild 5/5, Thick Hide 3/3. Restoration: Nature's Focus 5/5.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Balance Druid Talent Tree Builds - Forever › Best Balance Druid PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:balance:talents"
+      ],
+      "source_hashes": [
+        "section:c08324e09ba8d6442a0fbd123c74d0a0f034c737"
+      ]
+    },
+    {
+      "id": "clase-druid-build-feral-dps-mana",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build feral de maná para mundo abierto",
+      "title_en": "Feral Open-World Mana Build",
+      "summary_es": "Aumenta la regeneración para reducir las pausas para beber al levear.",
+      "summary_en": "Improves mana regeneration to reduce drinking downtime while leveling.",
+      "keywords_es": [
+        "build druida feral dps mana",
+        "talentos druida feral dps mana",
+        "puntos talentos druida feral dps mana"
+      ],
+      "keywords_en": [
+        "druid build feral dps mana",
+        "druid talents feral dps mana",
+        "druid talent points feral dps mana"
+      ],
+      "text_es": "Rama de Equilibrio: Génesis 5/5, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2. Rama de Combate feral: Frenesí sangriento 2/2, Carga feral 1/1, Presteza feral 2/2, Ferocidad 5/5, Furor 5/5, Lacerar 1/1, Líder de la manada 1/1, Instinto natural 2/2, Disciplina depredadora 1/1, Golpes depredadores 3/3, Mordisco primigenio 1/1, Desgarrar y rasgar 4/5, Furia salvaje 2/2, Garras afiladas 2/2, Poder cambiante 1/1. Rama de Recuperación: Corazón de lo Salvaje 5/5, Naturalista 4/5.",
+      "text_en": "Balance: Genesis 5/5, Nature's Majesty 2/2, Nature's Reach 2/2. Feral: Blood Frenzy 2/2, Feral Charge 1/1, Feral Swiftness 2/2, Ferocity 5/5, Furor 5/5, Lacerate 1/1, Leader of the Pack 1/1, Natural Instinct 2/2, Predatory Discipline 1/1, Predatory Strikes 3/3, Primal Bite 1/1, Rend and Tear 4/5, Savage Fury 2/2, Sharpened Claws 2/2, Shifting Power 1/1. Restoration: Heart of the Wild 5/5, Naturalist 4/5.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Feral Druid DPS Talent Tree Builds - WoW: Forever › Best Feral Druid High Mana Regen/Openworld Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:talents"
+      ],
+      "source_hashes": [
+        "section:eea417149f6204e238eab503e1ee55bf375449c3"
+      ]
+    },
+    {
+      "id": "clase-druid-build-feral-dps-pve",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Feral DPS para JcE",
+      "title_en": "Feral DPS PvE Build",
+      "summary_es": "Busca el máximo daño felino y conserva talentos para tanquear si hace falta.",
+      "summary_en": "Aims for Cat damage while retaining talents to tank if needed.",
+      "keywords_es": [
+        "build druida feral dps pve",
+        "talentos druida feral dps pve",
+        "puntos talentos druida feral dps pve"
+      ],
+      "keywords_en": [
+        "druid build feral dps pve",
+        "druid talents feral dps pve",
+        "druid talent points feral dps pve"
+      ],
+      "text_es": "Rama de Equilibrio: Génesis 5/5, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2. Rama de Combate feral: Frenesí sangriento 2/2, Carga feral 1/1, Presteza feral 2/2, Ferocidad 5/5, Furor 3/5, Líder de la manada 1/1, Instinto natural 2/2, Disciplina depredadora 1/1, Golpes depredadores 3/3, Desgarrar y rasgar 4/5, Furia salvaje 2/2, Garras afiladas 2/2, Poder cambiante 1/1, Ataques trituradores 3/3. Rama de Recuperación: Corazón de lo Salvaje 5/5, Naturalista 5/5.",
+      "text_en": "Balance: Genesis 5/5, Nature's Majesty 2/2, Nature's Reach 2/2. Feral: Blood Frenzy 2/2, Feral Charge 1/1, Feral Swiftness 2/2, Ferocity 5/5, Furor 3/5, Leader of the Pack 1/1, Natural Instinct 2/2, Predatory Discipline 1/1, Predatory Strikes 3/3, Rend and Tear 4/5, Savage Fury 2/2, Sharpened Claws 2/2, Shifting Power 1/1, Shredding Attacks 3/3. Restoration: Heart of the Wild 5/5, Naturalist 5/5.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Feral Druid DPS Talent Tree Builds - WoW: Forever › Best Feral Druid PvE Dungeon/Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:talents"
+      ],
+      "source_hashes": [
+        "section:56d3a533d2fee0a35dae0f3f9555763c97558523"
+      ]
+    },
+    {
+      "id": "clase-druid-build-feral-hibrido-pve",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build híbrida de Combate feral",
+      "title_en": "Feral Hybrid Tank PvE Build",
+      "summary_es": "Refuerza la supervivencia en oso y conserva talentos esenciales para DPS felino.",
+      "summary_en": "Strengthens Bear survival while retaining core Cat DPS talents.",
+      "keywords_es": [
+        "build druida feral hibrido pve",
+        "talentos druida feral hibrido pve",
+        "puntos talentos druida feral hibrido pve"
+      ],
+      "keywords_en": [
+        "druid build feral hibrido pve",
+        "druid talents feral hibrido pve",
+        "druid talent points feral hibrido pve"
+      ],
+      "text_es": "Rama de Equilibrio: Génesis 5/5, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2. Rama de Combate feral: Carga feral 1/1, Instinto feral 3/3, Presteza feral 2/2, Ferocidad 5/5, Lacerar 1/1, Líder de la manada 1/1, Instinto natural 2/2, Disciplina depredadora 1/1, Golpes depredadores 3/3, Mordisco primigenio 1/1, Desgarrar y rasgar 4/5, Furia salvaje 2/2, Garras afiladas 2/2, Poder cambiante 1/1, Pellejo grueso 3/3. Rama de Recuperación: Corazón de lo Salvaje 5/5, Naturalista 5/5.",
+      "text_en": "Balance: Genesis 5/5, Nature's Majesty 2/2, Nature's Reach 2/2. Feral: Feral Charge 1/1, Feral Instinct 3/3, Feral Swiftness 2/2, Ferocity 5/5, Lacerate 1/1, Leader of the Pack 1/1, Natural Instinct 2/2, Predatory Discipline 1/1, Predatory Strikes 3/3, Primal Bite 1/1, Rend and Tear 4/5, Savage Fury 2/2, Sharpened Claws 2/2, Shifting Power 1/1, Thick Hide 3/3. Restoration: Heart of the Wild 5/5, Naturalist 5/5.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Feral Druid DPS Talent Tree Builds - WoW: Forever › Best Feral Druid Hybrid Tank PvE Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:talents"
+      ],
+      "source_hashes": [
+        "section:9b419f23151c5f95e3860a624870b76e1bd0a382"
+      ]
+    },
+    {
+      "id": "clase-druid-build-feral-dps-pvp",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ de Combate feral",
+      "title_en": "Feral DPS PvP Build",
+      "summary_es": "Combina maná y Arreglo rápido de Recuperación con talentos ferales de ráfaga.",
+      "summary_en": "Combines Restoration mana and Swiftmend with Feral burst talents.",
+      "keywords_es": [
+        "build druida feral dps pvp",
+        "talentos druida feral dps pvp",
+        "puntos talentos druida feral dps pvp"
+      ],
+      "keywords_en": [
+        "druid build feral dps pvp",
+        "druid talents feral dps pvp",
+        "druid talent points feral dps pvp"
+      ],
+      "text_es": "Rama de Combate feral: Frenesí sangriento 2/2, Impacto brutal 2/2, Carga feral 1/1, Presteza feral 2/2, Ferocidad 5/5, Furor 5/5, Lacerar 1/1, Líder de la manada 1/1, Instinto natural 2/2, Disciplina depredadora 1/1, Golpes depredadores 3/3, Mordisco primigenio 1/1, Desgarrar y rasgar 4/5, Furia salvaje 2/2, Garras afiladas 2/2, Poder cambiante 1/1. Rama de Recuperación: Corazón de lo Salvaje 5/5, Metamorfosis natural 3/3, Naturalista 4/5, Refracción 3/3, Arreglo rápido 1/1.",
+      "text_en": "Feral: Blood Frenzy 2/2, Brutal Impact 2/2, Feral Charge 1/1, Feral Swiftness 2/2, Ferocity 5/5, Furor 5/5, Lacerate 1/1, Leader of the Pack 1/1, Natural Instinct 2/2, Predatory Discipline 1/1, Predatory Strikes 3/3, Primal Bite 1/1, Rend and Tear 4/5, Savage Fury 2/2, Sharpened Claws 2/2, Shifting Power 1/1. Restoration: Heart of the Wild 5/5, Natural Shapeshifter 3/3, Naturalist 4/5, Reflection 3/3, Swiftmend 1/1.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Feral Druid DPS Talent Tree Builds - WoW: Forever › Best Feral Druid PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:talents"
+      ],
+      "source_hashes": [
+        "section:2b09a319c907a916cc1353403858640f6774ad2a"
+      ]
+    },
+    {
+      "id": "clase-druid-build-feral-tanque-reflection",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de oso de recuperación de maná",
+      "title_en": "Feral Reflection Open-World Tank Build",
+      "summary_es": "Invierte en Recuperación para reducir pausas sin curas externas; Floración es experimental.",
+      "summary_en": "Invests in Restoration to reduce downtime without outside healing; Bloom is experimental.",
+      "keywords_es": [
+        "build druida feral tanque reflection",
+        "talentos druida feral tanque reflection",
+        "puntos talentos druida feral tanque reflection"
+      ],
+      "keywords_en": [
+        "druid build feral tanque reflection",
+        "druid talents feral tanque reflection",
+        "druid talent points feral tanque reflection"
+      ],
+      "text_es": "Rama de Combate feral: Frenesí sangriento 2/2, Carga feral 1/1, Presteza feral 2/2, Ferocidad 5/5, Furor 5/5, Lacerar 1/1, Líder de la manada 1/1, Instinto natural 2/2, Disciplina depredadora 1/1, Golpes depredadores 3/3, Mordisco primigenio 1/1, Desgarrar y rasgar 5/5, Furia salvaje 2/2, Garras afiladas 2/2, Poder cambiante 1/1. Rama de Recuperación: Floración 1/1, Corazón de lo Salvaje 5/5, Metamorfosis natural 3/3, Naturalista 5/5, Refracción 3/3. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Feral: Blood Frenzy 2/2, Feral Charge 1/1, Feral Swiftness 2/2, Ferocity 5/5, Furor 5/5, Lacerate 1/1, Leader of the Pack 1/1, Natural Instinct 2/2, Predatory Discipline 1/1, Predatory Strikes 3/3, Primal Bite 1/1, Rend and Tear 5/5, Savage Fury 2/2, Sharpened Claws 2/2, Shifting Power 1/1. Restoration: Bloom 1/1, Heart of the Wild 5/5, Natural Shapeshifter 3/3, Naturalist 5/5, Reflection 3/3. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Feral Druid Tank Talent Builds - WoW: Forever › Feral Druid Tank Open World and Leveling Builds",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Attribute and Stat Guide - WoW: Forever › Feral Druid Tank Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-tank",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:stats",
+        "class:druid:feral:talents"
+      ],
+      "source_hashes": [
+        "section:211854d235b4e9cf635662913690dc90f0bea247",
+        "section:fccb3aa5dbcaeb5a3703be9f5edc579c9efac12b"
+      ]
+    },
+    {
+      "id": "clase-druid-build-feral-tanque-bloom",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de oso ofensiva con Floración",
+      "title_en": "Feral Bloom Open-World Tank Build",
+      "summary_es": "Más ofensiva y móvil, pero menos eficiente en maná; Floración depende del equipo.",
+      "summary_en": "More offensive and mobile but less mana-efficient; Bloom depends on gear.",
+      "keywords_es": [
+        "build druida feral tanque bloom",
+        "talentos druida feral tanque bloom",
+        "puntos talentos druida feral tanque bloom"
+      ],
+      "keywords_en": [
+        "druid build feral tanque bloom",
+        "druid talents feral tanque bloom",
+        "druid talent points feral tanque bloom"
+      ],
+      "text_es": "Rama de Equilibrio: Génesis 5/5, Majestuosidad de la naturaleza 1/2, Alcance de la naturaleza 2/2. Rama de Combate feral: Frenesí sangriento 2/2, Carga feral 1/1, Presteza feral 2/2, Ferocidad 5/5, Furor 3/5, Lacerar 1/1, Líder de la manada 1/1, Instinto natural 2/2, Disciplina depredadora 1/1, Golpes depredadores 3/3, Mordisco primigenio 1/1, Desgarrar y rasgar 5/5, Furia salvaje 2/2, Garras afiladas 2/2, Poder cambiante 1/1. Rama de Recuperación: Floración 1/1, Corazón de lo Salvaje 5/5, Naturalista 5/5. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Balance: Genesis 5/5, Nature's Majesty 1/2, Nature's Reach 2/2. Feral: Blood Frenzy 2/2, Feral Charge 1/1, Feral Swiftness 2/2, Ferocity 5/5, Furor 3/5, Lacerate 1/1, Leader of the Pack 1/1, Natural Instinct 2/2, Predatory Discipline 1/1, Predatory Strikes 3/3, Primal Bite 1/1, Rend and Tear 5/5, Savage Fury 2/2, Sharpened Claws 2/2, Shifting Power 1/1. Restoration: Bloom 1/1, Heart of the Wild 5/5, Naturalist 5/5. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Feral Druid Tank Talent Builds - WoW: Forever › Feral Druid Tank Open World and Leveling Builds",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Attribute and Stat Guide - WoW: Forever › Feral Druid Tank Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-tank",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:stats",
+        "class:druid:feral:talents"
+      ],
+      "source_hashes": [
+        "section:211854d235b4e9cf635662913690dc90f0bea247",
+        "section:fccb3aa5dbcaeb5a3703be9f5edc579c9efac12b"
+      ]
+    },
+    {
+      "id": "clase-druid-build-feral-tanque-hibrido",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build híbrida de Feral tanque",
+      "title_en": "Feral Hybrid Tank Dungeon/Raid Build",
+      "summary_es": "Combina oso y felino; contra jefes ligeros se pueden pasar puntos de Pellejo grueso a Frenesí sangriento.",
+      "summary_en": "Combines Bear and Cat; against lighter bosses, points can shift from Thick Hide to Blood Frenzy.",
+      "keywords_es": [
+        "build druida feral tanque hibrido",
+        "talentos druida feral tanque hibrido",
+        "puntos talentos druida feral tanque hibrido"
+      ],
+      "keywords_en": [
+        "druid build feral tanque hibrido",
+        "druid talents feral tanque hibrido",
+        "druid talent points feral tanque hibrido"
+      ],
+      "text_es": "Rama de Equilibrio: Génesis 5/5, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2. Rama de Combate feral: Carga feral 1/1, Instinto feral 3/3, Presteza feral 2/2, Ferocidad 5/5, Lacerar 1/1, Líder de la manada 1/1, Instinto natural 2/2, Disciplina depredadora 1/1, Golpes depredadores 3/3, Mordisco primigenio 1/1, Desgarrar y rasgar 4/5, Furia salvaje 2/2, Garras afiladas 2/2, Poder cambiante 1/1, Pellejo grueso 3/3. Rama de Recuperación: Corazón de lo Salvaje 5/5, Naturalista 5/5. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Balance: Genesis 5/5, Nature's Majesty 2/2, Nature's Reach 2/2. Feral: Feral Charge 1/1, Feral Instinct 3/3, Feral Swiftness 2/2, Ferocity 5/5, Lacerate 1/1, Leader of the Pack 1/1, Natural Instinct 2/2, Predatory Discipline 1/1, Predatory Strikes 3/3, Primal Bite 1/1, Rend and Tear 4/5, Savage Fury 2/2, Sharpened Claws 2/2, Shifting Power 1/1, Thick Hide 3/3. Restoration: Heart of the Wild 5/5, Naturalist 5/5. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Feral Druid Tank Talent Builds - WoW: Forever › Best Feral Druid Tank Dungeon and Raiding Builds",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Attribute and Stat Guide - WoW: Forever › Feral Druid Tank Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-tank",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:stats",
+        "class:druid:feral:talents"
+      ],
+      "source_hashes": [
+        "section:211854d235b4e9cf635662913690dc90f0bea247",
+        "section:5f9e04a3d0f5bf37e8684629bc32646d9f292a8b"
+      ]
+    },
+    {
+      "id": "clase-druid-build-feral-tanque-oso",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de oso puro",
+      "title_en": "Mono-Bear Tank Build",
+      "summary_es": "Refuerza daño y eficiencia de Rabia con Desgarrar y rasgar y Frenesí sangriento.",
+      "summary_en": "Improves damage and Rage efficiency with Rend and Tear and Blood Frenzy.",
+      "keywords_es": [
+        "build druida feral tanque oso",
+        "talentos druida feral tanque oso",
+        "puntos talentos druida feral tanque oso"
+      ],
+      "keywords_en": [
+        "druid build feral tanque oso",
+        "druid talents feral tanque oso",
+        "druid talent points feral tanque oso"
+      ],
+      "text_es": "Rama de Equilibrio: Génesis 5/5, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2. Rama de Combate feral: Frenesí sangriento 1/2, Carga feral 1/1, Instinto feral 3/3, Presteza feral 2/2, Ferocidad 5/5, Lacerar 1/1, Líder de la manada 1/1, Instinto natural 2/2, Golpes depredadores 3/3, Mordisco primigenio 1/1, Desgarrar y rasgar 5/5, Furia salvaje 2/2, Garras afiladas 2/2, Pellejo grueso 3/3. Rama de Recuperación: Corazón de lo Salvaje 5/5, Naturalista 5/5. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Balance: Genesis 5/5, Nature's Majesty 2/2, Nature's Reach 2/2. Feral: Blood Frenzy 1/2, Feral Charge 1/1, Feral Instinct 3/3, Feral Swiftness 2/2, Ferocity 5/5, Lacerate 1/1, Leader of the Pack 1/1, Natural Instinct 2/2, Predatory Strikes 3/3, Primal Bite 1/1, Rend and Tear 5/5, Savage Fury 2/2, Sharpened Claws 2/2, Thick Hide 3/3. Restoration: Heart of the Wild 5/5, Naturalist 5/5. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Feral Druid Tank Talent Builds - WoW: Forever › Best Feral Druid Tank Dungeon and Raiding Builds",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Attribute and Stat Guide - WoW: Forever › Feral Druid Tank Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-tank",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:stats",
+        "class:druid:feral:talents"
+      ],
+      "source_hashes": [
+        "section:211854d235b4e9cf635662913690dc90f0bea247",
+        "section:5f9e04a3d0f5bf37e8684629bc32646d9f292a8b"
+      ]
+    },
+    {
+      "id": "clase-druid-build-restauracion-ng-rg",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de banda NG/RG",
+      "title_en": "Restoration NG/RG Raid Build",
+      "summary_es": "Se recomienda para responder a picos con Recrecimiento acelerado.",
+      "summary_en": "Recommended to answer damage spikes with hasted Regrowth.",
+      "keywords_es": [
+        "build druida restauracion ng rg",
+        "talentos druida restauracion ng rg",
+        "puntos talentos druida restauracion ng rg"
+      ],
+      "keywords_en": [
+        "druid build restauracion ng rg",
+        "druid talents restauracion ng rg",
+        "druid talent points restauracion ng rg"
+      ],
+      "text_es": "Rama de Equilibrio: Génesis 5/5, Enredaderas 3/3, Cólera mejorada 5/5, Enjambre de insectos 1/1, Brillo lunar 3/3, Gracia de la naturaleza 1/1, Majestuosidad de la naturaleza 2/2, Esplendor de la naturaleza 1/1. Rama de Recuperación: Floración 1/1, Regalo de la Naturaleza 5/5, Corazón de lo Salvaje 5/5, Recrecimiento mejorado 5/5, Rejuvenecimiento mejorado 3/3, Espíritu vivo 1/3, Naturalista 5/5, Rapidez de la Naturaleza 1/1, Refracción 3/3, Arreglo rápido 1/1.",
+      "text_en": "Balance: Genesis 5/5, Improved Entangling Roots 3/3, Improved Wrath 5/5, Insect Swarm 1/1, Moonglow 3/3, Nature's Grace 1/1, Nature's Majesty 2/2, Nature's Splendor 1/1. Restoration: Bloom 1/1, Gift of Nature 5/5, Heart of the Wild 5/5, Improved Regrowth 5/5, Improved Rejuvenation 3/3, Living Spirit 1/3, Naturalist 5/5, Nature's Swiftness 1/1, Reflection 3/3, Swiftmend 1/1.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Restoration Druid Talent Tree Builds - Forever › Best Restoration Druid PvE Raid Builds",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:talents"
+      ],
+      "source_hashes": [
+        "section:ed7941c351aeb1a33bb488d84ba4765e67cbb94d"
+      ]
+    },
+    {
+      "id": "clase-druid-build-restauracion-profunda",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build profunda de Recuperación",
+      "title_en": "Deep Restoration Raid/Dungeon Build",
+      "summary_es": "Alcanza Crecimiento salvaje; es la build de sanación para mazmorra y se espera menos fuerte que NG/RG en banda.",
+      "summary_en": "Reaches Wild Growth; it is the dungeon-healing build and is expected to trail NG/RG in raids.",
+      "keywords_es": [
+        "build druida restauracion profunda",
+        "talentos druida restauracion profunda",
+        "puntos talentos druida restauracion profunda"
+      ],
+      "keywords_en": [
+        "druid build restauracion profunda",
+        "druid talents restauracion profunda",
+        "druid talent points restauracion profunda"
+      ],
+      "text_es": "Rama de Equilibrio: Génesis 5/5, Cólera mejorada 5/5, Enjambre de insectos 1/1, Brillo lunar 2/3, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1. Rama de Recuperación: Floración 1/1, Regalo de la Naturaleza 5/5, Corazón de lo Salvaje 5/5, Recrecimiento mejorado 5/5, Rejuvenecimiento mejorado 3/3, Espíritu vivo 3/3, Naturalista 5/5, Rapidez de la Naturaleza 1/1, Refracción 3/3, Arreglo rápido 1/1, Crecimiento salvaje 1/1.",
+      "text_en": "Balance: Genesis 5/5, Improved Wrath 5/5, Insect Swarm 1/1, Moonglow 2/3, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1. Restoration: Bloom 1/1, Gift of Nature 5/5, Heart of the Wild 5/5, Improved Regrowth 5/5, Improved Rejuvenation 3/3, Living Spirit 3/3, Naturalist 5/5, Nature's Swiftness 1/1, Reflection 3/3, Swiftmend 1/1, Wild Growth 1/1.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Restoration Druid Talent Tree Builds - Forever › Best Restoration Druid PvE Raid Builds",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:talents"
+      ],
+      "source_hashes": [
+        "section:ed7941c351aeb1a33bb488d84ba4765e67cbb94d"
+      ]
+    },
+    {
+      "id": "clase-druid-build-restokin",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Restokin para mazmorra",
+      "title_en": "Restokin Dungeon Build",
+      "summary_es": "Mezcla daño entre curas; los últimos cinco puntos pueden reforzar daño o sanación.",
+      "summary_en": "Weaves damage between heals; the final five points can improve damage or healing.",
+      "keywords_es": [
+        "build druida restokin",
+        "talentos druida restokin",
+        "puntos talentos druida restokin"
+      ],
+      "keywords_en": [
+        "druid build restokin",
+        "druid talents restokin",
+        "druid talent points restokin"
+      ],
+      "text_es": "Rama de Equilibrio: Eclipse 3/3, Fuegolunar mejorado 2/2, Fuego estelar mejorado 5/5, Cólera mejorada 5/5, Enjambre de insectos 1/1, Furia de luna 5/5, Brillo lunar 3/3, Gracia de la naturaleza 1/1, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Venganza 5/5. Rama de Recuperación: Floración 1/1, Regalo de la Naturaleza 1/5, Corazón de lo Salvaje 5/5, Naturalista 5/5, Refracción 3/3, Arreglo rápido 1/1.",
+      "text_en": "Balance: Eclipse 3/3, Improved Moonfire 2/2, Improved Starfire 5/5, Improved Wrath 5/5, Insect Swarm 1/1, Moonfury 5/5, Moonglow 3/3, Nature's Grace 1/1, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Vengeance 5/5. Restoration: Bloom 1/1, Gift of Nature 1/5, Heart of the Wild 5/5, Naturalist 5/5, Reflection 3/3, Swiftmend 1/1.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Restoration Druid Talent Tree Builds - Forever › Best Restoration Druid PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:talents"
+      ],
+      "source_hashes": [
+        "section:504f8d3ddac828945a9f77ead990f980cda8fbf4"
+      ]
+    },
+    {
+      "id": "clase-druid-build-restocat",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Restocat para mazmorra",
+      "title_en": "Restocat Dungeon Build",
+      "summary_es": "Añade daño felino sin perder herramientas de sanación para el grupo.",
+      "summary_en": "Adds Cat damage while retaining the group-healing toolkit.",
+      "keywords_es": [
+        "build druida restocat",
+        "talentos druida restocat",
+        "puntos talentos druida restocat"
+      ],
+      "keywords_en": [
+        "druid build restocat",
+        "druid talents restocat",
+        "druid talent points restocat"
+      ],
+      "text_es": "Rama de Combate feral: Frenesí sangriento 2/2, Ferocidad 5/5, Furor 5/5, Líder de la manada 1/1, Instinto natural 2/2, Disciplina depredadora 1/1, Golpes depredadores 3/3, Desgarrar y rasgar 5/5, Furia salvaje 2/2, Garras afiladas 2/2, Poder cambiante 1/1, Ataques trituradores 3/3. Rama de Recuperación: Floración 1/1, Regalo de la Naturaleza 1/5, Corazón de lo Salvaje 5/5, Rejuvenecimiento mejorado 3/3, Naturalista 5/5, Refracción 3/3, Arreglo rápido 1/1.",
+      "text_en": "Feral: Blood Frenzy 2/2, Ferocity 5/5, Furor 5/5, Leader of the Pack 1/1, Natural Instinct 2/2, Predatory Discipline 1/1, Predatory Strikes 3/3, Rend and Tear 5/5, Savage Fury 2/2, Sharpened Claws 2/2, Shifting Power 1/1, Shredding Attacks 3/3. Restoration: Bloom 1/1, Gift of Nature 1/5, Heart of the Wild 5/5, Improved Rejuvenation 3/3, Naturalist 5/5, Reflection 3/3, Swiftmend 1/1.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Restoration Druid Talent Tree Builds - Forever › Best Restoration Druid PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:talents"
+      ],
+      "source_hashes": [
+        "section:504f8d3ddac828945a9f77ead990f980cda8fbf4"
+      ]
+    },
+    {
+      "id": "clase-druid-build-restauracion-pvp",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ de Recuperación",
+      "title_en": "Restoration PvP Build",
+      "summary_es": "Combina control y supervivencia con talentos de las tres ramas.",
+      "summary_en": "Combines control and survival with talents from all three trees.",
+      "keywords_es": [
+        "build druida restauracion pvp",
+        "talentos druida restauracion pvp",
+        "puntos talentos druida restauracion pvp"
+      ],
+      "keywords_en": [
+        "druid build restauracion pvp",
+        "druid talents restauracion pvp",
+        "druid talent points restauracion pvp"
+      ],
+      "text_es": "Rama de Equilibrio: Enredaderas 3/3, Fuegolunar mejorado 2/2, Cólera mejorada 5/5, Enjambre de insectos 1/1, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1. Rama de Combate feral: Impacto brutal 2/2, Carga feral 1/1, Presteza feral 2/2, Furor 5/5, Pellejo grueso 1/3. Rama de Recuperación: Floración 1/1, Corazón de lo Salvaje 5/5, Metamorfosis natural 3/3, Naturalista 5/5, Enfoque de la naturaleza 5/5, Rapidez de la Naturaleza 1/1, Refracción 3/3, Arreglo rápido 1/1.",
+      "text_en": "Balance: Improved Entangling Roots 3/3, Improved Moonfire 2/2, Improved Wrath 5/5, Insect Swarm 1/1, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1. Feral: Brutal Impact 2/2, Feral Charge 1/1, Feral Swiftness 2/2, Furor 5/5, Thick Hide 1/3. Restoration: Bloom 1/1, Heart of the Wild 5/5, Natural Shapeshifter 3/3, Naturalist 5/5, Nature's Focus 5/5, Nature's Swiftness 1/1, Reflection 3/3, Swiftmend 1/1.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Restoration Druid Talent Tree Builds - Forever › Best Restoration Druid PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:talents"
+      ],
+      "source_hashes": [
+        "section:39e7176816c24fd0ae619347680ac7db70093459"
+      ]
+    },
+    {
+      "id": "clase-druid-build-feral-tanque-pvp-trispec-parte-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ feral de tres ramas · parte 1/2",
+      "title_en": "Feral Tri-Spec PvP Build · Part 1/2",
+      "summary_es": "Talentos de Equilibrio y Combate feral; aportan daño, movilidad y resistencia.",
+      "summary_en": "Balance and Feral Combat talents add damage, mobility, and durability.",
+      "keywords_es": [
+        "build feral jcj tres ramas",
+        "talentos equilibrio feral pvp",
+        "puntos de talento druida jcj"
+      ],
+      "keywords_en": [
+        "feral tri-spec pvp build",
+        "balance feral pvp talents",
+        "druid pvp talent points"
+      ],
+      "text_es": "Rama de Equilibrio: Génesis 5/5, Fuegolunar mejorado 2/2, Enjambre de insectos 1/1, Brillo lunar 3/3, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1. Rama de Combate feral: Impacto brutal 2/2, Carga feral 1/1, Instinto feral 1/3, Presteza feral 2/2, Corazón de lo Salvaje 5/5. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Balance: Genesis 5/5, Improved Moonfire 2/2, Insect Swarm 1/1, Moonglow 3/3, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1. Feral: Brutal Impact 2/2, Feral Charge 1/1, Feral Instinct 1/3, Feral Swiftness 2/2, Heart of the Wild 5/5. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Feral Druid Tank Talent Builds - WoW: Forever › Best Feral Druid PvP Builds",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Attribute and Stat Guide - WoW: Forever › Feral Druid Tank Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-tank",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:stats",
+        "class:druid:feral:talents"
+      ],
+      "source_hashes": [
+        "section:211854d235b4e9cf635662913690dc90f0bea247",
+        "section:328b04e89feecf0b882a2775543ed6190db786cc"
+      ]
+    },
+    {
+      "id": "clase-druid-build-feral-tanque-pvp-trispec-parte-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ feral de tres ramas · parte 2/2",
+      "title_en": "Feral Tri-Spec PvP Build · Part 2/2",
+      "summary_es": "La rama de Recuperación completa la build; un punto retirado queda libre.",
+      "summary_en": "Restoration completes the build; a retired talent leaves one point free.",
+      "keywords_es": [
+        "build recuperación feral pvp",
+        "punto libre talento retirado",
+        "sanación druida jcj"
+      ],
+      "keywords_en": [
+        "restoration feral pvp build",
+        "retired talent free point",
+        "druid pvp healing"
+      ],
+      "text_es": "Rama de Recuperación: Furor 5/5, Metamorfosis natural 3/3, Naturalista 5/5, Enfoque de la naturaleza 5/5, Rapidez de la Naturaleza 1/1, Sutileza 3/3, Arreglo rápido 1/1. El talento retirado no cuenta y deja 1 punto libre. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Restoration: Furor 5/5, Natural Shapeshifter 3/3, Naturalist 5/5, Nature's Focus 5/5, Nature's Swiftness 1/1, Subtlety 3/3, Swiftmend 1/1. The retired talent is excluded, leaving 1 point free. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Feral Druid Tank Talent Builds - WoW: Forever › Best Feral Druid PvP Builds",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid Tank Attribute and Stat Guide - WoW: Forever › Feral Druid Tank Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-tank",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:feral:stats",
+        "class:druid:feral:talents"
+      ],
+      "source_hashes": [
+        "section:211854d235b4e9cf635662913690dc90f0bea247",
+        "section:328b04e89feecf0b882a2775543ed6190db786cc"
+      ]
+    },
+    {
+      "id": "clase-druid-build-equilibrio-eclipse-banda",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Alternativa de Eclipse para banda",
+      "title_en": "Hard-Cast Eclipse Raid Option",
+      "summary_es": "En banda, se prefiere Eclipse con casteos largos; no hay otro reparto de puntos descodificado.",
+      "summary_en": "Raids favor hard-cast Eclipse; no second point allocation is decoded.",
+      "keywords_es": [
+        "equilibrio eclipse banda",
+        "build casteo eclipse",
+        "alternativa equilibrio raid"
+      ],
+      "keywords_en": [
+        "balance eclipse raid",
+        "hardcast eclipse build",
+        "balance raid alternative"
+      ],
+      "text_es": "En banda se considera óptimo un estilo centrado en lanzar hechizos durante Eclipse, frente al multidot inicial. No se detalla una asignación independiente de talentos con puntos para esta alternativa.",
+      "text_en": "For raids, a hard-cast Eclipse approach is considered optimal over the early multidot route. No separate point-by-point talent allocation is provided for this alternative.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Balance Druid Talent Tree Builds - Forever › Best Balance Druid PvE Raid and Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:balance:talents"
+      ],
+      "source_hashes": [
+        "section:d91f22f6e2cdd1646d64e398c955f8500f7f6218"
+      ]
+    },
+    {
+      "id": "clase-druid-build-restauracion-pvp-grupo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Variante JcJ grupal de Recuperación",
+      "title_en": "Restoration Group-PvP Variant",
+      "summary_es": "Para más sanación grupal, cambia puntos hacia Recrecimiento mejorado y Crecimiento salvaje.",
+      "summary_en": "Shift talents toward Improved Regrowth and Wild Growth for stronger group healing.",
+      "keywords_es": [
+        "recuperación jcj grupal",
+        "build sanación pvp druida",
+        "alcance de la naturaleza jcj",
+        "crecimiento salvaje pvp"
+      ],
+      "keywords_en": [
+        "restoration group pvp",
+        "druid pvp healing build",
+        "nature reach pvp",
+        "wild growth pvp"
+      ],
+      "text_es": "Para JcJ en grupo con más sanación, recorta Equilibrio hasta Alcance de la naturaleza y profundiza en Recuperación para Recrecimiento mejorado y Crecimiento salvaje. No se detalla una asignación descodificada independiente para esta variante.",
+      "text_en": "For group PvP with more healing, trim Balance to Nature’s Reach and invest deeper in Restoration for Improved Regrowth and Wild Growth. No separate decoded point allocation is provided for this variation.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Restoration Druid Talent Tree Builds - Forever › Best Restoration Druid PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:druid:restoration:talents"
+      ],
+      "source_hashes": [
+        "section:39e7176816c24fd0ae619347680ac7db70093459"
+      ]
     }
   ]
 }
