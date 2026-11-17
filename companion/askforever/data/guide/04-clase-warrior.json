@@ -2213,6 +2213,747 @@
       "source_hashes": [
         "section:ed18dc14ad220dad5d4e9b5e30bd9c617535799c"
       ]
+    },
+    {
+      "id": "clase-warrior-armas-talentos-pve-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Armas: talentos PvE (1/2)",
+      "title_en": "Arms: PvE talents (1/2)",
+      "summary_es": "Build de daño PvE que conserva Golpe mortal.",
+      "summary_en": "PvE damage build that keeps Mortal Strike.",
+      "keywords_es": [
+        "talentos Armas PvE",
+        "build Guerrero Armas",
+        "Golpe mortal Armas"
+      ],
+      "keywords_en": [
+        "Arms PvE talents",
+        "Arms Warrior build",
+        "Arms Mortal Strike"
+      ],
+      "text_es": "Armas: Golpe heroico mejorado 3/3, Desgarrar mejorado 3/3, Maestría táctica mejorada 3/3, Abrumar mejorado 2/2, Control de furia 1/1, Heridas profundas 3/3, Lanzazo 1/1, Especialización en armas de dos manos 3/3, Clavar 2/2, Fragor de la sangre 2/2, Golpes de barrido 1/1, Maestro de armas 5/5, Embate mejorado 2/2, Golpe mortal 1/1.",
+      "text_en": "Arms: Improved Heroic Strike 3/3, Improved Rend 3/3, Improved Tactical Mastery 3/3, Improved Overpower 2/2, Anger Management 1/1, Deep Wounds 3/3, Spearing Strike 1/1, Two-Handed Weapon Specialization 3/3, Impale 2/2, Bloodthrill 2/2, Sweeping Strikes 1/1, Weaponmaster 5/5, Improved Slam 2/2, Mortal Strike 1/1.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Arms Warrior Talent Tree Builds - WoW: Forever › Best Arms Warrior PVE Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:talents"
+      ],
+      "source_hashes": [
+        "section:cc3795f907595a5f68dbd003bf8acdb1b8eb71c8"
+      ]
+    },
+    {
+      "id": "clase-warrior-armas-talentos-pve-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Armas: talentos PvE (2/2)",
+      "title_en": "Arms: PvE talents (2/2)",
+      "summary_es": "Build de daño PvE que conserva Golpe mortal.",
+      "summary_en": "PvE damage build that keeps Mortal Strike.",
+      "keywords_es": [
+        "talentos Armas PvE",
+        "build Guerrero Armas",
+        "Golpe mortal Armas"
+      ],
+      "keywords_en": [
+        "Arms PvE talents",
+        "Arms Warrior build",
+        "Arms Mortal Strike"
+      ],
+      "text_es": "Furia: Crueldad 5/5, Ira persistente 5/5, Enfurecer 5/5, Ejecutar mejorado 2/2. Protección: Sanguinario mejorado 2/2. La build invierte mucho en Armas para conservar Golpe mortal; Deseo de la Muerte exigiría renunciar a él. Enfurecer es flexible: si no recibes ataques, Voz retumbante ayuda a mantener gritos o Cólera desbocada a generar furia.",
+      "text_en": "Fury: Cruelty 5/5, Lingering Rage 5/5, Enrage 5/5, Improved Execute 2/2. Protection: Improved Bloodrage 2/2. The build invests heavily in Arms to keep Mortal Strike; Death Wish would require giving it up. Enrage is flexible: if you will not take attacks, Booming Voice supports shouts or Unbridled Wrath adds Rage.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Arms Warrior Talent Tree Builds - WoW: Forever › Best Arms Warrior PVE Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:talents"
+      ],
+      "source_hashes": [
+        "section:cc3795f907595a5f68dbd003bf8acdb1b8eb71c8"
+      ]
+    },
+    {
+      "id": "clase-warrior-armas-talentos-pvp-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Armas: talentos JcJ (1/2)",
+      "title_en": "Arms: PvP talents (1/2)",
+      "summary_es": "Build JcJ de Armas que cambia mejora de Golpe heroico por supervivencia.",
+      "summary_en": "Arms PvP build that trades Heroic Strike improvements for survivability.",
+      "keywords_es": [
+        "talentos Armas JcJ",
+        "build PvP Guerrero Armas",
+        "Desvío Guerrero"
+      ],
+      "keywords_en": [
+        "Arms PvP talents",
+        "Arms Warrior PvP build",
+        "Warrior Deflection"
+      ],
+      "text_es": "Armas: Desvío 3/5, Desgarrar mejorado 3/3, Maestría táctica mejorada 3/3, Abrumar mejorado 2/2, Control de furia 1/1, Heridas profundas 3/3, Lanzazo 1/1, Especialización en armas de dos manos 3/3, Clavar 2/2, Fragor de la sangre 2/2, Golpes de barrido 1/1, Maestro de armas 5/5, Embate mejorado 2/2, Seccionar mejorado 3/3.",
+      "text_en": "Arms: Deflection 3/5, Improved Rend 3/3, Improved Tactical Mastery 3/3, Improved Overpower 2/2, Anger Management 1/1, Deep Wounds 3/3, Spearing Strike 1/1, Two-Handed Weapon Specialization 3/3, Impale 2/2, Bloodthrill 2/2, Sweeping Strikes 1/1, Weaponmaster 5/5, Improved Slam 2/2, Improved Hamstring 3/3.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Arms Warrior Talent Tree Builds - WoW: Forever › Best Arms Warrior PVP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:talents"
+      ],
+      "source_hashes": [
+        "section:d0e1a506b0a8e6ad9bf7433f7696f730bfb09fe7"
+      ]
+    },
+    {
+      "id": "clase-warrior-armas-talentos-pvp-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Armas: talentos JcJ (2/2)",
+      "title_en": "Arms: PvP talents (2/2)",
+      "summary_es": "Build JcJ de Armas que cambia mejora de Golpe heroico por supervivencia.",
+      "summary_en": "Arms PvP build that trades Heroic Strike improvements for survivability.",
+      "keywords_es": [
+        "talentos Armas JcJ",
+        "build PvP Guerrero Armas",
+        "Desvío Guerrero"
+      ],
+      "keywords_en": [
+        "Arms PvP talents",
+        "Arms Warrior PvP build",
+        "Warrior Deflection"
+      ],
+      "text_es": "Armas: Golpe mortal 1/1. Furia: Voz retumbante 5/5, Crueldad 5/5, Aullido penetrante 1/1, Enfurecer 5/5. La furia escasea en JcJ, así que Golpe heroico se usa poco y sus puntos pasan a Desvío. Lanzazo puede omitirse en campos de batalla; Enfurecer rinde más contra cuerpo a cuerpo que contra lanzadores.",
+      "text_en": "Arms: Mortal Strike 1/1. Fury: Booming Voice 5/5, Cruelty 5/5, Piercing Howl 1/1, Enrage 5/5. Rage is scarce in PvP, so Heroic Strike is rarely used and its points move to Deflection. Spearing Strike can be dropped for battlegrounds; Enrage is stronger against melee than casters.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Arms Warrior Talent Tree Builds - WoW: Forever › Best Arms Warrior PVP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:talents"
+      ],
+      "source_hashes": [
+        "section:d0e1a506b0a8e6ad9bf7433f7696f730bfb09fe7"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-talentos-raid",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Furia: talentos de banda",
+      "title_en": "Fury: Raid talents",
+      "summary_es": "Build de banda con Sed de sangre, Aluvión y Deseo de la Muerte.",
+      "summary_en": "Raid build with Bloodthirst, Flurry, and Death Wish.",
+      "keywords_es": [
+        "talentos Furia banda",
+        "build Guerrero Furia PvE",
+        "Deseo de la Muerte"
+      ],
+      "keywords_en": [
+        "Fury raid talents",
+        "Fury Warrior PvE build",
+        "Fury Death Wish"
+      ],
+      "text_es": "Armas: Golpe heroico mejorado 3/3, Desgarrar mejorado 3/3, Maestría táctica mejorada 3/3, Abrumar mejorado 2/2, Control de furia 1/1, Heridas profundas 3/3, Clavar 2/2. Furia: Crueldad 5/5, Cólera desbocada 5/5, Precisión furiosa 3/3, Enfurecer 4/5, Especialización en doble empuñadura 5/5, Golpes temerarios 1/1, Ejecutar mejorado 2/2, Ira rabiosa mejorada 2/2, Deseo de la Muerte 1/1, Torbellino mejorado 2/2, Aluvión 3/3, Sed de sangre 1/1. Maestría táctica mejorada y Abrumar mejorado aprovechan mejor la furia limitada; Clavar potencia los críticos.",
+      "text_en": "Arms: Improved Heroic Strike 3/3, Improved Rend 3/3, Improved Tactical Mastery 3/3, Improved Overpower 2/2, Anger Management 1/1, Deep Wounds 3/3, Impale 2/2. Fury: Cruelty 5/5, Unbridled Wrath 5/5, Furious Precision 3/3, Enrage 4/5, Dual Wield Specialization 5/5, Reckless Swings 1/1, Improved Execute 2/2, Improved Berserker Rage 2/2, Death Wish 1/1, Improved Whirlwind 2/2, Flurry 3/3, Bloodthirst 1/1. Improved Tactical Mastery and Improved Overpower make limited Rage go further; Impale boosts critical strikes.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Fury Warrior Talent Tree Builds - WoW: Forever › Best Fury Warrior PvE Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:talents"
+      ],
+      "source_hashes": [
+        "section:20d126321f16ce0eeb33fb5eb813f3ba5149b749"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-talentos-mazmorra-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Furia: talentos de mazmorra (1/2)",
+      "title_en": "Fury: Dungeon talents (1/2)",
+      "summary_es": "Build de mazmorra que refuerza Enfurecer ante daño frecuente.",
+      "summary_en": "Dungeon build that strengthens Enrage against frequent damage.",
+      "keywords_es": [
+        "talentos Furia mazmorra",
+        "build Furia dungeons",
+        "Ira persistente Furia"
+      ],
+      "keywords_en": [
+        "Fury dungeon talents",
+        "Fury dungeon build",
+        "Fury Lingering Rage"
+      ],
+      "text_es": "Armas: Golpe heroico mejorado 3/3, Desgarrar mejorado 3/3, Maestría táctica mejorada 3/3, Abrumar mejorado 2/2, Control de furia 1/1, Heridas profundas 3/3, Clavar 2/2. Furia: Crueldad 5/5, Ira persistente 1/5, Cólera desbocada 5/5, Precisión furiosa 3/3, Enfurecer 5/5, Especialización en doble empuñadura 5/5.",
+      "text_en": "Arms: Improved Heroic Strike 3/3, Improved Rend 3/3, Improved Tactical Mastery 3/3, Improved Overpower 2/2, Anger Management 1/1, Deep Wounds 3/3, Impale 2/2. Fury: Cruelty 5/5, Lingering Rage 1/5, Unbridled Wrath 5/5, Furious Precision 3/3, Enrage 5/5, Dual Wield Specialization 5/5.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Fury Warrior Talent Tree Builds - WoW: Forever › Best Fury Warrior PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:talents"
+      ],
+      "source_hashes": [
+        "section:8dd9ac0843806c40e574fd87a7a1d64a5f41c73e"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-talentos-mazmorra-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Furia: talentos de mazmorra (2/2)",
+      "title_en": "Fury: Dungeon talents (2/2)",
+      "summary_es": "Build de mazmorra que refuerza Enfurecer ante daño frecuente.",
+      "summary_en": "Dungeon build that strengthens Enrage against frequent damage.",
+      "keywords_es": [
+        "talentos Furia mazmorra",
+        "build Furia dungeons",
+        "Ira persistente Furia"
+      ],
+      "keywords_en": [
+        "Fury dungeon talents",
+        "Fury dungeon build",
+        "Fury Lingering Rage"
+      ],
+      "text_es": "Furia: Golpes temerarios 1/1, Ejecutar mejorado 2/2, Deseo de la Muerte 1/1, Torbellino mejorado 2/2, Aluvión 3/3, Sed de sangre 1/1. Omite Ira rabiosa mejorada, menos útil ante enemigos de nivel bajo y al guardar furia entre grupos; maximiza Enfurecer para aprovechar el daño frecuente en mazmorras.",
+      "text_en": "Fury: Reckless Swings 1/1, Improved Execute 2/2, Death Wish 1/1, Improved Whirlwind 2/2, Flurry 3/3, Bloodthirst 1/1. It skips Improved Berserker Rage, less useful against lower-level mobs and when saving Rage between packs; it maximizes Enrage for frequent dungeon damage.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Fury Warrior Talent Tree Builds - WoW: Forever › Best Fury Warrior PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:talents"
+      ],
+      "source_hashes": [
+        "section:8dd9ac0843806c40e574fd87a7a1d64a5f41c73e"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-talentos-pvp-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Furia: talentos JcJ (1/2)",
+      "title_en": "Fury: PvP talents (1/2)",
+      "summary_es": "Build JcJ de Furia con aguante, movilidad y control.",
+      "summary_en": "Fury PvP build with sustain, mobility, and control.",
+      "keywords_es": [
+        "talentos Furia JcJ",
+        "build PvP Guerrero Furia",
+        "Intercepción mejorada"
+      ],
+      "keywords_en": [
+        "Fury PvP talents",
+        "Fury Warrior PvP build",
+        "Improved Intercept"
+      ],
+      "text_es": "Armas: Desvío 3/5, Desgarrar mejorado 3/3, Maestría táctica mejorada 3/3, Abrumar mejorado 2/2, Control de furia 1/1, Heridas profundas 3/3, Clavar 2/2. Furia: Voz retumbante 5/5, Crueldad 5/5, Precisión furiosa 1/3, Aullido penetrante 1/1, Manía sangrienta 3/3, Enfurecer 5/5, Golpes temerarios 1/1, Ira rabiosa mejorada 2/2.",
+      "text_en": "Arms: Deflection 3/5, Improved Rend 3/3, Improved Tactical Mastery 3/3, Improved Overpower 2/2, Anger Management 1/1, Deep Wounds 3/3, Impale 2/2. Fury: Booming Voice 5/5, Cruelty 5/5, Furious Precision 1/3, Piercing Howl 1/1, Blood Craze 3/3, Enrage 5/5, Reckless Swings 1/1, Improved Berserker Rage 2/2.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Fury Warrior Talent Tree Builds - WoW: Forever › Best Fury Warrior PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:talents"
+      ],
+      "source_hashes": [
+        "section:30926ec8c1fd5fc1e111d0dc61ea65449911a4eb"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-talentos-pvp-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Furia: talentos JcJ (2/2)",
+      "title_en": "Fury: PvP talents (2/2)",
+      "summary_es": "Build JcJ de Furia con aguante, movilidad y control.",
+      "summary_en": "Fury PvP build with sustain, mobility, and control.",
+      "keywords_es": [
+        "talentos Furia JcJ",
+        "build PvP Guerrero Furia",
+        "Intercepción mejorada"
+      ],
+      "keywords_en": [
+        "Fury PvP talents",
+        "Fury Warrior PvP build",
+        "Improved Intercept"
+      ],
+      "text_es": "Furia: Deseo de la Muerte 1/1, Bebedor de entrañas 2/2, Intercepción mejorada 2/2, Torbellino mejorado 2/2, Aluvión 3/3, Sed de sangre 1/1. Aunque Furia es más débil que Armas en JcJ, la build añade aguante, permite quitar raíces y ralentizaciones con Ira rabiosa mejorada y acorta la reutilización de Interceptar.",
+      "text_en": "Fury: Death Wish 1/1, Gore Drinker 2/2, Improved Intercept 2/2, Improved Whirlwind 2/2, Flurry 3/3, Bloodthirst 1/1. In PvP, this build is weaker than Arms but adds sustain, removes roots and slows with Improved Berserker Rage, and reduces Intercept cooldown.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Fury Warrior Talent Tree Builds - WoW: Forever › Best Fury Warrior PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:fury:talents"
+      ],
+      "source_hashes": [
+        "section:30926ec8c1fd5fc1e111d0dc61ea65449911a4eb"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-talentos-raid-estandar",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Protección: talentos de banda estándar",
+      "title_en": "Protection: Standard raid talents",
+      "summary_es": "Build estándar que equilibra defensa y amenaza.",
+      "summary_en": "Standard build balancing defense and threat.",
+      "keywords_es": [
+        "talentos Protección banda",
+        "build tanque Guerrero",
+        "amenaza y defensa Protección"
+      ],
+      "keywords_en": [
+        "Protection raid talents",
+        "Warrior tank build",
+        "Protection threat and defense"
+      ],
+      "text_es": "Armas: Desvío 4/5. Furia: Crueldad 5/5, Cólera desbocada 5/5, Enfurecer 5/5. Protección: Especialización en escudos 5/5, Anticipación 5/5, Revancha mejorada 3/3, Última posición 1/1, Maestro de defensa 2/2, Desafío 3/3, Vanguardia 1/1, Muro de escudo mejorado 2/2, Golpe de concusión 1/1, Ira enfocada 3/3, Bastión 5/5, Embate con escudo 1/1. Es la opción general equilibrada entre defensa y amenaza. Ira enfocada mejora daño y amenaza; Desvío y Golpe heroico mejorado compiten por preferencia.",
+      "text_en": "Arms: Deflection 4/5. Fury: Cruelty 5/5, Unbridled Wrath 5/5, Enrage 5/5. Protection: Shield Specialization 5/5, Anticipation 5/5, Improved Revenge 3/3, Last Stand 1/1, Master of Defense 2/2, Defiance 3/3, Vanguard 1/1, Improved Shield Wall 2/2, Concussion Blow 1/1, Focused Rage 3/3, Bastion 5/5, Shield Slam 1/1. This is the general balanced option for defense and threat. Focused Rage improves damage and threat; Deflection and Improved Heroic Strike compete as a matter of preference.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Warrior Talent Tree Builds - WoW: Forever › Standard Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:talents"
+      ],
+      "source_hashes": [
+        "section:e48cff342bad17be85694aa1551cc4b092f41799"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-talentos-raid-clavar",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Protección: talentos de banda con Clavar",
+      "title_en": "Protection: Impale raid talents",
+      "summary_es": "Build de banda con Clavar y Heridas profundas para escalar mejor.",
+      "summary_en": "Raid build with Impale and Deep Wounds for stronger scaling.",
+      "keywords_es": [
+        "Protección Clavar banda",
+        "Heridas profundas tanque",
+        "talentos Protección crítico"
+      ],
+      "keywords_en": [
+        "Protection Impale raid",
+        "tank Deep Wounds",
+        "Protection critical talents"
+      ],
+      "text_es": "Armas: Golpe heroico mejorado 3/3, Desvío 5/5, Desgarrar mejorado 3/3, Maestría táctica mejorada 1/3, Heridas profundas 3/3, Clavar 2/2. Furia: Crueldad 2/5. Protección: Especialización en escudos 5/5, Anticipación 5/5, Revancha mejorada 3/3, Última posición 1/1, Maestro de defensa 2/2, Desafío 3/3, Vanguardia 1/1, Muro de escudo mejorado 2/2, Golpe de concusión 1/1, Ira enfocada 3/3, Bastión 5/5, Embate con escudo 1/1. Clavar y Heridas profundas favorecen el escalado; Desgarrar gana valor porque ahora escala con poder de ataque. Vanguardia aporta movilidad útil fuera de jefes de banda.",
+      "text_en": "Arms: Improved Heroic Strike 3/3, Deflection 5/5, Improved Rend 3/3, Improved Tactical Mastery 1/3, Deep Wounds 3/3, Impale 2/2. Fury: Cruelty 2/5. Protection: Shield Specialization 5/5, Anticipation 5/5, Improved Revenge 3/3, Last Stand 1/1, Master of Defense 2/2, Defiance 3/3, Vanguard 1/1, Improved Shield Wall 2/2, Concussion Blow 1/1, Focused Rage 3/3, Bastion 5/5, Shield Slam 1/1. Impale and Deep Wounds improve scaling; Rend gains value because it now scales with Attack Power. Vanguard adds useful mobility outside raid bosses.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Warrior Talent Tree Builds - WoW: Forever › Impale Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:talents"
+      ],
+      "source_hashes": [
+        "section:e5d76a7ca689aee3281877fcc7b08504de22aa85"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-talentos-raid-fury-prot-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Protección: talentos Furia-Protección (1/2)",
+      "title_en": "Protection: Fury-Prot talents (1/2)",
+      "summary_es": "Variante que sacrifica algo de defensa a cambio de daño.",
+      "summary_en": "Variant trading some defense for damage.",
+      "keywords_es": [
+        "Furia Protección banda",
+        "build fury prot Guerrero",
+        "tanque más ofensivo"
+      ],
+      "keywords_en": [
+        "Fury-Prot raid build",
+        "Warrior fury prot build",
+        "offensive tank"
+      ],
+      "text_es": "Armas: Golpe heroico mejorado 3/3. Furia: Crueldad 5/5, Cólera desbocada 5/5, Aullido penetrante 1/1, Manía sangrienta 3/3, Enfurecer 5/5, Golpes temerarios 1/1, Ejecutar mejorado 2/2, Ira rabiosa mejorada 2/2, Deseo de la Muerte 1/1, Bebedor de entrañas 2/2, Aluvión 3/3, Sed de sangre 1/1. Protección: Especialización en escudos 5/5.",
+      "text_en": "Arms: Improved Heroic Strike 3/3. Fury: Cruelty 5/5, Unbridled Wrath 5/5, Piercing Howl 1/1, Blood Craze 3/3, Enrage 5/5, Reckless Swings 1/1, Improved Execute 2/2, Improved Berserker Rage 2/2, Death Wish 1/1, Gore Drinker 2/2, Flurry 3/3, Bloodthirst 1/1. Protection: Shield Specialization 5/5.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Warrior Talent Tree Builds - WoW: Forever › Fury-prot Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:talents"
+      ],
+      "source_hashes": [
+        "section:3e4f0c7fc199f2edc54bac93a8f0801ee2e68736"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-talentos-raid-fury-prot-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Protección: talentos Furia-Protección (2/2)",
+      "title_en": "Protection: Fury-Prot talents (2/2)",
+      "summary_es": "Variante que sacrifica algo de defensa a cambio de daño.",
+      "summary_en": "Variant trading some defense for damage.",
+      "keywords_es": [
+        "Furia Protección banda",
+        "build fury prot Guerrero",
+        "tanque más ofensivo"
+      ],
+      "keywords_en": [
+        "Fury-Prot raid build",
+        "Warrior fury prot build",
+        "offensive tank"
+      ],
+      "text_es": "Protección: Anticipación 2/5, Revancha mejorada 3/3, Última posición 1/1, Maestro de defensa 2/2, Desafío 3/3, Vanguardia 1/1. Hace más daño y escala mejor con Aluvión a costa de algo de supervivencia; es más adecuada con equipo superior. En mazmorras se puede incluir Bebedor de entrañas quitando puntos de Ira rabiosa mejorada o Ejecutar mejorado.",
+      "text_en": "Protection: Anticipation 2/5, Improved Revenge 3/3, Last Stand 1/1, Master of Defense 2/2, Defiance 3/3, Vanguard 1/1. It deals more damage and scales better with Flurry at the cost of survivability; it suits a somewhat overgeared character. In dungeons, Gore Drinker can replace Improved Berserker Rage or Improved Execute.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Warrior Talent Tree Builds - WoW: Forever › Fury-prot Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:talents"
+      ],
+      "source_hashes": [
+        "section:3e4f0c7fc199f2edc54bac93a8f0801ee2e68736"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-talentos-raid-doble-arma",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Protección: talentos de banda con doble empuñadura",
+      "title_en": "Protection: Dual-Wield raid talents",
+      "summary_es": "Variante con dos armas para enemigos con ataques no bloqueables.",
+      "summary_en": "Dual-wield variant for enemies with unblockable attacks.",
+      "keywords_es": [
+        "Protección doble empuñadura",
+        "tanque dos armas Guerrero",
+        "ataques no bloqueables"
+      ],
+      "keywords_en": [
+        "Protection dual wield",
+        "Warrior dual-wield tank",
+        "unblockable attacks"
+      ],
+      "text_es": "Armas: Golpe heroico mejorado 3/3, Desvío 5/5, Desgarrar mejorado 3/3, Maestría táctica mejorada 3/3, Control de furia 1/1, Heridas profundas 3/3, Clavar 2/2. Furia: Crueldad 5/5, Cólera desbocada 5/5, Precisión furiosa 3/3, Enfurecer 5/5, Especialización en doble empuñadura 5/5, Golpes temerarios 1/1, Ejecutar mejorado 2/2, Deseo de la Muerte 1/1, Aluvión 3/3, Sed de sangre 1/1. Solo sirve contra enemigos con ataques no bloqueables. En un jefe normal aumenta un 50% el daño recibido y reduce la amenaza, a cambio de alrededor de un 15% más de daño infligido.",
+      "text_en": "Arms: Improved Heroic Strike 3/3, Deflection 5/5, Improved Rend 3/3, Improved Tactical Mastery 3/3, Anger Management 1/1, Deep Wounds 3/3, Impale 2/2. Fury: Cruelty 5/5, Unbridled Wrath 5/5, Furious Precision 3/3, Enrage 5/5, Dual Wield Specialization 5/5, Reckless Swings 1/1, Improved Execute 2/2, Death Wish 1/1, Flurry 3/3, Bloodthirst 1/1. It is only for enemies with unblockable attacks. Against a normal boss it increases damage taken by 50% and lowers threat in exchange for about 15% more damage dealt.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Warrior Talent Tree Builds - WoW: Forever › Dual Wield Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:talents"
+      ],
+      "source_hashes": [
+        "section:c4ab3e82e109253f40107d580110cb028040a952"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-talentos-mazmorra-estandar",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Protección: talentos de mazmorra estándar",
+      "title_en": "Protection: Standard dungeon talents",
+      "summary_es": "Build profunda para tanquear en actitud defensiva en mazmorras.",
+      "summary_en": "Deep build for dungeon tanking in Defensive Stance.",
+      "keywords_es": [
+        "Protección talentos mazmorra",
+        "build tanque mazmorra",
+        "Protección actitud defensiva"
+      ],
+      "keywords_en": [
+        "Protection dungeon talents",
+        "dungeon tank build",
+        "Protection Defensive Stance"
+      ],
+      "text_es": "Armas: Desvío 4/5. Furia: Crueldad 5/5, Cólera desbocada 5/5, Enfurecer 5/5. Protección: Especialización en escudos 5/5, Anticipación 2/5, Revancha mejorada 3/3, Trueno mejorado 3/3, Última posición 1/1, Maestro de defensa 2/2, Desafío 3/3, Vanguardia 1/1, Muro de escudo mejorado 2/2, Golpe de concusión 1/1, Ira enfocada 3/3, Bastión 5/5, Embate con escudo 1/1. Facilita permanecer en Actitud defensiva y mantener Enfurecer contra varios enemigos. Para ralentizar en área mientras huyes, puedes mover un punto de Desvío a Aullido penetrante.",
+      "text_en": "Arms: Deflection 4/5. Fury: Cruelty 5/5, Unbridled Wrath 5/5, Enrage 5/5. Protection: Shield Specialization 5/5, Anticipation 2/5, Improved Revenge 3/3, Improved Thunder Clap 3/3, Last Stand 1/1, Master of Defense 2/2, Defiance 3/3, Vanguard 1/1, Improved Shield Wall 2/2, Concussion Blow 1/1, Focused Rage 3/3, Bastion 5/5, Shield Slam 1/1. It supports staying in Defensive Stance and maintaining Enrage against several enemies. For an area slow while kiting, move one Deflection point to Piercing Howl.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Warrior Talent Tree Builds - WoW: Forever › Best Protection Warrior PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:talents"
+      ],
+      "source_hashes": [
+        "section:1ad251111b57b621f1e1ef5ce8801606eb82e4fc"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-talentos-mazmorra-area-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Protección: talentos de mazmorra de área (1/2)",
+      "title_en": "Protection: AoE dungeon talents (1/2)",
+      "summary_es": "Build de tanque con Golpes de barrido para extender Revancha y Mellar.",
+      "summary_en": "Tank build using Sweeping Strikes to spread Revenge and Cleave.",
+      "keywords_es": [
+        "Protección daño en área",
+        "Golpes de barrido tanque",
+        "Mellar Revancha Guerrero"
+      ],
+      "keywords_en": [
+        "Protection AoE damage",
+        "tank Sweeping Strikes",
+        "Warrior Cleave Revenge"
+      ],
+      "text_es": "Armas: Golpe heroico mejorado 3/3, Desvío 5/5, Desgarrar mejorado 3/3, Maestría táctica mejorada 3/3, Control de furia 1/1, Heridas profundas 3/3, Clavar 2/2, Golpes de barrido 1/1, Maestro de armas 5/5, Embate mejorado 2/2. Furia: Crueldad 5/5. Protección: Especialización en escudos 5/5, Revancha mejorada 3/3.",
+      "text_en": "Arms: Improved Heroic Strike 3/3, Deflection 5/5, Improved Rend 3/3, Improved Tactical Mastery 3/3, Anger Management 1/1, Deep Wounds 3/3, Impale 2/2, Sweeping Strikes 1/1, Weaponmaster 5/5, Improved Slam 2/2. Fury: Cruelty 5/5. Protection: Shield Specialization 5/5, Improved Revenge 3/3.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Warrior Talent Tree Builds - WoW: Forever › Best Protection Warrior PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:talents"
+      ],
+      "source_hashes": [
+        "section:1ad251111b57b621f1e1ef5ce8801606eb82e4fc"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-talentos-mazmorra-area-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Protección: talentos de mazmorra de área (2/2)",
+      "title_en": "Protection: AoE dungeon talents (2/2)",
+      "summary_es": "Build de tanque con Golpes de barrido para extender Revancha y Mellar.",
+      "summary_en": "Tank build using Sweeping Strikes to spread Revenge and Cleave.",
+      "keywords_es": [
+        "Protección daño en área",
+        "Golpes de barrido tanque",
+        "Mellar Revancha Guerrero"
+      ],
+      "keywords_en": [
+        "Protection AoE damage",
+        "tank Sweeping Strikes",
+        "Warrior Cleave Revenge"
+      ],
+      "text_es": "Protección: Trueno mejorado 3/3, Última posición 1/1, Maestro de defensa 2/2, Desafío 3/3, Vanguardia 1/1. Golpes de barrido extiende Revancha y Mellar: un Mellar puede golpear cuatro veces en total, no dos. Requiere cambiar de actitud, pero es la build de tanque con más daño y se beneficia de un arma lenta.",
+      "text_en": "Protection: Improved Thunder Clap 3/3, Last Stand 1/1, Master of Defense 2/2, Defiance 3/3, Vanguard 1/1. Sweeping Strikes spreads Revenge and Cleave: one Cleave can hit four times total, not two. It requires stance dancing, but is the highest-damage tank build and benefits from a slow weapon.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Warrior Talent Tree Builds - WoW: Forever › Best Protection Warrior PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:talents"
+      ],
+      "source_hashes": [
+        "section:1ad251111b57b621f1e1ef5ce8801606eb82e4fc"
+      ]
+    },
+    {
+      "id": "clase-warrior-proteccion-talentos-pvp",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Protección: talentos JcJ",
+      "title_en": "Protection: PvP talents",
+      "summary_es": "Build JcJ con aturdimiento, silencio, desarme y aguante.",
+      "summary_en": "PvP build with stun, silence, disarm, and sustain.",
+      "keywords_es": [
+        "talentos Protección JcJ",
+        "build PvP Guerrero tanque",
+        "Desarmar mejorado Protección"
+      ],
+      "keywords_en": [
+        "Protection PvP talents",
+        "Warrior tank PvP build",
+        "Protection Improved Disarm"
+      ],
+      "text_es": "Furia: Crueldad 5/5, Cólera desbocada 5/5, Aullido penetrante 1/1, Manía sangrienta 3/3, Enfurecer 5/5. Protección: Especialización en escudos 5/5, Voluntad férrea 5/5, Revancha mejorada 3/3, Última posición 1/1, Maestro de defensa 2/2, Desarmar mejorado 3/3, Vanguardia 1/1, Azote de escudo mejorado 2/2, Golpe de concusión 1/1, Ira enfocada 3/3, Bastión 5/5, Embate con escudo 1/1. Destaca en duelos contra cuerpo a cuerpo; controla con aturdimiento de 5 s, silencio de 3 s y Desactivar cada 40 s. Embate con escudo disipa magia y Manía sangrienta aporta autocuración.",
+      "text_en": "Fury: Cruelty 5/5, Unbridled Wrath 5/5, Piercing Howl 1/1, Blood Craze 3/3, Enrage 5/5. Protection: Shield Specialization 5/5, Iron Will 5/5, Improved Revenge 3/3, Last Stand 1/1, Master of Defense 2/2, Improved Disarm 3/3, Vanguard 1/1, Improved Shield Bash 2/2, Concussion Blow 1/1, Focused Rage 3/3, Bastion 5/5, Shield Slam 1/1. It excels in duels against melee; it controls with a 5-second stun, 3-second silence, and Disarm every 40 seconds. Shield Slam dispels magic, and Blood Craze provides self-healing.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Protection Warrior Talent Tree Builds - WoW: Forever › Best Protection Warrior PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/talent-builds-pve-tank",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:protection:talents"
+      ],
+      "source_hashes": [
+        "section:4b1b8219a698e5db02374eb1808b71dabb1b6434"
+      ]
+    },
+    {
+      "id": "clase-warrior-armas-talentos-subida",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Armas: talentos para subir de nivel",
+      "title_en": "Arms: leveling talents",
+      "summary_es": "Build de 51 puntos de Armas para subir de nivel.",
+      "summary_en": "51-point Arms build for leveling.",
+      "keywords_es": [
+        "talentos Armas para subir",
+        "build Guerrero leveo Armas",
+        "Embestir mejorado Guerrero"
+      ],
+      "keywords_en": [
+        "Arms leveling talents",
+        "Arms leveling build",
+        "Improved Charge Warrior"
+      ],
+      "text_es": "Armas: Desvío 5/5, Desgarrar mejorado 3/3, Embestir mejorado 2/2, Maestría táctica mejorada 3/3, Abrumar mejorado 2/2, Control de furia 1/1, Heridas profundas 3/3, Especialización en armas de dos manos 3/3, Clavar 2/2, Fragor de la sangre 2/2, Golpes de barrido 1/1, Maestro de armas 5/5, Embate mejorado 2/2, Golpe mortal 1/1. Furia: Crueldad 5/5, Ira persistente 5/5, Aullido penetrante 1/1, Enfurecer 5/5. Para subir, omite Sanguinario mejorado y Golpe heroico mejorado: Golpe heroico gasta y frena la furia, mientras Sanguinario convierte furia en salud de forma ineficiente.",
+      "text_en": "Arms: Deflection 5/5, Improved Rend 3/3, Improved Charge 2/2, Improved Tactical Mastery 3/3, Improved Overpower 2/2, Anger Management 1/1, Deep Wounds 3/3, Two-Handed Weapon Specialization 3/3, Impale 2/2, Bloodthrill 2/2, Sweeping Strikes 1/1, Weaponmaster 5/5, Improved Slam 2/2, Mortal Strike 1/1. Fury: Cruelty 5/5, Lingering Rage 5/5, Piercing Howl 1/1, Enrage 5/5. For leveling, skip Improved Bloodrage and Improved Heroic Strike: Heroic Strike spends and stops Rage generation, while Bloodrage converts Rage to health inefficiently.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Arms Warrior Talent Tree Builds - WoW: Forever › Best Arms Warrior Leveling Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warrior:arms:talents"
+      ],
+      "source_hashes": [
+        "section:effba622a066684f324b0597eef88936f72d40d4"
+      ]
     }
   ]
 }
