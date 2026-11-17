@@ -7,8 +7,8 @@
       "status": "editorial",
       "title_es": "Qué hace un Guerrero",
       "title_en": "What a Warrior Does",
-      "summary_es": "Guerrero lucha cuerpo a cuerpo con furia, hace daño o tanquea y apoya con gritos y Hender armadura.",
-      "summary_en": "Warrior fights in melee with Rage, deals damage or tanks, and supports with shouts and Sunder Armor.",
+      "summary_es": "El Guerrero combate cuerpo a cuerpo, gasta furia y puede hacer daño o tanquear.",
+      "summary_en": "Warrior fights in melee, spends Rage, and can deal damage or tank.",
       "keywords_es": [
         "qué hace un guerrero",
         "guerrero daño o tanque",
@@ -23,25 +23,25 @@
         "warrior melee class",
         "battle shout"
       ],
-      "text_es": "El Guerrero pertenece al cuerpo a cuerpo y destaca por su resistencia, su manejo de las armas y sus recursos tácticos. Puede hacer daño o tanquear y gasta furia en sus facultades. Grito de guerra y Hender armadura son sus principales apoyos al daño del grupo, y sus tres especializaciones usan un arma a dos manos, dos armas o un escudo.",
-      "text_en": "A Warrior belongs in melee and stands out for durability, weapon skill, and tactical tools. It can deal damage or tank, and it spends Rage on its abilities. Battle Shout and Sunder Armor are its main ways to help a group's damage, and its three specializations use a two-handed weapon, two weapons, or a shield.",
+      "text_es": "El Guerrero combate cuerpo a cuerpo y usa furia para ejecutar sus facultades. Puede especializarse en hacer daño o tanquear; Grito de guerra y Hender armadura ayudan al daño físico del grupo. Sus tres especializaciones cubren el arma a dos manos, la doble empuñadura y el tanque con escudo.",
+      "text_en": "Warrior fights in melee and spends Rage on its abilities. It can specialize in dealing damage or tanking; Battle Shout and Sunder Armor support the group's physical damage. Its three specializations cover two-handed weapons, dual wielding, and shield tanking.",
       "tags": [
         "WARRIOR"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Warrior Class Guide › Warrior in World of Warcraft: Forever",
+          "ref": "Icy Veins: Warrior Class Guide › Comprehensive Guide to Warrior in World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/warrior-class-overview",
           "date": "2026-10-29"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warrior:general:warrior-class-overview"
       ],
       "source_hashes": [
-        "section:fefb19994cb70b0fc1b41515055c8cd2f465a686"
+        "section:e6f2064724d7c518d632e82dea9d11d4281d5b56"
       ]
     },
     {
@@ -50,8 +50,8 @@
       "status": "editorial",
       "title_es": "Especializaciones del Guerrero",
       "title_en": "Warrior Specializations",
-      "summary_es": "Armas pega con arma a dos manos; Furia usa dos armas y críticos; Protección tanquea con escudo.",
-      "summary_en": "Arms hits with a two-handed weapon; Fury uses two weapons and crits; Protection tanks with a shield.",
+      "summary_es": "Armas lucha con dos manos; Furia empuña dos armas; Protección tanquea con escudo.",
+      "summary_en": "Arms fights two-handed; Fury dual-wields; Protection tanks with a shield.",
       "keywords_es": [
         "especializaciones del guerrero",
         "guerrero armas furia protección",
@@ -66,38 +66,44 @@
         "warrior dual wield",
         "which warrior spec"
       ],
-      "text_es": "Armas centra su daño en un arma a dos manos. Furia lleva dos armas y busca ataques rápidos y críticos. Protección se apoya en una mano y un escudo para aguantar golpes, generar amenaza y proteger al grupo. Las tres reparten daño, pero solo Protección está pensada para tanquear.",
-      "text_en": "Arms centers its damage on a two-handed weapon. Fury carries two weapons and hunts for fast attacks and critical strikes. Protection leans on a one-handed weapon and shield to soak hits, build threat, and shield the group. All three deal damage, but only Protection is built to tank.",
+      "text_es": "Armas pelea con un arma a dos manos y combina golpes potentes con hemorragias y activaciones de Abrumar; Golpes de barrido favorece los combates contra dos enemigos. Furia empuña dos armas y destaca contra pocos objetivos con Mellar y Huracán, aunque sufre en combates prolongados contra uno. Protección usa espada y escudo para tanquear y aplicar potentes perjuicios.",
+      "text_en": "Arms fights with a two-handed weapon, combining heavy attacks with bleeds and Overpower procs; Sweeping Strikes helps against two enemies. Fury dual-wields and excels against a few targets with Cleave and Whirlwind, but struggles in prolonged single-target fights. Protection uses sword and shield to tank and apply powerful debuffs.",
       "tags": [
         "WARRIOR"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Warrior Class Guide › Warrior in World of Warcraft: Forever",
+          "ref": "Icy Veins: Warrior Class Guide › Comprehensive Guide to Warrior in World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/warrior-class-overview",
           "date": "2026-10-29"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Arms Warrior Guide › Arms Warrior Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/arms-warrior-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Arms Warrior DPS Guide - WoW: Forever › Changes to Arms Warrior in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/overview-pve-dps",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Fury Warrior Guide › Fury Warrior Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/fury-warrior-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Arms Warrior DPS Guide - WoW: Forever › Strengths and Weaknesses of Arms Warrior in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/overview-pve-dps",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Protection Warrior Guide › Protection Warrior Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/protection-warrior-tank-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Fury Warrior DPS Guide - WoW: Forever › Strengths and Weaknesses of Fury Warriors in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Tank Guide - WoW: Forever › Viability of Protection Warrior Tank in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/overview-pve-tank",
+          "date": "2026-11-14"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warrior:arms:overview",
         "class:warrior:fury:overview",
@@ -105,10 +111,11 @@
         "class:warrior:protection:overview"
       ],
       "source_hashes": [
-        "section:11eb2cbc57cacd353c1c0f6d757414126745a6bc",
-        "section:6617c74babb4ae1d4c935cf916c5adf5b020009d",
-        "section:f7711b113329381caf8bf53cbeb12a5e154c2d10",
-        "section:fefb19994cb70b0fc1b41515055c8cd2f465a686"
+        "section:45f42514601b5b2f27a9cbe823095945f92d0a75",
+        "section:4c249d48afa3e1ebfaf913f80a148d06d0ca8685",
+        "section:7c4a5a6fdfe1f929e9ba564eff3004e1bf543f92",
+        "section:b601b7a7c59b51284dbe2bc25a9030cbf6800a01",
+        "section:e6f2064724d7c518d632e82dea9d11d4281d5b56"
       ]
     },
     {
@@ -412,8 +419,8 @@
         "unlock taunt",
         "sunder armor"
       ],
-      "text_es": "La misión de clase de nivel 10 entrega Actitud defensiva, Irritar y Hender armadura, las herramientas para empezar a tanquear. Su nombre depende de la raza; La jarra de Bartleby y Camino de la defensa son dos ejemplos. Termínala antes de tu primera mazmorra.",
-      "text_en": "The level 10 class quest hands over Defensive Stance, Taunt, and Sunder Armor, the tools needed to begin tanking. Its name depends on your race; Bartleby's Mug and Path of Defense are two examples. Finish it before your first dungeon.",
+      "text_es": "Las misiones de Guerrero de nivel 10 varían según la raza. Entre ellas están Bartleby, el borracho, Vence a Bartleby y La jarra de Bartleby; también Camino de defensa. En la mayoría se obtienen Actitud defensiva, Irritar y Hender armadura, herramientas para empezar a tanquear; la recompensa del Cielonato es distinta. Completa la misión antes de ir a una mazmorra para tener tu postura defensiva.",
+      "text_en": "Level 10 Warrior quests vary by race. They include Bartleby the Drunk, Beat Bartleby, and Bartleby's Mug; Path of Defense is another. Most grant Defensive Stance, Taunt, and Sunder Armor, tools for beginning to tank; the Skyborne reward differs. Complete the quest before entering a dungeon so you have your defensive stance.",
       "tags": [
         "WARRIOR"
       ],
@@ -423,13 +430,55 @@
           "ref": "Icy Veins: World of Warcraft: Forever Warrior Class Quests Guide › Warrior Class Quest Guide for World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/warrior-class-quests",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Warrior Class Quests Guide › Human Warrior Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/warrior-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Warrior Class Quests Guide › Dwarf and Gnome Warrior Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/warrior-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Warrior Class Quests Guide › Night Elf Warrior Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/warrior-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Warrior Class Quests Guide › Orc, Troll and Tauren Warrior Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/warrior-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Warrior Class Quests Guide › Undead Warrior Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/warrior-class-quests",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Warrior Class Quests Guide › Skyborne Warrior Class Quests",
+          "url": "https://www.icy-veins.com/wow-forever/warrior-class-quests",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warrior:general:warrior-class-quests"
       ],
       "source_hashes": [
+        "section:30482ad54cb34be7a694c19ce95893be9cc967c8",
+        "section:51857bde8e99e4f74153998c0818f9ab397b6abe",
+        "section:a520c5c6a0e6bd11cb495b4bf5bbfab4daf3d014",
+        "section:ceee286bb7d13fb1731f6eedd34f658f5a43f123",
+        "section:cf04eca6554699ceaa657e09d3299029db8c0460",
+        "section:d9dc740b72050adf1c947476c3d8cba4145261f8",
         "section:ebf1a34cd2e26c2f6773904572dae61c652a571a"
       ]
     },
@@ -455,8 +504,8 @@
         "brutal armor",
         "quest shield"
       ],
-      "text_es": "A nivel 20 empiezan las cadenas de armadura de facción: Armadura de mallas endurecida con fuego en la Alianza y Armadura brutal en la Horda. La primera entrega un escudo y la segunda también; el peto completo requiere materiales y una visita a una mazmorra, así que se puede terminar más tarde. Hay piezas opcionales para cabeza, manos y piernas. No es una misión obligatoria para subir.",
-      "text_en": "At level 20 the faction armor chains begin: Fire Hardened Mail for the Alliance and Brutal Armor for the Horde. The first gives a shield and the second does too; the full chestpiece requires materials and a dungeon visit, so it can be finished later. There are optional pieces for head, hands, and legs. It is not a required quest for leveling.",
+      "text_es": "A nivel 20, las cadenas de la Alianza y la Horda entregan un escudo al principio: Favor de Furen y Bastión de Ruga, respectivamente. Las misiones Armadura de mallas endurecida con fuego y Armadura brutal requieren materiales y una mazmorra; puedes reunirlos mientras subes y terminar la cadena con un grupo más adelante. También hay encargos opcionales para piezas de cabeza, manos y piernas.",
+      "text_en": "At level 20, the Alliance and Horde chains give a shield near the start: Furen's Favor and Ruga's Bulwark, respectively. The quests Fire Hardened Mail and Brutal Armor require materials and a dungeon; you can gather them while leveling and finish the chain with a group later. Optional follow-ups also offer head, hand, and leg pieces.",
       "tags": [
         "WARRIOR"
       ],
@@ -468,7 +517,7 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warrior:general:warrior-class-quests"
       ],
@@ -482,13 +531,13 @@
       "status": "editorial",
       "title_es": "Misiones de nivel 30: actitud y arma",
       "title_en": "Level 30 Quests: Stance and Weapon",
-      "summary_es": "La Reyerta da Actitud rabiosa; El Cazavientos lleva a elegir un arma torbellino.",
-      "summary_en": "The Affray grants Berserker Stance; The Windwatcher leads to a Whirlwind weapon choice.",
+      "summary_es": "La misión de arena da Actitud rabiosa; la cadena opcional ofrece un arma de dos manos.",
+      "summary_en": "The arena quest grants Berserker Stance; the optional chain offers a two-handed weapon.",
       "keywords_es": [
         "misión de nivel 30 guerrero",
         "actitud rabiosa",
-        "la reyerta",
-        "arma torbellino",
+        "misión de arena guerrero",
+        "cadena de arma de dos manos",
         "misiones de clase nivel 30"
       ],
       "keywords_en": [
@@ -498,8 +547,8 @@
         "whirlwind weapon",
         "warrior class quests"
       ],
-      "text_es": "A nivel 30, La Reyerta desbloquea Actitud rabiosa. Tras esa misión, El Cazavientos abre la cadena de Arma torbellino, que termina con la elección entre un hacha, una espada o un martillo de dos manos. El combate final es contra un élite de nivel 40, así que conviene llevarlo con ayuda o esperar a subir más. Son misiones de clase, no pasos obligatorios para seguir subiendo.",
-      "text_en": "At level 30, The Affray unlocks Berserker Stance. After that quest, The Windwatcher opens the Whirlwind Weapon questline, which ends with a choice of a two-handed axe, sword, or hammer. The final fight is against a level 40 elite, so bring help or wait until you are higher level. These are class quests, not required steps to keep leveling.",
+      "text_es": "A nivel 30, La Reyerta desbloquea Actitud rabiosa. Después, El Cazavientos abre la cadena opcional del arma torbellino, que termina con un élite de nivel 40 y permite elegir Hacha espirálica, Espada espirálica o Martillo de guerra espirálico. Puedes pedir ayuda para el combate final o esperar a tener más nivel.",
+      "text_en": "At level 30, The Affray unlocks Berserker Stance. The Windwatcher then opens the optional Whirlwind weapon questline, which ends with a level 40 elite and lets you choose Whirlwind Axe, Whirlwind Sword, or Whirlwind Warhammer. Bring help for the final fight or wait until you are a higher level.",
       "tags": [
         "WARRIOR"
       ],
@@ -511,7 +560,7 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warrior:general:warrior-class-quests"
       ],
@@ -855,12 +904,18 @@
         "emergency tank warrior",
         "group threat"
       ],
-      "text_es": "Grito de guerra eleva el Poder de ataque cuerpo a cuerpo y Hender armadura quita armadura al objetivo; juntos suben el daño físico del grupo. Corta los lanzamientos peligrosos y usa Grito desmoralizador o Trueno para suavizar los golpes recibidos. Armas y Furia pueden ponerse un escudo para sujetar a un enemigo en una emergencia, pero no tienen las herramientas de amenaza y furia de Protección. Da tiempo al tanque para reunir el grupo antes del área y no te quedes con la amenaza.",
-      "text_en": "Battle Shout lifts melee attack power, while Sunder Armor strips armor from the target; together they raise the group's physical damage. Stop dangerous casts and use Demoralizing Shout or Thunder Clap to soften incoming hits. Arms and Fury can put on a shield to hold one enemy in an emergency, but they do not have Protection's threat and Rage tools. Give the tank time to gather the pack before area damage, and do not sit on threat.",
+      "text_es": "Grito de guerra y Hender armadura apoyan el daño físico del grupo. Protección destaca como tanque principal, con perjuicios potentes como Trueno y Grito desmoralizador, y mucha amenaza inicial de Embate con escudo. Azote de escudo interrumpe sin salir de Actitud defensiva; Irritar y Grito desafiante ayudan a recuperar enemigos si el combate se desordena. Armas y Furia pueden equipar un escudo para cubrir a un enemigo en una emergencia, aunque carecen de las herramientas de amenaza y furia de Protección.",
+      "text_en": "Battle Shout and Sunder Armor support the group's physical damage. Protection excels as a main tank, with powerful debuffs such as Thunder Clap and Demoralizing Shout, plus high snap threat from Shield Slam. Shield Bash interrupts without leaving Defensive Stance; Taunt and Challenging Shout help recover enemies when a fight goes wrong. Arms and Fury can equip a shield to cover an enemy in an emergency, but lack Protection's threat and Rage tools.",
       "tags": [
         "WARRIOR"
       ],
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Warrior Class Guide › Comprehensive Guide to Warrior in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/warrior-class-overview",
+          "date": "2026-10-29"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Arms Warrior Guide › Arms Warrior Guide for World of Warcraft: Forever",
@@ -869,18 +924,35 @@
         },
         {
           "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Fury Warrior Guide › Fury Warrior Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/fury-warrior-melee-dps-pve-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Protection Warrior Guide › Protection Warrior Guide for World of Warcraft: Forever",
           "url": "https://www.icy-veins.com/wow-forever/protection-warrior-tank-pve-guide",
           "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Protection Warrior Tank Guide - WoW: Forever › Viability of Protection Warrior Tank in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/overview-pve-tank",
+          "date": "2026-11-14"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
         "class:warrior:arms:overview",
+        "class:warrior:fury:overview",
+        "class:warrior:general:warrior-class-overview",
         "class:warrior:protection:overview"
       ],
       "source_hashes": [
         "section:11eb2cbc57cacd353c1c0f6d757414126745a6bc",
+        "section:6617c74babb4ae1d4c935cf916c5adf5b020009d",
+        "section:b601b7a7c59b51284dbe2bc25a9030cbf6800a01",
+        "section:e6f2064724d7c518d632e82dea9d11d4281d5b56",
         "section:f7711b113329381caf8bf53cbeb12a5e154c2d10"
       ]
     },
@@ -906,33 +978,40 @@
         "sweeping strikes",
         "arms damage"
       ],
-      "text_es": "Armas canaliza su daño por un arma a dos manos. Golpe mortal, Embate y Abrumar forman el núcleo, con Desgarrar en objetivos que vayan a vivir la hemorragia. Dos enemigos cercanos son su punto fuerte gracias a Golpes de barrido, mientras Mellar y Huracán añaden daño en grupos mayores. Usa el arma con más daño por segundo que tengas y no rechaces una mejora grande por su tipo o velocidad.",
-      "text_en": "Arms channels its damage through a two-handed weapon. Mortal Strike, Slam, and Overpower form the core, with Rend kept on targets that will live through the bleed. Two nearby enemies are its sweet spot thanks to Sweeping Strikes, while Cleave and Whirlwind add damage in bigger packs. Use the highest damage-per-second weapon you own and do not reject a big upgrade because of its type or speed.",
+      "text_es": "Armas pelea con un arma a dos manos. Mantén Desgarrar y organiza Golpe mortal, Abrumar y Embate según estén disponibles; Golpe heroico sirve de relleno si sobra furia. Para el daño en área, guarda furia y combina Golpes de barrido con los ataques principales; Mellar y Huracán añaden daño contra grupos mayores. Destaca contra dos enemigos, pero puede quedarse sin furia si sus golpes fallan o los paran.",
+      "text_en": "Arms fights with a two-handed weapon. Keep Rend active and fit Mortal Strike, Overpower, and Slam around their availability; Heroic Strike is a filler when Rage allows. For area damage, pool Rage and combine Sweeping Strikes with your main attacks; Cleave and Whirlwind add damage against larger groups. Arms excels against two enemies, but can run short on Rage when attacks miss or are parried.",
       "tags": [
         "WARRIOR"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Arms Warrior Guide › Arms Warrior Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/arms-warrior-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Arms Warrior DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Arms Warrior in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/rotation-cooldowns-pve-dps",
+          "date": "2026-11-15"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Arms Warrior Leveling Guide › Important Abilities",
-          "url": "https://www.icy-veins.com/wow-forever/arms-warrior-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Arms Warrior DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Arms Warrior  in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/rotation-cooldowns-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior DPS Guide - WoW: Forever › Strengths and Weaknesses of Arms Warrior in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/overview-pve-dps",
+          "date": "2026-11-14"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:warrior:arms:leveling",
-        "class:warrior:arms:overview"
+        "class:warrior:arms:overview",
+        "class:warrior:arms:rotation"
       ],
       "source_hashes": [
-        "section:11eb2cbc57cacd353c1c0f6d757414126745a6bc",
-        "section:f20acc2f54dbd3d784d52147a7015d52f0b9031b"
+        "section:0c70116265461cda8340e2ffb2c8b3f769e409c9",
+        "section:45f42514601b5b2f27a9cbe823095945f92d0a75",
+        "section:532975479cc58ee984311a2f966d8e5fa76013bc"
       ]
     },
     {
@@ -957,33 +1036,55 @@
         "fury whirlwind",
         "fury damage"
       ],
-      "text_es": "Furia lleva un arma en cada mano y construye su daño alrededor de Sed de sangre y Huracán. Los críticos cuerpo a cuerpo aceleran tus siguientes golpes. Huracán y Mellar castigan a grupos pequeños, y Deseo de la Muerte cambia recibir más daño por una ventana de daño alto. Dos armas significan más fallos, así que la habilidad con el arma importa; un fallo no da furia.",
-      "text_en": "Fury carries a weapon in each hand and builds its damage around Bloodthirst and Whirlwind. Melee criticals make its next swings faster. Whirlwind and Cleave punish small groups, and Death Wish trades extra damage taken for a burst window. Two weapons mean more misses, so weapon skill matters; a miss gives no Rage.",
+      "text_es": "Furia empuña dos armas y centra su daño en Sed de sangre y Huracán; Mellar ayuda contra grupos pequeños. Los críticos activan Aluvión y aceleran los ataques, pero no dan furia adicional: esta se normaliza y ya no escala con el daño del arma. Deseo de la Muerte da una ventana de daño alto a cambio de recibir más daño. Los fallos de la doble empuñadura pueden dejarte esperando furia; sufre en combates largos contra uno si recibes pocos golpes.",
+      "text_en": "Fury dual-wields and builds its damage around Bloodthirst and Whirlwind; Cleave helps against small groups. Critical hits activate Flurry and speed up attacks, but grant no extra Rage: Rage is normalized and no longer scales with weapon damage. Death Wish provides a burst window at the cost of taking more damage. Dual-wield misses can leave you waiting for Rage; Fury struggles in long single-target fights when little damage is incoming.",
       "tags": [
         "WARRIOR"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Fury Warrior Guide › Fury Warrior Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/fury-warrior-melee-dps-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Fury Warrior DPS Guide - WoW: Forever › Changes to Fury Warrior in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/overview-pve-dps",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Fury Warrior Leveling Guide › Fury Warrior Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/fury-warrior-leveling",
+          "ref": "Wowhead: Fury Warrior DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Fury Warrior DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/rotation-cooldowns-pve-dps",
+          "date": "2026-10-29"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior DPS Rotation and Cooldowns - WoW: Forever › Best Fury Warrior Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/rotation-cooldowns-pve-dps",
+          "date": "2026-10-29"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Fury Warrior - Spec, Builds, and Talents › Bloodthirst Dual Wield Build",
+          "url": "https://www.icy-veins.com/wow-forever/fury-warrior-melee-dps-pve-spec-builds-talents",
           "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior DPS Guide - WoW: Forever › Strengths and Weaknesses of Fury Warriors in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/overview-pve-dps",
+          "date": "2026-11-14"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:warrior:fury:leveling",
-        "class:warrior:fury:overview"
+        "class:warrior:fury:overview",
+        "class:warrior:fury:rotation",
+        "class:warrior:fury:talents"
       ],
       "source_hashes": [
-        "section:6617c74babb4ae1d4c935cf916c5adf5b020009d",
-        "section:e952d92f0881bccbee6286a28a2b7bce9fc5a556"
+        "section:4df882c92a2e87e0bd554ee080418c8cf0409ea6",
+        "section:525edb75d9da8ac214dddf6ad77a7bfda9ef3b57",
+        "section:6e3ca74abc16c1df80663f7ba1fd31a8167f9d4d",
+        "section:7c4a5a6fdfe1f929e9ba564eff3004e1bf543f92",
+        "section:b7bca2ae0c7f74df9db2d5d801391942976b4ae4"
       ]
     },
     {
@@ -1008,32 +1109,38 @@
         "revenge",
         "shield tank"
       ],
-      "text_es": "Protección se apoya en una mano y un escudo. Embate con escudo y Revancha aportan amenaza y daño, mientras Bloquear con escudo baja el daño y prepara Revancha. Los bloqueos, esquivas y paradas con escudo también alimentan la furia, así que la especialización brilla cuando los enemigos la enfocan. Trueno reparte amenaza por el grupo, y Desafío, Grito desafiante y los defensivos ayudan a recuperar un combate desordenado. Sin golpes recibidos, se secan furia y amenaza.",
-      "text_en": "Protection keeps a shield in one hand. Shield Slam and Revenge supply threat and damage, while Shield Block lowers damage and sets up Revenge. Blocks, dodges, and parries with a shield also feed Rage, so the spec thrives while enemies focus it. Thunder Clap spreads threat across a pack, and Taunt, Challenging Shout, and defensives help recover a messy pull. With no incoming hits, both Rage and threat dry up.",
+      "text_es": "Protección tanquea con escudo: Embate con escudo genera mucha amenaza inicial y Revancha combina daño y amenaza; Bloquear con escudo reduce el daño recibido y los bloqueos, esquivas y paradas generan furia. Trueno se puede usar en Actitud defensiva, afecta hasta 4 enemigos, reduce su velocidad de ataque un 20% y tiene 6 s de reutilización. Desafío y la actitud defensiva refuerzan la amenaza; Irritar y Grito desafiante ayudan a recuperar enemigos. Sin ataques recibidos, escasean la furia y la amenaza.",
+      "text_en": "Protection tanks with a shield: Shield Slam creates high snap threat, while Revenge deals damage and builds threat; Shield Block reduces incoming damage, and blocks, dodges, and parries generate Rage. Thunder Clap can be used in Defensive Stance, affects up to 4 enemies, slows their attack speed by 20%, and has a 6-second cooldown. Defiance and Defensive Stance boost threat; Taunt and Challenging Shout help recover enemies. Without incoming attacks, Rage and threat run short.",
       "tags": [
         "WARRIOR"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Protection Warrior Guide › Protection Warrior Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/protection-warrior-tank-pve-guide",
-          "date": "2026-11-09"
+          "ref": "Wowhead: Protection Warrior Tank Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/overview-pve-tank",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Protection Warrior Leveling Guide › Protection Warrior Leveling Guide",
-          "url": "https://www.icy-veins.com/wow-forever/protection-warrior-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Protection Warrior Tank Guide - WoW: Forever › Protection Warrior Specific Systems in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/overview-pve-tank",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Protection Warrior Guide › Protection Warrior Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/protection-warrior-tank-pve-guide",
+          "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-17",
       "topics": [
-        "class:warrior:protection:leveling",
         "class:warrior:protection:overview"
       ],
       "source_hashes": [
-        "section:824a7077dca0b358a1b503144c9e80821e3e5b3b",
+        "section:6ab3846bb01dd45fc7a7179ccbf05954caa4f41d",
+        "section:ed18dc14ad220dad5d4e9b5e30bd9c617535799c",
         "section:f7711b113329381caf8bf53cbeb12a5e154c2d10"
       ]
     }
