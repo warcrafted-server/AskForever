@@ -23,6 +23,8 @@ local state = {
     paused = false,
     pending = nil,
     pendingUi = nil,
+    pendingScroll = 0,
+    starting = false,
 }
 
 local CRC_TABLE
@@ -246,6 +248,15 @@ local function ShowPage()
     ns.Strip.Show(page.symbols, page.rows)
 end
 
+local function FlushPendingScroll()
+    local amount = state.pendingScroll or 0
+    if amount == 0 then
+        return
+    end
+    state.pendingScroll = 0
+    Transport.SendUi('scroll', amount)
+end
+
 local function Finish()
     if state.ticker then
         state.ticker:Cancel()
@@ -256,10 +267,15 @@ local function Finish()
     state.totalSteps = 0
     state.paused = false
     ns.Strip.Hide()
-    if state.pendingUi and not InCombatLockdown() then
-        local event = state.pendingUi
-        state.pendingUi = nil
-        Transport.SendUi(event)
+    if not state.starting then
+        if state.pendingUi and not InCombatLockdown() then
+            local event = state.pendingUi
+            state.pendingUi = nil
+            Transport.SendUi(event)
+        end
+        if not InCombatLockdown() then
+            FlushPendingScroll()
+        end
     end
 end
 
@@ -321,6 +337,7 @@ function Transport.Send(question, ctx, conv, kind, extra)
         return true
     end
 
+    state.starting = true
     Transport.Cancel()
 
     if ctx == nil then
@@ -328,11 +345,26 @@ function Transport.Send(question, ctx, conv, kind, extra)
     end
 
     local message = Transport.BuildMessage(question, ctx, conv, kind, extra)
-    return StartTransmission(message)
+    local result, reason = StartTransmission(message)
+    state.starting = false
+    return result, reason
 end
 
-function Transport.SendUi(event)
-    if event ~= 'open' and event ~= 'close' and event ~= 'move' then
+function Transport.SendUi(event, amount)
+    if event == 'scroll' then
+        if not IsInteger(amount) then
+            return nil
+        end
+        state.pendingScroll = math.max(-50, math.min(50, (state.pendingScroll or 0) + amount))
+        if InCombatLockdown() or Transport.IsBusy() or state.pending ~= nil then
+            return true
+        end
+        amount = state.pendingScroll
+        state.pendingScroll = 0
+        if amount == 0 then
+            return true
+        end
+    elseif event ~= 'open' and event ~= 'close' and event ~= 'move' then
         return nil
     end
     if InCombatLockdown() then
@@ -345,6 +377,9 @@ function Transport.SendUi(event)
     end
 
     local extra = { ev = event }
+    if event == 'scroll' then
+        extra.sd = amount
+    end
     if event ~= 'close' and ns.UI and type(ns.UI.GetChatRect) == 'function' then
         local wx, wy, ww, wh = ns.UI.GetChatRect()
         if wx ~= nil then
@@ -390,6 +425,9 @@ eventFrame:SetScript('OnEvent', function(_, event)
             else
                 Transport.SendUi(pendingUi)
             end
+        end
+        if not InCombatLockdown() then
+            FlushPendingScroll()
         end
     end
 end)

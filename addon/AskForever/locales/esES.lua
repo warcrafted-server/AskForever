@@ -66,4 +66,6 @@ ns.L_esES = {
     HELP_SLOTPROBE = '/af slotprobe N - comprueba el archivo de señal del slot N (diagnóstico)',
     HELP_SLOTTEST = '/af slottest N - carga el slot N y lee sus datos (diagnóstico)',
     FLIGHTS_SAVED = 'AskForever: %d puntos de vuelo conocidos guardados para tus preguntas.',
+    SCROLL_UP_TIP = 'Subir en la conversación',
+    SCROLL_DOWN_TIP = 'Bajar en la conversación',
 }

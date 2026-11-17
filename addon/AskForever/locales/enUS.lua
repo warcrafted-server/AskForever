@@ -66,4 +66,6 @@ ns.L_enUS = {
     HELP_SLOTPROBE = '/af slotprobe N - check the signal file of slot N (diagnostics)',
     HELP_SLOTTEST = '/af slottest N - load slot N and read its data (diagnostics)',
     FLIGHTS_SAVED = 'AskForever: %d known flight points saved for your questions.',
+    SCROLL_UP_TIP = 'Scroll the conversation up',
+    SCROLL_DOWN_TIP = 'Scroll the conversation down',
 }

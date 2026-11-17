@@ -6,6 +6,10 @@ local Theme = ns.UI.Theme
 local colors = Theme.colors
 
 local MAX_HISTORY_LINES = 200
+local MIN_WINDOW_WIDTH = 420
+local MIN_WINDOW_HEIGHT = 340
+local MAX_WINDOW_WIDTH = 1100
+local MAX_WINDOW_HEIGHT = 900
 
 local mainFrame
 local historyPanel
@@ -26,7 +30,37 @@ local function SavePosition(frame)
     if type(AskForeverDB) ~= 'table' then
         AskForeverDB = {}
     end
-    AskForeverDB.window = { point = point, relPoint = relPoint, x = x, y = y }
+    if type(AskForeverDB.window) ~= 'table' then
+        AskForeverDB.window = {}
+    end
+    AskForeverDB.window.point = point
+    AskForeverDB.window.relPoint = relPoint
+    AskForeverDB.window.x = x
+    AskForeverDB.window.y = y
+end
+
+local function SaveSize(frame)
+    if type(AskForeverDB) ~= 'table' then
+        AskForeverDB = {}
+    end
+    if type(AskForeverDB.window) ~= 'table' then
+        AskForeverDB.window = {}
+    end
+    AskForeverDB.window.w = frame:GetWidth()
+    AskForeverDB.window.h = frame:GetHeight()
+end
+
+local function RestoreSize(frame)
+    local saved = type(AskForeverDB) == 'table' and AskForeverDB.window
+    if type(saved) ~= 'table' then
+        return
+    end
+    local width, height = saved.w, saved.h
+    if type(width) == 'number' and width == width and width >= MIN_WINDOW_WIDTH
+        and width <= MAX_WINDOW_WIDTH and type(height) == 'number' and height == height
+        and height >= MIN_WINDOW_HEIGHT and height <= MAX_WINDOW_HEIGHT then
+        frame:SetSize(width, height)
+    end
 end
 
 local function RestorePosition(frame)
@@ -111,9 +145,56 @@ local function EnsureMainFrame()
     mainFrame = ns.UI.CreateWindow('AskForeverMainFrame', 480, 400, ns.L.WINDOW_TITLE)
     local body = mainFrame.body
 
+    if type(mainFrame.SetResizable) == 'function' then
+        pcall(mainFrame.SetResizable, mainFrame, true)
+    end
+    local resizeBoundsSet = false
+    if type(mainFrame.SetResizeBounds) == 'function' then
+        resizeBoundsSet = pcall(mainFrame.SetResizeBounds, mainFrame, MIN_WINDOW_WIDTH,
+                                MIN_WINDOW_HEIGHT, MAX_WINDOW_WIDTH, MAX_WINDOW_HEIGHT)
+    end
+    if not resizeBoundsSet then
+        if type(mainFrame.SetMinResize) == 'function' then
+            pcall(mainFrame.SetMinResize, mainFrame, MIN_WINDOW_WIDTH, MIN_WINDOW_HEIGHT)
+        end
+        if type(mainFrame.SetMaxResize) == 'function' then
+            pcall(mainFrame.SetMaxResize, mainFrame, MAX_WINDOW_WIDTH, MAX_WINDOW_HEIGHT)
+        end
+    end
+
+    -- Texturas de flecha del juego: la fuente por defecto no tiene los caracteres ▲/▼.
+    local function CreateScrollButton(direction, amount, tip)
+        local base = 'Interface\\Buttons\\UI-ScrollBar-Scroll' .. direction .. 'Button-'
+        local button = CreateFrame('Button', nil, body)
+        button:SetSize(20, 20)
+        button:SetNormalTexture(base .. 'Up')
+        button:SetPushedTexture(base .. 'Down')
+        button:SetDisabledTexture(base .. 'Disabled')
+        button:SetHighlightTexture(base .. 'Highlight', 'ADD')
+        button:SetScript('OnClick', function()
+            if ns.Transport and type(ns.Transport.SendUi) == 'function' then
+                ns.Transport.SendUi('scroll', amount)
+            end
+        end)
+        button:SetScript('OnEnter', function(self)
+            GameTooltip:SetOwner(self, 'ANCHOR_TOP')
+            GameTooltip:SetText(tip)
+            GameTooltip:Show()
+        end)
+        button:SetScript('OnLeave', function()
+            GameTooltip:Hide()
+        end)
+        return button
+    end
+
+    local scrollDownButton = CreateScrollButton('Down', 6, ns.L.SCROLL_DOWN_TIP)
+    scrollDownButton:SetPoint('TOPRIGHT', body, 'TOPRIGHT', -8, -3)
+    local scrollUpButton = CreateScrollButton('Up', -6, ns.L.SCROLL_UP_TIP)
+    scrollUpButton:SetPoint('TOPRIGHT', scrollDownButton, 'TOPLEFT', -2, 0)
+
     summaryText = ns.UI.CreateText(body, Theme.font.small, colors.textDim)
     summaryText:SetPoint('TOPLEFT', body, 'TOPLEFT', 10, -8)
-    summaryText:SetPoint('TOPRIGHT', body, 'TOPRIGHT', -10, -8)
+    summaryText:SetPoint('TOPRIGHT', scrollDownButton, 'TOPLEFT', -4, 0)
     summaryText:SetJustifyH('LEFT')
     summaryText:SetText('')
 
@@ -130,13 +211,20 @@ local function EnsureMainFrame()
     history:SetMaxLines(MAX_HISTORY_LINES)
     history:EnableMouse(true)
     history:EnableMouseWheel(true)
-    history:SetScript('OnMouseWheel', function(self, delta)
+    local function OnChatMouseWheel(_, delta)
         if delta > 0 then
-            self:ScrollUp()
+            history:ScrollUp()
         else
-            self:ScrollDown()
+            history:ScrollDown()
         end
-    end)
+        if ns.Transport and type(ns.Transport.SendUi) == 'function' then
+            ns.Transport.SendUi('scroll', -delta * 3)
+        end
+    end
+    history:SetScript('OnMouseWheel', OnChatMouseWheel)
+    historyPanel:EnableMouse(true)
+    historyPanel:EnableMouseWheel(true)
+    historyPanel:SetScript('OnMouseWheel', OnChatMouseWheel)
 
     editBox = ns.UI.CreateInput(body)
     editBox:SetPoint('BOTTOMLEFT', body, 'BOTTOMLEFT', 8, 60)
@@ -193,6 +281,23 @@ local function EnsureMainFrame()
         reportButton:SetPoint('BOTTOMRIGHT', helpButton, 'BOTTOMLEFT', -8, 0)
     end
 
+    local sizeGrip = CreateFrame('Button', nil, mainFrame)
+    sizeGrip:SetSize(16, 16)
+    sizeGrip:SetPoint('BOTTOMRIGHT', mainFrame, 'BOTTOMRIGHT', -4, 4)
+    sizeGrip:SetNormalTexture('Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Up')
+    sizeGrip:SetPushedTexture('Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Down')
+    sizeGrip:SetHighlightTexture('Interface\\ChatFrame\\UI-ChatIM-SizeGrabber-Highlight', 'ADD')
+    sizeGrip:SetScript('OnMouseDown', function()
+        mainFrame:StartSizing('BOTTOMRIGHT')
+    end)
+    sizeGrip:SetScript('OnMouseUp', function()
+        mainFrame:StopMovingOrSizing()
+        SaveSize(mainFrame)
+        if mainFrame.onMoveStop then
+            mainFrame.onMoveStop()
+        end
+    end)
+
     local note = ns.UI.CreateText(body, Theme.font.small, colors.textDim)
     note:SetPoint('LEFT', copyButton, 'RIGHT', 10, 0)
     if reportButton then
@@ -235,6 +340,7 @@ local function EnsureMainFrame()
         end
     end
 
+    RestoreSize(mainFrame)
     RestorePosition(mainFrame)
     return mainFrame
 end
