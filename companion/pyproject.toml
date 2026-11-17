@@ -4,7 +4,7 @@ build-backend = 'setuptools.build_meta'
 
 [project]
 name = 'askforever'
-version = '0.2.0b1'
+version = '0.4.0b1'
 description = 'Companion de AskForever para WoW Forever'
 requires-python = '>=3.12'
 dependencies = ['mss', 'pillow', 'keyring', 'openai']
