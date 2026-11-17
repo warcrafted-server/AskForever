@@ -1238,6 +1238,1707 @@
       "source_hashes": [
         "section:11fdf0f2821f8d9bc6a32e723958dc711660befd"
       ]
+    },
+    {
+      "id": "clase-warlock-stats-afliccion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Aflicción a nivel 60",
+      "title_en": "Level 60 Affliction Stats",
+      "summary_es": "Prioriza Poder con hechizos, crítico y golpe; el límite de golpe de banda es 12% con Supresión 5/5.",
+      "summary_en": "Prioritize spell power, crit, and hit; the raid hit cap is 12% with 5/5 Suppression.",
+      "keywords_es": [
+        "estadísticas aflicción brujo",
+        "prioridad de Aflicción",
+        "golpe de brujo",
+        "crítico de brujo"
+      ],
+      "keywords_en": [
+        "affliction warlock stats",
+        "affliction priority",
+        "warlock hit cap",
+        "warlock crit"
+      ],
+      "text_es": "Prioridad: Poder con hechizos o daño de Sombras, golpe crítico, índice de golpe hasta 12% de equipo con Supresión 5/5, celeridad, penetración con hechizos, intelecto y espíritu. El poder de Sombras casi iguala al poder con hechizos; 1% de crítico vale cerca de 9 de poder con hechizos en Arruinar y 11 en SM Ruina, mientras 1% de golpe vale 7,5 y 9 respectivamente. Tras el límite, cambia golpe por poder con hechizos o crítico.",
+      "text_en": "Priority: Spell Power or Shadow Damage, Crit, Hit up to 12% from gear with 5/5 Suppression, Haste, Spell Pierce, Intellect, then Spirit. Shadow Damage is nearly equal to Spell Power; 1% Crit is worth about 9 Spell Power for Wrack and 11 for SM Ruin, while 1% Hit is worth 7.5 and 9 respectively. Past the cap, trade Hit for Spell Power or Crit.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock DPS Attribute and Stat Guide - WoW: Forever › Affliction Warlock Stat Priority in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/stat-priority-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:affliction:stats"
+      ],
+      "source_hashes": [
+        "section:4f9046e3d0ec8374207f93f245ee192e9e38353d"
+      ]
+    },
+    {
+      "id": "clase-warlock-stats-demonologia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Demonología a nivel 60",
+      "title_en": "Level 60 Demonology Stats",
+      "summary_es": "Poder con hechizos, golpe, crítico, celeridad, penetración, intelecto y espíritu; prioridad provisional.",
+      "summary_en": "Spell power, hit, crit, haste, spell pierce, intellect, and spirit; provisional priority.",
+      "keywords_es": [
+        "estadísticas demonología brujo",
+        "prioridad de Demonología",
+        "golpe de Demonología",
+        "poder con hechizos brujo"
+      ],
+      "keywords_en": [
+        "demonology warlock stats",
+        "demonology priority",
+        "demonology hit",
+        "warlock spell power"
+      ],
+      "text_es": "Prioridad provisional: Poder con hechizos o daño de Fuego/Sombras según la rama, golpe hasta 17% (resta 1% por cada punto de Supresión), crítico, celeridad, penetración con hechizos, intelecto y espíritu. El golpe ayuda también al demonio y cada 1% se estima en unos 10 puntos de poder con hechizos. En Sombras, 1% de crítico aporta alrededor de 10 puntos de poder con hechizos; en Fuego, unos 7. Por cada 1% de celeridad, las estimaciones son 7 y 6 respectivamente. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Provisional priority: Spell Power or Fire/Shadow Damage to match the build, Hit to 17% (subtract 1% per Suppression point), Crit, Haste, Spell Pierce, Intellect, then Spirit. Hit benefits your demon too, with each 1% estimated at about 10 Spell Power. The shadow setup estimates 1% Crit at roughly 10 Spell Power, while the fire setup puts it near 7. Each 1% Haste is valued at 7 and 6 respectively. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock DPS Attribute and Stat Guide - WoW: Forever › Demonology Warlock Stat Priority in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/stat-priority-pve-dps",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:stats"
+      ],
+      "source_hashes": [
+        "section:8b0cd7bebb1a51df49ed8877c540f2e19e574792"
+      ]
+    },
+    {
+      "id": "clase-warlock-stats-destruccion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Destrucción a nivel 60",
+      "title_en": "Level 60 Destruction Stats",
+      "summary_es": "Poder con hechizos, crítico, golpe hasta 12%, celeridad, penetración, intelecto y espíritu; prioridad provisional.",
+      "summary_en": "Spell power, crit, hit to 12%, haste, spell pierce, intellect, and spirit; provisional priority.",
+      "keywords_es": [
+        "estadísticas destrucción brujo",
+        "prioridad de Destrucción",
+        "golpe de Destrucción",
+        "daño de Fuego brujo"
+      ],
+      "keywords_en": [
+        "destruction warlock stats",
+        "destruction priority",
+        "destruction hit cap",
+        "warlock fire damage"
+      ],
+      "text_es": "Prioridad provisional: Poder con hechizos o daño de Fuego, crítico, golpe hasta 12% de equipo con Supresión 5/5, celeridad, penetración con hechizos, intelecto y espíritu. Como referencia, el daño de Fuego aporta aproximadamente dos tercios del valor del poder con hechizos. Crítico y golpe están casi empatados, alrededor de 9 puntos de poder con hechizos por cada 1%, con el crítico ligeramente por delante. Tras el límite, cambia golpe por poder con hechizos o crítico. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Provisional priority: Spell Power or Fire Damage, Crit, Hit to 12% from gear with 5/5 Suppression, Haste, Spell Pierce, Intellect, then Spirit. As a rough comparison, Fire Damage provides about two-thirds of the value of Spell Power. Crit and Hit are close, at around 9 Spell Power for each 1%, with Crit slightly ahead. Past the cap, trade Hit for Spell Power or Crit. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock DPS Attribute and Stat Guide - WoW: Forever › Destruction Warlock Stat Priority in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/stat-priority-pve-dps",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:stats"
+      ],
+      "source_hashes": [
+        "section:fb5448c7d927aad8112336a122be0e61e790fa71"
+      ]
+    },
+    {
+      "id": "clase-warlock-rotacion-afliccion-arruinar-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Aflicción con Arruinar",
+      "title_en": "Affliction Wrack Rotation",
+      "summary_es": "Mantén los tres efectos periódicos, aplica la maldición asignada y canaliza Arruinar como relleno.",
+      "summary_en": "Maintain three damage-over-time effects, apply your assigned Curse, and channel Wrack as filler.",
+      "keywords_es": [
+        "rotación Aflicción Arruinar",
+        "rotación de banda brujo",
+        "Trance de las Sombras",
+        "Succión de alma"
+      ],
+      "keywords_en": [
+        "affliction Wrack rotation",
+        "warlock raid rotation",
+        "Shadow Trance",
+        "Soul Siphon"
+      ],
+      "text_es": "Prioridad de banda: Terror de agonía, maldición asignada, Corrupción, Succionar vida; usa Descarga de las Sombras solo con Trance de las Sombras y Transfusión de vida tras un Arruinar completo si necesitas maná; rellena con Arruinar. Amplificar maldición potencia Terror de agonía cuando esté disponible; no renueves el efecto con menos de 12 s de combate. Mantén los tres efectos periódicos para que Arruinar y Succión de alma los aprovechen; no uses Terror de fatalidad en esta configuración.",
+      "text_en": "Raid priority: Bane of Agony, assigned Curse, Corruption, Siphon Life; use Shadow Bolt only on a Shadow Trance proc and Life Tap after a full Wrack if mana is needed; fill with Wrack. Amplify Curse boosts Bane of Agony when ready; do not refresh the Bane with under 12 seconds left. Keep all three DoTs active for Wrack and Soul Siphon; do not use Bane of Doom with this build.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock DPS Rotation and Cooldowns - WoW: Forever › Single Target Wrack Rotation for Affliction Warlocks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/rotation-cooldowns-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:affliction:rotation"
+      ],
+      "source_hashes": [
+        "section:fb1469b7e573a2b2271824d8e33ac81ea1d58c45"
+      ]
+    },
+    {
+      "id": "clase-warlock-rotacion-afliccion-sm-ruin-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Aflicción SM Ruina",
+      "title_en": "Affliction SM Ruin Rotation",
+      "summary_es": "Alterna los efectos periódicos con Descarga de las Sombras; reserva Terror de fatalidad para peleas largas.",
+      "summary_en": "Maintain damage-over-time effects and fill with Shadow Bolt; use Bane of Doom in long fights.",
+      "keywords_es": [
+        "rotación Aflicción SM Ruina",
+        "Descarga de las Sombras Aflicción",
+        "Terror de fatalidad brujo",
+        "rotación Aflicción raid"
+      ],
+      "keywords_en": [
+        "SM Ruin Affliction rotation",
+        "Affliction Shadow Bolt",
+        "warlock Bane of Doom",
+        "Affliction raid rotation"
+      ],
+      "text_es": "Prioridad: Terror de fatalidad si queda al menos un minuto; si no, Amplificar maldición con Terror de agonía; después, maldición asignada, Corrupción, Succionar vida e Inmolar. Lanza primero Descarga de las Sombras si falta el efecto de Descarga de Sombras mejorada y luego úsala como relleno; con Trance de las Sombras, es instantánea y se lanza enseguida. Usa Transfusión de vida entre renovaciones o al moverte; cerca del final, solo si no puedes pagar el siguiente hechizo.",
+      "text_en": "Priority: Bane of Doom if a minute or more remains; otherwise Amplify Curse with Bane of Agony; then your assigned Curse, Corruption, Siphon Life, and Immolate. Cast Shadow Bolt first if Improved Shadow Bolt is down, then use it as filler; a Shadow Trance proc makes it instant, so cast it at once. Life Tap between refreshes or while moving; near the end, use it only if you cannot pay for the next spell.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock DPS Rotation and Cooldowns - WoW: Forever › Single Target SM Ruin Rotation for Affliction Warlocks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/rotation-cooldowns-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:affliction:rotation"
+      ],
+      "source_hashes": [
+        "section:fe00ce1abd33f551894a5ccf35fd4dba83b2aec5"
+      ]
+    },
+    {
+      "id": "clase-warlock-rotacion-demonologia-fuego-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Demonología de Fuego",
+      "title_en": "Demonology Fire Rotation",
+      "summary_es": "Mantén Marca demoníaca y los efectos periódicos; usa Fuego de alma durante Exterminio.",
+      "summary_en": "Maintain Demonic Brand and damage-over-time effects; cast Soul Fire during Decimation.",
+      "keywords_es": [
+        "rotación Demonología Fuego",
+        "Exterminio brujo",
+        "Marca demoníaca rotación",
+        "Fuego de alma brujo"
+      ],
+      "keywords_en": [
+        "Demonology Fire rotation",
+        "warlock Decimation",
+        "Demonic Brand rotation",
+        "warlock Soul Fire"
+      ],
+      "text_es": "Prioridad: Dolor abrasador si falta Marca demoníaca; Terror de fatalidad si queda al menos un minuto (si no, Terror de agonía); maldición asignada, Inmolar y Corrupción. Lanza Fuego de alma mientras Exterminio esté activo. Usa Transfusión de vida antes de quedarte sin maná y para reponer el del diablillo con Energías demoníacas; rellena con Dolor abrasador.",
+      "text_en": "Priority: Searing Pain if Demonic Brand is missing; Bane of Doom with at least a minute left (otherwise Bane of Agony); assigned Curse, Immolate, and Corruption. Cast Soul Fire while Decimation is active. Life Tap before you run out of mana and to refill the Imp through Demonic Energies; fill with Searing Pain.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock DPS Rotation and Cooldowns - WoW: Forever › Single Target Fire Rotation for Demonology Warlocks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/rotation-cooldowns-pve-dps",
+          "date": "2026-10-26"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:rotation"
+      ],
+      "source_hashes": [
+        "section:3fb546c88bdac6b48500c01acae0cc8aa85e3e74"
+      ]
+    },
+    {
+      "id": "clase-warlock-rotacion-demonologia-sombras-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Demonología de Sombras",
+      "title_en": "Demonology Shadow Rotation",
+      "summary_es": "Mantén Marca demoníaca y efectos periódicos; rellena con Descarga de las Sombras.",
+      "summary_en": "Maintain Demonic Brand and damage-over-time effects; fill with Shadow Bolt.",
+      "keywords_es": [
+        "rotación Demonología Sombras",
+        "Descarga de las Sombras Demonología",
+        "Marca demoníaca",
+        "Terror de fatalidad brujo"
+      ],
+      "keywords_en": [
+        "Demonology Shadow rotation",
+        "Demonology Shadow Bolt",
+        "Demonic Brand",
+        "warlock Bane of Doom"
+      ],
+      "text_es": "Prioridad: Terror de fatalidad si queda al menos un minuto; si no, Terror de agonía; maldición asignada; Dolor abrasador si falta Marca demoníaca; Inmolar y Corrupción; luego Transfusión de vida entre renovaciones o al moverte y Descarga de las Sombras como relleno. Marca demoníaca dura 10 s o 6 ataques de la súcubo/íncubo, lo que ocurra primero: renueva Dolor abrasador al caer. Fuego de alma no forma parte de esta rotación, ni siquiera durante Exterminio.",
+      "text_en": "Priority: Bane of Doom with a minute or more remaining; otherwise Bane of Agony; assigned Curse; Searing Pain if Demonic Brand is missing; Immolate and Corruption; then Life Tap between refreshes or while moving and Shadow Bolt as filler. Demonic Brand lasts 10 seconds or 6 Sayaad attacks, whichever comes first: refresh Searing Pain when it drops. Soul Fire is not part of this rotation, even during Decimation.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock DPS Rotation and Cooldowns - WoW: Forever › Single Target Shadow Rotation for Demonology Warlocks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/rotation-cooldowns-pve-dps",
+          "date": "2026-10-26"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:rotation"
+      ],
+      "source_hashes": [
+        "section:8baa576d03192b6e7414ab683140aa57ba67e3de"
+      ]
+    },
+    {
+      "id": "clase-warlock-rotacion-destruccion-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación de Destrucción a nivel 60",
+      "title_en": "Level 60 Destruction Rotation",
+      "summary_es": "Mantén Inmolar y Corrupción, lanza Conflagrar y Quemadura de las Sombras al recargar y rellena con Incinerar.",
+      "summary_en": "Maintain Immolate and Corruption, cast Conflagrate and Shadowburn on cooldown, and fill with Incinerate.",
+      "keywords_es": [
+        "rotación Destrucción nivel 60",
+        "Incinerar rotación",
+        "Conflagrar al recargar",
+        "Quemadura de las Sombras banda"
+      ],
+      "keywords_en": [
+        "level 60 Destruction rotation",
+        "Incinerate rotation",
+        "Conflagrate cooldown",
+        "raid Shadowburn"
+      ],
+      "text_es": "Prioridad: Terror de fatalidad si queda al menos un minuto; si no, Amplificar maldición y Terror de agonía; maldición asignada, Inmolar, Corrupción, Conflagrar, Quemadura de las Sombras, Transfusión de vida entre renovaciones o al moverte e Incinerar como relleno. Con 5/5 Sombras y llamas, Conflagrar no consume Inmolar y Quemadura de las Sombras devuelve su fragmento; lanza ambas al estar disponibles. En enemigos que mueren en segundos, no gastes tiempo en Corrupción ni en el terror.",
+      "text_en": "Priority: Bane of Doom with a minute or more left; otherwise Amplify Curse and Bane of Agony; assigned Curse, Immolate, Corruption, Conflagrate, Shadowburn, Life Tap between refreshes or while moving, then Incinerate as filler. With 5/5 Shadow and Flame, Conflagrate does not consume Immolate and Shadowburn refunds its shard; cast both when ready. For enemies that fall quickly, save casts by leaving Corruption and the Bane out.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Destruction Warlocks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/rotation-cooldowns-pve-dps",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock DPS Guide - WoW: Forever › Changes to Destruction Warlock in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/overview-pve-dps",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:overview",
+        "class:warlock:destruction:rotation"
+      ],
+      "source_hashes": [
+        "section:0139ca37032359782a7de7e3dc75a8f3e46a8d63",
+        "section:0150cc1b0cad035c038be93a57fd2d6aaf9f30ee"
+      ]
+    },
+    {
+      "id": "clase-warlock-area-afliccion-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Área de Aflicción a nivel 60",
+      "title_en": "Level 60 Affliction AoE",
+      "summary_es": "Reparte efectos en peleas largas; canaliza Piroinferno en grupos de tres o más si puedes acercarte.",
+      "summary_en": "Spread damage-over-time effects in long fights; channel Hellfire on 3+ targets when safe to approach.",
+      "keywords_es": [
+        "área Aflicción nivel 60",
+        "Piroinferno brujo",
+        "Lluvia de Fuego brujo",
+        "Aflicción varios objetivos"
+      ],
+      "keywords_en": [
+        "level 60 Affliction AoE",
+        "warlock Hellfire",
+        "warlock Rain of Fire",
+        "Affliction multiple targets"
+      ],
+      "text_es": "Contra 2 objetivos, mantén la rotación de un solo objetivo en el principal; pon Corrupción, Terror de agonía y Succionar vida en el segundo si vivirá al menos medio minuto. Piroinferno no compensa contra dos. Con 3 o más, canalízalo en cuanto el grupo esté cerca si morirá en unos 20 s; si durará más, reparte antes los tres efectos periódicos. Si no puedes estar junto al grupo, usa Lluvia de Fuego desde lejos.",
+      "text_en": "Against 2 targets, keep your single-target rotation on the main one; apply Corruption, Bane of Agony, and Siphon Life to the second if it will live at least half a minute. Hellfire is not worth using on two. With 3 or more, channel it as soon as the pack is close if it will die in about 20 seconds; if it will live longer, spread the three DoTs first. Use Rain of Fire from range when you cannot safely stand in the pack.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Affliction Warlocks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/rotation-cooldowns-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:affliction:rotation"
+      ],
+      "source_hashes": [
+        "section:38d07754537b9afb8193289da56f2f9e8d48efae"
+      ]
+    },
+    {
+      "id": "clase-warlock-area-demonologia-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Área de Demonología a nivel 60",
+      "title_en": "Level 60 Demonology AoE",
+      "summary_es": "Piroinferno golpea más con Fuego; usa Lluvia de Fuego desde lejos y cambia de demonio para área larga en Sombras.",
+      "summary_en": "Hellfire hits harder with the Fire build; use Rain of Fire at range and swap demons for long Shadow-build AoE.",
+      "keywords_es": [
+        "área Demonología nivel 60",
+        "Piroinferno Demonología",
+        "Lluvia de Fuego Demonología",
+        "demonio Demonología área"
+      ],
+      "keywords_en": [
+        "level 60 Demonology AoE",
+        "Demonology Hellfire",
+        "Demonology Rain of Fire",
+        "Demonology demon AoE"
+      ],
+      "text_es": "Con 2 objetivos, mantén la rotación principal y pon Corrupción e Inmolar en el segundo; añade Terror de agonía si vivirá al menos medio minuto. Contra 3 o más, canaliza Piroinferno cuando estén a tu lado; mientras se acercan, reparte Terror de agonía y, si da tiempo, Maldición de los Elementos. Si no puedes acercarte, usa Lluvia de Fuego. En área larga con la rama de Sombras, sacrifica a la súcubo/íncubo y saca al diablillo para potenciar el daño de Fuego.",
+      "text_en": "Against 2 targets, keep your main rotation and apply Corruption and Immolate to the second; add Bane of Agony if it will live at least half a minute. Against 3 or more, channel Hellfire once they are next to you; while they run in, spread Bane of Agony and, if time allows, Curse of the Elements. Use Rain of Fire if you cannot get close. For sustained AoE with the Shadow build, sacrifice the Sayaad and summon the Imp to boost Fire damage.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Demonology Warlocks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/rotation-cooldowns-pve-dps",
+          "date": "2026-10-26"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:rotation"
+      ],
+      "source_hashes": [
+        "section:40762d07d25d5e60449986d4866e2f8d148853e7"
+      ]
+    },
+    {
+      "id": "clase-warlock-area-destruccion-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Área de Destrucción a nivel 60",
+      "title_en": "Level 60 Destruction AoE",
+      "summary_es": "Usa Terror de caos contra un objetivo secundario y Piroinferno en grupos de tres o más.",
+      "summary_en": "Use Bane of Havoc on a secondary target and Hellfire against packs of 3 or more.",
+      "keywords_es": [
+        "área Destrucción nivel 60",
+        "Terror de caos",
+        "Piroinferno Destrucción",
+        "Destrucción varios objetivos"
+      ],
+      "keywords_en": [
+        "level 60 Destruction AoE",
+        "Bane of Havoc",
+        "Destruction Hellfire",
+        "Destruction multiple targets"
+      ],
+      "text_es": "Contra 2 objetivos, aplica Terror de caos al secundario y usa la rotación normal en el principal; el marcado recibe 15% del daño que infliges al principal. Si vivirá al menos un minuto, añade maldición, Corrupción e Inmolar al secundario. Contra 3 o más, coloca Terror de caos y canaliza Piroinferno cuando el grupo esté junto; mientras se acerca, aplica Terror de agonía al resto y Maldición de los Elementos si da tiempo. Usa Lluvia de Fuego si no puedes acercarte.",
+      "text_en": "Against 2 targets, put Bane of Havoc on the secondary and use your normal rotation on the main target; 15% of damage to the main target is also dealt to the marked one. Add your Curse, Corruption, and Immolate there too if the marked enemy is expected to survive for a minute or longer. Against 3 or more, apply Bane of Havoc and channel Hellfire once the pack is together; while it runs in, apply Bane of Agony to the others and Curse of the Elements if time allows. Use Rain of Fire if you cannot get close.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Destruction Warlocks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/rotation-cooldowns-pve-dps",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:rotation"
+      ],
+      "source_hashes": [
+        "section:29cd8c54a8c86337d11b7b247201e0032b7acaab"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-afliccion-arruinar-raid",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de banda de Aflicción con Arruinar",
+      "title_en": "Affliction Wrack Raid Build",
+      "summary_es": "Distribución exacta de talentos para la build de banda de Arruinar, que sacrifica al diablillo por daño de Sombras.",
+      "summary_en": "Exact Wrack raid talent setup, sacrificing the Imp for Shadow damage.",
+      "keywords_es": [
+        "build Arruinar Aflicción",
+        "talentos Aflicción banda",
+        "talentos Brujo nivel 60",
+        "sacrificio demoníaco Aflicción"
+      ],
+      "keywords_en": [
+        "Affliction Wrack build",
+        "Affliction raid talents",
+        "level 60 Warlock talents",
+        "Affliction Demonic Sacrifice"
+      ],
+      "text_es": "Aflicción: Transfusión de  vida mejorada 2/2, Supresión 5/5, Corrupción mejorado 5/5, Terror de agonía mejorado 2/2, Amplificar maldición 1/1, Pandemia 3/3, Malevolencia 5/5, Ocaso 2/2, Succionar vida 1/1, Succión de alma 3/3, Maestría de las Sombras 5/5, Arruinar 1/1; Demonología: Abrazo demoníaco 5/5, Égida demoníaca 2/2, Vitalidad vil 3/3, Sacrificio demoníaco 1/1; Destrucción: Descarga de Sombras mejorada 5/5. Sacrifica al diablillo: +15% de daño de Sombras. Arruinar potencia DoTs. Transfusión de vida mejorada ayuda al maná. SM Ruina usa Aterrar 5/5 para acelerar Descarga de las Sombras.",
+      "text_en": "Affliction: Improved Life Tap 2/2, Suppression 5/5, Improved Corruption 5/5, Improved Bane of Agony 2/2, Amplify Curse 1/1, Pandemic 3/3, Malevolence 5/5, Nightfall 2/2, Siphon Life 1/1, Soul Siphon 3/3, Shadow Mastery 5/5, Wrack 1/1; Demonology: Demonic Embrace 5/5, Demonic Aegis 2/2, Fel Vitality 3/3, Demonic Sacrifice 1/1; Destruction: Improved Shadow Bolt 5/5. Sacrifice the Imp for +15% Shadow damage. Wrack boosts DoTs. Improved Life Tap supports mana. SM Ruin uses Bane 5/5 to speed Shadow Bolt.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Affliction Warlock Talent Tree Builds - WoW: Forever › Best Affliction Warlock PvE Raid Build > Which Build Should You Pick?",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:affliction:talents"
+      ],
+      "source_hashes": [
+        "guide:d81ab77a5526144ee1ed26b2be4f0ecf34111ff8"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-afliccion-sm-ruina-raid",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de banda de Aflicción SM Ruina",
+      "title_en": "Affliction SM Ruin Raid Build",
+      "summary_es": "Build con Descarga de las Sombras como relleno y demonio activo; pierde daño frente a Arruinar.",
+      "summary_en": "Shadow Bolt filler with a demon active; lower damage than Wrack.",
+      "keywords_es": [
+        "build SM Ruina Aflicción",
+        "talentos Descarga de las Sombras",
+        "build Aflicción demonio",
+        "talentos banda Brujo"
+      ],
+      "keywords_en": [
+        "Affliction SM Ruin build",
+        "Shadow Bolt talents",
+        "Affliction demon build",
+        "Warlock raid talents"
+      ],
+      "text_es": "Aflicción: Transfusión de  vida mejorada 2/2, Supresión 5/5, Corrupción mejorado 5/5, Terror de agonía mejorado 1/2, Amplificar maldición 1/1, Pandemia 3/3, Malevolencia 5/5, Ocaso 2/2, Succionar vida 1/1, Maestría de las Sombras 5/5; Destrucción: Descarga de Sombras mejorada 5/5, Aterrar 5/5, Cataclismo 3/3, Ruina 5/5, Llamas agonizantes 3/3. Mantén a la súcubo/íncubo y rellena con Descarga de las Sombras; Transfusión de vida mejorada ayuda a gestionar el maná. Elige esta build si prefieres lanzar en vez de canalizar Arruinar.",
+      "text_en": "Affliction: Improved Life Tap 2/2, Suppression 5/5, Improved Corruption 5/5, Improved Bane of Agony 1/2, Amplify Curse 1/1, Pandemic 3/3, Malevolence 5/5, Nightfall 2/2, Siphon Life 1/1, Shadow Mastery 5/5; Destruction: Improved Shadow Bolt 5/5, Bane 5/5, Cataclysm 3/3, Ruin 5/5, Agonizing Flames 3/3. Keep the Sayaad and fill with Shadow Bolt; Improved Life Tap helps manage mana. Choose this build if you prefer casts to channeling Wrack.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Affliction Warlock Talent Tree Builds - WoW: Forever › Best Affliction Warlock PvE Raid Build > Which Build Should You Pick?",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:affliction:talents"
+      ],
+      "source_hashes": [
+        "guide:d81ab77a5526144ee1ed26b2be4f0ecf34111ff8"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-afliccion-mazmorra",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de mazmorra de Aflicción",
+      "title_en": "Affliction Dungeon Build",
+      "summary_es": "Build SM Ruina con Quemadura de las Sombras para moverse y rematar objetivos.",
+      "summary_en": "SM Ruin setup with Shadowburn for movement and finishing targets.",
+      "keywords_es": [
+        "build mazmorra Aflicción",
+        "talentos Aflicción mazmorra",
+        "Quemadura de las Sombras brujo",
+        "build de movilidad Brujo"
+      ],
+      "keywords_en": [
+        "Affliction dungeon build",
+        "Affliction dungeon talents",
+        "Warlock Shadowburn",
+        "Warlock mobility build"
+      ],
+      "text_es": "Aflicción: Transfusión de  vida mejorada 2/2, Supresión 5/5, Corrupción mejorado 5/5, Terror de agonía mejorado 1/2, Amplificar maldición 1/1, Pandemia 3/3, Malevolencia 5/5, Ocaso 2/2, Succionar vida 1/1, Maestría de las Sombras 5/5; Destrucción: Descarga de Sombras mejorada 5/5, Aterrar 5/5, Cataclismo 2/3, Ruina 5/5, Quemadura de las Sombras 1/1, Llamas agonizantes 3/3. Cambia un punto de Cataclismo por Quemadura de las Sombras: el lanzamiento instantáneo ayuda a recolocarse y rematar enemigos huidizos.",
+      "text_en": "Affliction: Improved Life Tap 2/2, Suppression 5/5, Improved Corruption 5/5, Improved Bane of Agony 1/2, Amplify Curse 1/1, Pandemic 3/3, Malevolence 5/5, Nightfall 2/2, Siphon Life 1/1, Shadow Mastery 5/5; Destruction: Improved Shadow Bolt 5/5, Bane 5/5, Cataclysm 2/3, Ruin 5/5, Shadowburn 1/1, Agonizing Flames 3/3. Trade one Cataclysm point for Shadowburn: its instant cast helps reposition and finish fleeing enemies.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Affliction Warlock Talent Tree Builds - WoW: Forever › Best Affliction Warlock PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:affliction:talents"
+      ],
+      "source_hashes": [
+        "section:37a5c2a2bed831ffd339a408d567d41f0dc71cf0"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-afliccion-pvp-sm-sl-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ SM/SL de Aflicción (1/2)",
+      "title_en": "Affliction SM/SL PvP Build (1/2)",
+      "summary_es": "Primera parte de los talentos de Aflicción de la build SM/SL para campos de batalla.",
+      "summary_en": "First part of the Affliction talents in the SM/SL Battleground build.",
+      "keywords_es": [
+        "build JcJ Aflicción SM SL",
+        "talentos Vínculo de alma",
+        "build brujo campos de batalla",
+        "talentos Brujo PvP"
+      ],
+      "keywords_en": [
+        "Affliction SM SL PvP build",
+        "Soul Link talents",
+        "Warlock Battleground build",
+        "Warlock PvP talents"
+      ],
+      "text_es": "Parte 1/2, talentos de Aflicción: Transfusión de  vida mejorada 2/2, Supresión 2/5, Corrupción mejorado 5/5, Alcance macabro 2/2, Terror de agonía mejorado 2/2, Amplificar maldición 1/1, Pandemia 3/3, Malevolencia 4/5, Ocaso 2/2, Maldición de agotamiento 1/1, Succionar vida 1/1, Maestría de las Sombras 5/5. Esta parte contiene los talentos de Aflicción.",
+      "text_en": "Part 1/2, Affliction talents: Improved Life Tap 2/2, Suppression 2/5, Improved Corruption 5/5, Grim Reach 2/2, Improved Bane of Agony 2/2, Amplify Curse 1/1, Pandemic 3/3, Malevolence 4/5, Nightfall 2/2, Curse of Exhaustion 1/1, Siphon Life 1/1, Shadow Mastery 5/5. This part lists the Affliction talents.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Affliction Warlock Talent Tree Builds - WoW: Forever › Best Affliction Warlock PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:affliction:talents"
+      ],
+      "source_hashes": [
+        "section:30d1baf6851822e1831ff020125427a5d165f3c4"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-afliccion-pvp-sm-sl-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ SM/SL de Aflicción (2/2)",
+      "title_en": "Affliction SM/SL PvP Build (2/2)",
+      "summary_es": "Talentos de Demonología y propósito de la build SM/SL para campos de batalla en solitario.",
+      "summary_en": "Demonology talents and purpose of the SM/SL solo Battleground build.",
+      "keywords_es": [
+        "build JcJ Aflicción SM SL",
+        "talentos Vínculo de alma",
+        "build brujo campos de batalla",
+        "talentos Brujo PvP"
+      ],
+      "keywords_en": [
+        "Affliction SM SL PvP build",
+        "Soul Link talents",
+        "Warlock Battleground build",
+        "Warlock PvP talents"
+      ],
+      "text_es": "Parte 2/2, Demonología: Abrazo demoníaco 5/5, Égida demoníaca 2/2, Abisario mejorado 3/3, Vitalidad vil 3/3, Energías demoníacas 2/2, Sacrificio demoníaco 1/1, Maestro invocador 2/2, Dominio de lo maldito 1/1, Marca demoníaca 1/3, Vínculo de alma 1/1. Mantén vivo al demonio y aguanta el foco con Vínculo de alma; está pensada para campos de batalla en solitario y requiere poca microgestión de la mascota.",
+      "text_en": "Part 2/2, demonology branch: Demonic Embrace 5/5, Demonic Aegis 2/2, Improved Voidwalker 3/3, Fel Vitality 3/3, Demonic Energies 2/2, Demonic Sacrifice 1/1, Master Summoner 2/2, Fel Domination 1/1, Demonic Brand 1/3, Soul Link 1/1. Keep the demon alive and withstand focus with Soul Link; this build is aimed at solo Battlegrounds and needs little pet micromanagement.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Affliction Warlock Talent Tree Builds - WoW: Forever › Best Affliction Warlock PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:affliction:talents"
+      ],
+      "source_hashes": [
+        "section:30d1baf6851822e1831ff020125427a5d165f3c4"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-afliccion-pvp-sm-ruina",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ de Aflicción SM Ruina",
+      "title_en": "Affliction SM Ruin PvP Build",
+      "summary_es": "Build JcJ de estallido para grupos que te quiten presión, con Ruina y Conflagrar.",
+      "summary_en": "Burst PvP build for groups that keep pressure off you, with Ruin and Conflagrate.",
+      "keywords_es": [
+        "build JcJ Aflicción Ruina",
+        "build Conflagrar Brujo PvP",
+        "talentos Ruina brujo",
+        "estallido brujo JcJ"
+      ],
+      "keywords_en": [
+        "Affliction Ruin PvP build",
+        "Warlock Conflagrate build",
+        "Warlock Ruin talents",
+        "Warlock PvP burst"
+      ],
+      "text_es": "Aflicción: Transfusión de  vida mejorada 2/2, Supresión 1/5, Corrupción mejorado 5/5, Alcance macabro 2/2, Terror de agonía mejorado 2/2, Amplificar maldición 1/1, Pandemia 3/3, Malevolencia 5/5, Ocaso 2/2, Maldición de agotamiento 1/1, Succionar vida 1/1, Maestría de las Sombras 4/5; Destrucción: Alcance destructivo 2/2, Aterrar 5/5, Secuelas 5/5, Ruina 5/5, Quemadura de las Sombras 1/1, Llamas agonizantes 3/3, Conflagrar 1/1. Se orienta al estallido de Descarga de las Sombras y Conflagrar; el equipo debe protegerte porque renuncia a la defensa del demonio.",
+      "text_en": "Affliction: Improved Life Tap 2/2, Suppression 1/5, Improved Corruption 5/5, Grim Reach 2/2, Improved Bane of Agony 2/2, Amplify Curse 1/1, Pandemic 3/3, Malevolence 5/5, Nightfall 2/2, Curse of Exhaustion 1/1, Siphon Life 1/1, Shadow Mastery 4/5; Destruction: Destructive Reach 2/2, Bane 5/5, Aftermath 5/5, Ruin 5/5, Shadowburn 1/1, Agonizing Flames 3/3, Conflagrate 1/1. It emphasizes Shadow Bolt and Conflagrate burst; teammates should protect you because it gives up the pet-based defense.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Affliction Warlock Talent Tree Builds - WoW: Forever › Best Affliction Warlock PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:affliction:talents"
+      ],
+      "source_hashes": [
+        "section:30d1baf6851822e1831ff020125427a5d165f3c4"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-afliccion-pvp-arruinar",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ de Aflicción con Arruinar",
+      "title_en": "Affliction Wrack PvP Build",
+      "summary_es": "Build JcJ de drenajes para equipo fuerte; concentración vil evita interrupciones al canalizar.",
+      "summary_en": "Drain-focused PvP build for geared characters; Fel Concentration prevents channel pushback.",
+      "keywords_es": [
+        "build JcJ Arruinar brujo",
+        "drenajes Aflicción PvP",
+        "Concentración vil brujo",
+        "talentos brujo drenaje"
+      ],
+      "keywords_en": [
+        "Warlock Wrack PvP build",
+        "Affliction PvP drains",
+        "Warlock Fel Concentration",
+        "Warlock drain talents"
+      ],
+      "text_es": "Aflicción: Corrupción mejorado 5/5, Alcance macabro 2/2, Drenajes mejorados 3/3, Concentración vil 3/3, Amplificar maldición 1/1, Pandemia 3/3, Malevolencia 1/5, Ocaso 2/2, Maldición de agotamiento 1/1, Succionar vida 1/1, Succión de alma 3/3, Maestría de las Sombras 5/5, Arruinar 1/1; Demonología: Abrazo demoníaco 5/5, Égida demoníaca 2/2; Destrucción: Alcance destructivo 2/2, Descarga de Sombras mejorada 5/5, Piel de arrabio 5/5, Quemadura de las Sombras 1/1. Potencia drenajes y evita su retroceso; se recomienda si disfrutas ese estilo y ya tienes equipo fuerte.",
+      "text_en": "Affliction: Improved Corruption 5/5, Grim Reach 2/2, Improved Drains 3/3, Fel Concentration 3/3, Amplify Curse 1/1, Pandemic 3/3, Malevolence 1/5, Nightfall 2/2, Curse of Exhaustion 1/1, Siphon Life 1/1, Soul Siphon 3/3, Shadow Mastery 5/5, Wrack 1/1; Demonology: Demonic Embrace 5/5, Demonic Aegis 2/2; Destruction: Destructive Reach 2/2, Improved Shadow Bolt 5/5, Molten Skin 5/5, Shadowburn 1/1. This option suits geared characters who want to center their play on drains; Fel Concentration reduces channel interruption.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Affliction Warlock Talent Tree Builds - WoW: Forever › Best Affliction Warlock PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/talent-builds-pve-dps",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:affliction:talents"
+      ],
+      "source_hashes": [
+        "section:30d1baf6851822e1831ff020125427a5d165f3c4"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-demonologia-fuego-raid",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de banda de Demonología de Fuego",
+      "title_en": "Demonology Fire Raid Build",
+      "summary_es": "Build de Fuego: diablillo activo, súcubo sacrificada y Dolor abrasador como relleno.",
+      "summary_en": "Fire setup: Imp active, Sayaad sacrificed, with Searing Pain as filler.",
+      "keywords_es": [
+        "build Demonología Fuego",
+        "talentos Demonología banda",
+        "build diablillo brujo",
+        "Pacto demoníaco Fuego"
+      ],
+      "keywords_en": [
+        "Demonology Fire build",
+        "Demonology raid talents",
+        "Warlock Imp build",
+        "Fire Demonic Pact"
+      ],
+      "text_es": "Aflicción: Supresión 1/5, Corrupción mejorado 1/5; Demonología: Diablillo mejorado 3/3, Poder profano 5/5, Vitalidad vil 3/3, Energías demoníacas 2/2, Sacrificio demoníaco 1/1, Maestro invocador 2/2, Exterminio 2/2, Marca demoníaca 3/3, Vínculo de alma 1/1, Conocimiento demoníaco 3/3, Maestro demonogista 5/5, Pacto demoníaco 1/1; Destrucción: Aterrar 5/5, Secuelas 5/5, Ruina 5/5, Llamas agonizantes 3/3. Sacrifica a la súcubo/íncubo y mantén al diablillo: Pacto demoníaco conserva el bonus de sacrificio mientras el demonio activo aporta daño de Fuego.",
+      "text_en": "Affliction: Suppression 1/5, Improved Corruption 1/5; Demonology: Improved Imp 3/3, Unholy Power 5/5, Fel Vitality 3/3, Demonic Energies 2/2, Demonic Sacrifice 1/1, Master Summoner 2/2, Decimation 2/2, Demonic Brand 3/3, Soul Link 1/1, Demonic Knowledge 3/3, Master Demonologist 5/5, Demonic Pact 1/1; Destruction: Bane 5/5, Aftermath 5/5, Ruin 5/5, Agonizing Flames 3/3. Sacrifice the Sayaad and keep the Imp: Demonic Pact preserves the sacrifice bonus while the active demon adds Fire damage.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Demonology Warlock Talent Tree Builds - WoW: Forever › Best Demonology Warlock PvE Raid Build > Fire or Shadow?",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:talents"
+      ],
+      "source_hashes": [
+        "guide:81e15fe80d6f15039d1402fc8b5c9c586ce226fc"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-demonologia-sombras-raid",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de banda de Demonología de Sombras",
+      "title_en": "Demonology Shadow Raid Build",
+      "summary_es": "Build de Sombras: súcubo activa, diablillo sacrificado y Descarga de las Sombras como relleno.",
+      "summary_en": "Shadow setup: Sayaad active, Imp sacrificed, with Shadow Bolt as filler.",
+      "keywords_es": [
+        "build Demonología Sombras",
+        "talentos Demonología Sombras",
+        "build súcubo brujo",
+        "Descarga de las Sombras Demonología"
+      ],
+      "keywords_en": [
+        "Demonology Shadow build",
+        "Shadow Demonology talents",
+        "Warlock Sayaad build",
+        "Demonology Shadow Bolt"
+      ],
+      "text_es": "Aflicción: Supresión 1/5, Corrupción mejorado 1/5; Demonología: Poder profano 5/5, Vitalidad vil 3/3, Energías demoníacas 2/2, Sayaad mejorado 3/3, Sacrificio demoníaco 1/1, Maestro invocador 2/2, Exterminio 2/2, Marca demoníaca 3/3, Vínculo de alma 1/1, Conocimiento demoníaco 3/3, Maestro demonogista 5/5, Pacto demoníaco 1/1; Destrucción: Descarga de Sombras mejorada 5/5, Aterrar 5/5, Ruina 5/5, Llamas agonizantes 3/3. Sacrifica al diablillo y mantén a la súcubo/íncubo; elige esta rama si el equipo favorece Sombras o los combates son cortos. Aterrar acelera Descarga de las Sombras.",
+      "text_en": "Affliction: Suppression 1/5, Improved Corruption 1/5; Demonology: Unholy Power 5/5, Fel Vitality 3/3, Demonic Energies 2/2, Improved Sayaad 3/3, Demonic Sacrifice 1/1, Master Summoner 2/2, Decimation 2/2, Demonic Brand 3/3, Soul Link 1/1, Demonic Knowledge 3/3, Master Demonologist 5/5, Demonic Pact 1/1; Destruction: Improved Shadow Bolt 5/5, Bane 5/5, Ruin 5/5, Agonizing Flames 3/3. Sacrifice the Imp and keep the Sayaad; choose this build when gear favors Shadow or fights are short. Bane shortens Shadow Bolt casts.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Demonology Warlock Talent Tree Builds - WoW: Forever › Best Demonology Warlock PvE Raid Build > Fire or Shadow?",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:talents"
+      ],
+      "source_hashes": [
+        "guide:81e15fe80d6f15039d1402fc8b5c9c586ce226fc"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-demonologia-mazmorra",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de mazmorra de Demonología",
+      "title_en": "Demonology Dungeon Build",
+      "summary_es": "Usa la build de banda de Fuego por su daño de área; mueve talentos para ganar habilidades instantáneas si hace falta.",
+      "summary_en": "Use the Fire raid build for AoE; trade talents for instant casts if needed.",
+      "keywords_es": [
+        "build Demonología mazmorra",
+        "talentos Demonología área",
+        "Demonología Fuego mazmorra",
+        "movilidad brujo mazmorra"
+      ],
+      "keywords_en": [
+        "Demonology dungeon build",
+        "Demonology AoE talents",
+        "Demonology Fire dungeon",
+        "Warlock dungeon mobility"
+      ],
+      "text_es": "Para mazmorras, usa la build de banda de Fuego: conserva exactamente Aflicción: Supresión 1/5, Corrupción mejorado 1/5; Demonología: Diablillo mejorado 3/3, Poder profano 5/5, Vitalidad vil 3/3, Energías demoníacas 2/2, Sacrificio demoníaco 1/1, Maestro invocador 2/2, Exterminio 2/2, Marca demoníaca 3/3, Vínculo de alma 1/1, Conocimiento demoníaco 3/3, Maestro demonogista 5/5, Pacto demoníaco 1/1; Destrucción: Aterrar 5/5, Secuelas 5/5, Ruina 5/5, Llamas agonizantes 3/3. Si necesitas movilidad, puedes cambiar puntos para Quemadura de las Sombras y Conflagrar, a costa de daño a un objetivo.",
+      "text_en": "For dungeons, use the Fire raid build unchanged: Affliction: Suppression 1/5, Improved Corruption 1/5; Demonology: Improved Imp 3/3, Unholy Power 5/5, Fel Vitality 3/3, Demonic Energies 2/2, Demonic Sacrifice 1/1, Master Summoner 2/2, Decimation 2/2, Demonic Brand 3/3, Soul Link 1/1, Demonic Knowledge 3/3, Master Demonologist 5/5, Demonic Pact 1/1; Destruction: Bane 5/5, Aftermath 5/5, Ruin 5/5, Agonizing Flames 3/3. You may trade points for Shadowburn and Conflagrate for mobility, at the cost of single-target damage.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Demonology Warlock Talent Tree Builds - WoW: Forever › Best Demonology Warlock PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:talents"
+      ],
+      "source_hashes": [
+        "section:318126bb2d84e75cc44cc1c6fa690951d3d9fcaf"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-demonologia-pvp-pacto-afliccion-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ de drenajes (1/2)",
+      "title_en": "Demonology Drain PvP Build (1/2)",
+      "summary_es": "Primera parte de los talentos de la build de drenajes y Pacto demoníaco para JcJ.",
+      "summary_en": "First part of the drain and Demonic Pact PvP talent build.",
+      "keywords_es": [
+        "build Demonología drenajes JcJ",
+        "Pacto demoníaco PvP",
+        "Drenar maná brujo",
+        "talentos brujo duelos"
+      ],
+      "keywords_en": [
+        "Demonology drain PvP build",
+        "Demonic Pact PvP",
+        "Warlock Drain Mana",
+        "Warlock duel talents"
+      ],
+      "text_es": "Parte 1/2, Aflicción: Corrupción mejorado 5/5, Alcance macabro 2/2, Drenajes mejorados 3/3, Concentración vil 3/3, Amplificar maldición 1/1, Pandemia 3/3, Ocaso 2/2, Maldición de agotamiento 1/1. Esta parte recoge los talentos de Aflicción.",
+      "text_en": "Part 1/2, Affliction: Improved Corruption 5/5, Grim Reach 2/2, Improved Drains 3/3, Fel Concentration 3/3, Amplify Curse 1/1, Pandemic 3/3, Nightfall 2/2, Curse of Exhaustion 1/1. This part lists the Affliction talents.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Demonology Warlock Talent Tree Builds - WoW: Forever › Best Demonology Warlock PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:talents"
+      ],
+      "source_hashes": [
+        "section:5e26056bbefb1d9f5dd16ff8da5bed33715be91f"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-demonologia-pvp-pacto-afliccion-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ de drenajes (2/2)",
+      "title_en": "Demonology Drain PvP Build (2/2)",
+      "summary_es": "Talentos de Demonología y objetivo de la build de drenajes con Pacto demoníaco.",
+      "summary_en": "Demonology talents and purpose of the drain-focused Demonic Pact build.",
+      "keywords_es": [
+        "build Demonología drenajes JcJ",
+        "Pacto demoníaco PvP",
+        "Drenar maná brujo",
+        "talentos brujo duelos"
+      ],
+      "keywords_en": [
+        "Demonology drain PvP build",
+        "Demonic Pact PvP",
+        "Warlock Drain Mana",
+        "Warlock duel talents"
+      ],
+      "text_es": "Parte 2/2, Demonología: Abrazo demoníaco 5/5, Égida demoníaca 2/2, Abisario mejorado 3/3, Vitalidad vil 3/3, Energías demoníacas 2/2, Sacrificio demoníaco 1/1, Maestro invocador 2/2, Dominio de lo maldito 1/1, Marca demoníaca 1/3, Manáfago mejorado 3/3, Vínculo de alma 1/1, Conocimiento demoníaco 1/3, Maestro demonogista 5/5, Pacto demoníaco 1/1. Está pensada para duelos y JcJ de mundo: Drenajes mejorados también vacía maná y Pacto permite cambiar de demonio sin perder el bonus de sacrificio.",
+      "text_en": "Part 2/2, Demonology: Demonic Embrace 5/5, Demonic Aegis 2/2, Improved Voidwalker 3/3, Fel Vitality 3/3, Demonic Energies 2/2, Demonic Sacrifice 1/1, Master Summoner 2/2, Fel Domination 1/1, Demonic Brand 1/3, Improved Felhunter 3/3, Soul Link 1/1, Demonic Knowledge 1/3, Master Demonologist 5/5, Demonic Pact 1/1. It is aimed at duels and world PvP: Improved Drains also removes mana, and Pact lets you swap demons without losing the sacrifice bonus.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Demonology Warlock Talent Tree Builds - WoW: Forever › Best Demonology Warlock PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:talents"
+      ],
+      "source_hashes": [
+        "section:5e26056bbefb1d9f5dd16ff8da5bed33715be91f"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-demonologia-pvp-pacto-quemadura-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ con Quemadura (1/2)",
+      "title_en": "Demonology Shadowburn PvP Build (1/2)",
+      "summary_es": "Primera parte de los talentos de la build JcJ con Vínculo de alma y Quemadura de las Sombras.",
+      "summary_en": "First part of the Soul Link and Shadowburn PvP build talents.",
+      "keywords_es": [
+        "build Quemadura de las Sombras JcJ",
+        "Demonología Vínculo de alma",
+        "talentos brujo burst PvP",
+        "Pacto demoníaco JcJ"
+      ],
+      "keywords_en": [
+        "Shadowburn PvP build",
+        "Demonology Soul Link",
+        "Warlock PvP burst talents",
+        "Demonic Pact PvP"
+      ],
+      "text_es": "Parte 1/2, Aflicción: Corrupción mejorado 5/5, Alcance macabro 2/2; Demonología: Abrazo demoníaco 5/5, Égida demoníaca 2/2, Abisario mejorado 3/3, Vitalidad vil 3/3, Energías demoníacas 2/2, Sacrificio demoníaco 1/1, Maestro invocador 2/2, Dominio de lo maldito 1/1, Marca demoníaca 1/3, Manáfago mejorado 3/3, Vínculo de alma 1/1, Conocimiento demoníaco 3/3, Maestro demonogista 5/5, Pacto demoníaco 1/1. Esta parte reúne las ramas de Aflicción y Demonología.",
+      "text_en": "Part 1/2, Affliction: Improved Corruption 5/5, Grim Reach 2/2; Demonology: Demonic Embrace 5/5, Demonic Aegis 2/2, Improved Voidwalker 3/3, Fel Vitality 3/3, Demonic Energies 2/2, Demonic Sacrifice 1/1, Master Summoner 2/2, Fel Domination 1/1, Demonic Brand 1/3, Improved Felhunter 3/3, Soul Link 1/1, Demonic Knowledge 3/3, Master Demonologist 5/5, Demonic Pact 1/1. This part lists the Affliction and Demonology trees.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Demonology Warlock Talent Tree Builds - WoW: Forever › Best Demonology Warlock PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:talents"
+      ],
+      "source_hashes": [
+        "section:5e26056bbefb1d9f5dd16ff8da5bed33715be91f"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-demonologia-pvp-pacto-quemadura-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ con Quemadura (2/2)",
+      "title_en": "Demonology Shadowburn PvP Build (2/2)",
+      "summary_es": "Talentos de Destrucción y objetivo de la build JcJ con Quemadura de las Sombras.",
+      "summary_en": "Destruction talents and purpose of the Shadowburn PvP build.",
+      "keywords_es": [
+        "build Quemadura de las Sombras JcJ",
+        "Demonología Vínculo de alma",
+        "talentos brujo burst PvP",
+        "Pacto demoníaco JcJ"
+      ],
+      "keywords_en": [
+        "Shadowburn PvP build",
+        "Demonology Soul Link",
+        "Warlock PvP burst talents",
+        "Demonic Pact PvP"
+      ],
+      "text_es": "Parte 2/2, Destrucción: Aterrar 5/5, Piel de arrabio 5/5, Quemadura de las Sombras 1/1. Añade estallido y un remate instantáneo a Vínculo de alma; el daño del demonio y Piel de arrabio refuerzan el daño y la supervivencia.",
+      "text_en": "Part 2/2, Destruction: Bane 5/5, Molten Skin 5/5, Shadowburn 1/1. Adds burst and an instant finisher to Soul Link; demon damage and Molten Skin improve damage and survival.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Demonology Warlock Talent Tree Builds - WoW: Forever › Best Demonology Warlock PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:talents"
+      ],
+      "source_hashes": [
+        "section:5e26056bbefb1d9f5dd16ff8da5bed33715be91f"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-demonologia-pvp-trispec-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ trispec (1/2)",
+      "title_en": "Demonology Tri-Spec PvP Build (1/2)",
+      "summary_es": "Primera parte de los talentos de la build trispec para campos de batalla.",
+      "summary_en": "First part of the tri-spec Battleground talent build.",
+      "keywords_es": [
+        "build trispec brujo",
+        "build campos de batalla brujo",
+        "Maldición de agotamiento talentos",
+        "talentos Demonología JcJ"
+      ],
+      "keywords_en": [
+        "Warlock tri-spec build",
+        "Warlock Battleground build",
+        "Curse of Exhaustion talents",
+        "Demonology PvP talents"
+      ],
+      "text_es": "Parte 1/2, Aflicción: Transfusión de  vida mejorada 2/2, Supresión 2/5, Corrupción mejorado 5/5, Alcance macabro 2/2, Amplificar maldición 1/1, Pandemia 3/3, Maldición de agotamiento 1/1; Demonología: Abrazo demoníaco 5/5, Égida demoníaca 2/2, Vitalidad vil 3/3, Energías demoníacas 2/2, Sacrificio demoníaco 1/1, Maestro invocador 2/2, Exterminio 2/2, Dominio de lo maldito 1/1, Marca demoníaca 2/3, Manáfago mejorado 3/3, Vínculo de alma 1/1. Esta parte contiene las ramas de Aflicción y Demonología.",
+      "text_en": "Part 1/2, Affliction: Improved Life Tap 2/2, Suppression 2/5, Improved Corruption 5/5, Grim Reach 2/2, Amplify Curse 1/1, Pandemic 3/3, Curse of Exhaustion 1/1; Demonology: Demonic Embrace 5/5, Demonic Aegis 2/2, Fel Vitality 3/3, Demonic Energies 2/2, Demonic Sacrifice 1/1, Master Summoner 2/2, Decimation 2/2, Fel Domination 1/1, Demonic Brand 2/3, Improved Felhunter 3/3, Soul Link 1/1. This part lists the Affliction and Demonology trees.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Demonology Warlock Talent Tree Builds - WoW: Forever › Best Demonology Warlock PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:talents"
+      ],
+      "source_hashes": [
+        "section:5e26056bbefb1d9f5dd16ff8da5bed33715be91f"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-destruccion-sayaad-raid",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de banda de Destrucción con súcubo",
+      "title_en": "Destruction Sayaad Raid Build",
+      "summary_es": "Build de banda de mayor daño con súcubo activa y talentos de golpe y efectos periódicos.",
+      "summary_en": "Highest-damage raid setup with an active Sayaad and hit and DoT talents.",
+      "keywords_es": [
+        "build Destrucción súcubo",
+        "talentos Destrucción banda",
+        "Incinerar Destrucción",
+        "talentos Brujo nivel 60"
+      ],
+      "keywords_en": [
+        "Destruction Sayaad build",
+        "Destruction raid talents",
+        "Destruction Incinerate",
+        "level 60 Warlock talents"
+      ],
+      "text_es": "Aflicción: Transfusión de  vida mejorada 2/2, Supresión 5/5, Corrupción mejorado 3/5, Amplificar maldición 1/1, Pandemia 3/3; Demonología: Poder profano 4/5; Destrucción: Aterrar 5/5, Cataclismo 3/3, Secuelas 5/5, Ruina 5/5, Quemadura de las Sombras 1/1, Llamas agonizantes 3/3, Conflagrar 1/1, Terror de caos 1/1, Fuego y azufre 3/3, Sombras y llamas 5/5, Incinerar 1/1. Mantén a la súcubo/íncubo: es la opción de más daño si sobrevive. Incinerar hace 25% más con Inmolar activo; Transfusión de vida ayuda con el maná.",
+      "text_en": "Affliction: Improved Life Tap 2/2, Suppression 5/5, Improved Corruption 3/5, Amplify Curse 1/1, Pandemic 3/3; Demonology: Unholy Power 4/5; Destruction: Bane 5/5, Cataclysm 3/3, Aftermath 5/5, Ruin 5/5, Shadowburn 1/1, Agonizing Flames 3/3, Conflagrate 1/1, Bane of Havoc 1/1, Fire and Brimstone 3/3, Shadow and Flame 5/5, Incinerate 1/1. Keep the Sayaad for highest damage when it survives; Incinerate deals 25% more while Immolate is active. Improved Life Tap helps manage mana.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Destruction Warlock Talent Tree Builds - WoW: Forever › Best Destruction Warlock PvE Raid Build > Which Build Should You Pick?",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:talents"
+      ],
+      "source_hashes": [
+        "guide:29fabf304908242c5dd204bf19f845522e4813b1"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-destruccion-diablillo-raid",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de banda de Destrucción con diablillo",
+      "title_en": "Destruction Imp Raid Build",
+      "summary_es": "Variante de banda a distancia: conserva el diablillo y le transfiere maná con Transfusión de vida.",
+      "summary_en": "Ranged raid variant: keep the Imp and feed it mana through Life Tap.",
+      "keywords_es": [
+        "build Destrucción diablillo",
+        "talentos Destrucción diablillo",
+        "Energías demoníacas",
+        "Descarga de Fuego brujo"
+      ],
+      "keywords_en": [
+        "Destruction Imp build",
+        "Destruction Imp talents",
+        "Demonic Energies",
+        "Warlock Firebolt"
+      ],
+      "text_es": "Aflicción: Transfusión de  vida mejorada 2/2, Supresión 5/5, Corrupción mejorado 3/5, Amplificar maldición 1/1, Pandemia 3/3; Demonología: Diablillo mejorado 3/3, Poder profano 2/5, Energías demoníacas 1/2; Destrucción: Aterrar 5/5, Cataclismo 3/3, Secuelas 3/5, Ruina 5/5, Quemadura de las Sombras 1/1, Llamas agonizantes 3/3, Conflagrar 1/1, Terror de caos 1/1, Fuego y azufre 3/3, Sombras y llamas 5/5, Incinerar 1/1. Frente a la variante de súcubo, el diablillo ataca a distancia y Pacto de sangre da aguante al grupo; Transfusión de vida sostiene sus lanzamientos.",
+      "text_en": "Affliction: Improved Life Tap 2/2, Suppression 5/5, Improved Corruption 3/5, Amplify Curse 1/1, Pandemic 3/3; Demonology: Improved Imp 3/3, Unholy Power 2/5, Demonic Energies 1/2; Destruction: Bane 5/5, Cataclysm 3/3, Aftermath 3/5, Ruin 5/5, Shadowburn 1/1, Agonizing Flames 3/3, Conflagrate 1/1, Bane of Havoc 1/1, Fire and Brimstone 3/3, Shadow and Flame 5/5, Incinerate 1/1. This ranged-pet variant uses the Imp, whose Blood Pact adds party Stamina; Life Tap sustains its casts.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Destruction Warlock Talent Tree Builds - WoW: Forever › Best Destruction Warlock PvE Raid Build > Which Build Should You Pick?",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:talents"
+      ],
+      "source_hashes": [
+        "guide:29fabf304908242c5dd204bf19f845522e4813b1"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-destruccion-sacrificio-raid",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de banda de Destrucción con sacrificio",
+      "title_en": "Destruction Demonic Sacrifice Raid Build",
+      "summary_es": "Build sin demonio activo: sacrifica a la súcubo por 15% de daño de Fuego.",
+      "summary_en": "No-pet setup: sacrifice the Sayaad for 15% Fire damage.",
+      "keywords_es": [
+        "build Destrucción sacrificio demoníaco",
+        "Destrucción sin demonio",
+        "sacrificar súcubo brujo",
+        "talentos Destrucción banda"
+      ],
+      "keywords_en": [
+        "Destruction Demonic Sacrifice build",
+        "no-pet Destruction",
+        "sacrifice Sayaad",
+        "Destruction raid talents"
+      ],
+      "text_es": "Aflicción: Transfusión de  vida mejorada 2/2, Corrupción mejorado 5/5; Demonología: Abrazo demoníaco 5/5, Égida demoníaca 2/2, Vitalidad vil 3/3, Sacrificio demoníaco 1/1; Destrucción: Aterrar 5/5, Cataclismo 3/3, Secuelas 5/5, Ruina 5/5, Quemadura de las Sombras 1/1, Llamas agonizantes 3/3, Conflagrar 1/1, Terror de caos 1/1, Fuego y azufre 3/3, Sombras y llamas 5/5, Incinerar 1/1. Sacrifica a la súcubo/íncubo por 15% de daño de Fuego y juega sin demonio. Transfusión de vida ayuda con el maná.",
+      "text_en": "Affliction: Improved Life Tap 2/2, Improved Corruption 5/5; Demonology: Demonic Embrace 5/5, Demonic Aegis 2/2, Fel Vitality 3/3, Demonic Sacrifice 1/1; Destruction: Bane 5/5, Cataclysm 3/3, Aftermath 5/5, Ruin 5/5, Shadowburn 1/1, Agonizing Flames 3/3, Conflagrate 1/1, Bane of Havoc 1/1, Fire and Brimstone 3/3, Shadow and Flame 5/5, Incinerate 1/1. Sacrifice the Sayaad for 15% Fire damage and play without a demon. Improved Life Tap helps manage mana.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Destruction Warlock Talent Tree Builds - WoW: Forever › Best Destruction Warlock PvE Raid Build > Which Build Should You Pick?",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:talents"
+      ],
+      "source_hashes": [
+        "guide:29fabf304908242c5dd204bf19f845522e4813b1"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-destruccion-sayaad-sin-demonologia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Variante de Destrucción sin Demonología",
+      "title_en": "Destruction No-Demonology Variant",
+      "summary_es": "Alternativa a la build de súcubo: cambia Poder profano y Amplificar maldición por talentos de Aflicción.",
+      "summary_en": "Sayaad-build alternative: trade Unholy Power and Amplify Curse for Affliction talents.",
+      "keywords_es": [
+        "Destrucción sin Demonología",
+        "variante build súcubo",
+        "Malevolencia Destrucción",
+        "talentos Corrupción brujo"
+      ],
+      "keywords_en": [
+        "Destruction no-Demonology build",
+        "Sayaad build alternative",
+        "Destruction Malevolence",
+        "Warlock Improved Corruption talents"
+      ],
+      "text_es": "Aflicción: Transfusión de  vida mejorada 2/2, Supresión 5/5, Corrupción mejorado 5/5, Pandemia 3/3, Malevolencia 3/5; Destrucción: Aterrar 5/5, Cataclismo 3/3, Secuelas 5/5, Ruina 5/5, Quemadura de las Sombras 1/1, Llamas agonizantes 3/3, Conflagrar 1/1, Terror de caos 1/1, Fuego y azufre 3/3, Sombras y llamas 5/5, Incinerar 1/1. Omite Demonología para mejorar Corrupción y el crítico de Sombras; su rendimiento es parecido. Transfusión de vida también mejora el maná.",
+      "text_en": "Affliction: Improved Life Tap 2/2, Suppression 5/5, Improved Corruption 5/5, Pandemic 3/3, Malevolence 3/5; Destruction: Bane 5/5, Cataclysm 3/3, Aftermath 5/5, Ruin 5/5, Shadowburn 1/1, Agonizing Flames 3/3, Conflagrate 1/1, Bane of Havoc 1/1, Fire and Brimstone 3/3, Shadow and Flame 5/5, Incinerate 1/1. This version skips Demonology in favor of Corruption and Shadow crits; performance is similar. Improved Life Tap also supports mana.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Destruction Warlock Talent Tree Builds - WoW: Forever › Best Destruction Warlock PvE Raid Build > Which Build Should You Pick?",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:talents"
+      ],
+      "source_hashes": [
+        "guide:29fabf304908242c5dd204bf19f845522e4813b1"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-destruccion-mazmorra",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de mazmorra de Destrucción",
+      "title_en": "Destruction Dungeon Build",
+      "summary_es": "Versión de la build de súcubo con Corrupción instantánea y menos puntos en Supresión.",
+      "summary_en": "Sayaad build variant with instant Corruption and fewer Suppression points.",
+      "keywords_es": [
+        "build Destrucción mazmorra",
+        "Corrupción instantánea brujo",
+        "Supresión mazmorra brujo",
+        "talentos Destrucción PvE"
+      ],
+      "keywords_en": [
+        "Destruction dungeon build",
+        "instant Warlock Corruption",
+        "Warlock dungeon Suppression",
+        "Destruction PvE talents"
+      ],
+      "text_es": "Aflicción: Transfusión de  vida mejorada 2/2, Supresión 3/5, Corrupción mejorado 5/5, Amplificar maldición 1/1, Pandemia 3/3; Demonología: Poder profano 4/5; Destrucción: Aterrar 5/5, Cataclismo 3/3, Secuelas 5/5, Ruina 5/5, Quemadura de las Sombras 1/1, Llamas agonizantes 3/3, Conflagrar 1/1, Terror de caos 1/1, Fuego y azufre 3/3, Sombras y llamas 5/5, Incinerar 1/1. Respecto a la build de banda de súcubo, mueve 2 puntos de Supresión a Corrupción mejorado para volver Corrupción instantánea, útil al moverte y repartirla.",
+      "text_en": "Affliction: Improved Life Tap 2/2, Suppression 3/5, Improved Corruption 5/5, Amplify Curse 1/1, Pandemic 3/3; Demonology: Unholy Power 4/5; Destruction: Bane 5/5, Cataclysm 3/3, Aftermath 5/5, Ruin 5/5, Shadowburn 1/1, Agonizing Flames 3/3, Conflagrate 1/1, Bane of Havoc 1/1, Fire and Brimstone 3/3, Shadow and Flame 5/5, Incinerate 1/1. Compared with the Sayaad raid build, move 2 Suppression points to Improved Corruption for an instant Corruption that is useful while moving and spreading it.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Destruction Warlock Talent Tree Builds - WoW: Forever › Best Destruction Warlock PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:talents"
+      ],
+      "source_hashes": [
+        "section:7cd758bfd4f0dd0e5f9584f5b5c37de026a9e892"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-destruccion-pvp-vinculo-conflagrar",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ de Destrucción SL/Conflagrar",
+      "title_en": "Destruction SL/Conflagrate PvP Build",
+      "summary_es": "Build de aguante y estallido que combina Vínculo de alma con Conflagrar.",
+      "summary_en": "Durable burst build combining Soul Link with Conflagrate.",
+      "keywords_es": [
+        "build SL Conflagrar brujo",
+        "Destrucción JcJ supervivencia",
+        "talentos Vínculo de alma",
+        "talentos brujo PvP"
+      ],
+      "keywords_en": [
+        "Warlock SL Conflagrate build",
+        "Destruction PvP survival",
+        "Soul Link talents",
+        "Warlock PvP talents"
+      ],
+      "text_es": "Demonología: Cauce de salud mejorado 1/2, Abrazo demoníaco 5/5, Égida demoníaca 2/2, Vitalidad vil 3/3, Energías demoníacas 2/2, Sacrificio demoníaco 1/1, Maestro invocador 2/2, Exterminio 2/2, Dominio de lo maldito 1/1, Marca demoníaca 1/3, Vínculo de alma 1/1; Destrucción: Alcance destructivo 2/2, Aterrar 5/5, Piel de arrabio 5/5, Secuelas 5/5, Ruina 5/5, Quemadura de las Sombras 1/1, Llamas agonizantes 3/3, Conflagrar 1/1, Fuego y azufre 3/3. Para aguantar y conservar estallido, en grupo o en solitario; Vínculo de alma y Piel de arrabio protegen, Conflagrar y Quemadura rematan.",
+      "text_en": "Demonology: Improved Health Funnel 1/2, Demonic Embrace 5/5, Demonic Aegis 2/2, Fel Vitality 3/3, Demonic Energies 2/2, Demonic Sacrifice 1/1, Master Summoner 2/2, Decimation 2/2, Fel Domination 1/1, Demonic Brand 1/3, Soul Link 1/1; Destruction: Destructive Reach 2/2, Bane 5/5, Molten Skin 5/5, Aftermath 5/5, Ruin 5/5, Shadowburn 1/1, Agonizing Flames 3/3, Conflagrate 1/1, Fire and Brimstone 3/3. Built for durability plus burst in groups or solo; Soul Link and Molten Skin protect while Conflagrate and Shadowburn finish targets.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Destruction Warlock Talent Tree Builds - WoW: Forever › Best Destruction Warlock PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:talents"
+      ],
+      "source_hashes": [
+        "section:753e4f7c8f8406ac78849cbeea8fdcae598a3f0c"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-destruccion-pvp-vinculo-conflagrar-alcance",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ SL/Conflagrar con Alcance macabro",
+      "title_en": "SL/Conflagrate PvP Build with Grim Reach",
+      "summary_es": "Variante de SL/Conflagrar con más alcance para los hechizos de Aflicción.",
+      "summary_en": "SL/Conflagrate variant with extra range on Affliction spells.",
+      "keywords_es": [
+        "build JcJ brujo Alcance macabro",
+        "Vínculo de alma Conflagrar alcance",
+        "variante SL/Conflagrar"
+      ],
+      "keywords_en": [
+        "warlock PvP Grim Reach build",
+        "Soul Link Conflagrate range",
+        "SL/Conflagrate variant"
+      ],
+      "text_es": "Aflicción: Corrupción mejorado 5/5, Alcance macabro 2/2; Demonología: Cauce de salud mejorado 1/2, Abrazo demoníaco 5/5, Égida demoníaca 2/2, Vitalidad vil 3/3, Energías demoníacas 2/2, Sacrificio demoníaco 1/1, Maestro invocador 2/2, Exterminio 2/2, Dominio de lo maldito 1/1, Marca demoníaca 1/3, Vínculo de alma 1/1; Destrucción: Alcance destructivo 2/2, Aterrar 5/5, Secuelas 5/5, Ruina 5/5, Quemadura de las Sombras 1/1, Llamas agonizantes 3/3, Conflagrar 1/1, Fuego y azufre 1/3. Cambia Piel de arrabio y 2 rangos de Fuego y azufre por más alcance.",
+      "text_en": "Affliction: Improved Corruption 5/5, Grim Reach 2/2; Demonology: Improved Health Funnel 1/2, Demonic Embrace 5/5, Demonic Aegis 2/2, Fel Vitality 3/3, Demonic Energies 2/2, Demonic Sacrifice 1/1, Master Summoner 2/2, Decimation 2/2, Fel Domination 1/1, Demonic Brand 1/3, Soul Link 1/1; Destruction: Destructive Reach 2/2, Bane 5/5, Aftermath 5/5, Ruin 5/5, Shadowburn 1/1, Agonizing Flames 3/3, Conflagrate 1/1, Fire and Brimstone 1/3. Trades Molten Skin and 2 ranks of Fire and Brimstone for extra range.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Destruction Warlock Talent Tree Builds - WoW: Forever › Best Destruction Warlock PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:talents"
+      ],
+      "source_hashes": [
+        "section:753e4f7c8f8406ac78849cbeea8fdcae598a3f0c"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-destruccion-pvp-dominio",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ de Destrucción con Dominio",
+      "title_en": "Destruction Fel Domination PvP Build",
+      "summary_es": "Build de estallido máximo con Dominio de lo maldito para invocar de nuevo al demonio rápidamente.",
+      "summary_en": "Maximum-burst build with Fel Domination for a quick demon resummon.",
+      "keywords_es": [
+        "build Dominio de lo maldito JcJ",
+        "Destrucción burst PvP",
+        "talentos brujo control demonio",
+        "Conflagrar JcJ"
+      ],
+      "keywords_en": [
+        "Fel Domination PvP build",
+        "Destruction PvP burst",
+        "Warlock demon control talents",
+        "Conflagrate PvP"
+      ],
+      "text_es": "Demonología: Abrazo demoníaco 5/5, Égida demoníaca 2/2, Vitalidad vil 3/3, Energías demoníacas 2/2, Sacrificio demoníaco 1/1, Maestro invocador 2/2, Dominio de lo maldito 1/1; Destrucción: Alcance destructivo 2/2, Aterrar 5/5, Secuelas 5/5, Ruina 5/5, Quemadura de las Sombras 1/1, Intensidad 3/3, Llamas agonizantes 3/3, Conflagrar 1/1, Terror de caos 1/1, Fuego y azufre 3/3, Sombras y llamas 5/5, Incinerar 1/1. Elige esta build por su estallido y control: Dominio de lo maldito acelera la nueva invocación si muere el demonio, e Intensidad reduce las interrupciones al lanzar.",
+      "text_en": "Demonology: Demonic Embrace 5/5, Demonic Aegis 2/2, Fel Vitality 3/3, Demonic Energies 2/2, Demonic Sacrifice 1/1, Master Summoner 2/2, Fel Domination 1/1; Destruction: Destructive Reach 2/2, Bane 5/5, Aftermath 5/5, Ruin 5/5, Shadowburn 1/1, Intensity 3/3, Agonizing Flames 3/3, Conflagrate 1/1, Bane of Havoc 1/1, Fire and Brimstone 3/3, Shadow and Flame 5/5, Incinerate 1/1. Choose this for burst and control: Fel Domination speeds a resummon if your demon dies, while Intensity reduces cast pushback.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Destruction Warlock Talent Tree Builds - WoW: Forever › Best Destruction Warlock PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:talents"
+      ],
+      "source_hashes": [
+        "section:753e4f7c8f8406ac78849cbeea8fdcae598a3f0c"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-destruccion-pvp-agotamiento",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ de Destrucción con Agotamiento",
+      "title_en": "Destruction Curse of Exhaustion PvP Build",
+      "summary_es": "Build para mantener a los enemigos cuerpo a cuerpo a distancia con Maldición de agotamiento.",
+      "summary_en": "Kiting build that keeps melee enemies at range with Curse of Exhaustion.",
+      "keywords_es": [
+        "build Maldición de agotamiento brujo",
+        "Destrucción JcJ kite",
+        "Ocaso talentos brujo",
+        "build brujo contra cuerpo a cuerpo"
+      ],
+      "keywords_en": [
+        "Warlock Curse of Exhaustion build",
+        "Destruction PvP kiting",
+        "Warlock Nightfall talents",
+        "Warlock anti-melee build"
+      ],
+      "text_es": "Aflicción: Transfusión de  vida mejorada 2/2, Supresión 2/5, Corrupción mejorado 5/5, Alcance macabro 2/2, Amplificar maldición 1/1, Pandemia 3/3, Ocaso 2/2, Maldición de agotamiento 1/1; Destrucción: Alcance destructivo 2/2, Aterrar 5/5, Piel de arrabio 1/5, Secuelas 5/5, Ruina 5/5, Quemadura de las Sombras 1/1, Llamas agonizantes 3/3, Conflagrar 1/1, Terror de caos 1/1, Fuego y azufre 3/3, Sombras y llamas 5/5, Incinerar 1/1. Está pensada para mantener a raya a enemigos cuerpo a cuerpo: Maldición de agotamiento ralentiza mientras la rama de Destrucción aporta estallido.",
+      "text_en": "Affliction: Improved Life Tap 2/2, Suppression 2/5, Improved Corruption 5/5, Grim Reach 2/2, Amplify Curse 1/1, Pandemic 3/3, Nightfall 2/2, Curse of Exhaustion 1/1; Destruction: Destructive Reach 2/2, Bane 5/5, Molten Skin 1/5, Aftermath 5/5, Ruin 5/5, Shadowburn 1/1, Agonizing Flames 3/3, Conflagrate 1/1, Bane of Havoc 1/1, Fire and Brimstone 3/3, Shadow and Flame 5/5, Incinerate 1/1. Built to keep melee enemies at range: Curse of Exhaustion slows them while Destruction supplies burst.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Destruction Warlock Talent Tree Builds - WoW: Forever › Best Destruction Warlock PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:talents"
+      ],
+      "source_hashes": [
+        "section:753e4f7c8f8406ac78849cbeea8fdcae598a3f0c"
+      ]
+    },
+    {
+      "id": "clase-warlock-build-demonologia-pvp-trispec-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcJ trispec (2/2)",
+      "title_en": "Demonology Tri-Spec PvP Build (2/2)",
+      "summary_es": "Talentos de Destrucción y objetivo de la build trispec de supervivencia para campos de batalla.",
+      "summary_en": "Destruction talents and purpose of the durable tri-spec Battleground build.",
+      "keywords_es": [
+        "build trispec brujo",
+        "build campos de batalla brujo",
+        "Maldición de agotamiento talentos",
+        "talentos Demonología JcJ"
+      ],
+      "keywords_en": [
+        "Warlock tri-spec build",
+        "Warlock Battleground build",
+        "Curse of Exhaustion talents",
+        "Demonology PvP talents"
+      ],
+      "text_es": "Parte 2/2, Destrucción: Alcance destructivo 2/2, Aterrar 5/5, Piel de arrabio 3/5, Quemadura de las Sombras 1/1. La build ralentiza grupos con Maldición de agotamiento y combina aguante con daño explosivo; Manáfago mejorado reduce 6 s el tiempo de reutilización de Bloqueo de hechizo.",
+      "text_en": "Part 2/2, Destruction: Destructive Reach 2/2, Bane 5/5, Molten Skin 3/5, Shadowburn 1/1. The build slows groups with Curse of Exhaustion and combines durability with burst; Improved Felhunter cuts the Spell Lock cooldown by 6 seconds.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Demonology Warlock Talent Tree Builds - WoW: Forever › Best Demonology Warlock PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:talents"
+      ],
+      "source_hashes": [
+        "section:5e26056bbefb1d9f5dd16ff8da5bed33715be91f"
+      ]
+    },
+    {
+      "id": "clase-warlock-sistema-afliccion-arruinar",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Cómo funciona Arruinar en Aflicción",
+      "title_en": "How Affliction Wrack Works",
+      "summary_es": "Arruinar acelera tres efectos periódicos y Succión de alma escala con cada uno activo.",
+      "summary_en": "Wrack speeds up three DoTs, while Soul Siphon scales with each one active.",
+      "keywords_es": [
+        "Arruinar Aflicción",
+        "Succión de alma brujo",
+        "efectos periódicos Aflicción",
+        "mecánicas brujo nivel 60"
+      ],
+      "keywords_en": [
+        "Affliction Wrack",
+        "Warlock Soul Siphon",
+        "Affliction DoTs",
+        "level 60 Warlock mechanics"
+      ],
+      "text_es": "Arruinar tiene una canalización de 6 s e inflige daño de Sombras a intervalos de un segundo. Durante el canal, Corrupción, Succionar vida y Terror de agonía duplican su frecuencia de pulsos en el objetivo. Succión de alma añade 12% al daño de Arruinar y de los drenajes por cada uno de esos efectos activos, hasta 36%; aplica los tres antes de empezar. Terror de fatalidad y las maldiciones quedan fuera de este cálculo.",
+      "text_en": "Wrack channels for 6 seconds, dealing shadow damage at one-second intervals. During the channel, Corruption, Siphon Life, and Bane of Agony pulse twice as often on the target. Soul Siphon adds 12% to Wrack and drain damage for each of those effects present, up to 36%; get all three running first. Bane of Doom and curses are excluded from this calculation.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock DPS Guide - WoW: Forever › Affliction Warlock Specific Systems in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock DPS Guide - WoW: Forever › Changes to Affliction Warlock in WoW: Forever > New Abilities and Talents in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/overview-pve-dps",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:affliction:overview"
+      ],
+      "source_hashes": [
+        "guide:919fe2a12b2d2cbf596a42099800dba7eecba7b7",
+        "section:cef868b49045ced15dae7827f315484f5c42190e"
+      ]
+    },
+    {
+      "id": "clase-warlock-sistema-demonologia-pacto",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Pacto demoníaco y sacrificios",
+      "title_en": "Demonic Pact and Sacrifice",
+      "summary_es": "Pacto demoníaco permite conservar el bonus de sacrificio con otro demonio activo.",
+      "summary_en": "Demonic Pact lets you keep a sacrifice bonus with another demon active.",
+      "keywords_es": [
+        "Pacto demoníaco",
+        "sacrificio demoníaco Demonología",
+        "bonus de daño brujo",
+        "demonio activo brujo"
+      ],
+      "keywords_en": [
+        "Demonic Pact",
+        "Demonology Demonic Sacrifice",
+        "Warlock damage bonus",
+        "active Warlock demon"
+      ],
+      "text_es": "Pacto demoníaco permite sacrificar un demonio y mantener otro activo con sus beneficios. Si sacrificas al diablillo y mantienes a la súcubo/íncubo, aumenta el daño de Sombras; si sacrificas a la súcubo/íncubo y mantienes al diablillo, aumenta el de Fuego: la combinación mejora cerca de 30% el daño de la escuela elegida. Volver a invocar al demonio sacrificado cancela el efecto.",
+      "text_en": "This talent lets you sacrifice one demon and keep another fighting with the bonus active. Giving up the Imp while keeping the Sayaad improves shadow damage; giving up the Sayaad and keeping the Imp instead improves fire damage, by about 30% overall. Resummoning the sacrificed demon ends the effect.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock DPS Guide - WoW: Forever › Demonology Warlock Specific Systems in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/overview-pve-dps",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock DPS Guide - WoW: Forever › Changes to Demonology Warlock in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/overview-pve-dps",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:overview"
+      ],
+      "source_hashes": [
+        "section:08a8122db597212c503fb5cfa23838727425af7d",
+        "section:d3a5b6ab1fd735b5fb8e1fcd7aec8e6b231de92e"
+      ]
+    },
+    {
+      "id": "clase-warlock-sistema-demonologia-exterminio",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Exterminio y Fuego de alma",
+      "title_en": "Decimation and Soul Fire",
+      "summary_es": "Por debajo de 35% de salud, Exterminio potencia Fuego de alma durante 10 segundos.",
+      "summary_en": "Below 35% health, Decimation empowers Soul Fire for 10 seconds.",
+      "keywords_es": [
+        "Exterminio brujo",
+        "Fuego de alma Demonología",
+        "fase de ejecución brujo",
+        "talento Exterminio"
+      ],
+      "keywords_en": [
+        "Warlock Decimation",
+        "Demonology Soul Fire",
+        "Warlock execute phase",
+        "Decimation talent"
+      ],
+      "text_es": "Con menos de 35% de salud en el objetivo, un impacto de Dolor abrasador activa Exterminio durante 10 s. Mientras dura, Fuego de alma se lanza 40% más rápido, no cuesta un fragmento de alma y tiene 6 s de reutilización. En la build de Fuego, lánzalo al estar disponible y usa Dolor abrasador entre lanzamientos para renovar Exterminio; en Sombras, sigue con Descarga de las Sombras, que iguala o supera su daño por segundo.",
+      "text_en": "Hitting an enemy under 35% health with Searing Pain grants 10 seconds of Decimation. While it lasts, Soul Fire casts 40% faster, consumes no Soul Shard, and can be cast every 6 seconds. Fire setups should use Soul Fire whenever available, with Searing Pain in between to renew Decimation; Shadow setups continue with Shadow Bolt, which deals at least as much damage per second.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Demonology Warlock DPS Rotation and Cooldowns - WoW: Forever › The Execute Phase (Fire Build)",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/rotation-cooldowns-pve-dps",
+          "date": "2026-10-26"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:demonology:rotation"
+      ],
+      "source_hashes": [
+        "section:659b0887e2dd9fc021550b5dd856434c3a7079bf"
+      ]
+    },
+    {
+      "id": "clase-warlock-sistema-destruccion-sombras-llamas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Sombras y llamas en Destrucción",
+      "title_en": "Shadow and Flame in Destruction",
+      "summary_es": "Con 5/5, Conflagrar y Quemadura de las Sombras se potencian entre sí y conservan sus efectos.",
+      "summary_en": "At 5/5, Conflagrate and Shadowburn boost each other and preserve their effects.",
+      "keywords_es": [
+        "Sombras y llamas",
+        "Conflagrar brujo",
+        "Quemadura de las Sombras",
+        "mecánicas Destrucción"
+      ],
+      "keywords_en": [
+        "Shadow and Flame",
+        "Warlock Conflagrate",
+        "Shadowburn",
+        "Destruction mechanics"
+      ],
+      "text_es": "Al completar Sombras y llamas (5/5), Conflagrar deja Inmolar activo y concede 20% más de daño de Sombras durante 20 s; Quemadura de las Sombras devuelve el fragmento de alma y aumenta 20% el daño de Fuego durante el mismo tiempo. Cada hechizo activa la mejora del tipo de daño contrario, por lo que conviene lanzar ambos en cuanto estén disponibles. Cada punto del talento añade, además, 20% de probabilidad de conservar Inmolar y devolver el fragmento.",
+      "text_en": "At 5/5 Shadow and Flame, Conflagrate leaves Immolate active and grants 20% more Shadow damage for 20 seconds; Shadowburn returns its Soul Shard and raises Fire damage by 20% for the same duration. Each spell activates the opposite damage bonus, so cast both as soon as available. Each talent point also adds a 20% chance to preserve Immolate and return the shard.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock DPS Guide - WoW: Forever › Destruction Warlock Specific Systems in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/overview-pve-dps",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:overview"
+      ],
+      "source_hashes": [
+        "section:204cd5a2aa40c9a9e31a1c21d73a3e8f06489cf4"
+      ]
+    },
+    {
+      "id": "clase-warlock-sistema-destruccion-terror-caos",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Terror de caos y daño a otro objetivo",
+      "title_en": "Bane of Havoc and Secondary-Target Damage",
+      "summary_es": "Terror de caos transfiere 15% del daño que haces a otros enemigos al objetivo marcado.",
+      "summary_en": "Bane of Havoc transfers 15% of damage dealt to other enemies to its marked target.",
+      "keywords_es": [
+        "Terror de caos brujo",
+        "daño a dos objetivos Destrucción",
+        "cleave Destrucción",
+        "talento Terror de caos"
+      ],
+      "keywords_en": [
+        "Warlock Bane of Havoc",
+        "Destruction two-target damage",
+        "Destruction cleave",
+        "Bane of Havoc talent"
+      ],
+      "text_es": "Aplica Terror de caos a un objetivo secundario: mientras esté activo, 15% del daño que infliges a otros objetivos también se le inflige a él. Contra dos enemigos, mantén la rotación de un solo objetivo en el principal; el secundario no puede recibir otro terror. Si vivirá al menos un minuto, añade allí tu maldición, Corrupción e Inmolar.",
+      "text_en": "Apply Bane of Havoc to a secondary target: while it is active, 15% of damage you deal to other targets is also dealt to it. Against two enemies, keep your single-target rotation on the main one; the secondary target cannot have another Bane. If it will live at least a minute, also apply your Curse, Corruption, and Immolate there.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Destruction Warlock DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Destruction Warlocks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/rotation-cooldowns-pve-dps",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:warlock:destruction:rotation"
+      ],
+      "source_hashes": [
+        "section:29cd8c54a8c86337d11b7b247201e0032b7acaab"
+      ]
     }
   ]
 }
