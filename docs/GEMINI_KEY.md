@@ -2,11 +2,11 @@
 
 **[Versión en español](CLAVE_GEMINI.md)**
 
-> AskForever's assistant asks for this key the first time you open the companion. The key is saved in the **Windows Credential Manager**, the secure place where Windows stores passwords, not in a text file.
+> AskForever App's **Configure AI** dialog asks for this key the first time you open the app. It tests the key before saving it encrypted in the **Windows Credential Manager**, not in a text file.
 
 Other services (Groq, Mistral, Cerebras, OpenRouter): see [Free AI keys](API_KEYS.md).
 
-The key is like a password that lets the companion use Google's AI. Creating one is free and needs no credit card.
+The key is like a password that lets AskForever App use Google's AI. Creating one is free and needs no credit card.
 
 ## 1. Create the key
 
@@ -19,13 +19,13 @@ The key is like a password that lets the companion use Google's AI. Creating one
 
 ## 2. Give the key to AskForever
 
-1. Open **AskForever**. The first time, the assistant in the console window asks for the free Gemini key.
-2. Paste the key when it asks and press Enter. The assistant tests it and saves it in the **Windows Credential Manager**.
-3. If the assistant does not appear, a key is already saved; see [Change the key](#change-the-key) below.
+1. Open **AskForever App**. The first time, its **Configure AI** dialog opens.
+2. Paste the key into the dialog and click **Test and save**. AskForever App tests it first, then stores it encrypted in the **Windows Credential Manager**.
+3. If the dialog does not appear, a key is already saved. To add or replace a key, click **Configure AI** in the app window.
 
 ## Change the key
 
-To replace the key, open a terminal in `%LOCALAPPDATA%\Programs\AskForever` and run `AskForever.exe setup`. The [installation guide](INSTALL_GUIDE.md#change-the-key) explains how to open the folder and the terminal. Paste the new key in the assistant and press Enter.
+To replace the key, open **AskForever App** and click **Configure AI**. Enter the new Gemini key and click **Test and save**. No terminal or console is needed.
 
 ## Important
 

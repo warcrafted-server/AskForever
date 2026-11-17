@@ -2,7 +2,7 @@
 
 **[Versión en español](CLAVES_API.md)**
 
-> Needed from the versions that include the **companion** (see the [ROADMAP](../ROADMAP.md)). Every player uses their own free key from the service they prefer. Free plans and limits change often: check each service's console for your real limits. For Google Gemini there is a more detailed [step-by-step guide](GEMINI_KEY.md).
+> AskForever App currently configures Google Gemini. The other services below are listed for reference. Every player needs their own key. Free plans and limits change often: check each service's console for your real limits. For Gemini there is a more detailed [step-by-step guide](GEMINI_KEY.md).
 
 | Service | Where to create the key | Official docs | Notes |
 |---|---|---|---|
@@ -12,15 +12,6 @@
 | **Cerebras** | [cloud.cerebras.ai](https://cloud.cerebras.ai) → **API Keys** → **Generate API Key** | [API keys](https://inference-docs.cerebras.ai/console/api-keys) | Free trial accounts have no projects |
 | **OpenRouter** | [openrouter.ai/settings/keys](https://openrouter.ai/settings/keys) | [Quickstart](https://openrouter.ai/docs/cookbook/get-started/quickstart) | One key for free and paid models; free models end in `:free` and have low daily limits |
 
-## Store the key
+## Enter the key in AskForever App
 
-Never paste a key into chats, emails or documents. In **PowerShell**, from the `companion` folder (replace `groq` with `gemini`, `mistral`, `cerebras` or `openrouter`):
-
-```powershell
-$s = Read-Host 'Key' -AsSecureString
-$env:AF_KEY = [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($s))
-.venv\Scripts\python.exe -m askforever set-key --provider groq
-Remove-Item Env:AF_KEY
-```
-
-Then check which keys are stored with `.venv\Scripts\python.exe -m askforever providers`, list a service's models with `... list-models --provider groq`, and test it with `... test-key --provider groq`.
+Never paste a key into chats, emails or documents. To enter a Gemini key in AskForever App, click **Configure AI**, enter the key and click **Test and save**. The app tests it first, then stores it encrypted in the **Windows Credential Manager**. The current app dialog is for Gemini; the other services above are listed for reference. See the [installation guide](INSTALL_GUIDE.md#configure-the-ai-key) for more about changing a key.

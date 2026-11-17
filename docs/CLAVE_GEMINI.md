@@ -2,11 +2,11 @@
 
 **[English version](GEMINI_KEY.md)**
 
-> El asistente de AskForever pide esta clave la primera vez que abres el companion. La clave se guarda en el **Administrador de credenciales de Windows**, el lugar seguro donde Windows guarda las contraseñas, no en un archivo de texto.
+> El diálogo **Configurar IA** de AskForever App pide esta clave la primera vez que abres la app. La prueba antes de guardarla cifrada en el **Administrador de credenciales de Windows**, no en un archivo de texto.
 
 Otros servicios (Groq, Mistral, Cerebras, OpenRouter): consulta [Claves de IA gratuitas](CLAVES_API.md).
 
-La clave es como una contraseña que permite al companion usar la IA de Google. Crearla es gratis y no pide tarjeta.
+La clave es como una contraseña que permite a AskForever App usar la IA de Google. Crearla es gratis y no pide tarjeta.
 
 ## 1. Crear la clave
 
@@ -19,13 +19,13 @@ La clave es como una contraseña que permite al companion usar la IA de Google. 
 
 ## 2. Dar la clave a AskForever
 
-1. Abre **AskForever**. La primera vez, el asistente de la ventana de consola pide la clave gratuita de Gemini.
-2. Pega la clave cuando la pida y pulsa Enter. El asistente la prueba y la guarda en el **Administrador de credenciales de Windows**.
-3. Si el asistente no aparece, ya hay una clave guardada; consulta [Cambiar la clave](#cambiar-la-clave) más abajo.
+1. Abre **AskForever App**. La primera vez se abre el diálogo **Configurar IA**.
+2. Pega la clave en el diálogo y pulsa **Probar y guardar**. AskForever App la prueba primero y después la almacena cifrada en el **Administrador de credenciales de Windows**.
+3. Si el diálogo no aparece, ya hay una clave guardada. Para añadir o cambiar una clave, pulsa **Configurar IA** en la ventana de la app.
 
 ## Cambiar la clave
 
-Para cambiar la clave, abre una terminal en `%LOCALAPPDATA%\Programs\AskForever` y ejecuta `AskForever.exe setup`. La [guía de instalación](GUIA_INSTALACION.md#cambiar-la-clave) explica cómo abrir la carpeta y la terminal. Pega la clave nueva en el asistente y pulsa Enter.
+Para cambiar la clave, abre **AskForever App** y pulsa **Configurar IA**. Escribe la clave nueva de Gemini y pulsa **Probar y guardar**. No hace falta usar una terminal ni una consola.
 
 ## Importante
 

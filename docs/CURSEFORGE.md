@@ -31,7 +31,7 @@ The CurseForge project already exists: a new version is just a **file upload** t
 | Field | Value |
 |---|---|
 | Name | AskForever |
-| Summary | Ask inside WoW Forever and get the answer over the game in seconds, with verified game data. |
+| Summary | Ask inside WoW Forever and get answers over the game with verified data. AskForever App connects the addon to AI; game data and guide cards update with the addon. |
 | Author | WarCrafted |
 | License | Creative Commons Attribution-NonCommercial 4.0 (CC BY-NC 4.0); if it is not offered, "Custom" with the text of `LICENSE` |
 | Source | https://github.com/warcrafted-server/AskForever |
@@ -82,7 +82,7 @@ El proyecto de CurseForge ya existe: una versión nueva es solo **subir un archi
 | Campo | Valor |
 |---|---|
 | Nombre | AskForever |
-| Resumen | Ask inside WoW Forever and get the answer over the game in seconds, with verified game data. |
+| Resumen | Pregunta en WoW Forever y recibe respuestas sobre el juego con datos verificados. AskForever App conecta el addon con la IA; los datos y las fichas se actualizan con el addon. |
 | Autor | WarCrafted |
 | Licencia | Creative Commons Atribución-NoComercial 4.0 (CC BY-NC 4.0); si no aparece, «Custom» con el texto de `LICENSE` |
 | Código | https://github.com/warcrafted-server/AskForever |

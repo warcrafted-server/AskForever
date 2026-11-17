@@ -2,7 +2,7 @@
 
 **[English version](API_KEYS.md)**
 
-> Hacen falta a partir de las versiones que incluyen el **companion** (consulta la [hoja de ruta](../ROADMAP.md)). Cada jugador usa su propia clave gratuita del servicio que prefiera. Los planes gratuitos y sus límites cambian a menudo: mira la consola de cada servicio para ver tus límites reales. Para Google Gemini hay una [guía paso a paso](CLAVE_GEMINI.md) más detallada.
+> AskForever App permite configurar actualmente Google Gemini. Los demás servicios aparecen abajo como referencia. Cada jugador necesita su propia clave. Los planes gratuitos y sus límites cambian a menudo: mira la consola de cada servicio para ver tus límites reales. Para Gemini hay una [guía paso a paso](CLAVE_GEMINI.md) más detallada.
 
 | Servicio | Dónde crear la clave | Documentación oficial | Notas |
 |---|---|---|---|
@@ -12,15 +12,6 @@
 | **Cerebras** | [cloud.cerebras.ai](https://cloud.cerebras.ai) → **API Keys** → **Generate API Key** | [API keys](https://inference-docs.cerebras.ai/console/api-keys) | Las cuentas de prueba gratuita no tienen proyectos |
 | **OpenRouter** | [openrouter.ai/settings/keys](https://openrouter.ai/settings/keys) | [Quickstart](https://openrouter.ai/docs/cookbook/get-started/quickstart) | Una clave sirve para modelos gratuitos y de pago; los gratuitos terminan en `:free` y tienen límites diarios bajos |
 
-## Guardar la clave
+## Introducir la clave en AskForever App
 
-No pegues nunca una clave en chats, correos ni documentos. En **PowerShell**, desde la carpeta `companion` (cambia `groq` por `gemini`, `mistral`, `cerebras` u `openrouter`):
-
-```powershell
-$s = Read-Host 'Clave' -AsSecureString
-$env:AF_KEY = [Runtime.InteropServices.Marshal]::PtrToStringAuto([Runtime.InteropServices.Marshal]::SecureStringToBSTR($s))
-.venv\Scripts\python.exe -m askforever set-key --provider groq
-Remove-Item Env:AF_KEY
-```
-
-Después, con `.venv\Scripts\python.exe -m askforever providers` ves qué claves hay guardadas, con `... list-models --provider groq` los modelos de un servicio y con `... test-key --provider groq` lo pruebas.
+No pegues nunca una clave en chats, correos ni documentos. Para introducir una clave de Gemini en AskForever App, pulsa **Configurar IA**, escribe la clave y pulsa **Probar y guardar**. La app la prueba primero y después la almacena cifrada en el **Administrador de credenciales de Windows**. El diálogo actual de la app es para Gemini; los otros servicios de arriba se incluyen como referencia. Consulta la [guía de instalación](GUIA_INSTALACION.md#configurar-la-clave-de-ia) para saber más sobre cómo cambiar una clave.
