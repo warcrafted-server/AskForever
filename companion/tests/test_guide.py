@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import sqlite3
 from pathlib import Path
 
@@ -313,6 +314,64 @@ def test_load_sections_only_verified_and_skips_malformed(tmp_path):
     assert load_sections(tmp_path / 'missing.json') == []
     path.write_text('{no json', encoding='utf-8')
     assert load_sections(path) == []
+
+
+def test_load_sections_prefers_addon_patch_and_reloads_when_changed(tmp_path, monkeypatch):
+    patch_path = tmp_path / 'guide-patch.json'
+    monkeypatch.setattr(guide_module, 'patch_guide_path', lambda: patch_path)
+    patch_only = _section('patch-only')
+    _write_patch(patch_path, {
+        'guide.json': {'sections': [_section('patch-main'),
+                                    _section('duplicate', text_es='Texto principal.')]},
+        '01-first.json': {'sections': [
+            _section('sorted-first'),
+            _section('duplicate', status='editorial', text_es='Texto duplicado.'),
+        ]},
+        '02-clases.json': {'sections': [patch_only]},
+    })
+
+    loaded = load_sections()
+    assert [section['id'] for section in loaded] == [
+        'patch-main', 'duplicate', 'sorted-first', 'patch-only']
+    assert next(section for section in loaded if section['id'] == 'duplicate')[
+        'text_es'] == 'Texto principal.'
+    assert 'nivel-maximo' not in {section['id'] for section in loaded}
+
+    changed = _section('changed')
+    _write_patch(patch_path, {
+        'guide.json': {'sections': [_section('patch-main')]},
+        '02-clases.json': {'sections': [changed]},
+    })
+    stat = patch_path.stat()
+    os.utime(patch_path, ns=(stat.st_atime_ns, stat.st_mtime_ns + 1_000_000_000))
+    assert [section['id'] for section in load_sections()] == ['patch-main', 'changed']
+
+
+def _write_patch(path: Path, files):
+    path.write_text(json.dumps({'patch': 'test', 'files': files}, ensure_ascii=False),
+                    encoding='utf-8')
+
+
+@pytest.mark.parametrize('contents', ['{invalid json', '{"files": {}}'])
+def test_invalid_guide_patch_falls_back_to_bundled_sections(tmp_path, monkeypatch, contents):
+    patch_path = tmp_path / 'guide-patch.json'
+    patch_path.write_text(contents, encoding='utf-8')
+    monkeypatch.setattr(guide_module, 'patch_guide_path', lambda: patch_path)
+
+    assert any(section['id'] == 'nivel-maximo' for section in load_sections())
+
+
+def test_explicit_sections_path_ignores_addon_patch(tmp_path, monkeypatch):
+    patch_path = tmp_path / 'guide-patch.json'
+    _write_patch(patch_path, {
+        'guide.json': {'sections': [_section('patch-only')]},
+        'other.json': {'sections': [_section('patch-other')]},
+    })
+    monkeypatch.setattr(guide_module, 'patch_guide_path', lambda: patch_path)
+    explicit_path = tmp_path / 'explicit.json'
+    _write_sections(explicit_path, [_section('explicit-only')])
+
+    assert [section['id'] for section in load_sections(explicit_path)] == ['explicit-only']
 
 
 def test_verified_sections_are_found_in_both_languages(tmp_path, db):

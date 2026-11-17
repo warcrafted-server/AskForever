@@ -43,6 +43,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Added: the in-window chat can be scrolled from the addon (mouse wheel over the conversation or the arrow buttons) and each new answer is shown from its beginning.
 - Added: the addon window can be resized from its bottom right corner and remembers its size; the mouse wheel over the conversation and the new arrow buttons scroll the chat drawn by the companion.
 - Changed: bigger scroll arrows, faster and smooth chat scrolling, and the in-window chat box is opaque so the addon text no longer shows through.
+- Added: the game data and the guide are updated with the addon: the app reads the data shipped in the addon, downloads the base it needs once and rebuilds its database in seconds, so new data no longer requires reinstalling the app.
 
 ### Español
 - Añadido: el informe de VirusTotal del instalador se enlaza desde la insignia del README y la página de seguridad y transparencia, que también explica la única detección (SecureAge, etiqueta genérica) de la 0.3.0-beta.3.
@@ -83,6 +84,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Añadido: el chat dentro de la ventana se puede desplazar desde el addon (rueda del ratón sobre la conversación o botones de flecha) y cada respuesta nueva se muestra desde su principio.
 - Añadido: la ventana del addon se puede redimensionar desde la esquina inferior derecha y recuerda su tamaño; la rueda del ratón sobre la conversación y los nuevos botones de flecha desplazan el chat que dibuja el companion.
 - Cambiado: flechas de desplazamiento más grandes, desplazamiento del chat más rápido y suave, y el cuadro del chat es opaco para que no se transparente el texto del addon.
+- Añadido: los datos del juego y la guía se actualizan con el addon: la app lee los datos que trae el addon, descarga una vez la base que necesita y reconstruye su base en segundos, así que los datos nuevos ya no requieren reinstalar la app.
 
 ## [0.3.0-beta.4] - 2026-11-15
 

@@ -7,6 +7,7 @@ import re
 from collections import namedtuple
 from pathlib import Path
 
+from askforever import config
 from askforever.data.wowdb import normalize
 from askforever.engine.retriever import QUEST_REFERENCE_STOP_WORDS
 
@@ -31,6 +32,7 @@ DOMAIN_WORDS = {
 }
 STOP_WORDS = (set(QUEST_REFERENCE_STOP_WORDS) - DOMAIN_WORDS) | EXTRA_STOP_WORDS
 _CACHE = {}
+_PATCH_CACHE = {}
 _TOC_CACHE = {}
 GuideEntry = namedtuple('GuideEntry',
                         'ref text_es text_en tokens_es tokens_en requires heads tags status',
@@ -86,12 +88,60 @@ def _section_files(path):
     return [path]
 
 
+def patch_guide_path():
+    """Ruta del parche de guía que instala el addon."""
+    return config.user_data_dir() / 'guide-patch.json'
+
+
+def _patch_sections(path):
+    try:
+        path = Path(path)
+        modified = path.stat().st_mtime_ns
+    except (OSError, TypeError, ValueError):
+        return None
+
+    key = str(path)
+    cached = _PATCH_CACHE.get(key)
+    if cached is not None and cached[0] == modified:
+        return cached[1]
+
+    try:
+        patch = json.loads(path.read_text(encoding='utf-8'))
+    except (OSError, TypeError, ValueError):
+        _PATCH_CACHE[key] = (modified, None)
+        return None
+
+    files = patch.get('files') if isinstance(patch, dict) else None
+    if not isinstance(files, dict) or 'guide.json' not in files or len(files) < 2:
+        _PATCH_CACHE[key] = (modified, None)
+        return None
+
+    sections = []
+    seen = set()
+    documents = [('guide.json', files['guide.json'])]
+    documents.extend((name, files[name]) for name in sorted(files) if name != 'guide.json')
+    for _name, data in documents:
+        for item in _load_section_data(data):
+            if item['id'] in seen:
+                continue
+            seen.add(item['id'])
+            sections.append(item)
+    result = tuple(sections)
+    _PATCH_CACHE[key] = (modified, result)
+    return result
+
+
 def load_sections(path=None):
     """Secciones usables de la guía (verificadas y editoriales); nunca lanza.
 
-    Sin ruta lee guide.json y la carpeta data/guide; un id repetido se queda con la primera
-    aparición, así que guide.json (lo verificado) manda.
+    Sin ruta prefiere el parche del addon; si no está disponible, lee guide.json y la carpeta
+    data/guide. Un id repetido se queda con la primera aparición.
     """
+    if path is None:
+        patched = _patch_sections(patch_guide_path())
+        if patched is not None:
+            return list(patched)
+
     sections = []
     seen = set()
     for file in _section_files(path):
@@ -108,6 +158,10 @@ def _load_section_file(path):
         data = json.loads(Path(path).read_text(encoding='utf-8'))
     except (OSError, TypeError, ValueError):
         return []
+    return _load_section_data(data)
+
+
+def _load_section_data(data):
     items = data.get('sections') if isinstance(data, dict) else None
     if not isinstance(items, list):
         return []
