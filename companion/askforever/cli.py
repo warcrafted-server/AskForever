@@ -610,12 +610,13 @@ def _set_game_status(window):
         set_status('game', 'Juego detectado', 'Game detected', ok=True)
 
 
-def _run_companion(args: argparse.Namespace) -> int:
+def _run_companion(args: argparse.Namespace, stop_event=None,
+                   overlay_factory=None) -> int:
     emit('info', 'AskForever App en marcha', 'AskForever App is running')
     set_status('app', 'En marcha', 'Running', ok=True)
     set_dpi_awareness()
-    overlay_class = (Overlay if getattr(args, 'overlay_inprocess', False)
-                     else OverlaySupervisor)
+    overlay_class = overlay_factory or (
+        Overlay if getattr(args, 'overlay_inprocess', False) else OverlaySupervisor)
     overlay = overlay_class(ttl=args.ttl)
     addon_sync_pending = False
     game_window = find_game_window()
@@ -645,13 +646,17 @@ def _run_companion(args: argparse.Namespace) -> int:
             set_status('ai', es, en, ok=True)
         except ProviderError as error:
             provider_error = error
-            es, en = error.user_message('esES'), error.user_message('enUS')
+            if error.kind == 'auth':
+                es = 'Falta la clave de la IA: pulsa Configurar IA'
+                en = 'AI key missing: choose Configure AI'
+            else:
+                es, en = error.user_message('esES'), error.user_message('enUS')
             emit('error', es, en, detail=error.detail)
             set_status('ai', es, en, ok=False)
     else:
         set_status('ai', 'IA desactivada', 'AI disabled', ok=None)
 
-    stop_event = threading.Event()
+    stop_event = stop_event or threading.Event()
     generation = {'value': 0}
     store = ConversationStore()
     last_exchange = {}
@@ -1269,11 +1274,15 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
                            help='no busca en la wiki de warcraft.wiki.gg')
     companion.add_argument('--overlay-inprocess', action='store_true',
                            help='usa el overlay en el proceso principal (diagnóstico)')
+    subparsers.add_parser('app', help='abre la aplicación AskForever en segundo plano')
     subparsers.add_parser('overlay-demo',
                           help='muestra el overlay de ejemplo durante 8 segundos')
 
     args = parser.parse_args(argv)
     if args.command is None:
+        if getattr(sys, 'frozen', False):
+            from askforever.app.main import run_app
+            return run_app(parser.parse_args(['run']))
         run_args = parser.parse_args(['run'])
         if not _ensure_api_key():
             return 1
@@ -1302,6 +1311,9 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         return _update_data()
     if args.command == 'run':
         return _run_companion(args)
+    if args.command == 'app':
+        from askforever.app.main import run_app
+        return run_app(parser.parse_args(['run']))
     if args.command == 'overlay-demo':
         return _overlay_demo()
     parser.print_help()
