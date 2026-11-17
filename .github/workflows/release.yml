@@ -86,8 +86,10 @@ jobs:
           if (-not (Test-Path 'dist/AskForever/AskForeverApp.exe')) {
               throw 'No existe dist/AskForever/AskForeverApp.exe.'
           }
-          & 'dist/AskForever/AskForeverApp.exe' --help
-          if ($LASTEXITCODE -ne 0) { throw 'AskForeverApp.exe --help fallo.' }
+          # AskForeverApp.exe no tiene consola: PowerShell no espera a un programa de ventana,
+          # así que se lanza con Start-Process -Wait y se comprueba su código de salida.
+          $help = Start-Process -FilePath 'dist/AskForever/AskForeverApp.exe' -ArgumentList '--help' -Wait -PassThru -NoNewWindow
+          if ($help.ExitCode -ne 0) { throw 'AskForeverApp.exe --help fallo.' }
 
       - name: Smoke test of the built program (Credential Manager)
         shell: pwsh
@@ -97,13 +99,13 @@ jobs:
           # El programa empaquetado debe poder guardar, leer y borrar la clave en el
           # Administrador de credenciales de Windows (falló en la primera beta de prueba).
           $exe = 'dist/AskForever/AskForeverApp.exe'
-          & $exe set-key --provider groq
-          if ($LASTEXITCODE -ne 0) { throw 'set-key fallo.' }
+          $setKey = Start-Process -FilePath $exe -ArgumentList 'set-key', '--provider', 'groq' -Wait -PassThru -NoNewWindow
+          if ($setKey.ExitCode -ne 0) { throw 'set-key fallo.' }
           $env:PYTHONPATH = Join-Path $env:GITHUB_WORKSPACE 'companion'
           python -c "from askforever import config; assert config.get_api_key('groq') == 'smoke-test-not-a-real-key'"
           if ($LASTEXITCODE -ne 0) { throw 'La clave no se guardo en el Administrador de credenciales.' }
-          & $exe uninstall --yes
-          if ($LASTEXITCODE -ne 0) { throw 'uninstall fallo.' }
+          $uninstall = Start-Process -FilePath $exe -ArgumentList 'uninstall', '--yes' -Wait -PassThru -NoNewWindow
+          if ($uninstall.ExitCode -ne 0) { throw 'uninstall fallo.' }
           python -c "from askforever import config; assert config.get_api_key('groq') is None"
           if ($LASTEXITCODE -ne 0) { throw 'uninstall no borro la clave del Administrador de credenciales.' }
           Write-Host 'Credential Manager OK'
