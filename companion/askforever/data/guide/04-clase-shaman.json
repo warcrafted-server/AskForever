@@ -1274,6 +1274,1003 @@
         "section:f15ba0e6ffeec55586623162f1ad6e950c25f82e",
         "section:f589633e3b329c3a5ecba8f5518feccd9e3ea0d7"
       ]
+    },
+    {
+      "id": "clase-shaman-stats-elemental",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Elemental",
+      "title_en": "Elemental Stat Priority",
+      "summary_es": "Prioridad de daño aproximada; equilibra sus atributos para sostener el maná.",
+      "summary_en": "Approximate damage priority; balance stats to sustain mana.",
+      "keywords_es": [
+        "prioridad estadísticas elemental chamán",
+        "golpe 17 elemental",
+        "penetración con hechizos chamán"
+      ],
+      "keywords_en": [
+        "elemental shaman stat priority",
+        "17% hit elemental",
+        "shaman spell penetration"
+      ],
+      "text_es": "Prioridad aproximada: Penetración de hechizo > celeridad/velocidad de lanzamiento > golpe hasta 17% > daño con hechizos > Golpe crítico > daño de Naturaleza/Fuego > intelecto > espíritu > fuerza (solo al subir) > aguante. Equilibra daño e intelecto/espíritu para poder seguir lanzando.",
+      "text_en": "Approximate priority: spell penetration > haste/cast speed > hit to 17% > spell damage > critical strike > Nature/Fire damage > intellect > spirit > strength (leveling only) > stamina. Balance throughput with intellect and spirit so you can keep casting.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman DPS Attribute and Stat Guide - WoW: Forever › Elemental Shaman Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/stat-priority-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:elemental:stats"
+      ],
+      "source_hashes": [
+        "section:b21cb60a2c2eff0256f60db5600276836fdb9802"
+      ]
+    },
+    {
+      "id": "clase-shaman-stats-mejora",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Mejora",
+      "title_en": "Enhancement Stat Priority",
+      "summary_es": "Llega al 8% de golpe cuerpo a cuerpo y luego equilibra atributos híbridos.",
+      "summary_en": "Reach 8% melee hit, then balance hybrid stats.",
+      "keywords_es": [
+        "prioridad estadísticas mejora chamán",
+        "golpe 8 mejora",
+        "pericia 6.5 mejora"
+      ],
+      "keywords_en": [
+        "enhancement shaman stat priority",
+        "8% hit enhancement",
+        "6.5% expertise enhancement"
+      ],
+      "text_es": "Prioridad aproximada: golpe hasta 8% > pericia hasta 6.5% > Golpe crítico > fuerza > intelecto > Penetración de hechizo > celeridad > agilidad > daño con hechizos > poder de ataque > espíritu > aguante. El daño híbrido permite aprovechar intelecto y poder con hechizos; no sigas priorizando golpe tras el 8% inicial. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Approximate priority: hit to 8% > expertise to 6.5% > critical strike > strength > intellect > spell penetration > haste > agility > spell damage > attack power > spirit > stamina. Its hybrid damage makes intellect and spell damage useful; do not keep prioritizing hit after the initial 8%. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman Stat Priority & Attributes - WoW: Forever › Enhancement Shaman Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/stat-priority-pve-dps",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:enhancement:stats"
+      ],
+      "source_hashes": [
+        "section:4a0aa9c822a7a37a25ac5af64fe005a154a90da1"
+      ]
+    },
+    {
+      "id": "clase-shaman-stats-restauracion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Estadísticas de Recuperación",
+      "title_en": "Restoration Stat Priority",
+      "summary_es": "Prioriza sanación y crítico; las estadísticas de daño solo aplican al subir.",
+      "summary_en": "Prioritize healing and crit; damage stats apply only while leveling.",
+      "keywords_es": [
+        "prioridad estadísticas recuperación chamán",
+        "poder sanación mp5",
+        "crítico celeridad healer chamán"
+      ],
+      "keywords_en": [
+        "restoration shaman stat priority",
+        "spell healing mp5",
+        "healer shaman crit haste"
+      ],
+      "text_es": "Prioridad aproximada: poder de sanación > Golpe crítico > celeridad/velocidad de lanzamiento > intelecto > espíritu > MP5 > daño con hechizos (solo al subir) > golpe hasta 17% (solo al subir) > Penetración de hechizo (solo al subir) > fuerza (solo al subir) > aguante. Golpe crítico e intelecto también ayudan a sostener el maná.",
+      "text_en": "Approximate priority: spell healing > critical strike > haste/cast speed > intellect > spirit > MP5 > spell damage (leveling only) > hit to 17% (leveling only) > spell penetration (leveling only) > strength (leveling only) > stamina. Crit and intellect also support mana sustain.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Healer Attribute and Stat Guide - WoW: Forever › Restoration Shaman Stat Priority in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/stat-priority-pve-healer",
+          "date": "2026-11-01"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:restoration:stats"
+      ],
+      "source_hashes": [
+        "section:c5b3c589032f7c7f2d00448518125e7a022170ae"
+      ]
+    },
+    {
+      "id": "clase-shaman-rotacion-elemental-objetivo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación Elemental a un objetivo",
+      "title_en": "Elemental Single-Target Rotation",
+      "summary_es": "Mantén tótems y Choque de llamas; condiciona Cadena de relámpagos al maná y al proc.",
+      "summary_en": "Maintain totems and Flame Shock; gate Chain Lightning on mana and procs.",
+      "keywords_es": [
+        "rotación elemental un objetivo",
+        "maestría relámpago cadena",
+        "choque de llamas tótem abrasador"
+      ],
+      "keywords_en": [
+        "elemental single target rotation",
+        "lightning mastery chain lightning",
+        "flame shock searing totem"
+      ],
+      "text_es": "Mantén Tótem Fuerza de la tierra y Tótem Viento Furioso para el grupo; usa Tótem abrasador por eficiencia o Tótem de magma si hay maná; reaplica Choque de llamas cuando expire. Usa Maestría de Relámpago y otros enfriamientos; lanza Cadena de relámpagos mientras Maestría no esté activa si tienes Conjuro libre o maná suficiente, y rellena con Descarga de relámpagos. Baja rangos si necesitas ahorrar maná.",
+      "text_en": "Keep Strength of Earth Totem and Windfury Totem active for the party; use Searing Totem for efficiency or Magma Totem if mana allows; reapply Flame Shock after it expires. Use Lightning Mastery and other cooldowns; cast Chain Lightning while Mastery is inactive if Clearcasting procs or mana permits, then fill with Lightning Bolt. Downrank spells to conserve mana.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Elemental Shamans in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/rotation-cooldowns-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:elemental:rotation"
+      ],
+      "source_hashes": [
+        "section:f7ea7e7c63aa57d578e2783ec590a556433f6e38"
+      ]
+    },
+    {
+      "id": "clase-shaman-rotacion-elemental-area",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación Elemental en área",
+      "title_en": "Elemental AoE Rotation",
+      "summary_es": "Prioriza tótems, Maestría y Nova; limita lanzamientos si el maná baja.",
+      "summary_en": "Prioritize totems, Mastery and Nova; limit casts when mana falls.",
+      "keywords_es": [
+        "rotación elemental área",
+        "nova fuego elemental varios enemigos",
+        "tótem magma chamán área"
+      ],
+      "keywords_en": [
+        "elemental aoe rotation",
+        "fire nova elemental multiple targets",
+        "shaman magma totem aoe"
+      ],
+      "text_es": "Mantén tótems de mejora y coloca Tótem de magma. Activa Maestría de Relámpago y otros enfriamientos; lanza Cadena de relámpagos y Nova de Fuego en cuanto estén disponibles. Mantén Choque de llamas en hasta 3 objetivos y usa Descarga de relámpagos si alcanza el maná. El área consume mucho: reduce Choque de llamas o Descarga si hace falta.",
+      "text_en": "Maintain buff totems and place Magma Totem. Use Lightning Mastery and other cooldowns; cast Chain Lightning and Fire Nova whenever ready. Keep Flame Shock on up to 3 targets and use Lightning Bolt if mana allows. AoE is costly: reduce Flame Shock or Lightning Bolt casts when needed.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Elemental Shamans in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/rotation-cooldowns-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:elemental:rotation"
+      ],
+      "source_hashes": [
+        "section:e4ac0656bf5d3ee5d30a40e2162dad08c5658a63"
+      ]
+    },
+    {
+      "id": "clase-shaman-cooldowns-elemental",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Enfriamientos de Elemental",
+      "title_en": "Elemental Cooldowns",
+      "summary_es": "Usa Maestría después de poner tótems y Choque de llamas para aprovechar sus 15 s.",
+      "summary_en": "Use Mastery after setting totems and Flame Shock to use its 15 seconds well.",
+      "keywords_es": [
+        "enfriamiento elemental maestría relámpago",
+        "cooldown chamán elemental",
+        "maestría relámpago 15 segundos"
+      ],
+      "keywords_en": [
+        "elemental shaman cooldowns",
+        "lightning mastery cooldown",
+        "lightning mastery 15 seconds"
+      ],
+      "text_es": "Maestría de Relámpago ofrece una ventana de ráfaga de 15 s. Coloca primero los tótems y aplica Choque de llamas; después actívala para dedicar más tiempo a Descarga de relámpagos y Cadena de relámpagos. Combínala con abalorios, pociones ofensivas y habilidades raciales disponibles.",
+      "text_en": "Lightning Mastery creates a 15-second burst window. Drop totems and apply Flame Shock first, then activate it to spend more time casting Lightning Bolt and Chain Lightning. Pair it with available trinkets, offensive potions, and racial abilities.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman DPS Rotation and Cooldowns - WoW: Forever › Best Elemental Shaman Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/rotation-cooldowns-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:elemental:rotation"
+      ],
+      "source_hashes": [
+        "section:99fcc090294af963f9ba232b690e5d78c164c472"
+      ]
+    },
+    {
+      "id": "clase-shaman-rotacion-mejora-objetivo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación Mejora a un objetivo",
+      "title_en": "Enhancement Single-Target Rotation",
+      "summary_es": "Mantén Magma y Choque de llamas; gasta pronto las cinco cargas de Arma vorágine.",
+      "summary_en": "Maintain Magma and Flame Shock; promptly spend five Maelstrom stacks.",
+      "keywords_es": [
+        "rotación mejora un objetivo",
+        "arma vorágine cinco cargas",
+        "prioridad golpe tormenta mejora"
+      ],
+      "keywords_en": [
+        "enhancement single target rotation",
+        "five maelstrom weapon stacks",
+        "stormstrike priority enhancement"
+      ],
+      "text_es": "Mantén Tótem de magma y Choque de llamas; usa Golpe de tormenta en reutilización. Al llegar a 5 cargas de Arma vorágine, lanza Descarga de relámpagos pronto para no desperdiciarlas. Si aún no tienes 5, usa Choque de tierra; reserva Nova de Fuego como relleno para cuando nada más esté listo y sobre maná.",
+      "text_en": "Maintain Magma Totem and Flame Shock; use Stormstrike on cooldown. At 5 Maelstrom Weapon stacks, cast Lightning Bolt promptly to avoid wasting them. Before 5 stacks, use Earth Shock; use Fire Nova as a filler only when nothing else is ready and mana is available.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Enhancement Shamans in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/rotation-cooldowns-pve-dps",
+          "date": "2026-10-29"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:enhancement:rotation"
+      ],
+      "source_hashes": [
+        "section:7b9af064236352ca897ab8a629946e0f7c8300ba"
+      ]
+    },
+    {
+      "id": "clase-shaman-rotacion-mejora-area",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Rotación Mejora en área",
+      "title_en": "Enhancement AoE Rotation",
+      "summary_es": "Posiciona Magma para alcanzar varios enemigos; Nova y Choque de llamas encabezan el área.",
+      "summary_en": "Position Magma to hit several enemies; Nova and Flame Shock lead AoE.",
+      "keywords_es": [
+        "rotación mejora área chamán",
+        "nova fuego tótem magma",
+        "choque llamas varios enemigos mejora"
+      ],
+      "keywords_en": [
+        "enhancement aoe rotation",
+        "fire nova magma totem",
+        "flame shock multiple enemies"
+      ],
+      "text_es": "Coloca Tótem de magma donde alcance a tantos enemigos como sea posible; usa Nova de Fuego en reutilización mientras el maná aguante. Aplica Choque de llamas a todos los objetivos posibles. Completa con prioridades de un objetivo: Golpe de tormenta, Descarga de relámpagos con 5 cargas de Arma vorágine y Choque de tierra.",
+      "text_en": "Place Magma Totem to reach as many enemies as possible; use Fire Nova on cooldown while mana allows. Apply Flame Shock to as many targets as possible. Continue with single-target priorities: Stormstrike, Lightning Bolt at 5 Maelstrom stacks, and Earth Shock.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Enhancement Shamans in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/rotation-cooldowns-pve-dps",
+          "date": "2026-10-29"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:enhancement:rotation"
+      ],
+      "source_hashes": [
+        "section:3e88653c404db60d8a2d233fb02fe0e39f9b8dc5"
+      ]
+    },
+    {
+      "id": "clase-shaman-cooldowns-mejora",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Enfriamientos de Mejora",
+      "title_en": "Enhancement Cooldowns",
+      "summary_es": "Usa Ira del clarividente con procs y efectos activos; guárdala para fases potenciadas.",
+      "summary_en": "Pair Rage of the Farseer with procs and on-use effects; hold it for damage windows.",
+      "keywords_es": [
+        "ira clarividente enfriamiento mejora",
+        "cooldown enhancement shaman",
+        "rage of the farseer"
+      ],
+      "keywords_en": [
+        "enhancement shaman cooldowns",
+        "rage of the farseer cooldown",
+        "enhancement burst cooldown"
+      ],
+      "text_es": "Ira del clarividente es el enfriamiento principal: dura 25 s y se reutiliza cada 3 min. Combínala con procs y efectos de uso del equipo. Si el jefe crea una ventana de daño aumentado, guarda los efectos hasta entonces; si no, úsala para acelerar su siguiente fase.",
+      "text_en": "Rage of the Farseer is the main cooldown: it lasts 25 seconds and has a 3-minute cooldown. Pair it with gear procs and on-use effects. If a boss creates a damage-amplification window, hold your effects for it; otherwise, use them to push the next phase faster.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Rotation and Cooldowns - WoW: Forever › Best Enhancement Shaman Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/rotation-cooldowns-pve-dps",
+          "date": "2026-10-29"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/overview-pve-dps",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:enhancement:overview",
+        "class:shaman:enhancement:rotation"
+      ],
+      "source_hashes": [
+        "section:2dcd1aeb649e9a6b067eb25845d75562a2ffcf46",
+        "section:31ba24c66fb573e7a98fd9ceec6bd50393d509d6"
+      ]
+    },
+    {
+      "id": "clase-shaman-rotacion-restauracion-objetivo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Prioridad de sanación: un objetivo",
+      "title_en": "Restoration Single-Target Healing",
+      "summary_es": "Mareas vivas al aliado más herido y Onda de curación para sanación eficiente.",
+      "summary_en": "Riptide on the most injured ally; Healing Wave provides efficient healing.",
+      "keywords_es": [
+        "prioridad curación chamán un objetivo",
+        "mareas vivas onda de curación",
+        "rangos onda curación maná"
+      ],
+      "keywords_en": [
+        "restoration single target healing priority",
+        "riptide healing wave",
+        "downrank healing wave mana"
+      ],
+      "text_es": "Mantén tótems de apoyo y Tótem abrasador para daño pasivo. Aplica Mareas vivas al aliado más herido y usa Onda de curación para sanar un objetivo. Baja su rango para ahorrar maná; si esperas a que el aliado esté muy herido antes de lanzar el rango máximo, pasas más tiempo sin lanzar y regeneras espíritu tras la regla de cinco segundos.",
+      "text_en": "Maintain support totems and Searing Totem for passive damage. Apply Riptide to the most injured ally and use Healing Wave for single-target healing. Downrank it to save mana; waiting until the ally is deeply injured before using the highest rank gives more time not casting and regenerating Spirit after the five-second rule.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Healer Rotation and Cooldowns - WoW: Forever › Single Target Rotation for Restoration Shamans in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/rotation-cooldowns-pve-healer",
+          "date": "2026-11-01"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:restoration:rotation"
+      ],
+      "source_hashes": [
+        "section:f9284b90e4350e1759270c6cbfa2589807b00db4"
+      ]
+    },
+    {
+      "id": "clase-shaman-rotacion-restauracion-area",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Prioridad de sanación: área",
+      "title_en": "Restoration AoE Healing",
+      "summary_es": "Reparte Mareas vivas y enfoca Curación en cadena en aliados con su efecto.",
+      "summary_en": "Spread Riptide and prioritize Chain Heal on allies with its buff.",
+      "keywords_es": [
+        "prioridad curación en cadena chamán",
+        "mareas vivas varios aliados",
+        "sanación en área restauración"
+      ],
+      "keywords_en": [
+        "restoration aoe healing priority",
+        "riptide multiple allies",
+        "chain heal restoration aoe"
+      ],
+      "text_es": "Mantén tótems de apoyo y aplica Mareas vivas a los aliados más heridos; Curación en cadena conviene sobre objetivos lesionados con Mareas vivas. Cuando el maná lo permita, añade Tótem de magma y Nova de Fuego solo si sanar no es urgente; baja el rango de Curación en cadena si necesitas conservarlo.",
+      "text_en": "Maintain support totems and apply Riptide to the most injured allies; cast Chain Heal on injured targets with Riptide when possible. Magma Totem and Fire Nova add damage when mana allows, but skip them if healing is urgent; downrank Chain Heal to conserve mana.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Healer Rotation and Cooldowns - WoW: Forever › AoE Rotation for Restoration Shamans in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/rotation-cooldowns-pve-healer",
+          "date": "2026-11-01"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:restoration:rotation"
+      ],
+      "source_hashes": [
+        "section:e3c0ad23637be40f6a9dd3ba1d5b93dc1a91eaeb"
+      ]
+    },
+    {
+      "id": "clase-shaman-cooldowns-restauracion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Enfriamientos de Recuperación",
+      "title_en": "Restoration Cooldowns",
+      "summary_es": "Lanza el Tótem de marea cuando el grupo ronda 80% de maná; reserva Rapidez para emergencias.",
+      "summary_en": "Use Mana Tide near 80% group mana; save Nature’s Swiftness for emergencies.",
+      "keywords_es": [
+        "tótem marea maná 80% chamán",
+        "rapidez de la naturaleza emergencia",
+        "enfriamientos chamán restauración"
+      ],
+      "keywords_en": [
+        "mana tide totem 80 percent mana",
+        "nature swiftness emergency heal",
+        "restoration shaman cooldowns"
+      ],
+      "text_es": "Usa Tótem Marea de maná cuando el grupo ronde el 80% de maná, siempre que nadie vaya a exceder su máximo. Reserva Rapidez de la Naturaleza para una emergencia y combínala con Onda de curación si el tanque cae de forma crítica.",
+      "text_en": "Use Mana Tide Totem when the group is around 80% mana, provided no one will overcap. Save Nature’s Swiftness for an emergency and pair it with Healing Wave if the tank suddenly becomes critical.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Healer Rotation and Cooldowns - WoW: Forever › Best Restoration Shaman Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/rotation-cooldowns-pve-healer",
+          "date": "2026-11-01"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:restoration:rotation"
+      ],
+      "source_hashes": [
+        "section:c526035c7faddaa4605a2b39ef51786b87984df2"
+      ]
+    },
+    {
+      "id": "clase-shaman-build-elemental-mana-tide",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Elemental de banda: Marea de maná",
+      "title_en": "Elemental Mana Tide Raid Build",
+      "summary_es": "Reparto completo de build elemental de banda: marea de maná, con talentos agrupados por rama.",
+      "summary_en": "Complete elemental mana tide raid build talent allocation grouped by tree.",
+      "keywords_es": [
+        "build chaman elemental para raides",
+        "talentos chamán build completa",
+        "puntos talentos chamán nivel 60"
+      ],
+      "keywords_en": [
+        "shaman ele complete build",
+        "shaman talent points level 60",
+        "shaman build raid pvp"
+      ],
+      "text_es": "Elemental: Llamada de la llama 3/3, Llamada del trueno 1/1, Concusión 5/5, Convección 5/5, Prontitud elemental 3/3, Enfoque elemental 1/1, Furia elemental 5/5, Ojo de la tormenta 3/3, Maestría de Relámpago 1/1, Sobrecarga de relámpagos 3/3, Prueba de fuego 1/2. Mejora: Golpes de trueno 4/5. Recuperación: Tótem de marea de maná 1/1, Conciencia 3/3, Gracia natural 1/3, Enfoque de las mareas 5/5, Enfoque totémico 5/5, Escudo de agua 1/1. Apoya a grupos de lanzadores con Tótem de marea de maná, aunque el maná sigue siendo un límite.",
+      "text_en": "Elemental: Call of Flame 3/3, Call of Thunder 1/1, Concussion 5/5, Convection 5/5, Elemental Alacrity 3/3, Elemental Focus 1/1, Elemental Fury 5/5, Eye of the Storm 3/3, Lightning Mastery 1/1, Lightning Overload 3/3, Trial by Fire 1/2. Enhancement: Thundering Strikes 4/5. Restoration: Mana Tide Totem 1/1, Mindfulness 3/3, Natural Grace 1/3, Tidal Focus 5/5, Totemic Focus 5/5, Water Shield 1/1. Supports caster groups with Mana Tide Totem, though mana remains a constraint.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Elemental Shaman Talent Tree Builds - WoW: Forever › Best Elemental Shaman PvE Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:elemental:talents"
+      ],
+      "source_hashes": [
+        "section:ba3c34423aae4faa3b53bc28043c97c5d9b733ad"
+      ]
+    },
+    {
+      "id": "clase-shaman-build-elemental-shamanistic-focus",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Elemental de maná estable",
+      "title_en": "Elemental Shamanistic Focus Build",
+      "summary_es": "Reparto completo de build elemental de maná estable, con talentos agrupados por rama.",
+      "summary_en": "Complete elemental shamanistic focus build talent allocation grouped by tree.",
+      "keywords_es": [
+        "build chaman elemental para raides",
+        "talentos chamán build completa",
+        "puntos talentos chamán nivel 60"
+      ],
+      "keywords_en": [
+        "shaman ele complete build",
+        "shaman talent points level 60",
+        "shaman build raid pvp"
+      ],
+      "text_es": "Elemental: Llamada de la llama 3/3, Concusión 5/5, Convección 5/5, Prontitud elemental 3/3, Enfoque elemental 1/1, Furia elemental 5/5, Ojo de la tormenta 3/3, Maestría de Relámpago 1/1, Sobrecarga de relámpagos 3/3, Prueba de fuego 2/2. Mejora: Conocimiento ancestral 5/5, Armas elementales 1/3, Golpes de trueno 5/5. Recuperación: Conciencia 3/3, Enfoque de las mareas 5/5. Reduce costes y amplía el maná; también se recomienda para mazmorras. La calculadora descarta un talento retirado; queda 1 punto libre.",
+      "text_en": "Elemental: Call of Flame 3/3, Concussion 5/5, Convection 5/5, Elemental Alacrity 3/3, Elemental Focus 1/1, Elemental Fury 5/5, Eye of the Storm 3/3, Lightning Mastery 1/1, Lightning Overload 3/3, Trial by Fire 2/2. Enhancement: Ancestral Knowledge 5/5, Elemental Weapons 1/3, Thundering Strikes 5/5. Restoration: Mindfulness 3/3, Tidal Focus 5/5. Cuts mana costs and increases the mana pool; also suited to dungeons. The calculator drops a retired talent; 1 point remains free.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Elemental Shaman Talent Tree Builds - WoW: Forever › Best Elemental Shaman PvE Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Elemental Shaman Talent Tree Builds - WoW: Forever › Best Elemental Shaman PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:elemental:talents"
+      ],
+      "source_hashes": [
+        "section:ba3c34423aae4faa3b53bc28043c97c5d9b733ad",
+        "section:d1fc6fd0f78b6b5024de44d2d98fd95cfd8a074c"
+      ]
+    },
+    {
+      "id": "clase-shaman-build-elemental-pvp-deep-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Elemental JcJ de ráfaga (1/2)",
+      "title_en": "Elemental Deep PvP Build (1/2)",
+      "summary_es": "Reparto completo de build elemental jcj de ráfaga, con talentos agrupados por rama.",
+      "summary_en": "Complete elemental deep pvp build talent allocation grouped by tree.",
+      "keywords_es": [
+        "build chaman clase-shaman-build-elemental-pvp-deep parte 1",
+        "talentos chamán puntos completos",
+        "build nivel 60"
+      ],
+      "keywords_en": [
+        "shaman ele_tal build part 1",
+        "shaman talent points",
+        "level 60 shaman build"
+      ],
+      "text_es": "Elemental: Llamada de la llama 3/3, Llamada del trueno 1/1, Concusión 5/5, Convección 5/5, Vinculado a la tierra 1/1, Prontitud elemental 3/3, Enfoque elemental 1/1, Furia elemental 5/5, Alcance elemental 2/2, Ojo de la tormenta 3/3, Maestría de Relámpago 1/1, Sobrecarga de relámpagos 3/3. Mejora: Anticipación 3/3, Garra de la Tierra 2/2, Tótems del Guardián 2/2, Lobo fantasmal mejorado 2/2, Escudo de relámpagos mejorado 2/3, Enfoque chamanístico 1/1, Golpes de trueno 5/5.",
+      "text_en": "Elemental: Call of Flame 3/3, Call of Thunder 1/1, Concussion 5/5, Convection 5/5, Earthbound 1/1, Elemental Alacrity 3/3, Elemental Focus 1/1, Elemental Fury 5/5, Elemental Reach 2/2, Eye of the Storm 3/3, Lightning Mastery 1/1, Lightning Overload 3/3. Enhancement: Anticipation 3/3, Earth's Grasp 2/2, Guardian Totems 2/2, Improved Ghost Wolf 2/2, Improved Lightning Shield 2/3, Shamanistic Focus 1/1, Thundering Strikes 5/5.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Elemental Shaman Talent Tree Builds - WoW: Forever › Best Elemental Shaman PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:elemental:talents"
+      ],
+      "source_hashes": [
+        "section:c5978de2369610891e8842982b103fc4deedff8d"
+      ]
+    },
+    {
+      "id": "clase-shaman-build-elemental-pvp-deep-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Elemental JcJ de ráfaga (2/2)",
+      "title_en": "Elemental Deep PvP Build (2/2)",
+      "summary_es": "Reparto completo de build elemental jcj de ráfaga, con talentos agrupados por rama.",
+      "summary_en": "Complete elemental deep pvp build talent allocation grouped by tree.",
+      "keywords_es": [
+        "build chaman clase-shaman-build-elemental-pvp-deep parte 2",
+        "talentos chamán puntos completos",
+        "build nivel 60"
+      ],
+      "keywords_en": [
+        "shaman ele_tal build part 2",
+        "shaman talent points",
+        "level 60 shaman build"
+      ],
+      "text_es": "Recuperación: Enfoque de las mareas 1/5. Maestría de Relámpago es el enfriamiento principal y los talentos de tierra añaden control.",
+      "text_en": "Restoration: Tidal Focus 1/5. Lightning Mastery is the main cooldown, with Earth talents adding control.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Elemental Shaman Talent Tree Builds - WoW: Forever › Best Elemental Shaman PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:elemental:talents"
+      ],
+      "source_hashes": [
+        "section:c5978de2369610891e8842982b103fc4deedff8d"
+      ]
+    },
+    {
+      "id": "clase-shaman-build-elemental-pvp-natures-swiftness-1",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build híbrida Elemental/Recuperación JcJ (1/2)",
+      "title_en": "Elemental/Restoration Nature’s Swiftness PvP Build (1/2)",
+      "summary_es": "Reparto completo de build híbrida elemental/recuperación jcj, con talentos agrupados por rama.",
+      "summary_en": "Complete elemental/restoration nature’s swiftness pvp build talent allocation grouped by tree.",
+      "keywords_es": [
+        "build chaman clase-shaman-build-elemental-pvp-natures-swiftness parte 1",
+        "talentos chamán puntos completos",
+        "build nivel 60"
+      ],
+      "keywords_en": [
+        "shaman ele_tal build part 1",
+        "shaman talent points",
+        "level 60 shaman build"
+      ],
+      "text_es": "Elemental: Llamada de la llama 3/3, Concusión 5/5, Convección 3/5, Vinculado a la tierra 1/1, Prontitud elemental 3/3, Enfoque elemental 1/1, Furia elemental 5/5, Alcance elemental 1/2, Ojo de la tormenta 3/3, Sobrecarga de relámpagos 3/3, Prueba de fuego 1/2.",
+      "text_en": "Elemental: Call of Flame 3/3, Concussion 5/5, Convection 3/5, Earthbound 1/1, Elemental Alacrity 3/3, Elemental Focus 1/1, Elemental Fury 5/5, Elemental Reach 1/2, Eye of the Storm 3/3, Lightning Overload 3/3, Trial by Fire 1/2.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Elemental Shaman Talent Tree Builds - WoW: Forever › Best Elemental Shaman PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:elemental:talents"
+      ],
+      "source_hashes": [
+        "section:c5978de2369610891e8842982b103fc4deedff8d"
+      ]
+    },
+    {
+      "id": "clase-shaman-build-elemental-pvp-natures-swiftness-2",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build híbrida Elemental/Recuperación JcJ (2/2)",
+      "title_en": "Elemental/Restoration Nature’s Swiftness PvP Build (2/2)",
+      "summary_es": "Reparto completo de build híbrida elemental/recuperación jcj, con talentos agrupados por rama.",
+      "summary_en": "Complete elemental/restoration nature’s swiftness pvp build talent allocation grouped by tree.",
+      "keywords_es": [
+        "build chaman clase-shaman-build-elemental-pvp-natures-swiftness parte 2",
+        "talentos chamán puntos completos",
+        "build nivel 60"
+      ],
+      "keywords_en": [
+        "shaman ele_tal build part 2",
+        "shaman talent points",
+        "level 60 shaman build"
+      ],
+      "text_es": "Recuperación: Curación ancestral 3/3, Enfoque curativo 3/3, Reencarnación mejorada 2/2, Tótem de marea de maná 1/1, Conciencia 3/3, Rapidez de la Naturaleza 1/1, Enfoque de las mareas 5/5, Enfoque totémico 2/5, Escudo de agua 1/1. Prioriza Rapidez de la Naturaleza y la sanación híbrida; un punto retirado queda libre. La calculadora descarta un talento retirado; queda 1 punto libre.",
+      "text_en": "Restoration: Ancestral Healing 3/3, Healing Focus 3/3, Improved Reincarnation 2/2, Mana Tide Totem 1/1, Mindfulness 3/3, Nature's Swiftness 1/1, Tidal Focus 5/5, Totemic Focus 2/5, Water Shield 1/1. Centers on Nature’s Swiftness and hybrid healing; one retired point remains free. The calculator drops a retired talent; 1 point remains free.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Elemental Shaman Talent Tree Builds - WoW: Forever › Best Elemental Shaman PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/talent-builds-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:elemental:talents"
+      ],
+      "source_hashes": [
+        "section:c5978de2369610891e8842982b103fc4deedff8d"
+      ]
+    },
+    {
+      "id": "clase-shaman-build-mejora-pve-raid",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Mejora para banda",
+      "title_en": "Enhancement Raid Build",
+      "summary_es": "Reparto completo de build mejora para banda, con talentos agrupados por rama.",
+      "summary_en": "Complete enhancement raid build talent allocation grouped by tree.",
+      "keywords_es": [
+        "build chaman mejora para raides",
+        "talentos chamán build completa",
+        "puntos talentos chamán nivel 60"
+      ],
+      "keywords_en": [
+        "shaman enh complete build",
+        "shaman talent points level 60",
+        "shaman build raid pvp"
+      ],
+      "text_es": "Elemental: Llamada de la llama 3/3, Concusión 5/5, Devastación elemental 3/3, Enfoque elemental 1/1, Reverberación 3/5, Prueba de fuego 2/2. Mejora: Conocimiento ancestral 3/5, Armas elementales 3/3, Aluvión 5/5, Lobo fantasmal mejorado 2/2, Golpe de tormenta mejorado 2/2, Arma vorágine 5/5, Maña mental 3/3, Presura mental 2/2, Ira del clarividente 1/1, Enfoque chamanístico 1/1, Armas de espíritu 1/1, Golpe de tormenta 1/1, Golpes de trueno 5/5. Toma talentos clave de Mejora y daño de hechizos; puedes cambiar Armas de espíritu si no hay problema de amenaza.",
+      "text_en": "Elemental: Call of Flame 3/3, Concussion 5/5, Elemental Devastation 3/3, Elemental Focus 1/1, Reverberation 3/5, Trial by Fire 2/2. Enhancement: Ancestral Knowledge 3/5, Elemental Weapons 3/3, Flurry 5/5, Improved Ghost Wolf 2/2, Improved Stormstrike 2/2, Maelstrom Weapon 5/5, Mental Dexterity 3/3, Mental Quickness 2/2, Rage of the Farseer 1/1, Shamanistic Focus 1/1, Spirit Weapons 1/1, Stormstrike 1/1, Thundering Strikes 5/5. Takes core Enhancement and spell-damage talents; Spirit Weapons can be swapped if threat is not an issue.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Enhancement Shaman Talent Tree Builds - WoW: Forever › Best Enhancement Shaman PvE Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/talent-builds-pve-dps",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:enhancement:talents"
+      ],
+      "source_hashes": [
+        "section:56df8188bc8d362b5082fee27d1011c3dd7aa1ce"
+      ]
+    },
+    {
+      "id": "clase-shaman-build-mejora-pve-mazmorra",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Mejora para mazmorras",
+      "title_en": "Enhancement Dungeon Build",
+      "summary_es": "Reparto completo de build mejora para mazmorras, con talentos agrupados por rama.",
+      "summary_en": "Complete enhancement dungeon build talent allocation grouped by tree.",
+      "keywords_es": [
+        "build chaman mejora para raides",
+        "talentos chamán build completa",
+        "puntos talentos chamán nivel 60"
+      ],
+      "keywords_en": [
+        "shaman enh complete build",
+        "shaman talent points level 60",
+        "shaman build raid pvp"
+      ],
+      "text_es": "Elemental: Llamada de la llama 3/3, Concusión 5/5, Devastación elemental 3/3, Enfoque elemental 1/1, Reverberación 3/5, Prueba de fuego 2/2. Mejora: Conocimiento ancestral 3/5, Armas elementales 3/3, Aluvión 2/5, Lobo fantasmal mejorado 2/2, Golpe de tormenta mejorado 2/2, Arma vorágine 1/5, Maña mental 3/3, Presura mental 2/2, Enfoque chamanístico 1/1, Armas de espíritu 1/1, Golpe de tormenta 1/1, Golpes de trueno 5/5. Recuperación: Conciencia 3/3, Enfoque de las mareas 5/5. Sacrifica Ira del clarividente y Arma vorágine para tomar talentos de maná y reducir pausas.",
+      "text_en": "Elemental: Call of Flame 3/3, Concussion 5/5, Elemental Devastation 3/3, Elemental Focus 1/1, Reverberation 3/5, Trial by Fire 2/2. Enhancement: Ancestral Knowledge 3/5, Elemental Weapons 3/3, Flurry 2/5, Improved Ghost Wolf 2/2, Improved Stormstrike 2/2, Maelstrom Weapon 1/5, Mental Dexterity 3/3, Mental Quickness 2/2, Shamanistic Focus 1/1, Spirit Weapons 1/1, Stormstrike 1/1, Thundering Strikes 5/5. Restoration: Mindfulness 3/3, Tidal Focus 5/5. For dungeons, the allocation omits Rage of the Farseer and Maelstrom Weapon to invest in mana talents and reduce downtime.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Enhancement Shaman Talent Tree Builds - WoW: Forever › Best Enhancement Shaman PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/talent-builds-pve-dps",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:enhancement:talents"
+      ],
+      "source_hashes": [
+        "section:e0d10438a2385356dfe652f4ac3113c55a884504"
+      ]
+    },
+    {
+      "id": "clase-shaman-build-mejora-pvp-control",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Mejora JcJ de control",
+      "title_en": "Enhancement Control PvP Build",
+      "summary_es": "Reparto completo de build mejora jcj de control, con talentos agrupados por rama.",
+      "summary_en": "Complete enhancement control pvp build talent allocation grouped by tree.",
+      "keywords_es": [
+        "build chaman mejora para raides",
+        "talentos chamán build completa",
+        "puntos talentos chamán nivel 60"
+      ],
+      "keywords_en": [
+        "shaman enh complete build",
+        "shaman talent points level 60",
+        "shaman build raid pvp"
+      ],
+      "text_es": "Elemental: Llamada de la llama 3/3, Concusión 5/5, Vinculado a la tierra 1/1, Devastación elemental 3/3, Enfoque elemental 1/1, Reverberación 5/5. Mejora: Anticipación 3/3, Garra de la Tierra 2/2, Aluvión 2/5, Tótems del Guardián 2/2, Lobo fantasmal mejorado 2/2, Golpe de tormenta mejorado 2/2, Maña mental 3/3, Presura mental 2/2, Enfoque chamanístico 1/1, Armas de espíritu 1/1, Golpe de tormenta 1/1, Golpes de trueno 5/5. Recuperación: Reencarnación mejorada 2/2, Enfoque de las mareas 5/5. Profundiza en Elemental para ganar control y daño de hechizos.",
+      "text_en": "Elemental: Call of Flame 3/3, Concussion 5/5, Earthbound 1/1, Elemental Devastation 3/3, Elemental Focus 1/1, Reverberation 5/5. Enhancement: Anticipation 3/3, Earth's Grasp 2/2, Flurry 2/5, Guardian Totems 2/2, Improved Ghost Wolf 2/2, Improved Stormstrike 2/2, Mental Dexterity 3/3, Mental Quickness 2/2, Shamanistic Focus 1/1, Spirit Weapons 1/1, Stormstrike 1/1, Thundering Strikes 5/5. Restoration: Improved Reincarnation 2/2, Tidal Focus 5/5. Goes deeper into Elemental for control and spell damage.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Enhancement Shaman Talent Tree Builds - WoW: Forever › Best Enhancement Shaman PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/talent-builds-pve-dps",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:enhancement:talents"
+      ],
+      "source_hashes": [
+        "section:4446ba21406d0557cf9224677b1d273fd847a853"
+      ]
+    },
+    {
+      "id": "clase-shaman-build-mejora-pvp-aguante",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Mejora JcJ de aguante",
+      "title_en": "Enhancement Sustain PvP Build",
+      "summary_es": "Reparto completo de build mejora jcj de aguante, con talentos agrupados por rama.",
+      "summary_en": "Complete enhancement sustain pvp build talent allocation grouped by tree.",
+      "keywords_es": [
+        "build chaman mejora para raides",
+        "talentos chamán build completa",
+        "puntos talentos chamán nivel 60"
+      ],
+      "keywords_en": [
+        "shaman enh complete build",
+        "shaman talent points level 60",
+        "shaman build raid pvp"
+      ],
+      "text_es": "Mejora: Conocimiento ancestral 1/5, Anticipación 3/3, Tótems del Guardián 2/2, Lobo fantasmal mejorado 2/2, Maña mental 3/3, Enfoque chamanístico 1/1, Golpe de tormenta 1/1, Golpes de trueno 5/5, Dureza 1/5. Recuperación: Curación ancestral 3/3, Enfoque curativo 3/3, Forma curativa 3/3, Reencarnación mejorada 2/2, Conciencia 3/3, Rapidez de la Naturaleza 1/1, Mareas vivas 1/1, Enfoque de las mareas 5/5, Maestría de las mareas 5/5, Enfoque totémico 5/5, Escudo de agua 1/1. Invierte en Recuperación para aguantar y apoyar, sacrificando daño y control.",
+      "text_en": "Enhancement: Ancestral Knowledge 1/5, Anticipation 3/3, Guardian Totems 2/2, Improved Ghost Wolf 2/2, Mental Dexterity 3/3, Shamanistic Focus 1/1, Stormstrike 1/1, Thundering Strikes 5/5, Toughness 1/5. Restoration: Ancestral Healing 3/3, Healing Focus 3/3, Healing Way 3/3, Improved Reincarnation 2/2, Mindfulness 3/3, Nature's Swiftness 1/1, Riptide 1/1, Tidal Focus 5/5, Tidal Mastery 5/5, Totemic Focus 5/5, Water Shield 1/1. Invests in Restoration for sustain and support at the cost of damage and control.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Enhancement Shaman Talent Tree Builds - WoW: Forever › Best Enhancement Shaman PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/talent-builds-pve-dps",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:enhancement:talents"
+      ],
+      "source_hashes": [
+        "section:4446ba21406d0557cf9224677b1d273fd847a853"
+      ]
+    },
+    {
+      "id": "clase-shaman-build-restauracion-pve-raid",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Recuperación para banda",
+      "title_en": "Restoration Raid Ghost Wolf Build",
+      "summary_es": "Reparto completo de build recuperación para banda, con talentos agrupados por rama.",
+      "summary_en": "Complete restoration raid ghost wolf build talent allocation grouped by tree.",
+      "keywords_es": [
+        "build chaman restauracion para raides",
+        "talentos chamán build completa",
+        "puntos talentos chamán nivel 60"
+      ],
+      "keywords_en": [
+        "shaman resto complete build",
+        "shaman talent points level 60",
+        "shaman build raid pvp"
+      ],
+      "text_es": "Mejora: Conocimiento ancestral 5/5, Armas elementales 2/3, Lobo fantasmal mejorado 2/2, Maña mental 3/3, Golpes de trueno 5/5. Recuperación: Curación ancestral 3/3, Enfoque curativo 3/3, Forma curativa 3/3, Onda de curación mejorada 5/5, Tótem de marea de maná 1/1, Conciencia 3/3, Rapidez de la Naturaleza 1/1, Purificación 5/5, Mareas vivas 1/1, Enfoque de las mareas 3/5, Maestría de las mareas 5/5, Escudo de agua 1/1. Lobo fantasmal mejora la movilidad a cambio de Tótens restauradores y parte de la sanación.",
+      "text_en": "Enhancement: Ancestral Knowledge 5/5, Elemental Weapons 2/3, Improved Ghost Wolf 2/2, Mental Dexterity 3/3, Thundering Strikes 5/5. Restoration: Ancestral Healing 3/3, Healing Focus 3/3, Healing Way 3/3, Improved Healing Wave 5/5, Mana Tide Totem 1/1, Mindfulness 3/3, Nature's Swiftness 1/1, Purification 5/5, Riptide 1/1, Tidal Focus 3/5, Tidal Mastery 5/5, Water Shield 1/1. Ghost Wolf adds mobility at the cost of Restorative Totems and some healing.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Restoration Shaman Talent Tree Builds - WoW: Forever › Best Restoration Shaman PvE Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Restoration Shaman Talent Tree Builds - WoW: Forever › Best Restoration Shaman PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:restoration:talents"
+      ],
+      "source_hashes": [
+        "section:1c387bfd89baef7b568f11c2ffc48b4e4d5cb09b",
+        "section:9e21baf321356afcd9eceb0a2731140f706b5dc8"
+      ]
+    },
+    {
+      "id": "clase-shaman-build-restauracion-pve-totems",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Recuperación de tótems restauradores",
+      "title_en": "Restoration Restorative Totems Build",
+      "summary_es": "Reparto completo de build recuperación de tótems restauradores, con talentos agrupados por rama.",
+      "summary_en": "Complete restoration restorative totems build talent allocation grouped by tree.",
+      "keywords_es": [
+        "build chaman restauracion para raides",
+        "talentos chamán build completa",
+        "puntos talentos chamán nivel 60"
+      ],
+      "keywords_en": [
+        "shaman resto complete build",
+        "shaman talent points level 60",
+        "shaman build raid pvp"
+      ],
+      "text_es": "Mejora: Conocimiento ancestral 5/5, Golpes de trueno 5/5. Recuperación: Curación ancestral 3/3, Enfoque curativo 3/3, Forma curativa 3/3, Onda de curación mejorada 5/5, Tótem de marea de maná 1/1, Conciencia 3/3, Rapidez de la Naturaleza 1/1, Purificación 5/5, Tótens restauradores 5/5, Mareas vivas 1/1, Enfoque de las mareas 5/5, Maestría de las mareas 5/5, Escudo de agua 1/1. Cambia movilidad por más apoyo de tótems restauradores para curar al grupo.",
+      "text_en": "Enhancement: Ancestral Knowledge 5/5, Thundering Strikes 5/5. Restoration: Ancestral Healing 3/3, Healing Focus 3/3, Healing Way 3/3, Improved Healing Wave 5/5, Mana Tide Totem 1/1, Mindfulness 3/3, Nature's Swiftness 1/1, Purification 5/5, Restorative Totems 5/5, Riptide 1/1, Tidal Focus 5/5, Tidal Mastery 5/5, Water Shield 1/1. Trades mobility for more restorative-totem support and group healing.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Restoration Shaman Talent Tree Builds - WoW: Forever › Best Restoration Shaman PvE Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:restoration:talents"
+      ],
+      "source_hashes": [
+        "section:1c387bfd89baef7b568f11c2ffc48b4e4d5cb09b"
+      ]
+    },
+    {
+      "id": "clase-shaman-build-restauracion-pvp",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build Recuperación profunda JcJ",
+      "title_en": "Restoration Deep PvP Build",
+      "summary_es": "Reparto completo de build recuperación profunda jcj, con talentos agrupados por rama.",
+      "summary_en": "Complete restoration deep pvp build talent allocation grouped by tree.",
+      "keywords_es": [
+        "build chaman restauracion para raides",
+        "talentos chamán build completa",
+        "puntos talentos chamán nivel 60"
+      ],
+      "keywords_en": [
+        "shaman resto complete build",
+        "shaman talent points level 60",
+        "shaman build raid pvp"
+      ],
+      "text_es": "Mejora: Conocimiento ancestral 5/5, Garra de la Tierra 2/2, Tótems del Guardián 2/2, Lobo fantasmal mejorado 2/2, Enfoque chamanístico 1/1, Golpes de trueno 5/5. Recuperación: Curación ancestral 3/3, Enfoque curativo 3/3, Forma curativa 3/3, Onda de curación mejorada 5/5, Tótem de marea de maná 1/1, Conciencia 3/3, Rapidez de la Naturaleza 1/1, Purificación 5/5, Mareas vivas 1/1, Enfoque de las mareas 3/5, Maestría de las mareas 5/5, Escudo de agua 1/1. Garra de la Tierra y Tótems del Guardián aportan control; Enfoque de las mareas ayuda al golpe.",
+      "text_en": "Enhancement: Ancestral Knowledge 5/5, Earth's Grasp 2/2, Guardian Totems 2/2, Improved Ghost Wolf 2/2, Shamanistic Focus 1/1, Thundering Strikes 5/5. Restoration: Ancestral Healing 3/3, Healing Focus 3/3, Healing Way 3/3, Improved Healing Wave 5/5, Mana Tide Totem 1/1, Mindfulness 3/3, Nature's Swiftness 1/1, Purification 5/5, Riptide 1/1, Tidal Focus 3/5, Tidal Mastery 5/5, Water Shield 1/1. Earth’s Grasp and Guardian Totems add control; Tidal Focus helps spell hit.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Restoration Shaman Talent Tree Builds - WoW: Forever › Best Restoration Shaman PvP Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/talent-builds-pve-healer",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-17",
+      "topics": [
+        "class:shaman:restoration:talents"
+      ],
+      "source_hashes": [
+        "section:3c350a522b362fb35d229219ca3ccd9ef61e9470"
+      ]
     }
   ]
 }
