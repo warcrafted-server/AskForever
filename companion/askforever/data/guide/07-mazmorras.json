@@ -7,25 +7,37 @@
       "status": "editorial",
       "title_es": "Las mazmorras de Forever",
       "title_en": "Dungeons in Forever",
-      "summary_es": "Hay 35 mazmorras en 28 instancias, de nivel 13 a 60; el botín y las misiones de las altas se descubren jugando.",
-      "summary_en": "There are 35 dungeons across 28 instances, levels 13 to 60; loot and quests for higher ones are discovered by playing.",
+      "summary_es": "Hay 35 mazmorras en 28 instancias, de nivel 13 a 60; nueve nuevas cubren huecos entre tramos clásicos.",
+      "summary_en": "There are 35 dungeons across 28 instances, levels 13 to 60; nine new ones fill gaps between Classic brackets.",
       "keywords_es": [
         "mazmorras de forever",
         "cuántas mazmorras hay",
         "niveles de mazmorras",
         "mazmorras nuevas",
-        "botín de mazmorra"
+        "mazmorras por nivel"
       ],
       "keywords_en": [
         "wow forever dungeons",
         "how many dungeons",
         "dungeon levels",
         "new dungeons",
-        "dungeon loot"
+        "dungeon level ranges"
       ],
-      "text_es": "En Forever hay 35 mazmorras repartidas en 28 instancias, desde nivel 13 hasta 60, con clásicas y nuevas. El botín y las misiones de las mazmorras de nivel alto se van descubriendo al jugarlas. Cada mazmorra tiene un rango de nivel y varias misiones; los jefes y el botín exacto salen de la base de datos.",
-      "text_en": "Forever has 35 dungeons across 28 instances, from level 13 to 60, mixing classic and new ones. Loot and quests for higher-level dungeons are being discovered as people play them. Each dungeon has a level range and several quests; exact bosses and loot come from the game database.",
+      "text_es": "Forever reúne 35 mazmorras en 28 instancias, con rangos desde el nivel 13 hasta el 60. Las nueve nuevas están disponibles desde el lanzamiento y rellenan huecos entre los tramos clásicos; el Salón de los Feudales y las Ruinas de Lordaeron empiezan antes del nivel 20. La información de botín y misiones de las mazmorras altas se va completando conforme se descubre jugando.",
+      "text_en": "Forever has 35 dungeons across 28 instances, with level ranges from 13 to 60. Its nine new dungeons are available at launch and fill gaps between Classic brackets; Hall of Thanes and Ruins of Lordaeron start before level 20. Loot and quest information for higher-level dungeons is being filled in as players discover it in game.",
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dungeons Overview for Forever - Locations, Guides and Details › New and Existing Dungeon Levels in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dungeons-overview-locations-details",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: World of Warcraft: Forever Overview - New Features, Zones, Raids › New Dungeons in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/overview-features-zones-raids",
+          "date": "2026-11-04"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: All Available Dungeons in WoW Forever › WoW Forever Dungeons Overview",
@@ -33,12 +45,15 @@
           "date": "2026-11-11"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "general:dungeons-overview"
+        "general:dungeons-overview",
+        "raid:overview-features-zones-raids"
       ],
       "source_hashes": [
-        "section:1af863846ee4e5073a1a5c8fcfdb1da5df54711e"
+        "section:1af863846ee4e5073a1a5c8fcfdb1da5df54711e",
+        "section:736131dd24e2ea87b18ea31f8668656a2a4ae655",
+        "section:e0346c58ee0bacc7443d3baaede59af6c961c063"
       ]
     },
     {
@@ -47,46 +62,59 @@
       "status": "editorial",
       "title_es": "Preparar una mazmorra",
       "title_en": "Preparing for a Dungeon",
-      "summary_es": "Recoge las misiones, comprueba la facción y reparte tanque, sanador y DPS; el control ayuda con patrullas y adds.",
-      "summary_en": "Pick up quests, check faction, and bring tank, healer, and DPS; control helps with patrols and adds.",
+      "summary_es": "Forma un grupo de cinco con tanque, sanador y tres DPS; las misiones de grupo no cuentan en una banda.",
+      "summary_en": "Build a five-player group with a tank, healer, and three DPS; party quests do not count in a raid.",
       "keywords_es": [
         "preparar mazmorra",
-        "misiones antes de la mazmorra",
         "grupo de mazmorra",
         "tanque sanador dps",
-        "control de masas mazmorra"
+        "misiones de mazmorra en banda",
+        "tamaño de grupo"
       ],
       "keywords_en": [
         "dungeon preparation",
-        "dungeon quests",
-        "dungeon group",
+        "dungeon party size",
         "tank healer dps",
-        "dungeon crowd control"
+        "dungeon quests in raid",
+        "five-player group"
       ],
-      "text_es": "Antes de entrar, recoge las misiones: cada mazmorra tiene varias y algunas dan equipo o experiencia. No todas son para las dos facciones: varias son solo Horda o solo Alianza. Las páginas no fijan un tamaño de grupo; las estrategias reparten tanque, sanador y DPS, y piden control para patrullas y adds. Lleva al sanador con maná y enfoca a los adds peligrosos antes que al jefe.",
-      "text_en": "Before entering, pick up the quests: each dungeon has several, and some give gear or experience. Not all are for both factions: several are Horde-only or Alliance-only. The pages do not fix a group size; the strategies use a tank, healer, and DPS, and ask for control on patrols and adds. Keep the healer supplied with mana and focus dangerous adds before the boss.",
+      "text_es": "La composición habitual es de cinco: un tanque, un sanador y tres DPS. Se puede entrar en la mayoría de las mazmorras como banda de hasta diez, pero Profundidades de Roca Negra, ambas partes de Stratholme y Scholomance limitan el grupo a cinco; el límite de las nuevas mazmorras aún no está confirmado. Si vas a completar misiones de grupo, mantén el grupo en cinco, porque no progresan dentro de una banda. Algunas mazmorras tienen misiones para una sola facción aunque la otra pueda entrar por botín.",
+      "text_en": "The usual party has five players: one tank, one healer, and three DPS. Most dungeons allow entry as a raid of up to ten, but Blackrock Depths, both sides of Stratholme, and Scholomance limit the group to five; caps for new dungeons are not confirmed yet. If you plan to complete party quests, keep the group at five because they do not progress in a raid. Some dungeons have quests for only one faction even though the other can enter for loot.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: All Available Dungeons in WoW Forever › WoW Forever Dungeons Overview",
-          "url": "https://www.icy-veins.com/wow-forever/dungeons-overview",
-          "date": "2026-11-11"
+          "ref": "Wowhead: Dungeons Overview for Forever - Locations, Guides and Details › Dungeon Party Roles in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dungeons-overview-locations-details",
+          "date": "2026-11-15"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: All Available Quests for Ragefire Chasm › Ragefire Chasm Dungeon Quests",
-          "url": "https://www.icy-veins.com/wow-forever/ragefire-chasm-quests",
-          "date": "2026-09-29"
+          "ref": "Wowhead: Dungeons Overview for Forever - Locations, Guides and Details › Dungeon Party Sizes in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dungeons-overview-locations-details",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dungeons Overview for Forever - Locations, Guides and Details › Ragefire Chasm Dungeon in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dungeons-overview-locations-details",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dungeons Overview for Forever - Locations, Guides and Details › The Deadmines Dungeon in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dungeons-overview-locations-details",
+          "date": "2026-11-15"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "dungeon:_all:quests",
         "general:dungeons-overview"
       ],
       "source_hashes": [
-        "section:1af863846ee4e5073a1a5c8fcfdb1da5df54711e",
-        "section:e76f11c30e94831320711c72cc9d99bffddac614"
+        "section:06738a32b32b0c29127e014941916c0e4bf83652",
+        "section:33ee285728741050d77cd6037d03bb0f41233745",
+        "section:3a3dda5f921dc13cce0f8dc7cd4b8093a8fdb718",
+        "section:4938de8ff141ddd50eed85b0af491894a025b80f"
       ]
     },
     {
@@ -95,70 +123,44 @@
       "status": "editorial",
       "title_es": "Las nuevas mazmorras de Forever",
       "title_en": "Forever's New Dungeons",
-      "summary_es": "Salón de los Feudales, Ruinas de Lordaeron, Excavación: Los Humedales y Ciudad de Dalaran son nuevas.",
-      "summary_en": "Hall of Thanes, Ruins of Lordaeron, Excavation: Wetlands and City of Dalaran are new.",
+      "summary_es": "Nueve mazmorras nuevas llegan en el lanzamiento y rellenan tramos de nivel poco cubiertos.",
+      "summary_en": "Nine new dungeons arrive at launch and fill less-covered level brackets.",
       "keywords_es": [
         "mazmorras nuevas forever",
-        "salón de los feudales",
-        "ruinas de lordaeron",
-        "excavación los humedales",
-        "ciudad de dalaran"
+        "nuevas mazmorras al lanzamiento",
+        "mazmorra nueva antes del nivel 20",
+        "tramos de nivel de mazmorra"
       ],
       "keywords_en": [
         "new forever dungeons",
-        "hall of thanes",
-        "ruins of lordaeron",
-        "excavation wetlands",
-        "city of dalaran"
+        "new dungeons at launch",
+        "dungeon before level 20",
+        "dungeon level brackets"
       ],
-      "text_es": "Las nuevas son Salón de los Feudales (13-18, Forjaz), Ruinas de Lordaeron (15-20, Entrañas), Excavación: Los Humedales (26-33, Los Humedales) y Ciudad de Dalaran (28-35, Montañas de Alterac). Son exclusivas de Forever y tienen guía completa. Dalaran exige una llave a la Horda para entrar por las cloacas, y el Salón está bajo la Sala del Trono de Forjaz. El resto de mazmorras de esta guía son clásicas.",
-      "text_en": "The new ones are Hall of Thanes (13-18, Ironforge), Ruins of Lordaeron (15-20, Undercity), Excavation: Wetlands (26-33, Wetlands), and City of Dalaran (28-35, Alterac Mountains). They are exclusive to Forever and have full guides. Dalaran requires a key for Horde groups entering through the sewers, and the Hall lies under Ironforge's throne room. The other dungeons in this guide are classic.",
+      "text_es": "Las nueve mazmorras nuevas de Forever están disponibles desde el lanzamiento y suavizan la subida al cubrir huecos entre los rangos clásicos. Por ejemplo, el Salón de los Feudales cubre los niveles 13-18 y las Ruinas de Lordaeron, 15-20; ambas permiten empezar a explorar mazmorras antes del nivel 20.",
+      "text_en": "Forever’s nine new dungeons are available at launch and smooth leveling by filling gaps between Classic level ranges. For example, Hall of Thanes covers levels 13-18 and Ruins of Lordaeron 15-20; both let players begin exploring dungeons before level 20.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: All Available Dungeons in WoW Forever › WoW Forever Dungeons Overview",
-          "url": "https://www.icy-veins.com/wow-forever/dungeons-overview",
-          "date": "2026-11-11"
+          "ref": "Wowhead: Dungeons Overview for Forever - Locations, Guides and Details › New and Existing Dungeon Levels in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dungeons-overview-locations-details",
+          "date": "2026-11-15"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: Hall of Thanes Dungeon Guide › Hall of Thanes Dungeon Entrance and Basics",
-          "url": "https://www.icy-veins.com/wow-forever/hall-of-thanes-guide",
-          "date": "2026-10-19"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Ruins of Lordaeron Dungeon Guide › Ruins of Lordaeron Dungeon Entrance and Basics",
-          "url": "https://www.icy-veins.com/wow-forever/ruins-of-lordaeron-guide",
-          "date": "2026-10-19"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Excavation Site: Wetlands Dungeon Guide › Excavation Site: Wetlands Dungeon Entrance and Basics",
-          "url": "https://www.icy-veins.com/wow-forever/excavation-site-wetlands-guide",
-          "date": "2026-10-18"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: City of Dalaran Dungeon Guide › City of Dalaran Dungeon Entrance and Basics",
-          "url": "https://www.icy-veins.com/wow-forever/city-of-dalaran-guide",
-          "date": "2026-10-18"
+          "ref": "Wowhead: World of Warcraft: Forever Overview - New Features, Zones, Raids › New Dungeons in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/overview-features-zones-raids",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "dungeon:city-of-dalaran",
-        "dungeon:excavation-site-wetlands",
-        "dungeon:hall-of-thanes",
-        "dungeon:ruins-of-lordaeron",
-        "general:dungeons-overview"
+        "general:dungeons-overview",
+        "raid:overview-features-zones-raids"
       ],
       "source_hashes": [
-        "section:0c7a211d76d1a1446a621ab4018ce536ed112140",
-        "section:1af863846ee4e5073a1a5c8fcfdb1da5df54711e",
-        "section:7a47df7d0060d3601a6b5005bff48a17aaffeeea",
-        "section:910464856e8952d442ccfa0678f13b02c1384434",
-        "section:99bc604b3049eba46b7d0de7d49c07f9d50b60f4"
+        "section:736131dd24e2ea87b18ea31f8668656a2a4ae655",
+        "section:e0346c58ee0bacc7443d3baaede59af6c961c063"
       ]
     },
     {
@@ -13215,6 +13217,536 @@
       "source_hashes": [
         "section:e1e3fe08453b5e44a8c8af36e4bd913fd2a832dd",
         "section:f121de56f6d286dbab345b071a64b8e677843e22"
+      ]
+    },
+    {
+      "id": "banda-general",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Fechas y tamaños de las bandas",
+      "title_en": "Barrow Deeps, Hyjal Summit, and Onyxia's Lair",
+      "summary_es": "El 9 de diciembre llegan tres bandas de nivel 60: dos nuevas para 10 y 20 jugadores y otra para 40.",
+      "summary_en": "Barrow Deeps (10), Hyjal Summit (20), and Onyxia's Lair (40) open Dec. 9 at level 60.",
+      "keywords_es": [
+        "bandas de forever",
+        "cuándo salen las bandas",
+        "tamaño de las bandas",
+        "bandas nivel 60",
+        "bandas nuevas"
+      ],
+      "keywords_en": [
+        "Barrow Deeps",
+        "Hyjal Summit",
+        "Onyxia’s Lair",
+        "raid release date",
+        "raid sizes"
+      ],
+      "text_es": "El 9 de diciembre de 2026 se abren tres bandas para nivel 60: dos nuevas, de 10 y 20 jugadores, y el regreso de la de Onyxia para 40.",
+      "text_en": "On December 9, 2026, three level-60 raids open: Barrow Deeps for 10 players, Hyjal Summit for 20, and Onyxia's Lair returns for 40.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: World of Warcraft: Forever Overview - New Features, Zones, Raids › New Raids in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/overview-features-zones-raids",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Raids Overview - Locations, Bosses and Guides › Hyjal Summit Raid in Forever",
+          "url": "https://www.wowhead.com/forever/guide/raids-overview-hub-dates-locations",
+          "date": "2026-09-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Raids Overview - Locations, Bosses and Guides › Barrow Deeps Raid in Forever",
+          "url": "https://www.wowhead.com/forever/guide/raids-overview-hub-dates-locations",
+          "date": "2026-09-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Raids Overview - Locations, Bosses and Guides › Onyxia's Lair Raid in Forever",
+          "url": "https://www.wowhead.com/forever/guide/raids-overview-hub-dates-locations",
+          "date": "2026-09-13"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "raid:overview-features-zones-raids",
+        "raid:raids-overview-hub-dates-locations"
+      ],
+      "source_hashes": [
+        "section:1d39bd59197bee0430d635737fee8f40692276c0",
+        "section:244d10e8e960c81b68fd746a6f61370a2e1a99ef",
+        "section:5f17cbfd71a6c92496cc27265b1a6e9554d99e08",
+        "section:790a225d421d8119d7766d2a69d59615ef0a3822"
+      ]
+    },
+    {
+      "id": "banda-ubicaciones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Ubicación y accesos de las bandas",
+      "title_en": "Barrow Deeps, Hyjal Summit, and Onyxia Locations",
+      "summary_es": "La banda de 10 tiene tres accesos; una entrada y la banda de 20 están en la nueva zona de nivel 60.",
+      "summary_en": "The 10-player raid has three entrances; one and the 20-player raid are in the new level-60 zone.",
+      "keywords_es": [
+        "dónde están las bandas",
+        "accesos a bandas",
+        "entrada banda de 10",
+        "zona de bandas",
+        "ubicación de Onyxia"
+      ],
+      "keywords_en": [
+        "raid locations",
+        "raid entrances",
+        "10-player raid entrance",
+        "raid zone",
+        "Onyxia location"
+      ],
+      "text_es": "La banda de 10 jugadores tendrá tres accesos repartidos por el mundo, uno en la nueva zona de nivel 60. La de 20 también está en esa zona; sus entradas aún figuran como pendientes. La banda de 40 se encuentra en una cueva al sur de una zona pantanosa, pero su entrada puede haber cambiado y no está confirmada.",
+      "text_en": "The 10-player Barrow Deeps raid will have three entrances across the world, one in the new level-60 zone of Mount Hyjal. The 20-player Hyjal Summit is also there, but its entrance is unknown. The 40-player Onyxia's Lair is in a cave south of a marshland zone; its entrance may have moved and is unconfirmed.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Raids Overview - Locations, Bosses and Guides › Barrow Deeps Raid in Forever",
+          "url": "https://www.wowhead.com/forever/guide/raids-overview-hub-dates-locations",
+          "date": "2026-09-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Raids Overview - Locations, Bosses and Guides › Hyjal Summit Raid in Forever",
+          "url": "https://www.wowhead.com/forever/guide/raids-overview-hub-dates-locations",
+          "date": "2026-09-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Raids Overview - Locations, Bosses and Guides › Onyxia's Lair Raid in Forever",
+          "url": "https://www.wowhead.com/forever/guide/raids-overview-hub-dates-locations",
+          "date": "2026-09-13"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "raid:raids-overview-hub-dates-locations"
+      ],
+      "source_hashes": [
+        "section:1d39bd59197bee0430d635737fee8f40692276c0",
+        "section:244d10e8e960c81b68fd746a6f61370a2e1a99ef",
+        "section:5f17cbfd71a6c92496cc27265b1a6e9554d99e08"
+      ]
+    },
+    {
+      "id": "banda-onyxia-attunement",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Requisito para entrar en la guarida de Onyxia",
+      "title_en": "Onyxia’s Lair Attunement Requirement",
+      "summary_es": "Cada integrante debe llevar el Amuleto de Pirodraco; la cadena depende de la facción y puede iniciarse antes del 60.",
+      "summary_en": "Every raider needs the Drakefire Amulet; the quest chain is faction-specific and can start before level 60.",
+      "keywords_es": [
+        "requisito guarida de onyxia",
+        "amuleto de pirodraco",
+        "sintonización de onyxia",
+        "attunement onyxia",
+        "entrar en banda de onyxia"
+      ],
+      "keywords_en": [
+        "Onyxia attunement",
+        "Drakefire Amulet",
+        "Onyxia raid requirement",
+        "start attunement before 60"
+      ],
+      "text_es": "Para entrar, cada jugador debe tener equipado o en sus bolsas el Amuleto de Pirodraco; no basta con que lo lleve quien lidera la banda. Se obtiene al final de una cadena distinta para cada facción. Como lleva muchas horas, conviene avanzar antes del nivel 60, mientras aún se gana experiencia.",
+      "text_en": "To enter, every player must have the Drakefire Amulet equipped or in their bags; it is not enough for the raid leader to carry it. The amulet comes at the end of a faction-specific quest chain. Since the chain takes many hours, it is worth progressing before level 60 while quests still grant experience.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › Onyxia's Lair Attunement in Forever",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "raid:onyxias-lair-attunement-guide"
+      ],
+      "source_hashes": [
+        "section:3b523e06275e258a1aa8333419c78e2833a41b17"
+      ]
+    },
+    {
+      "id": "banda-onyxia-alianza-inicio",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Sintonización de la Alianza: primeros pasos",
+      "title_en": "Alliance Attunement: First Steps",
+      "summary_es": "La cadena de la Alianza pasa por La amenaza de los dragonantes, Los verdaderos maestros y Profundidades de Roca Negra.",
+      "summary_en": "The Alliance chain runs through Dragonkin Menace, The True Masters, and Blackrock Depths.",
+      "keywords_es": [
+        "misiones alianza onyxia",
+        "cadena alianza onyxia",
+        "la amenaza de los dragonantes",
+        "los verdaderos maestros",
+        "alguacil windsor"
+      ],
+      "keywords_en": [
+        "Alliance Onyxia quests",
+        "Alliance attunement chain",
+        "Dragonkin Menace",
+        "The True Masters",
+        "Marshal Windsor"
+      ],
+      "text_es": "Empieza con La amenaza de los dragonantes y elimina los dragonantes indicados en las Estepas Ardientes. Completa las seis partes de Los verdaderos maestros, que enlazan varias ciudades, y habla con el Mariscal Maxwell. En Profundidades de Roca Negra, sigue las pistas hasta El alguacil Windsor; tras Esperanza perdida, consigue Una nota arrugada y entrégasela. Luego derrota a General Forjira y Señor gólem Argelmach para recuperar la información perdida.",
+      "text_en": "Start with Dragonkin Menace and defeat the listed dragonkin in Burning Steppes. Complete the six parts of The True Masters, which send you between several cities, then speak with Marshal Maxwell. Marshal Windsor waits in a cell in Blackrock Depths; after Abandoned Hope, obtain A Crumpled Up Note and deliver it to him. Then defeat General Angerforge and Golem Lord Argelmach to recover the lost information.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › Dragonkin Menace",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › The True Masters",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › Marshal Windsor",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › Abandoned Hope",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › A Crumpled Up Note",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › A Shred of Hope",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "raid:onyxias-lair-attunement-guide"
+      ],
+      "source_hashes": [
+        "section:25057a303838ff466f63f626f3d3b731cb0a7b85",
+        "section:3a0a4c4dfab09ce8bd6059831c780f02d9c12dd5",
+        "section:40d165c25dc86694479840184736afe4be233ebd",
+        "section:48fcaa5f3ce2a294bd2f36be52039d74d30070de",
+        "section:7ee78ef8624dc31693baa1482780290541d7eff3",
+        "section:84e48d7e24b56c2e040ff76ac5087bcb4d344973"
+      ]
+    },
+    {
+      "id": "banda-onyxia-alianza-final",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Sintonización de la Alianza: tramo final",
+      "title_en": "Alliance Attunement: Final Steps",
+      "summary_es": "La fuga de la prisión y El Ojo del dragón conducen al Amuleto de Pirodraco.",
+      "summary_en": "Jail Break! and The Dragon’s Eye lead to the Drakefire Amulet.",
+      "keywords_es": [
+        "final cadena alianza onyxia",
+        "la fuga de la prisión",
+        "la gran farsa",
+        "el ojo del dragón",
+        "conseguir amuleto de pirodraco"
+      ],
+      "keywords_en": [
+        "final Alliance Onyxia chain",
+        "Jail Break",
+        "The Great Masquerade",
+        "The Dragon’s Eye",
+        "get Drakefire Amulet"
+      ],
+      "text_es": "Completa La fuga de la prisión y, en Tienes un cita en Ventormenta, reúnete con Windsor; después protégelo durante La gran farsa. Ojo de dragón te envía a una cueva con élites: puedes ir en grupo, usar sigilo o avanzar mediante resurrecciones. Para Amuleto Pirodraco, derrota a General Drakkisath en Cumbre de Roca Negra superior y vuelve con quien te dio la misión para recibir el amuleto.",
+      "text_en": "Jail Break! must be completed before you meet Windsor during Stormwind Rendezvous; then protect him through The Great Masquerade. The Dragon’s Eye sends you into an elite-filled cave: you can group up, use stealth, or corpse-hop through it. The final quest requires you to defeat General Drakkisath in Upper Blackrock Spire and return to the quest giver to receive the amulet.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › Jail Break!",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › Stormwind Rendezvous",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › The Great Masquerade",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › The Dragon's Eye",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › Drakefire Amulet",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "raid:onyxias-lair-attunement-guide"
+      ],
+      "source_hashes": [
+        "section:62f1c0a7d8e70a49fde0dce03a792660ba917369",
+        "section:91b8e766b2445a69f7f0f3c48023ade3e363c929",
+        "section:94b6af9deb7762099ac3aa646e601bc6531ef6dc",
+        "section:9d6d55701b13a15afcca8d46b7a7c246595edb7c",
+        "section:e7d19763d7ab7928759c4ec13c4f7adc854725bf"
+      ]
+    },
+    {
+      "id": "banda-onyxia-horda-inicio",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Sintonización de la Horda: primeros pasos",
+      "title_en": "Horde Attunement: First Steps",
+      "summary_es": "La orden exige tres jefes y documentos; después siguen Eitrigg y Jefe de Guerra Desgarro Puño Negro.",
+      "summary_en": "Warlord’s Command requires three bosses and documents; Eitrigg and Warchief Rend Blackhand follow.",
+      "keywords_es": [
+        "misiones horda onyxia",
+        "cadena horda onyxia",
+        "la orden del señor de la guerra",
+        "la sabiduría de eitrigg",
+        "por la horda"
+      ],
+      "keywords_en": [
+        "Horde Onyxia quests",
+        "Horde attunement chain",
+        "Warlord’s Command",
+        "Eitrigg’s Wisdom",
+        "For The Horde"
+      ],
+      "text_es": "Empieza en Kargath con La orden del Señor de la Guerra: en Cumbre de Roca Negra inferior, derrota a Alto Señor Omokk, Maestro de guerra Voone y Señor supremo Vermiothalak, y recoge Importantes documentos de Roca Negra. Después completa La sabiduría de Eitrigg y ¡Por la Horda!: mata a Jefe de Guerra Desgarro Puño Negro en Cumbre de Roca Negra superior, recoge su cabeza y vuelve con Thrall.",
+      "text_en": "Start in Kargath with Warlord’s Command: in Lower Blackrock Spire, defeat Highlord Omokk, War Master Voone, and Overlord Wyrmthalak, and recover Important Blackrock Documents. Then complete Eitrigg’s Wisdom and For The Horde!: kill Warchief Rend Blackhand in Upper Blackrock Spire, take his head, and return to Thrall.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › Blood and Thunder / Warlord's Command",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › Eitrigg's Wisdom",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › For The Horde!",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "raid:onyxias-lair-attunement-guide"
+      ],
+      "source_hashes": [
+        "section:75e7a4d3fa688619577eb8db7a81e81dbc7f60a1",
+        "section:c6acf2ffc1e783c3df27191b62523d2cf7594b1c",
+        "section:f1ceb77c357f710432fe0943cb48538735e910c3"
+      ]
+    },
+    {
+      "id": "banda-onyxia-horda-final",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Sintonización de la Horda: pruebas y amuleto",
+      "title_en": "Horde Attunement: Trials and Amulet",
+      "summary_es": "La cadena continúa con pruebas de dragones en grupo y termina al llevar la sangre de Drakkisath al guía.",
+      "summary_en": "The chain continues with group dragon trials and ends by bringing Drakkisath’s blood to the quest giver.",
+      "keywords_es": [
+        "pruebas de dragones horda onyxia",
+        "ojo de dragauro negro",
+        "amuleto de subversión dracónica",
+        "brasaliza onyxia",
+        "sangre de drakkisath"
+      ],
+      "keywords_en": [
+        "Horde dragon trials Onyxia",
+        "Black Dragonspawn Eye",
+        "Amulet of Draconic Subversion",
+        "Emberstrife Onyxia",
+        "Drakkisath blood"
+      ],
+      "text_es": "Tras El Campeón de la Horda, entrega el Testamento de Rexxar a Myranda la Fada. Reúne 20 Ojos de dragauro negro en Cumbre de Roca Negra superior y usa el Amuleto de Subversión dracónica para hablar con Brasaliza. Sus pruebas exigen derrotar tres dragones en cualquier orden con un grupo y después vencer a otro. Por último, mata a General Drakkisath en la parte superior y entrega su sangre al guía de la cadena para recibir el Amuleto de Pirodraco.",
+      "text_en": "Once that quest is complete, deliver Rexxar’s Testament to Myranda the Hag. Collect 20 Black Dragonspawn Eyes in Upper Blackrock Spire and use the Amulet of Draconic Subversion to speak with Emberstrife. The trials require a group to defeat three dragons in any order and then defeat another. Finally, kill General Drakkisath in the upper spire and bring his blood to the chain’s quest giver to receive the Drakefire Amulet.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › The Champion of the Horde",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › The Testament of Rexxar",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › Oculus Illusions",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › Emberstrife",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › The Test of Skulls",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › Ascension...",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Onyxia's Lair Attunement & Drakefire Amulet Guide - WoW: Forever › Blood of the Black Dragon Champion",
+          "url": "https://www.wowhead.com/forever/guide/raids/onyxias-lair-attunement-guide",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "raid:onyxias-lair-attunement-guide"
+      ],
+      "source_hashes": [
+        "section:20989e228e2241178392b864de16d8dfd8910f86",
+        "section:742f5dfb1c16e487efe5510ec9f70a89803d1433",
+        "section:85a7652c8c627f748f6fb0a265766deb7edba584",
+        "section:8ebe229edd576e39f44cb8e3e58d8cc9dc44d85c",
+        "section:9d3bd473b2bcf6461d0a170ec9db49b09654bb8f",
+        "section:a86f98d28eb5c9c83322f77e5ee4cc65cf50cf46",
+        "section:c33ed01161b4539ac677031168d8f262fb6bd84f"
+      ]
+    },
+    {
+      "id": "banda-paladin-sagrado-build",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Build de banda del Paladín Sagrado",
+      "title_en": "Holy Paladin Raid Build",
+      "summary_es": "La distribución 31/8/12 prioriza Vigilia de la Luz; un punto de talento retirado queda libre.",
+      "summary_en": "The 31/8/12 split prioritizes Light’s Vigil; one point from a removed talent remains free.",
+      "keywords_es": [
+        "build paladín sagrado bandas",
+        "talentos sanador paladín",
+        "build 31 8 12",
+        "vigilia de la luz paladín"
+      ],
+      "keywords_en": [
+        "Holy Paladin raid build",
+        "Paladin healer talents",
+        "31 8 12 build",
+        "Light’s Vigil Paladin"
+      ],
+      "tags": [
+        "PALADIN"
+      ],
+      "text_es": "La build de banda de Sagrado reparte 31 puntos en Sagrado, 8 en Protección y 12 en Reprensión, con Vigilia de la Luz y talentos de utilidad y maná. El calculador descarta un punto asignado a un talento retirado, así que queda libre para gastar. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "The raid Holy build spends 31 points in Holy, 8 in Protection, and 12 in Retribution, taking Light’s Vigil and utility and mana talents. The calculator drops one point assigned to a removed talent, leaving it free to spend. Provisional recommendation until tested at level 60.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: WoW: Forever Raid/Dungeon Healer Holy Paladin Guide › The build: Raid Holy (31/8/12)",
+          "url": "https://www.wowhead.com/forever/guide/wow-forever-raid-dungeon-healer-holy-paladin-guide-35023",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "raid:wow-forever-raid-dungeon-healer-holy-paladin-guide-35023"
+      ],
+      "source_hashes": [
+        "section:a327be31b0c21267ed8abec705246700181a83da"
+      ]
+    },
+    {
+      "id": "banda-paladin-sagrado-sanacion",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Sanación de banda del Paladín Sagrado",
+      "title_en": "Holy Paladin Raid Healing",
+      "summary_es": "Combina curación constante con Choque Sagrado y Vigilia de la Luz para atender daño de grupo.",
+      "summary_en": "Combine steady healing with Holy Shock and Light’s Vigil to handle party damage.",
+      "keywords_es": [
+        "sanar banda paladín sagrado",
+        "consejos sanador paladín",
+        "choque sagrado banda",
+        "vigilia de la luz sanar grupo"
+      ],
+      "keywords_en": [
+        "Holy Paladin raid healing",
+        "Paladin healer tips",
+        "Holy Shock raid",
+        "Light’s Vigil party healing"
+      ],
+      "tags": [
+        "PALADIN"
+      ],
+      "text_es": "Asigna Vigilia de la Luz al tanque de tu grupo. Usa Destello de Luz como respuesta habitual y lanza Choque Sagrado sobre el objetivo marcado cuando el grupo reciba daño; reserva Luz Sagrada para golpes grandes. Los críticos ayudan a recuperar maná y aceleran el siguiente uso de Luz Sagrada. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Place Light’s Vigil on your party’s tank. Use Flash of Light as your steady heal and cast Holy Shock on the marked target when the group takes damage; save it for large hits. Critical heals help restore mana and speed up your next Holy Light. Provisional recommendation until tested at level 60.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: WoW: Forever Raid/Dungeon Healer Holy Paladin Guide › Healing playstyle",
+          "url": "https://www.wowhead.com/forever/guide/wow-forever-raid-dungeon-healer-holy-paladin-guide-35023",
+          "date": "2026-10-20"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: WoW: Forever Raid/Dungeon Healer Holy Paladin Guide › Healing toolkit",
+          "url": "https://www.wowhead.com/forever/guide/wow-forever-raid-dungeon-healer-holy-paladin-guide-35023",
+          "date": "2026-10-20"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: WoW: Forever Raid/Dungeon Healer Holy Paladin Guide › Beta notes to verify",
+          "url": "https://www.wowhead.com/forever/guide/wow-forever-raid-dungeon-healer-holy-paladin-guide-35023",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "raid:wow-forever-raid-dungeon-healer-holy-paladin-guide-35023"
+      ],
+      "source_hashes": [
+        "section:37bd1616630c7cc00a39a6da3fbb18d4a7e94f60",
+        "section:a11c95a90583185db9fb275a46d41978626e4932",
+        "section:a3897a6602d81d459948c17bee3f0995d8e06972"
       ]
     }
   ]
