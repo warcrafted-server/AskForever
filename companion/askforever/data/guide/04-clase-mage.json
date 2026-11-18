@@ -1465,29 +1465,29 @@
           "type": "editorial",
           "ref": "Wowhead: Arcane Mage DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Arcane Mages in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/rotation-cooldowns-pve-dps",
-          "date": "2026-11-10"
+          "date": "2026-11-16"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Arcane Mage DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Arcane Mage DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/rotation-cooldowns-pve-dps",
-          "date": "2026-11-10"
+          "date": "2026-11-16"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Arcane Mage DPS Rotation and Cooldowns - WoW: Forever › Best Arcane Mage Cooldown Usage in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/rotation-cooldowns-pve-dps",
-          "date": "2026-11-10"
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:mage:arcane:rotation"
       ],
       "source_hashes": [
-        "section:663faea8c3d3b53f9f40994d682eaffeecffffb0",
         "section:6d749148c52f1075ce3201a7308a11704ff831fe",
-        "section:a37d63aac2e8b17dc5e110cde22bf3b8f85bda43"
+        "section:a37d63aac2e8b17dc5e110cde22bf3b8f85bda43",
+        "section:d8fbaf701242cbd51b55dd19ff1301ca6918a238"
       ]
     },
     {
@@ -1581,8 +1581,8 @@
         "flamestrike precast",
         "arcane power sequence"
       ],
-      "text_es": "En área, prelanza Fogonazo si tienes tiempo y la amenaza lo permite; después usa Deflagración Arcana. Para la ventana de Poder Arcano, prepara Cólera Arcana, lanza Explosión Arcana hasta activar Tromba de misiles, activa Poder Arcano y gasta el proc; luego usa Presencia mental y Cólera Arcana si está disponible, o Explosión Arcana por debajo de 4 acumulaciones.",
-      "text_en": "For area damage, pre-cast Flamestrike if you have time and threat allows, then use Arcane Explosion. Cooldown sequence: prepare Arcane Wrath, cast Arcane Blast until Missile Barrage procs, activate Arcane Power and spend the proc; then use Presence of Mind and Arcane Wrath if available, or Arcane Blast below 4 stacks.",
+      "text_es": "En área, prelanza Fogonazo si tienes tiempo y la amenaza lo permite; después usa Deflagración Arcana. Para la ventana de Poder Arcano de Arcano puro, lanza primero Cólera Arcana; después, Explosión Arcana hasta 4 acumulaciones, activa Poder Arcano y continúa con la prioridad de rotación correspondiente.",
+      "text_en": "For area damage, pre-cast Flamestrike if you have time and threat allows, then use Arcane Explosion. For Full Arcane, pre-cast Arcane Wrath, then cast Arcane Blast up to 4 stacks, use Arcane Power, and continue with the appropriate rotation priority.",
       "tags": [
         "MAGE"
       ],
@@ -1591,22 +1591,22 @@
           "type": "editorial",
           "ref": "Wowhead: Arcane Mage DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Arcane Mage in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/rotation-cooldowns-pve-dps",
-          "date": "2026-11-10"
+          "date": "2026-11-16"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Arcane Mage DPS Rotation and Cooldowns - WoW: Forever › Best Arcane Mage Cooldown Usage in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/rotation-cooldowns-pve-dps",
-          "date": "2026-11-10"
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:mage:arcane:rotation"
       ],
       "source_hashes": [
         "section:403f62142b48c094f0554aba3efcd34eb8c3bf10",
-        "section:663faea8c3d3b53f9f40994d682eaffeecffffb0"
+        "section:d8fbaf701242cbd51b55dd19ff1301ca6918a238"
       ]
     },
     {
