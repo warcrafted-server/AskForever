@@ -13748,6 +13748,843 @@
         "section:a11c95a90583185db9fb275a46d41978626e4932",
         "section:a3897a6602d81d459948c17bee3f0995d8e06972"
       ]
+    },
+    {
+      "id": "banda-tier-apariencia",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Aspecto de los conjuntos de Tier 1",
+      "title_en": "Tier 1 Set Appearance",
+      "summary_es": "Forever permite elegir modelos SD o HD; las imágenes disponibles muestran solo los HD.",
+      "summary_en": "Forever lets players choose SD or HD models; the available images show only HD.",
+      "keywords_es": [
+        "aspecto de los conjuntos",
+        "conjuntos de Tier 1",
+        "modelos SD y HD",
+        "aspecto de los conjuntos de temporada"
+      ],
+      "keywords_en": [
+        "tier set appearance",
+        "season 1 sets",
+        "SD and HD models",
+        "tier 1 set models"
+      ],
+      "text_es": "En la temporada 1 se añaden conjuntos de equipo para las clases. En Forever puedes elegir entre modelos SD y HD, pero las imágenes de estos conjuntos muestran solo la versión HD.",
+      "text_en": "Season 1 adds class gear sets. In Forever, you can choose SD or HD models, but the images for these sets show only the HD version.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › (intro)",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "guide:8bd1d7566bf9fbfe7f632d63522b44cad92ee64b"
+      ]
+    },
+    {
+      "id": "banda-tier-druida-equilibrio",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones de Equilibrio del druida",
+      "title_en": "Druid Balance Set Bonuses",
+      "summary_es": "Las piezas de Equilibrio mejoran el golpe, las raíces y el daño contra demonios.",
+      "summary_en": "Balance pieces improve hit, roots, and damage against demons.",
+      "keywords_es": [
+        "conjunto de Equilibrio",
+        "bonificaciones de druida",
+        "Tier 1 del druida",
+        "bonos de Equilibrio"
+      ],
+      "keywords_en": [
+        "Balance set bonuses",
+        "druid tier set",
+        "Balance pieces",
+        "druid season set"
+      ],
+      "text_es": "Con dos piezas aumenta un 1% la probabilidad de golpe; con tres, se reduce 15 s la recarga del hechizo de raíces. Con cuatro, los hechizos infligen hasta 21 más de daño contra demonios, y con cinco aumenta 3 s la duración del efecto de daño periódico de insectos.",
+      "text_en": "Two pieces add 1% hit chance; three reduce the root spell's cooldown by 15 seconds. Four increase spell damage against demons by up to 21, and five add 3 seconds to the duration of the insect damage-over-time effect.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Druid",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:6f046b7d48b843c491e9c0835e78b98512eb1533"
+      ]
+    },
+    {
+      "id": "banda-tier-druida-feral-dps",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones ferales de daño del druida",
+      "title_en": "Druid Feral DPS Set Bonuses",
+      "summary_es": "El conjunto feral de daño potencia la velocidad, el control y las facultades felinas.",
+      "summary_en": "The Feral damage set boosts speed, control, and cat abilities.",
+      "keywords_es": [
+        "conjunto feral de daño",
+        "bonificaciones ferales",
+        "Tier 1 del druida",
+        "equipo feral DPS"
+      ],
+      "keywords_en": [
+        "Feral DPS set",
+        "Feral set bonuses",
+        "druid tier set",
+        "Feral damage gear"
+      ],
+      "text_es": "Con dos piezas aumenta un 1% la velocidad de ataque y de lanzamiento. Con tres, puedes lanzar el hechizo de dormir en forma felina, con 1,5 s menos de lanzamiento y una recarga de 15 s; con cuatro obtienes 36 de poder de ataque contra demonios y con cinco reduces 3 s la recarga de la facultad de furia felina.",
+      "text_en": "Two pieces increase attack and casting speed by 1%. With three, the sleep spell can be cast in Cat Form with 1.5 seconds less cast time and a 15-second cooldown; four add 36 attack power against demons, and five reduce the cat-fury ability's cooldown by 3 seconds.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Druid",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:6f046b7d48b843c491e9c0835e78b98512eb1533"
+      ]
+    },
+    {
+      "id": "banda-tier-druida-feral-tanque",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones ferales de tanque del druida",
+      "title_en": "Druid Feral Tank Set Bonuses",
+      "summary_es": "El conjunto feral de tanque mejora defensa, resurrección y mitigación cuerpo a cuerpo.",
+      "summary_en": "The Feral tank set improves defense, resurrection, and melee mitigation.",
+      "keywords_es": [
+        "conjunto feral de tanque",
+        "bonificaciones de tanque druida",
+        "Tier 1 del druida",
+        "equipo de oso"
+      ],
+      "keywords_en": [
+        "Feral tank set",
+        "druid tank bonuses",
+        "druid tier set",
+        "bear tank gear"
+      ],
+      "text_es": "Con dos piezas aumenta 7 la defensa. Con tres puedes resucitar en forma de oso o Forma de oso temible y tardas 2 s menos en lanzar; con cuatro reduces un 1,2% la probabilidad de que esquiven o paren tus ataques cuerpo a cuerpo, y con cinco reduces 15 s la recarga de tu facultad de frenesí.",
+      "text_en": "Two pieces add 7 defense. With three, you can resurrect in Bear or Dire Bear Form and cast 2 seconds faster; four reduce the chance of your melee attacks being dodged or parried by 1.2%, and five reduce your frenzy ability's cooldown by 15 seconds.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Druid",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:6f046b7d48b843c491e9c0835e78b98512eb1533"
+      ]
+    },
+    {
+      "id": "banda-tier-druida-restauracion",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones de Restauración del druida",
+      "title_en": "Druid Restoration Set Bonuses",
+      "summary_es": "El conjunto de Restauración aumenta el espíritu y potencia la sanación mágica.",
+      "summary_en": "The Restoration set adds spirit and improves magical healing.",
+      "keywords_es": [
+        "conjunto de Restauración",
+        "bonificaciones de druida",
+        "Tier 1 del druida",
+        "equipo de sanación druida"
+      ],
+      "keywords_en": [
+        "Restoration set bonuses",
+        "druid tier set",
+        "druid healing gear",
+        "Restoration pieces"
+      ],
+      "text_es": "Con dos piezas aumenta 10 el espíritu; con tres, se reduce 10 s la recarga de la facultad defensiva de corteza. Con cuatro, los hechizos y efectos mágicos sanan hasta 26 más y dañan hasta 9 más; con cinco se reduce 3 s la recarga de la sanación rápida.",
+      "text_en": "Two pieces add 10 spirit; three reduce the bark-like defensive ability's cooldown by 10 seconds. Four increase healing by up to 26 and damage by up to 9 for magical spells and effects; five reduce the quick-heal spell's cooldown by 3 seconds.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Druid",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:6f046b7d48b843c491e9c0835e78b98512eb1533"
+      ]
+    },
+    {
+      "id": "banda-tier-cazador",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones del conjunto del cazador",
+      "title_en": "Hunter Set Bonuses",
+      "summary_es": "El conjunto del cazador mejora la velocidad, las trampas y los disparos.",
+      "summary_en": "The Hunter set improves speed, traps, and shots.",
+      "keywords_es": [
+        "conjunto del cazador",
+        "bonificaciones de cazador",
+        "Tier 1 del cazador",
+        "equipo de cazador"
+      ],
+      "keywords_en": [
+        "Hunter set bonuses",
+        "Hunter tier set",
+        "Hunter gear",
+        "season 1 Hunter set"
+      ],
+      "text_es": "Con dos piezas aumenta un 1% la velocidad de ataque y de lanzamiento; con tres, las trampas de Escarcha y congelación recargan 3 s antes. Con cuatro obtienes 36 de poder de ataque contra bestias, y con cinco reduces 1 s la recarga de los disparos de puntería y múltiples objetivos.",
+      "text_en": "Two pieces increase attack and casting speed by 1%; three reduce the cooldown of Frost and freezing traps by 3 seconds. Four add 36 attack power against beasts, and five reduce the cooldown of aimed and multi-target shots by 1 second.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Hunter",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:ebc219521af2088543d55930e1a9d0e15caf8117"
+      ]
+    },
+    {
+      "id": "banda-tier-mago",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones del conjunto del mago",
+      "title_en": "Mage Set Bonuses",
+      "summary_es": "El conjunto del mago mejora el golpe, la interrupción y los hechizos contra elementales.",
+      "summary_en": "The Mage set improves hit, interrupts, and spells against elementals.",
+      "keywords_es": [
+        "conjunto del mago",
+        "bonificaciones de mago",
+        "Tier 1 del mago",
+        "equipo de mago"
+      ],
+      "keywords_en": [
+        "Mage set bonuses",
+        "Mage tier set",
+        "Mage gear",
+        "season 1 Mage set"
+      ],
+      "text_es": "Con dos piezas aumenta un 1% la probabilidad de golpe; con tres, la interrupción de hechizos recarga 5 s antes. Con cuatro, tus hechizos infligen hasta 21 más de daño contra elementales; con cinco, el proyectil de fuego y escarcha tiene un 10% más de probabilidad de activar una descarga de misiles. Mientras está activo el efecto de combustión gana un 10% de probabilidad de crítico y tiene un 10% más de probabilidad de activar dedos helados.",
+      "text_en": "Two pieces add 1% hit chance; three reduce the spell-interrupt ability's cooldown by 5 seconds. Four increase spell damage against elementals by up to 21. With five, the fire-and-frost bolt has a 10% higher chance to trigger a missile volley; while the combustion effect is active, it gains 10% critical-strike chance and a 10% higher chance to trigger icy fingers.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Mage",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:10acba84dfd0688b2feb84756edf746c16ed3e4e"
+      ]
+    },
+    {
+      "id": "banda-tier-paladin-sagrado",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones Sagradas del paladín",
+      "title_en": "Paladin Holy Set Bonuses",
+      "summary_es": "El conjunto Sagrado del paladín refuerza el espíritu y la sanación mágica.",
+      "summary_en": "The Paladin Holy set boosts spirit and magical healing.",
+      "keywords_es": [
+        "conjunto Sagrado del paladín",
+        "bonificaciones de sanación",
+        "Tier 1 del paladín",
+        "equipo de paladín Sagrado"
+      ],
+      "keywords_en": [
+        "Paladin Holy set",
+        "Paladin healing bonuses",
+        "Paladin tier set",
+        "Holy Paladin gear"
+      ],
+      "text_es": "Con dos piezas aumenta 10 el espíritu; con tres, la bendición que protege contra ataques reduce su recarga 30 s. Con cuatro, los hechizos y efectos mágicos sanan hasta 26 más y dañan hasta 9 más; con cinco, Choque Sagrado recarga 1 s antes.",
+      "text_en": "Two pieces add 10 spirit; three reduce the cooldown of the protection blessing by 30 seconds. Four increase healing by up to 26 and damage by up to 9 for magical spells and effects; five reduce the holy shock spell's cooldown by 1 second.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Paladin",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:216d9df1546085e163692768958d6e28215066e6"
+      ]
+    },
+    {
+      "id": "banda-tier-paladin-proteccion",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones de Protección del paladín",
+      "title_en": "Paladin Protection Set Bonuses",
+      "summary_es": "El conjunto de Protección del paladín aumenta la defensa y reduce el daño recibido.",
+      "summary_en": "The Paladin Protection set adds defense and reduces damage taken.",
+      "keywords_es": [
+        "conjunto de Protección del paladín",
+        "bonificaciones de tanque paladín",
+        "Tier 1 del paladín",
+        "equipo de Protección"
+      ],
+      "keywords_en": [
+        "Paladin Protection set",
+        "Paladin tank bonuses",
+        "Paladin tier set",
+        "Protection Paladin gear"
+      ],
+      "text_es": "Con dos piezas aumenta 7 la defensa; con tres, se reduce 1,5 s el lanzamiento de la facultad para ahuyentar no-muertos. Con cuatro reduces un 1,2% la probabilidad de que esquiven o paren tus ataques cuerpo a cuerpo, y con cinco se acorta 10 s la duración de la penalización que impide volver a usar ciertas facultades.",
+      "text_en": "Two pieces add 7 defense; three reduce the cast time of the undead-fearing ability by 1.5 seconds. Four reduce the chance of your melee attacks being dodged or parried by 1.2%, and five shorten by 10 seconds the duration of the debuff that prevents certain abilities from being used again.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Paladin",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:216d9df1546085e163692768958d6e28215066e6"
+      ]
+    },
+    {
+      "id": "banda-tier-paladin-reprension",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones de Reprensión del paladín",
+      "title_en": "Paladin Retribution Set Bonuses",
+      "summary_es": "El conjunto de Reprensión mejora la velocidad, el control y el daño contra no-muertos.",
+      "summary_en": "The Retribution set improves speed, control, and damage against undead.",
+      "keywords_es": [
+        "conjunto de Reprensión",
+        "bonificaciones de paladín",
+        "Tier 1 del paladín",
+        "equipo de Reprensión"
+      ],
+      "keywords_en": [
+        "Retribution set bonuses",
+        "Paladin tier set",
+        "Paladin damage gear",
+        "Retribution pieces"
+      ],
+      "text_es": "Con dos piezas aumenta un 1% la velocidad de ataque y de lanzamiento; con tres, el aturdimiento recarga 5 s antes. Con cuatro obtienes 36 de poder de ataque contra no-muertos, y con cinco se reduce 0,5 s la recarga de la facultad de sentencia.",
+      "text_en": "Two pieces increase attack and casting speed by 1%; three reduce the stun's cooldown by 5 seconds. Four add 36 attack power against undead, and five reduce the judgement ability's cooldown by 0.5 seconds.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Paladin",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:216d9df1546085e163692768958d6e28215066e6"
+      ]
+    },
+    {
+      "id": "banda-tier-sacerdote-disciplina-sagrado",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones de Disciplina y Sagrado del sacerdote",
+      "title_en": "Priest Discipline and Holy Set Bonuses",
+      "summary_es": "El conjunto de sanación del sacerdote aumenta el espíritu y reduce recargas.",
+      "summary_en": "The Priest healing set adds spirit and reduces cooldowns.",
+      "keywords_es": [
+        "conjunto de Disciplina",
+        "conjunto de Sagrado",
+        "bonificaciones del sacerdote",
+        "Tier 1 del sacerdote"
+      ],
+      "keywords_en": [
+        "Discipline set",
+        "Holy Priest set",
+        "Priest set bonuses",
+        "Priest tier set"
+      ],
+      "text_es": "Con dos piezas aumenta 10 el espíritu; con tres, la protección contra el miedo recarga 60 s antes. Con cuatro, los hechizos y efectos mágicos sanan hasta 26 más y dañan hasta 9 más; con cinco, la sanación canalizada y la que salta entre aliados recargan 1 s antes.",
+      "text_en": "Two pieces add 10 spirit; three reduce the fear-ward cooldown by 60 seconds. Four increase healing by up to 26 and damage by up to 9 for magical spells and effects; five reduce by 1 second the cooldowns of the channeled heal and the heal that bounces between allies.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Priest",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:1dcacf3e1724cab881657c512ea4ca14af95c90c"
+      ]
+    },
+    {
+      "id": "banda-tier-sacerdote-sombra",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones de Sombra del sacerdote",
+      "title_en": "Priest Shadow Set Bonuses",
+      "summary_es": "El conjunto de Sombra mejora el golpe, el control y el daño contra no-muertos.",
+      "summary_en": "The Shadow set improves hit, control, and damage against undead.",
+      "keywords_es": [
+        "conjunto de Sombra del sacerdote",
+        "bonificaciones de Sombra",
+        "Tier 1 del sacerdote",
+        "equipo de sacerdote Sombra"
+      ],
+      "keywords_en": [
+        "Shadow Priest set",
+        "Shadow set bonuses",
+        "Priest tier set",
+        "Shadow gear"
+      ],
+      "text_es": "Con dos piezas aumenta un 1% la probabilidad de golpe; con tres, el control sobre no-muertos dura 10 s más. Con cuatro, los hechizos infligen hasta 21 más de daño contra no-muertos, y con cinco se reduce 60 s la recarga de la enfermedad que consume vida.",
+      "text_en": "Two pieces add 1% hit chance; three extend undead crowd control by 10 seconds. Four increase spell damage against undead by up to 21, and five reduce the cooldown of the life-draining disease by 60 seconds.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Priest",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:1dcacf3e1724cab881657c512ea4ca14af95c90c"
+      ]
+    },
+    {
+      "id": "banda-tier-chaman-elemental",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones Elementales del chamán",
+      "title_en": "Shaman Elemental Set Bonuses",
+      "summary_es": "El conjunto Elemental potencia el golpe, los tótems y el daño contra elementales.",
+      "summary_en": "The Elemental set boosts hit, totems, and damage against elementals.",
+      "keywords_es": [
+        "conjunto Elemental del chamán",
+        "bonificaciones de chamán",
+        "Tier 1 del chamán",
+        "equipo de Elemental"
+      ],
+      "keywords_en": [
+        "Elemental Shaman set",
+        "Shaman set bonuses",
+        "Shaman tier set",
+        "Elemental gear"
+      ],
+      "text_es": "Con dos piezas aumenta un 1% la probabilidad de golpe; con tres, el tótem que inmoviliza recarga 2 s antes. Con cuatro, los hechizos infligen hasta 21 más de daño contra elementales, y con cinco se reduce 1 s la recarga de la descarga de lava.",
+      "text_en": "Two pieces add 1% hit chance; three reduce the immobilizing totem's cooldown by 2 seconds. Four increase spell damage against elementals by up to 21, and five reduce the lava-burst spell's cooldown by 1 second.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Shaman",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:9c1a7df8a998f8d1ded8f624d1fd6667744f79e8"
+      ]
+    },
+    {
+      "id": "banda-tier-chaman-mejora",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones de Mejora del chamán",
+      "title_en": "Shaman Enhancement Set Bonuses",
+      "summary_es": "El conjunto de Mejora acelera los ataques y amplía el alcance de los tótems.",
+      "summary_en": "The Enhancement set speeds attacks and expands totem range.",
+      "keywords_es": [
+        "conjunto de Mejora del chamán",
+        "bonificaciones de chamán",
+        "Tier 1 del chamán",
+        "equipo de Mejora"
+      ],
+      "keywords_en": [
+        "Enhancement Shaman set",
+        "Shaman set bonuses",
+        "Shaman tier set",
+        "Enhancement gear"
+      ],
+      "text_es": "Con dos piezas aumenta un 1% la velocidad de ataque y de lanzamiento. Con tres, el radio de los tótems beneficiosos de Aire y de los Tótems de tierra aumenta 10 m; con cuatro obtienes 36 de poder de ataque contra elementales y con cinco la facultad de golpe con armas recarga 0,5 s antes.",
+      "text_en": "Two pieces increase attack and casting speed by 1%. With three, the radius of beneficial Air and Earth totems increases by 10 yards; four add 36 attack power against elementals, and five reduce the weapon-strike ability's cooldown by 0.5 seconds.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Shaman",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:9c1a7df8a998f8d1ded8f624d1fd6667744f79e8"
+      ]
+    },
+    {
+      "id": "banda-tier-chaman-restauracion",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones de Restauración del chamán",
+      "title_en": "Shaman Restoration Set Bonuses",
+      "summary_es": "El conjunto de Restauración mejora el espíritu, el alcance de tótems y la sanación.",
+      "summary_en": "The Restoration set improves spirit, totem range, and healing.",
+      "keywords_es": [
+        "conjunto de Restauración del chamán",
+        "bonificaciones de sanación",
+        "Tier 1 del chamán",
+        "equipo de chamán"
+      ],
+      "keywords_en": [
+        "Restoration Shaman set",
+        "Shaman healing bonuses",
+        "Shaman tier set",
+        "Restoration gear"
+      ],
+      "text_es": "Con dos piezas aumenta 10 el espíritu; con tres, el radio de los tótems beneficiosos de Fuego y de los Tótems de agua aumenta 10 m. Con cuatro, los hechizos y efectos mágicos sanan hasta 26 más y dañan hasta 9 más; con cinco se reduce 1 s la recarga de la sanación en oleada.",
+      "text_en": "Two pieces add 10 spirit; three increase the radius of beneficial Fire and Water totems by 10 yards. Four increase healing by up to 26 and damage by up to 9 for magical spells and effects; five reduce the wave-heal spell's cooldown by 1 second.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Shaman",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:9c1a7df8a998f8d1ded8f624d1fd6667744f79e8"
+      ]
+    },
+    {
+      "id": "banda-tier-brujo",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones del conjunto del brujo",
+      "title_en": "Warlock Set Bonuses",
+      "summary_es": "El conjunto del brujo mejora el golpe, el destierro y el maná obtenido al gastar salud.",
+      "summary_en": "The Warlock set improves hit, banishing, and mana gained by spending health.",
+      "keywords_es": [
+        "conjunto del brujo",
+        "bonificaciones de brujo",
+        "Tier 1 del brujo",
+        "equipo de brujo"
+      ],
+      "keywords_en": [
+        "Warlock set bonuses",
+        "Warlock tier set",
+        "Warlock gear",
+        "season 1 Warlock set"
+      ],
+      "text_es": "Con dos piezas aumenta un 1% la probabilidad de golpe; con tres, el destierro se lanza 1,5 s más rápido. Con cuatro, los hechizos infligen hasta 21 más de daño contra demonios; con cinco, la facultad que intercambia salud por maná genera un 20% más de maná sin coste adicional de salud.",
+      "text_en": "Two pieces add 1% hit chance; three reduce the banishing spell's cast time by 1.5 seconds. Four increase spell damage against demons by up to 21; five make the ability that trades health for mana generate 20% more mana at no extra health cost.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Warlock",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:747cec1c979716704b76978926338d388d383acf"
+      ]
+    },
+    {
+      "id": "banda-tier-guerrero-armas-furia",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones de Armas y Furia del guerrero",
+      "title_en": "Warrior Arms and Fury Set Bonuses",
+      "summary_es": "El conjunto de daño del guerrero acelera ataques y mejora el daño contra humanoides.",
+      "summary_en": "The Warrior damage set speeds attacks and improves damage against humanoids.",
+      "keywords_es": [
+        "conjunto de Armas",
+        "conjunto de Furia",
+        "bonificaciones del guerrero",
+        "Tier 1 del guerrero"
+      ],
+      "keywords_en": [
+        "Arms set",
+        "Fury set",
+        "Warrior set bonuses",
+        "Warrior tier set"
+      ],
+      "text_es": "Con dos piezas aumenta un 1% la velocidad de ataque y de lanzamiento; con tres, el grito que intimida recarga 30 s antes. Con cuatro obtienes 36 de poder de ataque contra humanoides, y con cinco reduces 30 s la recarga de la facultad de temeridad.",
+      "text_en": "Two pieces increase attack and casting speed by 1%; three reduce the intimidating shout's cooldown by 30 seconds. Four add 36 attack power against humanoids, and five reduce the recklessness ability's cooldown by 30 seconds.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Warrior",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:046cf10211bdc8b64d9d711cd060563fbc764be4"
+      ]
+    },
+    {
+      "id": "banda-tier-guerrero-proteccion",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bonificaciones de Protección del guerrero",
+      "title_en": "Warrior Protection Set Bonuses",
+      "summary_es": "El conjunto de Protección del guerrero aumenta defensa y reduce recargas defensivas.",
+      "summary_en": "The Protection set adds defense and reduces defensive cooldowns.",
+      "keywords_es": [
+        "conjunto de Protección del guerrero",
+        "bonificaciones de tanque guerrero",
+        "Tier 1 del guerrero",
+        "equipo de Protección"
+      ],
+      "keywords_en": [
+        "Warrior Protection set",
+        "Warrior tank bonuses",
+        "Warrior tier set",
+        "Protection Warrior gear"
+      ],
+      "text_es": "Con dos piezas aumenta 7 la defensa; con tres, la facultad de intervenir recarga 10 s antes. Con cuatro reduces un 1,2% la probabilidad de que esquiven o paren tus ataques cuerpo a cuerpo, y con cinco la barrera de escudo recarga 30 s antes.",
+      "text_en": "Two pieces add 7 defense; three reduce the intervene ability's cooldown by 10 seconds. Four reduce the chance of your melee attacks being dodged or parried by 1.2%, and five reduce the shield-wall ability's cooldown by 30 seconds.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › Warrior",
+          "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:season-1-tier-set-bonus-appearance-overview"
+      ],
+      "source_hashes": [
+        "section:046cf10211bdc8b64d9d711cd060563fbc764be4"
+      ]
+    },
+    {
+      "id": "mazmorra-tierlist-dps",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Clasificación de DPS JcE",
+      "title_en": "PvE DPS Rankings",
+      "summary_es": "Supervivencia, Demonología, Destrucción, Reprensión y Furia figuran en S por daño y utilidad.",
+      "summary_en": "Survival, Demonology, Destruction, Retribution, and Fury rank S for damage and utility.",
+      "keywords_es": [
+        "mejores DPS JcE",
+        "clasificación DPS",
+        "especializaciones DPS S",
+        "tier list de daño"
+      ],
+      "keywords_en": [
+        "best PvE DPS",
+        "DPS tier list",
+        "S-tier DPS specs",
+        "damage rankings"
+      ],
+      "text_es": "En daño JcE, el nivel S reúne Cazador Supervivencia, Brujo Demonología, Brujo Destrucción, Paladín Reprensión y Guerrero Furia. Supervivencia destaca por el daño a un objetivo y alternar ataques cuerpo a cuerpo y a distancia sin agotar el maná; Demonología combina daño a un objetivo y en área, mientras Destrucción suma daño competitivo, cleave y área. Reprensión une daño y utilidad de banda; Furia combina daño a un objetivo, cleave y utilidad. Es una predicción temprana que puede cambiar, y todas las especializaciones pueden completar el contenido.",
+      "text_en": "For PvE damage, S tier includes Survival Hunter, Demonology Warlock, Destruction Warlock, Retribution Paladin, and Fury Warrior. Survival stands out for single-target damage and alternating melee and ranged attacks without running out of mana; Demonology combines single-target and area damage, while Destruction adds competitive damage, cleave, and area damage. Retribution pairs damage with raid utility; Fury combines single-target damage, cleave, and utility. This is an early prediction that can change, and every specialization can clear the content.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: DPS Tier List for World of Warcraft: Forever - Best Specs & PvE Rankings › Best DPS Tier List for WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/tier-lists/dps-pve-rankings",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: DPS Tier List for World of Warcraft: Forever - Best Specs & PvE Rankings › WoW: Forever DPS Ranking and Explanations > S-Tier DPS Specs in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/tier-lists/dps-pve-rankings",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "tierlist:dps-pve-rankings"
+      ],
+      "source_hashes": [
+        "guide:44f5c17d1da87172d0e57878f1260762f851d4df",
+        "section:2bc82c4e09a5df367d615ff559f4589f47b83360"
+      ]
+    },
+    {
+      "id": "mazmorra-tierlist-healer",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Clasificación de sanadores JcE",
+      "title_en": "PvE Healer Rankings",
+      "summary_es": "Restauración del chamán lidera; Restauración del druida y Sagrado del sacerdote están en A.",
+      "summary_en": "Restoration Shaman leads; Restoration Druid and Holy Priest rank A.",
+      "keywords_es": [
+        "mejores sanadores JcE",
+        "clasificación de sanadores",
+        "especializaciones de sanación",
+        "tier list de sanadores"
+      ],
+      "keywords_en": [
+        "best PvE healers",
+        "healer tier list",
+        "healing rankings",
+        "top healer specs"
+      ],
+      "text_es": "En sanación JcE, Chamán Restauración está en S; Druida Restauración y Sacerdote Sagrado, en A. El chamán sobresale por sus tótems y por sanar al tanque y a varios objetivos; el druida ofrece gran sanación de banda, y el sacerdote combina eficiencia de maná y buen rendimiento en varios objetivos. Todas las especializaciones pueden completar el contenido; las diferencias dependen del encuentro y la clasificación puede cambiar.",
+      "text_en": "For PvE healing, Restoration Shaman ranks S; Restoration Druid and Holy Priest rank A. The Shaman stands out for totems and healing the tank and multiple targets; the Druid offers strong raid healing, while the Priest combines mana efficiency with strong multi-target healing. Every specialization can clear the content; strengths vary by encounter and the ranking can change.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Healer Tier List for World of Warcraft: Forever - Best Specs & PvE Rankings › Best Healer Tier List for WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/tier-lists/healer-pve-rankings",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Healer Tier List for World of Warcraft: Forever - Best Specs & PvE Rankings › WoW: Forever Healer Ranking and Explanations > S-Tier Healing Specs in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/tier-lists/healer-pve-rankings",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Healer Tier List for World of Warcraft: Forever - Best Specs & PvE Rankings › WoW: Forever Healer Ranking and Explanations > A-Tier Healing Specs in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/tier-lists/healer-pve-rankings",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "tierlist:healer-pve-rankings"
+      ],
+      "source_hashes": [
+        "guide:ba766a1a6641e33c4aa43ee8b3e19f4b151e71b0",
+        "section:4f361e36361bfadbd793f7544056105f6e686da4"
+      ]
+    },
+    {
+      "id": "mazmorra-tierlist-tanque",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Clasificación de tanques JcE",
+      "title_en": "PvE Tank Rankings",
+      "summary_es": "Druida Feral lidera por aguante; Guerrero y Paladín Protección están en A.",
+      "summary_en": "Feral Druid leads for durability; Protection Warrior and Paladin rank A.",
+      "keywords_es": [
+        "mejores tanques JcE",
+        "clasificación de tanques",
+        "especializaciones de tanque",
+        "tier list de tanques"
+      ],
+      "keywords_en": [
+        "best PvE tanks",
+        "tank tier list",
+        "tank rankings",
+        "top tank specs"
+      ],
+      "text_es": "En tanque JcE, Druida Feral está en S; Guerrero Protección y Paladín Protección, en A. El druida destaca por aguante, amenaza a un objetivo y función de tanque secundario; el guerrero aporta fuertes defensivos y perjuicios de banda; el paladín suma utilidad y responde bien al daño mágico, aunque es más vulnerable a picos de daño. Cualquier especialización puede completar el contenido; la clasificación es temprana y puede cambiar.",
+      "text_en": "For PvE tanking, Feral Druid ranks S; Protection Warrior and Protection Paladin rank A. Feral stands out for durability, single-target threat, and off-tanking; Protection Warrior brings strong defensive abilities and raid debuffs; Protection Paladin adds utility and handles magical damage well, though it is more vulnerable to damage spikes. Any specialization can clear the content; the ranking is an early prediction and can change.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Tank Tier List for World of Warcraft: Forever - Best Specs & PvE Rankings › Best Tank Spec Tier List for WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/tier-lists/tank-pve-rankings",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Tank Tier List for World of Warcraft: Forever - Best Specs & PvE Rankings › WOW: Forever Tank Tier List Breakdown and Explanations > S-Tier: Feral Druid",
+          "url": "https://www.wowhead.com/forever/guide/classes/tier-lists/tank-pve-rankings",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Tank Tier List for World of Warcraft: Forever - Best Specs & PvE Rankings › WOW: Forever Tank Tier List Breakdown and Explanations > A-Tier: Protection Warrior",
+          "url": "https://www.wowhead.com/forever/guide/classes/tier-lists/tank-pve-rankings",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Tank Tier List for World of Warcraft: Forever - Best Specs & PvE Rankings › WOW: Forever Tank Tier List Breakdown and Explanations > A-Tier: Protection Paladin",
+          "url": "https://www.wowhead.com/forever/guide/classes/tier-lists/tank-pve-rankings",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "tierlist:tank-pve-rankings"
+      ],
+      "source_hashes": [
+        "guide:c591c38bcd3e8a6976f1c78139a2db8b7d03be48",
+        "section:d2a636410e94f1553dc42977d752a35557d6e618"
+      ]
     }
   ]
 }
