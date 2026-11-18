@@ -141,7 +141,8 @@ def _topic_families(topics):
 
 
 def run_status(cards_dir: Path, corpus_path: Path, report_path: Path,
-               write: bool = False) -> dict:
+               write: bool = False,
+               only: Optional[set[str]] = None) -> dict:
     cards = load_cards(cards_dir)
     conn = sqlite3.connect(corpus_path)
     try:
@@ -167,10 +168,17 @@ def run_status(cards_dir: Path, corpus_path: Path, report_path: Path,
                         stale.append(section.get('id', ''))
         if write:
             for path, data, section, topics, hashes in all_links:
+                if only is not None and section.get('id') not in only:
+                    continue
                 section['topics'] = topics
                 section['source_hashes'] = hashes
+            paths_to_save = (
+                {path for path, _data, section, _topics, _hashes in all_links
+                 if only is None or section.get('id') in only}
+            )
             for path, data in cards:
-                _save_card(path, data)
+                if path in paths_to_save:
+                    _save_card(path, data)
     finally:
         conn.close()
 
@@ -264,8 +272,26 @@ def main(argv: Optional[list[str]] = None) -> int:
     parser.add_argument('--corpus', type=Path, default=DEFAULT_CORPUS)
     parser.add_argument('--report', type=Path, default=DEFAULT_REPORT)
     parser.add_argument('--write', action='store_true')
+    parser.add_argument('--only', action='append', default=[], metavar='ID[,ID...]')
     args = parser.parse_args(argv)
-    summary = run_status(args.cards, args.corpus, args.report, args.write)
+    only = None
+    if args.only:
+        only = {card_id.strip() for value in args.only
+                for card_id in value.split(',') if card_id.strip()}
+        known_ids = {
+            section.get('id')
+            for _path, data in load_cards(args.cards)
+            for section in data.get('sections') or []
+            if isinstance(section, dict) and isinstance(section.get('id'), str)
+        }
+        unknown_ids = sorted(only - known_ids)
+        if unknown_ids:
+            for card_id in unknown_ids:
+                print(f"Advertencia: no se encontró la ficha '{card_id}'.",
+                      file=sys.stderr)
+            return 2
+    summary = run_status(args.cards, args.corpus, args.report, args.write,
+                         only=only)
     print(f"Fichas: {summary['cards']} · Secciones: {summary['sections']} · "
           f"Caducadas: {summary['stale']} · Sustituidas: {summary['superseded']} · "
           f"Sin fuente: {summary['missing']} · Temas sin ficha: {summary['uncovered']}")

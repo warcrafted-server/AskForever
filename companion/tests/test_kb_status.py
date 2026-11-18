@@ -140,3 +140,93 @@ def test_missing_source_is_reported(tmp_path):
     summary = kb_status.run_status(cards, db, report, write=False)
     assert summary['missing'] == 1
     assert 'Fuentes no encontradas' in report.read_text(encoding='utf-8')
+
+
+def test_write_only_refreshes_selected_ids_and_preserves_other_files(tmp_path):
+    db = tmp_path / 'corpus.sqlite'
+    _corpus(db)
+    cards = tmp_path / 'cards'
+    cards.mkdir()
+    selected_path = cards / 'selected.json'
+    other_path = cards / 'other.json'
+    selected_sections = [
+        {'id': 'selected', 'topics': ['old-topic'],
+         'source_hashes': ['old-hash'],
+         'sources': [{'url': 'https://example.test/hunter',
+                      'ref': 'Icy Veins: Guide › Overview'}]},
+        {'id': 'stale', 'topics': ['stale-topic'],
+         'source_hashes': ['stale-hash'],
+         'sources': [{'url': 'https://example.test/hunter',
+                      'ref': 'Icy Veins: Guide › Rotation'}]},
+    ]
+    selected_path.write_text(
+        json.dumps({'sections': selected_sections}, indent=2) + '\n',
+        encoding='utf-8')
+    _card(other_path, {
+        'id': 'other', 'topics': ['other-topic'],
+        'source_hashes': ['other-hash'],
+        'sources': [{'url': 'https://example.test/hunter',
+                     'ref': 'Icy Veins: Guide › Overview'}],
+    })
+    other_bytes = other_path.read_bytes()
+    report = tmp_path / 'report.md'
+
+    summary = kb_status.run_status(cards, db, report, write=True,
+                                   only={'selected'})
+
+    saved = json.loads(selected_path.read_text(encoding='utf-8'))['sections']
+    assert saved[0]['topics'] == ['class:hunter:general:hunter']
+    assert saved[0]['source_hashes'] == ['section:hash-overview']
+    assert saved[1]['topics'] == ['stale-topic']
+    assert saved[1]['source_hashes'] == ['stale-hash']
+    assert other_path.read_bytes() == other_bytes
+    assert summary['stale'] == 3
+
+
+def test_only_unknown_id_returns_two_without_writing(tmp_path, capsys):
+    db = tmp_path / 'corpus.sqlite'
+    _corpus(db)
+    cards = tmp_path / 'cards'
+    cards.mkdir()
+    card_path = cards / 'card.json'
+    _card(card_path, {
+        'id': 'known', 'topics': ['old-topic'],
+        'source_hashes': ['old-hash'], 'sources': [],
+    })
+    report = tmp_path / 'report.md'
+    report.write_text('existing report\n', encoding='utf-8')
+    card_bytes = card_path.read_bytes()
+    report_bytes = report.read_bytes()
+
+    result = kb_status.main([
+        '--cards', str(cards), '--corpus', str(db), '--report', str(report),
+        '--write', '--only', 'missing',
+    ])
+
+    captured = capsys.readouterr()
+    assert result == 2
+    assert "missing" in captured.err
+    assert card_path.read_bytes() == card_bytes
+    assert report.read_bytes() == report_bytes
+
+
+def test_write_without_only_refreshes_every_card(tmp_path):
+    db = tmp_path / 'corpus.sqlite'
+    _corpus(db)
+    cards = tmp_path / 'cards'
+    cards.mkdir()
+    for card_id in ('first', 'second'):
+        _card(cards / f'{card_id}.json', {
+            'id': card_id, 'topics': ['old-topic'],
+            'source_hashes': ['old-hash'],
+            'sources': [{'url': 'https://example.test/hunter',
+                         'ref': 'Icy Veins: Guide › Overview'}],
+        })
+
+    kb_status.run_status(cards, db, tmp_path / 'report.md', write=True)
+
+    for card_id in ('first', 'second'):
+        saved = json.loads((cards / f'{card_id}.json').read_text(
+            encoding='utf-8'))['sections'][0]
+        assert saved['topics'] == ['class:hunter:general:hunter']
+        assert saved['source_hashes'] == ['section:hash-overview']
