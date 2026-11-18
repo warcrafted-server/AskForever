@@ -1,0 +1,945 @@
+{
+  "description": "Capítulo 6: Misiones especiales. Secciones editoriales redactadas desde guías de terceros.",
+  "sections": [
+    {
+      "id": "general-misiones-templo-atalhakkar-druida",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Misión del Templo: Druida",
+      "title_en": "Sunken Temple Quest: Druid",
+      "summary_es": "La cadena de nivel 50 del Druida culmina en el Templo de Atal'Hakkar y da tres recompensas.",
+      "summary_en": "The level 50 Druid chain ends in the Sunken Temple and grants three rewards.",
+      "keywords_es": [
+        "misión de Druida nivel 50",
+        "recompensas del Druida",
+        "misión del Templo de Atal'Hakkar"
+      ],
+      "keywords_en": [
+        "level 50 Druid quest",
+        "Druid quest rewards",
+        "Sunken Temple class quest"
+      ],
+      "tags": [
+        "DRUID"
+      ],
+      "text_es": "Desde un instructor de clase, reúne 8 unidades de Aguijón Gorishi y 8 Champiñones de sangre en Un'Goro. Después usa la púa de demosaurio sobre un Demosaurio y, en el Templo de Atal'Hakkar, derrota a Atal'alarion para obtener la Viña podrida. Al entregar la misión recibes Pelambre canoso, Abrazo del bosque y Bastón Sombra Lunar.",
+      "text_en": "Start with a class trainer, then gather 8 Gorishi Sting items and 8 Bloodcaps in Un'Goro. Apply a Devilsaur Barb to a Devilsaur, then defeat Atal'alarion in the Sunken Temple for Putrid Vine. Turning in the quest grants Grizzled Pelt, Forest's Embrace, and Moonshadow Stave.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Sunken Temple Class Quests Guide:  Quests, Locations and Rewards - WoW: Forever › Druid Sunken Temple Quest Chain in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/sunken-temple-level-50-class-quest-walkthrough",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:sunken-temple-level-50-class-quest-walkthrough"
+      ],
+      "source_hashes": [
+        "section:02b891c2fc67ea3ffcd377e68661c8ec0b1834ba"
+      ]
+    },
+    {
+      "id": "general-misiones-templo-atalhakkar-cazador",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Misión del Templo: Cazador",
+      "title_en": "Sunken Temple Quest: Hunter",
+      "summary_es": "La cadena de nivel 50 del Cazador requiere cuernos y escamas antes de entrar al Templo.",
+      "summary_en": "The level 50 Hunter chain requires antlers and scales before entering the temple.",
+      "keywords_es": [
+        "misión de Cazador nivel 50",
+        "recompensas del Cazador",
+        "cuernos de corcel",
+        "escamas de vándalo marino"
+      ],
+      "keywords_en": [
+        "level 50 Hunter quest",
+        "Hunter quest rewards",
+        "courser antlers",
+        "wavethrasher scales"
+      ],
+      "tags": [
+        "HUNTER"
+      ],
+      "text_es": "La cadena empieza con tu instructor de clase. En Azshara acepta Cuernos de corcel y consigue 2 Cuernos perfectos y luego 6 Escamas de vándalo marino; después derrota a Morphaz en el Templo de Atal'Hakkar y entrega su Diente de Morphaz. Recibes Lanza de caza, Ojo de demosaurio y Diente de demosaurio.",
+      "text_en": "Start the chain with your class trainer. In Azshara, take the Courser Antlers quest, collect 2 Perfect Courser Antler items and then 6 Wavethrasher Scale items; next defeat Morphaz in the Sunken Temple and turn in his Tooth of Morphaz. Your rewards are Hunting Spear, Devilsaur Eye, and Devilsaur Tooth.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Sunken Temple Class Quests Guide:  Quests, Locations and Rewards - WoW: Forever › Hunter Sunken Temple Quest Chain in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/sunken-temple-level-50-class-quest-walkthrough",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:sunken-temple-level-50-class-quest-walkthrough"
+      ],
+      "source_hashes": [
+        "section:151a8e731a5fa0575e3aeff55917af00900ffcd5"
+      ]
+    },
+    {
+      "id": "general-misiones-templo-atalhakkar-mago",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Misión del Templo: Mago",
+      "title_en": "Sunken Temple Quest: Mage",
+      "summary_es": "El Mago reúne polvo y coral encantado antes de enfrentarse a Morphaz.",
+      "summary_en": "The Mage gathers dust and enchanted coral before facing Morphaz.",
+      "keywords_es": [
+        "misión de Mago nivel 50",
+        "recompensas del Mago",
+        "polvo relumbrante",
+        "coral encantado"
+      ],
+      "keywords_en": [
+        "level 50 Mage quest",
+        "Mage quest rewards",
+        "Glittering Dust",
+        "Enchanted Coral"
+      ],
+      "tags": [
+        "MAGE"
+      ],
+      "text_es": "La cadena comienza con tu instructor. En Azshara reúne 10 unidades de Polvo relumbrante y 6 de Coral encantado; luego entra al Templo de Atal'Hakkar, derrota a Morphaz y entrega el Fragmento Arcano. La recompensa incluye Punta glacial, Colgante de cristal Arcano y Rubí de fuego.",
+      "text_en": "Begin with your class trainer. In Azshara, gather 10 Glittering Dust and 6 Enchanted Coral; then enter the Sunken Temple, defeat Morphaz, and turn in the Arcane Shard. The rewards are Glacial Spike, Arcane Crystal Pendant, and Fire Ruby.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Sunken Temple Class Quests Guide:  Quests, Locations and Rewards - WoW: Forever › Mage Sunken Temple Quest Chain in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/sunken-temple-level-50-class-quest-walkthrough",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:sunken-temple-level-50-class-quest-walkthrough"
+      ],
+      "source_hashes": [
+        "section:5884920041df15a243acf7f240bca8fd75b4b614"
+      ]
+    },
+    {
+      "id": "general-misiones-templo-atalhakkar-paladin",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Misión del Templo: Paladín",
+      "title_en": "Sunken Temple Quest: Paladin",
+      "summary_es": "El Paladín reúne piedras de la Plaga y plumas vudú para su cadena de nivel 50.",
+      "summary_en": "The Paladin gathers Scourgestones and Voodoo Feathers for the level 50 chain.",
+      "keywords_es": [
+        "misión de Paladín nivel 50",
+        "recompensas del Paladín",
+        "plumas vudú",
+        "piedras de la Plaga"
+      ],
+      "keywords_en": [
+        "level 50 Paladin quest",
+        "Paladin quest rewards",
+        "Voodoo Feathers",
+        "Scourgestones"
+      ],
+      "tags": [
+        "PALADIN"
+      ],
+      "text_es": "La cadena parte de Lord Grisillo Quiebrasombras y te lleva hasta el Campamento del Orvallo. Reúne 20 unidades de Piedra de la Plaga de esbirro, consigue una Piedra de la Plaga inerte y, en el Templo de Atal'Hakkar, saquea dos de cada tipo de pluma vudú de los seis jefes trol. Obtienes Hoja forjada con luz, Orbe santificado y Sello caballeresco.",
+      "text_en": "The chain starts with Lord Grayson Shadowbreaker and sends you to Chillwind Camp. Gather 20 Minion's Scourgestone items and obtain an Inert Scourgestone; then loot two of each Voodoo Feather type from the six troll bosses in the Sunken Temple. You receive Lightforged Blade, Sanctified Orb, and Chivalrous Signet.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Sunken Temple Class Quests Guide:  Quests, Locations and Rewards - WoW: Forever › Paladin Sunken Temple Quest Chain in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/sunken-temple-level-50-class-quest-walkthrough",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:sunken-temple-level-50-class-quest-walkthrough"
+      ],
+      "source_hashes": [
+        "section:caf4e1ff883bd21035ca125d4b32e36bb21d5019"
+      ]
+    },
+    {
+      "id": "general-misiones-templo-atalhakkar-sacerdote",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Misión del Templo: Sacerdote",
+      "title_en": "Sunken Temple Quest: Priest",
+      "summary_es": "El Sacerdote reúne glándulas e icor antes de derrotar a Morphaz.",
+      "summary_en": "The Priest gathers glands and ichor before defeating Morphaz.",
+      "keywords_es": [
+        "misión de Sacerdote nivel 50",
+        "recompensas del Sacerdote",
+        "glándula de corcel sano",
+        "icor de no-muerto"
+      ],
+      "keywords_en": [
+        "level 50 Priest quest",
+        "Priest quest rewards",
+        "Healthy Courser Gland",
+        "Ichor of Undeath"
+      ],
+      "tags": [
+        "PRIEST"
+      ],
+      "text_es": "La cadena comienza con tu instructor y continúa en Azshara: reúne 4 unidades de Glándula de corcel sano y después un Icor de no-muerto. Acepta La sangre de Morphaz, derrota a Morphaz en el Templo de Atal'Hakkar y entrégale la Sangre de Morphaz a Greta Pezuñamusgo, en el Santuario Esmeralda de Frondavil. Recibes Cuentas de oración benditas, Bastón de aflicción y Círculo de Esperanza.",
+      "text_en": "Start with your class trainer and continue in Azshara: collect 4 Healthy Courser Gland items, then an Ichor of Undeath. Blood of Morphaz is the final quest: defeat Morphaz in the Sunken Temple and deliver the item to Greta Mosshoof at the Emerald Sanctuary in Felwood. You receive Blessed Prayer Beads, Woestave, and Circle of Hope.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Sunken Temple Class Quests Guide:  Quests, Locations and Rewards - WoW: Forever › Priest Sunken Temple Quest Chain in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/sunken-temple-level-50-class-quest-walkthrough",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:sunken-temple-level-50-class-quest-walkthrough"
+      ],
+      "source_hashes": [
+        "section:34cfbc79d2107cfebe3548b3018d9f0e93cc7e64"
+      ]
+    },
+    {
+      "id": "general-misiones-templo-atalhakkar-picaro",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Misión del Templo: Pícaro",
+      "title_en": "Sunken Temple Quest: Rogue",
+      "summary_es": "El Pícaro consigue una bolsa sellada y fragmentos codificados antes del Templo.",
+      "summary_en": "The Rogue obtains a sealed bag and encoded fragments before entering the temple.",
+      "keywords_es": [
+        "misión de Pícaro nivel 50",
+        "recompensas del Pícaro",
+        "Bolsa azur sellada",
+        "fragmentos codificados"
+      ],
+      "keywords_en": [
+        "level 50 Rogue quest",
+        "Rogue quest rewards",
+        "Sealed Azure Bag",
+        "Encoded Fragments"
+      ],
+      "tags": [
+        "ROGUE"
+      ],
+      "text_es": "Desde tu instructor, viaja a las Montañas de Alterac para empezar la cadena. En Azshara consigue una Bolsa azur sellada; acepta Los fragmentos codificados y reúne 10 unidades de Fragmento codificado, que puedes obtener matando o robando a los enemigos indicados. Después derrota a Morphaz en el Templo de Atal'Hakkar y entrega la Llave azur. Recompensas: Máscara de ébano, Botas Caminasusurro y Mantón Murciumbrío.",
+      "text_en": "Start with your class trainer and travel to Alterac Mountains. In Azshara, obtain a Sealed Azure Bag and take the Encoded Fragments quest; then gather 10 Encoded Fragment items by killing or pickpocketing the listed enemies. Next, defeat Morphaz in the Sunken Temple and turn in the Azure Key. Rewards: Ebon Mask, Whisperwalk Boots, and Duskbat Drape.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Sunken Temple Class Quests Guide:  Quests, Locations and Rewards - WoW: Forever › Rogue Sunken Temple Quest Chain in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/sunken-temple-level-50-class-quest-walkthrough",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:sunken-temple-level-50-class-quest-walkthrough"
+      ],
+      "source_hashes": [
+        "section:83d5a6430861ccba07f4dccbce786ee716d32b68"
+      ]
+    },
+    {
+      "id": "general-misiones-templo-atalhakkar-chaman",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Misión del Templo: Chamán",
+      "title_en": "Sunken Temple Quest: Shaman",
+      "summary_es": "El Chamán reúne elementos, ojos y garras antes de conseguir plumas vudú.",
+      "summary_en": "The Shaman gathers elemental items, eyes, and claws before collecting Voodoo Feathers.",
+      "keywords_es": [
+        "misión de Chamán nivel 50",
+        "recompensas del Chamán",
+        "plumas vudú",
+        "Garra negra gruesa"
+      ],
+      "keywords_en": [
+        "level 50 Shaman quest",
+        "Shaman quest rewards",
+        "Voodoo Feathers",
+        "Thick Black Claw"
+      ],
+      "tags": [
+        "SHAMAN"
+      ],
+      "text_es": "Empieza con tu instructor y reúne un Elemental de aire, un Elemental de tierra, un Elemental de agua y un Elemental de Fuego. Después consigue 8 Ojos de araña tiro de sangre y 8 Garras negras gruesas; al final, saquea dos de cada tipo de pluma vudú de los seis jefes trol del Templo de Atal'Hakkar. Las recompensas son Puños azurita, Bastón salvaje y Espíritu de agua enamorado.",
+      "text_en": "Start with your class trainer and gather one each of Elemental Air, Elemental Fire, Elemental Earth, and Elemental Water. Then collect 8 Bloodshot Spider Eyes and 8 Thick Black Claws; finally, loot two of each Voodoo Feather type from the six troll bosses in the Sunken Temple. Rewards are Azurite Fists, Wildstaff, and Enamored Water Spirit.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Sunken Temple Class Quests Guide:  Quests, Locations and Rewards - WoW: Forever › Shaman Sunken Temple Quest Chain in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/sunken-temple-level-50-class-quest-walkthrough",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:sunken-temple-level-50-class-quest-walkthrough"
+      ],
+      "source_hashes": [
+        "section:460097f65379c27de7ea52c4e660344d28513f5c"
+      ]
+    },
+    {
+      "id": "general-misiones-templo-atalhakkar-brujo",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Misión del Templo: Brujo",
+      "title_en": "Sunken Temple Quest: Warlock",
+      "summary_es": "El Brujo entrega tela y materiales de Frondavil, y termina con las plumas vudú.",
+      "summary_en": "The Warlock turns in cloth and Felwood materials before collecting Voodoo Feathers.",
+      "keywords_es": [
+        "misión de Brujo nivel 50",
+        "recompensas del Brujo",
+        "Tela de inferi",
+        "plumas vudú"
+      ],
+      "keywords_en": [
+        "level 50 Warlock quest",
+        "Warlock quest rewards",
+        "Felcloth",
+        "Voodoo Feathers"
+      ],
+      "tags": [
+        "WARLOCK"
+      ],
+      "text_es": "La cadena empieza con tu instructor; lleva Tela de inferi a Diblis en Frondavil. Luego reúne 10 unidades de Madera putrefacta y 4 unidades de Esencia de veneno de sangre. Después saquea dos de cada tipo de pluma vudú de los seis jefes trol del Templo de Atal'Hakkar y entrega la misión. Obtienes Cosechador de almas, Fragmento abisal y Togas de Servidumbre.",
+      "text_en": "Start with your class trainer and take Felcloth to Impsy in Felwood. Next, gather 10 Rotting Wood and 4 Bloodvenom Essence items. Then loot two of each Voodoo Feather type from the six troll bosses in the Sunken Temple and turn in the quest. You receive Soul Harvester, Abyss Shard, and Robes of Servitude.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Sunken Temple Class Quests Guide:  Quests, Locations and Rewards - WoW: Forever › Warlock Sunken Temple Quest Chain in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/sunken-temple-level-50-class-quest-walkthrough",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:sunken-temple-level-50-class-quest-walkthrough"
+      ],
+      "source_hashes": [
+        "section:1418ba93c9b1b3300857b8332abdc57e005ae0bd"
+      ]
+    },
+    {
+      "id": "general-misiones-templo-atalhakkar-guerrero",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Misión del Templo: Guerrero",
+      "title_en": "Sunken Temple Quest: Warrior",
+      "summary_es": "El Guerrero derrota a jabinfernos y Sombra Jurada antes de reunir las plumas.",
+      "summary_en": "The Warrior defeats Helboars and Shadowsworn before collecting the feathers.",
+      "keywords_es": [
+        "misión de Guerrero nivel 50",
+        "recompensas del Guerrero",
+        "Jabinferno",
+        "plumas vudú"
+      ],
+      "keywords_en": [
+        "level 50 Warrior quest",
+        "Warrior quest rewards",
+        "Helboar",
+        "Voodoo Feathers"
+      ],
+      "tags": [
+        "WARRIOR"
+      ],
+      "text_es": "Empieza con tu instructor y sigue la cadena en el Pantano de las Penas y las Tierras Devastadas: derrota 7 Jabinfernos y después 20 Adepto Sombra Jurada, 10 Cultor Sombra Jurada y 20 Matón Sombra Jurada. Luego recoge dos de cada tipo de pluma vudú de los seis jefes trol del Templo de Atal'Hakkar. Recibes Visor de furia, Frasco de diamante y Hombreras acero afilado.",
+      "text_en": "Start with your class trainer and follow the chain through Swamp of Sorrows and Blasted Lands: slay 7 Helboar, then 20 Shadowsworn Adept, 10 Shadowsworn Cultist, and 20 Shadowsworn Thug. Next, collect two of each Voodoo Feather type from the six troll bosses in the Sunken Temple. You receive Fury Visor, Diamond Flask, and Razorsteel Shoulders.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Sunken Temple Class Quests Guide:  Quests, Locations and Rewards - WoW: Forever › Warrior Sunken Temple Quest Chain in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/sunken-temple-level-50-class-quest-walkthrough",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:sunken-temple-level-50-class-quest-walkthrough"
+      ],
+      "source_hashes": [
+        "section:a6c87fd43df428f59f1ad39dfdbb01c874184f1d"
+      ]
+    },
+    {
+      "id": "general-misiones-templo-atalhakkar-requisitos",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Cuándo empiezan las misiones del Templo",
+      "title_en": "When Sunken Temple Class Quests Begin",
+      "summary_es": "Las nueve cadenas de clase se desbloquean a nivel 50 y terminan con tres objetos.",
+      "summary_en": "All nine class chains unlock at level 50 and end with three items.",
+      "keywords_es": [
+        "misiones de clase nivel 50",
+        "recompensas del Templo",
+        "misiones del Templo de Atal'Hakkar"
+      ],
+      "keywords_en": [
+        "level 50 class quests",
+        "Sunken Temple rewards",
+        "class quests"
+      ],
+      "text_es": "A nivel 50 puedes aceptar la misión de tu clase en un instructor. Cada cadena te envía al Templo de Atal'Hakkar y, al completarla, recibes sus tres recompensas; no tienes que escoger solo una. Algunas partes pueden resultar difíciles, así que quizá te convenga esperar hasta tener un nivel algo mayor.",
+      "text_en": "At level 50, you can pick up your class quest from a class trainer. Each chain sends you into the Sunken Temple and grants all three rewards when completed, rather than making you choose one. Some parts can be difficult, so consider waiting until you are a little higher level.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Sunken Temple Class Quests Guide:  Quests, Locations and Rewards - WoW: Forever › (intro)",
+          "url": "https://www.wowhead.com/forever/guide/sunken-temple-level-50-class-quest-walkthrough",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Sunken Temple Class Quests Guide:  Quests, Locations and Rewards - WoW: Forever › Sunken Temple Class Quest Rewards in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/sunken-temple-level-50-class-quest-walkthrough",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:sunken-temple-level-50-class-quest-walkthrough"
+      ],
+      "source_hashes": [
+        "guide:c599945a3d0f8faeb06c41b19829f206cff60d46",
+        "section:3c7871247e6137a21c97f0fbdd2bf93ec8d436ea"
+      ]
+    },
+    {
+      "id": "general-misiones-templo-atalhakkar-plumas-vudu",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Plumas vudú del Templo",
+      "title_en": "Sunken Temple Voodoo Feathers",
+      "summary_es": "Cuatro cadenas de clase piden dos plumas de cada color de los seis jefes trol.",
+      "summary_en": "Four class chains require two feathers of each color from six troll bosses.",
+      "keywords_es": [
+        "plumas vudú del Templo",
+        "pluma vudú ámbar",
+        "pluma de vudú azul",
+        "pluma de vudú verde"
+      ],
+      "keywords_en": [
+        "Sunken Temple Voodoo Feathers",
+        "Amber Voodoo Feather",
+        "Blue Voodoo Feather",
+        "Green Voodoo Feather"
+      ],
+      "text_es": "Las cadenas del Paladín, Chamán, Brujo y Guerrero requieren dos unidades de Pluma vudú ámbar, dos de Pluma de vudú azul y dos de Pluma de vudú verde. Se saquean de seis jefes trol secundarios del Templo de Atal'Hakkar; acuérdate de recogerlas durante la visita.",
+      "text_en": "The Paladin, Shaman, Warlock, and Warrior chains each require two Amber Voodoo Feather items, two Blue Voodoo Feather items, and two Green Voodoo Feather items. They drop from six troll minibosses in the Sunken Temple, so remember to loot them during the run.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Sunken Temple Class Quests Guide: Quests, Locations and Rewards - WoW: Forever › Sunken Temple Voodoo Feathers in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/sunken-temple-level-50-class-quest-walkthrough",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:sunken-temple-level-50-class-quest-walkthrough"
+      ],
+      "source_hashes": [
+        "section:5e9e9d07adf606086710cc26942f45b2fee52c63"
+      ]
+    },
+    {
+      "id": "general-misiones-dawn-waker-inicio",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Dawn Waker: cómo empezar",
+      "title_en": "Dawn Waker: Getting Started",
+      "summary_es": "Consigue el anillo Ancient Heirloom y usa la antorcha del vigilante para revelar la empuñadura.",
+      "summary_en": "Get the Ancient Heirloom ring and use the Night Watchman's Torch to reveal the hilt.",
+      "keywords_es": [
+        "secreto Dawn Waker",
+        "anillo Ancient Heirloom",
+        "antorcha del vigilante",
+        "empezar misión secreta"
+      ],
+      "keywords_en": [
+        "Dawn Waker secret",
+        "Ancient Heirloom ring",
+        "Night Watchman's Torch",
+        "start secret quest"
+      ],
+      "text_es": "Para iniciar la cadena, consigue el anillo Ancient Heirloom: con acceso al Cielonato, acepta Edad adulta con Ailee Corazón Lejano y entrégala a Rorian el Buscadía; sin ese acceso, el anillo también aparece en el piso superior de un edificio cercano. Equipa el anillo y usa Antorcha de vigilante nocturno en las Ruinas de Ban'aethal para revelar Ancient Hilt; después llévala a Ealaane Caminanimbo.",
+      "text_en": "To begin the chain, obtain the Ancient Heirloom ring: with Skyborne access, accept Coming of Age from Ailee Farheart and turn it in to Rorian the Dayseeker; without that access, the ring can also be found on the upper floor of a nearby building. Equip the ring and use the Night Watchman's Torch at the Ruins of Ban'aethal to reveal the Ancient Hilt, then take it to Ealaane Nimbuswalker.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Dawn Waker Secret: Steps, Locations and Rewards - WoW: Forever › Step 1: Accept Coming of Age",
+          "url": "https://www.wowhead.com/forever/guide/dawn-waker-secret-walkthrough",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Dawn Waker Secret: Steps, Locations and Rewards - WoW: Forever › Step 2: Get the Ancient Heirloom Ring",
+          "url": "https://www.wowhead.com/forever/guide/dawn-waker-secret-walkthrough",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Dawn Waker Secret: Steps, Locations and Rewards - WoW: Forever › Step 3: Uncover the Ancient Hilt",
+          "url": "https://www.wowhead.com/forever/guide/dawn-waker-secret-walkthrough",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Dawn Waker Secret: Steps, Locations and Rewards - WoW: Forever › Step 4: Take the Ancient Hilt to Ealaane",
+          "url": "https://www.wowhead.com/forever/guide/dawn-waker-secret-walkthrough",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:dawn-waker-secret-walkthrough"
+      ],
+      "source_hashes": [
+        "section:3c6d4e7831f06dd16ea95dc42d9d2f33530cb1ce",
+        "section:425ad8a1932a13ff93e1144e30bd5daf160ffc6a",
+        "section:50b0a8103d2b2d79ed5046e63e51ac7badeeda82",
+        "section:6ddd08f2f977186f6935bcc8a68c042877d2181b"
+      ]
+    },
+    {
+      "id": "general-misiones-dawn-waker-orbe",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Dawn Waker: conseguir el orbe",
+      "title_en": "Dawn Waker: Getting the Globe",
+      "summary_es": "Alianza y Horda obtienen el globo de agua por rutas distintas y luego vuelven a hablar con su contacto.",
+      "summary_en": "Alliance and Horde obtain the water globe through different routes, then speak to their contact again.",
+      "keywords_es": [
+        "Dawn Waker Alianza",
+        "Dawn Waker Horda",
+        "globo de agua",
+        "Amuleto de Mathystra"
+      ],
+      "keywords_en": [
+        "Dawn Waker Alliance",
+        "Dawn Waker Horde",
+        "water globe",
+        "Mathystral Amulet"
+      ],
+      "text_es": "Para la Alianza, reúne 20 fragmentos del amuleto de Mathystra, combínalos y usa el amuleto para invocar y derrotar al Barón Marinous; entrega el globo a Onus y vuelve a hablar con él para recuperarlo. La ruta de la Horda consiste en derrotar al Barón Aquanis en las Cavernas de Brazanegra, entregar el globo a Je'neu en Vallefresno y hablar con él otra vez para que te lo devuelva.",
+      "text_en": "Alliance players collect 20 Mathystral Amulet Fragments, combine them, and use the amulet to summon and defeat Baron Marinous; turn the globe in to Onu, then speak to him again to get it back. Horde players defeat Baron Aquanis in BFD, turn the globe in to Je'neu in Ashenvale, then speak to him again to retrieve it.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Dawn Waker Secret: Steps, Locations and Rewards - WoW: Forever › Obtaining the Befouled Water Globe in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dawn-waker-secret-walkthrough",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Dawn Waker Secret: Steps, Locations and Rewards - WoW: Forever › Alliance: Darkshore — Step 1: Mathystra Amulet",
+          "url": "https://www.wowhead.com/forever/guide/dawn-waker-secret-walkthrough",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Dawn Waker Secret: Steps, Locations and Rewards - WoW: Forever › Horde: Ashenvale — Step 1: Baron Aquanis",
+          "url": "https://www.wowhead.com/forever/guide/dawn-waker-secret-walkthrough",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:dawn-waker-secret-walkthrough"
+      ],
+      "source_hashes": [
+        "guide:3f76dadec3fd37a5f944ffb03ec6cbb405658a46"
+      ]
+    },
+    {
+      "id": "general-misiones-dawn-waker-ritual",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Dawn Waker: limpieza del globo",
+      "title_en": "Dawn Waker: Cleansing the Globe",
+      "summary_es": "El anillo equipado permite seguir al espíritu y reunir tres componentes para limpiar el globo.",
+      "summary_en": "With the ring equipped, follow the spirit and gather three components to cleanse the globe.",
+      "keywords_es": [
+        "limpiar el globo Dawn Waker",
+        "espíritu de los Altonato",
+        "componentes de limpieza",
+        "Dawn Waker"
+      ],
+      "keywords_en": [
+        "cleanse Dawn Waker globe",
+        "Highborne Spirit",
+        "cleansing items",
+        "Dawn Waker"
+      ],
+      "text_es": "Mantén equipado Ancient Heirloom y lleva el globo en la bolsa; habla con el espíritu de los Altonato en la costa de Zoram, que te enviará a una torre de Costa Oscura. Allí derrota a Narassin, recoge el tomo y vuelve al espíritu. Después lleva la empuñadura antigua, Eluvi'ana y el tomo a Mordent Sombrapar; reúne una Estrella de Elune, una Mota abisal y Lágrimas de angustia, y usa el globo en el Santuario de la Coalescencia, en Monte Hyjal.",
+      "text_en": "Keep the Ancient Heirloom equipped and carry the globe; speak to the Highborne Spirit at Zoram Strand, who sends you to a tower in Darkshore. At the tower, defeat Narassin, take the tome, and return to the spirit. Then take the Ancient Hilt, Eluvi'ana, and the tome to Mordent Evenshade; gather a Star of Elune, an Abyssal Mote, and Tears of Anguish, then use the globe at the Shrine of Coalescence in Hyjal.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Dawn Waker Secret: Steps, Locations and Rewards - WoW: Forever › The Highborne Spirit at Zoram Strand in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dawn-waker-secret-walkthrough",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Dawn Waker Secret: Steps, Locations and Rewards - WoW: Forever › Synthesis in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dawn-waker-secret-walkthrough",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Dawn Waker Secret: Steps, Locations and Rewards - WoW: Forever › The Cleansing Ritual in Hyjal in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dawn-waker-secret-walkthrough",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:dawn-waker-secret-walkthrough"
+      ],
+      "source_hashes": [
+        "guide:3f76dadec3fd37a5f944ffb03ec6cbb405658a46"
+      ]
+    },
+    {
+      "id": "general-misiones-dawn-waker-estado",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Dawn Waker: estado de la cadena",
+      "title_en": "Dawn Waker: Quest Chain Status",
+      "summary_es": "La ruta conocida está probada hasta la conversación con el príncipe, pero todavía no tiene final confirmado.",
+      "summary_en": "The known route is tested through the prince's dialogue, but has no confirmed ending yet.",
+      "keywords_es": [
+        "final Dawn Waker",
+        "cadena incompleta",
+        "secreto aún sin resolver",
+        "príncipe Tortheldrin"
+      ],
+      "keywords_en": [
+        "Dawn Waker ending",
+        "unfinished chain",
+        "unsolved secret",
+        "Prince Tortheldrin"
+      ],
+      "text_es": "La cadena conocida llega hasta Príncipe Tortheldrin, en La Masacre, que menciona dos espadas. Aunque los pasos publicados se han reproducido, la continuación y la recompensa final aún no están confirmadas; no se conoce el desenlace del secreto.",
+      "text_en": "The known chain reaches Prince Tortheldrin in Dire Maul, who mentions two blades. Although the published steps have been reproduced, the continuation and final reward are not confirmed; the secret's ending is still unknown.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Dawn Waker Secret:  Steps, Locations and Rewards - WoW: Forever › (intro)",
+          "url": "https://www.wowhead.com/forever/guide/dawn-waker-secret-walkthrough",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Dawn Waker Secret:  Steps, Locations and Rewards - WoW: Forever › Step 1: Speak to Prince Tortheldrin",
+          "url": "https://www.wowhead.com/forever/guide/dawn-waker-secret-walkthrough",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:dawn-waker-secret-walkthrough"
+      ],
+      "source_hashes": [
+        "guide:3f76dadec3fd37a5f944ffb03ec6cbb405658a46",
+        "section:7f8216543db88ba85c89a816e897f84a072c2c04"
+      ]
+    },
+    {
+      "id": "general-misiones-antorcha-vigilante",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Conseguir la Antorcha de vigilante nocturno",
+      "title_en": "Getting the Night Watchman's Torch",
+      "summary_es": "Acepta y entrega de inmediato la misión del guardia caído en el Bosque del Ocaso.",
+      "summary_en": "Accept and immediately turn in the quest from the slain guard in Duskwood.",
+      "keywords_es": [
+        "Night Watchman's Torch",
+        "misión del guardia caído",
+        "antorcha del vigilante",
+        "Bosque del Ocaso"
+      ],
+      "keywords_en": [
+        "Night Watchman's Torch quest",
+        "slain guard",
+        "Duskwood torch",
+        "An Unfortunate End"
+      ],
+      "text_es": "En el Bosque del Ocaso busca al Miembro de la Guardia Nocturna muerto: ofrece la misión Un final desafortunado, que se completa al aceptarla y entregársela enseguida. La recompensa es Antorcha de vigilante nocturno, disponible para ambas facciones incluso desde nivel 1; puede costar llegar allí a ese nivel. Su luz ayuda en zonas oscuras, pero no se puede usar dentro de posadas ni ciudades capitales.",
+      "text_en": "In Duskwood, find the slain Night Watch Guard, who offers An Unfortunate End. Accept the quest and turn it in to him immediately. The reward is the Night Watchman's Torch, available to both factions from level 1, though reaching the area at that level may be difficult. Its light helps in dark places, but it cannot be used inside inns or capital cities.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: How to Acquire the Night Watchman's Torch - WoW: Forever › How to Get the Night Watchman's Torch in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/night-watchmans-torch-guide-quest-location",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: How to Acquire the Night Watchman's Torch - WoW: Forever › What the Night Watchman's Torch Does in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/night-watchmans-torch-guide-quest-location",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:night-watchmans-torch-guide-quest-location"
+      ],
+      "source_hashes": [
+        "section:2064a70dbd917cc3810987fa00831b32678aa3fd",
+        "section:d7a806a2862912416d15cd106a363c77be01440c"
+      ]
+    },
+    {
+      "id": "general-misiones-disfraz-agente-alcaz",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Juguete de disfraz de Alcaz",
+      "title_en": "Alcaz Disguise Toy",
+      "summary_es": "Libera al prisionero, conserva la caja de documentos y reúne seis Insignias fracturadas.",
+      "summary_en": "Free the prisoner, keep the document box, and gather six Fractured Insignias.",
+      "keywords_es": [
+        "juguete disfraz Alcaz",
+        "Insignia fracturada",
+        "Prisión de Alcaz",
+        "caja de documentos"
+      ],
+      "keywords_en": [
+        "Alcaz disguise toy",
+        "Fractured Insignia",
+        "Alcaz Prison",
+        "Document Box"
+      ],
+      "text_es": "En la mazmorra Prisión de Alcaz, evita matar al primer jefe y limpia el resto; al final, Mason Connery te pedirá que vuelvas por la llave. Mata a El Interrogador, llévale la llave y sigue la cadena hasta una caja en el piso superior de la posada de Arroyo de la Luna, en Páramos de Poniente. No la vendas: entrégala a Renzik «Cuchillo» en Ventormenta o a Rix Xizzix en Bahía del Botín para recibir una Insignia fracturada. Seis insignias crean el juguete de disfraz; puedes comprar o intercambiar las otras cinco.",
+      "text_en": "Run the Alcaz Prison dungeon without killing the first boss, The Questioner, and clear the rest; Mason Connery waits at the end and asks you to return for the key. Kill The Questioner, bring Mason the key, then follow the chain to a box on the inn's upper floor in Moonbrook, Westfall. Keep the box and turn it in to Renzik \"The Shiv\" in Stormwind or Rix Xizzix in Booty Bay for a Fractured Insignia. Combine six insignias for the disguise toy; buy or trade for the other five.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: How to Acquire the Alcaz Operative Disguise Toy:  Quests and Locations - WoW Forever › The Alcaz Operative Disguise Toy in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/alcaz-operative-disguise-toy-secret-walkthrough",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: How to Acquire the Alcaz Operative Disguise Toy:  Quests and Locations - WoW Forever › Step 1: Free Mason Connery in Alcaz Prison",
+          "url": "https://www.wowhead.com/forever/guide/alcaz-operative-disguise-toy-secret-walkthrough",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: How to Acquire the Alcaz Operative Disguise Toy:  Quests and Locations - WoW Forever › More Valuable than Gold in Westfall",
+          "url": "https://www.wowhead.com/forever/guide/alcaz-operative-disguise-toy-secret-walkthrough",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: How to Acquire the Alcaz Operative Disguise Toy:  Quests and Locations - WoW Forever › State Secrets in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/alcaz-operative-disguise-toy-secret-walkthrough",
+          "date": "2026-11-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: How to Acquire the Alcaz Operative Disguise Toy:  Quests and Locations - WoW Forever › Combine the Fractured Insignia",
+          "url": "https://www.wowhead.com/forever/guide/alcaz-operative-disguise-toy-secret-walkthrough",
+          "date": "2026-11-11"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:alcaz-operative-disguise-toy-secret-walkthrough"
+      ],
+      "source_hashes": [
+        "guide:d5e8154813a0c02a59cc0cf249ce14f22191fc60",
+        "section:63a4f7cd4daed54d4feb6899dcb55c9351405f48"
+      ]
+    },
+    {
+      "id": "general-misiones-generador-arcoiris",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Juguete Generador de arcoíris",
+      "title_en": "Traveler's Symbols Toy",
+      "summary_es": "En Profundidades de Roca Negra, salta desde el puente al saliente oculto para hallar el juguete.",
+      "summary_en": "In Blackrock Depths, jump from the bridge to a hidden ledge to find the toy.",
+      "keywords_es": [
+        "Generador de arcoíris",
+        "juguete secreto de Roca Negra",
+        "saliente oculto",
+        "Profundidades de Roca Negra"
+      ],
+      "keywords_en": [
+        "Traveler's Symbols",
+        "Blackrock Depths secret toy",
+        "hidden ledge",
+        "signpost toy"
+      ],
+      "text_es": "En Profundidades de Roca Negra, ve al puente al este del Anillo y mira hacia abajo a la izquierda. Despeja a los enemigos del puente; junto al brasero, sube a la barandilla, salta a la plataforma pegada al muro y avanza hasta el rincón de la pared para dejarte caer al saliente. Allí está Generador de arcoíris, un juguete de cartel con mensajes seleccionables que permanece una hora y es visible para otros jugadores.",
+      "text_en": "In Blackrock Depths, go to the bridge east of the Ring and look down to the left. Clear the enemies on the bridge; near the brazier, climb onto the railing, jump to the wall-side platform, and move into the corner before dropping to the ledge. There you can find Traveler's Symbols, a signpost toy with selectable messages that remains for one hour and is visible to other players.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: How to Acquire Traveler's Symbols Toy from Blackrock Depths in WoW: Forever › Secret Toy Rewards in Blackrock Depths in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/travelers-symbols-toy-secret-walkthrough",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: How to Acquire Traveler's Symbols Toy from Blackrock Depths in WoW: Forever › How to Find the Hidden Ledge in Blackrock Depths in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/travelers-symbols-toy-secret-walkthrough",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:travelers-symbols-toy-secret-walkthrough"
+      ],
+      "source_hashes": [
+        "section:0fb30754f307eee141daaebdd29b598da5a7da66",
+        "section:99359e1001e7d2c9af2a474e6640114bdd0e6596"
+      ]
+    },
+    {
+      "id": "general-misiones-libros-biblioteca",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Coleccionar y entregar libros",
+      "title_en": "Collecting and Turning In Books",
+      "summary_es": "Cualquier clase puede encontrar libros y entregarlos al bibliotecario de su facción por recompensas.",
+      "summary_en": "Any class can find books and turn them in to their faction librarian for rewards.",
+      "keywords_es": [
+        "libros de biblioteca",
+        "entregar libros",
+        "bibliotecario de facción",
+        "recompensas por libros"
+      ],
+      "keywords_en": [
+        "library books",
+        "turn in books",
+        "faction librarian",
+        "book rewards"
+      ],
+      "text_es": "Cualquier clase puede encontrar libros por el mundo y entregarlos al bibliotecario de su facción. Garion Wendell está en la Torre de los Magos de Ciudad de Ventormenta y Owen Thadd, en el Barrio de la Magia de Entrañas. Las entregas conocidas se desbloquean al alcanzar distintos recuentos y ofrecen una elección de equipo; entre las recompensas hay colgantes, anillos y otras piezas.",
+      "text_en": "All classes can find books throughout the world and turn them in to their faction librarian. Garion Wendell is in the Mage Tower in Stormwind City, and Owen Thadd is in the Magic Quarter in Undercity. Known turn-ins unlock at different book totals and offer a choice of gear; rewards include pendants, rings, and other pieces.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Collecting Library Books: Locations and Rewards - WoW Forever › intro",
+          "url": "https://www.wowhead.com/forever/guide/library-book-locations-and-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Collecting Library Books: Locations and Rewards - WoW Forever › Where to Hand In Your Books in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/library-book-locations-and-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Collecting Library Books: Locations and Rewards - WoW Forever › Quests & Rewards for Collecting Books in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/library-book-locations-and-rewards",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:library-book-locations-and-rewards"
+      ],
+      "source_hashes": [
+        "guide:5c4a3919993b930d21f27f8cacb8b4f40bb41d1f",
+        "section:3fca766dd6c946fd296df6b962dd5954c264989c",
+        "section:d07eb0204f695ffd7033fc5ba3132f681c6a6bc6"
+      ]
+    },
+    {
+      "id": "general-misiones-libros-recompensas",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Hitos de recompensa por libros",
+      "title_en": "Book Reward Milestones",
+      "summary_es": "Hay entregas por 10, 20 y 25 libros; el último hito conocido aún no tiene cifra publicada.",
+      "summary_en": "Turn-ins exist at 10, 20, and 25 books; the latest known milestone has no published count.",
+      "keywords_es": [
+        "recompensa 10 libros",
+        "recompensa 20 libros",
+        "recompensa 25 libros",
+        "misiones bibliotecario"
+      ],
+      "keywords_en": [
+        "10 book reward",
+        "20 book reward",
+        "25 book reward",
+        "librarian quests"
+      ],
+      "text_es": "Los hitos conocidos de entrega son 10, 20 y 25 libros; cada misión permite elegir entre varias recompensas de equipo. Hay una cuarta misión que requiere nivel 50, pero todavía no se conoce el número de libros que pide. No hace falta buscar una lista completa de ubicaciones para entender el sistema: encuentra libros y llévalos a tu bibliotecario de facción.",
+      "text_en": "Known book turn-in milestones are 10, 20, and 25 books; each quest lets you choose from several gear rewards. A fourth quest requires level 50, but its required book count is not yet known. You do not need a complete location list to understand the system: find books and take them to your faction librarian.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Collecting Library Books: Locations and Rewards - WoW Forever › Quests & Rewards for Collecting Books in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/library-book-locations-and-rewards",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:library-book-locations-and-rewards"
+      ],
+      "source_hashes": [
+        "section:d07eb0204f695ffd7033fc5ba3132f681c6a6bc6"
+      ]
+    },
+    {
+      "id": "general-misiones-estandarte-escarlata",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Rompecabezas del Estandarte Escarlata",
+      "title_en": "Scarlet Banner Puzzle",
+      "summary_es": "Reúne cuatro ecos de tumbas y actívalos en el orden indicado en la Biblioteca Escarlata.",
+      "summary_en": "Collect four grave echoes and activate them in order in Scarlet Monastery Library.",
+      "keywords_es": [
+        "rompecabezas Estandarte Escarlata",
+        "Estandarte Escarlata",
+        "ecos de tumbas",
+        "orden de estatuas"
+      ],
+      "keywords_en": [
+        "Scarlet Banner puzzle",
+        "grave echoes",
+        "statue order",
+        "Scarlet Monastery Library"
+      ],
+      "text_es": "El secreto del Estandarte Escarlata consiste en reunir cuatro ecos de tumbas repartidas por distintas zonas y llevarlos a la Biblioteca del Monasterio Escarlata. Actívalos en este orden: Eco del pantano en la estatua del Guerrero, Eco de Arathi en la del Mago, Eco de Theramore en la del Paladín y Eco del cementerio en la del Sacerdote. Si lo haces bien, aparece el Estandarte Escarlata para recogerlo.",
+      "text_en": "The Scarlet Banner secret requires collecting four grave echoes across different zones and taking them to the Scarlet Monastery Library. Activate them in this order: Swamp Echo at the Warrior statue, Arathi Echo at the Mage statue, Theramore Echo at the Paladin statue, and Graveyard Echo at the Priest statue. Complete the sequence to make the Scarlet Banner appear for you to loot.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Acquiring the Scarlet Banner for your Campsite - WoW: Forever › intro",
+          "url": "https://www.wowhead.com/forever/guide/collections/scarlet-banner-puzzle-locations",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Acquiring the Scarlet Banner for your Campsite - WoW: Forever › Scarlet Monastery Library Statue Order in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/collections/scarlet-banner-puzzle-locations",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "collection:scarlet-banner-puzzle-locations"
+      ],
+      "source_hashes": [
+        "guide:b3490aeb69cf62244ea6de502aaec21f6e85c3af",
+        "section:557d82400bf5f5edd53b5fb1d3d77c94dd7ff9a2"
+      ]
+    }
+  ]
+}
