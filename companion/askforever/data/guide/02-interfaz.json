@@ -1,0 +1,873 @@
+{
+  "description": "Capítulo 2: Interfaz y opciones. Secciones editoriales redactadas desde guías de terceros.",
+  "sections": [
+    {
+      "id": "interfaz-modo-edicion",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Abrir y preparar el modo de edición",
+      "title_en": "Open and Set Up Edit Mode",
+      "summary_es": "Abre Modo de edición desde el menú del juego para elegir diseño, cuadrícula y ajuste entre elementos.",
+      "summary_en": "Open Edit Mode from the game menu to choose a layout, grid and element snapping.",
+      "keywords_es": [
+        "abrir modo de edición",
+        "editar interfaz",
+        "cuadrícula de la interfaz",
+        "ajuste entre elementos",
+        "opciones avanzadas de interfaz"
+      ],
+      "keywords_en": [
+        "open edit mode",
+        "edit the interface",
+        "interface grid",
+        "snap UI elements",
+        "advanced interface options"
+      ],
+      "text_es": "Abre el menú del juego, elige Modo de edición y pulsa Esc para salir. Desde el menú principal puedes cambiar de diseño, mostrar y ajustar una cuadrícula y activar el ajuste a elementos para alinearlos. Marca Opciones avanzadas si necesitas mostrar u ocultar otros componentes, como la barra de formas.",
+      "text_en": "Open the game menu, choose Edit Mode, and press Esc to leave. The main menu lets you switch layouts, show and size a grid, and enable snapping to align elements; to reveal more components, use the Advanced Options checkbox, which includes the Stance Bar.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: UI and HUD Edit Mode in World of Warcraft: Forever › How Do I Access Edit Mode in World of Warcraft: Forever?",
+          "url": "https://www.wowhead.com/forever/guide/ui/ui-hud-edit-mode-guide",
+          "date": "2026-09-23"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:ui-hud-edit-mode-guide"
+      ],
+      "source_hashes": [
+        "section:7ebfa478b4b90d2493494d91269ba41bf13a4716"
+      ]
+    },
+    {
+      "id": "interfaz-mover-elementos",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Mover y ajustar elementos de la interfaz",
+      "title_en": "Move and Adjust UI Elements",
+      "summary_es": "Arrastra elementos resaltados y usa el submenú propio de cada uno para personalizarlo.",
+      "summary_en": "Drag highlighted elements and use each one's submenu to customize it.",
+      "keywords_es": [
+        "mover elementos de la interfaz",
+        "arrastrar marcos",
+        "submenú de un elemento",
+        "personalizar HUD",
+        "ajustar interfaz al mover"
+      ],
+      "keywords_en": [
+        "move UI elements",
+        "drag frames",
+        "element submenu",
+        "customize the HUD",
+        "snap interface while moving"
+      ],
+      "text_es": "En Modo de edición, los elementos ajustables aparecen resaltados en azul y el seleccionado, en amarillo. Arrastra un elemento para moverlo; al seleccionarlo se abre un submenú con sus opciones específicas y accesos a otros ajustes. Con el ajuste a elementos activado, se alineará con la cuadrícula o con el elemento más cercano.",
+      "text_en": "In Edit Mode, adjustable elements are highlighted in blue and the selected one in yellow. Drag an element to move it; selecting it opens a submenu with its own options and shortcuts to other settings. With snapping enabled, it will align to the grid or the nearest element.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: UI and HUD Edit Mode in World of Warcraft: Forever › How Do I Edit My UI Using Edit Mode in World of Warcraft: Forever?",
+          "url": "https://www.wowhead.com/forever/guide/ui/ui-hud-edit-mode-guide",
+          "date": "2026-09-23"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:ui-hud-edit-mode-guide"
+      ],
+      "source_hashes": [
+        "section:fcd3132c1bfd370ffb63980c20992fc94d992b03"
+      ]
+    },
+    {
+      "id": "interfaz-guardar-disenos",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Guardar y compartir diseños de interfaz",
+      "title_en": "Save and Share Interface Layouts",
+      "summary_es": "Guarda diseños con nombre, hazlos específicos de un personaje o compártelos e impórtalos.",
+      "summary_en": "Save named layouts, make them character-specific, or share and import them.",
+      "keywords_es": [
+        "guardar diseño de interfaz",
+        "diseños de HUD",
+        "compartir diseño",
+        "importar diseño de interfaz",
+        "diseño por personaje"
+      ],
+      "keywords_en": [
+        "save interface layout",
+        "HUD layouts",
+        "share a layout",
+        "import interface layout",
+        "character-specific layout"
+      ],
+      "text_es": "En el desplegable de diseños de Modo de edición, elige Nuevo diseño para ponerle nombre y guardarlo. Los diseños guardados están disponibles para todos tus personajes, aunque puedes limitar uno a un personaje concreto. Usa las opciones Compartir e Importar para intercambiar diseños; también hay dos diseños predefinidos que sirven de base.",
+      "text_en": "Use the layout dropdown in Edit Mode and choose New Layout to name and save a layout. Saved layouts are available to all your characters, though you can restrict one to a specific character. Use Share and Import to exchange layouts; two preset layouts are also available as starting points.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: UI and HUD Edit Mode in World of Warcraft: Forever › How do I Share and Import Layouts in WoW: Forever?",
+          "url": "https://www.wowhead.com/forever/guide/ui/ui-hud-edit-mode-guide",
+          "date": "2026-09-23"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:ui-hud-edit-mode-guide"
+      ],
+      "source_hashes": [
+        "section:863cbd3982e5151d39869302f36308cedb1ab97a"
+      ]
+    },
+    {
+      "id": "interfaz-medidor-que-muestra",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Qué muestra el medidor de daño",
+      "title_en": "What the Damage Meter Shows",
+      "summary_es": "El medidor resume daño, sanación y acciones del grupo, incluidas interrupciones y muertes.",
+      "summary_en": "The meter summarizes group damage, healing and actions, including interrupts and deaths.",
+      "keywords_es": [
+        "medidor de daño",
+        "daño del grupo",
+        "sanación por segundo",
+        "interrupciones del grupo",
+        "daño evitable recibido"
+      ],
+      "keywords_en": [
+        "damage meter",
+        "group damage",
+        "healing per second",
+        "group interrupts",
+        "avoidable damage taken"
+      ],
+      "text_es": "El Medidor de daño permite consultar el rendimiento del grupo en tres categorías: daño, sanación y acciones. Incluye daño infligido y recibido, daño evitable, sanación, interrupciones exitosas, disipaciones y muertes. Sirve para revisar resultados y detectar aspectos a mejorar, pero la sanación por segundo no mide por sí sola la eficacia de un sanador.",
+      "text_en": "The Damage Meter lets you review group performance in three categories: damage, healing and actions. It tracks damage dealt and taken, avoidable damage, healing, successful interrupts, dispels and deaths. It can help review results and find areas to improve, but healing per second alone is not a measure of a healer's effectiveness.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Damage Meter in World of Warcraft: Forever › What is the Damage Meter in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/ui/damage-meter-guide",
+          "date": "2026-09-22"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Damage Meter in World of Warcraft: Forever › What Can the Damage Meter Do in World of Warcraft: Forever? > Actions",
+          "url": "https://www.wowhead.com/forever/guide/ui/damage-meter-guide",
+          "date": "2026-09-22"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:damage-meter-guide"
+      ],
+      "source_hashes": [
+        "guide:6f1f7429f562745676054803a8d398f88b43482b",
+        "section:8ec80324b7dbc177188a32054158a7eef51821de"
+      ]
+    },
+    {
+      "id": "interfaz-medidor-activar",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Activar y colocar el medidor de daño",
+      "title_en": "Enable and Place the Damage Meter",
+      "summary_es": "Actívalo en Opciones avanzadas y colócalo en Modo de edición.",
+      "summary_en": "Enable it in Advanced Options and position it in Edit Mode.",
+      "keywords_es": [
+        "activar medidor de daño",
+        "mostrar medidor de daño",
+        "reinicio automático del medidor",
+        "mover medidor de daño",
+        "personalizar medidor"
+      ],
+      "keywords_en": [
+        "enable damage meter",
+        "show damage meter",
+        "automatic meter reset",
+        "move damage meter",
+        "customize damage meter"
+      ],
+      "text_es": "En el menú del juego, abre Opciones, entra en Opciones avanzadas y marca Activar medidor de daño. Si quieres que los datos se borren al entrar en una instancia, activa también Reinicio automático del medidor. Después abre Modo de edición, selecciona el medidor y arrástralo; su submenú permite ajustar, entre otras cosas, barras, texto y separación.",
+      "text_en": "In the game menu, open Options, go to Advanced Options and check Enable Damage Meter. If you want its data cleared when entering an instance, also enable Auto Reset Damage Meter. Then open Edit Mode, select the meter and drag it; its submenu lets you adjust bars, text and spacing, among other settings.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Damage Meter in World of Warcraft: Forever › How Do I Enable the Damage Meter in World of Warcraft: Forever?",
+          "url": "https://www.wowhead.com/forever/guide/ui/damage-meter-guide",
+          "date": "2026-09-22"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:damage-meter-guide"
+      ],
+      "source_hashes": [
+        "section:668cc14261a17d8cfc500e8d0f3745283044c151"
+      ]
+    },
+    {
+      "id": "interfaz-medidor-metricas",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Elegir datos en el medidor de daño",
+      "title_en": "Choose Damage Meter Metrics",
+      "summary_es": "El desplegable del encabezado cambia entre métricas de daño, sanación y acciones.",
+      "summary_en": "The header dropdown switches between damage, healing and action metrics.",
+      "keywords_es": [
+        "métricas del medidor",
+        "cambiar datos del medidor",
+        "DPS del grupo",
+        "HPS del grupo",
+        "detalles de daño"
+      ],
+      "keywords_en": [
+        "damage meter metrics",
+        "change meter data",
+        "group DPS",
+        "group HPS",
+        "damage details"
+      ],
+      "text_es": "Pulsa la flecha desplegable a la izquierda del encabezado y elige una categoría y uno de sus datos. Daño infligido muestra el total y el DPS entre paréntesis; DPS invierte esos valores. Sanación hecha y HPS siguen el mismo patrón. En Acciones puedes revisar interrupciones, disipaciones y muertes; al pulsar una barra aparecen más detalles.",
+      "text_en": "Click the dropdown arrow on the left of the header and choose a category and one of its metrics. Damage Done shows the total with DPS in parentheses; DPS reverses those values. Healing Done and HPS follow the same pattern. Actions lets you review interrupts, dispels and deaths; clicking a bar opens more detail.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Damage Meter in World of Warcraft: Forever › What Can the Damage Meter Do in World of Warcraft: Forever? > Damage",
+          "url": "https://www.wowhead.com/forever/guide/ui/damage-meter-guide",
+          "date": "2026-09-22"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Damage Meter in World of Warcraft: Forever › What Can the Damage Meter Do in World of Warcraft: Forever? > Healing",
+          "url": "https://www.wowhead.com/forever/guide/ui/damage-meter-guide",
+          "date": "2026-09-22"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Damage Meter in World of Warcraft: Forever › What Can the Damage Meter Do in World of Warcraft: Forever? > Actions",
+          "url": "https://www.wowhead.com/forever/guide/ui/damage-meter-guide",
+          "date": "2026-09-22"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:damage-meter-guide"
+      ],
+      "source_hashes": [
+        "guide:6f1f7429f562745676054803a8d398f88b43482b"
+      ]
+    },
+    {
+      "id": "interfaz-medidor-configuracion",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Ventanas y segmentos del medidor",
+      "title_en": "Damage Meter Windows and Segments",
+      "summary_es": "Crea ventanas para varias métricas y alterna entre el segmento actual y el total de la instancia.",
+      "summary_en": "Create windows for multiple metrics and switch between the current segment and the instance total.",
+      "keywords_es": [
+        "varias ventanas de daño",
+        "segmento actual del medidor",
+        "datos generales de instancia",
+        "restablecer datos del medidor",
+        "medidor no interactivo"
+      ],
+      "keywords_en": [
+        "multiple damage meter windows",
+        "current meter segment",
+        "overall instance data",
+        "reset meter data",
+        "noninteractive meter"
+      ],
+      "text_es": "El engranaje abre accesos a los ajustes y al Modo de edición, además de opciones para bloquear la interacción, restablecer datos, borrar una ventana adicional o crear otra. Así puedes dejar varias métricas visibles a la vez. El botón circular a su lado alterna entre el segmento actual —cada tramo en que alguien entra o sale del combate— y los datos acumulados de toda la instancia.",
+      "text_en": "The cog opens shortcuts to settings and Edit Mode, plus options to prevent interaction, reset data, delete an extra window or create another. This lets you keep several metrics visible at once. The round button beside it switches between the current segment—each stretch where someone enters or leaves combat—and data for the whole instance.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Damage Meter in World of Warcraft: Forever › Settings",
+          "url": "https://www.wowhead.com/forever/guide/ui/damage-meter-guide",
+          "date": "2026-09-22"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Damage Meter in World of Warcraft: Forever › Segment Data",
+          "url": "https://www.wowhead.com/forever/guide/ui/damage-meter-guide",
+          "date": "2026-09-22"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:damage-meter-guide"
+      ],
+      "source_hashes": [
+        "section:31144d1755b9591d7c300221b14c83b991aa9bb3",
+        "section:df546ed580bc0a11a9b0532ff8dd5818023edc39"
+      ]
+    },
+    {
+      "id": "interfaz-discord-que-permite",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Qué permite la integración con Discord",
+      "title_en": "What Discord Integration Enables",
+      "summary_es": "Vincular las cuentas permite seguir y contestar el chat de hermandad desde dentro o fuera del juego.",
+      "summary_en": "Linking accounts lets you follow and answer guild chat in or out of the game.",
+      "keywords_es": [
+        "integración de Discord",
+        "chat de hermandad en Discord",
+        "leer chat fuera del juego",
+        "vincular Battle.net y Discord",
+        "mensajes de Discord en el juego"
+      ],
+      "keywords_en": [
+        "Discord integration",
+        "guild chat in Discord",
+        "read chat outside the game",
+        "link Battle.net and Discord",
+        "Discord messages in game"
+      ],
+      "text_es": "La integración tiene dos partes: cada jugador vincula su cuenta de Battle.net con Discord, y el maestro de hermandad o un oficial con permisos enlaza la hermandad con un canal. Así puedes leer y responder al chat de hermandad desde Discord, incluso sin estar conectado al juego o con un personaje que no pertenece a esa hermandad. Los mensajes procedentes de Discord se identifican en el chat del juego.",
+      "text_en": "Integration has two parts: each player links their Battle.net account to Discord, and the guild master or an officer with permission connects the guild to a channel. This lets you read and reply to guild chat through Discord, even when you are out of game or logged in on a character outside that guild. Messages coming from Discord are identified in the in-game chat.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discord and Guild Chat Integration in World of Warcraft: Forever › What is Discord Integration in WoW: Forever?",
+          "url": "https://www.wowhead.com/forever/guide/ui/discord-guild-chat-integration-guide",
+          "date": "2026-09-23"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discord and Guild Chat Integration in World of Warcraft: Forever › Why Should I Connect My Accounts?",
+          "url": "https://www.wowhead.com/forever/guide/ui/discord-guild-chat-integration-guide",
+          "date": "2026-09-23"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:discord-guild-chat-integration-guide"
+      ],
+      "source_hashes": [
+        "section:2fa4e80c40a1f8c0757d11b1487293a1c9b4813a",
+        "section:889fdcca64466f00d968039f24cba9abfc61dd87"
+      ]
+    },
+    {
+      "id": "interfaz-discord-vincular-cuenta",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Vincular Battle.net con Discord",
+      "title_en": "Link Battle.net to Discord",
+      "summary_es": "Desde Opciones > Social, inicia sesión en Discord y confirma que sea la cuenta correcta.",
+      "summary_en": "In Options > Social, sign in to Discord and confirm it is the right account.",
+      "keywords_es": [
+        "conectar battle.net con discord",
+        "vincular cuenta de discord",
+        "iniciar sesión en discord desde wow",
+        "desconectar discord",
+        "nombre visible de discord"
+      ],
+      "keywords_en": [
+        "connect battle.net to discord",
+        "link discord account",
+        "sign in to discord from wow",
+        "disconnect discord",
+        "discord display name"
+      ],
+      "text_es": "Inicia sesión en Discord antes de empezar. En el menú del juego abre Opciones > Social, busca Activar funcionalidad de Discord y pulsa Iniciar sesión; completa fuera del juego los pasos para continuar y confirmar la cuenta. Después puedes elegir en Social si mostrar el nombre global de Discord o, por defecto, el de tu último personaje conectado que pertenezca a la hermandad enlazada. Para desvincular la cuenta, abre Conexiones en los ajustes de Battle.net.",
+      "text_en": "Sign in to Discord before starting. In the game menu, open Options > Social, find Enable Discord Functionality and click Sign In; complete the steps outside the game to continue and confirm the account. Afterwards, Social lets you choose between your Discord Global Name and, by default, the name of your most recently online character in the linked guild. To unlink the account, open Connections in Battle.net account settings.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discord and Guild Chat Integration in World of Warcraft: Forever › How Do I Link My Battle.net Account to Discord in World of Warcraft: Forever?",
+          "url": "https://www.wowhead.com/forever/guide/ui/discord-guild-chat-integration-guide",
+          "date": "2026-09-23"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discord and Guild Chat Integration in World of Warcraft: Forever › Display Name",
+          "url": "https://www.wowhead.com/forever/guide/ui/discord-guild-chat-integration-guide",
+          "date": "2026-09-23"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discord and Guild Chat Integration in World of Warcraft: Forever › Disconnecting Your Accounts",
+          "url": "https://www.wowhead.com/forever/guide/ui/discord-guild-chat-integration-guide",
+          "date": "2026-09-23"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:discord-guild-chat-integration-guide"
+      ],
+      "source_hashes": [
+        "section:197c713fd58c008acf503065c8affb944115b9d4",
+        "section:28b8ed9af514b2cdc411501340f376629cc664ae",
+        "section:522a4e80b85a94309458111cc88b305b6478d636"
+      ]
+    },
+    {
+      "id": "interfaz-discord-enlazar-hermandad",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Enlazar el chat de hermandad",
+      "title_en": "Link Guild Chat",
+      "summary_es": "Un maestro u oficial autorizado elige el servidor y canal desde Ajustes de hermandad.",
+      "summary_en": "An authorized guild master or officer selects a server and channel in Guild Settings.",
+      "keywords_es": [
+        "enlazar hermandad a discord",
+        "conectar chat de hermandad",
+        "permisos de discord para hermandad",
+        "ajustes de discord de hermandad",
+        "desconectar chat de hermandad"
+      ],
+      "keywords_en": [
+        "link guild to discord",
+        "connect guild chat",
+        "discord permissions for guild",
+        "guild discord settings",
+        "disconnect guild chat"
+      ],
+      "text_es": "Para enlazar el chat, necesitas permisos de Discord para administrar, ver y enviar mensajes en el canal; en la hermandad debe hacerlo el maestro o un oficial autorizado. Abre la interfaz de Hermandades y comunidades (J), ve a Lista, Ajustes de hermandad y Control de hermandad > Ajustes de Discord. Elige servidor y canal, y pulsa Enlazar. Para separarlos, sigue el mismo recorrido, marca Separar chat de Discord del chat de hermandad y pulsa Desenlazar.",
+      "text_en": "Linking chat requires Discord permissions to manage, view and send messages in the channel; in the guild, the guild master or an authorized officer must do it. Open Guild & Communities (J), go to Roster, Guild Settings and Guild Control > Discord Settings. Choose a server and channel, then click Link. To separate them, follow the same path, check Separate Discord chat from Guild chat and click Unlink.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discord and Guild Chat Integration in World of Warcraft: Forever › How Do I Link My Guild Chat to Discord in World of Warcraft: Forever?",
+          "url": "https://www.wowhead.com/forever/guide/ui/discord-guild-chat-integration-guide",
+          "date": "2026-09-23"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discord and Guild Chat Integration in World of Warcraft: Forever › Disconnecting Your Guild",
+          "url": "https://www.wowhead.com/forever/guide/ui/discord-guild-chat-integration-guide",
+          "date": "2026-09-23"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:discord-guild-chat-integration-guide"
+      ],
+      "source_hashes": [
+        "section:01be0bdccab472818ef4f8c307accbf03da7ff7a",
+        "section:75f92bfe814967fe2039db9293bcd806e7971f63"
+      ]
+    },
+    {
+      "id": "interfaz-discord-elegir-canal",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Elegir el canal de Discord",
+      "title_en": "Choose a Discord Channel",
+      "summary_es": "Un canal nuevo evita que los avisos automáticos de cuentas sin vincular interrumpan una charla activa.",
+      "summary_en": "A new channel keeps automatic notices from unlinked accounts out of an active chat.",
+      "keywords_es": [
+        "canal de discord para hermandad",
+        "crear canal de chat de hermandad",
+        "mensajes automáticos de discord",
+        "cuentas sin vincular",
+        "chat de hermandad interrumpido"
+      ],
+      "keywords_en": [
+        "guild discord channel",
+        "create guild chat channel",
+        "automatic discord messages",
+        "unlinked accounts",
+        "interrupted guild chat"
+      ],
+      "text_es": "Puedes conectar el chat a un canal que ya exista o crear uno nuevo. Si los miembros tardan en vincular sus cuentas, un canal separado puede ayudar: Discord muestra avisos automáticos cuando alguien escribe desde el juego sin haber enlazado sus cuentas, y estos pueden cortar la conversación.",
+      "text_en": "You can connect guild chat to an existing channel or create a new one. If members are slow to link their accounts, a separate channel may help: Discord displays automatic notices when someone posts in game without linking their accounts, and these can interrupt the conversation.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discord and Guild Chat Integration in World of Warcraft: Forever › How Do I Link My Guild Chat to Discord in World of Warcraft: Forever?",
+          "url": "https://www.wowhead.com/forever/guide/ui/discord-guild-chat-integration-guide",
+          "date": "2026-09-23"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discord and Guild Chat Integration in World of Warcraft: Forever › Why Should I Connect My Accounts?",
+          "url": "https://www.wowhead.com/forever/guide/ui/discord-guild-chat-integration-guide",
+          "date": "2026-09-23"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:discord-guild-chat-integration-guide"
+      ],
+      "source_hashes": [
+        "section:01be0bdccab472818ef4f8c307accbf03da7ff7a",
+        "section:889fdcca64466f00d968039f24cba9abfc61dd87"
+      ]
+    },
+    {
+      "id": "interfaz-pings-configurar",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Activar y configurar los avisos visuales",
+      "title_en": "Enable and Set Up Pings",
+      "summary_es": "Activa los avisos visuales en Opciones y asigna una tecla para usarlos.",
+      "summary_en": "Enable pings in Options and bind a key to use them.",
+      "keywords_es": [
+        "activar pings",
+        "configurar avisos visuales",
+        "asignar tecla para ping",
+        "teclas del sistema de ping",
+        "opciones de pings"
+      ],
+      "keywords_en": [
+        "enable pings",
+        "set up pings",
+        "bind ping key",
+        "ping system keybindings",
+        "ping options"
+      ],
+      "text_es": "Abre el menú del juego y entra en Opciones > Sistema de ping; marca Activar pings. Luego pulsa Asignación de teclas y configura una tecla para Ping. También puedes asignar teclas a los tipos adicionales, aunque no hace falta para empezar.",
+      "text_en": "Open the game menu and go to Options > Ping System; check Enable Pings. Then click Keybindings and set a key for Ping. You can also bind keys to the additional ping types, though that is not required to get started.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Ping System in World of Warcraft: Forever › How Do I Set Up the Ping System in World of Warcraft: Forever?",
+          "url": "https://www.wowhead.com/forever/guide/ui/ping-system-guide",
+          "date": "2026-09-23"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:ping-system-guide"
+      ],
+      "source_hashes": [
+        "section:8aeec758ea72b2a9cfaeb4f02d6c1f8c6eaf620c"
+      ]
+    },
+    {
+      "id": "interfaz-pings-usar",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Colocar avisos y elegir su tipo",
+      "title_en": "Place Pings and Choose a Type",
+      "summary_es": "Pulsa la tecla para marcar un punto; mantenla para abrir la rueda radial de tipos.",
+      "summary_en": "Press the key to mark a spot; hold it to open the radial wheel of ping types.",
+      "keywords_es": [
+        "cómo poner un ping",
+        "marcar ubicación",
+        "rueda radial de avisos",
+        "tipos de ping",
+        "tiempo de reutilización de ping"
+      ],
+      "keywords_en": [
+        "how to ping",
+        "mark a location",
+        "radial ping wheel",
+        "ping types",
+        "ping cooldown"
+      ],
+      "text_es": "Coloca el cursor donde quieras marcar y pulsa la tecla de Ping: el marcador aparece brevemente en ese punto. Si mantienes la tecla, se abre una rueda radial; mueve el cursor hasta el tipo deseado y suéltala para colocarlo. Usar muchos avisos seguidos activa una breve espera. Cada icono lleva un mensaje asociado, aunque también pueden entenderse como marcas de distintos colores.",
+      "text_en": "Move the cursor to the spot you want to mark and press the Ping key: the marker briefly appears there. Hold the key to open a radial wheel, move the cursor to the type you want and release to place it. Using many pings in quick succession triggers a short cooldown. Each icon has an associated message, though the different colors can also serve as visual markers.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Ping System in World of Warcraft: Forever › How Do I Use the Ping System in World of Warcraft: Forever?",
+          "url": "https://www.wowhead.com/forever/guide/ui/ping-system-guide",
+          "date": "2026-09-23"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:ping-system-guide"
+      ],
+      "source_hashes": [
+        "section:f167fdc6f7de8448997b0f32faec34ee318a23ea"
+      ]
+    },
+    {
+      "id": "interfaz-pings-opciones",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Ajustar modo y objetivo de los avisos",
+      "title_en": "Adjust Ping Mode and Targets",
+      "summary_es": "Elige cuánto duran, su volumen y si pueden señalar unidades, el entorno o ambos.",
+      "summary_en": "Choose how long they last, their volume, and whether they target units, the environment or both.",
+      "keywords_es": [
+        "modo rápido de ping",
+        "modo relajado de ping",
+        "sonido de avisos",
+        "ping a unidades o entorno",
+        "evitar marcar jugadores"
+      ],
+      "keywords_en": [
+        "quick ping mode",
+        "relaxed ping mode",
+        "ping sounds",
+        "ping units or environment",
+        "avoid pinging players"
+      ],
+      "text_es": "En las opciones del sistema puedes elegir modo Rápido o Relajado; el segundo mantiene los avisos en pantalla algo más de tiempo, pero no permite usar la rueda radial. También puedes silenciar o ajustar su volumen. El objetivo puede incluirlo todo, solo el entorno o solo unidades; limita el objetivo al entorno para no marcar accidentalmente a jugadores, jefes u otros personajes.",
+      "text_en": "The system options offer Quick or Relaxed mode; the latter keeps pings on screen a little longer but does not support the radial wheel. You can also mute them or adjust their volume. Targets can include everything, only the environment or only units; restrict them to the environment to avoid accidentally marking players, bosses or other characters.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Ping System in World of Warcraft: Forever › How Do I Use the Ping System in World of Warcraft: Forever?",
+          "url": "https://www.wowhead.com/forever/guide/ui/ping-system-guide",
+          "date": "2026-09-23"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:ping-system-guide"
+      ],
+      "source_hashes": [
+        "section:f167fdc6f7de8448997b0f32faec34ee318a23ea"
+      ]
+    },
+    {
+      "id": "interfaz-pings-chat-raid",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Mostrar avisos en el chat y marcos de banda",
+      "title_en": "Show Pings in Chat and Raid Frames",
+      "summary_es": "Los avisos pueden aparecer en canales elegidos y sobre el marco de banda de quien los envía.",
+      "summary_en": "Pings can appear in selected chat channels and on the sender's raid frame.",
+      "keywords_es": [
+        "mostrar pings en chat",
+        "avisos en canales de chat",
+        "color de ping en chat",
+        "pings en marcos de banda",
+        "pings en marcos de grupo"
+      ],
+      "keywords_en": [
+        "show pings in chat",
+        "pings in chat channels",
+        "chat ping color",
+        "pings on raid frames",
+        "pings on party frames"
+      ],
+      "text_es": "Activa Mostrar pings en chat y, en Ajustes del chat, elige una pestaña, abre Otros y marca Ping; ahí también puedes cambiar el color del aviso. Mostrar pings en marcos de banda coloca el aviso en el marco de quien lo envía. Esta función está disponible en marcos de banda, no en los de grupo.",
+      "text_en": "Turn on the Show Pings in Chat option, then in Chat Settings choose a tab, open Other and check Ping; you can also change the notification color there. Show Pings on Raid Frames places a ping on the sender's frame. This feature is available on raid frames, not party frames.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Ping System in World of Warcraft: Forever › How Do I Use the Ping System in World of Warcraft: Forever?",
+          "url": "https://www.wowhead.com/forever/guide/ui/ping-system-guide",
+          "date": "2026-09-23"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:ping-system-guide"
+      ],
+      "source_hashes": [
+        "section:f167fdc6f7de8448997b0f32faec34ee318a23ea"
+      ]
+    },
+    {
+      "id": "interfaz-pings-recursos",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Avisar de salud y reutilizaciones",
+      "title_en": "Ping Health and Cooldowns",
+      "summary_es": "Haz ping en la barra de salud, en una acción o en una habilidad del Gestor de reutilizaciones.",
+      "summary_en": "Ping your health bar, an action bar or a Cooldown Manager ability.",
+      "keywords_es": [
+        "avisar de salud al grupo",
+        "mostrar reutilización de habilidad",
+        "avisar que una habilidad está lista",
+        "ping en barra de acciones",
+        "ping en gestor de reutilizaciones"
+      ],
+      "keywords_en": [
+        "share health with group",
+        "show ability cooldown",
+        "ping ability ready",
+        "ping action bar",
+        "ping cooldown manager"
+      ],
+      "text_es": "También puedes hacer ping directamente en tu barra de salud para compartir el porcentaje actual, o en una acción o habilidad del Gestor de reutilizaciones para indicar si está lista o cuánto le queda. Un aviso de reutilización pendiente usa un marcador verde en vez del azul de disponibilidad. Esta interacción puede no funcionar con algunas barras de acción añadidas.",
+      "text_en": "You can also ping your health bar to share your current percentage, or an action or Cooldown Manager ability to show whether it is ready or how much cooldown remains. A cooldown ping uses a green marker instead of the blue ready marker. This interaction may not work with some added action bars.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Ping System in World of Warcraft: Forever › Ping Your Resources",
+          "url": "https://www.wowhead.com/forever/guide/ui/ping-system-guide",
+          "date": "2026-09-23"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:ping-system-guide"
+      ],
+      "source_hashes": [
+        "section:8c603675a1a667d63972e827b83382e7711d8836"
+      ]
+    },
+    {
+      "id": "interfaz-sintaxis-macros",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Sintaxis básica de macros",
+      "title_en": "Basic Macro Syntax",
+      "summary_es": "Las líneas con # son metacomandos, las de / son órdenes y los corchetes expresan condiciones.",
+      "summary_en": "Lines with # are metacommands, / lines are commands, and brackets express conditions.",
+      "keywords_es": [
+        "escribir una macro",
+        "sintaxis de macros",
+        "comando showtooltip",
+        "comando cast",
+        "condiciones entre corchetes"
+      ],
+      "keywords_en": [
+        "write a macro",
+        "macro syntax",
+        "showtooltip command",
+        "cast command",
+        "bracket conditions"
+      ],
+      "text_es": "En una macro, las líneas que empiezan por # son metacomandos de presentación, como #showtooltip; las que empiezan por / ejecutan órdenes, como /cast o /say. Puedes añadir criterios entre corchetes para que una orden dependa de una condición, y separar distintos criterios con dos puntos. Como ejemplo esquemático, #showtooltip seguido de /cast <hechizo> muestra el icono correspondiente y lanza ese hechizo.",
+      "text_en": "In a macro, lines beginning with # are display metacommands, such as #showtooltip; lines beginning with / run commands, such as /cast or /say. Bracketed criteria can make a command conditional, with a colon separating different parts of a criterion. As a schematic example, #showtooltip followed by /cast <spell> shows the matching icon and casts that spell.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beginners Guide to Writing Macros in WoW Forever › QUICK RUNDOWN OF HOW MACROS WORK:",
+          "url": "https://www.wowhead.com/forever/guide/beginners-guide-to-writing-macros-in-wow-forever-34950",
+          "date": "2026-10-20"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beginners Guide to Writing Macros in WoW Forever › SOME EXAMPLE HANDY MACRO’S AND HOW THEY WORK",
+          "url": "https://www.wowhead.com/forever/guide/beginners-guide-to-writing-macros-in-wow-forever-34950",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:beginners-guide-to-writing-macros-in-wow-forever-34950"
+      ],
+      "source_hashes": [
+        "section:12f33b49c0dc795fe455f49653752e6e3a71ab24",
+        "section:95b8069d0fc627bfa9e7e93ffdab1b49dc9a9078"
+      ]
+    },
+    {
+      "id": "interfaz-crear-macros",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Crear una macro para usar el rango mayor",
+      "title_en": "Make a Macro for the Highest Spell Rank",
+      "summary_es": "Crea una macro con #showtooltip y /cast sin rango para que use el mayor rango aprendido.",
+      "summary_en": "Use #showtooltip and /cast without a rank to cast the highest rank you know.",
+      "keywords_es": [
+        "macro para rango más alto",
+        "actualizar rango de hechizo",
+        "macro para subir de nivel",
+        "elegir hechizo del libro",
+        "crear macro de personaje"
+      ],
+      "keywords_en": [
+        "highest-rank macro",
+        "update spell rank",
+        "leveling spell macro",
+        "select spell from spellbook",
+        "create character macro"
+      ],
+      "text_es": "Escribe /macro en el chat y abre la pestaña de macros del personaje. Crea una macro, asígnale un icono o el nombre de una tecla y añade #showtooltip y /cast; con Mayús y un clic en el libro de hechizos puedes insertar la habilidad. Borra de su nombre el texto del rango, guarda la macro y colócala en la barra en lugar del hechizo normal: utilizará el rango más alto que conozcas.",
+      "text_en": "Type /macro in chat and open the character-specific macro tab. Create a macro, give it an icon or a key name, and add #showtooltip and /cast; Shift-click a spell in the spellbook to insert it. Remove the rank text from its name, save the macro and put it on your bar in place of the regular spell: it will use the highest rank you know.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beginners Guide to Writing Macros in WoW Forever › THE MOST IMPORTANT MACRO TRICK FOR LEVELLING",
+          "url": "https://www.wowhead.com/forever/guide/beginners-guide-to-writing-macros-in-wow-forever-34950",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:beginners-guide-to-writing-macros-in-wow-forever-34950"
+      ],
+      "source_hashes": [
+        "section:4c2479ea3b9028eaebcdf91ca4f963a8db6b9e3e"
+      ]
+    },
+    {
+      "id": "interfaz-macros-ping",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Macros para avisar de reutilizaciones",
+      "title_en": "Macros for Cooldown Pings",
+      "summary_es": "Combina /pingspell o /pingitem con la acción, o usa /ping @cursor para marcar bajo el cursor.",
+      "summary_en": "Combine /pingspell or /pingitem with an action, or use /ping @cursor to mark under the cursor.",
+      "keywords_es": [
+        "macro de pingspell",
+        "macro de pingitem",
+        "ping bajo el cursor",
+        "avisar reutilización con macro",
+        "comandos de ping en macro"
+      ],
+      "keywords_en": [
+        "pingspell macro",
+        "pingitem macro",
+        "ping under cursor",
+        "macro cooldown notification",
+        "ping commands in macro"
+      ],
+      "text_es": "Las órdenes de macro /pingspell y /pingitem comunican el estado de un hechizo u objeto. Por ejemplo, añade /pingspell <hechizo> antes de la orden que lo usa; las macros de ping no consumen el tiempo de reutilización global y se ejecutan junto a las demás. Al disparar ambas órdenes a la vez solo se muestra el estado de disponibilidad: tendrás que pulsar de nuevo para ver el tiempo de reutilización. Para un aviso básico en el punto bajo el cursor, usa /ping @cursor.",
+      "text_en": "The macro commands /pingspell and /pingitem share a spell's or item's status. For example, put /pingspell <spell> before the command that uses it; ping macros do not use the global cooldown and run alongside other commands. If both commands fire at once, only the ready status appears, so press again to show the cooldown. For a basic ping at the cursor, use /ping @cursor.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Ping System in World of Warcraft: Forever › Ping Macros",
+          "url": "https://www.wowhead.com/forever/guide/ui/ping-system-guide",
+          "date": "2026-09-23"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "ui:ping-system-guide"
+      ],
+      "source_hashes": [
+        "section:45e2646bcd7bb6975ed30a41d158521786810728"
+      ]
+    },
+    {
+      "id": "interfaz-macros-secuencia",
+      "chapter": 2,
+      "status": "editorial",
+      "title_es": "Usar secuencias en macros",
+      "title_en": "Use Sequences in Macros",
+      "summary_es": "Una orden /castsequence avanza al siguiente hechizo al pulsar y puede reiniciarse por tiempo u objetivo.",
+      "summary_en": "A /castsequence advances on each press and can reset by time or target.",
+      "keywords_es": [
+        "macro de secuencia",
+        "comando castsequence",
+        "reiniciar secuencia de macro",
+        "secuencia por objetivo",
+        "macro de varios hechizos"
+      ],
+      "keywords_en": [
+        "sequence macro",
+        "castsequence command",
+        "reset macro sequence",
+        "sequence by target",
+        "multi-spell macro"
+      ],
+      "text_es": "La orden /castsequence permite recorrer varias acciones con pulsaciones sucesivas. Puedes indicar un reinicio por tiempo o al cambiar de objetivo; por ejemplo, reset=10/target vuelve al inicio tras 10 segundos o al seleccionar otro objetivo. Así, una secuencia con dos hechizos avanza al segundo al pulsar por segunda vez.",
+      "text_en": "The /castsequence command lets successive button presses move through several actions. You can set it to reset after a time or when the target changes; for example, reset=10/target returns to the start after 10 seconds or when you select another target. A sequence with two spells therefore advances to the second on the second press.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Beginners Guide to Writing Macros in WoW Forever › SOME EXAMPLE HANDY MACRO’S AND HOW THEY WORK",
+          "url": "https://www.wowhead.com/forever/guide/beginners-guide-to-writing-macros-in-wow-forever-34950",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:beginners-guide-to-writing-macros-in-wow-forever-34950"
+      ],
+      "source_hashes": [
+        "section:12f33b49c0dc795fe455f49653752e6e3a71ab24"
+      ]
+    }
+  ]
+}
