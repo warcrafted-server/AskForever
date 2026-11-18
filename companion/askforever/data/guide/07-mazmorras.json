@@ -5005,6 +5005,791 @@
         "section:1f7392f3085b994089a2367b73c80bcbe1141fc7",
         "section:bd1932ad9f4cac77f723b21c07f15ecce8286d5e"
       ]
+    },
+    {
+      "id": "mazmorra-maraudon-jefe-noxxion",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Noxxion",
+      "title_en": "Noxxion",
+      "summary_es": "Noxxion usa Lluvia tóxica y Gancho, y se divide en copias pequeñas.",
+      "summary_en": "Noxxion uses Toxic Volley and Uppercut, then splits into smaller copies.",
+      "keywords_es": [
+        "noxxion maraudon",
+        "jefe noxxion",
+        "jefes de maraudon"
+      ],
+      "keywords_en": [
+        "noxxion maraudon",
+        "noxxion boss",
+        "maraudon bosses"
+      ],
+      "text_es": "Noxxion golpea con Lluvia tóxica y Gancho; después se divide en copias pequeñas. Elimínalas para que vuelva a formarse. El grupo puede atraerlo fuera de la poza para facilitar el combate contra las copias.",
+      "text_en": "Noxxion uses Toxic Volley and Uppercut, then splits into smaller copies. Defeat them so he reforms. The group can pull him out of the pool to make fighting the copies easier.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › Noxxion",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:maraudon"
+      ],
+      "source_hashes": [
+        "section:0b317be7ca857b66d7c6452ca5e06d5b6682dfe6"
+      ]
+    },
+    {
+      "id": "mazmorra-alcaz-prison-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Prisión de Alcaz: nivel y entrada",
+      "title_en": "Alcaz Prison: Level and Entrance",
+      "summary_es": "Niveles 49-54; llega desde Poblado Murohelecho o Isla de Theramore.",
+      "summary_en": "Levels 49-54; reach it from Brackenwall Village or Theramore.",
+      "keywords_es": [
+        "prisión de alcaz",
+        "nivel prisión de alcaz",
+        "entrada de alcaz",
+        "cómo llegar a alcaz"
+      ],
+      "keywords_en": [
+        "alcaz prison",
+        "alcaz prison level",
+        "alcaz prison entrance",
+        "how to reach alcaz"
+      ],
+      "text_es": "La Prisión de Alcaz se recomienda para niveles 49-54. La entrada está en el sótano de la fortaleza, al norte de Isla de Alcaz, en el Marjal Revolcafango. La Horda puede volar a Poblado Murohelecho o partir de Trinquete; la Alianza toma el barco desde Puerto de Menethil a Isla de Theramore y sigue al norte.",
+      "text_en": "Alcaz Prison is recommended for levels 49-54. The entrance is in the keep’s basement, north on Alcaz Island in Dustwallow Marsh. Horde can fly to Brackenwall Village or set out from Ratchet; Alliance takes the boat from Menethil Harbor to Theramore and travels north.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Alcaz Prison Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Alcaz Prison Overview in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/alcaz-prison-dungeon-overview-location-rewards",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Alcaz Prison Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Alcaz Prison in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/alcaz-prison-dungeon-overview-location-rewards",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:alcaz-prison"
+      ],
+      "source_hashes": [
+        "section:5110902ca629554bac34b63e04c0aff689daf45a",
+        "section:b9865b6871f048418525568ab6dd85436a91b2a7"
+      ]
+    },
+    {
+      "id": "mazmorra-alcaz-prison-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones recomendables de Prisión de Alcaz",
+      "title_en": "Recommended Alcaz Prison Quests",
+      "summary_es": "La Alianza inicia una cadena en Ventormenta; la Horda recoge misiones en Isla de Alcaz.",
+      "summary_en": "Alliance begins a chain in Stormwind; Horde picks up quests on Alcaz Island.",
+      "keywords_es": [
+        "misiones prisión de alcaz",
+        "el diario del dragón",
+        "ningún orco se queda atrás",
+        "pañuelos rojo sangre"
+      ],
+      "keywords_en": [
+        "alcaz prison quests",
+        "the dragon’s journal",
+        "no orc left behind",
+        "blood red bandanas"
+      ],
+      "text_es": "La Alianza puede aceptar El diario del dragón con el Archimago Lan’dalock en Dalaran. Un poquito de trabajo sucio sigue a Nuestro hombre en Theramore, que empieza con el Maestro Mathias Shaw en Ciudad de Ventormenta. Para la Horda, Ningún orco se queda atrás y Pañuelos rojo sangre se recogen con el Sargento Ulka en Isla de Alcaz; ambas cadenas parten de Los Kor’kron perdidos, de Eitrigg en Orgrimmar.",
+      "text_en": "Alliance can pick up The Dragon’s Journal from Archmage Lan’dalock in Dalaran. A Bit of Wet Work follows Our Man in Theramore, which starts with Master Mathias Shaw in Stormwind City. For Horde, No Orc Left Behind and Blood Red Bandanas are picked up from Sergeant Ulka on Alcaz Island; both chains begin with The Missing Kor’kron from Eitrigg in Orgrimmar.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Alcaz Prison Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/alcaz-prison-dungeon-overview-location-rewards",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:alcaz-prison"
+      ],
+      "source_hashes": [
+        "section:28f92362a581fb52106a3c126515270190b077a2"
+      ]
+    },
+    {
+      "id": "mazmorra-alcaz-prison-jefe-cazass",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Maestra de las mareas Ca’zass",
+      "title_en": "Tidemistress Ca’zass",
+      "summary_es": "Controla a las Encantadoras Strashaz y aparta a Ca’zass de Ventisca.",
+      "summary_en": "Control the Strashaz Enchantresses and move Ca’zass out of Blizzard.",
+      "keywords_es": [
+        "maestra de las mareas ca’zass",
+        "ca’zass alcaz",
+        "jefe prisión de alcaz"
+      ],
+      "keywords_en": [
+        "tidemistress ca’zass",
+        "ca’zass alcaz",
+        "alcaz prison boss"
+      ],
+      "text_es": "La Maestra de las mareas Ca’zass lucha junto a dos acompañantes: elimínalas o contrólalas. Mantén a Ca’zass fuera de Ventisca y disipa Nova de Escarcha para que nadie quede atrapado; interrumpe Salva de descarga de Escarcha cuando puedas.",
+      "text_en": "Tidemistress Ca’zass fights alongside two adds: defeat or control them. Keep the boss out of Blizzard and dispel Frost Nova so no one is trapped; interrupt Frostbolt Volley when possible.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Alcaz Prison Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Tidemistress Ca'zass",
+          "url": "https://www.wowhead.com/forever/guide/alcaz-prison-dungeon-overview-location-rewards",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:alcaz-prison"
+      ],
+      "source_hashes": [
+        "section:e188213695a5dc82d9eaba60662f8101175bdf7b"
+      ]
+    },
+    {
+      "id": "mazmorra-alcaz-prison-jefe-wrex",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Sobrestante Wrex",
+      "title_en": "Overseer Wrex",
+      "summary_es": "Limpia las tres celdas cercanas antes de enfrentarte a Wrex.",
+      "summary_en": "Clear the three nearby cells before engaging Wrex.",
+      "keywords_es": [
+        "sobrestante wrex",
+        "wrex alcaz",
+        "jefe prisión de alcaz"
+      ],
+      "keywords_en": [
+        "overseer wrex",
+        "wrex alcaz",
+        "alcaz prison boss"
+      ],
+      "text_es": "Sobrestante Wrex patrulla las celdas y, si lo atraes, llama a los enemigos de las tres cámaras próximas. Espera a que pase, limpia esas salas y luego enfréntalo. Golpe mortal hiere mucho al tanque y reduce la sanación recibida; también usa Grito de guerra.",
+      "text_en": "Overseer Wrex patrols the cells and calls enemies from the three nearby chambers if pulled. Wait for him to pass, clear those rooms, then engage. Mortal Strike hits the tank hard and reduces healing received; he also uses Battle Shout.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Alcaz Prison Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Overseer Wrex",
+          "url": "https://www.wowhead.com/forever/guide/alcaz-prison-dungeon-overview-location-rewards",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:alcaz-prison"
+      ],
+      "source_hashes": [
+        "section:cf1bdbb305d128609ddfb8a2619db47446fed8d4"
+      ]
+    },
+    {
+      "id": "mazmorra-alcaz-prison-jefe-interrogador",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "El Interrogador",
+      "title_en": "The Questioner",
+      "summary_es": "No mates al Interrogador hasta despejar el resto de la mazmorra.",
+      "summary_en": "Do not kill the Questioner until the rest of the dungeon is clear.",
+      "keywords_es": [
+        "el interrogador alcaz",
+        "jefe interrogador",
+        "jefe prisión de alcaz"
+      ],
+      "keywords_en": [
+        "the questioner alcaz",
+        "questioner boss",
+        "alcaz prison boss"
+      ],
+      "text_es": "El Interrogador es sencillo, pero no lo mates antes de despejar el resto de la mazmorra. Puedes atraer primero a algunos esbirros. Sus habilidades son Desgarrar y Drenar vida; Paladines y Sacerdotes pueden disipar el efecto de Drenar vida.",
+      "text_en": "The Questioner is straightforward, but do not kill him before clearing the rest of the dungeon. You can pull some adds first. His abilities are Rend and Drain Life; Paladins and Priests can dispel the Drain Life effect.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Alcaz Prison Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Questioner",
+          "url": "https://www.wowhead.com/forever/guide/alcaz-prison-dungeon-overview-location-rewards",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:alcaz-prison"
+      ],
+      "source_hashes": [
+        "section:60c641cfe973fb941058bcb5b396883d5f6fbf3b"
+      ]
+    },
+    {
+      "id": "mazmorra-alcaz-prison-jefe-katerina",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Katerina la Limpiadora",
+      "title_en": "Katerina the Cleaner",
+      "summary_es": "Controla a los Capellanes de Alcaz y disipa Veneno mortal.",
+      "summary_en": "Control the Alcaz Chaplains and dispel Deadly Poison.",
+      "keywords_es": [
+        "katerina la limpiadora",
+        "katerina alcaz",
+        "jefe prisión de alcaz"
+      ],
+      "keywords_en": [
+        "katerina the cleaner",
+        "katerina alcaz",
+        "alcaz prison boss"
+      ],
+      "text_es": "Katerina la Limpiadora está acompañada por dos Capellanes de Alcaz; contrólalos o elimínalos para impedir que sanen. Garrote doloroso drena la salud de un jugador hasta que lo sanen por encima del 90%. Retira cuanto antes Veneno mortal del objetivo principal de amenaza.",
+      "text_en": "Katerina is accompanied by two Alcaz Chaplains; control or defeat them to stop their healing. Grievous Garrote drains a player’s health until they are healed above 90%. Deadly Poison must be cleared from the primary threat target promptly.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Alcaz Prison Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Katerina the Cleaner",
+          "url": "https://www.wowhead.com/forever/guide/alcaz-prison-dungeon-overview-location-rewards",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:alcaz-prison"
+      ],
+      "source_hashes": [
+        "section:b1bdacbc29f7c0383a203718cc1f5821648a490d"
+      ]
+    },
+    {
+      "id": "mazmorra-alcaz-prison-jefe-rugell",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Ama Rugell y Rugellama",
+      "title_en": "Zarla Ober and Blazeroar",
+      "summary_es": "Ama Rugell se transforma en Rugellama al 30%; el dragón golpea y aterroriza al grupo.",
+      "summary_en": "Ama Rugell transforms into Blazeroar at 30%; the dragon hits hard and fears the group.",
+      "keywords_es": [
+        "ama rugell",
+        "rugellama",
+        "jefe final de alcaz"
+      ],
+      "keywords_en": [
+        "zarla ober",
+        "blazeroar",
+        "alcaz final boss"
+      ],
+      "text_es": "Ama Rugell tiene una fase humana y, al llegar al 30%, revela su forma de Rugellama y recupera toda la salud. Esquiva Fogonazo; como dragón, Rugellama daña continuamente con Escamas abrasadoras, golpea al tanque con Aliento de llamarada y Vapulear, y aterroriza al resto.",
+      "text_en": "Zarla Ober has a human phase and, at 30%, reveals her Blazeroar form and returns to full health. Avoid Flamestrike; as a dragon, Blazeroar deals ongoing damage with Searing Scales, hits the tank with Flame Breath and Thrash, and fears everyone else.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Alcaz Prison Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Zarla Ober/Blazeroar",
+          "url": "https://www.wowhead.com/forever/guide/alcaz-prison-dungeon-overview-location-rewards",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:alcaz-prison"
+      ],
+      "source_hashes": [
+        "section:c0ee273e7a4003196f1aa814d0641dfb0195e94d"
+      ]
+    },
+    {
+      "id": "mazmorra-alcaz-prison-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas destacadas de Prisión de Alcaz",
+      "title_en": "Notable Alcaz Prison Rewards",
+      "summary_es": "Wrex, El Interrogador y Ama Rugell dejan objetos con nombre esES.",
+      "summary_en": "Wrex, the Questioner, and Zarla Ober drop items with esES names.",
+      "keywords_es": [
+        "recompensas prisión de alcaz",
+        "llavero de sobrestante",
+        "llave de grilletes ornamental",
+        "diario de zarla"
+      ],
+      "keywords_en": [
+        "alcaz prison rewards",
+        "overseer’s keyring",
+        "key for the shackles",
+        "zarla’s journal"
+      ],
+      "text_es": "Entre los objetos destacados están el Llavero de sobrestante de Sobrestante Wrex, la Llave de grilletes ornamental de El Interrogador y el Diario de Zarla de Ama Rugell y Rugellama.",
+      "text_en": "Notable items include a keyring dropped by Wrex, a key for the shackles from the Questioner, and Zarla’s Journal from Zarla Ober and Blazeroar.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Alcaz Prison Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Alcaz Prison Loot",
+          "url": "https://www.wowhead.com/forever/guide/alcaz-prison-dungeon-overview-location-rewards",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:alcaz-prison"
+      ],
+      "source_hashes": [
+        "section:a407caf0db6fa63c2cd882fa8cdd06399a6da398"
+      ]
+    },
+    {
+      "id": "mazmorra-maraudon-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Maraudon: nivel y entrada",
+      "title_en": "Maraudon: Level and Entrance",
+      "summary_es": "Nivel recomendado 45-52; la entrada está en el Valle de las Lanzas, en Desolace.",
+      "summary_en": "Recommended level 45-52; the entrance is in the Valley of Spears, in Desolace.",
+      "keywords_es": [
+        "maraudon",
+        "nivel maraudon",
+        "entrada maraudon",
+        "cómo llegar a maraudon"
+      ],
+      "keywords_en": [
+        "maraudon",
+        "maraudon level",
+        "maraudon entrance",
+        "how to reach maraudon"
+      ],
+      "text_es": "Maraudon se recomienda para niveles 45-52. Busca la entrada en el Valle de las Lanzas, en Desolace. Queda al norte de Aldea Cazasombras y al oeste respecto al Cementerio de los Kodos; los centauros custodian el camino. Aldea Cazasombras sirve de localidad de referencia para la Horda y Punta de Nijel ofrece misiones para la Alianza. Hay accesos de cristales naranjas y morados; el Cetro de Celebras permite crear un portal hacia otra sección.",
+      "text_en": "Maraudon is recommended for levels 45-52. Find the entrance at Valley of Spears in Desolace. It is north of Shadowprey Village and lies on the western side relative to the Kodo Graveyard; centaurs guard the approach. Shadowprey Village serves as a reference town for Horde, and Alliance players can pick up quests in Nijel’s Point. There are orange- and purple-crystal entrances; the Scepter of Celebras creates a portal to another section.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › Maraudon Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › Location of Maraudon in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:maraudon"
+      ],
+      "source_hashes": [
+        "section:3fbe1cded61501728f36ded637cc04a4faa0ae75",
+        "section:44b490170017b16c7b993875a33a266ab2e575c2",
+        "section:4c540de196ad1807a25db7803a802c3bcea6fc2d"
+      ]
+    },
+    {
+      "id": "mazmorra-maraudon-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones recomendables de Maraudon",
+      "title_en": "Recommended Maraudon Quests",
+      "summary_es": "Las instrucciones del Paria empiezan en Desolace; El Cetro de Celebras requiere una cadena previa.",
+      "summary_en": "The Pariah’s Instructions starts in Desolace; the Scepter of Celebras requires a prior quest chain.",
+      "keywords_es": [
+        "misiones maraudon",
+        "las instrucciones del paria",
+        "leyendas de maraudón",
+        "el cetro de celebras"
+      ],
+      "keywords_en": [
+        "maraudon quests",
+        "the pariah’s instructions",
+        "legends of maraudon",
+        "the scepter of celebras"
+      ],
+      "text_es": "Las instrucciones del Paria para Maraudon empiezan con el Paria Centauro en Desolace y conducen a la mazmorra. Leyendas de Maraudón se recoge en la ruta naranja; al completarla, Celebras el Maldito da paso a El Cetro de Celebras en la ruta morada. Completa esta cadena para obtener el Cetro de Celebras, que permite abrir un portal de acceso a otra sección.",
+      "text_en": "The Pariah’s Instructions for Maraudon starts with the Centaur Pariah in Desolace and leads into the dungeon. Legends of Maraudon is picked up on the orange path; completing it leads from Celebras the Cursed to The Scepter of Celebras on the purple path. Finish this chain to obtain the Scepter of Celebras, which opens a portal to another section.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › The Pariah's Instructions",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › Legends of Maraudon",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › The Scepter of Celebras",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:maraudon"
+      ],
+      "source_hashes": [
+        "guide:c30be58d16953e1b67fec3c665a6e498fde7d781",
+        "section:4c540de196ad1807a25db7803a802c3bcea6fc2d"
+      ]
+    },
+    {
+      "id": "mazmorra-maraudon-jefe-lenguavil",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Lord Lenguavil",
+      "title_en": "Lord Vyletongue",
+      "summary_es": "Apila al grupo junto a Lenguavil para evitar sus disparos; vuelve a acercarte tras Traslación.",
+      "summary_en": "Stack on Vyletongue to avoid his shots; regroup after Blink.",
+      "keywords_es": [
+        "lord lenguavil",
+        "jefe lord lenguavil",
+        "jefes de maraudon"
+      ],
+      "keywords_en": [
+        "lord vyletongue",
+        "lord vyletongue boss",
+        "maraudon bosses"
+      ],
+      "text_es": "Apila al grupo junto a Lord Lenguavil para evitar Multidisparo; volved a acercaros cuando Traslación lo aparte. Elimina primero al jefe, que se mueve por la sala, y después acaba con sus dos guardias ocultos Acechasombras Putridus.",
+      "text_en": "Stack on Lord Vyletongue to avoid Multi-Shot; regroup when Blink moves him away. Defeat the mobile boss first, then finish his two stealthed Putridus Shadowstalker guards.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › Lord Vyletongue",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:maraudon"
+      ],
+      "source_hashes": [
+        "section:ccbfe94e24b5cf9f062c779666983c3039c157be"
+      ]
+    },
+    {
+      "id": "mazmorra-maraudon-jefe-latisable",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Latisable",
+      "title_en": "Razorlash",
+      "summary_es": "Pinchar aplica daño periódico; los combatientes a distancia deben mantenerse fuera de Mellar.",
+      "summary_en": "Puncture deals damage over time; ranged players should stay out of Cleave range.",
+      "keywords_es": [
+        "latisable maraudon",
+        "jefe latisable",
+        "jefes de maraudon"
+      ],
+      "keywords_en": [
+        "razorlash maraudon",
+        "razorlash boss",
+        "maraudon bosses"
+      ],
+      "text_es": "Latisable puede omitirse para avanzar. Pinchar causa daño periódico durante 10 segundos y Mellar alcanza a quienes están en cuerpo a cuerpo; los lanzadores deben atacar desde máxima distancia.",
+      "text_en": "Razorlash can be skipped to progress. Puncture deals damage over time for 10 seconds and Cleave hits nearby players; casters should attack from maximum range.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › Razorlash",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:maraudon"
+      ],
+      "source_hashes": [
+        "section:cb5ced422bc5c1ab9d2968c4f52fca12aa1ebb09"
+      ]
+    },
+    {
+      "id": "mazmorra-maraudon-jefe-meshlok",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Meshlok el Cosechador",
+      "title_en": "Meshlok the Harvester",
+      "summary_es": "Meshlok es un jefe raro; el tanque debe apartarlo y los sanadores vigilar Choque de tierra.",
+      "summary_en": "Meshlok is a rare boss; the tank should separate him and healers should watch for Earth Shock.",
+      "keywords_es": [
+        "meshlok el cosechador",
+        "jefe meshlok",
+        "jefes de maraudon"
+      ],
+      "keywords_en": [
+        "meshlok the harvester",
+        "meshlok boss",
+        "maraudon bosses"
+      ],
+      "text_es": "Meshlok el Cosechador es un jefe raro que patrulla por el agua. El tanque debe mantenerlo apartado del grupo; los demás pueden separarse para evitar Pisotón de guerra. Choque de tierra puede interrumpir los lanzamientos de los sanadores.",
+      "text_en": "Meshlok the Harvester is a rare boss patrolling the water. The tank should keep him away from the group; others can spread out to avoid War Stomp. Earth Shock can interrupt healers’ casts.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › Meshlok the Harvester (Rare)",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:maraudon"
+      ],
+      "source_hashes": [
+        "section:12ca3b66519c56d23bbd54b07f7f689f2d19d29d"
+      ]
+    },
+    {
+      "id": "mazmorra-maraudon-jefe-celebras",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Celebras el Maldito",
+      "title_en": "Celebras the Cursed",
+      "summary_es": "Interrumpe Cólera y céntrate en Celebras antes de despejar las criaturas invocadas.",
+      "summary_en": "Interrupt Wrath and focus Celebras before clearing his summoned adds.",
+      "keywords_es": [
+        "celebras el maldito",
+        "jefe celebras",
+        "jefes de maraudon"
+      ],
+      "keywords_en": [
+        "celebras the cursed",
+        "celebras boss",
+        "maraudon bosses"
+      ],
+      "text_es": "Celebras el Maldito invoca criaturas continuamente. Su lanzamiento de Cólera se puede interrumpir: céntrate primero en Celebras y luego elimina los esbirros restantes.",
+      "text_en": "Celebras the Cursed continually summons adds. His Wrath cast can be interrupted; focus Celebras first, then clear the remaining creatures.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › Celebras the Cursed",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:maraudon"
+      ],
+      "source_hashes": [
+        "section:3d4c34dab3fe2a2f7d86ac3e9999e0cb7fdf8b6a"
+      ]
+    },
+    {
+      "id": "mazmorra-maraudon-jefe-derrumblo",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Derrumblo",
+      "title_en": "Landslide",
+      "summary_es": "Mantén a Derrumblo junto a su posición, con el tanque de espaldas a una pared.",
+      "summary_en": "Keep Landslide near his position, with the tank’s back to a wall.",
+      "keywords_es": [
+        "derrumblo maraudon",
+        "jefe derrumblo",
+        "jefes de maraudon"
+      ],
+      "keywords_en": [
+        "landslide maraudon",
+        "landslide boss",
+        "maraudon bosses"
+      ],
+      "text_es": "Derrumblo usa atropellos y empujones e invoca esbirros. Mantén al jefe cerca de su posición, con el tanque de espaldas a una pared; los atacantes a distancia deben alejarse para evitar empujones y aturdimientos. Los esbirros desaparecen al morir el jefe.",
+      "text_en": "Landslide uses charges and knockbacks and summons adds. Keep the boss near his position with the tank’s back to a wall; ranged players should stay far away to avoid knockbacks and stuns. The adds despawn when the boss dies.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › Landslide",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:maraudon"
+      ],
+      "source_hashes": [
+        "section:2e17280ca78cd5cbb479dfea8dce5805a509bdb4"
+      ]
+    },
+    {
+      "id": "mazmorra-maraudon-jefe-theradras",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Princesa Theradras",
+      "title_en": "Princess Theradras",
+      "summary_es": "La Mirada repulsiva aterroriza; los atacantes a distancia pueden evitar Campo de polvo desde lejos.",
+      "summary_en": "Repulsive Gaze causes fear; ranged players can avoid Dust Field from a distance.",
+      "keywords_es": [
+        "princesa theradras",
+        "jefe princesa theradras",
+        "jefes de maraudon"
+      ],
+      "keywords_en": [
+        "princess theradras",
+        "princess theradras boss",
+        "maraudon bosses"
+      ],
+      "text_es": "La Princesa Theradras puede aterrorizar al grupo con Mirada repulsiva y empujar y dañar con Campo de polvo. Lucha en la parte posterior de la caverna para disponer de espacio; los atacantes a distancia pueden mantenerse lejos para evitar el empujón.",
+      "text_en": "Princess Theradras can fear the group with Repulsive Gaze and knock back and damage players with Dust Field. Fight near the back of the cavern for room; ranged players can stay back to avoid the knockback.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › Princess Theradras",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:maraudon"
+      ],
+      "source_hashes": [
+        "section:a8ced7614680613a0a684147e05ca8bee3b3ed25"
+      ]
+    },
+    {
+      "id": "mazmorra-maraudon-jefe-escamapodrida",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Escamapodrida",
+      "title_en": "Rotgrip",
+      "summary_es": "Escamapodrida golpea con fuerza; asegura la amenaza del tanque y mantén al grupo con salud.",
+      "summary_en": "Rotgrip hits hard; secure the tank’s threat and keep the group healthy.",
+      "keywords_es": [
+        "escamapodrida maraudon",
+        "jefe escamapodrida",
+        "jefes de maraudon"
+      ],
+      "keywords_en": [
+        "rotgrip maraudon",
+        "rotgrip boss",
+        "maraudon bosses"
+      ],
+      "text_es": "Escamapodrida golpea con fuerza y patrulla por el agua. Asegura que el tanque tenga la amenaza antes de atacar y que el grupo se mantenga con salud: Pinchar causa daño periódico y Mordida fatal puede infligir mucho daño.",
+      "text_en": "Rotgrip hits hard and patrols in the water. Make sure the tank has threat before the group engages and keep everyone healthy: Puncture deals damage over time and Fatal Bite can inflict heavy damage.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › Rotgrip",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:maraudon"
+      ],
+      "source_hashes": [
+        "section:cfff1e5ec2ea3dcff8e99d99c9bd8344019b4113"
+      ]
+    },
+    {
+      "id": "mazmorra-maraudon-jefe-gizlock",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Manitas Gizlock",
+      "title_en": "Tinkerer Gizlock",
+      "summary_es": "Gira a Gizlock de espaldas al grupo y agrupa a los demás en cuerpo a cuerpo.",
+      "summary_en": "Face Gizlock away from the group and have everyone else stack in melee range.",
+      "keywords_es": [
+        "manitas gizlock",
+        "jefe manitas gizlock",
+        "jefes de maraudon"
+      ],
+      "keywords_en": [
+        "tinkerer gizlock",
+        "tinkerer gizlock boss",
+        "maraudon bosses"
+      ],
+      "text_es": "Manitas Gizlock usa Escopeta dragón goblin para dañar al grupo. El tanque debe orientarlo de espaldas a los demás; el resto se agrupa cerca, en cuerpo a cuerpo, para impedir que use sus ataques a distancia.",
+      "text_en": "Tinkerer Gizlock uses Goblin Dragon Gun to damage the group. The tank should face him away from everyone else; the rest should stack nearby in melee range to prevent his ranged attacks.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › Tinkerer Gizlock",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:maraudon"
+      ],
+      "source_hashes": [
+        "section:e481d81d0362972d8304b39ae72231d857325d40"
+      ]
+    },
+    {
+      "id": "mazmorra-maraudon-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas destacadas de Maraudon",
+      "title_en": "Notable Maraudon Rewards",
+      "summary_es": "Las instrucciones del Paria ofrecen la Marca del Elegido; Celebras y Theradras tienen objetos destacados.",
+      "summary_en": "The Pariah’s Instructions rewards Mark of the Chosen; Celebras and Theradras have notable items.",
+      "keywords_es": [
+        "recompensas maraudon",
+        "marca del elegido",
+        "hoja de oscuridad eterna",
+        "cetro de la princesa theradras"
+      ],
+      "keywords_en": [
+        "maraudon rewards",
+        "mark of the chosen",
+        "blade of eternal darkness",
+        "princess theradras scepter"
+      ],
+      "text_es": "Las instrucciones del Paria recompensa con la Marca del Elegido. Entre los objetos destacados están la Hoja de Oscuridad eterna y el Cetro de Celebras. La misión El Cetro de Celebras también ofrece un atajo hacia otra sección.",
+      "text_en": "The Pariah’s Instructions rewards Mark of the Chosen. Notable items include the Blade of Eternal Darkness and the Scepter of Celebras. The Scepter of Celebras quest also provides a shortcut to another section.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › The Pariah's Instructions",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › Maraudon Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › The Scepter of Celebras",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:maraudon"
+      ],
+      "source_hashes": [
+        "guide:c30be58d16953e1b67fec3c665a6e498fde7d781",
+        "section:a5b0fdb55c56e6a17628ef4d0c90a0ef415ad84f"
+      ]
     }
   ]
 }
