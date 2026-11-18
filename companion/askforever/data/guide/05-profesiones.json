@@ -670,10 +670,10 @@
       "id": "prof-herboristeria",
       "chapter": 5,
       "status": "editorial",
-      "title_es": "Herboristería: hierbas y materiales raros",
+      "title_es": "Herboristería: recolección de hierbas",
       "title_en": "Herbalism: Herbs and Scarce Materials",
-      "summary_es": "Recoge hierbas para Alquimia y Primeros auxilios, y puede encontrar materiales raros para tintes y recetas nuevas.",
-      "summary_en": "Gathers herbs for Alchemy and First Aid, and can find scarce materials for dyes and new recipes.",
+      "summary_es": "Herboristería recoge hierbas de nodos visibles en el minimapa y no requiere herramienta.",
+      "summary_en": "Herbalism gathers herbs from nodes shown on the minimap and requires no tool.",
       "keywords_es": [
         "herboristeria",
         "recoger hierbas",
@@ -692,9 +692,27 @@
         "demonsage",
         "death lotus"
       ],
-      "text_es": "Herboristería recoge hierbas por todo Azeroth y enseña a ver nodos cercanos en el minimapa con Buscar hierbas. No necesita herramienta: basta con interactuar con la planta si la habilidad alcanza. Las hierbas sirven a Alquimia y, en Forever, también a Primeros auxilios para pociones de curación. Al recoger puedes encontrar materiales raros para tintes, y Forever añade Marefoil, Demonsage y Death Lotus para recetas de nivel máximo. Combina con Alquimia.",
-      "text_en": "Herbalism gathers herbs across Azeroth and teaches Find Herbs to show nearby nodes on the minimap. It needs no tool: you simply interact with the plant if your skill is high enough. Herbs are used by Alchemy and, in Forever, also by First Aid for healing potions. Gathering can also yield scarce materials for dyes, and Forever adds Marefoil, Demonsage, and Death Lotus for endgame recipes. It pairs with Alchemy.",
+      "text_es": "Herboristería permite recolectar hierbas por Azeroth y enseña Buscar hierbas para localizar nodos en el minimapa; no requiere herramienta. Un instructor la enseña, y también puedes elegir Cosecha salvaje como premio de una misión inicial. Alquimia y Primeros auxilios aprovechan hierbas, así que Alquimia es una buena pareja.",
+      "text_en": "Herbalism lets you gather herbs across Azeroth and teaches Find Herbs to locate nodes on the minimap; no tool is needed. A trainer can teach it, or you can choose Wild Harvest as an early quest reward. Alchemy and First Aid use herbs, so Alchemy is a useful pairing.",
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Herbalism Profession Overview in Forever - Leveling, New Herbs, and Trainers › (intro)",
+          "url": "https://www.wowhead.com/forever/guide/professions/herbalism/overview-leveling",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Herbalism Profession Overview in Forever - Leveling, New Herbs, and Trainers › Where to Learn Herbalism in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/herbalism/overview-leveling",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Herbalism Profession Overview in Forever - Leveling, New Herbs, and Trainers › How to Gather Herbs",
+          "url": "https://www.wowhead.com/forever/guide/professions/herbalism/overview-leveling",
+          "date": "2026-11-09"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Herbalism Guide › What Is Herbalism?",
@@ -702,11 +720,14 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "profession:herbalism:overview"
       ],
       "source_hashes": [
+        "guide:14b5cdea3f6e739d8b183e325e44c25f9ef8e7da",
+        "section:148215be5c37d4c5ffb5c6235d52f185cadd2bf2",
+        "section:24b5d0c06e49ff2b2ec6e6adade1357b8ebfa1f6",
         "section:c5c0e734d0e045de51055de230fdaba23dc2cd66"
       ]
     },
@@ -716,8 +737,8 @@
       "status": "editorial",
       "title_es": "Minería: menas, piedra y gemas",
       "title_en": "Mining: Ore, Stone, and Gems",
-      "summary_es": "Extrae menas, piedra y gemas, y las funde en barras; alimenta Herrería e Ingeniería.",
-      "summary_en": "Extracts ore, stone, and gems and smelts them into bars; feeds Blacksmithing and Engineering.",
+      "summary_es": "Minería extrae menas y las funde en barras para otros oficios.",
+      "summary_en": "Mining extracts ore and smelts it into bars for other trades.",
       "keywords_es": [
         "mineria",
         "menas",
@@ -736,22 +757,43 @@
         "mining and blacksmithing",
         "mining and engineering"
       ],
-      "text_es": "Minería extrae menas, piedra y gemas de los depósitos y enseña Fundir para convertirlas en barras junto a una forja. Necesita un pico y permite ver los depósitos en el minimapa con Buscar minerales. Alimenta sobre todo a Herrería e Ingeniería, y sus gemas y materiales raros también sirven a otras profesiones. Forever añade Lingote de torio pesado, Azerothium Bar y Legionite Bar, además de materiales raros como Pyrite, Bauxite y Pitchblende. Combina con Herrería o Ingeniería.",
-      "text_en": "Mining extracts ore, stone, and gems from deposits and teaches Smelting to turn them into bars at a forge. It needs a pick and shows deposits on the minimap with Find Minerals. It mainly feeds Blacksmithing and Engineering, and its gems and scarce materials also serve other professions. Forever adds Heavy Thorium Bar, Azerothium Bar, and Legionite Bar, plus scarce materials such as Pyrite, Bauxite, and Pitchblende. It pairs with Blacksmithing or Engineering.",
+      "text_es": "Minería extrae menas y enseña la facultad Fundir para convertirlas en barras junto a una forja; por eso combina con Herrería o Ingeniería, que aprovechan esos materiales. Necesitas un Pico de minero y conviene activar Buscar minerales para ver los filones en el minimapa. Un instructor puede enseñarla, y también puedes elegir Minería para torpes como premio de una misión inicial. Al extraer, existe la posibilidad de obtener materiales escasos adicionales.",
+      "text_en": "Mining extracts ore and teaches Smelting to turn it into bars at a forge; its materials supply trades such as Blacksmithing and Engineering. You need a Mining Pick, and Find Minerals helps show veins on the minimap. A trainer can teach the skill, or an early quest can reward Mining for Dummies. Mining can yield additional scarce materials.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Mining Guide › What Is Mining?",
-          "url": "https://www.icy-veins.com/wow-forever/mining",
-          "date": "2026-11-03"
+          "ref": "Wowhead: Mining Profession Overview in Forever - Leveling, New Ores, and Trainers › Why Choose Mining?",
+          "url": "https://www.wowhead.com/forever/guide/professions/mining/overview-leveling",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Mining Profession Overview in Forever - Leveling, New Ores, and Trainers › Where to Learn Mining in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/mining/overview-leveling",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Mining Profession Overview in Forever - Leveling, New Ores, and Trainers › How to Mine in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/mining/overview-leveling",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Mining Profession Overview in Forever - Leveling, New Ores, and Trainers › Smelting Bars in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/mining/overview-leveling",
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "profession:mining:overview"
       ],
       "source_hashes": [
-        "section:7397ce6f8b27273c0c4ad827df0fbd0d66cd121f"
+        "section:447f673ea37d441073b9cfecbe0d860f3655757b",
+        "section:50b021a6a21b7cee7864db3afb12c7de018bd0f0",
+        "section:8e404b9e5407e39d0e7918238df7db700fd691e2",
+        "section:be46e43d6f4deceb79a58fb98710834cf355e06b"
       ]
     },
     {
@@ -760,8 +802,8 @@
       "status": "editorial",
       "title_es": "Desuello: cuero, pieles y escamas",
       "title_en": "Skinning: Leather, Hides, and Scales",
-      "summary_es": "Saca cuero, pieles y escamas de bestias muertas; Forever suaviza los requisitos y añade materiales nuevos.",
-      "summary_en": "Takes leather, hides, and scales from dead beasts; Forever eases requirements and adds new materials.",
+      "summary_es": "Desuello recoge cuero, pieles y escamas de cadáveres con un cuchillo sencillo.",
+      "summary_en": "Skinning gathers leather, hides, and scales from corpses with a simple knife.",
       "keywords_es": [
         "desuello",
         "cuero",
@@ -780,9 +822,27 @@
         "skinning requirement",
         "skinning and leatherworking"
       ],
-      "text_es": "Desuello obtiene cuero, pieles y escamas de bestias ya saqueadas. Hace falta un Cuchillo para desollar y la habilidad suficiente; en criaturas de nivel 20 o superior suele pedirse cinco veces ese nivel. Un cadáver solo se desuella una vez, aunque haya varios profesionales en el grupo. Forever ha suavizado estos requisitos y suma Fel Leather, Fel Hide y materiales Pristine a las recetas de nivel máximo. Peletería es su compañera.",
-      "text_en": "Skinning obtains leather, hides, and scales from beasts that have already been looted. It requires a skinning knife and enough skill; creatures level 20 or higher usually ask for five times their level. A corpse can be skinned once, even if several professionals are in the group. Forever has eased these requirements and adds Fel Leather, Fel Hide, and Pristine materials to endgame recipes. Leatherworking is its partner.",
+      "text_es": "Desuello obtiene cuero, pieles y escamas de bestias muertas cuyo botín ya se recogió; también puedes aprovechar cadáveres saqueados por otros jugadores. Lleva un Cuchillo para desollar, que no hace falta equipar, y recuerda que cada cadáver solo se puede desollar una vez. El requisito depende del nivel de la criatura: del 11 al 20 se calcula como (nivel menos 10) por 10, y desde el 21 como nivel por 5. Peletería aprovecha estos materiales.",
+      "text_en": "Skinning gathers leather, hides, and scales from dead beasts after their loot has been collected; corpses looted by other players are also available. Carry a Skinning Knife, but you do not need to equip it; each corpse can only be skinned once. Required skill depends on mob level: from 11 to 20, use (level minus 10) times 10; from 21 onward, use level times 5. Leatherworking uses these materials.",
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Skinning Profession Overview in Forever - Leveling, Tips, and Trainers › Why Choose Skinning?",
+          "url": "https://www.wowhead.com/forever/guide/professions/skinning/overview-leveling",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Skinning Profession Overview in Forever - Leveling, Tips, and Trainers › How to Skin in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/skinning/overview-leveling",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Skinning Profession Overview in Forever - Leveling, Tips, and Trainers › Best Profession to Pair with Skinning",
+          "url": "https://www.wowhead.com/forever/guide/professions/skinning/overview-leveling",
+          "date": "2026-11-16"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Skinning Guide › How to Skin Creatures",
@@ -790,11 +850,14 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "profession:skinning:overview"
       ],
       "source_hashes": [
+        "section:a2ba4098cfb948814dbdbc30d9dc441c7b011eed",
+        "section:b70df239543fb05fc2657c51df492402db797818",
+        "section:b8c99854e4fc091876fc989d9bbe29c6687091fb",
         "section:fc8126ea46958bdc40f94a89c81ec6dded6332bc"
       ]
     },
@@ -804,8 +867,8 @@
       "status": "editorial",
       "title_es": "Cocina: comida, buffs y experiencia",
       "title_en": "Cooking: Food, Buffs, and Experience",
-      "summary_es": "Prepara comida que cura y da buffs; muchos platos añaden un 5% de experiencia por muertes.",
-      "summary_en": "Prepares food that heals and grants buffs; many dishes add 5% experience from kills.",
+      "summary_es": "Toda comida cocinada en Forever da un 5% de experiencia extra por enemigos derrotados.",
+      "summary_en": "All cooked food in Forever grants 5% extra experience from kills.",
       "keywords_es": [
         "cocina",
         "comida",
@@ -824,9 +887,21 @@
         "master chef",
         "cooking and fishing"
       ],
-      "text_es": "Cocina pertenece al grupo de las secundarias y transforma carne, pescado y otros ingredientes en platos y bebidas. Esos alimentos devuelven salud o maná y algunos aportan bonificaciones temporales; hay que permanecer sentado unos 10 segundos para recibir el efecto, que suele durar 15 minutos. Muchos platos de Forever incluyen Bonificación de PE de bien alimentado, un 5% más de experiencia por muertes que no cuenta en las misiones. Maestro cocinero puede generar raciones adicionales hasta un 50%, y Gastronomía estira los buffs hasta el 100%. Pesca es su compañera.",
-      "text_en": "Cooking belongs to the secondary group and transforms meat, fish, and other ingredients into dishes and drinks. Those foods restore health or mana, and some grant temporary bonuses; you must remain seated for about 10 seconds to receive the effect, which usually lasts 15 minutes. Many Forever dishes include Well Fed XP Boost, 5% more experience from kills that does not count for quests. Master Chef can generate extra servings up to 50%, and Gourmand stretches buffs up to 100%. Fishing is its partner.",
+      "text_es": "Cocina, una profesión secundaria, prepara alimentos con beneficios temporales y puede ahorrar tiempo y oro al subir o al llegar al nivel máximo. En Forever, toda comida cocinada otorga Bonificación de PE de bien alimentado: un 5% más de experiencia por enemigos derrotados, no por misiones. Para recibir el beneficio de una comida, suele bastar con permanecer sentado unos 10 segundos; la mayoría dura 15 minutos. Pesca combina bien porque muchas recetas usan pescado.",
+      "text_en": "Cooking is a secondary profession that prepares food with temporary benefits and can save time and gold while leveling or at endgame. In Forever, all cooked food grants Well Fed XP Boost: 5% more experience from kills, not quests. To receive a food benefit, you usually need to remain seated for about 10 seconds; most last 15 minutes. Fishing pairs well because many recipes use fish.",
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Cooking Profession Overview in Forever - Leveling, New Recipes, and Trainers › Why Level Cooking?",
+          "url": "https://www.wowhead.com/forever/guide/professions/cooking/overview-leveling",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Cooking Profession Overview in Forever - Leveling, New Recipes, and Trainers › Making Gold with Cooking in Forever > Best Profession to Pair with Cooking",
+          "url": "https://www.wowhead.com/forever/guide/professions/cooking/overview-leveling",
+          "date": "2026-11-14"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Cooking Guide › Food Buffs and How They Work",
@@ -834,11 +909,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "profession:cooking:overview"
       ],
       "source_hashes": [
+        "guide:a85040364124570b4f1863a72a547ad2bbc6e915",
+        "section:301e7d5b23570c59b2bc991a9abaac2e8a94d7ef",
         "section:fb50e1fc32313e5b04eb835a3df7d014c315b507"
       ]
     },
@@ -848,8 +925,8 @@
       "status": "editorial",
       "title_es": "Primeros auxilios: vendas y remedios",
       "title_en": "First Aid: Bandages and Remedies",
-      "summary_es": "Convierte tela en vendas y hierbas en pociones; Forever traslada las pociones de curación estándar desde Alquimia.",
-      "summary_en": "Turns cloth into bandages and herbs into potions; Forever moves the standard healing potions from Alchemy.",
+      "summary_es": "Primeros auxilios fabrica vendas, pociones de curación y remedios contra efectos dañinos.",
+      "summary_en": "First Aid makes bandages, healing potions, and remedies for harmful effects.",
       "keywords_es": [
         "primeros auxilios",
         "vendas",
@@ -868,21 +945,35 @@
         "tourniquet",
         "recently bandaged"
       ],
-      "text_es": "Primeros auxilios es secundaria y trabaja la tela para vendas y las hierbas para pociones curativas. Forever traslada a este oficio las seis recetas de poción de curación habituales, que antes eran de Alquimia. También prepara antitoxinas contra venenos, cataplasmas contra enfermedades y torniquetes contra sangrados; la antitoxina vale en combate, las otras dos solo fuera, y las tres comparten un minuto de espera. Vendar exige canalizar sin moverse ni recibir golpes y aplica Vendado recientemente durante un minuto, lo que impide otra venda. No consume plaza primaria.",
-      "text_en": "First Aid is secondary: cloth becomes bandages, and herbs become healing potions. Forever moves the six usual healing-potion recipes into this trade; they used to belong to Alchemy. It also prepares anti-venoms for poisons, poultices for diseases, and tourniquets for bleeds; anti-venom works in combat, the other two only outside it, and all three share a one-minute wait. Bandaging requires channeling without moving or taking hits and applies Recently Bandaged for a minute, which blocks another bandage. It uses no primary slot.",
+      "text_es": "Primeros auxilios es una profesión secundaria que fabrica vendas para curarse o ayudar a un aliado cercano. Forever trasladó a este oficio desde Alquimia las seis recetas estándar de pociones de curación y añadió remedios contra enfermedades y sangrados. También permite fabricar el Equipo de primeros auxilios, el Estudio sobre toxinas y el Laboratorio de doctor de peste para campamentos. Las vendas se canalizan sin moverse ni recibir daño y dejan Vendado recientemente durante un minuto.",
+      "text_en": "First Aid is a secondary profession that makes bandages to heal yourself or a nearby ally. Forever moved the six standard healing-potion recipes from Alchemy and added remedies for diseases and bleeds. It also lets you craft the First Aid Kit, Toxin Study, and Plague Doctor's Laboratory for campsites. Bandages channel without movement or damage and apply Recently Bandaged for one minute.",
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: First Aid Profession Overview in Forever - Leveling, Recipes, and Trainers › Why Level First Aid?",
+          "url": "https://www.wowhead.com/forever/guide/professions/first-aid/overview",
+          "date": "2026-11-10"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever First Aid Guide › What Is First Aid?",
           "url": "https://www.icy-veins.com/wow-forever/first-aid",
           "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever First Aid Guide › Bandages",
+          "url": "https://www.icy-veins.com/wow-forever/first-aid",
+          "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "profession:first-aid:overview"
       ],
       "source_hashes": [
+        "section:4ddbb935b85411c38817a1e3a16d5be0c5a8e3be",
+        "section:8bb86bf3ff4096e786c9e53db463c4b559dd2f6e",
         "section:915feb449029dab1b9f107165c51d84067f817e8"
       ]
     },
@@ -892,8 +983,8 @@
       "status": "editorial",
       "title_es": "Pesca: peces para Cocina y Alquimia",
       "title_en": "Fishing: Fish for Cooking and Alchemy",
-      "summary_es": "Pesca peces para comer, para aceites de Alquimia y para recompensas; combina con Cocina.",
-      "summary_en": "Catches fish for food, Alchemy oils, and rewards; pairs with Cooking.",
+      "summary_es": "Pesca captura peces en aguas abiertas o escuelas, y combina con Cocina.",
+      "summary_en": "Fishing catches fish in open water or schools, and pairs with Cooking.",
       "keywords_es": [
         "pesca",
         "pescar",
@@ -912,22 +1003,57 @@
         "fishing and cooking",
         "fishing and alchemy"
       ],
-      "text_es": "Pesca es una profesión secundaria que recoge peces para comida, aceites y otras recetas. Lo que sacas depende del lugar: aguas iniciales dan peces pequeños y otras zonas peces para recetas superiores. Las escuelas de peces y los restos flotantes permiten buscar capturas concretas, y puedes seguir subiendo habilidad en aguas iniciales hasta 300. Los anzuelos, cañas y cebos mejoran la habilidad efectiva, y la ventaja Legacy Luremaster puede dar peces extra con un cebo activo. Combina con Cocina.",
-      "text_en": "Fishing is a secondary profession that gathers fish for food, oils, and other recipes. Your catch depends on the location: early waters give small fish and other areas give fish for higher recipes. Fishing schools and floating wreckage let you target specific catches, and you can keep gaining skill in starting waters all the way to 300. Lures, poles, and other bonuses improve effective skill, and the Luremaster Legacy perk can give extra fish while a lure is active. It pairs with Cooking.",
+      "text_es": "Pesca, secundaria y sin plaza primaria, captura peces para Cocina, venta y algunas recetas de Alquimia. Usa una Caña de pescar y recoge la captura cuando salpique el corcho; en las escuelas, debe caer dentro y cada una ofrece un número limitado de peces. Los restos flotantes pueden contener otros objetos. El pescado se puede cocinar en platos útiles; Pesca combina directamente con Cocina.",
+      "text_en": "Fishing is a secondary profession with no primary slot, catching fish for Cooking, sale, and some Alchemy recipes. Use a Fishing Pole and collect the catch when the bobber splashes; at schools, it must land inside, and each school has a limited number of fish. Floating wreckage can contain other items. Fish can become useful meals, so Fishing pairs directly with Cooking.",
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › Why Level Fishing?",
+          "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › How to Fish in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › How to Fish in Forever > Fishing Level Boosts in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
+          "date": "2026-11-10"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Fishing Guide › What Is Fishing?",
           "url": "https://www.icy-veins.com/wow-forever/fishing",
           "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Fishing Guide › Fishing Schools and Floating Wreckage",
+          "url": "https://www.icy-veins.com/wow-forever/fishing",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Fishing Guide › Best Profession to Pair with Fishing",
+          "url": "https://www.icy-veins.com/wow-forever/fishing",
+          "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "profession:fishing:overview"
       ],
       "source_hashes": [
-        "section:702611c693f14dd11307f4db3c7806a366a6d8d3"
+        "guide:45aed11a543a42b3687de9e0a2b0d696a66a2743",
+        "section:428e623fd1d4af51c6a56d00a2ff677f61a5dbe1",
+        "section:6f878c41aad61bfab2188d7dbc2a50caff1c01b4",
+        "section:702611c693f14dd11307f4db3c7806a366a6d8d3",
+        "section:7c918288ee664f0cb398b3587ebdc3368b6c3bf8",
+        "section:99dd5c11ab2f37bf822c5ed8b45cf21c016e20e8"
       ]
     },
     {
@@ -1000,14 +1126,20 @@
         "campfire size",
         "rest at camp"
       ],
-      "text_es": "Cocina crea la hoguera que sirve de centro al campamento. El kit de hoguera básica se hace con una Madera simple y un Sílex y Yesca reutilizable; la hoguera deja espacio para tres características y los kits superiores amplían el espacio hasta diez. Las características de profesión aparecen a 20, 140 y 300 de habilidad, y los niveles altos conservan los beneficios anteriores. Hay que sentarse o fabricar cerca durante un minuto para recibir los buffs, que duran una hora. Los campamentos se colocan al aire libre, no en ciudades principales, y cada jugador solo puede aportar una característica.",
-      "text_en": "Cooking creates the campfire at the center of a campsite. The Basic Campfire Kit is made with one Simple Wood and a reusable Flint and Tinder; the campfire leaves room for three features and larger kits expand the space up to ten. Profession features appear at 20, 140, and 300 skill, and higher tiers keep the earlier benefits. You must sit or craft nearby for one minute to receive the buffs, which last one hour. Campsites go outdoors, not in major cities, and each player can contribute only one feature.",
+      "text_es": "Cocina permite crear el Equipo de hoguera básica con una Madera simple y un Sílex y yesca reutilizable. Los equipos de oficial y experto amplían la capacidad del campamento y la potencia posible de sus beneficios. También puedes añadir el Festín de Cocinitas, que ofrece comida que aumenta el aguante, o un Horno de hierro, necesario para recetas avanzadas.",
+      "text_en": "Cooking lets you make the Basic Campfire Kit with one Simple Wood and reusable Flint and Tinder. Journeyman and Expert kits expand campsite capacity and the potential strength of its benefits. You can also add Cookie's Feast, which provides Stamina-boosting food, or an Iron Oven, required for advanced recipes.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Warcraft Forever Camping System Guide › Campfire Basics in World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/camping",
-          "date": "2026-11-13"
+          "ref": "Wowhead: Cooking Profession Overview in Forever - Leveling, New Recipes, and Trainers › Why Level Cooking?",
+          "url": "https://www.wowhead.com/forever/guide/professions/cooking/overview-leveling",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Cooking Profession Overview in Forever - Leveling, New Recipes, and Trainers › How to Cook in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/cooking/overview-leveling",
+          "date": "2026-11-14"
         },
         {
           "type": "editorial",
@@ -1016,14 +1148,14 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "general:camping",
         "profession:cooking:overview"
       ],
       "source_hashes": [
-        "section:c9b783787b269a1f3695609c03a7422ebb62edd7",
-        "section:c9e921fa9128343e5d3099c5ded02abc1c4c8d9b"
+        "section:301e7d5b23570c59b2bc991a9abaac2e8a94d7ef",
+        "section:38525ca2ce54112e409d10109f78f55d315fe9f3",
+        "section:c9b783787b269a1f3695609c03a7422ebb62edd7"
       ]
     },
     {
@@ -1074,8 +1206,8 @@
       "status": "editorial",
       "title_es": "Campamentos y ventajas Legacy",
       "title_en": "Campsites and Legacy Perks",
-      "summary_es": "Guía de campo acorta la reutilización, Permanence alarga buffs y Ahorro de componentes quita reactivos al nivel 1.",
-      "summary_en": "Field Guide lowers the cooldown, Permanence extends buffs, and Reagent Economy removes reagents from the first feature.",
+      "summary_es": "Guía de campo reduce la espera entre características y Permanencia alarga sus beneficios.",
+      "summary_en": "Field Guide shortens the wait between features, and Permanence extends their benefits.",
       "keywords_es": [
         "field guide campamento",
         "permanence campamento",
@@ -1090,15 +1222,9 @@
         "campsite legacy perks",
         "feature cooldown"
       ],
-      "text_es": "El sistema Legacy mejora los campamentos con varias ventajas. Guía de campo reduce la reutilización para añadir características, hasta un 25% y de una hora a 45 minutos en el rango máximo. Permanencia alarga hasta un 100% la duración de los beneficios de descansar en el campamento. Ahorro de componentes hace que las características de nivel 1 ya no necesiten reactivos para fabricarse.",
-      "text_en": "The Legacy system improves campsites with several perks. Field Guide reduces the cooldown for adding features, up to 25% and from one hour to 45 minutes at maximum rank. Permanence extends the duration of benefits from resting at a campsite by up to 100%. Reagent Economy means tier 1 features no longer need reagents to craft.",
+      "text_es": "Guía de campo reduce hasta un 25% la espera para añadir características, de 1 hora a 45 minutos en su rango máximo. Permanencia alarga hasta un 100% la duración de los beneficios obtenidos al descansar en el campamento.",
+      "text_en": "At maximum rank, Field Guide changes the 1-hour wait to add campsite features to 45 minutes, a reduction of up to 25%. Permanence can increase the duration of resting benefits by 100%.",
       "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: Warcraft Forever Camping System Guide › Camping and the Legacy System",
-          "url": "https://www.icy-veins.com/wow-forever/camping",
-          "date": "2026-11-13"
-        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Cooking Guide › Cooking Campfire Items and Buffs",
@@ -1106,13 +1232,11 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "general:camping",
         "profession:cooking:overview"
       ],
       "source_hashes": [
-        "section:12c6385d6fc27e9e8a72ecaf22365be355bd7143",
         "section:c9b783787b269a1f3695609c03a7422ebb62edd7"
       ]
     },
@@ -1186,38 +1310,38 @@
         "scarce mining materials",
         "scarce skinning materials"
       ],
-      "text_es": "La ventaja Legacy Cosecha generosa mejora las tres profesiones de recolección. En Herboristería aumenta los materiales raros que salen de los nodos de hierbas. En Minería incrementa lo que se recoge de las vetas, y en Desuello permite obtener más materiales raros de las criaturas. Sirve para reunir reactivos que usan otras profesiones además de venderlos.",
-      "text_en": "Bountiful Harvest benefits all three gathering professions. Herbalism yields more scarce materials from herb nodes. Mining yields more from veins, while Skinning recovers additional scarce materials from creatures. These materials supply reagents for other professions or can be sold.",
+      "text_es": "Las ventajas Legacy de Herboristería, Minería y Desuello mejoran la recolección de distintas formas: pueden acelerar la subida de habilidad o aumentar la cantidad de materiales escasos obtenidos. El efecto concreto depende de la profesión y de las ventajas elegidas.",
+      "text_en": "Legacy perks for Herbalism, Mining, and Skinning improve gathering in different ways: they can speed skill gains or increase the amount of scarce materials collected. The specific effect depends on the profession and perks chosen.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Herbalism Guide › New Scarce Herbalism Materials",
-          "url": "https://www.icy-veins.com/wow-forever/herbalism",
-          "date": "2026-11-03"
+          "ref": "Wowhead: Herbalism Profession Overview in Forever - Leveling, New Herbs, and Trainers › Herbalism Legacy Perks",
+          "url": "https://www.wowhead.com/forever/guide/professions/herbalism/overview-leveling",
+          "date": "2026-11-09"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Mining Guide › New Scarce Mining Materials",
-          "url": "https://www.icy-veins.com/wow-forever/mining",
-          "date": "2026-11-03"
+          "ref": "Wowhead: Mining Profession Overview in Forever - Leveling, New Ores, and Trainers › Mining Legacy Perks",
+          "url": "https://www.wowhead.com/forever/guide/professions/mining/overview-leveling",
+          "date": "2026-11-16"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Skinning Guide › New Scarce Skinning Materials",
-          "url": "https://www.icy-veins.com/wow-forever/skinning",
-          "date": "2026-11-03"
+          "ref": "Wowhead: Skinning Profession Overview in Forever - Leveling, Tips, and Trainers › Skinning Legacy Perks",
+          "url": "https://www.wowhead.com/forever/guide/professions/skinning/overview-leveling",
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "profession:herbalism:overview",
         "profession:mining:overview",
         "profession:skinning:overview"
       ],
       "source_hashes": [
-        "section:29fe4e512dc4036933875aab022d5ee76c6c12a5",
-        "section:41ee3c837192408b9a55a18c999b1bdedde3a000",
-        "section:76eae348981b5c6305d2d534b6d6adf803f49697"
+        "section:020a765b34202f08df3630c622960115736f7844",
+        "section:a9159f81a5370ec0563f9d67c38a1c45e086f9e6",
+        "section:b5feb7023b18f9d065ec30623c1076367aa51167"
       ]
     },
     {
@@ -1226,7 +1350,7 @@
       "status": "editorial",
       "title_es": "Ventajas Legacy de artesanía",
       "title_en": "Crafting Legacy Perks",
-      "summary_es": "Ventajas Legacy mejoran Cocina, Pesca, artesanía y Primeros auxilios.",
+      "summary_es": "Las ventajas Legacy pueden mejorar la habilidad, las capturas, la comida y el uso de vendas.",
       "summary_en": "Master Chef, Luremaster, Working Overtime, Dedicated Study, Gourmand, and Field Medicine improve specific trades.",
       "keywords_es": [
         "master chef",
@@ -1244,12 +1368,18 @@
         "gourmand",
         "field medicine"
       ],
-      "text_es": "Varias ventajas Legacy mejoran profesiones de artesanía y secundarias. Maestro cocinero da a Cocina una probabilidad de raciones extra, hasta el 50% en el rango máximo. Maestro de los cebos permite pescar un pez adicional con un cebo activo. Horas extra sube hasta un 20% la probabilidad de ganar un punto de habilidad, y Estudio dedicado da un punto cada 23 horas a la profesión más baja. Gastronomía alarga los buffs de comida hasta el 100%, y Medicina de campo acorta Vendado recientemente hasta 10 segundos fuera de mazmorras, bandas y campos de batalla.",
-      "text_en": "Legacy perks improve crafting and secondary professions. Master Chef gives Cooking a chance for extra servings, up to 50% at maximum rank. Luremaster lets you catch an extra fish while a lure is active. Working Overtime increases the chance of a skill point by up to 20%, and Dedicated Study gives one point every 23 hours to your lowest profession. Gourmand extends food buffs up to 100%, and Field Medicine shortens Recently Bandaged by up to 10 seconds outside dungeons, raids, and battlegrounds.",
+      "text_es": "Maestro cocinero puede producir una ración extra, con una probabilidad de hasta el 50%; Gastronomía alarga hasta un 100% los beneficios de comida. Maestro de los cebos puede dar una captura adicional si usas un cebo. Horas extra aumenta hasta un 20% la posibilidad de ganar habilidad y Estudio dedicado concede un punto cada 23 horas a tu profesión de menor nivel. Medicina de campo reduce hasta 10 segundos Vendado recientemente al usar una venda, excepto en mazmorras, bandas y campos de batalla.",
+      "text_en": "Master Chef can trigger an extra serving while Cooking, with a chance of 50% at maximum rank; Gourmand extends food benefits by up to 100%. Luremaster can grant an additional catch while you use a lure. Working Overtime increases the chance to gain skill by up to 20%, and Dedicated Study grants one point every 23 hours to your lowest profession. Field Medicine reduces Recently Bandaged by up to 10 seconds when you use a bandage, except in dungeons, raids, and battlegrounds.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Cooking Guide › Cooking Speed and Legacy Perks",
+          "url": "https://www.icy-veins.com/wow-forever/cooking",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Cooking Guide › Food Buffs and How They Work",
           "url": "https://www.icy-veins.com/wow-forever/cooking",
           "date": "2026-11-03"
         },
@@ -1266,7 +1396,7 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "profession:cooking:overview",
         "profession:first-aid:overview",
@@ -1275,7 +1405,8 @@
       "source_hashes": [
         "section:5c71cd4eea732083207dba8dca155e9f4cc0a024",
         "section:8bb86bf3ff4096e786c9e53db463c4b559dd2f6e",
-        "section:cd69f812a3ae2ac59f44c344c87723e6a6dcb89c"
+        "section:cd69f812a3ae2ac59f44c344c87723e6a6dcb89c",
+        "section:fb50e1fc32313e5b04eb835a3df7d014c315b507"
       ]
     },
     {
@@ -1914,6 +2045,768 @@
       "source_hashes": [
         "section:4a3c1ea188d62c22017a96d8e9e83c21c63bb492",
         "section:b93978a39df2928607cf33e24192536c9c840eb5"
+      ]
+    },
+    {
+      "id": "prof-subir-botanica",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Subir Herboristería por tramos",
+      "title_en": "Leveling Herbalism by Range",
+      "summary_es": "Empieza en zonas iniciales y cambia de hierbas conforme desbloqueas habilidad.",
+      "summary_en": "Start in starter zones and switch herbs as your skill unlocks them.",
+      "keywords_es": [
+        "subir herboristería",
+        "hierbas por nivel",
+        "herboristería zonas iniciales",
+        "alga estranguladora",
+        "dónde recolectar hierbas"
+      ],
+      "keywords_en": [
+        "level Herbalism",
+        "herbs by skill",
+        "starter zones Herbalism",
+        "Stranglekelp",
+        "where to gather herbs"
+      ],
+      "text_es": "Cualquier zona inicial sirve: al principio recoge Flor de paz y Hojaplata; desde 15, también Raíz de tierra. A 70, busca Marregal y Brezospina, además de Alga estranguladora bajo el agua. Desde 115 céntrate en Hierba cardenal y Acérita salvaje; desde 125, Sangrerregia, y al superar 150, Vidarraíz. A 185, avanza a hierbas de nivel superior; Ivernalia crece en la nieve de las Montañas de Alterac.",
+      "text_en": "Any starter zone works: begin with Peacebloom and Silverleaf, then add Earthroot at 15. At 70, look for Mageroyal and Briarthorn, plus underwater Stranglekelp. From 115, focus on Bruiseweed and Wild Steelbloom; add Kingsblood at 125 and Liferoot above 150. At 185, move on to higher-tier herbs; Wintersbite grows in the snow of Alterac Mountains.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Herbalism Profession Overview in Forever - Leveling, New Herbs, and Trainers › Leveling Herbalism in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/herbalism/overview-leveling",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Herbalism Profession Overview in Forever - Leveling, New Herbs, and Trainers › Where to Find Herb Nodes in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/herbalism/overview-leveling",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:herbalism:overview"
+      ],
+      "source_hashes": [
+        "section:36a328ec5c1fb3c5de57223fc8bbffc97b1cd53f",
+        "section:8afef725b1f80ff7d68527ae3e9c2ddbe8c2c505"
+      ]
+    },
+    {
+      "id": "prof-nuevas-hierbas",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Hierbas y materiales nuevos",
+      "title_en": "New Herbs and Materials",
+      "summary_es": "Forever añade tres hierbas de nivel máximo y materiales escasos de recolección.",
+      "summary_en": "Forever adds three endgame herbs and scarce materials from gathering.",
+      "keywords_es": [
+        "hierbas nuevas",
+        "Hojapesadilla",
+        "Salvia demoníaca",
+        "Loto mortal",
+        "materiales escasos de herboristería"
+      ],
+      "keywords_en": [
+        "new herbs",
+        "Marefoil",
+        "Demonsage",
+        "Death Lotus",
+        "scarce Herbalism materials"
+      ],
+      "text_es": "Forever incorpora Hojapesadilla, Salvia demoníaca y Loto mortal para recetas de nivel máximo; todavía no se conocen sus ubicaciones ni requisitos de recolección. También pueden aparecer semillas y materiales escasos adicionales al recoger hierbas, como Liquen con volantes, Sombrerrosa y Estranguladora; no se sabe qué hierbas dan cada material.",
+      "text_en": "Forever adds Marefoil, Demonsage, and Death Lotus for endgame recipes; their gathering locations and skill requirements are not yet known. Gathering can also yield seeds and scarce materials such as Frilled Lichen, Rosecap, and Stranglevine; which herbs produce each material is unknown.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Herbalism Profession Overview in Forever - Leveling, New Herbs, and Trainers › New Herbs in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/herbalism/overview-leveling",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Herbalism Guide › New Herbs in WoW Forever > New Scarce Herbalism Materials",
+          "url": "https://www.icy-veins.com/wow-forever/herbalism",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:herbalism:overview"
+      ],
+      "source_hashes": [
+        "guide:860d982c71851e35dbb4275bb301aa515330e9e9",
+        "section:c989cc14a70f369e6692b14c4b10f93916fa969c"
+      ]
+    },
+    {
+      "id": "prof-subir-mineria",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Subir Minería por tramos",
+      "title_en": "Leveling Mining by Range",
+      "summary_es": "Fundir ayuda hasta 185; después, sube la habilidad extrayendo filones.",
+      "summary_en": "Smelting helps up to 185; after that, level by mining veins.",
+      "keywords_es": [
+        "subir minería",
+        "fundir para subir",
+        "filón de estaño",
+        "minería habilidad 185",
+        "zonas de minería"
+      ],
+      "keywords_en": [
+        "level Mining",
+        "level by smelting",
+        "Tin Vein",
+        "Mining skill 185",
+        "Mining zones"
+      ],
+      "text_es": "Al principio puedes extraer Filón de cobre; desbloqueas estaño a 65, plata a 75 e hierro a 125. El oro se puede extraer desde 155. Fundir menas puede dar habilidad hasta 185, pero no hay barras que la suban entre 140 y 155, así que toca minar. Después de 185, solo extraer filones permite progresar; cambia a zonas con la mena de mayor requisito que ya puedas recoger.",
+      "text_en": "Copper Vein is the first available deposit; Tin unlocks at 65, Silver at 75, and Iron at 125. Gold can be mined from 155. Smelting can raise skill up to 185, but no bar grants skill between 140 and 155, so mine during that stretch. Beyond 185, mining veins is the only way to progress; move to zones with the highest-requirement ore you can gather.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Mining Profession Overview in Forever - Leveling, New Ores, and Trainers › 1-225 Mining Leveling by Mining in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/mining/overview-leveling",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Mining Profession Overview in Forever - Leveling, New Ores, and Trainers › Smelting Bars in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/mining/overview-leveling",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:mining:overview"
+      ],
+      "source_hashes": [
+        "section:5ddcb4f953541519cc01aeb969783d6f0e9e077e",
+        "section:8e404b9e5407e39d0e7918238df7db700fd691e2"
+      ]
+    },
+    {
+      "id": "prof-nuevos-minerales",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Nuevas menas y barras",
+      "title_en": "New Ores and Bars",
+      "summary_es": "Nuevas barras y materiales escasos de Minería alimentan recetas avanzadas.",
+      "summary_en": "New Mining bars and scarce materials supply advanced recipes.",
+      "keywords_es": [
+        "barras nuevas minería",
+        "torio pesado",
+        "azerothium",
+        "legionita",
+        "materiales escasos minería"
+      ],
+      "keywords_en": [
+        "new Mining bars",
+        "Heavy Thorium",
+        "Azerothium",
+        "Legionite",
+        "scarce Mining materials"
+      ],
+      "text_es": "Forever añade Mena de torio pesado, Barra de torio pesado, Barra de azerothium y Barra de legionita para recetas avanzadas; aún no se conocen las zonas donde aparece la mena nueva. Al minar también puedes obtener Pirita, Bauxita o Uraninita junto al mineral normal. La fuente de Uraninita en filones de nivel alto sigue sin confirmarse.",
+      "text_en": "Forever adds a new heavy-thorium ore and bars for advanced recipes involving thorium, Azerothium, and Legionite; the ore's locations are not known yet. Mining can also yield Pyrite, Bauxite, or Pitchblende alongside regular ore. Pitchblende from higher-level veins remains unconfirmed.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Mining Profession Overview in Forever - Leveling, New Ores, and Trainers › New Ores and Bars in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/mining/overview-leveling",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:mining:overview"
+      ],
+      "source_hashes": [
+        "section:70f63a2a1e0fca8ef85c62661bfb418975c84a23"
+      ]
+    },
+    {
+      "id": "prof-subir-desollar",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Subir Desuello por zonas",
+      "title_en": "Leveling Skinning by Zone",
+      "summary_es": "Empieza en una zona inicial y cambia a áreas con bestias de más nivel.",
+      "summary_en": "Start in a starter zone and move to areas with higher-level beasts.",
+      "keywords_es": [
+        "subir desollar",
+        "zonas para desollar",
+        "desollar en Durotar",
+        "desollar en Los Baldíos",
+        "habilidad de desuello 200"
+      ],
+      "keywords_en": [
+        "level Skinning",
+        "Skinning zones",
+        "Skinning in Durotar",
+        "Skinning in the Barrens",
+        "Skinning skill 200"
+      ],
+      "text_es": "Cualquier zona inicial permite empezar. En Durotar avanza hacia el norte; en el Bosque de Elwynn, desuella al sur de Villadorada y luego cerca del Campamento del Este hasta 75. Después pasa a Los Baldíos o Loch Modan y continúa por Laderas de Trabalomas o Los Humedales; al acercarte a 175, considera cambiar de zona. Desde 200, Tierras Altas de Arathi, Vega de Tuercespina y Las Mil Agujas ofrecen bestias para aprender el rango Artesano.",
+      "text_en": "Any starter zone works. Durotar's route moves north as gains slow; Elwynn Forest starts south of Goldshire, then shifts around Eastvale Logging Camp until 75. Next, move to the Barrens or Loch Modan and continue through Hillsbrad Foothills or Wetlands; consider changing zones as you approach 175. From 200, Arathi Highlands, Stranglethorn Vale, and Thousand Needles have beasts for the highest rank.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Skinning Profession Overview in Forever - Leveling, Tips, and Trainers › Leveling Skinning in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/skinning/overview-leveling",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Skinning Profession Overview in Forever - Leveling, Tips, and Trainers › Where to Learn Skinning in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/skinning/overview-leveling",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:skinning:overview"
+      ],
+      "source_hashes": [
+        "section:6b891bbfd12f2a81a6ee7afc83410f8305fda9b2",
+        "section:9865bdc210d4405ed01d1e748ce3e170a49e075c"
+      ]
+    },
+    {
+      "id": "prof-nuevos-materiales-desollar",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Nuevos materiales de Desuello",
+      "title_en": "New Skinning Materials",
+      "summary_es": "Cuero vil, Pellejo vil y materiales prístinos aparecen en recetas de nivel máximo.",
+      "summary_en": "Fel and Pristine materials appear in endgame recipes.",
+      "keywords_es": [
+        "materiales nuevos desollar",
+        "cuero vil",
+        "pellejo vil",
+        "cuero prístino",
+        "escama prístina"
+      ],
+      "keywords_en": [
+        "new Skinning materials",
+        "Fel Leather",
+        "Fel Hide",
+        "Pristine Leather",
+        "Pristine Scale"
+      ],
+      "text_es": "Cuero vil y Pellejo vil se usan en recetas de nivel máximo, aunque todavía no se conocen sus ubicaciones ni requisitos. Al desollar también hay una probabilidad de obtener Cuero prístino, Pellejo prístino o Escama prístina además del botín habitual; aún faltan datos de probabilidad y nivel requerido.",
+      "text_en": "Fel Leather and Fel Hide are used in endgame recipes, but their locations and skill requirements are not known yet. Extra loot may include any of these: Pristine Leather, Pristine Hide, or Pristine Scale. Their drop chances and skill thresholds are still undocumented.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Skinning Profession Overview in Forever - Leveling, Tips, and Trainers › New Skinning Materials in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/skinning/overview-leveling",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:skinning:overview"
+      ],
+      "source_hashes": [
+        "section:32a417c2b062b3b68bde8a513b97481332a70ce4"
+      ]
+    },
+    {
+      "id": "prof-rangos-cocina",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Rangos de Cocina",
+      "title_en": "Cooking Ranks",
+      "summary_es": "Los rangos Expertos y Artesano requieren un libro y una misión, no solo instructor.",
+      "summary_en": "Expert and Artisan ranks require a book and a quest, not just a trainer.",
+      "keywords_es": [
+        "rangos de cocina",
+        "libro de cocina para expertos",
+        "cocina 225",
+        "aprender cocina artesano"
+      ],
+      "keywords_en": [
+        "Cooking ranks",
+        "Expert Cookbook",
+        "Cooking 225",
+        "learn Artisan Cooking"
+      ],
+      "text_es": "Los instructores enseñan Aprendiz (1-75) y Oficial (75-150). Para Experto, compra el Libro de cocina para expertos, que permite avanzar de 150 a 225. Con nivel de personaje 35 y Cocina 225, completa Sorpresa de almejates para aprender Artesano, hasta 300.",
+      "text_en": "Trainers teach Apprentice (1-75) and Journeyman (75-150). To learn Expert, obtain the Expert Cookbook, which covers 150-225. At character level 35 and Cooking 225, complete Clamlette Surprise to learn Artisan, up to 300.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Cooking Profession Overview in Forever - Leveling, New Recipes, and Trainers › Where to Learn Cooking in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/cooking/overview-leveling",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Cooking Profession Overview in Forever - Leveling, New Recipes, and Trainers › Expert Cooking Book (150-225)",
+          "url": "https://www.wowhead.com/forever/guide/professions/cooking/overview-leveling",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Cooking Profession Overview in Forever - Leveling, New Recipes, and Trainers › Artisan Cooking Quest (225-300)",
+          "url": "https://www.wowhead.com/forever/guide/professions/cooking/overview-leveling",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:cooking:overview"
+      ],
+      "source_hashes": [
+        "section:3204b1fe5f31c3ebf2fe4df301f43774abc4e787",
+        "section:ca3102df0c5db963d47350f8767ea8e5529d1fe1",
+        "section:e7410028339d494df0f5cc55eaaf494251cebff7"
+      ]
+    },
+    {
+      "id": "prof-subir-cocina",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Subir Cocina con pescado",
+      "title_en": "Leveling Cooking with Fish",
+      "summary_es": "Cocinar pescado suele ser una ruta sencilla para progresar y aprovechar las capturas.",
+      "summary_en": "Cooking fish is often a simple route that makes use of your catches.",
+      "keywords_es": [
+        "subir cocina",
+        "cocina con pescado",
+        "materiales para cocina",
+        "recetas de cocina para subir"
+      ],
+      "keywords_en": [
+        "level Cooking",
+        "Cooking with fish",
+        "Cooking materials",
+        "Cooking leveling recipes"
+      ],
+      "text_es": "Cocinar pescado suele ser una ruta conveniente para subir: las recetas son fáciles de conseguir, el pescado crudo suele costar poco y casi todas las preparaciones usan pocos ingredientes secundarios. La cantidad necesaria varía según los puntos que obtengas; revisa las recetas disponibles antes de comprar materiales.",
+      "text_en": "Cooking fish is often a convenient leveling route: the recipes are easy to obtain, raw fish is usually inexpensive, and most dishes need few extra ingredients. The amount required varies with skill gains, so check available recipes before buying materials.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Cooking Profession Overview in Forever - Leveling, New Recipes, and Trainers › Leveling Cooking in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/cooking/overview-leveling",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:cooking:overview"
+      ],
+      "source_hashes": [
+        "section:f04e1c58af7aa674257ac89978b035309962f7f4"
+      ]
+    },
+    {
+      "id": "prof-herramientas-cocina",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Fuegos y herramientas de Cocina",
+      "title_en": "Cooking Fires and Tools",
+      "summary_es": "Cocina necesita fuego, especias de vendedor y puede acelerarse con una vara especial.",
+      "summary_en": "Cooking needs a fire and vendor spices, and a special rod can speed it up.",
+      "keywords_es": [
+        "fuego para cocinar",
+        "especias de cocina",
+        "vara para remover galletas",
+        "horno de hierro"
+      ],
+      "keywords_en": [
+        "cooking fire",
+        "Cooking spices",
+        "Cookie's Stirring Rod",
+        "Iron Oven"
+      ],
+      "text_es": "Para cocinar, acércate a una hoguera, chimenea u horno; las recetas avanzadas pueden exigir el Horno de hierro. Los vendedores de suministros venden especias comunes. La Vara para remover galletas aumenta un 25% la velocidad de Cocina mientras la llevas equipada.",
+      "text_en": "Cook near a fire, fireplace, or oven; advanced recipes may require an Iron Oven. Supplies vendors sell common spices. Cookie's Stirring Rod increases Cooking speed by 25% while equipped.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Cooking Profession Overview in Forever - Leveling, New Recipes, and Trainers › How to Cook in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/cooking/overview-leveling",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Cooking Guide › How to Cook > Cooking Speed and Legacy Perks",
+          "url": "https://www.icy-veins.com/wow-forever/cooking",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:cooking:overview"
+      ],
+      "source_hashes": [
+        "guide:ddc95dce1de74935a05544b91418223b29bdaa80",
+        "section:38525ca2ce54112e409d10109f78f55d315fe9f3"
+      ]
+    },
+    {
+      "id": "prof-rangos-primeros-auxilios",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Rangos de Primeros auxilios",
+      "title_en": "First Aid Ranks",
+      "summary_es": "Los instructores enseñan los primeros rangos; los siguientes requieren libro y misión.",
+      "summary_en": "Trainers teach the first ranks; later ones require a book and a quest.",
+      "keywords_es": [
+        "rangos primeros auxilios",
+        "manual primeros auxilios expertos",
+        "primeros auxilios 225",
+        "misión Atenciones médicas"
+      ],
+      "keywords_en": [
+        "First Aid ranks",
+        "Expert First Aid book",
+        "First Aid 225",
+        "Triage quest"
+      ],
+      "text_es": "Los instructores enseñan Aprendiz (1-75) y Oficial (75-150). El libro Primeros auxilios para expertos: Entre vendas abre el rango Experto (150-225). Con personaje de nivel 35 y habilidad 225, completa Atenciones médicas para la Alianza u Orden de gravedad para la Horda y aprende Artesano (225-300).",
+      "text_en": "Trainers teach Apprentice (1-75) and Journeyman (75-150). The book Expert First Aid - Under Wraps unlocks Expert (150-225). At character level 35 and skill 225, complete Triage to learn Artisan (225-300); the required quest differs by faction.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: First Aid Profession Overview in Forever - Leveling, Recipes, and Trainers › Where to Learn First Aid in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/first-aid/overview",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: First Aid Profession Overview in Forever - Leveling, Recipes, and Trainers › Expert First Aid Book (150-225)",
+          "url": "https://www.wowhead.com/forever/guide/professions/first-aid/overview",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: First Aid Profession Overview in Forever - Leveling, Recipes, and Trainers › Artisan First Aid Quest (225-300)",
+          "url": "https://www.wowhead.com/forever/guide/professions/first-aid/overview",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:first-aid:overview"
+      ],
+      "source_hashes": [
+        "section:640123afcf911201d1cb401ea62b6992537e485c",
+        "section:837092bf000150f738652892223b919612ef71e1",
+        "section:e80066893347cb142ae414a6cf322132eaf42d49"
+      ]
+    },
+    {
+      "id": "prof-subir-primeros-auxilios",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Subir Primeros auxilios",
+      "title_en": "Leveling First Aid",
+      "summary_es": "Las vendas suelen ser la opción económica; a 225 hace falta completar una misión.",
+      "summary_en": "Bandages are usually the economical option; at 225, complete a quest.",
+      "keywords_es": [
+        "subir primeros auxilios",
+        "telas para vendas",
+        "primeros auxilios 225",
+        "Atenciones médicas"
+      ],
+      "keywords_en": [
+        "level First Aid",
+        "cloth for bandages",
+        "First Aid 225",
+        "Triage"
+      ],
+      "text_es": "Las vendas suelen ser la forma más barata de subir Primeros auxilios, aunque también hay pociones y cataplasmas que dan puntos. Al llegar a habilidad 225 y nivel de personaje 35, completa Atenciones médicas para la Alianza u Orden de gravedad para la Horda; sin ese paso no podrás aprender Artesano ni avanzar hasta 300.",
+      "text_en": "Bandages are usually the cheapest way to level First Aid, though potions and poultices can also grant skill. At 225 skill and character level 35, complete the faction-specific Triage quest; without it you cannot learn Artisan or progress to 300.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: First Aid Profession Overview in Forever - Leveling, Recipes, and Trainers › Leveling First Aid in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/first-aid/overview",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: First Aid Profession Overview in Forever - Leveling, Recipes, and Trainers › Materials List",
+          "url": "https://www.wowhead.com/forever/guide/professions/first-aid/overview",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: First Aid Profession Overview in Forever - Leveling, Recipes, and Trainers › Artisan First Aid Quest (225-300)",
+          "url": "https://www.wowhead.com/forever/guide/professions/first-aid/overview",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:first-aid:overview"
+      ],
+      "source_hashes": [
+        "section:686310df3e286fe2b2a2b39dbecf591d5111f667",
+        "section:837092bf000150f738652892223b919612ef71e1",
+        "section:a5828bdabef30937030138c7783bc901f88e7543"
+      ]
+    },
+    {
+      "id": "prof-remedios-primeros-auxilios",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Remedios de Primeros auxilios",
+      "title_en": "First Aid Remedies",
+      "summary_es": "Antídotos, cataplasmas y torniquetes contrarrestan venenos, enfermedades y sangrados.",
+      "summary_en": "Anti-venoms, poultices, and tourniquets counter poisons, diseases, and bleeds.",
+      "keywords_es": [
+        "remedios primeros auxilios",
+        "antídoto fuerte",
+        "cataplasmas",
+        "torniquetes",
+        "vendas de primeros auxilios"
+      ],
+      "keywords_en": [
+        "First Aid remedies",
+        "Strong Anti-Venom",
+        "poultices",
+        "tourniquets",
+        "First Aid bandages"
+      ],
+      "text_es": "Los antídotos eliminan venenos y se pueden usar en combate; las cataplasmas curan enfermedades y los torniquetes detienen sangrados, pero estos dos remedios requieren estar fuera de combate. Comparten un minuto de reutilización. Una venda canalizada restaura salud, pero moverte o recibir daño puede interrumpirla; el objetivo queda con Vendado recientemente durante un minuto.",
+      "text_en": "Anti-venoms remove poisons and can be used in combat; poultices cure diseases and tourniquets stop bleeds, but those two remedies require being out of combat. All three share a one-minute cooldown. A channeled bandage restores health, but movement or damage can interrupt it; the target then has Recently Bandaged for one minute.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever First Aid Guide › Removing Poisons, Diseases, and Bleeds",
+          "url": "https://www.icy-veins.com/wow-forever/first-aid",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever First Aid Guide › Bandages",
+          "url": "https://www.icy-veins.com/wow-forever/first-aid",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:first-aid:overview"
+      ],
+      "source_hashes": [
+        "section:8bb86bf3ff4096e786c9e53db463c4b559dd2f6e",
+        "section:cc7ff2943a7dac635b931eeb6bf3f045a7471b12"
+      ]
+    },
+    {
+      "id": "prof-rangos-pesca",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Rangos de Pesca",
+      "title_en": "Fishing Ranks",
+      "summary_es": "Para Expertos necesitas un libro y Artesano se desbloquea con una misión.",
+      "summary_en": "Expert requires a book, and Artisan unlocks through a quest.",
+      "keywords_es": [
+        "rangos de pesca",
+        "pesca para expertos",
+        "pesca 225",
+        "aprender pesca artesano"
+      ],
+      "keywords_en": [
+        "Fishing ranks",
+        "Expert Fishing book",
+        "Fishing 225",
+        "learn Artisan Fishing"
+      ],
+      "text_es": "Los instructores enseñan Aprendiz (1-75) y Oficial (75-150). El libro Pesca para expertos: La lubina y tú permite llegar a 225. Con nivel 35 y Pesca 225, inicia Nat Pagle, pescador del extremo para aprender Artesano, hasta 300.",
+      "text_en": "Trainers teach Apprentice (1-75) and Journeyman (75-150). The book Expert Fishing - The Bass and You lets you reach 225. At level 35 and Fishing 225, start Nat Pagle, Angler Extreme to learn Artisan, up to 300.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › Where to Learn Fishing in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › Expert Fishing Book (150-225)",
+          "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › Artisan Fishing Quest (225-300)",
+          "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:fishing:overview"
+      ],
+      "source_hashes": [
+        "section:05f5f67fa1aba2b33d223198224a7444f625d7f6",
+        "section:370d6766cba911b6cce5fdb0ff3704da881144d9",
+        "section:7e9d9e2f32cf4397964e4483d45a0c945f4b329c"
+      ]
+    },
+    {
+      "id": "prof-subir-pesca",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Subir Pesca por zonas",
+      "title_en": "Leveling Fishing by Zone",
+      "summary_es": "Las aguas iniciales sirven para subir; zonas de mayor nivel permiten pescar otras capturas.",
+      "summary_en": "Starter waters can level the skill; higher-level zones offer different catches.",
+      "keywords_es": [
+        "subir pesca",
+        "zonas para pescar",
+        "cebo para pesca",
+        "pesca en Vega de Tuercespina",
+        "pesca en Tanaris"
+      ],
+      "keywords_en": [
+        "level Fishing",
+        "fishing zones",
+        "Fishing lure",
+        "Fishing in Stranglethorn Vale",
+        "Fishing in Tanaris"
+      ],
+      "text_es": "Hasta Pesca 25, usa un Adorno lustroso; luego las zonas iniciales ya permiten una captura segura sin cebo. A 75, aprende Oficial y sigue pescando. Para 150-225, la Vega de Tuercespina suele convenir a la Horda y el Marjal Revolcafango a la Alianza; usa cebos para alcanzar el requisito de captura segura. Tras la misión de Artesano, continúa allí o ve a Tanaris; allí necesitas 300 para asegurar las capturas.",
+      "text_en": "Use a Shiny Bauble until Fishing 25; after that, starter zones allow reliable catches without a lure. At 75, learn Journeyman and keep fishing. For 150-225, Stranglethorn Vale generally suits Horde, while Dustwallow Marsh is more accessible to Alliance; use lures to meet the guaranteed-catch requirement. After completing the rank quest, continue there or move to Tanaris, where 300 skill is needed for guaranteed catches. Starter waters also remain an option for skill gains through 300.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › Leveling Fishing in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Fishing Guide › Increasing Your Fishing Skill",
+          "url": "https://www.icy-veins.com/wow-forever/fishing",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:fishing:overview"
+      ],
+      "source_hashes": [
+        "section:5bb931b4c2d710950648a7cd88aa4c7e5abbc8b1",
+        "section:94c23b519c10e9d0c2d857161f7953a680a7730a"
+      ]
+    },
+    {
+      "id": "prof-torneo-pesca",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Torneo de Pesca de Tuercespina",
+      "title_en": "Stranglethorn Fishing Tournament",
+      "summary_es": "Forever amplía a 50 los ganadores y añade una moneda de recompensa.",
+      "summary_en": "Forever expands the winners to 50 and adds a reward coin.",
+      "keywords_es": [
+        "torneo de pesca",
+        "Maestro pescador",
+        "moneda espectáculo extravagante",
+        "recompensas pesca Tuercespina"
+      ],
+      "keywords_en": [
+        "Fishing tournament",
+        "Master Angler",
+        "Extravagant Extravaganza Coin",
+        "Stranglethorn fishing rewards"
+      ],
+      "text_es": "En el torneo de pesca de la Vega de Tuercespina, los primeros 50 jugadores que completen Maestro pescador reciben la Caña de pescar de arcanita y una Moneda de espectáculo extravagante. Puedes canjear la moneda por recompensas como el Gancho del maestro Pescador, los Zapatos de surfero o el Cebito amargo.",
+      "text_en": "Forever names the first 50 players who complete the tournament quest as winners; each receives an Arcanite Fishing Pole and an Extravagant Extravaganza Coin. Exchange the coin for rewards such as Hook of the Master Angler, Surfer Shoes, or Bitter Baitling.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › Fishing Tournament in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:fishing:overview"
+      ],
+      "source_hashes": [
+        "section:0020c55435ed9c5a3bdc6e22ab451345c384a470"
+      ]
+    },
+    {
+      "id": "prof-campamento-recoleccion",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Campamento de profesiones recolectoras",
+      "title_en": "Gathering Professions at Camp",
+      "summary_es": "Herboristería, Minería, Desuello y Pesca ofrecen beneficios distintos en el campamento.",
+      "summary_en": "Herbalism, Mining, Skinning, and Fishing add different campsite benefits.",
+      "keywords_es": [
+        "campamento herboristería",
+        "campamento minería",
+        "campamento desollar",
+        "campamento pesca",
+        "recetas de campamento"
+      ],
+      "keywords_en": [
+        "Herbalism campsite",
+        "Mining campsite",
+        "Skinning campsite",
+        "Fishing campsite",
+        "camp recipes"
+      ],
+      "text_es": "En el campamento, Herboristería puede aportar la Vela de incienso con un efecto parecido a Intelecto Arcano; Minería, Magnetita con un efecto similar a Bendición del poderío; y Desuello, Silla de campamento con un efecto como Aura de lechúcico lunar. Pesca añade el Cuenco con pescado, que mejora las estadísticas de quienes se sientan cerca; los objetos avanzados ofrecen utilidades adicionales.",
+      "text_en": "At camp, Herbalism can provide an Incense Candle with an Arcane Intellect-like effect; Mining, a Lodestone with a Blessing of Might-like effect; and Skinning, a Camp Chair with a Moonkin Aura-like effect. Fishing adds a Fish Bowl that improves nearby players' stats; advanced items offer further utilities.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Herbalism Profession Overview in Forever - Leveling, New Herbs, and Trainers › Why Choose Herbalism?",
+          "url": "https://www.wowhead.com/forever/guide/professions/herbalism/overview-leveling",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Mining Profession Overview in Forever - Leveling, New Ores, and Trainers › Why Choose Mining?",
+          "url": "https://www.wowhead.com/forever/guide/professions/mining/overview-leveling",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Skinning Profession Overview in Forever - Leveling, Tips, and Trainers › Why Choose Skinning?",
+          "url": "https://www.wowhead.com/forever/guide/professions/skinning/overview-leveling",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › Why Level Fishing?",
+          "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Fishing Guide › Fishing Campfire Items and Buffs",
+          "url": "https://www.icy-veins.com/wow-forever/fishing",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:fishing:overview",
+        "profession:herbalism:overview",
+        "profession:mining:overview",
+        "profession:skinning:overview"
+      ],
+      "source_hashes": [
+        "section:0d3cb81dd2f879e0067466d7c1c547503262ff5a",
+        "section:428e623fd1d4af51c6a56d00a2ff677f61a5dbe1",
+        "section:447f673ea37d441073b9cfecbe0d860f3655757b",
+        "section:b70df239543fb05fc2657c51df492402db797818",
+        "section:c96483ff916d5db958e1639f34a49a3c06de1f15"
       ]
     }
   ]
