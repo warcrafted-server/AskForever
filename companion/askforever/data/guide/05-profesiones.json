@@ -416,16 +416,16 @@
       "id": "prof-alquimia",
       "chapter": 5,
       "status": "editorial",
-      "title_es": "Alquimia: brebajes y tintes",
-      "title_en": "Alchemy: Brews and Dyes",
-      "summary_es": "Alquimia prepara consumibles y tintes; la curación estándar pasa a Primeros auxilios.",
-      "summary_en": "Alchemy makes consumables and dyes; standard healing potions move to First Aid.",
+      "title_es": "Alquimia: consumibles y transmutaciones",
+      "title_en": "Alchemy: Consumables and Transmutes",
+      "summary_es": "Prepara consumibles y transmutaciones; Herboristería aporta los ingredientes más habituales.",
+      "summary_en": "Makes consumables and transmutes; Herbalism supplies its most common ingredients.",
       "keywords_es": [
         "alquimia",
         "pociones",
         "elixires",
         "frascos",
-        "tintes",
+        "transmutaciones",
         "alquimia y herboristería"
       ],
       "keywords_en": [
@@ -433,54 +433,105 @@
         "potions",
         "elixirs",
         "flasks",
-        "dyes",
+        "transmutes",
         "alchemy and herbalism"
       ],
-      "text_es": "Alquimia prepara pociones, elixires y frascos; muchos de estos consumibles se pueden comerciar. También produce tintes que otras profesiones necesitan para fabricar. En Forever, las pociones de curación habituales pasan de Alquimia a Primeros auxilios.",
-      "text_en": "Alchemy makes potions, elixirs, and flasks; many of these consumables can be traded. It also produces dyes that other professions need for crafting. In Forever, the usual healing potions move from Alchemy to First Aid.",
+      "text_es": "En Forever, Alquimia prepara pociones, elixires y frascos de efecto temporal, además de tintes, aceites y materiales para otros artesanos. Las transmutaciones convierten materiales baratos en otros más valiosos y pueden dar oro; muchos consumibles también se venden. Herboristería combina bien porque casi todas las recetas usan hierbas y reunirlas abarata la subida; Forever añade más de 50 recetas, útiles también durante la subida. Las pociones de curación estándar son de Primeros auxilios; Alquimia conserva pociones descoloridas que curan y luego dañan al bebedor.",
+      "text_en": "In Forever, Alchemy makes potions, elixirs, and flasks with temporary effects, plus dyes, oils, and materials for other crafters. Transmutes turn cheaper materials into more valuable ones and can earn gold; many consumables can also be sold. Herbalism pairs well because nearly every recipe uses herbs, and gathering them lowers leveling costs; Forever adds over 50 recipes, useful while leveling too. Standard healing potions belong to First Aid; Alchemy still makes discolored potions that heal and then harm the drinker.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Professions Overview in WoW: Forever › Alchemy in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/professions/overview",
+          "ref": "Wowhead: Alchemy Profession Overview in Forever - Transmutes, New Recipes, and Trainers › Why Choose Alchemy?",
+          "url": "https://www.wowhead.com/forever/guide/professions/alchemy-overview-trainer-locations-recipes",
           "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Alchemy Profession Overview in Forever - Transmutes, New Recipes, and Trainers › Best Profession to Pair with Alchemy",
+          "url": "https://www.wowhead.com/forever/guide/professions/alchemy-overview-trainer-locations-recipes",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Alchemy Guide › What Is Alchemy?",
+          "url": "https://www.icy-veins.com/wow-forever/alchemy",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Alchemy Profession Overview in Forever - Transmutes, New Recipes, and Trainers › Making Gold with Alchemy in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/alchemy-overview-trainer-locations-recipes",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Alchemy Guide › What Is Alchemy?",
+          "url": "https://www.icy-veins.com/wow-forever/alchemy",
+          "date": "2026-11-03"
         }
       ],
       "updated": "2026-11-18",
       "topics": [
-        "profession:_all:overview"
+        "profession:alchemy:overview"
       ],
       "source_hashes": [
-        "section:7c4922ff8e265b8174014bf038164a94fe233e26"
+        "section:312a0359920853afca7d42a8d7ea8c1f091b3a55",
+        "section:8e02b7b675566c75bb3921be5fe36ae014501a5e",
+        "section:c86415ca4577d5e8c429888d9efcd31a3d799ed9",
+        "section:d6f61af74f0ec7530d096400004fe8dd84430e88"
       ]
     },
     {
       "id": "prof-herreria",
       "chapter": 5,
       "status": "editorial",
-      "title_es": "Herrería: armas y armaduras pesadas",
-      "title_en": "Blacksmithing: Weapons and Heavy Armor",
-      "summary_es": "Fabrica armas, escudos, malla y placas, mejoras de arma y objetos útiles; combina con Minería.",
-      "summary_en": "Makes weapons, shields, mail and plate armor, weapon upgrades, and useful items; pairs with Mining.",
+      "title_es": "Herrería: armas, armaduras y mejoras",
+      "title_en": "Blacksmithing: Weapons, Armor, and Upgrades",
+      "summary_es": "Forja equipo y mejoras; Minería aporta metales y piedra, mientras Ingeniería comparte materiales.",
+      "summary_en": "Forges gear and upgrades; Mining supplies metal and stone, while Engineering shares materials.",
       "keywords_es": [
-        "herreria",
-        "armas",
-        "armaduras de placas",
-        "yunque",
-        "especialización en armas",
-        "herreria y minería"
+        "herrería",
+        "armas y escudos",
+        "armadura de malla",
+        "armadura de placas",
+        "mejoras de armas",
+        "herrería y minería"
       ],
       "keywords_en": [
         "blacksmithing",
-        "weapons",
+        "weapons and shields",
+        "mail armor",
         "plate armor",
-        "anvil",
-        "weaponsmithing",
+        "weapon upgrades",
         "blacksmithing and mining"
       ],
-      "text_es": "Los herreros forjan armas, escudos, malla y placas, además de piedras de afilar, contrapesos, púas de escudo, cadenas de arma, llaves esqueleto y varas para Encantamiento. Las piedras y contrapesos mejoran el daño de forma temporal; púas y cadenas quedan fijas. También salen de su yunque las espuelas de mitril, que aceleran la montura. Para casi todo necesitan martillo y yunque, y ciertas recetas piden una forja. Al subir habilidad se elige especialidad de Armaduras o de Armas; Minería es su pareja natural.",
-      "text_en": "Blacksmiths forge weapons, shields, mail and plate, plus sharpening stones and weightstones, shield spikes, skeleton keys, weapon chains, and rods for Enchanting. Stones and weights boost damage for a time; spikes and chains stay fixed. Mithril Spurs, which speed up mounted travel, also come from their anvil. They need a hammer and anvil for almost everything, and some recipes call for a forge. Higher skill lets them pick Armorsmithing or Weaponsmithing; Mining is the natural partner.",
+      "text_es": "Herrería forja armas, escudos y armaduras de malla y placas con metal y piedra. Las piedras de afilar y de peso aumentan temporalmente el daño, mientras que las púas de escudo y cadenas de arma son mejoras permanentes. También crea varas para Encantamiento, llaves para cerraduras y Aguijones de mitril que aceleran la montura. Casi todo requiere martillo y yunque; algunas recetas piden una forja. Minería aporta mena y piedra; si puedes elegir, Ingeniería aprovecha materiales comunes al subir y añade bombas y artilugios. Puedes especializarte en armaduras o armas, con recetas exclusivas.",
+      "text_en": "Blacksmithing forges weapons, shields, and mail and plate armor from metal and stone. Sharpening stones and weightstones temporarily increase weapon damage, while shield spikes and weapon chains are permanent upgrades. It also makes Enchanting rods, keys for locked doors and chests, and Mithril Spurs that increase mounted movement speed. Most crafts need a hammer and anvil; some require a forge. Mining supplies ore and stone, but Engineering may be preferable: it shares leveling materials and adds bombs and gadgets. You can specialize in Armorsmithing or Weaponsmithing for exclusive recipes.",
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blacksmithing Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › What is Blacksmithing in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/blacksmithing/overview",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blacksmithing Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Best Profession to Pair with Blacksmithing in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/blacksmithing/overview",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Blacksmithing Guide › What Is Blacksmithing? ",
+          "url": "https://www.icy-veins.com/wow-forever/blacksmithing",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Blacksmithing Guide › Best Profession to Pair with Blacksmithing",
+          "url": "https://www.icy-veins.com/wow-forever/blacksmithing",
+          "date": "2026-11-03"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Blacksmithing Guide › What Is Blacksmithing?",
@@ -488,11 +539,14 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "profession:blacksmithing:overview"
       ],
       "source_hashes": [
+        "section:372012d5ab7d78fb5f961b057097e6eb29ddc355",
+        "section:4bdee846684dff8d2177da487bfd0e7042df4050",
+        "section:b64722490a531b3412dfa847b7ebd452484f6176",
         "section:d8cc68aa35d154a6f5cb8f7666082b1027f621bb"
       ]
     },
@@ -500,115 +554,357 @@
       "id": "prof-encantamiento",
       "chapter": 5,
       "status": "editorial",
-      "title_es": "Encantamiento: mejoras permanentes",
-      "title_en": "Enchanting: Permanent Enhancements",
-      "summary_es": "Desencanta equipo para obtener materiales y añade mejoras permanentes a armas y armadura; combina con Sastrería.",
-      "summary_en": "Disenchants gear for materials and adds permanent enhancements to weapons and armor; pairs with Tailoring.",
+      "title_es": "Encantamiento: desencantar y mejorar equipo",
+      "title_en": "Enchanting: Disenchanting and Enhancing Gear",
+      "summary_es": "Desencanta objetos para conseguir materiales y crear mejoras permanentes, varitas y otros objetos.",
+      "summary_en": "Disenchants items for materials and makes permanent enhancements, wands, and other gear.",
       "keywords_es": [
         "encantamiento",
-        "desencantar",
+        "desencantar objetos",
         "mejoras permanentes",
-        "varita",
-        "vara rúnica",
-        "encantamiento y sastrería"
+        "varitas",
+        "varas de encantamiento",
+        "sastrería y encantamiento"
       ],
       "keywords_en": [
         "enchanting",
-        "disenchant",
-        "permanent enchants",
-        "wand",
-        "runed rod",
-        "enchanting and tailoring"
+        "disenchant items",
+        "permanent enhancements",
+        "wands",
+        "enchanting rods",
+        "tailoring and enchanting"
       ],
-      "text_es": "Encantamiento desencanta equipo poco común o mejor para obtener polvo, esencias y fragmentos. Con esos materiales añade bonificaciones permanentes a armas y armaduras, como aguante en brazales o agilidad en botas. También fabrica varitas, bastones, objetos de mano secundaria, reliquias de clase y aceites de arma. Muchos encantamientos necesitan una vara rúnica; la primera, la Vara de cobre rúnico, se hace con materiales de vendedor, y las varas superiores vienen de Herrería. Combina con Sastrería y resulta útil a Magos, Sacerdotes y Brujos.",
-      "text_en": "Enchanting disenchants uncommon or better gear into dust, essences, and shards. With those materials it adds permanent bonuses to weapons and armor, such as Stamina on bracers or Agility on boots. It also makes wands, staves, off-hand items, class relics, and weapon oils. Many enchants need a runed rod; the first, a Runed Copper Rod, is made from vendor materials, and later rods come from Blacksmithing. It pairs with Tailoring and suits Mages, Priests, and Warlocks.",
+      "text_es": "Encantamiento destruye equipo poco común o superior para obtener polvo, esencias y fragmentos, y así mejorar armas y armaduras de forma permanente (aguante en brazales, agilidad en botas). Además crea varitas, bastones, objetos de mano secundaria, reliquias y aceites de arma. Los encantamientos requieren varas: la primera, Vara de cobre con runas, usa materiales de vendedor; las posteriores suelen venir de Herrería. Sastrería combina bien porque permite crear equipo de tela para desencantar. Magos, Sacerdotes y Brujos pueden usar el oficio desde que lo aprenden.",
+      "text_en": "Enchanting destroys uncommon or better gear for dust, essences, and shards, then permanently improves weapons and armor (Stamina on bracers, Agility on boots). It also makes wands, staves, off-hand items, class relics, and weapon oils. Enchants need rods: the first, a Runed Copper Rod, can be made from vendor materials; later ones usually come from Blacksmithing. It pairs well with Tailoring because it lets you make cloth gear to disenchant. It suits Mages, Priests, and Warlocks as soon as they learn it.",
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Enchanting Materials and Disenchanting in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Enchanting Rods in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › What is Enchanting in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
+          "date": "2026-11-09"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Enchanting Guide › What Is Enchanting?",
           "url": "https://www.icy-veins.com/wow-forever/enchanting",
           "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Enchanting Guide › Best Profession to Pair with Enchanting",
+          "url": "https://www.icy-veins.com/wow-forever/enchanting",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Enchanting Guide › What Is Enchanting?",
+          "url": "https://www.icy-veins.com/wow-forever/enchanting",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Enchanting Guide › Who Should Pick Enchanting?",
+          "url": "https://www.icy-veins.com/wow-forever/enchanting",
+          "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "profession:enchanting:overview"
       ],
       "source_hashes": [
-        "section:188160cad5bd40e46fdd5e4fe0c5bd604f07ecc2"
+        "section:14950165a5bde07e142afd9ac2a894db71d17da0",
+        "section:188160cad5bd40e46fdd5e4fe0c5bd604f07ecc2",
+        "section:4eb130bacaf4283f58cfdd77959e3238506ab86e",
+        "section:9f87c6748300509a4b072d499bc1fafea9504e83",
+        "section:c0dc9a26332e48ed7dfd786f5871e6a53d425800",
+        "section:ca2daf66569cd84787eacb8fd61e1e421b4b87a8"
       ]
     },
     {
       "id": "prof-ingenieria",
       "chapter": 5,
       "status": "editorial",
-      "title_es": "Ingeniería: bombas, armas y artilugios",
-      "title_en": "Engineering: Bombs, Guns, and Gadgets",
-      "summary_es": "Crea explosivos, armas de fuego, miras, gafas y herramientas; combina con Minería y tiene dos especializaciones.",
-      "summary_en": "Makes explosives, guns, scopes, goggles, and tools; pairs with Mining and has two specializations.",
+      "title_es": "Ingeniería: explosivos y artilugios",
+      "title_en": "Engineering: Explosives and Gadgets",
+      "summary_es": "Crea bombas, armas, munición y herramientas; Minería suele aportar los materiales.",
+      "summary_en": "Makes bombs, weapons, ammunition, and tools; Mining commonly supplies the materials.",
       "keywords_es": [
-        "ingenieria",
-        "bombas",
-        "granadas",
-        "gafas",
-        "ingeniería goblin",
-        "ingeniería gnómica",
+        "ingeniería",
+        "bombas y granadas",
+        "armas de fuego",
+        "munición",
+        "miras",
         "ingeniería y minería"
       ],
       "keywords_en": [
         "engineering",
-        "bombs",
-        "grenades",
-        "goggles",
-        "goblin engineering",
-        "gnomish engineering",
+        "bombs and grenades",
+        "guns",
+        "ammunition",
+        "scopes",
         "engineering and mining"
       ],
-      "text_es": "Los ingenieros montan explosivos, armas de fuego, munición, miras, gafas y toda clase de aparatos. La Granada de hierro causa fuego y deja aturdidos hasta tres segundos a los enemigos cercanos; la Capa paracaídas frena una caída. Los Pinzas de batería goblin dan una oportunidad de reanimar a un aliado fuera de combate. Con nivel 30 y 200 de habilidad se escoge la escuela Goblin o la Gnómica, con recetas distintas. Minería la abastece; también sirve para JcJ, para huir al subir solo y a los Cazadores que fabrican armas.",
-      "text_en": "Engineers assemble explosives, firearms, ammunition, scopes, goggles, and all sorts of devices. The Iron Grenade deals Fire damage and leaves nearby enemies stunned for up to three seconds; the Parachute Cloak slows a fall. Goblin Jumper Cables offer a chance to revive an ally out of combat. At level 30 and 200 skill you pick the Goblin or Gnomish school, with different recipes. Mining supplies it; it also helps in PvP, when escaping while soloing, and for Hunters who make weapons.",
+      "text_es": "Ingeniería se centra en bombas, artefactos y herramientas, aunque también crea armas de fuego, munición, miras y gafas. La Granada de hierro inflige daño de Fuego y aturde a enemigos cercanos hasta tres segundos; la Capa de paracaidista frena una caída y las Pinzas de batería goblin dan una oportunidad de reanimar a un aliado fuera de combate. Minería es una pareja práctica porque aporta metales y piedra para fabricar. También puede combinarse con Herrería si llevas malla o placas y quieres aprovechar materiales compartidos.",
+      "text_en": "Engineering focuses on bombs, gadgets, and tools, but also makes guns, ammunition, scopes, and goggles. An Iron Grenade deals Fire damage and stuns nearby enemies for up to three seconds; Parachute Cloak slows a fall, and Goblin Jumper Cables give a chance to revive an ally out of combat. Mining is a practical partner because it supplies metal and stone for crafting. Blacksmithing can also pair well if you wear mail or plate and want to share materials.",
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Engineering Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › What is Engineering in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/engineering-overview-trainer-locations-recipes",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Engineering Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Best Profession to Pair with Engineering in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/engineering-overview-trainer-locations-recipes",
+          "date": "2026-11-07"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Engineering Guide › What Is Engineering?",
           "url": "https://www.icy-veins.com/wow-forever/engineering",
           "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Engineering Guide › Best Profession to Pair with Engineering",
+          "url": "https://www.icy-veins.com/wow-forever/engineering",
+          "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "profession:engineering:overview"
       ],
       "source_hashes": [
-        "section:9bbed3c91fa48e86a80574c35454f4743f0d9aec"
+        "section:434386817cee87af4ffd1071456dce3b8204225b",
+        "section:64ddf24400e04f6cef99d6a2e60403fbac5b1cc4",
+        "section:9bbed3c91fa48e86a80574c35454f4743f0d9aec",
+        "section:e27fdd5ec52d509a27d5a592cfa500a3e5dc9187"
       ]
     },
     {
       "id": "prof-peleteria",
       "chapter": 5,
       "status": "editorial",
-      "title_es": "Peletería: cuero, malla y bolsas",
-      "title_en": "Leatherworking: Leather, Mail, and Bags",
-      "summary_es": "Fabrica armaduras de cuero y malla, capas, bolsas y kits de armadura; combina con Desuello.",
-      "summary_en": "Makes leather and mail armor, cloaks, bags, and armor kits; pairs with Skinning.",
+      "title_es": "Peletería: armaduras, kits y tienda",
+      "title_en": "Leatherworking: Armor, Kits, and Tent",
+      "summary_es": "Fabrica armaduras de cuero y malla, kits y bolsas; Desuello aporta materiales.",
+      "summary_en": "Makes leather and mail armor, kits, and bags; Skinning supplies materials.",
       "keywords_es": [
-        "peleteria",
+        "peletería",
         "armadura de cuero",
         "armadura de malla",
         "kits de armadura",
-        "carcaj",
-        "peleteria y desuello"
+        "tienda de campamento",
+        "peletería y desuello"
       ],
       "keywords_en": [
         "leatherworking",
         "leather armor",
         "mail armor",
         "armor kits",
-        "quiver",
+        "camp tent",
         "leatherworking and skinning"
       ],
-      "text_es": "Los peleteros producen armaduras de cuero y malla, capas y bolsas. Ciertas recetas aprovechan el cuero tal cual sale del Desuello; otras piden pieles curadas antes con sal. Los kits de armadura refuerzan de forma permanente pecho, piernas, manos o pies, y los carcajes y bolsas de munición aceleran el ataque a distancia. Con más habilidad se abre una especialidad: Escamas de dragón, Elemental o Tribal, cada una con patrones distintos. Desuello es su pareja y encaja con Druidas, Pícaros, Cazadores y Chamanes.",
-      "text_en": "Leatherworkers create armor in leather and mail, along with cloaks and bags. Some recipes use hides exactly as Skinning leaves them; others need pelts cured with Salt first. Armor kits permanently reinforce chest, legs, hands, or feet, and quivers and ammo pouches speed up ranged attacks. More skill opens a specialty: Dragonscale, Elemental, or Tribal, each with different patterns. Skinning is the partner, and it suits Druids, Rogues, Hunters, and Shamans.",
+      "text_es": "Peletería crea armaduras de cuero y malla, capas, bolsas y kits permanentes para pecho, piernas, manos o pies. Algunas recetas usan cuero tal cual; otras requieren pieles curtidas con Sal. Sus carcajes y bolsas de munición aceleran los ataques a distancia. Desuello es su pareja directa porque aporta materiales; Ingeniería y Encantamiento son alternativas para artilugios o desencantar lo fabricado. Escamas de dragón, Elemental y Tribal desbloquean patrones propios; Escamas de dragón permite hacer malla. Su tienda de campamento concede un 5% de experiencia de descanso.",
+      "text_en": "Leatherworking makes leather and mail armor, cloaks, bags, and kits that permanently improve chest, legs, hands, or feet. Some recipes use leather as-is; others need hides cured with Salt. It also makes quivers and ammo pouches that increase ranged attack speed. Leatherworking pairs directly with Skinning for its materials; Engineering and Enchanting are alternatives if you prefer gadgets or disenchanting your crafts. Dragonscale, Elemental, and Tribal have their own patterns; Dragonscale can make mail. Its campsite tent grants 5% rested experience.",
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Leatherworking Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Leatherworking Profession Perks in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/leatherworking-overview-trainer-locations-recipes",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Leatherworking Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Best Profession to Pair with Leatherworking in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/leatherworking-overview-trainer-locations-recipes",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Leatherworking Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Leatherworking Specializations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/leatherworking-overview-trainer-locations-recipes",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Leatherworking Guide › What Is Leatherworking?",
+          "url": "https://www.icy-veins.com/wow-forever/leatherworking",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Leatherworking Guide › Who Should Pick Leatherworking?",
+          "url": "https://www.icy-veins.com/wow-forever/leatherworking",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Leatherworking Guide › Best Profession to Pair with Leatherworking",
+          "url": "https://www.icy-veins.com/wow-forever/leatherworking",
+          "date": "2026-11-03"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:leatherworking:overview"
+      ],
+      "source_hashes": [
+        "section:3090895d83e59c89cf5b56fe75bf311b0b058bcf",
+        "section:6a2f079e05d3a06356377848cd7b56ebea6cb46b",
+        "section:75aa5d57847f7d1016ed99340fdd538582e5ac46",
+        "section:86e384a82c9f2fc23475d6baf7d72bbb76a71f98",
+        "section:afa09c2c4d5f412954b42e57e3ed33c0fd675918",
+        "section:f8635431be6eb66fc483941d4dee48b6a07a774f"
+      ]
+    },
+    {
+      "id": "prof-sastreria",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Sastrería: armaduras y bolsas",
+      "title_en": "Tailoring: Armor and Bags",
+      "summary_es": "Convierte tela en armaduras y bolsas; Encantamiento aprovecha las piezas sobrantes.",
+      "summary_en": "Turns cloth into armor and bags; Enchanting makes use of spare crafted pieces.",
+      "keywords_es": [
+        "sastrería",
+        "armadura de tela",
+        "bolsas",
+        "bolsa de componentes",
+        "sastrería y encantamiento"
+      ],
+      "keywords_en": [
+        "tailoring",
+        "cloth armor",
+        "bags",
+        "reagent bag",
+        "tailoring and enchanting"
+      ],
+      "text_es": "Sastrería transforma tela en armaduras, capas, camisas y bolsas; como gran parte cae de humanoides, no hace falta una profesión de recolección para conseguirla. La Bolsa de lino tiene seis huecos y la Bolsa de paño rúnico, catorce. Forever reserva además un espacio independiente para bolsa de componentes: las de lino admiten seis montones y las de tejido mágico, doce, sin ocupar las bolsas normales. Encantamiento combina bien porque puedes desencantar las piezas de tela que no vayas a usar. Con 35 de habilidad puedes confeccionar cinturones que se equipan a nivel 10.",
+      "text_en": "This trade turns cloth into armor, cloaks, shirts, and bags; since much of it drops from humanoids, no gathering profession is needed to obtain it. A Linen Bag has six slots and a Runecloth Bag has fourteen. Forever also provides a separate reagent-bag slot: linen bags hold six stacks and mageweave bags hold twelve without using regular bag space. Enchanting pairs well because you can disenchant cloth pieces you do not plan to use. At 35 skill, you can make waist items usable at level 10.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Tailoring Overview:  Trainers, New Recipes & Locations - WoW Forever › What is Tailoring in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/tailoring-overview-trainer-locations-recipes",
+          "date": "2026-11-01"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Tailoring Guide › What Is Tailoring?",
+          "url": "https://www.icy-veins.com/wow-forever/tailoring",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Tailoring Guide › Best Profession to Pair with Tailoring",
+          "url": "https://www.icy-veins.com/wow-forever/tailoring",
+          "date": "2026-11-03"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Tailoring Overview:  Trainers, New Recipes & Locations - WoW Forever › Waist - Level 10",
+          "url": "https://www.wowhead.com/forever/guide/professions/tailoring-overview-trainer-locations-recipes",
+          "date": "2026-11-01"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:tailoring:overview"
+      ],
+      "source_hashes": [
+        "section:140038c7bee8f76e4fb55460efcdb3b81cfb73fa",
+        "section:49cb5003db3f578b6e218c222bf66c280191a21c",
+        "section:5e67072fa18387943904fe4fefa30267db8e18a7",
+        "section:e0e2dc1f3cdc8873cd0c3df065ab70f1d15c19a8"
+      ]
+    },
+    {
+      "id": "prof-subir-alquimia",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Hitos para subir Alquimia",
+      "title_en": "Alchemy Leveling Milestones",
+      "summary_es": "Algunos niveles permiten cambiar de método o conseguir subidas garantizadas.",
+      "summary_en": "Some skill ranges allow a different route or guaranteed skill gains.",
+      "keywords_es": [
+        "subir alquimia",
+        "Alquimia de 1 a 300",
+        "Alquimia 225",
+        "piedra de filósofo",
+        "subida de habilidad"
+      ],
+      "keywords_en": [
+        "level Alchemy",
+        "Alchemy 1 to 300",
+        "Alchemy 225",
+        "Philosopher’s Stone",
+        "skill gains"
+      ],
+      "text_es": "Puedes subir Alquimia hasta 300, aunque la ruta puede variar según el coste de los materiales. Entre 195 y 205, el Elixir de defensa es una alternativa si sale más conveniente. Al alcanzar 225 puedes aprender a fabricar la Piedra de filósofo; mientras aún dé puntos, garantiza una subida hasta 240 y también hace falta para las transmutaciones. Si la Flor de peste resulta cara, puedes continuar con una poción de maná de rango superior hasta aproximadamente 280–285.",
+      "text_en": "You can level Alchemy to 300, but the route can vary with material prices. Between 195 and 205, Elixir of Defense is an alternative if it is more economical. At 225, you can learn to make a Philosopher’s Stone; while it still grants points, it guarantees a skill-up through 240 and is also required for transmutes. If Plaguebloom is expensive, you can continue with a higher-rank mana potion until around 280–285.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Alchemy Leveling Guide: 1-300 Leveling and Required Materials - WoW: Forever › Best Alchemy Leveling Path for Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/alchemy/leveling-1-300",
+          "date": "2026-11-07"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:alchemy:leveling-1-300"
+      ],
+      "source_hashes": [
+        "section:24583e0c5252e13146864823985f6f2c089bce55"
+      ]
+    },
+    {
+      "id": "prof-especializaciones-peleteria",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Especializaciones de Peletería",
+      "title_en": "Leatherworking Specializations",
+      "summary_es": "Escamas de dragón, Elemental y Tribal desbloquean patrones distintos.",
+      "summary_en": "Dragonscale, Elemental, and Tribal unlock different patterns.",
+      "keywords_es": [
+        "especializaciones de peletería",
+        "Escamas de dragón",
+        "peletería elemental",
+        "peletería tribal",
+        "armadura de malla"
+      ],
+      "keywords_en": [
+        "Leatherworking specializations",
+        "Dragonscale",
+        "Elemental Leatherworking",
+        "Tribal Leatherworking",
+        "mail armor"
+      ],
+      "text_es": "Peletería ofrece las especializaciones Escamas de dragón, Elemental y Tribal, cada una con patrones propios. Si quieres fabricar armaduras de malla, Escamas de dragón es la opción indicada.",
+      "text_en": "Leatherworking offers Dragonscale, Elemental, and Tribal specializations, each with its own patterns. If you want to make mail armor, Dragonscale is the relevant choice.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Leatherworking Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Leatherworking Specializations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/leatherworking-overview-trainer-locations-recipes",
+          "date": "2026-11-07"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Leatherworking Guide › What Is Leatherworking?",
@@ -616,54 +912,234 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "profession:leatherworking:overview"
       ],
       "source_hashes": [
+        "section:6a2f079e05d3a06356377848cd7b56ebea6cb46b",
         "section:86e384a82c9f2fc23475d6baf7d72bbb76a71f98"
       ]
     },
     {
-      "id": "prof-sastreria",
+      "id": "prof-entrenadores-artesania",
       "chapter": 5,
       "status": "editorial",
-      "title_es": "Sastrería: tela, bolsas y bolsa de reactivos",
-      "title_en": "Tailoring: Cloth, Bags, and Reagent Bag",
-      "summary_es": "Fabrica armaduras de tela, capas, camisas y bolsas; Forever añade una bolsa de reactivos aparte.",
-      "summary_en": "Makes cloth armor, cloaks, shirts, and bags; Forever adds a separate reagent bag.",
+      "title_es": "Instructores de profesiones artesanales",
+      "title_en": "Crafting Profession Trainers",
+      "summary_es": "Ciudades y zonas iniciales tienen instructores; los rangos altos pueden requerir otros.",
+      "summary_en": "Cities and starter areas have trainers; higher ranks may require different ones.",
       "keywords_es": [
-        "sastreria",
-        "armadura de tela",
-        "bolsas",
-        "bolsa de reactivos",
-        "tela",
-        "sastreria y encantamiento"
+        "instructor de Alquimia",
+        "instructor de Ingeniería",
+        "instructor de Encantamiento",
+        "instructor de Sastrería",
+        "entrenar rangos"
       ],
       "keywords_en": [
-        "tailoring",
-        "cloth armor",
-        "bags",
-        "reagent bag",
-        "cloth",
-        "tailoring and enchanting"
+        "Alchemy trainer",
+        "Engineering trainer",
+        "Enchanting trainer",
+        "Tailoring trainer",
+        "train profession ranks"
       ],
-      "text_es": "Los sastres cortan y cosen la tela para hacer armaduras, capas, camisas y bolsas. La mayor parte de esa tela llega de humanoides, por lo que no hace falta una profesión recolectora. Forever reserva una ranura propia para la bolsa de reactivos: la de lino admite seis montones y la de tejido mágico doce, sin quitar espacio a las bolsas normales. La Bolsa de lino ofrece seis huecos y la Bolsa de paño rúnico catorce. Encantamiento es su mejor compañero, y el oficio encaja con Magos, Sacerdotes y Brujos.",
-      "text_en": "Tailors sew armor, cloaks, shirts, and bags from cloth. Most of that cloth arrives from humanoids, so no gathering profession is required. Forever sets aside a dedicated reagent-bag slot: the linen version accepts six stacks and the mageweave one twelve, without taking regular bag space. A Linen Bag offers six slots and a Runecloth Bag fourteen. Enchanting is the best companion, and the trade suits Mages, Priests, and Warlocks.",
+      "text_es": "Puedes encontrar instructores de profesiones en ciudades y, para algunos oficios, en pueblos de zonas iniciales; pregunta a un guardia para que señale uno cercano. Alquimia se enseña en las ciudades principales, aunque los rangos Experto y Artesano requieren instructores concretos. En Forever, algunos instructores de Ingeniería capaces de enseñar Experto también enseñan los rangos anteriores, pero uno de Oficial no enseña Experto. El rango de Encantador artesano se aprende de un instructor situado en una mazmorra.",
+      "text_en": "Profession trainers are available in cities and, for some trades, in starter-zone towns; ask a guard to mark a nearby one. Alchemy is taught in major cities, though Expert and Artisan ranks require specific trainers. In Forever, some Engineering trainers who teach Expert can also teach earlier ranks, but a Journeyman trainer cannot teach Expert. Artisan Enchanting is taught by a trainer located in a dungeon.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Tailoring Guide › What Is Tailoring?",
-          "url": "https://www.icy-veins.com/wow-forever/tailoring",
-          "date": "2026-11-03"
+          "ref": "Wowhead: Alchemy Profession Overview in Forever - Transmutes, New Recipes, and Trainers › Where to Learn Alchemy in Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/alchemy-overview-trainer-locations-recipes",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Engineering Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Engineering Trainer Locations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/engineering-overview-trainer-locations-recipes",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Enchanting Trainer Locations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Learning Artisan Enchanting: Uldaman Dungeon",
+          "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Tailoring Overview:  Trainers, New Recipes & Locations - WoW Forever › Tailoring Trainers in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/tailoring-overview-trainer-locations-recipes",
+          "date": "2026-11-01"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Enchanting Trainers in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
+          "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
+        "profession:alchemy:overview",
+        "profession:enchanting:overview",
+        "profession:engineering:overview",
         "profession:tailoring:overview"
       ],
       "source_hashes": [
-        "section:e0e2dc1f3cdc8873cd0c3df065ab70f1d15c19a8"
+        "section:193821c71575b94d6b05cd39cabc6b43acbfcf79",
+        "section:713494633cbacf236b184658f7d90d66a2488742",
+        "section:9a079d55d62a589ec63b2814fc411338b4dbfa5a",
+        "section:ac11a9ced94339370ddfc9b3d014ca9e21a33f3d",
+        "section:b1052d53a2f29f3f9cc8fe75b541212176563787",
+        "section:fadfc3e00eb49cce1e1dfef403e4bf8965ffc961"
+      ]
+    },
+    {
+      "id": "prof-subir-encantamiento",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Primeros pasos para subir Encantamiento",
+      "title_en": "Getting Started with Enchanting",
+      "summary_es": "Desencantar objetos encontrados puede aportar los primeros puntos y materiales.",
+      "summary_en": "Disenchanting found gear can provide early skill points and materials.",
+      "keywords_es": [
+        "subir encantamiento",
+        "primeros puntos de Encantamiento",
+        "desencantar equipo",
+        "varas de encantamiento"
+      ],
+      "keywords_en": [
+        "level Enchanting",
+        "early Enchanting skill",
+        "disenchant gear",
+        "enchanting rods"
+      ],
+      "text_es": "Al aprender Encantamiento también recibes la facultad Desencantar. Puedes usarla con objetos poco comunes o mejores que encuentres para obtener los primeros 40 puntos de habilidad y reunir materiales para seguir avanzando; no necesitas una vara de inmediato. El rango Experto se puede aprender a nivel 20 de personaje con 125 de habilidad en Encantamiento.",
+      "text_en": "Training also teaches Disenchant. Use it on uncommon or better items you find to gain the first 40 skill points and collect materials for further progress; you do not need a rod right away. You can learn Expert at character level 20 with 125 Enchanting skill.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Enchanting Trainer Locations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Enchanting Rods in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:enchanting:overview"
+      ],
+      "source_hashes": [
+        "section:193821c71575b94d6b05cd39cabc6b43acbfcf79",
+        "section:4eb130bacaf4283f58cfdd77959e3238506ab86e"
+      ]
+    },
+    {
+      "id": "prof-especializaciones-herreria",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Especializaciones de Herrería",
+      "title_en": "Blacksmithing Specializations",
+      "summary_es": "Puedes especializarte en fabricar armaduras o armas con recetas propias.",
+      "summary_en": "You can specialize in armor or weapons and gain exclusive recipes.",
+      "keywords_es": [
+        "especializaciones de herrería",
+        "armaduras de herrería",
+        "armas de herrería",
+        "elegir especialización"
+      ],
+      "keywords_en": [
+        "Blacksmithing specializations",
+        "armor specialization",
+        "weapon specialization",
+        "choose a specialization"
+      ],
+      "text_es": "Al avanzar en Herrería puedes escoger entre centrarte en armaduras o en armas. Cada especialización da acceso a recetas exclusivas, así que elige según el tipo de equipo que quieras fabricar.",
+      "text_en": "As you advance in Blacksmithing, you can choose to focus on armor or weapons. Each specialization gives access to exclusive recipes, so choose based on the gear you want to make.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blacksmithing Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Blacksmithing Specializations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/professions/blacksmithing/overview",
+          "date": "2026-11-07"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:blacksmithing:overview"
+      ],
+      "source_hashes": [
+        "section:f7977deba152fa5123f3644791cf0c0002155902"
+      ]
+    },
+    {
+      "id": "prof-especializaciones-ingenieria",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Especializaciones de Ingeniería",
+      "title_en": "Engineering Specializations",
+      "summary_es": "Con nivel 30 y 200 de habilidad puedes elegir Ingeniería goblin o Ingeniería gnoma.",
+      "summary_en": "At level 30 and 200 skill, choose Goblin or Gnomish Engineering.",
+      "keywords_es": [
+        "ingeniería goblin",
+        "ingeniería gnómica",
+        "especialización de ingeniería",
+        "nivel 30",
+        "200 de ingeniería"
+      ],
+      "keywords_en": [
+        "Goblin Engineering",
+        "Gnomish Engineering",
+        "Engineering specialization",
+        "level 30",
+        "200 Engineering"
+      ],
+      "text_es": "Al llegar al nivel 30 de personaje y a 200 de Ingeniería, puedes elegir entre Ingeniería goblin e Ingeniería gnoma. Cada una se desbloquea mediante una cadena de tres pasos y abre recetas distintas. La tarjeta de miembro correspondiente da acceso a los esquemas de su instructor; dura 14 días de tiempo de juego y hay que renovarla para conservar ese acceso.",
+      "text_en": "At character level 30 and 200 Engineering, you can choose Goblin or Gnomish Engineering. Each is unlocked through a three-step quest chain and offers different recipes. The matching membership card grants access to its trainer’s schematics; it lasts 14 days of in-game time and must be renewed to keep that access.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Engineering Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Goblin Engineering Specialization Quests",
+          "url": "https://www.wowhead.com/forever/guide/professions/engineering-overview-trainer-locations-recipes",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Engineering Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Gnomish Engineering Specialization Quests",
+          "url": "https://www.wowhead.com/forever/guide/professions/engineering-overview-trainer-locations-recipes",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Engineering Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Goblin Engineer Membership Card and Renewal",
+          "url": "https://www.wowhead.com/forever/guide/professions/engineering-overview-trainer-locations-recipes",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Engineering Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Gnomish Engineer Membership Card and Renewal",
+          "url": "https://www.wowhead.com/forever/guide/professions/engineering-overview-trainer-locations-recipes",
+          "date": "2026-11-07"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "profession:engineering:overview"
+      ],
+      "source_hashes": [
+        "guide:c465b957ec611d34bbfe3e7788343f1d5ab5e4ba",
+        "section:03e213fcc5df0348d49cf9563732055c9c86ad7e",
+        "section:66d57c6c50ec295ad8182a961da080aefc248d13"
       ]
     },
     {
@@ -1413,26 +1889,26 @@
       "id": "prof-clases-armadura",
       "chapter": 5,
       "status": "editorial",
-      "title_es": "Profesiones según la armadura de tu clase",
-      "title_en": "Professions by Your Class Armor",
-      "summary_es": "Herrería encaja con placas, Peletería con cuero y malla, Sastrería con tela; Encantamiento e Ingeniería tienen público.",
-      "summary_en": "Blacksmithing fits plate, Leatherworking leather and mail, Tailoring cloth; Enchanting and Engineering have clear users.",
+      "title_es": "Profesiones según tu clase y armadura",
+      "title_en": "Professions by Class and Armor Type",
+      "summary_es": "Elige según el equipo que quieras fabricar y las ventajas que usarás.",
+      "summary_en": "Choose based on the gear you want to make and the benefits you will use.",
       "keywords_es": [
-        "profesión según clase",
         "profesión para guerrero",
+        "profesión para cazador",
         "profesión para druida",
         "profesión para mago",
-        "armadura de clase"
+        "profesión según armadura"
       ],
       "keywords_en": [
-        "profession by class",
-        "profession for warrior",
-        "profession for druid",
-        "profession for mage",
-        "class armor"
+        "professions for warriors",
+        "professions for hunters",
+        "professions for druids",
+        "professions for mages",
+        "professions by armor"
       ],
-      "text_es": "Tu clase no te obliga a elegir una profesión, pero algunas combinaciones encajan mejor. Herrería resulta útil a Guerreros y Paladines que llevan malla o placas y quieren fabricar sus armas y escudos. Peletería encaja con Druidas y Pícaros por el cuero, y con Cazadores y Chamanes que pasan a malla. Sastrería sirve a Magos, Sacerdotes y Brujos por la armadura de tela, Encantamiento también les resulta útil, e Ingeniería permite a los Cazadores fabricar armas de fuego y munición.",
-      "text_en": "Your class does not force a profession, but some combinations fit better. Blacksmithing suits Warriors and Paladins who wear mail or plate and want to make their own weapons and shields. Leatherworking fits Druids and Rogues for leather, and Hunters and Shamans who move to mail. Tailoring serves Mages, Priests, and Warlocks for cloth armor, Enchanting is also useful to them, and Engineering lets Hunters make guns and ammunition.",
+      "text_es": "Herrería encaja con Guerreros y Paladines que quieren fabricar armas, escudos y armadura pesada; Peletería permite a Druidas y Pícaros hacer equipo de cuero, y también sirve a Cazadores y Chamanes que pasan a malla. Sastrería ofrece equipo de tela para Magos, Sacerdotes y Brujos. Encantamiento resulta útil a cualquier clase que quiera aprovechar equipo sin uso para obtener materiales, mientras que Ingeniería deja a los Cazadores fabricar armas de fuego y munición.",
+      "text_en": "Blacksmithing suits Warriors and Paladins who want to make weapons, shields, and heavy armor; Leatherworking lets Druids and Rogues make leather gear and also serves Hunters and Shamans who move to mail. Tailoring offers cloth gear for Mages, Priests, and Warlocks, and Enchanting helps any class that wants materials from unwanted gear. and Engineering lets Hunters make guns and ammunition.",
       "sources": [
         {
           "type": "editorial",
@@ -1465,7 +1941,7 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "profession:blacksmithing:overview",
         "profession:enchanting:overview",
