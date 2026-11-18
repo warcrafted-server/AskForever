@@ -9569,6 +9569,512 @@
       "source_hashes": [
         "section:a3f3fb77c019ab5b26e8cecf9054ba0157b8be85"
       ]
+    },
+    {
+      "id": "mazmorra-upper-blackrock-spire-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Cumbre de Roca Negra superior: nivel y entrada",
+      "title_en": "Upper Blackrock Spire: Level and Entrance",
+      "summary_es": "Recomendada para niveles 55-60; la entrada común está en Montaña Roca Negra.",
+      "summary_en": "Recommended for levels 55-60; the shared entrance is in Blackrock Mountain.",
+      "keywords_es": [
+        "Cumbre de Roca Negra superior",
+        "UBRS",
+        "entrada de Cumbre de Roca Negra",
+        "nivel de Cumbre de Roca Negra"
+      ],
+      "keywords_en": [
+        "upper blackrock spire",
+        "UBRS entrance",
+        "upper blackrock spire level",
+        "blackrock mountain dungeon"
+      ],
+      "text_es": "Cumbre de Roca Negra superior (UBRS) se recomienda para niveles 55-60. La entrada común está en Montaña Roca Negra, accesible desde La Garganta de Fuego o Las Estepas Ardientes. La Alianza puede volar a Puesto del Torio o Vigilia de Morgan; la Horda, a Kargath, Puesto del Torio o Peñasco Llamarada. Sube por la cadena hasta el balcón y, dentro, toma la rampa izquierda del puente.",
+      "text_en": "Upper Blackrock Spire (UBRS) is recommended for levels 55-60. The shared entrance is in Blackrock Mountain, reached from Searing Gorge or Burning Steppes. Alliance can fly to Thorium Point or Morgan’s Vigil; Horde can fly to Kargath, Thorium Point, or Flame Crest. Climb the chain to the balcony and, inside, take the bridge’s left ramp.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Upper Blackrock Spire Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Upper Blackrock Spire in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:upper-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:684345153f0795925d9346520d3e50231ffd99f3",
+        "section:f1eaa3ae435817360a9fdf533794892771e32347"
+      ]
+    },
+    {
+      "id": "mazmorra-upper-blackrock-spire-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones de Cumbre de Roca Negra superior",
+      "title_en": "Recommended Upper Blackrock Spire Quests",
+      "summary_es": "Prepara Ojo de brasadivino y La orden de Puño Negro antes de entrar.",
+      "summary_en": "Pick up Eye of the Emberseer and Blackhand’s Command before entering.",
+      "keywords_es": [
+        "misiones de UBRS",
+        "Ojo de brasadivino",
+        "La orden de Puño Negro",
+        "Muerte al general Drakkisath",
+        "misiones de Cumbre de Roca Negra superior"
+      ],
+      "keywords_en": [
+        "UBRS quests",
+        "Eye of the Emberseer",
+        "Blackhand’s Command",
+        "General Drakkisath’s Demise",
+        "upper blackrock spire quests"
+      ],
+      "text_es": "Antes de entrar, recoge La orden de Puño Negro, que deja el Intendente Escudo del Estigma fuera de la mazmorra y comienza la sintonización de Guarida de Alanegra. Ambas facciones pueden aceptar Ojo de brasadivino con Duque Hydraxis en Azshara, tras Sirocosos y reptarenas y Agua envenenada. La Alianza puede preparar Muerte al general Drakkisath con Mariscal Maxwell en Vigilia de Morgan; la Horda puede iniciar ¡Por la Horda! con Thrall en Orgrimmar después de La orden del Señor de la Guerra y La sabiduría de Eitrigg.",
+      "text_en": "Before entering, pick up Blackhand’s Command, dropped by the Scarshield Quartermaster outside the dungeon; it begins the attunement for Blackwing Lair. Either faction can accept Eye of the Emberseer from Duke Hydraxis in Azshara after Stormers and Rumblers and Poisoned Water. Alliance can prepare General Drakkisath’s Demise with Marshal Maxwell at Morgan’s Vigil; Horde can start For The Horde! with Thrall in Orgrimmar after Warlord’s Command and Eitrigg’s Wisdom.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Eye of the Emberseer",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Blackhand's Command",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › General Drakkisath's Demise",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › For The Horde!",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:upper-blackrock-spire"
+      ],
+      "source_hashes": [
+        "guide:fd16c1a57c60d17e81028700f38549c7f9e2296c",
+        "section:2da2c50da4d24f91677fe46546c3e6771b4b449f"
+      ]
+    },
+    {
+      "id": "mazmorra-upper-blackrock-spire-piroguardian-brasadivino",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Piroguardián brasadivino",
+      "title_en": "Pyroguard Emberseer",
+      "summary_es": "Aparta al Piroguardián brasadivino del grupo para reducir el daño de su nova de fuego.",
+      "summary_en": "Keep Pyroguard Emberseer away from the group to limit fire nova damage.",
+      "keywords_es": [
+        "Piroguardián brasadivino",
+        "jefe Pyroguard Emberseer",
+        "estrategia de UBRS",
+        "nova de fuego de Emberseer"
+      ],
+      "keywords_en": [
+        "Pyroguard Emberseer",
+        "Emberseer boss strategy",
+        "UBRS boss",
+        "Emberseer fire nova"
+      ],
+      "text_es": "El Piroguardián brasadivino queda libre al activar el altar y derrotar a los carceleros. El tanque debe mantenerlo apartado del grupo para que su nova de fuego no alcance a varios jugadores.",
+      "text_en": "Pyroguard Emberseer is freed by activating the altar and defeating the jailers. The tank should keep Pyroguard Emberseer away from the group so his fire nova does not hit several players.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Pyroguard Emberseer - Hall of Binding",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:upper-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:f93d0dc0fa4e92a33fcc4a1b265044b67111f87a"
+      ]
+    },
+    {
+      "id": "mazmorra-upper-blackrock-spire-solakar-corona-de-fuego",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Solakar Corona de Fuego",
+      "title_en": "Solakar Flamewreath",
+      "summary_es": "En el evento, elimina rápido a quienes rompen huevos y mantén al grupo a distancia de Solakar.",
+      "summary_en": "During the event, quickly kill egg-breakers and keep the group at range from Solakar.",
+      "keywords_es": [
+        "Solakar Corona de Fuego",
+        "evento de Llama padre",
+        "jefe de la sala de los huevos",
+        "estrategia de Solakar"
+      ],
+      "keywords_en": [
+        "Solakar Flamewreath",
+        "Father Flame event",
+        "Rookery boss",
+        "Solakar strategy"
+      ],
+      "text_es": "El evento envía varias oleadas; prioriza a los enemigos que rompen huevos y deja a los guardianes para los tanques. Solakar Corona de Fuego aparece después; el tanque debe mantenerlo junto a la pared y el grupo a distancia para evitar su Pisotón de guerra.",
+      "text_en": "The event sends several waves; prioritize the enemies that break eggs and leave the guardians to the tanks. Solakar Flamewreath appears afterward; the tank should hold him by the wall while the group stays at range to avoid his War Stomp.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Rookery - Father Flame",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:upper-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:7599b45fd5910b0e9d51d5c784b12445f41efb73"
+      ]
+    },
+    {
+      "id": "mazmorra-upper-blackrock-spire-goraluk-yunquegrieta",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Goraluk Yunquegrieta",
+      "title_en": "Goraluk Anvilcrack",
+      "summary_es": "El tanque puede mantener a Goraluk Yunquegrieta junto a una pared y lejos del grupo.",
+      "summary_en": "The tank can hold Goraluk Anvilcrack by a wall and away from the group.",
+      "keywords_es": [
+        "Goraluk Yunquegrieta",
+        "jefe de UBRS Goraluk",
+        "estrategia de Yunquegrieta",
+        "Goraluk Anvilcrack"
+      ],
+      "keywords_en": [
+        "Goraluk Anvilcrack",
+        "Goraluk UBRS boss",
+        "Anvilcrack strategy",
+        "UBRS blacksmith boss"
+      ],
+      "text_es": "Goraluk Yunquegrieta es un combate sencillo: el tanque puede colocarlo junto a una pared y separado del resto del grupo. Jed Observarrunas puede aparecer como jefe opcional en la misma zona.",
+      "text_en": "Goraluk Anvilcrack is a straightforward fight: the tank can place Goraluk Anvilcrack by a wall, apart from the rest of the group. Jed Runewatcher may also appear as an optional boss in the same area.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Goraluk Anvilcrack",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:upper-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:56d712861f4dccaa4338ba1e4aba53daa0dbb35d"
+      ]
+    },
+    {
+      "id": "mazmorra-upper-blackrock-spire-jed-observarrunas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jed Observarrunas",
+      "title_en": "Jed Runewatcher",
+      "summary_es": "Mantén a Jed Observarrunas contra la pared y al grupo a distancia.",
+      "summary_en": "Keep Jed Runewatcher against the wall and the group at range.",
+      "keywords_es": [
+        "Jed Observarrunas",
+        "jefe raro de UBRS",
+        "estrategia de Jed Runewatcher",
+        "Jed Runewatcher"
+      ],
+      "keywords_en": [
+        "Jed Runewatcher",
+        "UBRS rare boss",
+        "Jed Runewatcher strategy",
+        "Jed boss"
+      ],
+      "text_es": "Jed Observarrunas es un jefe raro opcional. El tanque puede mantenerlo junto a una pared mientras el resto del grupo ataca a distancia para facilitar el combate.",
+      "text_en": "Jed Runewatcher is an optional rare boss. The tank can keep Jed Runewatcher against a wall while the rest of the group attacks from range to simplify the fight.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Jed Runewatcher (Rare)",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:upper-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:25e31091f758b585f5c2250c2b27ddd30002e5fe"
+      ]
+    },
+    {
+      "id": "mazmorra-upper-blackrock-spire-gyth",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Gyth",
+      "title_en": "Gyth",
+      "summary_es": "Orienta a Gyth lejos del grupo y derrótalo antes de cambiar el objetivo a Rend.",
+      "summary_en": "Face Gyth away from the group and defeat him before switching to Rend.",
+      "keywords_es": [
+        "Gyth",
+        "jefe Gyth de UBRS",
+        "aliento de Gyth",
+        "evento de Rend y Gyth"
+      ],
+      "keywords_en": [
+        "Gyth",
+        "Gyth UBRS boss",
+        "Gyth breath attack",
+        "Rend and Gyth event"
+      ],
+      "text_es": "Tras siete u ocho oleadas aparecen Gyth y Jefe de Guerra Desgarro Puño Negro. El tanque debe orientar a Gyth de espaldas al grupo para que su aliento no lo alcance; cuando Rend cae al llegar al 20%, derrota primero a Gyth y después cambia de objetivo.",
+      "text_en": "After seven to eight waves, Gyth and Warchief Rend Blackhand appear. The tank should face Gyth away from the group so his breath does not hit them; when Rend is knocked off at 20%, defeat Gyth first and then switch targets.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Warchief Rend Blackhand and Gyth",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:upper-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:b628e0c05279ee44127e56620a0d441dcf19f8ea"
+      ]
+    },
+    {
+      "id": "mazmorra-upper-blackrock-spire-jefe-de-guerra-desgarro-puno-negro",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jefe de Guerra Desgarro Puño Negro",
+      "title_en": "Warchief Rend Blackhand",
+      "summary_es": "Al caer de Gyth, asigna un segundo tanque a Rend y evita sus ataques giratorios y frontales.",
+      "summary_en": "When Rend falls from Gyth, assign a second tank and avoid his spinning and frontal attacks.",
+      "keywords_es": [
+        "Jefe de Guerra Desgarro Puño Negro",
+        "Rend Blackhand",
+        "jefe de UBRS Rend",
+        "evento de Rend y Gyth"
+      ],
+      "keywords_en": [
+        "Warchief Rend Blackhand",
+        "Rend Blackhand boss",
+        "UBRS Rend encounter",
+        "Rend and Gyth event"
+      ],
+      "text_es": "Jefe de Guerra Desgarro Puño Negro cae de Gyth al llegar al 20%; un segundo tanque debe recogerlo y apartarlo a un lado. Acaba primero con Gyth; después, los combatientes cuerpo a cuerpo deben evitar los ataques giratorios y frontales.",
+      "text_en": "Warchief Rend Blackhand is knocked off Gyth at 20%; a second tank should pick him up and move him to one side. Kill Gyth first; then melee players should avoid the spinning and frontal attacks.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Warchief Rend Blackhand and Gyth",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:upper-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:b628e0c05279ee44127e56620a0d441dcf19f8ea"
+      ]
+    },
+    {
+      "id": "mazmorra-upper-blackrock-spire-la-bestia",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "La Bestia",
+      "title_en": "The Beast",
+      "summary_es": "Mantén la amenaza con el tanque y separa al grupo para reducir el miedo y el daño de área.",
+      "summary_en": "Keep threat on the tank and spread the group to limit fear and area damage.",
+      "keywords_es": [
+        "La Bestia de UBRS",
+        "jefe La Bestia",
+        "estrategia contra La Bestia",
+        "miedo de The Beast"
+      ],
+      "keywords_en": [
+        "The Beast UBRS",
+        "The Beast boss",
+        "The Beast strategy",
+        "The Beast fear"
+      ],
+      "text_es": "La Bestia carga contra un objetivo y vuelve hacia quien tenga más amenaza, así que el tanque principal debe conservarla. El grupo debe separarse y mantenerse a distancia para reducir el efecto del miedo; el tanque puede ponerse de espaldas a una pared para evitar el empujón de su nova de fuego.",
+      "text_en": "The Beast charges a target and returns to the one with the most threat, so the main tank should hold aggro. The group should spread out and stay at range to limit the fear; the tank can stand with their back to a wall to avoid the knockback from its fire nova.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Beast",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:upper-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:0023d96c1eaabeed21fd35d88c601937499b3b9c"
+      ]
+    },
+    {
+      "id": "mazmorra-upper-blackrock-spire-general-drakkisath",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "General Drakkisath",
+      "title_en": "General Drakkisath",
+      "summary_es": "El método de cometa separa a General Drakkisath de sus dos guardias cromáticos.",
+      "summary_en": "Kiting separates General Drakkisath from his two chromatic guards.",
+      "keywords_es": [
+        "General Drakkisath",
+        "jefe final de UBRS",
+        "estrategia contra Drakkisath",
+        "guardias cromáticos de Drakkisath"
+      ],
+      "keywords_en": [
+        "General Drakkisath",
+        "UBRS final boss",
+        "Drakkisath strategy",
+        "Drakkisath chromatic guards"
+      ],
+      "text_es": "General Drakkisath es el jefe final; la estrategia de cometa lo aparta de los guardias cromáticos. Un Cazador lo atrae hacia la sala de La Bestia y usa Fingir muerte para devolverlo al grupo, mientras los tanques eliminan a los guardias. Después, el tanque principal debe orientarlo lejos del grupo para evitar su aliento de fuego.",
+      "text_en": "General Drakkisath is the final boss; kiting separates him from the chromatic guards. A Hunter pulls him toward The Beast’s room and uses Feign Death to return him to the group while the tanks kill the guards. The main tank then faces him away from the group to avoid his fire breath.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › General Drakkisath",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:upper-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:fd6b5f7ec5b20558e15f18dc8569588befdcd2f2"
+      ]
+    },
+    {
+      "id": "mazmorra-upper-blackrock-spire-lord-valthalak",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Lord Valthalak",
+      "title_en": "Lord Valthalak",
+      "summary_es": "La misión de invocación permite llamar a Lord Valthalak en la sala de La Bestia.",
+      "summary_en": "The summoning quest lets you call Lord Valthalak in The Beast’s room.",
+      "keywords_es": [
+        "Lord Valthalak",
+        "invocar a Lord Valthalak",
+        "misión de invocación de Valthalak",
+        "Blandón de Señalización"
+      ],
+      "keywords_en": [
+        "Lord Valthalak",
+        "summon Lord Valthalak",
+        "Valthalak summoning quest",
+        "Brazier of Beckoning"
+      ],
+      "text_es": "La misión de invocación proporciona el Blandón de Señalización para llamar a Lord Valthalak en la sala de La Bestia. Al completar la cadena se obtiene un Blandón de Invocación para volver a llamarlo más adelante.",
+      "text_en": "The summoning quest provides the Brazier of Beckoning to call Lord Valthalak in The Beast’s room. Completing the questline grants a Brazier of Invocation to summon him again later.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Beast",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:upper-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:0023d96c1eaabeed21fd35d88c601937499b3b9c"
+      ]
+    },
+    {
+      "id": "mazmorra-upper-blackrock-spire-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de Cumbre de Roca Negra superior",
+      "title_en": "Upper Blackrock Spire Rewards",
+      "summary_es": "Las misiones ofrecen abalorios a elegir; destacan también piezas de Gyth y Rend.",
+      "summary_en": "Quests offer a choice of trinkets; notable drops also come from Gyth and Rend.",
+      "keywords_es": [
+        "recompensas de UBRS",
+        "botín de Cumbre de Roca Negra superior",
+        "Marca de Tiranía",
+        "Carga sacra de Dal'Rend",
+        "Caparazón cromático"
+      ],
+      "keywords_en": [
+        "UBRS rewards",
+        "upper blackrock spire loot",
+        "Mark of Tyranny",
+        "Dal'Rend's Sacred Charge",
+        "Chromatic Carapace"
+      ],
+      "text_es": "¡Por la Horda! y Muerte al general Drakkisath permiten elegir entre Marca de Tiranía, Ojo de la bestia y Amplitud de Puño Negro. Entre los botines destacados están el Caparazón cromático de Gyth y la Sierra apocalíptica de Puño Negro de Jefe de Guerra Desgarro Puño Negro. Son ejemplos, no la lista completa.",
+      "text_en": "For The Horde! and General Drakkisath’s Demise offer a choice of Mark of Tyranny, Eye of the Beast, or Blackhand’s Breadth. Notable drops include Chromatic Carapace from Gyth and Blackhand Doomsaw from Warchief Rend Blackhand. These are examples, not the complete list.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Best Quest Rewards",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Gyth",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Upper Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Warchief Rend Blackhand",
+          "url": "https://www.wowhead.com/forever/guide/upper-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:upper-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:00acea2107658a2a27b9c340f480e9819c7812da",
+        "section:a88692ec09f34fc81685778edf9edd2ff698ee81",
+        "section:e2738ef0e2b7cd00338ffee768de63a6628277f6"
+      ]
     }
   ]
 }
