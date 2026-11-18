@@ -7,10 +7,14 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 ## [0.4.0-beta.3] - 2026-11-18
 
 ### English
+- Added: professions guide from the latest WoW Forever guides: slots, ranks and trainers, Legacy perks and camp stations, recommended professions per class, Craftsman's Writs, weapon skills, how to level every gathering and secondary profession by range, and what each crafting profession makes with its specializations.
+- Added: new trade and reputation chapter: the Azeroth Commerce Authority and Durotar Supply and Logistics, Merchant's Favor and profession titles, the Tarnished Undermine Real, and the Gelkis and Magram centaurs, Nightclaw druids, Shen'dralar and Timbermaw Hold reputations (how to raise them and their rewards).
 - Added: dungeon and raid guide from the latest WoW Forever guides: for every dungeon, its level and how to reach the entrance from each faction, the quests worth picking up before going in, one card per boss with its key mechanics and the notable rewards; how dungeons and the nine new ones work, raid dates, sizes and locations, the full Onyxia attunement for each faction, season 1 tier set bonuses per class and the PvE tier lists for DPS, healers and tanks.
 - Added: the races guide gets the new race and class combinations.
 
 ### Español
+- Añadido: guía de profesiones a partir de las últimas guías de WoW Forever: plazas, rangos e instructores, ventajas Legacy y estaciones de campamento, profesiones recomendadas por clase, Escrituras del artesano, habilidades de armas, cómo subir cada profesión de recolección y secundaria por tramos y qué fabrica cada profesión de artesanía con sus especializaciones.
+- Añadido: nuevo capítulo de comercio y reputaciones: la Autoridad Comercial de Azeroth y Suministros y Logística de Durotar, el Favor de mercader y los títulos de profesión, el Real deslustrado de Minahonda, y las reputaciones de los centauros Gelkis y Magram, los druidas Garranoche, los Shen'dralar y los Fauces de Madera (cómo subirlas y sus recompensas).
 - Añadido: guía de mazmorras y bandas a partir de las últimas guías de WoW Forever: de cada mazmorra, su nivel y cómo llegar a la entrada desde cada facción, las misiones que conviene recoger antes, una ficha por jefe con sus mecánicas clave y las recompensas destacadas; cómo funcionan las mazmorras y las nueve nuevas, fechas, tamaños y ubicación de las bandas, la sintonización completa de Onyxia para cada facción, las bonificaciones de los conjuntos de la temporada 1 por clase y las clasificaciones JcE de DPS, sanadores y tanques.
 - Añadido: la guía de razas incluye las nuevas combinaciones de raza y clase.
 
