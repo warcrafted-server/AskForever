@@ -2128,160 +2128,218 @@
       "id": "mazmorra-excavation-entrada",
       "chapter": 7,
       "status": "editorial",
-      "title_es": "Excavación: Los Humedales, entrada y qué esperar",
-      "title_en": "Excavation: Wetlands, Entrance and What to Expect",
-      "summary_es": "Nueva mazmorra 26-33 en Los Humedales; raptores, miedo y un guardián que empuja y aturde.",
-      "summary_en": "New level 26-33 dungeon in the Wetlands; raptors, fear, and a guardian that knocks back and stuns.",
+      "title_es": "Excavación: nivel y entrada",
+      "title_en": "Excavation Site: Level and Entrance",
+      "summary_es": "Nivel 26-32 en Los Humedales; la Alianza llega desde Menethil y la Horda desde Trabalomas.",
+      "summary_en": "Levels 26-32 in the Wetlands; Alliance comes from Menethil and Horde from Hillsbrad.",
       "keywords_es": [
         "excavación los humedales",
-        "excavation site wetlands",
-        "cómo llegar a la excavación",
-        "excavación humedales jefes",
-        "shadetooth"
+        "nivel de excavación",
+        "entrada de excavación",
+        "cómo llegar a excavación"
       ],
       "keywords_en": [
         "excavation site wetlands",
-        "excavation wetlands entrance",
-        "excavation wetlands bosses",
-        "shadetooth",
-        "excavation quests"
+        "excavation level",
+        "excavation entrance",
+        "how to reach excavation"
       ],
-      "text_es": "Excavación: Los Humedales es nueva, de nivel 26-33, y está en Los Humedales, por un camino al sur de la cueva de Thelgen. Tiene cinco misiones de Alianza y tres de Horda. Saltspine reduce la precisión en melé y frena al tanque; Shadetooth es el más duro: trae dos raptores que reducen la curación del tanque, tiene miedo y se enfurece; el Relic Guardian empuja, aturde y ralentiza, y se activa con el panel. Lleva control y limpia los raptores escondidos antes del jefe.",
-      "text_en": "Excavation: Wetlands is new, level 26-33, and lies in the Wetlands on a path south of Thelgen Rock cavern. It has five Alliance quests and three Horde. Saltspine lowers melee accuracy and slows the tank; Shadetooth is the hardest: he brings two raptors that reduce tank healing, has fear, and enrages; the Relic Guardian knocks back, stuns, and slows, and is activated by the panel. Bring control and clear the hidden raptors before the boss.",
+      "text_es": "Excavación: Los Humedales se recomienda para niveles 26-32 y su entrada queda en lo alto de una colina, por un camino nuevo de Los Humedales. La Alianza puede partir de Puerto de Menethil o llegar a pie desde Loch Modan; la Horda cruza a pie Laderas de Trabalomas y Tierras Altas de Arathi, con una Ruta de vuelo en Molino Tarren.",
+      "text_en": "Excavation Site: Wetlands is recommended for levels 26-32; its entrance is at the top of a hill along a new path in the Wetlands. Alliance can start at Menethil Harbor or walk from Loch Modan; Horde travels overland through Hillsbrad Foothills and Arathi Highlands, with a flight path at Tarren Mill.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Excavation Site: Wetlands Dungeon Guide › Excavation Site: Wetlands Dungeon Entrance and Basics",
-          "url": "https://www.icy-veins.com/wow-forever/excavation-site-wetlands-guide",
-          "date": "2026-10-18"
+          "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Excavation Site Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Excavation Site in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "dungeon:excavation-site-wetlands"
       ],
       "source_hashes": [
-        "section:0c7a211d76d1a1446a621ab4018ce536ed112140"
+        "section:549102b03ac79247a336c75d14de940626922881",
+        "section:d49ea374f64754ca41cda73a00d859a48a5c85a4"
       ]
     },
     {
       "id": "mazmorra-excavation-misiones",
       "chapter": 7,
       "status": "editorial",
-      "title_es": "Misiones de Excavación: Los Humedales",
-      "title_en": "Excavation: Wetlands Quests",
-      "summary_es": "Ocho misiones, cinco de Alianza y tres de Horda; varias empiezan en Los Humedales.",
-      "summary_en": "Eight quests, five Alliance and three Horde; several start in the Wetlands.",
+      "title_es": "Misiones recomendables de Excavación",
+      "title_en": "Recommended Excavation Site Quests",
+      "summary_es": "Recoge misiones en Menethil, Crestagrana y Los Humedales; la cadena Faucedraco empieza en Hammerfall.",
+      "summary_en": "Pick up quests in Menethil, Redridge, and the Wetlands; the Dragonmaw chain starts at Hammerfall.",
       "keywords_es": [
-        "misiones de la excavación",
+        "misiones de excavación",
+        "pellejos de las tierras altas",
         "en busca de filosón",
-        "horrors in the highland",
-        "changing tastes",
-        "dragonmaw rumors"
+        "horrores en las tierras altas",
+        "cambio de paladar",
+        "rumores de los faucedraco"
       ],
       "keywords_en": [
-        "excavation wetlands quests",
+        "excavation quests",
+        "highland hides",
         "songblade search",
         "horrors in the highland",
         "changing tastes",
         "dragonmaw rumors"
       ],
-      "text_es": "Hay ocho misiones: cinco de Alianza y tres de Horda. En Los Humedales empiezan Highland Hides (James Halloran), Horrors in the Highland (Rethiel) y Lost Relic Carry (botín del Guardián, se entrega a Prospector Whelgar); en Montañas Crestagrana, En busca de Filosón (Dorin); en Vallefresno, Seeking Caitlin (Llana). De Horda: Changing Tastes (Orgrimmar, Borstan), Dragonmaw Rumors (Tierras Altas de Arathi, Zaruk) y Elder Knowledge (botín, se entrega en Cima del Trueno a Bashana).",
-      "text_en": "There are eight quests: five Alliance and three Horde. In the Wetlands start Highland Hides (James Halloran), Horrors in the Highland (Rethiel), and Lost Relic Carry (Guardian loot, turned in to Prospector Whelgar); in Redridge Mountains, Songblade Search (Dorin); in Ashenvale, Seeking Caitlin (Llana). For Horde: Changing Tastes (Orgrimmar, Borstan), Dragonmaw Rumors (Arathi Highlands, Zaruk), and Elder Knowledge (loot, turned in at Thunder Bluff to Bashana).",
+      "text_es": "Antes de entrar, la Alianza puede recoger Pellejos de las Tierras Altas en Puerto de Menethil, En busca de Filosón con Dorin Filosón en Montañas Crestagrana y Horrores en las Tierras Altas con Rethiel el Guardaverde en Los Humedales. La Horda puede aceptar Cambio de paladar con Borstan en Orgrimmar y comenzar Rumores de los Faucedraco con Zaruk en Sentencia, requisito de Abre las Fauces.",
+      "text_en": "Before entering, Alliance can pick up Highland Hides in Menethil Harbor, Songblade Search from Dorin Songblade in Redridge Mountains, and Horrors in the Highland from Rethiel the Greenwarden in the Wetlands. Horde can take Changing Tastes from Borstan in Orgrimmar and start Dragonmaw Rumors with Zaruk at Hammerfall, a prerequisite for Open the Maw.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: All Available Quests for Excavation Site: Wetlands › Excavation Site: Wetlands Dungeon Quests",
-          "url": "https://www.icy-veins.com/wow-forever/excavation-site-wetlands-quests",
-          "date": "2026-10-02"
+          "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Highland Hides",
+          "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Open the Maw",
+          "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "dungeon:_all:quests"
+        "dungeon:excavation-site-wetlands"
       ],
       "source_hashes": [
-        "section:00080caba9ca5d1e436d22bd5ed3f98ca7c6849e"
+        "section:775887e4c5793264783c973a87af78a3d2b17b24",
+        "section:9865b76b869e956ded202352ea3a1ca35967fd1c",
+        "section:ca1c0175c06945150450fd1eb8c4581ce701cb0e"
       ]
     },
     {
       "id": "mazmorra-dalaran-entrada",
       "chapter": 7,
       "status": "editorial",
-      "title_es": "Ciudad de Dalaran: entrada y qué esperar",
-      "title_en": "City of Dalaran: Entrance and What to Expect",
-      "summary_es": "Nueva mazmorra 28-35 en Alterac; la Horda necesita llave y varios jefes tienen mecánicas letales.",
-      "summary_en": "New level 28-35 dungeon in Alterac; Horde needs a key and several bosses have lethal mechanics.",
+      "title_es": "Ciudad de Dalaran: nivel y entrada",
+      "title_en": "City of Dalaran: Level and Entrance",
+      "summary_es": "Nivel 28-34 en Montañas de Alterac; la Alianza entra por las cloacas y la Horda necesita llave.",
+      "summary_en": "Levels 28-34 in Alterac Mountains; Alliance enters through the sewers, Horde needs a key.",
       "keywords_es": [
         "ciudad de dalaran",
-        "city of dalaran",
-        "cómo llegar a dalaran",
-        "dalaran mazmorra jefes",
-        "llave cloacas dalaran"
+        "nivel ciudad dalaran",
+        "entrada de dalaran",
+        "llave de las cloacas",
+        "cómo llegar a dalaran"
       ],
       "keywords_en": [
         "city of dalaran",
+        "city of dalaran level",
         "dalaran dungeon entrance",
-        "dalaran dungeon bosses",
         "dalaran sewer key",
-        "city of dalaran quests"
+        "how to reach dalaran"
       ],
-      "text_es": "La Ciudad de Dalaran es nueva, de nivel 28-35, y está en Montañas de Alterac, con la entrada en las cloacas. La Alianza entra desde la ciudad; la Horda necesita la llave de las cloacas, que sale de una cadena en Trabalomas, o sufrirá. Arcane Anomaly tiene un cortador que mata, Mana Devourer drena maná y hay que matarlo rápido, Unstable Sentinel castiga a quien esté a 25 yardas y Shade of the Archmage hace polimorfia masiva si se queda sin maná. Lyn the Ignored se invoca con un objeto de Castillo de Colmillo Oscuro.",
-      "text_en": "City of Dalaran is new, level 28-35, and lies in the Alterac Mountains, with its entrance in the sewers. Alliance enters from the city; Horde needs the sewer key from a Hillsbrad chain or will struggle. Arcane Anomaly has a lethal cutter, Mana Devourer drains mana and must die quickly, Unstable Sentinel punishes anyone within 25 yards, and Shade of the Archmage mass polymorphs if he runs out of mana. Lyn the Ignored is summoned with an item from Shadowfang Keep.",
+      "text_es": "La Ciudad de Dalaran se recomienda para niveles 28-34 y está en Montañas de Alterac. La Alianza llega desde Laderas de Trabalomas y entra por las cloacas de la ciudad. La Horda puede nadar desde Bosque de Argénteos hasta El Sepulcro y caminar desde allí; para abrir el túnel especial, alguien del grupo debe tener la Llave de las cloacas de Dalaran.",
+      "text_en": "City of Dalaran is recommended for levels 28-34 and lies in the Alterac Mountains. Alliance travels from Hillsbrad Foothills and enters through the city sewers. Horde can swim from Silverpine Forest to the Sepulcher and walk from there; opening the special tunnel requires someone in the group to have the Dalaran Sewer Key.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: City of Dalaran Dungeon Guide › City of Dalaran Dungeon Entrance and Basics",
-          "url": "https://www.icy-veins.com/wow-forever/city-of-dalaran-guide",
-          "date": "2026-10-18"
+          "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › City of Dalaran Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of City of Dalaran in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Unlocking the City of Dalaran in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "dungeon:city-of-dalaran"
       ],
       "source_hashes": [
-        "section:99bc604b3049eba46b7d0de7d49c07f9d50b60f4"
+        "section:12a7a47f2d750e9be76d8c55ad31b9c984ca6a02",
+        "section:137f047711a785c1a63a709b12d6c009ae2ebf77",
+        "section:22a6a33453f15996b0effd3d0105a74e2273d8f2"
       ]
     },
     {
       "id": "mazmorra-dalaran-misiones",
       "chapter": 7,
       "status": "editorial",
-      "title_es": "Misiones de la Ciudad de Dalaran",
-      "title_en": "City of Dalaran Quests",
-      "summary_es": "Ocho misiones, cuatro de Alianza y cuatro de Horda; Heart of Disruption da la llave de las cloacas.",
-      "summary_en": "Eight quests, four Alliance and four Horde; Heart of Disruption gives the sewer key.",
+      "title_es": "Misiones recomendables de Ciudad de Dalaran",
+      "title_en": "Recommended City of Dalaran Quests",
+      "summary_es": "La Horda inicia una cadena en Molino Tarren; la Alianza empieza con una petición en Costasur.",
+      "summary_en": "Horde starts a chain at Tarren Mill; Alliance begins with a request in Southshore.",
       "keywords_es": [
-        "misiones de dalaran",
-        "heart of disruption",
-        "starving arcane",
-        "the grave knight",
-        "source of power"
+        "misiones de ciudad de dalaran",
+        "colarse en la cárcel",
+        "la llave de la ciudad",
+        "el corazón de la perturbación",
+        "una petición alarmante",
+        "sangre en las calles"
       ],
       "keywords_en": [
         "city of dalaran quests",
+        "prison break in",
+        "key to the city",
         "heart of disruption",
-        "starving arcane",
-        "the grave knight",
-        "source of power"
+        "an alarming request",
+        "blood in the streets"
       ],
-      "text_es": "Hay ocho misiones: cuatro de Alianza y cuatro de Horda; Heart of Disruption existe para las dos y da la llave de las cloacas. En Bosque de Argénteos empiezan Heart of Disruption y Starving Arcane (Image of Archmage Modera); en Ventormenta, A Green Sample (Shylamiir) y Power Overwhelming (Andromath); dentro, Opportunistic Education (Rexxie); en Trabalomas, The Grave Knight (Melisara); y en Entrañas, Source of Power (Doctor Martin Felben).",
-      "text_en": "There are eight quests: four Alliance and four Horde; Heart of Disruption exists for both and gives the sewer key. In Silverpine Forest start Heart of Disruption and Starving Arcane (Image of Archmage Modera); in Stormwind, A Green Sample (Shylamiir) and Power Overwhelming (Andromath); inside, Opportunistic Education (Rexxie); in Hillsbrad, The Grave Knight (Melisara); and in Undercity, Source of Power (Doctor Martin Felben).",
+      "text_es": "La cadena de la Horda empieza con Colarse en la cárcel, que da Magus Wordeen Vacuamirada en Molino Tarren; continúa con La llave de la ciudad y Las patrullas de Dalaran. Después, Sangre en las calles lleva hasta la Imagen de la archimaga Modera, que entrega El corazón de la perturbación y la Llave de las cloacas de Dalaran. La Alianza inicia su ruta con Una petición alarmante, de Emisario Jacques en Costasur, y sigue con El corazón de la perturbación.",
+      "text_en": "Horde’s chain begins with Prison Break In from Magus Wordeen Voidglare at Tarren Mill, followed by Key to the City and Dalaran Patrols. Blood in the Streets then leads to the Image of Archmage Modera, who gives Heart of Disruption and the Dalaran Sewer Key. Alliance starts its route with An Alarming Request from Emissary Jacques in Southshore, followed by Heart of Disruption.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: All Available Quests for City of Dalaran › City of Dalaran Dungeon Quests",
-          "url": "https://www.icy-veins.com/wow-forever/city-of-dalaran-quests",
-          "date": "2026-09-30"
+          "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Initial Quests to Accept",
+          "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Hand in and accept next quests",
+          "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Hand in and accept next quest",
+          "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Every Quest in City of Dalaran in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "dungeon:_all:quests"
+        "dungeon:city-of-dalaran"
       ],
       "source_hashes": [
-        "section:7b2852ae83e9174d0e8da57a2be14a9a9d2c1133"
+        "section:7192b1db753e5a122669c285a30f87d7b709ce53",
+        "section:833ffb142d3f33ea7193ec965187c006b5c0d8cf",
+        "section:871fe72f081ef1bc336f4801d223f0ac16b95f0c",
+        "section:8c7bbc9965284c3ab494e6cc0f9d2e2524c929cf"
       ]
     },
     {
@@ -2602,6 +2660,274 @@
       ],
       "source_hashes": [
         "section:78ae037b33a39bb97952123ea28ddc10be79cd04"
+      ]
+    },
+    {
+      "id": "mazmorra-excavation-jefes",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jefes de Excavación",
+      "title_en": "Excavation Site Bosses",
+      "summary_es": "Despeja la zona de Espinasal, controla los acompañantes de Sombradiente y ralentiza al Guardián.",
+      "summary_en": "Clear Saltspine’s area, control Shadetooth’s adds, and slow the Guardian.",
+      "keywords_es": [
+        "jefes de excavación",
+        "espinasal",
+        "sombradiente",
+        "guardián de reliquias",
+        "estrategia excavación"
+      ],
+      "keywords_en": [
+        "excavation site bosses",
+        "saltspine",
+        "shadetooth",
+        "relic guardian",
+        "excavation strategy"
+      ],
+      "text_es": "Limpia los enemigos cercanos antes de Espinasal y aléjate de su Tormenta de polvo si lanzas hechizos. Sombradiente llega con dos acompañantes: contrólalos o elimínalos antes; su miedo puede atraer raptores de la hierba, así que despeja el área. Activa al Guardián de reliquias con el panel archivístico; ralentízalo y usa control para reducir la presión sobre el tanque.",
+      "text_en": "Clear nearby enemies before Saltspine and move away from Dust Storm if you cast spells. Shadetooth comes with two adds: control or kill them first; his fear can draw raptors from the grass, so clear the area. Press the panel beside the inactive Relic Guardian to begin the fight; slow it and use crowd control to ease pressure on the tank.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Saltspine",
+          "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Shadetooth",
+          "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Relic Guardian",
+          "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:excavation-site-wetlands"
+      ],
+      "source_hashes": [
+        "section:78000c8454fd32a204ffd8c07fc341e70beb1dda",
+        "section:a7ed0ed5dc7c83272c8b320a97365cb21a95d52d",
+        "section:bcd646428301e139759bf4536cd303b9b99c48f4"
+      ]
+    },
+    {
+      "id": "mazmorra-excavation-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de Excavación",
+      "title_en": "Excavation Site Rewards",
+      "summary_es": "Las misiones de reliquias ofrecen armas; Cambio de paladar y Tejido en el corazón dan una cartera.",
+      "summary_en": "The relic quests offer weapons; Changing Tastes and Heartwoven reward a satchel.",
+      "keywords_es": [
+        "recompensas de excavación",
+        "bastón de sanador",
+        "martillo arrojadizo",
+        "cartera de pociones",
+        "reliquia titánica"
+      ],
+      "keywords_en": [
+        "excavation rewards",
+        "healer staff",
+        "heavehammer",
+        "satchel of potions",
+        "titan relic"
+      ],
+      "text_es": "Eco terráneo y Prisma prehistórico ofrecen elegir entre el Bastón de sanador y el Martillo arrojadizo. Cambio de paladar y Tejido en el corazón recompensan con una Cartera de pociones. Para iniciar la cadena de reliquias, se obtiene la Reliquia titánica dentro de la mazmorra.",
+      "text_en": "Earthen Echo and Prehistoric Prism offer a choice between Healer’s Staff and Heavehammer. Changing Tastes and Heartwoven reward a Satchel of Potions. Titan Relic, needed to start the relic quest chain is found inside the dungeon.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Best Quest Rewards",
+          "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Lost Relic Carry",
+          "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:excavation-site-wetlands"
+      ],
+      "source_hashes": [
+        "section:2c40f66abfc00cdde0d1db3180163195141836bf",
+        "section:775887e4c5793264783c973a87af78a3d2b17b24",
+        "section:f477135a6e34e37bcc768d9df0c25c61b6af3b55"
+      ]
+    },
+    {
+      "id": "mazmorra-dalaran-jefes-cloacas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jefes de Dalaran: cloacas",
+      "title_en": "Dalaran Bosses: Sewers",
+      "summary_es": "Elimina los esqueletos de Atrexis y evita el rayo giratorio de la Anomalía y los adds del Enigma.",
+      "summary_en": "Kill Atrexis’s skeletons, dodge the Anomaly’s rotating beam, and handle the Enigma’s adds.",
+      "keywords_es": [
+        "jefes de dalaran",
+        "atrexis el caballero de la tumba",
+        "anomalía arcana",
+        "enigma arcano",
+        "centinela inestable"
+      ],
+      "keywords_en": [
+        "dalaran bosses",
+        "atrexis the grave knight",
+        "arcane anomaly",
+        "arcanic enigma",
+        "unstable sentinel"
+      ],
+      "text_es": "Atrexis el Caballero de la Tumba invoca esqueletos; espera a que el tanque fije la amenaza antes de usar daño en área. La Anomalía Arcana barre la sala con Explosión focal: esquívala y evita los adds del borde. Contra el Enigma Arcano, elimina primero los Fantasmas de maná, disipa Manamorfo y mantén al sanador lejos del Silencio. Aléjate cuando el Centinela inestable prepara Avería, que daña a quienes están a 25 yardas.",
+      "text_en": "Atrexis the Grave Knight summons skeletons; let the tank establish threat before using area damage. Arcane Anomaly sweeps the room with Focal Blast: dodge it and avoid the adds at the edge. Arcanic Enigma is accompanied by adds; kill Mana Phantoms first, dispel Manamorph, and keep the healer away from Silence. Unstable Sentinel uses Malfunction; anyone within 25 yards takes damage, so move away.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Atrexis the Grave Knight",
+          "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Arcane Anomaly",
+          "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Arcanic Enigma",
+          "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Unstable Sentinel",
+          "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:city-of-dalaran"
+      ],
+      "source_hashes": [
+        "section:30d8f61e6b23fcd0ae5f33d6d6c9e2acce0c6351",
+        "section:a2e215cff02b3a1cfca94b85a88ab365ce7009cf",
+        "section:b4891f6c527e94da0e620d327afb7b57e3b0b8a6",
+        "section:c86328cdc7d2efa2743ea63b23d8c5054b093193"
+      ]
+    },
+    {
+      "id": "mazmorra-dalaran-jefes-superficie",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jefes de Dalaran: superficie",
+      "title_en": "Dalaran Bosses: Surface",
+      "summary_es": "Limpia la zona del Devorador, rompe raíces del Anciano y esquiva los ataques de Lyn y la Sombra.",
+      "summary_en": "Clear the Devourer’s area, break the Ancient’s roots, and dodge Lyn and the Shade’s attacks.",
+      "keywords_es": [
+        "jefes de dalaran",
+        "devorador de maná",
+        "anciano vil",
+        "lyn el ignorado",
+        "sombra del archimago"
+      ],
+      "keywords_en": [
+        "dalaran bosses",
+        "mana devourer",
+        "fel ancient",
+        "lyn the ignored",
+        "shade of the archmage"
+      ],
+      "text_es": "Limpia todos los enemigos antes del Devorador de maná: Debilitar daña al grupo y drena maná. En el Anciano vil, sal de las áreas de Maderas viles y rompe las raíces de Enredar. La Maldición de espinas de Lyn el Ignorado daña a quien ataca; disípala y elimina sus esqueletos. Contra la Sombra del archimago, sepárate para evitar Maná rebotador; al agotarse su maná, usa Polimorfia en masa y Evocación.",
+      "text_en": "Clear all enemies before Mana Devourer: Debilitate damages the group and drains mana. Fel Ancient creates Fel Timbers; leave Fel Timbers and break free from Entangle. Lyn the Ignored applies Curse of Thorns, which damages attackers; dispel it and kill his skeletons. Spread out against Shade of the Archmage to avoid Bounding Mana; when his mana runs out, he uses Mass Polymorph and Evocation.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Mana Devourer",
+          "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Fel Ancient",
+          "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Lyn the Ignored",
+          "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Shade of the Archmage",
+          "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:city-of-dalaran"
+      ],
+      "source_hashes": [
+        "section:411f50dba898e8b8129432d07a30348f53fbfc28",
+        "section:444abfaf4f73dfaae85f1667d0d27d73afe3df07",
+        "section:9ca65ddd8896205b3e96adfe4d60a86cadddc564",
+        "section:ec11fcb253d5c1d64ef12086a95e86f589857340"
+      ]
+    },
+    {
+      "id": "mazmorra-dalaran-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de Ciudad de Dalaran",
+      "title_en": "City of Dalaran Rewards",
+      "summary_es": "El Centinela deja el Plano: rueca y la Sombra del archimago, el Plano: recuperador Arcano.",
+      "summary_en": "The Sentinel drops Blueprint: Spinning Wheel; the Shade drops Blueprint: Arcane Salvager.",
+      "keywords_es": [
+        "recompensas de ciudad de dalaran",
+        "plano rueca",
+        "plano recuperador arcano",
+        "botín de dalaran"
+      ],
+      "keywords_en": [
+        "city of dalaran rewards",
+        "spinning wheel blueprint",
+        "arcane salvager blueprint",
+        "dalaran loot"
+      ],
+      "text_es": "Entre las recompensas destacables están el Plano: rueca, de Centinela inestable, y el Plano: recuperador Arcano, de la Sombra del archimago.",
+      "text_en": "Notable rewards include Blueprint: Spinning Wheel from Unstable Sentinel and Blueprint: Arcane Salvager from Shade of the Archmage.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › City of Dalaran Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:city-of-dalaran"
+      ],
+      "source_hashes": [
+        "section:34e3d909a6bd28a8e8d5108fd32545f5126136e5"
       ]
     }
   ]
