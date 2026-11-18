@@ -6313,6 +6313,1251 @@
         "section:25d7eeb2209d562b3793dc38c8ef074da1005e86",
         "section:2e7e0a83f1323b8fc4af56fd68e937c6c2514abd"
       ]
+    },
+    {
+      "id": "mazmorra-drowned-city-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "La Ciudad Sumergida: nivel y entrada",
+      "title_en": "The Drowned City: Level and Entrance",
+      "summary_es": "Nivel 35-42; entrada submarina al oeste de Tuercespina, con acceso distinto por facción.",
+      "summary_en": "Levels 35-42; underwater entrance west of Stranglethorn Vale, with faction-specific access.",
+      "keywords_es": [
+        "nivel de La Ciudad Sumergida",
+        "entrada de La Ciudad Sumergida",
+        "cómo llegar a la mazmorra",
+        "respirar bajo el agua"
+      ],
+      "keywords_en": [
+        "Drowned City level range",
+        "Drowned City entrance",
+        "how to reach the dungeon",
+        "underwater breathing"
+      ],
+      "text_es": "La Ciudad Sumergida se recomienda para niveles 35-42 y tiene un tramo largo bajo el agua; un Brujo o un Chamán ayuda con Respiración subacuática. La entrada está en una cueva submarina frente a la costa occidental de Tuercespina, al sur de la Isla Encantada. La Horda puede ir en zepelín a Campamento Grom'gol o en barco desde Trinquete hasta Bahía del Botín; la Alianza puede volar a Villa Oscura si aún no tiene ese punto de vuelo, aunque Bahía del Botín queda más cerca.",
+      "text_en": "The Drowned City is recommended for levels 35-42 and has a long underwater section; a Warlock or Shaman helps with underwater breathing. Its entrance is in an underwater cave off the western coast of Stranglethorn Vale, south of the Haunted Isle. Horde can take the zeppelin to Grom'gol or the boat from Ratchet to Booty Bay; Alliance can fly to Darkshire if it lacks that flight point, though Booty Bay is closer.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Drowned City Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › The Drowned City Overview in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/the-drowned-city-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Drowned City Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Location of The Drowned City in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/the-drowned-city-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:drowned-city"
+      ],
+      "source_hashes": [
+        "section:446c22c9f436f51f6c8d19db63e06f0d8c20d5cc",
+        "section:916e0320209e56c3fcc9e9427e689909f6e85e57"
+      ]
+    },
+    {
+      "id": "mazmorra-drowned-city-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones recomendables de La Ciudad Sumergida",
+      "title_en": "Recommended Drowned City Quests",
+      "summary_es": "Prepara las cadenas de Dibbs para la Alianza y las misiones de Grom'gol para la Horda.",
+      "summary_en": "Prepare Dibbs's Alliance chains and the Horde quests at Grom'gol.",
+      "keywords_es": [
+        "misiones de La Ciudad Sumergida",
+        "La magia de la Ciudad Sumergida",
+        "Segunda prueba con el agua",
+        "misiones de Horda en Grom'gol",
+        "Videntesal sospechosos"
+      ],
+      "keywords_en": [
+        "Drowned City quests",
+        "Magics of the Drowned City",
+        "Take Two With Water",
+        "Horde quests at Grom'gol",
+        "Shady Saltseers"
+      ],
+      "text_es": "La Alianza puede preparar «La magia de la Ciudad Sumergida» y «Segunda prueba con el agua» con el Maestro cultural Dibbs en Costasur, tras «La segunda rebelión» o «Mala medicina» y «Brujería trol». Para la Horda, «La Ciudad Sumergida» empieza con Kin'weelay en Campamento Grom'gol, después de «El Arrecife Mortal»; «El único Escamasalada bueno...» se recoge allí con el Comandante Aggro'gosh tras «Enemigos en el agua». Ambas facciones pueden recoger «Videntesal sospechosos» y «El capitán Videntesal» con Krazek en Bahía del Botín.",
+      "text_en": "Alliance can prepare Magics of the Drowned City and Take Two With Water from Loremaster Dibbs in Southshore, after The Second Rebellion or Bad Medicine and Troll Witchery. For Horde, The Drowned City starts with Kin'weelay at Grom'gol after The Vile Reef; The Only Good Brinescale... is available there from Commander Aggro'gosh after Enemies in the Water. Both factions can pick up Shady Saltseers and The Saltseer Captain from Krazek in Booty Bay.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Drowned City Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/the-drowned-city-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:drowned-city"
+      ],
+      "source_hashes": [
+        "section:9428a09cadf42cea8bb160c1a7622f89cd924a55"
+      ]
+    },
+    {
+      "id": "mazmorra-drowned-city-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de La Ciudad Sumergida",
+      "title_en": "The Drowned City Rewards",
+      "summary_es": "Las misiones destacan equipo para mano secundaria, una pechera de malla y un yelmo de cuero.",
+      "summary_en": "Notable quest rewards include off-hand gear, a mail chest, and a leather helm.",
+      "keywords_es": [
+        "recompensas de La Ciudad Sumergida",
+        "Descubrimientos para la Liga de Expedicionarios",
+        "Videntesal sospechosos",
+        "botín de misiones"
+      ],
+      "keywords_en": [
+        "Drowned City rewards",
+        "Findings for the Explorer's League",
+        "Shady Saltseers",
+        "quest loot"
+      ],
+      "text_es": "Entre las recompensas de «Descubrimientos para la Liga de Expedicionarios» se destacan un objeto para la mano secundaria y una pechera de malla; «Videntesal sospechosos» ofrece un yelmo de cuero.",
+      "text_en": "Notable rewards from Findings for the Explorer's League include an off-hand item and a mail chest; Shady Saltseers offers a leather helm.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Drowned City Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Best Quest Rewards",
+          "url": "https://www.wowhead.com/forever/guide/the-drowned-city-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:drowned-city"
+      ],
+      "source_hashes": [
+        "section:f5c74d3e91fc50ef98a77eae3019ee23ffc11cca"
+      ]
+    },
+    {
+      "id": "mazmorra-drowned-city-zulalai",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Zul'Alai: aturde y disipa el golpe",
+      "title_en": "Zul'Alai: Stun and Dispel the Strike",
+      "summary_es": "Zul'Alai aturde cerca, ralentiza al grupo y se acelera al quedar con poca salud.",
+      "summary_en": "Zul'Alai stuns nearby players, slows the group, and speeds up at low health.",
+      "keywords_es": [
+        "Zul'Alai",
+        "jefe de La Ciudad Sumergida",
+        "Embate monstruoso",
+        "Golpe podrido"
+      ],
+      "keywords_en": [
+        "Zul'Alai",
+        "Drowned City boss",
+        "Monstrous Slam",
+        "Rotted Strike"
+      ],
+      "text_es": "Zul'Alai golpea con fuerza al objetivo principal. Embate monstruoso aturde durante 3 segundos a quienes estén cerca; como no se mueve mientras lo lanza, el cuerpo a cuerpo puede apartarse. Golpe podrido reduce la velocidad de movimiento y ataque: disípalo primero del tanque. Al 30% de salud, Juramento imperecedero aumenta un 30% su velocidad de ataque y le restaura un 3% de salud cada 5 segundos.",
+      "text_en": "Zul'Alai hits its main target hard. Monstrous Slam stuns nearby players for 3 seconds; it does not move while casting, so melee can step away. Rotted Strike reduces movement and attack speed: dispel it from the tank first. At 30% health, Undying Oath increases its attack speed by 30% and restores 3% health every 5 seconds.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Drowned City Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Zul'Alai",
+          "url": "https://www.wowhead.com/forever/guide/the-drowned-city-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:drowned-city"
+      ],
+      "source_hashes": [
+        "section:24924454ccfa0cca2069b47efc8372031ef463d8"
+      ]
+    },
+    {
+      "id": "mazmorra-drowned-city-vartaka",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Var'Taka: controla a las sacerdotisas",
+      "title_en": "Var'Taka: Control the Priestesses",
+      "summary_es": "Las sacerdotisas curan; Var'Taka atrae jugadores y golpea en un cono frontal.",
+      "summary_en": "The priestesses heal; Var'Taka pulls players in and attacks with a frontal cone.",
+      "keywords_es": [
+        "Var'Taka",
+        "sacerdotisas Escamasaladas",
+        "jefe de La Ciudad Sumergida",
+        "Arpón"
+      ],
+      "keywords_en": [
+        "Var'Taka",
+        "Brinescale Priestesses",
+        "Drowned City boss",
+        "Harpoon"
+      ],
+      "text_es": "Var'Taka combate junto a dos Sacerdotisas Escamasaladas, que intentan curarse y curarlo: elimínalas primero o contrólalas. Su Arpón atrae a un jugador aleatorio hasta el jefe, que también usa Mellar frontal; el tanque debe orientarlo de espaldas al grupo. Tras vencer, haz clic en la Perla resplandeciente para desactivar la barrera.",
+      "text_en": "Var'Taka fights with two priestess adds that try to heal themselves and him; kill or crowd-control them first. Harpoon pulls a random player to the boss, who also uses a frontal Cleave; the tank should face him away from the group. After the fight, click the Glowing Pearl to disrupt the barrier.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Drowned City Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Var'Taka",
+          "url": "https://www.wowhead.com/forever/guide/the-drowned-city-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:drowned-city"
+      ],
+      "source_hashes": [
+        "section:95ed658f403ed894dd999141f9c594a405f5c04b"
+      ]
+    },
+    {
+      "id": "mazmorra-drowned-city-elemental-primigenio",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Elemental primigenio: combate opcional",
+      "title_en": "Primeval Elemental: Optional Boss",
+      "summary_es": "Activa al Elemental primigenio eliminando las ofrendas; vigila el aire en sus túneles acuáticos.",
+      "summary_en": "Activate Primeval Elemental by killing the offerings; watch your breath in its water tunnels.",
+      "keywords_es": [
+        "Elemental primigenio",
+        "jefe opcional",
+        "Ofrenda imperecedera",
+        "Descarga acuática"
+      ],
+      "keywords_en": [
+        "Primeval Elemental",
+        "optional boss",
+        "Undying Offering",
+        "Waterbolt"
+      ],
+      "text_es": "El Elemental primigenio es opcional y está en los túneles acuáticos de los Archivos Profundos. Mata todas las Ofrendas imperecederas de su cámara para activarlo. Descarga acuática golpea al objetivo principal y Congelar agua causa daño de área; controla el aire y sube a respirar si hace falta.",
+      "text_en": "Primeval Elemental is optional and lies in the water tunnels of the Deep Archives. Kill all Undying Offerings in its chamber to activate it. Waterbolt hits the main target and Freeze Water deals area damage; watch your breath and swim up if needed.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Drowned City Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Primeval Elemental",
+          "url": "https://www.wowhead.com/forever/guide/the-drowned-city-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:drowned-city"
+      ],
+      "source_hashes": [
+        "section:6369c26b7be532d4e189c20e34af30230d486699"
+      ]
+    },
+    {
+      "id": "mazmorra-drowned-city-capitan-alzapavor",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Capitán Alzapavor: rompe la burbuja",
+      "title_en": "Captain Dreadrise: Break the Bubble",
+      "summary_es": "Libera al jugador atrapado en la burbuja e interrumpe la salva de agua.",
+      "summary_en": "Free the player trapped in a bubble and interrupt the water volley.",
+      "keywords_es": [
+        "Capitán Alzapavor",
+        "Embrinar",
+        "burbuja abisal",
+        "Salva de descarga acuática"
+      ],
+      "keywords_en": [
+        "Captain Dreadrise",
+        "Embrine",
+        "Abyssal Bubble",
+        "Waterbolt Volley"
+      ],
+      "text_es": "El Capitán Alzapavor atrapa a un jugador aleatorio —también puede ser el tanque— en una Burbuja abisal; destrúyela antes de que se ahogue. Interrumpe Salva de descarga acuática para evitar el daño a todo el grupo. Antes de iniciar el combate, despeja la zona para no atraer patrullas.",
+      "text_en": "Captain Dreadrise traps a random player—including the tank—in an Abyssal Bubble; destroy it before the player drowns. Waterbolt Volley should be interrupted to prevent damage to the whole party. Clear the area before engaging so patrols do not join the fight.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Drowned City Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Captain Dreadrise",
+          "url": "https://www.wowhead.com/forever/guide/the-drowned-city-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:drowned-city"
+      ],
+      "source_hashes": [
+        "section:65f82cd5d092d1471da755e895798254e408e034"
+      ]
+    },
+    {
+      "id": "mazmorra-drowned-city-tuetano-inextinguible",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Tuétano Inextinguible: gestiona las oleadas",
+      "title_en": "Deathless Marrow: Handle the Adds",
+      "summary_es": "Tuétano invoca enemigos sin pausa; elimina a los guardianes que aturden y reparte el daño.",
+      "summary_en": "Marrow summons enemies continuously; kill the stunning guardians and cleave the adds.",
+      "keywords_es": [
+        "Tuétano Inextinguible",
+        "jefe de La Ciudad Sumergida",
+        "Descarga de sangre",
+        "Embate con escudo"
+      ],
+      "keywords_en": [
+        "Deathless Marrow",
+        "Drowned City boss",
+        "Bloodbolt",
+        "Shield Slam"
+      ],
+      "text_es": "Tuétano Inextinguible lanza Descarga de sangre contra todo el grupo e invoca guardianes y hechiceros durante el combate. Prioriza a los guardianes porque su Embate con escudo aturde; después, reparte daño de área sobre los esbirros mientras mantienes el foco en el jefe. Si se acumulan, usa control de masas.",
+      "text_en": "Deathless Marrow casts Bloodbolt on the whole party and summons Deathless Guardians and Sorcerors throughout the fight. Prioritize the guardians because Shield Slam stuns; then cleave the adds while keeping damage on the boss. Use crowd control if they build up.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Drowned City Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Deathless Marrow",
+          "url": "https://www.wowhead.com/forever/guide/the-drowned-city-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:drowned-city"
+      ],
+      "source_hashes": [
+        "section:74a9d1d1d00e083e85a9086cde257d2a68a53a19"
+      ]
+    },
+    {
+      "id": "mazmorra-drowned-city-minloth-serpiente",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Min'loth la Serpiente: dos fases",
+      "title_en": "Min'loth the Serpent: Two Phases",
+      "summary_es": "En su segunda forma, Min'loth envenena a todos y puede provocar miedo.",
+      "summary_en": "In its second form, Min'loth poisons everyone and can cause fear.",
+      "keywords_es": [
+        "Min'loth la Serpiente",
+        "jefe de La Ciudad Sumergida",
+        "Inundación",
+        "Salva de descarga de veneno"
+      ],
+      "keywords_en": [
+        "Min'loth the Serpent",
+        "Drowned City boss",
+        "Deluge",
+        "Poison Bolt Volley"
+      ],
+      "text_es": "Min'loth la Serpiente tiene dos fases: al llegar a cero de salud en forma de trol, cambia a forma de serpiente y recupera toda la salud. En la primera, Empapar golpea al objetivo principal e Inundación causa daño de área canalizado. En la segunda, limpia cuanto antes Salva de descarga de veneno y preparaos para Miedo sobre un objetivo aleatorio.",
+      "text_en": "Min'loth the Serpent has two phases: at zero health in troll form, it changes to serpent form and restores all its health. In phase one, Drench hits the main target and Deluge channels area damage. In phase two, cleanse Poison Bolt Volley quickly and prepare for Fear on a random target.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Drowned City Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Min'loth The Serpent",
+          "url": "https://www.wowhead.com/forever/guide/the-drowned-city-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:drowned-city"
+      ],
+      "source_hashes": [
+        "section:8c06a82e1d3455ba24697c441dad47da876d1615"
+      ]
+    },
+    {
+      "id": "mazmorra-drowned-city-umbra",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Umbra: jefe raro con múrlocs",
+      "title_en": "Umbra: Rare Boss with Murlocs",
+      "summary_es": "Los cinco múrlocs que acompañan a Umbra aplican sangrado; centraos en el jefe primero.",
+      "summary_en": "Umbra's five murloc adds cause bleeding; focus the boss first.",
+      "keywords_es": [
+        "Umbra",
+        "jefe raro de La Ciudad Sumergida",
+        "múrlocs Escamasal",
+        "sangrado"
+      ],
+      "keywords_en": [
+        "Umbra",
+        "Drowned City rare boss",
+        "Saltscale Murlocs",
+        "Bleed"
+      ],
+      "text_es": "Umbra es un jefe poco frecuente que aparece acompañado por cinco múrlocs. Estos pueden aplicar sangrado y causar daño rápido; centra el daño en Umbra para acabar pronto con la amenaza y luego elimina a los múrlocs restantes.",
+      "text_en": "Umbra is a rare boss accompanied by five Saltscale Murlocs. They can apply Bleed and deal rapid damage; focus Umbra to remove the main threat quickly, then finish the remaining murlocs.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Drowned City Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Umbra (Rare)",
+          "url": "https://www.wowhead.com/forever/guide/the-drowned-city-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:drowned-city"
+      ],
+      "source_hashes": [
+        "section:519efb7039ad326fc57979aba72fb51773a63260"
+      ]
+    },
+    {
+      "id": "mazmorra-drowned-city-branquia",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Branquia: cuidado con los enemigos cercanos",
+      "title_en": "Gill: Watch for Nearby Enemies",
+      "summary_es": "Branquia lanza dinamita al objetivo principal; evita atraer a los enemigos de alrededor.",
+      "summary_en": "Gill throws dynamite at the main target; avoid pulling nearby enemies.",
+      "keywords_es": [
+        "Branquia",
+        "jefe raro de La Ciudad Sumergida",
+        "Lanzar dinamita",
+        "Archivos Profundos"
+      ],
+      "keywords_en": [
+        "Gill",
+        "Drowned City rare boss",
+        "Throw Dynamite",
+        "Deep Archives"
+      ],
+      "text_es": "Branquia es un jefe raro del camino hacia el Elemental primigenio, en los Archivos Profundos. Lanza dinamita al objetivo principal; el combate es sencillo si no atraes también a los enemigos cercanos.",
+      "text_en": "Gill is a rare boss on the path to Primeval Elemental in the Deep Archives. It throws dynamite at the main target; the fight is simple as long as nearby enemies are not pulled in too.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Drowned City Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Gill (Rare)",
+          "url": "https://www.wowhead.com/forever/guide/the-drowned-city-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:drowned-city"
+      ],
+      "source_hashes": [
+        "section:2cc94ff15b42b924d23291e1d6ea242d62459e5f"
+      ]
+    },
+    {
+      "id": "mazmorra-kroldok-stronghold-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bastión Krol'dok: nivel y entrada",
+      "title_en": "Krol'dok Stronghold: Level and Entrance",
+      "summary_es": "Nivel 40-45 y enorme; la entrada está al norte de Clarosol, en Riverglades.",
+      "summary_en": "Levels 40-45 and very large; the entrance is north of Sunnyglade in Riverglades.",
+      "keywords_es": [
+        "nivel del Bastión Krol'dok",
+        "entrada del Bastión Krol'dok",
+        "cómo llegar",
+        "mazmorra de Riverglades"
+      ],
+      "keywords_en": [
+        "Krol'dok Stronghold level range",
+        "Krol'dok Stronghold entrance",
+        "how to reach it",
+        "Riverglades dungeon"
+      ],
+      "text_es": "El Bastión Krol'dok se recomienda para niveles 40-45 y es una mazmorra muy extensa. La entrada queda al norte de Clarosol, en Clarofluvial, al este de la entrada cerrada de la ciudad. La Horda puede volar a Rog'Mar o entrar desde las Tierras Inhóspitas si aún no tiene ese punto de vuelo; la Alianza puede volar a Farholde Keep o llegar desde las Montañas Crestagrana.",
+      "text_en": "Krol'dok Stronghold is recommended for levels 40-45 and is a very large dungeon. Its entrance is north of Sunnyglade in Riverglades, east of the capital's closed city entrance. Horde can fly to Rog'Mar or enter from the Badlands if it lacks that flight point; Alliance can fly to Farholde Keep or approach from Redridge Mountains.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Krol'dok Stronghold Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Krol'dok Stronghold Overview in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/kroldok-stronghold-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Krol'dok Stronghold Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Krol'dok Stronghold in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/kroldok-stronghold-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:kroldok-stronghold"
+      ],
+      "source_hashes": [
+        "section:1c4e5d4e528e32746a6f686e0947607c072a074d",
+        "section:a0d66e90ea95f7935ec8709af04c4f4c4f4f15f2"
+      ]
+    },
+    {
+      "id": "mazmorra-kroldok-stronghold-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones recomendables del Bastión Krol'dok",
+      "title_en": "Recommended Krol'dok Stronghold Quests",
+      "summary_es": "La Alianza recoge misiones en Dalaran y Farholde; la Horda, en los alrededores de Krol'dok y Rom'gar.",
+      "summary_en": "Alliance quests start in Dalaran and Farholde; Horde quests start around Krol'dok and Rom'gar.",
+      "keywords_es": [
+        "misiones del Bastión Krol'dok",
+        "La venganza del Altonato",
+        "Recuerdos Crepusculares",
+        "El ojo de Mugg",
+        "misiones de Horda"
+      ],
+      "keywords_en": [
+        "Krol'dok Stronghold quests",
+        "Vengeance of the Highborne",
+        "Twilight Mementos",
+        "Eye of Mugg",
+        "Horde quests"
+      ],
+      "text_es": "La Alianza puede recoger «La venganza del Altonato» con Ranath Zancanoche en Dalaran. En Farholde Keep, «Recuerdos Crepusculares», «El ojo de Mugg» y «El escrito del Crepúsculo» parten de una cadena iniciada con Ashe Salámbar y Demar Brant. Para la Horda, «Una prueba de venganza» empieza con Da'grosh, y «El ojo de Mugg» y «El escrito del Crepúsculo» con Krom'rosh o Tran'gul en Rom'gar; antes hay que avanzar la cadena de Krom'rosh hasta «El guerrero díscolo».",
+      "text_en": "Alliance can pick up Vengeance of the Highborne from Ranath Nightstride in Dalaran. Twilight Mementos, Eye of Mugg, and Tome of Twilight are also available at Farholde Keep, following a chain started with Ashe Amberhall and Demar Brant. For Horde, A Token of Vengeance starts with Da'grosh; Eye of Mugg and Tome of Twilight start with Krom'rosh or Tran'gul in Rom'gar. Advance the chain from Krom'rosh through The Wayward Warrior first.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Krol'dok Stronghold Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/kroldok-stronghold-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:kroldok-stronghold"
+      ],
+      "source_hashes": [
+        "section:11d3b9c255a18580377212ef4390735f8c98c78a"
+      ]
+    },
+    {
+      "id": "mazmorra-kroldok-stronghold-grox",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Machacaesclavos Grox: controla a los prisioneros",
+      "title_en": "Slavecrusher Grox: Control the Prisoners",
+      "summary_es": "Grox recibe ayuda de prisioneros, aumenta su velocidad de ataque y derriba al tanque.",
+      "summary_en": "Grox calls prisoners to help, increases his attack speed, and knocks down the tank.",
+      "keywords_es": [
+        "Machacaesclavos Grox",
+        "jefe del Bastión Krol'dok",
+        "Ansia de sangre",
+        "Sumisión"
+      ],
+      "keywords_en": [
+        "Slavecrusher Grox",
+        "Krol'dok Stronghold boss",
+        "Bloodlust",
+        "Force Compliance"
+      ],
+      "text_es": "Machacaesclavos Grox patrulla las minas y llama a prisioneros cercanos para que se unan al combate. Elimina rápidamente a esos enemigos no élite y luego céntrate en Grox. Ansia de sangre aumenta su velocidad de ataque y Derribo aturde al objetivo principal; despeja una zona antes de iniciar el combate.",
+      "text_en": "Slavecrusher Grox patrols the mines and calls nearby prisoners to join the fight. Quickly kill those non-elite enemies, then focus Grox. Bloodlust increases his attack speed and Knockdown stuns the main target; clear an area before starting the encounter.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Krol'dok Stronghold Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Slavecrusher Grox",
+          "url": "https://www.wowhead.com/forever/guide/kroldok-stronghold-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:kroldok-stronghold"
+      ],
+      "source_hashes": [
+        "section:0d0de74948c6becac873f5131fcd70e9758469df"
+      ]
+    },
+    {
+      "id": "mazmorra-kroldok-stronghold-zarmok",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Comandante Crepuscular Zarmok: evita el remolino",
+      "title_en": "Twilight Commander Zarmok: Avoid the Whirl",
+      "summary_es": "Limpia a los miembros del Martillo Crepuscular; aléjate del remolino de Zarmok.",
+      "summary_en": "Clear Twilight's Hammer members; move away from Zarmok's whirl.",
+      "keywords_es": [
+        "Comandante Crepuscular Zarmok",
+        "Remolino desgarrador",
+        "jefe del Bastión Krol'dok"
+      ],
+      "keywords_en": [
+        "Twilight Commander Zarmok",
+        "Rending Whirl",
+        "Krol'dok Stronghold boss"
+      ],
+      "text_es": "El Comandante Crepuscular Zarmok patrulla rodeado de miembros del Martillo Crepuscular. Despeja a los enemigos cercanos antes de atraerlo para no sumar adds a un combate con mucho daño al grupo. Remolino desgarrador golpea con fuerza a quienes estén a menos de 8 m; Golpear afecta al objetivo principal.",
+      "text_en": "Twilight Commander Zarmok patrols with Twilight's Hammer members around him. Clear the nearby enemies before pulling him to avoid adds during a fight with heavy party-wide damage. Rending Whirl hits players within 8 yards hard; Strike targets the main threat.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Krol'dok Stronghold Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Twilight Commander Zarmok",
+          "url": "https://www.wowhead.com/forever/guide/kroldok-stronghold-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:kroldok-stronghold"
+      ],
+      "source_hashes": [
+        "section:f12c359f45ec702066d52ed804eb4d441394f8af"
+      ]
+    },
+    {
+      "id": "mazmorra-kroldok-stronghold-ashka",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Cuidadora de guerra Ashka: acaba con sus lobos",
+      "title_en": "War Handler Ashka: Kill Her Wolves",
+      "summary_es": "Ashka pelea con dos lobos; elimínalos o atúrdeles antes de centrarte en ella.",
+      "summary_en": "Ashka fights with two wolves; kill or stun them before focusing her.",
+      "keywords_es": [
+        "Cuidadora de guerra Ashka",
+        "Colmillo Gruñente",
+        "Aullaterror",
+        "Orden: ¡matar!"
+      ],
+      "keywords_en": [
+        "War Handler Ashka",
+        "Snarlfang",
+        "Terrorhowl",
+        "Command: Kill"
+      ],
+      "text_es": "La Cuidadora de guerra Ashka está acompañada por Colmillo Gruñente y Aullaterror. Elimina a los lobos primero y usa aturdimientos para facilitarlo; después céntrate en Ashka. Ella golpea al objetivo principal y ordena a sus lobos atacar a un jugador aleatorio durante 10 segundos.",
+      "text_en": "War Handler Ashka is accompanied by Snarlfang and Terrorhowl. Kill the wolves first, using stuns to make it easier, then focus Ashka. She strikes the main target and orders her wolves to attack a random player for 10 seconds.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Krol'dok Stronghold Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › War Handler Ashka",
+          "url": "https://www.wowhead.com/forever/guide/kroldok-stronghold-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:kroldok-stronghold"
+      ],
+      "source_hashes": [
+        "section:13848ad0765d40fa0b4a23bad82558c467c4a16e"
+      ]
+    },
+    {
+      "id": "mazmorra-kroldok-stronghold-nargurk",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Nar'gurk: rompe el control al 50%",
+      "title_en": "Nar'gurk: Break Control at 50%",
+      "summary_es": "Controla a los tres lanzadores; baja al 50% de salud al jugador convertido.",
+      "summary_en": "Control the three casters; reduce a converted player's health to 50%.",
+      "keywords_es": [
+        "Nar'gurk",
+        "Convertir",
+        "Salva de descarga de las Sombras",
+        "jefe del Bastión Krol'dok"
+      ],
+      "keywords_en": [
+        "Nar'gurk",
+        "Convert",
+        "Shadow Bolt Volley",
+        "Krol'dok Stronghold boss"
+      ],
+      "text_es": "Nar'gurk combate con un Tejemaldiciones Pielsombra y dos Brujos Crepusculares; contrólalos o elimínalos primero para reducir el daño. El jefe lanza Salva de descarga de las Sombras al grupo y usa Convertir sobre un jugador. Para romper el control, hay que bajarle la salud al 50%.",
+      "text_en": "Nar'gurk fights with a Shadowhide Curseweaver and two Twilight Warlocks; control or kill them first to reduce damage. The boss casts Shadow Bolt Volley on the party and uses Convert on one player. Reduce that player's health to 50% to break the control.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Krol'dok Stronghold Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Nar'gurk",
+          "url": "https://www.wowhead.com/forever/guide/kroldok-stronghold-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:kroldok-stronghold"
+      ],
+      "source_hashes": [
+        "section:71847921d59c0f3a4fd067f79dbc8210383bb34f"
+      ]
+    },
+    {
+      "id": "mazmorra-kroldok-stronghold-toof",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jefazo Toof: controla a los chamanes",
+      "title_en": "Bossman Toof: Control the Shamans",
+      "summary_es": "Gestiona las oleadas de brutos y controla a los dos chamanes que acompañan a Toof.",
+      "summary_en": "Handle the brute waves and control the two shamans accompanying Toof.",
+      "keywords_es": [
+        "Jefazo Toof",
+        "Bruto Krol'Dok",
+        "Chamán Krol'Dok",
+        "jefe del Bastión Krol'dok"
+      ],
+      "keywords_en": [
+        "Bossman Toof",
+        "Krol'dok Brute",
+        "Krol'dok Shaman",
+        "Krol'dok Stronghold boss"
+      ],
+      "text_es": "El combate de Jefazo Toof empieza con oleadas periódicas de dos Brutos Krol'Dok; antes del jefe hay que superar otro grupo con dos centuriones y un chamán. Al llegar a Toof, controla a los dos Chamanes Krol'Dok que lo acompañan. Sus golpes son Golpe mortal, Trueno y Grito desmoralizador; los adds hacen más peligrosa la reducción de salud de Golpe mortal.",
+      "text_en": "Bossman Toof calls periodic waves of two Krol'dok Brutes; another group of two centurions and a shaman stands before the boss. Crowd-control the two shamans accompanying Toof. His attacks are Mortal Strike, Thunderclap, and Demoralizing Shout; adds make Mortal Strike's health reduction more dangerous.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Krol'dok Stronghold Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Bossman Toof",
+          "url": "https://www.wowhead.com/forever/guide/kroldok-stronghold-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:kroldok-stronghold"
+      ],
+      "source_hashes": [
+        "section:0e865c7e01b08786d4b4b12f3bb5770f441b96bd"
+      ]
+    },
+    {
+      "id": "mazmorra-kroldok-stronghold-mugg",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Señor supremo Mugg: controla a los centuriones",
+      "title_en": "Overlord Mugg: Control the Centurions",
+      "summary_es": "Controla o elimina a los centuriones; Mugg aumenta su velocidad y daño en fases.",
+      "summary_en": "Control or kill the centurions; Mugg gains attack speed and damage in stages.",
+      "keywords_es": [
+        "Señor supremo Mugg",
+        "Embate aplastante",
+        "Furia de Mugg",
+        "Par de grandes mazas"
+      ],
+      "keywords_en": [
+        "Overlord Mugg",
+        "Crushing Slam",
+        "Mugg's Fury",
+        "Set of Mauls"
+      ],
+      "text_es": "El Señor supremo Mugg pelea con dos Centuriones Krol'Dok; contrólalos o elimínalos antes de centrar el daño en el jefe. Embate aplastante salta sobre un jugador y derriba a quienes estén cerca. Durante el combate, Furia de Mugg acumula velocidad de ataque y Mugg cambia de armas; al final, Par de grandes mazas aumenta su daño un 50%.",
+      "text_en": "Overlord Mugg fights with two Krol'dok Centurions; control or kill them before focusing the boss. Crushing Slam jumps to a player and knocks back those nearby. During the fight, Mugg's Fury stacks attack speed and Mugg changes weapons; Set of Mauls at the end increases his damage by 50%.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Krol'dok Stronghold Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Overlord Mugg",
+          "url": "https://www.wowhead.com/forever/guide/kroldok-stronghold-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:kroldok-stronghold"
+      ],
+      "source_hashes": [
+        "section:fce0b1cd801d9129787d4e9a0db0c1f6dcbaad21"
+      ]
+    },
+    {
+      "id": "mazmorra-kroldok-stronghold-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas del Bastión Krol'dok",
+      "title_en": "Krol'dok Stronghold Rewards",
+      "summary_es": "Entre las recompensas de jefe está la Llave de ogro Krol'Dok, de Mugg.",
+      "summary_en": "One notable boss reward is the Krol'dok Ogre Key from Mugg.",
+      "keywords_es": [
+        "recompensas del Bastión Krol'dok",
+        "Llave de ogro Krol'Dok",
+        "botín del Señor supremo Mugg"
+      ],
+      "keywords_en": [
+        "Krol'dok Stronghold rewards",
+        "Krol'dok Ogre Key",
+        "Overlord Mugg loot"
+      ],
+      "text_es": "El Señor supremo Mugg puede dejar la Llave de ogro Krol'Dok. La misión «El ojo de Mugg» también ofrece una elección de recompensa.",
+      "text_en": "Overlord Mugg can drop the Krol'dok Ogre Key. Eye of Mugg also offers a choice of reward.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Krol'dok Stronghold Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Best Quest Rewards",
+          "url": "https://www.wowhead.com/forever/guide/kroldok-stronghold-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Krol'dok Stronghold Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Krol'dok Stronghold Loot",
+          "url": "https://www.wowhead.com/forever/guide/kroldok-stronghold-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:kroldok-stronghold"
+      ],
+      "source_hashes": [
+        "section:e356748bf8ff5e2944176f8e1dba23680caf4fcc",
+        "section:eda548b3c6b4fa0208067852e31d7f7dfdb39e39"
+      ]
+    },
+    {
+      "id": "mazmorra-temple-of-atalhakkar-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "El Templo de Atal'Hakkar: nivel y entrada",
+      "title_en": "Temple of Atal'Hakkar: Level and Entrance",
+      "summary_es": "Nivel 50-55, semisumergido en el Pantano de las Penas; se llega nadando desde ambas facciones.",
+      "summary_en": "Levels 50-55, partly submerged in the Swamp of Sorrows; both factions swim to it.",
+      "keywords_es": [
+        "nivel del Templo de Atal'Hakkar",
+        "entrada del Templo de Atal'Hakkar",
+        "Templo Sumergido",
+        "cómo llegar al templo"
+      ],
+      "keywords_en": [
+        "Temple of Atal'Hakkar level",
+        "Temple of Atal'Hakkar entrance",
+        "Sunken Temple",
+        "how to reach the temple"
+      ],
+      "text_es": "El Templo de Atal'Hakkar se recomienda para niveles 50-55 y también se conoce como Templo Sumergido. Está semisumergido en un lago del Pantano de las Penas; la entrada mira al sur y se alcanza por una escalera. La Alianza puede partir del Bastión de Nethergarde y la Horda volar a Rocal; ambos grupos cruzan el lago a nado.",
+      "text_en": "Temple of Atal'Hakkar is recommended for levels 50-55 and is also known as Sunken Temple. It is partly submerged in a central lake in the Swamp of Sorrows; its south-facing entrance is reached by climbing stairs. Alliance can start from Nethergarde Keep and Horde can fly to Stonard; both factions swim across the lake.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Temple of Atal'Hakkar Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Temple of Atal'Hakkar in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:temple-of-atalhakkar"
+      ],
+      "source_hashes": [
+        "section:46d0b507fb6a693a77587cebec94411874318922",
+        "section:76d7d6b05a551320e47112bd2404d8376261aac6"
+      ]
+    },
+    {
+      "id": "mazmorra-temple-of-atalhakkar-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones recomendables del Templo de Atal'Hakkar",
+      "title_en": "Recommended Temple of Atal'Hakkar Quests",
+      "summary_es": "Prepara las misiones de facción, El secreto del círculo y la cadena que permite invocar al Avatar de Hakkar.",
+      "summary_en": "Prepare faction quests, Secret of the Circle, and the chain that summons Avatar of Hakkar.",
+      "keywords_es": [
+        "misiones del Templo de Atal'Hakkar",
+        "En El Templo de Atal'Hakkar",
+        "El secreto del círculo",
+        "El dios Hakkar",
+        "El profeta Jammal'an"
+      ],
+      "keywords_en": [
+        "Temple of Atal'Hakkar quests",
+        "Into the Temple of Atal'Hakkar",
+        "Secret of the Circle",
+        "The God Hakkar",
+        "Jammal'an the Prophet"
+      ],
+      "text_es": "Alianza: «En El Templo de Atal'Hakkar» empieza con Brohann Barriliga en Ventormenta y requiere «En búsqueda del templo». Horda: «El Templo de Atal'Hakkar» empieza con Fel'zerul en el Pantano de las Penas, tras «Charca de Lágrimas». «El secreto del círculo» empieza con Marvon Buscarroblones en Tanaris, tras «El Templo Sumergido». Para invocar al Avatar de Hakkar, alguien debe completar «Los espíritus de los estriadores», «La profecía de Mosh'aru», «El huevo antiguo» y «El dios Hakkar», de Yeh'kinya en Tanaris. «El profeta Jammal'an» se recoge con el Exiliado Atal'ai en Tierras del Interior.",
+      "text_en": "Alliance: Into the Temple of Atal'Hakkar starts with Brohann Caskbelly in Stormwind and requires In Search of the Temple. Horde: The Temple of Atal'Hakkar starts with Fel'zerul in the Swamp of Sorrows, after Pool of Tears. Secret of the Circle starts with Marvon Rivetseeker in Tanaris, after The Sunken Temple. To summon Avatar of Hakkar, someone must complete Screecher Spirits, The Prophecy of Mosh'aru, The Ancient Egg, and The God Hakkar from Yeh'kinya in Tanaris. Jammal'an the Prophet starts with the Atal'ai Exile in the Hinterlands.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Every Quest in Temple of Atal'Hakkar in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:temple-of-atalhakkar"
+      ],
+      "source_hashes": [
+        "section:8c4c10803b61c54a6bb60234cfe5131472f74e86",
+        "section:f2b07ad21182dca3880eb65a416169589f287c2e"
+      ]
+    },
+    {
+      "id": "mazmorra-temple-of-atalhakkar-atalalarion",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Atal'alarion: activa las seis capillas",
+      "title_en": "Atal'alarion: Activate the Six Shrines",
+      "summary_es": "Activa las capillas en orden para invocar a Atal'alarion; el jefe despeja amenaza y lanza por el aire.",
+      "summary_en": "Activate the shrines in order to summon Atal'alarion; the boss wipes threat and launches players.",
+      "keywords_es": [
+        "Atal'alarion",
+        "activación de las capillas",
+        "capillas de Atal'ai",
+        "Mamporro de barrido"
+      ],
+      "keywords_en": [
+        "Atal'alarion",
+        "Pit of Refuse",
+        "Atal'ai Shrines",
+        "Sweeping Slam"
+      ],
+      "text_es": "Para invocar a Atal'alarion, activa las seis capillas en este orden: sur, norte, suroeste, sureste, noroeste y noreste; una capilla incorrecta maldice al jugador que la activa. Atal'alarion puede borrar su amenaza y lanzar a los jugadores por el aire, que reciben daño al caer. Lleva al jefe junto a una pared y mantén a sanadores y atacantes a distancia alejados.",
+      "text_en": "To summon Atal'alarion, activate the six shrines in this order: south, north, southwest, southeast, northwest, northeast; an incorrect shrine curses the player who clicks it. Atal'alarion can clear threat and launch players into the air, causing fall damage. Tank the boss near a wall and keep healers and ranged players at a distance.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Atal’alrion <Guardian of the Idol>",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:temple-of-atalhakkar"
+      ],
+      "source_hashes": [
+        "section:b58dcdd7643d2ca26345b474e5a8239e8edac631"
+      ]
+    },
+    {
+      "id": "mazmorra-temple-of-atalhakkar-defensores",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Loh'ro, Gasher, Mijan, Zolo, Zul'Lor y Hukku",
+      "title_en": "Loro, Gasher, Mijan, Zolo, Zul'Lor, and Hukku",
+      "summary_es": "Los seis defensores Atal'ai desbloquean el paso a Jammal'an y cada uno tiene una habilidad distinta.",
+      "summary_en": "The six Atal'ai Defenders open the way to Jammal'an and each has a distinct ability.",
+      "keywords_es": [
+        "defensores Atal'ai",
+        "Loh'ro",
+        "Gasher",
+        "Mijan",
+        "Zolo",
+        "Zul'Lor",
+        "Hukku"
+      ],
+      "keywords_en": [
+        "Atal'ai Defenders",
+        "Loro",
+        "Gasher",
+        "Mijan",
+        "Zolo",
+        "Zul'Lor",
+        "Hukku"
+      ],
+      "text_es": "Los seis Defensores Atal'ai deben caer para abrir el camino a Jammal'an. Loh'ro usa Punta de escudo; Gasher, Doble empuñadura; Mijan, Resguardo de sanación superior; Zolo, Cadena de relámpagos; Zul'Lor, Endeblez; Hukku, Descarga de las Sombras e invocaciones de demonios. Los combates son breves si el grupo está preparado.",
+      "text_en": "The six Atal'ai Defenders must fall to open the way to Jammal'an. Loro uses Shield Spike; Gasher uses two weapons; Mijan, Greater Healing Ward; Zolo, Chain Lightning; Zul'Lor, Frailty; and Hukku, Shadow Bolt and demon summons. The fights are short if the group is prepared.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Atal'ai Defenders",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Loro",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Gasher",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Mijan",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Zolo",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Zul'lor",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Hukku",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:temple-of-atalhakkar"
+      ],
+      "source_hashes": [
+        "section:22ee8cdefdbfce598f41fdbafc70ac752eb6032b",
+        "section:3f1bfdde9604119b387634878e9e580cbe11117d",
+        "section:4b7e5be3862c3217eebdc185bdc983f0266fd458",
+        "section:ba995aabc1c0255c9b5085b0b3ae42818864fc78",
+        "section:c4e9d0e9642f950b243626ec6b52010493076db3",
+        "section:c90439060c863a856ae383d0fe2ebaf0b85e16a7",
+        "section:f9c5e8106c595cfdb4a7a54e840cd91171d2ebe8"
+      ]
+    },
+    {
+      "id": "mazmorra-temple-of-atalhakkar-jammalan-ogom",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jammal'an y Ogom el Desdichado: sepáralos",
+      "title_en": "Jammal'an and Ogom the Wretched: Split Them",
+      "summary_es": "Derrota pronto a Ogom y dispersa al grupo ante el maleficio de Jammal'an.",
+      "summary_en": "Kill Ogom quickly and spread out for Jammal'an's hex.",
+      "keywords_es": [
+        "Jammal'an el Profeta",
+        "Ogom el Desdichado",
+        "Maleficio de Jammal'an",
+        "Templo de Atal'Hakkar"
+      ],
+      "keywords_en": [
+        "Jammal'an the Prophet",
+        "Ogom the Wretched",
+        "Hex of Jammal'an",
+        "Temple of Atal'Hakkar"
+      ],
+      "text_es": "Jammal'an el Profeta lucha junto a Ogom el Desdichado, que tiene menos salud: sepáralo y acaba con él primero. Dispersa al grupo cuando Jammal'an lance Maleficio de Jammal'an, que transforma a un jugador en un guerrero Atal'ai hostil. Evita sus golpes y concentra el daño en Jammal'an cuando termine el efecto.",
+      "text_en": "Jammal'an the Prophet fights with Ogom the Wretched, who has less health: separate and kill him first. Spread out when Jammal'an casts Hex of Jammal'an, which turns a player into a hostile Atal'ai Berserker. Avoid its attacks and focus Jammal'an when the effect ends.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Jammal'an the Prophet & Ogom the Wretched",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:temple-of-atalhakkar"
+      ],
+      "source_hashes": [
+        "section:cc2574b2cb1298ac4f3fc7629c95f23f1df45260"
+      ]
+    },
+    {
+      "id": "mazmorra-temple-of-atalhakkar-weaver-dreamscythe",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Sastrón y Guadañasueños: evita el cono",
+      "title_en": "Weaver and Dreamscythe: Avoid Their Cone",
+      "summary_es": "Los dracos atacan en cono y empujan; tanquéalos de espaldas a una pared.",
+      "summary_en": "The drakes use a cone and knockback; tank them with backs to a wall.",
+      "keywords_es": [
+        "Sastrón",
+        "Guadañasueños",
+        "dracos del Templo de Atal'Hakkar",
+        "Garganta ácida",
+        "Aleteo"
+      ],
+      "keywords_en": [
+        "Weaver",
+        "Dreamscythe",
+        "Temple of Atal'Hakkar drakes",
+        "Acid Breath",
+        "Wing Flap"
+      ],
+      "text_es": "Sastrón y Guadañasueños aparecen en el Pozo del Sacrificio después de derrotar a Jammal'an. Sus ataques de cono frontal y empuje pueden sacar al grupo de posición; el tanque debe colocarlos de espaldas a una pared y orientarlos lejos del resto.",
+      "text_en": "Weaver and Dreamscythe spawn in the Pit of Sacrifice after Jammal'an is defeated. Their frontal cone and knockback can displace the party; the tank should place them with their backs to a wall and facing away from everyone else.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Weaver and Dreamscythe",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:temple-of-atalhakkar"
+      ],
+      "source_hashes": [
+        "section:d51ff29473d94137da90a52a7c39270097c7487f"
+      ]
+    },
+    {
+      "id": "mazmorra-temple-of-atalhakkar-hazzas-morphaz",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Hazzas y Morphaz: evita atraer a los dos",
+      "title_en": "Hazzas and Morphaz: Avoid Pulling Both",
+      "summary_es": "Hazzas y Morphaz comparten los ataques de los dracos; no los atraigas junto con los enemigos cercanos.",
+      "summary_en": "Hazzas and Morphaz share the drake attacks; avoid pulling them with nearby enemies.",
+      "keywords_es": [
+        "Hazzas",
+        "Morphaz",
+        "jefes del Templo de Atal'Hakkar",
+        "Garganta ácida",
+        "Aleteo"
+      ],
+      "keywords_en": [
+        "Hazzas",
+        "Morphaz",
+        "Temple of Atal'Hakkar bosses",
+        "Acid Breath",
+        "Wing Flap"
+      ],
+      "text_es": "Hazzas y Morphaz aparecen en el pasillo próximo a la Cámara del Soñador tras derrotar a Sastrón y Guadañasueños. Aplica la misma táctica contra los ataques de cono y empuje de los dracos: evita los enemigos cercanos y procura no atraer a ambos a la vez.",
+      "text_en": "Hazzas and Morphaz spawn in the hallway near the Chamber of the Dreamer after Weaver and Dreamscythe are defeated. Use the same approach to the drakes' cone and knockback attacks: avoid nearby enemies and try not to pull both at once.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Hazzas and Morphaz",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:temple-of-atalhakkar"
+      ],
+      "source_hashes": [
+        "section:ef3aa4c6366908ebd75ca92ade4273a38245c16e"
+      ]
+    },
+    {
+      "id": "mazmorra-temple-of-atalhakkar-sombra-eranikus",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Sombra de Eranikus: despeja los dragones",
+      "title_en": "Shade of Eranikus: Clear the Dragonkin",
+      "summary_es": "Sombra de Eranikus atrae a los dragones que queden; aléjate de Pisotón de guerra y evita su frente.",
+      "summary_en": "Shade of Eranikus calls remaining dragonkin; avoid War Stomp and stay out of its front.",
+      "keywords_es": [
+        "Sombra de Eranikus",
+        "jefe final del Templo de Atal'Hakkar",
+        "Pisotón de guerra",
+        "Somnolencia profunda"
+      ],
+      "keywords_en": [
+        "Shade of Eranikus",
+        "Temple of Atal'Hakkar final boss",
+        "War Stomp",
+        "Deep Slumber"
+      ],
+      "text_es": "Antes de atacar a la Sombra de Eranikus, limpia los enemigos dragonantes que queden: el jefe los invoca durante el combate. Los atacantes a distancia deben mantenerse fuera del alcance de Pisotón de guerra; el cuerpo a cuerpo no debe colocarse delante. Somnolencia profunda afecta al objetivo con más amenaza, así que controla quién mantiene el aggro.",
+      "text_en": "Before engaging Shade of Eranikus, clear any remaining dragonkin; the boss summons them during the fight. Ranged players should stay beyond War Stomp range, and melee should not stand in front. Deep Slumber affects the highest-threat target, so manage who holds aggro.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Shade of Eranikus",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:temple-of-atalhakkar"
+      ],
+      "source_hashes": [
+        "section:3dfd4de967b78d3a65f17df8599541597028a2e6"
+      ]
+    },
+    {
+      "id": "mazmorra-temple-of-atalhakkar-avatar-hakkar",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Avatar de Hakkar: apaga los braseros",
+      "title_en": "Avatar of Hakkar: Extinguish the Braziers",
+      "summary_es": "Reúne sangre Hakkari para apagar los cuatro braseros y controla al jugador afectado por locura.",
+      "summary_en": "Collect Hakkari Blood to extinguish all four braziers and control the player hit by insanity.",
+      "keywords_es": [
+        "Avatar de Hakkar",
+        "El dios Hakkar",
+        "Vigilasangre Hakkari",
+        "Provocar locura"
+      ],
+      "keywords_en": [
+        "Avatar of Hakkar",
+        "The God Hakkar",
+        "Hakkari Bloodkeeper",
+        "Cause Insanity"
+      ],
+      "text_es": "Para invocar al Avatar de Hakkar, alguien del grupo necesita el Huevo de Hakkar de «El dios Hakkar» o el Pergamino de Yeh'kinya tras completar esa misión. Elimina enemigos hasta que aparezca un Vigilasangre Hakkari, recoge la Sangre Hakkari y úsala para apagar los cuatro braseros. Durante el combate, aturde o controla al jugador afectado por Provocar locura y usa Disipar sombra contra Palabra de las Sombras: Dolor si es posible.",
+      "text_en": "To summon Avatar of Hakkar, someone in the group needs the Egg of Hakkar from The God Hakkar or Yeh'kinya's Scroll after completing that quest. Kill enemies until a Hakkari Bloodkeeper appears, loot Hakkari Blood, and use it to extinguish the four braziers. During the fight, stun or control the player hit by Cause Insanity and dispel Shadow Word: Pain if possible.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Avatar of Hakkar",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:temple-of-atalhakkar"
+      ],
+      "source_hashes": [
+        "section:7e1e5e4cdb13735f74f4839cfe2bb71c7728eb8a"
+      ]
+    },
+    {
+      "id": "mazmorra-temple-of-atalhakkar-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas del Templo de Atal'Hakkar",
+      "title_en": "Temple of Atal'Hakkar Rewards",
+      "summary_es": "Las misiones dan objetos como Esencia encadenada de Eranikus; destacan la Piedra draco y Llamada de dragón.",
+      "summary_en": "Quests offer items such as Chained Essence of Eranikus; Drakestone and Dragon's Call stand out.",
+      "keywords_es": [
+        "recompensas del Templo de Atal'Hakkar",
+        "Esencia encadenada de Eranikus",
+        "Piedra draco",
+        "Llamada de dragón",
+        "Yelmo de Exilio"
+      ],
+      "keywords_en": [
+        "Temple of Atal'Hakkar rewards",
+        "Chained Essence of Eranikus",
+        "Drakestone",
+        "Dragon's Call",
+        "Helm of Exile"
+      ],
+      "text_es": "Entre las recompensas de misión destacadas están el Yelmo de Exilio, el Yelmo de guardia vengador y la Esencia encadenada de Eranikus. Entre el botín de los jefes destacan la Piedra draco, Llamada de dragón y Diente de Eranikus.",
+      "text_en": "Notable quest rewards include Helm of Exile, Avenguard Helm, and Chained Essence of Eranikus. Notable boss drops include Drakestone, Dragon's Call, and Tooth of Eranikus.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Best Quest Rewards",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Every Quest in Temple of Atal'Hakkar in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Temple of Atal'Hakkar Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Temple of Atal'Hakkar Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/the-temple-of-atalhakkar-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:temple-of-atalhakkar"
+      ],
+      "source_hashes": [
+        "section:78d89cb3980ab6e948f7af9f8f113afc4724a46b",
+        "section:8c4c10803b61c54a6bb60234cfe5131472f74e86",
+        "section:c630709b91d4de90e685cbc01e1732f5c5c9fed9"
+      ]
     }
   ]
 }
