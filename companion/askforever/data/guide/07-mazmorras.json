@@ -3174,38 +3174,43 @@
       "status": "editorial",
       "title_es": "Monasterio Escarlata: Cementerio",
       "title_en": "Scarlet Monastery: Graveyard",
-      "summary_es": "Ala 30-38 en Claros de Tirisfal, sin llave; dos misiones de Horda y tres jefes raros.",
-      "summary_en": "Level 30-38 wing in Tirisfal Glades, no key; two Horde quests and three rare bosses.",
+      "summary_es": "Nivel 26-36; portal izquierdo sin llave. La Horda llega desde Entrañas; la Alianza cruza desde Laderas de Trabalomas.",
+      "summary_en": "Level 26-36; left portal, no key. Horde comes from Undercity; Alliance crosses from Hillsbrad Foothills.",
       "keywords_es": [
-        "monasterio escarlata cementerio",
-        "scarlet monastery graveyard",
-        "cómo llegar al monasterio escarlata",
-        "monasterio escarlata jefes",
-        "bloodmage thalnos"
+        "cementerio del monasterio escarlata",
+        "nivel del cementerio escarlata",
+        "entrada del cementerio escarlata",
+        "cómo llegar al monasterio escarlata"
       ],
       "keywords_en": [
         "scarlet monastery graveyard",
-        "scarlet monastery entrance",
-        "scarlet monastery bosses",
-        "bloodmage thalnos",
-        "scarlet monastery quests"
+        "graveyard level range",
+        "graveyard entrance",
+        "how to reach scarlet monastery"
       ],
-      "text_es": "El Cementerio es la primera ala del Monasterio Escarlata, de nivel 30-38, en Claros de Tirisfal, al noreste. Es la entrada de la izquierda y no pide la Llave Escarlata. Sus dos misiones son de Horda. Vishas es sencillo; los raros Azshir, Campeón caído e Ironspine añaden miedo, golpe en abanico o veneno; Thalnos lanza dos áreas de fuego y una Descarga de las Sombras que se interrumpe. Limpia la zona antes de tirar a los raros y lleva un sanador atento.",
-      "text_en": "The Graveyard is the first Scarlet Monastery wing, level 30-38, in Tirisfal Glades to the northeast. It is the left entrance and does not require the Scarlet Key. Its two quests are Horde-only. Vishas is simple; the rares Azshir, Fallen Champion, and Ironspine add fear, cleave, or poison; Thalnos casts two fire areas and a Shadow bolt that can be interrupted. Clear the area before pulling rares and bring an attentive healer.",
+      "text_es": "El Cementerio es el ala más sencilla del Monasterio Escarlata, recomendada para niveles 26-36 y poblada sobre todo por no-muertos. Su portal está a la izquierda del salón central y no requiere llave. La Horda puede partir de Entrañas; la Alianza puede llegar desde Laderas de Trabalomas, cruzando a nado el lago hasta Tirisfal y siguiendo hacia el este y luego al noreste.",
+      "text_en": "The Graveyard is the easiest Scarlet Monastery wing, recommended for levels 26-36 and populated mostly by undead. Its portal is to the left of the central hall and requires no key. Horde can start from Undercity; Alliance can travel from Hillsbrad Foothills, swim across the lake to Tirisfal, then head east and northeast.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Scarlet Monastery - Graveyard Dungeon Guide › Scarlet Monastery: Graveyard Dungeon Entrance and Basics",
-          "url": "https://www.icy-veins.com/wow-forever/scarlet-monastery-graveyard-guide",
-          "date": "2026-10-18"
+          "ref": "Wowhead: Scarlet Monastery: Graveyard Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Scarlet Monastery Graveyard Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-graveyard-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Graveyard Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of the Scarlet Monastery in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-graveyard-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "dungeon:scarlet-monastery-graveyard"
       ],
       "source_hashes": [
-        "section:b8fcaaee44a6af56564b637893f88dd3da149db7"
+        "section:59264f2466bc3dd6c9e28157eb896c8cb9678939",
+        "section:dae0ecb060f5076b5d976b0ea4e70cc4c099e27a"
       ]
     },
     {
@@ -3214,38 +3219,153 @@
       "status": "editorial",
       "title_es": "Misiones del Cementerio Escarlata",
       "title_en": "Scarlet Monastery Graveyard Quests",
-      "summary_es": "Dos misiones de Horda: Corazones de fervor en Entrañas y La venganza de Vorrel dentro.",
-      "summary_en": "Two Horde quests: Hearts of Zeal in Undercity and Vorrel's Revenge inside.",
+      "summary_es": "Prepara Corazones de fervor y La venganza de Vorrel; también hay cadenas que abarcan varias alas.",
+      "summary_en": "Prepare Hearts of Zeal and Vorrel’s Revenge; other quest chains span several wings.",
       "keywords_es": [
         "misiones del cementerio escarlata",
-        "corazones de fervor",
-        "la venganza de vorrel",
-        "misiones horda monasterio",
-        "vorrel sengutz"
+        "Corazones de fervor",
+        "La venganza de Vorrel",
+        "En el nombre de la Luz",
+        "misiones Horda y Alianza"
       ],
       "keywords_en": [
         "scarlet monastery graveyard quests",
-        "hearts of zeal",
-        "vorrel's revenge",
-        "horde scarlet monastery",
-        "vorrel sengutz"
+        "Hearts of Zeal",
+        "Vorrel’s Revenge",
+        "In the Name of the Light",
+        "Horde and Alliance quests"
       ],
-      "text_es": "El Cementerio tiene dos misiones, ambas de Horda. Corazones de fervor empieza en Entrañas con el Maestro boticario Faranell y es la continuación de Guano del Horado, de Horado Rajacieno. La venganza de Vorrel empieza dentro con Vorrel Sengutz, al que tortura Vishas; el anillo que pide está en una casa de Montañas de Alterac, frente al lago Lordamere, y Nancy Vishas es élite. No hay misiones de Alianza en esta ala.",
-      "text_en": "The Graveyard has two quests, both Horde. Hearts of Zeal starts in Undercity with Master Apothecary Faranell and follows Going, Going, Guano! from Razorfen Kraul. Vorrel's Revenge starts inside with Vorrel Sengutz, tortured by Vishas; the ring it needs is in a house in the Alterac Mountains overlooking Lordamere Lake, and Nancy Vishas is elite. There are no Alliance quests in this wing.",
+      "text_es": "De Horda, En el Monasterio Escarlata se recoge con Varimathras en Entrañas y abarca objetivos de varias alas. La venganza de Vorrel empieza dentro del Cementerio y continúa en Montañas de Alterac. Corazones de fervor se obtiene con el Maestro boticario Faranell en Entrañas, tras Guano del Horado en Horado Rajacieno. La Alianza puede preparar En el nombre de la Luz con Raleigh el Devoto en Laderas de Trabalomas; la cadena empieza con Hermano Antón.",
+      "text_en": "Available to Horde characters, Into the Scarlet Monastery starts with Varimathras in Undercity and spans several wings. Vorrel’s Revenge begins inside the Graveyard and continues in the Alterac Mountains. Hearts of Zeal is picked up from Master Apothecary Faranell in Undercity, after Going, Going, Guano! in Razorfen Kraul. Alliance can prepare In the Name of the Light with Raleigh the Devout in Hillsbrad Foothills; its chain starts with Brother Anton.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: All Available Quests for Scarlet Monastery - Graveyard › Scarlet Monastery - Graveyard Dungeon Quests",
-          "url": "https://www.icy-veins.com/wow-forever/scarlet-monastery-graveyard-quests",
-          "date": "2026-09-30"
+          "ref": "Wowhead: Scarlet Monastery: Graveyard Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-graveyard-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Graveyard Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Every Quest in Scarlet Monastery Graveyard in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-graveyard-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "dungeon:_all:quests"
+        "dungeon:scarlet-monastery-graveyard"
       ],
       "source_hashes": [
-        "section:4daca165d5b097ced37e3ac7153bf3133ed8f365"
+        "section:95cb9b04998f6fa0362a6b8e6f3e97ccb2f30c91",
+        "section:ba3bd1debf2d4e9791e95b182de28f34a0596898"
+      ]
+    },
+    {
+      "id": "mazmorra-scarlet-graveyard-jefes",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jefes del Cementerio Escarlata",
+      "title_en": "Scarlet Monastery Graveyard Bosses",
+      "summary_es": "Vigila las áreas de fuego de Thalnos, el miedo de Azshir y el veneno de Dorsacerado.",
+      "summary_en": "Watch Thalnos’s fire areas, Azshir’s fear, and Ironspine’s poison.",
+      "keywords_es": [
+        "jefes del cementerio escarlata",
+        "estrategia Interrogador Vishas",
+        "Mago sangriento Thalnos",
+        "Azshir el Insomne",
+        "Dorsacerado"
+      ],
+      "keywords_en": [
+        "scarlet monastery graveyard bosses",
+        "Interrogator Vishas strategy",
+        "Bloodmage Thalnos",
+        "Azshir the Sleepless",
+        "Ironspine"
+      ],
+      "text_es": "Interrogador Vishas usa Inmolar; evita atraer enemigos adicionales. Mago sangriento Thalnos inflige mucho daño mágico y lanza áreas de fuego, así que los atacantes a distancia deben separarse y hay que vigilar al tanque y al cuerpo a cuerpo. Azshir el Insomne puede provocar miedo: despeja la zona antes de combatirlo. Campeón caído usa Mellar; los DPS deben colocarse detrás. Dorsacerado lanza Nube de veneno, por lo que el sanador debe vigilar la salud del grupo.",
+      "text_en": "Interrogator Vishas uses Immolate; avoid pulling extra enemies. Bloodmage Thalnos deals heavy magic damage and casts fire areas, so ranged players should spread out and the tank and melee need attention. Azshir the Sleepless can fear the group, so clear the area before engaging. Fallen Champion uses Cleave; DPS should stand behind him. Ironspine casts Poison Cloud, so the healer should watch the party’s health.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Graveyard Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Interrogator Vishas",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-graveyard-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Graveyard Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Bloodmage Thalnos",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-graveyard-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Graveyard Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Azshir the Sleepless",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-graveyard-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Graveyard Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Fallen Champion",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-graveyard-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Graveyard Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Ironspine",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-graveyard-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scarlet-monastery-graveyard"
+      ],
+      "source_hashes": [
+        "section:1f2e7e43f663a898b6fe941830d271f76fdbd701",
+        "section:37876a7d7aa1f924b484ced7b4b6cecc082d2629",
+        "section:58e1fe59aa4c2c4cbd17660fc7c01acb4d6414e8",
+        "section:c2f022d5dd9dbbc7b6894595b66af0c29670bfd3",
+        "section:d5f654a7cec95589245b06c6144b5865c638e701"
+      ]
+    },
+    {
+      "id": "mazmorra-scarlet-graveyard-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas del Cementerio Escarlata",
+      "title_en": "Scarlet Monastery Graveyard Rewards",
+      "summary_es": "Destacan los Nudillos de latón sangrientos, el Manto de mago de sangre y el Orbe del profeta olvidado.",
+      "summary_en": "Notable items include Bloody Brass Knuckles, Bloodmage Mantle, and Orb of the Forgotten Seer.",
+      "keywords_es": [
+        "recompensas del cementerio escarlata",
+        "Nudillos de latón sangrientos",
+        "Atizador de tortura",
+        "Manto de mago de sangre",
+        "Orbe del profeta olvidado"
+      ],
+      "keywords_en": [
+        "scarlet monastery graveyard rewards",
+        "Bloody Brass Knuckles",
+        "Torturing Poker",
+        "Bloodmage Mantle",
+        "Orb of the Forgotten Seer"
+      ],
+      "text_es": "Interrogador Vishas puede dejar los Nudillos de latón sangrientos o el Atizador de tortura. De Mago sangriento Thalnos destacan el Manto de mago de sangre y el Orbe del profeta olvidado.",
+      "text_en": "Interrogator Vishas can drop Bloody Brass Knuckles or Torturing Poker. Notable drops from Bloodmage Thalnos include Bloodmage Mantle and Orb of the Forgotten Seer.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Graveyard Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Scarlet Monastery Graveyard Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-graveyard-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scarlet-monastery-graveyard"
+      ],
+      "source_hashes": [
+        "section:1a7c76e1e6c1b71126d677da9f312fd364457087"
       ]
     },
     {
@@ -3254,38 +3374,43 @@
       "status": "editorial",
       "title_es": "Monasterio Escarlata: Biblioteca",
       "title_en": "Scarlet Monastery: Library",
-      "summary_es": "Ala 33-41 en Claros de Tirisfal; no pide llave y aquí sale la Llave Escarlata; Doan es el jefe final.",
-      "summary_en": "Level 33-41 wing in Tirisfal Glades; no key needed and the Scarlet Key drops here; Doan is the final boss.",
+      "summary_es": "Nivel 29-39; portal derecho sin llave. La Horda llega desde Entrañas y la Alianza desde Laderas de Trabalomas.",
+      "summary_en": "Level 29-39; right portal, no key. Horde comes from Undercity and Alliance from Hillsbrad Foothills.",
       "keywords_es": [
-        "monasterio escarlata biblioteca",
-        "scarlet monastery library",
-        "cómo llegar a la biblioteca escarlata",
-        "arcanist doan",
-        "llave escarlata"
+        "biblioteca del monasterio escarlata",
+        "nivel de la biblioteca escarlata",
+        "entrada de la biblioteca escarlata",
+        "llave Escarlata"
       ],
       "keywords_en": [
         "scarlet monastery library",
-        "scarlet monastery library entrance",
-        "arcanist doan",
-        "scarlet key",
-        "scarlet monastery quests"
+        "library level range",
+        "library entrance",
+        "Scarlet Key"
       ],
-      "text_es": "La Biblioteca es la segunda ala del Monasterio Escarlata, de nivel 33-41, en Claros de Tirisfal, al noreste. Es la entrada de la derecha y no pide la Llave Escarlata: de hecho, la llave sale del cofre detrás de Doan. Tiene tres misiones de Alianza y cuatro de Horda. Loksey trae tres sabuesos que hay que matar primero; Doan es caster: tanque en el centro, ranged en los bordes, huye de Detonación y disipa polimorfia y silencio. Un sanador con disipación mágica ayuda.",
-      "text_en": "The Library is the second Scarlet Monastery wing, level 33-41, in Tirisfal Glades to the northeast. It is the right entrance and does not require the Scarlet Key: the key drops from the chest behind Doan. It has three Alliance quests and four Horde. Loksey brings three hounds that must die first; Doan is a caster: tank in the center, ranged at the edges, run from Detonation, and dispel polymorph and silence. A healer with magic dispels helps.",
+      "text_es": "La Biblioteca es el ala de nivel 29-39 del Monasterio Escarlata. Su portal está a la derecha del salón central y no requiere llave; la Llave Escarlata se obtiene aquí, en la caja fuerte cercana a Arcanista Doan, y abre las alas de la Armería y la Catedral. Arcanista Doan es el jefe final. La Horda puede partir de Entrañas; la Alianza puede cruzar desde Laderas de Trabalomas hasta Tirisfal y seguir hacia el este y el noreste.",
+      "text_en": "The Library is the level 29-39 wing of Scarlet Monastery. Its portal is to the right of the central hall and requires no key; the Scarlet Key is obtained here, from the strongbox near Arcanist Doan, and opens the Armory and Cathedral wings. Arcanist Doan is the final boss. Horde can start from Undercity; Alliance can cross from Hillsbrad Foothills to Tirisfal, then head east and northeast.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Scarlet Monastery - Library Dungeon Guide › Scarlet Monastery: Library Dungeon Entrance and Basics",
-          "url": "https://www.icy-veins.com/wow-forever/scarlet-monastery-library-guide",
-          "date": "2026-10-18"
+          "ref": "Wowhead: Scarlet Monastery: Library Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Scarlet Monastery Library Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-library-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Library Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of the Scarlet Monastery in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-library-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "dungeon:scarlet-monastery-library"
       ],
       "source_hashes": [
-        "section:3e863a27c7c9eff614079a602427e05968dc18b1"
+        "section:791f532bd0f04c79d4b3187d940c16353b98158b",
+        "section:d9cce8b7e8af1b9afa782e8db99bc69687dd339a"
       ]
     },
     {
@@ -3294,38 +3419,130 @@
       "status": "editorial",
       "title_es": "Misiones de la Biblioteca Escarlata",
       "title_en": "Scarlet Monastery Library Quests",
-      "summary_es": "Siete misiones, tres de Alianza y cuatro de Horda; varias empiezan en Forjaz, Entrañas y Cima del Trueno.",
-      "summary_en": "Seven quests, three Alliance and four Horde; several start in Ironforge, Undercity, and Thunder Bluff.",
+      "summary_es": "Prepara Mitología de los Titanes, El Compendio de los Caídos o Prueba de conocimiento; los magos tienen otra cadena.",
+      "summary_en": "Prepare Mythology of the Titans, Compendium of the Fallen, or Test of Lore; mages have another chain.",
       "keywords_es": [
         "misiones de la biblioteca escarlata",
-        "mitología de los titanes",
-        "el compendio de los caídos",
-        "prueba de conocimiento",
-        "en el monasterio escarlata"
+        "Mitología de los Titanes",
+        "El Compendio de los Caídos",
+        "Rituales de poder",
+        "Fuera de plazo"
       ],
       "keywords_en": [
         "scarlet monastery library quests",
-        "mythology of the titans",
-        "compendium of the fallen",
-        "test of lore",
-        "into the scarlet monastery"
+        "Mythology of the Titans",
+        "Compendium of the Fallen",
+        "Rituals of Power",
+        "Past Due"
       ],
-      "text_es": "Hay siete misiones: tres de Alianza y cuatro de Horda. In the Name of the Light (Trabalomas, Raleigh), Mitología de los Titanes (Forjaz, Mae Paledust) y Past Due (Montañas de Alterac, Magus Olvek) son de Alianza. De Horda: El Compendio de los Caídos (Cima del Trueno, Sabio Buscaverdad; los no-muertos no pueden cogerla), Corazones de fervor (Entrañas, Faranell), En el Monasterio Escarlata (Entrañas, Varimathras) y Test de conocimiento (Entrañas, Parqual Fintallas).",
-      "text_en": "There are seven quests: three Alliance and four Horde. In the Name of the Light (Hillsbrad, Raleigh), Mythology of the Titans (Ironforge, Mae Paledust), and Past Due (Alterac Mountains, Magus Olvek) are Alliance. For Horde: Compendium of the Fallen (Thunder Bluff, Sage Truthseeker; Undead cannot take it), Hearts of Zeal (Undercity, Faranell), Into The Scarlet Monastery (Undercity, Varimathras), and Test of Lore (Undercity, Parqual Fintallas).",
+      "text_es": "Hay 3 de Alianza, 4 de Horda y una cadena para magos. Mitología de los Titanes se recoge con la Bibliotecaria Mae Palipolvo en Forjaz; Fuera de plazo, en Dalaran, en Montañas de Alterac. El Compendio de los Caídos empieza con el Sabio Buscaverdad en Cima del Trueno (no para no-muertos); Corazones de fervor, con el Maestro boticario Faranell en Entrañas; En el Monasterio Escarlata, también allí. Prueba de conocimiento comienza con Prueba de fe y Dorn Acechallanos en Las Mil Agujas y continúa en Entrañas. Rituales de poder (magos, nivel 30) empieza con Secretos escondidos en Marjal Revolcafango.",
+      "text_en": "There are 3 Alliance and 4 Horde quests, plus a mage chain. Mythology of the Titans starts with Librarian Mae Paledust in Ironforge; Past Due starts in Dalaran in the Alterac Mountains. Compendium of the Fallen starts with Sage Truthseeker in Thunder Bluff (not for Undead); Hearts of Zeal starts with Master Apothecary Faranell in Undercity; Into the Scarlet Monastery also starts there. Test of Lore begins with Test of Faith and Dorn Plainstalker in Thousand Needles, then continues in Undercity. Rituals of Power (mages, level 30) starts with Hidden Secrets in Dustwallow Marsh.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: All Available Quests for Scarlet Monastery - Library › Scarlet Monastery - Library Dungeon Quests",
-          "url": "https://www.icy-veins.com/wow-forever/scarlet-monastery-library-quests",
-          "date": "2026-09-30"
+          "ref": "Wowhead: Scarlet Monastery: Library Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-library-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Library Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Every Quest in Scarlet Monastery Library in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-library-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "dungeon:_all:quests"
+        "dungeon:scarlet-monastery-library"
       ],
       "source_hashes": [
-        "section:78ae037b33a39bb97952123ea28ddc10be79cd04"
+        "section:05184e6925a0856fb7710a0cbab2ba6d1a70b1e5",
+        "section:ac71c640d893426dc66985b91d0224ed7e1f01b4"
+      ]
+    },
+    {
+      "id": "mazmorra-scarlet-library-jefes",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jefes de la Biblioteca Escarlata",
+      "title_en": "Scarlet Monastery Library Bosses",
+      "summary_es": "Elimina los sabuesos de Loksey antes de centrarse en él y huye de la Detonación de Doan.",
+      "summary_en": "Kill Loksey’s hounds before focusing him, and run from Doan’s Detonation.",
+      "keywords_es": [
+        "jefes de la biblioteca escarlata",
+        "Domador de jaurías Loksey",
+        "Arcanista Doan",
+        "Detonación de Doan"
+      ],
+      "keywords_en": [
+        "scarlet monastery library bosses",
+        "Houndmaster Loksey",
+        "Arcanist Doan",
+        "Doan Detonation"
+      ],
+      "text_es": "Domador de jaurías Loksey está acompañado por tres sabuesos: controla uno, derrota a los otros y luego céntrate en el jefe, que usa Ansia de sangre cuando tiene poca salud. Con Arcanista Doan, aléjate hacia los bordes cuando lance Detonación; también inflige daño de área y puede usar Silencio.",
+      "text_en": "Houndmaster Loksey is accompanied by three hounds: control one, defeat the others, then focus the boss, who uses Bloodlust at low health. Arcanist Doan can be tanked in the center; move to the edges when he casts Detonation; he also deals area damage and can use Silence.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Library Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Houndmaster Loksey",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-library-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Library Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Arcanist Doan",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-library-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scarlet-monastery-library"
+      ],
+      "source_hashes": [
+        "section:718835d67354ced19207d66cdff30a1991742d9e",
+        "section:ab8657ce98616cc7bd9ea593abe7d2f45d2f2887"
+      ]
+    },
+    {
+      "id": "mazmorra-scarlet-library-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de la Biblioteca Escarlata",
+      "title_en": "Scarlet Monastery Library Rewards",
+      "summary_es": "Destacan la Vara ilusionaria, la Hoja hipnótica y las piezas del conjunto de Doan.",
+      "summary_en": "Notable rewards include the Illusionary Rod, Hypnotic Blade, and Doan’s set pieces.",
+      "keywords_es": [
+        "recompensas de la biblioteca escarlata",
+        "Vara ilusionaria",
+        "Hoja hipnótica",
+        "Manto de Doan",
+        "Toga de Doan"
+      ],
+      "keywords_en": [
+        "scarlet monastery library rewards",
+        "Illusionary Rod",
+        "Hypnotic Blade",
+        "Mantle of Doan",
+        "Robe of Doan"
+      ],
+      "text_es": "Entre los botines de Arcanista Doan destacan la Vara ilusionaria, la Hoja hipnótica, el Manto de Doan y la Toga de Doan. También destaca el Silbato para perros.",
+      "text_en": "Notable drops from Arcanist Doan include the Illusionary Rod, Hypnotic Blade, Mantle of Doan, and Robe of Doan. Another notable reward is the Dog Whistle.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Library Dungeon Guide: Quests, Location, Strategy & Rewards - WoW Forever › Scarlet Monastery Library Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-library-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scarlet-monastery-library"
+      ],
+      "source_hashes": [
+        "section:f313621e9294e1b4aab08b03a8907fd60937aa79"
       ]
     },
     {
