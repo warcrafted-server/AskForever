@@ -10075,6 +10075,1159 @@
         "section:a88692ec09f34fc81685778edf9edd2ff698ee81",
         "section:e2738ef0e2b7cd00338ffee768de63a6628277f6"
       ]
+    },
+    {
+      "id": "mazmorra-dire-maul-west-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jardines de la Capital: nivel y entrada",
+      "title_en": "Capital Gardens: Level and Entrance",
+      "summary_es": "Niveles 54-60; llega a La Masacre por Feralas y toma el portal del muro oeste de la arena.",
+      "summary_en": "Levels 54-60; reach Dire Maul through Feralas and take the portal on the arena's west wall.",
+      "keywords_es": [
+        "Jardines de la Capital",
+        "nivel de La Masacre oeste",
+        "entrada de La Masacre oeste",
+        "cómo llegar a La Masacre",
+        "mazmorra de Feralas"
+      ],
+      "keywords_en": [
+        "Capital Gardens",
+        "Dire Maul West level",
+        "Dire Maul West entrance",
+        "how to reach Dire Maul",
+        "Feralas dungeon"
+      ],
+      "text_es": "Los Jardines de la Capital se recomiendan para niveles 54-60. La entrada de La Masacre está al norte de Feralas: la Alianza puede volar a Thalanaar o al Bastión Plumaluna, y la Horda a Campamento Mójache; desde allí sigue el camino hasta el cruce norte. Dentro del complejo, el portal de los Jardines está en un hueco del muro oeste de la arena.",
+      "text_en": "Capital Gardens is recommended for levels 54-60. Dire Maul lies north of Feralas: Alliance can fly to Thalanaar or Feathermoon Stronghold, while Horde can fly to Camp Mojache; follow the road to the northern junction. Inside the complex, the Gardens portal is in a recess on the arena's west wall.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Capital Gardens Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Dire Maul Capital Gardens Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-capital-gardens-west-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Capital Gardens Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Dire Maul Capital Gardens in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-capital-gardens-west-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-capital-gardens-west"
+      ],
+      "source_hashes": [
+        "section:1c2923e22693356a5b716e1158aa1fca04c95cdc",
+        "section:62ea41ad5ea164af55672e5b24331ff015a93609"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-west-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones recomendables de los Jardines",
+      "title_en": "Recommended Capital Gardens Quests",
+      "summary_es": "Locura interior se recoge dentro, con el Anciano Shen'dralar, y requiere derrotar a dos jefes.",
+      "summary_en": "The Madness Within starts inside with the Shen'dralar Ancient and requires defeating two bosses.",
+      "keywords_es": [
+        "misiones de los Jardines de la Capital",
+        "Locura interior",
+        "Anciano Shen'dralar",
+        "misiones de La Masacre oeste"
+      ],
+      "keywords_en": [
+        "Capital Gardens quests",
+        "The Madness Within",
+        "Shen'dralar Ancient",
+        "Dire Maul West quests"
+      ],
+      "text_es": "Locura interior se recoge con el Anciano Shen'dralar, en el segundo piso de la instancia; acepta la misión al llegar y derrota a Immol'thar y al Príncipe Tortheldrin. Al completarla, el Anciano ofrece El tesoro de los Shen'dralar, que se busca en la zona del Príncipe.",
+      "text_en": "Pick up The Madness Within from the Shen'dralar Ancient on the instance's second floor; the quest requires defeating Immol'thar and Prince Tortheldrin. After completing it, the Ancient offers The Treasure of the Shen'dralar, found where Prince Tortheldrin is fought.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Capital Gardens Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-capital-gardens-west-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Capital Gardens Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Every Quest in Dire Maul Capital Gardens in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-capital-gardens-west-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-capital-gardens-west"
+      ],
+      "source_hashes": [
+        "section:720589bee86f00934e59b8458b16928ff4d1089e",
+        "section:bca566b990962c44be2806f8d24527d6b28f7d91"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-west-tendris",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Tendris Madeguerra: limpia los ancianos",
+      "title_en": "Tendris Warpwood: Clear the Ancients",
+      "summary_es": "Elimina los ancianos cercanos antes del combate y evita el derribo de Atropello.",
+      "summary_en": "Clear nearby ancients before the fight and avoid Trample's knockdown.",
+      "keywords_es": [
+        "Tendris Madeguerra",
+        "Tendris Warpwood",
+        "Atropello",
+        "jefe de los Jardines de la Capital"
+      ],
+      "keywords_en": [
+        "Tendris Warpwood",
+        "Trample",
+        "Capital Gardens boss"
+      ],
+      "text_es": "Antes de enfrentarte a Tendris Madeguerra, elimina a los ancianos cercanos para que no se unan al combate. Mantén a distancia a los atacantes para evitar Atropello y disipa Enredar cuando sea posible.",
+      "text_en": "Before fighting Tendris Warpwood, clear the nearby ancients so they do not join the encounter. Keep ranged players back to avoid Trample and dispel Entangle when possible.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Capital Gardens Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Tendris Warpwood",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-capital-gardens-west-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-capital-gardens-west"
+      ],
+      "source_hashes": [
+        "section:025e211dabde1e8533ca6eefa4c05a119c30478d"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-west-kalendris",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Magister Kalendris: corta sus hechizos",
+      "title_en": "Magister Kalendris: Interrupt His Spells",
+      "summary_es": "Interrumpe al sacerdote de las Sombras y disipa sus efectos mágicos.",
+      "summary_en": "Interrupt the Shadow priest and dispel his magical effects.",
+      "keywords_es": [
+        "Magister Kalendris",
+        "jefe de los Jardines",
+        "Dominar mente",
+        "resistencia a las Sombras"
+      ],
+      "keywords_en": [
+        "Magister Kalendris",
+        "Capital Gardens boss",
+        "Dominate Mind",
+        "Shadow resistance"
+      ],
+      "text_es": "Magister Kalendris combate como un sacerdote de las Sombras: interrumpe sus hechizos y disipa los efectos mágicos. La resistencia a las Sombras ayuda a reducir el daño mientras el grupo lo derrota.",
+      "text_en": "Magister Kalendris fights like a Shadow priest: interrupt his spells and dispel magical effects. Shadow resistance helps reduce damage while the group defeats him.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Capital Gardens Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Magister Kalendris",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-capital-gardens-west-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-capital-gardens-west"
+      ],
+      "source_hashes": [
+        "section:85eb21d5c3498bf2c479bde08df967d81b17bca5"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-west-tzu-see",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Tzu'see: deja que el tanque inicie",
+      "title_en": "Tzu'see: Let the Tank Engage First",
+      "summary_es": "Tzu'see golpea con fuerza; espera a que el tanque genere amenaza y disipa Ceguera.",
+      "summary_en": "Tzu'see hits hard; let the tank build threat and dispel Blind.",
+      "keywords_es": [
+        "Tzu'see",
+        "Tsu'zee",
+        "jefe de los Jardines",
+        "Ceguera"
+      ],
+      "keywords_en": [
+        "Tzu'see",
+        "Tsu'zee",
+        "Capital Gardens boss",
+        "Blind"
+      ],
+      "text_es": "Tzu'see golpea con fuerza. Deja que el tanque consiga la amenaza antes de atacar y disipa Ceguera de los compañeros si puedes.",
+      "text_en": "Tzu'see hits hard. Let the tank establish threat before attacking, and dispel Blind from party members when possible.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Capital Gardens Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Tzu'see",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-capital-gardens-west-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-capital-gardens-west"
+      ],
+      "source_hashes": [
+        "section:207f11353b744737ee48342e904b1f3160245b62"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-west-illyanna",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Illyanna Roblecuervo: combate cuerpo a cuerpo",
+      "title_en": "Illyanna Ravenoak: Fight at Melee Range",
+      "summary_es": "Acércate para evitar varios disparos y derrota primero a Illyanna, luego a Ferra.",
+      "summary_en": "Move into melee to avoid several shots; defeat Illyanna first, then Ferra.",
+      "keywords_es": [
+        "Illyanna Roblecuervo",
+        "Illyanna Ravenoak",
+        "Ferra",
+        "jefe de los Jardines"
+      ],
+      "keywords_en": [
+        "Illyanna Ravenoak",
+        "Ferra",
+        "Capital Gardens boss",
+        "Immolation Trap"
+      ],
+      "text_es": "Illyanna Roblecuervo lucha junto a su oso Ferra. Acércate a Illyanna para neutralizar la mayoría de sus disparos, aunque aún debes vigilar Trampa de inmolación; el grupo suele derrotarla antes que a Ferra.",
+      "text_en": "Illyanna Ravenoak fights alongside her bear Ferra. Stay in melee range to negate most of her shots, but still watch for Immolation Trap; groups usually defeat her before Ferra.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Capital Gardens Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Illyanna Ravenoak",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-capital-gardens-west-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-capital-gardens-west"
+      ],
+      "source_hashes": [
+        "section:57337fd3a7b38a5e3017e499d378620183457e3a"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-west-immolthar",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Immol'thar: destruye los ojos",
+      "title_en": "Immol'thar: Destroy the Eyes",
+      "summary_es": "Asigna a un atacante a distancia para eliminar los ojos y prepárate para Enfurecer al 50%.",
+      "summary_en": "Assign a ranged player to destroy the eyes and prepare for Enrage at 50%.",
+      "keywords_es": [
+        "Immol'thar",
+        "jefe de los Jardines",
+        "Ojo de Immol'thar",
+        "Enfurecer"
+      ],
+      "keywords_en": [
+        "Immol'thar",
+        "Capital Gardens boss",
+        "Eye of Immol'thar",
+        "Enrage"
+      ],
+      "text_es": "Immol'thar invoca ojos por la sala; asigna a alguien, preferiblemente a distancia, para eliminarlos. Al 50% de salud se enfurece y puede teletransportar jugadores al centro, así que el tanque debe recuperar la amenaza si también es desplazado.",
+      "text_en": "Immol'thar summons eyes around the room; assign someone, preferably a ranged player, to destroy them. He enrages at 50% health and can teleport players to the center, so the tank must regain threat if displaced too.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Capital Gardens Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Immol'thar",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-capital-gardens-west-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-capital-gardens-west"
+      ],
+      "source_hashes": [
+        "section:83c7e4e623ff062e1bb18c207adbdc161eec496c"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-west-tortheldrin",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Príncipe Tortheldrin: evita el reinicio",
+      "title_en": "Prince Tortheldrin: Prevent Threat Resets",
+      "summary_es": "Colócalo en una esquina y detén el daño después de Explosión Arcana hasta recuperar la amenaza.",
+      "summary_en": "Tank him in a corner and stop damage after Arcane Blast until threat is restored.",
+      "keywords_es": [
+        "Príncipe Tortheldrin",
+        "jefe final de los Jardines",
+        "Explosión Arcana",
+        "amenaza del tanque"
+      ],
+      "keywords_en": [
+        "Prince Tortheldrin",
+        "Capital Gardens final boss",
+        "Arcane Blast",
+        "threat reset"
+      ],
+      "text_es": "El Príncipe Tortheldrin golpea con rapidez y su Explosión Arcana empuja y reinicia la amenaza. El tanque debe colocarlo en una esquina; tras cada lanzamiento, el resto deja de atacar hasta que el tanque recupere la amenaza.",
+      "text_en": "Prince Tortheldrin hits quickly, and Arcane Blast knocks players back and resets threat. The tank should hold him in a corner; after each cast, everyone else should stop attacking until the tank regains threat.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Capital Gardens Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Prince Tortheldrin",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-capital-gardens-west-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-capital-gardens-west"
+      ],
+      "source_hashes": [
+        "section:9984104ebf8821944995d3b98a5a1db15e178636"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-west-helnurath",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Lord Hel'nurath: sobrevive al ritual",
+      "title_en": "Lord Hel'nurath: Survive the Ritual",
+      "summary_es": "Un Brujo debe activar tres objetos durante las oleadas; al final, derrota a Hel'nurath antes del corcel.",
+      "summary_en": "A Warlock must keep three items active through the waves; then defeat Hel'nurath before the steed.",
+      "keywords_es": [
+        "Lord Hel'nurath",
+        "jefe especial de los Jardines",
+        "ritual del corcel",
+        "misión de montura épica de Brujo"
+      ],
+      "keywords_en": [
+        "Lord Hel'nurath",
+        "Capital Gardens special boss",
+        "Dreadsteed ritual",
+        "Warlock epic mount quest"
+      ],
+      "text_es": "Lord Hel'nurath solo aparece durante la misión de montura épica del Brujo. El grupo debe sobrevivir a varias oleadas mientras el Brujo mantiene activos los tres objetos del ritual; al aparecer Hel'nurath, derrótalo antes que al Corcel de la Muerte Xorothiano.",
+      "text_en": "Lord Hel'nurath appears only during the Warlock epic mount quest. The group must survive several waves while the Warlock keeps all three ritual items active; when Hel'nurath appears, defeat him before the Xorothian Dreadsteed.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Capital Gardens Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Special Boss: Lord Hel'nurath",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-capital-gardens-west-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-capital-gardens-west"
+      ],
+      "source_hashes": [
+        "section:f55dd2733581eee756fd4c57a4397340a1f87a7b"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-west-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas destacadas de los Jardines",
+      "title_en": "Notable Capital Gardens Rewards",
+      "summary_es": "La misión da a elegir equipo; destacan objetos de Tendris Madeguerra, Immol'thar y el Príncipe.",
+      "summary_en": "A quest offers a gear choice; notable drops come from Tendris, Immol'thar, and the Prince.",
+      "keywords_es": [
+        "recompensas de los Jardines de la Capital",
+        "Locura interior",
+        "Toga de Noche perpetua",
+        "Daga de distracción",
+        "botín de Immol'thar"
+      ],
+      "keywords_en": [
+        "Capital Gardens rewards",
+        "The Madness Within",
+        "Robe of Everlasting Night",
+        "Distracting Dagger",
+        "Immol'thar loot"
+      ],
+      "text_es": "Entre el equipo que dejan los jefes están la Toga de Noche perpetua de Immol'thar y la Daga de distracción del Príncipe Tortheldrin.",
+      "text_en": "Boss loot includes Robe of Everlasting Night from Immol'thar and Distracting Dagger from Prince Tortheldrin.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Capital Gardens Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Dire Maul Capital Gardens Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-capital-gardens-west-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-capital-gardens-west"
+      ],
+      "source_hashes": [
+        "section:9bc42c79a5f23e49931fb4745b1249969894458b"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-north-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recinto de los Gordok: nivel y entrada",
+      "title_en": "Gordoks Commons: Level and Entrance",
+      "summary_es": "Niveles 54-60; toma el portal del muro norte de la arena de La Masacre.",
+      "summary_en": "Levels 54-60; take the portal on the north wall of Dire Maul's arena.",
+      "keywords_es": [
+        "Recinto de los Gordok",
+        "nivel de La Masacre norte",
+        "entrada de La Masacre norte",
+        "cómo llegar a La Masacre",
+        "Feralas"
+      ],
+      "keywords_en": [
+        "Gordoks Commons",
+        "Dire Maul North level",
+        "Dire Maul North entrance",
+        "how to reach Dire Maul",
+        "Feralas"
+      ],
+      "text_es": "El Recinto de los Gordok se recomienda para niveles 54-60. La entrada de La Masacre está al norte de Feralas: la Alianza puede volar a Thalanaar o al Bastión Plumaluna, y la Horda a Campamento Mójache; sigue el camino hasta el cruce norte. En el complejo, el portal del Recinto está en un hueco del muro norte de la arena.",
+      "text_en": "Gordoks Commons is recommended for levels 54-60. Dire Maul lies north of Feralas: Alliance can fly to Thalanaar or Feathermoon Stronghold, while Horde can fly to Camp Mojache; follow the road to the northern junction. Inside the complex, the Commons portal is in a recess on the arena's north wall.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Gordoks Commons Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Dire Maul Gordoks Commons Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-gordoks-commons-north-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Gordoks Commons Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Dire Maul Gordoks Commons in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-gordoks-commons-north-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-gordoks-commons-north"
+      ],
+      "source_hashes": [
+        "section:8f3937c5118b25d37dc0a9fe0a7574d58f0a47eb",
+        "section:e4f1f7699aae28bcb47a79ffca5aa56362de003d"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-north-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones recomendables del Recinto",
+      "title_en": "Recommended Gordoks Commons Quests",
+      "summary_es": "Leyendas élficas se recoge en Feralas; dentro puedes preparar ¡Libera a Knot! y El traje de ogro Gordok.",
+      "summary_en": "Elven Legends starts in Feralas; inside, prepare Free Knot! and The Gordok Ogre Suit.",
+      "keywords_es": [
+        "misiones del Recinto de los Gordok",
+        "Leyendas élficas",
+        "¡Libera a Knot!",
+        "El traje de ogro Gordok",
+        "Cártel Bonvapor"
+      ],
+      "keywords_en": [
+        "Gordoks Commons quests",
+        "Elven Legends",
+        "Free Knot!",
+        "The Gordok Ogre Suit",
+        "Steamwheedle Cartel"
+      ],
+      "text_es": "Antes de ir, recoge Leyendas élficas: la Horda la obtiene del Sabio Korolusk en Campamento Mójache y la Alianza del Erudito Runaespina en el Bastión Plumaluna. Ya dentro, Knot Llavededo ofrece ¡Libera a Knot! y El traje de orgo Gordok, que requiere materiales para fabricar el Taje ogro de Gordok, útil en una ruta de tributo.",
+      "text_en": "Before going, pick up Elven Legends: Horde gets it from Sage Korolusk at Camp Mojache, and Alliance from Scholar Runethorn at Feathermoon Stronghold. Inside, Knot Thimblejack offers Free Knot! and The Gordok Ogre Suit; the latter requires materials to make a disguise useful for a Tribute Run.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Gordoks Commons Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-gordoks-commons-north-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Gordoks Commons Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Every Quest in Dire Maul Gordoks Commons in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-gordoks-commons-north-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Gordoks Commons Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Dire Maul Gordoks Commons Dire Maul Tribute Run Strategy in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-gordoks-commons-north-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-gordoks-commons-north"
+      ],
+      "source_hashes": [
+        "section:2385dcdb8ba8926778c157533fd3f429c3ec08c7",
+        "section:3442b0142a91d61c25b7c6685864a01961f2db16",
+        "section:61382b0869118410262f14ef1a9891890c748b0a"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-north-moldar",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Guardia Mol'dar: evita Mamporro",
+      "title_en": "Guard Mol'dar: Avoid Knock Away",
+      "summary_es": "En una ruta normal, deja que el tanque lo fije y mantén atrás a los atacantes a distancia.",
+      "summary_en": "On a normal run, let the tank establish threat and keep ranged players back.",
+      "keywords_es": [
+        "Guardia Mol'dar",
+        "jefe del Recinto de los Gordok",
+        "Mamporro",
+        "ruta de tributo"
+      ],
+      "keywords_en": [
+        "Guard Mol'dar",
+        "Gordoks Commons boss",
+        "Knock Away",
+        "Tribute Run"
+      ],
+      "text_es": "En una ruta normal, Guardia Mol'dar usa ataques cuerpo a cuerpo; deja que el tanque consiga la amenaza y mantén atrás a los atacantes a distancia para evitar Mamporro y Embestida con escudo. En una ruta de tributo, no lo mates y busca una forma de abrir la puerta interior.",
+      "text_en": "On a normal run, Guard Mol'dar uses melee attacks; let the tank establish threat and keep ranged players back to avoid Knock Away and Shield Charge. On a Tribute Run, do not kill him, and arrange a way to open the inner door.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Gordoks Commons Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Guard Mol'dar",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-gordoks-commons-north-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-gordoks-commons-north"
+      ],
+      "source_hashes": [
+        "section:b0d8eaf59dc5d48643edf72cd6c2687d7a8146e5"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-north-kreeg",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Vapuleador Kreeg: cuidado con Gapo alcohólico",
+      "title_en": "Stomper Kreeg: Watch Booze Spit",
+      "summary_es": "Gapo alcohólico reduce mucho la probabilidad de acertar; la ruta de tributo requiere dejarlo vivo.",
+      "summary_en": "Booze Spit greatly reduces hit chance; a Tribute Run requires leaving him alive.",
+      "keywords_es": [
+        "Vapuleador Kreeg",
+        "jefe del Recinto de los Gordok",
+        "Gapo alcohólico",
+        "ruta de tributo"
+      ],
+      "keywords_en": [
+        "Stomper Kreeg",
+        "Gordoks Commons boss",
+        "Booze Spit",
+        "Tribute Run"
+      ],
+      "text_es": "Vapuleador Kreeg salpica al grupo con Gapo alcohólico, que reduce un 75% la probabilidad de acertar; después, el combate es principalmente cuerpo a cuerpo. En una ruta de tributo, no lo mates: espera a que se duerma y pasa sin acercarte.",
+      "text_en": "Stomper Kreeg hits the group with Booze Spit, reducing hit chance by 75%; otherwise, the fight is mainly melee. On a Tribute Run, do not kill him: wait for him to fall asleep and sneak past without approaching.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Gordoks Commons Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Stomper Kreeg",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-gordoks-commons-north-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-gordoks-commons-north"
+      ],
+      "source_hashes": [
+        "section:f87b50cf85c40513d81c66d27bf44e965524168c"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-north-fengus",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Guardia Fengus: saquea el cofre",
+      "title_en": "Guard Fengus: Loot the Chest",
+      "summary_es": "En una ruta de tributo, espera a que patrulle lejos y recoge la Llave de patio de Gordok.",
+      "summary_en": "On a Tribute Run, wait for his patrol to move away and take the Gordok Courtyard Key.",
+      "keywords_es": [
+        "Guardia Fengus",
+        "jefe del Recinto",
+        "Cofre de Fengus",
+        "Llave de patio de Gordok"
+      ],
+      "keywords_en": [
+        "Guard Fengus",
+        "Gordoks Commons boss",
+        "Fengus's Chest",
+        "Gordok Courtyard Key"
+      ],
+      "text_es": "En una ruta normal, Guardia Fengus usa ataques cuerpo a cuerpo: el tanque fija la amenaza y los atacantes a distancia evitan Mamporro y Embestida con escudo. En una ruta de tributo, no lo mates; espera a que se aleje y saquea el cofre para obtener la Llave de patio de Gordok.",
+      "text_en": "On a normal run, Guard Fengus uses melee attacks: the tank establishes threat while ranged players avoid Knock Away and Shield Charge. On a Tribute Run, do not kill him; wait for him to move away and loot the chest for the Gordok Courtyard Key.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Gordoks Commons Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Guard Fengus",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-gordoks-commons-north-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-gordoks-commons-north"
+      ],
+      "source_hashes": [
+        "section:dec98d138eb8d1401c3be0bb2adcdd41618b3091"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-north-slipkik",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Guardia Slip'kik: congélalo en la trampa",
+      "title_en": "Guard Slip'kik: Freeze Him in the Trap",
+      "summary_es": "Repara la trampa con Aceite escarchado y Trastos wow de torio para completar la ruta de tributo.",
+      "summary_en": "Repair the trap with Frost Oil and Thorium Widgets to complete the Tribute Run.",
+      "keywords_es": [
+        "Guardia Slip'kik",
+        "jefe del Recinto",
+        "trampa rota",
+        "ruta de tributo"
+      ],
+      "keywords_en": [
+        "Guard Slip'kik",
+        "Gordoks Commons boss",
+        "Broken Trap",
+        "Tribute Run"
+      ],
+      "text_es": "En una ruta normal, Guardia Slip'kik usa ataques cuerpo a cuerpo; mantén atrás a los atacantes a distancia para evitar Mamporro y Embestida con escudo. Para la ruta de tributo, no lo mates: repara la Trampa rota con Aceite escarchado y Trastos wow de torio, y deja que quede congelado al volver a patrullar.",
+      "text_en": "On a normal run, Guard Slip'kik uses melee attacks; keep ranged players back to avoid Knock Away and Shield Charge. For a Tribute Run, do not kill him: repair the Broken Trap with Frost Oil and a Thorium Widget, then let him be frozen when he patrols back.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Gordoks Commons Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Guard Slip'kik",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-gordoks-commons-north-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-gordoks-commons-north"
+      ],
+      "source_hashes": [
+        "section:4c0285dcbc6279527fd5233bd6a81497f0e8125c"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-north-kromcrush",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Capitán Kromcrush: controla sus adds",
+      "title_en": "Captain Kromcrush: Control His Adds",
+      "summary_es": "Golpea con fuerza, causa miedo y llama a dos atracadores al perder salud; controla los adds.",
+      "summary_en": "He hits hard, fears the group, and summons two reavers at low health; control the adds.",
+      "keywords_es": [
+        "Capitán Kromcrush",
+        "jefe del Recinto",
+        "Grito intimidador",
+        "Atracador Gordok",
+        "ruta de tributo"
+      ],
+      "keywords_en": [
+        "Captain Kromcrush",
+        "Gordoks Commons boss",
+        "Intimidating Shout",
+        "Gordok Reaver",
+        "Tribute Run"
+      ],
+      "text_es": "El Capitán Kromcrush golpea con fuerza, puede aterrorizar al grupo y, cerca de la mitad de salud, llama a dos Atracadores Gordok. Controla a los adds y mantén la amenaza del jefe; en una ruta de tributo, un jugador con el Taje ogro de Gordok debe engañarlo en vez de matarlo.",
+      "text_en": "Captain Kromcrush hits hard, can fear the party, and summons two Gordok Reavers at around half health. Crowd-control the adds and keep threat on the boss; on a Tribute Run, a player wearing the Gordok Ogre Suit must fool him instead of killing him.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Gordoks Commons Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Captain Kromcrush",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-gordoks-commons-north-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-gordoks-commons-north"
+      ],
+      "source_hashes": [
+        "section:38065a64e048b8a0f68f5c2b27870d0de6c5ed57"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-north-rey-gordok-chorush",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Rey Gordok y Cho'Rush el Observador",
+      "title_en": "King Gordok and Cho'Rush the Observer",
+      "summary_es": "Interrumpe las curas del Rey Gordok; en tributo, deja vivo a Cho'Rush y acaba con el Rey primero.",
+      "summary_en": "Interrupt King Gordok's heals; on Tribute, keep Cho'Rush alive and kill the King first.",
+      "keywords_es": [
+        "Rey Gordok",
+        "Cho'Rush el Observador",
+        "jefes del Recinto",
+        "ruta de tributo",
+        "Curar"
+      ],
+      "keywords_en": [
+        "King Gordok",
+        "Cho'Rush the Observer",
+        "Gordoks Commons bosses",
+        "Tribute Run",
+        "Heal"
+      ],
+      "text_es": "El Rey Gordok puede curarse: interrumpe sus hechizos, sobre todo Curar. En una ruta normal suele ser más fácil derrotar primero a Cho'Rush el Observador mientras el tanque fija al Rey; en una ruta de tributo, mantén ocupado e interrumpe a Cho'Rush, pero déjalo vivo y mata primero al Rey.",
+      "text_en": "King Gordok can heal himself, so interrupt his spells, especially Heal. On a normal run, it is usually easier to defeat Cho'Rush the Observer first while the tank holds the King; on a Tribute Run, keep Cho'Rush occupied and interrupt him, but leave him alive and kill the King first.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Gordoks Commons Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › King Gordok & Cho'Rush the Observer",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-gordoks-commons-north-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-gordoks-commons-north"
+      ],
+      "source_hashes": [
+        "section:acaea65baf3adad84560bf61a17ecbc0f63d86c6"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-north-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas del Recinto de los Gordok",
+      "title_en": "Gordoks Commons Rewards",
+      "summary_es": "Leyendas élficas da acceso a tratados; la ruta de tributo mejora el cofre según los jefes que sobreviven.",
+      "summary_en": "Elven Legends unlocks librams; the Tribute chest improves with more surviving bosses.",
+      "keywords_es": [
+        "recompensas del Recinto de los Gordok",
+        "tratado sobre protección",
+        "cofre de tributo",
+        "Yelmo provinciano",
+        "Taje ogro de Gordok"
+      ],
+      "keywords_en": [
+        "Gordoks Commons rewards",
+        "Libram of Protection",
+        "Tribute chest",
+        "Backwood Helm",
+        "Gordok Ogre Suit"
+      ],
+      "text_es": "Completar Leyendas élficas permite acceder a misiones de tratados como El tratado sobre protección. La ruta de tributo crea el Tributo a Gordok, cuyo contenido mejora cuantos más jefes se dejen vivos; como ejemplos de equipo destacan la Corona del Rey ogro y la Maza Aplastacalaveras.",
+      "text_en": "You can become eligible for libram quests such as Libram of Protection after completing Elven Legends. A Tribute Run creates the Gordok Tribute, whose contents improve with more bosses left alive; notable gear includes Crown of the Ogre King and Skullcracking Mace.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Gordoks Commons Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-gordoks-commons-north-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Gordoks Commons Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Dire Maul Gordoks Commons Dire Maul Tribute Run Strategy in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-gordoks-commons-north-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Gordoks Commons Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Dire Maul Gordoks Commons Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-gordoks-commons-north-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-gordoks-commons-north"
+      ],
+      "source_hashes": [
+        "section:3442b0142a91d61c25b7c6685864a01961f2db16",
+        "section:61382b0869118410262f14ef1a9891890c748b0a",
+        "section:ef5bec890332964c9e3f065fd9b9bc3f256451e9"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-east-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Cuartel Alabeo: nivel y entrada",
+      "title_en": "Warpwood Quarter: Level and Entrance",
+      "summary_es": "Niveles 52-60; entra por el portal este de la arena o por una puerta secreta del Pabellón de Lariss.",
+      "summary_en": "Levels 52-60; enter through the arena's east portal or a secret door at Lariss Pavilion.",
+      "keywords_es": [
+        "Cuartel Alabeo",
+        "nivel de La Masacre este",
+        "entrada de La Masacre este",
+        "Pabellón de Lariss",
+        "cómo llegar a La Masacre"
+      ],
+      "keywords_en": [
+        "Warpwood Quarter",
+        "Dire Maul East level",
+        "Dire Maul East entrance",
+        "Lariss Pavilion",
+        "how to reach Dire Maul"
+      ],
+      "text_es": "El Cuartel Alabeo se recomienda para niveles 52-60. La Masacre está al norte de Feralas: la Alianza puede volar a Thalanaar o al Bastión Plumaluna, y la Horda a Campamento Mójache; sigue el camino hasta el cruce norte. El portal este está en un hueco del muro oriental de la arena; también hay una entrada secreta tras una puerta en el Pabellón de Lariss.",
+      "text_en": "Warpwood Quarter is recommended for levels 52-60. Dire Maul lies north of Feralas: Alliance can fly to Thalanaar or Feathermoon Stronghold, while Horde can fly to Camp Mojache; follow the road to the northern junction. The east portal is in a recess on the arena's eastern wall; a secret entrance is also behind a door at Lariss Pavillion.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Warpwood Quarter Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Foreve › Dire Maul Warpwood Quarter Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-warpwood-quarter-east-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Warpwood Quarter Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Foreve › Location of Dire Maul Warpwood Quarter in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-warpwood-quarter-east-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-warpwood-quarter-east"
+      ],
+      "source_hashes": [
+        "section:04b194f2c8524e630a020a115489d4b97280b8b5",
+        "section:5fe66a3bbff0c62d4ab185b9984be4e9067f85c8"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-east-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones recomendables del Cuartel Alabeo",
+      "title_en": "Recommended Warpwood Quarter Quests",
+      "summary_es": "La Membrana de Lethtendris se recoge en Feralas; Pusillín y el ancestro Azj'Tordin empieza en el Pabellón.",
+      "summary_en": "Lethtendris's Web starts in Feralas; Pusillin and the Elder Azj'Tordin starts at the Pavilion.",
+      "keywords_es": [
+        "misiones del Cuartel Alabeo",
+        "La Membrana de Lethtendris",
+        "Pusillín y el ancestro Azj'Tordin",
+        "Fragmentos de gangrevid",
+        "El refresco arcano"
+      ],
+      "keywords_en": [
+        "Warpwood Quarter quests",
+        "Lethtendris's Web",
+        "Pusillin and the Elder Azj'Tordin",
+        "Shards of the Felvine",
+        "Arcane Refreshment"
+      ],
+      "text_es": "Antes de entrar, recoge La Membrana de Lethtendris: la Alianza la obtiene con Latronicus Lanzaluna en el Bastión Plumaluna y la Horda con Talo Pezuñahendida en Campamento Mójache. Pusillín y el ancestro Azj'Tordin empieza con Azj'Tordin en el Pabellón de Lariss; Fragmentos de gangrevid requiere antes Un relicario de pureza en Claro de la Luna.",
+      "text_en": "Before entering, pick up Lethtendris's Web: Alliance gets it from Latronicus Moonspear at Feathermoon Stronghold, and Horde from Talo Thornhoof at Camp Mojache. Pusillin and the Elder Azj'Tordin starts with Azj'Tordin at Lariss Pavilion; Shards of the Felvine requires completing A Reliquary of Purity first in Moonglade.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Warpwood Quarter Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Foreve › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-warpwood-quarter-east-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Warpwood Quarter Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Foreve › Every Quest in Dire Maul Warpwood Quarter in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-warpwood-quarter-east-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-warpwood-quarter-east"
+      ],
+      "source_hashes": [
+        "section:1908698e54964b685f7e62377f7f94ba8e1c5959",
+        "section:7ae2dc250714e7d074f24d35c4f59b7bba1ae8cf"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-east-pusillin",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Pusillín: consigue la Llave creciente",
+      "title_en": "Pusillin: Get the Crescent Key",
+      "summary_es": "Síguelo por la mazmorra; al final invoca diablillos que conviene eliminar e interrumpir sus hechizos de fuego.",
+      "summary_en": "Follow him through the dungeon; he summons imps at the end, and his fire spells can be interrupted.",
+      "keywords_es": [
+        "Pusillín",
+        "jefe del Cuartel Alabeo",
+        "Llave creciente",
+        "Libro sobre Conjuros",
+        "Pusillín y el ancestro Azj'Tordin"
+      ],
+      "keywords_en": [
+        "Pusillin",
+        "Warpwood Quarter boss",
+        "Crescent Key",
+        "Book of Incantations",
+        "Pusillin and the Elder Azj'Tordin"
+      ],
+      "text_es": "Pusillín huye por tramos de la mazmorra; síguelo hasta el enfrentamiento final, donde invoca cuatro enemigos llamados Diablillo Mala Hierba. Elimínalos e interrumpe sus hechizos de fuego; al derrotarlo obtienes la Llave creciente y el Libro sobre Conjuros para Pusillín y el ancestro Azj'Tordin.",
+      "text_en": "Pusillin flees through sections of the dungeon; follow him to the final encounter, where he summons four Wildspawn Imp creatures. Defeat the imps and interrupt his fire spells; killing him gives the Crescent Key and Book of Incantations for Pusillin and the Elder Azj'Tordin.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Warpwood Quarter Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Foreve › Pusillin",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-warpwood-quarter-east-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-warpwood-quarter-east"
+      ],
+      "source_hashes": [
+        "section:23118eb2a739e88257fe0650b7d52b67e9d35890"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-east-lethtendris",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Lethtendris: prioriza a Pimgib",
+      "title_en": "Lethtendris: Prioritize Pimgib",
+      "summary_es": "Derrota primero al diablillo y después interrumpe los hechizos de Lethtendris y disipa sus maldiciones.",
+      "summary_en": "Defeat the imp first, then interrupt Lethtendris's spells and dispel her curses.",
+      "keywords_es": [
+        "Lethtendris",
+        "Pimgib",
+        "jefe del Cuartel Alabeo",
+        "Descarga abisal",
+        "La Membrana de Lethtendris"
+      ],
+      "keywords_en": [
+        "Lethtendris",
+        "Pimgib",
+        "Warpwood Quarter boss",
+        "Void Bolt",
+        "Lethtendris's Web"
+      ],
+      "text_es": "Lethtendris combate con su diablillo Pimgib, que tiene menos salud y también lanza hechizos de fuego: céntrate primero en él. Después interrumpe Descarga abisal y otros lanzamientos de Lethtendris, y disipa las maldiciones del grupo.",
+      "text_en": "Lethtendris fights alongside her imp Pimgib, who has less health and also casts fire spells; focus on him first. Then interrupt Void Bolt and her other casts, and remove the party's curses.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Warpwood Quarter Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Foreve › Lethtendris",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-warpwood-quarter-east-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-warpwood-quarter-east"
+      ],
+      "source_hashes": [
+        "section:d3367d0bb8498a09c1f5e1dbd3396d800e829357"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-east-hydrospawn",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Hidromilecio: decide cuándo eliminar la hidrolinga",
+      "title_en": "Hydrospawn: Decide When to Kill the Hydroling",
+      "summary_es": "La hidrolinga puede causar más daño que el jefe; elimínala o céntrate en el jefe vigilando al sanador.",
+      "summary_en": "The hydroling can deal more damage than the boss; kill it or burn the boss while watching the healer.",
+      "keywords_es": [
+        "Hidromilecio",
+        "Hydrospawn",
+        "Hidrolinga",
+        "jefe del Cuartel Alabeo",
+        "Esencia de Hidromilecio"
+      ],
+      "keywords_en": [
+        "Hydrospawn",
+        "Hydroling",
+        "Warpwood Quarter boss",
+        "Hydrospawn Essence"
+      ],
+      "text_es": "Hidromilecio invoca una Hydrolinga: puedes eliminarla en área o concentrar el daño en el jefe, pero la criatura suele hacer más daño. Si optas por derrotar rápido a Hidromilecio, vigila la salud del sanador e interrumpe sus hechizos cuando puedas.",
+      "text_en": "Hydrospawn summons a Hydroling: you can defeat it with area damage or focus the boss, but the add tends to deal more damage. If you burn Hydrospawn quickly, watch the healer's health and interrupt spells when possible.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Warpwood Quarter Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Foreve › Hydrospawn",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-warpwood-quarter-east-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-warpwood-quarter-east"
+      ],
+      "source_hashes": [
+        "section:650b240de14b8413862ec5cb8036dd58917c3380"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-east-zevrim",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Zevrim Pezuñahendida: sana a quien sacrifique",
+      "title_en": "Zevrim Thornhoof: Heal the Sacrifice Target",
+      "summary_es": "Sana mucho al jugador que teletransporte para Sacrificio y disipa Calor intenso.",
+      "summary_en": "Heavily heal the player teleported for Sacrifice and dispel Intense Pain.",
+      "keywords_es": [
+        "Zevrim Pezuñahendida",
+        "jefe del Cuartel Alabeo",
+        "Sacrificio",
+        "Calor intenso"
+      ],
+      "keywords_en": [
+        "Zevrim Thornhoof",
+        "Warpwood Quarter boss",
+        "Sacrifice",
+        "Intense Pain"
+      ],
+      "text_es": "Zevrim Pezuñahendida teletransporta periódicamente a un miembro del grupo a su altar y le lanza Sacrificio; el sanador debe reforzar mucho su curación. Calor intenso daña en área y se puede disipar, así que los atacantes a distancia deben mantenerse lejos.",
+      "text_en": "Zevrim Thornhoof periodically teleports a party member to his altar and casts Sacrifice on them; the healer must provide heavy healing. Intense Pain deals area damage and can be dispelled, so ranged players should stay back.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Warpwood Quarter Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Foreve › Zevrim Thornhoof",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-warpwood-quarter-east-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-warpwood-quarter-east"
+      ],
+      "source_hashes": [
+        "section:47ade0afa0b4b60279766af1c048bad7b1788e93"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-east-alzzin",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Alzzin el Formaferal: limpia cada cambio de forma",
+      "title_en": "Alzzin the Wildshaper: Handle Each Form",
+      "summary_es": "Disipa Enervar y Marchitar; al cambiar de forma, el tanque debe recuperar la amenaza.",
+      "summary_en": "Dispel Enervate and Wither; the tank must regain threat after each transformation.",
+      "keywords_es": [
+        "Alzzin el Formaferal",
+        "jefe final del Cuartel Alabeo",
+        "Enervar",
+        "Marchitar",
+        "Fragmentos de gangrevid"
+      ],
+      "keywords_en": [
+        "Alzzin the Wildshaper",
+        "Warpwood Quarter final boss",
+        "Enervate",
+        "Wither",
+        "Shards of the Felvine"
+      ],
+      "text_es": "Alzzin el Formaferal cambia entre formas, por lo que el tanque debe recuperar la amenaza tras cada transformación. En forma de sátiro, interrumpe y disipa Enervar y Marchitar; al 35% de salud aparecen adds detrás del muro. Si tienes Fragmentos de gangrevid, recoge el objeto de misión tras derrotarlo.",
+      "text_en": "Alzzin the Wildshaper changes forms, so the tank must regain threat after each transformation. In satyr form, interrupt and dispel Enervate and Wither; at 35% health, adds emerge from behind the wall. If you have Shards of the Felvine, collect the quest item after defeating him.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Warpwood Quarter Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Foreve › Alzzin the Wildshaper",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-warpwood-quarter-east-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-warpwood-quarter-east"
+      ],
+      "source_hashes": [
+        "section:52c40d885639fbb6cecefd766e2037e0fa29b691"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-east-isalien",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Isalien: invócala con el blandón",
+      "title_en": "Isalien: Summon Her with the Brazier",
+      "summary_es": "Este jefe especial se invoca en la sala de Alzzin con el Blandón de Señalización de una misión.",
+      "summary_en": "This special boss is summoned in Alzzin's room with a quest's Brazier of Beckoning.",
+      "keywords_es": [
+        "Isalien",
+        "jefe especial del Cuartel Alabeo",
+        "Blandón de Señalización",
+        "Blandón de Invocación"
+      ],
+      "keywords_en": [
+        "Isalien",
+        "Warpwood Quarter special boss",
+        "Brazier of Beckoning",
+        "Brazier of Invocation"
+      ],
+      "text_es": "Isalien no aparece en una ruta normal: se invoca en la sala de Alzzin con el Blandón de Señalización que entrega una misión para derrotarla. Si no recibiste esa misión, la cadena correspondiente puede darte un Blandón de Invocación para llamarla más adelante.",
+      "text_en": "Isalien can be summoned in the room where Alzzin is fought with the Brazier of Beckoning from a quest to defeat her. If you did not receive that quest, the related chain can give you a Brazier of Invocation to summon her later.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Warpwood Quarter Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Foreve › Isalien",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-warpwood-quarter-east-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-warpwood-quarter-east"
+      ],
+      "source_hashes": [
+        "section:fa0c5cf8bcb53262d2cfdcb84380324dbd0f2bff"
+      ]
+    },
+    {
+      "id": "mazmorra-dire-maul-east-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas del Cuartel Alabeo",
+      "title_en": "Warpwood Quarter Rewards",
+      "summary_es": "Los jefes dejan equipo como la Varita de Lethtendris y la Vara energética.",
+      "summary_en": "Bosses drop gear such as Lethtendris's Wand and Energetic Rod.",
+      "keywords_es": [
+        "recompensas del Cuartel Alabeo",
+        "Varita de Lethtendris",
+        "Botas del canalón",
+        "Vara energética",
+        "equipo de La Masacre este"
+      ],
+      "keywords_en": [
+        "Warpwood Quarter rewards",
+        "Lethtendris's Wand",
+        "Waterspout Boots",
+        "Energetic Rod",
+        "Dire Maul East gear"
+      ],
+      "text_es": "Entre los objetos que dejan los jefes están la Varita de Lethtendris, las Botas del canalón de Hidromilecio y la Vara energética de Alzzin el Formaferal.",
+      "text_en": "Boss loot includes Lethtendris's Wand, Waterspout Boots from Hydrospawn, and Energetic Rod from Alzzin the Wildshaper.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Dire Maul Warpwood Quarter Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Foreve › Dire Maul Warpwood Quarter Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/dire-maul-warpwood-quarter-east-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:dire-maul-warpwood-quarter-east"
+      ],
+      "source_hashes": [
+        "section:2bd254cb6194b4739fd2a1b4ba3f5054a5c4c188"
+      ]
     }
   ]
 }
