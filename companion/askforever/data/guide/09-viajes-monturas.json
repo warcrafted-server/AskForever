@@ -5,136 +5,408 @@
       "id": "viaje-monturas",
       "chapter": 9,
       "status": "editorial",
-      "title_es": "Monturas: transporte por el exterior",
-      "title_en": "Mounts: Outdoor Travel",
-      "summary_es": "Las monturas son el principal medio de transporte terrestre y aumentan la velocidad por el exterior.",
-      "summary_en": "Mounts are the main ground transport and increase movement speed outdoors.",
+      "title_es": "Cómo conseguir monturas",
+      "title_en": "Ways to Obtain Mounts",
+      "summary_es": "Las monturas se obtienen mediante misiones, reputación, el sistema Legacy y paquetes de la tienda.",
+      "summary_en": "Mounts come from quests, reputation, the Legacy system and store packs.",
       "keywords_es": [
-        "monturas en forever",
-        "viajar más rápido",
-        "transporte terrestre",
-        "monturas coleccionables",
-        "moverse por el mundo"
+        "conseguir monturas",
+        "monturas de reputación",
+        "monturas de misiones",
+        "monturas de Legacy"
       ],
       "keywords_en": [
-        "forever mounts",
-        "travel faster",
-        "ground travel",
-        "collectible mounts",
-        "move around the world"
+        "get mounts",
+        "reputation mounts",
+        "quest mounts",
+        "Legacy mounts"
       ],
-      "text_es": "Las monturas son uno de los principales medios de transporte de Forever y permiten recorrer el exterior a más velocidad. Hay muchos tipos y aspectos, y forman parte de las colecciones permanentes del juego. Se usan al aire libre y son la forma habitual de cruzar zonas largas una vez desbloqueadas.",
-      "text_en": "Mounts are one of Forever's main means of transport and let you cross the outdoors at higher speed. There are many kinds and looks, and they are part of the game's permanent collections. They are used outdoors and become the usual way to cross long zones once unlocked.",
+      "text_es": "En Forever hay monturas ligadas a misiones, vendedores de reputación, puntos de Legacy y paquetes de la tienda. Algunas monturas de reputación cuestan oro; otras se desbloquean con una moneda de comerciante o con progreso de Legacy.",
+      "text_en": "In Forever, mounts are tied to quests, reputation vendors, Legacy Points and store packs. Some reputation mounts cost gold; others unlock through a merchant currency or Legacy progress.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: WoW Forever Collections Overview › Mounts in WoW Forever",
-          "url": "https://www.icy-veins.com/wow-forever/collectible-items",
-          "date": "2026-09-21"
+          "ref": "Wowhead: All Mounts in World of Warcraft: Forever - Models and Locations › Mounts Quick Reference for WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/collections/mounts-locations-appearances",
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "general:collectible-items"
+        "collection:mounts-locations-appearances"
       ],
       "source_hashes": [
-        "section:997d985a6f41292a464a09397e85bf147a5898aa"
+        "section:7e3c0d24ed1fcc0a5a273cc508322c9711f091a1"
       ]
     },
     {
       "id": "viaje-monturas-nivel",
       "chapter": 9,
       "status": "editorial",
-      "title_es": "Nivel 40 y coste de la primera montura",
-      "title_en": "Level 40 and First Mount Cost",
-      "summary_es": "No hay monturas antes del nivel 40; al 40 se desbloquea la montura al 60% por unas 100 monedas de oro.",
-      "summary_en": "There are no mounts before level 40; at 40 the 60% mount unlocks for about 100 gold.",
+      "title_es": "Aprendiz y Oficial jinete: niveles y coste",
+      "title_en": "Apprentice and Journeyman Riding: Levels and Cost",
+      "summary_es": "Aprendiz jinete se aprende al 40; Oficial jinete, al 60, con descuentos por reputación.",
+      "summary_en": "Apprentice Riding is learned at 40; Journeyman Riding at 60, with reputation discounts.",
       "keywords_es": [
-        "nivel de la montura",
-        "montura al 60",
-        "cuánto cuesta la montura",
-        "entrenamiento de jinete",
-        "montura nivel 40"
+        "nivel para montar",
+        "coste de equitación",
+        "montura de nivel 40",
+        "montura épica nivel 60"
       ],
       "keywords_en": [
-        "mount level",
-        "60% mount",
-        "mount cost",
-        "riding training",
-        "level 40 mount"
+        "riding level requirement",
+        "riding training cost",
+        "level 40 mount",
+        "level 60 epic mount"
       ],
-      "text_es": "Antes del nivel 40 no tienes acceso a monturas. Al llegar al 40 se desbloquea la montura al 60% de velocidad; el entrenamiento de jinete y la montura cuestan unas 100 monedas de oro en total. Conviene guardar oro para la montura en lugar de comprar todos los rangos de habilidad.",
-      "text_en": "There are no mounts before level 40. At 40 the 60% speed mount unlocks; riding training and the mount cost about 100 gold in total. It is worth saving gold for the mount instead of buying every ability rank.",
+      "text_es": "Aprendiz jinete requiere nivel 40 y da acceso a monturas que aumentan un 60% la velocidad: entrenar cuesta 100 de oro y la montura 20, aunque la primera es gratis. Oficial jinete requiere nivel 60; cuesta 1000 de oro y su montura de 200 también es gratis la primera vez. Con reputación Honorable obtienes un 10% de descuento.",
+      "text_en": "Apprentice Riding requires level 40 and unlocks mounts that increase speed by 60%: training costs 100 gold and a mount 20, although the first is free. Journeyman Riding requires level 60; training costs 1000 gold and its 200-gold mount is also free the first time. Honored reputation gives a 10% discount.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Survival Hunter Guide › Leveling Information",
-          "url": "https://www.icy-veins.com/wow-forever/survival-hunter-melee-dps-pve-guide",
-          "date": "2026-11-09"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Arms Warrior Leveling Guide › Leveling Milestones",
-          "url": "https://www.icy-veins.com/wow-forever/arms-warrior-leveling",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Learning to Ride and Getting Your First Mount: Costs and Location - WoW: Forever › Learning to Ride Mounts in Forever",
+          "url": "https://www.wowhead.com/forever/guide/unlocking-riding-skill-mounts",
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "class:hunter:survival:overview",
-        "class:warrior:arms:leveling"
+        "general:unlocking-riding-skill-mounts"
       ],
       "source_hashes": [
-        "section:06c2143cd5d2b54664ed750d0033e2b670f086ba",
-        "section:a9b8d5ad67fc9c97d86d66906c4e62e3ebf21320"
+        "section:f4820ee6eb966cece1aedfa9c61bcd5c4bec0b8b"
       ]
     },
     {
       "id": "viaje-monturas-coleccion",
       "chapter": 9,
       "status": "editorial",
-      "title_es": "Monturas de colección y ediciones",
-      "title_en": "Collection and Edition Mounts",
-      "summary_es": "Monturas de colección; las ediciones incluyen la Garramanada cerúleo y el Compañero fiel de aventurero veterano.",
-      "summary_en": "Mounts are collectible; paid editions include the Cerulean Prideclaw and the Veteran Adventurer's Loyal Companion.",
+      "title_es": "Monturas de ediciones",
+      "title_en": "Edition Mounts",
+      "summary_es": "Algunos paquetes de Forever incluyen monturas exclusivas de colección.",
+      "summary_en": "Some Forever packs include collectible mounts.",
       "keywords_es": [
-        "monturas de colección",
-        "garramanada cerúlea",
-        "compañero fiel de aventurero veterano",
         "monturas de edición",
-        "coleccionar monturas"
+        "Garramanada cerúleo",
+        "Compañero fiel de aventurero veterano",
+        "montura de paquete"
       ],
       "keywords_en": [
-        "collection mounts",
-        "cerulean prideclaw",
-        "veteran adventurer's loyal companion",
         "edition mounts",
-        "collect mounts"
+        "Cerulean Prideclaw",
+        "Veteran Adventurer's Loyal Companion",
+        "pack mount"
       ],
-      "text_es": "Las monturas forman parte de las colecciones y se pueden conseguir de distintas fuentes. Las ediciones de pago de Forever incluyen la Garramanada cerúleo y el Compañero fiel de aventurero veterano, disponibles tanto en Retail como en Forever. La colección de monturas es una de las actividades de coleccionista del juego.",
-      "text_en": "Mounts are part of the collections and can come from different sources. Forever's paid editions include the Cerulean Prideclaw and the Veteran Adventurer's Loyal Companion, available in both Retail and Forever. Collecting mounts is one of the game's collector activities.",
+      "text_es": "La Garramanada cerúleo se incluye al comprar cualquier paquete de Forever. El Compañero fiel de aventurero veterano viene con una edición épica o con la colección de Forever.",
+      "text_en": "Forever packs include Cerulean Prideclaw. Veteran Adventurer's Loyal Companion comes with a Skyborne Epic Pack or Warcraft Forever Collection.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: WoW Forever Collections Overview › Mounts in WoW Forever",
-          "url": "https://www.icy-veins.com/wow-forever/collectible-items",
-          "date": "2026-09-21"
+          "ref": "Wowhead: All Mounts in World of Warcraft: Forever - Models and Locations › Mounts Quick Reference for WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/collections/mounts-locations-appearances",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "collection:mounts-locations-appearances"
+      ],
+      "source_hashes": [
+        "section:7e3c0d24ed1fcc0a5a273cc508322c9711f091a1"
+      ]
+    },
+    {
+      "id": "viaje-barcos-zeppelin-tranvia",
+      "chapter": 9,
+      "status": "editorial",
+      "title_es": "Barcos, zepelines y tranvía",
+      "title_en": "Ships, Zeppelins and Tram",
+      "summary_es": "Barcos, zepelines y el tranvía son transportes gratuitos con horarios y accesos distintos.",
+      "summary_en": "Ships, zeppelins and the tram are free transport with different schedules and access.",
+      "keywords_es": [
+        "barcos gratis",
+        "usar zepelín",
+        "tranvía de Forjaz",
+        "transporte entre ciudades"
+      ],
+      "keywords_en": [
+        "free ships",
+        "ride a zeppelin",
+        "Deeprun Tram",
+        "city transport"
+      ],
+      "text_es": "Los barcos y zepelines son gratuitos y suelen llegar cada 3–5 minutos, con cerca de un minuto para subir. Los barcos están pensados sobre todo para la Alianza y los zepelines para la Horda; la facción contraria puede sufrir ataques de guardias. El tranvía entre Forjaz y Ventormenta también es gratis: llega cada minuto y espera 10 segundos.",
+      "text_en": "Ships and zeppelins are free and usually arrive every 3–5 minutes, with about a minute to board. Ships are mainly intended for the Alliance and zeppelins for the Horde; guards may attack members of the opposing faction. The tram between Ironforge and Stormwind is also free: it arrives every minute and waits 10 seconds.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Flight Points, Zeppelins, and Ships - WoW: Forever › Ships and Airships in Forever",
+          "url": "https://www.wowhead.com/forever/guide/flight-points-zeppelins-and-ships",
+          "date": "2026-11-16"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: WoW Forever Pre-Order Editions and Rewards Explained › Forever Pre-Orders Comparison",
-          "url": "https://www.icy-veins.com/wow-forever/wow-forever-pre-orders",
-          "date": "2026-09-13"
+          "ref": "Wowhead: Flight Points, Zeppelins, and Ships - WoW: Forever › Zeppelins in Forever",
+          "url": "https://www.wowhead.com/forever/guide/flight-points-zeppelins-and-ships",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Flight Points, Zeppelins, and Ships - WoW: Forever › Deeprun Tram in Forever",
+          "url": "https://www.wowhead.com/forever/guide/flight-points-zeppelins-and-ships",
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "general:collectible-items",
-        "general:wow-forever-pre-orders"
+        "general:flight-points-zeppelins-and-ships"
       ],
       "source_hashes": [
-        "section:997d985a6f41292a464a09397e85bf147a5898aa",
-        "section:a87a78ab96319aa8736862a6652e943ae9b98c1e"
+        "section:29652c9ee07944238a8f7fda614df3e756ed9b78",
+        "section:8ce9649fd4ec1f403b2230e2f133bb92df85183b",
+        "section:b039ba53f4d9fa08735bfb9bd1ad592284dc3b20"
+      ]
+    },
+    {
+      "id": "viaje-monturas-clases",
+      "chapter": 9,
+      "status": "editorial",
+      "title_es": "Monturas de misión para Paladines y Brujos",
+      "title_en": "Paladin and Warlock Class Mounts",
+      "summary_es": "Las misiones de clase de Paladín y Brujo otorgan monturas y la habilidad necesaria para usarlas.",
+      "summary_en": "Paladin and Warlock class quests grant mounts and the riding skill needed to use them.",
+      "keywords_es": [
+        "montura de paladín",
+        "montura de brujo",
+        "misión de montura",
+        "habilidad de equitación de clase"
+      ],
+      "keywords_en": [
+        "Paladin mount",
+        "Warlock mount",
+        "class mount quest",
+        "class riding skill"
+      ],
+      "text_es": "A nivel 40 y 60, las misiones de clase de Paladín y Brujo recompensan, respectivamente, una montura que aumenta la velocidad un 60% y otra un 100%. Cada una incluye la habilidad de equitación necesaria para montar esa recompensa.",
+      "text_en": "At levels 40 and 60, Paladin and Warlock class quests respectively reward a mount that increases speed by 60% and one that increases it by 100%. Each quest also grants the riding skill needed for its mount.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Learning to Ride and Getting Your First Mount: Costs and Location - WoW: Forever › Learning to Ride Mounts in Forever",
+          "url": "https://www.wowhead.com/forever/guide/unlocking-riding-skill-mounts",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:unlocking-riding-skill-mounts"
+      ],
+      "source_hashes": [
+        "section:f4820ee6eb966cece1aedfa9c61bcd5c4bec0b8b"
+      ]
+    },
+    {
+      "id": "viaje-mascotas-coleccion",
+      "chapter": 9,
+      "status": "editorial",
+      "title_es": "Cómo conseguir mascotas de compañía",
+      "title_en": "How to Obtain Companion Pets",
+      "summary_es": "Las mascotas de compañía son cosméticas y se consiguen mediante varias actividades y vendedores.",
+      "summary_en": "Companion pets are cosmetic and come from several activities and vendors.",
+      "keywords_es": [
+        "conseguir mascotas de compañía",
+        "mascotas cosméticas",
+        "mascotas de misión",
+        "mascotas de vendedor"
+      ],
+      "keywords_en": [
+        "obtain companion pets",
+        "cosmetic pets",
+        "quest pets",
+        "vendor pets"
+      ],
+      "text_es": "Las mascotas de compañía no participan en combate: son cosméticas. Se obtienen, entre otras formas, en la tienda, con puntos de Legacy, como botín, mediante misiones o vendedores, y por pesca, profesiones o reputación.",
+      "text_en": "Companion pets do not take part in combat; they are cosmetic. Sources include the store, Legacy Points, drops, quests or vendors, as well as fishing, professions and reputation.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: All Companions in World of Warcraft: Forever - Models and Locations › (intro)",
+          "url": "https://www.wowhead.com/forever/guide/collections/pets-locations-sources",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: All Companions in World of Warcraft: Forever - Models and Locations › Companions Quick Reference for WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/collections/pets-locations-sources",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "collection:pets-locations-sources"
+      ],
+      "source_hashes": [
+        "guide:31f23925ab44cf5818689e2cec92af47c2bbda42",
+        "section:eddb674c13a76d6fd015c8928e6c8a6f1d46b609"
+      ]
+    },
+    {
+      "id": "viaje-riverglades",
+      "chapter": 9,
+      "status": "editorial",
+      "title_es": "Clarofluvial: nivel y cómo llegar",
+      "title_en": "Riverglades: Level Range and Access",
+      "summary_es": "Clarofluvial es una zona disputada de nivel 36–44, accesible a pie o en barco desde Tanaris.",
+      "summary_en": "Riverglades is a contested level 36–44 zone, reachable on foot or by boat from Tanaris.",
+      "keywords_es": [
+        "Clarofluvial",
+        "nivel de Clarofluvial",
+        "llegar a Clarofluvial",
+        "barco desde Tanaris"
+      ],
+      "keywords_en": [
+        "Riverglades",
+        "Riverglades level range",
+        "reach Riverglades",
+        "boat from Tanaris"
+      ],
+      "text_es": "Clarofluvial es una zona disputada para niveles 36–44. Puedes llegar por el camino al norte de Montañas Crestagrana o al sur de Tierras Inhóspitas; también hay conexión marítima con Tanaris.",
+      "text_en": "Riverglades is a contested zone for levels 36–44. Reach it by road north of Redridge Mountains or south of Badlands, or take the boat connection to Tanaris.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Riverglades Zone Overview - Maps, Factions, and Transport › Overview of Riverglades",
+          "url": "https://www.wowhead.com/forever/guide/riverglades-zone-overview",
+          "date": "2026-11-07"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Riverglades Zone Overview - Maps, Factions, and Transport › How to get to Riverglades",
+          "url": "https://www.wowhead.com/forever/guide/riverglades-zone-overview",
+          "date": "2026-11-07"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:riverglades-zone-overview"
+      ],
+      "source_hashes": [
+        "section:28d0dc3a5891132b3bd68dd0df4ca35c3d43b6ad",
+        "section:f29b1f9a2e2738e4772783e1b76c71f5dfc0c780"
+      ]
+    },
+    {
+      "id": "viaje-zephras-isle",
+      "chapter": 9,
+      "status": "editorial",
+      "title_es": "Isla de Zephras: zona inicial de los Cielonatos",
+      "title_en": "Zephras Isle: Skyborne Starting Zone",
+      "summary_es": "La zona inicial de los Cielonatos abarca los niveles 1–12 y se puede visitar sin comprar un paquete.",
+      "summary_en": "The Skyborne starting zone spans levels 1–12 and can be visited without buying a pack.",
+      "keywords_es": [
+        "zona inicial Cielonato",
+        "niveles de Isla de Zephras",
+        "acceso a Cielonatos",
+        "paquete Cielonato"
+      ],
+      "keywords_en": [
+        "Skyborne starting zone",
+        "Zephras Isle level range",
+        "Skyborne access",
+        "Skyborne pack"
+      ],
+      "text_es": "La Isla de Zephras es la zona inicial de los Cielonatos y está pensada para niveles 1–12. Puedes visitar la isla sin comprar nada, pero para crear un Cielonato y jugar su experiencia de inicio necesitas una edición Heroica o superior.",
+      "text_en": "Zephras Isle is the Skyborne starting zone, intended for levels 1–12. You can visit the island without a purchase, but creating a Skyborne character and playing its starting experience requires the Skyborne Heroic Pack or a higher edition.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zephras Isle Zone Overview - Maps, Locations, and Trainers › Overview of Zephras Isle",
+          "url": "https://www.wowhead.com/forever/guide/zephras-isle-zone-overview",
+          "date": "2026-10-22"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:zephras-isle-zone-overview"
+      ],
+      "source_hashes": [
+        "section:39b5735cc3fbc7ac9bb591fe9dc7574a016772a6"
+      ]
+    },
+    {
+      "id": "viaje-barcos-zephras",
+      "chapter": 9,
+      "status": "editorial",
+      "title_es": "Barcos a Zephras Isle",
+      "title_en": "Boats to Zephras Isle",
+      "summary_es": "Dos barcos aéreos enlazan Valanaar con Dalaran y con las cercanías de Cima del Trueno.",
+      "summary_en": "Two skyboats connect Valanaar with Dalaran and the area near Thunder Bluff.",
+      "keywords_es": [
+        "barco a Zephras Isle",
+        "llegar desde Dalaran",
+        "llegar desde Cima del Trueno",
+        "barco aéreo Cielonato"
+      ],
+      "keywords_en": [
+        "boat to Zephras Isle",
+        "travel from Dalaran",
+        "travel from Thunder Bluff",
+        "Skyborne skyboat"
+      ],
+      "text_es": "Dos barcos aéreos pasan aproximadamente cada 5 minutos entre Valanaar y el exterior: uno va a Dalaran y el otro a un punto al norte de Cima del Trueno. Ambas facciones pueden usar cualquiera de las rutas, aunque suelen estar pensadas para la Alianza y la Horda, respectivamente.",
+      "text_en": "Two skyboats arrive about every 5 minutes between Valanaar and the outside world: one goes to Dalaran and the other to a point north of Thunder Bluff. Both factions can use either route, though they are generally intended for the Alliance and Horde, respectively.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zephras Isle Zone Overview - Maps, Locations, and Trainers › How to get to and From Zephras Isle",
+          "url": "https://www.wowhead.com/forever/guide/zephras-isle-zone-overview",
+          "date": "2026-10-22"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:zephras-isle-zone-overview"
+      ],
+      "source_hashes": [
+        "section:57c9dce99023ca0af358563496bbbfd15a8871a5"
+      ]
+    },
+    {
+      "id": "viaje-monturas-coleccion-ventana",
+      "chapter": 9,
+      "status": "editorial",
+      "title_es": "Dónde ver las monturas obtenidas",
+      "title_en": "Where to View Collected Mounts",
+      "summary_es": "La ventana de colecciones de cuenta reúne las monturas que ya has obtenido.",
+      "summary_en": "The Account Collections window gathers the mounts you have obtained.",
+      "keywords_es": [
+        "ver mis monturas",
+        "colección de monturas",
+        "monturas obtenidas",
+        "ventana de colecciones"
+      ],
+      "keywords_en": [
+        "view my mounts",
+        "mount collection",
+        "collected mounts",
+        "collections window"
+      ],
+      "text_es": "La ventana de colecciones de cuenta se abre con Mayús+P. Desde allí puedes encontrar y usar las monturas obtenidas.",
+      "text_en": "Open the Account Collections window with Shift+P. From there, you can find and use the mounts you have obtained.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Learning to Ride and Getting Your First Mount: Costs and Location - WoW: Forever › Learning to Ride Mounts in Forever",
+          "url": "https://www.wowhead.com/forever/guide/unlocking-riding-skill-mounts",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:unlocking-riding-skill-mounts"
+      ],
+      "source_hashes": [
+        "section:f4820ee6eb966cece1aedfa9c61bcd5c4bec0b8b"
       ]
     },
     {
@@ -184,40 +456,38 @@
       "id": "viaje-puntos-vuelo",
       "chapter": 9,
       "status": "editorial",
-      "title_es": "Puntos de vuelo para moverte por zonas",
-      "title_en": "Flight Paths for Crossing Zones",
-      "summary_es": "Puntos de vuelo cerca de Humedales, Los Baldíos, Sierra Espolón, Loch Modan y Trabalomas facilitan viajar entre zonas.",
-      "summary_en": "Flight paths near Wetlands, the Barrens, Stonetalon, Loch Modan and Hillsbrad help travel between zones.",
+      "title_es": "Cómo funcionan los puntos de vuelo",
+      "title_en": "How Flight Points Work",
+      "summary_es": "Desbloquea maestros de vuelo y conecta puntos intermedios para recorrer rutas largas.",
+      "summary_en": "Unlock flight masters and connect intermediate points to travel long routes.",
       "keywords_es": [
-        "puntos de vuelo",
-        "volar entre zonas",
-        "transporte por zonas",
+        "desbloquear punto de vuelo",
         "rutas de vuelo",
-        "viajar a humedales"
+        "coste de vuelo",
+        "parar durante un vuelo"
       ],
       "keywords_en": [
-        "flight paths",
-        "fly between zones",
-        "zone travel",
+        "unlock flight point",
         "flight routes",
-        "travel to wetlands"
+        "flight cost",
+        "stop during a flight"
       ],
-      "text_es": "Los puntos de vuelo desbloqueados son una forma práctica de llegar a zonas lejanas. Para la cadena del Saco de dormir acogedor conviene tener puntos de vuelo cerca de Humedales, Los Baldíos, Sierra Espolón, Loch Modan y Trabalomas. Tener esas rutas abiertas reduce el tiempo de viaje entre las paradas.",
-      "text_en": "Unlocked flight paths are a practical way to reach distant zones. For the Cozy Sleeping Bag questline it helps to have flight paths near the Wetlands, the Barrens, Stonetalon Mountains, Loch Modan and Hillsbrad Foothills. Having those routes open cuts travel time between stops.",
+      "text_es": "Habla con un maestro de vuelo para habilitar su punto. Las rutas enlazan puntos cercanos: para llegar lejos debes haber desbloqueado los tramos intermedios. Volar cuesta plata y el precio aumenta con la distancia; durante el trayecto puedes pedir que te dejen en el siguiente punto intermedio.",
+      "text_en": "Talk to a Flight Master to unlock that flight point. Routes connect nearby points, so a long trip requires the intermediate stops to be unlocked. Flights cost silver and become more expensive with distance; while travelling, you can request a drop-off at the next intermediate point.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: How to Get The Sleeping Bag in World of Warcraft Forever › How to Obtain the Cozy Sleeping Bag",
-          "url": "https://www.icy-veins.com/wow-forever/sleeping-bag",
-          "date": "2026-10-10"
+          "ref": "Wowhead: Flight Points, Zeppelins, and Ships - WoW: Forever › Flight Points in Forever",
+          "url": "https://www.wowhead.com/forever/guide/flight-points-zeppelins-and-ships",
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "general:sleeping-bag"
+        "general:flight-points-zeppelins-and-ships"
       ],
       "source_hashes": [
-        "section:9e8a84e4baf38dd6baa0bbc6ae3b1be325db86eb"
+        "section:8330235adff2e80958435979ec427edec9ad8151"
       ]
     }
   ]
