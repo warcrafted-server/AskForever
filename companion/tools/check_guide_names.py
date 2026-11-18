@@ -35,6 +35,9 @@ QUERIES = (
 )
 QUEST_QUERY = ("SELECT e.name, s.name FROM ext_quest_l10n e JOIN ext_quest_l10n s "
                "ON s.quest_id = e.quest_id AND s.locale = 'esES' WHERE e.locale = 'enUS'")
+# ext_npc_l10n trae a veces otra traducción; v_npc da la vista en el cliente esES («Manitas mayor
+# Mekkatorque» frente a «Alto Mecachifle Mekkatorque»).
+NPC_SEEN_QUERY = "SELECT nombre_en, nombre FROM v_npc WHERE nombre_idioma = 'es'"
 
 
 def official_names(db) -> dict:
@@ -52,7 +55,7 @@ def official_names(db) -> dict:
     # Una misión puede compartir nombre inglés con un hechizo y traducirse distinto («Path of
     # Defense»: misión «Camino de defensa», hechizo «Camino de la defensa»): su nombre vale como
     # alternativa. Solo como alternativa: muchos títulos de misión son frases comunes.
-    for english, spanish in db._rows(QUEST_QUERY) or []:
+    for english, spanish in [*(db._rows(QUEST_QUERY) or []), *(db._rows(NPC_SEEN_QUERY) or [])]:
         if english and spanish and normalize(english) in names:
             names[normalize(english)][2].add(spanish.strip())
     return names
