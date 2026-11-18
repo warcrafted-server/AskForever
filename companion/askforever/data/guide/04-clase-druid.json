@@ -1201,8 +1201,8 @@
         "rip druid",
         "shred druid"
       ],
-      "text_es": "Desde Acechar, abre con Devastar al desbloquearla (32) o Lanzarse (36); antes, usa Zarpa. Mantén Arañazo si el objetivo vivirá al menos 6 s y Destripar de 5 puntos si vivirá 6 s o más. Usa Triturar con Conjuro libre; si no puedes usarlo, Zarpa. Si al objetivo le quedan 3 s o menos y tienes más de 3 puntos de combo, remata con Mordedura feroz. Usa Poder cambiante 1/1 por debajo de 50 de Energía si no desperdicias recursos y reserva Energía para renovar los sangrados.",
-      "text_en": "From Prowl, open with Ravage when learned (32) or Pounce (36); before then, use Claw. Maintain Rake if the target will live at least 6 seconds and a 5-point Rip if it will live 6 seconds or longer. Use Shred with Clearcasting; if you cannot use it, use Claw. If the target has 3 seconds or less left and you have over 3 combo points, finish with Ferocious Bite. Use Shifting Power 1/1 below 50 Energy only if you will not waste resources, and pool Energy to refresh bleeds.",
+      "text_es": "Desde Acechar, abre con Devastar desde el nivel 32 o Lanzarse al 36; antes, usa Zarpa. Mantén Arañazo si el objetivo vivirá al menos 6 s y Destripar con 5 puntos si vivirá 6 s o más. Usa Triturar con Conjuro libre; si no, Zarpa. Si quedan 3 s o menos y tienes más de 3 puntos de combo, remata con Mordedura feroz. Usa Poder cambiante 1/1 por debajo de 50 de Energía si no la desperdicias y resérvala para renovar los sangrados.",
+      "text_en": "From Prowl, open with Ravage from level 32 or Pounce at 36; before then, use Claw. Maintain Rake if the target will live at least 6 seconds and a 5-point Rip if it will live 6 seconds or longer. Use Shred with Clearcasting; otherwise, use Claw. If the target has 3 seconds or less left and you have over 3 combo points, finish with Ferocious Bite. Use Shifting Power 1/1 below 50 Energy if it will not be wasted, and save Energy to refresh bleeds.",
       "tags": [
         "DRUID"
       ],
@@ -1211,7 +1211,7 @@
           "type": "editorial",
           "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Leveling Rotation for Feral Druid DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-leveling-tips",
-          "date": "2026-11-06"
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
@@ -1238,7 +1238,7 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:druid:extra:feral-cat-druid-leveling-guide-for-wow-forever",
         "class:druid:feral:leveling"
@@ -1248,7 +1248,7 @@
         "section:0bc5cc481039700a7e7aecf887eff733bcfc5fd1",
         "section:140fcb3add1f5c53c4d97f2d63548c10ac3b35fb",
         "section:8b26d61f560daf6a0fdc9876532e9eb6009c1830",
-        "section:df73f9d5c6934b64723f5933b3b1e04151305492"
+        "section:d459b256f0ca6c9bb5ceee4e02bef132c672cf8b"
       ]
     },
     {
@@ -2298,8 +2298,8 @@
         "druid talents equilibrio pve",
         "druid talent points equilibrio pve"
       ],
-      "text_es": "Rama de Equilibrio: Eclipse 3/3, Génesis 2/5, Fuegolunar mejorado 2/2, Fuego estelar mejorado 5/5, Cólera mejorada 5/5, Enjambre de insectos 1/1, Furia de luna 5/5, Brillo lunar 3/3, Forma de lechúcico lunar 1/1, Gracia de la naturaleza 1/1, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Venganza 5/5. Rama de Recuperación: Naturalista 5/5, Enfoque de la naturaleza 5/5, Sutileza 3/3.",
-      "text_en": "Balance: Eclipse 3/3, Genesis 2/5, Improved Moonfire 2/2, Improved Starfire 5/5, Improved Wrath 5/5, Insect Swarm 1/1, Moonfury 5/5, Moonglow 3/3, Moonkin Form 1/1, Nature's Grace 1/1, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Vengeance 5/5. Restoration: Naturalist 5/5, Nature's Focus 5/5, Subtlety 3/3.",
+      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Génesis 2/5, Brillo lunar 3/3, Fuegolunar mejorado 2/2, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Venganza 5/5, Fuego estelar mejorado 5/5, Gracia de la naturaleza 1/1, Eclipse 3/3, Furia de luna 5/5 y Forma de lechúcico lunar 1/1. En Recuperación: Enfoque de la naturaleza 5/5, Naturalista 5/5 y Refracción 3/3.",
+      "text_en": "Balance: Improved Wrath 5/5, Genesis 2/5, Moonglow 3/3, Improved Moonfire 2/2, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Insect Swarm 1/1, Vengeance 5/5, Improved Starfire 5/5, Nature's Grace 1/1, Eclipse 3/3, Moonfury 5/5, and Moonkin Form 1/1. Restoration: Nature's Focus 5/5, Naturalist 5/5, and Reflection 3/3.",
       "tags": [
         "DRUID"
       ],
@@ -2308,15 +2308,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Balance Druid Talent Tree Builds - Forever › Best Balance Druid PvE Raid and Dungeon Build",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/talent-builds-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:druid:balance:talents"
       ],
       "source_hashes": [
-        "section:d91f22f6e2cdd1646d64e398c955f8500f7f6218"
+        "section:e03c13c86b67a2edbcfba6692fe83dc5e521928f"
       ]
     },
     {
@@ -2337,8 +2337,8 @@
         "druid talents equilibrio pvp",
         "druid talent points equilibrio pvp"
       ],
-      "text_es": "Rama de Equilibrio: Génesis 3/5, Enredaderas 3/3, Fuegolunar mejorado 2/2, Cólera mejorada 5/5, Enjambre de insectos 1/1, Furia de luna 5/5, Brillo lunar 3/3, Forma de lechúcico lunar 1/1, Gracia de la naturaleza 1/1, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Sobrecrecimiento 2/2, Venganza 5/5. Rama de Combate feral: Impacto brutal 2/2, Corazón de lo Salvaje 5/5, Pellejo grueso 3/3. Rama de Recuperación: Enfoque de la naturaleza 5/5.",
-      "text_en": "Balance: Genesis 3/5, Improved Entangling Roots 3/3, Improved Moonfire 2/2, Improved Wrath 5/5, Insect Swarm 1/1, Moonfury 5/5, Moonglow 3/3, Moonkin Form 1/1, Nature's Grace 1/1, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Overgrowth 2/2, Vengeance 5/5. Feral: Brutal Impact 2/2, Heart of the Wild 5/5, Thick Hide 3/3. Restoration: Nature's Focus 5/5.",
+      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Génesis 5/5, Brillo lunar 3/3, Fuegolunar mejorado 2/2, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Enredaderas 3/3, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Venganza 5/5, Sobrecrecimiento 2/2, Gracia de la naturaleza 1/1, Furia de luna 5/5 y Forma de lechúcico lunar 1/1. En Recuperación: Enfoque de la naturaleza 5/5, Naturalista 5/5 y Refracción 3/3.",
+      "text_en": "Balance: Improved Wrath 5/5, Genesis 5/5, Moonglow 3/3, Improved Moonfire 2/2, Nature's Majesty 2/2, Nature's Reach 2/2, Improved Entangling Roots 3/3, Nature's Splendor 1/1, Insect Swarm 1/1, Vengeance 5/5, Overgrowth 2/2, Nature's Grace 1/1, Moonfury 5/5, and Moonkin Form 1/1. Restoration: Nature's Focus 5/5, Naturalist 5/5, and Reflection 3/3.",
       "tags": [
         "DRUID"
       ],
@@ -2347,15 +2347,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Balance Druid Talent Tree Builds - Forever › Best Balance Druid PvP Build",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/talent-builds-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:druid:balance:talents"
       ],
       "source_hashes": [
-        "section:c08324e09ba8d6442a0fbd123c74d0a0f034c737"
+        "section:13e20a0883fc31848aaece498e04d7db5e42d649"
       ]
     },
     {
@@ -2997,8 +2997,8 @@
       "status": "editorial",
       "title_es": "Alternativa de Eclipse para banda",
       "title_en": "Hard-Cast Eclipse Raid Option",
-      "summary_es": "En banda, se prefiere Eclipse con casteos largos; no hay otro reparto de puntos descodificado.",
-      "summary_en": "Raids favor hard-cast Eclipse; no second point allocation is decoded.",
+      "summary_es": "En banda se prefiere el casteo largo con Eclipse y la asignación PvE.",
+      "summary_en": "Raids favor hard-cast Eclipse with the PvE allocation.",
       "keywords_es": [
         "equilibrio eclipse banda",
         "build casteo eclipse",
@@ -3009,8 +3009,8 @@
         "hardcast eclipse build",
         "balance raid alternative"
       ],
-      "text_es": "En banda se considera óptimo un estilo centrado en lanzar hechizos durante Eclipse, frente al multidot inicial. No se detalla una asignación independiente de talentos con puntos para esta alternativa.",
-      "text_en": "For raids, a hard-cast Eclipse approach is considered optimal over the early multidot route. No separate point-by-point talent allocation is provided for this alternative.",
+      "text_es": "En banda se considera óptima la build de casteo largo centrada en Eclipse. Usa la asignación completa de la tarjeta «Build de Equilibrio JcE para banda/mazmorra»; no es un reparto distinto.",
+      "text_en": "For raids, the hard-cast Eclipse build is considered optimal. Use the complete allocation in the “Balance PvE Raid/Dungeon Build” card; it is not a separate point spread.",
       "tags": [
         "DRUID"
       ],
@@ -3019,15 +3019,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Balance Druid Talent Tree Builds - Forever › Best Balance Druid PvE Raid and Dungeon Build",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/talent-builds-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:druid:balance:talents"
       ],
       "source_hashes": [
-        "section:d91f22f6e2cdd1646d64e398c955f8500f7f6218"
+        "section:e03c13c86b67a2edbcfba6692fe83dc5e521928f"
       ]
     },
     {
@@ -3401,8 +3401,8 @@
         "druid leveling talents build-feral-dps",
         "druid talent points build-feral-dps"
       ],
-      "text_es": "Rama de Equilibrio: Génesis 5/5, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2. Rama de Combate feral: Ferocidad 5/5, Furor 3/5, Presteza feral 2/2, Furia salvaje 2/2, Carga feral 1/1, Garras afiladas 2/2, Golpes depredadores 3/3, Lacerar 1/1, Disciplina depredadora 1/1, Frenesí sangriento 2/2, Líder de la manada 1/1, Instinto natural 2/2, Desgarrar y rasgar 5/5, Mordisco primigenio 1/1, Poder cambiante 1/1. Rama de Recuperación: Corazón de lo Salvaje 5/5, Naturalista 5/5. Es la distribución híbrida recomendada para subir como Feral.",
-      "text_en": "Balance: Genesis 5/5, Nature's Majesty 2/2, Nature's Reach 2/2. Feral: Ferocity 5/5, Furor 3/5, Feral Swiftness 2/2, Savage Fury 2/2, Feral Charge 1/1, Sharpened Claws 2/2, Predatory Strikes 3/3, Lacerate 1/1, Predatory Discipline 1/1, Blood Frenzy 2/2, Leader of the Pack 1/1, Natural Instinct 2/2, Rend and Tear 5/5, Primal Bite 1/1, Shifting Power 1/1. Restoration: Heart of the Wild 5/5, Naturalist 5/5. This is the recommended hybrid allocation for leveling as Feral.",
+      "text_es": "Rama de Combate feral: Ferocidad 5/5, Presteza feral 2/2, Instinto feral 3/3, Impacto brutal 2/2, Furia salvaje 2/2, Carga feral 1/1, Garras afiladas 2/2, Golpes depredadores 3/3, Lacerar 1/1, Disciplina depredadora 1/1, Frenesí sangriento 2/2, Líder de la manada 1/1, Instinto natural 2/2, Desgarrar y rasgar 5/5, Mordisco primigenio 1/1 y Poder cambiante 1/1. En Recuperación: Corazón de lo Salvaje 5/5, Naturalista 5/5, Refracción 3/3, Metamorfosis natural 3/3 y Arreglo rápido 1/1.",
+      "text_en": "Feral: Ferocity 5/5, Feral Swiftness 2/2, Feral Instinct 3/3, Brutal Impact 2/2, Savage Fury 2/2, Feral Charge 1/1, Sharpened Claws 2/2, Predatory Strikes 3/3, Lacerate 1/1, Predatory Discipline 1/1, Blood Frenzy 2/2, Leader of the Pack 1/1, Natural Instinct 2/2, Rend and Tear 5/5, Primal Bite 1/1, and Shifting Power 1/1. Restoration: Heart of the Wild 5/5, Naturalist 5/5, Reflection 3/3, Natural Shapeshifter 3/3, and Swiftmend 1/1.",
       "tags": [
         "DRUID"
       ],
@@ -3411,15 +3411,15 @@
           "type": "editorial",
           "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Feral Druid DPS in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-leveling-tips",
-          "date": "2026-11-06"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:druid:feral:leveling"
       ],
       "source_hashes": [
-        "section:82000e70c5f24a51e8fca7590c975587158e5645"
+        "section:287fff66b2254f75c86f36f0ad86e374aa5aec80"
       ]
     },
     {
@@ -4201,15 +4201,15 @@
           "type": "editorial",
           "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Best Abilities to Train for Feral Druid DPS in WoW: Forever > Mandatory Abilities to Train for Feral Druid",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-leveling-tips",
-          "date": "2026-11-06"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:druid:feral:leveling"
       ],
       "source_hashes": [
-        "guide:17c573f40e4b11b836ac29a04d4dfd3382f831a5"
+        "guide:cc871315f2b9ec61d98d1256390fa37339b87e21"
       ]
     },
     {
@@ -4240,15 +4240,15 @@
           "type": "editorial",
           "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Best Abilities to Train for Feral Druid DPS in WoW: Forever > Useful Abilities to Skip Training for Feral Druid",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-leveling-tips",
-          "date": "2026-11-06"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:druid:feral:leveling"
       ],
       "source_hashes": [
-        "guide:17c573f40e4b11b836ac29a04d4dfd3382f831a5"
+        "guide:cc871315f2b9ec61d98d1256390fa37339b87e21"
       ]
     },
     {
@@ -4435,7 +4435,7 @@
           "type": "editorial",
           "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Leveling Rotation for Feral Druid DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-leveling-tips",
-          "date": "2026-11-06"
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
@@ -4444,14 +4444,14 @@
           "date": "2026-10-20"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:druid:extra:feral-cat-druid-leveling-guide-for-wow-forever",
         "class:druid:feral:leveling"
       ],
       "source_hashes": [
         "section:0bc5cc481039700a7e7aecf887eff733bcfc5fd1",
-        "section:df73f9d5c6934b64723f5933b3b1e04151305492"
+        "section:d459b256f0ca6c9bb5ceee4e02bef132c672cf8b"
       ]
     },
     {
@@ -4979,15 +4979,15 @@
           "type": "editorial",
           "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Feral Druid DPS in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-leveling-tips",
-          "date": "2026-11-06"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:druid:feral:leveling"
       ],
       "source_hashes": [
-        "section:82000e70c5f24a51e8fca7590c975587158e5645"
+        "section:287fff66b2254f75c86f36f0ad86e374aa5aec80"
       ]
     }
   ]
