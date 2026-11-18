@@ -940,6 +940,1012 @@
         "guide:b3490aeb69cf62244ea6de502aaec21f6e85c3af",
         "section:557d82400bf5f5edd53b5fb1d3d77c94dd7ff9a2"
       ]
+    },
+    {
+      "id": "general-misiones-feria-calendario",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Cuándo aparece la Feria de la Luna Negra",
+      "title_en": "When the Darkmoon Faire Appears",
+      "summary_es": "La feria alterna entre Bosque de Elwynn y Mulgore y abre de lunes a domingo.",
+      "summary_en": "The Faire alternates between Elwynn Forest and Mulgore and opens Monday through Sunday.",
+      "keywords_es": [
+        "cuándo abre la Feria de la Luna Negra",
+        "calendario de la Feria",
+        "dónde está la Feria de la Luna Negra"
+      ],
+      "keywords_en": [
+        "when Darkmoon Faire opens",
+        "Darkmoon Faire schedule",
+        "where Darkmoon Faire is"
+      ],
+      "text_es": "La Feria de la Luna Negra llega cada mes y alterna entre el sur de Villadorada, en el Bosque de Elwynn, y el suroeste de Cima del Trueno, en Mulgore. Se instala desde el primer viernes del mes, pero abre el lunes y cierra el domingo siguiente; durante el montaje no funcionan los puestos, juegos ni misiones.",
+      "text_en": "The Darkmoon Faire arrives monthly, alternating between south of Goldshire in Elwynn Forest and southwest of Thunder Bluff in Mulgore. Setup begins on the month's first Friday, but the Faire opens on Monday and closes the following Sunday; vendors, games, and quest NPCs are unavailable during setup.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkmoon Faire Event Overview Guide:  Location, Dates, Quests & Rewards - Wow: Forever › Darkmoon Faire Schedule in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/darkmoon-faire-event-overview-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:darkmoon-faire-event-overview-guide"
+      ],
+      "source_hashes": [
+        "section:7303c654847ea2913c68b0d47c54475b86cbb677"
+      ]
+    },
+    {
+      "id": "general-misiones-feria-fichas-obtencion",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Cómo conseguir fichas de la Feria",
+      "title_en": "How to Earn Faire Tickets",
+      "summary_es": "Los encargos repetibles aceptan piezas de animales y objetos de tres profesiones.",
+      "summary_en": "Repeatable turn-ins accept animal parts and items from three professions.",
+      "keywords_es": [
+        "conseguir fichas de la Feria",
+        "encargos repetibles de la Feria",
+        "objetos para la Feria de la Luna Negra"
+      ],
+      "keywords_en": [
+        "earn Darkmoon Faire tickets",
+        "repeatable Faire turn-ins",
+        "items for the Darkmoon Faire"
+      ],
+      "text_es": "Durante la Feria puedes repetir encargos de piezas de animales y de objetos de Ingeniería, Peletería o Herrería. No hace falta conocer esas profesiones ni fabricar los objetos: también puedes comprarlos o pedir que los prepare otro personaje. No son misiones diarias y cada entrega concede reputación además de fichas.",
+      "text_en": "During its open week, repeatable turn-ins take animal parts or goods produced with Engineering, Leatherworking, and Blacksmithing. You need neither a profession nor the crafting skill: the items may be bought or supplied by another character. The quests have no daily limit, and every delivery also improves your standing with the event.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkmoon Faire Event Overview Guide:  Location, Dates, Quests & Rewards - Wow: Forever › Darkmoon Faire Tickets in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/darkmoon-faire-event-overview-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:darkmoon-faire-event-overview-guide"
+      ],
+      "source_hashes": [
+        "section:6806db3c054ceef8aa4af68f3759ee28c7056576"
+      ]
+    },
+    {
+      "id": "general-misiones-feria-fichas-tramos",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Niveles y tramos de fichas",
+      "title_en": "Ticket Tiers and Level Requirements",
+      "summary_es": "Cinco tramos entregan de 1 a 20 fichas según nivel y reputación.",
+      "summary_en": "Five tiers award 1 to 20 tickets according to level and reputation.",
+      "keywords_es": [
+        "cuántas fichas da cada encargo",
+        "nivel mínimo encargos de la Feria",
+        "tramos de reputación Feria de la Luna Negra"
+      ],
+      "keywords_en": [
+        "tickets per Faire turn-in",
+        "Faire quest minimum level",
+        "Darkmoon Faire reputation cutoffs"
+      ],
+      "text_es": "Los cinco tramos requieren niveles 1, 10, 20, 30 y 40, y entregan respectivamente 1, 4, 8, 12 y 20 fichas. Cada entrega da 100 puntos de reputación, pero solo hasta el límite de su tramo: 500/3000, 1100/3000, 1700/3000 y 2500/3000 de Neutral, y 5999/6000 de Amistoso para el último. Al alcanzar el límite, el encargo desaparece.",
+      "text_en": "The five tiers require levels 1, 10, 20, 30, and 40, and award 1, 4, 8, 12, and 20 tickets respectively. Each turn-in grants 100 reputation, but only up to its tier's cutoff: 500/3000, 1100/3000, 1700/3000, and 2500/3000 Neutral, then 5999/6000 Friendly for the final tier. Once the cutoff is reached, that quest disappears.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkmoon Faire Event Overview Guide:  Location, Dates, Quests & Rewards - Wow: Forever › Earning Darkmoon Faire Prize Tickets and Reputation in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/darkmoon-faire-event-overview-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:darkmoon-faire-event-overview-guide"
+      ],
+      "source_hashes": [
+        "section:bd30246609a007f82d409b4eee718d3985f87746"
+      ]
+    },
+    {
+      "id": "general-misiones-feria-gastar-fichas",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "En qué gastar las fichas de la Feria",
+      "title_en": "What to Spend Faire Tickets On",
+      "summary_es": "La caja de 14 casillas cuesta 50 fichas; dos objetos de nivel 55 cuestan 1200.",
+      "summary_en": "The 14-slot bag costs 50 tickets; two level-55 items cost 1200.",
+      "keywords_es": [
+        "premios por fichas de la Feria",
+        "bolsa de la Luna Negra",
+        "caja para guardar de la Luna Negra"
+      ],
+      "keywords_en": [
+        "Faire ticket rewards",
+        "Darkmoon bag",
+        "Darkmoon Storage Box"
+      ],
+      "text_es": "Entre los premios, la Caja para guardar de la Luna Negra destaca como bolsa de 14 casillas: cuesta 50 fichas, se puede comprar desde nivel 6 y es única, así que solo obtienes una. También hay dos objetos que cuestan 1200 fichas y requieren nivel 55. Las cajas de premio pueden contener equipo, bolsas, gemas y, en las de mayor nivel, recetas o armas.",
+      "text_en": "One standout reward is the Darkmoon Storage Box, a 14-slot bag costing 50 tickets; it is available at level 6 and is unique, so you can only get one. Two other rewards cost 1200 tickets and require level 55. Prize boxes can contain gear, bags, and gems, while the higher-level box can also include recipes or weapons.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkmoon Faire Event Overview Guide:  Location, Dates, Quests & Rewards - Wow: Forever › Spending Darkmoon Faire Tickets in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/darkmoon-faire-event-overview-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:darkmoon-faire-event-overview-guide"
+      ],
+      "source_hashes": [
+        "section:eb9e7037bb344188c458a325a2c2d8deb7434474"
+      ]
+    },
+    {
+      "id": "general-misiones-feria-reputacion",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Para qué sirve la reputación de la Feria",
+      "title_en": "What Faire Reputation Does",
+      "summary_es": "La reputación afecta a los precios; tras Amistoso, solo sube entregando barajas.",
+      "summary_en": "Reputation affects prices; after Friendly, only deck turn-ins raise it.",
+      "keywords_es": [
+        "reputación Feria de la Luna Negra",
+        "subir reputación de la Feria",
+        "recompensas de reputación Feria"
+      ],
+      "keywords_en": [
+        "Darkmoon Faire reputation",
+        "raise Faire reputation",
+        "Faire reputation rewards"
+      ],
+      "text_es": "La reputación con la Feria de la Luna Negra solo mejora los precios de sus vendedores; no ofrece otras ventajas. Empiezas en Neutral, y los encargos de materiales permiten avanzar hasta 5999 de 6000 en Amistoso. A partir de ahí, entregar una baraja de la Luna Negra es la única forma de ganar reputación: cada una concede 150 puntos.",
+      "text_en": "Darkmoon Faire reputation only improves its vendors' prices; it grants no other benefits. You start at Neutral, and material turn-ins can raise reputation to 5999 of 6000 at Friendly. After that, turning in a Darkmoon deck is the only way to gain more reputation, awarding 150 points each.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkmoon Faire Event Overview Guide:  Location, Dates, Quests & Rewards - Wow: Forever › Darkmoon Faire Reputation in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/darkmoon-faire-event-overview-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:darkmoon-faire-event-overview-guide"
+      ],
+      "source_hashes": [
+        "section:8cc610a378f0d7b5fdee3c6167c2d27ccd277b5e"
+      ]
+    },
+    {
+      "id": "general-misiones-feria-bendiciones",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Bendiciones y augurios de la Feria",
+      "title_en": "Faire Buffs and Fortunes",
+      "summary_es": "Dos respuestas determinan una de ocho mejoras de dos horas.",
+      "summary_en": "Two answers determine one of eight buffs lasting two hours.",
+      "keywords_es": [
+        "mejoras de la Feria de la Luna Negra",
+        "bendición de Sayge",
+        "cómo elegir una mejora de la Feria"
+      ],
+      "keywords_en": [
+        "Darkmoon Faire buffs",
+        "Sayge's fortune buff",
+        "choose a Faire buff"
+      ],
+      "text_es": "Las respuestas a dos preguntas determinan cuál de ocho mejoras recibes: cinco aumentan una estadística, dos son secundarias y una mejora el daño. Duran 2 horas y puedes pedir otro augurio y mejora tras 4 horas de tiempo conectado. También recibes un augurio, aunque la mayoría solo contiene un dicho.",
+      "text_en": "Your answers to two questions determine which of eight buffs you receive: five increase a stat, two are secondary buffs, and one increases damage. They last 2 hours, and you can request another fortune and buff after 4 hours of logged time. You also receive a fortune, though most contain only a saying.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkmoon Faire Event Overview Guide:  Location, Dates, Quests & Rewards - Wow: Forever › Darkmoon Faire Buffs and Fortunes in Forever",
+          "url": "https://www.wowhead.com/forever/guide/darkmoon-faire-event-overview-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkmoon Faire Event Overview Guide:  Location, Dates, Quests & Rewards - Wow: Forever › How to Answer to get the World Buff you want in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/darkmoon-faire-event-overview-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:darkmoon-faire-event-overview-guide"
+      ],
+      "source_hashes": [
+        "section:83148abe170ab214ff2644e66247b1a79e63baf5",
+        "section:c17ae127951c5b8b634a80b8dfcd9b62ef821874"
+      ]
+    },
+    {
+      "id": "general-misiones-feria-juegos",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Juegos de la Feria",
+      "title_en": "Darkmoon Faire Games",
+      "summary_es": "La feria ofrece un cañón de lanzamiento y combates entre tanques teledirigidos.",
+      "summary_en": "The Faire offers a launch cannon and remote-controlled tank battles.",
+      "keywords_es": [
+        "juegos de la Feria",
+        "cañón de la Feria de la Luna Negra",
+        "tanques teledirigidos de la Feria"
+      ],
+      "keywords_en": [
+        "Darkmoon Faire games",
+        "Faire cannon game",
+        "Faire remote-controlled tanks"
+      ],
+      "text_es": "Puedes probar dos actividades: lanzarte con un cañón hacia un blanco acuático o manejar un tanque teledirigido contra los de otros jugadores. Son juegos recreativos, no dan premios. El tanque dura hasta 5 minutos o hasta que lo destruyan o salga de su zona de control.",
+      "text_en": "Two activities are available: launch yourself from a cannon toward a water target, or drive a remote-controlled tonk against other players' tonks. They are for fun and award no prizes. A tonk lasts up to 5 minutes, or until it is defeated or leaves its operating area.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkmoon Faire Event Overview Guide:  Location, Dates, Quests & Rewards - Wow: Forever › Fun and Games: The Human Cannonball and Tank Battle Simulator",
+          "url": "https://www.wowhead.com/forever/guide/darkmoon-faire-event-overview-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkmoon Faire Event Overview Guide:  Location, Dates, Quests & Rewards - Wow: Forever › The Humanoid Cannonball",
+          "url": "https://www.wowhead.com/forever/guide/darkmoon-faire-event-overview-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkmoon Faire Event Overview Guide:  Location, Dates, Quests & Rewards - Wow: Forever › Tank Battle Simulator",
+          "url": "https://www.wowhead.com/forever/guide/darkmoon-faire-event-overview-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:darkmoon-faire-event-overview-guide"
+      ],
+      "source_hashes": [
+        "section:1e2f74a32a07e007907b2aa726ae979bf72d81c9",
+        "section:39d8e32c2357242ad62a665525cd533c7b5fa1f4",
+        "section:84fe43d9af800e4137c17aa6ace496ba42898503"
+      ]
+    },
+    {
+      "id": "general-misiones-feria-canon",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Consejos para el cañón de la Feria",
+      "title_en": "Darkmoon Faire Cannon Tips",
+      "summary_es": "Aterrizar en el blanco acuático evita morir; si fallas, toca volver a pie.",
+      "summary_en": "Landing in the water target prevents death; a miss means running back.",
+      "keywords_es": [
+        "fallar el cañón de la Feria",
+        "blanco acuático Feria de la Luna Negra",
+        "evitar daños con el cañón"
+      ],
+      "keywords_en": [
+        "miss the Faire cannon target",
+        "Darkmoon Faire water target",
+        "avoid cannon repair costs"
+      ],
+      "text_es": "El objetivo del cañón es caer en el blanco situado en el agua; si lo alcanzas, sobrevives, pero fallarlo te mata. Antes de subir, quítate las piezas de armadura y armas que puedan estropearse para evitar gastos de reparación. No hay transporte de vuelta: tendrás que regresar corriendo.",
+      "text_en": "The cannon's target is a patch of water: landing in it keeps you alive, while missing kills you. Remove breakable armor and weapons first to avoid repair costs. There is no ride back, so you will need to run to the cannon again.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkmoon Faire Event Overview Guide:  Location, Dates, Quests & Rewards - Wow: Forever › The Humanoid Cannonball",
+          "url": "https://www.wowhead.com/forever/guide/darkmoon-faire-event-overview-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:darkmoon-faire-event-overview-guide"
+      ],
+      "source_hashes": [
+        "section:84fe43d9af800e4137c17aa6ace496ba42898503"
+      ]
+    },
+    {
+      "id": "general-misiones-feria-barajas",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Cómo funcionan las barajas de la Luna Negra",
+      "title_en": "How Darkmoon Decks Work",
+      "summary_es": "Ocho cartas, del As al Ocho, se combinan para entregar una baraja.",
+      "summary_en": "Eight cards, Ace through Eight, combine into a deck for turn-in.",
+      "keywords_es": [
+        "completar baraja de la Luna Negra",
+        "cartas As a Ocho",
+        "entregar baraja de la Luna Negra"
+      ],
+      "keywords_en": [
+        "complete a Darkmoon deck",
+        "Ace through Eight cards",
+        "turn in a Darkmoon deck"
+      ],
+      "text_es": "Cada baraja se forma reuniendo sus ocho cartas, numeradas del As al Ocho, y combinándolas. Las cartas pueden intercambiarse o venderse, pero el abalorio creado al entregar la baraja queda ligado al personaje. La misión de entrega se realiza con el Profesor Tadeo Paleo en la Feria.",
+      "text_en": "Build each deck by collecting and combining its eight cards, numbered Ace through Eight. The cards can be traded or sold, but the trinket awarded for turning in a deck becomes soulbound. Take the turn-in quest to Professor Thaddeus Paleo at the Faire.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkmoon Faire Event Overview Guide:  Location, Dates, Quests & Rewards - Wow: Forever › Darkmoon Decks and Cards in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/darkmoon-faire-event-overview-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:darkmoon-faire-event-overview-guide"
+      ],
+      "source_hashes": [
+        "section:a8808dad1d12d262ebb519b550de3cf632cba8c3"
+      ]
+    },
+    {
+      "id": "general-misiones-feria-abalorios",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Abalorios de las barajas de la Feria",
+      "title_en": "Faire Deck Trinkets",
+      "summary_es": "Hay cuatro barajas clásicas; sus abalorios requieren nivel 60.",
+      "summary_en": "There are four classic decks; their trinkets require level 60.",
+      "keywords_es": [
+        "abalorios de la Luna Negra",
+        "barajas clásicas de la Feria",
+        "Ases de la Luna Negra"
+      ],
+      "keywords_en": [
+        "Darkmoon deck trinkets",
+        "classic Faire decks",
+        "Darkmoon Aces"
+      ],
+      "text_es": "Las cuatro barajas clásicas crean abalorios que requieren nivel 60. Los Ases se obtienen de jefes concretos, mientras que las cartas del Dos al Ocho pueden caer de humanoides o no muertos de nivel 45 a 60. Los abalorios están ocultos hasta que alguien los encuentra, así que sus efectos no siempre se conocen de antemano.",
+      "text_en": "The four classic decks create trinkets that require level 60. Aces drop from specific bosses, while cards Two through Eight can drop from level 45 to 60 Humanoids and Undead. The trinkets remain obscured until discovered, so their effects are not always known in advance.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkmoon Faire Event Overview Guide:  Location, Dates, Quests & Rewards - Wow: Forever › Darkmoon Faire Trinkets in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/darkmoon-faire-event-overview-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkmoon Faire Event Overview Guide:  Location, Dates, Quests & Rewards - Wow: Forever › Where to Find Classic 2-8 Darkmoon Cards",
+          "url": "https://www.wowhead.com/forever/guide/darkmoon-faire-event-overview-guide",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:darkmoon-faire-event-overview-guide"
+      ],
+      "source_hashes": [
+        "guide:8e9f155f42da895f637b3940d942a9bba75335de",
+        "section:20917c7abaf057e78dbe7868b3f6913fde99ffc8"
+      ]
+    },
+    {
+      "id": "general-misiones-feria-mascotas-ranas",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Ranas de compañía de la Feria",
+      "title_en": "Darkmoon Faire Companion Frogs",
+      "summary_es": "Dos cajas de rana cuestan 1 de oro cada una y no exigen reputación.",
+      "summary_en": "Two frog boxes cost 1 gold each and require no reputation.",
+      "keywords_es": [
+        "mascotas rana de la Feria",
+        "Caja de rana de madera",
+        "Carcasa de rana de árbol"
+      ],
+      "keywords_en": [
+        "Faire frog pets",
+        "Wood Frog Box",
+        "Tree Frog Box"
+      ],
+      "text_es": "Durante la Feria puedes comprar la Caja de rana de madera o la Carcasa de rana de árbol por 1 de oro cada una. No necesitas reputación con la Feria para adquirirlas. La primera tiene existencias limitadas, mientras que la segunda se vende sin límite.",
+      "text_en": "During the festival, you can buy a Wood Frog Box or Tree Frog Box for 1 gold each. Reputation is not a requirement. The first has limited stock, while the second is available without a stock limit.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkmoon Faire Event Overview Guide:  Location, Dates, Quests & Rewards - Wow: Forever › Companion Pets",
+          "url": "https://www.wowhead.com/forever/guide/darkmoon-faire-event-overview-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Darkmoon Faire",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:darkmoon-faire-event-overview-guide",
+        "general:lotr-a-collectors-guide-to-wow-forever-34946"
+      ],
+      "source_hashes": [
+        "section:1e1b7c7ed959de79f3674f0e7f61a998aa03b75c",
+        "section:c14cb0e1d500fad159b54b44a45f9b7a5eaed9b9"
+      ]
+    },
+    {
+      "id": "general-misiones-feria-huevo-jubling",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Conseguir el huevo de Jubling",
+      "title_en": "Getting the Jubling Egg",
+      "summary_es": "Deja una jarra junto a Morja y entrega una segunda cuando aparezca la misión.",
+      "summary_en": "Place a mug by Morja, then turn in a second one when the quest appears.",
+      "keywords_es": [
+        "Huevo sin abrir de Jubling",
+        "mascota de la Feria de la Luna Negra",
+        "misión Spawn of Jubjub"
+      ],
+      "keywords_en": [
+        "Unhatched Jubling Egg",
+        "Darkmoon Faire pet",
+        "Spawn of Jubjub quest"
+      ],
+      "text_es": "Para obtener el Huevo sin abrir de Jubling, lleva 2 unidades de Jarra de cerveza tradicional Hierro Negro a la Feria. Sin hablar primero con Morja, deja una jarra en el suelo y espera a que la rana se acerque; entonces acepta Huevo de Jubjub y entrega la segunda jarra. El huevo eclosiona tras 7 días.",
+      "text_en": "Bring 2 mugs to the festival to obtain the Unhatched Jubling Egg. Do not speak to Morja first: place a Dark Iron Ale Mug on the ground and wait for the frog to approach. Then accept Spawn of Jubjub and hand in the other mug; the egg hatches after 7 days.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkmoon Faire Event Overview Guide:  Location, Dates, Quests & Rewards - Wow: Forever › Companion Pets",
+          "url": "https://www.wowhead.com/forever/guide/darkmoon-faire-event-overview-guide",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Darkmoon Faire",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:darkmoon-faire-event-overview-guide",
+        "general:lotr-a-collectors-guide-to-wow-forever-34946"
+      ],
+      "source_hashes": [
+        "section:1e1b7c7ed959de79f3674f0e7f61a998aa03b75c",
+        "section:c14cb0e1d500fad159b54b44a45f9b7a5eaed9b9"
+      ]
+    },
+    {
+      "id": "general-misiones-coleccionables-categorias",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Qué se puede coleccionar en Forever",
+      "title_en": "What You Can Collect in Forever",
+      "summary_es": "Las colecciones incluyen monturas, mascotas de compañía, juguetes y apariencias cosméticas.",
+      "summary_en": "Collectibles include mounts, companion pets, toys, and cosmetic appearances.",
+      "keywords_es": [
+        "qué se puede coleccionar en Forever",
+        "coleccionar monturas y mascotas",
+        "juguetes y apariencias cosméticas"
+      ],
+      "keywords_en": [
+        "what to collect in Forever",
+        "collect mounts and pets",
+        "toys and cosmetic appearances"
+      ],
+      "text_es": "En Forever puedes perseguir monturas, mascotas de compañía, juguetes y apariencias cosméticas. Se obtienen de distintas maneras: vendedores y reputación, misiones, botines, profesiones, eventos y puntos de un sistema de actividades únicas. Hay coleccionables ligados a contenido difícil o limitado; conviene centrarse en el tipo de objeto o método que buscas, no en una lista exhaustiva.",
+      "text_en": "Forever has mounts, companion pets, toys, and cosmetic appearances to collect. They come from varied sources, including vendors and reputation, quests, drops, professions, events, and points for one-time activities. Some collectibles are tied to challenging or limited content, so it helps to focus on the item type or acquisition method rather than a complete catalog.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Welcome to the Lord of the Reins Forever Collectibles Guide!",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Mounts",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Companion Pets",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Toys",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Cosmetic Transmog",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:lotr-a-collectors-guide-to-wow-forever-34946"
+      ],
+      "source_hashes": [
+        "section:579fadad2118f5b1d8447c18da80ddf4bbaf5569",
+        "section:7cd9c5f03a4c63ba46572e39add355dea3c07348",
+        "section:818dc100f0914f34107fb18e7a75f0678f99cfb9",
+        "section:c7234a53baf80f0b504a14b20aa6f1a3c0e9a440",
+        "section:fcb780d8557a01eec9055c8bc8456755e7ad5795"
+      ]
+    },
+    {
+      "id": "general-misiones-monturas-raza",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Monturas raciales y niveles",
+      "title_en": "Racial Mounts and Levels",
+      "summary_es": "Las monturas terrestres raras y épicas se consiguen a nivel 40 y 60.",
+      "summary_en": "Rare and epic ground mounts become available at levels 40 and 60.",
+      "keywords_es": [
+        "montura racial nivel 40",
+        "montura épica nivel 60",
+        "comprar monturas raciales"
+      ],
+      "keywords_en": [
+        "racial mount level 40",
+        "epic mount level 60",
+        "buy racial mounts"
+      ],
+      "text_es": "Las monturas raciales pueden comprarse al alcanzar el nivel 40 para la versión rara y el 60 para la épica, o al llegar a Exaltado con la facción correspondiente mediante misiones. Las versiones raras cuestan 100 de oro y las épicas 1000; además, recibes una montura gratis.",
+      "text_en": "Racial mounts can be purchased at level 40 for the rare version and level 60 for the epic one, or after reaching Exalted with the relevant faction through quests. Rare versions cost 100 gold and epic ones cost 1000; you also receive one mount for free.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Alliance Faction Mounts",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Horde Faction Mounts",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:lotr-a-collectors-guide-to-wow-forever-34946"
+      ],
+      "source_hashes": [
+        "section:2842959cb4b9cf6eeaafe4e6f439fd519b6f3489",
+        "section:8bb3c44d3ea759dc18f9eb71c6d3e2819a55c831"
+      ]
+    },
+    {
+      "id": "general-misiones-monturas-reputacion",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Montura de reputación de Cuna del Invierno",
+      "title_en": "Winterspring Reputation Mount",
+      "summary_es": "El Sable de Hielo requiere Exaltado y una larga serie de encargos repetibles.",
+      "summary_en": "The Frostsaber requires Exalted reputation and a long chain of repeatable turn-ins.",
+      "keywords_es": [
+        "montura Sable de Hielo de Cuna del Invierno",
+        "Entrenadores de Sableinvernales reputación",
+        "Riendas del Sable de Hielo de Cuna del Invierno"
+      ],
+      "keywords_en": [
+        "Winterspring Frostsaber mount",
+        "Wintersaber Trainers reputation",
+        "Reins of the Winterspring Frostsaber"
+      ],
+      "text_es": "Las Riendas del Sable de Hielo de Cuna del Invierno se compran por 1125 de oro al alcanzar Exaltado con los Entrenadores de Sableinvernales. La reputación se consigue con encargos repetibles que otorgan 50 puntos cada uno, y no todos están disponibles desde el comienzo. Se recomienda invertir puntos en Estudio dedicado antes de empezar, porque reduce el esfuerzo de esta búsqueda.",
+      "text_en": "Reins of the Winterspring Frostsaber cost 1125 gold and become available at Exalted with the Wintersaber Trainers. Repeatable turn-ins grant 50 reputation each, and not all are available at the start. Investing points in Diplomat beforehand is recommended because it reduces the effort of this grind.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Winterspring Frostsaber",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:lotr-a-collectors-guide-to-wow-forever-34946"
+      ],
+      "source_hashes": [
+        "section:bc087c31ba9ff9125691f8526f8c9a57b2bc6f6d"
+      ]
+    },
+    {
+      "id": "general-misiones-montura-osahendido",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Montura de Barón Osahendido",
+      "title_en": "Baron Rivendare's Mount",
+      "summary_es": "Las Riendas de Hemocargador pueden obtenerse de Barón Osahendido en Stratholme.",
+      "summary_en": "Deathcharger's Reins can drop from Baron Rivendare in Stratholme.",
+      "keywords_es": [
+        "Riendas de Hemocargador",
+        "montura de Stratholme",
+        "botín de Barón Osahendido"
+      ],
+      "keywords_en": [
+        "Deathcharger's Reins",
+        "Stratholme mount drop",
+        "Baron Rivendare loot"
+      ],
+      "text_es": "Las Riendas de Hemocargador se saquean de Barón Osahendido, en el ala de los no-muertos de Stratholme. La probabilidad de obtenerlas es extremadamente baja, así que puede hacer falta repetir la mazmorra.",
+      "text_en": "Deathcharger's Reins can be looted from Baron Rivendare in the undead wing of Stratholme. The drop chance is extremely low, so you may need to run the dungeon repeatedly.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Rivendare's Deathcharger",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:lotr-a-collectors-guide-to-wow-forever-34946"
+      ],
+      "source_hashes": [
+        "section:800c2053cdae9411baa7d704b7e5b46e5b7eb595"
+      ]
+    },
+    {
+      "id": "general-misiones-recompensas-legado",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Coleccionables por puntos Legacy",
+      "title_en": "Legacy Point Collectibles",
+      "summary_es": "El total de puntos Legacy desbloquea una montura, una mascota o un juguete.",
+      "summary_en": "Legacy point totals unlock a mount, a pet, or a toy.",
+      "keywords_es": [
+        "recompensas de puntos de Legado",
+        "oso espectral montura",
+        "mascota cachorro espectral"
+      ],
+      "keywords_en": [
+        "Legacy point rewards",
+        "Spectral Bear mount",
+        "Spectral Bear Cub pet"
+      ],
+      "text_es": "El sistema de Legacy entrega coleccionables por alcanzar ciertos totales de puntos, obtenidos con actividades únicas: la Réplica de rifle de aire comprimido de Forjaz enfundado con 15, el Cachorro de oso espectral con 25 y las Riendas del oso espectral con 55. Son recompensas de categorías distintas, no una lista de monturas.",
+      "text_en": "The Legacy system awards collectibles at specific point totals earned through one-time activities: the Holstered Replica Ironforge Air Rifle at 15, Spectral Bear Cub at 25, and Reins of the Spectral Bear at 55. These rewards span different collectible types rather than being a mount list.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Ironforge Air Rifle",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Spectral Bear Cub",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Spectral Bear",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:lotr-a-collectors-guide-to-wow-forever-34946"
+      ],
+      "source_hashes": [
+        "section:11ab87b50a66546d1afe2d73aeea61ee9fbf8d15",
+        "section:19315fbae1d2c0f6f804b1227fcbc128ba55ce67",
+        "section:64d4dd2c29976eff17dd8f3e5cf022425c80d363"
+      ]
+    },
+    {
+      "id": "general-misiones-mascotas-reputacion",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Mascota por reputación Garranoche",
+      "title_en": "Nightclaw Reputation Pet",
+      "summary_es": "La Ardilla ventosombra se compra al llegar a Reverenciado con los Druidas Garranoche.",
+      "summary_en": "The Shadowgale Squirrel is sold at Revered with the Nightclaw Druids.",
+      "keywords_es": [
+        "Ardilla ventosombra",
+        "mascota Druidas Garranoche",
+        "subir reputación en Isla de Zephras"
+      ],
+      "keywords_en": [
+        "Shadowgale Squirrel",
+        "Nightclaw Druids pet",
+        "Zephras Isle reputation"
+      ],
+      "text_es": "La Ardilla ventosombra se compra en la Isla de Zephras al alcanzar Reverenciado con los Druidas Garranoche. Puedes ganar reputación entregando unidades de Oreja de cultor Al'Aketh: cada 5 conceden 200 puntos. El acceso a la isla depende del paquete heroico de Cielonato, aunque otros personajes pueden llegar en dirigible desde Dalaran o Cima del Trueno.",
+      "text_en": "Buy Shadowgale Squirrel on Zephras Isle after reaching Revered with the Nightclaw Druids. Turn in Al'Aketh Cultist's Ear items for reputation: every 5 grant 200 points. Island access depends on the Skyborne Heroic Pack, though other characters can travel there by airship from Dalaran or Thunder Bluff.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Shadowgale Squirrel",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:lotr-a-collectors-guide-to-wow-forever-34946"
+      ],
+      "source_hashes": [
+        "section:5a7374de66eea34f58f5ae17a609bbd3854a06e4"
+      ]
+    },
+    {
+      "id": "general-misiones-mascotas-gallina",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Mascota Huevo de gallina",
+      "title_en": "Chicken Egg Companion Pet",
+      "summary_es": "Alimenta a una gallina en Páramos de Poniente para que ponga el huevo mascota.",
+      "summary_en": "Feed a chicken in Westfall to make it lay the companion pet egg.",
+      "keywords_es": [
+        "Huevo de gallina mascota",
+        "misión ¡CLOQUEA!",
+        "mascota de Páramos de Poniente"
+      ],
+      "keywords_en": [
+        "Chicken Egg pet",
+        "CLUCK quest",
+        "Westfall companion pet"
+      ],
+      "text_es": "En Páramos de Poniente, selecciona una gallina y usa repetidamente /chicken hasta que te ofrezca ¡CLOQUEA!. Compra Comida para pollos especial al Granjero Saldean y entrégasela; la gallina pondrá un Huevo de gallina que puedes recoger como mascota. Si no puedes interactuar con ella, usa /cheer con otra gallina.",
+      "text_en": "In Westfall, target a chicken and repeatedly use /chicken until it offers CLUCK!. Buy Special Chicken Feed from Farmer Saldean and give it to the chicken; it will lay a Chicken Egg that you can loot as a pet. If the chicken is not interactable, use /cheer on another one.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Prairie Chicken",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:lotr-a-collectors-guide-to-wow-forever-34946"
+      ],
+      "source_hashes": [
+        "section:bc73e454b8de56b911d33a7ba9817f01ecba821d"
+      ]
+    },
+    {
+      "id": "general-misiones-mascota-pollo-mecanico",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Mascota Pollo mecánico",
+      "title_en": "Mechanical Chicken Companion Pet",
+      "summary_es": "Completa las tres escoltas OOX para desbloquear la misión del Pollo mecánico.",
+      "summary_en": "Complete the three OOX escorts to unlock the Mechanical Chicken quest.",
+      "keywords_es": [
+        "Pollo mecánico mascota",
+        "misiones de escolta OOX",
+        "localizadores de emergencia OOX"
+      ],
+      "keywords_en": [
+        "Mechanical Chicken pet",
+        "OOX escort quests",
+        "OOX Distress Beacons"
+      ],
+      "text_es": "El Pollo mecánico se obtiene al completar Tu propio OOX, disponible tras terminar las tres misiones de escolta OOX. Cada una empieza al encontrar un Localizador de emergencia OOX en su zona; después de las escoltas, entrega las misiones en Bahía del Botín para desbloquear la recompensa.",
+      "text_en": "The Mechanical Chicken comes from An OOX of Your Own, unlocked after completing all three OOX escort quests. Each begins when you find an OOX Distress Beacon in its zone; after finishing the escorts, turn in the quests in Booty Bay to unlock the reward.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Mechanical Chicken",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:lotr-a-collectors-guide-to-wow-forever-34946"
+      ],
+      "source_hashes": [
+        "section:103ad9320b9fc5b128b15b13ea0ce3cfa6f47b52"
+      ]
+    },
+    {
+      "id": "general-misiones-juguetes-transformacion",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Juguetes que transforman al personaje",
+      "title_en": "Character-Transforming Toys",
+      "summary_es": "Algunos juguetes cambian tu tamaño o apariencia; su obtención varía.",
+      "summary_en": "Some toys change your size or appearance, and their acquisition methods vary.",
+      "keywords_es": [
+        "juguetes de transformación",
+        "Vara de transformación de Dartol",
+        "Orbe de engaño juguete"
+      ],
+      "keywords_en": [
+        "transformation toys",
+        "Dartol's Rod of Transformation",
+        "Orb of Deception toy"
+      ],
+      "text_es": "Entre los juguetes cosméticos, la Vara de transformación de Dartol convierte al personaje en un furbolg y el Orbe de engaño lo transforma en una raza de la facción contraria. El orbe puede caer de enemigos de nivel 55 o superior, con más probabilidad en jefes de banda. La vara se prepara durante La limpieza de Raene, pero no está claro si se conserva al completar la última misión.",
+      "text_en": "Among cosmetic toys, Dartol's Rod of Transformation turns your character into a furbolg, while the Orb of Deception changes you into a race from the opposite faction. The orb can drop from enemies level 55 or higher, with a better chance from raid bosses. The rod is made during Raene's Cleansing, but it is unclear whether it remains after turning in the final quest.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Dartol's Rod",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Orb of Deception",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:lotr-a-collectors-guide-to-wow-forever-34946"
+      ],
+      "source_hashes": [
+        "section:ce65a68e7a8420436dd4b43dd0db9ef5b16feeff",
+        "section:ec99db57ab70a133a6ad97f5e28021b62397fccb"
+      ]
+    },
+    {
+      "id": "general-misiones-juguetes-coleccion",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Cómo se obtienen los juguetes",
+      "title_en": "How Toys Are Acquired",
+      "summary_es": "Los juguetes aparecen como recompensas de misiones, reputación, profesiones y eventos.",
+      "summary_en": "Toys come from quests, reputation, professions, and events.",
+      "keywords_es": [
+        "conseguir juguetes en Forever",
+        "juguetes de Ingeniería",
+        "juguetes por reputación y misiones"
+      ],
+      "keywords_en": [
+        "get toys in Forever",
+        "Engineering toys",
+        "reputation and quest toys"
+      ],
+      "text_es": "Los juguetes no proceden de una sola actividad: pueden ser recetas de profesión, recompensas de reputación o misiones, botines, premios de eventos y desbloqueos de Legacy. Por ejemplo, la Ingeniería fabrica el Amplificador de mundo; una misión de Festival Lunar entrega el Farol de Elune, y el sistema de Legacy concede una réplica de rifle de Forjaz.",
+      "text_en": "Toys come from several activities rather than one collection path: profession recipes, reputation or quest rewards, drops, events, and Legacy unlocks. For example, Engineering makes the World Enlarger, a Lunar Festival quest awards Elune's Lantern, and the Legacy system grants a replica Ironforge rifle.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Toys",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Gnomish Engineering",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Lunar Festival",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Ironforge Air Rifle",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:lotr-a-collectors-guide-to-wow-forever-34946"
+      ],
+      "source_hashes": [
+        "section:19315fbae1d2c0f6f804b1227fcbc128ba55ce67",
+        "section:494fb69cecbe49c275272e7766b53647b5c127a4",
+        "section:c7234a53baf80f0b504a14b20aa6f1a3c0e9a440",
+        "section:d273f27f2791907f434e9c72aa9e7ee80caaa1b4"
+      ]
+    },
+    {
+      "id": "general-misiones-transfiguraciones-reputacion",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Apariencias cosméticas por reputación",
+      "title_en": "Reputation Cosmetic Appearances",
+      "summary_es": "Las reputaciones desbloquean prendas cosméticas, como las del cartel goblin y Velasangre.",
+      "summary_en": "Reputation unlocks cosmetic clothing, including Goblin Cartel and Bloodsail pieces.",
+      "keywords_es": [
+        "apariencias por reputación",
+        "cosméticos Bucaneros Velasangre",
+        "prendas cosméticas goblin"
+      ],
+      "keywords_en": [
+        "reputation cosmetic appearances",
+        "Bloodsail Buccaneers cosmetics",
+        "Goblin Cartel clothing"
+      ],
+      "text_es": "Las reputaciones ofrecen apariencias cosméticas: varias facciones goblin venden piezas para la cabeza al llegar a Reverenciado. Con los Bucaneros Velasangre, alcanza Amistoso y Odioso con Bahía del Botín, y completa las misiones ¡Adelante, almirante! y Vístete como tal para recibir cinco prendas cosméticas. Es una opción de colección que puede exigir deteriorar la relación con otra facción.",
+      "text_en": "Reputations can unlock cosmetic appearances: several Goblin Cartel factions sell headpieces at Revered. With the Bloodsail Buccaneers, reach Friendly and become Hated with Booty Bay, then complete Avast Ye, Admiral! and Dressing the Part to receive five cosmetic pieces. This collection route can damage your standing with another faction.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Goblin Cartel Headpieces",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Bloodsail Buccaneers",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:lotr-a-collectors-guide-to-wow-forever-34946"
+      ],
+      "source_hashes": [
+        "section:8fc32bf5594dde338771383d366c6b6a9b3a3e39",
+        "section:e04228c82e26c0e2283a5b1377fcda2ff92f2208"
+      ]
+    },
+    {
+      "id": "general-misiones-transfiguraciones-eventos",
+      "chapter": 6,
+      "status": "editorial",
+      "title_es": "Apariencias cosméticas de eventos",
+      "title_en": "Event Cosmetic Appearances",
+      "summary_es": "Varios eventos ofrecen prendas o adornos que solo se consiguen en temporada.",
+      "summary_en": "Several events offer clothing or adornments available during the season.",
+      "keywords_es": [
+        "apariencias cosméticas de eventos",
+        "ropa del Festival Lunar",
+        "ropa del Festival de Invierno"
+      ],
+      "keywords_en": [
+        "event cosmetic appearances",
+        "Lunar Festival clothing",
+        "Winter Veil clothing"
+      ],
+      "text_es": "Los eventos estacionales también ofrecen prendas y adornos para coleccionar: algunas recompensas se intercambian por Moneda de linaje, otras pueden aparecer en un Huevo de color vivo escondido en las zonas iniciales, y ciertos vendedores ofrecen patrones temporales para fabricar ropa y botas. Estas oportunidades dependen de que el evento correspondiente esté activo.",
+      "text_en": "Seasonal events also offer clothing and adornments to collect: some rewards are exchanged for Coin of Ancestry, others may appear in a hidden Brightly Colored Egg in starting zones, and certain vendors offer temporary patterns for making clothes and boots. These opportunities depend on the relevant event being active.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Lunar Festival",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Noblegarden",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Winter Veil",
+          "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:lotr-a-collectors-guide-to-wow-forever-34946"
+      ],
+      "source_hashes": [
+        "section:455ab3fc5199b5601b02353aa2ad7defbfe50e54",
+        "section:b41a12e090fb271fe578acb97ccba0311f196015",
+        "section:d273f27f2791907f434e9c72aa9e7ee80caaa1b4"
+      ]
     }
   ]
 }
