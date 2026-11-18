@@ -1336,6 +1336,46 @@
         "section:581b0672fd99e3d6ad4f14a8a164cadc230028cf",
         "section:90343dfa50c713264226de7913dadb2034a757cf"
       ]
+    },
+    {
+      "id": "raza-combinaciones-nuevas",
+      "chapter": 3,
+      "status": "editorial",
+      "title_es": "Nuevas combinaciones de raza y clase",
+      "title_en": "New Race and Class Combinations",
+      "summary_es": "Humano, Enano, Gnomo, Orco, No-muerto y Trol reciben nuevas clases; Cielonato amplía sus opciones.",
+      "summary_en": "Human, Dwarf, Gnome, Orc, Undead and Troll gain new classes; Skyborne expands its options.",
+      "keywords_es": [
+        "nuevas combinaciones de raza y clase",
+        "nuevas clases de raza",
+        "humano cazador",
+        "enano chamán",
+        "cielonato clases"
+      ],
+      "keywords_en": [
+        "new race and class combinations",
+        "new racial classes",
+        "human hunter",
+        "dwarf shaman",
+        "skyborne classes"
+      ],
+      "text_es": "Las combinaciones nuevas incluyen Cazador Humano, Chamán Enano, Sacerdote Gnomo, Mago Orco, Paladín No-muerto y Brujo Trol. Los Cielonatos también amplían sus opciones: Druida, Cazador, Pícaro y Guerrero están disponibles en ambos bandos; Mago solo en la Alianza y Chamán solo en la Horda.",
+      "text_en": "New combinations include Human Hunter, Dwarf Shaman, Gnome Priest, Orc Mage, Undead Paladin and Troll Warlock. Skyborne also broaden the options: Druid, Hunter, Rogue and Warrior are available to both factions; Mage is Alliance-only and Shaman is Horde-only.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: All Racials and Available Class-Race Combinations in World of Warcraft: Forever › Available Class and Race Combinations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/new-race-class-combinations",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:new-race-class-combinations"
+      ],
+      "source_hashes": [
+        "section:dcc4c4cd57ba21984c4a15d7e2599b2f91e3c6bc"
+      ]
     }
   ]
 }
