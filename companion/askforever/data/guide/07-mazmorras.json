@@ -11973,6 +11973,1249 @@
       "source_hashes": [
         "section:ba22a971bf26c2f0267d18b2e81f48279ac82a41"
       ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Stratholme vivo: nivel y entrada",
+      "title_en": "Stratholme Live: Level and Entrance",
+      "summary_es": "Nivel 55-60; vuela a la Capilla de la Esperanza de la Luz y sigue al noroeste.",
+      "summary_en": "Level 55-60; fly to Light’s Hope Chapel and travel northwest.",
+      "keywords_es": [
+        "stratholme vivo",
+        "nivel stratholme vivo",
+        "entrada de stratholme",
+        "cómo llegar a stratholme"
+      ],
+      "keywords_en": [
+        "stratholme live",
+        "stratholme live level",
+        "stratholme entrance",
+        "how to reach stratholme"
+      ],
+      "text_es": "Stratholme vivo está pensado para niveles 55-60, en el noroeste de las Tierras de la Peste del Este. Horda y Alianza pueden volar a la Capilla de la Esperanza de la Luz y seguir a pie al noroeste; la entrada no-muerta queda al este.",
+      "text_en": "Stratholme Live is intended for levels 55-60 in northwest Eastern Plaguelands. Horde and Alliance can fly to the chapel and travel northwest on foot; the Undead-side entrance is to the east.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Stratholme Live Side Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Stratholme Live Side in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "section:2c992c07c88619a8b9c731db4b4b45676006bad9",
+        "section:a57bc47a95ff17e5edf4bcecb59f9a4f21cdcbc5"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones antes de Stratholme vivo",
+      "title_en": "Quests Before Stratholme Live",
+      "summary_es": "El gran Ezra Grimm y El archivista se recogen en la Capilla de la Esperanza de la Luz.",
+      "summary_en": "The Great Ezra Grimm and The Archivist start at Light’s Hope Chapel.",
+      "keywords_es": [
+        "misiones stratholme vivo",
+        "el gran ezra grimm",
+        "el archivista",
+        "misiones antes de stratholme"
+      ],
+      "keywords_en": [
+        "stratholme live quests",
+        "the great ezra grimm",
+        "the archivist quest",
+        "quests before stratholme"
+      ],
+      "text_es": "Acepta El gran Ezra Grimm con Smokey LaRue y El archivista con el Duque Nicholas Zverenhoff, ambos en la Capilla de la Esperanza de la Luz, en las Tierras de la Peste del Este. El archivista habilita el objeto que inicia La verdad cae del cielo tras derrotar a Balnazzar.",
+      "text_en": "Pick up The Great Ezra Grimm from Smokey LaRue and The Archivist from Duke Nicholas Zverenhoff, both at the chapel in Eastern Plaguelands. The Archivist enables the item that starts The Truth Comes Crashing Down after Balnazzar is defeated.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Great Ezra Grimm",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Archivist",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Truth Comes Crashing Down",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "guide:33240e2f76ec9c8a9946c74d2ccbf2f5090bd02b",
+        "section:3b8558f4c4f57a156c81839bc857383e2def957c"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-misiones-cadena",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Otras misiones de Stratholme vivo",
+      "title_en": "Other Stratholme Live Quests",
+      "summary_es": "Espíritus inquietos empieza en la capilla; De amor y familia requiere una cadena previa.",
+      "summary_en": "The Restless Souls starts at the chapel; Of Love and Family requires a prior chain.",
+      "keywords_es": [
+        "espíritus inquietos",
+        "de amor y familia",
+        "misiones stratholme vivo",
+        "misiones tierras de la peste"
+      ],
+      "keywords_en": [
+        "the restless souls",
+        "of love and family",
+        "stratholme live quests",
+        "plaguelands quests"
+      ],
+      "text_es": "Espíritus inquietos comienza con el Custodio Alen en la Capilla de la Esperanza de la Luz, en las Tierras de la Peste del Este, y continúa con Egan, al suroeste de Stratholme. De amor y familia empieza con Tirión Vadín en las Tierras de la Peste del Oeste; completa la cadena hasta aceptar la misión de la Artista Renfray antes de entrar.",
+      "text_en": "The Restless Souls starts with Caretaker Alen at the chapel in Eastern Plaguelands and continues with Egan southwest of Stratholme. Of Love and Family begins with Tirion Fordring in Western Plaguelands; complete the chain through the quest from Artist Renfray before entering.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Restless Souls",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Of Love and Family",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "guide:33240e2f76ec9c8a9946c74d2ccbf2f5090bd02b",
+        "section:3b8558f4c4f57a156c81839bc857383e2def957c"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-jefe-ezra-grimm",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Ezra Grimm",
+      "title_en": "Ezra Grimm",
+      "summary_es": "Ezra Grimm lanza ataques de fuego y aturde en área; elimina los enemigos cercanos antes.",
+      "summary_en": "Ezra Grimm uses area fire and stun attacks; clear nearby enemies first.",
+      "keywords_es": [
+        "ezra grimm",
+        "jefe ezra grimm",
+        "estrategia ezra grimm"
+      ],
+      "keywords_en": [
+        "ezra grimm",
+        "ezra grimm boss",
+        "ezra grimm strategy"
+      ],
+      "text_es": "Ezra Grimm aparece al activar la caja de tabaco. Sus ataques de fuego y aturdimiento afectan en área; separarse ayuda. Invoca esbirros y puede atraer enemigos cercanos, así que despeja la zona antes del combate.",
+      "text_en": "Ezra Grimm appears when the tobacco box is activated. His fire and stun attacks affect an area, so spreading out helps. He summons adds and can pull nearby enemies, so clear the area before the fight.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Ezra Grimm",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "section:2f225d3af41cfeb1a25cb1d637ca2d726e36e7a5"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-jefe-skul",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Skul, aparición poco común",
+      "title_en": "Skul, Rare Spawn",
+      "summary_es": "Interrumpe los hechizos de Skul para reducir el daño al grupo.",
+      "summary_en": "Interrupt Skul’s spells to reduce damage to the group.",
+      "keywords_es": [
+        "skul",
+        "skul jefe",
+        "skul aparición poco común"
+      ],
+      "keywords_en": [
+        "skul",
+        "skul boss",
+        "skul rare spawn"
+      ],
+      "text_es": "Skul puede aparecer antes de Ezra Grimm o en la zona este. Sus hechizos son su principal amenaza; interrúmpelos cuando sea posible.",
+      "text_en": "Skul may appear before Ezra Grimm or in the eastern area. His spells are his main threat; interrupt them when possible.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Skul (rare)",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "section:7b5b9f974436e697b60f648c1778b0590e1815ab"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-jefe-hearthsinger-forresten",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Escupezones Foreste",
+      "title_en": "Hearthsinger Forresten",
+      "summary_es": "Escupezones Foreste duerme a un jugador y usa Multidisparo; separa al grupo.",
+      "summary_en": "Hearthsinger Forresten sleeps a player and uses Multi-Shot; spread out.",
+      "keywords_es": [
+        "escupezones foreste",
+        "hearthsinger forresten",
+        "jefe escupezones foreste"
+      ],
+      "keywords_en": [
+        "hearthsinger forresten",
+        "escupezones foreste",
+        "hearthsinger boss"
+      ],
+      "text_es": "Escupezones Foreste puede aparecer al norte de Ezra Grimm o al este, tras El imperdonable. Arrullo de encantamiento duerme a un jugador durante 8 segundos; contrarresta Multidisparo separándote.",
+      "text_en": "Hearthsinger Forresten may appear north of Ezra Grimm or east, beyond The Unforgiven. Enchanting Lullaby sleeps one player for 8 seconds; counter Multi-Shot by spreading out.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Hearthsinger Forresten (rare)",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "section:b4820f3b8dd3e27198d850e691be08e8f51eadd2"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-jefe-el-imperdonable",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "El imperdonable",
+      "title_en": "The Unforgiven",
+      "summary_es": "El imperdonable aparece con esbirros y ralentiza con un hechizo de las Sombras.",
+      "summary_en": "The Unforgiven appears with adds and slows with a Shadow spell.",
+      "keywords_es": [
+        "el imperdonable",
+        "the unforgiven",
+        "jefe el imperdonable"
+      ],
+      "keywords_en": [
+        "the unforgiven",
+        "el imperdonable",
+        "the unforgiven boss"
+      ],
+      "text_es": "El imperdonable aparece en un corredor y trae varios enemigos menores. Su hechizo de las Sombras también ralentiza; evita llegar al combate con otros enemigos encima.",
+      "text_en": "The Unforgiven appears in a corridor and brings several lesser enemies. Its shadow spell also slows; avoid starting the fight with other enemies already engaged.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Unforgiven",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "section:5ca1b206984389d559cd93de978e9a5e4a4d9bb8"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-jefe-balzaphon",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Balzaphon",
+      "title_en": "Balzaphon",
+      "summary_es": "Balzaphon solo aparece durante el evento de la Plaga y lanza Descarga de Escarcha.",
+      "summary_en": "Balzaphon appears only during the Scourge event and casts Frostbolt.",
+      "keywords_es": [
+        "balzaphon",
+        "jefe balzaphon",
+        "evento de la plaga"
+      ],
+      "keywords_en": [
+        "balzaphon",
+        "balzaphon boss",
+        "scourge event"
+      ],
+      "text_es": "Balzaphon solo aparece durante el evento de la Plaga de Naxxramas. No tiene mecánicas destacadas y lanza repetidamente Descarga de Escarcha.",
+      "text_en": "Balzaphon appears only during the Naxxramas Scourge event. He has no notable mechanics and repeatedly casts Frostbolt.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Balzaphon (scourge event only)",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "section:a9e5bb2b1c286c17e940f085a53915729f1e9124"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-jefe-jefe-de-correos-gassol",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jefe de correos Gassol",
+      "title_en": "Postmaster Malown",
+      "summary_es": "Gassol teme al grupo; controla a los carteros y disipa su maldición acumulable.",
+      "summary_en": "Malown fears the group; control the postmen and dispel their stacking curse.",
+      "keywords_es": [
+        "jefe de correos gassol",
+        "postmaster malown",
+        "buzones stratholme"
+      ],
+      "keywords_en": [
+        "postmaster malown",
+        "jefe de correos gassol",
+        "stratholme mailboxes"
+      ],
+      "text_es": "Jefe de correos Gassol aparece al abrir el tercer buzón. Lucha junto a tres Carteros no-muertos, cuya maldición acumulable presiona al tanque; controla a los carteros o disipa la maldición. Despeja la zona porque Gassol también provoca miedo.",
+      "text_en": "Postmaster Malown appears when the third mailbox is opened. He fights with three postmen, whose stacking curse pressures the tank; control them or dispel the curse. Clear the area because Malown also fears the group.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Postmaster Malown",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "section:6e09ad64ea0dc84ecae68d425ce97653d293b201"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-jefe-timmy-el-cruel",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Timmy el Cruel",
+      "title_en": "Timmy the Cruel",
+      "summary_es": "Timmy el Cruel no tiene mecánicas especiales: es un combate directo.",
+      "summary_en": "Timmy the Cruel has no special mechanics; this is a straightforward fight.",
+      "keywords_es": [
+        "timmy el cruel",
+        "timmy the cruel",
+        "jefe timmy"
+      ],
+      "keywords_en": [
+        "timmy the cruel",
+        "timmy el cruel",
+        "timmy boss"
+      ],
+      "text_es": "Timmy el Cruel puede ser el primer jefe si el grupo va directamente al lado escarlata. No tiene mecánicas especiales: el combate es directo.",
+      "text_en": "Timmy the Cruel may be the first boss if the group heads straight to the Scarlet side. He has no special mechanics; the fight is straightforward.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Timmy the Cruel",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "section:fd114802352448fcac5aa54cb75e4dc824fe2373"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-jefe-malor-el-entusiasta",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Malor el Entusiasta",
+      "title_en": "Malor the Zealous",
+      "summary_es": "Malor el Entusiasta usa Imposición de manos; la caja contiene el Medallón de Fe.",
+      "summary_en": "Malor the Zealous uses Lay on Hands; the chest contains the Medallion of Faith.",
+      "keywords_es": [
+        "malor el entusiasta",
+        "malor the zealous",
+        "medallón de fe"
+      ],
+      "keywords_en": [
+        "malor the zealous",
+        "malor el entusiasta",
+        "medallion of faith"
+      ],
+      "text_es": "Malor el Entusiasta no tiene mecánicas destacadas aparte de Imposición de manos. Abre la caja fuerte tras él: contiene el Medallón de Fe para su misión.",
+      "text_en": "Malor the Zealous has no notable mechanics besides Lay on Hands. Open the strongbox behind him: it contains the Medallion of Faith for its quest.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Malor the Zealous and Medallion of Faith",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "section:a1d4eeee14a0b6785804f79a8f92e0242b63a67a"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-jefe-crimson-hammersmith",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Forjador de martillos carmesí",
+      "title_en": "Crimson Hammersmith",
+      "summary_es": "El Forjador de martillos carmesí se invoca al activar los planos; su botín es para herreros.",
+      "summary_en": "Crimson Hammersmith is summoned by activating the plans; his loot is for blacksmiths.",
+      "keywords_es": [
+        "crimson hammersmith",
+        "jefe crimson hammersmith",
+        "herrero de stratholme"
+      ],
+      "keywords_en": [
+        "crimson hammersmith",
+        "crimson hammersmith boss",
+        "stratholme blacksmith"
+      ],
+      "text_es": "El Forjador de martillos carmesí aparece al activar los planos de herrería del suelo. Es un combate sencillo y deja un plano de herrería avanzada para armeros.",
+      "text_en": "Crimson Hammersmith appears when the blacksmithing plans on the floor are activated. It is a simple fight and he drops an advanced blacksmithing plan for armorsmiths.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Crimson Hammersmith",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "section:3ce0b38e536dd75c7a3baaf01f6bf9a0f7d06e4e"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-jefe-canonero-jefe-willey",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Cañonero Jefe Willey",
+      "title_en": "Cannon Master Willey",
+      "summary_es": "Willey invoca atacantes a distancia; usa balas de cañón o céntrate en ellos.",
+      "summary_en": "Willey summons ranged attackers; use cannonballs or focus them.",
+      "keywords_es": [
+        "cañonero jefe willey",
+        "cannon master willey",
+        "jefe willey"
+      ],
+      "keywords_en": [
+        "cannon master willey",
+        "cañonero jefe willey",
+        "willey boss"
+      ],
+      "text_es": "Cañonero Jefe Willey invoca atacantes a distancia. El grupo puede eliminarlos o recoger una bala cercana y disparar un cañón contra ellos; Willey también puede interrumpir.",
+      "text_en": "Cannon Master Willey summons ranged attackers. The group can kill them or use a nearby cannonball to fire a cannon at them; Willey can also interrupt.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Cannon Master Willey",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "section:0aea365cb245a8f4caa11ca90abe8754dae59560"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-jefe-archivista-galford",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Archivista Galford",
+      "title_en": "Archivist Galford",
+      "summary_es": "Galford combina daño periódico y de área; saquea el cuadro antes de quemar el archivo.",
+      "summary_en": "Galford combines damage over time and area damage; loot the painting before burning the archive.",
+      "keywords_es": [
+        "archivista galford",
+        "archivist galford",
+        "misiones archivista galford"
+      ],
+      "keywords_en": [
+        "archivist galford",
+        "archivista galford",
+        "archivist galford boss"
+      ],
+      "text_es": "Archivista Galford usa Vientos ardientes como daño periódico y Nova de Fuego en área, lo que carga al sanador. Si haces De amor y familia, recoge primero el cuadro: quemar el archivo puede destruirlo.",
+      "text_en": "Archivist Galford uses Burning Winds for damage over time and Fire Nova for area damage, increasing healer pressure. If doing De amor y familia, loot the painting first: burning the archive can destroy it.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Archivist Galford",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "section:1711724b797782bb70834965a6f590063b9b38dc"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-jefe-dathrohan-balnazzar",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Dathrohan y Balnazzar",
+      "title_en": "Dathrohan and Balnazzar",
+      "summary_es": "Dathrohan se transforma en Balnazzar, que usa control mental, miedo y sueño.",
+      "summary_en": "Dathrohan becomes Balnazzar, who uses mind control, fear, and sleep.",
+      "keywords_es": [
+        "gran cruzado dathrohan",
+        "balnazzar",
+        "jefe final stratholme vivo"
+      ],
+      "keywords_en": [
+        "grand crusader dathrohan",
+        "balnazzar",
+        "stratholme live final boss"
+      ],
+      "text_es": "Gran Cruzado Dathrohan se transforma en Balnazzar cuando su salud ronda la mitad. En su segunda forma, controla mentalmente y puede provocar miedo o dormir; controla al aliado dominado y disipa Dormir si es posible.",
+      "text_en": "Grand Crusader Dathrohan transforms into Balnazzar at about half health. In his second form, he mind-controls and can fear or sleep the group; control the dominated ally and dispel Sleep when possible.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Grand Crusader Dathrohan/Balnazzar",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "section:5e8908716c091cd00033ebab68b4487a4083e4c7"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-jefes-jarien-sothos",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jarien y Sothos",
+      "title_en": "Jarien and Sothos",
+      "summary_es": "Jarien y Sothos se invocan en la sala final con el blandón de una misión de conjunto.",
+      "summary_en": "Jarien and Sothos are summoned in the final room with a tier-quest brazier.",
+      "keywords_es": [
+        "jarien",
+        "sothos",
+        "jarien y sothos",
+        "blandón de señalización"
+      ],
+      "keywords_en": [
+        "jarien",
+        "sothos",
+        "jarien and sothos",
+        "brazier of beckoning"
+      ],
+      "text_es": "Jarien y Sothos se invocan en la sala de Balnazzar con el Blandón de Señalización de una misión de conjunto. El Blandón de Invocación permite llamarlos más adelante; dejan un alijo con su equipo.",
+      "text_en": "Jarien and Sothos are summoned in Balnazzar’s room with the Brazier of Beckoning from a tier quest. The Brazier of Invocation can summon them later; they leave a cache containing their gear.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Jarien and Sothos",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "section:71ffd71ec6a5fe1665e0bba63e0603025a827b04"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-vivo-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de Stratholme vivo",
+      "title_en": "Stratholme Live Rewards",
+      "summary_es": "Destacan el Manto de la Cruzada Escarlata y el Obús portátil de Willey.",
+      "summary_en": "Notable items include the Mantle of the Scarlet Crusade and Willey’s Portable Howitzer.",
+      "keywords_es": [
+        "recompensas stratholme vivo",
+        "botín stratholme vivo",
+        "manto de la cruzada escarlata",
+        "obús portátil de willey"
+      ],
+      "keywords_en": [
+        "stratholme live rewards",
+        "stratholme live loot",
+        "mantle of the scarlet crusade",
+        "willeys portable howitzer"
+      ],
+      "text_es": "Entre los objetos destacados están el Manto de la Cruzada Escarlata y el Obús portátil de Willey. El cañonero también puede dejar la Redención; la misión El gran Ezra Grimm recompensa con el Mechero de Smokey.",
+      "text_en": "Notable items include the Mantle of the Scarlet Crusade and Willey’s Portable Howitzer. The cannon master can also drop Redemption; the quest The Great Ezra Grimm rewards Smokey’s Lighter.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Great Ezra Grimm",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Live Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Stratholme Live Side Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-live-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-live-side"
+      ],
+      "source_hashes": [
+        "guide:33240e2f76ec9c8a9946c74d2ccbf2f5090bd02b",
+        "section:2751a7c9dd0bb089f79130528a7509acf76a9614"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-no-muerto-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Stratholme no-muerto: nivel y entrada",
+      "title_en": "Stratholme Undead: Level and Entrance",
+      "summary_es": "Nivel 55-60; vuela a la Capilla de la Esperanza de la Luz y sigue al noroeste.",
+      "summary_en": "Level 55-60; fly to Light’s Hope Chapel and travel northwest.",
+      "keywords_es": [
+        "stratholme no-muerto",
+        "nivel stratholme no-muerto",
+        "entrada de stratholme",
+        "cómo llegar a stratholme"
+      ],
+      "keywords_en": [
+        "stratholme undead",
+        "stratholme undead level",
+        "stratholme entrance",
+        "how to reach stratholme"
+      ],
+      "text_es": "Stratholme no-muerto está pensado para niveles 55-60, en el noroeste de las Tierras de la Peste del Este. Horda y Alianza pueden volar a la Capilla de la Esperanza de la Luz y seguir al noroeste; su entrada queda al este de la del lado vivo.",
+      "text_en": "Stratholme Undead is intended for levels 55-60 in northwest Eastern Plaguelands. Horde and Alliance can fly to the chapel and travel northwest; its entrance is east of the Live-side entrance.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Stratholme Undead Side Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Stratholme Undead Side in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-undead-side"
+      ],
+      "source_hashes": [
+        "section:16631219b354cb56996b7b25119522ecb1b546cd",
+        "section:c1757b97b6fba6448e93b4c04431a7b3376e5184"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-no-muerto-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones antes de Stratholme no-muerto",
+      "title_en": "Quests Before Stratholme Undead",
+      "summary_es": "Las casas de lo sagrado y El agente activo empiezan en la Capilla de la Esperanza de la Luz.",
+      "summary_en": "Houses of the Holy and The Active Agent start at Light’s Hope Chapel.",
+      "keywords_es": [
+        "misiones stratholme no-muerto",
+        "las casas de lo sagrado",
+        "el agente activo",
+        "la carne no miente"
+      ],
+      "keywords_en": [
+        "stratholme undead quests",
+        "houses of the holy",
+        "the active agent",
+        "the flesh does not lie"
+      ],
+      "text_es": "Leonid Barthalomew el Venerado ofrece Las casas de lo sagrado en la Capilla de la Esperanza de la Luz; recoge Agua bendita de Stratholme. Betina Bigglezink da La carne no miente; complétala para desbloquear El agente activo, que busca Datos de la Plaga en los zigurats.",
+      "text_en": "Leonid Barthalomew the Revered offers Houses of the Holy at Light’s Hope Chapel; collect Stratholme Holy Water. Betina Bigglezink gives The Flesh Does Not Lie; complete it to unlock The Active Agent, which sends you to find Scourge Data in the ziggurats.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Houses of the Holy",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Flesh Does Not Lie",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Active Agent",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-undead-side"
+      ],
+      "source_hashes": [
+        "guide:93b07f159d315d3399fe3001f1315df0585dfedf",
+        "section:e455c744a2bfa591124e21401a2208dd3a9c52d9"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-no-muerto-misiones-aurius",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones de Aurius y del Barón",
+      "title_en": "Aurius and Baron Quests",
+      "summary_es": "La estimación de Aurius requiere El medallón de Fe; Por encima y más allá continúa otra cadena.",
+      "summary_en": "Aurius’ Reckoning requires The Medallion of Faith; Above and Beyond continues another chain.",
+      "keywords_es": [
+        "la estimación de aurius",
+        "el medallón de fe",
+        "por encima y más allá",
+        "misiones barón osahendido"
+      ],
+      "keywords_en": [
+        "aurius reckoning",
+        "the medallion of faith",
+        "above and beyond",
+        "baron rivendare quests"
+      ],
+      "text_es": "El medallón de Fe se obtiene tras derrotar a Malor el Entusiasta en el lado vivo y abre La estimación de Aurius, que pide derrotar al Barón Osahendido. Por encima y más allá requiere una cadena previa y la cabeza del Barón; se acepta en la Capilla de la Esperanza de la Luz, en las Tierras de la Peste del Este.",
+      "text_en": "The Medallion of Faith is obtained after defeating Malor the Zealous on the Live side and unlocks Aurius’ Reckoning, which asks you to defeat Baron Rivendare. Above and Beyond requires a prior chain and the head dropped by Baron Rivendare; pick it up at the chapel in Eastern Plaguelands.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Medallion of Faith",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Aurius' Reckoning",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Above and Beyond",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-undead-side"
+      ],
+      "source_hashes": [
+        "guide:93b07f159d315d3399fe3001f1315df0585dfedf"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-no-muerto-mision-ramstein",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "La misión Ramstein",
+      "title_en": "The Ramstein Quest",
+      "summary_es": "La Horda puede aceptar Ramstein de Nathanos Clamañublo tras completar sus requisitos previos.",
+      "summary_en": "Horde can take Ramstein from Nathanos Blightcaller after completing its prerequisites.",
+      "keywords_es": [
+        "misión ramstein",
+        "ramstein horda",
+        "nathanos clamañublo",
+        "la orden del señor de exploradores"
+      ],
+      "keywords_en": [
+        "ramstein quest",
+        "horde ramstein",
+        "nathanos blightcaller",
+        "the ranger lords behest"
+      ],
+      "text_es": "Ramstein es una misión exclusiva de la Horda que da Nathanos Clamañublo en las Tierras de la Peste del Este. Completa antes La orden del Señor de exploradores, que incluye eliminar a un Especialista, y Alatardecer, cómo te odio…, que requiere derrotar a Alaocaso. Luego vence a Ramstein el Empachador y recoge su cabeza.",
+      "text_en": "Nathanos Blightcaller offers the Horde-only Ramstein quest in Eastern Plaguelands. Its prerequisites are The Ranger Lord’s Behest and the Duskwing quest, Oh How I Hate Thee; after both, defeat Ramstein the Gorger and loot his head.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Ramstein",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-undead-side"
+      ],
+      "source_hashes": [
+        "guide:93b07f159d315d3399fe3001f1315df0585dfedf",
+        "section:e455c744a2bfa591124e21401a2208dd3a9c52d9"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-no-muerto-mision-menethil",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "El Obsequio de Menethil",
+      "title_en": "Menethil’s Gift",
+      "summary_es": "El Obsequio de Menethil culmina una cadena que empieza con Eva Sarkhoff en las Tierras de la Peste del Oeste.",
+      "summary_en": "Menethil’s Gift ends a chain starting with Eva Sarkhoff in Western Plaguelands.",
+      "keywords_es": [
+        "el obsequio de menethil",
+        "eva sarkhoff",
+        "cadena de menethil",
+        "misiones de stratholme"
+      ],
+      "keywords_en": [
+        "menethils gift",
+        "eva sarkhoff",
+        "menethil quest chain",
+        "stratholme quests"
+      ],
+      "text_es": "La cadena de El Obsequio de Menethil comienza con Eva Sarkhoff en las Tierras de la Peste del Oeste y pasa por Scholomance y otras zonas. En el último tramo, Leonid Barthalomew el Venerado entrega la misión de Stratholme; usa el Recuerdo de Evocación junto al Barón Osahendido para completarla.",
+      "text_en": "Menethil’s Gift begins with Eva Sarkhoff in Western Plaguelands and includes Scholomance and other zones. In its final stage, Leonid Barthalomew the Revered gives the Stratholme quest; use the Keepsake of Remembrance near Baron Rivendare to complete it.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Menethil's Gift",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-undead-side"
+      ],
+      "source_hashes": [
+        "guide:93b07f159d315d3399fe3001f1315df0585dfedf",
+        "section:e455c744a2bfa591124e21401a2208dd3a9c52d9"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-no-muerto-jefe-magistrado-barthilas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Magistrado Barthilas",
+      "title_en": "Magistrate Barthilas",
+      "summary_es": "Su empujón puede lanzar al tanque contra otros enemigos; lucha de espaldas a una pared.",
+      "summary_en": "His knockback can throw the tank into other enemies; fight with your back to a wall.",
+      "keywords_es": [
+        "magistrado barthilas",
+        "magistrate barthilas",
+        "jefe barthilas"
+      ],
+      "keywords_en": [
+        "magistrate barthilas",
+        "magistrado barthilas",
+        "barthilas boss"
+      ],
+      "text_es": "Magistrado Barthilas puede aparecer en la iglesia inicial o correr hasta su puesto cerca del final. Arremetida poderosa empuja al tanque y puede llevarlo contra otros enemigos; colócate de espaldas a una pared.",
+      "text_en": "Magistrate Barthilas may appear at the starting church or run to his position near the end. Mighty Blow knocks the tank back and can send them into extra enemies; face a wall.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Magistrate Barthilas",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-undead-side"
+      ],
+      "source_hashes": [
+        "section:be6accb8d99d4bb427d1a6086bfc018bfd4b3dd4"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-no-muerto-jefe-pidrespina",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Pidrespina",
+      "title_en": "Stonespine",
+      "summary_es": "Pidrespina es poco común; su habilidad destacada es Desgarradura sanguinaria.",
+      "summary_en": "Stonespine is rare; its notable ability is Vicious Rend.",
+      "keywords_es": [
+        "pidrespina",
+        "stonespine",
+        "jefe pidrespina"
+      ],
+      "keywords_en": [
+        "stonespine",
+        "pidrespina",
+        "stonespine boss"
+      ],
+      "text_es": "Pidrespina es una aparición poco común que patrulla la zona indicada. No tiene otras mecánicas destacadas aparte de Desgarradura sanguinaria.",
+      "text_en": "Stonespine is a rare spawn that patrols the marked area. It has no notable mechanics besides Vicious Rend.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Stonespine (Rare Spawn)",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-undead-side"
+      ],
+      "source_hashes": [
+        "section:1b390fe360a8bfe423bfee156f5235be6eab16d4"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-no-muerto-jefe-nerubenkan",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Nerub’enkan",
+      "title_en": "Nerub’enkan",
+      "summary_es": "Nerub’enkan invoca escarabajos y ralentiza; elimina los esbirros y vigila la armadura del tanque.",
+      "summary_en": "Nerub’enkan summons scarabs and slows; clear adds and watch the tank’s armor.",
+      "keywords_es": [
+        "nerub’enkan",
+        "nerub enkan",
+        "jefe nerub’enkan"
+      ],
+      "keywords_en": [
+        "nerub’enkan",
+        "nerub enkan",
+        "nerubenkan boss"
+      ],
+      "text_es": "Nerub’enkan invoca escarabajos y puede ralentizar al tanque y reducir su armadura. El DPS puede eliminar los esbirros mientras el tanque y el sanador vigilan el daño recibido.",
+      "text_en": "Nerub’enkan summons scarabs, can slow the tank, and reduces their armor. DPS can clear the adds while the tank and healer watch incoming damage.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Nerub'enkan",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-undead-side"
+      ],
+      "source_hashes": [
+        "section:45b0e577386ad79da0f322160325393321f3e9dc"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-no-muerto-jefe-armero-guardia-negra",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Armero Guardia Negra",
+      "title_en": "Black Guard Swordsmith",
+      "summary_es": "Armero Guardia Negra se invoca activando unos planos y no tiene mecánicas destacadas.",
+      "summary_en": "Black Guard Swordsmith is summoned by activating plans and has no notable mechanics.",
+      "keywords_es": [
+        "armero guardia negra",
+        "black guard swordsmith",
+        "jefe herrero stratholme"
+      ],
+      "keywords_en": [
+        "black guard swordsmith",
+        "armero guardia negra",
+        "stratholme blacksmith boss"
+      ],
+      "text_es": "Armero Guardia Negra es un minijefe invocado al activar los planos de herrería junto a la Baronesa Anastari. No tiene mecánicas destacadas; su único objeto destacado es un plano de herrería avanzada.",
+      "text_en": "Black Guard Swordsmith is summoned by activating the blacksmithing plans beside Baroness Anastari. He has no notable mechanics; his only notable item is an advanced blacksmithing plan.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Black Guard Swordsmith",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-undead-side"
+      ],
+      "source_hashes": [
+        "section:6806bc7192f442b8dce55da0144201dab48283f9"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-no-muerto-jefe-baronesa-anastari",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Baronesa Anastari",
+      "title_en": "Baroness Anastari",
+      "summary_es": "Baronesa Anastari posee jugadores, silencia y reduce la probabilidad de golpe.",
+      "summary_en": "Baroness Anastari possesses players, silences, and lowers hit chance.",
+      "keywords_es": [
+        "baronesa anastari",
+        "baroness anastari",
+        "jefe anastari"
+      ],
+      "keywords_en": [
+        "baroness anastari",
+        "baronesa anastari",
+        "anastari boss"
+      ],
+      "text_es": "Baronesa Anastari puede usar Posesión; lleva al jugador poseído al 50% de salud para liberarlo. También silencia a los lanzadores y maldice al grupo, reduciendo la probabilidad de golpear.",
+      "text_en": "Baroness Anastari can use Possess; bring the possessed player to 50% health to break it. She also silences casters and curses the group, lowering hit chance.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Baroness Anastari",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-undead-side"
+      ],
+      "source_hashes": [
+        "section:58004b2d1e93f187b868f97fb5a4a45e8070bf83"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-no-muerto-jefe-maleki-el-palido",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Maleki el Pálido",
+      "title_en": "Maleki the Pallid",
+      "summary_es": "Maleki el Pálido puede encerrar al tanque en una Tumba de hielo durante 6 segundos.",
+      "summary_en": "Maleki the Pallid can trap the tank in an Ice Tomb for 6 seconds.",
+      "keywords_es": [
+        "maleki el pálido",
+        "maleki the pallid",
+        "jefe maleki"
+      ],
+      "keywords_en": [
+        "maleki the pallid",
+        "maleki el pálido",
+        "maleki boss"
+      ],
+      "text_es": "Maleki el Pálido puede atrapar al tanque en Tumba de hielo durante 6 segundos. Mientras dure, el grupo debe vigilar la amenaza para evitar que los enemigos cambien de objetivo.",
+      "text_en": "Maleki the Pallid can trap the tank in Ice Tomb for 6 seconds. While it lasts, the group should watch threat to prevent enemies switching targets.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Maleki the Pallid",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-undead-side"
+      ],
+      "source_hashes": [
+        "section:928db49cddd19789e4f04134bb53a76824b9bdcd"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-no-muerto-jefe-ramstein-el-empachador",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Ramstein el Empachador",
+      "title_en": "Ramstein the Gorger",
+      "summary_es": "Ramstein aparece tras limpiar las abominaciones y puede cambiar de objetivo.",
+      "summary_en": "Ramstein appears after clearing the abominations and can switch targets.",
+      "keywords_es": [
+        "ramstein el empachador",
+        "ramstein the gorger",
+        "jefe ramstein"
+      ],
+      "keywords_en": [
+        "ramstein the gorger",
+        "ramstein el empachador",
+        "ramstein boss"
+      ],
+      "text_es": "Ramstein el Empachador aparece tras eliminar las abominaciones de la sala; el acceso se cierra al iniciar el encuentro. Puede noquear al tanque y cambiar de objetivo; prepárate para sanar a los DPS y vigila Atropello.",
+      "text_en": "Ramstein the Gorger appears after clearing the abominations; the gate closes when the encounter begins. He can knock out the tank and switch targets; be ready to heal DPS and watch Trample.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Ramstein the Gorger",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-undead-side"
+      ],
+      "source_hashes": [
+        "section:a1c500effb98de64ef9dbf1ce60cd58c84afbe8c"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-no-muerto-jefe-baron-osahendido",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Barón Osahendido",
+      "title_en": "Baron Rivendare",
+      "summary_es": "Reduce la sanación al tanque, daña en área e invoca esqueletos que deben eliminarse.",
+      "summary_en": "He reduces healing on the tank, deals area damage, and summons skeletons to kill.",
+      "keywords_es": [
+        "barón osahendido",
+        "baron rivendare",
+        "jefe final stratholme"
+      ],
+      "keywords_en": [
+        "baron rivendare",
+        "barón osahendido",
+        "stratholme final boss"
+      ],
+      "text_es": "Barón Osahendido es el jefe final. Aura profana y Mellar dañan a quienes están cerca; Golpe mortal reduce la sanación del tanque. Elimina pronto los esqueletos que invoca; los jugadores a distancia pueden mantenerse lejos del aura.",
+      "text_en": "Baron Rivendare is the final boss. Unholy Aura and Cleave damage nearby players; Mortal Strike reduces healing on the tank. Kill the skeletons he summons promptly; ranged players can stay away from the aura.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Baron Rivendare",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-undead-side"
+      ],
+      "source_hashes": [
+        "section:7e59a2c5a42aa530bfc7f03d61cd2044e072a16e"
+      ]
+    },
+    {
+      "id": "mazmorra-stratholme-no-muerto-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de Stratholme no-muerto",
+      "title_en": "Stratholme Undead Rewards",
+      "summary_es": "Destacan las Riendas de Hemocargador, la Hoja rúnica del Barón Rivendare y la Corona del Penitente.",
+      "summary_en": "Notable rewards include Deathcharger’s Reins, Runeblade of Baron Rivendare, and Crown of the Penitent.",
+      "keywords_es": [
+        "recompensas stratholme no-muerto",
+        "botín stratholme no-muerto",
+        "riendas de hemocargador",
+        "corona del penitente"
+      ],
+      "keywords_en": [
+        "stratholme undead rewards",
+        "stratholme undead loot",
+        "deathcharger reins",
+        "crown of the penitent"
+      ],
+      "text_es": "Entre los objetos destacados están las Riendas de Hemocargador y la Hoja rúnica del Barón Rivendare. La misión Las casas de lo sagrado recompensa con la Corona del Penitente.",
+      "text_en": "Notable items include Deathcharger’s Reins and the Runeblade of Baron Rivendare. Houses of the Holy rewards the Crown of the Penitent.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Best Quest Rewards",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stratholme Undead Side Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Stratholme Undead Side Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/stratholme-undead-side-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stratholme-undead-side"
+      ],
+      "source_hashes": [
+        "section:e1e3fe08453b5e44a8c8af36e4bd913fd2a832dd",
+        "section:f121de56f6d286dbab345b071a64b8e677843e22"
+      ]
     }
   ]
 }
