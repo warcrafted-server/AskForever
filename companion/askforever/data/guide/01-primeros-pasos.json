@@ -127,8 +127,8 @@
       "status": "editorial",
       "title_es": "Ediciones y recompensas de Forever",
       "title_en": "Forever Editions and Rewards",
-      "summary_es": "Forever es gratis con la suscripción; las ediciones de pago añaden reserva de nombres, monturas y transfiguraciones.",
-      "summary_en": "Forever is free with the subscription; paid editions add name reservation, mounts and transmogs.",
+      "summary_es": "La edición básica va con la suscripción; los packs de pago desbloquean Cielonatos y añaden recompensas.",
+      "summary_en": "The base edition comes with the subscription; paid packs unlock Skyborne and add rewards.",
       "keywords_es": [
         "ediciones de forever",
         "skyborne heroic pack",
@@ -143,22 +143,51 @@
         "warcraft forever collection",
         "forever rewards"
       ],
-      "text_es": "La edición base de Forever va incluida con la suscripción. Las ediciones de pago son Skyborne Heroic Pack (29,99), Skyborne Epic Pack (59,99) y Warcraft Forever Collection (79,99). Las tres permiten reservar nombres, y las más caras añaden recompensas para otras versiones de WoW. Entre los extras hay monturas y conjuntos de transfiguración para Retail y Forever. Puedes subir de edición pagando la diferencia.",
-      "text_en": "The base Forever edition comes with the subscription. The paid editions are the Skyborne Heroic Pack (29.99), Skyborne Epic Pack (59.99) and Warcraft Forever Collection (79.99). All three allow name reservations, and the more expensive ones add rewards for other WoW versions. Extras include mounts and transmog sets for Retail and Forever. You can upgrade an edition by paying the difference.",
+      "text_es": "Forever está incluido en la suscripción de WoW; el Skyborne Heroic Pack desbloquea los Cielonatos y su zona inicial. El Skyborne Heroic Pack cuesta $29.99, el Skyborne Epic Pack $59.99 y la Warcraft Forever Collection $79.99. Las tres ediciones permiten reservar nombres e incluyen recompensas como monturas y apariencias para Retail y Forever; las dos superiores incluían acceso a una beta ya cerrada, y la más cara añade una campaña de Warcraft III: Reforged. Puedes mejorar de edición pagando la diferencia, pero no bajar a una inferior.",
+      "text_en": "Forever is included with a WoW subscription; the Skyborne Heroic Pack unlocks the Skyborne race and its starting area. The Heroic costs $29.99, the Skyborne Epic Pack $59.99, and the Warcraft Forever Collection $79.99. All three allow name reservations and include rewards such as mounts and appearances for Retail and Forever; Epic and Collection packs included access to a beta that has since closed, and the Collection adds a Warcraft III: Reforged campaign. You can upgrade by paying the difference, but cannot downgrade.",
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Pre-Orders Guide:  All Editions and Rewards › Overview of Available Pre-Order Packs in Forever",
+          "url": "https://www.wowhead.com/forever/guide/pre-order-packs-rewards",
+          "date": "2026-10-31"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Pre-Orders Guide:  All Editions and Rewards › Breakdown of Each Pre-Order Pack in Forever",
+          "url": "https://www.wowhead.com/forever/guide/pre-order-packs-rewards",
+          "date": "2026-10-31"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Forever Beta Overview:  How to Access, Level Caps and More › When will Beta Unlock",
+          "url": "https://www.wowhead.com/forever/guide/beta-content-unlock-overview",
+          "date": "2026-10-31"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: WoW Forever Pre-Order Editions and Rewards Explained › Forever Pre-Orders Comparison",
           "url": "https://www.icy-veins.com/wow-forever/wow-forever-pre-orders",
           "date": "2026-09-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever Pre-Order Editions and Rewards Explained › Which Forever Pre-Order Edition Should I Buy?",
+          "url": "https://www.icy-veins.com/wow-forever/wow-forever-pre-orders",
+          "date": "2026-09-13"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
+        "general:beta-content-unlock-overview",
         "general:wow-forever-pre-orders"
       ],
       "source_hashes": [
-        "section:a87a78ab96319aa8736862a6652e943ae9b98c1e"
+        "section:445d6912add7edc02cc15174623de4d34d3a0223",
+        "section:710f34db20b050cef6a4dfb80cbe94fbb0c5b690",
+        "section:7dbf82440e5cb36eff588ad493c127da1fbf49a3",
+        "section:a87a78ab96319aa8736862a6652e943ae9b98c1e",
+        "section:e45ef8ae817f4964533d907a4a5caeaabc70c208"
       ]
     },
     {
@@ -511,9 +540,15 @@
         "hardcore forever date",
         "2027 content"
       ],
-      "text_es": "Forever se lanzó el 4 de noviembre de 2026. Las bandas se abren el 9 de diciembre de 2026, con una de 10, otra de 20 y otra de 40 jugadores. Hardcore llega en invierno de 2026. En primavera de 2027 hay previstas dos bandas nuevas, dos mazmorras, contenido de mundo y una temporada JcJ; en verano de 2027 llegan una banda clásica renovada, otra banda, más mundo, dos mazmorras y actualizaciones de profesiones y Legacy.",
-      "text_en": "Forever launched on November 4, 2026. Raids open on December 9, 2026, with one for 10, one for 20 and one for 40 players. Hardcore arrives in winter 2026. Spring 2027 brings two new raids, two dungeons, world content and a PvP season refresh; summer 2027 adds a revamped classic raid, another raid, more world content, two dungeons, and profession and Legacy updates.",
+      "text_es": "Forever se lanzó el 4 de noviembre de 2026. El 9 de diciembre se abren tres bandas para 10, 20 y 40 jugadores. Hardcore está previsto para el invierno de 2026. En primavera de 2027 llegarán dos bandas, dos mazmorras, misiones, una zona nueva, una cadena legendaria y una renovación de temporada JcJ; en verano, una banda clásica renovada, otra banda, más contenido de mundo, dos mazmorras y actualizaciones de profesiones y Legacy.",
+      "text_en": "Forever launched on November 4, 2026. Three raids for 10, 20, and 40 players open on December 9. Hardcore is planned for winter 2026. Spring 2027 is set to bring two raids, two dungeons, quests, a new area, a legendary questline, and a PvP season refresh; summer adds a revamped classic raid, another raid, more world content, two dungeons, and profession and Legacy updates.",
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: World of Warcraft: Forever Roadmap - Release Date, New Content › Content Releases for World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/content-release-roadmap",
+          "date": "2026-11-05"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: WoW Forever Release Date, Roadmap and Content Schedule › Forever Roadmap and Content Schedule",
@@ -521,11 +556,12 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "general:roadmap"
       ],
       "source_hashes": [
+        "section:b11cab3674e1a8255bcb4181471933e375eb8cb2",
         "section:e766e4adbc3a089c6ef33752043e5c0af4a391fe"
       ]
     },
@@ -551,22 +587,50 @@
         "campsite features",
         "camping quest"
       ],
-      "text_es": "Camping convierte la hoguera en un campamento compartido donde varios jugadores aportan mejoras. Alrededor del nivel 5 aparece una misión que enseña a descansar en un campamento y a crear la hoguera básica con Cocina. La hoguera sola no da beneficios: hay que añadir características de profesión y sentarse o fabricar cerca un minuto. Los campamentos se colocan al aire libre, no en ciudades principales.",
-      "text_en": "Camping turns the campfire into a shared campsite where several players contribute features. Around level 5 a quest teaches you to rest at a campsite and create the basic campfire with Cooking. The fire alone gives nothing: you must add profession features and sit or craft nearby for one minute. Campsites go outdoors, not in major cities.",
+      "text_es": "El sistema de campamentos es una actividad de creación paralela a las profesiones y permite levantar campamentos compartidos; otros jugadores pueden aportar características con beneficios, vendedores o espacios de fabricación. Una misión disponible alrededor del nivel 5 te introduce al sistema y te envía a aprender Cocina para crear una Hoguera básica. La hoguera sola no concede efectos: añade características y siéntate o fabrica junto a ella durante 1 minuto para recibirlos. Se coloca al aire libre, no en ciudades principales.",
+      "text_en": "Camping is a crafting system alongside the professions that lets players set up shared camps; visitors can add features that provide benefits, vendors, or crafting stations. A quest available around level 5 introduces the system and sends you to learn Cooking to make a Basic Campfire. The fire alone grants no effects: add features, then sit or craft beside it for 1 minute to receive them. Campsites are placed outdoors, not in major cities.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Warcraft Forever Camping System Guide › How to Unlock Camping",
+          "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › Camping Overview in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › Unlocking Campsite Perks in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › Secondary Profession Camping Items",
+          "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Warcraft Forever Camping System Guide › Campfire Basics in World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/camping",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Warcraft Forever Camping System Guide › Assorted Camping Questions",
           "url": "https://www.icy-veins.com/wow-forever/camping",
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "general:camping"
       ],
       "source_hashes": [
-        "section:d060b84606bee81051903c1ab2b456ba0618ce24"
+        "section:4d078478dbd4a2619094acb3dcd4f8ec2d6c7793",
+        "section:95e8d64f8d769205eebb9eae0382425734ae6b8b",
+        "section:9642575d6654ee0b542615c0007dc5de6b9630ec",
+        "section:9e206053daa8a9c865ee6953e2fb8e9673f025ae",
+        "section:c9e921fa9128343e5d3099c5ded02abc1c4c8d9b"
       ]
     },
     {
@@ -575,8 +639,8 @@
       "status": "editorial",
       "title_es": "Tamaños de hoguera y características",
       "title_en": "Campfire Sizes and Features",
-      "summary_es": "La hoguera básica admite 3 características; las superiores llegan a 5 y 10, con mejoras de profesión a 20, 140 y 300.",
-      "summary_en": "The basic campfire holds 3 features; larger ones hold 5 and 10, with profession upgrades at 20, 140 and 300.",
+      "summary_es": "Cocina determina el tamaño de la hoguera; las características de profesión se aprenden a 20, 140 y 300.",
+      "summary_en": "Cooking determines campfire size; profession features are learned at 20, 140, and 300.",
       "keywords_es": [
         "tamaño de hoguera",
         "hoguera básica",
@@ -591,22 +655,36 @@
         "expert campfire",
         "profession features"
       ],
-      "text_es": "El tamaño del campamento depende de Cocina. La hoguera básica deja espacio para 3 características; la de Oficial para 5 y la de Experto para 10. Las características de cada profesión aparecen a 20, 140 y 300 de habilidad, y las versiones altas conservan los beneficios de las anteriores. La hoguera básica tiene 5 minutos de reutilización y cada jugador solo puede aportar una característica al campamento.",
-      "text_en": "Campsite size depends on Cooking. The basic campfire leaves room for 3 features; the Journeyman one for 5 and the Expert one for 10. Each profession's features appear at 20, 140 and 300 skill, and higher tiers keep the earlier benefits. The basic campfire has a 5-minute cooldown and each player can contribute only one feature to a campsite.",
+      "text_es": "Cocina determina la capacidad: la Hoguera básica se aprende a habilidad 1 y admite 3 características; la Hoguera de oficial requiere 90 y admite 5; la Hoguera de experto requiere 200 y admite 10. Cada hoguera tiene 5 minutos de reutilización. Las características de profesión se desbloquean con 20, 140 y 300 de habilidad, y las versiones superiores conservan los beneficios anteriores. Cada jugador solo puede aportar una característica.",
+      "text_en": "Campfire capacity is set by Cooking: Basic Campfire is learned at skill 1 and holds 3 features; a Journeyman campfire requires 90 and holds 5; an Expert campfire requires 200 and holds 10. Each campfire has a 5-minute cooldown. Profession features unlock at 20, 140, and 300 skill, and higher tiers keep earlier benefits. Each player can contribute only one feature.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Warcraft Forever Camping System Guide › Campfire Sizes and Feature Limits",
-          "url": "https://www.icy-veins.com/wow-forever/camping",
+          "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › Unlocking Campsite Perks in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › Primary Profession Camping Items",
+          "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › Secondary Profession Camping Items",
+          "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "general:camping"
       ],
       "source_hashes": [
-        "section:2901c299b1a897ab45d63353a796c51cd3dc41e3"
+        "section:95e8d64f8d769205eebb9eae0382425734ae6b8b",
+        "section:9642575d6654ee0b542615c0007dc5de6b9630ec",
+        "section:ef6eafa990feacdd7b9f645f7e9dba4575d9f19a"
       ]
     },
     {
@@ -615,8 +693,8 @@
       "status": "editorial",
       "title_es": "El saco de dormir y la experiencia extra",
       "title_en": "The Sleeping Bag and Bonus Experience",
-      "summary_es": "El Saco de dormir acogedor da un 1% de experiencia durante 2 horas; el buff se acumula hasta 3 veces.",
-      "summary_en": "The Cozy Sleeping Bag gives 1% experience for 2 hours; the buff stacks up to 3 times.",
+      "summary_es": "El bonus del Saco de dormir acogedor aumenta un 1% por minuto hasta el 3% y dura 1 hora.",
+      "summary_en": "The Cozy Sleeping Bag bonus rises by 1% per minute up to 3% and lasts 1 hour.",
       "keywords_es": [
         "saco de dormir acogedor",
         "bien descansado",
@@ -631,21 +709,35 @@
         "experience buff",
         "forever sleeping bag"
       ],
-      "text_es": "El Saco de dormir acogedor se obtiene en una cadena de misiones por varias zonas de nivel bajo. Al usarlo y permanecer dentro al menos un minuto, recibes Bien descansado: un 1% más de experiencia de todas las fuentes durante 2 horas. El buff se acumula hasta tres veces, para un 3% total, y sigue activo tras morir. El objeto tiene una hora de reutilización y los miembros del grupo también pueden usar el saco.",
-      "text_en": "The Cozy Sleeping Bag comes from a questline through several low-level zones. Using it and staying inside for at least one minute grants Well Rested: 1% more experience from all sources for 2 hours. The buff stacks up to three times for 3% total and persists through death. The item has a 1-hour cooldown and party members can use the bag too.",
+      "text_es": "El Saco de dormir acogedor se consigue en una cadena por zonas de nivel bajo. Al tumbarte dentro al menos 1 minuto, recibes Bien descansado: cada minuto aumenta un 1% la experiencia de todas las fuentes, hasta un máximo del 3%; dura 1 hora. Mientras estás dentro también acumulas descanso. El objeto tiene 1 hora de reutilización, el bonus persiste tras morir y los miembros del grupo también pueden usarlo.",
+      "text_en": "The Cozy Sleeping Bag comes from a questline through low-level zones. After lying inside for at least 1 minute, you gain Well Rested: each minute increases experience from all sources by 1%, up to 3%; it lasts 1 hour. You also accumulate rested experience while inside. The item has a 1-hour cooldown, the bonus persists through death, and party members can use it too.",
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Cozy Sleeping Bag:  Quests, Locations and Rewards in Forever › What is a Cozy Sleeping Bag?",
+          "url": "https://www.wowhead.com/forever/guide/cozy-sleeping-bag-locations-rewards",
+          "date": "2026-11-16"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: How to Get The Sleeping Bag in World of Warcraft Forever › What is the Cozy Sleeping Bag",
           "url": "https://www.icy-veins.com/wow-forever/sleeping-bag",
           "date": "2026-10-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: How to Get The Sleeping Bag in World of Warcraft Forever › How to Obtain the Cozy Sleeping Bag",
+          "url": "https://www.icy-veins.com/wow-forever/sleeping-bag",
+          "date": "2026-10-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "general:sleeping-bag"
       ],
       "source_hashes": [
+        "section:9e8a84e4baf38dd6baa0bbc6ae3b1be325db86eb",
+        "section:d96ae6b595357afa5b297825485d033a19e359bf",
         "section:f00299740226cde99fcafb72e408041631900f8d"
       ]
     },
@@ -655,8 +747,8 @@
       "status": "editorial",
       "title_es": "Saco de dormir: cómo empezar la cadena",
       "title_en": "Sleeping bag: how to start the questline",
-      "summary_es": "Dónde empieza la cadena del Saco de dormir acogedor según tu facción y qué preparar.",
-      "summary_en": "Where the Cozy Sleeping Bag questline starts for each faction and what to prepare.",
+      "summary_es": "La cadena empieza a nivel 14; Alianza y Horda recorren en orden inverso los dos puntos iniciales.",
+      "summary_en": "The questline starts at level 14; Alliance and Horde visit the two opening locations in reverse order.",
       "keywords_es": [
         "mision del saco de dormir",
         "cadena del saco de dormir",
@@ -671,9 +763,27 @@
         "start sleeping bag",
         "and that note you found"
       ],
-      "text_es": "La cadena se puede hacer desde nivel 14. En la Alianza empieza en los Restos carbonizados junto a los escombros de la granja de Alexston, en Páramos de Poniente (37.4, 50.7): coges «y la nota que has encontrado...» y la entregas en los restos de una torre al sur del Campamento Taurajo, en Los Baldíos (46.4, 73.9), donde coges Stepping Stones. En la Horda es igual pero al revés. Antes conviene tener puntos de vuelo cerca de Los Baldíos, Sierra Espolón, Loch Modan, Humedales y Trabalomas.",
-      "text_en": "The questline is available from level 14. For the Alliance it starts at the Burned-Out Remains by the debris of Alexston's Farmstead in Westfall (37.4, 50.7): pick up '... and that note you found' and turn it in at the ruined tower south of Camp Taurajo in The Barrens (46.4, 73.9), where you pick up Stepping Stones. For the Horde it is the same in reverse order. Unlock flight paths near The Barrens, Stonetalon Mountains, Loch Modan, Wetlands and Hillsbrad Foothills first.",
+      "text_es": "La cadena está disponible desde nivel 14. La Alianza recoge «y la nota que has encontrado...» en los restos carbonizados junto a la Hacienda de Alexston, en Páramos de Poniente (/way 37, 50), y la entrega en una torre en ruinas al sur del Campamento Taurajo, en Los Baldíos (/way 46, 74), donde acepta «Peldaños». La Horda visita los mismos dos puntos en orden inverso. Antes conviene preparar transporte o rutas de vuelo cerca de Los Baldíos, Sierra Espolón, Loch Modan, Los Humedales y Laderas de Trabalomas.",
+      "text_en": "The questline is available from level 14. Alliance characters pick up '... and that note you found' at the Burned-Out Remains by Alexston Farmstead in Westfall (/way 37, 50), then turn it in at a ruined tower south of Camp Taurajo in The Barrens (/way 46, 74) and accept Stepping Stones. Horde characters visit the same two locations in reverse order. Before setting out, have transport or flight paths near The Barrens, Stonetalon Mountains, Loch Modan, Wetlands, and Hillsbrad Foothills.",
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Cozy Sleeping Bag:  Quests, Locations and Rewards in Forever › (intro)",
+          "url": "https://www.wowhead.com/forever/guide/cozy-sleeping-bag-locations-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Cozy Sleeping Bag:  Quests, Locations and Rewards in Forever › Westfall",
+          "url": "https://www.wowhead.com/forever/guide/cozy-sleeping-bag-locations-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Cozy Sleeping Bag:  Quests, Locations and Rewards in Forever › The Barrens",
+          "url": "https://www.wowhead.com/forever/guide/cozy-sleeping-bag-locations-rewards",
+          "date": "2026-11-16"
+        },
         {
           "type": "editorial",
           "ref": "Icy Veins: How to Get The Sleeping Bag in World of Warcraft Forever › How to Obtain the Cozy Sleeping Bag",
@@ -681,29 +791,32 @@
           "date": "2026-10-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "general:sleeping-bag"
       ],
       "source_hashes": [
-        "section:9e8a84e4baf38dd6baa0bbc6ae3b1be325db86eb"
+        "guide:cfea77bbd9cb56dc7be6cd289b4e78ea59786d73",
+        "section:0f5410d7f70b6e382248705ac7bc6ac9658457f1",
+        "section:9e8a84e4baf38dd6baa0bbc6ae3b1be325db86eb",
+        "section:a35106c03bbc2e25e21380ae90bed2b1734e6c6e"
       ]
     },
     {
       "id": "general-saco-dormir-pasos",
       "chapter": 1,
       "status": "editorial",
-      "title_es": "Saco de dormir: Sierra Espolón y Loch Modan",
-      "title_en": "Sleeping bag: Stonetalon and Loch Modan",
-      "summary_es": "Pasos intermedios de la cadena del Saco de dormir: Stepping Stones, Scramble y Wet Job.",
-      "summary_en": "Middle steps of the sleeping bag questline: Stepping Stones, Scramble and Wet Job.",
+      "title_es": "Saco de dormir: pasos intermedios",
+      "title_en": "Sleeping bag: middle steps",
+      "summary_es": "Desde Sierra Espolón hasta Loch Modan, la cadena avanza por Revolver, Un trabajo sucio y El puño del águila.",
+      "summary_en": "The route runs from Stepping Stones through Scramble and Wet Job to Eagle's Fist.",
       "keywords_es": [
         "mision del saco de dormir",
         "cadena del saco de dormir",
         "saco de dormir acogedor",
-        "stepping stones",
-        "scramble",
-        "wet job"
+        "peldaños",
+        "revolver",
+        "un trabajo sucio"
       ],
       "keywords_en": [
         "sleeping bag quest",
@@ -713,39 +826,53 @@
         "scramble",
         "wet job"
       ],
-      "text_es": "En Sierra Espolón sube por el camino de la montaña al noreste del Refugio Roca del Sol hasta un campamento abandonado (40.8, 52.6): entrega Stepping Stones y coge Scramble. Sigue subiendo hacia el norte sin fallar el salto, o tendrás que dar toda la vuelta, hasta el montículo de tierra (39.6, 49.8): entrega Scramble y coge Wet Job. Después ve a la presa del norte de Loch Modan, salta desde la cabeza de enano más al este y entrega Wet Job en la figura tallada (49.4, 12.9); allí coges Eagle's Fist. Si fallas ese salto caes hasta Humedales.",
-      "text_en": "In Stonetalon Mountains take the mountain path northeast of Sun Rock Retreat up to an abandoned camp (40.8, 52.6): turn in Stepping Stones and pick up Scramble. Keep climbing north without missing the jump, or you must go all the way around, to the mound of dirt (39.6, 49.8): turn in Scramble and pick up Wet Job. Then go to the dam in northern Loch Modan, jump from the easternmost dwarf head and turn in Wet Job at the carved figurine (49.4, 12.9), where you pick up Eagle's Fist. Missing that jump drops you into the Wetlands.",
+      "text_es": "Toma el camino al noreste del Refugio Roca del Sol, en Sierra Espolón, y sube al campamento abandonado (/way 40.6, 52.4): entrega «Peldaños» y acepta «Revolver». Sigue al norte hasta el montículo de tierra (/way 39.6, 49.8) y salta para completar «Revolver» y recoger «Un trabajo sucio»; si fallas, tendrás que rodear la montaña. En la presa de Loch Modan, salta desde la cabeza de enano más al este hasta la figura del águila (/way 49.4, 12.9), entrega «Un trabajo sucio» y acepta «El puño del águila». Si fallas este último salto, caerás hasta Los Humedales.",
+      "text_en": "Take the path northeast of Sun Rock Retreat in Stonetalon Mountains and climb to the abandoned camp (/way 40.6, 52.4): turn in Stepping Stones and accept Scramble. Head north to the mound of dirt (/way 39.6, 49.8) and jump over to complete Scramble and pick up Wet Job; if you miss, you must go around the mountain. At the dam in Loch Modan, jump from the easternmost dwarf head to the eagle figurine (/way 49.4, 12.9), turn in Wet Job, and accept Eagle's Fist. Missing this last jump drops you into the Wetlands.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: How to Get The Sleeping Bag in World of Warcraft Forever › How to Obtain the Cozy Sleeping Bag",
+          "ref": "Wowhead: Cozy Sleeping Bag:  Quests, Locations and Rewards in Forever › Stonetalon Mountains",
+          "url": "https://www.wowhead.com/forever/guide/cozy-sleeping-bag-locations-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Cozy Sleeping Bag:  Quests, Locations and Rewards in Forever › Loch Modan",
+          "url": "https://www.wowhead.com/forever/guide/cozy-sleeping-bag-locations-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: How to Get The Sleeping Bag in World of Warcraft Forever › Step 3: Loch Modan",
           "url": "https://www.icy-veins.com/wow-forever/sleeping-bag",
           "date": "2026-10-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "general:sleeping-bag"
       ],
       "source_hashes": [
-        "section:9e8a84e4baf38dd6baa0bbc6ae3b1be325db86eb"
+        "section:43a2d603ecc68ec57edd817d85e42086f37ad364",
+        "section:9f44f7f755ffd2282f9f3c26469bac5fbac5cd87",
+        "section:a2b074be6bb3c5cd7f916ded22490c499c9a32aa"
       ]
     },
     {
       "id": "general-saco-dormir-final",
       "chapter": 1,
       "status": "editorial",
-      "title_es": "Saco de dormir: el paso final",
+      "title_es": "Saco de dormir: paso final",
       "title_en": "Sleeping bag: the final step",
-      "summary_es": "Último paso de la cadena del Saco de dormir en el Muro de Thoradin.",
-      "summary_en": "Last step of the sleeping bag questline at Thoradin's Wall.",
+      "summary_es": "En la Muralla de Thoradin, entrega El puño del águila y Este debe de ser el lugar para obtener el saco.",
+      "summary_en": "The final step is at Thoradin Wall; complete the last two quests to receive the sleeping bag.",
       "keywords_es": [
         "mision del saco de dormir",
         "cadena del saco de dormir",
         "saco de dormir acogedor",
-        "eagle's fist",
-        "this must be the place",
-        "muro de thoradin"
+        "el puño del águila",
+        "este debe de ser el lugar",
+        "muralla de thoradin"
       ],
       "keywords_en": [
         "sleeping bag quest",
@@ -755,22 +882,29 @@
         "this must be the place",
         "thoradin's wall"
       ],
-      "text_es": "El último paso está en el Muro de Thoradin, entre Trabalomas y las Tierras Altas de Arathi. Desde el lado de Trabalomas busca un carro roto: sus restos forman un recorrido de saltos que sube por el muro. Arriba llegarás a una sala llena de trastos; entrega Eagle's Fist en la bolsa colgada de la pared (Tierras Altas de Arathi 22.5, 24.1), coge This Must Be The Place y entrégala en el pergamino que hay justo debajo para recibir el Saco de dormir acogedor.",
-      "text_en": "The last step is at Thoradin's Wall, between Hillsbrad Foothills and the Arathi Highlands. On the Hillsbrad side look for a broken cart: its debris forms a jumping path up the wall. At the top you reach a room full of knick-knacks; turn in Eagle's Fist at the bag hanging on the wall (Arathi Highlands 22.5, 24.1), pick up This Must Be The Place and turn it in at the scroll just below to receive the Cozy Sleeping Bag.",
+      "text_es": "El paso final está en la Muralla de Thoradin, entre Laderas de Trabalomas y Tierras Altas de Arathi. Usa el carro destrozado del lado de Trabalomas (/way 87.3, 49.6); sus restos forman un recorrido de saltos que sube por el muro. En la sala de arriba, llena de objetos, entrega «El puño del águila» en la bolsa colgada, acepta «Este debe de ser el lugar» y entrégala en el pergamino de debajo para recibir el Saco de dormir acogedor.",
+      "text_en": "The final step is at Thoradin Wall, between Hillsbrad Foothills and the Arathi Highlands. Use the broken cart on the Hillsbrad side (/way 87.3, 49.6); its debris forms a jumping path up the wall. In the room above, filled with objects, turn in Eagle's Fist at the hanging bag, accept This Must Be The Place, then turn it in at the scroll below to receive the Cozy Sleeping Bag.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: How to Get The Sleeping Bag in World of Warcraft Forever › How to Obtain the Cozy Sleeping Bag",
+          "ref": "Wowhead: Cozy Sleeping Bag:  Quests, Locations and Rewards in Forever › Hillsbrad Foothills",
+          "url": "https://www.wowhead.com/forever/guide/cozy-sleeping-bag-locations-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: How to Get The Sleeping Bag in World of Warcraft Forever › Final Step: Hillsbrad Foothills",
           "url": "https://www.icy-veins.com/wow-forever/sleeping-bag",
           "date": "2026-10-10"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "general:sleeping-bag"
       ],
       "source_hashes": [
-        "section:9e8a84e4baf38dd6baa0bbc6ae3b1be325db86eb"
+        "section:7328077eade208ca2d73bebbed7c035f69230ed0",
+        "section:808f2a132bf3a7166648d14425c9d86470410e68"
       ]
     },
     {
