@@ -1485,8 +1485,8 @@
         "rogue venom talent",
         "assassination eviscerate"
       ],
-      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3, Vigor 1/2, Salpicadura de sangre 1/1, Letalidad 2/2, Venenos inmundos 3/5, Sangre fría 1/1, Venenos mejorados 2/5, Golpes despiadados 5/5, Veneno 1/1, Sello del destino 3/3 y Mutilar 1/1. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2, Heridas punzantes 3/3, Precisión 3/3, Robustez 2/2, Compostura 2/2, Ejecución impecable 1/1 y Agresión 3/3. Sutileza: Oportunidad 1/5. El enfoque amplifica venenos; mantén Hacer picadillo y gasta puntos extra en Eviscerar.",
-      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, Vigor 1/2, Blood Splatter 1/1, Lethality 2/2, Vile Poisons 3/5, Cold Blood 1/1, Improved Poisons 2/5, Relentless Strikes 5/5, Venom 1/1, Seal Fate 3/3, and Mutilate 1/1. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, Puncturing Wounds 3/3, Precision 3/3, Endurance 2/2, Composure 2/2, Flawless Execution 1/1, and Aggression 3/3. Subtlety: Opportunity 1/5. It amplifies poison damage; maintain Slice and Dice and spend extra points on Eviscerate.",
+      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3, Vigor 1/2, Salpicadura de sangre 1/1, Letalidad 2/2, Venenos inmundos 3/5, Sangre fría 1/1, Venenos mejorados 2/5, Golpes despiadados 5/5, Veneno 1/1, Sello del destino 3/3 y Mutilar 1/1. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2, Heridas punzantes 3/3, Precisión 3/3, Robustez 2/2, Compostura 2/2, Ejecución impecable 1/1 y Agresión 3/3. Sutileza: Oportunidad 1/5. Es la build uniforme de Asesinato para JcE.",
+      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, Vigor 1/2, Blood Splatter 1/1, Lethality 2/2, Vile Poisons 3/5, Cold Blood 1/1, Improved Poisons 2/5, Relentless Strikes 5/5, Venom 1/1, Seal Fate 3/3, and Mutilate 1/1. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, Puncturing Wounds 3/3, Precision 3/3, Endurance 2/2, Composure 2/2, Flawless Execution 1/1, and Aggression 3/3. Subtlety: Opportunity 1/5. This is the uniform Assassination PvE build.",
       "tags": [
         "ROGUE"
       ],
@@ -1495,56 +1495,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Assassination Rogue Talent Builds - WoW: Forever › Best Assassination Rogue PvE Dungeon and Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/talent-builds-pve-dps",
-          "date": "2026-11-11"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:rogue:assassination:talents"
       ],
       "source_hashes": [
-        "section:f81fa015b1cb3ec0a0a3fee832935e35e2f8a7fb"
-      ]
-    },
-    {
-      "id": "clase-rogue-build-asesinato-sin-veneno-60",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Variante de Asesinato sin Veneno (bandas y mazmorras)",
-      "title_en": "Assassination No-Venom Variant (raids and dungeons)",
-      "summary_es": "Omite Veneno, mantiene Hacer picadillo y gasta puntos sobrantes en Eviscerar.",
-      "summary_en": "Skips Venom, maintains Slice and Dice, and spends excess points on Eviscerate.",
-      "keywords_es": [
-        "build asesinato sin veneno",
-        "asesinato sin talento veneno",
-        "eviscerar puntos combo",
-        "ráfaga con espada asesinato"
-      ],
-      "keywords_en": [
-        "assassination no venom build",
-        "assassination without venom talent",
-        "combo points eviscerate",
-        "assassination blade flurry"
-      ],
-      "text_es": "La variante alternativa evita activar Veneno y centra los puntos sobrantes en Eviscerar sin perder el mantenimiento de Hacer picadillo. Deja espacio para talentos profundos de Combate, como Ráfaga con espada, Cortar y rebanar y Experiencia con armas.",
-      "text_en": "This alternative leaves the Venom talent unused, maintains Slice and Dice, and spends excess points on Eviscerate. It opens room for deeper Combat choices, including Hack and Slash, Blade Flurry, and Weapon Expertise; simulations favor spending extra points rather than activating Venom.",
-      "tags": [
-        "ROGUE"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Best Assassination Rogue Talent Builds - WoW: Forever › Best Assassination Rogue PvE Dungeon and Raid Build",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/talent-builds-pve-dps",
-          "date": "2026-11-11"
-        }
-      ],
-      "updated": "2026-11-17",
-      "topics": [
-        "class:rogue:assassination:talents"
-      ],
-      "source_hashes": [
-        "section:f81fa015b1cb3ec0a0a3fee832935e35e2f8a7fb"
+        "section:009f8f2850c8b4e91c2570dd6f303d47feba8192"
       ]
     },
     {
@@ -1722,8 +1681,8 @@
         "slow weapon rogue",
         "combat weapon specialization"
       ],
-      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3, Vigor 2/2, Letalidad 2/2 y Sangre fría 1/1. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2, Desvío 1/3, Precisión 3/3, Correr mejorado 2/2, Robustez 2/2, Compostura 2/2, Ejecución impecable 1/1, Experiencia con armas 2/2, Agresión 3/3, Especialización en doble empuñadura 2/2, Ráfaga con espada 1/1, Cortar y rebanar 5/5, Destello de acero 5/5 y Subidón de adrenalina 1/1. Elige una mano principal lenta y genera puntos con Golpe siniestro para aprovechar el daño automático y Cortar y rebanar.",
-      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, Vigor 2/2, Lethality 2/2, and Cold Blood 1/1. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, Deflection 1/3, Precision 3/3, Improved Sprint 2/2, Endurance 2/2, Composure 2/2, Flawless Execution 1/1, Weapon Expertise 2/2, Aggression 3/3, Dual Wield Specialization 2/2, Blade Flurry 1/1, Hack and Slash 5/5, Flash of Steel 5/5, and Adrenaline Rush 1/1. Use a slow main hand and build with Sinister Strike, then rely on auto-attacks and Hack and Slash.",
+      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3, Vigor 2/2, Letalidad 2/2 y Sangre fría 1/1. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2, Desvío 1/3, Precisión 3/3, Correr mejorado 2/2, Robustez 2/2, Compostura 2/2, Ejecución impecable 1/1, Experiencia con armas 2/2, Agresión 3/3, Especialización en doble empuñadura 2/2, Ráfaga con espada 1/1, Cortar y rebanar 5/5, Destello de acero 5/5 y Subidón de adrenalina 1/1. Usa un arma principal lenta y genera puntos con Golpe siniestro.",
+      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, Vigor 2/2, Lethality 2/2, and Cold Blood 1/1. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, Deflection 1/3, Precision 3/3, Improved Sprint 2/2, Endurance 2/2, Composure 2/2, Flawless Execution 1/1, Weapon Expertise 2/2, Aggression 3/3, Dual Wield Specialization 2/2, Blade Flurry 1/1, Hack and Slash 5/5, Flash of Steel 5/5, and Adrenaline Rush 1/1. Use a slow main-hand weapon and build with Sinister Strike.",
       "tags": [
         "ROGUE"
       ],
@@ -1732,15 +1691,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Combat Rogue Talent Builds - WoW: Forever › Best Combat Rogue PvE Dungeon and Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/talent-builds-pve-dps",
-          "date": "2026-11-11"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:rogue:combat:talents"
       ],
       "source_hashes": [
-        "section:22fc526e80f80ba3e0dd788a158fcbc30f586962"
+        "section:8173dc81cac36120bade5a8c57750e3c4168611c"
       ]
     },
     {
@@ -1763,8 +1722,8 @@
         "combat opportunity",
         "combat puncturing wounds"
       ],
-      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3 y Letalidad 2/2. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2, Heridas punzantes 3/3, Precisión 3/3, Robustez 2/2, Compostura 2/2, Ejecución impecable 1/1, Experiencia con armas 2/2, Agresión 2/3, Especialización en doble empuñadura 2/2, Ráfaga con espada 1/1, Cortar y rebanar 4/5, Destello de acero 5/5 y Subidón de adrenalina 1/1. Sutileza: Oportunidad 5/5. Equipa una daga en la mano principal y genera puntos con Puñalada; Heridas punzantes y Oportunidad apoyan esta variante.",
-      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, and Lethality 2/2. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, Puncturing Wounds 3/3, Precision 3/3, Endurance 2/2, Composure 2/2, Flawless Execution 1/1, Weapon Expertise 2/2, Aggression 2/3, Dual Wield Specialization 2/2, Blade Flurry 1/1, Hack and Slash 4/5, Flash of Steel 5/5, and Adrenaline Rush 1/1. Subtlety: Opportunity 5/5. Equip a main-hand dagger and build with Backstab; Puncturing Wounds and Opportunity support the variant.",
+      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3 y Letalidad 2/2. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2, Heridas punzantes 3/3, Precisión 3/3, Robustez 2/2, Compostura 2/2, Ejecución impecable 1/1, Experiencia con armas 2/2, Agresión 2/3, Especialización en doble empuñadura 2/2, Ráfaga con espada 1/1, Cortar y rebanar 4/5, Destello de acero 5/5 y Subidón de adrenalina 1/1. Sutileza: Oportunidad 5/5. Equipa una daga en la mano principal y genera puntos con Puñalada.",
+      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, and Lethality 2/2. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, Puncturing Wounds 3/3, Precision 3/3, Endurance 2/2, Composure 2/2, Flawless Execution 1/1, Weapon Expertise 2/2, Aggression 2/3, Dual Wield Specialization 2/2, Blade Flurry 1/1, Hack and Slash 4/5, Flash of Steel 5/5, and Adrenaline Rush 1/1. Subtlety: Opportunity 5/5. Equip a main-hand dagger and build with Backstab.",
       "tags": [
         "ROGUE"
       ],
@@ -1773,25 +1732,25 @@
           "type": "editorial",
           "ref": "Wowhead: Best Combat Rogue Talent Builds - WoW: Forever › Best Combat Rogue PvE Dungeon and Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/talent-builds-pve-dps",
-          "date": "2026-11-11"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:rogue:combat:talents"
       ],
       "source_hashes": [
-        "section:22fc526e80f80ba3e0dd788a158fcbc30f586962"
+        "section:8173dc81cac36120bade5a8c57750e3c4168611c"
       ]
     },
     {
       "id": "clase-rogue-build-sutileza-hemorragia-60",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Build JcE de Sutileza: Hemorragia (bandas y mazmorras)",
-      "title_en": "Subtlety PvE Build: Hemorrhage (raids and dungeons)",
-      "summary_es": "Build flexible de sangrados; puede usar distintas armas y favorece una mano principal lenta.",
-      "summary_en": "Flexible bleed build that can use different weapons and favors a slow main hand.",
+      "title_es": "Build JcE de Sutileza: Deep Sub (bandas y mazmorras)",
+      "title_en": "Subtlety PvE Build: Deep Sub (raids and dungeons)",
+      "summary_es": "Build flexible con Marca de muerte y Cuchillo de bota; genera puntos con Hemorragia.",
+      "summary_en": "Flexible build with Death Mark and Boot Knife; builds points with Hemorrhage.",
       "keywords_es": [
         "build sutileza hemorragia",
         "talentos sutileza pve",
@@ -1804,8 +1763,8 @@
         "subtlety death mark",
         "rogue boot knife"
       ],
-      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3 y Salpicadura de sangre 1/1. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2 y Precisión 3/3. Sutileza: Establecer 3/3, Oportunidad 5/5, Trabajos sucios 2/2, Camuflaje 3/3, Iniciativa 3/3, Premeditación 1/1, Espadas dentadas 3/3, Elusión 2/2, Golpe fantasmal 1/1, Preparación 1/1, Hemorragia 1/1, Cuchillo de bota 5/5 y Marca de muerte 1/1. La build de sangrados es flexible con armas y se beneficia de una mano principal lenta. Recomendación provisional hasta que se pruebe a nivel 60.",
-      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, and Blood Splatter 1/1. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, and Precision 3/3. Subtlety: Setup 3/3, Opportunity 5/5, Dirty Deeds 2/2, Camouflage 3/3, Initiative 3/3, Premeditation 1/1, Serrated Blades 3/3, Elusiveness 2/2, Ghostly Strike 1/1, Preparation 1/1, Hemorrhage 1/1, Boot Knife 5/5, and Death Mark 1/1. The bleed build is weapon-flexible and favors a slow main hand. Provisional recommendation until tested at level 60.",
+      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3 y Salpicadura de sangre 1/1. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2 y Precisión 3/3. Sutileza: Establecer 3/3, Oportunidad 5/5, Trabajos sucios 2/2, Camuflaje 3/3, Iniciativa 3/3, Premeditación 1/1, Espadas dentadas 3/3, Elusión 2/2, Golpe fantasmal 1/1, Preparación 1/1, Hemorragia 1/1, Cuchillo de bota 5/5 y Marca de muerte 1/1. Esta variante prioriza Marca de muerte y Cuchillo de bota; admite distintas armas.",
+      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, and Blood Splatter 1/1. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, and Precision 3/3. Subtlety: Setup 3/3, Opportunity 5/5, Dirty Deeds 2/2, Camouflage 3/3, Initiative 3/3, Premeditation 1/1, Serrated Blades 3/3, Elusiveness 2/2, Ghostly Strike 1/1, Preparation 1/1, Hemorrhage 1/1, Boot Knife 5/5, and Death Mark 1/1. This variant focuses on Death Mark and Boot Knife and can use different weapons.",
       "tags": [
         "ROGUE"
       ],
@@ -1814,64 +1773,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Subtlety Rogue Talent Tree Builds - WoW: Forever › Best Subtlety Rogue PvE Dungeon and Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/talent-builds-pve-dps",
-          "date": "2026-11-11"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Subtlety Rogue Attribute and Stat Priority - WoW: Forever › Subtlety Rogue Stat Priority in WoW Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/stat-priority-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-17",
-      "topics": [
-        "class:rogue:subtlety:stats",
-        "class:rogue:subtlety:talents"
-      ],
-      "source_hashes": [
-        "section:9d81690bbd497d8907f7e3fdba450521e9ccee72",
-        "section:b4c11c48292144def58dcb097aefdcb02f062645"
-      ]
-    },
-    {
-      "id": "clase-rogue-build-sutileza-punalada-alternativa-60",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Variante de Sutileza con Puñalada (bandas y mazmorras)",
-      "title_en": "Subtlety Backstab Variant (raids and dungeons)",
-      "summary_es": "La variante de Puñalada requiere daga principal; ambas rutas abren con Garrote.",
-      "summary_en": "The Backstab variant requires a main-hand dagger; both paths open with Garrote.",
-      "keywords_es": [
-        "variante puñalada sutileza",
-        "build sutileza daga",
-        "garrote apertura sutileza",
-        "heridas punzantes degollador"
-      ],
-      "keywords_en": [
-        "subtlety backstab variant",
-        "subtlety dagger build",
-        "garrote subtlety opener",
-        "puncturing wounds cutthroat"
-      ],
-      "text_es": "La alternativa de Puñalada requiere una daga en la mano principal; igual que la ruta de Hemorragia, abre con Garrote. Cambia el generador y depende de las activaciones reactivas de Heridas punzantes y Degollador, por lo que su secuencia difiere del build flexible de sangrados.",
-      "text_en": "The Backstab alternative requires a main-hand dagger; like the Hemorrhage route, it opens with Garrote. It changes the builder and relies on the reactive effects of Puncturing Wounds and Cutthroat, so its sequence differs from the flexible bleed build.",
-      "tags": [
-        "ROGUE"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Best Subtlety Rogue Talent Tree Builds - WoW: Forever › Best Subtlety Rogue PvE Dungeon and Raid Build",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/talent-builds-pve-dps",
-          "date": "2026-11-11"
-        }
-      ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:rogue:subtlety:talents"
       ],
       "source_hashes": [
-        "section:b4c11c48292144def58dcb097aefdcb02f062645"
+        "section:38a49afdc60164a2c4f34e9dae4992d445306b02"
       ]
     },
     {
@@ -2971,6 +2881,88 @@
       ],
       "source_hashes": [
         "section:33904b741654bce18d86fb423db0d77b84e1d575"
+      ]
+    },
+    {
+      "id": "clase-rogue-build-sutileza-hemo-sello-destino-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcE de Sutileza: Hemorragia y Sello del destino",
+      "title_en": "Subtlety PvE Build: Hemo Seal Fate",
+      "summary_es": "Build flexible que combina Hemorragia con Veneno y Sello del destino.",
+      "summary_en": "Flexible build combining Hemorrhage with Venom and Seal Fate.",
+      "keywords_es": [
+        "build sutileza hemorragia",
+        "sello del destino pícaro",
+        "talentos veneno sutileza",
+        "build JcE sutileza"
+      ],
+      "keywords_en": [
+        "subtlety hemo seal fate build",
+        "rogue seal fate talents",
+        "subtlety venom talents",
+        "subtlety pve build"
+      ],
+      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3, Vigor 1/2, Salpicadura de sangre 1/1, Letalidad 2/2, Venenos inmundos 1/5, Sangre fría 1/1, Venenos mejorados 3/5, Golpes despiadados 5/5, Veneno 1/1 y Sello del destino 2/3. Combate: Golpes eficientes 2/2. Sutileza: Maestro de la decepción 3/3, Oportunidad 5/5, Trabajos sucios 2/2, Iniciativa 3/3, Premeditación 1/1, Espadas dentadas 3/3, Elusión 2/2, Golpe fantasmal 1/1 y Hemorragia 1/1. Es flexible en armas y su apertura es más sencilla que la de Deep Sub.",
+      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, Vigor 1/2, Blood Splatter 1/1, Lethality 2/2, Vile Poisons 1/5, Cold Blood 1/1, Improved Poisons 3/5, Relentless Strikes 5/5, Venom 1/1, and Seal Fate 2/3. Combat: Efficient Strikes 2/2. Subtlety: Master of Deception 3/3, Opportunity 5/5, Dirty Deeds 2/2, Initiative 3/3, Premeditation 1/1, Serrated Blades 3/3, Elusiveness 2/2, Ghostly Strike 1/1, and Hemorrhage 1/1. It is weapon-flexible and has a simpler opener than Deep Sub.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Subtlety Rogue Talent Tree Builds - WoW: Forever › Best Subtlety Rogue PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/talent-builds-pve-dps",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "class:rogue:subtlety:talents"
+      ],
+      "source_hashes": [
+        "section:38a49afdc60164a2c4f34e9dae4992d445306b02"
+      ]
+    },
+    {
+      "id": "clase-rogue-build-combate-veneno-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build JcE de Combate: Veneno",
+      "title_en": "Combat PvE Build: Venom",
+      "summary_es": "Build de Combate con Veneno y sin Subidón de adrenalina.",
+      "summary_en": "Combat build with Venom and without Adrenaline Rush.",
+      "keywords_es": [
+        "build combate veneno",
+        "talentos veneno pícaro",
+        "subidón de adrenalina combate",
+        "build JcE combate"
+      ],
+      "keywords_en": [
+        "combat venom build",
+        "rogue venom talents",
+        "combat adrenaline rush",
+        "combat pve build"
+      ],
+      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3, Vigor 2/2, Letalidad 2/2, Venenos inmundos 4/5, Sangre fría 1/1 y Veneno 1/1. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2, Desvío 1/3, Precisión 3/3, Correr mejorado 2/2, Robustez 2/2, Compostura 2/2, Ejecución impecable 1/1, Experiencia con armas 2/2, Agresión 3/3, Especialización en doble empuñadura 2/2, Ráfaga con espada 1/1, Cortar y rebanar 1/5 y Destello de acero 5/5. La variante obtiene Veneno y no incluye Subidón de adrenalina.",
+      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, Vigor 2/2, Lethality 2/2, Vile Poisons 4/5, Cold Blood 1/1, and Venom 1/1. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, Deflection 1/3, Precision 3/3, Improved Sprint 2/2, Endurance 2/2, Composure 2/2, Flawless Execution 1/1, Weapon Expertise 2/2, Aggression 3/3, Dual Wield Specialization 2/2, Blade Flurry 1/1, Hack and Slash 1/5, and Flash of Steel 5/5. This variant takes Venom and omits Adrenaline Rush.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Combat Rogue Talent Builds - WoW: Forever › Best Combat Rogue PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/talent-builds-pve-dps",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "class:rogue:combat:talents"
+      ],
+      "source_hashes": [
+        "section:8173dc81cac36120bade5a8c57750e3c4168611c"
       ]
     }
   ]
