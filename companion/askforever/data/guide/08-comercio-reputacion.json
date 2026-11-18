@@ -1,0 +1,330 @@
+{
+  "description": "Capítulo 8: Comercio y reputación. Secciones editoriales redactadas desde guías de terceros.",
+  "sections": [
+    {
+      "id": "comercio-facciones",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Facciones comerciales de Forever",
+      "title_en": "Forever's Trade Factions",
+      "summary_es": "Autoridad Comercial de Azeroth y Suministros y Logística de Durotar tienen campamentos y recompensas propios.",
+      "summary_en": "Azeroth Commerce Authority and Durotar Supply and Logistics have their own camps and rewards.",
+      "keywords_es": [
+        "facciones comerciales",
+        "facción de la Alianza",
+        "facción de la Horda",
+        "cajones de suministros",
+        "moneda de las facciones"
+      ],
+      "keywords_en": [
+        "trade factions",
+        "Alliance faction",
+        "Horde faction",
+        "supply crates",
+        "faction currency"
+      ],
+      "text_es": "La Autoridad Comercial de Azeroth es exclusiva de la Alianza y su campamento está en Tres Caminos, en las Montañas Crestagrana. Suministros y Logística de Durotar es exclusiva de la Horda y su campamento está en Los Baldíos, a las afueras de El Cruce. Entregar cajones completados da Favor de mercader; las Escrituras del artesano aumentan la reputación.",
+      "text_en": "Azeroth Commerce Authority is Alliance-only, with its camp at Three Corners in Redridge Mountains. Durotar Supply and Logistics is Horde-only, with its camp in The Barrens outside Crossroads. Turning in filled crates grants Merchant's Favor; Craftsman's Writs raise reputation.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Azeroth Commerce Authority Guide: Waylaid Supply Crates, Location, Rewards - WoW: Forever › Overview of the Azeroth Commerce Authority in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/azeroth-commerce-authority-reputation-professions",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Azeroth Commerce Authority Guide: Waylaid Supply Crates, Location, Rewards - WoW: Forever › Azeroth Commerce Authority Camp Locations",
+          "url": "https://www.wowhead.com/forever/guide/azeroth-commerce-authority-reputation-professions",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Durotar Supply and Logistics Guide: Waylaid Supply Crates, Location, Rewards - WoW: Forever › Overview of Durotar Supply and Logistics in Forever",
+          "url": "https://www.wowhead.com/forever/guide/durotar-supply-and-logistics-reputation-professions",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Durotar Supply and Logistics Guide: Waylaid Supply Crates, Location, Rewards - WoW: Forever › Durotar Supply and Logistics Camp Location in Forever",
+          "url": "https://www.wowhead.com/forever/guide/durotar-supply-and-logistics-reputation-professions",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:azeroth-commerce-authority-reputation-professions",
+        "general:durotar-supply-and-logistics-reputation-professions"
+      ],
+      "source_hashes": [
+        "section:0fc3d8e66f58466b08dda2f7d3f82300014db7ff",
+        "section:128b774bf6e4cfb5ee7defea5fc2bafa60276982",
+        "section:5efcc9608ca1094360d81d95adfaa9e9f5f57147",
+        "section:8a74e6287cd994280e8b36abd12f6dbb958a20cd"
+      ]
+    },
+    {
+      "id": "comercio-reputacion-oficios",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Reputación con misiones de profesión",
+      "title_en": "Raise Reputation with Profession Writs",
+      "summary_es": "Las Escrituras del artesano inician misiones diarias que otorgan reputación y se pueden comerciar.",
+      "summary_en": "Craftsman's Writs start daily quests that grant reputation and can be traded.",
+      "keywords_es": [
+        "subir reputación con profesiones",
+        "misiones diarias de profesión",
+        "reputación de la facción comercial",
+        "objetos de profesión en subasta",
+        "entregar misiones de profesión"
+      ],
+      "keywords_en": [
+        "profession reputation",
+        "Craftsman's Writs",
+        "daily profession quests",
+        "trade faction reputation",
+        "writs at the Auction House"
+      ],
+      "text_es": "Las Escrituras del artesano son objetos que inician misiones diarias; al completar y entregar una misión, obtienes reputación según la calidad de los objetos requeridos. Se comercian en la casa de subastas, así que puedes elegir una cuyos requisitos te resulte más fácil reunir.",
+      "text_en": "Craftsman's Writs are items that start daily quests. Completing and turning one in grants reputation based on the quality of its required items. They can be traded at the Auction House, so you can choose one whose requirements are easier for you to gather.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Azeroth Commerce Authority Guide: Waylaid Supply Crates, Location, Rewards - WoW: Forever › Best way to earn Reputation with the Azeroth Commerce Authority",
+          "url": "https://www.wowhead.com/forever/guide/azeroth-commerce-authority-reputation-professions",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Durotar Supply and Logistics Guide: Waylaid Supply Crates, Location, Rewards - WoW: Forever › Best way to earn Reputation with Durotar Supply & Logistics",
+          "url": "https://www.wowhead.com/forever/guide/durotar-supply-and-logistics-reputation-professions",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:azeroth-commerce-authority-reputation-professions",
+        "general:durotar-supply-and-logistics-reputation-professions"
+      ],
+      "source_hashes": [
+        "section:a05a7c038653c2128c1ab0ed566a72abbb4da56e",
+        "section:ec7fe907da11731510efeee7327bd66775eddebc"
+      ]
+    },
+    {
+      "id": "comercio-albaran-falsificado",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Reputación al entregar cajones",
+      "title_en": "Reputation from Turning In Crates",
+      "summary_es": "Con reputación Amistosa, el Albarán falsificado permite obtener 50 de reputación por cajón entregado.",
+      "summary_en": "At Friendly reputation, a Forged Delivery Receipt grants 50 reputation per turned-in crate.",
+      "keywords_es": [
+        "Albarán falsificado",
+        "reputación por cajones",
+        "subir reputación con suministros",
+        "reputación Amistosa",
+        "entregar cajones de suministros"
+      ],
+      "keywords_en": [
+        "Forged Delivery Receipt",
+        "reputation from crates",
+        "raise reputation with supplies",
+        "Friendly reputation",
+        "turn in supply crates"
+      ],
+      "text_es": "Un personaje que alcance el rango Amistoso con una de las facciones puede comprar el Albarán falsificado en el campamento de su bando. Entregar un cajón de suministro con este objeto otorga 50 p. de reputación; si los cajones te salen más baratos, este método puede ahorrar oro y viajes.",
+      "text_en": "A character who reaches Friendly with either faction can buy a Forged Delivery Receipt at their faction's camp. Turning in a supply crate with it grants 50 reputation; if crates are cheaper for you, this method may save gold and travel time.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Azeroth Commerce Authority Guide: Waylaid Supply Crates, Location, Rewards - WoW: Forever › Forged Delivery Receipt in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/azeroth-commerce-authority-reputation-professions",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:azeroth-commerce-authority-reputation-professions"
+      ],
+      "source_hashes": [
+        "section:22228e88dc4ccea309868b5687d20b04bce80871"
+      ]
+    },
+    {
+      "id": "comercio-recompensas-facciones",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Recompensas de las facciones comerciales",
+      "title_en": "Trade Faction Rewards",
+      "summary_es": "La facción de la Alianza ofrece una licencia, un tabardo y una montura por moneda y reputación.",
+      "summary_en": "The Alliance faction offers a license, a tabard, and a mount for currency and reputation.",
+      "keywords_es": [
+        "recompensas de facción comercial",
+        "Solicitud de licencia publicitaria",
+        "Tabardo de la Autoridad Comercial de Azeroth",
+        "Riendas del kodo de carga",
+        "montura de carga"
+      ],
+      "keywords_en": [
+        "trade faction rewards",
+        "Advertising License Application",
+        "Azeroth Commerce Authority Tabard",
+        "Reins of the Pack Kodo",
+        "pack mount"
+      ],
+      "text_es": "Favor de mercader permite comprar recetas, monturas, mascotas, juguetes y cosméticos. En la Autoridad Comercial de Azeroth, la Solicitud de licencia publicitaria cuesta 1200 y requiere Honorable; el Tabardo de la Autoridad Comercial de Azeroth requiere Exaltado y cuesta 200. Las Riendas del kodo de carga cuestan 6000.",
+      "text_en": "Merchant's Favor buys recipes, mounts, pets, toys, and cosmetics. Azeroth Commerce Authority sells the Advertising License Application for 1200, with Honored required; its tabard costs 200 and requires Exalted. Reins of the Pack Kodo costs 6000.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Azeroth Commerce Authority Guide: Waylaid Supply Crates, Location, Rewards - WoW: Forever › Mounts, Pets and Other Rewards from the Azeroth Commerce Authority in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/azeroth-commerce-authority-reputation-professions",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Azeroth Commerce Authority Guide: Waylaid Supply Crates, Location, Rewards - WoW: Forever › Overview of the Azeroth Commerce Authority in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/azeroth-commerce-authority-reputation-professions",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:azeroth-commerce-authority-reputation-professions"
+      ],
+      "source_hashes": [
+        "section:5efcc9608ca1094360d81d95adfaa9e9f5f57147",
+        "section:699439f95e85a92477590843345d15760073f41f"
+      ]
+    },
+    {
+      "id": "comercio-titulos-profesion",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Títulos de profesión por certificación",
+      "title_en": "Profession Titles from Certifications",
+      "summary_es": "Con una profesión a 300 puedes comprar su certificación por 1000 de la moneda y obtener un título.",
+      "summary_en": "At profession skill 300, buy its certification for 1000 currency to earn a related title.",
+      "keywords_es": [
+        "certificación de profesión",
+        "títulos de profesión",
+        "profesión a 300",
+        "certificados de oficios",
+        "recompensa de profesión"
+      ],
+      "keywords_en": [
+        "profession certification",
+        "profession titles",
+        "profession skill 300",
+        "trade certifications",
+        "profession reward"
+      ],
+      "text_es": "Al alcanzar 300 de habilidad en una profesión, puedes comprar su certificación por 1000 de Favor de mercader. El certificado otorga un título relacionado con esa profesión.",
+      "text_en": "At profession skill 300, you can buy its certification for 1000 Merchant's Favor. The certificate grants a title related to that profession.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Azeroth Commerce Authority Guide: Waylaid Supply Crates, Location, Rewards - WoW: Forever › Profession Titles from the Azeroth Commerce Authority in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/azeroth-commerce-authority-reputation-professions",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Durotar Supply and Logistics Guide: Waylaid Supply Crates, Location, Rewards - WoW: Forever › Profession Titles from Durotar Supply and Logistics in Forever",
+          "url": "https://www.wowhead.com/forever/guide/durotar-supply-and-logistics-reputation-professions",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:azeroth-commerce-authority-reputation-professions",
+        "general:durotar-supply-and-logistics-reputation-professions"
+      ],
+      "source_hashes": [
+        "section:03a90f7829ef88148c63bbe642483e5611ab302c",
+        "section:e4c038e56ac986d5d44bf293fc2097007d1fa371"
+      ]
+    },
+    {
+      "id": "comercio-real-deslustrado-obtener",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Cómo obtener Reales deslustrados",
+      "title_en": "How to Obtain Tarnished Undermine Reals",
+      "summary_es": "Aún no se ha confirmado cómo obtener esta moneda.",
+      "summary_en": "How to obtain this currency has not been confirmed.",
+      "keywords_es": [
+        "Real deslustrado de Minahonda",
+        "conseguir Reales deslustrados",
+        "moneda de Minahonda",
+        "obtención de moneda de Minahonda",
+        "caída del Real deslustrado"
+      ],
+      "keywords_en": [
+        "Tarnished Undermine Real",
+        "get Tarnished Undermine Reals",
+        "Undermine currency",
+        "how to obtain Undermine currency",
+        "Tarnished Undermine Real drops"
+      ],
+      "text_es": "En WoW: Forever todavía no se han visto caídas de esta moneda y su forma de obtención aún no está confirmada.",
+      "text_en": "No drops of this currency have been seen in WoW: Forever, and how to obtain it is not yet confirmed.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Tarnished Undermine Real Currency Guide: Earning and Spending - WoW: Forever › Earning Tarnished Undermine Real Currency",
+          "url": "https://www.wowhead.com/forever/guide/currency/tarnished-undermine-real-overview",
+          "date": "2026-10-25"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:tarnished-undermine-real-overview"
+      ],
+      "source_hashes": [
+        "section:dbff8b5d2cad618d47c44b14ae48f86775d51001"
+      ]
+    },
+    {
+      "id": "comercio-real-deslustrado-gastar",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "En qué gastar Reales deslustrados",
+      "title_en": "What to Spend Tarnished Undermine Reals On",
+      "summary_es": "Pix Xizzix cambia el Real deslustrado por objetos en Minahonda.",
+      "summary_en": "Pix Xizzix trades the Tarnished Undermine Real for items in Undermine.",
+      "keywords_es": [
+        "gastar Reales deslustrados",
+        "vendedor de Minahonda",
+        "recompensas de Reales deslustrados",
+        "equipo de Minahonda",
+        "abalorios y anillos de Minahonda"
+      ],
+      "keywords_en": [
+        "spend Tarnished Undermine Reals",
+        "Undermine vendor",
+        "Tarnished Undermine Real rewards",
+        "Undermine gear",
+        "Undermine trinkets and rings"
+      ],
+      "text_es": "En Minahonda, Pix Xizzix cambia el Real deslustrado de Minahonda por objetos (/way 28.4, 75.8).",
+      "text_en": "Pix Xizzix trades the Tarnished Undermine Real for items in Undermine at /way 28.4, 75.8.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Tarnished Undermine Real Currency Guide: Earning and Spending - WoW: Forever › Spending Tarnished Undermine Real Currency Vendor Location",
+          "url": "https://www.wowhead.com/forever/guide/currency/tarnished-undermine-real-overview",
+          "date": "2026-10-25"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:tarnished-undermine-real-overview"
+      ],
+      "source_hashes": [
+        "section:417aa2776e7b0765d853b5936c1d3c7743798c81"
+      ]
+    }
+  ]
+}
