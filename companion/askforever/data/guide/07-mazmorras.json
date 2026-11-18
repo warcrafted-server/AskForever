@@ -4158,6 +4158,853 @@
       "source_hashes": [
         "section:2cb83c90f2fb5cd2e724819bade5159fa078222e"
       ]
+    },
+    {
+      "id": "mazmorra-razorfen-downs-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Zahúrda Rajacieno: nivel y entrada",
+      "title_en": "Razorfen Downs: Level and Entrance",
+      "summary_es": "Nivel 37-43, en Los Baldíos; la Alianza llega desde Trinquete y la Horda desde Cima Taurajo.",
+      "summary_en": "Levels 37-43 in the Barrens; Alliance comes from Ratchet and Horde from Camp Taurajo.",
+      "keywords_es": [
+        "zahúrda rajacieno",
+        "razorfen downs",
+        "nivel de zahúrda rajacieno",
+        "entrada de zahúrda rajacieno",
+        "cómo llegar a zahúrda rajacieno"
+      ],
+      "keywords_en": [
+        "razorfen downs",
+        "razorfen downs level",
+        "razorfen downs entrance",
+        "razorfen downs location",
+        "how to reach razorfen downs"
+      ],
+      "text_es": "Zahúrda Rajacieno se recomienda para niveles 37-43 y está al sur de Los Baldíos, junto al límite con Las Mil Agujas. La Alianza puede tomar el barco desde Bahía del Botín a Trinquete; la Horda vuela al Campamento Taurajo. Desde allí, ve al sur y gira al este antes del Gran Elevador.",
+      "text_en": "Razorfen Downs is recommended for levels 37-43, in the southern Barrens near the Thousand Needles border. Alliance can take the boat from Booty Bay to Ratchet; Horde can fly to Camp Taurajo. From there, head south and turn east before the Great Lift.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Razorfen Downs Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Razorfen Downs in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-downs"
+      ],
+      "source_hashes": [
+        "section:97adc3bec40136ef3f1f92d95571c72706134e9d",
+        "section:f5420bac1595d2e6b8cc130abef9f8eb3d021526"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-downs-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones recomendables de Zahúrda Rajacieno",
+      "title_en": "Recommended Razorfen Downs Quests",
+      "summary_es": "Recoge Trae la Luz, Acaba con la amenaza y El ojo del Gélido antes de entrar.",
+      "summary_en": "Pick up Bring the Light, Bring the End, and The Coldbringer's Eye before entering.",
+      "keywords_es": [
+        "misiones de zahúrda rajacieno",
+        "trae la luz",
+        "acaba con la amenaza",
+        "el ojo del gélido",
+        "un anfitrión del mal"
+      ],
+      "keywords_en": [
+        "razorfen downs quests",
+        "bring the light",
+        "bring the end",
+        "the coldbringer's eye",
+        "a host of evil"
+      ],
+      "text_es": "La Alianza puede recoger Trae la Luz con el Arzobispo Benedictus, en la Catedral de Ventormenta; la Horda, Acaba con la amenaza en Entrañas. El ojo del Gélido se obtiene con el Archimago Lan'dalock en Dalaran o Sutara Acechaprados en Mulgore. Un anfitrión del mal empieza con Myriam Lunacanta, junto a la entrada.",
+      "text_en": "Alliance can pick up Bring the Light from Archbishop Benedictus in the Cathedral of Light in Stormwind City; Horde can get Bring the End in Undercity. The Coldbringer's Eye is available from Archmage Lan'dalock in Dalaran or Sutara Plainstalker in Mulgore. A Host of Evil starts with Myriam Moonsinger beside the entrance.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Bring the Light",
+          "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Bring the End",
+          "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Coldbringer's Eye",
+          "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › A Host of Evil",
+          "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-downs"
+      ],
+      "source_hashes": [
+        "guide:e1bf55dbecb8be10a0d0064408ea7e490785aa4f",
+        "section:3518296201693445cb21c22a4dafb193572c72b4"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-downs-tutenkash",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Tuten'kash: evita la telaraña",
+      "title_en": "Tuten'kash: Avoid the Web Spray",
+      "summary_es": "Aléjalo del grupo para reducir el efecto del Pulverizador de tela de araña.",
+      "summary_en": "Face it away from the group to reduce the impact of Web Spray.",
+      "keywords_es": [
+        "tuten'kash",
+        "jefe de las arañas de zahúrda rajacieno",
+        "pulverizador de tela de araña"
+      ],
+      "keywords_en": [
+        "tuten'kash",
+        "razorfen downs spider boss",
+        "web spray"
+      ],
+      "text_es": "Tuten'kash aparece tras las oleadas de arañas: vuelve a tocar el gong después de cada una. Mantén al jefe de espaldas al grupo para evitar que el Pulverizador de tela de araña alcance a todos; sus otros ataques son menos peligrosos.",
+      "text_en": "Tuten'kash appears after the spider waves; ring the gong again after each one. Face him away from the group to keep Web Spray from hitting everyone; his other attacks are less dangerous.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Tuten'kash",
+          "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-downs"
+      ],
+      "source_hashes": [
+        "section:a70f19fdc1015e0fe71d9d3e270e31253265baa5"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-downs-mordresh",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Mordresh Ojo de Fuego: interrumpe la Bola de Fuego",
+      "title_en": "Mordresh Fire Eye: Interrupt Fireball",
+      "summary_es": "Limpia los esqueletos que bailan y corta la Bola de Fuego cuando puedas.",
+      "summary_en": "Clear the dancing skeletons and interrupt Fireball when possible.",
+      "keywords_es": [
+        "mordresh ojo de fuego",
+        "bola de fuego",
+        "zahúrda rajacieno jefe"
+      ],
+      "keywords_en": [
+        "mordresh fire eye",
+        "fireball",
+        "razorfen downs boss"
+      ],
+      "text_es": "Elimina los esqueletos junto a la pila de huesos antes de luchar: la última oleada activa al jefe. Como tiene poca armadura, el daño cuerpo a cuerpo puede acabar con él rápido; interrumpe su Bola de Fuego, que golpea con fuerza.",
+      "text_en": "Clear the skeletons by the bone pile first; the final wave engages the boss. Its low armor makes it vulnerable to melee damage, and its hard-hitting Fireball should be interrupted.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Mordresh Fire Eye",
+          "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-downs"
+      ],
+      "source_hashes": [
+        "section:48ab8a09775ed058731c26a5defe1add0c5516d9"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-downs-glutton",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Glotón: evita la Nube enfermiza",
+      "title_en": "Glutton: Avoid Disease Cloud",
+      "summary_es": "Sal de la Nube enfermiza y ayuda a sanar al tanque durante Enfurecer.",
+      "summary_en": "Move out of Disease Cloud and help heal the tank during Enrage.",
+      "keywords_es": [
+        "glotón zahúrda rajacieno",
+        "nube enfermiza",
+        "enfurecer"
+      ],
+      "keywords_en": [
+        "glutton razorfen downs",
+        "disease cloud",
+        "enrage"
+      ],
+      "text_es": "El combate es directo, pero aparta al grupo de la Nube enfermiza. Cuando el jefe usa Enfurecer, el tanque recibe mucho daño: el sanador debe estar preparado para reforzar la curación.",
+      "text_en": "The fight is straightforward, but keep the group out of Disease Cloud. When the boss uses Enrage, the tank takes heavy damage, so the healer should be ready to increase healing.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Glutton",
+          "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-downs"
+      ],
+      "source_hashes": [
+        "section:e0b5fbe6d1ff3b1175062a4b1e29bd987d3f867b"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-downs-ragglesnout",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Morrandrajos: contrarresta Dominar mente",
+      "title_en": "Ragglesnout: Counter Dominate Mind",
+      "summary_es": "Responde al control mental y corta sus curas y Descargas de las Sombras.",
+      "summary_en": "Respond to mind control and interrupt its heals and Shadow Bolts.",
+      "keywords_es": [
+        "morrandrajos",
+        "ragglesnout",
+        "dominar mente",
+        "jefe raro de zahúrda rajacieno"
+      ],
+      "keywords_en": [
+        "ragglesnout",
+        "dominate mind",
+        "razorfen downs rare boss"
+      ],
+      "text_es": "Dominar mente es su habilidad más peligrosa. Si controla al tanque o al sanador, que los personajes híbridos cubran su función; interrumpe Curar para acortar el combate y corta las Descargas de las Sombras para reducir el daño.",
+      "text_en": "Dominate Mind is the encounter's main danger. If it controls the tank or healer, hybrids should cover their role; interrupt Heal to shorten the fight and stop Shadow Bolts to reduce incoming damage.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Ragglesnout (Rare)",
+          "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-downs"
+      ],
+      "source_hashes": [
+        "section:aba2469f166acd88e799d52a48c6affaddff4d6d"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-downs-amnennar",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Amnennar el Gélido: posición y adds",
+      "title_en": "Amnennar the Coldbringer: Positioning and Adds",
+      "summary_es": "Colócalo mirando a la tienda, agrupa al equipo y cambia al espectro al aparecer.",
+      "summary_en": "Face it toward the tent, stack the group, and switch to the specter when it appears.",
+      "keywords_es": [
+        "amnennar el gélido",
+        "jefe final de zahúrda rajacieno",
+        "espectros de la escarcha"
+      ],
+      "keywords_en": [
+        "amnennar the coldbringer",
+        "razorfen downs final boss",
+        "frost specters"
+      ],
+      "text_es": "Orienta al jefe hacia la tienda para neutralizar su Ira de Amnennar y agrupa al equipo sobre el tanque para reducir el efecto de Nova de Escarcha. Interrumpe Descarga de Escarcha y cambia al espectro invocado en cuanto aparezca.",
+      "text_en": "Face the boss toward the tent to neutralize Amnennar's Wrath, and stack on the tank to lessen Frost Nova. Interrupt Frostbolt and switch to the summoned specter as soon as it appears.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Amnennar the Coldbringer",
+          "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-downs"
+      ],
+      "source_hashes": [
+        "section:010db28d92bb39695290e01d80206bbcdc8c046f"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-downs-plaguemaw",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Fauzpeste el Putrefacto: protege el ritual",
+      "title_en": "Plaguemaw the Rotting: Protect the Ritual",
+      "summary_es": "Durante la misión de escolta, elimina cada aparición y evita que maten a Belnistrasz.",
+      "summary_en": "During the escort quest, defeat each spawn and keep Belnistrasz alive.",
+      "keywords_es": [
+        "fauzpeste el putrefacto",
+        "extinguir el ídolo",
+        "evento de zahúrda rajacieno"
+      ],
+      "keywords_en": [
+        "plaguemaw the rotting",
+        "extinguishing the idol",
+        "razorfen downs event"
+      ],
+      "text_es": "Este jefe aparece al final del evento opcional de escolta. Mientras Belnistrasz realiza el ritual de Extinguir el ídolo, derrota a los enemigos que van llegando; un segundo tanque puede apartarlos de él. Después, el jefe se combate de forma sencilla.",
+      "text_en": "This boss appears at the end of the optional escort event. During the ritual, defeat each group as it arrives and keep Belnistrasz alive; an off-tank can pull enemies away from him. The boss fight itself is straightforward.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Plaguemaw the Rotting Event",
+          "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Extinguishing the Idol",
+          "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-downs"
+      ],
+      "source_hashes": [
+        "guide:e1bf55dbecb8be10a0d0064408ea7e490785aa4f",
+        "section:48b20f7a32d93ffbb09543e81e0fbcc99b82d9dd"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-downs-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de Zahúrda Rajacieno",
+      "title_en": "Razorfen Downs Rewards",
+      "summary_es": "Trae la Luz o Acaba con la amenaza ofrecen la Espada del vencedor; destacan varias piezas de jefe.",
+      "summary_en": "Bring the Light or Bring the End offers Vanquisher's Sword; several boss drops stand out.",
+      "keywords_es": [
+        "recompensas de zahúrda rajacieno",
+        "espada del vencedor",
+        "caparazón de tuten'kash",
+        "ojo resplandeciente de mordresh",
+        "daga rabiafría"
+      ],
+      "keywords_en": [
+        "razorfen downs rewards",
+        "vanquisher's sword",
+        "carapace of tuten'kash",
+        "glowing eye of mordresh",
+        "coldrage dagger"
+      ],
+      "text_es": "Trae la Luz y Acaba con la amenaza ofrecen la Espada del vencedor. Entre los botines destacables están el Caparazón de Tuten'kash, el Ojo resplandeciente de Mordresh y la Daga rabiafría de Amnennar el Gélido.",
+      "text_en": "Bring the Light and Bring the End offer Vanquisher's Sword. Notable drops include Carapace of Tuten'kash, Glowing Eye of Mordresh, and Coldrage Dagger from Amnennar the Coldbringer.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Best Quest Rewards",
+          "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Razorfen Downs Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-downs"
+      ],
+      "source_hashes": [
+        "section:2d4c1173de6b061d3459dd379cbce7b28da0a220",
+        "section:98e329e341ecd5e7a7a254587f790e6b3ebd7376"
+      ]
+    },
+    {
+      "id": "mazmorra-uldaman-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Uldaman: nivel y entradas",
+      "title_en": "Uldaman: Level and Entrances",
+      "summary_es": "Nivel 40-45; tiene dos entradas en Tierras Inhóspitas, con rutas distintas para cada facción.",
+      "summary_en": "Levels 40-45; it has two entrances in the Badlands, with different routes for each faction.",
+      "keywords_es": [
+        "uldaman",
+        "nivel de uldaman",
+        "entrada de uldaman",
+        "entrada trasera de uldaman",
+        "cómo llegar a uldaman"
+      ],
+      "keywords_en": [
+        "uldaman",
+        "uldaman levels",
+        "uldaman entrance",
+        "uldaman back entrance",
+        "how to reach uldaman"
+      ],
+      "text_es": "Uldaman se recomienda para niveles 40-45 y tiene dos accesos: la entrada principal está al sur del límite entre Loch Modan y Tierras Inhóspitas; la trasera, en un túnel al este del yacimiento. La Alianza vuela a Thelsamar, en Loch Modan, y avanza al sur; la Horda vuela a Kargath. Sin ese punto, llega desde Sentencia, en Tierras Altas de Arathi, y cruza Los Humedales y Loch Modan.",
+      "text_en": "Uldaman is recommended for levels 40-45 and has a main entrance south of the Loch Modan-Badlands border and a back entrance in the Dustwind Gulch tunnel. Alliance can fly to Thelsamar and travel south; Horde can fly to Kargath. Without that flight point, travel from Hammerfall through the Wetlands and Loch Modan.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Uldaman Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Location of Uldaman in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:uldaman"
+      ],
+      "source_hashes": [
+        "section:2d54645c600c0ce8a9597e150e4ddfd799da3a58",
+        "section:f71834d1344336c095fdd84153716fa9cea400a5"
+      ]
+    },
+    {
+      "id": "mazmorra-uldaman-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones recomendables de Uldaman",
+      "title_en": "Recommended Uldaman Quests",
+      "summary_es": "Antes de entrar, recoge Las piedras de energía y La solución a la maldición en Tierras Inhóspitas.",
+      "summary_en": "Before entering, pick up Power Stones and Solution to Doom in the Badlands.",
+      "keywords_es": [
+        "misiones de uldaman",
+        "las piedras de energía",
+        "la solución a la maldición",
+        "los tesoros reclamados",
+        "poder en uldaman"
+      ],
+      "keywords_en": [
+        "uldaman quests",
+        "power stones",
+        "solution to doom",
+        "reclaimed treasures",
+        "power in uldaman"
+      ],
+      "text_es": "En Tierras Inhóspitas, Aparejez ofrece Las piedras de energía y Theldurin el Perdido, La solución a la maldición; ambas sirven para las dos facciones. La Alianza puede preparar Los tesoros reclamados con Krom Brazorrecio en Forjaz y Los enanos desaparecidos con Prospector Pico Tormenta. Poder en Uldaman es una cadena para Magos que empieza con Regreso al pantano.",
+      "text_en": "In the Badlands, Rigglefuzz offers Power Stones and Theldurin the Lost offers Solution to Doom; both are available to either faction. Alliance can prepare Reclaimed Treasures with Krom Stoutarm in Ironforge and The Lost Dwarves with Prospector Stormpike. Power in Uldaman is a Mage quest chain that begins with Return to the Marsh.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Solution to Doom",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Power Stones",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Reclaimed Treasures (Alliance)",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › The Lost Dwarves",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Power in Uldaman (Mage Quest)",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:uldaman"
+      ],
+      "source_hashes": [
+        "guide:82b9f4c688e5bd37fa38ae7e888218630cd530c7",
+        "section:10c1f677aaa22e6060caf78f63edbf15fe159ec4",
+        "section:45dd3b49a30dfdb0d3bba3647598ec0b508961f3"
+      ]
+    },
+    {
+      "id": "mazmorra-uldaman-enanos-desaparecidos",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Los enanos desaparecidos: controla el grupo",
+      "title_en": "The Lost Dwarves: Control the Group",
+      "summary_es": "Para la Horda son hostiles; controla al tirador y derrota primero a Eric el Suave.",
+      "summary_en": "They are hostile to Horde; control the ranged dwarf and defeat the stunning melee dwarf first.",
+      "keywords_es": [
+        "los enanos desaparecidos",
+        "the lost dwarves",
+        "baelog",
+        "olaf",
+        "eric el suave"
+      ],
+      "keywords_en": [
+        "the lost dwarves",
+        "baelog",
+        "olaf",
+        "eric the swift",
+        "uldaman dwarves boss"
+      ],
+      "text_es": "El grupo es amistoso con la Alianza y hostil con la Horda. Controla al enano que ataca a distancia, deja que el tanque ocupe al que lleva escudo y derrota primero a Eric el Suave, cuyo Interceptar puede aturdir a un miembro del grupo.",
+      "text_en": "The group is friendly to Alliance and hostile to Horde. Crowd-control the ranged dwarf, have the tank hold the shield-bearer, and defeat the stunning melee dwarf first because its Intercept can stun a party member.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › The Lost Dwarves",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:uldaman"
+      ],
+      "source_hashes": [
+        "section:10c1f677aaa22e6060caf78f63edbf15fe159ec4"
+      ]
+    },
+    {
+      "id": "mazmorra-uldaman-revelosh",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Revelosh: interrumpe Cadena de relámpagos",
+      "title_en": "Revelosh: Interrupt Chain Lightning",
+      "summary_es": "Atrae al trogg con sus dos acompañantes y prioriza interrumpir Cadena de relámpagos.",
+      "summary_en": "Pull the trogg with its two companions and prioritize interrupting Chain Lightning.",
+      "keywords_es": [
+        "revelosh",
+        "cadena de relámpagos",
+        "jefe trogg de uldaman"
+      ],
+      "keywords_en": [
+        "revelosh",
+        "chain lightning",
+        "uldaman trogg boss"
+      ],
+      "text_es": "Revelosh está vinculado a dos Masticapiedras Grutacanto, que se suman al combate. Controla a uno si es posible; si no, concentra el daño en Revelosh e interrumpe Cadena de relámpagos, que puede herir a todo el grupo.",
+      "text_en": "Revelosh is linked to two rockchewer adds, which join the fight. Crowd-control one if possible; otherwise focus Revelosh and interrupt Chain Lightning, which can damage the whole party.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Revelosh",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:uldaman"
+      ],
+      "source_hashes": [
+        "section:8663063c0ceb8615c89f18639e25d5931fc0f6cf"
+      ]
+    },
+    {
+      "id": "mazmorra-uldaman-ironaya",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Hierraya: oriéntala lejos del grupo",
+      "title_en": "Ironaya: Face Her Away from the Group",
+      "summary_es": "El tanque debe apartarla para evitar Machaque arqueado; los demás deben dispersarse.",
+      "summary_en": "The tank should face her away to avoid Arcing Smash; ranged players should spread out.",
+      "keywords_es": [
+        "hierraya",
+        "ironaya",
+        "machaque arqueado",
+        "jefe de uldaman"
+      ],
+      "keywords_en": [
+        "ironaya",
+        "arcing smash",
+        "uldaman boss"
+      ],
+      "text_es": "Al activarla, el tanque debe mantener a Hierraya de espaldas al resto para evitar Machaque arqueado. Los personajes a distancia se separan; el jefe tiene mucha armadura y salud, y no recibe daño con el tiempo.",
+      "text_en": "When activated, the tank should face Ironaya away from the group to avoid Arcing Smash. Ranged players should spread out; the boss has high armor and health and is immune to damage-over-time effects.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Ironaya",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:uldaman"
+      ],
+      "source_hashes": [
+        "section:5f1ecaa036a3a0367fb3f936d6c13d00620a0039"
+      ]
+    },
+    {
+      "id": "mazmorra-uldaman-obsidian-sentinel",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Centinela Obsidiano: elimina los fragmentos",
+      "title_en": "Obsidian Sentinel: Kill the Shards",
+      "summary_es": "Al 66% y 33% de salud invoca dos fragmentos no élite: elimínalos antes de volver al gólem.",
+      "summary_en": "At 66% and 33% health it summons two non-elite shards; kill them before returning to the golem.",
+      "keywords_es": [
+        "centinela obsidiano",
+        "obsidian sentinel",
+        "fragmento de obsidiana",
+        "jefe de uldaman"
+      ],
+      "keywords_en": [
+        "obsidian sentinel",
+        "obsidian shard",
+        "uldaman boss"
+      ],
+      "text_es": "El gólem invoca dos Fragmentos de obsidiana no élite cuando baja al 66% y al 33% de salud. Cambia el daño a esos adds y vuelve al jefe cuando hayan caído; tiene mucha armadura y salud.",
+      "text_en": "The golem summons two non-elite shards at 66% and 33% health. Switch to those adds and return to the boss after they die; it has high armor and health.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Obsidian Sentinel",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:uldaman"
+      ],
+      "source_hashes": [
+        "section:535fb7480462078e0bcfe92b751b30fd3995b135"
+      ]
+    },
+    {
+      "id": "mazmorra-uldaman-ancient-stone-keeper",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Vigilante pétreo anciano: evita la tormenta",
+      "title_en": "Ancient Stone Keeper: Avoid the Storm",
+      "summary_es": "Sus Tormentas de arena ralentizan y silencian en área; prepárate para salir de su alcance.",
+      "summary_en": "Its Sand Storms slow and silence in an area; be ready to move out of range.",
+      "keywords_es": [
+        "vigilante pétreo anciano",
+        "ancient stone keeper",
+        "tormentas de arena",
+        "jefe de uldaman"
+      ],
+      "keywords_en": [
+        "ancient stone keeper",
+        "sand storms",
+        "uldaman boss"
+      ],
+      "text_es": "El gólem tiene mucha armadura y salud, y es inmune al daño con el tiempo. Aléjate de Tormentas de arena: esta habilidad ralentiza y silencia a los jugadores en área.",
+      "text_en": "The golem has high armor and health and is immune to damage-over-time effects. Move away from Sand Storms, which slows and silences players in an area.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Ancient Stone Keeper",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:uldaman"
+      ],
+      "source_hashes": [
+        "section:25bd1f9cd5aff871e2a79a66eeed9818ac5737ac"
+      ]
+    },
+    {
+      "id": "mazmorra-uldaman-galgann",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Galgann Flamartillo: separa al jefe de sus adds",
+      "title_en": "Galgann Firehammer: Separate the Boss from Adds",
+      "summary_es": "Aparta al jefe y controla a un geólogo; disipa los efectos que potencian el daño de fuego.",
+      "summary_en": "Separate the boss and control one geologist; dispel effects that amplify fire damage.",
+      "keywords_es": [
+        "galgann flamartillo",
+        "galgann firehammer",
+        "geólogo forjatiniebla",
+        "jefe de uldaman"
+      ],
+      "keywords_en": [
+        "galgann firehammer",
+        "shadowforge geologist",
+        "uldaman boss"
+      ],
+      "text_es": "El jefe aparece con dos Geólogos Forjatiniebla. El tanque debe separarlo del grupo y mantenerlo de espaldas; controla a un geólogo, elimina al otro y luego al controlado. Si puedes, disipa los efectos de fuego que aumentan el daño.",
+      "text_en": "The boss comes with two geologist adds. The tank should separate it from the group and face it away; control one add, kill the other, then defeat the controlled one. Dispel fire effects that increase damage when possible.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Galgann Firehammer",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:uldaman"
+      ],
+      "source_hashes": [
+        "section:28e3fd4edb8abef5878cf15cd135ea13ee9372a1"
+      ]
+    },
+    {
+      "id": "mazmorra-uldaman-grimlok",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Grimlok: controla un acompañante",
+      "title_en": "Grimlok: Crowd-Control an Add",
+      "summary_es": "El jefe llega con tres adds; controla uno y concentra el daño para evitar Encoger en área.",
+      "summary_en": "The boss comes with three adds; control one and focus damage to prevent its area Shrink.",
+      "keywords_es": [
+        "grimlok",
+        "jefe trogg de uldaman",
+        "encoger"
+      ],
+      "keywords_en": [
+        "grimlok",
+        "uldaman trogg boss",
+        "shrink"
+      ],
+      "text_es": "Grimlok aparece junto a un Geomántico Grutacanto, un Camorrista Grutacanto y un Basilisco Dorsaljade. Controla a uno y céntrate en Grimlok: derrotarlo rápido puede evitar que lance Encoger sobre el grupo. Después elimina primero al geomántico.",
+      "text_en": "Grimlok is joined by a Stonevault Geomancer, a Stonevault Brawler, and a Jadespine Basilisk. Crowd-control one and focus Grimlok; defeating him quickly may prevent his group Shrink. Then kill the geomancer first.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Grimlok",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:uldaman"
+      ],
+      "source_hashes": [
+        "section:d642a88277b2e817ed454ae5db1e6fd330554688"
+      ]
+    },
+    {
+      "id": "mazmorra-uldaman-archaedas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Archaedas: prioriza a los adds",
+      "title_en": "Archaedas: Prioritize the Adds",
+      "summary_es": "Elimina los adds que invoca; al 20% aparecen cuatro élites que desaparecen al morir el jefe.",
+      "summary_en": "Kill its summoned adds; at 20%, four elites appear and die when the boss does.",
+      "keywords_es": [
+        "archaedas",
+        "jefe final de uldaman",
+        "guardianes terráneos",
+        "guarda de la cámara acorazada"
+      ],
+      "keywords_en": [
+        "archaedas",
+        "uldaman final boss",
+        "earthen guardians",
+        "vault warder"
+      ],
+      "text_es": "Archaedas tiene mucha salud e invoca adds no élite durante el combate; elimínalos con rapidez. Al 20% aparecen cuatro adds élite que mueren cuando cae Archaedas, así que el grupo puede concentrarse entonces en rematarlo.",
+      "text_en": "Archaedas has high health and summons non-elite adds throughout the fight; kill them quickly. At 20%, four elite adds appear and die with Archaedas, so the group can focus on finishing him then.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Archaedas",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:uldaman"
+      ],
+      "source_hashes": [
+        "section:27e86596714aa9d20893cc48030cad8c5a519adf"
+      ]
+    },
+    {
+      "id": "mazmorra-uldaman-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de Uldaman",
+      "title_en": "Uldaman Rewards",
+      "summary_es": "Los discos de platino pueden dar el Saco de pelambre descongelada; destacan el Péndulo de Condena y Destripapiedras.",
+      "summary_en": "The Platinum Discs can reward the Thawpelt Sack; Pendulum of Doom and Stoneslayer also stand out.",
+      "keywords_es": [
+        "recompensas de uldaman",
+        "saco de pelambre descongelada",
+        "péndulo de condena",
+        "destripapiedras",
+        "el machacador de rocas"
+      ],
+      "keywords_en": [
+        "uldaman rewards",
+        "thawpelt sack",
+        "pendulum of doom",
+        "stoneslayer",
+        "the rockpounder"
+      ],
+      "text_es": "Los discos de platino pueden recompensar con el Saco de pelambre descongelada, de 14 casillas. Entre los objetos destacables están el Péndulo de Condena, Destripapiedras y El machacador de rocas.",
+      "text_en": "The Platinum Discs can reward the 14-slot Thawpelt Sack. Notable items include Pendulum of Doom, Stoneslayer, and The Rockpounder.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Best Quest Rewards",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Uldaman Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:uldaman"
+      ],
+      "source_hashes": [
+        "section:1f7392f3085b994089a2367b73c80bcbe1141fc7",
+        "section:bd1932ad9f4cac77f723b21c07f15ecce8286d5e"
+      ]
     }
   ]
 }
