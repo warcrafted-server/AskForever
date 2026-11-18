@@ -12,6 +12,8 @@ El detalle de cada hito está en [ROADMAP.md](ROADMAP.md). Lo hecho está en el 
 - **Leer respuestas largas en el chat** (pedido por Marc): ventana del addon redimensionable, desplazamiento con la rueda y botones ▲/▼ sobre el panel (el overlay no recibe clics), y mostrar cada respuesta nueva desde su principio. Diseño en `.agents/plans/consultas/consultas.PLAN.md` (3c).
 
 ## Media
+- **Actualización diaria de guías** (Marc, 2026-11-18): `companion/tools/guide_update.py` que importe la descarga del día, refresque solas las fichas con cambios solo de forma y prepare tareas estrechas por clase. Plan en `.agents/plans/actualizacion-diaria/`.
+- **Tests de `test_data_integration.py` dependientes del equipo**: `test_get_wowdata_path` y `test_open_wowdata` fallan si la base está instalada en `%LOCALAPPDATA%\AskForever\data`; deben aislar esa ruta.
 - **Chat dentro de la ventana del addon** (vuelta por addons «slot»): diseño en `.agents/plans/m3-slots/m3-slots.PLAN.md`; con ello, la ventana de informe podrá mostrar la respuesta.
 - **Perfil completo del personaje**: profesiones, talentos, equipo, reputaciones…; primero verificar en el cliente qué API existe; a la IA solo lo relevante para la pregunta.
 - **Gemma 4 por Cloudflare Workers AI como proveedor opcional** (Gemini Flash-Lite sigue por defecto, decisión de Marc 2026-11-17): proveedor `cloudflare` que pida también el ID de cuenta, sin razonamiento del modelo, y sección en las guías ES/EN (cuenta, token, ID, límite de ~70 preguntas/día). Resultados y detalles en `.agents/plans/consultas/consultas.PLAN.md`.
