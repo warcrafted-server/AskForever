@@ -7558,6 +7558,1243 @@
         "section:8c4c10803b61c54a6bb60234cfe5131472f74e86",
         "section:c630709b91d4de90e685cbc01e1732f5c5c9fed9"
       ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Profundidades de Roca Negra: nivel y entrada",
+      "title_en": "Blackrock Depths: Level and Entrance",
+      "summary_es": "Nivel 52-60; la entrada está en Montaña Roca Negra.",
+      "summary_en": "Levels 52-60; the entrance is in Blackrock Mountain.",
+      "keywords_es": [
+        "profundidades de roca negra",
+        "nivel de roca negra",
+        "entrada de roca negra"
+      ],
+      "keywords_en": [
+        "blackrock depths",
+        "blackrock depths level",
+        "blackrock depths entrance"
+      ],
+      "text_es": "Se recomienda para niveles 52-60 y está dentro de Montaña Roca Negra, accesible desde La Garganta de Fuego o Las Estepas Ardientes. La Alianza puede volar a Puesto del Torio o Vigilia de Morgan; la Horda, a Kargath, Puesto del Torio o Flame Crest, y luego seguir las cadenas hasta el portal.",
+      "text_en": "Recommended for levels 52-60, it lies inside Blackrock Mountain, reached from Searing Gorge or Burning Steppes. Alliance can fly to Thorium Point or Morgan’s Vigil; Horde can use Kargath, Thorium Point, or Flame Crest, then follow the chains to the portal.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Blackrock Depths Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Blackrock Depths in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:de160c3dc1b2fe5313fc74e91caedb9dc2adb69c",
+        "section:eaf7cd56cafcabec89ec0ca90e2df7cf9631b8f8"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones neutrales de Roca Negra",
+      "title_en": "Neutral Blackrock Depths Quests",
+      "summary_es": "El legado de los Hierro Negro da la llave; otras misiones empiezan en las Estepas Ardientes.",
+      "summary_en": "Dark Iron Legacy grants the key; other quests start in the Burning Steppes.",
+      "keywords_es": [
+        "misiones de roca negra",
+        "el legado de los hierro negro",
+        "el corazón de la montaña"
+      ],
+      "keywords_en": [
+        "blackrock depths quests",
+        "dark iron legacy",
+        "the heart of the mountain"
+      ],
+      "text_es": "El legado de los Hierro Negro empieza con Franclorn Forjador, visible como fantasma en Montaña Roca Negra: complétala para obtener la Llave Sombratiniebla, que permite abrir atajos. El corazón de la montaña se recoge con Maxwort Suprandor en Las Estepas Ardientes y requiere recuperar el objeto tras derrotar a Vigía Presaletal. Un sabor a llamarada se prepara con Cyrus Therepentio en Las Estepas Ardientes, tras la cadena que empieza con Kalaran Espada del Viento en La Garganta de Fuego.",
+      "text_en": "Dark Iron Legacy starts with Franclorn Forgewright, visible as a ghost in Blackrock Mountain; completing it grants the Shadowforge Key, which opens shortcuts. The Heart of the Mountain starts with Maxwort Uberglint in the Burning Steppes and requires retrieving the item after defeating Watchman Doomgrip. Prepare A Taste of Flame with Cyrus Therepentous in the Burning Steppes after the chain that starts with Velarok Windblade in Searing Gorge.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Blackrock Depths Layout and Navigation in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:35a58e82f37ac27ee6cfc888ca849aceb9234dec",
+        "section:db8b2d2cae374d2a0f0bc5fb1154fcd6d55b401e"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-misiones-alianza",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones clave de la Alianza",
+      "title_en": "Key Alliance Quests",
+      "summary_es": "¡Incendius! y El destino del reino son objetivos útiles para la Alianza.",
+      "summary_en": "Incendius! and The Fate of the Kingdom are useful Alliance objectives.",
+      "keywords_es": [
+        "misiones alianza roca negra",
+        "¡incendius!",
+        "el destino del reino"
+      ],
+      "keywords_en": [
+        "alliance blackrock quests",
+        "incendius quest",
+        "the fate of the kingdom"
+      ],
+      "text_es": "¡Incendius! se obtiene con Jalinda Espiga en Las Estepas Ardientes después de Gran maestro Pyron y lleva a derrotar a Lord Incendius. La cadena de Kharan Martillazo parte de Forjaz; El destino del reino pide derrotar al Emperador Dagran Thaurissan sin matar a la Princesa Moira Barbabronce.",
+      "text_en": "Incendius! starts with Jalinda Sprig in the Burning Steppes after Overmaster Pyron and sends you to defeat Lord Incendius. Kharan Mighthammer’s chain begins in Ironforge; The Fate of the Kingdom asks you to defeat Emperor Dagran Thaurissan without killing Princess Moira Bronzebeard.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:db8b2d2cae374d2a0f0bc5fb1154fcd6d55b401e"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-misiones-horda",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones clave de la Horda",
+      "title_en": "Key Horde Quests",
+      "summary_es": "La Horda puede preparar La revuelta de las máquinas y El rescate real.",
+      "summary_en": "Horde can prepare The Rise of the Machines and The Royal Rescue.",
+      "keywords_es": [
+        "misiones horda roca negra",
+        "la revuelta de las máquinas",
+        "el rescate real"
+      ],
+      "keywords_en": [
+        "horde blackrock quests",
+        "the rise of the machines",
+        "the royal rescue"
+      ],
+      "text_es": "La revuelta de las máquinas empieza con Hierofante Theodora Mulvadania en Kargath y culmina con el Señor gólem Argelmach. El rescate real se recoge con Thrall en Orgrimmar tras la cadena del Comandante Gor’shak; requiere derrotar al Emperador Dagran Thaurissan y salvar a la Princesa Moira Barbabronce. La receta perdida de Cebatruenos empieza con Boticaria Zinge en Entrañas y continúa con Maga oscura Vivian Latumba en Kargath; Hurley Negrálito aparece al romper los tres barriles del Tragapenas.",
+      "text_en": "The Rise of the Machines starts with Hierophant Theodora Mulvadania in Kargath and culminates with Golem Lord Argelmach. The Royal Rescue starts with Thrall in Orgrimmar after Commander Gor’shak’s chain; it requires defeating Emperor Dagran Thaurissan and rescuing Princess Moira Bronzebeard. Lost Thunderbrew Recipe starts with Apothecary Zinge in Undercity and continues with Shadowmage Vivian Lagrave in Kargath; Hurley Blackbreath spawns when the three Grim Guzzler kegs are broken.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:db8b2d2cae374d2a0f0bc5fb1154fcd6d55b401e"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas destacadas de Roca Negra",
+      "title_en": "Notable Blackrock Depths Rewards",
+      "summary_es": "La llave abre atajos; las misiones y algunos jefes ofrecen equipo destacado.",
+      "summary_en": "The key opens shortcuts; quests and selected bosses offer notable gear.",
+      "keywords_es": [
+        "recompensas de roca negra",
+        "llave sombratiniebla",
+        "mano de justicia"
+      ],
+      "keywords_en": [
+        "blackrock depths rewards",
+        "shadowforge key",
+        "hand of justice"
+      ],
+      "text_es": "El legado de los Hierro Negro da la Llave Sombratiniebla, útil para saltarse parte de la mazmorra. Entre las recompensas de misión destacan Piedracanto de Forjaz y Ojo de Orgrimmar; entre los botines de jefe, Mano de Justicia, Fuerza de voluntad y Ferromazo.",
+      "text_en": "Dark Iron Legacy grants the Shadowforge Key, which helps skip part of the dungeon. Notable quest rewards include Songstone of Ironforge and Eye of Orgrimmar; notable boss drops include Hand of Justice, Force of Will, and Ironfoe.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Best Quest Rewards",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Blackrock Depths Layout and Navigation in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Blackrock Depths Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:35a58e82f37ac27ee6cfc888ca849aceb9234dec",
+        "section:65bdf9cd189a2e249dd920f30f4026af83650cb4",
+        "section:ca6f862de1e52ac74f94aa0bdf9ba5b159f1fe03"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-gerstahn",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Alta interrogadora Gerstahn",
+      "title_en": "High Interrogator Gerstahn",
+      "summary_es": "Su miedo puede atraer otros grupos; interrumpe Quemar maná.",
+      "summary_en": "Her fear can pull nearby packs; interrupt Mana Burn.",
+      "keywords_es": [
+        "alta interrogadora gerstahn",
+        "jefe gerstahn",
+        "quemar maná"
+      ],
+      "keywords_en": [
+        "high interrogator gerstahn",
+        "gerstahn boss",
+        "mana burn"
+      ],
+      "text_es": "Alta interrogadora Gerstahn lanza Alarido psíquico, que puede atraer grupos cercanos; coloca al equipo en una esquina para reducir el desplazamiento. Disipa Palabra de las Sombras: Dolor e interrumpe Quemar maná.",
+      "text_en": "High Interrogator Gerstahn casts Psychic Scream, which can pull nearby packs; position the group in a corner to limit movement. Remove the effect of Shadow Word: Pain and interrupt Mana Burn.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › High Interrogator Gerstahn",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:6d5270e1e8fb5fcf4fe2617a93339cbbb93092c5"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-roccor",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Lord Roccor",
+      "title_en": "Lord Roccor",
+      "summary_es": "Vigila Choque de tierra, que puede interrumpir los lanzamientos.",
+      "summary_en": "Watch for Earth Shock, which can interrupt casts.",
+      "keywords_es": [
+        "lord roccor",
+        "jefe roccor",
+        "choque de tierra roccor"
+      ],
+      "keywords_en": [
+        "lord roccor",
+        "roccor boss",
+        "earth shock roccor"
+      ],
+      "text_es": "Lord Roccor es un combate sencillo; su principal interrupción es Choque de tierra. No hace falta una táctica especial adicional.",
+      "text_en": "Lord Roccor is a straightforward fight; Earth Shock is his main interrupt. No additional special tactic is needed.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Lord Roccor",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:55b3bbf7cdb01db7a2a7deb877ab6269f05e3718"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-grebmar",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Domador de jaurías Grebmar",
+      "title_en": "Houndmaster Grebmar",
+      "summary_es": "Limpia las jaurías a ambos lados de su patrulla antes de enfrentarlo.",
+      "summary_en": "Clear the hound packs on both sides of his patrol before engaging.",
+      "keywords_es": [
+        "domador de jaurías grebmar",
+        "jefe grebmar",
+        "patrulla de grebmar"
+      ],
+      "keywords_en": [
+        "houndmaster grebmar",
+        "grebmar boss",
+        "grebmar patrol"
+      ],
+      "text_es": "Domador de jaurías Grebmar patrulla entre dos grupos de sabuesos. Elimina el grupo opuesto a su ruta y espera a que se aleje para limpiar el otro antes de atacarlo.",
+      "text_en": "Houndmaster Grebmar patrols between two hound packs. Clear the pack opposite his route, then wait for him to move away before clearing the other one and engaging him.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Houndmaster Grebmar",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:9c02754e4e976daaf88159eb8a66354a45c966c7"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-gorosh",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Gorosh el Endemoniado",
+      "title_en": "Gorosh the Dervish",
+      "summary_es": "Huracán y Golpe mortal presionan al sanador durante el combate.",
+      "summary_en": "Whirlwind and Mortal Strike pressure the healer during the fight.",
+      "keywords_es": [
+        "gorosh el endemoniado",
+        "anillo de la ley",
+        "golpe mortal gorosh"
+      ],
+      "keywords_en": [
+        "gorosh the dervish",
+        "ring of the law",
+        "gorosh mortal strike"
+      ],
+      "text_es": "Gorosh el Endemoniado usa Huracán y Golpe mortal. Mantén la sanación para compensar el efecto de Golpe mortal.",
+      "text_en": "Gorosh the Dervish uses Whirlwind and Mortal Strike. Keep healing ready to offset the effect of Mortal Strike.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Ring of the Law",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:c4d242570f3191ccf93e46f96ba50c9dd73e35fe"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-grisez",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Grisez",
+      "title_en": "Grizzle",
+      "summary_es": "Tremor terrenal y Enfurecer son sus habilidades destacadas.",
+      "summary_en": "Ground Tremor and Enrage are his notable abilities.",
+      "keywords_es": [
+        "grisez",
+        "anillo de la ley",
+        "tremor terrenal"
+      ],
+      "keywords_en": [
+        "grizzle",
+        "ring of the law",
+        "ground tremor"
+      ],
+      "text_es": "Grisez apenas requiere preparación: vigila Tremor terrenal y Enfurecer durante el combate. No necesita una estrategia especial.",
+      "text_en": "Grizzle needs little preparation: watch for Ground Tremor and Enrage during the fight. No special strategy is needed.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Ring of the Law",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:c4d242570f3191ccf93e46f96ba50c9dd73e35fe"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-eviscerador",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Eviscerador",
+      "title_en": "Eviscerator",
+      "summary_es": "Su Salva de descarga de las Sombras puede mitigarse con protección sombría.",
+      "summary_en": "Shadow Bolt Volley can be mitigated with shadow protection.",
+      "keywords_es": [
+        "eviscerador",
+        "anillo de la ley",
+        "salva de descarga de las sombras"
+      ],
+      "keywords_en": [
+        "eviscerator",
+        "ring of the law",
+        "shadow bolt volley"
+      ],
+      "text_es": "Eviscerador destaca por Salva de descarga de las Sombras y Escudo antimagia. La Protección de las Sombras reduce el peligro de su daño sombrío.",
+      "text_en": "Eviscerator is notable for Shadow Bolt Volley and Anti-Magic Shield. Shadow Protection reduces the danger from his shadow damage.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Ring of the Law",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:c4d242570f3191ccf93e46f96ba50c9dd73e35fe"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-okthor",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Ok’thor el Rompedor",
+      "title_en": "Ok’thor the Breaker",
+      "summary_es": "Disipa Polimorfia y mantén al grupo a distancia por Deflagración Arcana.",
+      "summary_en": "Dispel Polymorph and keep the group at range for Arcane Explosion.",
+      "keywords_es": [
+        "ok’thor el rompedor",
+        "anillo de la ley",
+        "polimorfia okthor"
+      ],
+      "keywords_en": [
+        "ok’thor the breaker",
+        "ring of the law",
+        "okthor polymorph"
+      ],
+      "text_es": "Ok’thor el Rompedor es uno de los resultados más duros del Anillo de la Ley. Disipa Polimorfia y mantén a tantos miembros como sea posible a distancia para reducir el impacto de Deflagración Arcana.",
+      "text_en": "Ok’thor the Breaker is one of the tougher Ring of the Law outcomes. Remove any polymorph effect and keep as many party members at range as possible to reduce the impact of Arcane Explosion.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Ring of the Law",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:c4d242570f3191ccf93e46f96ba50c9dd73e35fe"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-anubshiah",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Anub’Shiah",
+      "title_en": "Anub’Shiah",
+      "summary_es": "Disipa de inmediato Maldición de la lengua y Tela envolvente.",
+      "summary_en": "Immediately dispel Curse of Tongues and Enveloping Web.",
+      "keywords_es": [
+        "anub’shiah",
+        "anillo de la ley",
+        "maldición de la lengua"
+      ],
+      "keywords_en": [
+        "anub’shiah",
+        "ring of the law",
+        "curse of tongues"
+      ],
+      "text_es": "Anub’Shiah puede aplicar Maldición de la lengua y Tela envolvente. Disipa ambos efectos cuanto antes; el resto del combate requiere poca preparación.",
+      "text_en": "Anub’Shiah can apply Curse of Tongues and Enveloping Web. Dispel both effects quickly; the rest of the fight needs little preparation.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Ring of the Law",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:c4d242570f3191ccf93e46f96ba50c9dd73e35fe"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-hedrum",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Hedrum el Trepador",
+      "title_en": "Hedrum the Creeper",
+      "summary_es": "Limpia sus venenos y elimina el efecto de inmovilización.",
+      "summary_en": "Cleanse his poisons and remove the immobilizing effect.",
+      "keywords_es": [
+        "hedrum el trepador",
+        "anillo de la ley",
+        "veneno paralizante"
+      ],
+      "keywords_en": [
+        "hedrum the creeper",
+        "ring of the law",
+        "paralyzing poison"
+      ],
+      "text_es": "Hedrum el Trepador es un combate directo si se limpian sus venenos y se libera a quienes queden inmovilizados. Vigila Veneno aterrador y Veneno paralizante.",
+      "text_en": "Hedrum the Creeper is straightforward if his poisons are cleansed and immobilized players are freed. Watch for Baneful Poison and Paralyzing Poison.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Ring of the Law",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:c4d242570f3191ccf93e46f96ba50c9dd73e35fe"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-theldren",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Theldren",
+      "title_en": "Theldren",
+      "summary_es": "Se invoca en el Anillo de la Ley con el Estandarte de provocación.",
+      "summary_en": "Summon him in the Ring of the Law with the Banner of Provocation.",
+      "keywords_es": [
+        "theldren",
+        "estandarte de provocación",
+        "jefe anillo de la ley"
+      ],
+      "keywords_en": [
+        "theldren",
+        "banner of provocation",
+        "ring of the law boss"
+      ],
+      "text_es": "Theldren se invoca en el Anillo de la Ley con el Estandarte de provocación, obtenido durante la cadena de misiones de nivel 0,5. Tras completar esa misión se recibe otro estandarte para volver a invocarlo.",
+      "text_en": "Theldren is summoned in the Ring of the Law with the Banner of Provocation, obtained during the level 0.5 quest chain. Completing that quest grants another banner for future summons.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Ring of the Law",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:c4d242570f3191ccf93e46f96ba50c9dd73e35fe"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-fineso-virunegro",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Finoso Virunegro",
+      "title_en": "Fineous Darkvire",
+      "summary_es": "Interrumpe su curación y despeja los enemigos del camino.",
+      "summary_en": "Interrupt his healing and clear the enemies along the path.",
+      "keywords_es": [
+        "finoso virunegro",
+        "jefe de roca negra",
+        "interrumpir su curación"
+      ],
+      "keywords_en": [
+        "fineous darkvire",
+        "blackrock depths boss",
+        "interrupt his heal"
+      ],
+      "text_es": "Finoso Virunegro golpea con fuerza y puede curarse. Interrumpe Luz Sagrada y despeja los enemigos del camino para evitar atraerlos durante el combate.",
+      "text_en": "Fineous Darkvire hits hard and can heal himself. Stop his healing cast and clear the enemies along the path to avoid pulling them during the fight.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Fineous Darkvire",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:81bf833a73fc273301ab7b3c60450f6137c7b7ec"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-piromantico-cultugrano",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Piromántico Cultugrano",
+      "title_en": "Pyromancer Loregrain",
+      "summary_es": "Destruye su tótem chamuscador; es un encuentro opcional sencillo.",
+      "summary_en": "Destroy his Scorching Totem; this optional encounter is simple.",
+      "keywords_es": [
+        "piromántico cultugrano",
+        "jefe opcional roca negra",
+        "tótem chamuscador"
+      ],
+      "keywords_en": [
+        "pyromancer loregrain",
+        "optional blackrock boss",
+        "scorching totem"
+      ],
+      "text_es": "Piromántico Cultugrano es opcional y fácil. Destruye el Tótem chamuscador para neutralizar su principal molestia.",
+      "text_en": "Pyromancer Loregrain is optional and easy. Remove his totem to stop his main nuisance.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Pyromancer Loregrain",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:9e395f823074cda80cc661b81190c5dcdeeee2e3"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-baelgar",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bael’Gar",
+      "title_en": "Bael’Gar",
+      "summary_es": "Elimina sus apariciones y oriéntalo lejos del grupo.",
+      "summary_en": "Kill his spawns and face him away from the group.",
+      "keywords_es": [
+        "bael’gar",
+        "jefe baelgar",
+        "gapó de magma"
+      ],
+      "keywords_en": [
+        "bael’gar",
+        "baelgar boss",
+        "magma splash"
+      ],
+      "text_es": "Bael’Gar invoca apariciones que hay que eliminar. El tanque debe orientarlo en dirección opuesta al grupo para evitar que Gapo de magma alcance a los demás.",
+      "text_en": "Bael’Gar summons spawns that must be killed. The tank should face him away from the group so Magma Splash does not hit the others.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Bael'gar",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:503098a9ed7e45ba5909bef01e35cb4723861af9"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-lord-incendius",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Lord Incendius",
+      "title_en": "Lord Incendius",
+      "summary_es": "Evita que el empuje te arroje de la plataforma.",
+      "summary_en": "Avoid being knocked off the platform.",
+      "keywords_es": [
+        "lord incendius",
+        "jefe incendius",
+        "plataforma incendius"
+      ],
+      "keywords_en": [
+        "lord incendius",
+        "incendius boss",
+        "incendius platform"
+      ],
+      "text_es": "Lord Incendius no es difícil, pero su empuje puede arrojar a jugadores fuera de la plataforma. Colócate con cuidado: no hay forma de volver arriba sin morir.",
+      "text_en": "Lord Incendius is not difficult, but his knockback can throw players off the platform. Position carefully: there is no way back up without dying.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Lord Incendius",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:32ced24cdf082734fe6c7242deca695ee91a40ec"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-guarda-stilgiss-verek",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Guarda Stilgiss y Verek",
+      "title_en": "Warder Stilgiss and Verek",
+      "summary_es": "En su aparición poco común, derrota primero al Guarda Stilgiss.",
+      "summary_en": "In their rare spawn, defeat Warder Stilgiss first.",
+      "keywords_es": [
+        "guarda stilgiss",
+        "verek",
+        "caja fuerte de roca negra"
+      ],
+      "keywords_en": [
+        "warder stilgiss",
+        "verek",
+        "blackrock vault"
+      ],
+      "text_es": "Guarda Stilgiss aparece junto a Verek en una aparición poco común. Derrota primero al Guarda Stilgiss y después a Verek; el combate no debería ser difícil para un grupo de cinco.",
+      "text_en": "Warder Stilgiss appears with Verek in a rare spawn. Defeat him first, then Verek; the encounter should not be difficult for a five-player group.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Vault - Dark Iron Coffers",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:8643b787ad6865c2522a59cb9050d91ba9ae46c3"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-vigia-presaletal",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Vigía Presaletal",
+      "title_en": "Watchman Doomgrip",
+      "summary_es": "Abrir las doce arcas activa el combate y revela la caja fuerte secreta.",
+      "summary_en": "Opening all twelve coffers triggers the fight and reveals the Secret Safe.",
+      "keywords_es": [
+        "vigía presaletal",
+        "caja fuerte secreta",
+        "arcas de reliquias"
+      ],
+      "keywords_en": [
+        "watchman doomgrip",
+        "secret safe",
+        "relic coffers"
+      ],
+      "text_es": "Vigía Presaletal aparece al abrir las doce Arcas de reliquias. Derrota a los enemigos para abrir el acceso oculto a la Caja fuerte secreta, donde también aparece El corazón de la montaña.",
+      "text_en": "Watchman Doomgrip appears after all twelve coffers are opened. Defeat the enemies to reveal the hidden access to the Secret Safe and the Heart of the Mountain.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Vault - Dark Iron Coffers",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:8643b787ad6865c2522a59cb9050d91ba9ae46c3"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-general-forjira",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "General Forjira",
+      "title_en": "General Angerforge",
+      "summary_es": "Elimina con daño de área los adds que invoca durante el combate.",
+      "summary_en": "Use area damage to kill the adds he summons during the fight.",
+      "keywords_es": [
+        "general forjira",
+        "jefe forjira",
+        "adds de forjira"
+      ],
+      "keywords_en": [
+        "general angerforge",
+        "angerforge boss",
+        "angerforge adds"
+      ],
+      "text_es": "General Forjira se comporta como un guerrero y llama adds durante el encuentro. Ataca al jefe y elimina los enemigos invocados con daño de área; el combate se complica si el grupo carece de ese daño.",
+      "text_en": "General Angerforge fights like a warrior and calls adds during the encounter. Attack the boss and kill the summoned enemies with area damage; the fight is harder without it.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › General Angerforge",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:139121c1b50bfc306c836f82a85b155e090b64a5"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-senor-golem-argelmach",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Señor gólem Argelmach",
+      "title_en": "Golem Lord Argelmach",
+      "summary_es": "Separa al grupo para que Cadena de relámpagos no rebote entre jugadores.",
+      "summary_en": "Spread out so Chain Lightning does not bounce between players.",
+      "keywords_es": [
+        "señor gólem argelmach",
+        "jefe argelmach",
+        "cadena de relámpagos"
+      ],
+      "keywords_en": [
+        "golem lord argelmach",
+        "argelmach boss",
+        "chain lightning"
+      ],
+      "text_es": "Señor gólem Argelmach usa Cadena de relámpagos, que puede saltar entre los miembros agrupados y causar mucho daño. Mantén distancia entre jugadores durante el combate.",
+      "text_en": "Golem Lord Argelmach uses Chain Lightning, which can bounce between clustered players and deal heavy damage. Keep party members spread out during the fight.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Golem Lord Argelmach",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:0b81a5925ff12767339e0cb9b2f3258084107f89"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-falange",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Falange",
+      "title_en": "Phalanx",
+      "summary_es": "Entrega jarras al Soldado Sinroca para abrir la puerta y prepárate para Falange.",
+      "summary_en": "Give mugs to Private Rocknot to open the door and prepare for Phalanx.",
+      "keywords_es": [
+        "falange",
+        "soldado sinroca",
+        "tragapenas"
+      ],
+      "keywords_en": [
+        "phalanx",
+        "private rocknot",
+        "grim guzzler"
+      ],
+      "text_es": "Compra seis Jarras de cerveza tradicional Hierro Negro a Plugger Aropatoso y entrégaselas al Soldado Sinroca; tras tres entregas, Falange se activa y se abre la puerta. Falange golpea con Arremetida poderosa, así que el grupo debe estar listo para combatir.",
+      "text_en": "Buy six mugs from Plugger Spazzring and give them to Private Rocknot; after three turn-ins, Phalanx activates and the door opens. Phalanx hits with Mighty Blow, so the group should be ready to fight.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Grim Guzzler",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:ca585eb4c2705095e6c07b0b009a2a98581c3b27"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-hurley-negralito",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Hurley Negrálito",
+      "title_en": "Hurley Blackbreath",
+      "summary_es": "Rompe los tres barriles para hacerlo aparecer; controla a sus guardias.",
+      "summary_en": "Break the three kegs to spawn him; control his guards.",
+      "keywords_es": [
+        "hurley negrálito",
+        "receta de cebatruenos perdida",
+        "barriles tragapenas"
+      ],
+      "keywords_en": [
+        "hurley blackbreath",
+        "lost thunderbrew recipe",
+        "grim guzzler kegs"
+      ],
+      "text_es": "Hurley Negrálito aparece al romper los tres barriles de la despensa del Tragapenas y llega con tres guardias. Controla a los guardias y centra el daño en Hurley.",
+      "text_en": "Hurley Blackbreath appears after the three kegs in the Grim Guzzler storage room are broken and arrives with three guards. Control the guards and focus damage on Hurley.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Grim Guzzler",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:ca585eb4c2705095e6c07b0b009a2a98581c3b27",
+        "section:db8b2d2cae374d2a0f0bc5fb1154fcd6d55b401e"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-ribbly-llavenrosca",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Ribbly Llavenrosca",
+      "title_en": "Ribbly Screwspigot",
+      "summary_es": "Es un combate sencillo; la misión pide recuperar su cabeza.",
+      "summary_en": "This is a simple fight; the quest asks you to retrieve his head.",
+      "keywords_es": [
+        "ribbly llavenrosca",
+        "misión de ribbly",
+        "tragapenas"
+      ],
+      "keywords_en": [
+        "ribbly screwspigot",
+        "ribbly quest",
+        "grim guzzler"
+      ],
+      "text_es": "Ribbly Llavenrosca es un encuentro sencillo, sin una mecánica especial que requiera preparación. La misión homónima se recoge con Yuka Llavenrosca en Las Estepas Ardientes y pide recuperar su cabeza.",
+      "text_en": "Ribbly Screwspigot is a simple encounter with no special mechanic requiring preparation. The quest of the same name starts with Yuka Screwspigot in the Burning Steppes and asks you to retrieve his head.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Grim Guzzler",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:ca585eb4c2705095e6c07b0b009a2a98581c3b27",
+        "section:db8b2d2cae374d2a0f0bc5fb1154fcd6d55b401e"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-plugger-aropatoso",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Plugger Aropatoso",
+      "title_en": "Plugger Spazzring",
+      "summary_es": "Puede volverse hostil si saqueas demasiadas jarras; despeja el bar antes.",
+      "summary_en": "He can turn hostile if too many mugs are looted; clear the bar first.",
+      "keywords_es": [
+        "plugger aropatoso",
+        "jefe del tragapenas",
+        "faca de camarero"
+      ],
+      "keywords_en": [
+        "plugger spazzring",
+        "grim guzzler boss",
+        "barman shanker"
+      ],
+      "text_es": "Plugger Aropatoso puede volverse hostil si saqueas demasiadas jarras de su mesa o le robas la llave. Despeja primero a los clientes para evitar que se unan al combate y vigila su Descarga de las Sombras.",
+      "text_en": "Plugger Spazzring can turn hostile if too many mugs are looted from his table or his key is pickpocketed. Clear the patrons first so they do not join the fight, and watch for his Shadow Bolt.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Grim Guzzler",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:ca585eb4c2705095e6c07b0b009a2a98581c3b27"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-embajador-latifuego",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Embajador Latifuego",
+      "title_en": "Ambassador Flamelash",
+      "summary_es": "Elimina los espíritus antes de que alcancen al jefe y aumenten su poder.",
+      "summary_en": "Kill the spirits before they reach the boss and empower him.",
+      "keywords_es": [
+        "embajador latifuego",
+        "espíritu ardiente",
+        "jefe roca negra"
+      ],
+      "keywords_en": [
+        "ambassador flamelash",
+        "burning spirit",
+        "blackrock depths boss"
+      ],
+      "text_es": "Embajador Latifuego invoca espíritus que lo fortalecen si llegan hasta él. Elimínalos lejos del jefe para mantener bajas sus acumulaciones.",
+      "text_en": "Ambassador Flamelash summons spirits that empower him if they reach him. Kill them away from the boss to keep his stacks low.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Ambassador Flamelash",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:8783abfe2086d837a5c1ebedbf54f7920e1deeac"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-panzor",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Panzor el Invencible",
+      "title_en": "Panzor the Invincible",
+      "summary_es": "Los lanzadores de hechizos deben tener cuidado con Refracción de hechizos.",
+      "summary_en": "Casters should watch for Spell Reflection.",
+      "keywords_es": [
+        "panzor el invencible",
+        "jefe poco común roca negra",
+        "refracción de hechizos"
+      ],
+      "keywords_en": [
+        "panzor the invincible",
+        "blackrock rare boss",
+        "spell reflection"
+      ],
+      "text_es": "Panzor el Invencible es una aparición poco común de la Fundición de Moldes. Quienes lancen hechizos deben vigilar Refracción de hechizos; fuera de eso, el encuentro es sencillo.",
+      "text_en": "Panzor the Invincible is a rare spawn in the Mold Foundry. Spellcasters should watch for Spell Reflection; otherwise, the encounter is simple.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Panzor the Invincible",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:6e9f7d8da233ebffeb0a0d75bb26f64a0a29db14"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-cofre-de-los-siete",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Cofre de los Siete",
+      "title_en": "Chest of the Seven",
+      "summary_es": "Derrota rápido cada una de las siete oleadas para evitar que se acumulen.",
+      "summary_en": "Defeat each of the seven waves quickly so they do not overlap.",
+      "keywords_es": [
+        "cofre de los siete",
+        "siete oleadas roca negra",
+        "espíritus enanos"
+      ],
+      "keywords_en": [
+        "chest of the seven",
+        "seven waves blackrock",
+        "dwarven spirits"
+      ],
+      "text_es": "Cofre de los Siete activa siete oleadas de espíritus enanos. Acaba rápido con cada uno: aparecen según un temporizador y pueden sumarse varios enemigos si el grupo tarda demasiado.",
+      "text_en": "Chest of the Seven triggers seven waves of dwarven spirits. Kill each quickly: they spawn on a timer, so multiple enemies can overlap if the group takes too long.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Chest of the Seven - Summoners' Tomb",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:80f7dec498b7a5a00b6eb297ab967c191f18a16f"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-liceo",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "El Liceo: carrera de antorchas",
+      "title_en": "The Lyceum: Torch Gauntlet",
+      "summary_es": "Consigue dos antorchas rápido y esquiva el fuego mientras avanzas.",
+      "summary_en": "Get two torches quickly and avoid the fire as you move through.",
+      "keywords_es": [
+        "liceo roca negra",
+        "antorcha sombratiniebla",
+        "vigilante de la llama forjatiniebla"
+      ],
+      "keywords_en": [
+        "blackrock lyceum",
+        "shadowforge torch",
+        "shadowforge flame keeper"
+      ],
+      "text_es": "En la zona del Liceo, el Vigilante de la Llama Forjatiniebla suelta las antorchas necesarias para encender los braseros. Atrae pocos grupos normales y consigue dos antorchas antes de que reaparezcan; esquiva las llamas al cruzar.",
+      "text_en": "Two flame keepers drop the torches needed to light the braziers. Pull few normal packs and get two torches before they respawn; dodge the flames while crossing.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Lyceum Gauntlet",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:b1762171898240d6c1a6373fbb4dc74045920c7a"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-magmus",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Magmus",
+      "title_en": "Magmus",
+      "summary_es": "La posición del jefe evita las llamas laterales de la cámara.",
+      "summary_en": "Position the boss to avoid the chamber’s side flames.",
+      "keywords_es": [
+        "magmus",
+        "jefe magmus",
+        "llamas del liceo"
+      ],
+      "keywords_en": [
+        "magmus",
+        "magmus boss",
+        "lyceum flames"
+      ],
+      "text_es": "Magmus combate al final de una cámara con gólems que expulsan fuego desde ambos lados. El tanque debe colocarlo en una posición segura para que las llamas no alcancen al grupo.",
+      "text_en": "Magmus fights at the end of a chamber where golems spew fire from both sides. The tank should position him safely so the flames do not hit the group.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Magmus",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:105ea477fe405b2be3e9796b1a33ae5cbe4fd2e8"
+      ]
+    },
+    {
+      "id": "mazmorra-blackrock-depths-emperador-dagran-thaurissan",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Emperador Dagran Thaurissan",
+      "title_en": "Emperor Dagran Thaurissan",
+      "summary_es": "Para completar las misiones, mantén ocupada a Moira y no la mates.",
+      "summary_en": "For the quests, keep Moira occupied and do not kill her.",
+      "keywords_es": [
+        "emperador dagran thaurissan",
+        "princesa moira",
+        "jefe final roca negra"
+      ],
+      "keywords_en": [
+        "emperor dagran thaurissan",
+        "princess moira",
+        "blackrock final boss"
+      ],
+      "text_es": "Emperador Dagran Thaurissan es el encuentro final. Si quieres salvar a la Princesa Moira Barbabronce, asígnale un tanque secundario o interrumpe sus hechizos; mantenerla viva permite completar las misiones de ambas facciones.",
+      "text_en": "Emperor Dagran Thaurissan is the final encounter. To save Princess Moira Bronzebeard, assign an off-tank or interrupt her casts; keeping her alive allows both factions’ quests to be completed.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Emperor Dagran Thaurissan",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackrock Depths Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Blackrock Depths Layout and Navigation in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/blackrock-depths-dungeon-overview-location-rewards",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackrock-depths"
+      ],
+      "source_hashes": [
+        "section:35a58e82f37ac27ee6cfc888ca849aceb9234dec",
+        "section:fe7586bfc20030b3396e7626e4be39bd5b56f9f8"
+      ]
     }
   ]
 }
