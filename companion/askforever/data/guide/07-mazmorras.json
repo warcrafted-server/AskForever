@@ -2346,160 +2346,826 @@
       "id": "mazmorra-gnomeregan-entrada",
       "chapter": 7,
       "status": "editorial",
-      "title_es": "Gnomeregan: entrada y qué esperar",
-      "title_en": "Gnomeregan: Entrance and What to Expect",
-      "summary_es": "Gnomeregan está en Dun Morogh, es 29-38 y la Horda puede teletransportarse con una cadena de attunement.",
-      "summary_en": "Gnomeregan is in Dun Morogh, level 29-38, and Horde can teleport in with an attunement chain.",
+      "title_es": "Gnomeregan: nivel y entrada",
+      "title_en": "Gnomeregan: Level and Entrance",
+      "summary_es": "Nivel 29-38 en Dun Morogh; la Alianza llega desde Forjaz y la Horda puede teletransportarse.",
+      "summary_en": "Level 29-38 in Dun Morogh; Alliance approaches from Ironforge and Horde can teleport in.",
       "keywords_es": [
-        "gnomeregan",
-        "cómo llegar a gnomeregan",
-        "gnomeregan jefes",
-        "gnomeregan attunement",
-        "thermaplugg"
+        "entrada de Gnomeregan",
+        "cómo llegar a Gnomeregan",
+        "teletransporte de Gnomeregan",
+        "llave del taller"
       ],
       "keywords_en": [
-        "gnomeregan",
-        "gnomeregan entrance",
-        "gnomeregan bosses",
-        "gnomeregan attunement",
-        "thermaplugg"
+        "Gnomeregan entrance",
+        "how to reach Gnomeregan",
+        "Gnomeregan teleport",
+        "Workshop Key"
       ],
-      "text_es": "Gnomeregan está en Dun Morogh, al noroeste, tras la aldea Brewnall. Es de nivel 29-38; la Alianza llega fácil y la Horda usa una cadena de attunement para teletransportarse desde Bahía del Botín. La Llave de taller sale del Electrocutor 6000 y abre la entrada del taller. Grubbis empieza con un evento; el Electrocutor castiga si el grupo se apila; Crowd Pummeler golpea en cono e interrumpe; Thermaplugg invoca bombas andantes, así que apaga dispensadores o mátalas. Lleva sanador y control para las oleadas.",
-      "text_en": "Gnomeregan is in Dun Morogh, northwest, past Brewnall Village. It is level 29-38; Alliance reaches it easily and Horde uses an attunement chain to teleport from Booty Bay. The workshop key drops from Electrocutioner 6000 and opens the workshop entrance. Grubbis starts with an event; Electrocutioner punishes stacking; Crowd Pummeler hits in a cone and interrupts; Thermaplugg summons walking bombs, so turn off dispensers or kill them. Bring a healer and control for the waves.",
+      "text_es": "Gnomeregan se recomienda para niveles 29-38 y está en Dun Morogh; la Alianza llega viajando al oeste desde Forjaz. La Horda puede iniciar la cadena con Sovik en Orgrimmar, tomar el barco desde Trinquete a Bahía del Botín y completarla con Pedrito para usar el Transpondedor goblin. El depósito de trenes tiene una entrada frontal y otra trasera: esta última requiere la Llave de taller o un Pícaro con 150 puntos de Ganzúa.",
+      "text_en": "Gnomeregan is recommended for levels 29-38 in Dun Morogh; Alliance approaches by traveling west from Ironforge. Horde can start the chain with Sovik in Orgrimmar, take the boat from Ratchet to Booty Bay, and complete it with Scooty to use the Goblin Transponder. The Train Depot has a front and a back entrance; the latter requires the Workshop Key or a Rogue with 150 Lockpicking.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Gnomeregan Dungeon Guide › Gnomeregan Dungeon Entrance and Basics",
-          "url": "https://www.icy-veins.com/wow-forever/gnomeregan-guide",
-          "date": "2026-10-18"
+          "ref": "Wowhead: Gnomeregan Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Gnomeregan Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/gnomeregan-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gnomeregan Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Gnomeregan in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/gnomeregan-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gnomeregan Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Chief Engineer Scooty & Gnomer-gooooone!",
+          "url": "https://www.wowhead.com/forever/guide/gnomeregan-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "dungeon:gnomeregan"
       ],
       "source_hashes": [
-        "section:2f47cca8938f89bad3e7c7179864c2b4add0d591"
+        "guide:de36979c78b1121c3dad84ad593023535076926a",
+        "section:09719f91a9f5b04a89de113da16de1433465a7a3",
+        "section:18ad5e57efa55fd2034aee8b4a42413c871618d0"
       ]
     },
     {
       "id": "mazmorra-gnomeregan-misiones",
       "chapter": 7,
       "status": "editorial",
-      "title_es": "Misiones de Gnomeregan",
-      "title_en": "Gnomeregan Quests",
-      "summary_es": "Once misiones, siete de Alianza y una de Horda, más la cadena de teletransporte de Horda.",
-      "summary_en": "Eleven quests, seven Alliance and one Horde, plus the Horde teleport chain.",
+      "title_es": "Misiones recomendables de Gnomeregan",
+      "title_en": "Recommended Gnomeregan Quests",
+      "summary_es": "Recoge misiones de Alianza en Forjaz y activa la cadena de teletransporte de la Horda antes de entrar.",
+      "summary_en": "Pick up Alliance quests in Ironforge and start the Horde teleport chain before entering.",
       "keywords_es": [
-        "misiones de gnomeregan",
-        "un buen lío",
-        "la gran traición",
-        "las guerras de la plataforma",
-        "gnomer-gooooone"
+        "misiones de Gnomeregan",
+        "misiones de Alianza",
+        "misiones de Horda",
+        "teletransporte goblin"
       ],
       "keywords_en": [
-        "gnomeregan quests",
-        "a fine mess",
-        "the grand betrayal",
-        "rig wars",
-        "gnomer-gooooone"
+        "Gnomeregan quests",
+        "Alliance quests",
+        "Horde quests",
+        "Goblin teleport"
       ],
-      "text_es": "Hay once misiones (siete de Alianza y una de Horda) y una cadena de attunement. En Forjaz: Rescatar los datos, Esencias artificiales, ¡Salva el cerebro de Techrobot! y La gran traición; en Dun Morogh: Gnogaine y Necesitamos más material verdoso; en Ventormenta: Gyrodrillmatic Excavationators; dentro: Un buen lío, ¡El Destellamatic 5200! y Un anillo sucio, que empieza con el Anillo con mugre incrustada; en Orgrimmar: Las guerras de la plataforma. Las guerras de la plataforma, Chief Engineer Scooty y Gnomer-gooooone! abren el teletransporte de Horda en Bahía del Botín.",
-      "text_en": "There are eleven quests (seven Alliance and one Horde) and an attunement chain. In Ironforge: Data Rescue, Essential Artificials, Save Techbot's Brain!, and The Grand Betrayal; in Dun Morogh: Gnogaine and The Only Cure is More Green Glow; in Stormwind: Gyrodrillmatic Excavationators; inside: A Fine Mess, The Sparklematic 5200!, and Grime-Encrusted Ring; in Orgrimmar: Rig Wars. Rig Wars, Chief Engineer Scooty, and Gnomer-gooooone! open the Horde teleporter in Booty Bay.",
+      "text_es": "La Alianza puede recoger ¡Salva el cerebro de Techrobot! con el Maestro manitas Sobrechispa en Forjaz; la misión pide recuperar el cerebro de Tecnobot. La gran traición se recoge con Manitas mayor Mekkatorque, también en Forjaz. Para la Horda, Las guerras de la plataforma se recoge con Nogg en Orgrimmar; Sovik ofrece después Scooty, ingeniero jefe, y Pedrito en Bahía del Botín da ¡Gnomer-yaaaaa!, que permite usar el Transpondedor goblin para teletransportarse a la mazmorra.",
+      "text_en": "Alliance can pick up Save Techbot’s Brain! from Tinkmaster Overspark and The Grand Betrayal from High Tinker Mekkatorque, both in Ironforge. For Horde, Rig Wars starts with Nogg in Orgrimmar; Sovik then offers Chief Engineer Scooty, and Scooty in Booty Bay gives Gnomer-gooooone!, which lets you use the Goblin Transponder to teleport to the dungeon.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: All Available Quests for Gnomeregan › Gnomeregan Dungeon Quests",
-          "url": "https://www.icy-veins.com/wow-forever/gnomeregan-quests",
-          "date": "2026-09-30"
+          "ref": "Wowhead: Gnomeregan Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/gnomeregan-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gnomeregan Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Chief Engineer Scooty & Gnomer-gooooone!",
+          "url": "https://www.wowhead.com/forever/guide/gnomeregan-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "dungeon:_all:quests"
+        "dungeon:gnomeregan"
       ],
       "source_hashes": [
-        "section:4c025b642cf46c466ca7d5e2e3a6c19a3ac4ace9"
+        "guide:de36979c78b1121c3dad84ad593023535076926a",
+        "section:dacd72b167750d4d0ca171ede6e7dbcfd5621de0"
+      ]
+    },
+    {
+      "id": "mazmorra-gnomeregan-grubbis",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Grubbis: evento de aparición",
+      "title_en": "Grubbis: Spawn Event",
+      "summary_es": "Inicia el evento con el Maestro Destructor Emi Plomocorto y acaba con las oleadas antes de que se cierre la cueva.",
+      "summary_en": "Start the event with Blastmaster Emi Shortfuse and clear the waves before the cave is sealed.",
+      "keywords_es": [
+        "Grubbis",
+        "evento de Grubbis",
+        "jefes de Gnomeregan"
+      ],
+      "keywords_en": [
+        "Grubbis",
+        "Grubbis event",
+        "Gnomeregan bosses"
+      ],
+      "text_es": "Habla con el Maestro Destructor Emi Plomocorto para activar el evento. Elimina las oleadas que salen de la cueva: Grubbis aparece en la segunda antes de que las explosiones la sellen.",
+      "text_en": "Speak to Blastmaster Emi Shortfuse to start the event. Clear the waves coming from the cave: Grubbis appears from the second one before the explosives seal it.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gnomeregan Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Grubbis",
+          "url": "https://www.wowhead.com/forever/guide/gnomeregan-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:gnomeregan"
+      ],
+      "source_hashes": [
+        "section:4553f84751c575f5c7a612ae5849da385eb3bdf8"
+      ]
+    },
+    {
+      "id": "mazmorra-gnomeregan-radiactivo-viscoso",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Radiactivo viscoso: combate",
+      "title_en": "Viscous Fallout: Fight",
+      "summary_es": "Limpia los enemigos cercanos a Radiactivo viscoso para poder atraerlo sin adds.",
+      "summary_en": "Clear nearby enemies around Viscous Fallout so you can pull it without adds.",
+      "keywords_es": [
+        "Radiactivo viscoso",
+        "jefe de Gnomeregan",
+        "adds de mazmorra"
+      ],
+      "keywords_en": [
+        "Viscous Fallout",
+        "Gnomeregan boss",
+        "dungeon adds"
+      ],
+      "text_es": "Radiactivo viscoso patrulla el nivel irradiado del Salón de los Engranajes. Limpia los enemigos de alrededor antes de atraerlo para evitar sumar adds al combate.",
+      "text_en": "Viscous Fallout patrols the irradiated ground level of the Hall of Gears. Clear the surrounding enemies before pulling it to avoid adding them to the fight.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gnomeregan Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Viscous Fallout",
+          "url": "https://www.wowhead.com/forever/guide/gnomeregan-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:gnomeregan"
+      ],
+      "source_hashes": [
+        "section:faf980afeab60e67dc6e4dbdb506d374cf9ac4a6"
+      ]
+    },
+    {
+      "id": "mazmorra-gnomeregan-electrocutor",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Electrocutor 6000: rayos",
+      "title_en": "Electrocutioner 6000: Lightning",
+      "summary_es": "Mantén al grupo separado, evita el cono de Megavoltio y vigila al tanque durante Choque.",
+      "summary_en": "Spread out, avoid Megavolt’s cone, and watch the tank during Shock.",
+      "keywords_es": [
+        "Electrocutor 6000",
+        "Megavoltio",
+        "Descarga en cadena"
+      ],
+      "keywords_en": [
+        "Electrocutioner 6000",
+        "Megavolt",
+        "Chain Bolt"
+      ],
+      "text_es": "El Electrocutor 6000 usa Descarga en cadena, Megavoltio y Choque. Mantén distancia entre jugadores para reducir el daño encadenado, evita el cono frontal de Megavoltio y vigila la salud del tanque durante Choque.",
+      "text_en": "Electrocutioner 6000 uses Chain Bolt, Megavolt, and Shock. Spread players out to reduce chained damage, avoid the frontal cone from Megavolt, and watch the tank’s health during Shock.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gnomeregan Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Electrocutioner 6000",
+          "url": "https://www.wowhead.com/forever/guide/gnomeregan-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Gnomeregan Dungeon Guide › Gnomeregan Boss Strategy",
+          "url": "https://www.icy-veins.com/wow-forever/gnomeregan-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:gnomeregan"
+      ],
+      "source_hashes": [
+        "section:0306cafa1ca4a8886f73ea322c27c3d4fee583f6",
+        "section:fbeb16d20a28c6956c8dd606519fe13d12373193"
+      ]
+    },
+    {
+      "id": "mazmorra-gnomeregan-golpeamasa",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Golpeamasa 9-60: golpes de área",
+      "title_en": "Crowd Pummeler 9-60: Area Attacks",
+      "summary_es": "Evita el cono de Machaque arqueado y aléjate de Paliza popular y Atropello.",
+      "summary_en": "Avoid Arcing Smash’s cone and move away from Crowd Pummel and Trample.",
+      "keywords_es": [
+        "Golpeamasa 9-60",
+        "Machaque arqueado",
+        "Paliza popular"
+      ],
+      "keywords_en": [
+        "Crowd Pummeler 9-60",
+        "Arcing Smash",
+        "Crowd Pummel"
+      ],
+      "text_es": "Enfréntate a Golpeamasa 9-60 evitando el cono frontal de Machaque arqueado. Paliza popular interrumpe a quienes lanzan hechizos cerca, y tanto esta como Atropello causan daño de área alrededor del jefe.",
+      "text_en": "Crowd Pummeler 9-60 has a frontal cone from Arcing Smash; avoid it. Crowd Pummel interrupts nearby casters, and both Crowd Pummel and Trample deal area damage around the boss.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gnomeregan Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Crowd Pummeler 9-60",
+          "url": "https://www.wowhead.com/forever/guide/gnomeregan-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Gnomeregan Dungeon Guide › Gnomeregan Boss Strategy",
+          "url": "https://www.icy-veins.com/wow-forever/gnomeregan-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:gnomeregan"
+      ],
+      "source_hashes": [
+        "section:0306cafa1ca4a8886f73ea322c27c3d4fee583f6",
+        "section:134af3301069530e895d471701c3f8a19c0cb9a8"
+      ]
+    },
+    {
+      "id": "mazmorra-gnomeregan-embajador-hierro-negro",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Embajador Hierro Negro: jefe raro",
+      "title_en": "Dark Iron Ambassador: Rare Boss",
+      "summary_es": "Si aparece, limpia el pasillo; interrumpe Bola de Fuego y elimina rápido a su sirviente ardiente.",
+      "summary_en": "If it spawns, clear the corridor; interrupt Fireball and quickly kill its Burning Servant.",
+      "keywords_es": [
+        "Embajador Hierro Negro",
+        "jefe raro de Gnomeregan",
+        "Bola de Fuego"
+      ],
+      "keywords_en": [
+        "Dark Iron Ambassador",
+        "Gnomeregan rare boss",
+        "Fireball"
+      ],
+      "text_es": "El Embajador Hierro Negro es raro y puede no aparecer; suele patrullar el pasillo norte hacia la Corte de los Manitas. Si está, despeja la zona antes de combatir, interrumpe Bola de Fuego y elimina al sirviente ardiente que invoque.",
+      "text_en": "Dark Iron Ambassador is a rare spawn and may not appear; it tends to patrol the north side of the tunnel leading to the Tinkers’ Court. If present, clear the area before engaging, interrupt Fireball, and kill any Burning Servant it summons.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gnomeregan Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Dark Iron Ambassador (Rare)",
+          "url": "https://www.wowhead.com/forever/guide/gnomeregan-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Gnomeregan Dungeon Guide › Gnomeregan Boss Strategy",
+          "url": "https://www.icy-veins.com/wow-forever/gnomeregan-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:gnomeregan"
+      ],
+      "source_hashes": [
+        "section:0306cafa1ca4a8886f73ea322c27c3d4fee583f6",
+        "section:ab419433f1e3f96d1fd685de422b7a69280efa28"
+      ]
+    },
+    {
+      "id": "mazmorra-gnomeregan-termochufe",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Mekigeniero Termochufe: bombas",
+      "title_en": "Mekgineer Thermaplugg: Bombs",
+      "summary_es": "Desactiva los seis dispensadores de bombas o destruye las bombas andantes antes de que alcancen al grupo.",
+      "summary_en": "Disable the six bomb dispensers or destroy the Walking Bombs before they reach the group.",
+      "keywords_es": [
+        "Mekigeniero Termochufe",
+        "bombas andantes",
+        "dispensadores de Gnomeregan"
+      ],
+      "keywords_en": [
+        "Mekgineer Thermaplugg",
+        "Walking Bombs",
+        "Gnomeregan dispensers"
+      ],
+      "text_es": "Los seis dispensadores de Mekigeniero Termochufe generan bombas andantes. El grupo puede destruirlas antes de que lleguen o asignar a alguien para pulsar el botón a la derecha de cada dispensador; el jefe también puede apartar al tanque con Mamporro.",
+      "text_en": "Six dispensers in the final room spawn Walking Bombs. The group can destroy them before they reach the party or assign someone to press the button on the right side of each dispenser; the boss can also knock the tank away with Knock Away.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gnomeregan Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Mekgineer Thermaplugg",
+          "url": "https://www.wowhead.com/forever/guide/gnomeregan-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Gnomeregan Dungeon Guide › Gnomeregan Boss Strategy",
+          "url": "https://www.icy-veins.com/wow-forever/gnomeregan-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:gnomeregan"
+      ],
+      "source_hashes": [
+        "section:0306cafa1ca4a8886f73ea322c27c3d4fee583f6",
+        "section:0e8f9220f9a645dc1dc9b86917bd4037f9dd42da"
+      ]
+    },
+    {
+      "id": "mazmorra-gnomeregan-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de Gnomeregan",
+      "title_en": "Gnomeregan Rewards",
+      "summary_es": "Entre los botines destacados están Garras Grubbis, Botos ácidos y el Manual de Muchedumbre de Puñetazos.",
+      "summary_en": "Notable drops include Grubbis Paws, Acidic Walkers, and Manual Crowd Pummeler.",
+      "keywords_es": [
+        "botín de Gnomeregan",
+        "Garras Grubbis",
+        "Botos ácidos",
+        "Manual de Muchedumbre de Puñetazos"
+      ],
+      "keywords_en": [
+        "Gnomeregan loot",
+        "Grubbis Paws",
+        "Acidic Walkers",
+        "Manual Crowd Pummeler"
+      ],
+      "text_es": "Entre los botines de los jefes están Garras Grubbis y Botos ácidos. También destacan Manual de Muchedumbre de Puñetazos y Núcleo central de Termochufe.",
+      "text_en": "Boss drops include Grubbis Paws and Acidic Walkers. Manual Crowd Pummeler and Thermaplugg’s Central Core are also notable.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gnomeregan Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Gnomeregan Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/gnomeregan-dungeon-overview-location-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:gnomeregan"
+      ],
+      "source_hashes": [
+        "section:b4158b348bb65b9eab77b0600906fe6b170553dc"
       ]
     },
     {
       "id": "mazmorra-razorfen-entrada",
       "chapter": 7,
       "status": "editorial",
-      "title_es": "Horado Rajacieno: entrada y qué esperar",
-      "title_en": "Razorfen Kraul: Entrance and What to Expect",
-      "summary_es": "Horado Rajacieno está en Los Baldíos, es 29-38 y tiene jefes con elementales,control mental y adds.",
-      "summary_en": "Razorfen Kraul is in the Barrens, level 29-38, with bosses using elementals, mind control, and adds.",
+      "title_es": "Horado Rajacieno: nivel y entrada",
+      "title_en": "Razorfen Kraul: Level and Entrance",
+      "summary_es": "Nivel 30-40, al sur de Los Baldíos; la Horda llega desde Camp Taurajo y la Alianza puede ir por Trinquete.",
+      "summary_en": "Level 30-40 in the southern Barrens; Horde approaches from Camp Taurajo and Alliance can travel via Ratchet.",
       "keywords_es": [
-        "horado rajacieno",
-        "razorfen kraul",
-        "cómo llegar a horado rajacieno",
-        "horado rajacieno jefes",
-        "charlga"
+        "entrada del Horado Rajacieno",
+        "nivel Horado Rajacieno",
+        "cómo llegar al Horado Rajacieno",
+        "mazmorra en Los Baldíos"
       ],
       "keywords_en": [
-        "razorfen kraul",
-        "razorfen kraul entrance",
-        "razorfen kraul bosses",
-        "charlga",
-        "razorfen kraul quests"
+        "Razorfen Kraul entrance",
+        "Razorfen Kraul level",
+        "how to reach Razorfen Kraul",
+        "Barrens dungeon"
       ],
-      "text_es": "Horado Rajacieno está en Los Baldíos, al sur, en la zona de Rajacieno. Es de nivel 29-38; tiene dos misiones de Alianza y tres de Horda, además de neutrales. Roogug es opcional y trae un elemental; Jargba trae dos casters y control mental; Ramtusk pega fuerte y trae dos spearhide; Charlga se tanquea fuera de la plataforma y hay que interrumpir sus hechizos. Los jefes raros no salen siempre, así que no cuentes con su botín.",
-      "text_en": "Razorfen Kraul is in the Barrens, far south, in the Razorfen area. It is level 29-38; it has two Alliance quests and three Horde, plus neutral ones. Roogug is optional and brings an elemental; Jargba brings two casters and mind control; Ramtusk hits hard and brings two spearhides; Charlga is tanked off her platform and her casts must be interrupted. Rare bosses do not always spawn, so do not count on their loot.",
+      "text_es": "El Horado Rajacieno se recomienda para niveles 30-40. La entrada está en el sur de Los Baldíos, poco antes del Gran Elevador. La Horda puede volar a Campamento Taurajo y avanzar hacia el sur, girando al oeste antes del elevador. La Alianza puede tomar un barco hasta Trinquete; las rutas de acceso implican trayectos largos o cruzar una zona peligrosa a bajo nivel.",
+      "text_en": "Razorfen Kraul is recommended for levels 30-40. Its entrance is in the southern part of the Barrens, just before the Great Lift. Horde can fly to Camp Taurajo and head south, turning west before the lift. Alliance can take a boat to Ratchet; the approaches involve long travel or crossing a dangerous area at low level.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Razorfen Kraul Dungeon Guide › Razorfen Kraul Dungeon Entrance and Basics",
-          "url": "https://www.icy-veins.com/wow-forever/razorfen-kraul-guide",
-          "date": "2026-10-18"
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Razorfen Kraul Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Razorfen Kraul in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "dungeon:razorfen-kraul"
       ],
       "source_hashes": [
-        "section:5dd1536f0b6776d0e2e4a3a19699804104e13890"
+        "section:4bb299065f9908399ba361c5a24eed3622699c0d",
+        "section:8c8824876f35f36b0799e71a4dfbcde385eb9ffa"
       ]
     },
     {
       "id": "mazmorra-razorfen-misiones",
       "chapter": 7,
       "status": "editorial",
-      "title_es": "Misiones de Horado Rajacieno",
-      "title_en": "Razorfen Kraul Quests",
-      "summary_es": "Siete misiones, dos de Alianza y tres de Horda; varias empiezan en Los Baldíos y Cima del Trueno.",
-      "summary_en": "Seven quests, two Alliance and three Horde; several start in the Barrens and Thunder Bluff.",
+      "title_es": "Misiones recomendables del Horado Rajacieno",
+      "title_en": "Recommended Razorfen Kraul Quests",
+      "summary_es": "Misiones previas en Los Baldíos, Entrañas y Cima del Trueno; la cadena de Alianza empieza junto al Gran Elevador.",
+      "summary_en": "Before entering, pick up quests in the Barrens, Undercity, or Thunder Bluff; an Alliance chain starts by the Great Lift.",
       "keywords_es": [
-        "misiones de horado rajacieno",
-        "los tubérculos hojazul",
-        "willix el importador",
-        "la bruja del horado",
-        "guano del horado"
+        "misiones del Horado Rajacieno",
+        "Los tubérculos hojazul",
+        "Guano del Horado",
+        "La bruja del Horado"
       ],
       "keywords_en": [
-        "razorfen kraul quests",
-        "blueleaf tubers",
-        "willix the importer",
-        "crone of the kraul",
-        "going going guano"
+        "Razorfen Kraul quests",
+        "Blueleaf Tubers",
+        "Going Going Guano",
+        "The Crone of the Kraul"
       ],
-      "text_es": "Hay siete misiones: dos de Alianza y tres de Horda. En Los Baldíos empieza Los tubérculos hojazul (Mebok Mizzyrix); dentro, Willix el Importador y Decaída mortal (Heralath); en Feralas, La bruja del Horado (Falfindel, Alianza); en Cima del Trueno, Un destino vengador (Auld Picopiedra, Horda). De Horda también: Guano del Horado (Entrañas, Faranell) y Una alianza nefasta (botín de Charlga, se entrega a Varimathras).",
-      "text_en": "There are seven quests: two Alliance and three Horde. In the Barrens starts Blueleaf Tubers (Mebok Mizzyrix); inside, Willix the Importer and Mortality Wanes (Heralath); in Feralas, The Crone of the Kraul (Falfindel, Alliance); in Thunder Bluff, A Vengeful Fate (Auld Stonespire, Horde). Also Horde: Going, Going, Guano! (Undercity, Faranell) and An Unholy Alliance (Charlga's loot, turned in to Varimathras).",
+      "text_es": "La Horda puede recoger Guano del Horado con el Maestro boticario Faranell en Entrañas y Un destino vengador con Auld Picopiedra en Cima del Trueno. Para la Alianza, La bruja del Horado requiere primero El diario de Henrig Soliceja: recoge el diario junto al Gran Elevador y sigue la cadena con Díscolo Falfildel. Los tubérculos hojazul empieza con Mebok Mizzyrix en Trinquete; recoge allí los tres objetos necesarios. Decaída mortal se acepta dentro, con Heralath Arroyobarbecho.",
+      "text_en": "Horde can pick up Going, Going, Guano! from Master Apothecary Faranell in Undercity and A Vengeful Fate from Auld Stonespire in Thunder Bluff. Alliance can take The Crone of the Kraul after Lonebrow’s Journal: loot the journal by the Great Lift, then continue the chain with Falfindel Waywarder. Blueleaf Tubers starts with Mebok Mizzyrix in Ratchet; collect its three required items there. Mortality Wanes is accepted inside from Heralath Fallowbrook.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: All Available Quests for Razorfen Kraul › Razorfen Kraul Dungeon Quests",
-          "url": "https://www.icy-veins.com/wow-forever/razorfen-kraul-quests",
-          "date": "2026-11-10"
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Blueleaf Tubers",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Crone of the Kraul",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › A Vengeful Fate",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Going, Going, Guano!",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Mortality Wanes",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "dungeon:_all:quests"
+        "dungeon:razorfen-kraul"
       ],
       "source_hashes": [
-        "section:604c1e4af80cbb4f09685094098e97175388a6be"
+        "guide:26b786610d8a153ffe5cbfa4027f2115b249baff",
+        "section:5e4dbe723bd9f840317f4a7ce1a73261a15233c2"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-roogug",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Roogug: limpia los enemigos cercanos",
+      "title_en": "Roogug: Clear Nearby Enemies",
+      "summary_es": "Roogug es opcional; limpia la zona y controla al elemental cercano para reducir el daño al tanque.",
+      "summary_en": "Roogug is optional; clear the area and control the nearby elemental to reduce damage to the tank.",
+      "keywords_es": [
+        "Roogug",
+        "jefe opcional de Horado Rajacieno",
+        "elemental de tierra"
+      ],
+      "keywords_en": [
+        "Roogug",
+        "optional Razorfen Kraul boss",
+        "Earth Elemental"
+      ],
+      "text_es": "Roogug es opcional y forma parte de misiones de clase de Guerrero. Antes de atacarlo, limpia los enemigos de alrededor y controla los que puedas; si hay un Brujo, puede desterrar al elemental cercano para reducir el daño recibido por el tanque.",
+      "text_en": "Roogug is optional and is part of Warrior class quests. Before engaging, clear the surrounding enemies and control what you can; a Warlock can Banish the nearby elemental to reduce damage to the tank.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Roogug",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-kraul"
+      ],
+      "source_hashes": [
+        "section:e668aff97b8408a46796bc5999f6cd725d763451"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-aggem",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Aggem Malaespina: elimina al jabalí",
+      "title_en": "Aggem Thorncurse: Kill the Boar",
+      "summary_es": "Cuando Aggem invoque al espíritu de jabalí, elimínalo antes de volver a atacar al jefe.",
+      "summary_en": "When Aggem summons the Boar Spirit, kill it before switching back to the boss.",
+      "keywords_es": [
+        "Aggem Malaespina",
+        "espíritu de jabalí",
+        "jefes de Horado Rajacieno"
+      ],
+      "keywords_en": [
+        "Aggem Thorncurse",
+        "Boar Spirit",
+        "Razorfen Kraul bosses"
+      ],
+      "text_es": "Aggem Malaespina puede invocar un espíritu de jabalí durante el combate. Cambia el objetivo para derrotar primero al espíritu y después vuelve al jefe.",
+      "text_en": "Aggem Thorncurse can summon a Boar Spirit during the fight. Switch targets to defeat the spirit first, then return to the boss.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Aggem Thorncurse",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-kraul"
+      ],
+      "source_hashes": [
+        "section:6e97257f9dd0fd89fa163a95dd9c759bf29a033a"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-jargba",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Médium Jargba: controla a sus acompañantes",
+      "title_en": "Death Speaker Jargba: Control the Adds",
+      "summary_es": "Controla a los dos lanzadores que acompañan a Jargba y acaba rápido con él para evitar Dominación mental.",
+      "summary_en": "Control Jargba’s two caster adds and defeat him quickly to prevent Dominate Mind.",
+      "keywords_es": [
+        "Médium Jargba",
+        "Dominación mental",
+        "jefes de Horado Rajacieno"
+      ],
+      "keywords_en": [
+        "Death Speaker Jargba",
+        "Dominate Mind",
+        "Razorfen Kraul bosses"
+      ],
+      "text_es": "Médium Jargba aparece con dos enemigos lanzadores que causan mucho daño. Controla a uno o a ambos si puedes, elimina pronto a Jargba para reducir el peligro de Dominar mente y luego acaba con los demás.",
+      "text_en": "Death Speaker Jargba comes with two caster enemies that deal heavy damage. Control one or both if possible, kill Jargba quickly to reduce the Dominate Mind threat, then finish the others.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Death Speaker Jargba",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-kraul"
+      ],
+      "source_hashes": [
+        "section:ce5004724fa17e555160368aba8c0638378b9582"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-colmicarnero",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Señor Supremo Colmicarnero: controla los adds",
+      "title_en": "Overlord Ramtusk: Control the Adds",
+      "summary_es": "Controla a los dos Cuerolanza de Rajacieno y centra el daño en Colmicarnero, que golpea con fuerza.",
+      "summary_en": "Control the two Razorfen Spearhides and focus Ramtusk, who hits hard.",
+      "keywords_es": [
+        "Señor Supremo Colmicarnero",
+        "Cuerolanza de Rajacieno",
+        "daño al tanque"
+      ],
+      "keywords_en": [
+        "Overlord Ramtusk",
+        "Razorfen Spearhide",
+        "tank damage"
+      ],
+      "text_es": "El Señor Supremo Colmicarnero inflige mucho daño de un solo objetivo y lucha junto a dos adds peligrosos. Controla a ambos si es posible y concentra el daño en el jefe.",
+      "text_en": "Overlord Ramtusk deals heavy single-target damage and fights beside two dangerous adds. Crowd-control both if possible and focus damage on the boss.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Overlord Ramtusk",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-kraul"
+      ],
+      "source_hashes": [
+        "section:a0fe28d398b549d0b16d9e16314fd19bd8c9db32"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-agathelos",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Agathelos el Furioso: protege al tanque",
+      "title_en": "Agathelos the Raging: Protect the Tank",
+      "summary_es": "Agathelos causa mucho daño a un objetivo; el sanador debe centrarse en mantener vivo al tanque.",
+      "summary_en": "Agathelos deals heavy single-target damage; the healer should focus on keeping the tank alive.",
+      "keywords_es": [
+        "Agathelos el Furioso",
+        "daño al tanque",
+        "jefes de Horado Rajacieno"
+      ],
+      "keywords_en": [
+        "Agathelos the Raging",
+        "tank damage",
+        "Razorfen Kraul bosses"
+      ],
+      "text_es": "Agathelos el Furioso es un combate sencillo, pero inflige mucho daño a un solo objetivo. El sanador y quienes puedan curar como apoyo deben ayudar a mantener vivo al tanque.",
+      "text_en": "Agathelos the Raging is a straightforward fight, but he deals heavy single-target damage. The healer and any party members able to off-heal should help keep the tank alive.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Agathelos the Raging",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-kraul"
+      ],
+      "source_hashes": [
+        "section:e0bd61eda3f683ab1e30b6bf5f6011aa5152ce3a"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-cazador-ciego",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Cazador ciego: detén los lanzamientos",
+      "title_en": "Blind Hunter: Stop Casting",
+      "summary_es": "Este jefe raro puede no aparecer; cuando lance Ráfaga sónica, los lanzadores deben dejar de lanzar hechizos.",
+      "summary_en": "This rare boss may not spawn; casters should stop casting when it begins Sonic Burst.",
+      "keywords_es": [
+        "Cazador ciego",
+        "jefe raro de Horado Rajacieno",
+        "Ráfaga sónica"
+      ],
+      "keywords_en": [
+        "Blind Hunter",
+        "Razorfen Kraul rare boss",
+        "Sonic Burst"
+      ],
+      "text_es": "El Cazador ciego es raro y aparece en la Cueva de los Murciélagos, pero puede no estar en cada visita. Cuando empiece a lanzar Ráfaga sónica, los lanzadores deben dejar de lanzar hechizos para evitar su silencio de área.",
+      "text_en": "Blind Hunter is a rare boss in the Bat Cave and may not be present on every run. When it begins casting Sonic Burst, casters should stop casting to avoid its area silence.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Blind Hunter (Rare)",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Razorfen Kraul Dungeon Guide › Razorfen Kraul Boss Strategy",
+          "url": "https://www.icy-veins.com/wow-forever/razorfen-kraul-guide",
+          "date": "2026-10-18"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-kraul"
+      ],
+      "source_hashes": [
+        "section:25faf11bacf51bf846a15d5d3678ba90dc8dd509",
+        "section:2ee6021c09229fd07292b0d04ea670fad2e6f921"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-halmgar",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Clamor de Tierra Halmgar: controla el elemental",
+      "title_en": "Earthcaller Halmgar: Control the Elemental",
+      "summary_es": "Si aparece el jefe raro, limpia la plataforma, prioriza sus tótems y controla al elemental.",
+      "summary_en": "If the rare boss spawns, clear the platform, prioritize his totems, and control the elemental.",
+      "keywords_es": [
+        "Clamor de Tierra Halmgar",
+        "jefe raro de Horado Rajacieno",
+        "Tótem Nexo Terrestre"
+      ],
+      "keywords_en": [
+        "Earthcaller Halmgar",
+        "Razorfen Kraul rare boss",
+        "Earthbind Totem"
+      ],
+      "text_es": "Clamor de Tierra Halmgar es un jefe raro. Limpia la plataforma antes del combate y prioriza sus tótems; si hay un Brujo, puede desterrar al elemental, o el grupo puede derrotar primero al elemental y luego al jefe.",
+      "text_en": "Earthcaller Halmgar is a rare boss. Clear the platform before engaging and prioritize his totems; a Warlock can Banish the elemental, or the group can kill the elemental before Halmgar.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Earthcaller Halmgar",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-kraul"
+      ],
+      "source_hashes": [
+        "section:0721d4d29d1cc13d7e3e7f4435b1a5674d575137"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-charlga",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Charlga Filonavaja: interrumpe sus hechizos",
+      "title_en": "Charlga Razorflank: Interrupt Her Spells",
+      "summary_es": "Baja a Charlga de su choza, sepárate del grupo e interrumpe sus lanzamientos; puede volverse inmune y curarse.",
+      "summary_en": "Pull Charlga down from her hut, spread out, and interrupt her casts; she can become immune and heal.",
+      "keywords_es": [
+        "Charlga Filonavaja",
+        "jefe final del Horado Rajacieno",
+        "interrumpir hechizos"
+      ],
+      "keywords_en": [
+        "Charlga Razorflank",
+        "Razorfen Kraul final boss",
+        "interrupt casts"
+      ],
+      "text_es": "Charlga Filonavaja es una lanzadora con poca armadura, pero causa bastante daño. Atráela desde la choza a la plataforma inferior, separa al grupo e interrumpe sus hechizos; a veces se vuelve inmune y se cura.",
+      "text_en": "Charlga Razorflank is a caster with low armor but deals substantial damage. Pull her from the hut to the platform below, spread the group, and interrupt her casts; she sometimes becomes immune and heals.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Charlga Razorflank",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-kraul"
+      ],
+      "source_hashes": [
+        "section:cc388e16c02c47995af5a62091b79a80e444d081"
+      ]
+    },
+    {
+      "id": "mazmorra-razorfen-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas del Horado Rajacieno",
+      "title_en": "Razorfen Kraul Rewards",
+      "summary_es": "Entre los botines destacados están Pincho de espinas, Togas de médium y Crea cadáveres.",
+      "summary_en": "Notable drops include Thornspike, Death Speaker Robes, and Corpsemaker.",
+      "keywords_es": [
+        "botín del Horado Rajacieno",
+        "Pincho de espinas",
+        "Togas de médium",
+        "Crea cadáveres"
+      ],
+      "keywords_en": [
+        "Razorfen Kraul loot",
+        "Thornspike",
+        "Death Speaker Robes",
+        "Corpsemaker"
+      ],
+      "text_es": "Entre los botines de los jefes están Pincho de espinas y Togas de médium. También destacan Crea cadáveres y Garra de Agamaggan.",
+      "text_en": "Boss drops include Thornspike and Death Speaker Robes. Corpsemaker and Agamaggan’s Clutch are also notable.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Razorfen Kraul Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Razorfen Kraul Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/razerfen-kraul-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:razorfen-kraul"
+      ],
+      "source_hashes": [
+        "section:880a270434035d5becc265f2defaaf4c22e73e50"
       ]
     },
     {
