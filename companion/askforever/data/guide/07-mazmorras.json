@@ -1251,240 +1251,877 @@
       "id": "mazmorra-shadowfang-entrada",
       "chapter": 7,
       "status": "editorial",
-      "title_es": "Castillo de Colmillo Oscuro: entrada y qué esperar",
-      "title_en": "Shadowfang Keep: Entrance and What to Expect",
-      "summary_es": "Castillo de Colmillo Oscuro está en Bosque de Argénteos, es 20-30 y castiga con salas estrechas y maldiciones.",
-      "summary_en": "Shadowfang Keep is in Silverpine Forest, level 20-30, and punishes with tight rooms and curses.",
+      "title_es": "Castillo de Colmillo Oscuro: nivel y entrada",
+      "title_en": "Shadowfang Keep: Level and Entrance",
+      "summary_es": "Nivel 22-30, en Bosque de Argénteos; el acceso es sencillo para la Horda y largo para la Alianza.",
+      "summary_en": "Levels 22-30 in Silverpine Forest; easy to reach for Horde and a long trip for Alliance.",
       "keywords_es": [
         "castillo de colmillo oscuro",
         "shadowfang keep",
+        "entrada de colmillo oscuro",
         "cómo llegar a colmillo oscuro",
-        "colmillos oscuro jefes",
-        "arugal"
+        "nivel de colmillo oscuro"
       ],
       "keywords_en": [
         "shadowfang keep",
         "shadowfang keep entrance",
-        "shadowfang keep bosses",
-        "arugal",
-        "shadowfang keep quests"
+        "shadowfang keep levels",
+        "shadowfang keep location",
+        "how to reach shadowfang keep"
       ],
-      "text_es": "El Castillo de Colmillo Oscuro está en Bosque de Argénteos, subiendo la rampa cerca del Muro de Greymane. Es de nivel 20-30; la Horda llega fácil y la Alianza desde Puerto de Menethil y Costasur. Las salas son estrechas: limpia patrullas y lleva control. Barón Filargenta aplica una maldición que reduce la curación un 75%, así que disípala; Comandante Vallefont trae un guardia con silencio y se cura; Arugal se teletransporta y baja la amenaza del tanque: usa esquinas para cortar la línea de visión.",
-      "text_en": "Shadowfang Keep is in Silverpine Forest, up the ramp near the Greymane Wall. It is level 20-30; Horde reaches it easily and Alliance comes from Menethil Harbor and Southshore. Rooms are tight: clear patrols and bring control. Baron Silverlaine applies a curse that cuts healing by 75%, so dispel it; Commander Springvale brings a guard with silence and heals himself; Arugal teleports and drops the tank's threat: use corners to break line of sight.",
+      "text_es": "Castillo de Colmillo Oscuro (22-30) está en Bosque de Argénteos, al norte de la aldea cercana. La Horda vuela a El Sepulcro y sigue la carretera al sur y luego al oeste. Para la Alianza, la ruta es larga y pasa en barco por Puerto de Menethil y Costasur antes de continuar por tierra; los Cielonatos pueden teletransportarse a Dalaran desde la Torre de los Magos de Ventormenta y cruzar Molino Ámbar.",
+      "text_en": "Shadowfang Keep (22-30) is in Silverpine Forest, north of the nearby village. Horde flies to the Sepulcher and follows the road south, then west. Alliance has a long trip by boat through Menethil Harbor to Southshore, then overland; Skyborne can teleport to Dalaran from Stormwind City’s Mage Tower and cut through Ambermill.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Shadowfang Keep Dungeon Guide › Shadowfang Keep Dungeon Entrance and Basics",
-          "url": "https://www.icy-veins.com/wow-forever/shadowfang-keep-guide",
-          "date": "2026-10-19"
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Shadowfang Keep Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Shadowfang Keep in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "dungeon:shadowfang-keep"
       ],
       "source_hashes": [
-        "section:78fb4d87065f974a19cf22d7b670fe1c29d31f72"
+        "section:be4d70274cb69a0a8e88d42f5c3f5b7cfaa7d9df",
+        "section:fe2cc19de563075459cf30c1037a3f6ca39a32e2"
       ]
     },
     {
       "id": "mazmorra-shadowfang-misiones",
       "chapter": 7,
       "status": "editorial",
-      "title_es": "Misiones del Castillo de Colmillo Oscuro",
-      "title_en": "Shadowfang Keep Quests",
-      "summary_es": "Seis misiones: tres de clase y tres de Horda; incluyen Brujo, Pícaro y Paladín.",
-      "summary_en": "Six quests: three class-specific and three Horde; they include Warlock, Rogue, and Paladin.",
+      "title_es": "Misiones recomendables de Colmillo Oscuro",
+      "title_en": "Recommended Shadowfang Keep Quests",
+      "summary_es": "La Horda puede recoger misiones en Entrañas y el Sepulcro; también hay objetivos de clase.",
+      "summary_en": "Horde can pick up quests in Undercity and the Sepulcher; class-specific objectives are available too.",
       "keywords_es": [
         "misiones de colmillo oscuro",
-        "el orbe de soran'ruk",
-        "the horn of xelthos",
-        "la prueba de rectitud",
-        "arugal debe morir"
+        "arugal debe morir",
+        "mortacechadores en colmillo oscuro",
+        "el libro de ur",
+        "el orbe de soran’ruk"
       ],
       "keywords_en": [
         "shadowfang keep quests",
-        "orb of soran'ruk",
-        "horn of xelthos",
-        "test of righteousness",
-        "arugal must die"
+        "arugal must die",
+        "deathstalkers in shadowfang",
+        "the book of ur",
+        "the orb of soran’ruk"
       ],
-      "text_es": "Hay seis misiones: tres de clase y tres de Horda. El orbe de Soran'ruk es de Brujo (Los Baldíos, Doan Karhan); El Cuerno de Xelthos es de Pícaro y obliga a hacerla en solitario (Bosque de Argénteos); La prueba de rectitud es de Paladín (Dun Morogh, Jordan Fontana). Para la Horda: Mortacechadores en Colmillo Oscuro (Bosque de Argénteos, Sumo Ejecutor Hadrec), El Libro de Ur (Entrañas, Vigilante Bel'dugur) y Arugal debe morir (Bosque de Argénteos, Dalar Tejalba).",
-      "text_en": "There are six quests: three class-specific and three Horde. The Orb of Soran'ruk is for Warlock (Barrens, Doan Karhan); The Horn of Xelthos is for Rogue and must be done solo (Silverpine Forest); The Test of Righteousness is for Paladin (Dun Morogh, Jordan Stilwell). For Horde: Deathstalkers in Shadowfang (Silverpine Forest, High Executor Hadrec), The Book of Ur (Undercity, Keeper Bel'dugur), and Arugal Must Die (Silverpine Forest, Dalar Dawnweaver).",
+      "text_es": "La Horda puede recoger Arugal debe morir con Dalar Tejalba y Mortacechadores en Colmillo Oscuro con Sumo Ejecutor Hadrec, ambos en el Sepulcro; El Libro de Ur empieza con Vigilante Bel'dugur en Entrañas. El orbe de Soran'ruk es exclusivo de Brujo y empieza en Los Baldíos, cerca del Campamento Taurajo. La prueba de rectitud es para Paladines y comienza con Jordan Fontana en Forjaz; Una hoja tocada por la luna es otra misión de Paladín, disponible en el Sepulcro.",
+      "text_en": "Horde can pick up Arugal Must Die from Dalar Dawnweaver and Deathstalkers in Shadowfang from High Executor Hadrec, both at the Sepulcher; The Book of Ur starts with Keeper Bel'dugur in Undercity. The Orb of Soran'ruk is Warlock-only and starts in the Barrens near Camp Taurajo. The Test of Righteousness is for Paladins and starts with Jordan Stilwell in Ironforge; A Moon-Kissed Blade is another Paladin quest available at the Sepulcher.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: All Available Quests for Shadowfang Keep › Shadowfang Keep Dungeon Quests",
-          "url": "https://www.icy-veins.com/wow-forever/shadowfang-keep-quests",
-          "date": "2026-10-02"
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Arugal Must Die!",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Deathstalkers in Shadowfang",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Book of Ur",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "dungeon:_all:quests"
+        "dungeon:shadowfang-keep"
       ],
       "source_hashes": [
-        "section:920cd23e3b796719874ffc64809d0f6e9a18976a"
+        "guide:dad68cac26118a2b979c94698461a58b5e49e93b",
+        "section:b1961f5726ca0e91d80cb1b9b18b921511fe2a3e"
+      ]
+    },
+    {
+      "id": "mazmorra-shadowfang-jefes",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jefes de Colmillo Oscuro: primeras salas",
+      "title_en": "Shadowfang Keep: Early Bosses",
+      "summary_es": "Controla los adds, aparta el silencio y ayuda a sanar cuando el tanque recibe Velo de Sombras.",
+      "summary_en": "Control adds, keep the silence away, and help heal when the tank is hit by Veil of Shadow.",
+      "keywords_es": [
+        "jefes de colmillo oscuro",
+        "barón filargenta",
+        "comandante vallefont",
+        "odo el cegato",
+        "corcel nefasto"
+      ],
+      "keywords_en": [
+        "shadowfang keep bosses",
+        "baron silverlaine",
+        "commander springvale",
+        "odo the blindwatcher",
+        "fel steeds"
+      ],
+      "text_es": "Los tres corceles vienen juntos: controla uno y asigna una mascota a otro. Despeja sala y patrullas antes de Zarpador. En la sala inicial, elimina dos adds y controla o derrota el último. Velo de Sombras de Barón Filargenta reduce la sanación recibida un 75%, así que otras clases con sanación deben apoyar al tanque. Con Comandante Vallefont, mata al sirviente e interrumpe sus curas; aparta al Custodio de los Lamentos por el silencio. Odo el Cegato comparte combate con dos enemigos Murciovil: sepáralos del grupo y mátalos primero. El Capitán Juramorte es raro: aléjalo de la banda por Mellar.",
+      "text_en": "The three fel steeds come together: control one and have a pet tank another. Clear the room and patrols before Razorclaw. In the first boss room, clear two adds and control or defeat the last. Baron Silverlaine casts Veil of Shadow, reducing healing received by 75%; hybrid classes should help the tank. Commander Springvale comes with two enemies: kill the servitor and interrupt his heals; keep the Wailing Guardsman away for its area silence. Odo the Blindwatcher has two Vile Bat adds: separate them and kill them first. The rare Deathsworn Captain should be tanked away because of Cleave.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Fel Steeds / Shadow Charger",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Razorclaw the Butcher",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Rethilgore",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Baron Silverlaine",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Commander Springvale",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Odo the Blindwatcher",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Deathsworn Captain (Rare)",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:shadowfang-keep"
+      ],
+      "source_hashes": [
+        "section:32ee0650d9d8344eadbd4e9bd9021695a5bb5c16",
+        "section:37edceea0db84b05517aff87e3f4d65742e24ba6",
+        "section:9304520c73bb45120196e58f5a6df4863a91294f",
+        "section:b61af2882eec994f6acd83887c6aedd08c22a0de",
+        "section:dd23955aacf62fe0d43c7f6c7c24eb03c69e8755",
+        "section:df60b5cff2045172fb09926aeb1404e742706cd9",
+        "section:fb985078c4da22e1621f241a773b6a0c767c5a21"
+      ]
+    },
+    {
+      "id": "mazmorra-shadowfang-jefes-finales",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jefes finales de Colmillo Oscuro",
+      "title_en": "Shadowfang Keep: Later Bosses",
+      "summary_es": "Prioriza los lobos invocados por Nandos; en Arugal, ataca desde la plataforma tras sus teletransportes.",
+      "summary_en": "Kill Nandos’s summoned wolves first; at Arugal, attack from the platform after his teleports.",
+      "keywords_es": [
+        "fenrus el devorador",
+        "maestro de lobos nandos",
+        "archimago arugal",
+        "jefes finales de colmillo oscuro",
+        "descarga abisal"
+      ],
+      "keywords_en": [
+        "fenrus the devourer",
+        "wolf master nandos",
+        "archmage arugal",
+        "shadowfang keep final bosses",
+        "void bolt"
+      ],
+      "text_es": "Fenrus el Devorador es sencillo, pero aplica Saliva tóxica. Antes de Maestro de lobos Nandos, elimina los lobos de la sala y vuelve a matar enseguida los que invoque. Archimago Arugal pega con Descarga abisal y se teletransporta: el grupo a distancia puede atacar desde la plataforma de entrada; los combatientes cuerpo a cuerpo esperan allí a que vuelva para no arrastrar al sanador.",
+      "text_en": "Fenrus the Devourer is straightforward but applies Toxic Saliva. Wolf Master Nandos has wolves in the room; kill them, then immediately kill those he summons. Archmage Arugal hits hard with Void Bolt and teleports: ranged players can attack from the entrance platform; melee should wait there for him to return rather than pull the healer along.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Fenrus the Devourer",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Wolf Master Nandos",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Archmage Arugal",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:shadowfang-keep"
+      ],
+      "source_hashes": [
+        "section:179ff95437dfa3e570d3b917f305041c60a59cc2",
+        "section:93ad87f264039d948319bd9bd929c2a5f648d63a",
+        "section:ee494da930e48e10dd0095cb66aa7e92c584967a"
+      ]
+    },
+    {
+      "id": "mazmorra-shadowfang-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de Colmillo Oscuro",
+      "title_en": "Shadowfang Keep Rewards",
+      "summary_es": "Arugal debe morir da un anillo; los jefes también pueden dejar armas y equipo apreciados.",
+      "summary_en": "Arugal Must Die rewards a ring; bosses can also drop sought-after weapons and gear.",
+      "keywords_es": [
+        "recompensas de colmillo oscuro",
+        "lacre de sylvanas",
+        "colmillo oscuro",
+        "anochecedor",
+        "botín de arugal"
+      ],
+      "keywords_en": [
+        "shadowfang keep rewards",
+        "seal of sylvanas",
+        "shadowfang",
+        "duskbringer",
+        "arugal loot"
+      ],
+      "text_es": "Arugal debe morir recompensa con el Lacre de Sylvanas. Entre el equipo destacado de los jefes están Anochecedor y Colmillo oscuro; Archimago Arugal también puede dejar el Fragmento de meteorito. Son ejemplos, no una lista completa del botín.",
+      "text_en": "Arugal Must Die rewards the Seal of Sylvanas. Notable boss gear includes Duskbringer and Shadowfang; Archmage Arugal can also drop Meteor Shard. These are examples, not a complete loot list.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Arugal Must Die!",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shadowfang Keep Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Shadowfang Keep Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/shadowfang-keep-dungeon-overview-location-rewards",
+          "date": "2026-10-11"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:shadowfang-keep"
+      ],
+      "source_hashes": [
+        "guide:dad68cac26118a2b979c94698461a58b5e49e93b",
+        "section:4a0503c1c7540d5c2f33634d2e3ad4966a613814"
       ]
     },
     {
       "id": "mazmorra-blackfathom-entrada",
       "chapter": 7,
       "status": "editorial",
-      "title_es": "Cavernas de Brazanegra: entrada y qué esperar",
-      "title_en": "Blackfathom Deeps: Entrance and What to Expect",
-      "summary_es": "Cavernas de Brazanegra está en Vallefresno, es 24-32 y combina agua, patrullas y cuatro braseros.",
-      "summary_en": "Blackfathom Deeps is in Ashenvale, level 24-32, and mixes water, patrols, and four braziers.",
+      "title_es": "Cavernas de Brazanegra: nivel y entrada",
+      "title_en": "Blackfathom Deeps: Level and Entrance",
+      "summary_es": "Nivel 24-32; se accede por un pozo submarino en la costa de Zoram.",
+      "summary_en": "Levels 24-32; enter through an underwater shaft at the Zoram Strand.",
       "keywords_es": [
         "cavernas de brazanegra",
         "blackfathom deeps",
+        "entrada de brazanegra",
         "cómo llegar a brazanegra",
-        "brazanegra jefes",
-        "kelris"
+        "nivel de brazanegra"
       ],
       "keywords_en": [
         "blackfathom deeps",
-        "blackfathom deeps entrance",
-        "blackfathom bosses",
-        "kelris",
-        "blackfathom quests"
+        "blackfathom entrance",
+        "blackfathom levels",
+        "blackfathom deeps location",
+        "how to reach blackfathom"
       ],
-      "text_es": "Las Cavernas de Brazanegra están en Vallefresno, al norte de la costa de Zoram, bajo tierra. Son de nivel 24-32 y tienen partes bajo el agua: lleva respiración acuática o pociones. Lady Sarevess y Gelihast castigan a los cuerpos a cuerpo; Lorgus tiene un Escudo de relámpagos que conviene disipar; Kelris duerme a los cercanos y hay que encender cuatro braseros uno a uno; Aku'mai pega fuerte al tanque y deja nubes de veneno. Un sanador atento y control para patrullas marcan la diferencia.",
-      "text_en": "Blackfathom Deeps is in Ashenvale, north of the Zoram Strand, underground. It is level 24-32 and has underwater sections: bring water breathing or potions. Lady Sarevess and Gelihast punish melee; Lorgus has a lightning shield worth dispelling; Kelris sleeps nearby players and you must light four braziers one at a time; Aku'mai hits the tank hard and leaves poison clouds. An attentive healer and control for patrols make the difference.",
+      "text_es": "Cavernas de Brazanegra (24-32) está en Vallefresno; la entrada es un pozo con escaleras al que se llega nadando. La Alianza puede volar a Astranaar y avanzar al noroeste por el camino principal. La Horda puede volar al puesto de Zorem’gar, en la costa de Zoram, y dirigirse al norte.",
+      "text_en": "Blackfathom Deeps (24-32) is in Ashenvale; its entrance is a stair-lined shaft reached by swimming. Alliance can fly to Astranaar and follow the main path northwest. Horde can fly to Zorem’gar Outpost on the Zoram Strand and head north.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Blackfathom Deeps Dungeon Guide › Blackfathom Deeps Dungeon Entrance and Basics",
-          "url": "https://www.icy-veins.com/wow-forever/blackfathom-deeps-guide",
-          "date": "2026-10-19"
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Blackfathom Deeps Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Location of Blackfathom Deeps in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "dungeon:blackfathom-deeps"
       ],
       "source_hashes": [
-        "section:7d62d853de7a16590e58d90b21873016cc86c174"
+        "section:7edc6850a5349e0f528598694acf46ee10a505cd",
+        "section:fbde4f34e11b4b39f1909777a876422e05da46e8"
       ]
     },
     {
       "id": "mazmorra-blackfathom-misiones",
       "chapter": 7,
       "status": "editorial",
-      "title_es": "Misiones de las Cavernas de Brazanegra",
-      "title_en": "Blackfathom Deeps Quests",
-      "summary_es": "Trece misiones, seis de Alianza y seis de Horda, más la de Brujo; muchas empiezan en Darnassus y Vallefresno.",
-      "summary_en": "Thirteen quests, six Alliance and six Horde, plus the Warlock one; many start in Darnassus and Ashenvale.",
+      "title_es": "Misiones de la Alianza en Brazanegra",
+      "title_en": "Alliance Quests for Blackfathom",
+      "summary_es": "La Alianza puede recoger varias misiones antes; Buscando a Thaelrid precede a La vileza de Brazanegra.",
+      "summary_en": "Alliance can pick up several quests beforehand; In Search of Thaelrid precedes Blackfathom Villainy.",
       "keywords_es": [
-        "misiones de brazanegra",
-        "la vileza de brazanegra",
-        "la esencia de aku'mai",
-        "lealtad a los dioses antiguos",
-        "el orbe de soran'ruk"
+        "misiones alianza brazanegra",
+        "el conocimiento de las profundidades",
+        "cascada del crepúsculo",
+        "investigaciones acerca de la corrupción",
+        "buscando a thaelrid"
       ],
       "keywords_en": [
-        "blackfathom deeps quests",
-        "blackfathom villainy",
-        "essence of aku'mai",
-        "allegiance to the old gods",
-        "orb of soran'ruk"
+        "blackfathom alliance quests",
+        "knowledge in the deeps",
+        "twilight falls",
+        "researching the corruption",
+        "in search of thaelrid"
       ],
-      "text_es": "Hay trece misiones: seis de Alianza, seis de Horda y la de Brujo El orbe de Soran'ruk (Los Baldíos, Doan Karhan). En Forjaz: El conocimiento de las profundidades; en Darnassus: Buscando a Thaelrid y Cascada del Crepúsculo; dentro: La vileza de Brazanegra; en Costa Oscura: Investigaciones acerca de la corrupción; en Vallefresno: La esencia de Aku'Mai, Lealtad a los dioses antiguos y Entre ruinas. Barón Aquanis empieza con un objeto y se entrega en Vallefresno a Je'neu; La búsqueda de la gema Kor es de Paladín y tiene versión de cada facción.",
-      "text_en": "There are thirteen quests: six Alliance, six Horde, and the Warlock quest The Orb of Soran'ruk (Barrens, Doan Karhan). In Ironforge: Knowledge in the Deeps; in Darnassus: In Search of Thaelrid and Twilight Falls; inside: Blackfathom Villainy; in Darkshore: Researching the Corruption; in Ashenvale: The Essence of Aku'Mai, Allegiance to the Old Gods, and Amongst the Ruins. Baron Aquanis starts from an item and is turned in at Ashenvale to Je'neu; Seeking the Kor Gem is for Paladin and has a version for each faction.",
+      "text_es": "Antes de entrar, la Alianza puede recoger El conocimiento de las profundidades en Forjaz, Cascada del Crepúsculo en Darnassus e Investigaciones acerca de la corrupción en Costa Oscura. Buscando a Thaelrid, requisito de La vileza de Brazanegra, empieza en Darnassus; La vileza se recoge dentro, tras encontrar a la Guardia Argenta Thaelrid.",
+      "text_en": "Before entering, Alliance can pick up Knowledge in the Deeps in Ironforge, Twilight Falls in Darnassus, and Researching the Corruption in Darkshore. In Search of Thaelrid, a prerequisite for Blackfathom Villainy, starts in Darnassus; Blackfathom Villainy is obtained inside after finding Argent Guard Thaelrid.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: All Available Quests for Blackfathom Deeps › Blackfathom Deeps Dungeon Quests",
-          "url": "https://www.icy-veins.com/wow-forever/blackfathom-deeps-quests",
-          "date": "2026-09-30"
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Knowledge In The Deeps",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Researching The Corruption",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Twilight Falls",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Blackfathom Villainy",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "dungeon:_all:quests"
+        "dungeon:blackfathom-deeps"
       ],
       "source_hashes": [
-        "section:273e71abd4bd1a9c4222125fcd1d51570d0532d8"
+        "guide:481531f874edc1671e7bd106a883b8f799549bf1",
+        "section:89f25705f8660a005b0a527255f9063d0518f6a2"
+      ]
+    },
+    {
+      "id": "mazmorra-blackfathom-misiones-horda",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones de la Horda en Brazanegra",
+      "title_en": "Horde Quests for Blackfathom",
+      "summary_es": "La Horda puede iniciar cadenas en Sierra Espolón y la costa de Zoram, además de una misión de Brujo.",
+      "summary_en": "Horde can start quests in Stonetalon and the Zoram Strand, along with a Warlock quest.",
+      "keywords_es": [
+        "misiones horda brazanegra",
+        "la esencia de aku’mai",
+        "lealtad a los dioses antiguos",
+        "entre ruinas",
+        "el orbe de soran’ruk"
+      ],
+      "keywords_en": [
+        "blackfathom horde quests",
+        "the essence of aku’mai",
+        "allegiance to the old gods",
+        "amongst the ruins",
+        "the orb of soran’ruk"
+      ],
+      "text_es": "La esencia de Aku'Mai empieza en Sierra Espolón y continúa en la costa de Zoram; Entre ruinas también se recoge allí. Lealtad a los dioses antiguos empieza con una nota que puede caer cerca de la entrada. Los Brujos pueden preparar El orbe de Soran'ruk cerca del Campamento Taurajo, en Los Baldíos.",
+      "text_en": "The Essence of Aku'Mai starts in Stonetalon and continues at the Zoram Strand; Amongst the Ruins also starts there. Allegiance to the Old Gods begins with a note that can drop near the entrance. Warlocks can pick up The Orb of Soran'ruk near Camp Taurajo in the Barrens.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › The Essence Of Aku'Mai",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Allegiance To The Old Gods",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Amongst The Ruins",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackfathom-deeps"
+      ],
+      "source_hashes": [
+        "guide:481531f874edc1671e7bd106a883b8f799549bf1",
+        "section:89f25705f8660a005b0a527255f9063d0518f6a2"
+      ]
+    },
+    {
+      "id": "mazmorra-blackfathom-jefes",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jefes de Brazanegra: primeros combates",
+      "title_en": "Blackfathom Deeps: Early Bosses",
+      "summary_es": "Despeja las salas antes de los combates y protege al tanque si el sanador queda dormido.",
+      "summary_en": "Clear Sarevess’s and Gelihast’s rooms; protect the tank if Kelris sleeps the healer.",
+      "keywords_es": [
+        "jefes de brazanegra",
+        "lady sarevess",
+        "gelihast",
+        "señor crepuscular kelris",
+        "estrategia brazanegra"
+      ],
+      "keywords_en": [
+        "blackfathom bosses",
+        "lady sarevess",
+        "gelihast",
+        "twilight lord kelris",
+        "blackfathom strategy"
+      ],
+      "text_es": "El primer jefe tiene mucha armadura: dispersa al grupo ante Atropello. En la cueva de la naga que patrulla con dos acompañantes, despeja la zona, controla a un acompañante y céntrate en los adds. La sala de Gelihast, rodeado de múrlocs, debe limpiarse antes: su Red puede complicar la siguiente acción del tanque. Si el Señor Crepuscular Kelris usa Dormir contra el sanador, mantén con vida al tanque y ayuda a curarlo.",
+      "text_en": "The first boss has heavy armor: spread out for Trample. Clear the cave where the naga patrols with two bodyguards, clear the area, control one bodyguard, and focus the adds. Gelihast’s room is full of murlocs: clear it beforehand, since his Net can complicate the tank’s next pull. Twilight Lord Kelris can sleep the healer; keep the tank alive and help heal.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Ghamoo-Ra",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Lady Sarevess",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Gelihast",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Twilight Lord Kelris",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackfathom-deeps"
+      ],
+      "source_hashes": [
+        "section:0dbca0be07b8aaaf5a034e05baadcab2a263eb6e",
+        "section:826239e5c13a99106190b030c78c7d3075dbe82f",
+        "section:9002b89fe3698ae67c477137fa6a7f8d3bf91ec5",
+        "section:e582d6671bf68f350b2393980ff823d050622dd8"
+      ]
+    },
+    {
+      "id": "mazmorra-blackfathom-jefes-finales",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Evento final y jefes de Brazanegra",
+      "title_en": "Blackfathom Deeps: Final Event and Bosses",
+      "summary_es": "Activa los cuatro braseros tras el Señor Crepuscular Kelris; controla las tortugas y evita la nube de veneno.",
+      "summary_en": "Activate all four braziers after Kelris; control the turtle wave and avoid the final poison cloud.",
+      "keywords_es": [
+        "evento de aku’mai",
+        "braseros de brazanegra",
+        "viejo serra’kis",
+        "aku’mai",
+        "oleada de tortugas"
+      ],
+      "keywords_en": [
+        "aku’mai event",
+        "blackfathom braziers",
+        "old serra’kis",
+        "aku’mai",
+        "turtle wave"
+      ],
+      "text_es": "Tras derrotar al Señor Crepuscular Kelris, activa los cuatro braseros y vence cada oleada para abrir la puerta final; la de tortugas es la más peligrosa y conviene que un segundo tanque o alguien a distancia las aparte. En el combate submarino de Viejo Serra’kis vigila el aire. En el combate final, mantén al grupo fuera de Nube de veneno y ayuda a sanar al tanque cuando Ira frenética aumente el daño.",
+      "text_en": "After defeating Kelris, activate all four braziers and defeat each wave to open the final door; the turtle wave is most dangerous, so an off-tank or ranged player should draw them away. Watch your breath during the underwater fight with Old Serra’kis. The group must stay out of Poison Cloud and help heal the tank when Frenzied Rage raises the damage.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Fire of Aku’Mai Event",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Old Serra’kis",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Aku’mai",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackfathom-deeps"
+      ],
+      "source_hashes": [
+        "section:544af85cffa84d60c68cf7c783358f18eb43f236",
+        "section:87902021b05b2f03bec769c50f221ce480017c6f",
+        "section:a0a650fc84e8597728d35bbb63b40ed61964101a"
+      ]
+    },
+    {
+      "id": "mazmorra-blackfathom-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de Brazanegra",
+      "title_en": "Blackfathom Deeps Rewards",
+      "summary_es": "Las misiones ofrecen equipo a elegir; los jefes dejan armas y armaduras destacadas.",
+      "summary_en": "Quests offer a choice of gear; bosses drop notable weapons and armor.",
+      "keywords_es": [
+        "recompensas de brazanegra",
+        "rodela ártica",
+        "cetro de lápida",
+        "vara del insomne",
+        "golpe de la hidra"
+      ],
+      "keywords_en": [
+        "blackfathom rewards",
+        "arctic buckler",
+        "gravestone scepter",
+        "rod of the sleepwalker",
+        "strike of the hydra"
+      ],
+      "text_es": "La vileza de Brazanegra permite elegir la Rodela ártica o el Cetro de lápida. Entre los botines destacables están la Vara del Insomne del Señor Crepuscular Kelris y Golpe de la hidra del jefe final; el Bastón del Profeta bendito también es un hallazgo valioso para sanadores de nivel bajo.",
+      "text_en": "Blackfathom Villainy lets you choose Arctic Buckler or Gravestone Scepter. Notable drops include Rod of the Sleepwalker and Strike of the Hydra; Staff of the Blessed Seer is also a valuable find for lower-level healers.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Best Quest Rewards",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Twilight Lord Kelris",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Aku’mai",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Blackfathom Deeps Dungeon Overview Guide:  Quests, Location, Strategy & Rewards - WoW Forever › Blackfathom Deeps Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/blackfathom-deeps-dungeon-overview-location-rewards",
+          "date": "2026-11-13"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:blackfathom-deeps"
+      ],
+      "source_hashes": [
+        "section:3e8d4ca9eafb0db2589c46a7796e0c236bfa903f",
+        "section:826239e5c13a99106190b030c78c7d3075dbe82f",
+        "section:82c3056f8e1aa0d36b0c3c785dd8cc6e4bbdefe3",
+        "section:87902021b05b2f03bec769c50f221ce480017c6f"
       ]
     },
     {
       "id": "mazmorra-stockade-entrada",
       "chapter": 7,
       "status": "editorial",
-      "title_es": "Mazmorras de Ventormenta: entrada y qué esperar",
-      "title_en": "Stormwind Stockade: Entrance and What to Expect",
-      "summary_es": "Mazmorras de Ventormenta es 24-32, casi solo de Alianza, y sus jefes vienen con guardias Defias.",
-      "summary_en": "Stormwind Stockade is 24-32, effectively Alliance-only, and its bosses come with Defias guards.",
+      "title_es": "Las Mazmorras: nivel y entrada",
+      "title_en": "The Stockade: Level and Entrance",
+      "summary_es": "Nivel 24-30 en Ciudad de Ventormenta; la Alianza llega con facilidad y la Horda afronta un trayecto arriesgado.",
+      "summary_en": "Levels 24-30 in Stormwind City; easy for Alliance to reach, while Horde faces a risky journey.",
       "keywords_es": [
-        "mazmorras de ventormenta",
+        "las mazmorras de ventormenta",
         "stockade",
+        "entrada de las mazmorras",
         "cómo llegar a las mazmorras de ventormenta",
-        "mazmorras de ventormenta jefes",
-        "bazil thredd"
+        "nivel de las mazmorras"
       ],
       "keywords_en": [
-        "stormwind stockade",
+        "the stockade",
         "stockade entrance",
-        "stockade bosses",
-        "bazil thredd",
-        "stockade quests"
+        "stockade levels",
+        "stormwind stockade location",
+        "how to reach the stockade"
       ],
-      "text_es": "Las Mazmorras de Ventormenta están en Ventormenta, en un edificio al norte del Barrio de los Magos. Son de nivel 24-32 y son prácticamente de Alianza: sus seis misiones son de Alianza y no se recomienda a la Horda. Los jefes vienen con guardias Defias: usa control y mata los adds primero. Targorr pega rápido y se enfurece al 30%; Bazil aturde con una bomba de humo y Dextren tiene miedo en área, así que limpia las salas antes. Un sanador atento al tanque durante los aturdimientos ayuda mucho.",
-      "text_en": "Stormwind Stockade is in Stormwind, in a building north of the Mage Quarter. It is level 24-32 and effectively Alliance-only: its six quests are Alliance and Horde is not recommended. Bosses come with Defias guards: use control and kill adds first. Targorr attacks fast and enrages at 30%; Bazil stuns with a smoke bomb and Dextren has area fear, so clear the rooms first. A healer watching the tank during stuns helps a lot.",
+      "text_es": "Las Mazmorras (24-30) están en Ciudad de Ventormenta, justo fuera del Barrio de los Magos. Para la Alianza basta con ir a la esquina norte exterior del barrio. La Horda puede llegar desde el campamento Grom’gol, nadar por la costa hasta Páramos de Poniente, cruzar Bosque de Elwynn y continuar a Ventormenta; el trayecto por la ciudad puede exigir varias carreras como espíritu.",
+      "text_en": "The Stockade (24-30) is in Stormwind City, just outside the Mage Quarter. Alliance can simply go to the quarter’s outer north corner. Horde can travel from Grom’gol Base Camp, swim along the coast to Westfall, cross Elwynn Forest, and continue to Stormwind; crossing the city may require several corpse runs.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: The Stockade Dungeon Guide › The Stockade Dungeon Entrance and Basics",
-          "url": "https://www.icy-veins.com/wow-forever/the-stockade-guide",
-          "date": "2026-10-19"
+          "ref": "Wowhead: The Stockade Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Stockade Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/the-stockade-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Stockade Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of The Stockade in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/the-stockade-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "dungeon:stockade"
       ],
       "source_hashes": [
-        "section:82f87eb291c49c70aaa917e96ae12e3baebaac03"
+        "section:5b95a20862f5fbfec3f3021cd3cc76e41503860d",
+        "section:95c294746b35dc8b7cf52efba2e4e83ec73bf23f"
       ]
     },
     {
       "id": "mazmorra-stockade-misiones",
       "chapter": 7,
       "status": "editorial",
-      "title_es": "Misiones de las Mazmorras de Ventormenta",
-      "title_en": "Stormwind Stockade Quests",
-      "summary_es": "Seis misiones solo de Alianza; empiezan en Ventormenta, Crestagrana, Bosque Crepúsculo y Los Humedales.",
-      "summary_en": "Six Alliance-only quests; they start in Stormwind, Redridge, Duskwood, and the Wetlands.",
+      "title_es": "Misiones recomendables de Las Mazmorras",
+      "title_en": "Recommended Stockade Quests",
+      "summary_es": "Las misiones son de la Alianza; algunas empiezan en Ventormenta y otras requieren cadenas previas.",
+      "summary_en": "The quests are Alliance-only; some start in Stormwind and others require prior chains.",
       "keywords_es": [
         "misiones de las mazmorras de ventormenta",
         "detener el motín",
-        "crimen y castigo",
-        "el color de la sangre",
+        "el motín de las mazmorras",
+        "lo que sucece alrededor",
         "la furia mora en las profundidades"
       ],
       "keywords_en": [
         "stockade quests",
         "quell the uprising",
-        "crime and punishment",
-        "the color of blood",
+        "the stockade riots",
+        "what comes around",
         "the fury runs deep"
       ],
-      "text_es": "Las seis misiones son solo de Alianza. En Ventormenta empiezan Detener el motín y El motín de las Mazmorras (Alcaide Thelagua) y El color de la sangre (Nikova Raskol); en Montañas Crestagrana, Lo que sucede alrededor... (Guardia Berton); en Bosque Crepúsculo, Crimen y castigo (Consejero Tallolino); y en Los Humedales, La furia mora en las profundidades (Motley Garmason). La Horda no tiene misiones y no se recomienda entrar.",
-      "text_en": "All six quests are Alliance-only. In Stormwind start Quell the Uprising and The Stockade Riots (Warden Thelwater) and The Color of Blood (Nikova Raskol); in Redridge Mountains, What Comes Around... (Guard Berton); in Duskwood, Crime and Punishment (Councilman Millstipe); and in the Wetlands, The Fury Runs Deep (Motley Garmason). Horde has no quests and is not recommended to enter.",
+      "text_es": "Las misiones son de la Alianza. Detener el motín se recoge con el Alcaide Thelagua, junto a la entrada. El motín de las Mazmorras requiere la cadena que empieza con La carta sin enviar, obtenida en Minas de la Muerte. El color de la sangre se recoge en Ventormenta; Crimen y castigo empieza con Consejero Tallolino en Bosque del Ocaso. Lo que sucece alrededor… empieza con Guardia Berton en Villa del Lago, Montañas Crestagrana; La furia mora en las profundidades se recoge en Dun Modr, Los Humedales, tras La guerra contra los Hierro Negro.",
+      "text_en": "The quests are Alliance-only. Quell the Uprising is picked up from Warden Thelwater by the entrance. The Stockade Riots requires the chain that begins with The Unsent Letter, obtained in the Deadmines. The Color of Blood starts in Stormwind; Crime and Punishment begins with Councilman Millstipe in Duskwood. What Comes Around… starts with Guard Berton in Lakeshire, Redridge Mountains; The Fury Runs Deep is picked up in Dun Modr, Wetlands, after The Dark Iron War.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: All Available Quests for The Stockade › The Stockades Dungeon Quests",
-          "url": "https://www.icy-veins.com/wow-forever/the-stockade-quests",
-          "date": "2026-09-30"
+          "ref": "Wowhead: The Stockade Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/the-stockade-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Stockade Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Stockade Riots",
+          "url": "https://www.wowhead.com/forever/guide/the-stockade-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Stockade Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quell the Uprising",
+          "url": "https://www.wowhead.com/forever/guide/the-stockade-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Stockade Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › What Comes Around",
+          "url": "https://www.wowhead.com/forever/guide/the-stockade-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Stockade Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Fury Runs Deep",
+          "url": "https://www.wowhead.com/forever/guide/the-stockade-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
-        "dungeon:_all:quests"
+        "dungeon:stockade"
       ],
       "source_hashes": [
-        "section:3ceb3d06a3118887f13334a0cca4d91d2887af98"
+        "guide:7e3bfe58c8572623e753a1fd4d170a5a3f52cae9",
+        "section:32d2dd76f181006adb663e8b54a1338793f0a21e"
+      ]
+    },
+    {
+      "id": "mazmorra-stockade-jefes",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jefes de Las Mazmorras",
+      "title_en": "The Stockade Bosses",
+      "summary_es": "Controla a los Defias; dispersa al grupo ante Cadena de relámpagos y limpia antes de Grito intimidador.",
+      "summary_en": "Control the Defias; spread out for Chain Lightning and clear adds before Intimidating Shout.",
+      "keywords_es": [
+        "jefes de las mazmorras",
+        "targor el pavoroso",
+        "kam furiahonda",
+        "cadena de relámpagos",
+        "dextren tutor"
+      ],
+      "keywords_en": [
+        "stockade bosses",
+        "targorr the dread",
+        "kam deepfury",
+        "chain lightning",
+        "dextren ward"
+      ],
+      "text_es": "En las salas de Targor el Pavoroso y Kam Furiahonda, controla a un Defias y derrota primero al otro. El jefe que usa Cadena de relámpagos castiga a los grupos apiñados: dispersa a los combatientes cuerpo a cuerpo. Bazil Thredd puede aturdir con Bomba de humo; mantén sano al tanque. Antes de Dextren Tutor, despeja los pasillos para que su Grito intimidador no atraiga más enemigos. Bruegal Nudoferro es poco frecuente: limpia sus adds antes de atacarlo.",
+      "text_en": "In the rooms with Targorr the Dread and Kam Deepfury, control one Defias and kill the other first. The boss using Chain Lightning punishes clustered groups: spread out melee. Bazil Thredd can stun with Smoke Bomb; keep the tank healthy. Clear the corridors before Dextren Ward so Intimidating Shout does not draw more enemies. Bruegal Ironknuckle is rare; clear his adds before engaging.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Stockade Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Targorr the Dread",
+          "url": "https://www.wowhead.com/forever/guide/the-stockade-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Stockade Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Kam Deepfury",
+          "url": "https://www.wowhead.com/forever/guide/the-stockade-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Stockade Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Hamhock",
+          "url": "https://www.wowhead.com/forever/guide/the-stockade-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Stockade Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Bazil Thredd",
+          "url": "https://www.wowhead.com/forever/guide/the-stockade-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Stockade Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Dextren Ward",
+          "url": "https://www.wowhead.com/forever/guide/the-stockade-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Stockade Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Bruegal Ironknuckle (Rare)",
+          "url": "https://www.wowhead.com/forever/guide/the-stockade-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stockade"
+      ],
+      "source_hashes": [
+        "section:3b35a962e0d38a19de9e237ae9919ddabe78f0ed",
+        "section:3dd28b76aeb97c520db1e63ec3d401cb65b5676d",
+        "section:5f4459cacec58b7ab24d043f59754c3760f44fb9",
+        "section:733de7883acefc8e813825a297a8694075d00533",
+        "section:ad38688c3c7d0333a6020e7904fb93adc6ab0245",
+        "section:f54b05059b8e5ac365fdcc4751953d7d3515a40f"
+      ]
+    },
+    {
+      "id": "mazmorra-stockade-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de Las Mazmorras",
+      "title_en": "The Stockade Rewards",
+      "summary_es": "La furia mora en las profundidades ofrece una recompensa a elegir; destacan algunos botines de jefe.",
+      "summary_en": "The Fury Runs Deep offers a choice of reward; several boss drops are notable.",
+      "keywords_es": [
+        "recompensas de las mazmorras",
+        "azota cabezas",
+        "cinturón de confirmación",
+        "bastón de kam",
+        "botín de bruegal nudoferro"
+      ],
+      "keywords_en": [
+        "stockade rewards",
+        "headbasher",
+        "belt of vindication",
+        "kam’s walking stick",
+        "bruegal ironknuckle loot"
+      ],
+      "text_es": "La furia mora en las profundidades permite elegir entre el Cinturón de Confirmación y Azota cabezas. Entre los botines con nombre oficial en español están el Bastón de Kam, los Nudillos de hierro y las Esposas forzadas de Bruegal Nudoferro.",
+      "text_en": "The Fury Runs Deep lets you choose between Belt of Vindication and Headbasher. Notable drops include Kam’s Walking Stick, Iron Knuckles, and Jimmied Handcuffs.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Stockade Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Fury Runs Deep",
+          "url": "https://www.wowhead.com/forever/guide/the-stockade-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Stockade Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Best Quest Rewards",
+          "url": "https://www.wowhead.com/forever/guide/the-stockade-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: The Stockade Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Stockade Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/the-stockade-dungeon-overview-location-rewards",
+          "date": "2026-11-09"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:stockade"
+      ],
+      "source_hashes": [
+        "guide:7e3bfe58c8572623e753a1fd4d170a5a3f52cae9",
+        "section:4cb1ef0aaaf4b0441a6c8235e1c6f59eb291f2aa",
+        "section:6a07afb50b438dbd8ab263bf34c34185572103c3"
       ]
     },
     {
