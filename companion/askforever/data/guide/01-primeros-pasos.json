@@ -1106,6 +1106,536 @@
       "source_hashes": [
         "section:796b92621cd12232458105789c7d935365146709"
       ]
+    },
+    {
+      "id": "general-legacy-progresion",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Cómo funciona Legacy",
+      "title_en": "How Legacy Works",
+      "summary_es": "Los desafíos dan puntos Legacy para ventajas por personaje y recompensas cosméticas de cuenta.",
+      "summary_en": "Challenges grant Legacy Points for character perks and account-wide cosmetic rewards.",
+      "keywords_es": [
+        "sistema Legacy",
+        "puntos Legacy",
+        "ventajas Legacy",
+        "progreso de cuenta",
+        "cómo funciona Legacy"
+      ],
+      "keywords_en": [
+        "Legacy system",
+        "Legacy Points",
+        "Legacy perks",
+        "account progression",
+        "how Legacy works"
+      ],
+      "text_es": "Legacy es una progresión de cuenta: completar desafíos, como subir clases o profesiones, concede puntos. Estos puntos se gastan en ventajas del árbol y cada personaje puede elegir su propia distribución; las ventajas desbloqueadas están disponibles para los personajes de la cuenta. Al alcanzar ciertos totales de puntos ganados también se obtienen recompensas cosméticas.",
+      "text_en": "Legacy is account progression: completing challenges, such as leveling classes or professions, grants points. These points are spent on tree perks, and each character can choose its own allocation; unlocked perks are available to the account's characters. Reaching certain totals of points earned also grants cosmetic rewards.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Legacy System Overview for Forever - Earning, Rewards, and Trees › What is the Legacy System in Forever?",
+          "url": "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Legacy System Overview for Forever - Earning, Rewards, and Trees › All Legacy Tree Perks in Forever",
+          "url": "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:legacy-system"
+      ],
+      "source_hashes": [
+        "section:4f11330c0fa5a04c47408d720ccd8cd6ea2c2956",
+        "section:895276667f45e52e0670aca380e44d261630012e"
+      ]
+    },
+    {
+      "id": "general-legacy-puntos",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Cómo ganar puntos Legacy",
+      "title_en": "How to Earn Legacy Points",
+      "summary_es": "Se gana un punto al alcanzar por primera vez hitos de clase, profesión y otros desafíos.",
+      "summary_en": "You earn a point by reaching class, profession, and other challenge milestones for the first time.",
+      "keywords_es": [
+        "ganar puntos Legacy",
+        "desafíos Legacy",
+        "puntos por subir de nivel",
+        "puntos por profesiones",
+        "desafíos de clase"
+      ],
+      "keywords_en": [
+        "earn Legacy Points",
+        "Legacy challenges",
+        "leveling points",
+        "profession points",
+        "class challenges"
+      ],
+      "text_es": "Los desafíos Legacy abarcan clases, profesiones, JcJ y aventuras. La primera vez que una clase alcanza los niveles 25, 45 y 60, cada hito concede un punto; las profesiones principales también dan puntos al llegar a 150, 225 y 300. Si buscas puntos rápidos, subir profesiones hasta 225 suele ser una opción relativamente barata y ágil, aunque depende del mercado.",
+      "text_en": "Legacy challenges cover classes, professions, PvP, and adventure. The first time a class reaches levels 25, 45, and 60, each milestone grants a point; primary professions also award points at 150, 225, and 300 skill. If you want points quickly, leveling professions to 225 is often a relatively cheap and fast option, though it depends on the market.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Legacy System Overview for Forever - Earning, Rewards, and Trees › All Legacy Challenges in Forever",
+          "url": "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Legacy System Overview for Forever - Earning, Rewards, and Trees › Fastest way to earn Legacy Points While Leveling in Forever",
+          "url": "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:legacy-system"
+      ],
+      "source_hashes": [
+        "section:92566f8cece664f9add84bcbbe33660236e95ada",
+        "section:e936c695e09e795d1a6379b15294fffecd456c67"
+      ]
+    },
+    {
+      "id": "general-legacy-limite",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Límite de puntos Legacy para gastar",
+      "title_en": "Legacy Point Spending Limit",
+      "summary_es": "Al lanzamiento, cada personaje puede gastar como máximo 16 puntos en su árbol Legacy.",
+      "summary_en": "At launch, each character can spend at most 16 points in its Legacy tree.",
+      "keywords_es": [
+        "límite de puntos Legacy",
+        "cuántos puntos Legacy gastar",
+        "tope del árbol Legacy",
+        "puntos Legacy por personaje"
+      ],
+      "keywords_en": [
+        "Legacy Point limit",
+        "how many Legacy Points to spend",
+        "Legacy tree cap",
+        "Legacy Points per character"
+      ],
+      "text_es": "Al lanzamiento, el árbol Legacy permite gastar hasta 16 puntos por personaje. Los puntos se desbloquean para la cuenta, pero cada personaje decide por separado en qué ventajas invertir los que tiene disponibles.",
+      "text_en": "At launch, the Legacy tree allows up to 16 points to be spent per character. Points unlock for the account, but each character separately chooses which perks to invest its available points in.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Legacy System Overview for Forever - Earning, Rewards, and Trees › All Legacy Tree Perks in Forever",
+          "url": "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:legacy-system"
+      ],
+      "source_hashes": [
+        "section:895276667f45e52e0670aca380e44d261630012e"
+      ]
+    },
+    {
+      "id": "general-legacy-recompensas",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Recompensas del progreso Legacy",
+      "title_en": "Legacy Progress Rewards",
+      "summary_es": "Los hitos de 15, 25, 40 y 55 puntos ganados otorgan cosméticos, desde una mascota hasta una montura.",
+      "summary_en": "Milestones at 15, 25, 40, and 55 points earned grant cosmetics, including a pet and a mount.",
+      "keywords_es": [
+        "recompensas Legacy",
+        "premios por puntos Legacy",
+        "mascota oso espectral",
+        "montura oso espectral",
+        "pista de progreso Legacy"
+      ],
+      "keywords_en": [
+        "Legacy rewards",
+        "Legacy Point rewards",
+        "Spectral Bear Cub",
+        "Spectral Bear mount",
+        "Legacy progress track"
+      ],
+      "text_es": "La pista de progreso da recompensas cosméticas al acumular puntos Legacy: una recompensa al llegar a 15, una mascota al llegar a 25, un tabardo a 40 y una montura a 55. Se reclaman ante Tabernero Wiley.",
+      "text_en": "The progress track grants cosmetic rewards as you earn Legacy Points: a reward at 15, a pet at 25, a tabard at 40, and a mount at 55. Claim them from Innkeeper Wiley.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Legacy System Overview for Forever - Earning, Rewards, and Trees › All Legacy Progress Track Rewards in Forever",
+          "url": "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:legacy-system"
+      ],
+      "source_hashes": [
+        "section:3845b40e10fcc3b1d2d2efddb0b4f94432e7ed68"
+      ]
+    },
+    {
+      "id": "general-legacy-reasignar",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Reasignar puntos Legacy",
+      "title_en": "Respec Legacy Points",
+      "summary_es": "Puedes reasignar los puntos Legacy en el instructor de clase; por ahora cuesta 10 de oro.",
+      "summary_en": "You can respec Legacy Points at a class trainer; for now, it costs 10 gold.",
+      "keywords_es": [
+        "reasignar puntos Legacy",
+        "reiniciar árbol Legacy",
+        "coste de reasignar Legacy",
+        "instructor de clase Legacy"
+      ],
+      "keywords_en": [
+        "respec Legacy Points",
+        "reset Legacy tree",
+        "Legacy respec cost",
+        "Legacy class trainer"
+      ],
+      "text_es": "Puedes reasignar los puntos Legacy hablando con un instructor de clase; actualmente cuesta 10 de oro. No se sabe si se podrá repetir ni si el coste aumentará.",
+      "text_en": "You can respec Legacy Points by speaking to a class trainer; it currently costs 10 gold. It is not yet known whether this can be repeated or whether the cost will increase.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Legacy System Overview for Forever - Earning, Rewards, and Trees › Unlearning your Legacy Points",
+          "url": "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
+          "date": "2026-11-15"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:legacy-system"
+      ],
+      "source_hashes": [
+        "section:162409ee6aa0882819f9fe1dea78c265eab043d1"
+      ]
+    },
+    {
+      "id": "general-bolsas-inventario",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Huecos de bolsas e inventario",
+      "title_en": "Bag Slots and Inventory",
+      "summary_es": "Empiezas con una mochila fija de 16 huecos y cuatro espacios más para bolsas.",
+      "summary_en": "You start with a fixed 16-slot backpack and four more spaces for bags.",
+      "keywords_es": [
+        "huecos de bolsas",
+        "espacio de inventario",
+        "mochila inicial",
+        "cuántas bolsas puedo equipar",
+        "guardar bolsas dentro de bolsas"
+      ],
+      "keywords_en": [
+        "bag slots",
+        "inventory space",
+        "starting backpack",
+        "how many bags can I equip",
+        "bags inside bags"
+      ],
+      "text_es": "Cada personaje empieza con una mochila fija de 16 huecos y tiene otros cuatro espacios para equipar bolsas. Puedes obtenerlas como botín, recompensa de misión o mediante Costura; muchas también se pueden intercambiar. Una bolsa guardada dentro de otra debe estar vacía y no se permite anidarlas a más de dos niveles.",
+      "text_en": "Each character starts with a fixed 16-slot backpack and has four more spaces for equipped bags. You can obtain bags as loot, quest rewards, or through Tailoring; many can also be traded. A bag stored inside another must be empty, and bags cannot be nested more than two levels deep.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Bags & Storage Overview Guide:  Locations, Quests and Costs - WoW: Forever › What are Bags in WoW Forever?",
+          "url": "https://www.wowhead.com/forever/guide/bags-storage-bank",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:bags-storage-bank"
+      ],
+      "source_hashes": [
+        "section:eec642f0ac44bf873050f983ab8a2ac202989f1c"
+      ]
+    },
+    {
+      "id": "general-bolsa-componentes",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Espacio adicional para componentes",
+      "title_en": "Extra Reagent Storage",
+      "summary_es": "Una ranura exclusiva admite una bolsa de componentes; algunas se compran al aprender profesión.",
+      "summary_en": "An extra slot holds a reagent bag; some are sold when you learn a profession.",
+      "keywords_es": [
+        "bolsa de componentes",
+        "ranura de componentes",
+        "guardar materiales de profesión",
+        "faltriquera de minería",
+        "bolsa de botánica"
+      ],
+      "keywords_en": [
+        "reagent bag",
+        "reagent bag slot",
+        "store profession materials",
+        "mining pack",
+        "herb pouch"
+      ],
+      "text_es": "Hay una ranura adicional reservada para bolsas de componentes, que permite guardar materiales de profesión sin ocupar los huecos normales. Al aprender Minería, Desuello o Botánica, puedes comprar la bolsa inicial correspondiente al instructor desde nivel 1; después, los sastres pueden fabricar bolsas de 6 a 32 huecos.",
+      "text_en": "There is an extra slot reserved for reagent bags, letting you store profession materials without using regular bag slots. When you learn Mining, Skinning, or Herbalism, you can buy the corresponding starter bag from the trainer at level 1; Tailors can later craft bags ranging from 6 to 32 slots.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Bags & Storage Overview Guide:  Locations, Quests and Costs - WoW: Forever › Reagent Bags in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/bags-storage-bank",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:bags-storage-bank"
+      ],
+      "source_hashes": [
+        "section:1b7434a8ea954117d68338b414dd98a51e4abcac"
+      ]
+    },
+    {
+      "id": "general-banco-personal",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Huecos y coste del banco personal",
+      "title_en": "Personal Bank Slots and Costs",
+      "summary_es": "El banco empieza con 48 huecos; puedes comprar seis espacios adicionales por un coste creciente.",
+      "summary_en": "The bank starts with 48 slots; you can buy six more at increasing costs.",
+      "keywords_es": [
+        "espacio del banco",
+        "huecos del banco",
+        "precio de bolsas del banco",
+        "comprar espacio de banco",
+        "almacenamiento personal"
+      ],
+      "keywords_en": [
+        "bank space",
+        "bank slots",
+        "bank bag slot cost",
+        "buy bank space",
+        "personal storage"
+      ],
+      "text_es": "El banco de cada personaje incluye 48 huecos gratis. Se pueden comprar seis espacios adicionales para bolsas: cuestan, en orden, 10 de plata, 1, 10, 25, 50 y 100 de oro. Si guardas un objeto de misión en el banco, tendrás que recuperarlo y llevarlo en el inventario para completar la misión.",
+      "text_en": "Each character's bank includes 48 free slots. You can buy six additional bag slots, costing 10 silver, then 1, 10, 25, 50, and 100 gold. If you store a quest item in the bank, you must retrieve it and carry it in your inventory to complete the quest.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Bags & Storage Overview Guide:  Locations, Quests and Costs - WoW: Forever › Bank Storage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/bags-storage-bank",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:bags-storage-bank"
+      ],
+      "source_hashes": [
+        "section:03a13ed4dfac2f896d0fee7294dc380143b96c58"
+      ]
+    },
+    {
+      "id": "general-banco-gremio",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Almacenamiento del banco de hermandad",
+      "title_en": "Guild Bank Storage",
+      "summary_es": "El banco de hermandad guarda recursos compartidos y permite ampliar pestañas y consultar movimientos.",
+      "summary_en": "The guild bank stores shared resources, allows extra tabs, and tracks transactions.",
+      "keywords_es": [
+        "banco de hermandad",
+        "almacenamiento de hermandad",
+        "materiales compartidos",
+        "pestañas del banco de hermandad",
+        "registro del banco de hermandad"
+      ],
+      "keywords_en": [
+        "guild bank",
+        "guild storage",
+        "shared materials",
+        "guild bank tabs",
+        "guild bank log"
+      ],
+      "text_es": "Las hermandades disponen de un banco compartido para guardar materiales de fabricación, consumibles y oro. Se pueden comprar pestañas para ampliar el espacio, y el banco permite consultar quién depositó o retiró objetos y dinero.",
+      "text_en": "Guilds have a shared bank for storing crafting materials, consumables, and gold. Additional tabs can be purchased to expand storage, and the bank lets members see who deposited or withdrew items and money.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Bags & Storage Overview Guide:  Locations, Quests and Costs - WoW: Forever › Guild Bank Storage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/bags-storage-bank",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:bags-storage-bank"
+      ],
+      "source_hashes": [
+        "section:6b2e40df20827bd1de3931a7e1f8e1ab7e129485"
+      ]
+    },
+    {
+      "id": "general-almacen-personaje-alterno",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Usar otro personaje como almacén",
+      "title_en": "Using an Alt as Storage",
+      "summary_es": "Otro personaje puede equipar bolsas sin requisito de nivel y ampliar su banco con seis huecos.",
+      "summary_en": "Another character can equip bags without a level requirement and add six bank slots.",
+      "keywords_es": [
+        "personaje almacén",
+        "personaje alternativo para guardar objetos",
+        "banco de personaje alternativo",
+        "enviar objetos a otro personaje",
+        "bolsas sin nivel"
+      ],
+      "keywords_en": [
+        "storage character",
+        "alt character storage",
+        "alt bank slots",
+        "send items to another character",
+        "bags without level requirements"
+      ],
+      "text_es": "Puedes dedicar un personaje alternativo a guardar objetos: las bolsas no tienen requisito de nivel y puede equiparlas desde el principio. También puede comprar los seis huecos adicionales del banco. El correo entre personajes de la misma cuenta es instantáneo, lo que facilita trasladar objetos.",
+      "text_en": "You can use an alternate character to store items: bags have no level requirement, so it can equip them from the start. It can also buy all six additional bank slots. Messages sent between your own characters arrive immediately, making transfers convenient.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Bags & Storage Overview Guide:  Locations, Quests and Costs - WoW: Forever › Alt Character Storage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/bags-storage-bank",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:bags-storage-bank"
+      ],
+      "source_hashes": [
+        "section:c6536b6f3fcb138ee1628966fa2a54d407398581"
+      ]
+    },
+    {
+      "id": "general-almacen-correo",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Guardar objetos en el correo",
+      "title_en": "Storing Items in Mail",
+      "summary_es": "El correo puede guardar muchos objetos, pero solo muestra 50 mensajes y los elimina tras 60 días.",
+      "summary_en": "Mail can hold many items, but shows only 50 messages and deletes them after 60 days.",
+      "keywords_es": [
+        "guardar objetos en el correo",
+        "almacenamiento en buzón",
+        "cuántos mensajes muestra el buzón",
+        "cuánto dura el correo",
+        "devolución de correo"
+      ],
+      "keywords_en": [
+        "store items in mail",
+        "mailbox storage",
+        "how many messages mailbox shows",
+        "mail expiration",
+        "returned mail"
+      ],
+      "text_es": "El buzón puede servir como almacén, pero es una opción arriesgada: solo muestra los 50 mensajes más recientes y enviar correo tarda una hora, incluso entre personajes de la misma cuenta. A los 30 días el mensaje vuelve al remitente; tras otros 30 días se elimina definitivamente.",
+      "text_en": "A mailbox can be used for storage, but it is risky: it shows only the 50 newest messages, and sending mail takes an hour, even between characters on the same account. After 30 days a message returns to its sender; after another 30 days it is permanently deleted.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Bags & Storage Overview Guide:  Locations, Quests and Costs - WoW: Forever › Mailbox Storage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/bags-storage-bank",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:bags-storage-bank"
+      ],
+      "source_hashes": [
+        "section:b83a02d90ae9091610cb48d3aeee31c2ceccd35f"
+      ]
+    },
+    {
+      "id": "general-saco-dormir-picoteo",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Picoteo de estudiante de la cadena",
+      "title_en": "Student Fodder from the Questline",
+      "summary_es": "La cadena del saco de dormir también da cinco Picoteos de estudiante, que restauran salud.",
+      "summary_en": "The sleeping bag questline also grants five Student Fodder, which restores health.",
+      "keywords_es": [
+        "picoteo de estudiante",
+        "recompensas del saco de dormir",
+        "curación de picoteo de estudiante",
+        "cadena del saco de dormir",
+        "comida para recuperar salud"
+      ],
+      "keywords_en": [
+        "Student Fodder",
+        "sleeping bag quest rewards",
+        "Student Fodder healing",
+        "sleeping bag questline",
+        "food that restores health"
+      ],
+      "text_es": "Además del Saco de dormir acogedor, la cadena entrega cinco unidades de Picoteo de estudiante en total, que restauran salud.",
+      "text_en": "Along with the Cozy Sleeping Bag, the questline awards five Student Fodder in total, which restore health.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Cozy Sleeping Bag:  Quests, Locations and Rewards in Forever › What is a Cozy Sleeping Bag?",
+          "url": "https://www.wowhead.com/forever/guide/cozy-sleeping-bag-locations-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:sleeping-bag"
+      ],
+      "source_hashes": [
+        "section:d96ae6b595357afa5b297825485d033a19e359bf"
+      ]
+    },
+    {
+      "id": "general-recetas-lanzamiento",
+      "chapter": 1,
+      "status": "editorial",
+      "title_es": "Recetas nuevas de profesiones",
+      "title_en": "New Profession Recipes",
+      "summary_es": "El lanzamiento añadió más de 600 recetas y renovó muchas recetas existentes.",
+      "summary_en": "Launch added over 600 recipes and revamped many existing ones.",
+      "keywords_es": [
+        "recetas nuevas de Forever",
+        "cambios de profesiones",
+        "más de 600 recetas",
+        "recetas de profesión nuevas",
+        "profesiones en el lanzamiento"
+      ],
+      "keywords_en": [
+        "new Forever recipes",
+        "profession changes",
+        "over 600 recipes",
+        "new profession recipes",
+        "launch professions"
+      ],
+      "text_es": "Con el lanzamiento llegaron más de 600 recetas nuevas repartidas entre las profesiones y distintos niveles. También se modificaron muchas recetas existentes para que las profesiones tengan más relevancia durante la progresión hasta nivel 60.",
+      "text_en": "Launch brought over 600 new recipes across the professions and different level ranges. Many existing recipes were also changed to make professions more relevant throughout progression to level 60.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Phase 1 Overview:  New Features, Dungeons, Zones, Raids - WoW: Forever › Professions in Forever",
+          "url": "https://www.wowhead.com/forever/guide/phase-one-overview-features-rewards",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "general:phase-one-overview-features-rewards"
+      ],
+      "source_hashes": [
+        "section:f8e649856b00d8d026b689a1366036047c849832"
+      ]
     }
   ]
 }
