@@ -5790,6 +5790,529 @@
         "guide:c30be58d16953e1b67fec3c665a6e498fde7d781",
         "section:a5b0fdb55c56e6a17628ef4d0c90a0ef415ad84f"
       ]
+    },
+    {
+      "id": "mazmorra-zulfarrak-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Zul'Farrak: nivel y entrada",
+      "title_en": "Zul'Farrak: Level and Entrance",
+      "summary_es": "Nivel recomendado 44-54; ambas facciones vuelan a Gadgetzan y siguen hacia el oeste.",
+      "summary_en": "Recommended level 44-54; both factions fly to Gadgetzan and travel west.",
+      "keywords_es": [
+        "nivel de Zul'Farrak",
+        "entrada de Zul'Farrak",
+        "cómo llegar a Zul'Farrak",
+        "volar a Gadgetzan",
+        "mazmorra de Tanaris"
+      ],
+      "keywords_en": [
+        "Zul'Farrak level range",
+        "Zul'Farrak entrance",
+        "how to reach Zul'Farrak",
+        "fly to Gadgetzan",
+        "Tanaris dungeon"
+      ],
+      "text_es": "Zul'Farrak se recomienda para niveles 44-54 y está en Tanaris. Tanto la Horda como la Alianza suelen volar a Gadgetzan y viajar hacia el oeste hasta la entrada.",
+      "text_en": "Zul'Farrak is recommended for levels 44-54 and is in Tanaris. Horde and Alliance players usually fly to Gadgetzan and travel west to the entrance.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zul'Farrak Dungeon Strategy Guide - WoW: Forever › Zul'Farrak Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zul'Farrak Dungeon Strategy Guide - WoW: Forever › Location of Zul'Farrak in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:zulfarrak"
+      ],
+      "source_hashes": [
+        "section:15059dc08a14b7519662cfa1cb401af35faff956",
+        "section:854af25a1c8491709de8e12efd2f7c69304c2979"
+      ]
+    },
+    {
+      "id": "mazmorra-zulfarrak-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones recomendables de Zul'Farrak",
+      "title_en": "Recommended Zul'Farrak Quests",
+      "summary_es": "Recoge misiones en Gadgetzan y prepara las cadenas de Diosa araña y Medallón de Nekrum.",
+      "summary_en": "Pick up quests in Gadgetzan and prepare the Spider God and Nekrum's Medallion chains.",
+      "keywords_es": [
+        "misiones de Zul'Farrak",
+        "Diosa araña",
+        "Medallón de Nekrum",
+        "Cetro Divinomático",
+        "La profecía de Mosh'aru",
+        "Tiara de la Profundidad"
+      ],
+      "keywords_en": [
+        "Zul'Farrak quests",
+        "The Spider God quest",
+        "Nekrum's Medallion quest",
+        "Divino-matic Rod quest",
+        "Prophecy of Mosh'aru",
+        "Tiara of the Deep quest"
+      ],
+      "text_es": "En Gadgetzan puedes recoger Cetro Divinomático y Temple trol; La profecía de Mosh'aru también parte de Tanaris, tras Los espíritus de los estriadores. Tiara de la Profundidad se obtiene en Marjal Revolcafango. Diosa araña es una cadena de Horda que culmina con Maestro Gadrin en Poblado Sen'jin; Medallón de Nekrum es de Alianza y su cadena pasa por Thadius Sombramacabra en las Tierras Devastadas. Gahz'rilla se recoge con Wizzle Pernolatón en Las Mil Agujas.",
+      "text_en": "In Gadgetzan, pick up Divino-matic Rod and Troll Temper; The Prophecy of Mosh'aru also starts in Tanaris, after Screecher Spirits. Tiara of the Deep is obtained in Dustwallow Marsh. Horde players can complete The Spider God chain with Master Gadrin in Sen'jin Village; Alliance players can advance Nekrum's Medallion with Thadius Grimshade in the Blasted Lands. Gahz'rilla starts with Wizzle Brassbolts in Thousand Needles.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zul'Farrak Dungeon Strategy Guide - WoW: Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:zulfarrak"
+      ],
+      "source_hashes": [
+        "section:3c54aacce5ee108ce4c0c80fd2d6573628f4396a"
+      ]
+    },
+    {
+      "id": "mazmorra-zulfarrak-invocar-gahzrilla",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Cómo invocar a Gahz'rilla",
+      "title_en": "How to Summon Gahz'rilla",
+      "summary_es": "Consigue la Marra sacra en Tierras del Interior y transfórmala en Jintha'Alor.",
+      "summary_en": "Get the Sacred Mallet in the Hinterlands and transform it at Jintha'Alor.",
+      "keywords_es": [
+        "invocar a Gahz'rilla",
+        "Marra de Zul'Farrak",
+        "Marra sacra",
+        "Altar de Jintha'Alor"
+      ],
+      "keywords_en": [
+        "summon Gahz'rilla",
+        "Mallet of Zul'Farrak",
+        "Sacred Mallet",
+        "Jintha'Alor altar"
+      ],
+      "text_es": "Para invocar a Gahz'rilla, un miembro del grupo debe conseguir la Marra de Zul'Farrak de Qiaga el Vigilante en Tierras del Interior. Actívala en el gong junto al acueducto; solo hace falta que una persona del grupo tenga la marra.",
+      "text_en": "Get the Mallet of Zul'Farrak from Qiaga the Keeper in the Hinterlands and use it on the gong by the aqueduct to summon Gahz'rilla. Only one party member needs to have the mallet.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zul'Farrak Dungeon Strategy Guide - WoW: Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zul'Farrak Dungeon Strategy Guide - WoW: Forever › Gahz'rilla",
+          "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:zulfarrak"
+      ],
+      "source_hashes": [
+        "section:1f39a35c3d253336620058a654ec48191de0171b",
+        "section:3c54aacce5ee108ce4c0c80fd2d6573628f4396a"
+      ]
+    },
+    {
+      "id": "mazmorra-zulfarrak-antusul",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Antu'sul: esbirros y tótems",
+      "title_en": "Antu'sul: Adds and Totems",
+      "summary_es": "Elimina primero sus esbirros, interrumpe las curaciones y destruye los tótems.",
+      "summary_en": "Kill his adds first, interrupt his heals, and destroy the totems.",
+      "keywords_es": [
+        "jefe Antu'sul",
+        "esbirros de Antu'sul",
+        "tótems de Antu'sul",
+        "estrategia Antu'sul"
+      ],
+      "keywords_en": [
+        "Antu'sul boss",
+        "Antu'sul adds",
+        "Antu'sul totems",
+        "Antu'sul strategy"
+      ],
+      "text_es": "Antu'sul invoca una Estirpe de Sul'lithuz y un Sirviente de Antu'sul. Elimínalos antes de volver a atacar al jefe, interrumpe sus curaciones y destruye los tótems en cuanto aparezcan.",
+      "text_en": "Antu'sul summons a Sul'lithuz Broodling and a Servant of Antu'sul; defeat both before returning to the boss. Interrupt his healing and destroy the totems as they appear.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zul'Farrak Dungeon Strategy Guide - WoW: Forever › Antu'sul <Overseer of Sul>",
+          "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:zulfarrak"
+      ],
+      "source_hashes": [
+        "section:94f4c8f7a6632fee747c0b3cd9a16ff7e07476f4"
+      ]
+    },
+    {
+      "id": "mazmorra-zulfarrak-theka",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Theka el Mártir: inmunidad y escarabajos",
+      "title_en": "Theka the Martyr: Immunity and Scarabs",
+      "summary_es": "Al 30% se vuelve inmune durante 30 segundos y atrae escarabajos; acaba con él primero.",
+      "summary_en": "At 30%, he becomes immune for 30 seconds and draws scarabs; finish him first.",
+      "keywords_es": [
+        "Theka el Mártir",
+        "jefe Theka Zul'Farrak",
+        "inmunidad de Theka",
+        "escarabajos de Theka"
+      ],
+      "keywords_en": [
+        "Theka the Martyr",
+        "Theka Zul'Farrak boss",
+        "Theka immunity",
+        "Theka scarabs"
+      ],
+      "text_es": "Theka el Mártir se vuelve inmune al daño físico y de las Sombras al llegar al 30%, durante 30 segundos. En esa fase atrae a los escarabajos cercanos: céntrate en Theka antes de acabar con ellos.",
+      "text_en": "Theka the Martyr becomes immune to physical and Shadow damage at 30% health for 30 seconds. During that phase, he draws nearby scarabs; focus on Theka before finishing them.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zul'Farrak Dungeon Strategy Guide - WoW: Forever › Theka the Martyr",
+          "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:zulfarrak"
+      ],
+      "source_hashes": [
+        "section:f392e43d5870c857bc49ce50712d29cf69b8eba2"
+      ]
+    },
+    {
+      "id": "mazmorra-zulfarrak-zumrah",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Médico brujo Zum'rah: interrupciones y adds",
+      "title_en": "Witch Doctor Zum'rah: Interrupts and Adds",
+      "summary_es": "Interrumpe su salva, elimina rápido a los zombis y prioriza su tótem.",
+      "summary_en": "Interrupt his volley, quickly kill the zombies, and prioritize his totem.",
+      "keywords_es": [
+        "Médico brujo Zum'rah",
+        "jefe Zum'rah",
+        "zombis de Zum'rah",
+        "tótem de Zum'rah"
+      ],
+      "keywords_en": [
+        "Witch Doctor Zum'rah",
+        "Zum'rah boss",
+        "Zum'rah zombies",
+        "Zum'rah totem"
+      ],
+      "text_es": "El Médico brujo Zum'rah lanza una salva de Descarga de las Sombras, que conviene interrumpir. Elimina deprisa a los zombis que invoca desde las tumbas y cambia al tótem cuando aparezca.",
+      "text_en": "Witch Doctor Zum'rah casts Shadow Bolt Volley, which should be interrupted. Quickly kill the zombies he summons from nearby graves, and switch to his totem when it appears.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zul'Farrak Dungeon Strategy Guide - WoW: Forever › Witch Doctor Zum'rah",
+          "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:zulfarrak"
+      ],
+      "source_hashes": [
+        "section:ad37cf753b97a20c619fd72a9a932fca931cb53f"
+      ]
+    },
+    {
+      "id": "mazmorra-zulfarrak-nekrum-sezzziz",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Nekrum Cometripas y Sacerdote oscuro Sezz'ziz",
+      "title_en": "Nekrum Gutchewer and Shadowpriest Sezz'ziz",
+      "summary_es": "En la última oleada de las escaleras, derrota primero a Nekrum e interrumpe la curación de Sezz'ziz.",
+      "summary_en": "In the final stairs wave, kill Nekrum first and interrupt Sezz'ziz's heal.",
+      "keywords_es": [
+        "Nekrum Cometripas",
+        "Sacerdote oscuro Sezz'ziz",
+        "evento de las escaleras Zul'Farrak",
+        "interrumpir curación Sezz'ziz"
+      ],
+      "keywords_en": [
+        "Nekrum Gutchewer",
+        "Shadowpriest Sezz'ziz",
+        "Zul'Farrak stairs event",
+        "interrupt Sezz'ziz heal"
+      ],
+      "text_es": "Nekrum Cometripas y el Sacerdote oscuro Sezz'ziz aparecen en la última oleada del evento de las escaleras. Elimina primero a Nekrum y, mientras tanto, interrumpe la curación de Sezz'ziz.",
+      "text_en": "Nekrum Gutchewer and Shadowpriest Sezz'ziz appear in the final wave of the stairs event. Nekrum should be the first target while Sezz'ziz's healing is interrupted.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zul'Farrak Dungeon Strategy Guide - WoW: Forever › Nekrum Gutchewer and Shadowpriest Sezz'ziz",
+          "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:zulfarrak"
+      ],
+      "source_hashes": [
+        "section:a4c4ff81c27548c7eed76e141d1773cda4e3a8e8"
+      ]
+    },
+    {
+      "id": "mazmorra-zulfarrak-bly",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Sargento Bly: prioriza a sus acompañantes",
+      "title_en": "Sergeant Bly: Prioritize His Escorts",
+      "summary_es": "Derrota primero a Oro Bocojo y Murta Tripuriosa por su daño de área y sus curaciones.",
+      "summary_en": "Kill Oro Eyegouge and Murta Grimgut first for their area damage and healing.",
+      "keywords_es": [
+        "Sargento Bly",
+        "jefe Sargento Bly",
+        "Oro Bocojo",
+        "Murta Tripuriosa"
+      ],
+      "keywords_en": [
+        "Sergeant Bly",
+        "Sergeant Bly boss",
+        "Oro Eyegouge",
+        "Murta Grimgut"
+      ],
+      "text_es": "El Sargento Bly lucha acompañado por Oro Bocojo y Murta Tripuriosa. El daño de área de Oro y las curaciones de Murta hacen recomendable derrotarlos antes de centrarse en Bly.",
+      "text_en": "Sergeant Bly is accompanied by Oro Eyegouge and Murta Grimgut. Oro's area damage and Murta's healing make it best to defeat them before focusing on Bly.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zul'Farrak Dungeon Strategy Guide - WoW: Forever › Sergeant Bly",
+          "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:zulfarrak"
+      ],
+      "source_hashes": [
+        "section:804ff95edf6f7a6da3d149ff9893ab870e292e92"
+      ]
+    },
+    {
+      "id": "mazmorra-zulfarrak-velratha",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Hidromántica Velratha: atráela sola",
+      "title_en": "Hydromancer Velratha: Pull Her Alone",
+      "summary_es": "Patrulla entre élites; sepárala del resto y corta sus lanzamientos.",
+      "summary_en": "She patrols among elites; pull her away from them and interrupt her casts.",
+      "keywords_es": [
+        "Hidromántica Velratha",
+        "jefe Velratha",
+        "patrulla de Velratha",
+        "interrumpir a Velratha"
+      ],
+      "keywords_en": [
+        "Hydromancer Velratha",
+        "Velratha boss",
+        "Velratha patrol",
+        "interrupt Velratha"
+      ],
+      "text_es": "La Hidromántica Velratha patrulla por una sala con élites Furiarena. Atráela sola para evitar sumar enemigos e interrumpe sus lanzamientos.",
+      "text_en": "Hydromancer Velratha patrols through a room filled with elite Sandfury. Pull her alone to avoid additional enemies, and interrupt her casts.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zul'Farrak Dungeon Strategy Guide - WoW: Forever › Hydromancer Velratha",
+          "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:zulfarrak"
+      ],
+      "source_hashes": [
+        "section:33489ec2a174bb1d5f3eb1f66440e9f03d1c346b"
+      ]
+    },
+    {
+      "id": "mazmorra-zulfarrak-ukorz",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jefe Ukorz Cabellarena: posición y orden",
+      "title_en": "Chief Ukorz Sandscalp: Positioning and Order",
+      "summary_es": "Elimina primero a su acompañante, mantén al jefe de espaldas y evita Mellar.",
+      "summary_en": "Kill his companion first, face the boss away, and avoid Cleave.",
+      "keywords_es": [
+        "Jefe Ukorz Cabellarena",
+        "jefe Ukorz Zul'Farrak",
+        "estrategia de Ukorz",
+        "Mellar de Ukorz"
+      ],
+      "keywords_en": [
+        "Chief Ukorz Sandscalp",
+        "Ukorz Zul'Farrak boss",
+        "Ukorz strategy",
+        "Ukorz Cleave"
+      ],
+      "text_es": "El Jefe Ukorz Cabellarena va acompañado por Ruuzlu; acaba primero con su acompañante. Enfrenta a ambos lejos del grupo y deja que los combatientes cuerpo a cuerpo ataquen por detrás para evitar Mellar.",
+      "text_en": "Chief Ukorz Sandscalp is accompanied by Ruuzlu; kill his companion first. Face both away from the group and have melee attack from behind to avoid Cleave.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zul'Farrak Dungeon Strategy Guide - WoW: Forever › Chief Ukorz Sandscalp",
+          "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:zulfarrak"
+      ],
+      "source_hashes": [
+        "section:e95822f102cd3e26ecfb93ce651498cfd92feb90"
+      ]
+    },
+    {
+      "id": "mazmorra-zulfarrak-zerillis",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Zerillis: llévalo al cuerpo a cuerpo",
+      "title_en": "Zerillis: Pull Into Melee Range",
+      "summary_es": "Este élite poco común patrulla por la mazmorra; acércalo al grupo cuerpo a cuerpo.",
+      "summary_en": "This rare elite patrols the dungeon; pull it into melee range.",
+      "keywords_es": [
+        "Zerillis",
+        "jefe raro Zul'Farrak",
+        "patrulla Zerillis",
+        "estrategia Zerillis"
+      ],
+      "keywords_en": [
+        "Zerillis",
+        "Zul'Farrak rare boss",
+        "Zerillis patrol",
+        "Zerillis strategy"
+      ],
+      "text_es": "Zerillis es un élite poco común que patrulla por Zul'Farrak. Atráelo enseguida al cuerpo a cuerpo; puede hacer falta usar la línea de visión para acercarlo.",
+      "text_en": "Zerillis is a rare elite that patrols Zul'Farrak. Pull it into melee range immediately; using line of sight may help bring it in.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zul'Farrak Dungeon Strategy Guide - WoW: Forever › Zerillis",
+          "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:zulfarrak"
+      ],
+      "source_hashes": [
+        "section:dbb884dced9617e56a9d9f45f296d031174354e3"
+      ]
+    },
+    {
+      "id": "mazmorra-zulfarrak-gahzrilla",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Gahz'rilla: evita que te lance por el aire",
+      "title_en": "Gahz'rilla: Avoid Being Thrown",
+      "summary_es": "Limpia la sala, apoya al tanque contra una pared y agrúpate para evitar el lanzamiento.",
+      "summary_en": "Clear the room, back the tank against a wall, and stack to avoid the knock-up.",
+      "keywords_es": [
+        "Gahz'rilla",
+        "jefe Gahz'rilla",
+        "estrategia Gahz'rilla",
+        "evitar lanzamiento Gahz'rilla"
+      ],
+      "keywords_en": [
+        "Gahz'rilla",
+        "Gahz'rilla boss",
+        "Gahz'rilla strategy",
+        "avoid Gahz'rilla knock-up"
+      ],
+      "text_es": "Antes de luchar contra Gahz'rilla, despeja la sala de invocación. El tanque debe colocarse de espaldas a una pared y el grupo agruparse sobre él para evitar que el jefe lo lance por el aire.",
+      "text_en": "Before fighting Gahz'rilla, clear the summoning room. The tank should stand with their back to a wall and the group should stack on them to avoid being thrown into the air.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zul'Farrak Dungeon Strategy Guide - WoW: Forever › Gahz'rilla",
+          "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:zulfarrak"
+      ],
+      "source_hashes": [
+        "section:1f39a35c3d253336620058a654ec48191de0171b"
+      ]
+    },
+    {
+      "id": "mazmorra-zulfarrak-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas destacadas de Zul'Farrak",
+      "title_en": "Notable Zul'Farrak Rewards",
+      "summary_es": "La misión de Gahz'rilla da una mejora de montura; los jefes ofrecen equipo destacado.",
+      "summary_en": "Gahz'rilla's quest rewards a mount-speed boost; bosses offer notable gear.",
+      "keywords_es": [
+        "recompensas de Zul'Farrak",
+        "Zanahoria pinchada en un palo",
+        "Mandiletes de maña",
+        "Máscara de mojo malo",
+        "Colmillo de Gahz'rilla"
+      ],
+      "keywords_en": [
+        "Zul'Farrak rewards",
+        "Carrot on a Stick",
+        "Vice Grips",
+        "Bad Mojo Mask",
+        "Gahz'rilla Fang"
+      ],
+      "text_es": "La misión Gahz'rilla ofrece la Zanahoria pinchada en un palo, que aumenta la velocidad de montura. Entre el equipo destacado de la mazmorra están los Mandiletes de maña, la Máscara de mojo malo y el Colmillo de Gahz'rilla.",
+      "text_en": "Carrot on a Stick is the Gahz'rilla quest reward and increases mount speed. Notable dungeon gear includes Vice Grips, Bad Mojo Mask, and Gahz'rilla Fang.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zul'Farrak Dungeon Strategy Guide - WoW: Forever › Best Quest Rewards",
+          "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Zul'Farrak Dungeon Strategy Guide - WoW: Forever › Zul'Farrak Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/zulfarrak-dungeon-overview-location-rewards",
+          "date": "2026-11-14"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:zulfarrak"
+      ],
+      "source_hashes": [
+        "section:25d7eeb2209d562b3793dc38c8ef074da1005e86",
+        "section:2e7e0a83f1323b8fc4af56fd68e937c6c2514abd"
+      ]
     }
   ]
 }
