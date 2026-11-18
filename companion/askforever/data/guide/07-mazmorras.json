@@ -11228,6 +11228,751 @@
       "source_hashes": [
         "section:2bd254cb6194b4739fd2a1b4ba3f5054a5c4c188"
       ]
+    },
+    {
+      "id": "mazmorra-scholomance-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Scholomance: nivel y entrada",
+      "title_en": "Scholomance: Level and Entrance",
+      "summary_es": "Niveles 55-60; la entrada está en Castel Darrow y la puerta requiere llave, ganzúa o ayuda.",
+      "summary_en": "Levels 55-60; the entrance is at Caer Darrow, and the gate needs a key, lockpicking, or help.",
+      "keywords_es": [
+        "nivel de Scholomance",
+        "entrada de Scholomance",
+        "cómo llegar a Scholomance",
+        "puerta de Scholomance"
+      ],
+      "keywords_en": [
+        "Scholomance level",
+        "Scholomance entrance",
+        "how to reach Scholomance",
+        "Scholomance gate"
+      ],
+      "text_es": "Scholomance se recomienda para niveles 55-60 y está en una isla de las Tierras de la Peste del Oeste. La Alianza puede volar al Campamento del Orvallo; también puede acercarse desde la Capilla de la Esperanza de la Luz o Pico Nidal. La Horda puede partir de Entrañas o Molino Tarren. La puerta se abre con Llave esqueleto, Carga de seforio potente, Ganzúa de 280 o alguien al otro lado que accione la antorcha.",
+      "text_en": "Scholomance is recommended for levels 55-60 and lies on an island in the Western Plaguelands. Alliance can fly to Chillwind Camp, or approach from Light’s Hope Chapel or Aerie Peak. Horde can travel from Undercity or Tarren Mill. The gate can be opened with a Skeleton Key, a Powerful Seaforium Charge, 280 Lockpicking, or by someone using the torch from the other side.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Scholomance Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Scholomance in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "section:6ce33f1ae958588dfda84ab1cbef11d8baa2592f",
+        "section:cf167ec694210d762791ee4b97bcc604ee5757bc"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones recomendables de Scholomance",
+      "title_en": "Recommended Scholomance Quests",
+      "summary_es": "Recoge Crías infestadas y las cadenas de Eva Sarkhoff o de la Llave esqueleto antes de entrar.",
+      "summary_en": "Pick up Plagued Hatchlings and Eva Sarkhoff’s or the Skeleton Key quest chain before entering.",
+      "keywords_es": [
+        "misiones de Scholomance",
+        "Crías infestadas",
+        "Llave esqueleto",
+        "misiones de Eva Sarkhoff",
+        "misiones previas a Scholomance"
+      ],
+      "keywords_en": [
+        "Scholomance quests",
+        "Plagued Hatchlings",
+        "Skeleton Key",
+        "Eva Sarkhoff quests",
+        "Scholomance pre-quests"
+      ],
+      "text_es": "Antes de entrar, recoge Crías infestadas con Betina Bigglezink en la Capilla de la Esperanza de la Luz. La cadena de la Llave esqueleto pasa por el Campamento del Orvallo para la Alianza o El Baluarte para la Horda. En Tierras de la Peste del Oeste, Eva Sarkhoff ofrece Doctor Theolen Krastinov, el Carnicero y su continuación, que permite invocar a Kirtonos el Heraldo; después, Magistrado Marduke da El Lich, Ras Levescarcha y exige llevar Esencia espectral.",
+      "text_en": "Before entering, pick up Plagued Hatchlings from Betina Bigglezink at Light’s Hope Chapel. The Skeleton Key quest chain runs through Chillwind Camp for Alliance or the Bulwark for Horde. In the Western Plaguelands, Eva Sarkhoff offers Doctor Theolen Krastinov, the Butcher and its follow-up, which lets you summon Kirtonos the Herald; afterward, Magistrate Marduke offers The Lich, Ras Frostwhisper, which requires wearing Spectral Essence.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Key to Scholomance Questline",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Plagued Hatchlings",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Doctor Theolen Krastinov, the Butcher",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Kirtonos the Herald",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Lich, Ras Frostwhisper",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "guide:f3b493da8684373ebff71c76dde4b371fefd7be4",
+        "section:92b1b69ee03d39bc793d100da9bb225e2e749e5b",
+        "section:af4855b05cb43518c2ff3710d54cd195528a70f8",
+        "section:cd4b0435c8f6764768e649f47b638f81a32c1452"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de Scholomance",
+      "title_en": "Scholomance Rewards",
+      "summary_es": "La misión de Ras Levescarcha ofrece equipo a elegir; Kirtonos deja objetos como la Rosa de Penelope.",
+      "summary_en": "Ras Frostwhisper’s quest offers a gear choice; Kirtonos drops items such as Penelope’s Rose.",
+      "keywords_es": [
+        "recompensas de Scholomance",
+        "Rosa de Penelope",
+        "Canción de Mirah",
+        "Espada de guerra de Castel Darrow",
+        "botín de Scholomance"
+      ],
+      "keywords_en": [
+        "Scholomance rewards",
+        "Penelope’s Rose",
+        "Mirah’s Song",
+        "Warblade of Caer Darrow",
+        "Scholomance loot"
+      ],
+      "text_es": "La misión El Lich, Ras Levescarcha permite elegir equipo como la Espada de guerra de Castel Darrow, la Corona de Castel Darrow, el Pico Darrow o la Guarda fuerte de Villa Darrow. La misión de Kirtonos el Heraldo ofrece la Rosa de Penelope o la Canción de Mirah; entre sus botines destacan el Corazón del Mefisto y las Ajorcas de guardia amenazante.",
+      "text_en": "The Lich, Ras Frostwhisper quest offers a gear choice such as Warblade of Caer Darrow, Crown of Caer Darrow, Darrowspike, or Darrowshire Strongguard. The quest for Kirtonos the Herald offers Penelope’s Rose or Mirah’s Song; notable drops from him include Heart of the Fiend and Loomguard Armbraces.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Best Quest Rewards",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Lich, Ras Frostwhisper",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Kirtonos the Herald",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Scholomance Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "guide:f3b493da8684373ebff71c76dde4b371fefd7be4",
+        "section:4c8f366fdae86292729fc0e655c900643b0671e4",
+        "section:a6ee0b9bc629661afe63991effe6d2cbb3efdce2",
+        "section:cd4b0435c8f6764768e649f47b638f81a32c1452"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-blood-steward-of-kirtonos",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Administradora de sangre de Kirtonos",
+      "title_en": "Blood Steward of Kirtonos",
+      "summary_es": "Vigila el veneno paralizante, que aturde durante 8 segundos.",
+      "summary_en": "Watch for Paralyzing Poison, which stuns for 8 seconds.",
+      "keywords_es": [
+        "Administradora de sangre de Kirtonos",
+        "Veneno paralizante",
+        "jefes de Scholomance"
+      ],
+      "keywords_en": [
+        "Blood Steward of Kirtonos",
+        "Paralyzing Poison",
+        "Scholomance bosses"
+      ],
+      "text_es": "La Administradora de sangre de Kirtonos puede lanzar maldiciones y Veneno paralizante. Disipa las maldiciones y prepárate para el aturdimiento de 8 segundos del veneno.",
+      "text_en": "Blood Steward of Kirtonos can cast curses and Paralyzing Poison. Dispel the curses and prepare for the poison’s 8-second stun.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Blood Steward of Kirtonos",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "section:29759545fd2885e1d7a1c69cb2b0c79f16d45ab7"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-kirtonos-the-herald",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Kirtonos el Heraldo: dos formas",
+      "title_en": "Kirtonos the Herald: Two Forms",
+      "summary_es": "Mantén al tanque junto a una pared y disipa sus maldiciones, sobre todo en forma humana.",
+      "summary_en": "Keep the tank by a wall and dispel his curses, especially in human form.",
+      "keywords_es": [
+        "Kirtonos el Heraldo",
+        "invocar a Kirtonos",
+        "formas de Kirtonos",
+        "jefes de Scholomance"
+      ],
+      "keywords_en": [
+        "Kirtonos the Herald",
+        "summon Kirtonos",
+        "Kirtonos forms",
+        "Scholomance bosses"
+      ],
+      "text_es": "Kirtonos el Heraldo solo aparece si alguien lleva Sangre de los inocentes para invocarlo. El tanque debe mantener la espalda contra una pared para evitar el empuje; en forma humana, disipa sus maldiciones, y en forma de gárgola conserva la amenaza.",
+      "text_en": "Kirtonos the Herald appears only when someone brings Blood of Innocents to summon him. The tank should keep their back to a wall to prevent knockback; dispel his curses in human form, and maintain threat in gargoyle form.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Kirtonos the Herald",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "section:cd4b0435c8f6764768e649f47b638f81a32c1452"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-jandice-barov",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jandice Barov: ilusiones",
+      "title_en": "Jandice Barov: Illusions",
+      "summary_es": "Elimina sus copias una a una o céntrate en Jandice; disipa Maldición de sangre.",
+      "summary_en": "Kill her copies one by one or focus Jandice; dispel Curse of Blood.",
+      "keywords_es": [
+        "Jandice Barov",
+        "ilusiones de Jandice",
+        "Maldición de sangre",
+        "jefes de Scholomance"
+      ],
+      "keywords_en": [
+        "Jandice Barov",
+        "Jandice illusions",
+        "Curse of Blood",
+        "Scholomance bosses"
+      ],
+      "text_es": "Jandice Barov crea copias que no se pueden eliminar con daño de área: selecciónalas una a una o concentraos en la jefa. Disipa Maldición de sangre.",
+      "text_en": "Jandice Barov creates copies that cannot be defeated with area damage: target them individually or focus the boss. Have a Mage or Druid remove her curse.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Jandice Barov",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "section:d9e0ef6fd185528e5eab843940b69facc3c3ab93"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-rattlegore",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Traquesangre: ataques cuerpo a cuerpo",
+      "title_en": "Rattlegore: Melee Attacks",
+      "summary_es": "Despeja la zona, aleja al jefe del grupo y mantén a distancia a quienes atacan desde lejos.",
+      "summary_en": "Clear the area, face the boss away from the group, and keep ranged players back.",
+      "keywords_es": [
+        "Traquesangre",
+        "estrategia de Traquesangre",
+        "Llave de la Sala de visión",
+        "jefes de Scholomance"
+      ],
+      "keywords_en": [
+        "Rattlegore",
+        "Rattlegore strategy",
+        "Viewing Room Key",
+        "Scholomance bosses"
+      ],
+      "text_es": "Traquesangre golpea con fuerza y sus ataques son cuerpo a cuerpo. Despeja la zona antes de atraerlo, oriéntalo de espaldas al grupo y mantén lejos a quienes atacan a distancia; al derrotarlo deja la Llave de la Sala de visión.",
+      "text_en": "Rattlegore hits hard with melee-focused attacks. Clear the area before pulling him, face him away from the group, and keep ranged players back; he drops the Viewing Room Key.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Rattlegore",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "section:ea5110eb0ed7b2c42b938c7027aea28484bfeeb3"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-marduk-blackpool",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Marduz Pozonegro: aura y escudo",
+      "title_en": "Marduk Blackpool: Aura and Shield",
+      "summary_es": "Deja a los atacantes a distancia fuera del aura y evita golpear mientras el escudo esté activo.",
+      "summary_en": "Keep ranged players outside the aura and avoid attacking while the shield is active.",
+      "keywords_es": [
+        "Marduz Pozonegro",
+        "Aura profanadora",
+        "Escudo de las Sombras",
+        "jefes de Scholomance"
+      ],
+      "keywords_en": [
+        "Marduk Blackpool",
+        "Defiling Aura",
+        "Shadow Shield",
+        "Scholomance bosses"
+      ],
+      "text_es": "Marduz Pozonegro usa Aura profanadora, que daña a quienes están cerca, y Escudo de las Sombras, que devuelve daño cuando lo golpean. El tanque debe mantenerlo en su sitio mientras los atacantes a distancia se apartan del aura.",
+      "text_en": "Marduk Blackpool uses Defiling Aura, which damages nearby players, and Shadow Shield, which deals damage when he is attacked. The tank should hold him in place while ranged players stay outside the aura.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Marduk Blackpool",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "section:735a286d9e3b986f205e622cadd2a8ee98a7ab8d"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-vectus",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Vectus: ataques de fuego",
+      "title_en": "Vectus: Fire Attacks",
+      "summary_es": "Aléjate de las áreas de fuego de Vectus.",
+      "summary_en": "Move out of Vectus’s fire areas.",
+      "keywords_es": [
+        "Vectus",
+        "Fogonazo",
+        "Ola explosiva",
+        "jefes de Scholomance"
+      ],
+      "keywords_en": [
+        "Vectus",
+        "Flamestrike",
+        "Blast Wave",
+        "Scholomance bosses"
+      ],
+      "text_es": "Vectus lanza hechizos de fuego y ataques de área como Fogonazo y Ola explosiva. Sal de las zonas afectadas mientras el grupo lo derrota.",
+      "text_en": "Vectus casts fire spells and area attacks such as Flamestrike and Blast Wave. Move out of affected areas while the group defeats him.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Vectus",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "section:d2d31f7c1d480a52ad5099065ef005069331029c"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-ras-frostwhisper",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Ras Levescarcha: magia de Escarcha",
+      "title_en": "Ras Frostwhisper: Frost Magic",
+      "summary_es": "Despeja el entorno, oriéntalo lejos del grupo e interrumpe sus hechizos.",
+      "summary_en": "Clear the area, face him away from the group, and interrupt his spells.",
+      "keywords_es": [
+        "Ras Levescarcha",
+        "Miedo de Ras Levescarcha",
+        "hechizos de Escarcha",
+        "jefes de Scholomance"
+      ],
+      "keywords_en": [
+        "Ras Frostwhisper",
+        "Ras Frostwhisper fear",
+        "frost spells",
+        "Scholomance bosses"
+      ],
+      "text_es": "Despeja la zona alrededor de Ras Levescarcha antes del combate y oriéntalo de espaldas al grupo. Vigila Miedo y organiza interrupciones para reducir sus lanzamientos de Escarcha.",
+      "text_en": "Clear the area around Ras Frostwhisper before the fight and face him away from the group. Watch for Fear and coordinate interrupts to reduce his frost casts.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Ras Frostwhisper",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "section:1a85b918ecc1b9efbe3ee2b863ef153da0bbde56"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-kormok",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Kormok: invocación",
+      "title_en": "Kormok: Summoning",
+      "summary_es": "Kormok se invoca en la sala de Ras con un blandón de misión o de cadena.",
+      "summary_en": "Kormok is summoned in Ras’s room with a quest or quest-chain brazier.",
+      "keywords_es": [
+        "Kormok",
+        "invocar a Kormok",
+        "Blandón de Señalización",
+        "Blandón de Invocación"
+      ],
+      "keywords_en": [
+        "Kormok",
+        "summon Kormok",
+        "Brazier of Beckoning",
+        "Brazier of Invocation"
+      ],
+      "text_es": "Kormok no aparece por sí solo: se invoca en la sala de Ras Levescarcha con el Blandón de Señalización de una misión. Si no recibes esa misión, la cadena que termina con el Blandón de Invocación permite llamarlo más adelante.",
+      "text_en": "Kormok does not appear on his own: summon him in Ras Frostwhisper’s room with the Brazier of Beckoning from a quest. If you do not receive that quest, the chain that ends with the Brazier of Invocation lets you summon him later.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Kormok",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "section:bbd45a38a3c1c993e9eb35a90eae5e30728344ba"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-instructor-malicia",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Instructor Malicia: interrumpe sus curas",
+      "title_en": "Instructor Malicia: Interrupt Her Heals",
+      "summary_es": "Interrumpe sus curas y disipa Llamada de la tumba.",
+      "summary_en": "Interrupt her heals and dispel Call of the Grave.",
+      "keywords_es": [
+        "Instructor Malicia",
+        "Llamada de la tumba",
+        "interrumpir a Malicia",
+        "jefes de Scholomance"
+      ],
+      "keywords_en": [
+        "Instructor Malicia",
+        "Call of the Grave",
+        "interrupt Malicia",
+        "Scholomance bosses"
+      ],
+      "text_es": "Instructor Malicia tiene varias curas: organiza interrupciones para frenar sus lanzamientos. Disipa Llamada de la tumba y céntrate en derrotarla.",
+      "text_en": "Instructor Malicia has several heals: coordinate interrupts to stop her casts. Have a Mage or Druid remove Call of the Grave and focus on defeating her.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Instructor Malicia",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "section:206b012b38ba9cfbc68f585e557d133ac1f24540"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-doctor-theolen-krastinov",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Doctor Theolen Krastinov: aumenta sus ataques",
+      "title_en": "Doctor Theolen Krastinov: Faster Attacks",
+      "summary_es": "Al 50% de salud aumenta mucho su velocidad de ataque; reserva defensas y curas.",
+      "summary_en": "At 50% health his attack speed rises sharply; save defensive abilities and healing.",
+      "keywords_es": [
+        "Doctor Theolen Krastinov",
+        "el Carnicero de Scholomance",
+        "velocidad de ataque de Krastinov"
+      ],
+      "keywords_en": [
+        "Doctor Theolen Krastinov",
+        "Scholomance Butcher",
+        "Krastinov attack speed"
+      ],
+      "text_es": "Doctor Theolen Krastinov usa ataques cuerpo a cuerpo y aumenta mucho su velocidad de ataque al llegar al 50% de salud. El tanque debe atraerlo junto a una pared; reserva defensas y curas para ese momento.",
+      "text_en": "Doctor Theolen Krastinov uses melee attacks and sharply increases his attack speed at 50% health. The tank should pull him to a wall; save defensive abilities and healing for that point.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Doctor Theolen Krastinov",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "section:489a80ec78c70cf24d120a848ee72ed32f10fc4b"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-lorekeeper-polkelt",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Tradicionalista Polkelt: infección volátil",
+      "title_en": "Lorekeeper Polkelt: Volatile Infection",
+      "summary_es": "Mantén distancia ante sus ataques tóxicos y sepárate si te afecta Infección volátil.",
+      "summary_en": "Keep away from his toxic attacks and spread out if Volatile Infection affects you.",
+      "keywords_es": [
+        "Tradicionalista Polkelt",
+        "Infección volátil",
+        "Ácido corrosivo",
+        "jefes de Scholomance"
+      ],
+      "keywords_en": [
+        "Lorekeeper Polkelt",
+        "Volatile Infection",
+        "Corrosive Acid",
+        "Scholomance bosses"
+      ],
+      "text_es": "Tradicionalista Polkelt usa ataques tóxicos de área que dañan a quienes se acercan. Si alguien recibe Infección volátil, debe separarse del grupo.",
+      "text_en": "Lorekeeper Polkelt uses damaging toxic area attacks. Anyone affected by Volatile Infection should move away from the group.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Lorekeeper Polkelt",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "section:42a665f83bfea7273e4707bfd088e245335efb41"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-the-ravenian",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "El Devorador: ataques de área",
+      "title_en": "The Ravenian: Area Attacks",
+      "summary_es": "Pon al jefe de espaldas al grupo y espera a que el tanque genere amenaza.",
+      "summary_en": "Face the boss away from the group and let the tank build threat.",
+      "keywords_es": [
+        "El Devorador",
+        "jefe de Scholomance",
+        "Mella hendida",
+        "Atropello"
+      ],
+      "keywords_en": [
+        "The Ravenian",
+        "Scholomance boss",
+        "Sundering Cleave",
+        "Trample"
+      ],
+      "text_es": "El Devorador golpea fuerte y rápido con ataques cuerpo a cuerpo y de área. El tanque debe orientarlo contra una pared, de espaldas al grupo, y generar amenaza antes de que los demás ataquen.",
+      "text_en": "The Ravenian hits hard and fast with melee and area attacks. The tank should face him toward a wall and away from the group, building threat before others attack.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Ravenian",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "section:0eec8bd1f988333f28fe0e908ba6500cc590954e"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-lord-alexei-barov",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Lord Alexei Barov: aura y guardaespaldas",
+      "title_en": "Lord Alexei Barov: Aura and Guards",
+      "summary_es": "Aparta a Alexei por su aura; controla a sus dos guardias y evita el líquido verde.",
+      "summary_en": "Pull Alexei away for his aura; control his two guards and avoid the green liquid.",
+      "keywords_es": [
+        "Lord Alexei Barov",
+        "Aura profana",
+        "Velo de Sombras",
+        "jefes de Scholomance"
+      ],
+      "keywords_en": [
+        "Lord Alexei Barov",
+        "Unholy Aura",
+        "Veil of Shadow",
+        "Scholomance bosses"
+      ],
+      "text_es": "Lord Alexei Barov viene con dos guardias esqueléticos que pueden controlarse con Encadenar no-muerto o Ahuyentar a no-muerto. No pises el líquido verde; el tanque debe mantener al jefe lejos del grupo por Aura profana y disipar Velo de Sombras si es posible.",
+      "text_en": "Lord Alexei Barov has two skeletal guards that can be controlled with Shackle Undead or Turn Undead. Avoid the green liquid; the tank should keep the boss away from the group because of Unholy Aura and dispel Veil of Shadow if possible.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Lord Alexei Barov",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "section:e779f264d0b0350a21fcfa13e2c4f5a188ece981"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-lady-illucia-barov",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Lady Illucia Barov: Dominación mental",
+      "title_en": "Lady Illucia Barov: Dominate Mind",
+      "summary_es": "Aturde o controla a quien sufra Dominación mental y despeja la sala antes del combate.",
+      "summary_en": "Stun or control anyone hit by Dominate Mind and clear the room before the fight.",
+      "keywords_es": [
+        "Lady Illucia Barov",
+        "Dominación mental",
+        "Silencio de área",
+        "jefes de Scholomance"
+      ],
+      "keywords_en": [
+        "Lady Illucia Barov",
+        "Dominate Mind",
+        "area silence",
+        "Scholomance bosses"
+      ],
+      "text_es": "La mayor amenaza de Lady Illucia Barov es Dominar mente: aturde o controla a quien quede bajo su efecto. También puede lanzar Silencio y Miedo de área, así que despeja la sala antes de atacarla.",
+      "text_en": "The main threat from Lady Illucia Barov is Dominate Mind: stun or control anyone affected. She can also cast area Silence and Fear, so clear the room before engaging.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Lady Illucia Barov",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "section:25f6328fdfa19c5b06aee2706f8ef9839cf576e6"
+      ]
+    },
+    {
+      "id": "mazmorra-scholomance-darkmaster-gandling",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Maestro oscuro Gandling: teletransporte",
+      "title_en": "Darkmaster Gandling: Teleport",
+      "summary_es": "Interrumpe Misiles Arcanos y prepárate por si teletransporta al tanque o al sanador.",
+      "summary_en": "Interrupt Arcane Missiles and plan for the tank or healer to be teleported.",
+      "keywords_es": [
+        "Maestro oscuro Gandling",
+        "teletransporte de Gandling",
+        "Misiles Arcanos",
+        "jefes de Scholomance"
+      ],
+      "keywords_en": [
+        "Darkmaster Gandling",
+        "Gandling teleport",
+        "Arcane Missiles",
+        "Scholomance bosses"
+      ],
+      "text_es": "Maestro oscuro Gandling teletransporta periódicamente a un jugador a una sala contigua, donde queda encerrado hasta derrotar a los enemigos. Acordad cómo cubrir al tanque o al sanador si les ocurre e interrumpid Misiles Arcanos.",
+      "text_en": "Darkmaster Gandling periodically teleports a player to an adjacent room, where they are trapped until they defeat its enemies. Plan how to cover for the tank or healer if teleported, and interrupt Arcane Missiles.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scholomance Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Darkmaster Gandling",
+          "url": "https://www.wowhead.com/forever/guide/scholomance-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scholomance"
+      ],
+      "source_hashes": [
+        "section:ba22a971bf26c2f0267d18b2e81f48279ac82a41"
+      ]
     }
   ]
 }
