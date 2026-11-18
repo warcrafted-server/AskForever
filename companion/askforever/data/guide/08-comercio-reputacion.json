@@ -325,6 +325,774 @@
       "source_hashes": [
         "section:417aa2776e7b0765d853b5936c1d3c7743798c81"
       ]
+    },
+    {
+      "id": "comercio-elegir-centauros-gelkis-magram",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Elegir entre Gelkis y Magram",
+      "title_en": "Choosing Between Gelkis and Magram",
+      "summary_es": "Ganar reputación con un clan reduce la del otro; cada uno abarata recetas de distintos oficios.",
+      "summary_en": "Gaining reputation with one clan lowers the other's; each makes different profession recipes cheaper.",
+      "keywords_es": [
+        "elegir entre Gelkis y Magram",
+        "reputación de los centauros",
+        "clanes de centauros rivales",
+        "recetas de los Gelkis",
+        "recetas de los Magram"
+      ],
+      "keywords_en": [
+        "choose Gelkis or Magram",
+        "centaur reputation",
+        "rival centaur clans",
+        "Gelkis recipes",
+        "Magram recipes"
+      ],
+      "text_es": "El Centauro del clan Gelkis y el Centauro del clan Magram son rivales: ganar reputación con uno reduce la del otro, así que debes escoger. Sus misiones tienen dificultad y experiencia parecidas. Cualquiera de los clanes permite conseguir las 12 recetas; Gelkis facilita Encantamiento, Peletería y Sastrería, mientras Magram favorece Alquimia, Herrería e Ingeniería. Elige según tus oficios.",
+      "text_en": "Gelkis Clan Centaur and Magram Clan Centaur are rivals: gaining reputation with one lowers the other's, so you must choose. Their quests have similar difficulty and experience rewards. Either side can acquire all 12 recipes; Gelkis makes Enchanting, Leatherworking, and Tailoring easier, while Magram favors Alchemy, Blacksmithing, and Engineering. Choose based on your professions.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gelkis Clan Centaur Reputation Guide - WoW: Forever › Should You Pick Gelkis or Magram in Forever?",
+          "url": "https://www.wowhead.com/forever/guide/reputation/gelkis-clan-centaur-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Magram Clan Centaur Reputation Guide - WoW: Forever › Should You Pick Magram or Gelkis in Forever?",
+          "url": "https://www.wowhead.com/forever/guide/reputation/magram-clan-centaur-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "reputation:gelkis-clan-centaur-quests-quartermaster-rewards",
+        "reputation:magram-clan-centaur-quests-quartermaster-rewards"
+      ],
+      "source_hashes": [
+        "section:04b10a007b5a2d730986b093798b86dc3d5fcb03",
+        "section:831d649e7cb46aba7e8f3551a0cefce76299c82b"
+      ]
+    },
+    {
+      "id": "comercio-subir-reputacion-gelkis",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Subir reputación con Gelkis",
+      "title_en": "Gaining Gelkis Reputation",
+      "summary_es": "Matar Magram o hacer una misión inicial desbloquea las misiones y entregas repetibles de Gelkis.",
+      "summary_en": "Killing Magram or completing an initial quest unlocks Gelkis quests and repeatable turn-ins.",
+      "keywords_es": [
+        "subir reputación Gelkis",
+        "misiones de Gelkis",
+        "Tótem de los centauros tallado",
+        "Amistad comprada: Gelkis",
+        "centauros en Desolace"
+      ],
+      "keywords_en": [
+        "raise Gelkis reputation",
+        "Gelkis quests",
+        "Carved Centaur Totem",
+        "Buying Friendship: Gelkis",
+        "centaurs in Desolace"
+      ],
+      "text_es": "Los miembros del Centauro del clan Gelkis se encuentran al suroeste de Desolace y empiezas en Neutral. Puedes alcanzar Amistoso matando a miembros de la facción Centauro del clan Magram o completando Amistad comprada: Gelkis; esta misión desbloquea la entrega repetible de Tótem de los centauros tallados. Completa las misiones disponibles en Amistoso y Honorable y entrega tótems para avanzar hasta Exaltado.",
+      "text_en": "Gelkis Clan Centaur is in southwest Desolace, and you start at Neutral. You can reach Friendly by killing Magram centaurs or completing Buying Friendship: Gelkis; that quest unlocks a repeatable Carved Centaur Totem turn-in. Complete the quests available at Friendly and honored, then turn in totems to progress to Exalted.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gelkis Clan Centaur Reputation Guide - WoW: Forever › Gelkis Clan Centaur Location in Forever",
+          "url": "https://www.wowhead.com/forever/guide/reputation/gelkis-clan-centaur-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gelkis Clan Centaur Reputation Guide - WoW: Forever › Unlocking Gelkis Clan Centaur in Forever",
+          "url": "https://www.wowhead.com/forever/guide/reputation/gelkis-clan-centaur-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gelkis Clan Centaur Reputation Guide - WoW: Forever › Best Way to Farm Gelkis Clan Centaur Reputation",
+          "url": "https://www.wowhead.com/forever/guide/reputation/gelkis-clan-centaur-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "reputation:gelkis-clan-centaur-quests-quartermaster-rewards"
+      ],
+      "source_hashes": [
+        "section:43be627fb529fb1aab9c22ddd40007979c75e4ec",
+        "section:c58083123ec5cd509a8fafe1caa87fb32831909c",
+        "section:e8cfa570b4d001a2d1a5690c45bf69d9e3820825"
+      ]
+    },
+    {
+      "id": "comercio-recompensas-gelkis",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Recetas del intendente Gelkis",
+      "title_en": "Gelkis Quartermaster Recipes",
+      "summary_es": "El intendente Gelkis vende recetas de tres oficios en Honorable por tótems.",
+      "summary_en": "The Gelkis quartermaster sells recipes for three professions at Honored for totems.",
+      "keywords_es": [
+        "intendente Gelkis",
+        "recompensas Gelkis",
+        "recetas de Encantamiento",
+        "recetas de Peletería",
+        "recetas de Sastrería"
+      ],
+      "keywords_en": [
+        "Gelkis quartermaster",
+        "Gelkis rewards",
+        "Enchanting recipes",
+        "Leatherworking recipes",
+        "Tailoring recipes"
+      ],
+      "text_es": "El intendente Gelkis vende fórmulas de Encantamiento y patrones de Peletería y Sastrería en Honorable, por 15 Tótems de los centauros tallados cada uno. Elegir a Gelkis facilita conseguir esas recetas: las de Alquimia, Herrería e Ingeniería requieren Exaltado y cuestan 60 tótems.",
+      "text_en": "The Gelkis quartermaster sells Enchanting formulas and Leatherworking and Tailoring patterns at Honored for 15 Carved Centaur Totems each. Those recipes are easier to obtain with this faction; Alchemy, Blacksmithing, and Engineering recipes require Exalted and cost 60 totems.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gelkis Clan Centaur Reputation Guide - WoW: Forever › Should You Pick Gelkis or Magram in Forever?",
+          "url": "https://www.wowhead.com/forever/guide/reputation/gelkis-clan-centaur-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gelkis Clan Centaur Reputation Guide - WoW: Forever › Quartermaster Vendor",
+          "url": "https://www.wowhead.com/forever/guide/reputation/gelkis-clan-centaur-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "reputation:gelkis-clan-centaur-quests-quartermaster-rewards"
+      ],
+      "source_hashes": [
+        "section:04b10a007b5a2d730986b093798b86dc3d5fcb03",
+        "section:c1b24e8d0e8dc5474998c51b36bc90cdfff06e4d"
+      ]
+    },
+    {
+      "id": "comercio-subir-reputacion-magram",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Subir reputación con Magram",
+      "title_en": "Gaining Magram Reputation",
+      "summary_es": "Matar Gelkis o hacer una misión inicial abre las misiones y entregas repetibles de Magram.",
+      "summary_en": "Killing Gelkis or completing an initial quest unlocks Magram quests and repeatable turn-ins.",
+      "keywords_es": [
+        "subir reputación Magram",
+        "misiones de Magram",
+        "Tótem de los centauros tallado",
+        "Amistad comprada: Magram",
+        "centauros en Desolace"
+      ],
+      "keywords_en": [
+        "raise Magram reputation",
+        "Magram quests",
+        "Carved Centaur Totem",
+        "Buying Friendship: Magram",
+        "centaurs in Desolace"
+      ],
+      "text_es": "Los miembros del Centauro del clan Magram están junto a un lago del sureste de Desolace y empiezas en Neutral. Puedes alcanzar Amistoso matando a miembros de la facción Centauro del clan Gelkis o completando Amistad comprada: Magram; esta misión desbloquea la entrega repetible de Tótem de los centauros tallados. Completa las misiones disponibles en Amistoso y Honorable y entrega tótems para avanzar hasta Exaltado.",
+      "text_en": "Magram Clan Centaur is by a lake in southeast Desolace, and you start at Neutral. You can reach Friendly by killing Gelkis centaurs or completing Buying Friendship: Magram; that quest unlocks a repeatable Carved Centaur Totem turn-in. Complete the quests available at Friendly and honored, then turn in totems to progress to Exalted.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Magram Clan Centaur Reputation Guide - WoW: Forever › Magram Clan Centaur Location in Forever",
+          "url": "https://www.wowhead.com/forever/guide/reputation/magram-clan-centaur-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Magram Clan Centaur Reputation Guide - WoW: Forever › Unlocking Magram Clan Centaur in Forever",
+          "url": "https://www.wowhead.com/forever/guide/reputation/magram-clan-centaur-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Magram Clan Centaur Reputation Guide - WoW: Forever › Best Way to Farm Magram Clan Centaur Reputation",
+          "url": "https://www.wowhead.com/forever/guide/reputation/magram-clan-centaur-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "reputation:magram-clan-centaur-quests-quartermaster-rewards"
+      ],
+      "source_hashes": [
+        "section:65933059f5b5cc697bca2655a0d7c1ca7f44d564",
+        "section:b8ee87fcd5beef60806a0bb355df68ff82bdc482",
+        "section:bc32aec32a9ef23eff651783b3061c360390dc87"
+      ]
+    },
+    {
+      "id": "comercio-recompensas-magram",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Recetas del intendente Magram",
+      "title_en": "Magram Quartermaster Recipes",
+      "summary_es": "El intendente Magram vende recetas de tres oficios en Honorable por tótems.",
+      "summary_en": "The Magram quartermaster sells recipes for three professions at Honored for totems.",
+      "keywords_es": [
+        "intendente Magram",
+        "recompensas Magram",
+        "recetas de Alquimia",
+        "recetas de Herrería",
+        "recetas de Ingeniería"
+      ],
+      "keywords_en": [
+        "Magram quartermaster",
+        "Magram rewards",
+        "Alchemy recipes",
+        "Blacksmithing recipes",
+        "Engineering recipes"
+      ],
+      "text_es": "El intendente Magram vende recetas de Alquimia, diseños de Herrería y esquemas de Ingeniería en Honorable, por 15 Tótems de los centauros tallados cada uno. Elegir a Magram facilita conseguir esas recetas: las de Encantamiento, Peletería y Sastrería requieren Exaltado y cuestan 60 tótems.",
+      "text_en": "The Magram quartermaster sells Alchemy recipes, Blacksmithing plans, and Engineering schematics at Honored for 15 Carved Centaur Totems each. Those recipes are easier to obtain with this faction; Enchanting, Leatherworking, and Tailoring recipes require Exalted and cost 60 totems.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Magram Clan Centaur Reputation Guide - WoW: Forever › Should You Pick Magram or Gelkis in Forever?",
+          "url": "https://www.wowhead.com/forever/guide/reputation/magram-clan-centaur-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Magram Clan Centaur Reputation Guide - WoW: Forever › Quartermaster Vendor",
+          "url": "https://www.wowhead.com/forever/guide/reputation/magram-clan-centaur-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "reputation:magram-clan-centaur-quests-quartermaster-rewards"
+      ],
+      "source_hashes": [
+        "section:4b39b706aaea731309f570d0c251f172e4216798",
+        "section:831d649e7cb46aba7e8f3551a0cefce76299c82b"
+      ]
+    },
+    {
+      "id": "comercio-recompensas-finales-centauros",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Armas de las misiones finales centauro",
+      "title_en": "Centaur Final Quest Weapons",
+      "summary_es": "La misión final de cada clan permite elegir una de tres armas o piezas de mano izquierda.",
+      "summary_en": "Each clan's final quest lets you choose one of three weapons or off-hands.",
+      "keywords_es": [
+        "recompensa final Gelkis",
+        "recompensa final Magram",
+        "armas de los centauros",
+        "Cachiporra de virtudes traicionadas",
+        "Gran bastón de los necrokhanes"
+      ],
+      "keywords_en": [
+        "Gelkis final reward",
+        "Magram final reward",
+        "centaur weapons",
+        "Bludgeon of Betrayed Virtues",
+        "Greatstaff of the Necrokhans"
+      ],
+      "text_es": "La misión final Gelkis permite elegir Efigie tres veces maldita, Ferocidad abandonada o Cachiporra de virtudes traicionadas. La de Magram ofrece Armamento Magram saqueado, Gran bastón de los necrokhanes o Maza machacalmas.",
+      "text_en": "The Gelkis final quest offers a choice of Thrice-Damned Effigy, Abandoned Ferocity, or Bludgeon of Betrayed Virtues. The Magram quest offers Scavenged Magram Armament, Greatstaff of the Necrokhans, or Soulsplatter Mace.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Gelkis Clan Centaur Reputation Guide - WoW: Forever › Should You Pick Gelkis or Magram in Forever?",
+          "url": "https://www.wowhead.com/forever/guide/reputation/gelkis-clan-centaur-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Magram Clan Centaur Reputation Guide - WoW: Forever › Should You Pick Magram or Gelkis in Forever?",
+          "url": "https://www.wowhead.com/forever/guide/reputation/magram-clan-centaur-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "reputation:gelkis-clan-centaur-quests-quartermaster-rewards",
+        "reputation:magram-clan-centaur-quests-quartermaster-rewards"
+      ],
+      "source_hashes": [
+        "section:04b10a007b5a2d730986b093798b86dc3d5fcb03",
+        "section:831d649e7cb46aba7e8f3551a0cefce76299c82b"
+      ]
+    },
+    {
+      "id": "comercio-ubicacion-garranoche",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Dónde están los druidas Garranoche",
+      "title_en": "Where to Find the Nightclaw Druids",
+      "summary_es": "Los Druidas Garranoche viven en una cueva al noreste de la Isla de Zephras.",
+      "summary_en": "The Nightclaw Druids live in a cave in northeast Zephras Isle.",
+      "keywords_es": [
+        "Druidas Garranoche",
+        "reputación Garranoche",
+        "cueva Garranoche",
+        "Isla de Zephras",
+        "misión Un silencio inquietante"
+      ],
+      "keywords_en": [
+        "Nightclaw Druids",
+        "Nightclaw reputation",
+        "Nightclaw cave",
+        "Zephras Isle",
+        "Unnerving Silence quest"
+      ],
+      "text_es": "Los Druidas Garranoche son una facción neutral en el noreste de la Isla de Zephras. Lotheluum Brisa Estelar, en Valanaar, ofrece Un silencio inquietante, que te lleva hasta Elegael Pataespina, cerca de la cueva; allí comienzan más misiones de la facción.",
+      "text_en": "The Nightclaw Druids are a neutral faction in northeast Zephras Isle. Lotheluum Starbreeze in Valanaar offers Unnerving Silence, which sends you to Elegael Thornpaw near the cave; more faction quests begin there.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Nightclaw Druids Reputation Guide - WoW: Forever › Nightclaw Druids Location in Forever",
+          "url": "https://www.wowhead.com/forever/guide/reputation/nightclaw-druids-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Nightclaw Druids Reputation Guide - WoW: Forever › Unlocking Nightclaw Druids in Forever",
+          "url": "https://www.wowhead.com/forever/guide/reputation/nightclaw-druids-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "reputation:nightclaw-druids-quests-quartermaster-rewards"
+      ],
+      "source_hashes": [
+        "section:14d04258c4228b99708673c5b392809d7386cb8f",
+        "section:566c532395d962505bca61363fb8d59c3207f9ff"
+      ]
+    },
+    {
+      "id": "comercio-subir-reputacion-garranoche",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Subir reputación Garranoche",
+      "title_en": "Gaining Nightclaw Reputation",
+      "summary_es": "Tras las misiones iniciales, entrega orejas Al'Aketh en una misión repetible por reputación.",
+      "summary_en": "After the initial quests, turn in Al'Aketh ears for reputation through a repeatable quest.",
+      "keywords_es": [
+        "subir reputación Garranoche",
+        "Más orejas Al'Aketh",
+        "Oreja de cultor Al'Aketh",
+        "misiones repetibles Garranoche",
+        "reputación Amistosa Garranoche"
+      ],
+      "keywords_en": [
+        "raise Nightclaw reputation",
+        "More Al'Aketh Ears",
+        "Al'Aketh Cultist's Ear",
+        "repeatable Nightclaw quests",
+        "Nightclaw Friendly reputation"
+      ],
+      "text_es": "Completar todas las misiones no repetibles deja la reputación aproximadamente a un tercio del rango Amistoso; después, solo se progresa con una misión repetible. Entrega 5 Orejas de cultor Al'Aketh en Más orejas Al'Aketh para obtener 200 p. de reputación.",
+      "text_en": "Completing all non-repeatable quests puts reputation about one third of the way into Friendly; after that, progress comes only from a repeatable quest. Turn in 5 ears for More Al'Aketh Ears to gain 200 reputation.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Nightclaw Druids Reputation Guide - WoW: Forever › Farming Nightclaw Druids Reputation in Forever",
+          "url": "https://www.wowhead.com/forever/guide/reputation/nightclaw-druids-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Nightclaw Druids Reputation Guide - WoW: Forever › Best Way to Farm Nightclaw Druids Reputation",
+          "url": "https://www.wowhead.com/forever/guide/reputation/nightclaw-druids-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "reputation:nightclaw-druids-quests-quartermaster-rewards"
+      ],
+      "source_hashes": [
+        "section:00180668ee194a7a4ef86b8ce64b2e812fd3696e",
+        "section:41f2d4952cc488f51b8e5758a27b1524ec0b6e68"
+      ]
+    },
+    {
+      "id": "comercio-recompensas-garranoche",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Recompensas Garranoche",
+      "title_en": "Nightclaw Rewards",
+      "summary_es": "Vayn Miraluna vende recetas en rangos bajos y artículos cosméticos en los superiores.",
+      "summary_en": "Vayn Moongaze sells recipes at lower ranks and cosmetics at higher ranks.",
+      "keywords_es": [
+        "recompensas Garranoche",
+        "intendente Garranoche",
+        "recetas Garranoche",
+        "Ardilla ventosombra",
+        "Vayn Miraluna"
+      ],
+      "keywords_en": [
+        "Nightclaw rewards",
+        "Nightclaw quartermaster",
+        "Nightclaw recipes",
+        "Shadowgale Squirrel",
+        "Vayn Moongaze"
+      ],
+      "text_es": "Vayn Miraluna sirve de intendente y vende recetas de Herrería, Sastrería y Peletería en Amistoso y Honorable. En Reverenciado y Exaltado ofrece recompensas cosméticas; entre ellas, la Ardilla ventosombra está disponible en Reverenciado.",
+      "text_en": "Vayn Moongaze serves as quartermaster and sells Blacksmithing, Tailoring, and Leatherworking recipes at Friendly and Honored. Revered and Exalted unlock cosmetic rewards; the Shadowgale Squirrel is available at Revered.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Nightclaw Druids Reputation Guide - WoW: Forever › Quartermaster Vendor",
+          "url": "https://www.wowhead.com/forever/guide/reputation/nightclaw-druids-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "reputation:nightclaw-druids-quests-quartermaster-rewards"
+      ],
+      "source_hashes": [
+        "section:a5762c0b5d8b9fff169c5444ef91480ccd0af8af"
+      ]
+    },
+    {
+      "id": "comercio-ubicacion-shendralar",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Dónde encontrar a los Shen'dralar",
+      "title_en": "Where to Find the Shen'dralar",
+      "summary_es": "La facción está en la biblioteca de La Masacre y no tiene intendente propiamente dicho.",
+      "summary_en": "The faction is in Dire Maul's library and has no quartermaster as such.",
+      "keywords_es": [
+        "ubicación Shen'dralar",
+        "biblioteca de La Masacre",
+        "Athenaeum Shen'dralar",
+        "acceso a los Shen'dralar",
+        "Llave creciente"
+      ],
+      "keywords_en": [
+        "Shen'dralar location",
+        "Dire Maul library",
+        "Shen'dralar Athenaeum",
+        "access the Shen'dralar",
+        "Crescent Key"
+      ],
+      "text_es": "Los Shen'dralar habitan la biblioteca Athenaeum de La Masacre; se puede llegar desde las alas oeste o norte. No tienen intendente propiamente dicho. La Llave creciente abre cualquiera de las dos entradas, aunque también sirven otros métodos.",
+      "text_en": "The Shen'dralar live in the Athenaeum library in Dire Maul and can be reached from the West or North wings. They have no quartermaster as such. The Crescent Key opens either entrance, though other methods also work.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shen'dralar Reputation Faction:  Location, Quests and Rewards › Shen'dralar Location in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/reputation/shendralar-reputation-faction-location-rewards",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "reputation:shendralar-reputation-faction-location-rewards"
+      ],
+      "source_hashes": [
+        "section:6249c8546af75cf74e5cce3015c7826338b42d17"
+      ]
+    },
+    {
+      "id": "comercio-subir-reputacion-shendralar",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Subir reputación Shen'dralar",
+      "title_en": "Gaining Shen'dralar Reputation",
+      "summary_es": "La reputación se obtiene entregando libros y librams mediante misiones en la biblioteca.",
+      "summary_en": "Reputation comes from turning in books and librams through quests at the library.",
+      "keywords_es": [
+        "subir reputación Shen'dralar",
+        "libro de clase Shen'dralar",
+        "reputación por librams",
+        "Arcano de Concentración",
+        "misiones Shen'dralar"
+      ],
+      "keywords_en": [
+        "raise Shen'dralar reputation",
+        "Shen'dralar class book",
+        "libram reputation",
+        "Arcanum of Focus",
+        "Shen'dralar quests"
+      ],
+      "text_es": "La reputación Shen'dralar se consigue mediante misiones entregadas en la biblioteca, no matando enemigos. Entregar el libro de clase da 500 p. una vez por personaje; cada libram para un Arcano da 200 p. y cada libro de Malla de placas de torio encantado, otros 200 p.",
+      "text_en": "Shen'dralar reputation comes from quests turned in at the library, not from killing enemies. Turning in a Class Book grants 500 reputation once per character; each libram for an Arcanum grants 200, and each Enchanted Thorium Platemail book grants another 200.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shen'dralar Reputation Faction:  Location, Quests and Rewards › How to Earn Shen'dralar Reputation in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/reputation/shendralar-reputation-faction-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shen'dralar Reputation Faction:  Location, Quests and Rewards › Royal Seal of Eldre'Thalas Class Trinkets",
+          "url": "https://www.wowhead.com/forever/guide/reputation/shendralar-reputation-faction-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shen'dralar Reputation Faction:  Location, Quests and Rewards › Librams and Arcanum Enchantments",
+          "url": "https://www.wowhead.com/forever/guide/reputation/shendralar-reputation-faction-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shen'dralar Reputation Faction:  Location, Quests and Rewards › Enchanted Thorium Blacksmithing Plans",
+          "url": "https://www.wowhead.com/forever/guide/reputation/shendralar-reputation-faction-location-rewards",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "reputation:shendralar-reputation-faction-location-rewards"
+      ],
+      "source_hashes": [
+        "section:25e7a8a1073079379bcc9dcd975c45b34acd963d",
+        "section:36beb7f20fda6b03a16441153cf32849c41f9023",
+        "section:6111b574c138e662972a0721bdc7ab28011502db",
+        "section:9e47bf030d6b1da063be61d0c05a8b6b9a95bd5b"
+      ]
+    },
+    {
+      "id": "comercio-recompensas-shendralar",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Recompensas Shen'dralar",
+      "title_en": "Shen'dralar Rewards",
+      "summary_es": "Los libros de clase dan un abalorio y el proveedor vende un patrón de toga de tela lunar.",
+      "summary_en": "Class books grant a trinket, and the provisioner sells a Mooncloth robe pattern.",
+      "keywords_es": [
+        "recompensas Shen'dralar",
+        "Lacre real de Eldre'Thalas",
+        "Proveedor Shen'dralar",
+        "Patrón: toga de tela lunar",
+        "abalorio de clase"
+      ],
+      "keywords_en": [
+        "Shen'dralar rewards",
+        "Royal Seal of Eldre'Thalas",
+        "Shen'dralar Provisioner",
+        "Pattern: Mooncloth Robe",
+        "class trinket"
+      ],
+      "text_es": "Un libro para cada clase inicia una misión breve que recompensa con un Lacre real de Eldre'Thalas, un abalorio con Resistencia al Fuego y atributos adaptados a esa clase. El Proveedor Shen'dralar también vende el Patrón: toga de tela lunar en cantidades limitadas; no hace falta una misión para comprarlo.",
+      "text_en": "A book for each class starts a short quest that rewards a Royal Seal of Eldre'Thalas, a trinket with Fire Resistance and class-tailored stats. The Shen'dralar Provisioner also sells the Pattern: Mooncloth Robe in limited supply; no quest is required to buy it.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shen'dralar Reputation Faction:  Location, Quests and Rewards › Royal Seal of Eldre'Thalas Class Trinkets",
+          "url": "https://www.wowhead.com/forever/guide/reputation/shendralar-reputation-faction-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Shen'dralar Reputation Faction:  Location, Quests and Rewards › Mooncloth Robe Tailoring Pattern",
+          "url": "https://www.wowhead.com/forever/guide/reputation/shendralar-reputation-faction-location-rewards",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "reputation:shendralar-reputation-faction-location-rewards"
+      ],
+      "source_hashes": [
+        "section:25e7a8a1073079379bcc9dcd975c45b34acd963d",
+        "section:ac406bba4118f36bf43877ef992e6203ef5a8b9e"
+      ]
+    },
+    {
+      "id": "comercio-ubicacion-fauces-madera",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Dónde está el Bastión de los Fauces de Madera",
+      "title_en": "Where to Find Timbermaw Hold",
+      "summary_es": "La facción ocupa una cueva que conecta Frondavil, Claro de la Luna y Cuna del Invierno.",
+      "summary_en": "The faction occupies a cave connecting Felwood, Moonglade, and Winterspring.",
+      "keywords_es": [
+        "Bastión de los Fauces de Madera",
+        "ubicación Fauces de Madera",
+        "cueva Fauces de Madera",
+        "Frondavil",
+        "Cuna del Invierno"
+      ],
+      "keywords_en": [
+        "Timbermaw Hold location",
+        "Timbermaw Hold cave",
+        "Timbermaw faction location",
+        "Felwood",
+        "Winterspring"
+      ],
+      "text_es": "El Bastión de los Fauces de Madera ocupa una cueva entre Frondavil, Claro de la Luna y Cuna del Invierno. El intendente está en el cruce de las tres ramas; al principio, los furbolgs de la cueva pueden atacarte si aún no has ganado reputación suficiente.",
+      "text_en": "Timbermaw Hold occupies a cave between Felwood, Moonglade, and Winterspring. The quartermaster is at the junction of its three branches; at first, the cave's furbolgs may attack you until you gain enough reputation.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Timbermaw Hold Location in Forever",
+          "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Unlocking Timbermaw Hold in Forever",
+          "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "reputation:timbermaw-hold-quests-quartermaster-rewards"
+      ],
+      "source_hashes": [
+        "section:04b7f9d98989b301f2c1e3c9621b7e0894ca7197",
+        "section:651116ffb2fceb87cea1cb0c2c787f8b039da710"
+      ]
+    },
+    {
+      "id": "comercio-subir-reputacion-fauces-madera",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Subir reputación Fauces de Madera",
+      "title_en": "Gaining Timbermaw Reputation",
+      "summary_es": "Completa las misiones iniciales, mata furbolgs y entrega plumas o cuentas repetidamente.",
+      "summary_en": "Complete the initial quests, kill furbolgs, and repeatedly turn in feathers or beads.",
+      "keywords_es": [
+        "subir reputación Fauces de Madera",
+        "Pluma de penacho Muertobosque",
+        "Cuentas de Espíritu Nevada",
+        "misiones repetibles Fauces de Madera",
+        "reputación Exaltado Fauces de Madera"
+      ],
+      "keywords_en": [
+        "raise Timbermaw reputation",
+        "Deadwood Headdress Feather",
+        "Winterfall Spirit Beads",
+        "repeatable Timbermaw quests",
+        "Timbermaw Exalted reputation"
+      ],
+      "text_es": "Empiezas en Odio. Completa las misiones iniciales y mata furbolgs de otras tribus en Frondavil y Cuna del Invierno; al avanzar desbloquearás entregas repetibles. Las misiones Plumas para Grazle, Plumas para Nafien y Cuentas para Salfa aceptan 5 objetos y dan 50 p. cada una. Si buscas Exaltado, guarda las Plumas de penacho Muertobosque y las Cuentas de Espíritu Nevada hasta Reverenciado.",
+      "text_en": "You start at Hated. Complete the introductory quests and kill furbolgs from other tribes in Felwood and Winterspring; progress unlocks repeatable turn-ins. Feathers for Grazle, Feathers for Nafien, and Beads for Salfa each accept 5 items and grant 50 reputation. If aiming for Exalted, save Deadwood Headdress Feathers and Winterfall Spirit Beads until Revered.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Farming Timbermaw Hold Reputation in Forever",
+          "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Reputation Gains from Quests in Felwood and Winterspring",
+          "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Best Way to Farm Timbermaw Hold Reputation",
+          "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "reputation:timbermaw-hold-quests-quartermaster-rewards"
+      ],
+      "source_hashes": [
+        "section:00fc1d6efec72a9a3f142b0c7e3128f878792a9f",
+        "section:74bcfb4144646f3423669e0bff2a68fa14aefbf5",
+        "section:7c0d93590a78b640831f4fd9af28960d10c63d22"
+      ]
+    },
+    {
+      "id": "comercio-recompensas-fauces-madera",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Vendedores y objetos Fauces de Madera",
+      "title_en": "Timbermaw Vendors and Items",
+      "summary_es": "Los vendedores ofrecen patrones de oficio y objetos fúrbolg desde Amistoso hasta Reverenciado.",
+      "summary_en": "The vendors offer profession patterns and furbolg items from Friendly through Revered.",
+      "keywords_es": [
+        "recompensas Fauces de Madera",
+        "recetas del intendente Fauces de Madera",
+        "Faltriquera de medicinas fúrbolg",
+        "Tótem medicinal fúrbolg",
+        "Patrón: arnés de oso de guerra"
+      ],
+      "keywords_en": [
+        "Timbermaw rewards",
+        "Timbermaw quartermaster recipes",
+        "Furbolg Medicine Pouch",
+        "Furbolg Medicine Totem",
+        "Pattern: Warbear Harness"
+      ],
+      "text_es": "El vendedor de recetas ofrece, desde Amistoso, Receta: transmutar tierra a agua y Patrón: arnés de oso de guerra; en Honorable vende Fórmula: encantar arma: agilidad, y en Reverenciado, Patrón: manto de los Fauces de Madera. Otro vendedor, disponible desde Honorable, tiene la Faltriquera de medicinas fúrbolg y el Tótem medicinal fúrbolg.",
+      "text_en": "The recipe vendor offers Recipe: Transmute Earth to Water and Pattern: Warbear Harness starting at Friendly; at Honored, it sells Formula: Enchant Weapon - Agility, and at Revered, Pattern: Mantle of the Timbermaw. A second vendor has the Furbolg Medicine Pouch and Furbolg Medicine Totem starting at Honored.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Timbermaw Hold Vendors in Forever",
+          "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "reputation:timbermaw-hold-quests-quartermaster-rewards"
+      ],
+      "source_hashes": [
+        "section:7e041553ab97438c0c4b7bc189f3491e24ca1c49"
+      ]
+    },
+    {
+      "id": "comercio-abalorio-fauces-madera",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Abalorio de los Fauces de Madera",
+      "title_en": "Timbermaw Trinket",
+      "summary_es": "Al llegar a Exaltado, una misión difícil recompensa un abalorio y más reputación.",
+      "summary_en": "At Exalted, a difficult quest rewards a trinket and more reputation.",
+      "keywords_es": [
+        "Defensor de los Fauce de Madera",
+        "La raíz de todos los males",
+        "recompensa Exaltado Fauces de Madera",
+        "abalorio Fauces de Madera",
+        "misión final Fauces de Madera"
+      ],
+      "keywords_en": [
+        "Defender of the Timbermaw",
+        "The Root of All Evil",
+        "Timbermaw Exalted reward",
+        "Timbermaw trinket",
+        "Timbermaw final quest"
+      ],
+      "text_es": "Al alcanzar Exaltado, Monóculo de Gorn ofrece La raíz de todos los males. Derrotar al demonio de élite de nivel 62 completa la difícil misión y otorga el abalorio Defensor de los Fauce de Madera y 500 p. de reputación; probablemente necesitarás un grupo.",
+      "text_en": "At exalted, Gorn One Eye offers The Root of All Evil. Defeating the level 62 elite demon completes the difficult quest and grants the Defender of the Timbermaw trinket and 500 reputation; you will likely need a group.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Reputation Gains from Quests in Felwood and Winterspring",
+          "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › The Defender of the Timbermaw Trinket in Forever",
+          "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+          "date": "2026-11-16"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "reputation:timbermaw-hold-quests-quartermaster-rewards"
+      ],
+      "source_hashes": [
+        "section:00fc1d6efec72a9a3f142b0c7e3128f878792a9f",
+        "section:5f8296f550758fd42c191305ffa743f320439983"
+      ]
     }
   ]
 }
