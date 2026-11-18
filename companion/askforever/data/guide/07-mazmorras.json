@@ -8795,6 +8795,780 @@
         "section:35a58e82f37ac27ee6cfc888ca849aceb9234dec",
         "section:fe7586bfc20030b3396e7626e4be39bd5b56f9f8"
       ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Cumbre de Roca Negra inferior: nivel y entrada",
+      "title_en": "Lower Blackrock Spire: Level and Entrance",
+      "summary_es": "Recomendada para niveles 55-60; el acceso está en Montaña Roca Negra.",
+      "summary_en": "Recommended for levels 55-60; the entrance is in Blackrock Mountain.",
+      "keywords_es": [
+        "Cumbre de Roca Negra inferior",
+        "LBRS",
+        "entrada de Cumbre de Roca Negra",
+        "nivel de Cumbre de Roca Negra"
+      ],
+      "keywords_en": [
+        "lower blackrock spire",
+        "LBRS entrance",
+        "lower blackrock spire level",
+        "blackrock mountain dungeon"
+      ],
+      "text_es": "Cumbre de Roca Negra inferior (LBRS) se recomienda para niveles 55-60 y está en Montaña Roca Negra. La Alianza puede volar a Puesto del Torio o Vigilia de Morgan; la Horda, a Kargath, Puesto del Torio o Peñasco Llamarada. Desde la entrada común, toma la rampa derecha del puente para llegar a LBRS; la izquierda conduce a la parte superior.",
+      "text_en": "Lower Blackrock Spire (LBRS) is recommended for levels 55-60 and lies in Blackrock Mountain. Alliance can fly to Thorium Point or Morgan’s Vigil; Horde can fly to Kargath, Thorium Point, or Flame Crest. From the shared entrance, take the bridge’s right ramp for LBRS; the left leads to the upper dungeon.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Lower Blackrock Spire Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Lower Blackrock Spire in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:18a80ee19e8c52f4910af53845c7be97bb40040d",
+        "section:696af7405429746336a7bfa4478d6d966b99356c"
+      ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones recomendables de Cumbre de Roca Negra inferior",
+      "title_en": "Recommended Lower Blackrock Spire Quests",
+      "summary_es": "Recoge en Kargath las cadenas de Horda; Kibler y John Andrajoso ofrecen objetivos para ambas facciones.",
+      "summary_en": "Pick up Horde chains in Kargath; Kibler and Ragged John offer objectives for both factions.",
+      "keywords_es": [
+        "misiones de LBRS",
+        "La orden del Señor de la Guerra",
+        "La espía Bijou",
+        "Bestia amaestrada",
+        "La leche de la madre"
+      ],
+      "keywords_en": [
+        "LBRS quests",
+        "Warlord’s Command",
+        "Operative Bijou",
+        "En-Ay-Es-Tee-Why",
+        "Mother’s Milk"
+      ],
+      "text_es": "Antes de entrar, la Horda puede recoger La orden del Señor de la Guerra, La espía Bijou y La maestra de la manada en Kargath. Para ambas facciones, Kibler en Las Estepas Ardientes ofrece Bestia amaestrada y Las mascotas exótica de Kibler; John Andrajoso, también allí, da La leche de la madre. La Alianza puede aceptar Acaba con el origen de la amenaza con Helendis Rivacuerno en Las Estepas Ardientes. El Lacre de ascensión sin adornar inicia otra misión, El Sello de ascensión, al obtenerse dentro de la mazmorra.",
+      "text_en": "Before entering, Horde can pick up Warlord’s Command, Operative Bijou, and The Pack Mistress in Kargath. For either faction, Kibler in the Burning Steppes offers En-Ay-Es-Tee-Why and Kibler’s Exotic Pets; Ragged John, also there, gives Mother’s Milk. Alliance can accept Put Her Down from Helendis Riverhorn in the Burning Steppes. An unadorned seal can start Seal of Ascension after you find it inside the dungeon.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Pack Mistress (H)",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Operative Bijou (H)",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Warlord's Command (H)",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Put Her Down (A)",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › En-Ay-Es-Tee-Why",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Kibler's Exotic Pets",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Mother's Milk",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Seal of Ascension",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "guide:d7c9a58af950a2bffad44fbc49802012c49ea5cd",
+        "section:6aed89a5230d03f08a9b6c560c6d1960d05d73f7"
+      ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de Cumbre de Roca Negra inferior",
+      "title_en": "Lower Blackrock Spire Rewards",
+      "summary_es": "Las misiones ofrecen equipo a elegir; destacan objetos de jefes como Corazón de Vermisthalak.",
+      "summary_en": "Quests offer gear choices; notable boss drops include items such as Heart of Wyrmthalak.",
+      "keywords_es": [
+        "recompensas LBRS",
+        "botín de Cumbre de Roca Negra inferior",
+        "Corazón de Vermisthalak",
+        "Marca del Señor Dragón"
+      ],
+      "keywords_en": [
+        "LBRS rewards",
+        "lower blackrock spire loot",
+        "Heart of Wyrmthalak",
+        "Mark of the Dragon Lord"
+      ],
+      "text_es": "Las misiones ofrecen equipo, como los objetos a elegir de La misión de Maxwell. Entre los botines destacados están el Corazón de Vermisthalak y la Marca del Señor Dragón de Señor supremo Vermiothalak, además del Diseño: segadora de arcanita de Bannok Hachamacabra. Son ejemplos, no la lista completa de botín.",
+      "text_en": "Quests offer gear, including the choice of items from Maxwell’s Mission. Notable drops include Heart of Wyrmthalak and Mark of the Dragon Lord from Overlord Wyrmthalak, as well as Plans: Arcanite Reaper from Bannok Grimaxe. These are examples, not the complete loot list.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Best Quest Rewards",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Lower Blackrock Spire Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Mor Grayhoof",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Bannok Grimaxe <Firebrand Legion Champion> (Rare)",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:0a80801b12952331abb7a5c35cc345b826026e55",
+        "section:7a4aff812952bf57ab69f8ed05ec7ffcb902677f",
+        "section:985e47cb3fae11b7c78177ecf5fd855dc6986b58",
+        "section:af1cf8a1ef93749ab23fa0f64b113ae4234df9e7"
+      ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-spirestone-carnicero",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Carnicero Cumbrerroca",
+      "title_en": "Spirestone Butcher",
+      "summary_es": "Este ogro de élite de nivel 57 aparece en la ruta hacia Omokk.",
+      "summary_en": "This level-57 elite ogre appears on the route to Omokk.",
+      "keywords_es": [
+        "Carnicero Cumbrerroca",
+        "Spirestone Butcher",
+        "jefe raro de LBRS",
+        "Delantal de carnicero"
+      ],
+      "keywords_en": [
+        "Spirestone Butcher",
+        "LBRS rare boss",
+        "Butcher’s Apron",
+        "Rivenspike"
+      ],
+      "text_es": "Carnicero Cumbrerroca es un ogro de élite de nivel 57. Sigue despejando el pasillo hacia la cámara de Alto Señor Omokk; en el grupo anterior al jefe puede aparecer el raro Señor de batalla Cumbrerroca. Entre los objetos asociados al Carnicero están el Delantal de carnicero y la Puafilada.",
+      "text_en": "Spirestone Butcher is a level-57 elite ogre. Continue along the passage; the rare Spirestone Battle Lord may appear in the group before the boss. Loot examples are Butcher’s Apron and Rivenspike.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Spirestone Butcher (Rare)",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Lower Blackrock Spire Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:0311a9e6e9307af8ab94261f75d11a8ea8026bbf",
+        "section:0a80801b12952331abb7a5c35cc345b826026e55"
+      ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-senor-de-batalla-cumbrerroca",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Señor de batalla Cumbrerroca",
+      "title_en": "Spirestone Battle Lord",
+      "summary_es": "Si aparece con dos lanzadores, elimínalos primero o mantenlos bajo control.",
+      "summary_en": "If he spawns with two casters, kill or control them first.",
+      "keywords_es": [
+        "Señor de batalla Cumbrerroca",
+        "Spirestone Battle Lord",
+        "jefe raro LBRS",
+        "Botas de batalla Dardoveloz"
+      ],
+      "keywords_en": [
+        "Spirestone Battle Lord",
+        "LBRS rare boss strategy",
+        "casters in LBRS",
+        "Spirestone Battle Lord loot"
+      ],
+      "text_es": "Señor de batalla Cumbrerroca puede aparecer en la sala cercana a Alto Señor Omokk acompañado de dos lanzadores. El grupo suele acabar primero con ellos o controlarlos; el tanque debe mantener la amenaza sobre el jefe antes de que el resto ataque. Entre sus objetos notables están las Botas de batalla Dardoveloz y La Cercenadora de Roca Negra.",
+      "text_en": "Spirestone Battle Lord can spawn in the room near Highlord Omokk with two casters. The group usually kills or controls them first; the tank should establish threat on the boss before the others attack. Notable items include Swiftdart Battleboots and The Blackrock Slicer.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Spirestone Battle Lord (Rare)",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Lower Blackrock Spire Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:0a80801b12952331abb7a5c35cc345b826026e55",
+        "section:bfb0c946279d79999eab20c412882994a63b8c33"
+      ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-alto-senor-omokk",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Alto Señor Omokk",
+      "title_en": "Highlord Omokk",
+      "summary_es": "Controla a sus dos ogros y mantén al jefe de espaldas a una pared por su empujón.",
+      "summary_en": "Control his two ogres and keep the boss backed against a wall to handle his knockback.",
+      "keywords_es": [
+        "Alto Señor Omokk",
+        "jefe Omokk",
+        "Mamporro de Omokk",
+        "estrategia LBRS"
+      ],
+      "keywords_en": [
+        "Highlord Omokk",
+        "Omokk boss",
+        "Knock Away",
+        "LBRS strategy"
+      ],
+      "text_es": "Alto Señor Omokk combate junto a dos ogros: controla al menos a uno y decide si eliminar primero al otro. El tanque debe darle la espalda a una pared para evitar que Mamporro lo lance lejos; vigila también su Enfurecer. Su cabeza sirve, junto con una Pica despiadada, para invocar a Urok Aullapocalipsis.",
+      "text_en": "Highlord Omokk faces the group with two ogres at his side. Control at least one and decide whether to kill the other first. The tank should keep its back to a wall against Knock Away and watch for Enrage. His head combines with a Roughshod Pike to summon Urok.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Highlord Omokk",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:e841f5a94b91e1db68c933231a6c54dacafe65a9"
+      ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-cazador-de-las-sombras-voshgajin",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Cazador de las Sombras Vosh’gajin",
+      "title_en": "Shadow Hunter Vosh’gajin",
+      "summary_es": "Controla a sus acompañantes y aparta al jefe para limitar Maleficio.",
+      "summary_en": "Control her companions and pull the boss away to limit Hex.",
+      "keywords_es": [
+        "Cazador de las Sombras Vosh’gajin",
+        "Vosh’gajin LBRS",
+        "Maleficio",
+        "Maldición de sangre"
+      ],
+      "keywords_en": [
+        "Shadow Hunter Vosh’gajin",
+        "Vosh’gajin LBRS",
+        "Hex",
+        "Curse of Blood"
+      ],
+      "text_es": "Cazador de las Sombras Vosh’gajin va acompañada de dos Sacerdotes de las Sombras Espina Ahumada. Controla a uno y elimina primero a los sacerdotes; aleja a Vosh’gajin del grupo porque Maleficio puede afectar a varios personajes. Un Mago o Druida puede quitar Maldición de sangre.",
+      "text_en": "Two Smolderthorn Shadow Priests fight beside Shadow Hunter Vosh’gajin. Control one and defeat the priests first; draw Vosh’gajin away from the group because Hex can affect several players. A Mage or Druid can dispel the curse.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Shadow Hunter Vosh’gajin",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:5e51306cd54f50502dee8e88505056ba30095875"
+      ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-maestro-de-guerra-voone",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Maestro de guerra Voone",
+      "title_en": "War Master Voone",
+      "summary_es": "Golpea con fuerza: espera a que el tanque genere amenaza y colócalo junto a una pared.",
+      "summary_en": "He hits hard: let the tank build threat and position him by a wall.",
+      "keywords_es": [
+        "Maestro de guerra Voone",
+        "War Master Voone",
+        "Voone LBRS",
+        "Mellar de Voone"
+      ],
+      "keywords_en": [
+        "War Master Voone",
+        "Voone LBRS",
+        "Voone Cleave",
+        "LBRS boss strategy"
+      ],
+      "text_es": "Maestro de guerra Voone no tiene guardias, pero golpea con fuerza y usa Mellar. Espera a que el tanque genere amenaza antes de atacar; conviene mantenerlo junto a una pared. Si cambia de objetivo, detén el daño hasta que el tanque recupere la amenaza.",
+      "text_en": "War Master Voone has no guards, but hits hard and uses Cleave. Wait for the tank to build threat before attacking; keep him near a wall. If he changes targets, stop dealing damage until the tank regains threat.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › War Master Voone",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:73708aeff4a99789d7812707f06b6f61a7caa2c7"
+      ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-mor-ruciapezuna",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Mor Ruciapezuña",
+      "title_en": "Mor Grayhoof",
+      "summary_es": "Se invoca en la sala de Voone con el Blandón de Señalización de una misión de conjunto.",
+      "summary_en": "Summon him in Voone’s room using the Brazier of Beckoning from a tier-set quest.",
+      "keywords_es": [
+        "Mor Ruciapezuña",
+        "Mor Grayhoof",
+        "invocar a Mor Ruciapezuña",
+        "Blandón de Señalización"
+      ],
+      "keywords_en": [
+        "Mor Grayhoof",
+        "summon Mor Grayhoof",
+        "Brazier of Beckoning",
+        "LBRS boss"
+      ],
+      "text_es": "Mor Ruciapezuña se invoca en la sala del Maestro de guerra Voone usando el Blandón de Señalización, que se obtiene en una de las misiones de conjunto de nivel 0,5 que pide derrotarlo. Si no recibiste una de esas misiones, puedes invocarlo más adelante con el Blandón de Invocación, al terminar la cadena correspondiente.",
+      "text_en": "Mor Grayhoof is summoned in War Master Voone’s room with the Brazier of Beckoning, obtained from one of the tier 0.5 quests that asks you to defeat him. If you did not receive one of those quests, you can summon him later with the Brazier of Invocation after completing the corresponding quest chain.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Mor Grayhoof",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:985e47cb3fae11b7c78177ecf5fd855dc6986b58"
+      ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-bannok-hachamacabra",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Bannok Hachamacabra",
+      "title_en": "Bannok Grimaxe",
+      "summary_es": "Este raro puede aparecer antes de Madre Telabrasada y soltar el Diseño: segadora de arcanita.",
+      "summary_en": "This rare can spawn before Mother Smolderweb and drop Plans: Arcanite Reaper.",
+      "keywords_es": [
+        "Bannok Hachamacabra",
+        "Bannok Grimaxe",
+        "Diseño: segadora de arcanita",
+        "jefe raro LBRS"
+      ],
+      "keywords_en": [
+        "Bannok Grimaxe",
+        "Plans: Arcanite Reaper",
+        "LBRS rare boss",
+        "Bannok loot"
+      ],
+      "text_es": "Bannok Hachamacabra puede aparecer entre los grupos de orcos en la sala antes de Madre Telabrasada. Es un enemigo poco común buscado por la posibilidad de obtener el Diseño: segadora de arcanita.",
+      "text_en": "Bannok Grimaxe can spawn among the orc packs in the room before Mother Smolderweb. He is a rare enemy sought for the chance to obtain Plans: Arcanite Reaper.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Bannok Grimaxe <Firebrand Legion Champion> (Rare)",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:af1cf8a1ef93749ab23fa0f64b113ae4234df9e7"
+      ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-madre-telabrasada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Madre Telabrasada",
+      "title_en": "Mother Smolderweb",
+      "summary_es": "Aparta su cono frontal y vigila Leche materna, que aturde al objetivo y a quienes estén cerca.",
+      "summary_en": "Avoid her frontal cone and watch Mother’s Milk, which stuns the target and nearby players.",
+      "keywords_es": [
+        "Madre Telabrasada",
+        "Mother Smolderweb",
+        "Cristalizar",
+        "Leche materna"
+      ],
+      "keywords_en": [
+        "Mother Smolderweb",
+        "Crystallize",
+        "Mother’s Milk",
+        "LBRS spider boss"
+      ],
+      "text_es": "Madre Telabrasada lanza Cristalizar, un aturdimiento frontal en área: el tanque debe orientarla lejos del grupo. Leche materna es un veneno que aturde al objetivo y a quienes estén cerca; la Glándula de veneno de inmaduro puede curarlo. Al saquear huevos para Bestia amaestrada pueden aparecer más arañitas.",
+      "text_en": "Mother Smolderweb casts Crystallize, a frontal area stun: the tank should face her away from the group. Mother’s Milk is a poison that stuns its target and nearby players; an Immature Venom Sac can cure it. Looting eggs for En-Ay-Es-Tee-Why can spawn more spiderlings.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Mother Smolderweb",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:16d18a867433f3eda600f569fff6a2556753e984"
+      ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-colmillo-de-cristal",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Colmillor de cristal",
+      "title_en": "Crystal Fang",
+      "summary_es": "Este raro aparece en el área de arañas próxima a la guarida de Madre Telabrasada.",
+      "summary_en": "This rare spawns in the spider area near Mother Smolderweb’s lair.",
+      "keywords_es": [
+        "Colmillor de cristal",
+        "Crystal Fang",
+        "jefe raro de LBRS",
+        "Colmillo de la Araña de cristal"
+      ],
+      "keywords_en": [
+        "Crystal Fang",
+        "LBRS rare boss",
+        "Fang of the Crystal Spider",
+        "Crystal Fang location"
+      ],
+      "text_es": "Colmillor de cristal es una aparición poco común en el área de arañas de Cumbre de Roca Negra inferior. Entre sus objetos destacados está el Colmillo de la Araña de cristal.",
+      "text_en": "Crystal Fang is a rare spawn in the dungeon’s spider passages. A notable item from it is the Fang of the Crystal Spider.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Crystal Fang (Rare)",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Lower Blackrock Spire Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Mor Grayhoof",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:0a80801b12952331abb7a5c35cc345b826026e55",
+        "section:8413e277d89f04cb6437ea34f9897fa08d16d758",
+        "section:985e47cb3fae11b7c78177ecf5fd855dc6986b58"
+      ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-urok-aullapocalipsis",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Urok Aullapocalipsis",
+      "title_en": "Urok Doomhowl",
+      "summary_es": "Durante las oleadas, usa la pica para eliminar un ogro cada 30 segundos y añade control de masas.",
+      "summary_en": "During the waves, use the pike to kill one ogre every 30 seconds and add crowd control.",
+      "keywords_es": [
+        "Urok Aullapocalipsis",
+        "Urok Doomhowl",
+        "invocar a Urok",
+        "Pica despiadada"
+      ],
+      "keywords_en": [
+        "Urok Doomhowl",
+        "summon Urok",
+        "Roughshod Pike",
+        "Urok waves"
+      ],
+      "text_es": "Invoca a Urok Aullapocalipsis colocando la Cabeza de Omokk combinada con una Pica despiadada en la pila de tributo. Primero llegan varias oleadas de ogros de élite: cada 30 segundos puedes usar la pica contra un ogro para matarlo al instante, y el control ayuda a contener a los demás. Urok aparece tras las oleadas y puede usar Clamor intimidador, que provoca miedo.",
+      "text_en": "Summon Urok Doomhowl by placing Omokk’s Head combined with a Roughshod Pike on the tribute pile. Several waves of elite ogres arrive first: every 30 seconds, you can use the pike on one ogre to kill it instantly, and crowd control helps manage the others. Urok appears after the waves and can use Intimidating Roar, which causes fear.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Urok Doomhowl",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:eb582f4a5ad1d0b636388f210ebfeae248435b20"
+      ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-intendente-zigris",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Intendente Zigris",
+      "title_en": "Quartermaster Zigris",
+      "summary_es": "Patrulla por la sala tras el combate de Urok; despeja la habitación antes del siguiente jefe.",
+      "summary_en": "He patrols the room after Urok; clear the area before the next boss.",
+      "keywords_es": [
+        "Intendente Zigris",
+        "Quartermaster Zigris",
+        "Zigris LBRS",
+        "botín de Zigris"
+      ],
+      "keywords_en": [
+        "Quartermaster Zigris",
+        "Zigris LBRS",
+        "Quartermaster Zigris loot",
+        "LBRS patrol"
+      ],
+      "text_es": "Intendente Zigris patrulla por una sala después de Urok Aullapocalipsis. Despeja la habitación antes de atraer al jefe siguiente. Entre sus objetos notables están el Diseño: aniquilador y el Baúl del intendente Zigris.",
+      "text_en": "Quartermaster Zigris patrols a room after Urok Doomhowl. Clear the area before pulling the next boss. Notable drops include Plans: Annihilator and the quartermaster’s footlocker.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quartermaster Zigris",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Lower Blackrock Spire Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Mor Grayhoof",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:0a80801b12952331abb7a5c35cc345b826026e55",
+        "section:985e47cb3fae11b7c78177ecf5fd855dc6986b58",
+        "section:e5e17278619b2ff8ede4a2afb4b6cef5ba81d606"
+      ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-halycon",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Halycon",
+      "title_en": "Halycon",
+      "summary_es": "El jefe llega con cachorros de huargo: el grupo debe eliminarlos antes de centrarse en Halycon.",
+      "summary_en": "The boss comes with worg pups: kill them before focusing on Halycon.",
+      "keywords_es": [
+        "Halycon",
+        "jefe Halycon LBRS",
+        "Cachorro de huargo",
+        "Collar de pinchos de Halycon"
+      ],
+      "keywords_en": [
+        "Halycon",
+        "Halycon boss LBRS",
+        "Worg Pup",
+        "Halycon loot"
+      ],
+      "text_es": "Halycon aparece con varios esbirros de tipo Cachorro de huargo. El tanque recoge a Halycon mientras el resto los elimina; después, el grupo se centra en el jefe, que usa Desgarrar y Vapulear.",
+      "text_en": "Halycon appears with Worg Pup adds. The tank picks up Halycon while the rest defeat them; then the group focuses on the boss, who uses Rend and Thrash.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Halycon",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Lower Blackrock Spire Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:0a80801b12952331abb7a5c35cc345b826026e55",
+        "section:285982c1d0bf48103748458ee970f906983278fd"
+      ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-gizrul-el-esclavista",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Gizrul el esclavista",
+      "title_en": "Gizrul the Slavener",
+      "summary_es": "Vigila Mordida fatal, que lo cura, y Mordida infectada, que inflige daño periódico de Naturaleza.",
+      "summary_en": "Watch Fatal Bite, which heals him, and Infected Bite, which deals nature damage over time.",
+      "keywords_es": [
+        "Gizrul el esclavista",
+        "Gizrul the Slavener",
+        "Mordida fatal",
+        "Mordida infectada"
+      ],
+      "keywords_en": [
+        "Gizrul the Slavener",
+        "Fatal Bite",
+        "Infected Bite",
+        "Gizrul LBRS"
+      ],
+      "text_es": "Gizrul el esclavista golpea con fuerza. Mordida fatal lo cura y Mordida infectada causa daño de Naturaleza periódico; el tanque debe fijar la amenaza antes de que el grupo desate el daño.",
+      "text_en": "Gizrul the Slavener hits hard. Fatal Bite heals him and Infected Bite causes nature damage over time; the tank should establish threat before the group attacks.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Gizrul the Slavener",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:4d0a3340856639df6de4245a689414fc2f777da8"
+      ]
+    },
+    {
+      "id": "mazmorra-lower-blackrock-spire-senor-supremo-vermiothalak",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Señor supremo Vermiothalak",
+      "title_en": "Overlord Wyrmthalak",
+      "summary_es": "A mitad de salud invoca esbirros; contrólalos y concentra el daño en el jefe.",
+      "summary_en": "At half health he summons adds; control them and focus damage on the boss.",
+      "keywords_es": [
+        "Señor supremo Vermiothalak",
+        "Overlord Wyrmthalak",
+        "jefe final LBRS",
+        "esbirros de Vermiothalak"
+      ],
+      "keywords_en": [
+        "Overlord Wyrmthalak",
+        "final LBRS boss",
+        "Wyrmthalak adds",
+        "Wyrmthalak strategy"
+      ],
+      "text_es": "Señor supremo Vermiothalak es el jefe final de Cumbre de Roca Negra inferior. Al llegar al 50% de salud invoca esbirros; lo habitual es controlarlos y derrotar al jefe antes de ocuparse de ellos. El tanque debe mantenerlo apartado del grupo y con la espalda contra una pared.",
+      "text_en": "The last fight in LBRS is against Overlord Wyrmthalak. At 50% health he summons adds; control them and focus on him before dealing with them. The tank should keep him away from the group and backed against a wall.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Lower Blackrock Spire Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Overlord Wyrmthalak",
+          "url": "https://www.wowhead.com/forever/guide/lower-blackrock-spire-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:lower-blackrock-spire"
+      ],
+      "source_hashes": [
+        "section:a3f3fb77c019ab5b26e8cecf9054ba0157b8be85"
+      ]
     }
   ]
 }
