@@ -52,6 +52,19 @@ def test_patch_rows_preserves_duplicate_multiset_and_encodes_bytes(tmp_path):
     assert documents[0]['tables'] == changes
 
 
+def test_rows_differing_only_in_ultima_vez_are_not_patched(tmp_path):
+    schema = ['CREATE TABLE obs (id INTEGER, name TEXT, ultima_vez TEXT)']
+    base_path = _database(tmp_path / 'base.sqlite', schema,
+                          [('obs', [(1, 'a', '2026-11-17'), (2, 'b', '2026-11-17')])])
+    new_path = _database(tmp_path / 'new.sqlite', schema,
+                         [('obs', [(1, 'a', '2026-11-18'), (2, 'c', '2026-11-18')])])
+    with patcher._open_database(base_path) as base, patcher._open_database(new_path) as new:
+        _documents, changes = patcher.build_database_documents(base, new)
+    assert len(changes) == 1
+    assert changes[0]['delete'] == [[2, 'b', '2026-11-17']]
+    assert changes[0]['insert'] == [[2, 'c', '2026-11-18']]
+
+
 def test_replaced_new_and_dropped_tables_and_schema_objects(tmp_path):
     base_path = _database(tmp_path / 'base.sqlite', [
         'CREATE TABLE changed (value TEXT)', 'CREATE TABLE removed (id INTEGER)',

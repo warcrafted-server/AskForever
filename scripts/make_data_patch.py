@@ -28,6 +28,7 @@ WRAPPER_FOOTER = '\n]==]\n'
 DEFAULT_FILE_SIZE = 4 * 1024 * 1024
 WARN_TOTAL_SIZE = 25 * 1024 * 1024
 HASH_RE = re.compile(r'^[0-9a-fA-F]{64}$')
+VOLATILE_COLUMNS = frozenset({'ultima_vez'})
 
 
 class PatchError(Exception):
@@ -155,12 +156,17 @@ def _row_json(row):
     return [_json_bytes(value) for value in row]
 
 
-def _multiset_difference(left, right):
-    remaining = Counter(right)
+def _multiset_difference(left, right, compared=None):
+    """Rows of left missing from right, comparing only the column indexes in compared (all if None)."""
+    def key(row):
+        return row if compared is None else tuple(row[index] for index in compared)
+
+    remaining = Counter(key(row) for row in right)
     difference = []
     for row in left:
-        if remaining[row]:
-            remaining[row] -= 1
+        row_key = key(row)
+        if remaining[row_key]:
+            remaining[row_key] -= 1
         else:
             difference.append(_row_json(row))
     return difference
@@ -197,8 +203,11 @@ def build_table_changes(base, new):
             continue
         base_columns = _columns(base, name)
         base_rows = _rows(base, name, base_columns)
-        deleted = _multiset_difference(base_rows, new_rows)
-        inserted = _multiset_difference(new_rows, base_rows)
+        # wowdata renueva ultima_vez en cada importación aunque el dato no cambie; el companion no la usa,
+        # así que una fila que solo cambia ahí se queda como en la base y no viaja en el parche.
+        compared = [index for index, column in enumerate(new_columns) if column not in VOLATILE_COLUMNS]
+        deleted = _multiset_difference(base_rows, new_rows, compared)
+        inserted = _multiset_difference(new_rows, base_rows, compared)
         if deleted or inserted:
             changes.append({
                 'name': name,
