@@ -205,11 +205,9 @@ jobs:
               $zip, "$zip.sha256",
               '--title', "AskForever $version",
               '--notes', $notes,
+              '--latest',
               '--repo', "${{ github.repository }}"
           )
-          if ($version.Contains('-')) {
-              $ghArgs += '--prerelease'
-          }
           gh @ghArgs
           if ($LASTEXITCODE -ne 0) { throw 'No se pudo crear la release.' }
 
