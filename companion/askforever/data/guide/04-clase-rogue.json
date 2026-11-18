@@ -111,8 +111,8 @@
         "rogue bleeds",
         "combat rogue cleave"
       ],
-      "text_es": "Asesinato centra el daño en venenos y un objetivo; Mutilar golpea con más fuerza a enemigos envenenados. Combate se apoya en ataques automáticos y cleave: genera puntos con Golpe siniestro o Puñalada, y usa Ráfaga con espada y Eviscerar. Sutileza combina Sigilo y sangrados; genera con Hemorragia y gasta en Hacer picadillo o Ruptura. Asesinato sufre ante inmunidad a venenos y Sutileza, ante inmunidad a sangrados.",
-      "text_en": "Assassination focuses on poisons and single-target damage; Mutilate hits poisoned enemies harder. Combat relies on auto-attacks and cleave: it builds with Sinister Strike or Backstab and uses Blade Flurry and Eviscerate. Subtlety combines Stealth and bleeds, building with Hemorrhage and spending on Slice and Dice or Rupture. Poison immunity hurts Assassination, while bleed immunity hurts Subtlety.",
+      "text_es": "Asesinato potencia venenos y daño individual; Mutilar hace un 20% más de daño a enemigos envenenados y la inmunidad a venenos lo perjudica. Combate tiene tres builds: Golpe siniestro y Veneno rinden parecido; la de Puñalada queda algo atrás. Genera con Golpe siniestro o Puñalada y usa Ráfaga con espada y Eviscerar. Mientras, Sutileza combina Sigilo y sangrados; genera con Hemorragia y gasta en Hacer picadillo o Ruptura. Sus dos builds flexibles priorizan Marca de muerte y Cuchillo de bota o profundizan en Asesinato para Golpes despiadados, Veneno y Sello del destino; esta última rinde más.",
+      "text_en": "Assassination Rogues focus on poisons and single-target damage; Mutilate hits poisoned enemies 20% harder, and poison immunity hinders them. Combat has three builds: Sinister Strike and Venom perform similarly; the dagger/Backstab variant falls behind. It uses auto-attacks and Blade Flurry for cleave. Meanwhile, Subtlety combines stealth and bleeds, building with Hemorrhage and spending on Slice and Dice or Rupture. Its two flexible builds favor Death Mark and Boot Knife or go deeper into Assassination for Relentless Strikes, Venom, and Seal Fate; the latter performs best.",
       "tags": [
         "ROGUE"
       ],
@@ -125,9 +125,15 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Assassination Rogue for New Players in Forever",
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Strengths and Weaknesses of Assassination Rogues in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
           "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › All Assassination Rogue DPS Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
@@ -137,9 +143,15 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Combat Rogue DPS Guide - WoW: Forever › Strengths and Weaknesses of Combat Rogues in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/overview-pve-dps",
-          "date": "2026-11-15"
+          "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › Opening Rotation for Combat Rogues in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/rotation-cooldowns-pve-dps",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Combat Rogue Talent Builds - WoW: Forever › Best Combat Rogue PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/talent-builds-pve-dps",
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
@@ -155,26 +167,46 @@
         },
         {
           "type": "editorial",
+          "ref": "Wowhead: Best Subtlety Rogue Talent Tree Builds - WoW: Forever › Best Subtlety Rogue PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/talent-builds-pve-dps",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
           "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › All Subtlety Rogue DPS Rotations in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Guide › Subtlety Rogue Guide for World of Warcraft: Forever",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-melee-dps-pve-guide",
+          "date": "2026-11-07"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:rogue:assassination:overview",
+        "class:rogue:assassination:rotation",
         "class:rogue:combat:overview",
+        "class:rogue:combat:rotation",
+        "class:rogue:combat:talents",
         "class:rogue:subtlety:overview",
-        "class:rogue:subtlety:rotation"
+        "class:rogue:subtlety:rotation",
+        "class:rogue:subtlety:talents"
       ],
       "source_hashes": [
+        "section:0efe35de8a6b61a43cf4a3e6c89f9c8065ffd7e3",
         "section:1b2e8c83c872a9f18591f0866c2202d1ea5af6d2",
+        "section:1d19d39dea22145e568b1cb8e1bf4dd7503be785",
+        "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
         "section:26f0593f8706f85629d54f49efb7cdb77b8fd167",
+        "section:38a49afdc60164a2c4f34e9dae4992d445306b02",
         "section:46f72368175181fb8a617195f4ebec1f48ab8701",
         "section:59c963bc3f26b484bec395601436b95523309c52",
-        "section:b34f64d9602aa96c512e23ff5fc9fa620f7f4604",
-        "section:be3e5e048af61e2419fc4dc2b1422866aa2b0c76",
-        "section:f65fb692110f1f996cc73439c0e31148133b5203"
+        "section:7a35a5ea33258d3f9008e77fed51f8733c66be6e",
+        "section:8173dc81cac36120bade5a8c57750e3c4168611c",
+        "section:fc6cb0ee129267ab10ce1ec541798d3774aee642"
       ]
     },
     {
@@ -542,21 +574,21 @@
         "shank energy",
         "rogue finishers"
       ],
-      "text_es": "La Energía se recupera de forma continua, no en pulsos; la celeridad aumenta los ataques automáticos, pero no esa regeneración. Las habilidades que gastan Energía generan puntos de combo y los remates los consumen; los puntos permanecen en su objetivo al cambiar, salvo que generes otros en uno distinto. Apuñalar cuesta 5 de Energía, tiene 10 s de reutilización y devuelve 25 a rango máximo. Entre los generadores están Golpe siniestro, Puñalada, Mutilar y Hemorragia; Eviscerar, Hacer picadillo, Ruptura y Exponer armadura gastan puntos.",
-      "text_en": "Energy recovers continuously rather than in ticks; Haste speeds up auto-attacks but not Energy regeneration. Energy-spending abilities generate Combo Points, which finishers consume; the points stay on their target when you switch unless you build them on another. Shank costs 5 Energy, has a 10-second cooldown, and returns 25 at max rank. Builders include Sinister Strike, Backstab, Mutilate, and Hemorrhage. Finishers such as Eviscerate, Slice and Dice, Rupture, and Expose Armor spend points.",
+      "text_es": "La Energía se recupera de forma continua, no en pulsos; la celeridad aumenta los ataques automáticos, pero no esa regeneración. Los puntos de combo permanecen en su objetivo al cambiar, salvo que generes otros en uno distinto. Apuñalar cuesta 5 de Energía, tiene 10 s de reutilización y devuelve 25 a rango máximo. Entre los generadores están Golpe siniestro, Puñalada, Mutilar y Hemorragia; Eviscerar, Hacer picadillo, Ruptura y Exponer armadura gastan puntos.",
+      "text_en": "Energy recovers continuously rather than in ticks; Haste speeds up auto-attacks but not Energy regeneration. Combo Points stay on their target when you switch unless you generate points on another. Shank costs 5 Energy, has a 10-second cooldown, and returns 25 at max rank. Builders include Sinister Strike, Backstab, Mutilate, and Hemorrhage. Finishers such as Eviscerate, Slice and Dice, Rupture, and Expose Armor spend points.",
       "tags": [
         "ROGUE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Guide › Subtlety Rogue Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-melee-dps-pve-guide",
-          "date": "2026-11-07"
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Changes to Assassination Rogue in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
+          "date": "2026-11-15"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Changes to Assassination Rogue in WoW Forever",
+          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Strengths and Weaknesses of Assassination Rogues in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
           "date": "2026-11-15"
         },
@@ -568,62 +600,38 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Assassination Rogue Stat Priority & Attributes - WoW: Forever › Haste",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/stat-priority-pve-dps",
-          "date": "2026-11-09"
-        },
-        {
-          "type": "editorial",
           "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Assassination Rogues in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Combat Rogues in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Subtlety Rogues in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Best Assassination Rogue Talent Builds - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/talent-builds-pve-dps",
-          "date": "2026-11-11"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Changes to Assassination Rogue in WoW Forever > Changes to Existing Abilities and Talents in WoW Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
-          "date": "2026-11-15"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:rogue:assassination:overview",
         "class:rogue:assassination:rotation",
-        "class:rogue:assassination:stats",
-        "class:rogue:assassination:talents",
         "class:rogue:combat:overview",
         "class:rogue:combat:rotation",
-        "class:rogue:subtlety:overview",
         "class:rogue:subtlety:rotation"
       ],
       "source_hashes": [
-        "guide:082b2b2e6d5d749f11c7f3f667ec437f01db5742",
-        "guide:0bc822b16ba35ec311491f09ef440873d90ceb69",
-        "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
+        "section:1d19d39dea22145e568b1cb8e1bf4dd7503be785",
+        "section:274e4cfa6da8235973d3422fab57111f23e58e96",
         "section:4a9f5acc678a5ea8e23694e0e99d23e4c63ffa4e",
-        "section:554ca40608e72b83cc7d65c4736749a7a845d213",
-        "section:8d43601437befae0d61e722530f8963b9180ad25",
-        "section:8e27e28a1813e1c6a6f6299eca69ba21df485efc",
-        "section:96363f12fbf85a80a36f1ac84e8fed0a9922298b",
-        "section:9f9842e7fd775db7ceb7ca6a639ade43221cd0e4"
+        "section:9f9842e7fd775db7ceb7ca6a639ade43221cd0e4",
+        "section:b13c881fc830d0834ed759e20e3f6b36d3b5973a",
+        "section:c9868236e59b71e4901d2007c94a4a0acf699bb0"
       ]
     },
     {
@@ -706,30 +714,12 @@
         "deadly poison",
         "thistle tea energy"
       ],
-      "text_es": "La misión de clase de nivel 20 desbloquea fabricar y usar venenos y preparar Té de cardo, que recupera Energía. Los venenos pueden combinarse con el Tótem Viento Furioso y las piedras de afilar, y escalan con poder de ataque. Asesinato suele llevar Veneno instantáneo en la mano principal y Veneno mortal en la secundaria; cambia las manos si pierdes sus acumulaciones. La inmunidad a venenos reduce mucho el daño de Asesinato.",
-      "text_en": "The level 20 class quest unlocks poison crafting and use, and teaches Thistle Tea, which restores Energy. Poisons can be combined with Windfury Totem and sharpening stones, and scale with Attack Power. Assassination usually applies Instant Poison to the main hand and Deadly Poison to the off-hand; swap hands if its stacks fall off. Poison immunity greatly reduces Assassination damage.",
+      "text_es": "La misión de clase de nivel 20 desbloquea fabricar y usar venenos y Té de cardo, que recupera Energía. Los venenos pueden combinarse con Tótem Viento Furioso y piedras de afilar, y escalan con poder de ataque. Asesinato suele llevar Veneno instantáneo en la mano principal y Veneno mortal en la secundaria; cambia las manos si se caen sus acumulaciones. La inmunidad a venenos reduce mucho el daño de Asesinato.",
+      "text_en": "The level-20 class quest unlocks poison crafting and use, and Thistle Tea, which restores Energy. Poisons can be combined with Windfury Totem and sharpening stones, and scale with Attack Power. Assassination usually applies Instant Poison to the main hand and Deadly Poison to the off-hand; swap them if its stacks fall off. Poison immunity greatly reduces Assassination damage.",
       "tags": [
         "ROGUE"
       ],
       "sources": [
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Rogue Class Quests Guide › Rogue Class Quest Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/rogue-class-quests",
-          "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Rogue Class Quests Guide › Level 20 - Mathias and the Defias",
-          "url": "https://www.icy-veins.com/wow-forever/rogue-class-quests",
-          "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Rogue Class Quests Guide › Level 20 - The Shattered Salute",
-          "url": "https://www.icy-veins.com/wow-forever/rogue-class-quests",
-          "date": "2026-11-04"
-        },
         {
           "type": "editorial",
           "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Changes to Assassination Rogue in WoW Forever",
@@ -740,40 +730,32 @@
           "type": "editorial",
           "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Assassination Rogue DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Best Assassination Rogue Cooldown Usage in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Strengths and Weaknesses of Assassination Rogues in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
-          "date": "2026-11-15"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Assassination Rogue DPS in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "ref": "Icy Veins: World of Warcraft: Forever Assassination Rogue Leveling Guide › Single-Target Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/assassination-rogue-leveling",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
+        "class:rogue:assassination:leveling",
         "class:rogue:assassination:overview",
-        "class:rogue:assassination:rotation",
-        "class:rogue:general:rogue-class-quests"
+        "class:rogue:assassination:rotation"
       ],
       "source_hashes": [
-        "guide:750a4d44d622fe222033c933c67db06e64ebac63",
-        "section:1d19d39dea22145e568b1cb8e1bf4dd7503be785",
-        "section:55c226c12284b1cde6758da4da07b243d1320341",
-        "section:9f89da9c0b9dbac1a2a342b6865c5c2c233eca95",
-        "section:9f9842e7fd775db7ceb7ca6a639ade43221cd0e4",
-        "section:d394a1c0da0b8efd1ee28fa31eac8ee7ce916467"
+        "section:0bd24538b9743ed0473c0c28028e439cf34b5dda",
+        "section:30b3b5946f7a692694ec7f1f17855b3e7d207cb6",
+        "section:58f33469a53581103d105211abba0691ba5ef85d",
+        "section:9f9842e7fd775db7ceb7ca6a639ade43221cd0e4"
       ]
     },
     {
@@ -1173,8 +1155,8 @@
         "rogue expose armor",
         "blade flurry cleave"
       ],
-      "text_es": "En grupo, el Pícaro aporta mucho daño a un objetivo, interrupciones y control. Patada, Incapacitación, Golpe a los riñones, Golpe bajo y Esfumar pueden detener lanzamientos; Zapar y Ceguera amplían el control. No ofrece una mejora de banda significativa; Exponer armadura no añade una aportación única si ya está Hender armadura. Ráfaga con espada permite golpear a un segundo objetivo y Evasión ayuda a aguantar ataques durante un momento peligroso.",
-      "text_en": "In groups, Rogue brings high single-target damage, interrupts, and control. Kick, Gouge, Kidney Shot, Cheap Shot, and Vanish can stop casts; Sap and Blind add further control. It offers no significant raid buff; Expose Armor adds no unique raid value when Sunder Armor is already present. Blade Flurry can hit a second target, and Survival also benefits from Evasion.",
+      "text_es": "En grupo, el Pícaro aporta daño a un objetivo, interrupciones y control. Patada, Incapacitación, Golpe a los riñones, Golpe bajo y Esfumar pueden frenar lanzamientos; Zapar y Ceguera amplían el control. No ofrece una mejora de banda significativa y Exponer armadura no aporta nada único si ya está Hender armadura. Combate destaca por el cleave de Ráfaga con espada. Entre las defensas está Evasión.",
+      "text_en": "In groups, Rogue brings single-target damage, interrupts, and control. Kick, Gouge, Kidney Shot, Cheap Shot, and Vanish can stop casts; Sap and Blind add further control. Rogue offers no significant raid buff, and Expose Armor adds no unique contribution when Sunder Armor is present. Combat stands out for Blade Flurry cleave. Its defensive toolkit also includes Evasion.",
       "tags": [
         "ROGUE"
       ],
@@ -1183,19 +1165,19 @@
           "type": "editorial",
           "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Assassination Rogue DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Combat Rogue DPS in WoW: Forever",
+          "ref": "Wowhead: Combat Rogue DPS Guide - WoW: Forever › Strengths and Weaknesses of Combat Rogues in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/overview-pve-dps",
+          "date": "2026-11-15"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › Combat Rogue DPS Rotations in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Subtlety Rogue DPS in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
@@ -1205,32 +1187,24 @@
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Guide › Subtlety Rogue Guide for World of Warcraft: Forever",
-          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-melee-dps-pve-guide",
-          "date": "2026-11-07"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Combat Rogue DPS Guide - WoW: Forever › Strengths and Weaknesses of Combat Rogues in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/overview-pve-dps",
-          "date": "2026-11-15"
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Leveling Guide › Utility and Crowd Control",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-leveling",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:rogue:assassination:overview",
         "class:rogue:assassination:rotation",
         "class:rogue:combat:overview",
         "class:rogue:combat:rotation",
-        "class:rogue:subtlety:overview",
-        "class:rogue:subtlety:rotation"
+        "class:rogue:subtlety:leveling"
       ],
       "source_hashes": [
         "guide:c64ca868aebbdf48d4cb5d3fe8641a354692d9dd",
-        "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
-        "section:5806c2cca19edf13e5438fdc4ac4ef97f6ccf982",
-        "section:9f89da9c0b9dbac1a2a342b6865c5c2c233eca95",
-        "section:b7781da8cb8103673e50b2e5ddaa0fb9c027b537",
+        "section:391665810b424d5a804dbad8408d63137dca2abf",
+        "section:58f33469a53581103d105211abba0691ba5ef85d",
+        "section:b39de9a76fd21b81b6da8cfa7fa299d9dae03d2c",
         "section:f65fb692110f1f996cc73439c0e31148133b5203"
       ]
     },
@@ -1256,8 +1230,8 @@
         "assassination eviscerate",
         "assassination single target"
       ],
-      "text_es": "Asesinato concentra el daño en un objetivo con venenos que ignoran armadura. Mutilar genera puntos de combo e inflige 20% más daño a enemigos envenenados. Veneno, un talento pasivo, potencia el daño de veneno y la aplicación tras Apuñalar. Mantén Hacer picadillo y gasta puntos sobrantes en Eviscerar. En grupo puede aplicar Exponer armadura si hace falta; la inmunidad a venenos reduce mucho su daño y no tiene área repetible ni autocuración.",
-      "text_en": "Assassination focuses on single-target damage with poisons that bypass armor. The builder Mutilate generates Combo Points and deals 20% more damage to poisoned enemies. A passive talent named Venom boosts poison damage and application after Shank. Keep Slice and Dice active and spend excess points on Eviscerate. In groups, it can apply Expose Armor when needed; poison immunity greatly reduces its damage, and it lacks repeatable AoE and self-healing.",
+      "text_es": "Asesinato se centra en daño a un objetivo: Mutilar genera puntos y golpea un 20% más a enemigos envenenados; cambia a Combate si necesitas cleave. Mantén Hacer picadillo y gasta puntos sobrantes en Eviscerar, preferiblemente con 4 o más puntos; usa Hacer picadillo con 1 cuando sea posible. El talento pasivo Veneno potencia el daño y la aplicación de venenos durante 6 s tras Apuñalar. Puede aplicar Exponer armadura si hace falta; no tiene área verdadera y la inmunidad a venenos reduce mucho su daño.",
+      "text_en": "Assassination focuses on single-target damage: the builder Mutilate generates Combo Points and hits poisoned enemies 20% harder; switch to Combat if you need cleave. Maintain Slice and Dice and spend excess points on Eviscerate, preferably at 4 or more points; use Slice and Dice at 1 point when possible. The passive Venom talent boosts poison damage and application for 6 seconds after Shank. It can apply Expose Armor when needed; it has no true AoE, and poison immunity greatly reduces its damage.",
       "tags": [
         "ROGUE"
       ],
@@ -1288,29 +1262,36 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Assassination Rogues in WoW: Forever",
+          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › All Assassination Rogue DPS Rotations in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Changes to Assassination Rogue in WoW Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
-          "date": "2026-11-15"
+          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Assassination Rogues in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Best Assassination Rogue Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:rogue:assassination:overview",
         "class:rogue:assassination:rotation"
       ],
       "source_hashes": [
+        "section:0efe35de8a6b61a43cf4a3e6c89f9c8065ffd7e3",
         "section:1d19d39dea22145e568b1cb8e1bf4dd7503be785",
         "section:2fd53293a8a7ef3554511cba908a39e31b041006",
+        "section:30b3b5946f7a692694ec7f1f17855b3e7d207cb6",
         "section:46f72368175181fb8a617195f4ebec1f48ab8701",
-        "section:8e27e28a1813e1c6a6f6299eca69ba21df485efc",
-        "section:9f9842e7fd775db7ceb7ca6a639ade43221cd0e4",
-        "section:b34f64d9602aa96c512e23ff5fc9fa620f7f4604"
+        "section:b34f64d9602aa96c512e23ff5fc9fa620f7f4604",
+        "section:c9868236e59b71e4901d2007c94a4a0acf699bb0"
       ]
     },
     {
@@ -1319,8 +1300,8 @@
       "status": "editorial",
       "title_es": "Combate: daño sostenido y Ráfaga",
       "title_en": "Combat: Sustained Damage and Blade Flurry",
-      "summary_es": "Combate se apoya en ataques automáticos y cleave, con variantes de arma lenta o daga.",
-      "summary_en": "Combat relies on auto-attacks and cleave, with slow-weapon and dagger variants.",
+      "summary_es": "Tres builds: arma lenta y Golpe siniestro, daga y Puñalada, o Veneno.",
+      "summary_en": "Three builds: slow weapon with Sinister Strike, dagger with Backstab, or Venom.",
       "keywords_es": [
         "pícaro combate",
         "golpe siniestro",
@@ -1335,8 +1316,8 @@
         "blade flurry",
         "combat dagger build"
       ],
-      "text_es": "Combate se apoya en ataques automáticos y ofrece el cleave más fuerte del Pícaro, sin depender de venenos o sangrados. Una variante usa una mano principal lenta y Golpe siniestro; otra, daga principal y Puñalada. Mantén Hacer picadillo, gasta puntos sobrantes en Eviscerar y combina Ráfaga con espada con Subidón de adrenalina para cleave y ráfaga. Evasión ayuda a sobrevivir.",
-      "text_en": "Combat relies on auto-attacks and has the strongest Rogue cleave, without relying on poisons or bleeds. One variant uses a slow main hand with Sinister Strike; the other uses a main-hand dagger with Backstab. Keep Slice and Dice active, spend excess points on Eviscerate, and pair Blade Flurry with Adrenaline Rush for cleave and burst. The toolkit also includes Evasion for survival.",
+      "text_es": "Combate se apoya en ataques automáticos y tiene el cleave más fuerte del Pícaro, sin depender de venenos ni sangrados. Hay tres builds: Golpe siniestro con arma principal lenta y Veneno rinden de forma parecida; la variante de daga usa Puñalada y queda algo por detrás. Mantén Hacer picadillo, gasta puntos sobrantes en Eviscerar y combina Ráfaga con espada con Subidón de adrenalina; ambas mejoran el daño de ráfaga. Sangre fría potencia el primer Eviscerar de 5 puntos, salvo en la build de Puñalada. Evasión ayuda a sobrevivir.",
+      "text_en": "Combat relies on auto-attacks and has the strongest cleave among Rogue specs, without relying on poisons or bleeds. It has three builds: Sinister Strike with a slow main-hand weapon and Venom perform similarly; the dagger variant uses Backstab and falls somewhat behind. Keep Slice and Dice active, spend excess points on Eviscerate, and pair Blade Flurry with Adrenaline Rush for cleave and burst; both support burst damage. Cold Blood boosts the first 5-point Eviscerate except in the Backstab build. The defensive toolkit includes Evasion.",
       "tags": [
         "ROGUE"
       ],
@@ -1357,32 +1338,32 @@
           "type": "editorial",
           "ref": "Wowhead: Best Combat Rogue Talent Builds - WoW: Forever › Best Combat Rogue PvE Dungeon and Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/talent-builds-pve-dps",
-          "date": "2026-11-11"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Combat Rogue DPS Guide - WoW: Forever › Combat Rogue for New Players in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/overview-pve-dps",
-          "date": "2026-11-15"
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Combat Rogues in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › Best Combat Rogue Cooldown Usage in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/rotation-cooldowns-pve-dps",
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:rogue:combat:overview",
         "class:rogue:combat:rotation",
         "class:rogue:combat:talents"
       ],
       "source_hashes": [
-        "section:22fc526e80f80ba3e0dd788a158fcbc30f586962",
-        "section:59c963bc3f26b484bec395601436b95523309c52",
         "section:75dd3cb0581f3218022b13f1aec0023dc6cb3f2f",
-        "section:8d43601437befae0d61e722530f8963b9180ad25",
+        "section:8173dc81cac36120bade5a8c57750e3c4168611c",
+        "section:b001d36e7ab5e20464e5f7ca533b0148806c4d09",
+        "section:b13c881fc830d0834ed759e20e3f6b36d3b5973a",
         "section:f65fb692110f1f996cc73439c0e31148133b5203"
       ]
     },
@@ -1408,8 +1389,8 @@
         "premeditation preparation",
         "bleed immunity"
       ],
-      "text_es": "Sutileza basa su juego en Sigilo y sangrados y es la especialización más compleja: abre con Garrote, genera puntos con Hemorragia y los gasta en Hacer picadillo o Ruptura; Marca de muerte convierte el daño acumulado en una ráfaga. Hemorragia se aprende a 30 y permite atacar desde delante; antes, Puñalada exige colocarse detrás, algo difícil en solitario. Premeditación otorga 2 puntos de combo cada 2 minutos y Preparación permite otra Esfumar. Evasión y Esfumar ayudan a sobrevivir, pero no tiene área verdadera y las inmunidades a sangrados la perjudican.",
-      "text_en": "Its most complex playstyle centers on Stealth and bleeds: open with Garrote, build Combo Points with Hemorrhage, and spend them on Slice and Dice or Rupture; Death Mark turns stored damage into burst. Hemorrhage is learned at 30 and lets you attack from the front; before then, Backstab requires positioning behind the target, which is difficult solo. Cooldowns include Premeditation, which grants 2 Combo Points every 2 minutes, and Preparation, which enables another Vanish, while Evasion helps survival; the spec has no true AoE and is hindered by bleed immunity.",
+      "text_es": "Sutileza es la más compleja: combina Sigilo y sangrados. Tiene dos builds flexibles: Marca de muerte/Cuchillo de bota, y otra profunda en Asesinato con Sello del destino, que rinde más. Hemorragia genera puntos; renueva Garrote y mantén Hacer picadillo, Ruptura y Marca de muerte; la segunda build usa Eviscerar. Hemorragia se aprende al 30 y permite atacar desde delante; antes, Puñalada exige colocarse detrás. Premeditación da 2 puntos cada 2 min; Preparación reinicia reutilizaciones como Esfumar. Evasión ayuda a sobrevivir; no tiene área verdadera y la inmunidad a sangrados la perjudica.",
+      "text_en": "Subtlety is the most complex, combining Stealth and bleeds. It has two flexible builds: Death Mark/Boot Knife, and one deep into Assassination with Seal Fate that performs better. Hemorrhage builds points; refresh Garrote and maintain Slice and Dice, Rupture, and Death Mark; the second build uses Eviscerate. Hemorrhage is learned at 30 and works from the front; before then, Backstab requires striking from behind. Premeditation grants 2 points every 2 minutes; Preparation resets cooldowns such as Vanish. Evasion helps survival; the spec has no true AoE and bleed immunity hinders it.",
       "tags": [
         "ROGUE"
       ],
@@ -1422,7 +1403,7 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Subtlety Rogue DPS Guide - WoW: Forever › Changes to Subtlety Rogue in WoW Forever > New Abilities and Talents in WoW Forever",
+          "ref": "Wowhead: Subtlety Rogue DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/overview-pve-dps",
           "date": "2026-11-15"
         },
@@ -1434,9 +1415,27 @@
         },
         {
           "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › All Subtlety Rogue DPS Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Subtlety Rogues in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
           "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › Best Subtlety Rogue Cooldown Usage in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Subtlety Rogue Talent Tree Builds - WoW: Forever › Best Subtlety Rogue PvE Dungeon and Raid Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/talent-builds-pve-dps",
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
@@ -1446,23 +1445,28 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › All Subtlety Rogue DPS Rotations in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "ref": "Icy Veins: World of Warcraft: Forever Subtlety Rogue Leveling Guide › Subtlety Rogue Leveling Rotation",
+          "url": "https://www.icy-veins.com/wow-forever/subtlety-rogue-leveling",
+          "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
+        "class:rogue:subtlety:leveling",
         "class:rogue:subtlety:overview",
-        "class:rogue:subtlety:rotation"
+        "class:rogue:subtlety:rotation",
+        "class:rogue:subtlety:talents"
       ],
       "source_hashes": [
-        "guide:237cc15ab0c175040d7d01fd40d828bae804a7cd",
+        "section:0d4447ef4a83b8e6f53f5c50e1e36cf2fd807b50",
         "section:1b2e8c83c872a9f18591f0866c2202d1ea5af6d2",
         "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
+        "section:1fdd19165d66aead9faa422abc42fa9a91ee12ba",
         "section:26f0593f8706f85629d54f49efb7cdb77b8fd167",
-        "section:a7bf4f01127d6f88e6067385c4fd046c8d24418c",
-        "section:be3e5e048af61e2419fc4dc2b1422866aa2b0c76"
+        "section:274e4cfa6da8235973d3422fab57111f23e58e96",
+        "section:38a49afdc60164a2c4f34e9dae4992d445306b02",
+        "section:ef5b18a83c64beca3f3af6c357e88d60522b996e",
+        "section:fc6cb0ee129267ab10ce1ec541798d3774aee642"
       ]
     },
     {
@@ -1790,8 +1794,8 @@
       "status": "editorial",
       "title_es": "Rotación de Asesinato a nivel 60",
       "title_en": "Assassination Level-60 Rotation",
-      "summary_es": "Mantén Hacer picadillo; genera puntos con Mutilar y gasta los sobrantes en Eviscerar.",
-      "summary_en": "Maintain Slice and Dice; build with Mutilate and spend excess points on Eviscerate.",
+      "summary_es": "Prioriza Hacer picadillo, genera con Mutilar y ajusta Sangre fría a los remates.",
+      "summary_en": "Prioritize Slice and Dice, build with Mutilate, and time Cold Blood for finishers.",
       "keywords_es": [
         "rotación asesinato nivel 60",
         "prioridad mutilar pícaro",
@@ -1804,8 +1808,8 @@
         "assassination blade flurry",
         "assassination pve poisons"
       ],
-      "text_es": "Mantén Hacer picadillo y genera puntos de combo con Mutilar; gasta los excedentes en Eviscerar sin dejar caer el beneficio. Combina Sangre fría y Ráfaga con espada para amplificar el crítico; Ráfaga con espada también sube 20% la velocidad de ataque y sirve para cleave. Aplica Veneno instantáneo en la mano principal y Veneno mortal en la secundaria; cambia las manos si se caen las acumulaciones de mortal. Las simulaciones actuales recomiendan no activar Veneno y gastar esos puntos en Eviscerar.",
-      "text_en": "Keep Slice and Dice active and build Combo Points with Mutilate; spend excess on Eviscerate without letting the buff drop. Use Cold Blood and Blade Flurry together to amplify critical damage; Blade Flurry also raises attack speed by 20% and provides cleave. Apply Instant Poison to the main hand and Deadly Poison to the off-hand; swap them if Deadly stacks fall off. Current simulations advise against pressing Venom and favor spending those points on Eviscerate.",
+      "text_es": "Mantén Hacer picadillo, preferiblemente con 1 punto de combo, y genera con Mutilar; usa Eviscerar con 4 o más puntos. Mantén Apuñalar en reutilización para recuperar Energía y potenciar el daño y la aplicación de venenos; usa Té de cardo cuando permita lanzar más Eviscerar. Combina Sangre fría con Eviscerar a 5 puntos, salvo que puedas usarla una segunda vez en el combate: en ese caso, úsala antes con 4 o más.",
+      "text_en": "Keep Slice and Dice, preferably with 1 Combo Point, and build with Mutilate; use Eviscerate at 4 or more points. Keep Shank on cooldown for Energy and increased poison damage and application; use Thistle Tea when it enables extra casts of Eviscerate. Use Cold Blood with a 5-point Eviscerate unless the fight allows a second use, in which case use it earlier at 4 or more points.",
       "tags": [
         "ROGUE"
       ],
@@ -1814,37 +1818,22 @@
           "type": "editorial",
           "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Assassination Rogues in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Best Assassination Rogue Cooldown Usage in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Assassination Rogue DPS in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Assassination Rogue DPS Guide - WoW: Forever › Assassination Rogue for New Players in Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/overview-pve-dps",
-          "date": "2026-11-15"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
-        "class:rogue:assassination:overview",
         "class:rogue:assassination:rotation"
       ],
       "source_hashes": [
-        "section:55c226c12284b1cde6758da4da07b243d1320341",
-        "section:8e27e28a1813e1c6a6f6299eca69ba21df485efc",
-        "section:9f89da9c0b9dbac1a2a342b6865c5c2c233eca95",
-        "section:b34f64d9602aa96c512e23ff5fc9fa620f7f4604"
+        "section:30b3b5946f7a692694ec7f1f17855b3e7d207cb6",
+        "section:c9868236e59b71e4901d2007c94a4a0acf699bb0"
       ]
     },
     {
@@ -1853,8 +1842,8 @@
       "status": "editorial",
       "title_es": "Rotación de Combate a nivel 60",
       "title_en": "Combat Level-60 Rotation",
-      "summary_es": "Mantén Hacer picadillo; genera con Golpe siniestro o Puñalada según la build y gasta el excedente.",
-      "summary_en": "Maintain Slice and Dice; build with Sinister Strike or Backstab by build, then spend excess points.",
+      "summary_es": "Mantén Hacer picadillo; genera según la build y coordina los enfriamientos y remates.",
+      "summary_en": "Maintain Slice and Dice, build by variant, and coordinate cooldowns and finishers.",
       "keywords_es": [
         "rotación combate nivel 60",
         "prioridad golpe siniestro",
@@ -1867,8 +1856,8 @@
         "combat backstab rotation",
         "blade flurry adrenaline rush"
       ],
-      "text_es": "Mantén Hacer picadillo con la máxima continuidad. En la build lenta, genera puntos con Golpe siniestro; en la variante de daga, usa Puñalada. Gasta puntos sobrantes en Eviscerar sin dejar caer Hacer picadillo. Combina Subidón de adrenalina y Ráfaga con espada al inicio junto con raciales, procs y pociones, o para una ventana de ráfaga; con Ráfaga activa, golpea también a un segundo objetivo. La Ráfaga aumenta 20% la velocidad de ataque.",
-      "text_en": "Keep Slice and Dice up as consistently as possible. Use Sinister Strike to build in the slow-weapon build and Backstab in the dagger variant. Spend excess points on Eviscerate without letting Slice and Dice fall off. Use Adrenaline Rush and Blade Flurry together on the pull with racials, procs, and potions, or for a burst window; while Flurry is active, strike an additional target. Blade Flurry increases attack speed by 20%.",
+      "text_es": "Mantén Hacer picadillo con pocos puntos y genera con Golpe siniestro o Puñalada según la build; con Puñalada, usa Eviscerar a partir de 4. Apuñalar va en reutilización para recuperar Energía. Usa juntas Ráfaga con espada y Subidón de adrenalina; la primera aporta un 20% de velocidad de ataque y cleave. Sangre fría potencia el primer Eviscerar de 5 puntos, salvo en la build de Puñalada; la de Veneno omite Subidón de adrenalina y potencia Apuñalar durante 6 s. Usa Té de cardo cuando se agote la Energía tras acabar Subidón de adrenalina.",
+      "text_en": "Keep Slice and Dice with as few points as possible and build with Sinister Strike or Backstab by variant; use Eviscerate at 4 or more points with Backstab. Keep Shank on cooldown for Energy. Use Blade Flurry and Adrenaline Rush together; Blade Flurry grants 20% attack speed and cleave. Cold Blood empowers the first 5-point Eviscerate, except the Backstab build does not take it; the Venom build skips Adrenaline Rush and empowers Shank for 6 seconds. Use Thistle Tea when Energy runs low after Adrenaline Rush ends.",
       "tags": [
         "ROGUE"
       ],
@@ -1877,29 +1866,22 @@
           "type": "editorial",
           "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Combat Rogues in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › All Combat Rogue DPS Rotations in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › Best Combat Rogue Cooldown Usage in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:rogue:combat:rotation"
       ],
       "source_hashes": [
-        "section:8d43601437befae0d61e722530f8963b9180ad25",
-        "section:c9ebb0e12e1c959ef6b5432d122d34cb15d4db7b",
-        "section:eee8d8261d54a7db3f8e21763894bc57acea0fd9"
+        "section:b001d36e7ab5e20464e5f7ca533b0148806c4d09",
+        "section:b13c881fc830d0834ed759e20e3f6b36d3b5973a"
       ]
     },
     {
@@ -1908,8 +1890,8 @@
       "status": "editorial",
       "title_es": "Rotación de Sutileza a nivel 60",
       "title_en": "Subtlety Level-60 Rotation",
-      "summary_es": "Abre con Garrote y repítelo con Esfumar; mantén Hacer picadillo y Ruptura antes de usar Hemorragia.",
-      "summary_en": "Open with Garrote and refresh it with Vanish; maintain Slice and Dice and Rupture before using Hemorrhage.",
+      "summary_es": "Prioridades, remates y enfriamientos para las variantes Marca de muerte y Sello del destino.",
+      "summary_en": "Priorities, finishers, and cooldowns for the Death Mark and Seal Fate variants.",
       "keywords_es": [
         "rotación sutileza nivel 60",
         "garrote y hemorragia",
@@ -1922,39 +1904,32 @@
         "premeditation subtlety",
         "preparation vanish"
       ],
-      "text_es": "Abre con Garrote, que entrega 2 puntos de combo por 30 de Energía; vuelve a usar Esfumar y Garrote cuando el primer sangrado termine. Mantén Hacer picadillo y Ruptura sin sacrificar la continuidad del primero, y genera puntos con Hemorragia. Usa Premeditación en reutilización: concede 2 puntos cada 2 minutos; Preparación permite disponer de otro Esfumar. Combina Té de cardo con los tiempos de daño cuando necesites recuperar Energía.",
-      "text_en": "Open with Garrote, which grants 2 Combo Points for 30 Energy; use Vanish plus Garrote again when the first bleed ends. Keep Slice and Dice and Rupture active without sacrificing the former, and build with Hemorrhage. Use Premeditation on cooldown: it grants 2 points every 2 minutes; Preparation provides another Vanish. Use Thistle Tea with damage cooldowns when your Energy pool is low.",
+      "text_es": "Deep Sub: renueva Garrote con Golpe fantasmal; Esfumar respalda si falla. Mantén Hacer picadillo y Ruptura; genera con Hemorragia. Usa Hacer picadillo a pocos puntos, Ruptura a 3+ y Marca de muerte a 4+ (normalmente 5, según efectos). Apuñalar da 2 puntos en reutilización; Té de cardo va con Marca de muerte. Premeditación va en reutilización; Preparación restaura enfriamientos. Sello del destino: mantén Garrote, Hacer picadillo y Ruptura; genera con Hemorragia y gasta a 4+ en Ruptura o Eviscerar. Apuñalar en reutilización recupera Energía y potencia venenos; Té de cardo permite más Eviscerar.",
+      "text_en": "Deep Sub: refresh Garrote with Ghostly Strike; save Vanish if it misses. Keep Slice and Dice and Rupture up; build with Hemorrhage. Use Slice and Dice with few points, Rupture at 3+, and Death Mark at 4+ (usually 5 based on remaining effects). Shank on cooldown grants 2 points; use Thistle Tea during Death Mark. Use Premeditation on cooldown; Preparation restores cooldowns. Seal Fate: keep Garrote, Slice and Dice, and Rupture; build with Hemorrhage and spend at 4+ on Rupture or Eviscerate. Shank on cooldown restores Energy and boosts poisons; Thistle Tea enables extra Eviscerate casts.",
       "tags": [
         "ROGUE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › All Subtlety Rogue DPS Rotations in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
-        },
-        {
-          "type": "editorial",
           "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › Single Target DPS Rotation for Subtlety Rogues in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › Best Subtlety Rogue Cooldown Usage in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:rogue:subtlety:rotation"
       ],
       "source_hashes": [
-        "section:96363f12fbf85a80a36f1ac84e8fed0a9922298b",
-        "section:a7bf4f01127d6f88e6067385c4fd046c8d24418c",
-        "section:be3e5e048af61e2419fc4dc2b1422866aa2b0c76"
+        "section:0d4447ef4a83b8e6f53f5c50e1e36cf2fd807b50",
+        "section:274e4cfa6da8235973d3422fab57111f23e58e96"
       ]
     },
     {
@@ -2963,6 +2938,123 @@
       ],
       "source_hashes": [
         "section:8173dc81cac36120bade5a8c57750e3c4168611c"
+      ]
+    },
+    {
+      "id": "clase-rogue-apertura-asesinato-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Apertura de Asesinato a nivel 60",
+      "title_en": "Assassination Level-60 Opener",
+      "summary_es": "Secuencia de apertura de Asesinato con Mutilar, Apuñalar y Sangre fría.",
+      "summary_en": "Assassination opener using Mutilate, Shank, and Cold Blood.",
+      "keywords_es": [
+        "apertura asesinato 60",
+        "inicio combate pícaro asesinato",
+        "sangre fría eviscerar"
+      ],
+      "keywords_en": [
+        "assassination level 60 opener",
+        "assassination rogue pull",
+        "cold blood eviscerate"
+      ],
+      "text_es": "Usa Poción de frenesí sublime al inicio si no debes guardarla; después, Mutilar, Esfumar y Garrote. Sigue con Apuñalar y Hacer picadillo, genera 4–5 puntos con Mutilar y remata con Sangre fría y Eviscerar. Si solo podrás usar Sangre fría una vez, resérvala para un Eviscerar de 5 puntos.",
+      "text_en": "Use Major Frenzy Potion at the start if it need not be saved, then Mutilate, Vanish, and Garrote. Follow with Shank and Slice and Dice, build 4–5 points with Mutilate, and finish with Cold Blood and Eviscerate. If you will only use Cold Blood once, save it for a 5-point Eviscerate.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue DPS Rotation and Cooldowns - WoW: Forever › Opening Rotation for Assassination Rogues in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/rotation-cooldowns-pve-dps",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "class:rogue:assassination:rotation"
+      ],
+      "source_hashes": [
+        "section:5635b5289c83c10aa0158d944310d0090fbffd4d"
+      ]
+    },
+    {
+      "id": "clase-rogue-apertura-combate-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Apertura de Combate a nivel 60",
+      "title_en": "Combat Level-60 Opener",
+      "summary_es": "Secuencia de apertura y ajustes según las tres builds de Combate.",
+      "summary_en": "Opener sequence and adjustments for the three Combat builds.",
+      "keywords_es": [
+        "apertura combate 60",
+        "inicio combate pícaro",
+        "rotación inicial combate"
+      ],
+      "keywords_en": [
+        "combat level 60 opener",
+        "combat rogue pull",
+        "combat opening rotation"
+      ],
+      "text_es": "Usa Poción de frenesí sublime seguida de Ráfaga con espada si no debes reservarlas; genera con Golpe siniestro o Puñalada, usa Esfumar y Garrote. Sigue con Apuñalar, Hacer picadillo y Subidón de adrenalina; genera hasta 5 puntos con Golpe siniestro o 4–5 con Puñalada y remata con Sangre fría y Eviscerar. La build de Puñalada omite Sangre fría y la de Veneno omite Subidón de adrenalina.",
+      "text_en": "Use Major Frenzy Potion followed by Blade Flurry if they need not be saved; build with Sinister Strike or Backstab, use Vanish, and apply Garrote. Follow with Shank, Slice and Dice, and Adrenaline Rush; build to 5 points with Sinister Strike or 4–5 with Backstab, then use Cold Blood and Eviscerate. The Backstab build skips Cold Blood, and the Venom build skips Adrenaline Rush.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Rotation and Cooldowns - WoW: Forever › Opening Rotation for Combat Rogues in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/rotation-cooldowns-pve-dps",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "class:rogue:combat:rotation"
+      ],
+      "source_hashes": [
+        "section:7a35a5ea33258d3f9008e77fed51f8733c66be6e"
+      ]
+    },
+    {
+      "id": "clase-rogue-apertura-sutileza-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Apertura de Sutileza a nivel 60",
+      "title_en": "Subtlety Level-60 Opener",
+      "summary_es": "Apertura distinta para las variantes de Marca de muerte y Hemorragia.",
+      "summary_en": "Different openers for the Death Mark and Hemorrhage variants.",
+      "keywords_es": [
+        "apertura sutileza 60",
+        "inicio combate pícaro sutileza",
+        "hemorragia sello del destino"
+      ],
+      "keywords_en": [
+        "subtlety level 60 opener",
+        "subtlety rogue pull",
+        "hemorrhage seal fate"
+      ],
+      "text_es": "Antes del combate, usa Premeditación para activar Hacer picadillo; añade una poción si no debes guardarla y usa Esfumar y Garrote. La variante de Marca de muerte continúa con Preparación, Premeditación, Marca de muerte, Hemorragia, Apuñalar y Ruptura. La de Hemorragia y Sello del destino sigue con Hemorragia, Apuñalar y Ruptura; luego genera 4–5 puntos y usa Sangre fría con Eviscerar, reservándola para 5 puntos si solo tendrás un uso.",
+      "text_en": "Before the pull, use Premeditation to activate Slice and Dice; add a potion if it need not be saved, then Vanish and Garrote. Deep Sub continues with Preparation, Premeditation, Death Mark, Hemorrhage, Shank, and Rupture. The other variant uses Hemorrhage, Shank, and Rupture, then builds 4–5 points for Cold Blood and Eviscerate; save Cold Blood for 5 points if you will only use it once.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue DPS Rotation and Cooldowns - WoW: Forever › Opening Rotation for Subtlety Rogues in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/rotation-cooldowns-pve-dps",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "class:rogue:subtlety:rotation"
+      ],
+      "source_hashes": [
+        "section:606e1bea454d5a818f1b4d35e20dc27f4d7aa893"
       ]
     }
   ]
