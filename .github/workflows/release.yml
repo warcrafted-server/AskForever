@@ -240,7 +240,8 @@ jobs:
               $types | ForEach-Object { Write-Host "Tipo: id=$($_.id) slug=$($_.slug) nombre=$($_.name)" }
               throw "No se pudo elegir una unica version de juego $gameVersion para Forever ($($candidates.Count) candidatas)."
           }
-          $releaseType = if ($version -match 'alpha') { 'alpha' } elseif ($version -match 'beta') { 'beta' } else { 'release' }
+          # Siempre «release»: en CurseForge las betas y alfas llegan a muy poca gente (decisión de Marc, 2026-11-18).
+          $releaseType = 'release'
           $notesPath = "docs/curseforge/changelog-$version.md"
           if (Test-Path $notesPath) {
               $changelog = Get-Content $notesPath -Raw -Encoding utf8
