@@ -4,12 +4,16 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+## [0.4.0-beta.2] - 2026-11-18
+
 ### English
+- Added: guide cards from the latest WoW Forever guides for travel and mounts (flight points, ships, zeppelins and tram, riding costs, class mounts, mount and pet collections, Riverglades, Zephra's Isle), first steps (Legacy system, bags, bank and storage, camping, cozy sleeping bag, editions and roadmap) and the Skyborne race.
 - Changed: class guide cards updated to the latest WoW Forever class guides. Rogue: level 60 builds (new Combat Venom and Subtlety Hemorrhage + Seal Fate builds, superseded builds removed), rotations and new opening sequences for each spec. Druid: Balance raid and PvP builds and the Feral leveling build and rotation. Warrior: Fury leveling rotation with Reckless Swings. Mage: Arcane Power sequence. The new data reaches the app through the addon, without reinstalling it.
 - Changed: app releases on GitHub are now regular releases marked as latest (betas included), and data releases are published automatically as pre-releases.
 - Fixed: the addon data patch no longer resends whole tables when only the "last seen" date of the data changes.
 
 ### Español
+- Añadido: fichas de la guía a partir de las últimas guías de WoW Forever sobre viajes y monturas (puntos de vuelo, barcos, zepelines y tranvía, coste de equitación, monturas de clase, colecciones de monturas y mascotas, Clarofluvial, isla de Zephras), primeros pasos (sistema Legacy, bolsas, banco y almacenamiento, campamentos, saco de dormir, ediciones y calendario) y la raza Cielonato.
 - Cambiado: fichas de clase actualizadas a las últimas guías de clase de WoW Forever. Pícaro: builds de nivel 60 (nuevas builds de Combate con Veneno y de Sutileza con Hemorragia y Sello del destino, se retiran las superadas), rotaciones y aperturas nuevas por especialización. Druida: builds de Equilibrio para banda y JcJ y build y rotación Feral para subir. Guerrero: rotación de Furia para subir con Golpes temerarios. Mago: secuencia de Poder Arcano. Los datos nuevos llegan a la app por el addon, sin reinstalarla.
 - Cambiado: las releases de la app en GitHub pasan a ser releases normales marcadas como la última (también las betas), y las de datos se publican automáticamente como prerrelease.
 - Corregido: el parche de datos del addon ya no reenvía tablas enteras cuando solo cambia la fecha de «última vez visto» de los datos.
