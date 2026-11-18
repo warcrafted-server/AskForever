@@ -1011,7 +1011,7 @@
         "mulgore",
         "cairne bloodhoof"
       ],
-      "text_es": "Los tauren eran nómadas que recorrían Los Baldíos y cazaban kodos. La amenaza de los centauros los mantenía divididos hasta que Cairne Bloodhoof pidió ayuda a los orcos; juntos rechazaron a los centauros y tomaron Mulgore. Cairne construyó Cima del Trueno y las tribus se unieron bajo un mismo estandarte. La Gran Caza sigue siendo el centro de su cultura espiritual.",
+      "text_es": "Los tauren eran nómadas que recorrían Los Baldíos y cazaban kodos. La amenaza de los centauros los mantenía divididos hasta que Cairne Pezuña de Sangre pidió ayuda a los orcos; juntos rechazaron a los centauros y tomaron Mulgore. Cairne construyó Cima del Trueno y las tribus se unieron bajo un mismo estandarte. La Gran Caza sigue siendo el centro de su cultura espiritual.",
       "text_en": "The tauren were nomads who roamed the Barrens and hunted kodo. The centaur threat kept them divided until Cairne Bloodhoof asked the orcs for help; together they pushed the centaur back and claimed Mulgore. Cairne built Thunder Bluff and the tribes united under one banner. The Great Hunt remains the heart of their spiritual culture.",
       "tags": [
         "TAUREN"
@@ -1167,41 +1167,56 @@
       "status": "editorial",
       "title_es": "Cielonatos: facciones y clases",
       "title_en": "Skyborne: Factions and Classes",
-      "summary_es": "Neutral: Orden Eminente (Alianza) maga; Formavientos (Horda) chamán; ambos: druida, cazador, pícaro y guerrero.",
-      "summary_en": "Neutral: High Order (Alliance) can be Mage; Windshaper (Horde), Shaman; both: Druid, Hunter, Rogue and Warrior.",
+      "summary_es": "Cada bando tiene cinco clases: cuatro compartidas; Mago es exclusivo de la Alianza y Chamán, de la Horda.",
+      "summary_en": "Each faction has five classes: four shared; Mage is Alliance-only and Shaman is Horde-only.",
       "keywords_es": [
         "cielonato alianza u horda",
-        "cielonato de la orden eminente",
-        "cielonato formavientos",
         "clases de cielonato",
-        "isla de zephras"
+        "clases de cielonato alianza",
+        "cielonato mago",
+        "cielonato chamán",
+        "zona de inicio cielonato"
       ],
       "keywords_en": [
         "skyborne alliance or horde",
-        "high order skyborne",
-        "windshaper skyborne",
         "skyborne classes",
-        "zephras isle"
+        "skyborne mage",
+        "skyborne shaman",
+        "skyborne starting area"
       ],
-      "text_es": "Los Cielonatos son neutrales: al crear el personaje eliges Alianza u Horda. Los de la Alianza son Cielonatos de la Orden Eminente y pueden ser Magos; los de la Horda son Cielonatos Formavientos y pueden ser Chamanes. Ambos bandos comparten Druida, Cazador, Pícaro y Guerrero. Su zona de inicio es la Isla de Zephras.",
-      "text_en": "Skyborne are neutral: when you create the character you choose Alliance or Horde. Alliance Skyborne are High Order Skyborne and can be Mages; Horde Skyborne are Windshaper Skyborne and can be Shamans. Both sides share Druid, Hunter, Rogue and Warrior. Their starting area is Zephras Isle.",
+      "text_es": "Al crear un Cielonato puedes elegir Alianza u Horda; cada bando dispone de cinco clases. Druida, Cazador, Pícaro y Guerrero están disponibles en ambos; Mago solo en la Alianza y Chamán solo en la Horda. La raza también cuenta con una zona de inicio propia.",
+      "text_en": "When creating a Skyborne, you can choose Alliance or Horde; each faction has five available classes. Druid, Hunter, Rogue and Warrior are available to both; Mage is Alliance-only and Shaman is Horde-only. The race also has its own starting area.",
       "tags": [
         "SKYBORNE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Everything You Need to Know About The Skyborne in World of Warcraft: Forever › Skyborne Factions and Classes",
+          "ref": "Wowhead: Skyborne Race Overview: Racials and Customization - WoW: Forever › (intro)",
+          "url": "https://www.wowhead.com/forever/guide/skyborne-race-overview",
+          "date": "2026-10-27"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Skyborne Race Overview: Racials and Customization - WoW: Forever › Classes Available to Skyborne in Forever",
+          "url": "https://www.wowhead.com/forever/guide/skyborne-race-overview",
+          "date": "2026-10-27"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About The Skyborne in World of Warcraft: Forever › How to Unlock the Skyborne",
           "url": "https://www.icy-veins.com/wow-forever/skyborne",
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "race:skyborne"
       ],
       "source_hashes": [
-        "section:2946ea95404b170eea85e689d15287fab2e8559e"
+        "guide:9bd0733156e5714f99eab93c856844ce9a4c0689",
+        "section:9a0beec5d4e7fba165f6173b2eddf4c25f3f1c00",
+        "section:abf72f5d99a981d89bdd948d05b8fcf2ea3f88e7"
       ]
     },
     {
@@ -1226,25 +1241,39 @@
         "elemental insight",
         "skysight"
       ],
-      "text_es": "Todos los Cielonatos comparten Caminar sobre el aire, que planea 10 segundos, Bendición del viento, que da un 2% de celeridad, y Perspicacia elemental, que aumenta un 5% el daño contra elementales. La cuarta racial depende del bando: la Orden Eminente recibe Read Ley Line, que regenera un 50% de salud y maná durante 15 segundos y sube al 100% cerca de una línea ley; los Formavientos reciben Visión cielonata, que da un 15% de velocidad durante 15 segundos y sube al 30% en una convergencia elemental. Ambos beneficios especiales duran una hora y se pierden al entrar en banda.",
-      "text_en": "All Skyborne share Walk on Air, a 10-second glide, Wind Blessed, which grants 2% haste, and Elemental Insight, which increases damage against elementals by 5%. The fourth racial depends on the faction: High Order get Read Ley Line, restoring 50% Health and Mana for 15 seconds and rising to 100% near a ley line; Windshaper get Skysight, granting 15% movement speed for 15 seconds and rising to 30% at an elemental convergence. Both special benefits last one hour and are removed on entering a raid.",
+      "text_es": "Caminar sobre el aire permite planear 10 s controlando la dirección (recarga: 1,5 min); Bendición del viento da +2% de celeridad y Perspicacia elemental, +5% de daño a elementales. Read Leyline (Alianza) aumenta un 50% la regeneración de salud y el efecto Regeneración de maná durante 15 s; en una línea ley, la bonificación llega al 100% durante 1 h. Visión cielonata (Horda) da +15% de velocidad durante 15 s, o +30% en una convergencia elemental. Las mejoras duran 1 h, persisten tras morir y se eliminan al entrar en banda; Read Leyline no funciona con Enervar activo.",
+      "text_en": "Three abilities are shared: Walk on Air gives a steerable 10-second glide (1.5-minute cooldown); Wind Blessed grants 2% Haste and Elemental Insight, 5% damage to Elementals. Read Leyline gives Alliance characters 15 seconds of 50%-stronger Health and Mana regeneration; at a ley line, it grants a 100% bonus for 1 hour. Skysight grants Horde characters 15% movement speed for 15 seconds, or 30% at an elemental convergence. The enhanced effects last 1 hour, persist through death, and end on entering a raid; Read Leyline cannot be used during Innervate.",
       "tags": [
         "SKYBORNE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Skyborne Race Guide for WoW Forever › Skyborne Racials",
+          "ref": "Wowhead: All Racials and Available Class-Race Combinations in World of Warcraft: Forever › Neutral Racials in WoW: Forever > Windshaper Skyborne ( Horde)",
+          "url": "https://www.wowhead.com/forever/guide/new-race-class-combinations",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: All Racials and Available Class-Race Combinations in World of Warcraft: Forever › Neutral Racials in WoW: Forever > High Order Skyborne ( Alliance)",
+          "url": "https://www.wowhead.com/forever/guide/new-race-class-combinations",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Skyborne Race Guide for WoW Forever › Skyborne Racials > High Order Skyborne (Alliance)",
           "url": "https://www.icy-veins.com/wow-forever/skyborne-race-guide",
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
+        "general:new-race-class-combinations",
         "race:skyborne"
       ],
       "source_hashes": [
-        "section:85bd5d0cd1ae70bfa155f13bbe04e1bec1e8e0e6"
+        "guide:0980c9a2fea7f3d4b14abfb5dd6eefc34f7be936",
+        "guide:1a364a0a3e7e8f3a5c1336cfc3e5e4ce6ce58767"
       ]
     },
     {
@@ -1253,41 +1282,59 @@
       "status": "editorial",
       "title_es": "Historia breve del Cielonato",
       "title_en": "Skyborne Background",
-      "summary_es": "Los Shen'dorei huyeron de Eldre'Thalas, elevaron Zephras y ahora se dividen entre Orden Eminente y Formavientos.",
-      "summary_en": "The Shen'dorei fled Eldre'Thalas, raised Zephras and now split between High Order and Windshaper.",
+      "summary_es": "Los rebeldes escaparon de su hogar con ayuda elemental; hoy tres corrientes disputan el futuro de su isla.",
+      "summary_en": "Rebels escaped their home with elemental aid; three factions now vie for their island's future.",
       "keywords_es": [
         "historia de los cielonatos",
         "lore cielonato",
-        "shen'dorei",
+        "shen'dralar",
         "eldre'thalas",
-        "zephras"
+        "pozo de la eternidad",
+        "elementales primordiales",
+        "facciones de cielonatos"
       ],
       "keywords_en": [
         "skyborne lore",
         "skyborne history",
-        "shen'dorei",
+        "shen'dralar",
         "eldre'thalas",
-        "zephras"
+        "well of eternity",
+        "primordial elementals",
+        "skyborne factions"
       ],
-      "text_es": "Los Cielonatos descienden de los Shen'dorei de Eldre'Thalas. Tras la destrucción del Pozo de la Eternidad, un grupo se rebeló contra el príncipe Tortheldrin y huyó al oeste; con ayuda de elementales de aire elevaron una gran isla, Zephras, y la anclaron en Skywall. Allí vivieron miles de años y cambiaron físicamente. Cuando los elementales desaparecieron, la isla empezó a fallar y los Cielonatos volvieron a Azeroth divididos entre la Orden Eminente y los Formavientos.",
-      "text_en": "Skyborne descend from the Shen'dorei of Eldre'Thalas. After the Well of Eternity was destroyed, a group rebelled against Prince Tortheldrin and fled west; with air elementals' help they raised a great island, Zephras, and anchored it in Skywall. They lived there for thousands of years and changed physically. When the elementals vanished, the island began to fail and the Skyborne returned to Azeroth split between the High Order and the Windshapers.",
+      "text_es": "Los Shen'dralar de Eldre'Thalas perdieron la energía del Pozo de la Eternidad; el príncipe Tortheldrin planeó invocar un demonio. Sus opositores huyeron al oeste tras un asalto que desató la magia. Pactaron con elementales primordiales, que alzaron una isla y la anclaron en el plano del aire; tras miles de años cambiaron físicamente. Al desaparecer los elementales, el refugio empezó a fallar. Dos corrientes bajaron a Azeroth: una busca autonomía arcana y otra restaurar el vínculo con los espíritus del viento; una tercera venera a Al'Akir y disputa la isla.",
+      "text_en": "In Eldre'Thalas, Shen'dralar suffered after the Well of Eternity was destroyed. Prince Tortheldrin planned to summon a demon; opponents fled west after a raid unleashed uncontrolled magic. They bargained with primordial elementals, who raised an island and anchored it in the plane of air; after thousands of years, their bodies changed. When the elementals vanished, the haven began to falter. Two factions descended into Azeroth: one seeks arcane self-reliance, the other wants to restore its bond with the wind spirits; a third worships Al'Akir, the Windlord, and vies for the isle.",
       "tags": [
         "SKYBORNE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Icy Veins: Everything You Need to Know About The Skyborne in World of Warcraft: Forever › Skyborne Race Lore",
+          "ref": "Icy Veins: Everything You Need to Know About The Skyborne in World of Warcraft: Forever › Rebellion and Fleeing Eldre'Thalas",
+          "url": "https://www.icy-veins.com/wow-forever/skyborne",
+          "date": "2026-10-27"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About The Skyborne in World of Warcraft: Forever › The Discovery of Skywall and the Founding of Zephras Isle",
+          "url": "https://www.icy-veins.com/wow-forever/skyborne",
+          "date": "2026-10-27"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About The Skyborne in World of Warcraft: Forever › Reemergence into Azeroth",
           "url": "https://www.icy-veins.com/wow-forever/skyborne",
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-15",
+      "updated": "2026-11-18",
       "topics": [
         "race:skyborne"
       ],
       "source_hashes": [
-        "section:d67f6b967abfb22534872cba3a19af1049b6476b"
+        "section:2f6f440182d1c11d4d5be2fb0581745780845888",
+        "section:581b0672fd99e3d6ad4f14a8a164cadc230028cf",
+        "section:90343dfa50c713264226de7913dadb2034a757cf"
       ]
     }
   ]
