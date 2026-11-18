@@ -7,7 +7,6 @@ import argparse
 import difflib
 import importlib.util
 import json
-import os
 import re
 import shutil
 import sqlite3
@@ -262,7 +261,11 @@ def _write_text(path: Path, text: str) -> None:
 
 
 def _relative_path(path: Path) -> str:
-    return Path(os.path.relpath(path, REPO_ROOT)).as_posix()
+    try:
+        return Path(path).resolve().relative_to(REPO_ROOT.resolve()).as_posix()
+    except ValueError:
+        # Fuera del repo (p. ej. temporales en otra unidad, como en el runner de CI): ruta absoluta.
+        return Path(path).resolve().as_posix()
 
 
 def _class_patterns(class_name: str, pack: str) -> list[str]:
