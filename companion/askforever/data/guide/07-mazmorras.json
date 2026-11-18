@@ -3812,6 +3812,352 @@
       "source_hashes": [
         "section:34e3d909a6bd28a8e8d5108fd32545f5126136e5"
       ]
+    },
+    {
+      "id": "mazmorra-scarlet-armory-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Monasterio Escarlata: Armería",
+      "title_en": "Scarlet Monastery: Armory",
+      "summary_es": "Nivel 32-42; la puerta cerrada de la Armería exige «La llave Escarlata».",
+      "summary_en": "Levels 32-42; the locked Armory door requires the Scarlet Key.",
+      "keywords_es": [
+        "Armería del Monasterio Escarlata",
+        "nivel de la Armería Escarlata",
+        "entrada de la Armería Escarlata",
+        "La llave Escarlata"
+      ],
+      "keywords_en": [
+        "Scarlet Monastery Armory",
+        "Armory level range",
+        "Armory entrance",
+        "Scarlet Key"
+      ],
+      "text_es": "La Armería se recomienda para niveles 32-42. Está tras una puerta cerrada del salón al final de las escaleras del Monasterio Escarlata y exige el objeto «La llave Escarlata», que se obtiene en la Biblioteca, en la caja fuerte cercana a Arcanista Doan. La Horda llega desde Entrañas por el camino al este y luego al noreste; la Alianza puede partir de Laderas de Trabalomas, cruzar a nado el lago hasta Tirisfal y seguir hacia el este y noreste.",
+      "text_en": "The Armory is recommended for levels 32-42. It lies behind a locked door in the hall at the top of the Scarlet Monastery stairs and requires the Scarlet Key, found in the Library in the strongbox near Arcanist Doan. Horde can travel east from Undercity, then northeast; Alliance can start in Southshore, swim across the lake to Tirisfal, then head east and northeast.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery Armory Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Scarlet Monastery Armory Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-armory-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery Armory Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of the Scarlet Monastery in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-armory-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scarlet-monastery-armory"
+      ],
+      "source_hashes": [
+        "section:4d2468bb8e5d29c8f1fdaded890b77e106a44588",
+        "section:61298b623fc4f1eddc0f987e124b4d82a24b9130"
+      ]
+    },
+    {
+      "id": "mazmorra-scarlet-armory-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones de la Armería Escarlata",
+      "title_en": "Scarlet Monastery Armory Quests",
+      "summary_es": "Prepara En el Monasterio Escarlata o En el nombre de la Luz según tu facción.",
+      "summary_en": "Prepare Into the Scarlet Monastery or In the Name of the Light for your faction.",
+      "keywords_es": [
+        "misiones de la Armería Escarlata",
+        "En el Monasterio Escarlata",
+        "En el nombre de la Luz",
+        "Corazones de fervor"
+      ],
+      "keywords_en": [
+        "Scarlet Monastery Armory quests",
+        "Into the Scarlet Monastery",
+        "In the Name of the Light",
+        "Hearts of Zeal"
+      ],
+      "text_es": "En el Monasterio Escarlata, misión de la Horda, se recoge con Varimathras en Entrañas e incluye objetivos de varias alas. También se puede preparar Corazones de fervor con el Maestro boticario Faranell en Entrañas, tras Guano del Horado en Horado Rajacieno. Para la Alianza, En el nombre de la Luz se obtiene con Raleigh el Devoto en Laderas de Trabalomas, después de la cadena que empieza con Hermano Antón.",
+      "text_en": "Horde can pick up Into the Scarlet Monastery from Varimathras in Undercity; its objectives span several wings. They can also prepare Hearts of Zeal with Master Apothecary Faranell in Undercity, after Going, Going, Guano! in Razorfen Kraul. Alliance can get In the Name of the Light from Raleigh the Devout in Hillsbrad Foothills, after the chain that starts with Brother Anton.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery Armory Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-armory-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery Armory Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Every Quest in Scarlet Monastery Armory in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-armory-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scarlet-monastery-armory"
+      ],
+      "source_hashes": [
+        "section:4175aa04779bcbe7aadf07161a3fc04adb905fd4",
+        "section:feb3ca09206b5f56adf7edecdd7ae670a3dc8db1"
+      ]
+    },
+    {
+      "id": "mazmorra-scarlet-armory-jefes",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jefes de la Armería Escarlata",
+      "title_en": "Scarlet Monastery Armory Bosses",
+      "summary_es": "Aléjate del Huracán del jefe y agrúpate tras su derrota para afrontar a los practicantes.",
+      "summary_en": "Move away from the boss’s Whirlwind and regroup after his defeat for the trainees.",
+      "keywords_es": [
+        "jefes de la Armería Escarlata",
+        "estrategia de Herod",
+        "Huracán de Herod",
+        "Practicante Escarlata"
+      ],
+      "keywords_en": [
+        "Scarlet Monastery Armory bosses",
+        "Herod strategy",
+        "Herod Whirlwind",
+        "Scarlet Trainees"
+      ],
+      "text_es": "El jefe es Herod: mantenlo en el centro y coloca a los atacantes a distancia en las escaleras. Cuando empiece a girar con Huracán, se vuelve inmune a la magia: sal del centro y no intentes tanquearlo. Al derrotarlo, agrupaos para afrontar a los más de 20 Practicantes Escarlata que entran en la sala.",
+      "text_en": "The boss is Herod. Keep the boss in the center and place ranged players on the stairs. When he begins spinning with Whirlwind, he becomes immune to magic: move out of the center and do not try to tank him. After he falls, regroup to handle the more than 20 trainees who run into the room.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery Armory Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Herod, The Scarlet Champion",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-armory-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scarlet-monastery-armory"
+      ],
+      "source_hashes": [
+        "section:bf41de3c3217e4bb37453a37b1c9d65d17468488"
+      ]
+    },
+    {
+      "id": "mazmorra-scarlet-armory-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de la Armería Escarlata",
+      "title_en": "Scarlet Monastery Armory Rewards",
+      "summary_es": "Destacan el Yelmo de rabioso enfurecido, el Hombro de Herod y Devastador.",
+      "summary_en": "Notable rewards include Raging Berserker’s Helm, Herod’s Shoulder, and Ravager.",
+      "keywords_es": [
+        "recompensas de la Armería Escarlata",
+        "Yelmo de rabioso enfurecido",
+        "Hombro de Herod",
+        "Devastador"
+      ],
+      "keywords_en": [
+        "Scarlet Monastery Armory rewards",
+        "Raging Berserker's Helm",
+        "Herod's Shoulder",
+        "Ravager"
+      ],
+      "text_es": "Entre los objetos destacados del jefe están el Yelmo de rabioso enfurecido, el Hombro de Herod y Devastador. También puede caer el Tabardo de la Cruzada Escarlata de los Practicantes Escarlata.",
+      "text_en": "Notable boss drops include Raging Berserker's Helm, Herod's Shoulder, and Ravager. These trainees can also drop the Tabard of the Scarlet Crusade.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery Armory Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Scarlet Monastery Armory Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-armory-dungeon-overview-location-rewards",
+          "date": "2026-11-06"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scarlet-monastery-armory"
+      ],
+      "source_hashes": [
+        "section:b6800fec216e44ab2bd160c2998cc360c9d6ced0"
+      ]
+    },
+    {
+      "id": "mazmorra-scarlet-cathedral-entrada",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Monasterio Escarlata: Catedral",
+      "title_en": "Scarlet Monastery: Cathedral",
+      "summary_es": "Nivel 35-45; la puerta cerrada de la Catedral exige «La llave Escarlata».",
+      "summary_en": "Levels 35-45; the locked Cathedral door requires the Scarlet Key.",
+      "keywords_es": [
+        "Catedral del Monasterio Escarlata",
+        "nivel de la Catedral Escarlata",
+        "entrada de la Catedral Escarlata",
+        "La llave Escarlata"
+      ],
+      "keywords_en": [
+        "Scarlet Monastery Cathedral",
+        "Cathedral level range",
+        "Cathedral entrance",
+        "Scarlet Key"
+      ],
+      "text_es": "La Catedral se recomienda para niveles 35-45 y es el ala más difícil. Su puerta cerrada está al final de las escaleras del Monasterio Escarlata y exige el objeto «La llave Escarlata», que se obtiene en la Biblioteca, en la caja fuerte cercana a Arcanista Doan. La Horda puede llegar desde Entrañas por el camino al este y luego al noreste; la Alianza puede partir de Laderas de Trabalomas, nadar por el lago hasta Tirisfal y seguir hacia el este y noreste.",
+      "text_en": "The Cathedral is recommended for levels 35-45 and is the most difficult wing. Its locked door is at the top of the Scarlet Monastery stairs and requires the Scarlet Key, found in the Library in the strongbox near Arcanist Doan. Horde can travel east from Undercity, then northeast; Alliance can start in Southshore, swim across the lake to Tirisfal, then head east and northeast.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Cathedral Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Scarlet Monastery Cathedral Overview in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-cathedral-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Cathedral Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of the Scarlet Monastery in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-cathedral-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scarlet-monastery-cathedral"
+      ],
+      "source_hashes": [
+        "section:57543d2a972816222b8017710feec0b66102d3f4",
+        "section:9ffd74f60dd08b342dc516159b70cfdd3ff42894"
+      ]
+    },
+    {
+      "id": "mazmorra-scarlet-cathedral-misiones",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Misiones de la Catedral Escarlata",
+      "title_en": "Scarlet Monastery Cathedral Quests",
+      "summary_es": "Prepara En el Monasterio Escarlata o En el nombre de la Luz según tu facción.",
+      "summary_en": "Prepare Into the Scarlet Monastery or In the Name of the Light for your faction.",
+      "keywords_es": [
+        "misiones de la Catedral Escarlata",
+        "En el Monasterio Escarlata",
+        "En el nombre de la Luz",
+        "Hermano Antón"
+      ],
+      "keywords_en": [
+        "Scarlet Monastery Cathedral quests",
+        "Into the Scarlet Monastery",
+        "In the Name of the Light",
+        "Brother Anton"
+      ],
+      "text_es": "La Horda puede recoger En el Monasterio Escarlata con Varimathras en Entrañas; sus objetivos abarcan varias alas. Para la Alianza, En el nombre de la Luz se obtiene con Raleigh el Devoto en Laderas de Trabalomas tras una cadena que empieza con Hermano Antón. Esta última misión pide derrotar a los jefes finales de varias alas, incluida la Catedral.",
+      "text_en": "Horde can take Into the Scarlet Monastery from Varimathras in Undercity; its objectives span several wings. Alliance can pick up In the Name of the Light from Raleigh the Devout in Hillsbrad Foothills after a chain that starts with Brother Anton. The quest requires defeating the final bosses of several wings, including the Cathedral.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Cathedral Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-cathedral-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Cathedral Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Every Quest in Scarlet Monastery Cathedral in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-cathedral-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scarlet-monastery-cathedral"
+      ],
+      "source_hashes": [
+        "section:6e8fd3fd6329e562a09360a80954139d574a5b81",
+        "section:6ed811a8919ba347c37c5fd8ce1e0aba006515d7"
+      ]
+    },
+    {
+      "id": "mazmorra-scarlet-cathedral-jefes",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Jefes de la Catedral Escarlata",
+      "title_en": "Scarlet Monastery Cathedral Bosses",
+      "summary_es": "Vigila al Comandante Escarlata Mograine y a la Alta inquisidora Melenablanca.",
+      "summary_en": "Watch Mograine’s stun and Whitemane’s Scarlet Resurrection.",
+      "keywords_es": [
+        "jefes de la Catedral Escarlata",
+        "Comandante Escarlata Mograine",
+        "Alta inquisidora Melenablanca",
+        "Resurrección Escarlata"
+      ],
+      "keywords_en": [
+        "Scarlet Monastery Cathedral bosses",
+        "Scarlet Commander Mograine",
+        "High Inquisitor Whitemane",
+        "Scarlet Resurrection"
+      ],
+      "text_es": "El Comandante Escarlata Mograine puede aturdir con Martillo de justicia y protegerse con Escudo divino; al caer, comienza el combate con Alta inquisidora Melenablanca. Ella inflige daño con Acometida Sagrada y, cuando está debilitada, duerme al grupo y resucita al Comandante Escarlata Mograine, además de curar a ambos. El tanque debe recoger al Comandante Escarlata Mograine; derrotad primero a Alta inquisidora Melenablanca y luego al Comandante Escarlata Mograine. Otro jefe yace en el suelo hasta que lo atacas; interrumpe su Curar y vigila Miedo, Dormir y Maldición de sangre.",
+      "text_en": "Scarlet Commander Mograine can stun with Hammer of Justice and protect himself with Divine Shield; when he falls, the fight with High Inquisitor Whitemane begins. She deals damage with Holy Smite and, when weakened, puts the party to sleep and resurrects Mograine, healing them both. The tank should pick up Mograine; defeat Whitemane first, then Mograine. Another boss lies on the ground until attacked; interrupt his Heal and watch for Fear, Sleep, and Curse of Blood.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Cathedral Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Scarlet Commander Mograine",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-cathedral-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Cathedral Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › High Inquisitor Whitemane",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-cathedral-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Cathedral Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › High Inquisitor Fairbanks",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-cathedral-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scarlet-monastery-cathedral"
+      ],
+      "source_hashes": [
+        "section:118ac93e221079a99150633ee430f02b1ac8ec65",
+        "section:3f0c98b764b08458c8fb17026d5dda077645840a",
+        "section:be07443fbbb4d48fdcdb8c211c300e6aa133804b"
+      ]
+    },
+    {
+      "id": "mazmorra-scarlet-cathedral-recompensas",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Recompensas de la Catedral Escarlata",
+      "title_en": "Scarlet Monastery Cathedral Rewards",
+      "summary_es": "Destacan la Égida del Comandante Escarlata, el Sombrero de Melenablanca y la Mano de Rectitud.",
+      "summary_en": "Notable rewards include Aegis of the Scarlet Commander, Whitemane's Chapeau, and Hand of Righteousness.",
+      "keywords_es": [
+        "recompensas de la Catedral Escarlata",
+        "Égida del Comandante Escarlata",
+        "Sombrero de Melenablanca",
+        "Mano de Rectitud"
+      ],
+      "keywords_en": [
+        "Scarlet Monastery Cathedral rewards",
+        "Aegis of the Scarlet Commander",
+        "Whitemane's Chapeau",
+        "Hand of Righteousness"
+      ],
+      "text_es": "Entre los objetos destacados de los jefes están la Égida del Comandante Escarlata y el Poderío de Mograine. De Alta inquisidora Melenablanca pueden caer el Sombrero de Melenablanca, la Mano de Rectitud y el Amuleto Triune.",
+      "text_en": "Notable boss drops include the Aegis of the Scarlet Commander and Mograine's Might. High Inquisitor Whitemane can drop Whitemane's Chapeau, Hand of Righteousness, and Triune Amulet.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Scarlet Monastery: Cathedral Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Scarlet Monastery Cathedral Loot in World of Warcraft: Forever",
+          "url": "https://www.wowhead.com/forever/guide/scarlet-monastery-cathedral-dungeon-overview-location-rewards",
+          "date": "2026-11-10"
+        }
+      ],
+      "updated": "2026-11-18",
+      "topics": [
+        "dungeon:scarlet-monastery-cathedral"
+      ],
+      "source_hashes": [
+        "section:2cb83c90f2fb5cd2e724819bade5159fa078222e"
+      ]
     }
   ]
 }
