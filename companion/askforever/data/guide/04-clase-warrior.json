@@ -212,9 +212,9 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Fury Warrior Leveling Guide - WoW: Forever › Leveling Milestones > Important Unlocks",
-          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/dps-leveling-tips",
-          "date": "2026-11-07"
+          "ref": "Icy Veins: World of Warcraft: Forever Fury Warrior Leveling Guide › Leveling Milestones > Important Unlocks",
+          "url": "https://www.icy-veins.com/wow-forever/fury-warrior-leveling",
+          "date": "2026-11-04"
         },
         {
           "type": "editorial",
@@ -235,7 +235,7 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:warrior:arms:leveling",
         "class:warrior:fury:leveling",
@@ -243,7 +243,7 @@
       ],
       "source_hashes": [
         "guide:7e76df9ec6765aca0de4cb9efcdd8cbfa15cc14f",
-        "guide:934aa8f6b83bc8ac7c5d563dd18f7e0043cd7625",
+        "guide:baf6ab9f1243adfa8aac49ced45104e22290f803",
         "section:914fe68c6a13605373012e0c0071db0725195aab",
         "section:b85595a9798bbd357d92bde3973597e58262b7c4",
         "section:cd2bb478ad28c47ef109a76e587c4be7f3eb8ce3"
@@ -450,12 +450,6 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Fury Warrior Leveling Guide - WoW: Forever › Leveling Milestones > Important Unlocks",
-          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/dps-leveling-tips",
-          "date": "2026-11-07"
-        },
-        {
-          "type": "editorial",
           "ref": "Wowhead: Protection Warrior Leveling Guide - WoW: Forever › Best Abilities to Train for Protection Warrior in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/tank-leveling-tips",
           "date": "2026-11-06"
@@ -485,7 +479,7 @@
           "date": "2026-11-06"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:warrior:arms:leveling",
         "class:warrior:fury:leveling",
@@ -494,7 +488,6 @@
       "source_hashes": [
         "guide:5ce00d93595f1847fe9bc8701d47bbb805d3e581",
         "guide:7e76df9ec6765aca0de4cb9efcdd8cbfa15cc14f",
-        "guide:934aa8f6b83bc8ac7c5d563dd18f7e0043cd7625",
         "guide:baf6ab9f1243adfa8aac49ced45104e22290f803",
         "section:2c64089c5c27f6503e330b5d26e9956ec7aa80cb",
         "section:48ce2da4d26adbe9f5e2474761e99d0cff01d95c",
@@ -722,7 +715,7 @@
           "type": "editorial",
           "ref": "Wowhead: Fury Warrior Leveling Guide - WoW: Forever › Leveling Rotation for Fury Warrior DPS in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/dps-leveling-tips",
-          "date": "2026-11-07"
+          "date": "2026-11-16"
         },
         {
           "type": "editorial",
@@ -731,7 +724,7 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:warrior:arms:leveling",
         "class:warrior:fury:leveling",
@@ -741,7 +734,7 @@
         "guide:7e76df9ec6765aca0de4cb9efcdd8cbfa15cc14f",
         "section:013a89de454282218e0589804a7d6057e60b2459",
         "section:11f3d5bcbe6b40ef73886ccc0c7b8535f00a20d2",
-        "section:6812f41dd3216becbf01cef3a3787b6009f8a338",
+        "section:71c80ce73e7da9c3913b8f0970220892c41b1479",
         "section:e995767953b72c764ea6dd9e79cc923aacb64134"
       ]
     },
@@ -825,8 +818,8 @@
         "Fury rotation",
         "Protection rotation"
       ],
-      "text_es": "Armas (Embate mejorado 2/2, Golpe mortal 1/1): Embestir, Grito de guerra; Ataque de la victoria si falta salud; Grito desmoralizador pronto; Desgarrar si el enemigo vivirá, Abrumar al activarse y luego Golpe mortal (desde 40) y Embate (desde 20); prioriza Lanzazo contra gigantes y dragonantes. Furia (Sed de sangre 1/1): Sed de sangre, Ataque de la victoria y Abrumar; Huracán en grupos. Protección (Embate con escudo 1/1): Bloquear con escudo, Revancha y Embate con escudo; mantén Trueno y gritos en grupo.",
-      "text_en": "Arms (Improved Slam 2/2, Mortal Strike 1/1): Charge, Battle Shout; Victory Rush if health is missing; Demoralizing Shout early; Rend if the enemy will live, Overpower when it activates, then Mortal Strike (from 40) and Slam (from 20); prioritize Spearing Strike against Giants and Dragonkin. Fury (Bloodthirst 1/1): Bloodthirst, Victory Rush, and Overpower; Whirlwind on packs. Protection (Shield Slam 1/1): Shield Block, Revenge, and Shield Slam; maintain Thunder Clap and Shouts in groups.",
+      "text_es": "Armas (Embate mejorado 2/2, Golpe mortal 1/1): Embestir, Grito de guerra; Ataque de la victoria si falta salud; Grito desmoralizador pronto; Desgarrar si el enemigo vivirá, Abrumar al activarse y luego Golpe mortal (desde 40) y Embate (desde 20); prioriza Lanzazo contra gigantes y dragonantes. Furia (Sed de sangre 1/1): Golpes temerarios si superas el 30% de salud, Sed de sangre, Ataque de la victoria y Abrumar; Huracán en grupos. Protección (Embate con escudo 1/1): Bloquear con escudo, Revancha y Embate con escudo; mantén Trueno y gritos en grupo.",
+      "text_en": "Arms (Improved Slam 2/2, Mortal Strike 1/1): Charge, Battle Shout; Victory Rush if health is missing; Demoralizing Shout early; Rend if the enemy will live, Overpower when it activates, then Mortal Strike (from 40) and Slam (from 20); prioritize Spearing Strike against Giants and Dragonkin. Fury (Bloodthirst 1/1): use Reckless Swings above 30% health, then Bloodthirst, Victory Rush, and Overpower; Whirlwind on packs. Protection (Shield Slam 1/1): Shield Block, Revenge, and Shield Slam; maintain Thunder Clap and Shouts in groups.",
       "tags": [
         "WARRIOR"
       ],
@@ -841,7 +834,7 @@
           "type": "editorial",
           "ref": "Wowhead: Fury Warrior Leveling Guide - WoW: Forever › Leveling Rotation for Fury Warrior DPS in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/dps-leveling-tips",
-          "date": "2026-11-07"
+          "date": "2026-11-16"
         },
         {
           "type": "editorial",
@@ -877,7 +870,7 @@
           "type": "editorial",
           "ref": "Wowhead: Fury Warrior Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Fury Warrior DPS in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/dps-leveling-tips",
-          "date": "2026-11-07"
+          "date": "2026-11-16"
         },
         {
           "type": "editorial",
@@ -886,7 +879,7 @@
           "date": "2026-11-06"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:warrior:arms:leveling",
         "class:warrior:fury:leveling",
@@ -898,7 +891,7 @@
         "section:11f3d5bcbe6b40ef73886ccc0c7b8535f00a20d2",
         "section:173e0f59a81fa77a5e06fcf57a33d6f5baab9c23",
         "section:60912d4380d6d5944b83c7f828b03ad767e7af08",
-        "section:6812f41dd3216becbf01cef3a3787b6009f8a338",
+        "section:71c80ce73e7da9c3913b8f0970220892c41b1479",
         "section:af995e062014605042edf9e56de75be041d3d1fe",
         "section:cd2bb478ad28c47ef109a76e587c4be7f3eb8ce3",
         "section:dd7ba003c5e6818f2bde2adf5fc132f4f296978c"
@@ -926,8 +919,8 @@
         "Cleave and Whirlwind",
         "Protection Thunder Clap"
       ],
-      "text_es": "Armas puede guardar furia y combinar Golpes de barrido 1/1 para alcanzar a un segundo enemigo con Golpe mortal y Mellar; el daño a varios enemigos cuesta mucha furia. Furia usa Huracán y añade Mellar cuando puede pagarlo. Protección usa Trueno para ralentizar los ataques, activa Bloquear con escudo y luego usa Revancha; Embate con escudo 1/1 también es prioritario si se ha aprendido, y Represalias ayuda contra varios atacantes.",
-      "text_en": "Arms can pool Rage and use Sweeping Strikes 1/1 to hit a second enemy with Mortal Strike and Cleave; its multi-target damage costs a lot of Rage. Fury uses Whirlwind and adds Cleave when affordable. Protection uses Thunder Clap to slow enemy attacks, then Shield Block and Revenge; Shield Slam 1/1 is also a priority if learned, and Retaliation helps against several attackers.",
+      "text_es": "Armas puede guardar furia y combinar Golpes de barrido 1/1 para alcanzar a un segundo enemigo con Golpe mortal y Mellar; el daño a varios enemigos cuesta mucha furia. Furia usa Golpes temerarios si supera el 30% de salud, Huracán y añade Mellar cuando puede pagarlo. Protección usa Trueno para ralentizar los ataques, activa Bloquear con escudo y luego usa Revancha; Embate con escudo 1/1 también es prioritario si se ha aprendido, y Represalias ayuda contra varios atacantes.",
+      "text_en": "Arms can pool Rage and use Sweeping Strikes 1/1 to hit a second enemy with Mortal Strike and Cleave; its multi-target damage costs a lot of Rage. Fury uses Reckless Swings above 30% health, Whirlwind, and adds Cleave when affordable. Protection uses Thunder Clap to slow enemy attacks, then Shield Block and Revenge; Shield Slam 1/1 is also a priority if learned, and Retaliation helps against several attackers.",
       "tags": [
         "WARRIOR"
       ],
@@ -942,7 +935,7 @@
           "type": "editorial",
           "ref": "Wowhead: Fury Warrior Leveling Guide - WoW: Forever › Leveling Rotation for Fury Warrior DPS in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/dps-leveling-tips",
-          "date": "2026-11-07"
+          "date": "2026-11-16"
         },
         {
           "type": "editorial",
@@ -981,7 +974,7 @@
           "date": "2026-11-06"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-18",
       "topics": [
         "class:warrior:arms:leveling",
         "class:warrior:fury:leveling",
@@ -992,7 +985,7 @@
         "guide:969650dd594ecf165b52b59987abf4407320f7da",
         "section:11f3d5bcbe6b40ef73886ccc0c7b8535f00a20d2",
         "section:65cdbc0282a9e192365c4bb6f95957447ac8e5af",
-        "section:6812f41dd3216becbf01cef3a3787b6009f8a338",
+        "section:71c80ce73e7da9c3913b8f0970220892c41b1479",
         "section:af995e062014605042edf9e56de75be041d3d1fe",
         "section:cd2bb478ad28c47ef109a76e587c4be7f3eb8ce3",
         "section:dd7ba003c5e6818f2bde2adf5fc132f4f296978c"
