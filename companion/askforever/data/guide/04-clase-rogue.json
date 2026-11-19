@@ -3056,6 +3056,209 @@
       "source_hashes": [
         "section:606e1bea454d5a818f1b4d35e20dc27f4d7aa893"
       ]
+    },
+    {
+      "id": "clase-rogue-constructores-finalizadores",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Constructores y finalizadores: costes y efectos",
+      "title_en": "Builders and finishers: costs and effects",
+      "summary_es": "Energía, puntos y requisitos de cada ataque de combo.",
+      "summary_en": "Energy, points and requirements of each combo move.",
+      "keywords_es": [
+        "cuánta energía cuesta mutilar",
+        "puñalada requisitos",
+        "hemorragia daga",
+        "venom pícaro qué hace",
+        "hacer picadillo mantener"
+      ],
+      "keywords_en": [
+        "how much energy does mutilate cost",
+        "backstab requirements",
+        "hemorrhage dagger",
+        "rogue venom what does it do",
+        "slice and dice uptime"
+      ],
+      "text_es": "Mutilar (60 de energía, 2 puntos) exige dagas en ambas manos y pega un 20 % más a objetivos envenenados. Puñalada (60, 1 punto) exige estar detrás y daga en la mano principal. Golpe siniestro cuesta 45. Hemorragia cuesta 35 y hace un 15 % más de daño con Ruptura. Todas las especializaciones mantienen Hacer picadillo casi siempre, más un finalizador: Veneno en Asesinato (+30 % de daño y +10 % de aplicación de venenos, hasta 21 s), Eviscerar en Combate y Ruptura en Sutileza.",
+      "text_en": "Mutilate (60 Energy, 2 points) needs daggers in both hands and hits Poisoned targets 20% harder. Backstab (60, 1 point) needs you behind the target and a dagger in the main hand. Sinister Strike costs 45. Hemorrhage costs 35 and makes Rupture deal 15% more damage. Every spec keeps Slice and Dice up almost always, plus one finisher: Venom for Assassination (+30% poison damage and +10% poison chance, up to 21 s), Eviscerate for Combat and Rupture for Subtlety.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Abilities Guide - Forever › Combo Point Builders for Assassination Rogues",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/dps-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Abilities Guide - Forever › Combo Point Finishers for Assassination Rogues",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/dps-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue Abilities Guide - Forever › Combo Point Finishers for Subtlety Rogues",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/dps-abilities",
+          "date": "2026-10-08"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue Abilities Guide - Forever › Combo Point Finishers for Combat Rogues",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/dps-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:rogue:assassination:abilities",
+        "class:rogue:combat:abilities",
+        "class:rogue:subtlety:abilities"
+      ],
+      "source_hashes": [
+        "section:11547b4d6f97d0cd90a1fd5fdbcebd305a9d5711",
+        "section:1a030b0fdff8690bf2e0c7880daab798e81c0ea7",
+        "section:80b3d8e56582876a64350a20c449290ab83b5940",
+        "section:b8c1fb66676ec20fde07275d0fc83daf4c721cd4"
+      ]
+    },
+    {
+      "id": "clase-rogue-aperturas-sigilo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Aperturas desde el sigilo",
+      "title_en": "Stealth openers",
+      "summary_es": "Cuándo conviene Golpe bajo, Garrote, Emboscada o Zapar.",
+      "summary_en": "When Cheap Shot, Garrote, Ambush or Sap are worth it.",
+      "keywords_es": [
+        "qué abrir desde sigilo",
+        "golpe bajo cuánto aturde",
+        "zapar cuánto dura",
+        "garrote cuánta energía",
+        "emboscada pícaro"
+      ],
+      "keywords_en": [
+        "rogue stealth opener",
+        "cheap shot stun duration",
+        "sap duration",
+        "garrote energy cost",
+        "ambush rogue"
+      ],
+      "text_es": "Golpe bajo aturde 4 s, cuesta 60 y da 2 puntos; es la apertura más práctica si el enemigo se puede aturdir. Emboscada (250 % de daño; detrás, daga, 60 de energía) sale cara para JcE. Garrote (50, detrás) deja un sangrado de 18 s; en Sutileza, Trabajos sucios lo baja a 30 y también abarata Golpe bajo. Zapar incapacita hasta 25 s a humanoides sin combate y ya no te saca del sigilo, así que sirve para separar grupos.",
+      "text_en": "Cheap Shot stuns for 4 s, costs 60 and gives 2 points; it is the most practical opener if the enemy can be stunned. Ambush (250% damage; behind, dagger, 60 Energy) is expensive for PvE. Garrote (50, from behind) leaves an 18-second bleed; in Subtlety, Dirty Deeds lowers it to 30 and also cheapens Cheap Shot. Sap incapacitates humanoids out of combat for up to 25 s and no longer breaks Stealth, so it works to split packs.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Abilities Guide - Forever › Stealth Abilities for Assassination Rogues",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/dps-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue Abilities Guide - Forever › Stealth Abilities for Subtlety Rogues",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/dps-abilities",
+          "date": "2026-10-08"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:rogue:assassination:abilities",
+        "class:rogue:subtlety:abilities"
+      ],
+      "source_hashes": [
+        "section:ea3780c392cb9d82d7cb0aa2029b44be26ce79c8",
+        "section:f9e48a867ad0234339d3be0a5dad221f7d381a0e"
+      ]
+    },
+    {
+      "id": "clase-rogue-utilidades-detalle",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Duración y uso de las utilidades del Pícaro",
+      "title_en": "Rogue utility durations and uses",
+      "summary_es": "Patada, Incapacitación, Correr, Evasión, Ceguera, Esfumar.",
+      "summary_en": "Kick, Gouge, Sprint, Evasion, Blind, Vanish.",
+      "keywords_es": [
+        "cuánto dura evasión",
+        "patada silencia escuela",
+        "correr pícaro cuánto dura",
+        "esfumar qué hace",
+        "cambiar de objetivo puntos de combo"
+      ],
+      "keywords_en": [
+        "how long does evasion last",
+        "kick school lockout",
+        "sprint duration rogue",
+        "what does vanish do",
+        "switch target combo points"
+      ],
+      "text_es": "Patada interrumpe y, si corta un hechizo, bloquea esa escuela 5 s; los puntos de combo no se pierden al cambiar de objetivo mientras no generes nuevos. Incapacitación (4 s) exige que el objetivo te mire. Correr (15 s) no rompe el sigilo. Evasión da +50 % de esquiva 15 s. Ceguera (hasta 10 s) se rompe con daño. Esfumar (10 s) quita efectos de movimiento, reinicia amenaza y permite usar Golpe bajo en combate. Amago baja algo la amenaza; Distraer (10 s) reduce su detección.",
+      "text_en": "Kick interrupts and, if it stops a spell, locks that school for 5 s; Combo Points are not lost when you switch targets as long as you do not generate new ones. Gouge (4 s) needs the target to face you. Sprint (15 s) does not break Stealth. Evasion gives +50% dodge for 15 s. Blind (up to 10 s) breaks on damage. Vanish (10 s) removes movement-impairing effects, drops threat and allows Cheap Shot in combat. Feint lowers threat a little; Distract (10 s) reduces their detection.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Abilities Guide - Forever › Utility Abilities for Assassination Rogues",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/dps-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:rogue:assassination:abilities"
+      ],
+      "source_hashes": [
+        "section:11e04f50868ce963fecdc3155df580ef89718f24"
+      ]
+    },
+    {
+      "id": "clase-rogue-venenos-detalle",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Qué hace cada veneno",
+      "title_en": "What each poison does",
+      "summary_es": "Probabilidad y efecto de los cinco venenos.",
+      "summary_en": "Chance and effect of the five poisons.",
+      "keywords_es": [
+        "veneno mortal cuántas cargas",
+        "veneno atroz efecto",
+        "veneno de aturdimiento mental",
+        "envenenar herida jcj",
+        "qué veneno usar"
+      ],
+      "keywords_en": [
+        "deadly poison stacks",
+        "crippling poison effect",
+        "mind-numbing poison",
+        "wound poison pvp",
+        "which poison to use"
+      ],
+      "text_es": "Veneno atroz (30 %): ralentiza 50 % durante 12 s y evita que huyan. Veneno de aturdimiento mental (20 %): +40 % al tiempo de lanzamiento 10 s, útil contra lanzadores. Veneno instantáneo (20 %): daño de naturaleza inmediato. Veneno mortal (30 %): daño de naturaleza durante 12 s, hasta 5 cargas; Asesinato lo prefiere para su +20 % de Mutilar. Envenenar herida (30 %): reduce la curación recibida 15 s, hasta 5 cargas; más útil en JcJ. Los venenos escalan con poder de ataque.",
+      "text_en": "Crippling Poison (30%): slows 50% for 12 s and stops fleeing. Mind-numbing Poison (20%): +40% casting time for 10 s, useful against casters. Instant Poison (20%): immediate Nature damage. Deadly Poison (30%): Nature damage over 12 s, up to 5 stacks; Assassination prefers it for the +20% on Mutilate. Wound Poison (30%): reduces healing received for 15 s, up to 5 stacks; more useful in PvP. Poisons scale with Attack Power.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Rogue Abilities Guide - Forever › Weapon poisons for Assassination Rogues",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/dps-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:rogue:assassination:abilities"
+      ],
+      "source_hashes": [
+        "section:7697ee5b79c120ec3e1dd0c923d8411a2b0bc756"
+      ]
     }
   ]
 }

@@ -2865,6 +2865,161 @@
       "source_hashes": [
         "section:ac2500827c8dd08f9a6f1bda7121540adb346938"
       ]
+    },
+    {
+      "id": "clase-priest-raciales-detalle",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades raciales del Sacerdote",
+      "title_en": "Priest racial abilities",
+      "summary_es": "Las dos habilidades de cada raza, con enfriamientos.",
+      "summary_en": "Each race's two abilities, with cooldowns.",
+      "keywords_es": [
+        "gracia divina humano",
+        "castigar enano",
+        "destello desconcertante gnomo",
+        "plan de contingencia",
+        "toque de debilidad no-muerto",
+        "maleficio de debilidad trol"
+      ],
+      "keywords_en": [
+        "divine grace human",
+        "chastise dwarf",
+        "confounding flash gnome",
+        "contingency plan",
+        "touch of weakness undead",
+        "hex of weakness troll"
+      ],
+      "text_es": "Humano: Gracia divina (cura a un aliado con menos del 50 % de salud, no a ti; 10 min) y Rebote (15 s; 3 min). Enano: Castigar (daño sagrado e inmoviliza 2 s a humanoides; 2 min) y Rezo desesperado (10 min). Elfo de la noche: Gracia de Elune (-50 % de golpes recibidos, 15 s; 5 min) y Fragmentos estelares (canalizado 6 s; 30 s). Gnomo: Destello desconcertante (confunde a 5 enemigos 3 s; 2 min) y Plan de contingencia (10 min). Trol: Maleficio de debilidad (2 min) y Guardia de las Sombras (3 cargas). No-muerto: Toque de debilidad y Sacrificio oscuro (vida a maná en 15 s; 10 min).",
+      "text_en": "Human: Divine Grace (heals an ally below 50% Health, not yourself; 10 min) and Feedback (15 s; 3 min). Dwarf: Chastise (Holy damage and a 2-second immobilize on Humanoids; 2 min) and Desperate Prayer (10 min). Night Elf: Elune's Grace (-50% chance to be hit, 15 s; 5 min) and Starshards (6-second channel; 30 s). Gnome: Confounding Flash (confuses 5 enemies for 3 s; 2 min) and Contingency Plan (10 min). Troll: Hex of Weakness (2 min) and Shadowguard (3 charges). Undead: Touch of Weakness and Dark Sacrifice (health to mana over 15 s; 10 min).",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Abilities Guide - Forever › Priest Racial Spells for Discipline Priests in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Abilities Guide - Forever › Priest Racial Spells for Holy Priests in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:priest:discipline:abilities",
+        "class:priest:holy:abilities"
+      ],
+      "source_hashes": [
+        "section:249bb217677664c5ae2b493178fd2de1b98770ec",
+        "section:dad67f1383ccb93851d79cf349d2a4a94fa71b22"
+      ]
+    },
+    {
+      "id": "clase-priest-hechizos-dano-detalle",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Hechizos de daño del Sacerdote",
+      "title_en": "Priest damage spells",
+      "summary_es": "Palabra de las Sombras: muerte, Peste devoradora y otros.",
+      "summary_en": "Shadow Word: Death, Devouring Plague and others.",
+      "keywords_es": [
+        "palabra de las sombras muerte nivel",
+        "peste devoradora cualquier raza",
+        "quemar maná sacerdote",
+        "fuego sagrado cuánto dura",
+        "explosión mental enfriamiento"
+      ],
+      "keywords_en": [
+        "shadow word death level",
+        "devouring plague any race",
+        "priest mana burn",
+        "holy fire duration",
+        "mind blast cooldown"
+      ],
+      "text_es": "Palabra de las Sombras: muerte es nueva en Forever: la entrenan todos los sacerdotes desde el nivel 32, es instantánea (15 s de enfriamiento) y, si el objetivo sobrevive, recibes un retroceso del 10 % de tu salud máxima. Peste devoradora ya no es solo de no-muertos: te cura con el daño que hace (1 min). Explosión mental tarda 1,5 s y se recarga en 8 s. Fuego Sagrado hace daño instantáneo y luego 10 s de daño periódico. Quemar maná drena maná del objetivo y le daña según lo quemado.",
+      "text_en": "Shadow Word: Death is new in Forever: every Priest trains it from level 32, it is instant (15-second cooldown) and, if the target survives, you take backlash equal to 10% of your max health. Devouring Plague is no longer Undead-only: it heals you for the damage dealt (1-minute cooldown). Mind Blast has a 1.5-second cast and an 8-second cooldown. Holy Fire deals instant damage then 10 seconds of damage over time. Mana Burn burns the target's mana and hurts it in proportion to what was burned (Shadow).",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Abilities Guide - Forever › Damage Spells for Holy Priests in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Abilities Guide - Forever › Damage Spells for Discipline Priests in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:priest:discipline:abilities",
+        "class:priest:holy:abilities"
+      ],
+      "source_hashes": [
+        "section:419decbdcc4d300945ee617d4fc4e581edabaeaf",
+        "section:af09198a1ef2f886685c6b456412c9c61d7ca969"
+      ]
+    },
+    {
+      "id": "clase-priest-utilidades-detalle",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Utilidades del Sacerdote: niveles y duraciones",
+      "title_en": "Priest utilities: levels and durations",
+      "summary_es": "Custodia de miedo, Espíritu de redención, disipaciones y más.",
+      "summary_en": "Fear Ward, Spirit of Redemption, dispels and more.",
+      "keywords_es": [
+        "custodia de miedo todas las razas",
+        "espíritu de redencción cuánto dura",
+        "disipar magia cuántos efectos",
+        "desvanecer enfriamiento",
+        "infusión de poder"
+      ],
+      "keywords_en": [
+        "fear ward all races",
+        "spirit of redemption duration",
+        "dispel magic how many effects",
+        "fade cooldown",
+        "power infusion"
+      ],
+      "text_es": "Custodia de miedo ya no es solo de enanos: todos la entrenan a nivel 20 (3 min de duración y enfriamiento; bloquea el siguiente miedo). Espíritu divino se entrena a nivel 30 y ya no es talento; sus versiones de grupo llegan a los niveles 60 (espíritu) y 56 (protección de las Sombras). Disipar magia rango 2 quita dos efectos. Suprimir enfermedad limpia durante 20 s. Desvanecer baja la amenaza 10 s (30 s de enfriamiento). Espíritu de redencción dura 15 s y cura sin maná. Infusión de poder da +20 % de daño y curación 15 s a otro jugador.",
+      "text_en": "Fear Ward is no longer Dwarf-only: every Priest trains it at level 20 (3-minute duration and cooldown; blocks the next Fear). Divine Spirit is trained at level 30 and is no longer a talent; the group versions arrive at level 60 (Spirit) and 56 (Shadow Protection). Rank 2 Dispel Magic removes two effects. Abolish Disease keeps cleansing for 20 s. Fade lowers threat for 10 s (30-second cooldown). Spirit of Redemption lasts 15 s and casts healing for free. Power Infusion gives +20% spell damage and healing for 15 s to another player.",
+      "tags": [
+        "PRIEST"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Holy Priest Abilities Guide - Forever › Utility Abilities for Holy Priests in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Discipline Priest Abilities Guide - Forever › Utility Abilities for Discipline Priests in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:priest:discipline:abilities",
+        "class:priest:holy:abilities"
+      ],
+      "source_hashes": [
+        "section:988af43449b6925b1792b892aee30b6b7957c598",
+        "section:f65f813698141282638417bacc02687b553ff093"
+      ]
     }
   ]
 }
