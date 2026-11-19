@@ -4,6 +4,8 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+## [0.4.0-beta.6] - 2026-11-19
+
 ### English
 - Added: best-in-slot gear answers. Asking for "BiS" or the best gear of a class and specialization lists the best item per slot with where it drops, from the guide data (only for specializations that have data; otherwise it says which ones do).
 
