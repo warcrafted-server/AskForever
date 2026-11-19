@@ -3696,6 +3696,99 @@
       "source_hashes": [
         "section:0ff0ca66bcb4231400cfcb8f42f50a6558078a1d"
       ]
+    },
+    {
+      "id": "clase-warlock-habilidades-demonio-detalle",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades de los demonios: cuáles usar",
+      "title_en": "Demon abilities: which to use",
+      "summary_es": "Bloqueo de hechizo, Beso calmante, Tormento, Sacrificio y más.",
+      "summary_en": "Spell Lock, Soothing Kiss, Torment, Sacrifice and more.",
+      "keywords_es": [
+        "beso calmante autocast",
+        "tormento abisario",
+        "paranoia manáfago",
+        "sacrificio abisario escudo",
+        "invisibilidad inferior súcubo"
+      ],
+      "keywords_en": [
+        "soothing kiss autocast",
+        "torment voidwalker",
+        "paranoia felhunter",
+        "voidwalker sacrifice shield",
+        "lesser invisibility succubus"
+      ],
+      "text_es": "Pon en tus atajos Bloqueo de hechizo, Devorar magia, Seducción y Consumir sombras en vez de dejarlas en la barra de la mascota. Beso calmante (súcubo) conviene en automático para que no robe enemigos al tanque. Tormento (abisario) se deja en automático solo si quieres que retenga al enemigo. Sacrificio mata al abisario y te da un escudo; mientras aguanta, el daño no interrumpe tus hechizos. Paranoia del manáfago consume maná de la mascota: apágala fuera de JcJ. Cambio de fase hace al diablillo inatacable salvo que ataque.",
+      "text_en": "Keybind Spell Lock, Devour Magic, Seduction and Consume Shadows instead of leaving them on the pet bar. Soothing Kiss (Succubus) is best on autocast so she does not pull mobs off the tank. Torment (Voidwalker) should be on autocast only when you want it holding a mob. Sacrifice kills the Voidwalker and gives you a shield; while it holds, damage cannot interrupt your casts. The Felhunter's Paranoia costs pet mana: turn it off outside PvP. Phase Shift makes the Imp unattackable unless it attacks.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Abilities Guide - Forever › Pet Abilities for Affliction Warlocks in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:warlock:affliction:abilities"
+      ],
+      "source_hashes": [
+        "section:b2e91890d3da7b6a7b81cfc0c4ae5b3c271548da"
+      ]
+    },
+    {
+      "id": "clase-warlock-invocaciones-especiales",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Infernal, Ritual de condena y Piedra de alma",
+      "title_en": "Inferno, Ritual of Doom and Soulstone",
+      "summary_es": "Invocaciones especiales y utilidades de banda del Brujo.",
+      "summary_en": "Special summons and raid utilities of the Warlock.",
+      "keywords_es": [
+        "infernal brujo reactivo",
+        "ritual de condena guardia vil",
+        "subyugar demonio",
+        "piedra de alma resurrección",
+        "ritual de invocación cuántos"
+      ],
+      "keywords_en": [
+        "warlock inferno reagent",
+        "ritual of doom doomguard",
+        "subjugate demon",
+        "soulstone resurrection",
+        "ritual of summoning how many"
+      ],
+      "text_es": "Inferno invoca un Infernal que aturde en área y pelea por ti un tiempo limitado antes de perder el control; exige un reactivo y tiene mucho enfriamiento. Ritual de condena invoca un Guardia vil con otros cuatro del grupo: sacrifica a un participante al azar y debes subyugarlo enseguida con Subyugar demonio o se vuelve contra el grupo. Crear piedra de alma es, con Renacer del Druida, la única resurrección en combate. Ritual de invocación trae a un compañero con ayuda de otros dos. Ojo de Kilrogg es un ojo invisible para explorar.",
+      "text_en": "Inferno brings an Infernal that stuns nearby enemies and fights under your command until you lose control of it; it consumes a reagent and recharges slowly. Ritual of Doom summons a Doomguard with four other party members: it sacrifices a random participant and you must subjugate it immediately with Subjugate Demon or it turns on the group. Create Soulstone is, along with the Druid's Rebirth, the only battle resurrection. Ritual of Summoning brings a party member with help from two others. Eye of Kilrogg is an invisible eye for scouting.",
+      "tags": [
+        "WARLOCK"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Abilities Guide - Forever › Demons for Affliction Warlocks in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Affliction Warlock Abilities Guide - Forever › Utility Abilities for Affliction Warlocks in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/dps-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:warlock:affliction:abilities"
+      ],
+      "source_hashes": [
+        "section:0dca83f80f537509e99a7fd41f618be172f8d3c0",
+        "section:7c13e57718a0ddb04dadfc60c80b04c72e72f5fe"
+      ]
     }
   ]
 }

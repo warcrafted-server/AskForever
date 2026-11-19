@@ -4100,6 +4100,120 @@
         "section:60912d4380d6d5944b83c7f828b03ad767e7af08",
         "section:dd91363c3dfc033c1a7f4fafcfae70faeba7e950"
       ]
+    },
+    {
+      "id": "clase-warrior-cooldowns-defensivos-detalle",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Guerrero: cifras de enfriamientos y defensas",
+      "title_en": "Warrior cooldown and defense numbers",
+      "summary_es": "Temeridad, Represalias, Muro de escudo, Bloquear con escudo.",
+      "summary_en": "Recklessness, Retaliation, Shield Wall, Shield Block.",
+      "keywords_es": [
+        "temeridad cuánto dura",
+        "represalias guerrero",
+        "muro de escudo cuánto reduce",
+        "bloquear con escudo cuántos ataques",
+        "ira rabiosa cuánto dura"
+      ],
+      "keywords_en": [
+        "recklessness duration",
+        "retaliation warrior",
+        "shield wall how much",
+        "shield block how many attacks",
+        "berserker rage duration"
+      ],
+      "text_es": "En Forever los grandes enfriamientos del Guerrero ya no comparten reutilización. Temeridad: 100 % de crítico e inmunidad al miedo 15 s, pero recibes un 20 % más de daño. Represalias: contraataca cada golpe cuerpo a cuerpo 15 s (máximo 30 ataques; no desde la espalda). Muro de escudo: -60 % de daño 12 s. Bloquear con escudo: +75 % de bloqueo 7 s, pero solo 2 ataques. Ira rabiosa: inmunidad a miedo e incapacitación 10 s. Sanguinario: 10 de ira ya y otros 10 en 10 s a costa del 10 % de salud.",
+      "text_en": "In Forever the Warrior's big cooldowns no longer share a cooldown. Recklessness: 100% crit and fear immunity for 15 s, but you take 20% more damage. Retaliation: counterattacks every melee hit for 15 s (maximum 30 attacks; not from behind). Shield Wall: -60% damage for 12 s. Shield Block: +75% block for 7 s, but only 2 attacks. Berserker Rage: immunity to fear and incapacitate for 10 s. Bloodrage: 10 Rage now and 10 more over 10 s at the cost of 10% health.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior Abilities Guide - Forever › Major Cooldowns for Arms Warriors in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/dps-abilities",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior Abilities Guide - Forever › Defensive abilities for Arms Warriors in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/dps-abilities",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior Abilities Guide - Forever › Utility spells for Arms Warriors in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/dps-abilities",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:warrior:arms:abilities"
+      ],
+      "source_hashes": [
+        "section:441acce4c725e2f0734e6c496e47abebcf03a007",
+        "section:90020f650779da78173bc22dd899285d3d1446ee",
+        "section:f9b6e44a22aeb829b94a3357873f2ece55edff39"
+      ]
+    },
+    {
+      "id": "clase-warrior-utilidades-numeros",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Guerrero: duraciones de debilitaciones y movilidad",
+      "title_en": "Warrior debuff and mobility durations",
+      "summary_es": "Trueno, Grito desmoralizador, Seccionar, Embestir e Interceptar.",
+      "summary_en": "Thunder Clap, Demoralizing Shout, Hamstring, Charge and Intercept.",
+      "keywords_es": [
+        "trueno cuánto dura",
+        "grito desmoralizador cuánto dura",
+        "embestir aturde cuánto",
+        "interceptar aturdimiento",
+        "ataque de la victoria cuándo"
+      ],
+      "keywords_en": [
+        "thunder clap duration",
+        "demoralizing shout duration",
+        "charge stun duration",
+        "intercept stun",
+        "victory rush when"
+      ],
+      "text_es": "Trueno reduce un 20 % la velocidad de ataque enemiga 26 s; Grito desmoralizador baja su poder de ataque 45 s (10 m). Seccionar ralentiza un 50 % 15 s. Grito intimidador asusta a 5 enemigos 8 s. Mellar y Golpe heroico potencian el siguiente ataque automático. Embestir aturde 1 s y da 15 de ira, pero no vale en combate; Interceptar aturde 3 s. Ataque de la victoria cura el 10 % de tu salud y solo se puede usar 20 s después de matar a un enemigo no trivial. Zurrar interrumpe y bloquea la escuela 4 s.",
+      "text_en": "Thunder Clap lowers enemy attack speed by 20% for 26 s; Demoralizing Shout reduces their attack power for 45 s (10 yd). Hamstring slows by 50% for 15 s. Intimidating Shout fears 5 enemies for 8 s. Cleave and Heroic Strike empower your next auto attack. Charge stuns for 1 s and gives 15 Rage but cannot be used in combat; Intercept stuns for 3 s. Victory Rush heals 10% of your health and is only usable within 20 s after killing a non-trivial enemy. Pummel interrupts and locks the school for 4 s.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior Abilities Guide - Forever › Utility spells for Arms Warriors in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/dps-abilities",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior Abilities Guide - Forever › Mobility Abilities for Arms Warriors in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/dps-abilities",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arms Warrior Abilities Guide - Forever › Damage Spells for Arms Warriors in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/arms/dps-abilities",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:warrior:arms:abilities"
+      ],
+      "source_hashes": [
+        "section:715b1b5821d4546fc2ab5d978495472d2f0def9a",
+        "section:90020f650779da78173bc22dd899285d3d1446ee",
+        "section:e08d728f0d2cdba7d756a5fc95b0bfefe91f5c58"
+      ]
     }
   ]
 }

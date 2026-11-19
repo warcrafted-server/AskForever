@@ -4263,6 +4263,178 @@
       "source_hashes": [
         "section:e9c449acd6f3073a923a1f9926fff14324b12312"
       ]
+    },
+    {
+      "id": "clase-shaman-totems-grupo",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Tótems de mejora para el grupo",
+      "title_en": "Group buff totems",
+      "summary_es": "Qué da cada tótem de tierra, fuego y aire, y cuáles no se acumulan.",
+      "summary_en": "What each earth, fire and air totem gives and which do not stack.",
+      "keywords_es": [
+        "tótem fuerza de la tierra",
+        "tótem gracia del aire",
+        "tótem piel de piedra",
+        "tótem lengua de fuego viento furioso",
+        "tótem de resistencia banda"
+      ],
+      "keywords_en": [
+        "strength of earth totem",
+        "grace of air totem",
+        "stoneskin totem",
+        "flametongue totem windfury",
+        "resistance totem raid"
+      ],
+      "text_es": "Fuerza de la tierra da fuerza y Gracia del aire da agilidad a los que pegan o tanquean con ataques físicos. Piel de piedra reduce el daño cuerpo a cuerpo, sobre todo en grandes grupos de enemigos. Lengua de Fuego añade daño de fuego a los ataques del grupo y Viento Furioso les da un golpe extra; no se acumulan y Viento Furioso tiene prioridad (muy buscado por el daño físico). Los tótems de resistencia a Fuego, Escarcha y Naturaleza protegen a toda la banda: mantenlos si llega mucho daño de ese tipo.",
+      "text_en": "Strength of Earth gives Strength and Grace of Air gives Agility to physical damage dealers and tanks. Stoneskin reduces melee damage, mostly in big pulls. Flametongue adds fire damage to the group's attacks and Windfury gives them an extra strike; they do not stack and Windfury takes priority (highly sought by physical damage dealers). The resistance totems (Fire, Frost, Nature) protect the whole raid: keep them up when a lot of that damage is incoming.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman Abilities Guide- Forever › Earth Totem Abilities for Elemental Shamans in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman Abilities Guide- Forever › Fire Totem Abilities for Elemental Shamans in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman Abilities Guide- Forever › Air Totem Abilities for Elemental Shamans in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Abilities Guide - Forever › Fire Totem Abilities for Enhancement Shamans in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/dps-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:shaman:elemental:abilities",
+        "class:shaman:enhancement:abilities"
+      ],
+      "source_hashes": [
+        "section:22f8997439aad61626ec629fe2ea099efe50257f",
+        "section:4f23427d39fda9eaf37b3cdfdd642ac53f18a2a9",
+        "section:96cda570c1b4275a0dcc5ebdd5c473b6a779809a",
+        "section:de44c1a263895eaff619714246ffa84b7390386c"
+      ]
+    },
+    {
+      "id": "clase-shaman-totems-limpieza-agua",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Tótems de limpieza y de agua",
+      "title_en": "Cleansing and water totems",
+      "summary_es": "Purgador de enfermedades y veneno, Fuente de maná y Corriente de sanación.",
+      "summary_en": "Disease and poison cleansing, Mana Spring and Healing Stream.",
+      "keywords_es": [
+        "tótem purgador de enfermedades",
+        "tótem de purificación de veneno",
+        "tótem fuente de maná",
+        "tótem corriente de sanación cuánto cura"
+      ],
+      "keywords_en": [
+        "disease cleansing totem",
+        "poison cleansing totem",
+        "mana spring totem",
+        "healing stream totem how much"
+      ],
+      "text_es": "Tótem purgador de enfermedades y Tótem de purificación de veneno curan a los aliados cercanos al soltarlos y cada 5 segundos, y valen mucho contra jefes con esos efectos. Tótem Fuente de maná da muy poco maná al grupo y Tótem Corriente de sanación cura poco de forma periódica, pero se acumula durante el combate (con Tótens restauradores sube un 50 %). Las curas Curar enfermedad y Curar veneno suelen quedar por detrás de estos tótems.",
+      "text_en": "Disease Cleansing Totem and Poison Cleansing Totem cure nearby allies when dropped and every 5 seconds, and are valuable against bosses with those effects. Mana Spring Totem gives a tiny amount of mana to the group and Healing Stream Totem heals a little periodically, but it adds up over a fight (with Restorative Totems it rises 50%). Cure Disease and Cure Poison usually come second to these totems.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman Abilities Guide- Forever › Water Totem Abilities for Elemental Shamans in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman Abilities Guide- Forever › Utility Abilities for Elemental Shamans in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Shaman Abilities Guide - Forever › Healing Spells for Restoration Shamans in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/healer-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:shaman:elemental:abilities",
+        "class:shaman:restoration:abilities"
+      ],
+      "source_hashes": [
+        "section:046f77b19d0548abbf79eddde491b3c9ea82a71f",
+        "section:26c69f73df4a04912152f74a215e51ae8d173322",
+        "section:f1a4031c7157b8ca0de17aadf077a36848712916"
+      ]
+    },
+    {
+      "id": "clase-shaman-danio-cooldowns-detalle",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Chamán: enfriamientos y golpes de daño",
+      "title_en": "Shaman damage cooldowns and strikes",
+      "summary_es": "Maestría de Relámpago, Ira del clarividente y Golpe de tormenta.",
+      "summary_en": "Lightning Mastery, Rage of the Farseer and Stormstrike.",
+      "keywords_es": [
+        "maestría de relámpago cuánto dura",
+        "ira del clarividente",
+        "golpe de tormenta 20 %",
+        "cadena de relámpagos cuántos objetivos",
+        "nova de fuego tótem"
+      ],
+      "keywords_en": [
+        "lightning mastery duration",
+        "rage of the farseer",
+        "stormstrike 20%",
+        "chain lightning targets",
+        "fire nova totem"
+      ],
+      "text_es": "Maestría de Relámpago (Elemental) reduce el tiempo de lanzamiento de Descarga de relámpagos y quita el enfriamiento de Cadena de relámpagos durante 15 s, cada 3 min. Ira del clarividente (Mejora) sube un 30 % la velocidad de ataque cuerpo a cuerpo y de hechizos durante 25 s, cada 3 min. Golpe de tormenta aumenta un 20 % el siguiente Descarga de relámpagos, Cadena de relámpagos o Choque de tierra. Cadena de relámpagos golpea hasta a 3 objetivos con menos daño en cada salto. Nova de Fuego aprovecha tu tótem de fuego activo.",
+      "text_en": "Lightning Mastery (Elemental) makes Lightning Bolt cast faster and Chain Lightning free of cooldown for 15 s, every 3 min. Rage of the Farseer (Enhancement) speeds up both your melee swings and your spells by 30% for 25 s, every 3 min. Stormstrike increases the next Lightning Bolt, Chain Lightning or Earth Shock by 20%. Chain Lightning hits up to 3 targets with less damage on each jump. Fire Nova uses your active Fire Totem.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Elemental Shaman Abilities Guide- Forever › Damage Spells for Elemental Shamans in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/dps-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Enhancement Shaman DPS Abilities Guide - Forever › Damage Spells for Enhancement Shamans in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/shaman/enhancement/dps-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:shaman:elemental:abilities",
+        "class:shaman:enhancement:abilities"
+      ],
+      "source_hashes": [
+        "section:273db8b45c6b514c04f7b379c2659398844ab3d0",
+        "section:eb07e9e84ff5d145e0e7cb4d1e33740a80361b2d"
+      ]
     }
   ]
 }
