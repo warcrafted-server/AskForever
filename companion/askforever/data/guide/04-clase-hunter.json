@@ -84,7 +84,7 @@
           "type": "editorial",
           "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Strengths and Weaknesses of Beast Mastery Hunter in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
@@ -108,16 +108,16 @@
           "type": "editorial",
           "ref": "Wowhead: Best Survival Hunter Talent Tree Builds - WoW: Forever › Best Survival Hunter Melee PvE Dungeon and Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/talent-builds-pve-dps",
-          "date": "2026-11-07"
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Survival Hunter DPS Rotation and Cooldowns - WoW: Forever › Full Melee Single Target DPS Rotation for Survival Hunter in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:beast-mastery:overview",
         "class:hunter:marksmanship:overview",
@@ -127,12 +127,12 @@
         "class:hunter:survival:talents"
       ],
       "source_hashes": [
-        "section:4593fd09127090b93914bffdaee2318f217b0400",
+        "section:10791531ddc295c18a4c1577ed91e8b12fb7485d",
+        "section:32c04eecda9e0252775bbf8bca6167ff719d4161",
         "section:46856ce2300d78ee222b4a49afed77d2c6687cdc",
-        "section:55da78af272c184af60facef93d749a2bd803c7d",
         "section:b273cb1ec4966348241552f8a1abbb7bd4a8a1da",
-        "section:c7de19963e5cb6a28f4614049b9faefaaa852768",
-        "section:cbb1cb3f670b84fb68bb10ea657eeb04fcef8982"
+        "section:cbb1cb3f670b84fb68bb10ea657eeb04fcef8982",
+        "section:da199ff971c8aeed3d43255c4ebfa263db589a4b"
       ]
     },
     {
@@ -157,8 +157,8 @@
         "pets scale",
         "forever traps"
       ],
-      "text_es": "En Forever, Supervivencia pasa a ser una rama de melé que mezcla ataques y trampas, y Puntería gana Lobo solitario y Disparo de francotirador. Dominio de bestias recibe Invocar halcón y sus mascotas escalan con estadísticas del personaje. Las trampas tienen 30 segundos de reutilización base y Atrapamiento las enraíza; además, cada familia de mascota tiene una habilidad propia. El Tiro automático conserva un lanzamiento de 0,5 segundos y sigue durante otros lanzamientos. Las trampas se colocan en combate sin Fingir muerte, y Multidisparo comparte reutilización con Tiro de puntería.",
-      "text_en": "In Forever, Survival becomes a melee tree mixing attacks and traps, while Marksmanship gains Lone Wolf and Sniper Shot. Beast Mastery gets Summon Hawk, and its pets scale with the Hunter stats. Traps have a 30-second base cooldown and Entrapment roots targets; every pet family also has a unique ability. Auto Shot keeps a 0.5-second cast and continues during other casts. Traps can be placed in combat without Feign Death, and Multi-Shot shares its cooldown with Aimed Shot.",
+      "text_es": "En Forever, Supervivencia pasa a ser una rama de melé que mezcla ataques y trampas, y Puntería gana Lobo solitario y Disparo de francotirador. Dominio de bestias recibe Invocar halcón y sus mascotas escalan con estadísticas del personaje. Las trampas tienen 30 segundos de reutilización base y Atrapamiento las enraíza; además, cada familia de mascota tiene una habilidad propia. El Tiro automático sigue durante otros lanzamientos. Las trampas se colocan en combate sin Fingir muerte, y Multidisparo comparte reutilización con Tiro de puntería.",
+      "text_en": "In Forever, Survival becomes a melee tree mixing attacks and traps, while Marksmanship gains Lone Wolf and Sniper Shot. Beast Mastery gets Summon Hawk, and its pets scale with the Hunter stats. Traps have a 30-second base cooldown and Entrapment roots targets; every pet family also has a unique ability. Auto Shot continues during other casts. Traps can be placed in combat without Feign Death, and Multi-Shot shares its cooldown with Aimed Shot.",
       "tags": [
         "HUNTER"
       ],
@@ -167,7 +167,7 @@
           "type": "editorial",
           "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Changes to Beast Mastery Hunter in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
@@ -185,19 +185,19 @@
           "type": "editorial",
           "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Beast Mastery Hunter Specific Systems in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
@@ -230,7 +230,7 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:beast-mastery:leveling",
         "class:hunter:beast-mastery:overview",
@@ -241,12 +241,12 @@
       "source_hashes": [
         "section:035db25891b81d9534640b3214221ac20753d0fb",
         "section:180be50b22ce58200948bacf3dd1bada8f0f5b40",
+        "section:4939a183f78b0a1c03d678670f7ee1a6229ad897",
         "section:65ee6c79512d806cee42e5c340f8fa6242350e23",
         "section:67a3af4f36e5bc1112f7f05b9b315adbf5ed20f8",
-        "section:6bb5938d777d7d2db5cf875cbd9261dea6f7f5de",
-        "section:76129b5366a7201001211225e326ae7359fff863",
         "section:7934f62052a2fcc15ecbd2ebba4cee1f7b65b02d",
         "section:90b7020bc0f765f1573a07a3a40acc9413f95a2a",
+        "section:b8006c8b3204db6f7355bb436c0925f319a4ab08",
         "section:bc385d3f8681b5b7ebedbd573d0d0b979c189466",
         "section:cbb1cb3f670b84fb68bb10ea657eeb04fcef8982",
         "section:d5522ac06733bbf35e8a614677c946d0eef39afa"
@@ -342,22 +342,22 @@
           "type": "editorial",
           "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Beast Mastery Hunter DPS in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Marksmanship Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Marksmanship Hunter DPS in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/dps-leveling-tips",
-          "date": "2026-11-16"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling as a Survival Hunter DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-18"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:beast-mastery:leveling",
         "class:hunter:marksmanship:leveling",
@@ -365,7 +365,7 @@
       ],
       "source_hashes": [
         "section:53a817f4dd17ae8a8405b14a436b0b429e8c2744",
-        "section:b37e664ac96b4a5925338c0d8ea1816684096cc3",
+        "section:ad8eb655b1b5f1bf6020502682c0c418111327fa",
         "section:efd8db5e4f29f46ff417a2079019ef89015abce0"
       ]
     },
@@ -539,17 +539,19 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How to Tame a Hunter Pet in WoW: Forever",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › How to Tame a Hunter Pet in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
+        "class:hunter:general:best-pets-and-pet-management-guide",
         "class:hunter:general:hunter-class-quests"
       ],
       "source_hashes": [
-        "section:c4d907afb474597ea2747a7e9825999fb2346f92"
+        "section:c4d907afb474597ea2747a7e9825999fb2346f92",
+        "section:c50a7f4f4aa8a6b2ab1f01089923d0f4487861bd"
       ]
     },
     {
@@ -584,13 +586,13 @@
           "type": "editorial",
           "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Beast Mastery Hunter Specific Systems in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Best Hunter Pets for Leveling in WoW: Forever",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › Best Hunter Pets for Leveling in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
@@ -605,7 +607,7 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:beast-mastery:leveling",
         "class:hunter:beast-mastery:overview",
@@ -614,7 +616,7 @@
       "source_hashes": [
         "section:3fd2c85381c63aa0e591e1c5d659d5d6de616578",
         "section:46fce6253cbf34cd5d9d7b0fe6d482c81867ee53",
-        "section:76129b5366a7201001211225e326ae7359fff863",
+        "section:4939a183f78b0a1c03d678670f7ee1a6229ad897",
         "section:c6da153dc5599024b096fd97b07e326182df761e"
       ]
     },
@@ -648,9 +650,9 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Best Hunter Pets for Leveling in WoW: Forever",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › Best Hunter Pets for Leveling in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
@@ -699,9 +701,9 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Best Hunter Pets for Leveling in WoW: Forever",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › Best Hunter Pets for Leveling in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
@@ -719,15 +721,17 @@
           "type": "editorial",
           "ref": "Wowhead: Marksmanship Hunter Leveling Guide - WoW: Forever › Cons",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/dps-leveling-tips",
-          "date": "2026-11-16"
+          "date": "2026-11-18"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:beast-mastery:leveling",
+        "class:hunter:general:best-pets-and-pet-management-guide",
         "class:hunter:marksmanship:leveling"
       ],
       "source_hashes": [
+        "section:3fd2c85381c63aa0e591e1c5d659d5d6de616578",
         "section:c6da153dc5599024b096fd97b07e326182df761e",
         "section:d7392779a8c1646212e061bc29342fe12982676f",
         "section:faa25c8f5f2ebd83c6ac41133cb15b6afcf7e4da"
@@ -876,17 +880,17 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Beast Mastery Hunter DPS in Burning Crusade",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Beast Mastery Hunter DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-19"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:beast-mastery:leveling"
       ],
       "source_hashes": [
-        "section:0275e11aa0bb192e3422bf1dfe5fc95ae64684a0",
+        "section:a1fefdafb92016b202a0ab22c82cc0ce0fb15bed",
         "section:c6da153dc5599024b096fd97b07e326182df761e"
       ]
     },
@@ -965,7 +969,7 @@
           "type": "editorial",
           "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Strengths and Weaknesses of Beast Mastery Hunter in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
@@ -986,7 +990,7 @@
           "date": "2026-10-30"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:beast-mastery:overview",
         "class:hunter:beast-mastery:rotation",
@@ -994,7 +998,7 @@
         "class:hunter:survival:overview"
       ],
       "source_hashes": [
-        "section:4593fd09127090b93914bffdaee2318f217b0400",
+        "section:32c04eecda9e0252775bbf8bca6167ff719d4161",
         "section:46856ce2300d78ee222b4a49afed77d2c6687cdc",
         "section:624f89870b5b6f37b58a63ee43f60872c6b65834",
         "section:88560907f787cadc42eb06c965b31b60556e1bbb"
@@ -1022,8 +1026,8 @@
         "summon hawk",
         "beast mastery pet"
       ],
-      "text_es": "Dominio de bestias concentra buena parte del daño en la mascota, ofrece una gran ráfaga con Ira de bestias y es la rama más sencilla de jugar. Invocar halcón añade otro ataque y varias mascotas aportan utilidad. La rama no ofrece beneficios al grupo y tiene una zona muerta de 8 yardas para los ataques a distancia. Ira de bestias es el talento final y requiere 31 puntos en Dominio.",
-      "text_en": "Beast Mastery places much of its damage in the pet, has strong burst with Bestial Wrath, and is the easiest tree to play. Summon Hawk adds another attack, and pets provide utility. The tree offers no group buffs and ranged attacks have an 8-yard dead zone. Bestial Wrath is the final talent and requires 31 points in Beast Mastery.",
+      "text_es": "Dominio de bestias concentra buena parte del daño en la mascota, ofrece una gran ráfaga con Ira de bestias y es la rama más sencilla de jugar; es muy móvil, con muchos lanzamientos instantáneos y una mascota fuerte. Invocar halcón añade otro ataque y varias mascotas aportan utilidad. Hoy queda por detrás de Puntería y Supervivencia: no da beneficios al grupo, tiene una zona muerta de 8 yardas a distancia y sufre de maná sin Sentencia de Sabiduría de un paladín. Ira de bestias requiere 31 puntos en Dominio.",
+      "text_en": "Beast Mastery places much of its damage in the pet, has strong burst with Bestial Wrath, and is the easiest tree to play; it is very mobile, with many instant casts and a strong pet. Summon Hawk adds another attack, and pets provide utility. It currently trails Marksmanship and Survival: it offers no group buffs, ranged attacks have an 8-yard dead zone, and it has mana problems without a Paladin's Judgement of Wisdom. Bestial Wrath requires 31 points in Beast Mastery.",
       "tags": [
         "HUNTER"
       ],
@@ -1032,13 +1036,13 @@
           "type": "editorial",
           "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Strengths and Weaknesses of Beast Mastery Hunter in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Beast Mastery Hunter DPS Guide - WoW: Forever › Beast Mastery Hunter for New Players in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
@@ -1047,13 +1051,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:beast-mastery:leveling",
         "class:hunter:beast-mastery:overview"
       ],
       "source_hashes": [
-        "section:4593fd09127090b93914bffdaee2318f217b0400",
+        "section:32c04eecda9e0252775bbf8bca6167ff719d4161",
         "section:b6232efb80631488f95a883d5f3343c844e451fd",
         "section:dce1859a15bacb375c456b0991e680d2e986b1a4"
       ]
@@ -1158,8 +1162,8 @@
         "mongoose bite",
         "strider kick"
       ],
-      "text_es": "Supervivencia es la rama de melé: mezcla Golpe de raptor, Mordedura de mangosta, Patada de zancudo y trampas. Su daño sostenido es alto cuando puede encadenar habilidades, y su variante de weaving alterna disparos y melé. Empieza a brillar hacia el nivel 32, depende de talentos y compite por armas con Guerrero y Pícaro. No aporta buffs de grupo; su valor es el daño y el control.",
-      "text_en": "Survival is the melee tree: it mixes Raptor Strike, Mongoose Bite, Strider Kick, and traps. Its sustained damage is high when it can chain abilities, and its weaving variant alternates shots and melee. It starts to shine around level 32, depends on talents, and competes for weapons with Warrior and Rogue. It gives no group buffs; its value is damage and control.",
+      "text_es": "Supervivencia es la rama de melé: mezcla Golpe de raptor, Mordedura de mangosta, Patada de zancudo y trampas. Su daño sostenido es alto cuando puede encadenar habilidades, y su variante de weaving alterna disparos (Aguijón de serpiente, Tiro Arcano, Multidisparo) con golpes en melé. Empieza a brillar hacia el nivel 32, depende de talentos y compite por armas con Guerrero y Pícaro. No aporta buffs de grupo; su valor es el daño y el control.",
+      "text_en": "Survival is the melee tree: it mixes Raptor Strike, Mongoose Bite, Strider Kick, and traps. Its sustained damage is high when it can chain abilities, and its weaving variant alternates shots (Serpent Sting, Arcane Shot, Multi-Shot) with melee strikes. It starts to shine around level 32, depends on talents, and competes for weapons with Warrior and Rogue. It gives no group buffs; its value is damage and control.",
       "tags": [
         "HUNTER"
       ],
@@ -1186,26 +1190,26 @@
           "type": "editorial",
           "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling as a Survival Hunter DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Survival Hunter DPS Rotation and Cooldowns - WoW: Forever › Full Melee Single Target DPS Rotation for Survival Hunter in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:survival:leveling",
         "class:hunter:survival:overview",
         "class:hunter:survival:rotation"
       ],
       "source_hashes": [
+        "section:10791531ddc295c18a4c1577ed91e8b12fb7485d",
         "section:88560907f787cadc42eb06c965b31b60556e1bbb",
-        "section:b37e664ac96b4a5925338c0d8ea1816684096cc3",
+        "section:ad8eb655b1b5f1bf6020502682c0c418111327fa",
         "section:c0d0c99db1c69db7b25c9a659a766a412d4acb8e",
-        "section:c7de19963e5cb6a28f4614049b9faefaaa852768",
         "section:cbb1cb3f670b84fb68bb10ea657eeb04fcef8982"
       ]
     },
@@ -1231,8 +1235,8 @@
         "hunter crit",
         "hunter agility"
       ],
-      "text_es": "La prioridad propuesta para Dominio de bestias, aún especulativa y no probada a nivel 60, es: golpe hasta 8%, golpe crítico, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante. El golpe encabeza la lista porque fallar una habilidad supone una pérdida grande; el intelecto gana valor con Afinar la puntería.",
-      "text_en": "The proposed Beast Mastery order, still speculative and untested at level 60, is hit to 8%, critical strike, agility, intellect, ranged attack power, spirit, and stamina. Hit ranks first because a missed ability is a major loss; Intellect gains value with Careful Aim.",
+      "text_es": "La prioridad de estadísticas de Dominio de bestias es: golpe hasta 8%, golpe crítico, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante. El golpe encabeza la lista porque fallar una habilidad supone una pérdida grande; el intelecto gana valor con Afinar la puntería.",
+      "text_en": "The Beast Mastery stat priority is hit to 8%, critical strike, agility, intellect, ranged attack power, spirit, and stamina. Hit ranks first because a missed ability is a major loss; Intellect gains value with Careful Aim.",
       "tags": [
         "HUNTER"
       ],
@@ -1241,15 +1245,15 @@
           "type": "editorial",
           "ref": "Wowhead: Beast Mastery Hunter Stat Priority & Attributes - WoW: Forever › Beast Mastery Hunter Stat Priority in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/stat-priority-pve-dps",
-          "date": "2026-11-15"
+          "date": "2026-11-19"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:beast-mastery:stats"
       ],
       "source_hashes": [
-        "section:cedb962ba03059a6a1f8179390baa3834a996af4"
+        "section:a31034b57f4d960eddf0d2696b069b27b2efc5b2"
       ]
     },
     {
@@ -1481,8 +1485,8 @@
         "mongoose bite",
         "immolation trap"
       ],
-      "text_es": "En melé, mantén Marca del cazador y Golpe de raptor en cola; prioriza Mordedura de mangosta, Patada de zancudo, Trampa de inmolación e Invocar halcón si tienes el talento. En área, marca al objetivo prioritario, usa Multidisparo con cuatro objetivos o menos, Trampa explosiva si el maná lo permite y canaliza Lluvia hasta el final. Fuego rápido es su único tiempo de reutilización de daño; úsalo cuando esté disponible, idealmente junto a un abalorio de uso o una racial.",
-      "text_en": "In melee, keep Hunter's Mark up and Raptor Strike queued; prioritize Mongoose Bite, Strider Kick, Immolation Trap, and Summon Hawk if talented. For area damage, mark the priority target, use Multi-Shot against four or fewer targets, Explosive Trap if mana allows, and channel Volley for its full duration. Rapid Fire is the spec's only DPS cooldown; use it when ready, ideally with an on-use trinket or racial.",
+      "text_es": "En melé completo, mantén Marca del cazador y Golpe de raptor en cola; usa Mordedura de mangosta, Trampa de inmolación, Patada de zancudo e Invocar halcón si lo tienes. Con el beneficio de Patada de zancudo y sin Aguijón de serpiente, sal, lánzalo con Tiro automático y vuelve. En weaving, alterna: a distancia, Aguijón (si falta), Tiro Arcano y Multidisparo; en melé, lo anterior. En área: Multidisparo con 4 objetivos o menos, Trampa explosiva si hay maná y Lluvia completa. Fuego rápido es su único tiempo de reutilización de daño.",
+      "text_en": "In full melee, keep Hunter's Mark up and Raptor Strike queued; use Mongoose Bite, Immolation Trap, Strider Kick, and Summon Hawk if talented. With the Strider Kick buff and no Serpent Sting, step out, cast it with Auto Shot, and return. When weaving, alternate: at range, Serpent Sting (if missing), Arcane Shot, and Multi-Shot; in melee, the abilities above. For area damage: Multi-Shot against 4 or fewer targets, Explosive Trap if mana allows, and a full Volley. Rapid Fire is the spec's only DPS cooldown.",
       "tags": [
         "HUNTER"
       ],
@@ -1491,29 +1495,29 @@
           "type": "editorial",
           "ref": "Wowhead: Survival Hunter DPS Rotation and Cooldowns - WoW: Forever › Full Melee Single Target DPS Rotation for Survival Hunter in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Survival Hunter DPS Rotation and Cooldowns - WoW: Forever › AoE DPS Rotation for Survival Hunter in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Survival Hunter DPS Rotation and Cooldowns - WoW: Forever › Best Survival Hunter Cooldown Usage in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/rotation-cooldowns-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:survival:rotation"
       ],
       "source_hashes": [
         "section:099dbbe98c9c184d1506faaf95f53cda69f85ce9",
-        "section:3c8e743df1e83e3e6af83ab081ebd36faab27a85",
-        "section:c7de19963e5cb6a28f4614049b9faefaaa852768"
+        "section:10791531ddc295c18a4c1577ed91e8b12fb7485d",
+        "section:3c8e743df1e83e3e6af83ab081ebd36faab27a85"
       ]
     },
     {
@@ -1618,8 +1622,8 @@
         "hunter melee build",
         "survival pve"
       ],
-      "text_es": "Dominio de bestias: Aspectos letales 5/5, Entrenamiento en aguante 1/5, Fuego enfocado 2/2, Revivir mascota mejorado 2/2, Furia desatada 5/5 e Invocar halcón 1/1. Puntería: Ataques letales 4/5. Supervivencia: Rastreo mejorado 5/5, Golpes salvajes 2/2, Sobrevividor 3/5, Trampas inteligentes 2/2, Pies de plomo 3/3, Filo de depredador 5/5, Exponer presa 2/2, Disciplina de superviviente 2/2, Patada de zancudo 1/1, Reflejos de relámpago 5/5 y Golpes lacerantes 1/1. Se centra en daño melé y maná; Invocar halcón añade un ataque.",
-      "text_en": "Beast Mastery: Deadly Aspects 5/5, Endurance Training 1/5, Focused Fire 2/2, Improved Revive Pet 2/2, Unleashed Fury 5/5, and Summon Hawk 1/1. Marksmanship: Lethal Attacks 4/5. Survival: Improved Tracking 5/5, Savage Strikes 2/2, Survivalist 3/5, Clever Traps 2/2, Surefooted 3/3, Predator’s Edge 5/5, Expose Prey 2/2, Survivalist’s Discipline 2/2, Strider Kick 1/1, Lightning Reflexes 5/5, and Lacerating Strikes 1/1. It focuses on melee damage and mana; Summon Hawk adds an attack.",
+      "text_es": "Dominio de bestias: Aspectos letales 5/5, Entrenamiento en aguante 1/5, Fuego enfocado 2/2, Revivir mascota mejorado 2/2, Furia desatada 5/5 e Invocar halcón 1/1. Puntería: Ataques letales 5/5 y Afinar la puntería 5/5. Supervivencia: Rastreo mejorado 5/5, Golpes salvajes 2/2, Sobrevividor 3/5, Trampas inteligentes 2/2, Pies de plomo 3/3, Filo de depredador 5/5, Ingenio 2/2, Exponer presa 2/2 y Patada de zancudo 1/1. Se centra en daño melé y maná; Reflejos de relámpago y Golpes lacerantes quedan fuera por aportar poco.",
+      "text_en": "Beast Mastery: Deadly Aspects 5/5, Endurance Training 1/5, Focused Fire 2/2, Improved Revive Pet 2/2, Unleashed Fury 5/5, and Summon Hawk 1/1. Marksmanship: Lethal Attacks 5/5 and Careful Aim 5/5. Survival: Improved Tracking 5/5, Savage Strikes 2/2, Survivalist 3/5, Clever Traps 2/2, Surefooted 3/3, Predator’s Edge 5/5, Resourcefulness 2/2, Expose Prey 2/2, and Strider Kick 1/1. It focuses on melee damage and mana; Lightning Reflexes and Lacerating Strikes are left out because they add little.",
       "tags": [
         "HUNTER"
       ],
@@ -1628,10 +1632,10 @@
           "type": "editorial",
           "ref": "Wowhead: Best Survival Hunter Talent Tree Builds - WoW: Forever › Best Survival Hunter Melee PvE Dungeon and Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/talent-builds-pve-dps",
-          "date": "2026-11-07"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:survival:talents"
       ],
@@ -1669,15 +1673,15 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Best Hunter Pets for Dungeons in WoW: Forever",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › Best Hunter Pets for Dungeons in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How your Hunter Pet Learns New Abilities in WoW: Forever",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › How your Hunter Pet Learns New Abilities in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         }
       ],
       "updated": "2026-11-16",
@@ -1719,15 +1723,15 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How your Hunter Pet Learns New Abilities in WoW: Forever",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › How your Hunter Pet Learns New Abilities in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › All Hunter Pet Families in WoW: Forever",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › All Hunter Pet Families in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         }
       ],
       "updated": "2026-11-16",
@@ -1769,15 +1773,15 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Foxes Hunter Pet Family",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › Foxes Hunter Pet Family",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Birds of Prey Hunter Pet Family",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › Birds of Prey Hunter Pet Family",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         }
       ],
       "updated": "2026-11-16",
@@ -1819,28 +1823,31 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How to Tame a Hunter Pet in WoW: Forever",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › How to Tame a Hunter Pet in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How your Hunter Pet Learns New Abilities in WoW: Forever",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › How your Hunter Pet Learns New Abilities in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Marksmanship Hunter Leveling Guide - WoW: Forever › Pros",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/dps-leveling-tips",
-          "date": "2026-11-16"
+          "date": "2026-11-18"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
+        "class:hunter:general:best-pets-and-pet-management-guide",
         "class:hunter:marksmanship:leveling"
       ],
       "source_hashes": [
+        "section:10e65179a3f1339beeafa43403b4803392d9c602",
+        "section:c50a7f4f4aa8a6b2ab1f01089923d0f4487861bd",
         "section:eac9fcbeff65521bacaf32484e2ce2e473ef3335"
       ]
     },
@@ -1874,15 +1881,15 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How to Feed Your Pet in WoW: Forever",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › How to Feed Your Pet in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How to Tame a Hunter Pet in WoW: Forever",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › How to Tame a Hunter Pet in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         }
       ],
       "updated": "2026-11-16",
@@ -1974,15 +1981,15 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Best Hunter Pets for PvP in WoW: Forever",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › Best Hunter Pets for PvP in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Birds of Prey Hunter Pet Family",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › Birds of Prey Hunter Pet Family",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         }
       ],
       "updated": "2026-11-16",
@@ -2024,9 +2031,9 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Hunter Pets with Fastest Attack Speed in WoW: Forever",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › Hunter Pets with Fastest Attack Speed in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-12"
+          "date": "2026-11-19"
         }
       ],
       "updated": "2026-11-16",
@@ -2067,9 +2074,9 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Beast Mastery Hunter DPS in Burning Crusade",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Beast Mastery Hunter DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
@@ -2078,12 +2085,12 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:beast-mastery:leveling"
       ],
       "source_hashes": [
-        "section:0275e11aa0bb192e3422bf1dfe5fc95ae64684a0",
+        "section:a1fefdafb92016b202a0ab22c82cc0ce0fb15bed",
         "section:c6da153dc5599024b096fd97b07e326182df761e"
       ]
     },
@@ -2169,36 +2176,36 @@
           "type": "editorial",
           "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Survival Hunter DPS in Burning Crusade",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling as a Survival Hunter DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Best Abilities to Train for Survival Hunter DPS in WoW: Forever > Mandatory Abilities to Train for Survival Hunter",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Survival Hunter DPS in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-18"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:survival:leveling"
       ],
       "source_hashes": [
-        "guide:7e9b86a06e93b6fcad4bcfdb7e84d4eb13c1a7f6",
+        "guide:c6b4be088eb6e215084a48180f13018f47561f44",
         "section:0932b2c4f5955443026575b5d88689aab818fe98",
         "section:2961a4ed516168b5d1f9e3ec53047b009de6db2b",
-        "section:b37e664ac96b4a5925338c0d8ea1816684096cc3"
+        "section:ad8eb655b1b5f1bf6020502682c0c418111327fa"
       ]
     },
     {
@@ -2233,22 +2240,22 @@
           "type": "editorial",
           "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Beast Mastery Hunter",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Beast Mastery Hunter DPS in Burning Crusade",
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Beast Mastery Hunter DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-19"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:beast-mastery:leveling"
       ],
       "source_hashes": [
-        "section:0275e11aa0bb192e3422bf1dfe5fc95ae64684a0",
-        "section:5f4b7821e0aa6e0f194924a2ec964f58e3b53bd0"
+        "section:5f4b7821e0aa6e0f194924a2ec964f58e3b53bd0",
+        "section:a1fefdafb92016b202a0ab22c82cc0ce0fb15bed"
       ]
     },
     {
@@ -2476,15 +2483,15 @@
           "type": "editorial",
           "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Best Leveling Consumables for Beast Mastery Hunter DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-19"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:beast-mastery:leveling"
       ],
       "source_hashes": [
-        "section:878be44ee250cc8a4e76a887e7c443c2135715b2"
+        "section:4c50fa23aac9cad5b80bbad8cb024c25f287fabc"
       ]
     },
     {
@@ -2673,8 +2680,8 @@
         "survival pvp",
         "melee hunter control"
       ],
-      "text_es": "Dominio de bestias: Aspectos letales 5/5, Fuego enfocado 2/2, Aspecto del Mono mejorado 3/3, Rapidez de bestias 1/1, Furia desatada 4/5 e Invocar halcón 1/1. Supervivencia: Rastreo mejorado 5/5, Atrapamiento 2/5, Golpes salvajes 2/2, Cortar alas mejorado 3/3, Pies de plomo 3/3, Disuasión 1/1, Filo de depredador 5/5, Contraataque 1/1, Ingenio 2/2, Exponer presa 2/2, Disciplina de superviviente 2/2, Patada de zancudo 1/1, Reflejos de relámpago 5/5 y Golpes lacerantes 1/1. Invocar halcón presiona al rival; las defensas mitigan amenazas y las habilidades de melé ayudan a mantenerlo cerca.",
-      "text_en": "Beast Mastery: Deadly Aspects 5/5, Focused Fire 2/2, Improved Aspect of the Monkey 3/3, Bestial Swiftness 1/1, Unleashed Fury 4/5, and Summon Hawk 1/1. Survival: Improved Tracking 5/5, Entrapment 2/5, Savage Strikes 2/2, Improved Wing Clip 3/3, Surefooted 3/3, Deterrence 1/1, Predator’s Edge 5/5, Counterattack 1/1, Resourcefulness 2/2, Expose Prey 2/2, Survivalist’s Discipline 2/2, Strider Kick 1/1, Lightning Reflexes 5/5, and Lacerating Strikes 1/1. Summon Hawk pressures opponents; defensive talents blunt threats and melee abilities help keep targets close.",
+      "text_es": "Dominio de bestias: Aspectos letales 5/5, Fuego enfocado 2/2, Aspecto del Mono mejorado 3/3, Rapidez de bestias 1/1, Furia desatada 5/5, Ferocidad 4/5, Invocar halcón 1/1 e Intimidación 1/1. Supervivencia: Rastreo mejorado 5/5, Atrapamiento 2/5, Golpes salvajes 2/2, Cortar alas mejorado 3/3, Pies de plomo 3/3, Disuasión 1/1, Filo de depredador 5/5, Contraataque 1/1, Ingenio 2/2, Exponer presa 2/2, Disciplina de superviviente 2/2 y Patada de zancudo 1/1. Invocar halcón presiona al rival; las defensas mitigan amenazas y las habilidades de melé ayudan a mantenerlo cerca.",
+      "text_en": "Beast Mastery: Deadly Aspects 5/5, Focused Fire 2/2, Improved Aspect of the Monkey 3/3, Bestial Swiftness 1/1, Unleashed Fury 5/5, Ferocity 4/5, Summon Hawk 1/1, and Intimidation 1/1. Survival: Improved Tracking 5/5, Entrapment 2/5, Savage Strikes 2/2, Improved Wing Clip 3/3, Surefooted 3/3, Deterrence 1/1, Predator’s Edge 5/5, Counterattack 1/1, Resourcefulness 2/2, Expose Prey 2/2, Survivalist’s Discipline 2/2, and Strider Kick 1/1. Summon Hawk pressures opponents; defensive talents blunt threats and melee abilities help keep targets close.",
       "tags": [
         "HUNTER"
       ],
@@ -2683,10 +2690,10 @@
           "type": "editorial",
           "ref": "Wowhead: Best Survival Hunter Talent Tree Builds - WoW: Forever › Best Survival Hunter PvP Build",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/talent-builds-pve-dps",
-          "date": "2026-11-07"
+          "date": "2026-11-17"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-19",
       "topics": [
         "class:hunter:survival:talents"
       ],
@@ -2757,8 +2764,8 @@
         "different hunter pet",
         "Ghostfang"
       ],
-      "text_es": "Si buscas una mascota que se distinga, hay bestias raras domables con modelo o color que no tiene ninguna mascota común: Vulgara el Insaciable, Colmiespectro, Noctigrito, Sarpullefrío, Zancador Madrezarpa y Humar el Señor Orgulloso. Elegirlas es cuestión de aspecto, no de daño. Antes de domarla, comprueba que su familia tenga Zarpa, porque sin ella pierde mucho daño.",
-      "text_en": "If you want a pet that stands out, some rare tameable beasts have a model or colour no common pet has: Vulgara the Insatiable, Ghostfang, Nightscreech, Coldrasp, Strider Clutchmother and Humar the Pridelord. Picking one is about looks, not damage. Before taming, check that its family has Claw, because without it the pet loses a lot of damage.",
+      "text_es": "Si buscas una mascota que se distinga, hay bestias raras domables con modelo o color que no tiene ninguna mascota común: Vulgara el Insaciable, Colmiespectro, Noctigrito, Sarpullefrío, Melenaniebla, Zancador Madrezarpa y Humar el Señor Orgulloso. Elegirlas es cuestión de aspecto, no de daño. Antes de domarla, comprueba que su familia tenga Zarpa, porque sin ella pierde mucho daño.",
+      "text_en": "If you want a pet that stands out, some rare tameable beasts have a model or colour no common pet has: Vulgara the Insatiable, Ghostfang, Nightscreech, Coldrasp, Mystmane, Strider Clutchmother and Humar the Pridelord. Picking one is about looks, not damage. Before taming, check that its family has Claw, because without it the pet loses a lot of damage.",
       "tags": [
         "HUNTER"
       ],
@@ -2767,13 +2774,13 @@
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › Notable Rare Hunter Pets and Where to Find Them",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-17"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › Best Hunter Pets in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-17"
+          "date": "2026-11-19"
         }
       ],
       "updated": "2026-11-19",
@@ -2817,7 +2824,7 @@
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › How your Hunter Pet Learns New Abilities in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-17"
+          "date": "2026-11-19"
         }
       ],
       "updated": "2026-11-19",
@@ -2860,7 +2867,7 @@
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › How your Hunter Pet Learns New Abilities in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-17"
+          "date": "2026-11-19"
         }
       ],
       "updated": "2026-11-19",
@@ -3031,7 +3038,7 @@
           "type": "editorial",
           "ref": "Wowhead: Best Beast Mastery Hunter Enchants & Consumables in WoW: Forever › Best Beast Mastery Hunter Enchants for Leveling in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/enchants-consumables-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
@@ -3053,7 +3060,7 @@
         "class:hunter:survival:enchants"
       ],
       "source_hashes": [
-        "section:48e2334f6f8427192cc9e7d24f772331f33e34fe",
+        "guide:ca204e82efe3ffeb9eef1cefd614442ae3eb148d",
         "section:935900ac975189f735a4375a0dc241a7d09ec680",
         "section:ad497420cadb24862f58725c2346e2fb72402b8b"
       ]
@@ -3088,7 +3095,7 @@
           "type": "editorial",
           "ref": "Wowhead: Best Beast Mastery Hunter Enchants & Consumables in WoW: Forever › Best Beast Mastery Hunter Consumables for Leveling in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/enchants-consumables-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
@@ -3103,8 +3110,8 @@
         "class:hunter:survival:enchants"
       ],
       "source_hashes": [
-        "section:a35421b597505d4cd3e0c77fa7389093690ea1a6",
-        "section:e85ba57326173a80b1c5f75d5f23d27e0cde0e24"
+        "guide:ca204e82efe3ffeb9eef1cefd614442ae3eb148d",
+        "section:a35421b597505d4cd3e0c77fa7389093690ea1a6"
       ]
     }
   ]
