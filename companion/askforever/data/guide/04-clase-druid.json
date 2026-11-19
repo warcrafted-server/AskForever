@@ -5175,6 +5175,261 @@
       "source_hashes": [
         "section:18d7831a74db18e4f9ab9b9e2b120019264f3cb0"
       ]
+    },
+    {
+      "id": "clase-druid-encantamientos-equilibrio-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Encantamientos de Equilibrio a nivel 60",
+      "title_en": "Balance enchants at level 60",
+      "summary_es": "Qué encantar en cada hueco con el Druida Equilibrio a nivel 60.",
+      "summary_en": "What to enchant in each slot as a level 60 Balance Druid.",
+      "keywords_es": [
+        "encantamientos druida equilibrio",
+        "qué encantar equilibrio",
+        "encantar guantes equilibrio",
+        "arcano de enfoque druida"
+      ],
+      "keywords_en": [
+        "balance druid enchants",
+        "what to enchant balance druid",
+        "balance druid glove enchant",
+        "arcanum of focus druid"
+      ],
+      "text_es": "Arma a dos manos: Encantar arma 2M: explosión de hechizos (+65 poder con hechizos); a una mano, Encantar arma: poder con hechizos (+30). Cabeza y piernas: Arcano de enfoque (+8, con objeto de nivel 60; sale del Tratado sobre Enfoque de Dire Maul). Torso y pies: Complemento basto para armadura místico. Guantes: poder Arcano para banda (Fuego estelar y Fuegolunar dan casi todo el daño) o poder de la Naturaleza si esa escuela supera el 30% del daño. Brazales: poder con hechizos superior (+16).",
+      "text_en": "Two-hand weapon: Enchant 2H Weapon - Spellblasting (+65 Spell Power); one-hand, Enchant Weapon - Spell Power (+30). Head and legs: Arcanum of Focus (+8, needs a level 60 item; comes from the Libram of Focus in Dire Maul). Chest and feet: Mystic Rugged Armor Kit. Gloves: Arcane Power for raids (Starfire and Moonfire make most of the damage) or Natural Power if that school passes 30% of your damage. Bracers: Greater Spellpower (+16).",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Enchants & Consumables for Balance Druids in WoW: Forever › Best Balance Druid Enchants in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/enchants-consumables-pve-dps",
+          "date": "2026-10-29"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:druid:balance:enchants"
+      ],
+      "source_hashes": [
+        "section:62d687dd854eadbfa9a2e157608232404620dfb7"
+      ]
+    },
+    {
+      "id": "clase-druid-encantamientos-equilibrio-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Encantamientos de Equilibrio al subir",
+      "title_en": "Balance enchants while leveling",
+      "summary_es": "Qué encantar con el Druida Equilibrio entre los niveles 1 y 60.",
+      "summary_en": "What to enchant as a Balance Druid between levels 1 and 60.",
+      "keywords_es": [
+        "encantamientos druida equilibrio subiendo",
+        "complemento para armadura místico",
+        "arma revelación druida",
+        "qué encantar leveando equilibrio"
+      ],
+      "keywords_en": [
+        "balance druid leveling enchants",
+        "mystic armor kit",
+        "revelation weapon enchant druid",
+        "what to enchant leveling balance"
+      ],
+      "text_es": "En el arma, Encantar arma: revelación (un golpe sin crítico hace que el siguiente hechizo sea crítico seguro; también activa Gracia de la naturaleza). Torso, piernas, manos o pies: los Complementos para armadura místicos de Peletería (medio, pesado, grueso y basto, hasta +6 poder con hechizos) los puede poner cualquiera. Collar: Encantar collar: poder con hechizos (+6). Brazales: poder de sanación menor o inferior (+3 o +6). Si bebes tras casi cada combate, Encantar torso: intelecto excelente (+8) en lugar de un complemento.",
+      "text_en": "Weapon: Enchant Weapon - Revelation (a non-crit makes your next spell a guaranteed crit; it also triggers Nature's Grace). Chest, legs, hands or feet: the Mystic Armor Kits from Leatherworking (medium, heavy, thick and rugged, up to +6 Spell Power), which anyone can apply. Neck: Enchant Necklace - Spell Power (+6). Bracers: Minor or Lesser Healing Power (+3 or +6). If you drink after almost every pull, use Enchant Chest - Superior Intellect (+8) instead of a kit.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Enchants & Consumables for Balance Druids in WoW: Forever › Best Balance Druid Enchants in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/enchants-consumables-pve-dps",
+          "date": "2026-10-29"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:druid:balance:enchants"
+      ],
+      "source_hashes": [
+        "section:62d687dd854eadbfa9a2e157608232404620dfb7"
+      ]
+    },
+    {
+      "id": "clase-druid-consumibles-equilibrio-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consumibles de Equilibrio",
+      "title_en": "Balance consumables",
+      "summary_es": "Pociones, elixires, aceite y comida para el Druida Equilibrio.",
+      "summary_en": "Potions, elixirs, oil and food for the Balance Druid.",
+      "keywords_es": [
+        "consumibles druida equilibrio",
+        "elixires equilibrio",
+        "poción de explosión de hechizos",
+        "qué comida equilibrio",
+        "elixir del búho"
+      ],
+      "keywords_en": [
+        "balance druid consumables",
+        "balance druid elixirs",
+        "spellblasting potion",
+        "balance druid food",
+        "elixir of the owl"
+      ],
+      "text_es": "Poción de explosión de hechizos sublime (+40 poder con hechizos, nivel 55) y Poción de maná sublime como emergencia; Runa oscura o Runa demoníaca, con su propia reutilización. Elixires: Elixir superior arcano (+35), Elixir de poder de la Naturaleza (nivel 55, solo hechizos de Naturaleza), Elixir del búho (+25 intelecto, +2% crítico) y Elixir de sangre de mago superior (+20 maná cada 5 s). Aceite de zahorí luminoso (+36) en el arma y Salmón al horno (+28 poder con hechizos) de comida.",
+      "text_en": "Major Spellblasting Potion (+40 Spell Power, level 55) and Major Mana Potion for emergencies; Dark or Demonic Rune, on their own cooldown. Elixirs: Greater Arcane Elixir (+35), Elixir of Nature Power (level 55, Nature spells only), Elixir of the Owl (+25 Intellect, +2% crit) and Greater Mageblood Elixir (+20 mana per 5 sec). Brilliant Wizard Oil (+36) on the weapon and Baked Salmon (+28 Spell Power) as food.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Enchants & Consumables for Balance Druids in WoW: Forever › Best Balance Druid Consumables in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/enchants-consumables-pve-dps",
+          "date": "2026-10-29"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:druid:balance:enchants"
+      ],
+      "source_hashes": [
+        "section:07dbfe898d919c0de4fe2e78464174eddf9f7598"
+      ]
+    },
+    {
+      "id": "clase-druid-consumibles-equilibrio-reglas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consumibles de Equilibrio: qué se acumula",
+      "title_en": "Balance consumables: what stacks",
+      "summary_es": "Reglas de acumulación y trucos de consumibles del Druida Equilibrio.",
+      "summary_en": "Stacking rules and tips for Balance Druid consumables.",
+      "keywords_es": [
+        "elixires se acumulan",
+        "cuántas pociones usar a la vez",
+        "runa y poción a la vez",
+        "comida bien alimentado equilibrio"
+      ],
+      "keywords_en": [
+        "do elixirs stack",
+        "potion and rune together",
+        "well fed stacking",
+        "balance druid potion cooldown"
+      ],
+      "text_es": "Casi todos los elixires se acumulan, pero solo cuenta un beneficio de comida. Las pociones comparten reutilización y las runas tienen otra, así que puedes usar una poción y una runa seguidas; ambas runas gastan salud. Elixir del búho es el mejor elixir de crítico para Equilibrio (más Gracia de la naturaleza); Sabios y Ballena cambian intelecto por espíritu. El Druida no tiene mejora de arma propia: usa aceite de zahorí. Sirve cualquier comida con la misma mejora; con comida de intelecto, bebes menos.",
+      "text_en": "Most elixirs stack, but only one food buff counts. Potions share one cooldown and runes have another, so you can use a potion and a rune back to back; both runes cost health. Elixir of the Owl is the best crit elixir for Balance (more Nature's Grace procs); Sages and Whale trade Intellect for Spirit. Druids have no weapon imbue of their own: use wizard oil. Any food with the same buff works; Intellect food means less drinking.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Enchants & Consumables for Balance Druids in WoW: Forever › Best Balance Druid Consumables in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/enchants-consumables-pve-dps",
+          "date": "2026-10-29"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:druid:balance:enchants"
+      ],
+      "source_hashes": [
+        "section:07dbfe898d919c0de4fe2e78464174eddf9f7598"
+      ]
+    },
+    {
+      "id": "clase-druid-encantamientos-feral",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Encantamientos de Feral al subir",
+      "title_en": "Feral enchants while leveling",
+      "summary_es": "Qué encantar con el Druida Feral (daño y tanque) mientras subes.",
+      "summary_en": "What to enchant as a Feral Druid (damage and tank) while leveling.",
+      "keywords_es": [
+        "encantamientos druida feral",
+        "qué encantar feral",
+        "complemento fuerte armadura",
+        "encantar arma recuperación"
+      ],
+      "keywords_en": [
+        "feral druid enchants",
+        "what to enchant feral",
+        "forceful armor kit",
+        "recovery weapon enchant"
+      ],
+      "text_es": "Feral de daño: Encantar arma: recuperación y los Complementos para armadura fuertes (pesado, grueso o basto, según el nivel) en torso, manos, piernas y pies. Feral tanque: del 1 al 19, Encantar brazal: fuerza menor y Encantar torso: aguante menor; del 20 al 39, Encantar arma: revelación, Encantar collar: fuerza, Encantar pechera: estadísticas inferiores y Encantar botas: agilidad inferior; del 40 al 60, Encantar pechera: estadísticas y Encantar botas: agilidad.",
+      "text_en": "Damage Feral: Enchant Weapon - Recovery and the Forceful Armor Kits (heavy, thick or rugged, by level) on chest, hands, legs and feet. Tank Feral: levels 1-19, Enchant Bracer - Minor Strength and Enchant Chest - Inferior Stamina; levels 20-39, Enchant Weapon - Revelation, Enchant Necklace - Strength, Enchant Chest - Lesser Stats and Enchant Boots - Lesser Agility; levels 40-60, Enchant Chest - Stats and Enchant Boots - Agility.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid DPS - Best Enchants & Consumables › Best Feral Druid Enchants for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/enchants-consumables-pve-dps",
+          "date": "2026-10-29"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Tank Druid Best Enchants & Consumables - WoW: Forever › Best Options by Level",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/enchants-consumables-pve-tank",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:druid:feral:enchants"
+      ],
+      "source_hashes": [
+        "section:47ead1ebe4e9fca3864d69407793877f9c3d7872",
+        "section:73fadc03e607b5adc4821e17d897d7513dd2ac58"
+      ]
+    },
+    {
+      "id": "clase-druid-encantamientos-restauracion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Encantamientos de Recuperación al subir",
+      "title_en": "Restoration enchants while leveling",
+      "summary_es": "Qué encantar con el Druida Recuperación mientras subes de nivel.",
+      "summary_en": "What to enchant as a Restoration Druid while leveling.",
+      "keywords_es": [
+        "encantamientos druida recuperación",
+        "qué encantar sanador druida",
+        "encantar arma poder de sanación",
+        "mano izquierda sabiduría"
+      ],
+      "keywords_en": [
+        "restoration druid enchants",
+        "what to enchant healer druid",
+        "healing power weapon enchant",
+        "off-hand wisdom"
+      ],
+      "text_es": "Arma a dos manos: el encantamiento de poder de sanación poderoso; a una mano, Encantar arma: poder de sanación. Mano izquierda: Encantar mano izq.: sabiduría. Collar: Encantar collar: poder de sanación. Torso, manos, piernas y pies: Complemento basto para armadura místico. La lista es selectiva: solo incluye lo que merece el gasto.",
+      "text_en": "Two-hand weapon: Enchant 2H Weapon - Mighty Healing Power; one-hand, Enchant Weapon - Healing Power. Off-hand: Enchant Off-Hand - Wisdom. Neck: Enchant Necklace - Healing Power. Chest, hands, legs and feet: Mystic Rugged Armor Kit. The list is selective: it only includes what is worth the cost.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid - Best Enchants & Consumables › Best Restoration Druid Enchants for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/enchants-consumables-pve-healer",
+          "date": "2026-10-31"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:druid:restoration:enchants"
+      ],
+      "source_hashes": [
+        "section:36bcc90f264e2e22ae27f26cbb6ded746252638b"
+      ]
     }
   ]
 }
