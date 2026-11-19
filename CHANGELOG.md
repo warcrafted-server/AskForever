@@ -4,6 +4,8 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+## [0.4.0-beta.5] - 2026-11-19
+
 ### English
 - Added: ability details for Druid (bear and cat kits, Tranquility and Barkskin, Revive and Rebirth), Hunter (Marksmanship shot timings, Survival melee attacks, stings and utilities) and Mage (Research and Comprehend Scroll, Amplify and Dampen Magic in groups, Arcane Power, Combustion and Pyroblast), Paladin (blessings, Judgement effects per seal, immunities and Forbearance, resistance auras and anti-undead tools), Rogue (combo move costs, stealth openers, utility durations, poisons) and Priest (racial abilities, damage spells, utility levels and durations), Shaman (group buff, cleansing and water totems, damage cooldowns), Warlock (demon abilities, Inferno, Ritual of Doom and Soulstone) and Warrior (cooldown, defense and debuff numbers).
 
