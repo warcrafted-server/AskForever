@@ -247,7 +247,7 @@
         "dungeon:ragefire-chasm"
       ],
       "source_hashes": [
-        "section:cd248de30b332029637e0db5532cd59b77a7250e"
+        "section:d632ef6b4b2c1a8ef01b320cb18d1bf722a3d08a"
       ]
     },
     {
@@ -4658,7 +4658,7 @@
         "dungeon:uldaman"
       ],
       "source_hashes": [
-        "guide:82b9f4c688e5bd37fa38ae7e888218630cd530c7",
+        "guide:1b3ca3db32c890af2f2f25d2f84742f4f97f9871",
         "section:10c1f677aaa22e6060caf78f63edbf15fe159ec4",
         "section:45dd3b49a30dfdb0d3bba3647598ec0b508961f3"
       ]
@@ -5394,7 +5394,7 @@
       "source_hashes": [
         "section:3fbe1cded61501728f36ded637cc04a4faa0ae75",
         "section:44b490170017b16c7b993875a33a266ab2e575c2",
-        "section:4c540de196ad1807a25db7803a802c3bcea6fc2d"
+        "section:5ce76ba7db76bb860d935ebb1da6c666d36fd181"
       ]
     },
     {
@@ -5450,8 +5450,50 @@
         "dungeon:maraudon"
       ],
       "source_hashes": [
-        "guide:c30be58d16953e1b67fec3c665a6e498fde7d781",
-        "section:4c540de196ad1807a25db7803a802c3bcea6fc2d"
+        "guide:edd4d03eb0a783dcb8986fe9a4c266c7907a0825",
+        "section:5ce76ba7db76bb860d935ebb1da6c666d36fd181"
+      ]
+    },
+    {
+      "id": "mazmorra-maraudon-misiones-lista",
+      "chapter": 7,
+      "status": "editorial",
+      "title_es": "Todas las misiones de Maraudon",
+      "title_en": "All Maraudon quests",
+      "summary_es": "Lista de misiones de Maraudon con nivel, bando y dónde se recogen.",
+      "summary_en": "Maraudon quest list with level, faction and where to pick each one up.",
+      "keywords_es": [
+        "qué misiones hay en maraudon",
+        "misiones de maraudon",
+        "la semilla de la vida",
+        "fragmentos oscuros",
+        "la corrupción de lenguavil",
+        "los males de maraudón"
+      ],
+      "keywords_en": [
+        "maraudon quests list",
+        "what quests are in maraudon",
+        "seed of life",
+        "shadowshard fragments",
+        "vyletongue corruption",
+        "twisted evils"
+      ],
+      "text_es": "Misiones de Maraudon: Fragmentos Oscuros (39; Horda con Uthel'nay en Orgrimmar, Alianza con el Archimago Tervosh en Theramore), La corrupción de Lenguavil (41) y Corrupción de la tierra y de la semilla (45), ambas en Desolace, y Los males de Maraudón (41) con Willow. La semilla de la vida (39) la da el Espíritu de Zaetar tras matar a la Princesa Theradras. Nuevas para la Horda: Resplandor de An'she (43), con Olana Pezuña Reluciente en Mulgore, y Podredumbre y remordimiento (35, difícil, sin bando), en Shen'dralas.",
+      "text_en": "Maraudon quests: Shadowshard Fragments (39; Horde from Uthel'nay in Orgrimmar, Alliance from Archmage Tervosh in Theramore), Vyletongue Corruption (41) and Corruption of Earth and Seed (45), both in Desolace, and Twisted Evils (41) from Willow. Seed of Life (39) comes from Zaetar's Spirit after killing Princess Theradras. New: An'she's Radiance (43, Horde), from Olana Brighthoof in Mulgore, and Rot and Regret (35, hard, no faction), in Shen'dralas.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Maraudon Dungeon Strategy Guide - WoW: Forever › Quick Reference Table",
+          "url": "https://www.wowhead.com/forever/guide/maraudon-dungeon-overview-location-rewards",
+          "date": "2026-11-18"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "dungeon:maraudon"
+      ],
+      "source_hashes": [
+        "section:5ce76ba7db76bb860d935ebb1da6c666d36fd181"
       ]
     },
     {
@@ -5789,7 +5831,7 @@
         "dungeon:maraudon"
       ],
       "source_hashes": [
-        "guide:c30be58d16953e1b67fec3c665a6e498fde7d781",
+        "guide:edd4d03eb0a783dcb8986fe9a4c266c7907a0825",
         "section:a5b0fdb55c56e6a17628ef4d0c90a0ef415ad84f"
       ]
     },
@@ -8450,7 +8492,7 @@
         "dungeon:blackrock-depths"
       ],
       "source_hashes": [
-        "section:ca585eb4c2705095e6c07b0b009a2a98581c3b27"
+        "section:15e15fd7ef71365a6bb27a3485923f4e089cdfd2"
       ]
     },
     {
@@ -8492,7 +8534,7 @@
         "dungeon:blackrock-depths"
       ],
       "source_hashes": [
-        "section:ca585eb4c2705095e6c07b0b009a2a98581c3b27",
+        "section:15e15fd7ef71365a6bb27a3485923f4e089cdfd2",
         "section:db8b2d2cae374d2a0f0bc5fb1154fcd6d55b401e"
       ]
     },
@@ -8535,7 +8577,7 @@
         "dungeon:blackrock-depths"
       ],
       "source_hashes": [
-        "section:ca585eb4c2705095e6c07b0b009a2a98581c3b27",
+        "section:15e15fd7ef71365a6bb27a3485923f4e089cdfd2",
         "section:db8b2d2cae374d2a0f0bc5fb1154fcd6d55b401e"
       ]
     },
@@ -8572,7 +8614,7 @@
         "dungeon:blackrock-depths"
       ],
       "source_hashes": [
-        "section:ca585eb4c2705095e6c07b0b009a2a98581c3b27"
+        "section:15e15fd7ef71365a6bb27a3485923f4e089cdfd2"
       ]
     },
     {
@@ -8986,8 +9028,8 @@
       ],
       "source_hashes": [
         "section:0a80801b12952331abb7a5c35cc345b826026e55",
+        "section:68faead6226360b19de33182962e730db4f4b6f2",
         "section:7a4aff812952bf57ab69f8ed05ec7ffcb902677f",
-        "section:985e47cb3fae11b7c78177ecf5fd855dc6986b58",
         "section:af1cf8a1ef93749ab23fa0f64b113ae4234df9e7"
       ]
     },
@@ -9230,7 +9272,7 @@
         "dungeon:lower-blackrock-spire"
       ],
       "source_hashes": [
-        "section:985e47cb3fae11b7c78177ecf5fd855dc6986b58"
+        "section:68faead6226360b19de33182962e730db4f4b6f2"
       ]
     },
     {
@@ -9357,8 +9399,8 @@
       ],
       "source_hashes": [
         "section:0a80801b12952331abb7a5c35cc345b826026e55",
-        "section:8413e277d89f04cb6437ea34f9897fa08d16d758",
-        "section:985e47cb3fae11b7c78177ecf5fd855dc6986b58"
+        "section:68faead6226360b19de33182962e730db4f4b6f2",
+        "section:8413e277d89f04cb6437ea34f9897fa08d16d758"
       ]
     },
     {
@@ -9447,7 +9489,7 @@
       ],
       "source_hashes": [
         "section:0a80801b12952331abb7a5c35cc345b826026e55",
-        "section:985e47cb3fae11b7c78177ecf5fd855dc6986b58",
+        "section:68faead6226360b19de33182962e730db4f4b6f2",
         "section:e5e17278619b2ff8ede4a2afb4b6cef5ba81d606"
       ]
     },
@@ -9678,7 +9720,7 @@
         "dungeon:upper-blackrock-spire"
       ],
       "source_hashes": [
-        "guide:fd16c1a57c60d17e81028700f38549c7f9e2296c",
+        "guide:ca541b946422cc9eb23983b39ef1010aaf7c01e5",
         "section:2da2c50da4d24f91677fe46546c3e6771b4b449f"
       ]
     },
@@ -10356,7 +10398,7 @@
         "dungeon:dire-maul-capital-gardens-west"
       ],
       "source_hashes": [
-        "section:83c7e4e623ff062e1bb18c207adbdc161eec496c"
+        "section:3b50d0afe1bc6f004c8ecd7aca196630ec40b6c0"
       ]
     },
     {
@@ -10432,7 +10474,7 @@
         "dungeon:dire-maul-capital-gardens-west"
       ],
       "source_hashes": [
-        "section:f55dd2733581eee756fd4c57a4397340a1f87a7b"
+        "section:45b54de8dcff19f33c1b1c6f3c8b2d14fb6ebb84"
       ]
     },
     {
@@ -11343,7 +11385,7 @@
         "dungeon:scholomance"
       ],
       "source_hashes": [
-        "guide:f3b493da8684373ebff71c76dde4b371fefd7be4",
+        "guide:eb599ec89b76fca07367b823c9565b42fcc9ad49",
         "section:92b1b69ee03d39bc793d100da9bb225e2e749e5b",
         "section:af4855b05cb43518c2ff3710d54cd195528a70f8",
         "section:cd4b0435c8f6764768e649f47b638f81a32c1452"
@@ -11404,7 +11446,7 @@
         "dungeon:scholomance"
       ],
       "source_hashes": [
-        "guide:f3b493da8684373ebff71c76dde4b371fefd7be4",
+        "guide:eb599ec89b76fca07367b823c9565b42fcc9ad49",
         "section:4c8f366fdae86292729fc0e655c900643b0671e4",
         "section:a6ee0b9bc629661afe63991effe6d2cbb3efdce2",
         "section:cd4b0435c8f6764768e649f47b638f81a32c1452"
@@ -11709,7 +11751,7 @@
         "dungeon:scholomance"
       ],
       "source_hashes": [
-        "section:bbd45a38a3c1c993e9eb35a90eae5e30728344ba"
+        "section:8dcc657b5f62a827b3defa250a64d336b1d3960e"
       ]
     },
     {
@@ -12074,7 +12116,7 @@
         "dungeon:stratholme-live-side"
       ],
       "source_hashes": [
-        "guide:33240e2f76ec9c8a9946c74d2ccbf2f5090bd02b",
+        "guide:e400bff59d4a7ae9417f8759caa599935d64bb81",
         "section:3b8558f4c4f57a156c81839bc857383e2def957c"
       ]
     },
@@ -12125,7 +12167,7 @@
         "dungeon:stratholme-live-side"
       ],
       "source_hashes": [
-        "guide:33240e2f76ec9c8a9946c74d2ccbf2f5090bd02b",
+        "guide:e400bff59d4a7ae9417f8759caa599935d64bb81",
         "section:3b8558f4c4f57a156c81839bc857383e2def957c"
       ]
     },
@@ -12640,7 +12682,7 @@
         "dungeon:stratholme-live-side"
       ],
       "source_hashes": [
-        "guide:33240e2f76ec9c8a9946c74d2ccbf2f5090bd02b",
+        "guide:e400bff59d4a7ae9417f8759caa599935d64bb81",
         "section:2751a7c9dd0bb089f79130528a7509acf76a9614"
       ]
     },
