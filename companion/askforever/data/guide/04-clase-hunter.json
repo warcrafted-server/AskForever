@@ -3002,6 +3002,112 @@
       "source_hashes": [
         "section:9dea30fe6fd002064df9fce6fa3c6bd5aa7308b6"
       ]
+    },
+    {
+      "id": "clase-hunter-encantamientos-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Encantamientos del Cazador al subir",
+      "title_en": "Hunter enchants while leveling",
+      "summary_es": "Qué encantar con el Cazador (las tres especializaciones) mientras subes.",
+      "summary_en": "What to enchant as a Hunter (all three specs) while leveling.",
+      "keywords_es": [
+        "encantamientos cazador",
+        "qué encantar cazador",
+        "encantar capa agilidad",
+        "complemento fuerte armadura cazador"
+      ],
+      "keywords_en": [
+        "hunter enchants",
+        "what to enchant hunter",
+        "cloak agility enchant hunter",
+        "forceful armor kit hunter"
+      ],
+      "text_es": "Las tres especializaciones comparten la lista: Encantar capa: agilidad menor, Encantar brazales: agilidad superior y, en torso, manos, piernas y pies, los Complementos para armadura fuertes (medio, pesado, grueso y basto, según tu nivel). Para el arma a dos manos se recomienda el encantamiento de agilidad inferior.",
+      "text_en": "All three specs share the list: Enchant Cloak - Minor Agility, Enchant Bracer - Greater Agility and, on chest, hands, legs and feet, the Forceful Armor Kits (medium, heavy, thick and rugged, by level). For the two-hand weapon, the Lesser Agility enchant is recommended.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Beast Mastery Hunter Enchants & Consumables in WoW: Forever › Best Beast Mastery Hunter Enchants for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Marksmanship Hunter Enchants & Consumables in WoW: Forever › Best Marksmanship Hunter Enchants for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Survival Hunter Enchants & Consumables in WoW: Forever › Best Survival Hunter Enchants for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:hunter:beast-mastery:enchants",
+        "class:hunter:marksmanship:enchants",
+        "class:hunter:survival:enchants"
+      ],
+      "source_hashes": [
+        "section:48e2334f6f8427192cc9e7d24f772331f33e34fe",
+        "section:935900ac975189f735a4375a0dc241a7d09ec680",
+        "section:ad497420cadb24862f58725c2346e2fb72402b8b"
+      ]
+    },
+    {
+      "id": "clase-hunter-consumibles-subir-lista",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consumibles del Cazador por especialización",
+      "title_en": "Hunter consumables by spec",
+      "summary_es": "Pociones, aceites y comida recomendados al Cazador mientras sube.",
+      "summary_en": "Potions, oils and food recommended for the Hunter while leveling.",
+      "keywords_es": [
+        "consumibles cazador",
+        "poción de frenesí cazador",
+        "qué comida cazador",
+        "aceite de maná cazador"
+      ],
+      "keywords_en": [
+        "hunter consumables",
+        "frenzy potion hunter",
+        "hunter food leveling",
+        "mana oil hunter"
+      ],
+      "text_es": "Poción de combate: Poción de frenesí excelente. Salud: Poción de curación sublime o la versión que te toque por nivel. Comida: Estofado de la selva y Filete Golpeveloz. Arma: Aceite de maná inferior; el Supervivencia puede alternar Piedra de afilar sólida o densa y Aceite escarchado.",
+      "text_en": "Combat potion: Superior Frenzy Potion. Health: Major Healing Potion or the version for your level. Food: Jungle Stew and Swiftstrike Steak. Weapon: Lesser Mana Oil; Survival can also use Solid or Dense Sharpening Stones and Frost Oil.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Beast Mastery Hunter Enchants & Consumables in WoW: Forever › Best Beast Mastery Hunter Consumables for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Survival Hunter Enchants & Consumables in WoW: Forever › Best Survival Hunter Consumables for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:hunter:beast-mastery:enchants",
+        "class:hunter:survival:enchants"
+      ],
+      "source_hashes": [
+        "section:a35421b597505d4cd3e0c77fa7389093690ea1a6",
+        "section:e85ba57326173a80b1c5f75d5f23d27e0cde0e24"
+      ]
     }
   ]
 }

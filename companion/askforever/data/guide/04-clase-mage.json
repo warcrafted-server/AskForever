@@ -2889,6 +2889,207 @@
         "section:c5274d5ead709fb6f52660ce6136bf698590f167",
         "section:ff5ca4780e654b8044625d80f582157df01a0456"
       ]
+    },
+    {
+      "id": "clase-mage-encantamientos-60",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Encantamientos del Mago a nivel 60",
+      "title_en": "Mage enchants at level 60",
+      "summary_es": "Qué encantar en cada hueco con el Mago a nivel 60, según la escuela.",
+      "summary_en": "What to enchant in each slot as a level 60 Mage, by school.",
+      "keywords_es": [
+        "encantamientos mago",
+        "encantar guantes mago",
+        "qué encantar mago arcano",
+        "guantes poder de fuego",
+        "arcano de enfoque mago"
+      ],
+      "keywords_en": [
+        "mage enchants",
+        "mage glove enchant",
+        "what to enchant arcane mage",
+        "fire power gloves",
+        "arcanum of focus mage"
+      ],
+      "text_es": "Arma: Encantar arma: poder con hechizos (+30; hace falta Encantamiento 300). Guantes según la escuela: Encantar guantes: poder Arcano (Arcano) o poder de Fuego (Fuego), ambos +20 de daño. Cabeza o piernas: Arcano de enfoque (+8 poder con hechizos, requiere objeto de nivel 60; se consigue con el Tratado sobre Enfoque en Dire Maul). Botas: Encantar botas: velocidad (+8% velocidad de movimiento) o un complemento místico (+6 poder con hechizos), a tu gusto.",
+      "text_en": "Weapon: Enchant Weapon - Spell Power (+30; needs 300 Enchanting). Gloves by school: Enchant Gloves - Arcane Power (Arcane) or Fire Power (Fire), both +20 damage. Head or legs: Arcanum of Focus (+8 Spell Power, needs a level 60 item; from the Libram of Focus in Dire Maul). Boots: Enchant Boots - Speed (+8% movement speed) or a Mystic armor kit (+6 Spell Power), by preference.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Enchants & Consumables - WoW: Forever › Best Arcane Mage Enchants in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage Enchants & Consumables - WoW: Forever › Best Fire Mage Enchants for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:mage:arcane:enchants",
+        "class:mage:fire:enchants"
+      ],
+      "source_hashes": [
+        "guide:c8fdc78d63106047e3bf7148f33da57fe7d7f578",
+        "section:0cf43476d2a38e08644daafe284bfa902e6d405a"
+      ]
+    },
+    {
+      "id": "clase-mage-encantamientos-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Encantamientos del Mago al subir",
+      "title_en": "Mage enchants while leveling",
+      "summary_es": "Qué encantar con el Mago por tramos de nivel mientras subes.",
+      "summary_en": "What to enchant as a Mage in each level bracket while leveling.",
+      "keywords_es": [
+        "encantamientos mago subiendo",
+        "complemento místico mago",
+        "arma revelación mago",
+        "encantar collar poder con hechizos"
+      ],
+      "keywords_en": [
+        "mage leveling enchants",
+        "mystic armor kit mage",
+        "revelation weapon mage",
+        "necklace spell power enchant"
+      ],
+      "text_es": "Niveles 1-19: Encantar arma: revelación (un hechizo sin crítico puede hacer crítico el siguiente), Encantar brazal: poder de sanación menor y el Complemento medio para armadura místico. 20-39: Encantar collar: poder con hechizos y el Complemento pesado. 40-60: Encantar brazal: poder de sanación inferior y los Complementos gruesos o bastos. Para el daño, un complemento místico supera cualquier encantamiento de intelecto en el torso; cualquiera puede ponerlos.",
+      "text_en": "Levels 1-19: Enchant Weapon - Revelation (a non-crit spell can make the next one crit), Enchant Bracer - Minor Healing Power and the Mystic Medium Armor Kit. 20-39: Enchant Necklace - Spell Power and the Heavy kit. 40-60: Enchant Bracer - Lesser Healing Power and the Thick or Rugged kits. For damage a Mystic kit beats any chest Intellect enchant; anyone can apply them.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Enchants & Consumables - WoW: Forever › Quick Picks by Level",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Enchants & Consumables - WoW: Forever › Best Arcane Mage Enchants in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:mage:arcane:enchants"
+      ],
+      "source_hashes": [
+        "guide:c8fdc78d63106047e3bf7148f33da57fe7d7f578",
+        "section:50937079dabcb03835c4b6fe63fb7248041fa836"
+      ]
+    },
+    {
+      "id": "clase-mage-consumibles-reglas",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consumibles del Mago: qué elegir y qué se acumula",
+      "title_en": "Mage consumables: what to pick and what stacks",
+      "summary_es": "Elixires, comida y reglas de acumulación para el Mago.",
+      "summary_en": "Elixirs, food and stacking rules for the Mage.",
+      "keywords_es": [
+        "elixires mago",
+        "qué comida mago",
+        "elixir superior arcano mago",
+        "sangre de mago mago",
+        "poción acción libre mago"
+      ],
+      "keywords_en": [
+        "mage elixirs",
+        "mage food",
+        "greater arcane elixir mage",
+        "mageblood mage",
+        "free action potion mage"
+      ],
+      "text_es": "Los elixires de poder con hechizos dan más daño; los de intelecto, sobre todo maná; los de sangre de mago, menos pausas para beber. Desde el nivel 47, Elixir superior arcano. La comida de poder con hechizos supera a la de intelecto en todos los niveles (Arcano); solo come intelecto si no tienes la otra. Una sola comida activa y todas las pociones comparten reutilización; las gemas de maná tienen la suya. La Poción de acción libre evita nuevos aturdimientos, pero no quita los que ya tienes.",
+      "text_en": "Spell Power elixirs give the most damage; Intellect ones mostly add mana; Mageblood elixirs mean less drinking. From level 47, Greater Arcane Elixir. Spell Power food beats Intellect food at every level for Arcane; eat Intellect only if you have no Spell Power food. Only one food buff is active and all potions share a cooldown; Mana Gems have their own. Free Action Potion stops new stuns but does not remove ones already on you.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Enchants & Consumables - WoW: Forever › Best Arcane Mage Consumables for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Frost Mage Enchants & Consumables - WoW: Forever › Best Frost Mage Consumables for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:mage:arcane:enchants",
+        "class:mage:frost:enchants"
+      ],
+      "source_hashes": [
+        "section:24b5dd64ff6a529931514004c15e87d489210cf5",
+        "section:522637122ed02eec6c0fe1036b025a51eea2e378"
+      ]
+    },
+    {
+      "id": "clase-mage-pergaminos",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Pergaminos exclusivos del Mago",
+      "title_en": "Mage-only scrolls",
+      "summary_es": "Qué son los pergaminos de mago (familiares, imbuir, crioexplosión) y cómo se acumulan.",
+      "summary_en": "What mage scrolls (familiars, imbues, cryoblast) are and how they stack.",
+      "keywords_es": [
+        "pergaminos de mago",
+        "pergamino de familiar gato",
+        "pergamino de imbuir llama",
+        "pergamino de crioexplosión",
+        "imbuir arma mago"
+      ],
+      "keywords_en": [
+        "mage scrolls",
+        "cat familiar scroll",
+        "imbue flame scroll",
+        "cryoblast scroll",
+        "mage weapon imbue"
+      ],
+      "text_es": "Solo los magos usan estos pergaminos, que funcionan como el veneno del pícaro. Los de familiar (rata, rana, gato) dan 2, 6 o 12 de intelecto durante una hora y se acumulan con el aceite de zahorí. Los de imbuir dan a los bastones un bonus de escuela (llama superior, escarcha superior: +20) y compiten con los aceites. Pergamino de crioexplosión inflige daño de Escarcha en área (122 el normal, 508 el superior).",
+      "text_en": "Only Mages can use these scrolls, which work like a Rogue poison. Familiar scrolls (rat, frog, cat) give 2, 6 or 12 Intellect for an hour and stack with wizard oil. Imbue scrolls give staves a school bonus (Greater Flame, Greater Frost: +20) and compete with oils. Scroll of Cryoblast deals area Frost damage (122, or 508 for the Greater one).",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Frost Mage Enchants & Consumables - WoW: Forever › Best Frost Mage Scrolls for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage Enchants & Consumables - WoW: Forever › Best Fire Mage Consumables for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:mage:fire:enchants",
+        "class:mage:frost:enchants"
+      ],
+      "source_hashes": [
+        "section:04a4cb3055600de1317279a8a7a845dcc4226f13",
+        "section:f8eedce170a7e5fa926553729e8145d12a257075"
+      ]
     }
   ]
 }
