@@ -4445,19 +4445,24 @@
       "summary_es": "Qué encantar con el Chamán Elemental mientras subes.",
       "summary_en": "What to enchant as an Elemental Shaman while leveling.",
       "keywords_es": [
+        "qué encanto siendo chamán",
+        "qué encantamientos pongo de chamán",
+        "encantamientos para chamán",
         "encantamientos chamán elemental",
         "qué encantar elemental",
         "guantes poder de la naturaleza chamán",
         "arcano de enfoque chamán"
       ],
       "keywords_en": [
+        "what to enchant as a shaman",
+        "best enchants for shaman",
         "elemental shaman enchants",
         "what to enchant elemental",
         "natural power gloves shaman",
         "arcanum of focus shaman"
       ],
-      "text_es": "Arma: Encantar arma: revelación. Cabeza y piernas: Arcano de Enfoque (o un complemento místico en las piernas). Collar: Encantar collar: poder con hechizos (por fórmula). Capa: encantar capa: sutileza (por fórmula). Brazales: poder con hechizos superior. Manos: Encantar guantes: poder de la Naturaleza. Torso y pies: el Complemento para armadura místico que corresponda a tu nivel (medio, pesado, grueso o basto).",
-      "text_en": "Weapon: Enchant Weapon - Revelation. Head and legs: Arcanum of Focus (or a Mystic armor kit on the legs). Neck: Enchant Necklace - Spell Power (from a formula). Back: Enchant Cloak - Subtlety (from a formula). Bracers: Greater Spellpower. Hands: Enchant Gloves - Natural Power. Chest and feet: the Mystic Armor Kit for your level (medium, heavy, thick or rugged).",
+      "text_es": "Encantamientos del Chamán Elemental: Arma: Encantar arma: revelación. Cabeza y piernas: Arcano de Enfoque (o un complemento místico en las piernas). Collar: Encantar collar: poder con hechizos (por fórmula). Capa: encantar capa: sutileza (por fórmula). Brazales: poder con hechizos superior. Manos: Encantar guantes: poder de la Naturaleza. Torso y pies: el Complemento para armadura místico que corresponda a tu nivel (medio, pesado, grueso o basto).",
+      "text_en": "Elemental Shaman enchants: Weapon: Enchant Weapon - Revelation. Head and legs: Arcanum of Focus (or a Mystic armor kit on the legs). Neck: Enchant Necklace - Spell Power (from a formula). Back: Enchant Cloak - Subtlety (from a formula). Bracers: Greater Spellpower. Hands: Enchant Gloves - Natural Power. Chest and feet: the Mystic Armor Kit for your level (medium, heavy, thick or rugged).",
       "tags": [
         "SHAMAN"
       ],
@@ -4486,19 +4491,24 @@
       "summary_es": "Qué encantar con el Chamán Mejora y el Chamán Restauración al subir.",
       "summary_en": "What to enchant as an Enhancement or Restoration Shaman while leveling.",
       "keywords_es": [
+        "qué encanto siendo chamán",
+        "qué encantamientos pongo de chamán",
+        "encantamientos para chamán",
         "encantamientos chamán mejora",
         "encantamientos chamán restauración",
         "encantar escudo ley de la naturaleza",
         "mano izquierda sabiduría chamán"
       ],
       "keywords_en": [
+        "what to enchant as a shaman",
+        "best enchants for shaman",
         "enhancement shaman enchants",
         "restoration shaman enchants",
         "law of nature shield enchant",
         "off-hand wisdom shaman"
       ],
-      "text_es": "Mejora solo recomienda Encantar arma: revelación; cabeza, hombros, torso, piernas y botas no necesitan nada. Restauración: Encantar arma: poder de sanación, en la mano izquierda sabiduría o, con escudo, Encantar escudo: ley de la naturaleza; Encantar collar: poder de sanación; Arcano de Enfoque en la cabeza; brazales y guantes con poder de curación; y complementos místicos en torso, piernas y pies.",
-      "text_en": "Enhancement only recommends Enchant Weapon - Revelation; head, shoulders, chest, legs and boots need nothing. Restoration: Enchant Weapon - Healing Power, Wisdom in the off-hand or, with a shield, Enchant Shield - Law of Nature; Enchant Necklace - Healing Power; Arcanum of Focus on the head; bracers and gloves with Healing Power; and Mystic armor kits on chest, legs and feet.",
+      "text_es": "Encantamientos del Chamán Mejora y Restauración: Mejora solo recomienda Encantar arma: revelación; cabeza, hombros, torso, piernas y botas no necesitan nada. Restauración: Encantar arma: poder de sanación, en la mano izquierda sabiduría o, con escudo, Encantar escudo: ley de la naturaleza; Encantar collar: poder de sanación; Arcano de Enfoque en la cabeza; brazales y guantes con poder de curación; y complementos místicos en torso, piernas y pies.",
+      "text_en": "Enhancement and Restoration Shaman enchants: Enhancement only recommends Enchant Weapon - Revelation; head, shoulders, chest, legs and boots need nothing. Restoration: Enchant Weapon - Healing Power, Wisdom in the off-hand or, with a shield, Enchant Shield - Law of Nature; Enchant Necklace - Healing Power; Arcanum of Focus on the head; bracers and gloves with Healing Power; and Mystic armor kits on chest, legs and feet.",
       "tags": [
         "SHAMAN"
       ],
@@ -4535,21 +4545,26 @@
       "summary_es": "Elixires, aceites y comida recomendados al Chamán según su especialización.",
       "summary_en": "Elixirs, oils and food recommended for the Shaman by spec.",
       "keywords_es": [
+        "qué consumibles uso siendo chamán",
+        "qué consumibles uso de chamán",
+        "consumibles para chamán",
+        "qué elixires uso de chamán",
         "consumibles chamán",
         "elixires chamán elemental",
         "consumibles chamán mejora",
-        "consumibles chamán restauración",
-        "elixir de los pardos"
+        "consumibles chamán restauración"
       ],
       "keywords_en": [
+        "what consumables as a shaman",
+        "best consumables for shaman",
         "shaman consumables",
         "elemental shaman elixirs",
         "enhancement shaman consumables",
         "restoration shaman consumables",
         "elixir of the grizzly"
       ],
-      "text_es": "Elemental: elixires de poder con hechizos (hasta Elixir superior arcano) y de intelecto (Elixir del búho), Aceite de zahorí luminoso y Salmón al horno o Estofado de langosta. Mejora: Elixir de los pardos, Poción de maná sublime, Piedra de afilar elemental y Salmón al horno. Restauración: de Elixir de clérigo inferior a Elixir de clérigo superior, Aceites de maná (hasta luminoso) y Té de paz o Té de salvia; en ambos sanadores y lanzadores, cualquier poción de maná.",
-      "text_en": "Elemental: Spell Power elixirs (up to Greater Arcane Elixir) and Intellect elixirs (Elixir of the Owl), Brilliant Wizard Oil and Baked Salmon or Lobster Stew. Enhancement: Elixir of the Grizzly, Major Mana Potion, Elemental Sharpening Stone and Baked Salmon. Restoration: Lesser to Greater Cleric's Elixir, Mana Oils (up to Brilliant) and Peace or Sage's Tea; casters and healers alike can use any mana potion.",
+      "text_es": "Consumibles del Chamán por especialización: Elemental: elixires de poder con hechizos (hasta Elixir superior arcano) y de intelecto (Elixir del búho), Aceite de zahorí luminoso y Salmón al horno o Estofado de langosta. Mejora: Elixir de los pardos, Poción de maná sublime, Piedra de afilar elemental y Salmón al horno. Restauración: de Elixir de clérigo inferior a Elixir de clérigo superior, Aceites de maná (hasta luminoso) y Té de paz o Té de salvia; en ambos sanadores y lanzadores, cualquier poción de maná.",
+      "text_en": "Shaman consumables by spec: Elemental: Spell Power elixirs (up to Greater Arcane Elixir) and Intellect elixirs (Elixir of the Owl), Brilliant Wizard Oil and Baked Salmon or Lobster Stew. Enhancement: Elixir of the Grizzly, Major Mana Potion, Elemental Sharpening Stone and Baked Salmon. Restoration: Lesser to Greater Cleric's Elixir, Mana Oils (up to Brilliant) and Peace or Sage's Tea; casters and healers alike can use any mana potion.",
       "tags": [
         "SHAMAN"
       ],

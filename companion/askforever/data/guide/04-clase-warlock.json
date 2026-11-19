@@ -3799,6 +3799,9 @@
       "summary_es": "Qué encantar con el Brujo por hueco y nivel mientras subes.",
       "summary_en": "What to enchant as a Warlock by slot and level while leveling.",
       "keywords_es": [
+        "qué encanto siendo brujo",
+        "qué encantamientos pongo de brujo",
+        "encantamientos para brujo",
         "encantamientos brujo",
         "qué encantar brujo",
         "complemento místico brujo",
@@ -3806,14 +3809,16 @@
         "torso intelecto brujo"
       ],
       "keywords_en": [
+        "what to enchant as a warlock",
+        "best enchants for warlock",
         "warlock enchants",
         "what to enchant warlock",
         "mystic armor kit warlock",
         "necklace spell power warlock",
         "chest intellect warlock"
       ],
-      "text_es": "Arma: Encantar arma: revelación o, a dos manos, el de intelecto inferior (+5). Collar: poder con hechizos (+6). Brazales: poder de sanación menor o inferior (+3 y +6 poder con hechizos). Botas: velocidad menor. En torso, piernas, manos o pies, los Complementos para armadura místicos (nivel 15, 30, 40 y 50, hasta +6 poder con hechizos): para el daño superan a cualquier encantamiento de intelecto del torso. Por tramos: 1-19 medio, 20-39 pesado, 40-60 grueso y basto.",
-      "text_en": "Weapon: Enchant Weapon - Revelation or, two-hand, Lesser Intellect (+5). Neck: Spell Power (+6). Bracers: Minor or Lesser Healing Power (+3 and +6 Spell Power). Boots: Minor Speed. On chest, legs, hands or feet, the Mystic Armor Kits (levels 15, 30, 40 and 50, up to +6 Spell Power): for damage they beat any chest Intellect enchant. By bracket: 1-19 medium, 20-39 heavy, 40-60 thick and rugged.",
+      "text_es": "Encantamientos del Brujo al subir: Arma: Encantar arma: revelación o, a dos manos, el de intelecto inferior (+5). Collar: poder con hechizos (+6). Brazales: poder de sanación menor o inferior (+3 y +6 poder con hechizos). Botas: velocidad menor. En torso, piernas, manos o pies, los Complementos para armadura místicos (nivel 15, 30, 40 y 50, hasta +6 poder con hechizos): para el daño superan a cualquier encantamiento de intelecto del torso. Por tramos: 1-19 medio, 20-39 pesado, 40-60 grueso y basto.",
+      "text_en": "Warlock enchants while leveling: Weapon: Enchant Weapon - Revelation or, two-hand, Lesser Intellect (+5). Neck: Spell Power (+6). Bracers: Minor or Lesser Healing Power (+3 and +6 Spell Power). Boots: Minor Speed. On chest, legs, hands or feet, the Mystic Armor Kits (levels 15, 30, 40 and 50, up to +6 Spell Power): for damage they beat any chest Intellect enchant. By bracket: 1-19 medium, 20-39 heavy, 40-60 thick and rugged.",
       "tags": [
         "WARLOCK"
       ],
@@ -3849,6 +3854,9 @@
       "summary_es": "Mejoras de nivel 60 del Brujo: arma, guantes por escuela y Arcano de enfoque.",
       "summary_en": "Level 60 Warlock upgrades: weapon, school gloves and Arcanum of Focus.",
       "keywords_es": [
+        "qué encanto siendo brujo",
+        "qué encantamientos pongo de brujo",
+        "encantamientos para brujo",
         "encantamientos brujo nivel 60",
         "guantes poder de las Sombras brujo",
         "guantes poder de Fuego brujo",
@@ -3856,14 +3864,16 @@
         "qué encantar brujo destrucción"
       ],
       "keywords_en": [
+        "what to enchant as a warlock",
+        "best enchants for warlock",
         "warlock level 60 enchants",
         "shadow power gloves warlock",
         "fire power gloves warlock",
         "arcanum of focus warlock",
         "what to enchant destruction warlock"
       ],
-      "text_es": "Arma: Encantar arma: poder con hechizos (+30; hace falta Encantamiento 300) o, a dos manos, el de poder con hechizos poderoso (+55). Guantes según tu escuela: Encantar guantes: poder de las Sombras (Aflicción, +20 de daño de las Sombras) o poder de Fuego (Destrucción y a veces Demonología, +20 de daño de Fuego). Cabeza o piernas: Arcano de enfoque (+8 poder con hechizos, objeto de nivel 60; se consigue con el Tratado sobre Enfoque en Dire Maul).",
-      "text_en": "Weapon: Enchant Weapon - Spell Power (+30; needs Enchanting 300) or, two-hand, Mighty Spell Power (+55). Gloves by school: Enchant Gloves - Shadow Power (Affliction, +20 Shadow damage) or Fire Power (Destruction and sometimes Demonology, +20 Fire damage). Head or legs: Arcanum of Focus (+8 Spell Power, level 60 item; from the Libram of Focus in Dire Maul).",
+      "text_es": "Encantamientos del Brujo a nivel 60: Arma: Encantar arma: poder con hechizos (+30; hace falta Encantamiento 300) o, a dos manos, el de poder con hechizos poderoso (+55). Guantes según tu escuela: Encantar guantes: poder de las Sombras (Aflicción, +20 de daño de las Sombras) o poder de Fuego (Destrucción y a veces Demonología, +20 de daño de Fuego). Cabeza o piernas: Arcano de enfoque (+8 poder con hechizos, objeto de nivel 60; se consigue con el Tratado sobre Enfoque en Dire Maul).",
+      "text_en": "Warlock enchants at level 60: Weapon: Enchant Weapon - Spell Power (+30; needs Enchanting 300) or, two-hand, Mighty Spell Power (+55). Gloves by school: Enchant Gloves - Shadow Power (Affliction, +20 Shadow damage) or Fire Power (Destruction and sometimes Demonology, +20 Fire damage). Head or legs: Arcanum of Focus (+8 Spell Power, level 60 item; from the Libram of Focus in Dire Maul).",
       "tags": [
         "WARLOCK"
       ],
@@ -3908,14 +3918,18 @@
       "summary_es": "Elixires, piedras de hechizo y de fuego, pociones y qué se acumula para el Brujo.",
       "summary_en": "Elixirs, spellstones, firestones, potions and what stacks for the Warlock.",
       "keywords_es": [
+        "qué consumibles uso siendo brujo",
+        "qué consumibles uso de brujo",
+        "consumibles para brujo",
+        "qué elixires uso de brujo",
         "consumibles brujo",
         "piedra de hechizos brujo",
         "pirorroca brujo",
-        "elixir de poder de las Sombras",
-        "piedra de salud brujo",
-        "transfusión de vida maná"
+        "elixir de poder de las Sombras"
       ],
       "keywords_en": [
+        "what consumables as a warlock",
+        "best consumables for warlock",
         "warlock consumables",
         "spellstone warlock",
         "firestone warlock",
@@ -3923,8 +3937,8 @@
         "healthstone warlock",
         "life tap mana"
       ],
-      "text_es": "Por tramos, elixires: Elixir Arcano menor (1-19), Elixir Arcano inferior y Elixir de sangre de mago inferior (20-39), Elixir de poder de las Sombras, Elixir superior arcano y Poción de sangre de mago (40-60). Arma: aceite de zahorí y, además, Piedra de hechizos (o Pirorroca para Demonología); se acumulan. Los elixires se acumulan entre sí; una sola comida (Salmón al horno a nivel 40-60); las pociones comparten reutilización y las piedras de salud tienen la suya. Transfusión de vida cubre casi todo el maná al subir: reserva las pociones de maná para peleas largas y mazmorras.",
-      "text_en": "Elixirs by bracket: Minor Arcane Elixir (1-19), Lesser Arcane Elixir and Lesser Mageblood Elixir (20-39), Elixir of Shadow Power, Greater Arcane Elixir and Mageblood Elixir (40-60). Weapon: wizard oil plus a Spellstone (or Firestone for Demonology); they stack. Elixirs stack with each other; only one food (Baked Salmon at 40-60); potions share a cooldown and Healthstones have their own. Life Tap covers most of your mana while leveling: save mana potions for long fights and dungeons.",
+      "text_es": "Consumibles del Brujo: elixires, piedras y reglas: Consumibles del Brujo: Elixires por tramos: Elixir Arcano menor (1-19), Elixir Arcano inferior y Elixir de sangre de mago inferior (20-39), Elixir de poder de las Sombras, Elixir superior arcano y Poción de sangre de mago (40-60). Arma: aceite de zahorí y, además, Piedra de hechizos (o Pirorroca para Demonología); se acumulan. Los elixires se acumulan entre sí; una sola comida (Salmón al horno a nivel 40-60); las pociones comparten reutilización y las piedras de salud tienen la suya. Transfusión de vida cubre casi todo el maná al subir.",
+      "text_en": "Warlock consumables: elixirs, stones and rules: Elixirs by bracket: Minor Arcane Elixir (1-19), Lesser Arcane Elixir and Lesser Mageblood Elixir (20-39), Elixir of Shadow Power, Greater Arcane Elixir and Mageblood Elixir (40-60). Weapon: wizard oil plus a Spellstone (or Firestone for Demonology); they stack. Elixirs stack with each other; only one food (Baked Salmon at 40-60); potions share a cooldown and Healthstones have their own. Life Tap covers most of your mana while leveling: save mana potions for long fights and dungeons.",
       "tags": [
         "WARLOCK"
       ],

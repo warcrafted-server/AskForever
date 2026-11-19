@@ -4,6 +4,16 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+## [0.4.0-beta.8] - 2026-11-19
+
+### English
+- Fixed: the assistant now finds the new enchant and consumable guides with everyday questions such as "what consumables do I use as a warlock" or "what do I enchant as a mage" (it missed some of them before).
+- Data patch 2026.11.19.4.
+
+### Español
+- Corregido: el asistente encuentra ahora las guías nuevas de encantamientos y consumibles con preguntas cotidianas como «qué consumibles uso de brujo» o «qué encanto siendo mago» (antes se le escapaban algunas).
+- Parche de datos 2026.11.19.4.
+
 ## [0.4.0-beta.7] - 2026-11-19
 
 ### English

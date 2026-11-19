@@ -3513,19 +3513,24 @@
       "summary_es": "Qué encantar y qué consumir con el Paladín Sagrado mientras subes.",
       "summary_en": "What to enchant and consume as a Holy Paladin while leveling.",
       "keywords_es": [
+        "qué encanto siendo paladín",
+        "qué encantamientos pongo de paladín",
+        "encantamientos para paladín",
         "encantamientos paladín sagrado",
         "qué encantar paladín sanador",
         "consumibles paladín sagrado",
         "aceite de maná paladín"
       ],
       "keywords_en": [
+        "what to enchant as a paladin",
+        "best enchants for paladin",
         "holy paladin enchants",
         "what to enchant healer paladin",
         "holy paladin consumables",
         "mana oil paladin"
       ],
-      "text_es": "Arma: Encantar arma: revelación. Collar: Encantar collar: poder con hechizos. Torso: Encantar torso: intelecto. Piernas: Complemento pesado para armadura místico. Botas: Encantar botas: velocidad menor. Consumibles: pociones de maná (menor, normal, excelente) y de curación, Aceite de maná (menor, inferior, luminoso) en el arma y comida como Ala de murciélago crujiente o Hachee de murciélago.",
-      "text_en": "Weapon: Enchant Weapon - Revelation. Neck: Enchant Necklace - Spell Power. Chest: Enchant Chest - Intellect. Legs: Mystic Heavy Armor Kit. Boots: Enchant Boots - Minor Speed. Consumables: mana potions (minor, regular, superior) and healing potions, Mana Oil (minor, lesser, brilliant) on the weapon and food such as Crispy Bat Wing or Bat Hachee.",
+      "text_es": "Encantamientos y consumibles del Paladín Sagrado: Arma: Encantar arma: revelación. Collar: Encantar collar: poder con hechizos. Torso: Encantar torso: intelecto. Piernas: Complemento pesado para armadura místico. Botas: Encantar botas: velocidad menor. Consumibles: pociones de maná (menor, normal, excelente) y de curación, Aceite de maná (menor, inferior, luminoso) en el arma y comida como Ala de murciélago crujiente o Hachee de murciélago.",
+      "text_en": "Holy Paladin enchants and consumables: Weapon: Enchant Weapon - Revelation. Neck: Enchant Necklace - Spell Power. Chest: Enchant Chest - Intellect. Legs: Mystic Heavy Armor Kit. Boots: Enchant Boots - Minor Speed. Consumables: mana potions (minor, regular, superior) and healing potions, Mana Oil (minor, lesser, brilliant) on the weapon and food such as Crispy Bat Wing or Bat Hachee.",
       "tags": [
         "PALADIN"
       ],
@@ -3561,19 +3566,24 @@
       "summary_es": "Qué encantar con el Paladín Protección por nivel, con aguante y púas de escudo.",
       "summary_en": "What to enchant as a Protection Paladin by level, with Stamina and shield spikes.",
       "keywords_es": [
+        "qué encanto siendo paladín",
+        "qué encantamientos pongo de paladín",
+        "encantamientos para paladín",
         "encantamientos paladín protección",
         "qué encantar paladín tanque",
         "aguante torso paladín",
         "punta de escudo paladín"
       ],
       "keywords_en": [
+        "what to enchant as a paladin",
+        "best enchants for paladin",
         "protection paladin enchants",
         "what to enchant paladin tank",
         "stamina chest paladin",
         "shield spike paladin"
       ],
-      "text_es": "El arma usa Encantar arma: recuperación (cura el 5% de tu salud al esquivarte o pararte un golpe, con reutilización de 10 s) o revelación. Torso: aguante, de menor (2) a sublime (+10 con Encantamiento 275). Brazales: fuerza, hasta excelente (+9). Collar: poder con hechizos (+6). Botas: velocidad menor. Los Complementos para armadura místicos suben con el nivel (15, 30, 40, 50). Las puntas de escudo de herrería suman daño por bloqueo: hierro 8-12, mitril 16-20 y torio 20-30.",
-      "text_en": "Weapon: Enchant Weapon - Recovery (heals 5% of your health when parried or dodged, 10 sec internal cooldown) or Revelation. Chest: Stamina, from Inferior (2) to Major (+10 at Enchanting 275). Bracers: Strength, up to Superior (+9). Neck: Spell Power (+6). Boots: Minor Speed. Mystic Armor Kits scale with level (15, 30, 40, 50). Blacksmithing shield spikes add damage per block: Iron 8-12, Mithril 16-20, Thorium 20-30.",
+      "text_es": "Encantamientos del Paladín Protección: El arma usa Encantar arma: recuperación (cura el 5% de tu salud al esquivarte o pararte un golpe, con reutilización de 10 s) o revelación. Torso: aguante, de menor (2) a sublime (+10 con Encantamiento 275). Brazales: fuerza, hasta excelente (+9). Collar: poder con hechizos (+6). Botas: velocidad menor. Los Complementos para armadura místicos suben con el nivel (15, 30, 40, 50). Las puntas de escudo de herrería suman daño por bloqueo: hierro 8-12, mitril 16-20 y torio 20-30.",
+      "text_en": "Protection Paladin enchants: Weapon: Enchant Weapon - Recovery (heals 5% of your health when parried or dodged, 10 sec internal cooldown) or Revelation. Chest: Stamina, from Inferior (2) to Major (+10 at Enchanting 275). Bracers: Strength, up to Superior (+9). Neck: Spell Power (+6). Boots: Minor Speed. Mystic Armor Kits scale with level (15, 30, 40, 50). Blacksmithing shield spikes add damage per block: Iron 8-12, Mithril 16-20, Thorium 20-30.",
       "tags": [
         "PALADIN"
       ],
@@ -3609,19 +3619,25 @@
       "summary_es": "Pociones, elixires, aceites y comida del Paladín Protección, con reglas de acumulación.",
       "summary_en": "Potions, elixirs, oils and food for the Protection Paladin, with stacking rules.",
       "keywords_es": [
+        "qué consumibles uso siendo paladín",
+        "qué consumibles uso de paladín",
+        "consumibles para paladín",
+        "qué elixires uso de paladín",
         "consumibles paladín protección",
         "elixires paladín tanque",
         "qué comida paladín protección",
         "aceite de zahorí piedra de afilar a la vez"
       ],
       "keywords_en": [
+        "what consumables as a paladin",
+        "best consumables for paladin",
         "protection paladin consumables",
         "paladin tank elixirs",
         "protection paladin food",
         "wizard oil sharpening stone together"
       ],
-      "text_es": "Los elixires se acumulan entre sí; prioriza los de poder con hechizos en mazmorra y añade fuerza o agilidad (Elixir de gigantes, Elixir de entereza superior). El aceite de zahorí y las piedras de afilar no se combinan, y los aceites no valen la pena antes del nivel 20 (usa Piedra de afilar férrea). Todas las pociones comparten reutilización; las piedras de salud tienen la suya. Una sola comida activa, que además da +5% de experiencia: Salmón al horno a nivel 40-60.",
-      "text_en": "Elixirs stack with each other; prioritize Spell Power in dungeons and add Strength or Agility (a Strength elixir, Elixir of Greater Fortitude). Wizard oil and sharpening stones cannot be combined, and oils are not worth it before level 20 (use Rough Sharpening Stone). All potions share a cooldown; Healthstones have their own. Only one food buff is active, and it also gives +5% experience: Baked Salmon at levels 40-60.",
+      "text_es": "Consumibles del Paladín Protección: Los elixires se acumulan entre sí; prioriza los de poder con hechizos en mazmorra y añade fuerza o agilidad (Elixir de gigantes, Elixir de entereza superior). El aceite de zahorí y las piedras de afilar no se combinan, y los aceites no valen la pena antes del nivel 20 (usa Piedra de afilar férrea). Todas las pociones comparten reutilización; las piedras de salud tienen la suya. Una sola comida activa, que además da +5% de experiencia: Salmón al horno a nivel 40-60.",
+      "text_en": "Protection Paladin consumables: Elixirs stack with each other; prioritize Spell Power in dungeons and add Strength or Agility (a Strength elixir, Elixir of Greater Fortitude). Wizard oil and sharpening stones cannot be combined, and oils are not worth it before level 20 (use Rough Sharpening Stone). All potions share a cooldown; Healthstones have their own. Only one food buff is active, and it also gives +5% experience: Baked Salmon at levels 40-60.",
       "tags": [
         "PALADIN"
       ],
@@ -3657,6 +3673,9 @@
       "summary_es": "Qué encantar con el Paladín Reprensión y qué mirar a nivel 60.",
       "summary_en": "What to enchant as a Retribution Paladin and what to watch at level 60.",
       "keywords_es": [
+        "qué encanto siendo paladín",
+        "qué encantamientos pongo de paladín",
+        "encantamientos para paladín",
         "encantamientos paladín reprensión",
         "qué encantar paladín retribución",
         "encantar arma cruzado",
@@ -3664,14 +3683,16 @@
         "explosión de hechizos 2 manos"
       ],
       "keywords_en": [
+        "what to enchant as a paladin",
+        "best enchants for paladin",
         "retribution paladin enchants",
         "what to enchant retribution paladin",
         "crusader enchant paladin",
         "holy power gloves",
         "spellblasting two-hand"
       ],
-      "text_es": "Arma: Encantar arma: cruzado, Encantar arma 2M: explosión de hechizos o arma abrasadora; el de fuerza inferior a dos manos (Encantamiento 220) es el más fácil al subir. Collar: fuerza o poder con hechizos, rinden parecido. Torso: estadísticas superiores. Brazales: fuerza excelente. Guantes: poder sagrado (nivel 50+) o fuerza superior. Cabeza y piernas: Arcano de Voracidad inferior o de Rapidez (nivel 50+). Botas: agilidad superior. A nivel 60, explosión de hechizos da +65 poder con hechizos; vigila poder sagrado en los guantes.",
-      "text_en": "Weapon: Enchant Weapon - Crusader, Enchant 2H Weapon - Spellblasting or Fiery Weapon; the two-hand Lesser Strength (Enchanting 220) is the easiest while leveling. Neck: Strength or Spell Power, they perform similarly. Chest: Greater Stats. Bracers: Superior Strength. Gloves: Holy Power (level 50+) or Greater Strength. Head and legs: Lesser Arcanum of Voracity or Rapidity (level 50+). Boots: Greater Agility. At level 60, Spellblasting gives +65 Spell Power; watch Holy Power on gloves.",
+      "text_es": "Encantamientos del Paladín Reprensión: Arma: Encantar arma: cruzado, Encantar arma 2M: explosión de hechizos o arma abrasadora; el de fuerza inferior a dos manos (Encantamiento 220) es el más fácil al subir. Collar: fuerza o poder con hechizos, rinden parecido. Torso: estadísticas superiores. Brazales: fuerza excelente. Guantes: poder sagrado (nivel 50+) o fuerza superior. Cabeza y piernas: Arcano de Voracidad inferior o de Rapidez (nivel 50+). Botas: agilidad superior. A nivel 60, explosión de hechizos da +65 poder con hechizos; vigila poder sagrado en los guantes.",
+      "text_en": "Retribution Paladin enchants: Weapon: Enchant Weapon - Crusader, Enchant 2H Weapon - Spellblasting or Fiery Weapon; the two-hand Lesser Strength (Enchanting 220) is the easiest while leveling. Neck: Strength or Spell Power, they perform similarly. Chest: Greater Stats. Bracers: Superior Strength. Gloves: Holy Power (level 50+) or Greater Strength. Head and legs: Lesser Arcanum of Voracity or Rapidity (level 50+). Boots: Greater Agility. At level 60, Spellblasting gives +65 Spell Power; watch Holy Power on gloves.",
       "tags": [
         "PALADIN"
       ],
@@ -3700,19 +3721,25 @@
       "summary_es": "Elixires, aceites de arma y comida para el Paladín Reprensión.",
       "summary_en": "Elixirs, weapon oils and food for the Retribution Paladin.",
       "keywords_es": [
+        "qué consumibles uso siendo paladín",
+        "qué consumibles uso de paladín",
+        "consumibles para paladín",
+        "qué elixires uso de paladín",
         "consumibles paladín reprensión",
         "elixires paladín retribución",
         "aceite escarchado paladín",
         "qué comida paladín reprensión"
       ],
       "keywords_en": [
+        "what consumables as a paladin",
+        "best consumables for paladin",
         "retribution paladin consumables",
         "retribution paladin elixirs",
         "frost oil paladin",
         "retribution paladin food"
       ],
-      "text_es": "Los elixires duran 30 minutos y se acumulan si dan beneficios distintos: combina uno de poder con hechizos (Elixir superior arcano) con uno de fuerza (Elixir de gigantes) o de ferocidad. En el arma, el Aceite escarchado es el más fuerte hasta niveles altos (escala con tu poder con hechizos), seguido del Aceite de las Sombras; para ahorrar, usa el mejor aceite de zahorí. Come siempre: la comida da experiencia; elige poder con hechizos o fuerza.",
-      "text_en": "Elixirs last 30 minutes and stack if they give different buffs: pair a Spell Power one (Greater Arcane Elixir) with a Strength one (a Strength elixir) or Ferocity. On the weapon, Frost Oil is the strongest until high levels (it scales with your spell power), followed by Shadow Oil; to save gold, use the best wizard oil. Always eat: food gives experience; pick spell power or strength.",
+      "text_es": "Consumibles del Paladín Reprensión: Los elixires duran 30 minutos y se acumulan si dan beneficios distintos: combina uno de poder con hechizos (Elixir superior arcano) con uno de fuerza (Elixir de gigantes) o de ferocidad. En el arma, el Aceite escarchado es el más fuerte hasta niveles altos (escala con tu poder con hechizos), seguido del Aceite de las Sombras; para ahorrar, usa el mejor aceite de zahorí. Come siempre: la comida da experiencia; elige poder con hechizos o fuerza.",
+      "text_en": "Retribution Paladin consumables: Elixirs last 30 minutes and stack if they give different buffs: pair a Spell Power one (Greater Arcane Elixir) with a Strength one (a Strength elixir) or Ferocity. On the weapon, Frost Oil is the strongest until high levels (it scales with your spell power), followed by Shadow Oil; to save gold, use the best wizard oil. Always eat: food gives experience; pick spell power or strength.",
       "tags": [
         "PALADIN"
       ],

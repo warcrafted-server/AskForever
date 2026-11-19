@@ -4224,6 +4224,9 @@
       "summary_es": "Qué encantar con el Guerrero Armas por hueco y nivel mientras subes.",
       "summary_en": "What to enchant as an Arms Warrior by slot and level while leveling.",
       "keywords_es": [
+        "qué encanto siendo guerrero",
+        "qué encantamientos pongo de guerrero",
+        "encantamientos para guerrero",
         "encantamientos guerrero armas",
         "qué encantar guerrero",
         "complemento fuerte armadura guerrero",
@@ -4231,14 +4234,16 @@
         "fuerza inferior arma 2M"
       ],
       "keywords_en": [
+        "what to enchant as a warrior",
+        "best enchants for warrior",
         "arms warrior enchants",
         "what to enchant warrior",
         "forceful armor kit warrior",
         "recovery weapon warrior",
         "lesser strength 2h"
       ],
-      "text_es": "Arma: Encantar arma: recuperación (restaura el 5% de tu salud al parar o esquivar, 10 s de reutilización) o el de fuerza inferior a dos manos (+15 fuerza, Encantamiento 220). Collar: fuerza (210). Torso: estadísticas (+3 a todo, Encantamiento 245). Brazales: fuerza menor, fuerza, fuerza superior o excelente (+9). Botas: agilidad inferior o velocidad menor (+8%). En torso, piernas, manos o pies, Complementos para armadura fuertes: +4, +6, +8 y +10 de poder de ataque en los niveles 15, 30, 40 y 50.",
-      "text_en": "Weapon: Enchant Weapon - Recovery (restores 5% of your health when you parry or dodge, 10 sec cooldown) or the two-hand Lesser Strength (+15 Strength, Enchanting 220). Neck: Strength (210). Chest: Stats (+3 to all, Enchanting 245). Bracers: Minor Strength, Strength, Greater or Superior Strength (+9). Boots: Lesser Agility or Minor Speed (+8%). On chest, legs, hands or feet, Forceful Armor Kits: +4, +6, +8 and +10 Attack Power at levels 15, 30, 40 and 50.",
+      "text_es": "Encantamientos del Guerrero Armas: Arma: Encantar arma: recuperación (restaura el 5% de tu salud al parar o esquivar, 10 s de reutilización) o el de fuerza inferior a dos manos (+15 fuerza, Encantamiento 220). Collar: fuerza (210). Torso: estadísticas (+3 a todo, Encantamiento 245). Brazales: fuerza menor, fuerza, fuerza superior o excelente (+9). Botas: agilidad inferior o velocidad menor (+8%). En torso, piernas, manos o pies, Complementos para armadura fuertes: +4, +6, +8 y +10 de poder de ataque en los niveles 15, 30, 40 y 50.",
+      "text_en": "Arms Warrior enchants: Weapon: Enchant Weapon - Recovery (restores 5% of your health when you parry or dodge, 10 sec cooldown) or the two-hand Lesser Strength (+15 Strength, Enchanting 220). Neck: Strength (210). Chest: Stats (+3 to all, Enchanting 245). Bracers: Minor Strength, Strength, Greater or Superior Strength (+9). Boots: Lesser Agility or Minor Speed (+8%). On chest, legs, hands or feet, Forceful Armor Kits: +4, +6, +8 and +10 Attack Power at levels 15, 30, 40 and 50.",
       "tags": [
         "WARRIOR"
       ],
@@ -4274,21 +4279,26 @@
       "summary_es": "Elixires, piedras de afilar y comida del Guerrero Armas por nivel, y qué se acumula.",
       "summary_en": "Elixirs, sharpening stones and food for the Arms Warrior by level, and what stacks.",
       "keywords_es": [
+        "qué consumibles uso siendo guerrero",
+        "qué consumibles uso de guerrero",
+        "consumibles para guerrero",
+        "qué elixires uso de guerrero",
         "consumibles guerrero armas",
         "elixires guerrero",
         "piedra de afilar guerrero",
-        "qué comida guerrero fuerza",
-        "piedrafuerte maza"
+        "qué comida guerrero fuerza"
       ],
       "keywords_en": [
+        "what consumables as a warrior",
+        "best consumables for warrior",
         "arms warrior consumables",
         "warrior elixirs",
         "warrior sharpening stone",
         "warrior strength food",
         "weightstone mace"
       ],
-      "text_es": "Elixires de fuerza (nivel 1 Elixir de fuerza de león, 20 Elixir de fuerza de ogro, 48 Elixir de gigantes, +25) y de agilidad (hasta Elixir de agilidad superior, nivel 38, +25); todos se acumulan. Piedra de afilar sube de basta a densa (+8 de daño a nivel 35) y elemental a nivel 50 (+2% crítico); con maza o bastón, la Piedrafuerte. Se pueden combinar con tótems como Viento Furioso. Comida de fuerza, hasta +20 (Bolas de masa del desierto ahumadas, nivel 45); da +5% de experiencia.",
-      "text_en": "Strength elixirs (level 1 Elixir of Minor Strength, 20 Ogre Strength, 48 Elixir of Giants, +25) and Agility elixirs (up to Greater Agility at level 38, +25); all stack. Sharpening stones go from Rough to Dense (+8 damage at level 35) and Elemental at level 50 (+2% crit); with a mace or staff, use Weightstones. They can be combined with totems such as Windfury. Strength food, up to +20 (Smoked Desert Dumplings, level 45); it gives +5% experience.",
+      "text_es": "Consumibles del Guerrero Armas: Elixires de fuerza (nivel 1 Elixir de fuerza de león, 20 Elixir de fuerza de ogro, 48 Elixir de gigantes, +25) y de agilidad (hasta Elixir de agilidad superior, nivel 38, +25); todos se acumulan. Piedra de afilar sube de basta a densa (+8 de daño a nivel 35) y elemental a nivel 50 (+2% crítico); con maza o bastón, la Piedrafuerte. Se pueden combinar con tótems como Viento Furioso. Comida de fuerza, hasta +20 (Bolas de masa del desierto ahumadas, nivel 45); da +5% de experiencia.",
+      "text_en": "Arms Warrior consumables: Strength elixirs (level 1 Elixir of Minor Strength, 20 Ogre Strength, 48 Elixir of Giants, +25) and Agility elixirs (up to Greater Agility at level 38, +25); all stack. Sharpening stones go from Rough to Dense (+8 damage at level 35) and Elemental at level 50 (+2% crit); with a mace or staff, use Weightstones. They can be combined with totems such as Windfury. Strength food, up to +20 (Smoked Desert Dumplings, level 45); it gives +5% experience.",
       "tags": [
         "WARRIOR"
       ],
@@ -4317,19 +4327,24 @@
       "summary_es": "Qué encantar y consumir con el Guerrero Furia mientras subes.",
       "summary_en": "What to enchant and consume as a Fury Warrior while leveling.",
       "keywords_es": [
+        "qué encanto siendo guerrero",
+        "qué encantamientos pongo de guerrero",
+        "encantamientos para guerrero",
         "encantamientos guerrero furia",
         "qué encantar guerrero furia",
         "capa agilidad inferior guerrero",
         "piedrafuerte densa"
       ],
       "keywords_en": [
+        "what to enchant as a warrior",
+        "best enchants for warrior",
         "fury warrior enchants",
         "what to enchant fury warrior",
         "lesser agility cloak warrior",
         "dense weightstone"
       ],
-      "text_es": "Arma: Encantar arma: recuperación. Capa: Encantar capa: agilidad inferior. Torso: Encantar pechera: estadísticas inferiores. Botas: Encantar botas: velocidad menor. En el arma, Piedra de afilar densa o Piedrafuerte densa, o la piedra que te toque por nivel.",
-      "text_en": "Weapon: Enchant Weapon - Recovery. Cloak: Enchant Cloak - Lesser Agility. Chest: Enchant Chest - Lesser Stats. Boots: Enchant Boots - Minor Speed. On the weapon, Dense Sharpening Stone or Dense Weightstone, or the stone for your level.",
+      "text_es": "Encantamientos del Guerrero Furia: Arma: Encantar arma: recuperación. Capa: Encantar capa: agilidad inferior. Torso: Encantar pechera: estadísticas inferiores. Botas: Encantar botas: velocidad menor. En el arma, Piedra de afilar densa o Piedrafuerte densa, o la piedra que te toque por nivel.",
+      "text_en": "Fury Warrior enchants: Weapon: Enchant Weapon - Recovery. Cloak: Enchant Cloak - Lesser Agility. Chest: Enchant Chest - Lesser Stats. Boots: Enchant Boots - Minor Speed. On the weapon, Dense Sharpening Stone or Dense Weightstone, or the stone for your level.",
       "tags": [
         "WARRIOR"
       ],
@@ -4358,6 +4373,9 @@
       "summary_es": "Qué encantar y consumir con el Guerrero Protección al subir, con aguante y escudo.",
       "summary_en": "What to enchant and consume as a Protection Warrior while leveling, with Stamina and shield.",
       "keywords_es": [
+        "qué encanto siendo guerrero",
+        "qué encantamientos pongo de guerrero",
+        "encantamientos para guerrero",
         "encantamientos guerrero protección",
         "qué encantar guerrero tanque",
         "arma abrasadora guerrero",
@@ -4365,14 +4383,16 @@
         "consumibles guerrero protección"
       ],
       "keywords_en": [
+        "what to enchant as a warrior",
+        "best enchants for warrior",
         "protection warrior enchants",
         "what to enchant warrior tank",
         "fiery weapon warrior",
         "shield spike warrior",
         "protection warrior consumables"
       ],
-      "text_es": "Arma: Encantar arma: arma abrasadora (golpea a menudo con 40 de daño de fuego, Encantamiento 265). Torso: aguante, hasta excelente; Encantar botas: aguante superior y Encantar escudo: aguante superior a nivel 40-60. Collar y brazales de fuerza; botas de velocidad menor. Las puntas de escudo de herrería añaden daño por bloqueo (hierro 8-12). Los complementos fuertes en torso, piernas, manos y pies. Los consumibles siguen las mismas reglas que Armas: elixires acumulables, una comida, pociones con reutilización común.",
-      "text_en": "Weapon: Enchant Weapon - Fiery Weapon (often strikes for 40 fire damage, Enchanting 265). Chest: Stamina, up to Superior; Enchant Boots - Greater Stamina and Enchant Shield - Greater Stamina at levels 40-60. Strength on neck and bracers; Minor Speed boots. Blacksmithing shield spikes add damage per block (Iron 8-12). Forceful kits on chest, legs, hands and feet. Consumables follow the Arms rules: elixirs stack, one food, potions share a cooldown.",
+      "text_es": "Encantamientos y consumibles del Guerrero Protección: Arma: Encantar arma: arma abrasadora (golpea a menudo con 40 de daño de fuego, Encantamiento 265). Torso: aguante, hasta excelente; Encantar botas: aguante superior y Encantar escudo: aguante superior a nivel 40-60. Collar y brazales de fuerza; botas de velocidad menor. Las puntas de escudo de herrería añaden daño por bloqueo (hierro 8-12). Los complementos fuertes en torso, piernas, manos y pies. Los consumibles siguen las mismas reglas que Armas: elixires acumulables, una comida, pociones con reutilización común.",
+      "text_en": "Protection Warrior enchants and consumables: Weapon: Enchant Weapon - Fiery Weapon (often strikes for 40 fire damage, Enchanting 265). Chest: Stamina, up to Superior; Enchant Boots - Greater Stamina and Enchant Shield - Greater Stamina at levels 40-60. Strength on neck and bracers; Minor Speed boots. Blacksmithing shield spikes add damage per block (Iron 8-12). Forceful kits on chest, legs, hands and feet. Consumables follow the Arms rules: elixirs stack, one food, potions share a cooldown.",
       "tags": [
         "WARRIOR"
       ],

@@ -2899,6 +2899,9 @@
       "summary_es": "Qué encantar en cada hueco con el Mago a nivel 60, según la escuela.",
       "summary_en": "What to enchant in each slot as a level 60 Mage, by school.",
       "keywords_es": [
+        "qué encanto siendo mago",
+        "qué encantamientos pongo de mago",
+        "encantamientos para mago",
         "encantamientos mago",
         "encantar guantes mago",
         "qué encantar mago arcano",
@@ -2906,14 +2909,16 @@
         "arcano de enfoque mago"
       ],
       "keywords_en": [
+        "what to enchant as a mage",
+        "best enchants for mage",
         "mage enchants",
         "mage glove enchant",
         "what to enchant arcane mage",
         "fire power gloves",
         "arcanum of focus mage"
       ],
-      "text_es": "Arma: Encantar arma: poder con hechizos (+30; hace falta Encantamiento 300). Guantes según la escuela: Encantar guantes: poder Arcano (Arcano) o poder de Fuego (Fuego), ambos +20 de daño. Cabeza o piernas: Arcano de enfoque (+8 poder con hechizos, requiere objeto de nivel 60; se consigue con el Tratado sobre Enfoque en Dire Maul). Botas: Encantar botas: velocidad (+8% velocidad de movimiento) o un complemento místico (+6 poder con hechizos), a tu gusto.",
-      "text_en": "Weapon: Enchant Weapon - Spell Power (+30; needs 300 Enchanting). Gloves by school: Enchant Gloves - Arcane Power (Arcane) or Fire Power (Fire), both +20 damage. Head or legs: Arcanum of Focus (+8 Spell Power, needs a level 60 item; from the Libram of Focus in Dire Maul). Boots: Enchant Boots - Speed (+8% movement speed) or a Mystic armor kit (+6 Spell Power), by preference.",
+      "text_es": "Encantamientos del Mago a nivel 60: Arma: Encantar arma: poder con hechizos (+30; hace falta Encantamiento 300). Guantes según la escuela: Encantar guantes: poder Arcano (Arcano) o poder de Fuego (Fuego), ambos +20 de daño. Cabeza o piernas: Arcano de enfoque (+8 poder con hechizos, requiere objeto de nivel 60; se consigue con el Tratado sobre Enfoque en Dire Maul). Botas: Encantar botas: velocidad (+8% velocidad de movimiento) o un complemento místico (+6 poder con hechizos), a tu gusto.",
+      "text_en": "Mage enchants at level 60: Weapon: Enchant Weapon - Spell Power (+30; needs 300 Enchanting). Gloves by school: Enchant Gloves - Arcane Power (Arcane) or Fire Power (Fire), both +20 damage. Head or legs: Arcanum of Focus (+8 Spell Power, needs a level 60 item; from the Libram of Focus in Dire Maul). Boots: Enchant Boots - Speed (+8% movement speed) or a Mystic armor kit (+6 Spell Power), by preference.",
       "tags": [
         "MAGE"
       ],
@@ -2950,19 +2955,24 @@
       "summary_es": "Qué encantar con el Mago por tramos de nivel mientras subes.",
       "summary_en": "What to enchant as a Mage in each level bracket while leveling.",
       "keywords_es": [
+        "qué encanto siendo mago",
+        "qué encantamientos pongo de mago",
+        "encantamientos para mago",
         "encantamientos mago subiendo",
         "complemento místico mago",
         "arma revelación mago",
         "encantar collar poder con hechizos"
       ],
       "keywords_en": [
+        "what to enchant as a mage",
+        "best enchants for mage",
         "mage leveling enchants",
         "mystic armor kit mage",
         "revelation weapon mage",
         "necklace spell power enchant"
       ],
-      "text_es": "Niveles 1-19: Encantar arma: revelación (un hechizo sin crítico puede hacer crítico el siguiente), Encantar brazal: poder de sanación menor y el Complemento medio para armadura místico. 20-39: Encantar collar: poder con hechizos y el Complemento pesado. 40-60: Encantar brazal: poder de sanación inferior y los Complementos gruesos o bastos. Para el daño, un complemento místico supera cualquier encantamiento de intelecto en el torso; cualquiera puede ponerlos.",
-      "text_en": "Levels 1-19: Enchant Weapon - Revelation (a non-crit spell can make the next one crit), Enchant Bracer - Minor Healing Power and the Mystic Medium Armor Kit. 20-39: Enchant Necklace - Spell Power and the Heavy kit. 40-60: Enchant Bracer - Lesser Healing Power and the Thick or Rugged kits. For damage a Mystic kit beats any chest Intellect enchant; anyone can apply them.",
+      "text_es": "Encantamientos del Mago al subir: Niveles 1-19: Encantar arma: revelación (un hechizo sin crítico puede hacer crítico el siguiente), Encantar brazal: poder de sanación menor y el Complemento medio para armadura místico. 20-39: Encantar collar: poder con hechizos y el Complemento pesado. 40-60: Encantar brazal: poder de sanación inferior y los Complementos gruesos o bastos. Para el daño, un complemento místico supera cualquier encantamiento de intelecto en el torso; cualquiera puede ponerlos.",
+      "text_en": "Mage enchants while leveling: Levels 1-19: Enchant Weapon - Revelation (a non-crit spell can make the next one crit), Enchant Bracer - Minor Healing Power and the Mystic Medium Armor Kit. 20-39: Enchant Necklace - Spell Power and the Heavy kit. 40-60: Enchant Bracer - Lesser Healing Power and the Thick or Rugged kits. For damage a Mystic kit beats any chest Intellect enchant; anyone can apply them.",
       "tags": [
         "MAGE"
       ],
@@ -2998,21 +3008,26 @@
       "summary_es": "Elixires, comida y reglas de acumulación para el Mago.",
       "summary_en": "Elixirs, food and stacking rules for the Mage.",
       "keywords_es": [
+        "qué consumibles uso siendo mago",
+        "qué consumibles uso de mago",
+        "consumibles para mago",
+        "qué elixires uso de mago",
         "elixires mago",
         "qué comida mago",
         "elixir superior arcano mago",
-        "sangre de mago mago",
-        "poción acción libre mago"
+        "sangre de mago mago"
       ],
       "keywords_en": [
+        "what consumables as a mage",
+        "best consumables for mage",
         "mage elixirs",
         "mage food",
         "greater arcane elixir mage",
         "mageblood mage",
         "free action potion mage"
       ],
-      "text_es": "Los elixires de poder con hechizos dan más daño; los de intelecto, sobre todo maná; los de sangre de mago, menos pausas para beber. Desde el nivel 47, Elixir superior arcano. La comida de poder con hechizos supera a la de intelecto en todos los niveles (Arcano); solo come intelecto si no tienes la otra. Una sola comida activa y todas las pociones comparten reutilización; las gemas de maná tienen la suya. La Poción de acción libre evita nuevos aturdimientos, pero no quita los que ya tienes.",
-      "text_en": "Spell Power elixirs give the most damage; Intellect ones mostly add mana; Mageblood elixirs mean less drinking. From level 47, Greater Arcane Elixir. Spell Power food beats Intellect food at every level for Arcane; eat Intellect only if you have no Spell Power food. Only one food buff is active and all potions share a cooldown; Mana Gems have their own. Free Action Potion stops new stuns but does not remove ones already on you.",
+      "text_es": "Consumibles del Mago: qué elegir y qué se acumula: Los elixires de poder con hechizos dan más daño; los de intelecto, sobre todo maná; los de sangre de mago, menos pausas para beber. Desde el nivel 47, Elixir superior arcano. La comida de poder con hechizos supera a la de intelecto en todos los niveles (Arcano); solo come intelecto si no tienes la otra. Una sola comida activa y todas las pociones comparten reutilización; las gemas de maná tienen la suya. La Poción de acción libre evita nuevos aturdimientos, pero no quita los que ya tienes.",
+      "text_en": "Mage consumables: what to pick and what stacks: Spell Power elixirs give the most damage; Intellect ones mostly add mana; Mageblood elixirs mean less drinking. From level 47, Greater Arcane Elixir. Spell Power food beats Intellect food at every level for Arcane; eat Intellect only if you have no Spell Power food. Only one food buff is active and all potions share a cooldown; Mana Gems have their own. Free Action Potion stops new stuns but does not remove ones already on you.",
       "tags": [
         "MAGE"
       ],
@@ -3062,8 +3077,8 @@
         "cryoblast scroll",
         "mage weapon imbue"
       ],
-      "text_es": "Solo los magos usan estos pergaminos, que funcionan como el veneno del pícaro. Los de familiar (rata, rana, gato) dan 2, 6 o 12 de intelecto durante una hora y se acumulan con el aceite de zahorí. Los de imbuir dan a los bastones un bonus de escuela (llama superior, escarcha superior: +20) y compiten con los aceites. Pergamino de crioexplosión inflige daño de Escarcha en área (122 el normal, 508 el superior).",
-      "text_en": "Only Mages can use these scrolls, which work like a Rogue poison. Familiar scrolls (rat, frog, cat) give 2, 6 or 12 Intellect for an hour and stack with wizard oil. Imbue scrolls give staves a school bonus (Greater Flame, Greater Frost: +20) and compete with oils. Scroll of Cryoblast deals area Frost damage (122, or 508 for the Greater one).",
+      "text_es": "Pergaminos exclusivos del Mago: Solo los magos usan estos pergaminos, que funcionan como el veneno del pícaro. Los de familiar (rata, rana, gato) dan 2, 6 o 12 de intelecto durante una hora y se acumulan con el aceite de zahorí. Los de imbuir dan a los bastones un bonus de escuela (llama superior, escarcha superior: +20) y compiten con los aceites. Pergamino de crioexplosión inflige daño de Escarcha en área (122 el normal, 508 el superior).",
+      "text_en": "Mage-only scrolls: Only Mages can use these scrolls, which work like a Rogue poison. Familiar scrolls (rat, frog, cat) give 2, 6 or 12 Intellect for an hour and stack with wizard oil. Imbue scrolls give staves a school bonus (Greater Flame, Greater Frost: +20) and compete with oils. Scroll of Cryoblast deals area Frost damage (122, or 508 for the Greater one).",
       "tags": [
         "MAGE"
       ],

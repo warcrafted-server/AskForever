@@ -3012,19 +3012,24 @@
       "summary_es": "Qué encantar con el Cazador (las tres especializaciones) mientras subes.",
       "summary_en": "What to enchant as a Hunter (all three specs) while leveling.",
       "keywords_es": [
+        "qué encanto siendo cazador",
+        "qué encantamientos pongo de cazador",
+        "encantamientos para cazador",
         "encantamientos cazador",
         "qué encantar cazador",
         "encantar capa agilidad",
         "complemento fuerte armadura cazador"
       ],
       "keywords_en": [
+        "what to enchant as a hunter",
+        "best enchants for hunter",
         "hunter enchants",
         "what to enchant hunter",
         "cloak agility enchant hunter",
         "forceful armor kit hunter"
       ],
-      "text_es": "Las tres especializaciones comparten la lista: Encantar capa: agilidad menor, Encantar brazales: agilidad superior y, en torso, manos, piernas y pies, los Complementos para armadura fuertes (medio, pesado, grueso y basto, según tu nivel). Para el arma a dos manos se recomienda el encantamiento de agilidad inferior.",
-      "text_en": "All three specs share the list: Enchant Cloak - Minor Agility, Enchant Bracer - Greater Agility and, on chest, hands, legs and feet, the Forceful Armor Kits (medium, heavy, thick and rugged, by level). For the two-hand weapon, the Lesser Agility enchant is recommended.",
+      "text_es": "Encantamientos del Cazador al subir: Las tres especializaciones comparten la lista: Encantar capa: agilidad menor, Encantar brazales: agilidad superior y, en torso, manos, piernas y pies, los Complementos para armadura fuertes (medio, pesado, grueso y basto, según tu nivel). Para el arma a dos manos se recomienda el encantamiento de agilidad inferior.",
+      "text_en": "Hunter enchants while leveling: All three specs share the list: Enchant Cloak - Minor Agility, Enchant Bracer - Greater Agility and, on chest, hands, legs and feet, the Forceful Armor Kits (medium, heavy, thick and rugged, by level). For the two-hand weapon, the Lesser Agility enchant is recommended.",
       "tags": [
         "HUNTER"
       ],

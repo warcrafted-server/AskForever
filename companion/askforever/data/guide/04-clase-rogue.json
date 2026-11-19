@@ -3269,19 +3269,24 @@
       "summary_es": "Qué encantar con el Pícaro (las tres especializaciones) mientras subes.",
       "summary_en": "What to enchant as a Rogue (all three specs) while leveling.",
       "keywords_es": [
+        "qué encanto siendo pícaro",
+        "qué encantamientos pongo de pícaro",
+        "encantamientos para pícaro",
         "encantamientos pícaro",
         "qué encantar pícaro",
         "encantar botas velocidad menor",
         "arma recuperación pícaro"
       ],
       "keywords_en": [
+        "what to enchant as a rogue",
+        "best enchants for rogue",
         "rogue enchants",
         "what to enchant rogue",
         "minor speed boots rogue",
         "recovery weapon rogue"
       ],
-      "text_es": "Las tres especializaciones usan la misma lista: Encantar arma: recuperación, Encantar collar: agilidad, Encantar capa: agilidad inferior, Encantar pechera: estadísticas inferiores, Encantar brazal: fuerza superior, Encantar guantes: velocidad menor y Encantar botas: velocidad menor. En las piernas, un Complemento pesado para armadura fuerte o el equivalente a tu nivel. Cabeza y hombros no necesitan nada.",
-      "text_en": "All three specs use the same list: Enchant Weapon - Recovery, Enchant Necklace - Agility, Enchant Cloak - Lesser Agility, Enchant Chest - Lesser Stats, Enchant Bracer - Greater Strength, Enchant Gloves - Minor Haste and Enchant Boots - Minor Speed. On the legs, a Forceful Heavy Armor Kit or the equivalent for your level. Head and shoulders need nothing.",
+      "text_es": "Encantamientos del Pícaro al subir: Las tres especializaciones usan la misma lista: Encantar arma: recuperación, Encantar collar: agilidad, Encantar capa: agilidad inferior, Encantar pechera: estadísticas inferiores, Encantar brazal: fuerza superior, Encantar guantes: velocidad menor y Encantar botas: velocidad menor. En las piernas, un Complemento pesado para armadura fuerte o el equivalente a tu nivel. Cabeza y hombros no necesitan nada.",
+      "text_en": "Rogue enchants while leveling: All three specs use the same list: Enchant Weapon - Recovery, Enchant Necklace - Agility, Enchant Cloak - Lesser Agility, Enchant Chest - Lesser Stats, Enchant Bracer - Greater Strength, Enchant Gloves - Minor Haste and Enchant Boots - Minor Speed. On the legs, a Forceful Heavy Armor Kit or the equivalent for your level. Head and shoulders need nothing.",
       "tags": [
         "ROGUE"
       ],
@@ -3326,14 +3331,18 @@
       "summary_es": "Elixires, piedras de afilar, comida y veneno recomendados al Pícaro por nivel.",
       "summary_en": "Elixirs, sharpening stones, food and poison recommended for the Rogue by level.",
       "keywords_es": [
+        "qué consumibles uso siendo pícaro",
+        "qué consumibles uso de pícaro",
+        "consumibles para pícaro",
+        "qué elixires uso de pícaro",
         "consumibles pícaro",
         "elixir de la mangosta",
         "piedra de afilar pícaro",
-        "té de cardo",
-        "qué comida pícaro",
-        "veneno instantáneo subiendo"
+        "té de cardo"
       ],
       "keywords_en": [
+        "what consumables as a rogue",
+        "best consumables for rogue",
         "rogue consumables",
         "elixir of the mongoose",
         "rogue sharpening stone",
@@ -3341,8 +3350,8 @@
         "rogue food",
         "instant poison leveling"
       ],
-      "text_es": "Elixires de agilidad que escalan: nivel 2 menor, 18 inferior, 27 Elixir de agilidad, 38 superior, 46 Elixir de la mangosta y 55 Elixir de ferocidad. Piedras de afilar: burda (5), pesada (15), sólida (25), densa (35) y elemental (50). Comida: Filete de coyote (5), Chuletas de león picantes (15), Costillas de lobo picantes (25), Chuleta de lobo tierno (35), Filete Golpeveloz (45) y Filete de falda (55). Poción de curación a tu nivel, Té de cardo y el mejor Veneno instantáneo en ambas manos.",
-      "text_en": "Agility elixirs by level: 2 Minor, 18 Lesser, 27 Elixir of Agility, 38 Greater, 46 Elixir of the Mongoose and 55 Elixir of Ferocity. Sharpening stones: Coarse (5), Heavy (15), Solid (25), Dense (35) and Elemental (50). Food: Coyote Steak (5), Hot Lion Chops (15), Hot Wolf Ribs (25), Tender Wolf Steak (35), Swiftstrike Steak (45) and Filet o' Flank (55). Healing Potion for your level, Thistle Tea and the best Instant Poison on both hands.",
+      "text_es": "Consumibles del Pícaro por nivel: Elixires de agilidad que escalan: nivel 2 menor, 18 inferior, 27 Elixir de agilidad, 38 superior, 46 Elixir de la mangosta y 55 Elixir de ferocidad. Piedras de afilar: burda (5), pesada (15), sólida (25), densa (35) y elemental (50). Comida: Filete de coyote (5), Chuletas de león picantes (15), Costillas de lobo picantes (25), Chuleta de lobo tierno (35), Filete Golpeveloz (45) y Filete de falda (55). Poción de curación a tu nivel, Té de cardo y el mejor Veneno instantáneo en ambas manos.",
+      "text_en": "Rogue consumables by level: Agility elixirs by level: 2 Minor, 18 Lesser, 27 Elixir of Agility, 38 Greater, 46 Elixir of the Mongoose and 55 Elixir of Ferocity. Sharpening stones: Coarse (5), Heavy (15), Solid (25), Dense (35) and Elemental (50). Food: Coyote Steak (5), Hot Lion Chops (15), Hot Wolf Ribs (25), Tender Wolf Steak (35), Swiftstrike Steak (45) and Filet o' Flank (55). Healing Potion for your level, Thistle Tea and the best Instant Poison on both hands.",
       "tags": [
         "ROGUE"
       ],

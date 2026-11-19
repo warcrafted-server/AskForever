@@ -6,7 +6,7 @@
 ## Author: WarCrafted
 ## X-Curse-Project-ID: 1803622
 ## IconTexture: Interface\AddOns\AskForever\Media\Icon
-## Version: 0.4.0-beta.7
+## Version: 0.4.0-beta.8
 ## SavedVariables: AskForeverDB
 
 locales/enUS.lua
