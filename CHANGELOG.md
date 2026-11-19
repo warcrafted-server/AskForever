@@ -4,6 +4,20 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+## [0.4.0-beta.9] - 2026-11-20
+
+### English
+- Updated: the guide cards now follow the November 19 guide update: Hunter (Auto Shot, Beast Mastery, Survival weaving rotation and talent builds), class stats, builds and enchants, PvP (weekly Field of Honor quests, battlemaster locations, rank points, gear costs, Darkspear Islands) and the raids (entrances, boss counts, no attunement for the two new ones).
+- Added: Maraudon quest list, Timbermaw Hold reputation from Azshara and Blackmaw Hold, and new drop details for the Tarnished Undermine Real.
+- Corrected: weapon skills can be trained from level 10 (Polearms from level 20).
+- Data patch 2026.11.20.1.
+
+### Español
+- Actualizado: las fichas de la guía siguen la actualización de guías del 19 de noviembre: Cazador (Disparo automático, Bestias, rotación de Supervivencia con cambio de arma y builds de talentos), estadísticas, builds y encantamientos de las clases, JcJ (misiones semanales del Campo de Honor, ubicación de maestros de batalla, puntos de rango, costes del equipo, Islas Lanza Negra) y las bandas (accesos, número de jefes, sin sintonización en las dos nuevas).
+- Añadido: lista de misiones de Maraudon, reputación de los Fauces de Madera desde Azshara y el Bastión Faucenegra, y nuevos datos de caída del Real deslustrado de Minahonda.
+- Corregido: las habilidades de armas se aprenden desde el nivel 10 (Armas de asta, desde el 20).
+- Parche de datos 2026.11.20.1.
+
 ## [0.4.0-beta.8] - 2026-11-19
 
 ### English
