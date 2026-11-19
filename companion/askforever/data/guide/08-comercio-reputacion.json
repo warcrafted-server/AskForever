@@ -268,22 +268,22 @@
         "how to obtain Undermine currency",
         "Tarnished Undermine Real drops"
       ],
-      "text_es": "En WoW: Forever todavía no se han visto caídas de esta moneda y su forma de obtención aún no está confirmada.",
-      "text_en": "No drops of this currency have been seen in WoW: Forever, and how to obtain it is not yet confirmed.",
+      "text_es": "El Real deslustrado de Minahonda lo sueltan los jefes de mazmorra, normalmente de nivel 55 o más. Puedes saquear cada jefe una vez al día: los últimos jefes de las mazmorras de nivel máximo dan 3 y los demás, 1.",
+      "text_en": "The Tarnished Undermine Real is dropped by dungeon bosses, normally level 55 or higher. Each boss can be looted once a day: final bosses of end-game dungeons give 3 and the rest give 1.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Tarnished Undermine Real Currency Guide: Earning and Spending - WoW: Forever › Earning Tarnished Undermine Real Currency",
           "url": "https://www.wowhead.com/forever/guide/currency/tarnished-undermine-real-overview",
-          "date": "2026-10-25"
+          "date": "2026-11-19"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "general:tarnished-undermine-real-overview"
       ],
       "source_hashes": [
-        "section:dbff8b5d2cad618d47c44b14ae48f86775d51001"
+        "section:0f813a211d668ef830c98e5e27896839f417a342"
       ]
     },
     {
@@ -928,29 +928,29 @@
         "Felwood",
         "Winterspring"
       ],
-      "text_es": "El Bastión de los Fauces de Madera ocupa una cueva entre Frondavil, Claro de la Luna y Cuna del Invierno. El intendente está en el cruce de las tres ramas; al principio, los furbolgs de la cueva pueden atacarte si aún no has ganado reputación suficiente.",
-      "text_en": "Timbermaw Hold occupies a cave between Felwood, Moonglade, and Winterspring. The quartermaster is at the junction of its three branches; at first, the cave's furbolgs may attack you until you gain enough reputation.",
+      "text_es": "El Bastión de los Fauces de Madera ocupa una cueva entre Frondavil, Claro de la Luna y Cuna del Invierno. El intendente está en el cruce de las tres ramas; al principio, los furbolgs de la cueva pueden atacarte si aún no has ganado reputación suficiente. También puede empezar en la mazmorra Bastión Faucenegra, al matar a sus enemigos, o con las misiones de Ekkal en Azshara.",
+      "text_en": "Timbermaw Hold occupies a cave between Felwood, Moonglade, and Winterspring. The quartermaster is at the junction of its three branches; at first, the cave's furbolgs may attack you until you gain enough reputation. Reputation can also start from the Blackmaw Hold dungeon, by killing its enemies, or from Ekkal's quests in Azshara.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Timbermaw Hold Location in Forever",
           "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
-          "date": "2026-11-16"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Unlocking Timbermaw Hold in Forever",
           "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
-          "date": "2026-11-16"
+          "date": "2026-11-18"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "reputation:timbermaw-hold-quests-quartermaster-rewards"
       ],
       "source_hashes": [
         "section:04b7f9d98989b301f2c1e3c9621b7e0894ca7197",
-        "section:651116ffb2fceb87cea1cb0c2c787f8b039da710"
+        "section:9141bfb6e1b31473955fe40a334c9ab41d82e9ef"
       ]
     },
     {
@@ -975,36 +975,83 @@
         "repeatable Timbermaw quests",
         "Timbermaw Exalted reputation"
       ],
-      "text_es": "Empiezas en Odio. Completa las misiones iniciales y mata furbolgs de otras tribus en Frondavil y Cuna del Invierno; al avanzar desbloquearás entregas repetibles. Las misiones Plumas para Grazle, Plumas para Nafien y Cuentas para Salfa aceptan 5 objetos y dan 50 p. cada una. Si buscas Exaltado, guarda las Plumas de penacho Muertobosque y las Cuentas de Espíritu Nevada hasta Reverenciado.",
-      "text_en": "You start at Hated. Complete the introductory quests and kill furbolgs from other tribes in Felwood and Winterspring; progress unlocks repeatable turn-ins. Feathers for Grazle, Feathers for Nafien, and Beads for Salfa each accept 5 items and grant 50 reputation. If aiming for Exalted, save Deadwood Headdress Feathers and Winterfall Spirit Beads until Revered.",
+      "text_es": "Empiezas en Odio. Completa las misiones iniciales y mata furbolgs de otras tribus en Frondavil y Cuna del Invierno: dan reputación hasta Reverenciado (hasta Exaltado los jefes con nombre). Plumas para Grazle, Plumas para Nafien y Cuentas para Salfa piden 5 objetos y dan 50 p.; si buscas Exaltado, guarda las plumas y cuentas hasta Reverenciado. Lo más rápido, y caro, es comprar Faltriquera de los Faucenegra en la casa de subastas para la misión repetible de Ekkal, en Azshara: 5 por 100 p.",
+      "text_en": "You start at Hated. Complete the introductory quests and kill furbolgs from other tribes in Felwood and Winterspring: they give reputation up to Revered (up to Exalted for named bosses). Feathers for Grazle, Feathers for Nafien and Beads for Salfa take 5 items and give 50 reputation; if aiming for Exalted, hold the feathers and beads until Revered. The fastest, and expensive, way is buying Blackmaw Pouches on the Auction House for the repeatable quest from Ekkal in Azshara: 5 for 100 reputation.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Farming Timbermaw Hold Reputation in Forever",
           "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
-          "date": "2026-11-16"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Reputation Gains from Quests in Felwood and Winterspring",
           "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
-          "date": "2026-11-16"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Best Way to Farm Timbermaw Hold Reputation",
           "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
-          "date": "2026-11-16"
+          "date": "2026-11-18"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "reputation:timbermaw-hold-quests-quartermaster-rewards"
       ],
       "source_hashes": [
         "section:00fc1d6efec72a9a3f142b0c7e3128f878792a9f",
-        "section:74bcfb4144646f3423669e0bff2a68fa14aefbf5",
-        "section:7c0d93590a78b640831f4fd9af28960d10c63d22"
+        "section:2f9216fb5afa8e705b4baf56f7e479772a584fc8",
+        "section:a501e0215ebc1d3f2576e246f108582cdb8ba62a"
+      ]
+    },
+    {
+      "id": "comercio-reputacion-fauces-madera-azshara",
+      "chapter": 8,
+      "status": "editorial",
+      "title_es": "Reputación Fauces de Madera en Azshara y Bastión Faucenegra",
+      "title_en": "Timbermaw Hold reputation in Azshara and Blackmaw Hold",
+      "summary_es": "Misiones de Azshara y jefes del Bastión Faucenegra que dan reputación con los Fauces de Madera.",
+      "summary_en": "Azshara quests and Blackmaw Hold bosses that give Timbermaw Hold reputation.",
+      "keywords_es": [
+        "reputación Fauces de Madera en Azshara",
+        "Bastión Faucenegra reputación",
+        "misiones de Ekkal",
+        "subir Fauces de Madera con la mazmorra",
+        "cuernos Legashi"
+      ],
+      "keywords_en": [
+        "Timbermaw Hold reputation Azshara",
+        "Blackmaw Hold reputation",
+        "Ekkal quests",
+        "Legashi horns",
+        "farm Timbermaw Hold in dungeon"
+      ],
+      "text_es": "En Forever, Azshara y la mazmorra Bastión Faucenegra dan reputación con los Fauces de Madera. Las misiones de Ekkal en Azshara dan entre 10 y 150 p. cada una; salvo La amenaza Legashi y Cuernos Legashi (repetible, 100 p. por cada 5 cuernos), exigen Neutral. En la mazmorra, cada furbolg Faucenegra da 5 p. y cada jefe 100 (hay siete seguros), y sus misiones dan 100-150 p. Sirven de Odio a Exaltado.",
+      "text_en": "In Forever, Azshara and the Blackmaw Hold dungeon give Timbermaw Hold reputation. The quests from Ekkal in Azshara give 10 to 150 reputation each; apart from The Legashi Threat and Legashi Horns (repeatable, 100 reputation per 5 horns), they require Neutral. In the dungeon, each Blackmaw furbolg gives 5 and each boss 100 (seven are guaranteed), and its quests give 100-150. This works from Hated up to Exalted.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Reputation Gains from Quests in Azshara and Blackmaw Hold",
+          "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+          "date": "2026-11-18"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Reputation Gains from Mobs in Blackmaw Hold",
+          "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
+          "date": "2026-11-18"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "reputation:timbermaw-hold-quests-quartermaster-rewards"
+      ],
+      "source_hashes": [
+        "section:0156230cff49a573677383dffb3c4fe827b6e1dd",
+        "section:6afb33a9eb3b99fea912c13907362aeb649311e5"
       ]
     },
     {
@@ -1029,22 +1076,22 @@
         "Furbolg Medicine Totem",
         "Pattern: Warbear Harness"
       ],
-      "text_es": "El vendedor de recetas ofrece, desde Amistoso, Receta: transmutar tierra a agua y Patrón: arnés de oso de guerra; en Honorable vende Fórmula: encantar arma: agilidad, y en Reverenciado, Patrón: manto de los Fauces de Madera. Otro vendedor, disponible desde Honorable, tiene la Faltriquera de medicinas fúrbolg y el Tótem medicinal fúrbolg.",
-      "text_en": "The recipe vendor offers Recipe: Transmute Earth to Water and Pattern: Warbear Harness starting at Friendly; at Honored, it sells Formula: Enchant Weapon - Agility, and at Revered, Pattern: Mantle of the Timbermaw. A second vendor has the Furbolg Medicine Pouch and Furbolg Medicine Totem starting at Honored.",
+      "text_es": "Meilosh, el vendedor de recetas de la cueva, ofrece desde Amistoso Receta: transmutar tierra a agua, Fórmula: encantar arma de 2M: agilidad y dos patrones de oso de guerra; en Honorable, Fórmula: encantar arma: agilidad y tres patrones más; en Reverenciado, patrones de manto, camorristas y botas pesadas, además de Diseño: tallatormentas y Diseño: bagh nakh. Monóculo de Gorn, desde Honorable, vende la Faltriquera de medicinas fúrbolg y el Tótem medicinal fúrbolg.",
+      "text_en": "Meilosh, the recipe vendor in the cave, offers, starting at Friendly, Recipe: Transmute Earth to Water, Formula: Enchant 2H Weapon - Agility and two Warbear patterns; at Honored, Formula: Enchant Weapon - Agility and three more patterns; at Revered, patterns for the Mantle, Brawlers and Heavy Boots, plus Plans: Stormcarver and Plans: Bagh Nakh. Gorn One Eye, from Honored, sells the Furbolg Medicine Pouch and Furbolg Medicine Totem.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Timbermaw Hold Vendors in Forever",
           "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
-          "date": "2026-11-16"
+          "date": "2026-11-18"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "reputation:timbermaw-hold-quests-quartermaster-rewards"
       ],
       "source_hashes": [
-        "section:7e041553ab97438c0c4b7bc189f3491e24ca1c49"
+        "section:7a5f5a7244cb64e67355e26519f1e252392c9ce0"
       ]
     },
     {

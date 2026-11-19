@@ -13267,8 +13267,8 @@
       "status": "editorial",
       "title_es": "Fechas y tamaños de las bandas",
       "title_en": "Barrow Deeps, Hyjal Summit, and Onyxia's Lair",
-      "summary_es": "El 9 de diciembre llegan tres bandas de nivel 60: dos nuevas para 10 y 20 jugadores y otra para 40.",
-      "summary_en": "Barrow Deeps (10), Hyjal Summit (20), and Onyxia's Lair (40) open Dec. 9 at level 60.",
+      "summary_es": "Tres bandas de nivel 60 se abren el 9 de diciembre de 2026: 10, 20 y 40 jugadores.",
+      "summary_en": "Three level-60 raids open on December 9, 2026, for 10, 20 and 40 players.",
       "keywords_es": [
         "bandas de forever",
         "cuándo salen las bandas",
@@ -13283,8 +13283,8 @@
         "raid release date",
         "raid sizes"
       ],
-      "text_es": "El 9 de diciembre de 2026 se abren tres bandas para nivel 60: dos nuevas, de 10 y 20 jugadores, y el regreso de la de Onyxia para 40.",
-      "text_en": "On December 9, 2026, three level-60 raids open: Barrow Deeps for 10 players, Hyjal Summit for 20, and Onyxia's Lair returns for 40.",
+      "text_es": "El 9 de diciembre de 2026 se abren tres bandas de nivel 60: una nueva de 10 jugadores con ocho jefes, otra nueva de 20 con trece jefes y el regreso de la guarida de Onyxia, para 40. No se ha confirmado si Onyxia se rehará. Ninguna de las dos nuevas exige sintonización. Más adelante llegará otra banda ya confirmada, sin fecha.",
+      "text_en": "On December 9, 2026, three level-60 raids open: a new 10-player raid with eight bosses, a new 20-player raid with thirteen bosses, and Onyxia's Lair returning for 40. A rework of Onyxia's Lair is unconfirmed. Neither new raid requires attunement. Another confirmed raid, the Scarlet Enclave, will come later with no date.",
       "sources": [
         {
           "type": "editorial",
@@ -13294,33 +13294,40 @@
         },
         {
           "type": "editorial",
+          "ref": "Wowhead: Forever Raids Overview - Locations, Bosses and Guides › (intro)",
+          "url": "https://www.wowhead.com/forever/guide/raids-overview-hub-dates-locations",
+          "date": "2026-11-19"
+        },
+        {
+          "type": "editorial",
           "ref": "Wowhead: Forever Raids Overview - Locations, Bosses and Guides › Hyjal Summit Raid in Forever",
           "url": "https://www.wowhead.com/forever/guide/raids-overview-hub-dates-locations",
-          "date": "2026-09-13"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Forever Raids Overview - Locations, Bosses and Guides › Barrow Deeps Raid in Forever",
           "url": "https://www.wowhead.com/forever/guide/raids-overview-hub-dates-locations",
-          "date": "2026-09-13"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Forever Raids Overview - Locations, Bosses and Guides › Onyxia's Lair Raid in Forever",
           "url": "https://www.wowhead.com/forever/guide/raids-overview-hub-dates-locations",
-          "date": "2026-09-13"
+          "date": "2026-11-19"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "raid:overview-features-zones-raids",
         "raid:raids-overview-hub-dates-locations"
       ],
       "source_hashes": [
-        "section:1d39bd59197bee0430d635737fee8f40692276c0",
-        "section:244d10e8e960c81b68fd746a6f61370a2e1a99ef",
-        "section:5f17cbfd71a6c92496cc27265b1a6e9554d99e08",
-        "section:790a225d421d8119d7766d2a69d59615ef0a3822"
+        "guide:45ad9d3a5bf2e49b979cac9a36c50e5702967f49",
+        "section:081d1f42ac97fbe301950c69d8f8b6c8141e4229",
+        "section:6f1ce09ddf00c339c41e46331463d7ebf2ba1ae9",
+        "section:790a225d421d8119d7766d2a69d59615ef0a3822",
+        "section:883fb1c8db9c994132c9bfdce4cb7daf2cd65d70"
       ]
     },
     {
@@ -13329,8 +13336,8 @@
       "status": "editorial",
       "title_es": "Ubicación y accesos de las bandas",
       "title_en": "Barrow Deeps, Hyjal Summit, and Onyxia Locations",
-      "summary_es": "La banda de 10 tiene tres accesos; una entrada y la banda de 20 están en la nueva zona de nivel 60.",
-      "summary_en": "The 10-player raid has three entrances; one and the 20-player raid are in the new level-60 zone.",
+      "summary_es": "Accesos de las tres bandas: la de 10 tiene tres entradas, la de 20 está en la cima de Hyjal.",
+      "summary_en": "Entrances to the three raids: the 10-player has three, the 20-player is at the top of Hyjal.",
       "keywords_es": [
         "dónde están las bandas",
         "accesos a bandas",
@@ -13345,36 +13352,36 @@
         "raid zone",
         "Onyxia location"
       ],
-      "text_es": "La banda de 10 jugadores tendrá tres accesos repartidos por el mundo, uno en la nueva zona de nivel 60. La de 20 también está en esa zona; sus entradas aún figuran como pendientes. La banda de 40 se encuentra en una cueva al sur de una zona pantanosa, pero su entrada puede haber cambiado y no está confirmada.",
-      "text_en": "The 10-player Barrow Deeps raid will have three entrances across the world, one in the new level-60 zone of Mount Hyjal. The 20-player Hyjal Summit is also there, but its entrance is unknown. The 40-player Onyxia's Lair is in a cave south of a marshland zone; its entrance may have moved and is unconfirmed.",
+      "text_es": "La banda de 10 jugadores tiene tres accesos: Monte Hyjal, Cuna del Invierno y la mazmorra Bastión Faucenegra. La de 20 está en la cima de Monte Hyjal, junto a Nordrassil. La de 40, la guarida de Onyxia, es una cueva al sur del Marjal Revolcafango y exige sintonización; las otras dos no. Las tres son para nivel 60.",
+      "text_en": "The 10-player raid has three entrances: Mount Hyjal, Winterspring and the Blackmaw Hold dungeon. The 20-player raid is at the summit of Mount Hyjal, near Nordrassil. The 40-player Onyxia's Lair is a cave in the south of Dustwallow Marsh and requires attunement; the other two do not. All three are level 60.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Forever Raids Overview - Locations, Bosses and Guides › Barrow Deeps Raid in Forever",
           "url": "https://www.wowhead.com/forever/guide/raids-overview-hub-dates-locations",
-          "date": "2026-09-13"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Forever Raids Overview - Locations, Bosses and Guides › Hyjal Summit Raid in Forever",
           "url": "https://www.wowhead.com/forever/guide/raids-overview-hub-dates-locations",
-          "date": "2026-09-13"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Forever Raids Overview - Locations, Bosses and Guides › Onyxia's Lair Raid in Forever",
           "url": "https://www.wowhead.com/forever/guide/raids-overview-hub-dates-locations",
-          "date": "2026-09-13"
+          "date": "2026-11-19"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "raid:raids-overview-hub-dates-locations"
       ],
       "source_hashes": [
-        "section:1d39bd59197bee0430d635737fee8f40692276c0",
-        "section:244d10e8e960c81b68fd746a6f61370a2e1a99ef",
-        "section:5f17cbfd71a6c92496cc27265b1a6e9554d99e08"
+        "section:081d1f42ac97fbe301950c69d8f8b6c8141e4229",
+        "section:6f1ce09ddf00c339c41e46331463d7ebf2ba1ae9",
+        "section:883fb1c8db9c994132c9bfdce4cb7daf2cd65d70"
       ]
     },
     {
@@ -13552,8 +13559,8 @@
         "raid:onyxias-lair-attunement-guide"
       ],
       "source_hashes": [
+        "section:5b4387def462af2f77c8c229fb231ae5c954e029",
         "section:62f1c0a7d8e70a49fde0dce03a792660ba917369",
-        "section:91b8e766b2445a69f7f0f3c48023ade3e363c929",
         "section:94b6af9deb7762099ac3aa646e601bc6531ef6dc",
         "section:9d6d55701b13a15afcca8d46b7a7c246595edb7c",
         "section:e7d19763d7ab7928759c4ec13c4f7adc854725bf"
@@ -13811,22 +13818,22 @@
         "SD and HD models",
         "tier 1 set models"
       ],
-      "text_es": "En la temporada 1 se añaden conjuntos de equipo para las clases. En Forever puedes elegir entre modelos SD y HD, pero las imágenes de estos conjuntos muestran solo la versión HD.",
-      "text_en": "Season 1 adds class gear sets. In Forever, you can choose SD or HD models, but the images for these sets show only the HD version.",
+      "text_es": "En la temporada 1 se añaden conjuntos de equipo para las clases. En Forever puedes elegir entre modelos SD y HD, pero las imágenes de estos conjuntos muestran solo la versión HD. Como las bandas aún no han salido, los datos proceden de información extraída del juego y pueden incluir marcadores que cambiarán.",
+      "text_en": "Season 1 adds class gear sets. In Forever, you can choose SD or HD models, but the images for these sets show only the HD version. Because the raids have not been released yet, the data comes from datamined information and may include placeholders that will change.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Forever Tier Set Overview for Season 1 - Appearances and Bonuses › (intro)",
           "url": "https://www.wowhead.com/forever/guide/season-1-tier-set-bonus-appearance-overview",
-          "date": "2026-11-04"
+          "date": "2026-11-18"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "general:season-1-tier-set-bonus-appearance-overview"
       ],
       "source_hashes": [
-        "guide:8bd1d7566bf9fbfe7f632d63522b44cad92ee64b"
+        "guide:bb55e5db8497d0bb82a6c0c104aad289c4658fa6"
       ]
     },
     {

@@ -408,7 +408,7 @@
         "profession:_all:overview"
       ],
       "source_hashes": [
-        "guide:7cb11bdba56f7bb7daf2197df2b10339db712d5f",
+        "guide:47c0523f81dc93287226de972469f7c719609f2b",
         "section:01f642ac6c1c2b54dc7112494b3332244cb3baf2"
       ]
     },
@@ -2451,29 +2451,29 @@
         "Polearms level 20",
         "train weapon skill"
       ],
-      "text_es": "La habilidad máxima con cada tipo de arma equivale a cinco veces el nivel del personaje, hasta 300 al nivel 60. Aprender una habilidad cuesta 10 monedas de plata; Armas de asta requiere nivel 20 y cuesta 1 moneda de oro.",
-      "text_en": "The weapon-skill cap for each type is five times character level, with a maximum of 300 at character level 60. Training a skill costs 10 silver; Polearms require level 20 and cost 1 gold.",
+      "text_es": "La habilidad máxima con cada tipo de arma equivale a cinco veces el nivel del personaje, hasta 300 al nivel 60. Se puede aprender desde el nivel 10, por 10 monedas de plata; Armas de asta requiere nivel 20 y cuesta 1 moneda de oro.",
+      "text_en": "The weapon-skill cap for each type is five times character level, with a maximum of 300 at character level 60. Skills can be trained from level 10, for 10 silver; Polearms require level 20 and cost 1 gold.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Weapon Trainer & Skill Guide:  Trainer Locations and Cost - WoW: Forever › Overview of Weapon Skill in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/weapon-trainer-skill-locations",
-          "date": "2026-11-10"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Weapon Trainer & Skill Guide:  Trainer Locations and Cost - WoW: Forever › Weapon Skill Training Cost",
           "url": "https://www.wowhead.com/forever/guide/classes/weapon-trainer-skill-locations",
-          "date": "2026-11-10"
+          "date": "2026-11-19"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "general:weapon-trainer-skill-locations"
       ],
       "source_hashes": [
         "section:2968169caa0ea313930d2b6403b151d46b97cf55",
-        "section:29a5ded0865f227f834be4e25d99aa82b0ee1ddb"
+        "section:6c41f77a12bb5c008f60829ac578aa8f9bc379e1"
       ]
     },
     {
