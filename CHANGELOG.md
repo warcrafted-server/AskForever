@@ -4,6 +4,12 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+### English
+- Added: Hunter pets (rare pets, trainer abilities and training points, extra abilities of each family) and Shaman Stormcaller build (31/20/0, rotation, how it differs from Elemental).
+
+### Español
+- Añadido: mascotas del Cazador (mascotas raras, habilidades del instructor y puntos de entrenamiento, habilidades extra de cada familia) y build Stormcaller del Chamán (31/20/0, rotación y en qué se diferencia de la Elemental).
+
 ## [0.4.0-beta.3] - 2026-11-18
 
 ### English

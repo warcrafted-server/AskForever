@@ -2741,6 +2741,142 @@
       "source_hashes": [
         "section:bc95149e5fb3e0b01a9a39c3cc13749860438f87"
       ]
+    },
+    {
+      "id": "clase-hunter-mascotas-raras",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Mascotas raras con aspecto único",
+      "title_en": "Rare pets with unique looks",
+      "summary_es": "Bestias raras domables cuyo modelo o color no tiene ninguna mascota común.",
+      "summary_en": "Rare tameable beasts whose model or colour no common pet has.",
+      "keywords_es": [
+        "mascotas raras cazador",
+        "mascota con aspecto único",
+        "domar bestia rara",
+        "mascota diferente cazador",
+        "Colmiespectro"
+      ],
+      "keywords_en": [
+        "rare hunter pets",
+        "unique looking pet",
+        "tame rare beast",
+        "different hunter pet",
+        "Ghostfang"
+      ],
+      "text_es": "Si buscas una mascota que se distinga, hay bestias raras domables con modelo o color que no tiene ninguna mascota común: Vulgara el Insaciable, Colmiespectro, Noctigrito, Sarpullefrío, Zancador Madrezarpa y Humar el Señor Orgulloso. Elegirlas es cuestión de aspecto, no de daño. Antes de domarla, comprueba que su familia tenga Zarpa, porque sin ella pierde mucho daño.",
+      "text_en": "If you want a pet that stands out, some rare tameable beasts have a model or colour no common pet has: Vulgara the Insatiable, Ghostfang, Nightscreech, Coldrasp, Strider Clutchmother and Humar the Pridelord. Picking one is about looks, not damage. Before taming, check that its family has Claw, because without it the pet loses a lot of damage.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › Notable Rare Hunter Pets and Where to Find Them",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
+          "date": "2026-11-17"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › Best Hunter Pets in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:hunter:general:best-pets-and-pet-management-guide"
+      ],
+      "source_hashes": [
+        "section:5a73ba1c5e5cb718a9526cb1748852f053e83795",
+        "section:7cfdadc52cd2486647f06636ed2cf6e9a9d1a95f"
+      ]
+    },
+    {
+      "id": "clase-hunter-mascota-entrenador",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades que enseña el instructor de mascotas",
+      "title_en": "Abilities the pet trainer teaches",
+      "summary_es": "Habilidades pasivas que se compran con puntos de entrenamiento y tope de 300 puntos.",
+      "summary_en": "Passive abilities bought with training points, and the 300-point cap.",
+      "keywords_es": [
+        "instructor de mascotas",
+        "puntos de entrenamiento mascota",
+        "armadura natural mascota",
+        "resistencias de la mascota",
+        "gran aguante mascota"
+      ],
+      "keywords_en": [
+        "pet trainer abilities",
+        "pet training points",
+        "natural armor pet",
+        "pet resistances",
+        "great stamina pet"
+      ],
+      "text_es": "El instructor de mascotas de las ciudades enseña Bramido (el único gratis), Armadura natural, Gran aguante y Resistencia al Fuego, Resistencia Arcana, Resistencia a la naturaleza y Resistencia a la Escarcha. Todas menos Bramido cuestan puntos de entrenamiento, y la mascota tiene un máximo de 300 a nivel 60 con lealtad de rango 6, así que no cabe todo. Bramido da mucha amenaza, pero no es una provocación completa. Las resistencias valen contra mucho daño de ese tipo. Se enseñan en Doma de bestias.",
+      "text_en": "The pet trainers in cities teach Growl (the only free one), Natural Armor, Great Stamina and Fire Resistance, Arcane Resistance, Nature Resistance and Frost Resistance. All except Growl cost training points, and the pet has a maximum of 300 at level 60 with rank 6 loyalty, so not everything fits. Growl gives a large amount of threat but is not a full taunt. Resistances help against a lot of that damage type. They are taught in Beast Training.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › How your Hunter Pet Learns New Abilities in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:hunter:general:best-pets-and-pet-management-guide"
+      ],
+      "source_hashes": [
+        "section:10e65179a3f1339beeafa43403b4803392d9c602"
+      ]
+    },
+    {
+      "id": "clase-hunter-mascota-habilidades-familia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades extra de cada familia de mascota",
+      "title_en": "Extra abilities of each pet family",
+      "summary_es": "Movilidad, control y relleno que aporta cada familia además de lo básico.",
+      "summary_en": "Mobility, control and filler each family adds beyond the basics.",
+      "keywords_es": [
+        "habilidades de familia de mascota",
+        "Mordedura mascota",
+        "Diligencia o Lanzada",
+        "Escudo de caparazón tortuga",
+        "Embestir jabalí"
+      ],
+      "keywords_en": [
+        "pet family abilities",
+        "pet Bite",
+        "Dash or Dive",
+        "turtle Shell Shield",
+        "boar Charge"
+      ],
+      "text_es": "Zarpa (relleno barato en enfoque) y Mordedura (daño alto con enfriamiento) son las ofensivas; Pavor baja la amenaza y la tienen todas. Diligencia y Lanzada aceleran a la mascota; Acechar es solo del Felino. Control: Embestir (Jabalí) inmoviliza; Pellizco (Cangrejo) y Desgarre de tendón (Hiena) ralentizan. Flagelo (Oso) y Pisotón de trueno (Gorila) dañan en área, Escudo de caparazón (Tortuga) reduce el daño recibido y Veneno de escórpido se apila hasta 5.",
+      "text_en": "Claw (cheap focus filler) and Bite (high damage with a cooldown) are the offensive abilities; Cower lowers threat and every family has it. Dash and Dive speed the pet up; Prowl is Cat-only. Control: Charge (Boar) immobilizes; Pinch (Crab) and Tendon Rip (Hyena) slow. Swipe (Bear) and Thunderstomp (Gorilla) deal area damage, Shell Shield (Turtle) cuts damage taken and Scorpid Poison stacks to 5.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › How your Hunter Pet Learns New Abilities in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
+          "date": "2026-11-17"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:hunter:general:best-pets-and-pet-management-guide"
+      ],
+      "source_hashes": [
+        "section:10e65179a3f1339beeafa43403b4803392d9c602"
+      ]
     }
   ]
 }

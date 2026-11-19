@@ -4120,6 +4120,149 @@
       "source_hashes": [
         "guide:6360ff7576bcd5403ae15a17987c08cf98dddb33"
       ]
+    },
+    {
+      "id": "clase-shaman-build-stormcaller",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Stormcaller: Elemental con Golpe de tormenta (31/20/0)",
+      "title_en": "Stormcaller: Elemental with Stormstrike (31/20/0)",
+      "summary_es": "Build 31/20/0 que lanza hechizos y remata en melé con Golpe de tormenta.",
+      "summary_en": "31/20/0 build that casts spells and finishes in melee with Stormstrike.",
+      "keywords_es": [
+        "build stormcaller chamán",
+        "chamán híbrido elemental mejora",
+        "golpe de tormenta chamán subir",
+        "31/20/0 chamán",
+        "chamán lanzador en melé"
+      ],
+      "keywords_en": [
+        "stormcaller shaman build",
+        "hybrid elemental enhancement shaman",
+        "stormstrike shaman leveling",
+        "31/20/0 shaman",
+        "caster shaman in melee"
+      ],
+      "text_es": "Stormcaller gasta 31 puntos en Elemental, igual que la build Elemental (Ráfaga de lava a nivel 40), y 20 en Mejora: Golpes de trueno 5/5, Conocimiento ancestral 5/5, Lobo fantasmal mejorado 2/2, Enfoque chamanístico, Armas elementales 2/3, Golpe de tormenta a nivel 56 y Dureza 4/5. Es un lanzador cómodo en melé que sube igual que la Elemental. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Stormcaller spends 31 points in Elemental, same as the Elemental build (Lava Burst at level 40), and 20 in Enhancement: Thundering Strikes 5/5, Ancestral Knowledge 5/5, Improved Ghost Wolf 2/2, Shamanistic Focus, Elemental Weapons 2/3, Stormstrike at level 56 and Toughness 4/5. It is a caster comfortable in melee that levels like Elemental. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stormcaller Shaman Hybrid Guide for WoW: Forever › The build: Stormcaller (31/20/0)",
+          "url": "https://www.wowhead.com/forever/guide/stormcaller-shaman-hybrid-guide-for-wow-forever-35072",
+          "date": "2026-10-20"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stormcaller Shaman Hybrid Guide for WoW: Forever › Enhancement: levels 41–60 (20 points)",
+          "url": "https://www.wowhead.com/forever/guide/stormcaller-shaman-hybrid-guide-for-wow-forever-35072",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:shaman:extra:stormcaller-shaman-hybrid-guide-for-wow-forever"
+      ],
+      "source_hashes": [
+        "section:9dadd101902afc940109f9f21ae7e050b0ac7066",
+        "section:f8c90e0461ffed6ad9221bf0c578c19d3e52df7c"
+      ]
+    },
+    {
+      "id": "clase-shaman-stormcaller-juego",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Cómo se juega Stormcaller",
+      "title_en": "How to play Stormcaller",
+      "summary_es": "Rotación a distancia y en melé con Golpe de tormenta y los choques.",
+      "summary_en": "Ranged and melee rotation with Stormstrike and the shocks.",
+      "keywords_es": [
+        "rotación stormcaller",
+        "golpe de tormenta potencia choque de tierra",
+        "jugar chamán elemental en melé",
+        "cadena de relámpagos pocos enemigos",
+        "Choque de Escarcha huir"
+      ],
+      "keywords_en": [
+        "stormcaller rotation",
+        "stormstrike empowers earth shock",
+        "play elemental shaman in melee",
+        "chain lightning few enemies",
+        "frost shock runner"
+      ],
+      "text_es": "Pon Escudo de relámpagos y Arma lengua de Fuego, y suelta un Tótem abrasador. Abre con Descarga de relámpagos, luego Choque de llamas y Ráfaga de lava mientras dura la quemadura. Cuando el enemigo llegue, Golpe de tormenta y después Choque de tierra o Descarga de relámpagos, que hacen un 20% más. Choque de Escarcha para el que huya y Cadena de relámpagos con dos o tres enemigos encima. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Put up Lightning Shield and Flametongue Weapon, and drop a Searing Totem. Start with Lightning Bolt, then use Flame Shock and Lava Burst while the burn is ticking. When the enemy arrives, Stormstrike it, then Earth Shock or Lightning Bolt, which deal 20% more. Slow anything that runs with Frost Shock, and switch to Chain Lightning once two or three enemies reach you. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stormcaller Shaman Hybrid Guide for WoW: Forever › Playstyle",
+          "url": "https://www.wowhead.com/forever/guide/stormcaller-shaman-hybrid-guide-for-wow-forever-35072",
+          "date": "2026-10-20"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stormcaller Shaman Hybrid Guide for WoW: Forever › Toolkit",
+          "url": "https://www.wowhead.com/forever/guide/stormcaller-shaman-hybrid-guide-for-wow-forever-35072",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:shaman:extra:stormcaller-shaman-hybrid-guide-for-wow-forever"
+      ],
+      "source_hashes": [
+        "section:465a3a9cca0ef5f31fbbed5b05c60d2a23e4421d",
+        "section:f6a50542e3e2189a06ba544ad2c677adfbac11be"
+      ]
+    },
+    {
+      "id": "clase-shaman-stormcaller-vs-elemental",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Stormcaller o Elemental: en qué se diferencian",
+      "title_en": "Stormcaller or Elemental: the difference",
+      "summary_es": "Las dos builds coinciden hasta el nivel 53; cambian Anticipación por Armas elementales y Golpe de tormenta.",
+      "summary_en": "Both builds match until level 53; Anticipation is swapped for Elemental Weapons and Stormstrike.",
+      "keywords_es": [
+        "stormcaller o elemental",
+        "diferencia build elemental stormcaller",
+        "anticipación chamán",
+        "armas elementales chamán",
+        "elegir build 31/20/0"
+      ],
+      "keywords_en": [
+        "stormcaller or elemental",
+        "elemental vs stormcaller build",
+        "anticipation shaman",
+        "elemental weapons shaman",
+        "choose 31/20/0 build"
+      ],
+      "text_es": "Las dos builds 31/20/0 coinciden hasta el nivel 53. Stormcaller sustituye Anticipación por Armas elementales y Golpe de tormenta. La Elemental se queda a distancia y toma esquiva para cuando los enemigos llegan; Stormcaller quiere que lleguen, para rematarlos con Golpe de tormenta y un Choque de tierra o una Descarga de relámpagos potenciados. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Both 31/20/0 builds match until level 53. Stormcaller swaps Anticipation for Elemental Weapons and Stormstrike. Elemental stays at range and takes dodge for when enemies arrive; Stormcaller wants them to arrive, to finish them with Stormstrike and an empowered Earth Shock or Lightning Bolt. Provisional recommendation until tested at level 60.",
+      "tags": [
+        "SHAMAN"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Stormcaller Shaman Hybrid Guide for WoW: Forever › Stormcaller or Elemental?",
+          "url": "https://www.wowhead.com/forever/guide/stormcaller-shaman-hybrid-guide-for-wow-forever-35072",
+          "date": "2026-10-20"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:shaman:extra:stormcaller-shaman-hybrid-guide-for-wow-forever"
+      ],
+      "source_hashes": [
+        "section:e9c449acd6f3073a923a1f9926fff14324b12312"
+      ]
     }
   ]
 }
