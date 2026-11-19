@@ -3259,6 +3259,124 @@
       "source_hashes": [
         "section:7697ee5b79c120ec3e1dd0c923d8411a2b0bc756"
       ]
+    },
+    {
+      "id": "clase-rogue-encantamientos-subir",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Encantamientos del Pícaro al subir",
+      "title_en": "Rogue enchants while leveling",
+      "summary_es": "Qué encantar con el Pícaro (las tres especializaciones) mientras subes.",
+      "summary_en": "What to enchant as a Rogue (all three specs) while leveling.",
+      "keywords_es": [
+        "encantamientos pícaro",
+        "qué encantar pícaro",
+        "encantar botas velocidad menor",
+        "arma recuperación pícaro"
+      ],
+      "keywords_en": [
+        "rogue enchants",
+        "what to enchant rogue",
+        "minor speed boots rogue",
+        "recovery weapon rogue"
+      ],
+      "text_es": "Las tres especializaciones usan la misma lista: Encantar arma: recuperación, Encantar collar: agilidad, Encantar capa: agilidad inferior, Encantar pechera: estadísticas inferiores, Encantar brazal: fuerza superior, Encantar guantes: velocidad menor y Encantar botas: velocidad menor. En las piernas, un Complemento pesado para armadura fuerte o el equivalente a tu nivel. Cabeza y hombros no necesitan nada.",
+      "text_en": "All three specs use the same list: Enchant Weapon - Recovery, Enchant Necklace - Agility, Enchant Cloak - Lesser Agility, Enchant Chest - Lesser Stats, Enchant Bracer - Greater Strength, Enchant Gloves - Minor Haste and Enchant Boots - Minor Speed. On the legs, a Forceful Heavy Armor Kit or the equivalent for your level. Head and shoulders need nothing.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Enchants & Consumables - WoW: Forever › Best Assassination Rogue Enchants for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Enchants and Consumables - WoW: Forever › Best Combat Rogue Enchants for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue Enchants and Consumables - WoW: Forever › Best Subtlety Rogue Enchants for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:rogue:assassination:enchants",
+        "class:rogue:combat:enchants",
+        "class:rogue:subtlety:enchants"
+      ],
+      "source_hashes": [
+        "section:961ca421bd83223b6aaa739b4ebd78b46a68a2f1",
+        "section:f436d0349617149498789bcff537126b20caaf65",
+        "section:f6ba31519b0357c2f5b4b3f32db0ae55939c33a9"
+      ]
+    },
+    {
+      "id": "clase-rogue-consumibles-por-nivel",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consumibles del Pícaro por nivel",
+      "title_en": "Rogue consumables by level",
+      "summary_es": "Elixires, piedras de afilar, comida y veneno recomendados al Pícaro por nivel.",
+      "summary_en": "Elixirs, sharpening stones, food and poison recommended for the Rogue by level.",
+      "keywords_es": [
+        "consumibles pícaro",
+        "elixir de la mangosta",
+        "piedra de afilar pícaro",
+        "té de cardo",
+        "qué comida pícaro",
+        "veneno instantáneo subiendo"
+      ],
+      "keywords_en": [
+        "rogue consumables",
+        "elixir of the mongoose",
+        "rogue sharpening stone",
+        "thistle tea",
+        "rogue food",
+        "instant poison leveling"
+      ],
+      "text_es": "Elixires de agilidad que escalan: nivel 2 menor, 18 inferior, 27 Elixir de agilidad, 38 superior, 46 Elixir de la mangosta y 55 Elixir de ferocidad. Piedras de afilar: burda (5), pesada (15), sólida (25), densa (35) y elemental (50). Comida: Filete de coyote (5), Chuletas de león picantes (15), Costillas de lobo picantes (25), Chuleta de lobo tierno (35), Filete Golpeveloz (45) y Filete de falda (55). Poción de curación a tu nivel, Té de cardo y el mejor Veneno instantáneo en ambas manos.",
+      "text_en": "Agility elixirs by level: 2 Minor, 18 Lesser, 27 Elixir of Agility, 38 Greater, 46 Elixir of the Mongoose and 55 Elixir of Ferocity. Sharpening stones: Coarse (5), Heavy (15), Solid (25), Dense (35) and Elemental (50). Food: Coyote Steak (5), Hot Lion Chops (15), Hot Wolf Ribs (25), Tender Wolf Steak (35), Swiftstrike Steak (45) and Filet o' Flank (55). Healing Potion for your level, Thistle Tea and the best Instant Poison on both hands.",
+      "tags": [
+        "ROGUE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Assassination Enchants & Consumables - WoW: Forever › Best Assassination Rogue Consumables for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Combat Rogue DPS Enchants and Consumables - WoW: Forever › Best Combat Rogue Consumables for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Subtlety Rogue Enchants and Consumables - WoW: Forever › Best Subtlety Rogue Consumables for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/enchants-consumables-pve-dps",
+          "date": "2026-11-04"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:rogue:assassination:enchants",
+        "class:rogue:combat:enchants",
+        "class:rogue:subtlety:enchants"
+      ],
+      "source_hashes": [
+        "section:093b382761e9f258e85af4d65666b345f658135b",
+        "section:6ec4d1ac51cc36b36f31bae69adfb56929d692f1",
+        "section:ff4d1f3527fd317d001668e4335b22abb59e087d"
+      ]
     }
   ]
 }
