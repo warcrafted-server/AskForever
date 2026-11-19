@@ -4989,6 +4989,192 @@
       "source_hashes": [
         "section:287fff66b2254f75c86f36f0ad86e374aa5aec80"
       ]
+    },
+    {
+      "id": "clase-druid-oso-kit",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades de la Forma de oso",
+      "title_en": "Bear Form abilities",
+      "summary_es": "Ataques, control y defensas del oso tanque.",
+      "summary_en": "Attacks, control and defences of the tank bear.",
+      "keywords_es": [
+        "habilidades forma de oso",
+        "qué hace el oso druida",
+        "bramido y clamor",
+        "feral tanque habilidades"
+      ],
+      "keywords_en": [
+        "bear form abilities",
+        "what does bear do",
+        "growl and roar",
+        "feral tank abilities"
+      ],
+      "text_es": "Mordisco primigenio, Lacerar (hasta 5 acumulaciones), Machaque y Flagelo (3 enemigos) dan daño y amenaza. Bramido provoca a un objetivo, Clamor desafiante a todos los cercanos durante 6 s, Clamor desmoralizador baja su poder de ataque 30 s y Azote aturde 4 s. Carga feral (oso) cierra distancia, Regeneración frenética convierte Rabia en vida en 10 s y Enfurecer da Rabia a costa de armadura.",
+      "text_en": "Primal Bite, Lacerate (up to 5 stacks), Maul and Swipe (3 enemies) provide damage and threat. Growl taunts one target, Challenging Roar all nearby enemies for 6 s, Demoralizing Roar lowers their attack power for 30 s and Bash stuns for 4 s. Feral Charge (Bear) closes distance, Frenzied Regeneration turns Rage into health over 10 s and Enrage grants Rage at the cost of armor.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Tank Druid Abilities Guide - Forever › Bear Form Abilities for Feral Tank Druids in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:druid:feral:abilities"
+      ],
+      "source_hashes": [
+        "section:188c6e3c6e70c2bf75f3a312b20d7e0323495170"
+      ]
+    },
+    {
+      "id": "clase-druid-felino-kit",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Habilidades de la Forma felina",
+      "title_en": "Cat Form abilities",
+      "summary_es": "Generadores, remates y utilidades del felino.",
+      "summary_en": "Builders, finishers and utilities of the cat.",
+      "keywords_es": [
+        "habilidades forma felina",
+        "cómo funciona el felino",
+        "destripar arañazo triturar",
+        "zarpa o triturar"
+      ],
+      "keywords_en": [
+        "cat form abilities",
+        "how does cat work",
+        "rip rake shred",
+        "claw or shred"
+      ],
+      "text_es": "Arañazo y Destripar son efectos de daño periódico: no los reaplices hasta que acaben. Triturar solo funciona por la espalda; Zarpa hace lo mismo desde el frente y es el recurso cuando no puedes rodear. Mordedura feroz remata. Poder cambiante convierte maná en 40 de Energía cada 8 s. Furia del tigre sube el daño físico 6 s, Pavor reduce la amenaza, Acechar permite el sigilo y Diligencia acelera.",
+      "text_en": "Rake and Rip are damage-over-time effects: do not reapply them until they expire. Shred only works from behind; Claw does the same from the front and is the fallback when you cannot get behind. Ferocious Bite finishes enemies. Shifting Power converts mana into 40 Energy every 8 s. Tiger's Fury raises Physical damage for 6 s, Cower lowers threat, Prowl allows stealth and Dash speeds you up.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Druid DPS Abilities Guide - Forever › Damage Spells for Feral Druid DPS in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Tank Druid Abilities Guide - Forever › Cat Form Abilities for Feral Tank Druids in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:druid:feral:abilities"
+      ],
+      "source_hashes": [
+        "section:6962d223be50c32f72a2fc8aba8e19bdcb17676f",
+        "section:e7ad29f65539709c4dc93df6a17ac692ab7fccc2"
+      ]
+    },
+    {
+      "id": "clase-druid-tranquilidad-pielcorteza",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Tranquilidad y Pielcorteza",
+      "title_en": "Tranquility and Barkskin",
+      "summary_es": "Cómo usar la cura de grupo y evitar que te interrumpan.",
+      "summary_en": "How to use the group heal without being interrupted.",
+      "keywords_es": [
+        "tranquilidad druida",
+        "pielcorteza qué hace",
+        "canalizar sin interrupciones",
+        "enfriamiento tranquilidad"
+      ],
+      "keywords_en": [
+        "druid tranquility",
+        "what does barkskin do",
+        "channel without interruption",
+        "tranquility cooldown"
+      ],
+      "text_es": "Tranquilidad cura al grupo cada 2 s mientras la canalizas y tiene 5 min de reutilización; Recuperación puede bajarla a 2 min con su talento y sus pulsos ya pueden ser críticos. Pielcorteza reduce el daño recibido un 20 % y evita que los golpes retrasen tus hechizos, así que se usa a la vez que Tranquilidad o Huracán. Es una cura de emergencia, no de rutina.",
+      "text_en": "Tranquility heals the group every 2 s while channeled and has a 5 min cooldown; Restoration can cut it to 2 min with its talent and its ticks can now crit. Barkskin reduces damage taken by 20% and stops hits from delaying your spells, so it is used together with Tranquility or Hurricane. It is an emergency heal, not a routine one.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Abilities Guide - Forever › Healing Spells for Restoration Druids in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Tank Druid Abilities Guide - Forever › Defensive and Resource Abilities",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Restoration Druid Abilities Guide - Forever › Damage Spells for Restoration Druids in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:druid:feral:abilities",
+        "class:druid:restoration:abilities"
+      ],
+      "source_hashes": [
+        "guide:9c637fc73f8b3cafb8b96bba8e8a25e8f1e6c78a",
+        "section:b85b1a6770083614760f43794a4956324872ef7b",
+        "section:bc8cd426850dcd14e70706250ab9d0e4802b44bc"
+      ]
+    },
+    {
+      "id": "clase-druid-resurreccion",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Revivir y Renacer",
+      "title_en": "Revive and Rebirth",
+      "summary_es": "Qué resurrecciones tiene el Druida y cuándo se usan.",
+      "summary_en": "Which resurrections the Druid has and when to use them.",
+      "keywords_es": [
+        "druida resucitar",
+        "renacer en combate",
+        "revivir druida",
+        "resurrección en combate"
+      ],
+      "keywords_en": [
+        "druid resurrect",
+        "rebirth in combat",
+        "druid revive",
+        "combat resurrection"
+      ],
+      "text_es": "Todos los Druidas tienen Revivir, una resurrección básica fuera de combate. Renacer resucita a un aliado durante el combate, así que sirve de emergencia en jefes; en cambio, tiene una reutilización larga y conviene reservarla para cuando de verdad haga falta.",
+      "text_en": "All Druids have Revive, a baseline out-of-combat resurrection. Rebirth resurrects an ally during combat, so it works as an emergency tool on bosses; it has a long cooldown and is best saved for when it truly matters.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Feral Tank Druid Abilities Guide - Forever › Utility Abilities for Feral Tank Druids in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:druid:feral:abilities"
+      ],
+      "source_hashes": [
+        "section:18d7831a74db18e4f9ab9b9e2b120019264f3cb0"
+      ]
     }
   ]
 }

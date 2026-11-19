@@ -2743,6 +2743,152 @@
       "source_hashes": [
         "section:c81518b1c41d8cd44c08f0f22f593758592bbc68"
       ]
+    },
+    {
+      "id": "clase-mage-investigar-pergaminos",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Investigar y Entender pergamino",
+      "title_en": "Research and Comprehend Scroll",
+      "summary_es": "Mejoras únicas del Mago que pueden salir mal.",
+      "summary_en": "Unique Mage buffs that can backfire.",
+      "keywords_es": [
+        "investigar mago",
+        "entender pergamino",
+        "pergaminos del mago",
+        "qué hace investigar"
+      ],
+      "keywords_en": [
+        "mage research",
+        "comprehend scroll",
+        "mage scrolls",
+        "what does research do"
+      ],
+      "text_es": "Investigar y Entender pergamino dan al Mago mejoras únicas, para él y para sus aliados, pero pueden salir mal. Úsalas con cuidado, sobre todo antes de un combate difícil.",
+      "text_en": "Research and Comprehend Scroll give the Mage unique buffs for themselves and allies, but they can backfire. Use them with care, especially before a hard fight.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Frost Mage Abilities Guide - Forever › Utility Abilities for Frost Mages in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/dps-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:mage:frost:abilities"
+      ],
+      "source_hashes": [
+        "section:f6dd8bde6f0bfe29dbd8b65b366a56b97624c75e"
+      ]
+    },
+    {
+      "id": "clase-mage-amplificar-empapar",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Amplificar y Empapar magia en grupo",
+      "title_en": "Amplify and Dampen Magic in groups",
+      "summary_es": "Cuándo conviene cada una según el daño del jefe.",
+      "summary_en": "When each one fits depending on the boss damage.",
+      "keywords_es": [
+        "amplificar magia cuándo",
+        "empapar magia en grupo",
+        "empapar magia sanador",
+        "preparar combate mago"
+      ],
+      "keywords_en": [
+        "when amplify magic",
+        "dampen magic in groups",
+        "dampen magic healer",
+        "mage fight prep"
+      ],
+      "text_es": "Amplificar magia aumenta la curación recibida y sirve en combates con mucho daño físico; Empapar magia reduce el daño mágico recibido y sirve cuando el daño es mágico. En grupo, Empapar magia también reduce la curación del sanador, por lo que no conviene salvo que el daño mágico lo justifique. En misiones en solitario es útil mantenerla activa.",
+      "text_en": "Amplify Magic increases healing received and fits fights with heavy physical damage; Dampen Magic reduces magic damage taken and fits magic-heavy damage. In a group, Dampen Magic also lowers your healer's healing, so use it only when the magic damage justifies it. In solo questing it is worth keeping active.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Frost Mage Abilities Guide - Forever › Utility Abilities for Frost Mages in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/dps-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Abilities Guide - Forever › Defensive Abilities for Arcane Mages in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:mage:arcane:abilities",
+        "class:mage:frost:abilities"
+      ],
+      "source_hashes": [
+        "section:c13c305f5763bbea55397f87bf3bf367dc39d2c5",
+        "section:f6dd8bde6f0bfe29dbd8b65b366a56b97624c75e"
+      ]
+    },
+    {
+      "id": "clase-mage-habilidades-fuego-arcano",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Poder Arcano, Combustión y Piroexplosión",
+      "title_en": "Arcane Power, Combustion and Pyroblast",
+      "summary_es": "Qué hacen las habilidades clave de Arcano y Fuego.",
+      "summary_en": "What the key Arcane and Fire abilities do.",
+      "keywords_es": [
+        "poder arcano qué hace",
+        "combustión mago",
+        "piroexplosión calentamiento",
+        "explosión de fuego mejorada"
+      ],
+      "keywords_en": [
+        "arcane power what does",
+        "mage combustion",
+        "pyroblast heating up",
+        "improved fire blast"
+      ],
+      "text_es": "Poder Arcano (talento) sube el daño y el coste de maná un 30 % durante 15 s. Combustión (talento) añade 10 % de crítico tras cada impacto hasta lograr 4 críticos de Fuego. Calentamiento reduce el tiempo de lanzamiento de Piroexplosión. Explosión de Fuego mejorada da +50 % de crítico tras matar a un enemigo de nivel adecuado, y es instantánea, así que se usa en movimiento.",
+      "text_en": "Arcane Power (talent) raises damage and mana cost by 30% for 15 s. Combustion (talent) adds 10% crit after each hit until you land 4 Fire crits. Heating Up reduces Pyroblast's cast time. Improved Fire Blast gives +50% crit after killing a level-appropriate enemy, and Fire Blast is instant, so it works while moving.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Abilities Guide - Forever › Utility Abilities for Arcane Mages in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage Abilities Guide - Forever › Utility Abilities for Fire Mages in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/dps-abilities",
+          "date": "2026-11-05"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fire Mage Abilities Guide - Forever › Damage Spells for Fire Mages in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/dps-abilities",
+          "date": "2026-11-05"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:mage:arcane:abilities",
+        "class:mage:fire:abilities"
+      ],
+      "source_hashes": [
+        "section:20f78f6f5b5995262856a268dbcd27616112f304",
+        "section:c5274d5ead709fb6f52660ce6136bf698590f167",
+        "section:ff5ca4780e654b8044625d80f582157df01a0456"
+      ]
     }
   ]
 }

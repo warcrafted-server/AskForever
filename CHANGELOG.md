@@ -4,6 +4,12 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+### English
+- Added: ability details for Druid (bear and cat kits, Tranquility and Barkskin, Revive and Rebirth), Hunter (Marksmanship shot timings, Survival melee attacks, stings and utilities) and Mage (Research and Comprehend Scroll, Amplify and Dampen Magic in groups, Arcane Power, Combustion and Pyroblast).
+
+### Español
+- Añadido: detalle de habilidades del Druida (oso y felino, Tranquilidad y Pielcorteza, Revivir y Renacer), del Cazador (tiempos de los disparos de Puntería, ataques cuerpo a cuerpo de Supervivencia, picaduras y utilidades) y del Mago (Investigar y Entender pergamino, Amplificar y Empapar magia en grupo, Poder Arcano, Combustión y Piroexplosión).
+
 ## [0.4.0-beta.4] - 2026-11-19
 
 ### English

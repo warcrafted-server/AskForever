@@ -2877,6 +2877,131 @@
       "source_hashes": [
         "section:10e65179a3f1339beeafa43403b4803392d9c602"
       ]
+    },
+    {
+      "id": "clase-hunter-disparos-punteria",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Disparos de Puntería: tiempos y límites",
+      "title_en": "Marksmanship shots: timings and limits",
+      "summary_es": "Lanzamiento y reutilización de Tiro de puntería y compañía.",
+      "summary_en": "Cast times and cooldowns for Aimed Shot and others.",
+      "keywords_es": [
+        "tiro de puntería cuánto tarda",
+        "disparo de francotirador reutilización",
+        "multidisparo cuántos objetivos",
+        "lluvia cazador"
+      ],
+      "keywords_en": [
+        "aimed shot cast time",
+        "sniper shot cooldown",
+        "multi-shot targets",
+        "volley hunter"
+      ],
+      "text_es": "Tiro de puntería tarda 2 s, tiene 6 s de reutilización y el tiro automático sigue durante el lanzamiento; la comparte con Multidisparo, que ahora golpea a 3 objetivos con el daño del tiro normal y no tiene rangos. Disparo de francotirador (talento) tarda 4 s, tiene 15 s de reutilización y es difícil de usar en JcJ. Lluvia no tiene reutilización. Tiro Arcano escala algo con el poder de ataque a distancia.",
+      "text_en": "Aimed Shot takes 2 s to cast, has a 6 s cooldown and auto shots continue during the cast; it shares that cooldown with Multi-Shot, which now hits 3 targets for normal auto-shot damage and has no ranks. Sniper Shot (talent) takes 4 s, has a 15 s cooldown and is hard to use in PvP. Volley has no cooldown. Arcane Shot scales slightly with Ranged Attack Power.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter Abilities Guide - Forever › Ranged Damage Spells for Marksmanship Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/dps-abilities",
+          "date": "2026-10-08"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:hunter:marksmanship:abilities"
+      ],
+      "source_hashes": [
+        "section:4b308466c508b12bd478d707965155752c173577"
+      ]
+    },
+    {
+      "id": "clase-hunter-melee-supervivencia",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Ataques cuerpo a cuerpo de Supervivencia",
+      "title_en": "Survival melee attacks",
+      "summary_es": "Cuándo se usan Patada de zancudo, Contraataque y Mordedura.",
+      "summary_en": "When Strider Kick, Counterattack and Mongoose Bite are used.",
+      "keywords_es": [
+        "patada de zancudo qué hace",
+        "contraataque cazador",
+        "mordedura de mangosta",
+        "supervivencia melé"
+      ],
+      "keywords_en": [
+        "strider kick what does",
+        "hunter counterattack",
+        "mongoose bite",
+        "survival melee"
+      ],
+      "text_es": "Golpe de raptor es el ataque principal. Patada de zancudo (talento) hace el 100 % del daño del arma, acelera un momento y tiene 8 s de reutilización; no interrumpe. Mordedura de mangosta se usa tras esquivar y los talentos de Supervivencia la hacen más fuerte y la liberan de esa condición. Contraataque exige parar un golpe e inmoviliza al objetivo. Las trampas de inmolación y explosiva mejoran con talentos.",
+      "text_en": "Raptor Strike is the main attack. Strider Kick (talent) deals 100% weapon damage, grants a brief speed boost and has an 8 s cooldown; it is not an interrupt. Mongoose Bite is used after a dodge, and Survival talents make it stronger and remove that condition. Counterattack requires a parry and immobilizes the target. The Immolation and Explosive Traps improve with talents.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter Abilities Guide - Forever › Melee Damage Spells for Survival Hunters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-abilities",
+          "date": "2026-10-08"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:hunter:survival:abilities"
+      ],
+      "source_hashes": [
+        "section:9578505e3437c0c26cc984e52a61582d96a8aa85"
+      ]
+    },
+    {
+      "id": "clase-hunter-picaduras-utilidad",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Picaduras y utilidades del Cazador",
+      "title_en": "Stings and Hunter utilities",
+      "summary_es": "Para qué sirven Picadura de víbora, Bengala, Separación y más.",
+      "summary_en": "What Viper Sting, Flare, Disengage and others are for.",
+      "keywords_es": [
+        "picadura de víbora",
+        "bengala cazador",
+        "separación cazador",
+        "disparo tranquilizante",
+        "ojo de águila"
+      ],
+      "keywords_en": [
+        "viper sting",
+        "hunter flare",
+        "disengage hunter",
+        "tranquilizing shot",
+        "eagle eye"
+      ],
+      "text_es": "Picadura de víbora drena maná a lanzadores; Aguijón de escorpido reduce la probabilidad de acertar del objetivo. Disparo tranquilizante quita un efecto de frenesí, Disparo de distracción genera amenaza y Separación la reduce en melé. Bengala revela enemigos ocultos o invisibles y Marca del cazador mantiene visible al objetivo aunque entre en sigilo (útil contra Pícaros y Druidas felinos). Ojo de águila permite explorar a distancia.",
+      "text_en": "Viper Sting drains mana from casters; Scorpid Sting lowers the target's hit chance. Tranquilizing Shot removes a Frenzy effect, Distracting Shot generates threat and Disengage reduces it in melee. Flare reveals hidden or invisible enemies and Hunter's Mark keeps the target visible even if it stealths (useful against Rogues and cat Druids). Eagle Eye lets you scout at a distance.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter Abilities Guide - Forever › Utility Abilities for Marksmanship Hunters in Forever Classic",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/dps-abilities",
+          "date": "2026-10-08"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "class:hunter:marksmanship:abilities"
+      ],
+      "source_hashes": [
+        "section:9dea30fe6fd002064df9fce6fa3c6bd5aa7308b6"
+      ]
     }
   ]
 }
