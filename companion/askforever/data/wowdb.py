@@ -63,6 +63,32 @@ def _clean_text(value) -> str:
     return re.sub(r'\s+', ' ', text).strip()
 
 
+# Ranuras de ext_wh_bis: cada variante del texto de la guía va a una ranura canónica.
+_BIS_SLOTS = (
+    ('head', 'Cabeza', 'Head', ('head',)),
+    ('neck', 'Cuello', 'Neck', ('neck', 'neck jewelry')),
+    ('shoulders', 'Hombros', 'Shoulders', ('shoulder', 'shoulders')),
+    ('back', 'Espalda', 'Back', ('back',)),
+    ('chest', 'Pecho', 'Chest', ('chest',)),
+    ('wrist', 'Muñecas', 'Wrists', ('wrist',)),
+    ('hands', 'Manos', 'Hands', ('hand', 'hands')),
+    ('waist', 'Cintura', 'Waist', ('waist',)),
+    ('legs', 'Piernas', 'Legs', ('leg', 'legs')),
+    ('feet', 'Pies', 'Feet', ('feet',)),
+    ('rings', 'Anillos', 'Rings', ('ring 1', 'ring 2', 'ring jewelry')),
+    ('trinkets', 'Abalorios', 'Trinkets', ('trinket 1', 'trinket 2', 'trinkets')),
+    ('main_hand', 'Mano derecha', 'Main hand',
+     ('main hand', 'one-handed weapons', 'two-handed weapons')),
+    ('off_hand', 'Mano izquierda', 'Off hand', ('off hand', 'offhands', 'shields')),
+    ('ranged', 'A distancia / reliquia', 'Ranged / relic',
+     ('ranged', 'ranged weapon', 'ranged weapons', 'wands', 'idols', 'librams')),
+)
+_BIS_SLOT_BY_NAME = {name: (index, key, es, en)
+                     for index, (key, es, en, names) in enumerate(_BIS_SLOTS)
+                     for name in names}
+_BIS_DOUBLE_SLOTS = ('rings', 'trinkets')
+_BIS_CONDITIONAL_RE = re.compile(r'(against|in|if|furbolg|naga)')
+
 _TALENT_VAR_RE = re.compile(r'\$(?:/\d+;)?(?:\d+)?[a-zA-Z]\d*')
 _TALENT_NUMBER = r'[-+]?(?:\d+(?:[.,]\d+)?|[.,]\d+)'
 _TALENT_VALUE_RE = re.compile(
@@ -652,6 +678,87 @@ class WowDb:
         except (TypeError, ValueError):
             limit = 6
         return results[:limit]
+
+    def bis_specs(self, class_slug):
+        """Especializaciones con filas de equipo BiS para una clase."""
+        slug = normalize(class_slug)
+        if not slug:
+            return []
+        rows = self._rows(
+            'SELECT DISTINCT lower(trim(espec)) AS espec FROM ext_wh_bis '
+            'WHERE lower(trim(clase)) = ?', (slug,))
+        return sorted(row['espec'] for row in rows if row['espec'])
+
+    def _bis_source_name(self, source_type, source_id, lang: str) -> str:
+        if source_id is None:
+            return ''
+        kind = normalize(source_type)
+        if kind == 'npc':
+            return self._npc_names(source_id, lang)[0]
+        if kind == 'quest':
+            return self._quest_name(source_id, lang)
+        if kind == 'spell':
+            rows = self._rows(
+                'SELECT Name_lang, Name_lang_esES FROM SpellName WHERE ID = ? LIMIT 1',
+                (source_id,))
+            if not rows:
+                return ''
+            name = rows[0]['Name_lang_esES'] if lang == 'es' else rows[0]['Name_lang']
+            name = _clean_text(name or rows[0]['Name_lang'] or rows[0]['Name_lang_esES'])
+            return ('fabricado: ' if lang == 'es' else 'crafted: ') + name if name else ''
+        return ''
+
+    def bis_gear(self, class_slug, spec_slug, lang: str = 'es',
+                 include_alternatives: bool = False):
+        """Mejor equipo por ranura desde ext_wh_bis; [] si no hay datos."""
+        class_slug = normalize(class_slug)
+        spec_slug = normalize(spec_slug)
+        if not class_slug or not spec_slug:
+            return []
+        rows = self._rows(
+            'SELECT ranura, rango, item_id, fuente_tipo, fuente_id FROM ext_wh_bis '
+            'WHERE lower(trim(clase)) = ? AND lower(trim(espec)) = ? ORDER BY rowid',
+            (class_slug, spec_slug))
+        slots = {}
+        for row in rows:
+            slot = _BIS_SLOT_BY_NAME.get(normalize(row['ranura']))
+            if slot is None:
+                continue
+            rank = _clean_text(row['rango'])
+            is_best = normalize(rank).startswith('bis')
+            if not is_best and not include_alternatives:
+                continue
+            conditional = is_best and bool(_BIS_CONDITIONAL_RE.search(normalize(rank)))
+            group = slots.setdefault(slot[1], {'slot': slot, 'best': [], 'alt': []})
+            entry = (conditional, rank, row)
+            (group['best'] if is_best else group['alt']).append(entry)
+        results = []
+        for group in sorted(slots.values(), key=lambda g: g['slot'][0]):
+            index, key, label_es, label_en = group['slot']
+            limit = 2 if key in _BIS_DOUBLE_SLOTS else 1
+            best = sorted(group['best'], key=lambda e: e[0])
+            chosen = []
+            seen = set()
+            for _conditional, rank, row in best[:limit] + group['alt'][:3]:
+                if row['item_id'] in seen:
+                    continue
+                seen.add(row['item_id'])
+                chosen.append((rank, row))
+            for rank, row in chosen:
+                name = self._localized('ext_item_l10n', 'item_id', row['item_id'], lang)
+                if not name:
+                    continue
+                results.append({
+                    'slot': key,
+                    'slot_label': label_es if lang == 'es' else label_en,
+                    'rank': rank,
+                    'item_id': row['item_id'],
+                    'name': name,
+                    'source_type': row['fuente_tipo'],
+                    'source_name': self._bis_source_name(
+                        row['fuente_tipo'], row['fuente_id'], lang),
+                })
+        return results
 
     def object_locations(self, object_id, limit: int = 3, lang: str = 'es'):
         return self._spawn_locations('ext_object_spawns', 'object_id', object_id, limit, lang)

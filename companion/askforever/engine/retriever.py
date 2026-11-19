@@ -34,6 +34,11 @@ ZONE_KEYWORDS = ('subir de nivel', 'levear', 'zonas', 'zona para mi nivel',
                  'where to level', 'level up', 'zones')
 PET_KEYWORDS = ('mascota', 'mascotas', 'domesticar', 'domestico', 'domar',
                 'bestia', 'pet', 'pets', 'tame', 'taming')
+BIS_KEYWORDS = ('bis', 'mejor equipo', 'mejores objetos', 'mejor equipamiento',
+                'equipo ideal', 'que equipo', 'que piezas', 'best in slot',
+                'best gear', 'what gear')
+BIS_ALTERNATIVE_WORDS = ('alternativa', 'alternativas', 'opciones', 'alternative',
+                         'alternatives', 'options')
 TRAVEL_PHRASES = (
     'como voy', 'como llego', 'como ir', 'como puedo ir', 'como puedo llegar',
     'como se va', 'como se llega', 'de aqui a', 'desde aqui', 'ir a ', 'ir de ',
@@ -1766,6 +1771,98 @@ def _detect_pets(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> Non
     _add_source(facts, f'pets:{zone_id}')
 
 
+def _bis_spec_matches(spec: str, tree_slug: str) -> bool:
+    tree_slug = str(tree_slug or '').strip().lower().replace(' ', '-')
+    if not spec or not tree_slug:
+        return False
+    return (spec == tree_slug or tree_slug.startswith(spec + '-')
+            or spec.startswith(tree_slug.split('-')[0]))
+
+
+def _bis_spec_label(spec: str, class_talents, lang: str) -> str:
+    for talent in class_talents:
+        if _bis_spec_matches(spec, talent.get('tree_slug') or ''):
+            label = talent.get('rama_es' if lang == 'es' else 'rama_en')
+            if label:
+                return label
+    return spec.replace('-', ' ').title()
+
+
+def _detect_bis(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
+    if not isinstance(ctx, dict):
+        ctx = {}
+    if not isinstance(normalized, str):
+        return
+    if not any(_phrase_in_text(word, normalized) for word in BIS_KEYWORDS):
+        return
+    mask = _class_mask_in_question(normalized) or class_mask_from_name(ctx.get('class'))
+    lister = getattr(db, 'bis_specs', None)
+    if mask is None or lister is None:
+        return
+    class_slug = _talent_class_slug(mask)
+    class_name = _class_name(mask, lang)
+    specs = _safe(lister, class_slug) or []
+    loader = getattr(db, 'forever_talents', None)
+    talents = (_safe(loader) if loader is not None else None) or []
+    class_talents = [talent for talent in talents if _talent_matches_class(talent, mask)]
+    tree = _tree_in_question(normalized, class_talents, lang)
+    asked = None
+    if tree is not None:
+        asked = next((spec for spec in specs if _bis_spec_matches(spec, tree[0])), None)
+    if tree is not None and asked is None:
+        spec_label = tree[1]
+        with_data = ', '.join(_bis_spec_label(spec, class_talents, lang) for spec in specs)
+        if lang == 'es':
+            message = f'No hay equipo BiS de {class_name} {spec_label} en los datos'
+            message += f'; hay datos de: {with_data}' if with_data else ''
+        else:
+            message = f'No BiS gear data for {class_name} {spec_label}'
+            message += f'; data exists for: {with_data}' if with_data else ''
+        facts.missing.append(message)
+        return
+    if asked is None:
+        if len(specs) == 1:
+            asked = specs[0]
+        else:
+            with_data = ', '.join(
+                _bis_spec_label(spec, class_talents, lang) for spec in specs)
+            if lang == 'es':
+                message = f'Falta indicar la especialización para el equipo BiS de {class_name}'
+                message += f'; hay datos de: {with_data}' if with_data else ''
+            else:
+                message = f'Specialization needed for {class_name} BiS gear'
+                message += f'; data exists for: {with_data}' if with_data else ''
+            if not specs:
+                message = (f'No hay equipo BiS de {class_name} en los datos'
+                           if lang == 'es' else f'No BiS gear data for {class_name}')
+            facts.missing.append(message)
+            return
+    alternatives = any(_phrase_in_text(word, normalized) for word in BIS_ALTERNATIVE_WORDS)
+    items = _safe(db.bis_gear, class_slug, asked, lang, alternatives) or []
+    spec_label = _bis_spec_label(asked, class_talents, lang)
+    if not items:
+        facts.missing.append(
+            f'No hay equipo BiS de {class_name} {spec_label} en los datos' if lang == 'es'
+            else f'No BiS gear data for {class_name} {spec_label}')
+        return
+    parts = []
+    for item in items:
+        text = f"{item.get('slot_label')}: {item.get('name')}"
+        rank = item.get('rank') or ''
+        if alternatives and not normalize(rank).startswith('bis') and rank:
+            text += f' [{rank}]'
+        source = item.get('source_name')
+        if source:
+            text += f' ({source})'
+        parts.append(text)
+    if lang == 'es':
+        prefix = f'Equipo BiS de {class_name} {spec_label} (guía de la fase actual)'
+    else:
+        prefix = f'BiS gear for {class_name} {spec_label} (current phase guide)'
+    facts.lines.append(prefix + ': ' + '; '.join(parts) + '.')
+    _add_source(facts, f'bis:{class_slug}:{asked}')
+
+
 def _talent_int(value, default=0):
     try:
         return int(value)
@@ -2315,6 +2412,7 @@ def retrieve(message, db) -> Facts:
         _detect_trainers(facts, db, normalized, lang, ctx)
         _detect_services(facts, db, matches, normalized, lang, ctx)
         _detect_pets(facts, db, normalized, lang, ctx)
+        _detect_bis(facts, db, normalized, lang, ctx)
         _detect_talents(facts, db, normalized, lang, ctx)
         _detect_talent_details(facts, db, normalized, lang, ctx)
         _detect_quest_list(facts, db, normalized, lang, ctx)

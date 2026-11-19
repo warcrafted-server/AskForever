@@ -4,6 +4,12 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+### English
+- Added: best-in-slot gear answers. Asking for "BiS" or the best gear of a class and specialization lists the best item per slot with where it drops, from the guide data (only for specializations that have data; otherwise it says which ones do).
+
+### Español
+- Añadido: respuestas de equipo BiS. Al preguntar por el BiS o el mejor equipo de una clase y especialización se lista el mejor objeto de cada ranura con su origen, a partir de los datos de las guías (solo para las especializaciones con datos; si no, indica cuáles tienen).
+
 ## [0.4.0-beta.5] - 2026-11-19
 
 ### English
