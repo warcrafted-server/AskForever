@@ -2673,8 +2673,8 @@
         "class:priest:shadow:leveling"
       ],
       "source_hashes": [
+        "section:3ab8a56f1171836925a70eb6deb08ef30499f061",
         "section:542995445c19a7dd1394b04b666d48aaa4c5ca79",
-        "section:7ad212942aa111bb4468f6e46b223a685aa87443",
         "section:e29968562b631fcb0956f81f0b5906c052936625"
       ]
     },
@@ -2723,8 +2723,8 @@
         "class:priest:holy:leveling"
       ],
       "source_hashes": [
-        "section:b94f5c3dd7227a413bc41b95204780037e012e4b",
-        "section:d66edf3b06143c37a7529d0b510b2d3bc33ad60a"
+        "section:4126a142676700d6c0ed24a5a9656f569deca0ed",
+        "section:b94f5c3dd7227a413bc41b95204780037e012e4b"
       ]
     },
     {

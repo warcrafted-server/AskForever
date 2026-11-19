@@ -5004,8 +5004,8 @@
         "dungeon:uldaman"
       ],
       "source_hashes": [
-        "section:1f7392f3085b994089a2367b73c80bcbe1141fc7",
-        "section:bd1932ad9f4cac77f723b21c07f15ecce8286d5e"
+        "section:bd1932ad9f4cac77f723b21c07f15ecce8286d5e",
+        "section:e18ae42acc7cf3ef5dc246657c6751151b06e896"
       ]
     },
     {
@@ -5667,7 +5667,7 @@
         "dungeon:maraudon"
       ],
       "source_hashes": [
-        "section:a8ced7614680613a0a684147e05ca8bee3b3ed25"
+        "section:0365d4b4f9d9154a332c026a96c036a50dcdf066"
       ]
     },
     {
@@ -7910,7 +7910,7 @@
         "dungeon:blackrock-depths"
       ],
       "source_hashes": [
-        "section:c4d242570f3191ccf93e46f96ba50c9dd73e35fe"
+        "section:724ecf67657e2316d307fd665758ce70a92f9ba3"
       ]
     },
     {
@@ -7946,7 +7946,7 @@
         "dungeon:blackrock-depths"
       ],
       "source_hashes": [
-        "section:c4d242570f3191ccf93e46f96ba50c9dd73e35fe"
+        "section:724ecf67657e2316d307fd665758ce70a92f9ba3"
       ]
     },
     {
@@ -7982,7 +7982,7 @@
         "dungeon:blackrock-depths"
       ],
       "source_hashes": [
-        "section:c4d242570f3191ccf93e46f96ba50c9dd73e35fe"
+        "section:724ecf67657e2316d307fd665758ce70a92f9ba3"
       ]
     },
     {
@@ -8018,7 +8018,7 @@
         "dungeon:blackrock-depths"
       ],
       "source_hashes": [
-        "section:c4d242570f3191ccf93e46f96ba50c9dd73e35fe"
+        "section:724ecf67657e2316d307fd665758ce70a92f9ba3"
       ]
     },
     {
@@ -8054,7 +8054,7 @@
         "dungeon:blackrock-depths"
       ],
       "source_hashes": [
-        "section:c4d242570f3191ccf93e46f96ba50c9dd73e35fe"
+        "section:724ecf67657e2316d307fd665758ce70a92f9ba3"
       ]
     },
     {
@@ -8090,7 +8090,7 @@
         "dungeon:blackrock-depths"
       ],
       "source_hashes": [
-        "section:c4d242570f3191ccf93e46f96ba50c9dd73e35fe"
+        "section:724ecf67657e2316d307fd665758ce70a92f9ba3"
       ]
     },
     {
@@ -8126,7 +8126,7 @@
         "dungeon:blackrock-depths"
       ],
       "source_hashes": [
-        "section:c4d242570f3191ccf93e46f96ba50c9dd73e35fe"
+        "section:724ecf67657e2316d307fd665758ce70a92f9ba3"
       ]
     },
     {
@@ -8270,7 +8270,7 @@
         "dungeon:blackrock-depths"
       ],
       "source_hashes": [
-        "section:32ced24cdf082734fe6c7242deca695ee91a40ec"
+        "section:788a7182b7f6a4dfd981a13ad5d5dd06361ccb78"
       ]
     },
     {
@@ -8928,8 +8928,8 @@
         "dungeon:lower-blackrock-spire"
       ],
       "source_hashes": [
-        "guide:d7c9a58af950a2bffad44fbc49802012c49ea5cd",
-        "section:6aed89a5230d03f08a9b6c560c6d1960d05d73f7"
+        "guide:8d26ada1c7db1b095d38af442c8f080d1dfa3166",
+        "section:60255357bb190000743f8abbc3d6a28b7c79d2f4"
       ]
     },
     {
@@ -10073,8 +10073,8 @@
         "dungeon:upper-blackrock-spire"
       ],
       "source_hashes": [
-        "section:00acea2107658a2a27b9c340f480e9819c7812da",
         "section:a88692ec09f34fc81685778edf9edd2ff698ee81",
+        "section:ac490d016e6e5d37f0f1b5d1a6c9fabb163722b5",
         "section:e2738ef0e2b7cd00338ffee768de63a6628277f6"
       ]
     },
@@ -11188,7 +11188,7 @@
         "dungeon:dire-maul-warpwood-quarter-east"
       ],
       "source_hashes": [
-        "section:fa0c5cf8bcb53262d2cfdcb84380324dbd0f2bff"
+        "section:fa82e9ba8beacca89a4fff283bdc908ca9eb6b84"
       ]
     },
     {
@@ -11273,7 +11273,7 @@
       ],
       "source_hashes": [
         "section:6ce33f1ae958588dfda84ab1cbef11d8baa2592f",
-        "section:cf167ec694210d762791ee4b97bcc604ee5757bc"
+        "section:cb7cc642b4d3a0d744d9a121547881c9dd74ccb9"
       ]
     },
     {
@@ -12450,7 +12450,7 @@
         "dungeon:stratholme-live-side"
       ],
       "source_hashes": [
-        "section:3ce0b38e536dd75c7a3baaf01f6bf9a0f7d06e4e"
+        "section:b06ce82d4f10da1ae208cafd94e387ebde238f10"
       ]
     },
     {

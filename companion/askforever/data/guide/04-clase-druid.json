@@ -319,10 +319,10 @@
       "source_hashes": [
         "section:0ac527b04f3eb0f2a45a6c485d8788a196a61bb1",
         "section:106e8b4f1c7186b410345f8c5c7aa72928dd3306",
-        "section:240964d8a0d9968e9057fe3b249f6a69ccba8bb8",
         "section:36e21d4d949262b3b87757defcee873f66e0465a",
         "section:689514092a1abbe3bef699ee6945f4444ceec310",
-        "section:aeb1a3bbb1e36bad5a8144f9c2245cf4ac98ed37"
+        "section:aeb1a3bbb1e36bad5a8144f9c2245cf4ac98ed37",
+        "section:d5782c6b0e17b711364ee9b6dc57abdd1d2484c1"
       ]
     },
     {
@@ -1384,7 +1384,7 @@
         "section:106e8b4f1c7186b410345f8c5c7aa72928dd3306",
         "section:36e21d4d949262b3b87757defcee873f66e0465a",
         "section:3b8dbf3e27815c46ac798e0e0b74fc5a78cca2dc",
-        "section:d19cee37e3111fcf52578f73ad0f442bd703e778",
+        "section:d2513ec5ece2ae8b9b6e8ce25a644949a751c04c",
         "section:e5eccf2dc535398a36a2948127fda5ebea015d4e"
       ]
     },
@@ -4692,7 +4692,7 @@
         "class:druid:feral:leveling"
       ],
       "source_hashes": [
-        "section:d19cee37e3111fcf52578f73ad0f442bd703e778"
+        "section:d2513ec5ece2ae8b9b6e8ce25a644949a751c04c"
       ]
     },
     {
@@ -4737,8 +4737,8 @@
         "class:druid:feral:leveling"
       ],
       "source_hashes": [
-        "section:ac5e2a40cea244a9b425ad866ed383062121d557",
-        "section:d50eb75af9f06d2ff523133f28258e2f4c961a5e"
+        "section:4c7a34763fe9f55b317b9855a6e4fc8663359cb1",
+        "section:ac5e2a40cea244a9b425ad866ed383062121d557"
       ]
     },
     {

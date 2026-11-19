@@ -540,18 +540,16 @@
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How to Tame a Hunter Pet in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         }
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:general:best-pets-and-pet-managment-guide",
         "class:hunter:general:hunter-class-quests"
       ],
       "source_hashes": [
-        "section:c4d907afb474597ea2747a7e9825999fb2346f92",
-        "section:c50a7f4f4aa8a6b2ab1f01089923d0f4487861bd"
+        "section:c4d907afb474597ea2747a7e9825999fb2346f92"
       ]
     },
     {
@@ -591,7 +589,7 @@
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Best Hunter Pets for Leveling in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         },
         {
@@ -611,7 +609,7 @@
       "topics": [
         "class:hunter:beast-mastery:leveling",
         "class:hunter:beast-mastery:overview",
-        "class:hunter:general:best-pets-and-pet-managment-guide"
+        "class:hunter:general:best-pets-and-pet-management-guide"
       ],
       "source_hashes": [
         "section:3fd2c85381c63aa0e591e1c5d659d5d6de616578",
@@ -651,7 +649,7 @@
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Best Hunter Pets for Leveling in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         },
         {
@@ -664,7 +662,7 @@
       "updated": "2026-11-16",
       "topics": [
         "class:hunter:beast-mastery:abilities",
-        "class:hunter:general:best-pets-and-pet-managment-guide"
+        "class:hunter:general:best-pets-and-pet-management-guide"
       ],
       "source_hashes": [
         "section:3fd2c85381c63aa0e591e1c5d659d5d6de616578",
@@ -702,7 +700,7 @@
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Best Hunter Pets for Leveling in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         },
         {
@@ -727,11 +725,9 @@
       "updated": "2026-11-16",
       "topics": [
         "class:hunter:beast-mastery:leveling",
-        "class:hunter:general:best-pets-and-pet-managment-guide",
         "class:hunter:marksmanship:leveling"
       ],
       "source_hashes": [
-        "section:3fd2c85381c63aa0e591e1c5d659d5d6de616578",
         "section:c6da153dc5599024b096fd97b07e326182df761e",
         "section:d7392779a8c1646212e061bc29342fe12982676f",
         "section:faa25c8f5f2ebd83c6ac41133cb15b6afcf7e4da"
@@ -1640,7 +1636,7 @@
         "class:hunter:survival:talents"
       ],
       "source_hashes": [
-        "section:55da78af272c184af60facef93d749a2bd803c7d"
+        "section:da199ff971c8aeed3d43255c4ebfa263db589a4b"
       ]
     },
     {
@@ -1674,19 +1670,19 @@
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Best Hunter Pets for Dungeons in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How your Hunter Pet Learns New Abilities in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         }
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:general:best-pets-and-pet-managment-guide"
+        "class:hunter:general:best-pets-and-pet-management-guide"
       ],
       "source_hashes": [
         "section:10e65179a3f1339beeafa43403b4803392d9c602",
@@ -1724,19 +1720,19 @@
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How your Hunter Pet Learns New Abilities in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › All Hunter Pet Families in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         }
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:general:best-pets-and-pet-managment-guide"
+        "class:hunter:general:best-pets-and-pet-management-guide"
       ],
       "source_hashes": [
         "section:10e65179a3f1339beeafa43403b4803392d9c602",
@@ -1774,19 +1770,19 @@
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Foxes Hunter Pet Family",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Birds of Prey Hunter Pet Family",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         }
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:general:best-pets-and-pet-managment-guide"
+        "class:hunter:general:best-pets-and-pet-management-guide"
       ],
       "source_hashes": [
         "section:39c6d201e5b45aeb95dd30d167aa8a6081bd21cc",
@@ -1824,13 +1820,13 @@
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How to Tame a Hunter Pet in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How your Hunter Pet Learns New Abilities in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         },
         {
@@ -1842,12 +1838,9 @@
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:general:best-pets-and-pet-managment-guide",
         "class:hunter:marksmanship:leveling"
       ],
       "source_hashes": [
-        "section:10e65179a3f1339beeafa43403b4803392d9c602",
-        "section:c50a7f4f4aa8a6b2ab1f01089923d0f4487861bd",
         "section:eac9fcbeff65521bacaf32484e2ce2e473ef3335"
       ]
     },
@@ -1882,19 +1875,19 @@
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How to Feed Your Pet in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › How to Tame a Hunter Pet in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         }
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:general:best-pets-and-pet-managment-guide"
+        "class:hunter:general:best-pets-and-pet-management-guide"
       ],
       "source_hashes": [
         "section:709370c659a2c88493535e2e7599b2407998de46",
@@ -1982,19 +1975,19 @@
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Best Hunter Pets for PvP in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Birds of Prey Hunter Pet Family",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         }
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:general:best-pets-and-pet-managment-guide"
+        "class:hunter:general:best-pets-and-pet-management-guide"
       ],
       "source_hashes": [
         "section:0e5b0799f752e2b53ba7891e7e53526f094525c3",
@@ -2032,13 +2025,13 @@
         {
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Managment for Hunters - WoW: Forever › Hunter Pets with Fastest Attack Speed in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-managment-guide",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
           "date": "2026-11-12"
         }
       ],
       "updated": "2026-11-16",
       "topics": [
-        "class:hunter:general:best-pets-and-pet-managment-guide"
+        "class:hunter:general:best-pets-and-pet-management-guide"
       ],
       "source_hashes": [
         "section:e940a03032cc174a320f93f47490937b55832cc9"
@@ -2448,7 +2441,7 @@
         "class:hunter:beast-mastery:leveling"
       ],
       "source_hashes": [
-        "section:54b9331918bbf0426965a40ed5b1a2c5cbd9da54"
+        "section:0041cb6a1f6559252001117ffddfb532a74864d2"
       ]
     },
     {
@@ -2698,7 +2691,7 @@
         "class:hunter:survival:talents"
       ],
       "source_hashes": [
-        "section:31324fb3aaa7b8b4463c53a9624c7488d59983f8"
+        "section:3a4949b6ad1c81dbdb03c0c677711f375f1537e3"
       ]
     },
     {
@@ -2788,8 +2781,8 @@
         "class:hunter:general:best-pets-and-pet-management-guide"
       ],
       "source_hashes": [
-        "section:5a73ba1c5e5cb718a9526cb1748852f053e83795",
-        "section:7cfdadc52cd2486647f06636ed2cf6e9a9d1a95f"
+        "section:7cfdadc52cd2486647f06636ed2cf6e9a9d1a95f",
+        "section:8a956079f821bf48955e82d3cb43628371c06d73"
       ]
     },
     {
