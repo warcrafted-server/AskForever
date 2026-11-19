@@ -55,7 +55,7 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Changes to Holy Priest in WoW Forever > Strengths and Weaknesses of Holy Priests in Forever",
+          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Strengths and Weaknesses of Holy Priests in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/overview-pve-healer",
           "date": "2026-11-14"
         },
@@ -75,12 +75,12 @@
         "class:priest:shadow:overview"
       ],
       "source_hashes": [
-        "guide:1237faa726eda6dac8ba5493adfd7ed1df3c7307",
         "section:24c425cd620eb7eef6e8079c365fafb2a3de3da7",
         "section:296d2cddc8c19ca6c9ac55c13a6be103faaadb6b",
         "section:3f99cbd7294c823bc796a190ba94668088e14680",
         "section:7aa463342506adf5000be319eaace749f6b794ef",
-        "section:aeeb86ce13ca5bfd0d640535f5dcc1f7097e848e"
+        "section:aeeb86ce13ca5bfd0d640535f5dcc1f7097e848e",
+        "section:dafebaeca9dcb9d3537a430c8073f4d667090174"
       ]
     },
     {
@@ -113,19 +113,19 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Discipline Priest Healer Guide - WoW: Forever › Changes to Discipline Priest in WoW Forever > Strengths and Weaknesses of Discipline Priests in Forever",
+          "ref": "Wowhead: Discipline Priest Healer Guide - WoW: Forever › Strengths and Weaknesses of Discipline Priests in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/overview-pve-healer",
           "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Changes to Holy Priest in WoW Forever > Strengths and Weaknesses of Holy Priests in Forever",
+          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Strengths and Weaknesses of Holy Priests in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/overview-pve-healer",
           "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Shadow Priest DPS Guide - WoW: Forever › Changes to Shadow Priest in WoW Forever > Strengths and Weaknesses of Shadow Priests in Forever",
+          "ref": "Wowhead: Shadow Priest DPS Guide - WoW: Forever › Strengths and Weaknesses of Shadow Priests in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/overview-pve-dps",
           "date": "2026-11-14"
         },
@@ -165,12 +165,12 @@
         "class:priest:shadow:stats"
       ],
       "source_hashes": [
-        "guide:1237faa726eda6dac8ba5493adfd7ed1df3c7307",
-        "guide:c0eb91cf44af61f121b0b431e7209b525013181c",
-        "guide:e57d30324b2e84947222413010eb0ee1aa1964b0",
         "section:1aceaeaab70b05a6b2045fb40e1d706f25197370",
+        "section:1ddd6f44d686c7563d5a6aaa7750175b3feeb7d3",
         "section:92c8f8685f78a11564eb33397f4aee69cb9db258",
         "section:9510f22c8c31311370b28b66b236b9b6c5c30331",
+        "section:daf0fb1eae986fb4ca71cface4e22458dbb52b68",
+        "section:dafebaeca9dcb9d3537a430c8073f4d667090174",
         "section:ddf24c444b5df78ebd60cba674da4d3dc336ccf8"
       ]
     },
@@ -204,25 +204,25 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Discipline Priest Healer Guide - WoW: Forever › Changes to Discipline Priest in WoW Forever > New Abilities and Talents in WoW Forever",
+          "ref": "Wowhead: Discipline Priest Healer Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/overview-pve-healer",
           "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Discipline Priest Healer Guide - WoW: Forever › Changes to Discipline Priest in WoW Forever > Changes to Existing Abilities and Talents in WoW Forever",
+          "ref": "Wowhead: Discipline Priest Healer Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/overview-pve-healer",
           "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Changes to Holy Priest in WoW Forever > New Abilities and Talents in WoW Forever",
+          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/overview-pve-healer",
           "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Changes to Holy Priest in WoW Forever > Changes to Existing Abilities and Talents in WoW Forever",
+          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/overview-pve-healer",
           "date": "2026-11-14"
         },
@@ -234,13 +234,13 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Shadow Priest DPS Guide - WoW: Forever › Changes to Shadow Priest in WoW Forever > New Abilities and Talents in WoW Forever",
+          "ref": "Wowhead: Shadow Priest DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/overview-pve-dps",
           "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Shadow Priest DPS Guide - WoW: Forever › Changes to Shadow Priest in WoW Forever > Changes to Existing Abilities and Talents in WoW Forever",
+          "ref": "Wowhead: Shadow Priest DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/overview-pve-dps",
           "date": "2026-11-14"
         },
@@ -260,11 +260,14 @@
         "class:priest:shadow:overview"
       ],
       "source_hashes": [
-        "guide:1237faa726eda6dac8ba5493adfd7ed1df3c7307",
-        "guide:c0eb91cf44af61f121b0b431e7209b525013181c",
-        "guide:e57d30324b2e84947222413010eb0ee1aa1964b0",
         "section:24c425cd620eb7eef6e8079c365fafb2a3de3da7",
-        "section:b61a87e320d0d9897da8a231c446f75b878cce59"
+        "section:3c0635772a056c230f6dcacc031cce9a2a9c358d",
+        "section:4ab4297076a4f7283a7bdb26ce52fbd58242c7fe",
+        "section:55d75d07623298cf581bcbac94c37554b9c0a87d",
+        "section:759472e8fd55ac080c37e5b56ed7c71dcaa75e8a",
+        "section:b61a87e320d0d9897da8a231c446f75b878cce59",
+        "section:cc4e7a4f9b61cd7d999b8c4ece9bb0b3d2f3d1bb",
+        "section:eb2b60a09f803201595f965fa7043833082763e9"
       ]
     },
     {
@@ -1289,13 +1292,13 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Changes to Holy Priest in WoW Forever > New Abilities and Talents in WoW Forever",
+          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/overview-pve-healer",
           "date": "2026-11-14"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Changes to Holy Priest in WoW Forever > Strengths and Weaknesses of Holy Priests in Forever",
+          "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Strengths and Weaknesses of Holy Priests in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/overview-pve-healer",
           "date": "2026-11-14"
         },
@@ -1318,9 +1321,10 @@
         "class:priest:holy:rotation"
       ],
       "source_hashes": [
-        "guide:1237faa726eda6dac8ba5493adfd7ed1df3c7307",
         "section:24c425cd620eb7eef6e8079c365fafb2a3de3da7",
-        "section:5e2a24f575de2ad01bd08b4bcd074a1e0d6baa1c"
+        "section:3c0635772a056c230f6dcacc031cce9a2a9c358d",
+        "section:5e2a24f575de2ad01bd08b4bcd074a1e0d6baa1c",
+        "section:dafebaeca9dcb9d3537a430c8073f4d667090174"
       ]
     },
     {

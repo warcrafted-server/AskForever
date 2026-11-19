@@ -666,7 +666,7 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Fire Mage Leveling Guide - WoW: Forever › Single-Target Rotation",
+          "ref": "Wowhead: Fire Mage Leveling Guide - WoW: Forever › Leveling Rotation for Fire Mage DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/dps-leveling-tips",
           "date": "2026-11-04"
         },
@@ -701,20 +701,20 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-19",
       "topics": [
         "class:mage:arcane:leveling",
         "class:mage:fire:leveling",
         "class:mage:frost:leveling"
       ],
       "source_hashes": [
-        "guide:807ae6da55624169605dd7888ba311f52b22a087",
         "section:1ce834a8f36871949e1eac51aaa1bdb857add36b",
         "section:4e76f57b836408d76191e70b024f25e06808113e",
         "section:70db27a356ab4ccd9425439c6cac88327a2f4a6c",
         "section:7d201ebb590e078e799bccc2ee3b36fc94270624",
         "section:a7a54f40133178813f6fe1cd4f49e0b1b2eb9406",
         "section:bd01a556cd9ed84d3f95d2eeb3e8e0afccea20a2",
+        "section:c7fb7998359304922e513ebfa01321517c53f328",
         "section:f016d73f244b84f7d7de4e31fe14bdeedd56d4f9"
       ]
     },
@@ -748,13 +748,13 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › AoE Rotation",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Leveling Rotation for Arcane Mage DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
           "date": "2026-11-10"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Fire Mage Leveling Guide - WoW: Forever › AoE Rotation",
+          "ref": "Wowhead: Fire Mage Leveling Guide - WoW: Forever › Leveling Rotation for Fire Mage DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/dps-leveling-tips",
           "date": "2026-11-04"
         },
@@ -783,18 +783,18 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-19",
       "topics": [
         "class:mage:arcane:leveling",
         "class:mage:fire:leveling",
         "class:mage:frost:leveling"
       ],
       "source_hashes": [
-        "guide:807ae6da55624169605dd7888ba311f52b22a087",
-        "guide:ed2b7a74972af043e6f53d44fa801ab930090338",
         "section:47a2473f5281aacbe62a7575492a0732c8350143",
         "section:78d781f138623ee988315235c6647db6a09cd48b",
+        "section:7d201ebb590e078e799bccc2ee3b36fc94270624",
         "section:9f82bf21cf2f43278be17cd00a5448a654534715",
+        "section:c7fb7998359304922e513ebfa01321517c53f328",
         "section:f016d73f244b84f7d7de4e31fe14bdeedd56d4f9"
       ]
     },
@@ -1318,8 +1318,8 @@
         "mage spell piercing",
         "arcane damage intellect"
       ],
-      "text_es": "La prioridad propuesta —especulativa y no probada a nivel 60— es golpe hasta 17%, Poder con hechizos y daño Arcano, golpe crítico, penetración de hechizos, celeridad, intelecto, espíritu y aguante. El golpe es lo primero; el poder de hechizos aumenta el daño y Arcano también escala con intelecto y maná.",
-      "text_en": "The proposed order—speculative and untested at level 60—is hit to 17%, spell and Arcane damage, critical strike, spell piercing, haste, Intellect, Spirit, and Stamina. Hit comes first; spell power raises damage, and Arcane also scales with Intellect and mana.",
+      "text_es": "La prioridad propuesta —especulativa y no probada a nivel 60— es golpe hasta 17%, Poder con hechizos, golpe crítico, penetración de hechizos, celeridad, intelecto, espíritu y aguante. El golpe es lo primero; el poder con hechizos sube el daño de forma directa; Arcano, además, escala con intelecto (Explosión Arcana) y con el maná máximo (Cólera Arcana).",
+      "text_en": "The proposed order—speculative and untested at level 60—is hit to 17%, spell damage (Spell Power), critical strike, spell piercing, haste, Intellect, Spirit, and Stamina. Hit comes first; Spell Power raises damage directly; Arcane also scales with Intellect (Arcane Blast) and maximum mana (Arcane Wrath).",
       "tags": [
         "MAGE"
       ],
@@ -1331,12 +1331,12 @@
           "date": "2026-10-28"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-19",
       "topics": [
         "class:mage:arcane:stats"
       ],
       "source_hashes": [
-        "section:881a2b3f12b408a34af0b79f6231a7f730885169"
+        "section:1357c896547602d519cc4ed0d222c96dedbfdfcb"
       ]
     },
     {
@@ -1554,10 +1554,10 @@
         "class:mage:arcane:talents"
       ],
       "source_hashes": [
+        "section:173bb6c1cfa6d703a85019e1abeca832e2c9dc47",
         "section:3086d61e1603bd77328e37a6ed50953d13522230",
         "section:5f9a0cc83d872d8fbc606574696ce8837d5b45b1",
         "section:6d749148c52f1075ce3201a7308a11704ff831fe",
-        "section:85c298995930002eba1995892df4455e93c6ade0",
         "section:a37d63aac2e8b17dc5e110cde22bf3b8f85bda43"
       ]
     },
@@ -1848,8 +1848,8 @@
         "arcane pve build",
         "mage arcane power"
       ],
-      "text_es": "Arcano: Canalización mejorada 5/5, Sutileza Arcana 2/2, Concentración Arcana 5/5, Tromba de misiles 2/2, Impacto Arcano 3/3, Explosión Arcana 1/1, Meditación Arcana 3/3, Cólera Arcana 1/1, Presencia mental 1/1, Mente Arcana 5/5, Inestabilidad Arcana 3/3 y Poder Arcano 1/1. Fuego: Incineración 5/5, Acelerante 2/5, Ignición 5/5, Piroexplosión 1/1, Explosión de Fuego mejorada 2/2 y Calentamiento 1/1. Escarcha: Precisión 3/3. Fuego aporta Piroexplosión y Chamuscar mejorado; Arcano añade maná, Tromba de misiles y ráfaga.",
-      "text_en": "Arcane: Improved Channeling 5/5, Arcane Subtlety 2/2, Arcane Concentration 5/5, Missile Barrage 2/2, Arcane Impact 3/3, Arcane Blast 1/1, Arcane Meditation 3/3, Arcane Wrath 1/1, Presence of Mind 1/1, Arcane Mind 5/5, Arcane Instability 3/3, and Arcane Power 1/1. Fire: Incineration 5/5, Accelerant 2/5, Ignite 5/5, Pyroblast 1/1, Improved Fire Blast 2/2, and Heating Up 1/1. Frost: Precision 3/3. Fire adds Pyroblast and Improved Scorch; Arcane supplies mana support, Missile Barrage, and burst.",
+      "text_es": "Arcano: Canalización mejorada 5/5, Sutileza Arcana 2/2, Concentración Arcana 5/5, Tromba de misiles 2/2, Impacto Arcano 3/3, Explosión Arcana 1/1, Meditación Arcana 3/3, Cólera Arcana 1/1, Presencia mental 1/1, Mente Arcana 5/5, Inestabilidad Arcana 3/3 y Poder Arcano 1/1. Fuego: Incineración 5/5, Acelerante 2/5, Ignición 5/5, Piroexplosión 1/1, Explosión de Fuego mejorada 2/2 y Calentamiento 1/1. Escarcha: Precisión 3/3. Fuego aporta Piroexplosión y Explosión de Fuego mejorada para acumular Calentamiento; Arcano añade maná, Tromba de misiles y ráfaga.",
+      "text_en": "Arcane: Improved Channeling 5/5, Arcane Subtlety 2/2, Arcane Concentration 5/5, Missile Barrage 2/2, Arcane Impact 3/3, Arcane Blast 1/1, Arcane Meditation 3/3, Arcane Wrath 1/1, Presence of Mind 1/1, Arcane Mind 5/5, Arcane Instability 3/3, and Arcane Power 1/1. Fire: Incineration 5/5, Accelerant 2/5, Ignite 5/5, Pyroblast 1/1, Improved Fire Blast 2/2, and Heating Up 1/1. Frost: Precision 3/3. Fire adds Pyroblast and Improved Fire Blast to build Heating Up; Arcane supplies mana support, Missile Barrage, and burst.",
       "tags": [
         "MAGE"
       ],
@@ -1861,12 +1861,12 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-19",
       "topics": [
         "class:mage:arcane:talents"
       ],
       "source_hashes": [
-        "section:85c298995930002eba1995892df4455e93c6ade0"
+        "section:173bb6c1cfa6d703a85019e1abeca832e2c9dc47"
       ]
     },
     {
@@ -1907,7 +1907,7 @@
         "class:mage:arcane:talents"
       ],
       "source_hashes": [
-        "section:85c298995930002eba1995892df4455e93c6ade0"
+        "section:173bb6c1cfa6d703a85019e1abeca832e2c9dc47"
       ]
     },
     {
@@ -2201,7 +2201,7 @@
         "class:mage:arcane:talents"
       ],
       "source_hashes": [
-        "section:85c298995930002eba1995892df4455e93c6ade0"
+        "section:173bb6c1cfa6d703a85019e1abeca832e2c9dc47"
       ]
     },
     {

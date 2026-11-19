@@ -337,18 +337,6 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Pros",
-          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
-          "date": "2026-11-16"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Cons",
-          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
-          "date": "2026-11-16"
-        },
-        {
-          "type": "editorial",
           "ref": "Wowhead: Protection Paladin Leveling Guide - WoW: Forever › Leveling Viability for Protection Paladin Tank in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/tank-leveling-tips",
           "date": "2026-11-06"
@@ -366,14 +354,13 @@
           "date": "2026-11-06"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-19",
       "topics": [
         "class:paladin:holy:leveling",
         "class:paladin:protection:leveling",
         "class:paladin:retribution:leveling"
       ],
       "source_hashes": [
-        "guide:ee33579bf3a8184093f8c40eae7f29babdd9a15b",
         "section:21fb1a9bd8df40eb8f8b44ff27d615219bb9a5e8",
         "section:51c329549311e5a273c56d8946086f5d06b9c7e3",
         "section:6a1ffdc9139a6c63030b4e76b7440488013de862",
@@ -546,7 +533,7 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Holy Paladin Leveling Guide - WoW: Forever › Healing Priorities",
+          "ref": "Wowhead: Holy Paladin Leveling Guide - WoW: Forever › Leveling Rotation for Holy Paladin DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/healer-leveling-tips",
           "date": "2026-11-06"
         },
@@ -569,14 +556,14 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-19",
       "topics": [
         "class:paladin:holy:leveling",
         "class:paladin:protection:leveling"
       ],
       "source_hashes": [
-        "guide:9b1aa494a3eb42fc58438a3d5f3bf7bc32368304",
         "section:0c917d08d88a04d1629c2dba6d3ba48cf8fbd7e7",
+        "section:1b8b67888c33e93268873d806c5db4c20170fafa",
         "section:6a1ffdc9139a6c63030b4e76b7440488013de862",
         "section:9302163ba05ae3d46ad2581a4659c88fc01ca831"
       ]
@@ -617,8 +604,8 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Which Seal You Should Use",
-          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
+          "ref": "Wowhead: Retribution Paladin DPS Rotation and Cooldowns - WoW: Forever › All Retribution Paladin DPS Rotations in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
           "date": "2026-11-16"
         },
         {
@@ -640,14 +627,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-19",
       "topics": [
         "class:paladin:holy:leveling",
         "class:paladin:protection:leveling",
-        "class:paladin:retribution:leveling"
+        "class:paladin:retribution:leveling",
+        "class:paladin:retribution:rotation"
       ],
       "source_hashes": [
-        "guide:ee33579bf3a8184093f8c40eae7f29babdd9a15b",
+        "section:33c0c2f10d61ed94116930ebec6ba4e7dbd7fd86",
         "section:51c329549311e5a273c56d8946086f5d06b9c7e3",
         "section:6a1ffdc9139a6c63030b4e76b7440488013de862",
         "section:9302163ba05ae3d46ad2581a4659c88fc01ca831",

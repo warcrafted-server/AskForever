@@ -2108,8 +2108,8 @@
         "shaman talent points level 60",
         "shaman build raid pvp"
       ],
-      "text_es": "Elemental: Llamada de la llama 3/3, Concusión 5/5, Devastación elemental 3/3, Enfoque elemental 1/1, Reverberación 3/5, Prueba de fuego 2/2. Mejora: Conocimiento ancestral 3/5, Armas elementales 3/3, Aluvión 5/5, Lobo fantasmal mejorado 2/2, Golpe de tormenta mejorado 2/2, Arma vorágine 5/5, Maña mental 3/3, Presura mental 2/2, Ira del clarividente 1/1, Enfoque chamanístico 1/1, Armas de espíritu 1/1, Golpe de tormenta 1/1, Golpes de trueno 5/5. Toma talentos clave de Mejora y daño de hechizos; puedes cambiar Armas de espíritu si no hay problema de amenaza.",
-      "text_en": "Elemental: Call of Flame 3/3, Concussion 5/5, Elemental Devastation 3/3, Elemental Focus 1/1, Reverberation 3/5, Trial by Fire 2/2. Enhancement: Ancestral Knowledge 3/5, Elemental Weapons 3/3, Flurry 5/5, Improved Ghost Wolf 2/2, Improved Stormstrike 2/2, Maelstrom Weapon 5/5, Mental Dexterity 3/3, Mental Quickness 2/2, Rage of the Farseer 1/1, Shamanistic Focus 1/1, Spirit Weapons 1/1, Stormstrike 1/1, Thundering Strikes 5/5. Takes core Enhancement and spell-damage talents; Spirit Weapons can be swapped if threat is not an issue.",
+      "text_es": "Elemental: Llamada de la llama 3/3, Concusión 5/5, Devastación elemental 3/3, Enfoque elemental 1/1, Reverberación 3/5, Prueba de fuego 2/2. Mejora: Conocimiento ancestral 3/5, Armas elementales 3/3, Aluvión 5/5, Lobo fantasmal mejorado 2/2, Golpe de tormenta mejorado 2/2, Arma vorágine 5/5, Maña mental 3/3, Presura mental 2/2, Ira del clarividente 1/1, Enfoque chamanístico 1/1, Armas de espíritu 1/1, Golpe de tormenta 1/1, Golpes de trueno 5/5. Cambia Armas de espíritu si no hay problema de amenaza, o pasa 2-3 puntos de Arma vorágine a Enfoque de las mareas según equipo y golpe.",
+      "text_en": "Elemental: Call of Flame 3/3, Concussion 5/5, Elemental Devastation 3/3, Elemental Focus 1/1, Reverberation 3/5, Trial by Fire 2/2. Enhancement: Ancestral Knowledge 3/5, Elemental Weapons 3/3, Flurry 5/5, Improved Ghost Wolf 2/2, Improved Stormstrike 2/2, Maelstrom Weapon 5/5, Mental Dexterity 3/3, Mental Quickness 2/2, Rage of the Farseer 1/1, Shamanistic Focus 1/1, Spirit Weapons 1/1, Stormstrike 1/1, Thundering Strikes 5/5. Swap out Spirit Weapons if threat is no issue, or move 2-3 points from Maelstrom Weapon to Tidal Focus depending on gear and hit rating.",
       "tags": [
         "SHAMAN"
       ],
@@ -2121,12 +2121,12 @@
           "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-19",
       "topics": [
         "class:shaman:enhancement:talents"
       ],
       "source_hashes": [
-        "section:76f266da7998b76232d3518715d91b3958d2cf8f"
+        "section:4afe4c356ad235cdb3393536410e95ac655c0923"
       ]
     },
     {
@@ -2147,8 +2147,8 @@
         "shaman talent points level 60",
         "shaman build raid pvp"
       ],
-      "text_es": "Elemental: Llamada de la llama 3/3, Concusión 5/5, Devastación elemental 3/3, Enfoque elemental 1/1, Reverberación 3/5, Prueba de fuego 2/2. Mejora: Conocimiento ancestral 3/5, Armas elementales 3/3, Aluvión 2/5, Lobo fantasmal mejorado 2/2, Golpe de tormenta mejorado 2/2, Arma vorágine 1/5, Maña mental 3/3, Presura mental 2/2, Enfoque chamanístico 1/1, Armas de espíritu 1/1, Golpe de tormenta 1/1, Golpes de trueno 5/5. Recuperación: Conciencia 3/3, Enfoque de las mareas 5/5. Sacrifica Ira del clarividente y Arma vorágine para tomar talentos de maná y reducir pausas.",
-      "text_en": "Elemental: Call of Flame 3/3, Concussion 5/5, Elemental Devastation 3/3, Elemental Focus 1/1, Reverberation 3/5, Trial by Fire 2/2. Enhancement: Ancestral Knowledge 3/5, Elemental Weapons 3/3, Flurry 2/5, Improved Ghost Wolf 2/2, Improved Stormstrike 2/2, Maelstrom Weapon 1/5, Mental Dexterity 3/3, Mental Quickness 2/2, Shamanistic Focus 1/1, Spirit Weapons 1/1, Stormstrike 1/1, Thundering Strikes 5/5. Restoration: Mindfulness 3/3, Tidal Focus 5/5. For dungeons, the allocation omits Rage of the Farseer and Maelstrom Weapon to invest in mana talents and reduce downtime.",
+      "text_es": "Elemental: Llamada de la llama 3/3, Concusión 5/5, Devastación elemental 3/3, Enfoque elemental 1/1, Reverberación 3/5, Prueba de fuego 2/2. Mejora: Conocimiento ancestral 3/5, Armas elementales 3/3, Aluvión 2/5, Lobo fantasmal mejorado 2/2, Golpe de tormenta mejorado 2/2, Arma vorágine 1/5, Maña mental 3/3, Presura mental 2/2, Enfoque chamanístico 1/1, Armas de espíritu 1/1, Golpe de tormenta 1/1, Golpes de trueno 5/5. Recuperación: Conciencia 3/3, Enfoque de las mareas 5/5. Prescinde de Ira del clarividente y deja solo un punto de Arma vorágine para tomar talentos de maná y reducir pausas.",
+      "text_en": "Elemental: Call of Flame 3/3, Concussion 5/5, Elemental Devastation 3/3, Elemental Focus 1/1, Reverberation 3/5, Trial by Fire 2/2. Enhancement: Ancestral Knowledge 3/5, Elemental Weapons 3/3, Flurry 2/5, Improved Ghost Wolf 2/2, Improved Stormstrike 2/2, Maelstrom Weapon 1/5, Mental Dexterity 3/3, Mental Quickness 2/2, Shamanistic Focus 1/1, Spirit Weapons 1/1, Stormstrike 1/1, Thundering Strikes 5/5. Restoration: Mindfulness 3/3, Tidal Focus 5/5. For dungeons, the allocation omits Rage of the Farseer and keeps only one rank of Maelstrom Weapon to invest in mana talents and reduce downtime.",
       "tags": [
         "SHAMAN"
       ],
@@ -2160,12 +2160,12 @@
           "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-19",
       "topics": [
         "class:shaman:enhancement:talents"
       ],
       "source_hashes": [
-        "section:e0d10438a2385356dfe652f4ac3113c55a884504"
+        "section:82af614449cc0b0d8a3babfc602eaaef4d103d5a"
       ]
     },
     {

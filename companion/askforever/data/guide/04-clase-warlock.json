@@ -3817,8 +3817,8 @@
         "necklace spell power warlock",
         "chest intellect warlock"
       ],
-      "text_es": "Encantamientos del Brujo al subir: Arma: Encantar arma: revelación o, a dos manos, el de intelecto inferior (+5). Collar: poder con hechizos (+6). Brazales: poder de sanación menor o inferior (+3 y +6 poder con hechizos). Botas: velocidad menor. En torso, piernas, manos o pies, los Complementos para armadura místicos (nivel 15, 30, 40 y 50, hasta +6 poder con hechizos): para el daño superan a cualquier encantamiento de intelecto del torso. Por tramos: 1-19 medio, 20-39 pesado, 40-60 grueso y basto.",
-      "text_en": "Warlock enchants while leveling: Weapon: Enchant Weapon - Revelation or, two-hand, Lesser Intellect (+5). Neck: Spell Power (+6). Bracers: Minor or Lesser Healing Power (+3 and +6 Spell Power). Boots: Minor Speed. On chest, legs, hands or feet, the Mystic Armor Kits (levels 15, 30, 40 and 50, up to +6 Spell Power): for damage they beat any chest Intellect enchant. By bracket: 1-19 medium, 20-39 heavy, 40-60 thick and rugged.",
+      "text_es": "Encantamientos del Brujo al subir: Arma: Encantar arma: revelación (si un hechizo que no es DoT no crítica, el siguiente tiene +100% de crítico) o, a dos manos, intelecto inferior (+5). Collar: poder con hechizos (+6). Brazales: poder de sanación menor o inferior (+3 y +6). Botas: velocidad menor. Guantes: velocidad menor (+1%), algo mejor que un complemento en Demonología y Destrucción. Complementos para armadura místicos (nivel 15, 30, 40 y 50; hasta +6 poder con hechizos) en torso, piernas, manos o pies: 1-19 medio, 20-39 pesado, 40-60 grueso y basto; superan al intelecto de torso.",
+      "text_en": "Warlock enchants while leveling: Weapon: Enchant Weapon - Revelation (when a non-DoT spell fails to crit, your next spell gets +100% Crit chance) or, two-hand, Lesser Intellect (+5). Neck: Spell Power (+6). Bracers: Minor or Lesser Healing Power (+3 and +6). Boots: Minor Speed. Gloves: Minor Haste (+1%), a bit better than a kit for Demonology and Destruction. Mystic Armor Kits (levels 15, 30, 40 and 50; up to +6 Spell Power) on chest, legs, hands or feet: 1-19 medium, 20-39 heavy, 40-60 thick and rugged; they beat chest Intellect.",
       "tags": [
         "WARLOCK"
       ],
@@ -3827,22 +3827,38 @@
           "type": "editorial",
           "ref": "Wowhead: Best Enchants & Consumables for Affliction Warlocks in WoW: Forever › Best Affliction Warlock Enchants for Leveling in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/enchants-consumables-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Enchants & Consumables for Demonology Warlocks in WoW: Forever › Best Demonology Warlock Enchants for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/enchants-consumables-pve-dps",
+          "date": "2026-11-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Enchants & Consumables for Destruction Warlocks in WoW: Forever › Best Destruction Warlock Enchants for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/enchants-consumables-pve-dps",
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Enchants & Consumables for Affliction Warlocks in WoW: Forever › Quick Picks by Level",
           "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/enchants-consumables-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-19"
         }
       ],
       "updated": "2026-11-19",
       "topics": [
-        "class:warlock:affliction:enchants"
+        "class:warlock:affliction:enchants",
+        "class:warlock:demonology:enchants",
+        "class:warlock:destruction:enchants"
       ],
       "source_hashes": [
-        "section:15f5fc90836eec3fa8b7115c5796ef0b49909ac2",
-        "section:c0c5fc818b5389c219159bbf7d2a2227951b43bb"
+        "section:96ef05f176a97eb9a9ab8c3f1663213d244a7cdd",
+        "section:9c35a8d9f283a0597b9654c1a3596a44bc509160",
+        "section:c71a7d741e9929ecfcc36088a4a1afdbe78f7af4",
+        "section:dd50c9f405cff34594d9401126d40b3085da82fc"
       ]
     },
     {
@@ -3872,8 +3888,8 @@
         "arcanum of focus warlock",
         "what to enchant destruction warlock"
       ],
-      "text_es": "Encantamientos del Brujo a nivel 60: Arma: Encantar arma: poder con hechizos (+30; hace falta Encantamiento 300) o, a dos manos, el de poder con hechizos poderoso (+55). Guantes según tu escuela: Encantar guantes: poder de las Sombras (Aflicción, +20 de daño de las Sombras) o poder de Fuego (Destrucción y a veces Demonología, +20 de daño de Fuego). Cabeza o piernas: Arcano de enfoque (+8 poder con hechizos, objeto de nivel 60; se consigue con el Tratado sobre Enfoque en Dire Maul).",
-      "text_en": "Warlock enchants at level 60: Weapon: Enchant Weapon - Spell Power (+30; needs Enchanting 300) or, two-hand, Mighty Spell Power (+55). Gloves by school: Enchant Gloves - Shadow Power (Affliction, +20 Shadow damage) or Fire Power (Destruction and sometimes Demonology, +20 Fire damage). Head or legs: Arcanum of Focus (+8 Spell Power, level 60 item; from the Libram of Focus in Dire Maul).",
+      "text_es": "Encantamientos del Brujo a nivel 60 (Encantamiento 300): Arma: Encantar arma: poder con hechizos (+30) o, a dos manos, poder con hechizos poderoso (+55). Brazales: poder con hechizos superior (+16). Guantes según tu escuela: Encantar guantes: poder de las Sombras (Aflicción, +20 de daño de las Sombras) o poder de Fuego (Destrucción y a veces Demonología, +20 de daño de Fuego). Cabeza o piernas: Arcano de enfoque (+8 poder con hechizos, objeto de nivel 60; sale del Tratado sobre Enfoque en Dire Maul).",
+      "text_en": "Warlock enchants at level 60 (Enchanting 300): Weapon: Enchant Weapon - Spell Power (+30) or, two-hand, Mighty Spell Power (+55). Bracers: Greater Spellpower (+16 Spell Power). Gloves by school: Enchant Gloves - Shadow Power (Affliction, +20 Shadow damage) or Fire Power (Destruction and sometimes Demonology, +20 Fire damage). Head or legs: Arcanum of Focus (+8 Spell Power, level 60 item; from the Libram of Focus in Dire Maul).",
       "tags": [
         "WARLOCK"
       ],
@@ -3882,19 +3898,19 @@
           "type": "editorial",
           "ref": "Wowhead: Best Enchants & Consumables for Affliction Warlocks in WoW: Forever › Level 60 Upgrades",
           "url": "https://www.wowhead.com/forever/guide/classes/warlock/affliction/enchants-consumables-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Enchants & Consumables for Demonology Warlocks in WoW: Forever › Level 60 Upgrades",
           "url": "https://www.wowhead.com/forever/guide/classes/warlock/demonology/enchants-consumables-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Enchants & Consumables for Destruction Warlocks in WoW: Forever › Level 60 Upgrades",
           "url": "https://www.wowhead.com/forever/guide/classes/warlock/destruction/enchants-consumables-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-19"
         }
       ],
       "updated": "2026-11-19",
@@ -3904,9 +3920,9 @@
         "class:warlock:destruction:enchants"
       ],
       "source_hashes": [
-        "section:1ae56fab9814d95a14afde5f8429477f023907f8",
-        "section:50d2fb3a9d58602c0577e79539794a40079960a2",
-        "section:b612224895acb2e4803edf7c9bb5a68d160d489c"
+        "section:4401aaf1cd230542f03930641f7bc4d906607521",
+        "section:cbdef02d46f05a835f5ab649fb649395138ef795",
+        "section:fad9e501915c86897772608523a3ef316610a7f2"
       ]
     },
     {

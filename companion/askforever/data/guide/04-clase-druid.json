@@ -417,7 +417,7 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Best Abilities to Train for Feral Druid Tanks in WoW: Forever > Mandatory Abilities to Train for Feral Druids",
+          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Feral Druids",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-leveling-tips",
           "date": "2026-11-13"
         },
@@ -429,7 +429,7 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Abilities to Train for Restoration Druid Healer in WoW: Forever > Mandatory Abilities to Train for Restoration Druid",
+          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Restoration Druid",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
           "date": "2026-11-13"
         },
@@ -441,7 +441,7 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Abilities to Train for Balance Druid DPS in WoW: Forever > Mandatory Abilities to Train for Balance Druid",
+          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Balance Druid",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
           "date": "2026-11-04"
         },
@@ -453,7 +453,7 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Feral Cat Druid Leveling Guide for WoW: Forever › The build: Feral Cat (0/36/15) > Feral Combat: levels 10–45 (36 points)",
+          "ref": "Wowhead: Feral Cat Druid Leveling Guide for WoW: Forever › Feral Combat: levels 10–45 (36 points)",
           "url": "https://www.wowhead.com/forever/guide/feral-cat-druid-leveling-guide-for-wow-forever-35077",
           "date": "2026-10-20"
         },
@@ -473,13 +473,13 @@
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
-        "guide:4b15796a06b14544139d2faa3a64c5f2e09cf885",
-        "guide:8aaa12809c8f075df7235bcadb54c5559c85ec30",
-        "guide:c1f9b3c8796c9da85504e92d85f463d8285745e7",
-        "guide:cbf3ca52ae97a782179f117d61df65b4b167c5cc",
         "section:106e8b4f1c7186b410345f8c5c7aa72928dd3306",
         "section:140fcb3add1f5c53c4d97f2d63548c10ac3b35fb",
+        "section:1601823e69bcd33d8c3f5cac1ef4fa4374067d9f",
+        "section:2a81fe731cdee26483106167d9ba0ed61b64fa6b",
+        "section:3564818d26ac3c01ce49fe83e4db3bf6fd54064e",
         "section:36e21d4d949262b3b87757defcee873f66e0465a",
+        "section:38d2cf69d5143692192e3d97916f938c71b14df1",
         "section:44594d89fcbf7877991accd3594ef91382ff8b01",
         "section:7c2ea6f78fb506ac6b4d10a1eba8feb98fd2665e"
       ]
@@ -954,7 +954,7 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Best Abilities to Train for Feral Druid Tanks in WoW: Forever > Optional Abilities to Train",
+          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Optional Abilities to Train",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-leveling-tips",
           "date": "2026-11-13"
         },
@@ -971,10 +971,10 @@
         "class:druid:feral:leveling"
       ],
       "source_hashes": [
-        "guide:4b15796a06b14544139d2faa3a64c5f2e09cf885",
         "section:0c80298514862f7b1fce18e4e45eeac268da6de7",
         "section:4fb483f54ce653e037c6a19516f3f36c4d4e3be6",
-        "section:75e5b9aa49514b3b649becce2948636459d27089"
+        "section:75e5b9aa49514b3b649becce2948636459d27089",
+        "section:a4b6a4ef13d8c1b34dbe70b87e0cc67c19304e68"
       ]
     },
     {
@@ -1539,11 +1539,11 @@
       "source_hashes": [
         "section:10fc63eee8fd390d318bcc9c5153fbccc5335d5b",
         "section:1406e003576d168be80173fb1c7c1539da364a34",
-        "section:3a2ab797576f539e89aa63f40e298e14638967c6",
-        "section:45c6a2fa69612af22ae867055ff62cf968ff2f82",
+        "section:1590205fbf3ac677abf9201b074ff553690750b4",
+        "section:488b7479faac4db85dbdd180f4ce6b795a779385",
         "section:4b4fd928916bf963a74bcb13aebdb13c8dd50215",
-        "section:735d7118179c869b3df197bd9e8e35477cf5c322",
-        "section:d19cee37e3111fcf52578f73ad0f442bd703e778"
+        "section:cb905fd9d86094c50c5532d94ccbcf525be9323e",
+        "section:d2513ec5ece2ae8b9b6e8ce25a644949a751c04c"
       ]
     },
     {
@@ -4199,7 +4199,7 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Best Abilities to Train for Feral Druid DPS in WoW: Forever > Mandatory Abilities to Train for Feral Druid",
+          "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Feral Druid",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-leveling-tips",
           "date": "2026-11-17"
         }
@@ -4209,7 +4209,7 @@
         "class:druid:feral:leveling"
       ],
       "source_hashes": [
-        "guide:cc871315f2b9ec61d98d1256390fa37339b87e21"
+        "section:78c723d3d0ed3264baeac02dd574e0ce23820c87"
       ]
     },
     {
@@ -4238,7 +4238,7 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Best Abilities to Train for Feral Druid DPS in WoW: Forever > Useful Abilities to Skip Training for Feral Druid",
+          "ref": "Wowhead: Feral Druid DPS Leveling Guide - WoW: Forever › Useful Abilities to Skip Training for Feral Druid",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/dps-leveling-tips",
           "date": "2026-11-17"
         }
@@ -4248,7 +4248,7 @@
         "class:druid:feral:leveling"
       ],
       "source_hashes": [
-        "guide:cc871315f2b9ec61d98d1256390fa37339b87e21"
+        "section:ace2b6e6857648a6d7499ba33a005cb4e6d17d07"
       ]
     },
     {
@@ -4277,7 +4277,7 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Best Abilities to Train for Feral Druid Tanks in WoW: Forever > Mandatory Abilities to Train for Feral Druids",
+          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Feral Druids",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-leveling-tips",
           "date": "2026-11-13"
         }
@@ -4287,7 +4287,7 @@
         "class:druid:feral:leveling"
       ],
       "source_hashes": [
-        "guide:4b15796a06b14544139d2faa3a64c5f2e09cf885"
+        "section:3564818d26ac3c01ce49fe83e4db3bf6fd54064e"
       ]
     },
     {
@@ -4316,7 +4316,7 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Best Abilities to Train for Feral Druid Tanks in WoW: Forever > Optional Abilities to Train",
+          "ref": "Wowhead: Feral Druid Tank Leveling Guide - WoW: Forever › Optional Abilities to Train",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-leveling-tips",
           "date": "2026-11-13"
         }
@@ -4326,7 +4326,7 @@
         "class:druid:feral:leveling"
       ],
       "source_hashes": [
-        "guide:4b15796a06b14544139d2faa3a64c5f2e09cf885"
+        "section:a4b6a4ef13d8c1b34dbe70b87e0cc67c19304e68"
       ]
     },
     {
@@ -4355,7 +4355,7 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Abilities to Train for Restoration Druid Healer in WoW: Forever > Mandatory Abilities to Train for Restoration Druid",
+          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Restoration Druid",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
           "date": "2026-11-13"
         }
@@ -4365,7 +4365,7 @@
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
-        "guide:8aaa12809c8f075df7235bcadb54c5559c85ec30"
+        "section:2a81fe731cdee26483106167d9ba0ed61b64fa6b"
       ]
     },
     {
@@ -4394,7 +4394,7 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Abilities to Train for Restoration Druid Healer in WoW: Forever > Optional Abilities to Train for Restoration Druid",
+          "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Optional Abilities to Train for Restoration Druid",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
           "date": "2026-11-13"
         }
@@ -4404,7 +4404,7 @@
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
-        "guide:8aaa12809c8f075df7235bcadb54c5559c85ec30"
+        "section:f5df1177a9880a2869055b91c07ed358f3596924"
       ]
     },
     {
@@ -4823,8 +4823,8 @@
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
-        "section:3a2ab797576f539e89aa63f40e298e14638967c6",
-        "section:735d7118179c869b3df197bd9e8e35477cf5c322"
+        "section:1590205fbf3ac677abf9201b074ff553690750b4",
+        "section:488b7479faac4db85dbdd180f4ce6b795a779385"
       ]
     },
     {
