@@ -4,6 +4,16 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+## [0.4.0-beta.7] - 2026-11-19
+
+### English
+- Added: enchant and consumable guides for Druid (Balance, Feral, Restoration), Hunter, Mage (including mage scrolls), Paladin, Rogue, Shaman, Warlock and Warrior: what to enchant per slot and level, level 60 upgrades, elixirs, potions, weapon buffs, food and what stacks. Priest is left out because its Wowhead pages are written for the level 30 beta.
+- Data patch 2026.11.19.3.
+
+### Español
+- Añadido: guías de encantamientos y consumibles del Druida (Equilibrio, Feral, Restauración), Cazador, Mago (con los pergaminos de mago), Paladín, Pícaro, Chamán, Brujo y Guerrero: qué encantar por hueco y nivel, mejoras de nivel 60, elixires, pociones, mejoras de arma, comida y qué se acumula. El Sacerdote queda fuera porque sus páginas de Wowhead están hechas para la beta de nivel 30.
+- Parche de datos 2026.11.19.3.
+
 ## [0.4.0-beta.6] - 2026-11-19
 
 ### English
