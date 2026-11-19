@@ -23,20 +23,20 @@
         "pvp seasons",
         "pvp changes"
       ],
-      "text_es": "El progreso se mide con Puntos de Rango y hay 14 rangos; cada uno desbloquea recompensas. Se prevé que la clasificación se restablezca periódicamente, con varios meses entre reinicios, aunque los desafíos legacy conservan su progreso entre temporadas. Forever también añade Islas Lanza Negra, un campo de batalla de quince contra quince.",
-      "text_en": "Progress is measured with Rank Points across 14 ranks, each unlocking rewards. Ranking progress is projected to restart periodically, with several months between resets, while Legacy challenges keep their progress between seasons. Forever also adds Darkspear Islands, a battleground with fifteen players on each side.",
+      "text_es": "El JcJ de Forever se mide con Puntos de Rango (14 rangos, sin decaimiento) y Honor, no con tu posición frente al resto del reino. Hay cuatro campos de batalla (Garganta Grito de Guerra, Cuenca de Arathi, Valle de Alterac e Islas Lanza Negra, nuevo y de 15 contra 15), pero ni arena ni campos clasificados. El rango se reinicia cada pocos meses; los desafíos legacy conservan su progreso.",
+      "text_en": "Forever PvP is measured with Rank Points (14 ranks, no decay) and Honor, not by your position against the rest of the realm. There are four battlegrounds (Warsong Gulch, Arathi Basin, Alterac Valley and the new 15v15 Darkspear Islands), but no arena or rated battlegrounds. Rank resets every few months; legacy challenges keep their progress.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: PvP Overview in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Battlegrounds in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
@@ -51,12 +51,12 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:a934d73e665393265d42850e26b38f18000ebca7",
+        "guide:d7f7d3c26ffbf818fe7a97ea014fa6d234bd6d59",
         "section:339d2bb8f0c88b91219501ade0a629b984077528",
         "section:5650189e54f4cfbc28e504cc474e17b22768bdbd"
       ]
@@ -83,28 +83,34 @@
         "honor cap",
         "wow forever pvp currencies"
       ],
-      "text_es": "El JcJ otorga Honor para comprar objetos y Puntos de Rango para avanzar en la clasificación. Son monedas independientes: no se convierten entre sí y comprar equipo no frena el progreso de rango. Puedes acumular hasta quince mil de Honor; los Puntos de Rango no decaen durante la temporada y se obtienen en campos de batalla y otras actividades JcJ.",
-      "text_en": "PvP grants Honor to buy items and Rank Points to advance in the ranking system. They are independent currencies: they cannot be converted into each other, and buying gear does not slow rank progress. You can hold up to fifteen thousand Honor; Rank Points do not decay during a season and come from battlegrounds and other PvP activities.",
+      "text_es": "El JcJ otorga Honor para comprar objetos y Puntos de Rango para subir de rango. Son monedas independientes: no se convierten entre sí y comprar equipo no frena el progreso. Puedes acumular hasta 15.000 de Honor; los Puntos de Rango no decaen durante la temporada y se ganan en campos de batalla, en JcJ del mundo y con las misiones semanales de Campo de honor. Subir de rango solo da el título; el equipo se compra con Honor.",
+      "text_en": "PvP grants Honor to buy items and Rank Points to climb ranks. They are independent currencies: they cannot be converted and buying gear does not slow your progress. You can hold up to 15,000 Honor; Rank Points do not decay during the season and come from battlegrounds, world PvP and the weekly Field of Honor quests. Reaching a rank only grants the title; gear is bought with Honor.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: PvP Overview in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › How PvP Rank Works",
           "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
           "date": "2026-09-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Weekly PvP Season's Journey Quests in Forever",
+          "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
+          "date": "2026-11-19"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:a934d73e665393265d42850e26b38f18000ebca7",
+        "guide:d7f7d3c26ffbf818fe7a97ea014fa6d234bd6d59",
         "section:03085d174c3727847bd3b31eb21125356a687a11"
       ]
     },
@@ -130,14 +136,14 @@
         "pvp rank no decay",
         "forever rank progress"
       ],
-      "text_es": "Hay 14 rangos y cada uno requiere más Puntos de Rango que el anterior; alcanzar el rango 14 requiere 24750 en total. A diferencia del sistema basado en competir por puestos con otros jugadores, aquí el progreso no decae durante la temporada. Al acabar esta, el rango se reinicia.",
-      "text_en": "There are 14 ranks, and each requires more Rank Points than the last; reaching rank 14 takes 24750 in total. Unlike a system based on competing for position against other players, progress here does not decay during the season. When the season ends, rank resets.",
+      "text_es": "Hay 14 rangos y cada uno pide más Puntos de Rango que el anterior; el rango 14 exige 24750 en total. A diferencia del sistema clásico de competir por puestos con otros jugadores, aquí el progreso no decae durante la temporada y se reinicia al acabar esta. Se ha informado de que no se puede pasar del rango 3 hasta el nivel 40; no está confirmado si es intencionado ni si hay otros límites por nivel.",
+      "text_en": "There are 14 ranks and each needs more Rank Points than the last; rank 14 takes 24,750 in total. Unlike the classic system of competing for standings against other players, progress here does not decay during the season and resets when it ends. Players report being unable to pass rank 3 until level 40; it is not confirmed whether that is intended or whether other level gates exist.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: PvP Overview in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
@@ -152,12 +158,12 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:a934d73e665393265d42850e26b38f18000ebca7",
+        "guide:d7f7d3c26ffbf818fe7a97ea014fa6d234bd6d59",
         "section:03e59c9051a43a44dc1b7c8c8f640e1fcd88ec64",
         "section:984ff0277c99fd047fe00775b54dc47ddd0e217c"
       ]
@@ -184,14 +190,14 @@
         "pvp transmog",
         "rank 14 weapons"
       ],
-      "text_es": "Cada rango otorga un título de facción y desbloquea compras por escalón: 1, tabardo; 2, abalorio; 3, capa; 4, collar; 5, pociones de combate; 6, tabardo de facción de élite; 7, estandarte de batalla; 8, muñequeras y cintura; 9, botas; 10, guantes; 11, monturas de guerra negras; 12, piernas y hombros; 13, pecho y casco; 14, armas. El rango 13 completa el conjunto de aspecto; el 14 solo añade el arsenal de armas. Los rangos 3, 7, 10, 13 y 14 dan un punto de desafío legacy cada uno.",
-      "text_en": "Each rank grants a faction title and unlocks purchases in stages: 1, tabard; 2, insignia; 3, cloak; 4, necklace; 5, combat potions; 6, elite faction tabard; 7, Battle Standard; 8, wrists and waist; 9, boots; 10, gloves; 11, Black War Mounts; 12, legs and shoulders; 13, chest and helm; 14, weapons. Rank 13 completes the appearance set; rank 14 only adds the weapon arsenal. Ranks 3, 7, 10, 13, and 14 each grant one Legacy challenge point.",
+      "text_es": "Cada rango da un título de facción y desbloquea compras en el vendedor de Ventormenta u Orgrimmar: 1 tabardo; 2 abalorio; 3 capa; 4 collar; 5 pociones de combate; 6 colores o heraldo; 7 estandarte de batalla; 8 lacres de muñeca y cintura; 9 pies; 10 manos; 11 monturas de guerra negras; 12 hombros y piernas; 13 cabeza y pechera; 14 armas. El equipo raro no pide rango y los lacres lo convierten en épico. El rango 13 completa el aspecto; los rangos 3, 7, 10, 13 y 14 dan un punto legacy.",
+      "text_en": "Each rank grants a faction title and unlocks purchases from the Stormwind or Orgrimmar vendor: 1 tabard; 2 trinket; 3 cloak; 4 necklace; 5 combat potions; 6 colors or herald; 7 battle standard; 8 wrist and waist seals; 9 feet; 10 hands; 11 black war mounts; 12 shoulders and legs; 13 head and chest; 14 weapons. Rare gear needs no rank and the seals upgrade it to epic. Rank 13 completes the look; ranks 3, 7, 10, 13 and 14 give a legacy point.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: PvP Ranking Rewards in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
@@ -206,12 +212,12 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:a934d73e665393265d42850e26b38f18000ebca7",
+        "guide:d7f7d3c26ffbf818fe7a97ea014fa6d234bd6d59",
         "section:339d2bb8f0c88b91219501ade0a629b984077528",
         "section:5650189e54f4cfbc28e504cc474e17b22768bdbd"
       ]
@@ -238,20 +244,20 @@
         "pvp gear in pve",
         "rank 14 weapons"
       ],
-      "text_es": "El Honor sirve para comprar equipo y consumibles; las piezas más potentes también pueden requerir marcas de campo. El equipo raro se compra sin rango y requiere nivel 55 para equiparlo; alcanzar el rango 14 desbloquea las armas. El equipo JcJ compite con el de mazmorras y bandas, pero sus estadísticas y bonificaciones están orientadas al JcJ y lo dejan algo por detrás en PvE. Todo se compra a vendedores.",
-      "text_en": "Honor buys gear and consumables; the strongest pieces can also require battleground marks. Rare gear can be purchased without rank and requires level 55 to equip; reaching rank 14 unlocks weapons. PvP gear competes with dungeon and raid gear, but its stats and bonuses are tailored to PvP and leave it slightly behind in PvE. All of it is purchased from vendors.",
+      "text_es": "El Honor sirve para comprar equipo y consumibles; las piezas más potentes también piden marcas de campo. El equipo raro se compra sin rango y requiere nivel 55; al alcanzar ciertos rangos compras lacres envalentonados que lo mejoran a épico. El de JcJ compite con el de mazmorras y bandas, pero está orientado al JcJ y deja algo por detrás en PvE. Nada se regala: todo se compra a vendedores.",
+      "text_en": "Honor buys gear and consumables; the most powerful pieces also need battleground marks. Rare gear needs no rank and requires level 55; at certain ranks you buy emboldened seals that upgrade it to epic. PvP gear competes with dungeon and raid gear but is tuned for PvP, leaving you slightly behind in PvE. Nothing is given: it is all bought from vendors.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: PvP Overview in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: PvP Ranking Rewards in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
@@ -266,12 +272,12 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:a934d73e665393265d42850e26b38f18000ebca7",
+        "guide:d7f7d3c26ffbf818fe7a97ea014fa6d234bd6d59",
         "section:559fb7e41795f5edadf783975817f3578a5c97eb",
         "section:9a4880e86942543e0426af17231d16a9173f890b"
       ]
@@ -713,22 +719,22 @@
         "/pvp command",
         "leave pvp combat"
       ],
-      "text_es": "Para quitar tu bandera de JcJ, espera 5 minutos en territorio amistoso. Si la activaste manualmente con /pvp, volver a escribir el comando inicia la cuenta atrás de 5 minutos para desactivarla.",
-      "text_en": "To remove your PvP flag, wait 5 minutes in friendly territory. If you enabled it manually with /pvp, entering the command again starts the 5-minute countdown to turn it off.",
+      "text_es": "Para quitar tu bandera de JcJ, espera 5 minutos en territorio amistoso. Si la activaste a mano con /pvp, volver a escribirlo inicia la cuenta atrás de 5 minutos para desactivarla.",
+      "text_en": "To remove your PvP flag, wait 5 minutes in friendly territory. If you toggled it on manually with /pvp, typing it again starts a 5-minute timer to turn it off.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: World PvP in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-19"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:a934d73e665393265d42850e26b38f18000ebca7"
+        "guide:d7f7d3c26ffbf818fe7a97ea014fa6d234bd6d59"
       ]
     },
     {
@@ -784,31 +790,42 @@
         "tope puntos de rango",
         "cuándo se llega al rango 14",
         "puntos rango 14",
-        "progreso semanal jcj"
+        "progreso semanal jcj",
+        "cuántas semanas hasta rango 14",
+        "ponerse al día en rango"
       ],
       "keywords_en": [
         "weekly rank cap",
         "rank points cap",
         "when can I reach rank 14",
         "rank 14 points",
-        "weekly pvp progress"
+        "weekly pvp progress",
+        "weeks to reach rank 14",
+        "catch up on rank"
       ],
-      "text_es": "El sistema limita cuántos Puntos de Rango puedes alcanzar al principio y eleva ese tope cada semana. Así, no puedes llegar al rango máximo de inmediato.",
-      "text_en": "The system limits how many Rank Points you can reach early on and raises that cap each week. This prevents reaching the highest rank immediately.",
+      "text_es": "Un tope de Puntos de Rango sube cada semana hasta 24750, el del rango 14; la temporada dura más de diez semanas. Datos extraídos del juego: rango máximo por semana 3, 5, 6, 7, 8, 9, 11, 12 y 13, y el 14 desde la semana 10. Puedes alcanzar el tope en cualquier momento, aunque te saltes semanas o empieces un personaje nuevo: el máximo es el mismo que el de quien llega cada semana.",
+      "text_en": "A Rank Points cap rises every week up to 24,750, the rank 14 total; the season lasts more than ten weeks. Datamined: max rank per week 3, 5, 6, 7, 8, 9, 11, 12 and 13, with rank 14 from week 10. You can catch up to the cap at any time, even if you skip weeks or start a new character: the maximum is the same as for someone who reaches it every week.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: PvP Overview in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › PvP Rank Weekly Cap",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
+          "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:a934d73e665393265d42850e26b38f18000ebca7"
+        "guide:d7f7d3c26ffbf818fe7a97ea014fa6d234bd6d59",
+        "section:ffd0015eced931aee583523f166b113bd82a0339"
       ]
     },
     {
@@ -833,22 +850,29 @@
         "trade marks for experience",
         "marks for reputation"
       ],
-      "text_es": "Ganar un campo de batalla concede Honor adicional. Las marcas sirven para comprar algunos objetos de JcJ o canjearlas por experiencia y reputación.",
-      "text_en": "Winning a battleground grants bonus Honor. Marks can be used to buy some PvP items or traded for experience and reputation.",
+      "text_es": "Ganar un campo de batalla concede tres marcas de ese campo y Honor adicional; perder solo da una. Las marcas sirven para comprar las piezas más potentes de JcJ o canjearlas por experiencia y reputación.",
+      "text_en": "Winning a battleground grants three of its marks and bonus Honor; losing grants only one. Marks buy the most powerful PvP pieces or can be traded for experience and reputation.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Battlegrounds in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › Battlegrounds in WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
+          "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:a934d73e665393265d42850e26b38f18000ebca7"
+        "guide:d7f7d3c26ffbf818fe7a97ea014fa6d234bd6d59",
+        "section:250e3b8babb410e16eace92d1ce7998e5ca26fce"
       ]
     },
     {
@@ -864,31 +888,469 @@
         "facciones de islas lanza negra",
         "equipo de theramore jcj",
         "asaltantes lanza negra",
-        "recompensas de reputación jcj"
+        "recompensas de reputación jcj",
+        "dónde comprar equipo de islas lanza negra",
+        "bryanna brisas"
       ],
       "keywords_en": [
         "darkspear islands reputation",
         "darkspear islands factions",
         "theramore pvp gear",
         "darkspear raiders",
-        "pvp reputation rewards"
+        "pvp reputation rewards",
+        "where to buy darkspear islands gear",
+        "bryanna embreeze"
       ],
-      "text_es": "Al participar en Islas Lanza Negra, ganas reputación con la Fuerza Expedicionaria de Theramore y los Asaltantes Lanza Negra. Aumentarla permite comprar nuevas piezas de equipo de JcJ para distintos niveles.",
-      "text_en": "By participating in Darkspear Islands, you gain reputation with the Theramore Expeditionary Force and the Darkspear Raiders. Raising it lets you buy new PvP gear pieces for different level ranges.",
+      "text_es": "Participar en Islas Lanza Negra da reputación con la Fuerza Expedicionaria de Theramore (Alianza) y los Asaltantes Lanza Negra (Horda). Con ella compras equipo nuevo de JcJ en Los Baldíos: a Bryanna Brisas en el Fuerte del Norte (63,4 58,6) o a Creeg Bothunk al norte de Trinquete (65,0 34,6).",
+      "text_en": "Playing Darkspear Islands earns reputation with the Theramore Expeditionary Force (Alliance) and the Darkspear Raiders (Horde). It lets you buy new PvP gear in the Barrens: from Bryanna Embreeze at Northwatch Hold (63.4 58.6) or Creeg Bothunk north of Ratchet (65.0 34.6).",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Darkspear Islands",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-19"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-19",
       "topics": [
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:a934d73e665393265d42850e26b38f18000ebca7"
+        "guide:d7f7d3c26ffbf818fe7a97ea014fa6d234bd6d59"
+      ]
+    },
+    {
+      "id": "jcj-puntos-por-rango",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Puntos de Rango por cada rango",
+      "title_en": "Rank Points per rank",
+      "summary_es": "Puntos de Rango acumulados que pide cada uno de los 14 rangos.",
+      "summary_en": "Cumulative Rank Points needed for each of the 14 ranks.",
+      "keywords_es": [
+        "cuántos puntos para el rango 8",
+        "puntos de rango por rango",
+        "puntos para cada rango jcj",
+        "tabla de rangos jcj"
+      ],
+      "keywords_en": [
+        "how many points for rank 8",
+        "rank points per rank",
+        "points needed for each pvp rank",
+        "pvp rank table"
+      ],
+      "text_es": "Cada rango pide más que el anterior: del 1 al 14, 750, 900, 1050, 1200, 1350, 1500, 1650, 1800, 1950, 2100, 2350, 2500, 2650 y 3000. Acumulados: 750, 1650, 2700, 3900, 5250, 6750, 8400, 10200, 12150, 14250, 16600, 19100, 21750 y 24750 para el rango 14.",
+      "text_en": "Each rank costs more than the last: ranks 1 to 14 need 750, 900, 1,050, 1,200, 1,350, 1,500, 1,650, 1,800, 1,950, 2,100, 2,350, 2,500, 2,650 and 3,000. Cumulative: 750, 1,650, 2,700, 3,900, 5,250, 6,750, 8,400, 10,200, 12,150, 14,250, 16,600, 19,100, 21,750 and 24,750 for rank 14.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › Rank Points Needed for Every Rank",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "section:03e59c9051a43a44dc1b7c8c8f640e1fcd88ec64"
+      ]
+    },
+    {
+      "id": "jcj-mision-semanal-honor",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Misiones semanales de Campo de honor",
+      "title_en": "Weekly Field of Honor quests",
+      "summary_es": "Misiones semanales de JcJ de Gadgetzan que dan Honor y Puntos de Rango.",
+      "summary_en": "Weekly Gadgetzan PvP quests that give Honor and Rank Points.",
+      "keywords_es": [
+        "misión semanal de jcj",
+        "campo de honor semana 1",
+        "dónde empezar misiones de jcj",
+        "wizzik polvoburbuja",
+        "puntos de rango rápidos"
+      ],
+      "keywords_en": [
+        "weekly pvp quest",
+        "field of honor week 1",
+        "where to start pvp quests",
+        "wizzik dustfizz",
+        "quick rank points"
+      ],
+      "text_es": "Wizzik Polvoburbuja, en Gadgetzan (Tanaris, 51,8 27,2), da cada semana una misión de Campo de honor a partir del nivel 60: 300 de Honor y 500 Puntos de Rango. Semana 1: ganar 10 duelos; semana 2: completar 3 batallas en la Garganta Grito de Guerra; semana 3: matar a 25 enemigos de la otra facción allí. No hay que hacerlas en su semana: las atrasadas siguen disponibles.",
+      "text_en": "Wizzik Dustfizz in Gadgetzan (Tanaris, 51.8 27.2) gives a Field of Honor quest each week from level 60: 300 Honor and 500 Rank Points. Week 1: win 10 duels; week 2: complete 3 Warsong Gulch battles; week 3: kill 25 enemy-faction players there. You do not need to do them in their week: missed ones stay available.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Weekly PvP Season's Journey Quests in Forever",
+          "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
+          "date": "2026-11-19"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "guide:d7f7d3c26ffbf818fe7a97ea014fa6d234bd6d59"
+      ]
+    },
+    {
+      "id": "jcj-maestros-batalla",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Dónde están los maestros de batalla",
+      "title_en": "Where the battlemasters are",
+      "summary_es": "Ciudades y coordenadas de los maestros de batalla de cada facción.",
+      "summary_en": "Cities and coordinates of each faction's battlemasters.",
+      "keywords_es": [
+        "dónde apuntarme a un campo de batalla",
+        "maestro de batalla ventormenta",
+        "maestro de batalla orgrimmar",
+        "maestros de batalla coordenadas",
+        "portal de campo de batalla"
+      ],
+      "keywords_en": [
+        "where to queue for a battleground",
+        "stormwind battlemaster",
+        "orgrimmar battlemaster",
+        "battlemaster coordinates",
+        "battleground portal"
+      ],
+      "text_es": "Alianza: Ventormenta (Castillo, 80 38,5), Forjaz (zona militar, 70 88), Darnassus (Bancal del Guerrero, 59 40,5) y Dalaran (centro, 16 66). Horda: Orgrimmar (Valle del Honor, 79 30,5), Entrañas (sala del trono, 57 91) y Cima del Trueno (Alto de los Cazadores, 57 78). También puedes entrar por el portal del campo en el mundo.",
+      "text_en": "Alliance: Stormwind (Keep, 80 38.5), Ironforge (military ward, 70 88), Darnassus (Warrior's Terrace, 59 40.5) and Dalaran (centre, 16 66). Horde: Orgrimmar (Valley of Honor, 79 30.5), Undercity (throne room, 57 91) and Thunder Bluff (Hunter Rise, 57 78). You can also enter through the battleground portal in the open world.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Locations of Battleground Battlemasters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
+          "date": "2026-11-19"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "guide:d7f7d3c26ffbf818fe7a97ea014fa6d234bd6d59"
+      ]
+    },
+    {
+      "id": "jcj-tramos-campos",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Niveles y tamaños de los campos de batalla",
+      "title_en": "Battleground levels and sizes",
+      "summary_es": "Nivel mínimo, tramos y jugadores por equipo de cada campo de batalla.",
+      "summary_en": "Minimum level, brackets and team size of each battleground.",
+      "keywords_es": [
+        "nivel para campos de batalla",
+        "tramos de nivel jcj",
+        "cuántos jugadores en cada campo",
+        "desde qué nivel puedo entrar a arathi",
+        "nivel mínimo valle de alterac"
+      ],
+      "keywords_en": [
+        "battleground level requirements",
+        "pvp level brackets",
+        "players per battleground",
+        "what level for arathi basin",
+        "alterac valley minimum level"
+      ],
+      "text_es": "Se agrupa por tramos de nivel. Garganta Grito de Guerra (10 contra 10): 10-19, 20-29, 30-39, 40-49, 50-59 y 60. Cuenca de Arathi (15 contra 15): desde 20, mismos tramos. Islas Lanza Negra (15 contra 15): desde 30. Valle de Alterac (40 contra 40): un único tramo, 51-60.",
+      "text_en": "Players are grouped by level bracket. Warsong Gulch (10v10): 10-19, 20-29, 30-39, 40-49, 50-59 and 60. Arathi Basin (15v15): from 20, same brackets. Darkspear Islands (15v15): from 30. Alterac Valley (40v40): a single bracket, 51-60.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Battleground Level Brackets in Forever",
+          "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
+          "date": "2026-11-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › Battlegrounds in WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "guide:d7f7d3c26ffbf818fe7a97ea014fa6d234bd6d59",
+        "section:250e3b8babb410e16eace92d1ce7998e5ca26fce"
+      ]
+    },
+    {
+      "id": "jcj-reglas-bandera",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Cuándo te marcas para JcJ según el conjunto de reglas",
+      "title_en": "When you get PvP-flagged by ruleset",
+      "summary_es": "Marcado automático o voluntario según el conjunto de reglas y el territorio.",
+      "summary_en": "Automatic or voluntary flagging by ruleset and territory.",
+      "keywords_es": [
+        "cuándo se activa el pvp",
+        "pvp en conjunto de reglas normal",
+        "marcado automático de jcj",
+        "territorio disputado y enemigo",
+        "activar pvp con /pvp"
+      ],
+      "keywords_en": [
+        "when does pvp turn on",
+        "pvp in normal ruleset",
+        "automatic pvp flag",
+        "contested and enemy territory",
+        "toggle pvp with /pvp"
+      ],
+      "text_es": "En JcJ te marcas solo al entrar en territorio disputado o enemigo; en amistoso, solo si escribes /pvp, atacas a un enemigo o ayudas a un aliado marcado. En Normal, Rol y Hardcore te marcas solo al entrar en territorio enemigo; en amistoso y disputado, solo por voluntad. En general, casi toda zona por encima del nivel 15 es disputada. Se activa con /pvp o con clic derecho en tu retrato.",
+      "text_en": "In PvP you are flagged only when entering contested or enemy territory; in friendly territory only if you type /pvp, attack an enemy or help a flagged ally. In Normal, Roleplaying and Hardcore you are flagged only on entering enemy territory; in friendly and contested ones only by choice. Generally, nearly every zone above level 15 is contested. Toggle with /pvp or by right-clicking your portrait.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: PvP Ruleset",
+          "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
+          "date": "2026-11-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Normal, Roleplaying, and Hardcore Rulesets",
+          "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
+          "date": "2026-11-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › World PvP",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "guide:d7f7d3c26ffbf818fe7a97ea014fa6d234bd6d59",
+        "section:765a5ee3b6901c3251038dec754a9e019e81b081"
+      ]
+    },
+    {
+      "id": "jcj-colas-entre-reglas",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Colas entre conjuntos de reglas",
+      "title_en": "Cross-ruleset queues",
+      "summary_es": "Las colas de campos de batalla mezclan jugadores de todos los conjuntos de reglas.",
+      "summary_en": "Battleground queues mix players from every ruleset.",
+      "keywords_es": [
+        "campos de batalla con amigos de otro conjunto de reglas",
+        "jugar con otros conjuntos de reglas",
+        "cola entre reglas",
+        "grupo con amigos de pvp y normal"
+      ],
+      "keywords_en": [
+        "battlegrounds with friends on another ruleset",
+        "cross ruleset queue",
+        "queue with pvp and normal players"
+      ],
+      "text_es": "Las colas de campos de batalla funcionan entre conjuntos de reglas: encuentras jugadores de Normal, JcJ y Rol, y es el único momento en que ocurre. Puedes cruzarte con amigos de otro conjunto, pero no agruparte con ellos ni entrar en cola juntos.",
+      "text_en": "Battleground queues work across rulesets: you meet players from Normal, PvP and Roleplaying, and it is the only time that happens. You may meet friends from another ruleset, but you cannot group with them or queue together.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › Queues",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
+          "date": "2026-09-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › Battlegrounds in WoW Forever",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "section:250e3b8babb410e16eace92d1ce7998e5ca26fce",
+        "section:f9da479258408ccfe740d838e1ce29069aebac15"
+      ]
+    },
+    {
+      "id": "jcj-estandarte-batalla",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Estandarte de batalla (rango 7)",
+      "title_en": "Battle Standard (rank 7)",
+      "summary_es": "Objeto de rango 7 que se planta y aumenta la salud de los aliados cercanos.",
+      "summary_en": "Rank 7 item you plant that raises nearby allies' health.",
+      "keywords_es": [
+        "estandarte de batalla",
+        "qué hace el estandarte de jcj",
+        "estandarte de batalla de la horda",
+        "objeto de rango 7"
+      ],
+      "keywords_en": [
+        "battle standard",
+        "what does the pvp standard do",
+        "horde battle standard",
+        "rank 7 item"
+      ],
+      "text_es": "Al llegar al rango 7 puedes comprar el Estandarte de batalla de tu facción (de la Alianza o de la Horda). Se planta en el suelo, tiene 10 minutos de reutilización y aumenta un 15 % la salud de los aliados cercanos.",
+      "text_en": "At rank 7 you can buy your faction's Battle Standard (Alliance or Horde). You plant it on the ground, it has a 10-minute cooldown and raises nearby allies' health by 15%.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › Reward Highlights",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
+          "date": "2026-09-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: PvP Ranking Rewards in Forever",
+          "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
+          "date": "2026-11-19"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "guide:d7f7d3c26ffbf818fe7a97ea014fa6d234bd6d59",
+        "section:53075c2fb59608848a5598c06912aaaa027d954b"
+      ]
+    },
+    {
+      "id": "jcj-costes-equipo",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Costes del equipo raro de JcJ",
+      "title_en": "Rare PvP gear costs",
+      "summary_es": "Honor y marcas que cuesta cada pieza de equipo raro de JcJ.",
+      "summary_en": "Honor and marks each rare PvP gear piece costs.",
+      "keywords_es": [
+        "cuánto cuesta el equipo de jcj",
+        "costes de honor del equipo",
+        "marcas para comprar equipo jcj",
+        "precio pechera de jcj",
+        "precio abalorio de jcj"
+      ],
+      "keywords_en": [
+        "how much does pvp gear cost",
+        "honor cost of gear",
+        "marks needed for pvp gear",
+        "pvp chest price",
+        "pvp trinket price"
+      ],
+      "text_es": "Costes de beta, sujetos a cambios. Abalorio: 3500 de Honor. Capa: 3000 y 10 marcas de Arathi. Muñequeras: 3000 y 10 de Garganta. Cinturón: 4000 y 10 de Arathi. Hombros: 4250 y 10 de Arathi. Guantes: 5000 y 10 de Garganta. Botas y collar: 5000 y 10 de Lanza Negra. Casco: 6000 y 15 de Alterac. Piernas: 6000 y 15 de Garganta. Pechera: 6250 y 15 de Arathi.",
+      "text_en": "Beta costs, subject to change. Trinket: 3,500 Honor. Cloak: 3,000 and 10 Arathi marks. Wrist: 3,000 and 10 Warsong marks. Belt: 4,000 and 10 Arathi. Shoulders: 4,250 and 10 Arathi. Gloves: 5,000 and 10 Warsong marks. Necklace and boots: 5,000 and 10 Darkspear marks. Helm: 6,000 and 15 Alterac. Legs: 6,000 and 15 Warsong. Chest: 6,250 and 15 Arathi.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › PvP Gear Costs",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "section:8fd4437f5df6a631d961b5b8e274af8d254468ed"
+      ]
+    },
+    {
+      "id": "jcj-costes-mejora-epica",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Costes de la mejora a épico y de las armas",
+      "title_en": "Epic upgrade and weapon costs",
+      "summary_es": "Honor de la mejora a épico y precio de las armas de rango 14.",
+      "summary_en": "Honor cost of the epic upgrade and rank 14 weapon prices.",
+      "keywords_es": [
+        "cuánto cuesta mejorar a épico el equipo de jcj",
+        "precio armas de rango 14",
+        "coste armas jcj",
+        "cuántas marcas para arma jcj",
+        "mejora de equipo raro a épico"
+      ],
+      "keywords_en": [
+        "cost to upgrade pvp gear to epic",
+        "rank 14 weapon price",
+        "pvp weapon cost",
+        "marks for pvp weapon",
+        "rare to epic upgrade"
+      ],
+      "text_es": "Costes de beta. Mejora a épico, solo Honor: muñequeras 750, cinturón y botas 1000, hombros y guantes 1500, pechera 1750, piernas y abalorio 2000. Armas (rango 14): las de dos manos cuestan 20 marcas de Alterac y 15000 de Honor; las de una mano, dagas y de distancia, 10 de Lanza Negra y 8000; escudos y escritos, 10 de Lanza Negra y 7000.",
+      "text_en": "Beta costs. Epic upgrade, Honor only: wrist 750, belt and boots 1,000, shoulders and gloves 1,500, chest 1,750, legs and trinket 2,000. Weapons (rank 14): two-handers cost 20 Alterac marks and 15,000 Honor; one-handers, daggers and ranged, 10 Darkspear marks and 8,000; shields and tomes, 10 Darkspear marks and 7,000.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › PvP Weapon Costs",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
+          "date": "2026-09-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › PvP Gear Costs",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
+          "date": "2026-09-19"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "section:87cc0ed085ed72bf5345e21860297db21cdc2922",
+        "section:8fd4437f5df6a631d961b5b8e274af8d254468ed"
+      ]
+    },
+    {
+      "id": "jcj-islas-recompensas",
+      "chapter": 10,
+      "status": "editorial",
+      "title_es": "Equipo de reputación de Islas Lanza Negra",
+      "title_en": "Darkspear Islands reputation gear",
+      "summary_es": "Qué piezas se compran con cada nivel de reputación de Islas Lanza Negra.",
+      "summary_en": "Which pieces each Darkspear Islands reputation level unlocks.",
+      "keywords_es": [
+        "qué equipo hay para Islas Lanza Negra",
+        "abalorios de theramore",
+        "reputación exaltado islas lanza negra",
+        "tabardo de batalla de theramore",
+        "hombreras de islas lanza negra"
+      ],
+      "keywords_en": [
+        "what gear does darkspear islands offer",
+        "theramore trinkets",
+        "exalted darkspear islands",
+        "theramore battle tabard",
+        "darkspear islands shoulders"
+      ],
+      "text_es": "Amistoso: abalorios (Sello enriquecido). Honorable: capa, sortijas y collar. Reverenciado: mano izquierda y armas. Exaltado: guantes, hombreras solo a nivel 60 y el tabardo de batalla de Theramore o de los Lanza Negra. Hay versiones por tramo de nivel (28, 38, 48 y 58; guantes en 50 y 60). En Los Baldíos, Bryanna Brisas y Creeg Bothunk las venden.",
+      "text_en": "Friendly: trinkets (Enriched Seal). Honored: cloak, rings and neck. Revered: off-hand and weapons. Exalted: gloves, shoulders at level 60 only, and the Theramore or Darkspear battle tabard. Versions exist per level bracket (28, 38, 48 and 58; gloves at 50 and 60). In the Barrens, Bryanna Embreeze and Creeg Bothunk sell them.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Darkspear Islands",
+          "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
+          "date": "2026-11-19"
+        }
+      ],
+      "updated": "2026-11-19",
+      "topics": [
+        "general:pvp"
+      ],
+      "source_hashes": [
+        "guide:d7f7d3c26ffbf818fe7a97ea014fa6d234bd6d59"
       ]
     }
   ]
