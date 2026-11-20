@@ -4,6 +4,14 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+### English
+- Added: the assistant now knows class talents can be forgotten (reset button in the talent window, it costs gold) and no longer mixes it up with respeccing Legacy Points.
+- Changed: when asked to review talent points, it says how many the player should have at their level and that it cannot see what was spent.
+
+### Español
+- Añadido: el asistente sabe ahora que los talentos de clase se pueden olvidar (botón de restablecer en la ventana de talentos, cuesta oro) y ya no lo confunde con reasignar puntos Legacy.
+- Cambiado: al pedirle que revise los puntos de talento, dice cuántos corresponden al nivel y que no ve lo que se ha gastado.
+
 ## [0.4.0-beta.9] - 2026-11-20
 
 ### English
