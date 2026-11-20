@@ -373,6 +373,48 @@
         }
       ],
       "updated": "2026-11-15"
+    },
+    {
+      "id": "talentos-olvidar",
+      "status": "verificado",
+      "chapter": 4,
+      "title_es": "Olvidar o restablecer talentos",
+      "title_en": "Forget or reset talents",
+      "summary_es": "Olvidar los talentos de clase cuesta oro: botón de restablecer y puntos que se recuperan.",
+      "summary_en": "Forgetting class talents costs gold: reset button and points you get back.",
+      "keywords_es": [
+        "olvidar talentos",
+        "restablecer talentos",
+        "reiniciar talentos",
+        "reasignar talentos",
+        "cambiar mis talentos",
+        "revisar mis puntos de talento",
+        "se pueden olvidar los talentos",
+        "dónde olvido los talentos"
+      ],
+      "keywords_en": [
+        "forget talents",
+        "reset talents",
+        "respec talents",
+        "change my talents",
+        "review my talent points",
+        "can i unlearn talents"
+      ],
+      "text_es": "Los talentos de clase se pueden olvidar, pero cuesta oro. En la ventana de talentos hay un botón «Restablecer todos los talentos» que devuelve todos los puntos, y el juego pide confirmación antes. Para restablecer solo un árbol, haz clic derecho en los talentos aprendidos de las filas superiores. Los puntos recuperados se gastan de nuevo en otra parte. No hay dato de la cantidad de oro ni de si hace falta un instructor.",
+      "text_en": "Class talents can be forgotten, but it costs gold. The talent window has a «Reset all talents» button that returns every point, and the game asks for confirmation first. To reset only one tree, right-click the learned talents in the top rows. The points you get back can be spent again elsewhere. There is no data on the amount of gold or on whether a trainer is needed.",
+      "sources": [
+        {
+          "type": "cliente",
+          "ref": "GlobalStrings esES: TALENT_FRAME_LABEL_RESET_BUTTON, TALENT_FRAME_RESET_BUTTON_TOOLTIP_DESCRIPTION, CONFIRM_TALENT_WIPE, TALENT_BUTTON_TOOLTIP_REFUND_INVALID_CONDITIONS_ERROR",
+          "date": "2026-11-20"
+        },
+        {
+          "type": "cliente",
+          "ref": "GameTips esES nº 233 (olvidar talentos de clase y de legado cuesta oro)",
+          "date": "2026-11-20"
+        }
+      ],
+      "updated": "2026-11-20"
     }
   ]
 }

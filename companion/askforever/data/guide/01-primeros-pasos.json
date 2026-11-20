@@ -1285,8 +1285,8 @@
       "status": "editorial",
       "title_es": "Reasignar puntos Legacy",
       "title_en": "Respec Legacy Points",
-      "summary_es": "Puedes reasignar los puntos Legacy en el instructor de clase; por ahora cuesta 10 de oro.",
-      "summary_en": "You can respec Legacy Points at a class trainer; for now, it costs 10 gold.",
+      "summary_es": "Puedes reasignar los puntos Legacy (no los talentos de clase) en el instructor de clase; por ahora cuesta 10 de oro.",
+      "summary_en": "You can respec Legacy Points (not class talents) at a class trainer; for now, it costs 10 gold.",
       "keywords_es": [
         "reasignar puntos Legacy",
         "reiniciar árbol Legacy",
@@ -1299,8 +1299,8 @@
         "Legacy respec cost",
         "Legacy class trainer"
       ],
-      "text_es": "Puedes reasignar los puntos Legacy hablando con un instructor de clase; actualmente cuesta 10 de oro. No se sabe si se podrá repetir ni si el coste aumentará.",
-      "text_en": "You can respec Legacy Points by speaking to a class trainer; it currently costs 10 gold. It is not yet known whether this can be repeated or whether the cost will increase.",
+      "text_es": "Los puntos Legacy, que no son los talentos de clase, se reasignan hablando con un instructor de clase; actualmente cuesta 10 de oro. No se sabe si se podrá repetir ni si el coste aumentará.",
+      "text_en": "Legacy Points, which are not class talents, are respecced by speaking to a class trainer; it currently costs 10 gold. It is not yet known whether this can be repeated or whether the cost will increase.",
       "sources": [
         {
           "type": "editorial",
@@ -1309,7 +1309,7 @@
           "date": "2026-11-15"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-20",
       "topics": [
         "general:legacy-system"
       ],
