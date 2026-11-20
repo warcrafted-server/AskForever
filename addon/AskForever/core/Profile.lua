@@ -98,8 +98,21 @@ function ns.Profile.Talents()
             end
         end
     end
+    local free
+    if type(C_Traits.GetTreeCurrencyInfo) == 'function' then
+        for _, treeID in ipairs(config.treeIDs) do
+            local currencies = Protected(C_Traits.GetTreeCurrencyInfo, configID, treeID, false)
+            if type(currencies) == 'table' then
+                for _, currency in ipairs(currencies) do
+                    if type(currency) == 'table' and Num(currency.quantity) then
+                        free = (free or 0) + currency.quantity
+                    end
+                end
+            end
+        end
+    end
     if #found == 0 then
-        return nil
+        return nil, free
     end
 
     table.sort(found, function(left, right)
@@ -116,7 +129,7 @@ function ns.Profile.Talents()
     for index = 1, math.min(#found, MAX_TALENTS) do
         list[#list + 1] = { found[index].name, found[index].rank }
     end
-    return list
+    return list, free
 end
 
 local function UnspentTalents()
@@ -210,8 +223,9 @@ end
 
 function ns.Profile.Collect()
     local profile = {}
-    local talents = ns.Profile.Talents()
-    local unspent = UnspentTalents()
+    local talents, treeFree = ns.Profile.Talents()
+    -- El árbol manda; la función clásica solo vale si el árbol no dio la cifra.
+    local unspent = treeFree or UnspentTalents()
     if talents or unspent then
         profile.tal = { list = talents, free = unspent }
     end

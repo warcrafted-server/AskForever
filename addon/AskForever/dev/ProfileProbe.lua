@@ -124,6 +124,16 @@ local function RawTraits()
         local okTree, nodes = pcall(C_Traits.GetTreeNodes, treeID)
         out.numNodes = okTree and type(nodes) == 'table' and #nodes or 'error'
         out.treeInfo = Call('C_Traits.GetTreeInfo', configID, treeID)
+        local okCur, currencies = pcall(C_Traits.GetTreeCurrencyInfo, configID, treeID, false)
+        out.currencies = {}
+        if okCur and type(currencies) == 'table' then
+            for index, currency in ipairs(currencies) do
+                out.currencies[index] = Keys(currency, 10)
+            end
+        else
+            out.currencies = okCur and 'sin-tabla' or 'error'
+        end
+        out.unspentClassic = Call('GetNumUnspentTalents')
         out.ranked = {}
         if okTree and type(nodes) == 'table' then
             for _, nodeID in ipairs(nodes) do
