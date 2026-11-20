@@ -39,7 +39,9 @@ Todo lo que pone aquí se puede comprobar en el código fuente de este repositor
 Solo lo necesario para responder: tu **pregunta**, las preguntas y respuestas anteriores de la
 misma conversación y el **contexto del personaje** que recoge el addon: nivel, raza, clase,
 facción, zona y subzona, coordenadas del mapa, los títulos y niveles de las misiones de tu
-registro y los identificadores de los puntos de vuelo que conoces. **Nunca** tu cuenta, el
+registro, los identificadores de los puntos de vuelo que conoces y un resumen de tu personaje:
+talentos aprendidos y puntos sin gastar, profesiones y habilidad, los nombres del equipo que llevas
+puesto y tus estadísticas (salud, armadura, poder de ataque, crítico y similares). **Nunca** tu cuenta, el
 nombre del personaje, el reino, el chat, tus amigos ni nada de fuera del juego.
 
 El proveedor de IA recibe estos datos según sus propias condiciones de privacidad. Los planes

@@ -36,7 +36,9 @@ here can be checked in the source code of this repository.
 Only what is needed to answer: your **question**, the previous questions and answers of the
 same conversation, and the **character context** the addon collects: level, race, class,
 faction, zone and sub-zone, map coordinates, the titles and levels of the quests in your log
-and the IDs of the flight points you know. **Never** your account, character name, realm, chat,
+the IDs of the flight points you know and a summary of your character: learned talents and
+unspent points, professions and skill, the names of the items you wear and your stats (health,
+armor, attack power, crit and similar). **Never** your account, character name, realm, chat,
 friends or anything outside the game.
 
 The AI provider receives this data under its own privacy terms. Free tiers may use the data

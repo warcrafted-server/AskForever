@@ -137,7 +137,16 @@ function ns.Context.Collect()
         end
     end
 
+    local profile
+    if ns.Profile and type(ns.Profile.Collect) == 'function' then
+        local ok, result = pcall(ns.Profile.Collect)
+        if ok then
+            profile = result
+        end
+    end
+
     return {
+        profile = profile,
         level = Protected(UnitLevel, 'player'),
         race = Protected(UnitRace, 'player'),
         class = Protected(UnitClass, 'player'),

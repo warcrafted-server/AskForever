@@ -185,6 +185,9 @@ function Transport.BuildMessage(question, ctx, conv, kind, extra)
     if type(ctx.knownFlights) == 'table' and #ctx.knownFlights > 0 then
         context.fp = ctx.knownFlights
     end
+    if type(ctx.profile) == 'table' then
+        context.pf = ctx.profile
+    end
 
     if type(ctx.quests) == 'table' and #ctx.quests > 0 then
         local quests = {}
