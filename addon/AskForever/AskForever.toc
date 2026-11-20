@@ -29,3 +29,4 @@ Bindings.xml
 dev/DevReport.lua
 dev/SlotSpike.lua
 dev/DisplayProbe.lua
+dev/ProfileProbe.lua
