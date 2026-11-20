@@ -4,28 +4,32 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
-### English
-- Added: the assistant now knows class talents can be forgotten (reset button in the talent window, it costs gold) and no longer mixes it up with respeccing Legacy Points.
-- Added: the addon now sends a summary of your character (learned talents and unspent points, professions, worn gear and stats) so the assistant can answer questions about you, such as reviewing your talents. Nothing is sent that identifies you: no name, realm or gold.
-- Changed: if the summary is missing, it says how many talent points the player should have at their level and that it cannot see what was spent.
-
-### Español
-- Añadido: el asistente sabe ahora que los talentos de clase se pueden olvidar (botón de restablecer en la ventana de talentos, cuesta oro) y ya no lo confunde con reasignar puntos Legacy.
-- Añadido: el addon envía ahora un resumen de tu personaje (talentos aprendidos y puntos sin gastar, profesiones, equipo puesto y estadísticas) para que el asistente responda preguntas sobre ti, como revisar tus talentos. No se envía nada que te identifique: ni nombre, ni reino, ni oro.
-- Cambiado: si falta el resumen, dice cuántos puntos de talento corresponden al nivel y que no ve lo que se ha gastado.
-
-## [0.4.0-beta.9] - 2026-11-20
+## [0.4.0-beta.10] - 2026-11-20
 
 ### English
 - Updated: the guide cards now follow the November 19 guide update: Hunter (Auto Shot, Beast Mastery, Survival weaving rotation and talent builds), class stats, builds and enchants, PvP (weekly Field of Honor quests, battlemaster locations, rank points, gear costs, Darkspear Islands) and the raids (entrances, boss counts, no attunement for the two new ones).
 - Added: Maraudon quest list, Timbermaw Hold reputation from Azshara and Blackmaw Hold, and new drop details for the Tarnished Undermine Real.
 - Corrected: weapon skills can be trained from level 10 (Polearms from level 20).
-- Data patch 2026.11.20.1.
+- Data patch 2026.11.20.2.
 
 ### Español
 - Actualizado: las fichas de la guía siguen la actualización de guías del 19 de noviembre: Cazador (Disparo automático, Bestias, rotación de Supervivencia con cambio de arma y builds de talentos), estadísticas, builds y encantamientos de las clases, JcJ (misiones semanales del Campo de Honor, ubicación de maestros de batalla, puntos de rango, costes del equipo, Islas Lanza Negra) y las bandas (accesos, número de jefes, sin sintonización en las dos nuevas).
 - Añadido: lista de misiones de Maraudon, reputación de los Fauces de Madera desde Azshara y el Bastión Faucenegra, y nuevos datos de caída del Real deslustrado de Minahonda.
 - Corregido: las habilidades de armas se aprenden desde el nivel 10 (Armas de asta, desde el 20).
+- Parche de datos 2026.11.20.2.
+
+## [0.4.0-beta.9] - 2026-11-20
+
+### English
+- Added: the assistant now knows class talents can be forgotten (reset button in the talent window, it costs gold) and no longer mixes it up with respeccing Legacy Points.
+- Added: the addon now sends a summary of your character (learned talents and unspent points, professions, worn gear and stats) so the assistant can answer questions about you, such as reviewing your talents. Nothing is sent that identifies you: no name, realm or gold.
+- Changed: if the summary is missing, it says how many talent points the player should have at their level and that it cannot see what was spent.
+- Data patch 2026.11.20.1.
+
+### Español
+- Añadido: el asistente sabe ahora que los talentos de clase se pueden olvidar (botón de restablecer en la ventana de talentos, cuesta oro) y ya no lo confunde con reasignar puntos Legacy.
+- Añadido: el addon envía ahora un resumen de tu personaje (talentos aprendidos y puntos sin gastar, profesiones, equipo puesto y estadísticas) para que el asistente responda preguntas sobre ti, como revisar tus talentos. No se envía nada que te identifique: ni nombre, ni reino, ni oro.
+- Cambiado: si falta el resumen, dice cuántos puntos de talento corresponden al nivel y que no ve lo que se ha gastado.
 - Parche de datos 2026.11.20.1.
 
 ## [0.4.0-beta.8] - 2026-11-19

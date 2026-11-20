@@ -1,11 +1,11 @@
-**Beta 14 — Guides refreshed after the November 19 update.**
+**Beta 14 — AskForever now knows your character.**
 
-- Hunter, class builds and enchants, PvP and raid answers now follow the latest guides.
-- New answers about Maraudon quests, Timbermaw Hold reputation and Tarnished Undermine Reals.
-- The new data arrives with this addon: the app applies it on its own, no reinstall needed.
+- The assistant now sees your learned talents and unspent points, professions, worn gear and stats, so it can answer questions about you, such as reviewing your talents. It does not send your name, realm or gold.
+- It also knows class talents can be forgotten (reset button in the talent window, it costs gold).
+- The new data and the app update arrive on their own: no reinstall needed.
 
-**Beta 14: guías al día tras la actualización del 19 de noviembre.**
+**Beta 14: AskForever ahora conoce tu personaje.**
 
-- Las respuestas sobre Cazador, builds y encantamientos de clase, JcJ y bandas siguen ya las guías más recientes.
-- Respuestas nuevas sobre misiones de Maraudon, reputación de los Fauces de Madera y Reales deslustrados de Minahonda.
-- Los datos nuevos llegan con este addon: la app los aplica sola, sin reinstalar.
+- El asistente ve tus talentos aprendidos y sin gastar, profesiones, equipo puesto y estadísticas, y puede responder preguntas sobre ti, como revisar tus talentos. No envía tu nombre, reino ni oro.
+- También sabe que los talentos de clase se pueden olvidar (botón de restablecer en la ventana de talentos, cuesta oro).
+- Los datos nuevos y la actualización de la app llegan solos: sin reinstalar.
