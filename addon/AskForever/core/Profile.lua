@@ -40,6 +40,12 @@ local function SpellName(spellID)
             return name
         end
     end
+    if C_Spell and type(C_Spell.GetSpellInfo) == 'function' then
+        local info = Protected(C_Spell.GetSpellInfo, spellID)
+        if type(info) == 'table' and type(info.name) == 'string' and info.name ~= '' then
+            return info.name
+        end
+    end
     if type(GetSpellInfo) == 'function' then
         local name = Protected(GetSpellInfo, spellID)
         if type(name) == 'string' and name ~= '' then
@@ -72,20 +78,22 @@ function ns.Profile.Talents()
                 local node = Protected(C_Traits.GetNodeInfo, configID, nodeID)
                 if type(node) == 'table' and (Num(node.currentRank) or 0) > 0 then
                     local entryID = type(node.activeEntry) == 'table' and node.activeEntry.entryID
+                        or (type(node.entryIDsWithCommittedRanks) == 'table'
+                            and node.entryIDsWithCommittedRanks[1])
                         or (type(node.entryIDs) == 'table' and node.entryIDs[1])
                     local entry = entryID and Protected(C_Traits.GetEntryInfo, configID, entryID)
                     local definition = type(entry) == 'table' and entry.definitionID
                         and Protected(C_Traits.GetDefinitionInfo, entry.definitionID)
-                    local name = type(definition) == 'table' and SpellName(definition.spellID)
-                    if name then
-                        found[#found + 1] = {
-                            name = name,
-                            rank = node.currentRank,
-                            tree = Num(node.subTreeID) or treeID,
-                            x = Num(node.posX) or 0,
-                            y = Num(node.posY) or 0,
-                        }
-                    end
+                    local spellID = type(definition) == 'table' and definition.spellID or nil
+                    -- Sin nombre se cuenta igualmente: así los puntos gastados siempre cuadran.
+                    local name = SpellName(spellID) or ('Talento ' .. tostring(spellID or nodeID))
+                    found[#found + 1] = {
+                        name = name,
+                        rank = node.currentRank,
+                        tree = Num(node.subTreeID) or treeID,
+                        x = Num(node.posX) or 0,
+                        y = Num(node.posY) or 0,
+                    }
                 end
             end
         end

@@ -124,6 +124,29 @@ local function RawTraits()
         local okTree, nodes = pcall(C_Traits.GetTreeNodes, treeID)
         out.numNodes = okTree and type(nodes) == 'table' and #nodes or 'error'
         out.treeInfo = Call('C_Traits.GetTreeInfo', configID, treeID)
+        out.ranked = {}
+        if okTree and type(nodes) == 'table' then
+            for _, nodeID in ipairs(nodes) do
+                local okNode, node = pcall(C_Traits.GetNodeInfo, configID, nodeID)
+                if okNode and type(node) == 'table' and (tonumber(node.currentRank) or 0) > 0 then
+                    local active = type(node.activeEntry) == 'table' and node.activeEntry.entryID or nil
+                    local committed = type(node.entryIDsWithCommittedRanks) == 'table'
+                        and node.entryIDsWithCommittedRanks[1] or nil
+                    local first = type(node.entryIDs) == 'table' and node.entryIDs[1] or nil
+                    local entryID = active or committed or first
+                    local okEntry, entry = pcall(C_Traits.GetEntryInfo, configID, entryID)
+                    local definitionID = okEntry and type(entry) == 'table' and entry.definitionID or nil
+                    local okDef, definition = pcall(C_Traits.GetDefinitionInfo, definitionID)
+                    local spellID = okDef and type(definition) == 'table' and definition.spellID or nil
+                    out.ranked[#out.ranked + 1] = {
+                        node = nodeID, rank = node.currentRank, max = node.maxRanks,
+                        active = active, committed = committed, first = first,
+                        definition = definitionID, spell = spellID,
+                        x = node.posX, y = node.posY, groups = node.groupIDs and #node.groupIDs or 0,
+                    }
+                end
+            end
+        end
         out.sampleNodes = {}
         if okTree and type(nodes) == 'table' then
             for index = 1, math.min(#nodes, 3) do
