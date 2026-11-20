@@ -109,3 +109,31 @@ def test_prompt_orders_build_trees_and_expands_broad_answers():
     assert ('start with the main tree (the one with most points) and continue with the others '
             'from most to fewest points') in system_en
     assert 'take the space you need and cover each topic they ask for with the data' in system_en
+
+
+def test_prompt_lists_the_player_profile_sent_by_the_addon():
+    message = {
+        'lang': 'esES',
+        'q': 'revisa mis talentos',
+        'ctx': {
+            'lvl': 19,
+            'pf': {
+                'tal': {'list': [['Aspectos letales', 5], ['Entrenamiento en aguante', 3]], 'free': 1},
+                'prof': [['Desuello', 58, 75]],
+                'gear': [[1, 'Yelmo de prueba'], [16, 'Filo de las Milicias del pueblo']],
+                'st': {'hp': 783, 'armor': 430, 'main': [29, 62, 47, 30, 38]},
+            },
+        },
+    }
+    _, user = build_prompt(message)
+    assert 'Talentos aprendidos (leídos del juego, rango gastado) (8): Aspectos letales 5, Entrenamiento en aguante 3' in user
+    assert 'Puntos de talento sin gastar: 1' in user
+    assert 'Desuello 58/75' in user
+    assert 'Cabeza: Yelmo de prueba; Mano derecha: Filo de las Milicias del pueblo' in user
+    assert 'Fuerza 29, Agilidad 62, Aguante 47, Intelecto 30, Espíritu 38, Salud 783, Armadura 430' in user
+
+
+def test_prompt_ignores_a_malformed_profile():
+    message = {'lang': 'esES', 'q': 'hola', 'ctx': {'pf': {'tal': 'x', 'prof': [1, ['a']], 'gear': 5, 'st': []}}}
+    _, user = build_prompt(message)
+    assert 'Talentos aprendidos' not in user

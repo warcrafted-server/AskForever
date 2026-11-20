@@ -92,6 +92,49 @@ local function Talents()
     return out
 end
 
+local function Keys(value, limit)
+    local out = {}
+    if type(value) ~= 'table' then
+        return tostring(value)
+    end
+    for key, item in pairs(value) do
+        local kind = type(item)
+        out[tostring(key)] = (kind == 'string' or kind == 'number' or kind == 'boolean') and item or ('<' .. kind .. '>')
+        limit = limit - 1
+        if limit <= 0 then
+            break
+        end
+    end
+    return out
+end
+
+-- Estructura de C_Traits tal como la devuelve este cliente (solo claves y valores sencillos).
+local function RawTraits()
+    local out = {}
+    if not (C_ClassTalents and C_Traits) then
+        return 'sin-C_Traits'
+    end
+    local okId, configID = pcall(C_ClassTalents.GetActiveConfigID)
+    out.configID = okId and configID or 'error'
+    local okCfg, config = pcall(C_Traits.GetConfigInfo, configID)
+    out.config = okCfg and Keys(config, 20) or 'error'
+    local treeID = okCfg and type(config) == 'table' and type(config.treeIDs) == 'table' and config.treeIDs[1]
+    out.treeIDs = okCfg and type(config) == 'table' and config.treeIDs or nil
+    if treeID then
+        local okTree, nodes = pcall(C_Traits.GetTreeNodes, treeID)
+        out.numNodes = okTree and type(nodes) == 'table' and #nodes or 'error'
+        out.treeInfo = Call('C_Traits.GetTreeInfo', configID, treeID)
+        out.sampleNodes = {}
+        if okTree and type(nodes) == 'table' then
+            for index = 1, math.min(#nodes, 3) do
+                local okNode, node = pcall(C_Traits.GetNodeInfo, configID, nodes[index])
+                out.sampleNodes[index] = okNode and Keys(node, 30) or 'error'
+            end
+        end
+    end
+    return out
+end
+
 local function Professions()
     local out = {}
     out.getProfessions = Call('GetProfessions')
@@ -169,6 +212,13 @@ local function Probe()
         race = Call('UnitRace', 'player'), build = Call('GetBuildInfo'),
         guild = Call('GetGuildInfo', 'player'),
     }
+    -- Lo que enviaría el addon de verdad, y la estructura cruda de talentos para corregirlo si falla.
+    if ns.Profile then
+        local ok, collected = pcall(ns.Profile.Collect)
+        sample.collector = ok and collected or ('error: ' .. tostring(collected))
+        sample.talentList = select(2, pcall(ns.Profile.Talents))
+    end
+    sample.traits = RawTraits()
     sample.talents = Talents()
     sample.professions = Professions()
     sample.gear = Gear()

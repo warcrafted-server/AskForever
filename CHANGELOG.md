@@ -6,11 +6,13 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ### English
 - Added: the assistant now knows class talents can be forgotten (reset button in the talent window, it costs gold) and no longer mixes it up with respeccing Legacy Points.
-- Changed: when asked to review talent points, it says how many the player should have at their level and that it cannot see what was spent.
+- Added: the addon now sends a summary of your character (learned talents and unspent points, professions, worn gear and stats) so the assistant can answer questions about you, such as reviewing your talents. Nothing is sent that identifies you: no name, realm or gold.
+- Changed: if the summary is missing, it says how many talent points the player should have at their level and that it cannot see what was spent.
 
 ### Español
 - Añadido: el asistente sabe ahora que los talentos de clase se pueden olvidar (botón de restablecer en la ventana de talentos, cuesta oro) y ya no lo confunde con reasignar puntos Legacy.
-- Cambiado: al pedirle que revise los puntos de talento, dice cuántos corresponden al nivel y que no ve lo que se ha gastado.
+- Añadido: el addon envía ahora un resumen de tu personaje (talentos aprendidos y puntos sin gastar, profesiones, equipo puesto y estadísticas) para que el asistente responda preguntas sobre ti, como revisar tus talentos. No se envía nada que te identifique: ni nombre, ni reino, ni oro.
+- Cambiado: si falta el resumen, dice cuántos puntos de talento corresponden al nivel y que no ve lo que se ha gastado.
 
 ## [0.4.0-beta.8] - 2026-11-19
 

@@ -18,6 +18,11 @@ _LABELS = {
         'coords': 'Coordenadas',
         'quests': 'Misiones activas',
         'question': 'Pregunta',
+        'talents': 'Talentos aprendidos (leídos del juego, rango gastado)',
+        'talents_free': 'Puntos de talento sin gastar',
+        'professions': 'Profesiones (habilidad actual/máxima)',
+        'gear': 'Equipo puesto',
+        'stats': 'Estadísticas',
     },
     'en': {
         'level': 'Level',
@@ -29,6 +34,11 @@ _LABELS = {
         'coords': 'Coordinates',
         'quests': 'Active quests',
         'question': 'Question',
+        'talents': 'Learned talents (read from the game, rank spent)',
+        'talents_free': 'Unspent talent points',
+        'professions': 'Professions (current/maximum skill)',
+        'gear': 'Equipped gear',
+        'stats': 'Stats',
     },
 }
 
@@ -72,7 +82,7 @@ _SYSTEM = {
         'pregunta (por ejemplo, si existe una función o mecánica del juego como la doble '
         'especialización), di que no tienes ese dato: nunca afirmes ni niegues que algo existe '
         'en WoW Forever si no aparece en los datos o en la fuente externa, aunque creas '
-        'saberlo, porque Forever no es igual que otras versiones del juego. Si piden una build o qué talentos llevar, da completa la build de la ficha que mejor encaje con la pregunta (rama, rol y contenido: subida, mazmorras, bandas o JcJ): todas sus ramas y cada talento con sus rangos, aunque ocupe más de 5 líneas; no quites, cambies ni añadas talentos. Si preguntan qué talentos debería tener ya a su nivel, usa los puntos de talento del contexto: sigue el orden de la ruta o de la build de la ficha y para al gastar esa cifra; nunca cuentes más puntos de los que tiene. No ves cuántos puntos ha gastado ni dónde: si piden revisar sus talentos, di cuántos puntos le corresponden a su nivel, aclara que no ves lo que ha gastado y da la ruta o build de la ficha para que compare. La pregunta puede tratar de otra clase, raza o especialización distinta de la del personaje: respóndela igual con los datos, sin recordarle cuál es la suya. Cuando una ficha con título («…») responde a la pregunta, manda sobre las listas generales (talentos disponibles, bestias, PNJ), que solo sirven para completar. No completes talentos, rangos, builds ni mecánicas de clase con lo que sepas de otras versiones del juego.'
+        'saberlo, porque Forever no es igual que otras versiones del juego. Si piden una build o qué talentos llevar, da completa la build de la ficha que mejor encaje con la pregunta (rama, rol y contenido: subida, mazmorras, bandas o JcJ): todas sus ramas y cada talento con sus rangos, aunque ocupe más de 5 líneas; no quites, cambies ni añadas talentos. Si preguntan qué talentos debería tener ya a su nivel, usa los puntos de talento del contexto: sigue el orden de la ruta o de la build de la ficha y para al gastar esa cifra; nunca cuentes más puntos de los que tiene. Si el contexto trae «Talentos aprendidos», es lo que el jugador tiene gastado de verdad: si piden revisar sus talentos, compáralos con la ruta o build de la ficha, di qué le falta, qué le sobra y cuántos puntos tiene sin gastar. Si el contexto no los trae, no ves lo que ha gastado: di cuántos puntos le corresponden a su nivel y da la ruta o build de la ficha para que compare. Usa también sus profesiones, equipo y estadísticas del contexto cuando la pregunta trate de él o de su personaje (por ejemplo, qué mejorar, qué le falta o si va bien equipado). La pregunta puede tratar de otra clase, raza o especialización distinta de la del personaje: respóndela igual con los datos, sin recordarle cuál es la suya. Cuando una ficha con título («…») responde a la pregunta, manda sobre las listas generales (talentos disponibles, bestias, PNJ), que solo sirven para completar. No completes talentos, rangos, builds ni mecánicas de clase con lo que sepas de otras versiones del juego.'
         ' Si la pregunta es ambigua (puede referirse a varias misiones, PNJ, objetos o lugares) y los datos no permiten saber cuál, pregunta cuál en una frase en lugar de decir que no lo sabes.'
         ' Al dar una build, empieza por la rama principal (la que tiene más puntos) y sigue con las demás de más a menos puntos. Si piden expresamente una respuesta amplia («todo», «todos los consejos», «en detalle»), extiéndete lo necesario y cubre cada tema que pidan con los datos.'
     ),
@@ -115,7 +125,7 @@ _SYSTEM = {
         'specialization exists), say you do not have that information: never state or deny '
         'that something exists in WoW Forever unless it appears in the data or the external '
         'source, even if you think you know it, because Forever is not the same as other '
-        'versions of the game. If asked for a build or which talents to take, give the build of the section that best fits the question (tree, role and content: levelling, dungeons, raids or PvP) in full: all its trees and every talent with its ranks, even if it takes more than 5 lines; do not drop, change or add talents. If asked which talents they should already have at their level, use the talent points in the context: follow the order of the path or build and stop when that number is spent; never count more points than they have. You cannot see how many points they have spent or where: if asked to review their talents, say how many points they should have at their level, say that you cannot see what they spent, and give the path or build from the card so they can compare. The question may be about a class, race or specialization other than the one of the character: answer it anyway with the data, without reminding them of their own. When a titled section («…») answers the question, it takes priority over general lists (available talents, beasts, NPCs), which only serve to complete it. Do not fill in talents, ranks, builds or class mechanics with what you know from other versions of the game.'
+        'versions of the game. If asked for a build or which talents to take, give the build of the section that best fits the question (tree, role and content: levelling, dungeons, raids or PvP) in full: all its trees and every talent with its ranks, even if it takes more than 5 lines; do not drop, change or add talents. If asked which talents they should already have at their level, use the talent points in the context: follow the order of the path or build and stop when that number is spent; never count more points than they have. If the context has «Learned talents», that is what the player has really spent: if asked to review their talents, compare them with the path or build of the card, say what is missing, what is extra and how many points are unspent. If the context does not have them, you cannot see what they spent: say how many points they should have at their level and give the path or build from the card so they can compare. Also use their professions, gear and stats from the context when the question is about them or their character (for example what to improve, what is missing or whether they are well equipped). The question may be about a class, race or specialization other than the one of the character: answer it anyway with the data, without reminding them of their own. When a titled section («…») answers the question, it takes priority over general lists (available talents, beasts, NPCs), which only serve to complete it. Do not fill in talents, ranks, builds or class mechanics with what you know from other versions of the game.'
         ' If the question is ambiguous (it may refer to several quests, NPCs, items or places) and the data cannot tell which, ask which one in one sentence instead of saying you do not know.'
         ' When giving a build, start with the main tree (the one with most points) and continue with the others from most to fewest points. If they explicitly ask for a broad answer ("everything", "all the tips", "in detail"), take the space you need and cover each topic they ask for with the data.'
     ),
@@ -238,7 +248,100 @@ def _quest_line(quest) -> Optional[str]:
     return line
 
 
-def _context_lines(ctx, labels) -> list[str]:
+_MAX_PROFILE_ITEMS = 70
+
+_SLOTS = {
+    'es': {1: 'Cabeza', 2: 'Cuello', 3: 'Hombros', 4: 'Camisa', 5: 'Pecho', 6: 'Cintura', 7: 'Piernas',
+           8: 'Pies', 9: 'Muñecas', 10: 'Manos', 11: 'Anillo 1', 12: 'Anillo 2', 13: 'Abalorio 1',
+           14: 'Abalorio 2', 15: 'Espalda', 16: 'Mano derecha', 17: 'Mano izquierda',
+           18: 'A distancia', 19: 'Tabardo'},
+    'en': {1: 'Head', 2: 'Neck', 3: 'Shoulders', 4: 'Shirt', 5: 'Chest', 6: 'Waist', 7: 'Legs',
+           8: 'Feet', 9: 'Wrists', 10: 'Hands', 11: 'Ring 1', 12: 'Ring 2', 13: 'Trinket 1',
+           14: 'Trinket 2', 15: 'Back', 16: 'Main hand', 17: 'Off hand', 18: 'Ranged', 19: 'Tabard'},
+}
+
+_STATS = {
+    'es': (('hp', 'Salud'), ('power', 'Maná o energía'), ('armor', 'Armadura'), ('ap', 'Poder de ataque'),
+           ('rap', 'Poder de ataque a distancia'), ('crit', '% crítico cuerpo a cuerpo'),
+           ('rcrit', '% crítico a distancia'), ('scrit', '% crítico de hechizos'),
+           ('dodge', '% esquivar'), ('parry', '% parar'), ('block', '% bloqueo')),
+    'en': (('hp', 'Health'), ('power', 'Mana or energy'), ('armor', 'Armor'), ('ap', 'Attack power'),
+           ('rap', 'Ranged attack power'), ('crit', 'Melee crit %'), ('rcrit', 'Ranged crit %'),
+           ('scrit', 'Spell crit %'), ('dodge', 'Dodge %'), ('parry', 'Parry %'), ('block', 'Block %')),
+}
+
+_MAIN_STATS = {
+    'es': ('Fuerza', 'Agilidad', 'Aguante', 'Intelecto', 'Espíritu'),
+    'en': ('Strength', 'Agility', 'Stamina', 'Intellect', 'Spirit'),
+}
+
+
+def _profile_lines(profile, labels, language: str) -> list[str]:
+    """Líneas del perfil del personaje que manda el addon (talentos, profesiones, equipo, estadísticas)."""
+    if not isinstance(profile, dict):
+        return []
+    lines = []
+
+    talents = profile.get('tal')
+    if isinstance(talents, dict):
+        items = []
+        spent = 0
+        for item in talents.get('list') or []:
+            if len(items) >= _MAX_PROFILE_ITEMS:
+                break
+            if not isinstance(item, (list, tuple)) or len(item) < 2:
+                continue
+            name, rank = _text(item[0]), item[1]
+            if name is None or not _is_number(rank) or rank <= 0:
+                continue
+            spent += int(rank)
+            items.append(f'{name} {_number_text(rank)}')
+        if items:
+            lines.append(f'{labels["talents"]} ({spent}): ' + ', '.join(items))
+        free = talents.get('free')
+        if _is_number(free):
+            lines.append(f'{labels["talents_free"]}: {_number_text(free)}')
+
+    professions = profile.get('prof')
+    if isinstance(professions, list):
+        items = []
+        for item in professions[:6]:
+            if isinstance(item, (list, tuple)) and len(item) >= 3 and _text(item[0]) \
+                    and _is_number(item[1]) and _is_number(item[2]):
+                items.append(f'{_text(item[0])} {_number_text(item[1])}/{_number_text(item[2])}')
+        if items:
+            lines.append(f'{labels["professions"]}: ' + ', '.join(items))
+
+    gear = profile.get('gear')
+    if isinstance(gear, list):
+        slots = _SLOTS.get(language, _SLOTS['en'])
+        items = []
+        for item in gear[:19]:
+            if isinstance(item, (list, tuple)) and len(item) >= 2 and _is_number(item[0]) and _text(item[1]):
+                slot = slots.get(int(item[0]))
+                if slot:
+                    items.append(f'{slot}: {_text(item[1])}')
+        if items:
+            lines.append(f'{labels["gear"]}: ' + '; '.join(items))
+
+    stats = profile.get('st')
+    if isinstance(stats, dict):
+        items = []
+        main = stats.get('main')
+        if isinstance(main, list):
+            for name, value in zip(_MAIN_STATS.get(language, _MAIN_STATS['en']), main):
+                if _is_number(value):
+                    items.append(f'{name} {_number_text(value)}')
+        for key, name in _STATS.get(language, _STATS['en']):
+            value = stats.get(key)
+            if _is_number(value):
+                items.append(f'{name} {_number_text(value)}')
+        if items:
+            lines.append(f'{labels["stats"]}: ' + ', '.join(items))
+    return lines
+
+
+def _context_lines(ctx, labels, language: str = 'es') -> list[str]:
     if not isinstance(ctx, dict):
         return []
     lines = []
@@ -269,6 +372,8 @@ def _context_lines(ctx, labels) -> list[str]:
     y = ctx.get('y')
     if _is_number(x) and _is_number(y):
         lines.append(f'{labels["coords"]}: {_number_text(x)}, {_number_text(y)}')
+
+    lines.extend(_profile_lines(ctx.get('pf'), labels, language))
 
     quests = ctx.get('quests')
     if isinstance(quests, list):
@@ -373,7 +478,7 @@ def build_prompt(message: dict, facts_text: str = '', history=None,
     question_language = _detect_question_language(question, language)
     glossary_lines = _glossary_lines(glossary)
 
-    lines = _context_lines(message.get('ctx'), labels)
+    lines = _context_lines(message.get('ctx'), labels, language)
     lines.extend(_history_lines(history, language))
     if facts_text:
         lines.append(str(facts_text).strip())
