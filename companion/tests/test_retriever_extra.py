@@ -1269,6 +1269,16 @@ def test_talent_detail_question_without_talent_keyword(db):
     assert 'talent:1' in facts.sources
 
 
+def test_player_talents_include_max_rank(db):
+    ctx = dict(CTX, **{'class': 'Cazador', 'pf': {'tal': {'free': 1, 'list': [
+        ['Entrenamiento en aguante', 1], ['Talento inexistente', 3]]}}})
+    facts = retrieve(_message('¿Qué punto gasto?', ctx=ctx), db)
+    text = _text(facts)
+    assert 'Talento inexistente' not in text
+    assert 'Entrenamiento en aguante 1/5 (faltan 4)' in text
+    assert 'talents:player' in facts.sources
+
+
 def test_talent_detail_english(db):
     facts = retrieve(_message('What does Endurance Training do?', lang='enUS'), db)
     text = _text(facts)

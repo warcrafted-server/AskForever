@@ -11,6 +11,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Added: Maraudon quest list, Timbermaw Hold reputation from Azshara and Blackmaw Hold, and new drop details for the Tarnished Undermine Real.
 - Corrected: weapon skills can be trained from level 10 (Polearms from level 20).
 - Updated (November 21 guides): Hunter stat priorities now include haste and no longer call them speculative; Hunter enchants and combat consumables follow the current lists; Ta'shkal joins the fastest-attacking pets; Marksmanship mana weakness; Restoration Shaman Ghost Wolf build; Dartol's Rod toy replica; Arathi Basin battlemaster location in Thunder Bluff.
+- Corrected: when you ask where to spend a talent point, the assistant now receives the maximum rank of each talent you already have, so it no longer invents ranks (it said Focused Fire 3/3; it has 2).
 - Data patch 2026.11.21.1.
 
 ### Español
@@ -18,6 +19,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Añadido: lista de misiones de Maraudon, reputación de los Fauces de Madera desde Azshara y el Bastión Faucenegra, y nuevos datos de caída del Real deslustrado de Minahonda.
 - Corregido: las habilidades de armas se aprenden desde el nivel 10 (Armas de asta, desde el 20).
 - Actualizado (guías del 21 de noviembre): las prioridades de estadísticas del Cazador incluyen la celeridad y ya no se llaman especulativas; encantamientos y consumibles de combate del Cazador según las listas actuales; Ta'shkal entra entre las mascotas de ataque más rápido; debilidad de maná de Puntería; build de Lobo fantasmal del Chamán Restauración; réplica de la Vara de Dartol como juguete; ubicación del maestro de batalla de la Cuenca de Arathi en Cima del Trueno.
+- Corregido: al preguntar dónde gastar un punto de talento, el asistente recibe el rango máximo de cada talento que ya tienes y no inventa rangos (decía Fuego enfocado 3/3; tiene 2).
 - Parche de datos 2026.11.21.1.
 
 ## [0.4.0-beta.10] - 2026-11-21

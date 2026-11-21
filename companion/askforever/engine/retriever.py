@@ -2077,6 +2077,49 @@ def _talent_tree_line(talents, mask, slug, label, lang: str):
     return line
 
 
+PLAYER_TALENT_WORDS = ('talento', 'talent', 'punto', 'point', 'gast', 'spend', 'rama', 'tree',
+                       'build')
+
+
+def _detect_player_talents(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
+    """Rango máximo de cada talento que ya tiene el jugador, para no inventar cuántos puntos admite."""
+    profile = ctx.get('pf')
+    talents = profile.get('tal') if isinstance(profile, dict) else None
+    spent = talents.get('list') if isinstance(talents, dict) else None
+    if not spent or not any(word in normalized for word in PLAYER_TALENT_WORDS):
+        return
+    mask = class_mask_from_name(ctx.get('class'))
+    loader = getattr(db, 'forever_talents', None)
+    catalog = _safe(loader) if loader is not None else []
+    if mask is None or not catalog:
+        return
+    maxima = {}
+    for talent in catalog:
+        if _talent_matches_class(talent, mask):
+            for key in ('nombre_es', 'nombre_en'):
+                name = normalize(talent.get(key))
+                if name:
+                    maxima[name] = _talent_int(talent.get('max_rank'))
+    parts = []
+    for item in spent:
+        if not isinstance(item, (list, tuple)) or len(item) < 2 or not isinstance(item[0], str):
+            continue
+        limit = maxima.get(normalize(item[0]))
+        rank = _talent_int(item[1])
+        if not limit or rank <= 0:
+            continue
+        if rank >= limit:
+            note = 'completo' if lang == 'es' else 'maxed'
+        else:
+            note = (f'faltan {limit - rank}' if lang == 'es' else f'{limit - rank} left')
+        parts.append(f'{item[0]} {rank}/{limit} ({note})')
+    if parts:
+        head = ('Talentos del jugador con su rango máximo: ' if lang == 'es'
+                else 'Player talents with their maximum rank: ')
+        facts.lines.append(head + ', '.join(parts) + '.')
+        _add_source(facts, 'talents:player')
+
+
 def _detect_talents(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
     if not any(word in normalized for word in TALENT_KEYWORDS):
         return
@@ -2413,6 +2456,7 @@ def retrieve(message, db) -> Facts:
         _detect_services(facts, db, matches, normalized, lang, ctx)
         _detect_pets(facts, db, normalized, lang, ctx)
         _detect_bis(facts, db, normalized, lang, ctx)
+        _detect_player_talents(facts, db, normalized, lang, ctx)
         _detect_talents(facts, db, normalized, lang, ctx)
         _detect_talent_details(facts, db, normalized, lang, ctx)
         _detect_quest_list(facts, db, normalized, lang, ctx)
