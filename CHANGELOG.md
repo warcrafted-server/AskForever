@@ -4,14 +4,13 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
-## [0.4.0-beta.10] - 2026-11-21
+## [0.4.0-beta.11] - 2026-11-21
 
 ### English
 - Updated: the guide cards now follow the November 19 guide update: Hunter (Auto Shot, Beast Mastery, Survival weaving rotation and talent builds), class stats, builds and enchants, PvP (weekly Field of Honor quests, battlemaster locations, rank points, gear costs, Darkspear Islands) and the raids (entrances, boss counts, no attunement for the two new ones).
 - Added: Maraudon quest list, Timbermaw Hold reputation from Azshara and Blackmaw Hold, and new drop details for the Tarnished Undermine Real.
 - Corrected: weapon skills can be trained from level 10 (Polearms from level 20).
 - Updated (November 21 guides): Hunter stat priorities now include haste and no longer call them speculative; Hunter enchants and combat consumables follow the current lists; Ta'shkal joins the fastest-attacking pets; Marksmanship mana weakness; Restoration Shaman Ghost Wolf build; Dartol's Rod toy replica; Arathi Basin battlemaster location in Thunder Bluff.
-- Corrected: opening another window (talents, bags…) closes the AskForever window; reopening it right away now keeps the conversation instead of losing the answers (a new conversation starts only after 2 minutes closed).
 - Data patch 2026.11.21.1.
 
 ### Español
@@ -19,8 +18,15 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Añadido: lista de misiones de Maraudon, reputación de los Fauces de Madera desde Azshara y el Bastión Faucenegra, y nuevos datos de caída del Real deslustrado de Minahonda.
 - Corregido: las habilidades de armas se aprenden desde el nivel 10 (Armas de asta, desde el 20).
 - Actualizado (guías del 21 de noviembre): las prioridades de estadísticas del Cazador incluyen la celeridad y ya no se llaman especulativas; encantamientos y consumibles de combate del Cazador según las listas actuales; Ta'shkal entra entre las mascotas de ataque más rápido; debilidad de maná de Puntería; build de Lobo fantasmal del Chamán Restauración; réplica de la Vara de Dartol como juguete; ubicación del maestro de batalla de la Cuenca de Arathi en Cima del Trueno.
-- Corregido: al abrir otra ventana (talentos, mochilas…) se cierra la de AskForever; si la reabres enseguida, la conversación continúa y ya no se pierden las respuestas (la conversación nueva empieza tras 2 minutos cerrada).
 - Parche de datos 2026.11.21.1.
+
+## [0.4.0-beta.10] - 2026-11-21
+
+### English
+- Corrected: opening another window (talents, bags…) closes the AskForever window; reopening it right away now keeps the conversation instead of losing the answers (a new conversation starts only after 2 minutes closed).
+
+### Español
+- Corregido: al abrir otra ventana (talentos, mochilas…) se cierra la de AskForever; si la reabres enseguida, la conversación continúa y ya no se pierden las respuestas (la conversación nueva empieza tras 2 minutos cerrada).
 
 ## [0.4.0-beta.9] - 2026-11-20
 
