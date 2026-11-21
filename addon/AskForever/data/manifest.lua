@@ -1,4 +1,4 @@
 -- AskForever data: read by the AskForever companion, never loaded by the game.
 return [==[
-{"format":1,"patch":"2026.11.20.2","base":"data-2026.11.18","base_sha256":"436f617db8a244da1c5d9b038f50e859c885f3cced0809284f226cdca0bc7e14","guide":"guide.lua","db":["db-001.lua","db-002.lua"],"generated":"2026-11-20T19:36:01Z"}
+{"format":1,"patch":"2026.11.21.1","base":"data-2026.11.18","base_sha256":"436f617db8a244da1c5d9b038f50e859c885f3cced0809284f226cdca0bc7e14","guide":"guide.lua","db":["db-001.lua","db-002.lua"],"generated":"2026-11-21T07:25:42Z"}
 ]==]
