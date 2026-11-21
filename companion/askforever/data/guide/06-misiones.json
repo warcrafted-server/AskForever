@@ -1772,29 +1772,29 @@
         "Dartol's Rod of Transformation",
         "Orb of Deception toy"
       ],
-      "text_es": "Entre los juguetes cosméticos, la Vara de transformación de Dartol convierte al personaje en un furbolg y el Orbe de engaño lo transforma en una raza de la facción contraria. El orbe puede caer de enemigos de nivel 55 o superior, con más probabilidad en jefes de banda. La vara se prepara durante La limpieza de Raene, pero no está claro si se conserva al completar la última misión.",
-      "text_en": "Among cosmetic toys, Dartol's Rod of Transformation turns your character into a furbolg, while the Orb of Deception changes you into a race from the opposite faction. The orb can drop from enemies level 55 or higher, with a better chance from raid bosses. The rod is made during Raene's Cleansing, but it is unclear whether it remains after turning in the final quest.",
+      "text_es": "Entre los juguetes cosméticos, la Vara de transformación de Dartol (nivel 25 o más) convierte al personaje en un furbolg y el Orbe de engaño lo transforma en una raza de la facción contraria. El orbe puede caer de enemigos de nivel 55 o superior, con más probabilidad en jefes de banda. La vara se usa durante La limpieza de Raene y, al entregar la última misión, recibes la Réplica de vara de transformación de Dartol, que es el juguete.",
+      "text_en": "Among cosmetic toys, Dartol's Rod of Transformation (level 25 or higher) turns your character into a furbolg, while the Orb of Deception changes you into a race from the opposite faction. The orb can drop from enemies level 55 or higher, with a better chance from raid bosses. The rod is used during Raene's Cleansing and, on turning in the final quest, you receive the Replica Dartol's Rod of Transformation, which is the toy.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Dartol's Rod",
           "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
-          "date": "2026-11-14"
+          "date": "2026-11-21"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: LOTR: A Collector's Guide to WoW: Forever › Orb of Deception",
           "url": "https://www.wowhead.com/forever/guide/lotr-a-collectors-guide-to-wow-forever-34946",
-          "date": "2026-11-14"
+          "date": "2026-11-21"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-21",
       "topics": [
         "general:lotr-a-collectors-guide-to-wow-forever-34946"
       ],
       "source_hashes": [
         "section:ce65a68e7a8420436dd4b43dd0db9ef5b16feeff",
-        "section:ec99db57ab70a133a6ad97f5e28021b62397fccb"
+        "section:cf43e2594e9cad096ef8b6a6d8e623a3b7c5089e"
       ]
     },
     {

@@ -1226,8 +1226,8 @@
       "status": "editorial",
       "title_es": "Estadísticas de Dominio de bestias",
       "title_en": "Beast Mastery Stats",
-      "summary_es": "Prioridad de Dominio: golpe hasta 8%, crítico, celeridad, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante.",
-      "summary_en": "Beast Mastery priority: hit to 8%, crit, haste, agility, intellect, ranged attack power, spirit and stamina.",
+      "summary_es": "Prioridad de Dominio: golpe hasta 8%, crítico, celeridad, agilidad, intelecto y más.",
+      "summary_en": "Beast Mastery priority: hit to 8%, crit, haste, agility, intellect and more.",
       "keywords_es": [
         "estadísticas dominio de bestias",
         "prioridad de estadísticas cazador",
@@ -1269,8 +1269,8 @@
       "status": "editorial",
       "title_es": "Estadísticas de Puntería",
       "title_en": "Marksmanship Stats",
-      "summary_es": "Prioridad de Puntería: golpe hasta 8%, crítico, celeridad, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante.",
-      "summary_en": "Marksmanship priority: hit to 8%, crit, haste, agility, intellect, ranged attack power, spirit and stamina.",
+      "summary_es": "Prioridad de Puntería: golpe hasta 8%, crítico, celeridad, agilidad, intelecto y más.",
+      "summary_en": "Marksmanship priority: hit to 8%, crit, haste, agility, intellect and more.",
       "keywords_es": [
         "estadísticas puntería",
         "prioridad de estadísticas puntería",
@@ -1312,8 +1312,8 @@
       "status": "editorial",
       "title_es": "Estadísticas de Supervivencia",
       "title_en": "Survival Stats",
-      "summary_es": "Prioridad de Supervivencia: golpe, crítico, celeridad, agilidad, fuerza, ataque, intelecto, espíritu y aguante.",
-      "summary_en": "Survival priority: hit, crit, haste, agility, strength, attack power, intellect, spirit and stamina.",
+      "summary_es": "Prioridad de Supervivencia: golpe, crítico, celeridad, agilidad, fuerza y más.",
+      "summary_en": "Survival priority: hit, crit, haste, agility, strength and more.",
       "keywords_es": [
         "estadísticas supervivencia",
         "prioridad de estadísticas supervivencia",
