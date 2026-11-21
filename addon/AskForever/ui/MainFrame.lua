@@ -17,6 +17,9 @@ local history
 local editBox
 local summaryText
 local sentThisOpening = false
+local pendingNewConv = false
+local hiddenAt = 0
+local NEW_CONV_AFTER = 120
 
 local function AddHistory(text, color)
     history:AddMessage(text, color[1], color[2], color[3])
@@ -311,6 +314,16 @@ local function EnsureMainFrame()
     table.insert(UISpecialFrames, 'AskForeverMainFrame')
 
     mainFrame:SetScript('OnShow', function()
+        -- Otras ventanas (talentos, mochila…) cierran esta al abrirse: si se reabre
+        -- enseguida, la conversación sigue y no se pierden las respuestas.
+        if pendingNewConv and (GetTime() - hiddenAt) > NEW_CONV_AFTER then
+            local nextConv = ConversationNumber() + 1
+            if nextConv > 65535 then
+                nextConv = 1
+            end
+            AskForeverDB.transport.conv = nextConv
+        end
+        pendingNewConv = false
         sentThisOpening = false
         ConversationNumber()
         summaryText:SetText(BuildSummary())
@@ -322,11 +335,8 @@ local function EnsureMainFrame()
     mainFrame:SetScript('OnHide', function()
         editBox:ClearFocus()
         if sentThisOpening then
-            local nextConv = ConversationNumber() + 1
-            if nextConv > 65535 then
-                nextConv = 1
-            end
-            AskForeverDB.transport.conv = nextConv
+            pendingNewConv = true
+            hiddenAt = GetTime()
             sentThisOpening = false
         end
         if ns.Transport and type(ns.Transport.SendUi) == 'function' then

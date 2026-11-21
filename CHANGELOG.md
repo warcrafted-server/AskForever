@@ -4,6 +4,14 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+## [0.4.0-beta.10] - 2026-11-21
+
+### English
+- Corrected: opening another window (talents, bags…) closes the AskForever window; reopening it right away now keeps the conversation instead of losing the answers (a new conversation starts only after 2 minutes closed).
+
+### Español
+- Corregido: al abrir otra ventana (talentos, mochilas…) se cierra la de AskForever; si la reabres enseguida, la conversación continúa y ya no se pierden las respuestas (la conversación nueva empieza tras 2 minutos cerrada).
+
 ## [0.4.0-beta.9] - 2026-11-20
 
 ### English
