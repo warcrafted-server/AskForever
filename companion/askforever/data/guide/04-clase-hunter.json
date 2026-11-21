@@ -129,7 +129,7 @@
       "source_hashes": [
         "section:10791531ddc295c18a4c1577ed91e8b12fb7485d",
         "section:32c04eecda9e0252775bbf8bca6167ff719d4161",
-        "section:46856ce2300d78ee222b4a49afed77d2c6687cdc",
+        "section:5494d2ff365d919ead7e233f658064b219ee61f0",
         "section:b273cb1ec4966348241552f8a1abbb7bd4a8a1da",
         "section:cbb1cb3f670b84fb68bb10ea657eeb04fcef8982",
         "section:da199ff971c8aeed3d43255c4ebfa263db589a4b"
@@ -239,9 +239,9 @@
         "class:hunter:survival:overview"
       ],
       "source_hashes": [
-        "section:035db25891b81d9534640b3214221ac20753d0fb",
         "section:180be50b22ce58200948bacf3dd1bada8f0f5b40",
         "section:4939a183f78b0a1c03d678670f7ee1a6229ad897",
+        "section:5ff59e474cbf9510a7b457d68069b166a662901e",
         "section:65ee6c79512d806cee42e5c340f8fa6242350e23",
         "section:67a3af4f36e5bc1112f7f05b9b315adbf5ed20f8",
         "section:7934f62052a2fcc15ecbd2ebba4cee1f7b65b02d",
@@ -365,7 +365,7 @@
       ],
       "source_hashes": [
         "section:53a817f4dd17ae8a8405b14a436b0b429e8c2744",
-        "section:ad8eb655b1b5f1bf6020502682c0c418111327fa",
+        "section:90fefe58e78a03d60fcd5c50b4054918572d8dbc",
         "section:efd8db5e4f29f46ff417a2079019ef89015abce0"
       ]
     },
@@ -773,7 +773,7 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Survival Hunter DPS in Burning Crusade",
+          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Survival Hunter DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
           "date": "2026-11-04"
         }
@@ -783,7 +783,7 @@
         "class:hunter:survival:leveling"
       ],
       "source_hashes": [
-        "section:0932b2c4f5955443026575b5d88689aab818fe98",
+        "section:266c4597069711a8b677f5c650a0e8a722121840",
         "section:65ee6c79512d806cee42e5c340f8fa6242350e23"
       ]
     },
@@ -999,7 +999,7 @@
       ],
       "source_hashes": [
         "section:32c04eecda9e0252775bbf8bca6167ff719d4161",
-        "section:46856ce2300d78ee222b4a49afed77d2c6687cdc",
+        "section:5494d2ff365d919ead7e233f658064b219ee61f0",
         "section:624f89870b5b6f37b58a63ee43f60872c6b65834",
         "section:88560907f787cadc42eb06c965b31b60556e1bbb"
       ]
@@ -1083,8 +1083,8 @@
         "sniper shot",
         "archer"
       ],
-      "text_es": "Puntería refuerza los disparos propios y el daño de ráfaga; Lobo solitario permite renunciar a la mascota y Disparo de francotirador define su estilo. Es la rama más difícil de jugar de las tres, sobre todo en solitario, y sufre el callejón de 8 yardas. Su Aura de disparo certero llega a toda la banda, pero ya no da poder de ataque cuerpo a cuerpo. Mientras subes necesitas que la mascota tanquee, así que Lobo solitario aún no es una opción.",
-      "text_en": "Marksmanship boosts your own shots and burst damage; Lone Wolf lets you give up the pet, and Sniper Shot defines its style. It is the hardest of the three to play, especially solo, and suffers the 8-yard dead zone. Trueshot Aura benefits the whole raid, but no longer grants melee attack power. While leveling you still need the pet to tank, so Lone Wolf is not an option yet.",
+      "text_es": "Puntería refuerza los disparos propios y el daño de ráfaga; Lobo solitario permite renunciar a la mascota y Disparo de francotirador define su estilo. Es la rama más difícil de jugar de las tres, sobre todo en solitario, y sufre el callejón de 8 yardas. Su Aura de disparo certero llega a toda la banda, pero ya no da poder de ataque cuerpo a cuerpo. Mientras subes necesitas que la mascota tanquee, así que Lobo solitario aún no es una opción. Hace mucho daño, pero aporta poco a la banda, y pasa apuros de maná si no hay una Sentencia de Sabiduría de un Paladín.",
+      "text_en": "Marksmanship boosts your own shots and burst damage; Lone Wolf lets you give up the pet, and Sniper Shot defines its style. It is the hardest of the three to play, especially solo, and suffers the 8-yard dead zone. Trueshot Aura benefits the whole raid, but no longer grants melee attack power. While leveling you still need the pet to tank, so Lone Wolf is not an option yet. It deals serious damage but adds little to a raid, and it runs short of mana when no Paladin Judgement of Wisdom is available.",
       "tags": [
         "HUNTER"
       ],
@@ -1093,49 +1093,56 @@
           "type": "editorial",
           "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › Changes to Marksmanship Hunter in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-21"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › Marksmanship Hunter for New Players in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-21"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › Strengths and Weaknesses of Marksmanship Hunter in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-21"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-21"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-21"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Marksmanship Hunter Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Marksmanship Hunter DPS in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/dps-leveling-tips",
-          "date": "2026-11-16"
+          "date": "2026-11-21"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Marksmanship Hunter DPS Guide - WoW: Forever › Viability of Marksmanship Hunter in Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/overview-pve-dps",
+          "date": "2026-11-21"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-21",
       "topics": [
         "class:hunter:marksmanship:leveling",
         "class:hunter:marksmanship:overview"
       ],
       "source_hashes": [
-        "section:0b6abb163bb13e3a195899f281155a51cbc798e6",
-        "section:46856ce2300d78ee222b4a49afed77d2c6687cdc",
+        "section:10586cb975d6a102a6e4a2531f234da868225af7",
+        "section:5494d2ff365d919ead7e233f658064b219ee61f0",
         "section:67a3af4f36e5bc1112f7f05b9b315adbf5ed20f8",
         "section:b407236e766d49fd9c2b411d1c74e166293d4c92",
+        "section:bca8e4ca5538984ce94f8a5e4a64cde49395459d",
         "section:d5522ac06733bbf35e8a614677c946d0eef39afa",
         "section:efd8db5e4f29f46ff417a2079019ef89015abce0"
       ]
@@ -1208,7 +1215,7 @@
       "source_hashes": [
         "section:10791531ddc295c18a4c1577ed91e8b12fb7485d",
         "section:88560907f787cadc42eb06c965b31b60556e1bbb",
-        "section:ad8eb655b1b5f1bf6020502682c0c418111327fa",
+        "section:90fefe58e78a03d60fcd5c50b4054918572d8dbc",
         "section:c0d0c99db1c69db7b25c9a659a766a412d4acb8e",
         "section:cbb1cb3f670b84fb68bb10ea657eeb04fcef8982"
       ]
@@ -1219,8 +1226,8 @@
       "status": "editorial",
       "title_es": "Estadísticas de Dominio de bestias",
       "title_en": "Beast Mastery Stats",
-      "summary_es": "Prioridad de Dominio: golpe hasta 8%, crítico, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante.",
-      "summary_en": "Beast Mastery priority: hit to 8%, crit, agility, intellect, ranged attack power, spirit, and stamina.",
+      "summary_es": "Prioridad de Dominio: golpe hasta 8%, crítico, celeridad, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante.",
+      "summary_en": "Beast Mastery priority: hit to 8%, crit, haste, agility, intellect, ranged attack power, spirit and stamina.",
       "keywords_es": [
         "estadísticas dominio de bestias",
         "prioridad de estadísticas cazador",
@@ -1235,8 +1242,8 @@
         "hunter crit",
         "hunter agility"
       ],
-      "text_es": "La prioridad de estadísticas de Dominio de bestias es: golpe hasta 8%, golpe crítico, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante. El golpe encabeza la lista porque fallar una habilidad supone una pérdida grande; el intelecto gana valor con Afinar la puntería.",
-      "text_en": "The Beast Mastery stat priority is hit to 8%, critical strike, agility, intellect, ranged attack power, spirit, and stamina. Hit ranks first because a missed ability is a major loss; Intellect gains value with Careful Aim.",
+      "text_es": "La prioridad de estadísticas de Dominio de bestias es: golpe hasta 8%, crítico, celeridad, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante. La lista valora cada estadística por 1 % o 1 punto, según aparezca en el equipo, por eso golpe, crítico y celeridad van arriba. El golpe encabeza la lista porque fallar una habilidad supone una pérdida grande; el intelecto gana valor con Afinar la puntería.",
+      "text_en": "The Beast Mastery stat priority is hit to 8%, critical strike, haste, agility, intellect, ranged attack power, spirit, and stamina. The list ranks each stat per 1% or 1 point, depending on how it shows up on gear, which is why hit, crit, and haste rank so high. Hit ranks first because a missed ability is a major loss; Intellect gains value with Careful Aim.",
       "tags": [
         "HUNTER"
       ],
@@ -1245,15 +1252,15 @@
           "type": "editorial",
           "ref": "Wowhead: Beast Mastery Hunter Stat Priority & Attributes - WoW: Forever › Beast Mastery Hunter Stat Priority in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/stat-priority-pve-dps",
-          "date": "2026-11-19"
+          "date": "2026-11-21"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-21",
       "topics": [
         "class:hunter:beast-mastery:stats"
       ],
       "source_hashes": [
-        "section:a31034b57f4d960eddf0d2696b069b27b2efc5b2"
+        "section:0ea5e3293af053de42a8292ad3d9a2bc822131c9"
       ]
     },
     {
@@ -1262,8 +1269,8 @@
       "status": "editorial",
       "title_es": "Estadísticas de Puntería",
       "title_en": "Marksmanship Stats",
-      "summary_es": "Prioridad de Puntería: golpe hasta 8%, crítico, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante.",
-      "summary_en": "Marksmanship priority: hit to 8%, crit, agility, intellect, ranged attack power, spirit, and stamina.",
+      "summary_es": "Prioridad de Puntería: golpe hasta 8%, crítico, celeridad, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante.",
+      "summary_en": "Marksmanship priority: hit to 8%, crit, haste, agility, intellect, ranged attack power, spirit and stamina.",
       "keywords_es": [
         "estadísticas puntería",
         "prioridad de estadísticas puntería",
@@ -1278,8 +1285,8 @@
         "marksmanship crit",
         "marksmanship agility"
       ],
-      "text_es": "La prioridad propuesta para Puntería, aún especulativa y no probada a nivel 60, es: golpe hasta 8%, golpe crítico, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante. El golpe va primero por el coste de fallar una habilidad; el intelecto también aporta poder de ataque con Afinar la puntería.",
-      "text_en": "The proposed Marksmanship order, still speculative and untested at level 60, is hit to 8%, critical strike, agility, intellect, ranged attack power, spirit, and stamina. Hit comes first because missing an ability is costly; Intellect also adds attack power with Careful Aim.",
+      "text_es": "La prioridad de estadísticas de Puntería es: golpe hasta 8%, crítico, celeridad, agilidad, intelecto, poder de ataque a distancia, espíritu y aguante. Cada estadística se valora por 1 % o 1 punto, según aparezca en el equipo. El golpe va primero por el coste de fallar una habilidad; el intelecto también aporta poder de ataque con Afinar la puntería.",
+      "text_en": "The Marksmanship stat priority is hit to 8%, critical strike, haste, agility, intellect, ranged attack power, spirit, and stamina. Each stat is ranked per 1% or 1 point, depending on how it shows up on gear. Hit comes first because missing an ability is costly; Intellect also adds attack power with Careful Aim.",
       "tags": [
         "HUNTER"
       ],
@@ -1288,15 +1295,15 @@
           "type": "editorial",
           "ref": "Wowhead: Marksmanship Hunter Stat Priority & Attributes - WoW: Forever › Marksmanship Hunter Stat Priority in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/stat-priority-pve-dps",
-          "date": "2026-11-15"
+          "date": "2026-11-21"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-21",
       "topics": [
         "class:hunter:marksmanship:stats"
       ],
       "source_hashes": [
-        "section:1e2ccf23d7d16c5c87b4d562ad23e19a78373d12"
+        "section:fbfcf63aa10ddd201c7d8eda1a0094fc8d1637f7"
       ]
     },
     {
@@ -1305,8 +1312,8 @@
       "status": "editorial",
       "title_es": "Estadísticas de Supervivencia",
       "title_en": "Survival Stats",
-      "summary_es": "Prioridad de Supervivencia: golpe, crítico, agilidad, fuerza, ataque, intelecto, espíritu y aguante.",
-      "summary_en": "Survival priority: hit, crit, agility, strength, attack power, intellect, spirit, and stamina.",
+      "summary_es": "Prioridad de Supervivencia: golpe, crítico, celeridad, agilidad, fuerza, ataque, intelecto, espíritu y aguante.",
+      "summary_en": "Survival priority: hit, crit, haste, agility, strength, attack power, intellect, spirit and stamina.",
       "keywords_es": [
         "estadísticas supervivencia",
         "prioridad de estadísticas supervivencia",
@@ -1321,8 +1328,8 @@
         "survival agility",
         "survival hit"
       ],
-      "text_es": "La prioridad propuesta para Supervivencia, aún especulativa y no probada a nivel 60, es: golpe, crítico, agilidad, fuerza, poder de ataque, intelecto, espíritu y aguante. El golpe encabeza la lista; la fuerza aumenta el poder de ataque cuerpo a cuerpo y Afinar la puntería puede convertir intelecto en ataque a distancia.",
-      "text_en": "The proposed Survival order, still speculative and untested at level 60, is hit, critical strike, agility, strength, attack power, intellect, spirit, and stamina. Hit comes first; Strength raises melee attack power, while Careful Aim can convert Intellect into ranged attack power.",
+      "text_es": "La prioridad de estadísticas de Supervivencia es: golpe, crítico, celeridad, agilidad, fuerza, poder de ataque, intelecto, espíritu y aguante. Cada estadística se valora por 1 % o 1 punto, según aparezca en el equipo. El golpe encabeza la lista; la fuerza aumenta el poder de ataque cuerpo a cuerpo y Afinar la puntería puede convertir intelecto en ataque a distancia.",
+      "text_en": "The Survival stat priority is hit, critical strike, haste, agility, strength, attack power, intellect, spirit, and stamina. Each stat is ranked per 1% or 1 point, depending on how it shows up on gear. Hit comes first; Strength raises melee attack power, while Careful Aim can convert Intellect into ranged attack power.",
       "tags": [
         "HUNTER"
       ],
@@ -1331,15 +1338,15 @@
           "type": "editorial",
           "ref": "Wowhead: Survival Hunter Stat Priority & Attributes - WoW: Forever › Survival Hunter Stat Priority in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/stat-priority-pve-dps",
-          "date": "2026-11-15"
+          "date": "2026-11-21"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-21",
       "topics": [
         "class:hunter:survival:stats"
       ],
       "source_hashes": [
-        "section:0023581f8509db29b1faeb7fb4637b665ec09c65"
+        "section:97c0813e428cc9e3d4442f161c2432c9983e4c33"
       ]
     },
     {
@@ -2023,8 +2030,8 @@
         "pet attack speed",
         "the rake"
       ],
-      "text_es": "Las mascotas con ataque rápido interrumpen más a los lanzadores y aprovechan efectos que añaden daño por golpe. Diente partido es la referencia, junto con El Rastrillo, León montés hambriento, Puma de las Agujas, Jaguar del pantano, Lupo esclavizante y Escupetripas. La velocidad no lo es todo: una mascota sin Zarpa pierde daño, así que no la elijas solo por el modelo. Úsalas si buscas presión constante, sobre todo en JcJ.",
-      "text_en": "Fast-attacking pets interrupt casters more often and benefit from effects that add damage per hit. Broken Tooth is the benchmark, along with The Rake, Starving Mountain Lion, Needles Cougar, Swamp Jaguar, Slavering Worg, and Spiteflayer. Speed is not everything: a pet without Claw loses damage, so do not pick it only for the model. Use them for constant pressure, especially in PvP.",
+      "text_es": "Las mascotas con ataque rápido interrumpen más a los lanzadores y aprovechan efectos que añaden daño por golpe. Diente partido es la referencia, junto con Ta'shkal, El Rastrillo, León montés hambriento, Puma de las Agujas, Jaguar del pantano, Lupo esclavizante y Escupetripas. La velocidad no lo es todo: una mascota sin Zarpa pierde daño, así que no la elijas solo por el modelo. Úsalas si buscas presión constante, sobre todo en JcJ.",
+      "text_en": "Fast-attacking pets interrupt casters more often and benefit from effects that add damage per hit. Broken Tooth is the benchmark, along with Ta'shkal, The Rake, Starving Mountain Lion, Needles Cougar, Swamp Jaguar, Slavering Worg, and Spiteflayer. Speed is not everything: a pet without Claw loses damage, so do not pick it only for the model. Use them for constant pressure, especially in PvP.",
       "tags": [
         "HUNTER"
       ],
@@ -2033,15 +2040,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Hunter Pets:  Finding the Best Pets and Pet Management for Hunters - WoW: Forever › Hunter Pets with Fastest Attack Speed in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/best-pets-and-pet-management-guide",
-          "date": "2026-11-19"
+          "date": "2026-11-21"
         }
       ],
-      "updated": "2026-11-16",
+      "updated": "2026-11-21",
       "topics": [
         "class:hunter:general:best-pets-and-pet-management-guide"
       ],
       "source_hashes": [
-        "section:e940a03032cc174a320f93f47490937b55832cc9"
+        "section:fe05fb845f45ef43fb682143dbce76d01b000131"
       ]
     },
     {
@@ -2124,7 +2131,7 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Marksmanship Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Marksmanship Hunter DPS in Burning Crusade",
+          "ref": "Wowhead: Marksmanship Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Marksmanship Hunter DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/dps-leveling-tips",
           "date": "2026-11-16"
         },
@@ -2140,7 +2147,7 @@
         "class:hunter:marksmanship:leveling"
       ],
       "source_hashes": [
-        "section:251c90fdb0ac518e5bff6e89b9ef50fa4b1c13ec",
+        "section:04e3b88ebf92a895216aebf238d208261241fed8",
         "section:d5eb540b33a276eb4e90415fad83951c1e7f4b36"
       ]
     },
@@ -2174,7 +2181,7 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Survival Hunter DPS in Burning Crusade",
+          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Leveling Rotation for Survival Hunter DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
           "date": "2026-11-18"
         },
@@ -2202,10 +2209,10 @@
         "class:hunter:survival:leveling"
       ],
       "source_hashes": [
-        "guide:c6b4be088eb6e215084a48180f13018f47561f44",
-        "section:0932b2c4f5955443026575b5d88689aab818fe98",
+        "guide:6af364058972a786bafdba5653ee8cb2714c631e",
+        "section:266c4597069711a8b677f5c650a0e8a722121840",
         "section:2961a4ed516168b5d1f9e3ec53047b009de6db2b",
-        "section:ad8eb655b1b5f1bf6020502682c0c418111327fa"
+        "section:90fefe58e78a03d60fcd5c50b4054918572d8dbc"
       ]
     },
     {
@@ -3000,17 +3007,17 @@
         "class:hunter:marksmanship:abilities"
       ],
       "source_hashes": [
-        "section:9dea30fe6fd002064df9fce6fa3c6bd5aa7308b6"
+        "section:cb555ef6518a4fdee971dafa04cb010b6cbd6b15"
       ]
     },
     {
-      "id": "clase-hunter-encantamientos-subir",
+      "id": "clase-hunter-encantamientos",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Encantamientos del Cazador al subir",
-      "title_en": "Hunter enchants while leveling",
-      "summary_es": "Qué encantar con el Cazador (las tres especializaciones) mientras subes.",
-      "summary_en": "What to enchant as a Hunter (all three specs) while leveling.",
+      "title_es": "Encantamientos del Cazador",
+      "title_en": "Hunter enchants",
+      "summary_es": "Qué encantar con el Cazador (las tres especializaciones) en cada pieza.",
+      "summary_en": "What a Hunter should enchant, piece by piece, for all three specs.",
       "keywords_es": [
         "qué encanto siendo cazador",
         "qué encantamientos pongo de cazador",
@@ -3018,51 +3025,109 @@
         "encantamientos cazador",
         "qué encantar cazador",
         "encantar capa agilidad",
-        "complemento fuerte armadura cazador"
+        "mira de ultraprecisión cazador"
       ],
       "keywords_en": [
-        "what to enchant as a hunter",
-        "best enchants for hunter",
         "hunter enchants",
-        "what to enchant hunter",
-        "cloak agility enchant hunter",
-        "forceful armor kit hunter"
+        "what to enchant as hunter",
+        "hunter best enchants",
+        "enchant cloak agility hunter",
+        "scope hunter"
       ],
-      "text_es": "Encantamientos del Cazador al subir: Las tres especializaciones comparten la lista: Encantar capa: agilidad menor, Encantar brazales: agilidad superior y, en torso, manos, piernas y pies, los Complementos para armadura fuertes (medio, pesado, grueso y basto, según tu nivel). Para el arma a dos manos se recomienda el encantamiento de agilidad inferior.",
-      "text_en": "Hunter enchants while leveling: All three specs share the list: Enchant Cloak - Minor Agility, Enchant Bracer - Greater Agility and, on chest, hands, legs and feet, the Forceful Armor Kits (medium, heavy, thick and rugged, by level). For the two-hand weapon, the Lesser Agility enchant is recommended.",
+      "text_es": "Encantamientos recomendados, casi iguales en las tres especializaciones: Encantar arma 2M: agilidad; a distancia, SECUR-mira de ultraprecisión; Encantar collar: agilidad; Encantar capa: agilidad; Encantar pechera: estadísticas superiores; Encantar brazal: agilidad excelente; Encantar guantes: agilidad superior (Supervivencia: velocidad menor); Encantar botas: agilidad superior. Cabeza y piernas: Arcano de Rapidez (Dominio y Supervivencia) o Arcano de Voracidad inferior (Puntería). Los hombros no llevan.",
+      "text_en": "Recommended enchants, nearly the same for all three specs: Enchant 2H Weapon - Agility; ranged, SAF-T Ultra Precision Scope; Enchant Necklace - Agility; Enchant Cloak - Agility; Enchant Chest - Greater Stats; Enchant Bracer - Superior Agility; Enchant Gloves - Greater Agility (Survival: Minor Haste); Enchant Boots - Greater Agility. Head and legs: Arcanum of Rapidity (Beast Mastery and Survival) or Lesser Arcanum of Voracity (Marksmanship). Shoulders get none.",
       "tags": [
         "HUNTER"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Beast Mastery Hunter Enchants & Consumables in WoW: Forever › Best Beast Mastery Hunter Enchants for Leveling in WoW: Forever",
+          "ref": "Wowhead: Best Beast Mastery Hunter Enchants & Consumables in WoW: Forever › Best Beast Mastery Hunter Enchants in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/enchants-consumables-pve-dps",
-          "date": "2026-11-19"
+          "date": "2026-11-21"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Marksmanship Hunter Enchants & Consumables in WoW: Forever › Best Marksmanship Hunter Enchants for Leveling in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/enchants-consumables-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-21"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Survival Hunter Enchants & Consumables in WoW: Forever › Best Survival Hunter Enchants for Leveling in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/enchants-consumables-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-21"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-21",
       "topics": [
         "class:hunter:beast-mastery:enchants",
         "class:hunter:marksmanship:enchants",
         "class:hunter:survival:enchants"
       ],
       "source_hashes": [
-        "guide:ca204e82efe3ffeb9eef1cefd614442ae3eb148d",
-        "section:935900ac975189f735a4375a0dc241a7d09ec680",
-        "section:ad497420cadb24862f58725c2346e2fb72402b8b"
+        "section:2435771fc6ba9aa83a3690ab0282831ac510bd91",
+        "section:6d6d110e1810de1da1b40a1533f3ca92b3467e5d",
+        "section:8d1e2da69779f2c7a48b5597cd5427adfbe54782"
+      ]
+    },
+    {
+      "id": "clase-hunter-consumibles",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Consumibles del Cazador en combate",
+      "title_en": "Hunter combat consumables",
+      "summary_es": "Munición, frascos, elixires, pociones, comida y explosivos recomendados al Cazador.",
+      "summary_en": "Ammo, flasks, elixirs, potions, food and explosives recommended for Hunters.",
+      "keywords_es": [
+        "consumibles cazador banda",
+        "frasco cazador",
+        "elixires cazador",
+        "qué poción usa un cazador",
+        "flecha plumaveloz"
+      ],
+      "keywords_en": [
+        "hunter consumables",
+        "hunter flask",
+        "hunter elixirs",
+        "hunter food",
+        "swiftfeather arrow"
+      ],
+      "text_es": "Munición: Flecha Plumaveloz o Bala golpeveloz. Frasco de agresividad natural (Supervivencia en melé: Frasco de precisión natural). Elixires: Elixir de la mangosta, Elixir de ferocidad, Polvo de scorpok, Poderío juju y otros; la crítica de los elixires no se acumula. Poción de frenesí sublime, Poción de maná sublime y Runa demoníaca. Arma: Aceite de maná luminoso (Supervivencia: Piedra de afilar elemental y densa). Comida: Filete Golpeveloz o Ají aliento de dragón. Explosivos: Dinamita EZ-Thro 2.",
+      "text_en": "Ammo: Swiftfeather Arrow or Swiftstrike Shot. Flask of Natural Aggression (melee Survival: Flask of Natural Precision). Elixirs: Elixir of the Mongoose, Elixir of Ferocity, Ground Scorpok Assay, Juju Might and others; crit from elixirs does not stack. Major Frenzy Potion, Major Mana Potion and Demonic Rune. Weapon: Brilliant Mana Oil (Survival: Elemental and Dense Sharpening Stones). Food: Swiftstrike Steak or Dragonbreath Chili. Explosives: Ez-Thro Dynamite II.",
+      "tags": [
+        "HUNTER"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Beast Mastery Hunter Enchants & Consumables in WoW: Forever › Best Beast Mastery Hunter Consumables in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/enchants-consumables-pve-dps",
+          "date": "2026-11-21"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Marksmanship Hunter Enchants & Consumables in WoW: Forever › Best Marksmanship Hunter Consumables for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/enchants-consumables-pve-dps",
+          "date": "2026-11-21"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Survival Hunter Enchants & Consumables in WoW: Forever › Best Survival Hunter Consumables for Leveling in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/enchants-consumables-pve-dps",
+          "date": "2026-11-21"
+        }
+      ],
+      "updated": "2026-11-21",
+      "topics": [
+        "class:hunter:beast-mastery:enchants",
+        "class:hunter:marksmanship:enchants",
+        "class:hunter:survival:enchants"
+      ],
+      "source_hashes": [
+        "section:22bb74d1e4c522bf4bdbfef6ef47b26868ee64b1",
+        "section:3025b35bb43523be78edd5a85ec6df69e4ef3b55",
+        "section:67eb8f2b98a6848094f9e690a1da282f3ee71163"
       ]
     },
     {
@@ -3093,25 +3158,33 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Beast Mastery Hunter Enchants & Consumables in WoW: Forever › Best Beast Mastery Hunter Consumables for Leveling in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/enchants-consumables-pve-dps",
-          "date": "2026-11-19"
+          "ref": "Wowhead: Beast Mastery Hunter Leveling Guide - WoW: Forever › Best Leveling Consumables for Beast Mastery Hunter DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/beast-mastery/dps-leveling-tips",
+          "date": "2026-11-21"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Survival Hunter Enchants & Consumables in WoW: Forever › Best Survival Hunter Consumables for Leveling in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/enchants-consumables-pve-dps",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Marksmanship Hunter Leveling Guide - WoW: Forever › Best Leveling Consumables for Marksmanship Hunter DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/marksmanship/dps-leveling-tips",
+          "date": "2026-11-21"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Survival Hunter Leveling Guide - WoW: Forever › Best Leveling Consumables for Survival Hunter DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/hunter/survival/dps-leveling-tips",
+          "date": "2026-11-21"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-21",
       "topics": [
-        "class:hunter:beast-mastery:enchants",
-        "class:hunter:survival:enchants"
+        "class:hunter:beast-mastery:leveling",
+        "class:hunter:marksmanship:leveling",
+        "class:hunter:survival:leveling"
       ],
       "source_hashes": [
-        "guide:ca204e82efe3ffeb9eef1cefd614442ae3eb148d",
-        "section:a35421b597505d4cd3e0c77fa7389093690ea1a6"
+        "section:37197c446cfa0fde1da1f67a8551bb349cab30b2",
+        "section:4c50fa23aac9cad5b80bbad8cb024c25f287fabc",
+        "section:c6bab524d0267fce3b4d586c092f95d116ced883"
       ]
     }
   ]
