@@ -22,6 +22,7 @@ read_globals = {
     'C_Timer',
     'C_QuestLog',
     'ChatFontNormal',
+    'GetTime',
     'ConsoleGetAllCommands',
     'CreateFrame',
     'date',
