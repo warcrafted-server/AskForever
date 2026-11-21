@@ -2264,8 +2264,8 @@
         "shaman talent points level 60",
         "shaman build raid pvp"
       ],
-      "text_es": "Mejora: Conocimiento ancestral 5/5, Armas elementales 2/3, Lobo fantasmal mejorado 2/2, Maña mental 3/3, Golpes de trueno 5/5. Recuperación: Curación ancestral 3/3, Enfoque curativo 3/3, Forma curativa 3/3, Onda de curación mejorada 5/5, Tótem de marea de maná 1/1, Conciencia 3/3, Rapidez de la Naturaleza 1/1, Purificación 5/5, Mareas vivas 1/1, Enfoque de las mareas 3/5, Maestría de las mareas 5/5, Escudo de agua 1/1. Lobo fantasmal mejora la movilidad a cambio de Tótens restauradores y parte de la sanación.",
-      "text_en": "Enhancement: Ancestral Knowledge 5/5, Elemental Weapons 2/3, Improved Ghost Wolf 2/2, Mental Dexterity 3/3, Thundering Strikes 5/5. Restoration: Ancestral Healing 3/3, Healing Focus 3/3, Healing Way 3/3, Improved Healing Wave 5/5, Mana Tide Totem 1/1, Mindfulness 3/3, Nature's Swiftness 1/1, Purification 5/5, Riptide 1/1, Tidal Focus 3/5, Tidal Mastery 5/5, Water Shield 1/1. Ghost Wolf adds mobility at the cost of Restorative Totems and some healing.",
+      "text_es": "Mejora: Garra de la Tierra 2/2, Golpes de trueno 5/5, Conocimiento ancestral 5/5, Tótems del Guardián 2/2, Enfoque chamanístico 1/1, Lobo fantasmal mejorado 2/2. Recuperación: Curación ancestral 3/3, Enfoque curativo 3/3, Forma curativa 3/3, Onda de curación mejorada 5/5, Tótem de marea de maná 1/1, Conciencia 3/3, Rapidez de la Naturaleza 1/1, Purificación 5/5, Mareas vivas 1/1, Enfoque de las mareas 3/5, Maestría de las mareas 5/5, Escudo de agua 1/1. Lobo fantasmal da movilidad a cambio de Tótens restauradores y parte de la sanación.",
+      "text_en": "Enhancement: Earth's Grasp 2/2, Thundering Strikes 5/5, Ancestral Knowledge 5/5, Guardian Totems 2/2, Shamanistic Focus 1/1, Improved Ghost Wolf 2/2. Restoration: Ancestral Healing 3/3, Healing Focus 3/3, Healing Way 3/3, Improved Healing Wave 5/5, Mana Tide Totem 1/1, Mindfulness 3/3, Nature's Swiftness 1/1, Purification 5/5, Riptide 1/1, Tidal Focus 3/5, Tidal Mastery 5/5, Water Shield 1/1. Ghost Wolf adds mobility at the cost of Restorative Totems and some healing.",
       "tags": [
         "SHAMAN"
       ],
@@ -2274,22 +2274,22 @@
           "type": "editorial",
           "ref": "Wowhead: Best Restoration Shaman Talent Tree Builds - WoW: Forever › Best Restoration Shaman PvE Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/talent-builds-pve-healer",
-          "date": "2026-11-04"
+          "date": "2026-11-21"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Restoration Shaman Talent Tree Builds - WoW: Forever › Best Restoration Shaman PvE Dungeon Build",
           "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/talent-builds-pve-healer",
-          "date": "2026-11-04"
+          "date": "2026-11-21"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-21",
       "topics": [
         "class:shaman:restoration:talents"
       ],
       "source_hashes": [
-        "section:1c387bfd89baef7b568f11c2ffc48b4e4d5cb09b",
-        "section:9e21baf321356afcd9eceb0a2731140f706b5dc8"
+        "section:0fac29abbc2773c71d5054630f763f5296b90b8c",
+        "section:f978dac57a4696b4f91807854e30470df467e2db"
       ]
     },
     {
@@ -2320,15 +2320,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Restoration Shaman Talent Tree Builds - WoW: Forever › Best Restoration Shaman PvE Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/talent-builds-pve-healer",
-          "date": "2026-11-04"
+          "date": "2026-11-21"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-21",
       "topics": [
         "class:shaman:restoration:talents"
       ],
       "source_hashes": [
-        "section:1c387bfd89baef7b568f11c2ffc48b4e4d5cb09b"
+        "section:f978dac57a4696b4f91807854e30470df467e2db"
       ]
     },
     {
