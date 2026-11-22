@@ -29,6 +29,7 @@ from askforever.bench import (
 )
 from askforever.capture.grabber import Grabber, ReceivedMessage
 from askforever.capture.window import find_game_window, set_dpi_awareness
+from askforever.capture import portal as capture_portal
 from askforever.data.wowdb import WowDb
 from askforever.devreport import close_report, parse_report, write_report
 from askforever.engine.answer import answer_message, parse_message
@@ -212,6 +213,24 @@ def _update_game_data():
     return status, value
 
 
+def _capture_kwargs() -> dict:
+    source = _capture_source()
+    return {} if source is None else {'capture_fn': source}
+
+
+def _capture_source():
+    """Wayland: captura por el portal de pantalla; en el resto, la captura directa por ventana."""
+    if not capture_portal.wants_portal():
+        return None
+
+    def report(error):
+        emit('error', 'No se pudo capturar la pantalla por el portal.',
+             'Could not capture the screen through the portal.', detail=str(error))
+
+    return capture_portal.PortalCapture(
+        token_path=config.user_data_dir() / 'portal-token', on_error=report)
+
+
 def _sync_addon_data(window=None):
     """Apply addon data when available and report its version or failure."""
     status, value = data_patch.sync(
@@ -392,7 +411,7 @@ def _listen(args: argparse.Namespace) -> int:
 
         threading.Thread(target=answer_in_background, daemon=True).start()
 
-    grabber = Grabber(on_message, fps=args.fps)
+    grabber = Grabber(on_message, fps=args.fps, **_capture_kwargs())
     stop_event = threading.Event()
     try:
         grabber.run(stop_event)
@@ -817,7 +836,7 @@ def _run_companion(args: argparse.Namespace, stop_event=None,
 
     emit('info', 'Deja esta ventana abierta mientras juegas.',
          'Keep this window open while you play.')
-    grabber = Grabber(on_message, fps=args.fps)
+    grabber = Grabber(on_message, fps=args.fps, **_capture_kwargs())
     grabber_thread = threading.Thread(target=grabber.run, args=(stop_event,), daemon=True)
     grabber_thread.start()
 
