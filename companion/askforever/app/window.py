@@ -5,6 +5,8 @@ from __future__ import annotations
 import ctypes
 import os
 import queue
+import subprocess
+import sys
 import webbrowser
 from pathlib import Path
 import tkinter as tk
@@ -23,9 +25,19 @@ OK = '#7ec46b'
 ERROR = '#e06c5a'
 
 
+def _posix_language() -> str:
+    for name in ('LC_ALL', 'LC_MESSAGES', 'LANGUAGE', 'LANG'):
+        value = os.environ.get(name)
+        if value:
+            return value.lower()
+    return ''
+
+
 def ui_language(get_language=None) -> str:
-    """Choose Spanish for Spanish Windows UI, English otherwise."""
+    """Choose Spanish for a Spanish system UI, English otherwise."""
     try:
+        if get_language is None and sys.platform != 'win32':
+            return 'es' if _posix_language().startswith('es') else 'en'
         if get_language is None:
             get_language = ctypes.windll.kernel32.GetUserDefaultUILanguage
         language_id = int(get_language()) & 0x3ff
@@ -265,6 +277,8 @@ class AppWindow(tk.Tk):
         startfile = getattr(os, 'startfile', None)
         if startfile is not None:
             startfile(str(path))
+        else:
+            subprocess.Popen(['xdg-open', str(path)])
 
     def open_help(self):
         webbrowser.open(setup_wizard.GUIDE_URL)

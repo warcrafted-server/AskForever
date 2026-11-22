@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import ctypes
 import os
+import subprocess
+import sys
 import threading
 from pathlib import Path
 
@@ -19,9 +21,29 @@ MUTEX_NAME = 'Local\\AskForeverApp'
 ERROR_ALREADY_EXISTS = 183
 
 
+def _lock_path() -> Path:
+    runtime = os.environ.get('XDG_RUNTIME_DIR')
+    return Path(runtime or '/tmp') / f'askforever-app-{os.getuid()}.lock'
+
+
+def _create_instance_lock():
+    """Linux: bloqueo exclusivo no bloqueante sobre un archivo; se libera al cerrar."""
+    import fcntl
+
+    try:
+        handle = open(_lock_path(), 'a')
+    except OSError:
+        return None, False
+    try:
+        fcntl.flock(handle, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except OSError:
+        return handle, True
+    return handle, False
+
+
 def _create_instance_mutex():
     if os.name != 'nt':
-        return None, False
+        return _create_instance_lock()
     try:
         kernel32 = ctypes.WinDLL('kernel32', use_last_error=True)
         kernel32.CreateMutexW.argtypes = [ctypes.c_void_p, ctypes.c_bool,
@@ -42,7 +64,13 @@ def acquire_single_instance(create_mutex=None):
 
 
 def _release_instance_mutex(handle, already_exists=False):
-    if not handle or os.name != 'nt':
+    if not handle:
+        return
+    if os.name != 'nt':
+        try:
+            handle.close()
+        except Exception:
+            pass
         return
     try:
         kernel32 = ctypes.WinDLL('kernel32', use_last_error=True)
@@ -66,8 +94,6 @@ def _message_box(text, title, flags):
 
 
 def _show_existing_message(language):
-    if os.name != 'nt':
-        return
     if language == 'es':
         text = 'AskForever App ya está en marcha (mira la bandeja del sistema)'
         title = 'AskForever App'
@@ -75,7 +101,11 @@ def _show_existing_message(language):
         text = 'AskForever App is already running (check the system tray)'
         title = 'AskForever App'
     try:
-        _message_box(text, title, 0x40)
+        if os.name == 'nt':
+            _message_box(text, title, 0x40)
+        else:
+            print(text, file=sys.stderr)
+            subprocess.run(['notify-send', title, text], check=False, timeout=5)
     except Exception:
         pass
 
