@@ -9,7 +9,7 @@ from typing import Callable, Optional
 
 import keyring
 
-from askforever import config
+from askforever import config, paths
 from askforever.capture.window import _process_image_path, find_game_window
 
 _ORIGINAL_KEYRING = keyring
@@ -24,10 +24,7 @@ def _keyring_backend():
 
 def _user_root() -> Path:
     """Carpeta que el companion deja en el equipo del jugador."""
-    local = os.environ.get('LOCALAPPDATA')
-    if local:
-        return Path(local) / 'AskForever'
-    return Path.home() / '.askforever'
+    return paths.app_root()
 
 
 def _inside(path: Path, root: Path) -> bool:
@@ -107,8 +104,12 @@ def uninstall(yes: bool = False, remove_addon: bool = False,
     providers = sorted(config.PROVIDERS)
     print('Se borrarán:')
     print('  - Claves de API de: ' + ', '.join(providers))
-    if root.is_symlink() or root.exists():
-        print(f'  - Carpeta de datos: {root}')
+    # Congelado en Linux, root es la carpeta del propio programa: se borran solo sus datos
+    # y logs, y la carpeta entera la borra uninstall.sh cuando el programa ha terminado.
+    owned = [root / 'data', root / 'logs'] if paths.is_portable() else [root]
+    for folder in owned:
+        if folder.is_symlink() or folder.exists():
+            print(f'  - Carpeta de datos: {folder}')
     for path in slot_paths:
         print(f'  - Addon: {path}')
     if addon_path is not None:
@@ -128,9 +129,10 @@ def uninstall(yes: bool = False, remove_addon: bool = False,
             continue
         print(f'Clave de API borrada: {name}')
 
-    if root.is_symlink() or root.exists():
-        if not _remove(root, root):
-            failed = True
+    for folder in owned:
+        if folder.is_symlink() or folder.exists():
+            if not _remove(folder, root):
+                failed = True
     for path in slot_paths:
         if not _remove(path, addons_dir):
             failed = True
