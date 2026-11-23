@@ -1318,8 +1318,8 @@
         "fury whirlwind",
         "fury damage"
       ],
-      "text_es": "Furia empuña dos armas y centra su daño en Sed de sangre y Huracán; Mellar ayuda contra grupos pequeños. Los críticos activan Aluvión y aceleran los ataques, pero no dan furia adicional: esta se normaliza y ya no escala con el daño del arma. Deseo de la Muerte da una ventana de daño alto a cambio de recibir más daño. Los fallos de la doble empuñadura pueden dejarte esperando furia; sufre en combates largos contra uno si recibes pocos golpes.",
-      "text_en": "Fury dual-wields and builds its damage around Bloodthirst and Whirlwind; Cleave helps against small groups. Critical hits activate Flurry and speed up attacks, but grant no extra Rage: Rage is normalized and no longer scales with weapon damage. Death Wish provides a burst window at the cost of taking more damage. Dual-wield misses can leave you waiting for Rage; Fury struggles in long single-target fights when little damage is incoming.",
+      "text_es": "Furia empuña dos armas y centra su daño en Sed de sangre y Huracán; Mellar ayuda contra grupos pequeños. Los críticos activan Aluvión, aceleran los ataques y dan algo de furia; esta se normaliza y escala menos con el equipo. Deseo de la Muerte da una ventana de daño alto a cambio de recibir más daño. Los fallos de la doble empuñadura pueden dejarte esperando furia; sufre en combates largos contra uno si recibes pocos golpes.",
+      "text_en": "Fury dual-wields and builds its damage around Bloodthirst and Whirlwind; Cleave helps against small groups. Critical hits activate Flurry, speed up attacks and give some Rage; Rage is normalized and scales less with gear. Death Wish provides a burst window at the cost of taking more damage. Dual-wield misses can leave you waiting for Rage; Fury struggles in long single-target fights when little damage is incoming.",
       "tags": [
         "WARRIOR"
       ],
@@ -1328,45 +1328,45 @@
           "type": "editorial",
           "ref": "Wowhead: Fury Warrior DPS Guide - WoW: Forever › Changes to Fury Warrior in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Fury Warrior DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Fury Warrior DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/rotation-cooldowns-pve-dps",
-          "date": "2026-10-29"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Fury Warrior DPS Rotation and Cooldowns - WoW: Forever › Best Fury Warrior Cooldown Usage in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/rotation-cooldowns-pve-dps",
-          "date": "2026-10-29"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Fury Warrior - Spec, Builds, and Talents › Bloodthirst Dual Wield Build",
           "url": "https://www.icy-veins.com/wow-forever/fury-warrior-melee-dps-pve-spec-builds-talents",
-          "date": "2026-11-04"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Fury Warrior DPS Guide - WoW: Forever › Strengths and Weaknesses of Fury Warriors in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-23",
       "topics": [
         "class:warrior:fury:overview",
         "class:warrior:fury:rotation",
         "class:warrior:fury:talents"
       ],
       "source_hashes": [
+        "section:4035d1ebbd792dce099c2d2e3cf724a88e43ca53",
         "section:4df882c92a2e87e0bd554ee080418c8cf0409ea6",
         "section:525edb75d9da8ac214dddf6ad77a7bfda9ef3b57",
         "section:6e3ca74abc16c1df80663f7ba1fd31a8167f9d4d",
-        "section:7c4a5a6fdfe1f929e9ba564eff3004e1bf543f92",
-        "section:b7bca2ae0c7f74df9db2d5d801391942976b4ae4"
+        "section:7c4a5a6fdfe1f929e9ba564eff3004e1bf543f92"
       ]
     },
     {
@@ -1534,8 +1534,8 @@
         "offensive Protection priority",
         "440 defense"
       ],
-      "text_es": "Defensiva: aguante, defensa hasta 440, armadura, agilidad, defensa por encima de 440, parada, esquiva, pericia (6,5%), bloqueo, poder de ataque/fuerza, golpe (8%), crítico, pericia (14%) y celeridad. Equilibrada: aguante, pericia (6,5%), golpe (8%), defensa hasta 440, pericia (14%), armadura, poder de ataque/fuerza, agilidad, defensa por encima de 440, parada, esquiva, crítico, bloqueo y celeridad. Ofensiva: pericia (6,5%), golpe (8%), pericia (14%), crítico, poder de ataque/fuerza, aguante, celeridad, agilidad, defensa hasta 440, armadura, defensa por encima de 440, parada, esquiva y bloqueo.",
-      "text_en": "Defensive priority: Stamina, Defense to 440, Armor, Agility, Defense above 440, Parry, Dodge, Expertise (6.5%), Block, Attack Power/Strength, Hit (8%), Crit, Expertise (14%), Haste. Balanced: Stamina, Expertise (6.5%), Hit (8%), Defense to 440, Expertise (14%), Armor, Attack Power/Strength, Agility, Defense above 440, Parry, Dodge, Crit, Block, Haste. Offensive: Expertise (6.5%), Hit (8%), Expertise (14%), Crit, Attack Power/Strength, Stamina, Haste, Agility, Defense to 440, Armor, Defense above 440, Parry, Dodge, Block.",
+      "text_es": "Defensiva: aguante, defensa hasta 440, armadura, agilidad, defensa sobre 440, parada, esquiva, valor de bloqueo, pericia (6,5%), prob. de bloqueo, poder de ataque/fuerza, golpe (8%), crítico, pericia (14%), celeridad. Equilibrada: pericia (6,5%), aguante, golpe, pericia (14%), crítico, armadura, agilidad, valor de bloqueo, PA/fuerza, defensa 440, celeridad y el resto. Ofensiva: pericia (6,5%), golpe, pericia (14%), crítico, PA/fuerza, aguante, celeridad, agilidad, valor de bloqueo, defensa 440, armadura, resto. Cada punto de valor de bloqueo suma 2 de daño a Embate con escudo.",
+      "text_en": "Defensive: stamina, defense to 440, armor, agility, defense above 440, parry, dodge, block value, expertise (6.5%), block chance, attack power/strength, hit (8%), crit, expertise (14%), haste. Balanced: expertise (6.5%), stamina, hit, expertise (14%), crit, armor, agility, block value, AP/strength, defense 440, haste and the rest. Offensive: expertise (6.5%), hit, expertise (14%), crit, AP/strength, stamina, haste, agility, block value, defense 440, armor, the rest. Each point of block value adds 2 damage to Shield Slam.",
       "tags": [
         "WARRIOR"
       ],
@@ -1544,29 +1544,29 @@
           "type": "editorial",
           "ref": "Wowhead: Protection Warrior Tank Attribute and Stat Guide - WoW: Forever › Defensive Priority",
           "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/stat-priority-pve-tank",
-          "date": "2026-11-03"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Protection Warrior Tank Attribute and Stat Guide - WoW: Forever › Balanced Priority",
           "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/stat-priority-pve-tank",
-          "date": "2026-11-03"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Protection Warrior Tank Attribute and Stat Guide - WoW: Forever › Offensive Priority",
           "url": "https://www.wowhead.com/forever/guide/classes/warrior/protection/stat-priority-pve-tank",
-          "date": "2026-11-03"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-23",
       "topics": [
         "class:warrior:protection:stats"
       ],
       "source_hashes": [
-        "section:08d41dbf9a45cb10c735308c5f7cd8edb73320d5",
-        "section:9c558038c02f90c314b38b031c6915b4d6378ce5",
-        "section:a29e9d1087c5328cfd3a328b9baad88bc72fb9da"
+        "section:23167c1b916588828f75bb0bc01429d4a61a2ed9",
+        "section:ee881d1aa283819228cc46b21b75b5cdcd5b8c58",
+        "section:f5c980a3510c349c7921709a20c632e1cda36ced"
       ]
     },
     {
@@ -1969,8 +1969,8 @@
       "status": "editorial",
       "title_es": "Furia normalizada en Furia",
       "title_en": "Normalized Rage for Fury",
-      "summary_es": "El daño del arma y los críticos ya no aumentan la furia generada por Furia.",
-      "summary_en": "Weapon damage and critical hits no longer increase Fury's Rage generation.",
+      "summary_es": "La furia de Furia es fija por golpe según la velocidad del arma; sube recibiendo daño y con críticos.",
+      "summary_en": "Fury Rage is fixed per hit by weapon speed; it rises by taking damage and with critical hits.",
       "keywords_es": [
         "furia normalizada Furia",
         "generación de furia guerrero",
@@ -1985,8 +1985,8 @@
         "weapon Rage",
         "Fury Forever changes"
       ],
-      "text_es": "En Furia, la generación de furia está normalizada: los ataques dan una cantidad fija dentro de un intervalo calculado, no según el daño del arma. Los críticos no generan furia adicional y el equipo no aumenta la furia obtenida; para generar más, hay que recibir daño.",
-      "text_en": "Rage generation for Fury is normalized: attacks grant a fixed amount within a calculated range, not based on weapon damage. Critical hits grant no extra Rage, and gear does not increase Rage gained; taking damage is the way to generate more.",
+      "text_es": "En Furia, la generación de furia está normalizada: cada golpe da una cantidad fija según la velocidad del arma (3,46 × velocidad; la mitad con la secundaria y ×1,3 a dos manos), no según su daño. Escala menos con el equipo: para ganar más furia hay que recibir daño o dar más críticos. Con un arma de velocidad 3,0, cada golpe da unos 10,4 de furia en la mano principal y 5,2 en la secundaria.",
+      "text_en": "Rage generation for Fury is normalized: each hit grants a fixed amount based on weapon speed (3.46 x speed; half with the off-hand and x1.3 for two-handers), not on its damage. It scales less with gear: to gain more Rage you must take damage or land more critical hits. With a 3.0 speed weapon, each hit gives about 10.4 Rage in the main hand and 5.2 in the off-hand.",
       "tags": [
         "WARRIOR"
       ],
@@ -1995,15 +1995,15 @@
           "type": "editorial",
           "ref": "Wowhead: Fury Warrior DPS Guide - WoW: Forever › Changes to Fury Warrior in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-23",
       "topics": [
         "class:warrior:fury:overview"
       ],
       "source_hashes": [
-        "section:b7bca2ae0c7f74df9db2d5d801391942976b4ae4"
+        "section:4035d1ebbd792dce099c2d2e3cf724a88e43ca53"
       ]
     },
     {
@@ -2216,8 +2216,8 @@
         "Fury Dual Wield Specialization",
         "Fury boss armor"
       ],
-      "text_es": "Enfurecer ahora se activa con cualquier instancia de daño directo recibido, no solo con críticos. Sed de sangre añade daño fijo que aumenta con cada rango, y Especialización en doble empuñadura aumenta ligeramente la furia generada por el arma secundaria. Además, Fuego feérico y Maldición de Temeridad ya no acumulan sus efectos de reducción de armadura en los enemigos.",
-      "text_en": "Enrage now activates from any instance of direct damage taken, not only critical hits. Bloodthirst adds flat damage that increases with each rank, and Dual Wield Specialization slightly increases Rage generated by the off-hand weapon. Also, Faerie Fire and Curse of Recklessness no longer stack their armor-reduction effects on enemies.",
+      "text_es": "Enfurecer ahora se activa con cualquier instancia de daño directo recibido, no solo con críticos. Sed de sangre añade daño fijo que aumenta con cada rango y ahora acelera un poco tu movimiento, y Especialización en doble empuñadura aumenta ligeramente la furia generada por el arma secundaria. Además, Fuego feérico y Maldición de Temeridad ya no acumulan sus efectos de reducción de armadura en los enemigos.",
+      "text_en": "Enrage now activates from any instance of direct damage taken, not only critical hits. Bloodthirst adds flat damage that increases with each rank and now also slightly increases your movement speed, and Dual Wield Specialization slightly increases Rage generated by the off-hand weapon. Also, Faerie Fire and Curse of Recklessness no longer stack their armor-reduction effects on enemies.",
       "tags": [
         "WARRIOR"
       ],
@@ -2226,22 +2226,22 @@
           "type": "editorial",
           "ref": "Wowhead: Fury Warrior DPS Guide - WoW: Forever › Changes to Fury Warrior in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Fury Warrior DPS Guide - WoW: Forever › Changes to Existing Abilities and Talents in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-23",
       "topics": [
         "class:warrior:fury:overview"
       ],
       "source_hashes": [
-        "section:b7bca2ae0c7f74df9db2d5d801391942976b4ae4",
-        "section:e48d63f79fa1907b0e696fc9a928601c50eeb1b0"
+        "section:2677013c188663f8c63c26ddfbe7a96bf15c476b",
+        "section:4035d1ebbd792dce099c2d2e3cf724a88e43ca53"
       ]
     },
     {
@@ -2366,7 +2366,48 @@
         "class:warrior:fury:overview"
       ],
       "source_hashes": [
-        "section:e8123f5c62b4208e1a01cf77ca355b993a1a94f4"
+        "section:4c55e8f4d095e54009393caa9d765b38cfb1c89b"
+      ]
+    },
+    {
+      "id": "clase-warrior-furia-golpes-temerarios",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Golpes temerarios",
+      "title_en": "Reckless Swings",
+      "summary_es": "Golpes temerarios es un talento nuevo de Furia que da furia extra con poca reutilización.",
+      "summary_en": "Reckless Swings is a new Fury talent that grants extra Rage on a short cooldown.",
+      "keywords_es": [
+        "Golpes temerarios Guerrero",
+        "furia extra Furia",
+        "talento nuevo Furia",
+        "cambios Furia Forever"
+      ],
+      "keywords_en": [
+        "Warrior Reckless Swings",
+        "extra Rage Fury",
+        "new Fury talent",
+        "Fury Forever changes"
+      ],
+      "text_es": "Golpes temerarios es un talento nuevo de Furia, de los que cierran una fila, que da generación extra de furia con un tiempo de reutilización corto. Ayuda a compensar que la furia ya no escala con el daño del arma.",
+      "text_en": "Reckless Swings is a new Fury talent, one that closes a row, granting extra Rage generation on a short cooldown. It helps offset the fact that Rage no longer scales with weapon damage.",
+      "tags": [
+        "WARRIOR"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Fury Warrior DPS Guide - WoW: Forever › New Abilities and Talents in WoW Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/warrior/fury/overview-pve-dps",
+          "date": "2026-11-23"
+        }
+      ],
+      "updated": "2026-11-23",
+      "topics": [
+        "class:warrior:fury:overview"
+      ],
+      "source_hashes": [
+        "section:4c55e8f4d095e54009393caa9d765b38cfb1c89b"
       ]
     },
     {

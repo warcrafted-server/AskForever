@@ -23,40 +23,40 @@
         "pvp seasons",
         "pvp changes"
       ],
-      "text_es": "El JcJ de Forever se mide con Puntos de Rango (14 rangos, sin decaimiento) y Honor, no con tu posición frente al resto del reino. Hay cuatro campos de batalla (Garganta Grito de Guerra, Cuenca de Arathi, Valle de Alterac e Islas Lanza Negra, nuevo y de 15 contra 15), pero ni arena ni campos clasificados. El rango se reinicia cada pocos meses; los desafíos legacy conservan su progreso.",
-      "text_en": "Forever PvP is measured with Rank Points (14 ranks, no decay) and Honor, not by your position against the rest of the realm. There are four battlegrounds (Warsong Gulch, Arathi Basin, Alterac Valley and the new 15v15 Darkspear Islands), but no arena or rated battlegrounds. Rank resets every few months; legacy challenges keep their progress.",
+      "text_es": "El JcJ de Forever se mide con Puntos de Rango (14 rangos, sin decaimiento) y Honor, no con tu posición frente al resto del reino. Hay cuatro campos de batalla (Garganta Grito de Guerra, Cuenca de Arathi, Valle de Alterac e Islas Lanza Negra, nuevo y de 15 contra 15), pero ni arena ni campos clasificados. El Valle de Alterac no da Puntos de Rango; los otros tres los dan al terminar, más si ganas. El rango se reinicia cada pocos meses; los desafíos legacy conservan su progreso.",
+      "text_en": "Forever PvP is measured with Rank Points (14 ranks, no decay) and Honor, not by your position against the rest of the realm. There are four battlegrounds (Warsong Gulch, Arathi Basin, Alterac Valley and the new 15v15 Darkspear Islands), but no arena or rated battlegrounds. Alterac Valley gives no Rank Points; the other three give them on completion, more for a win. Rank resets every few months; legacy challenges keep their progress.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: PvP Overview in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-11-19"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Battlegrounds in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-11-19"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › PvP Rank Rewards in WoW Forever",
           "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
-          "date": "2026-09-19"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › Legacy Challenges from PvP Ranks",
           "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
-          "date": "2026-09-19"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-23",
       "topics": [
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73",
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:339d2bb8f0c88b91219501ade0a629b984077528",
         "section:5650189e54f4cfbc28e504cc474e17b22768bdbd"
       ]
@@ -110,7 +110,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73",
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:03085d174c3727847bd3b31eb21125356a687a11"
       ]
     },
@@ -163,7 +163,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73",
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:03e59c9051a43a44dc1b7c8c8f640e1fcd88ec64",
         "section:984ff0277c99fd047fe00775b54dc47ddd0e217c"
       ]
@@ -217,7 +217,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73",
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:339d2bb8f0c88b91219501ade0a629b984077528",
         "section:5650189e54f4cfbc28e504cc474e17b22768bdbd"
       ]
@@ -277,7 +277,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73",
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:559fb7e41795f5edadf783975817f3578a5c97eb",
         "section:9a4880e86942543e0426af17231d16a9173f890b"
       ]
@@ -304,40 +304,40 @@
         "battleground queues",
         "champions hall"
       ],
-      "text_es": "Para comprar equipo, visita los vendedores JcJ de Ventormenta u Orgrimmar; la Alianza tiene otra opción en las cloacas de Dalaran. En las ciudades, busca maestros de batalla en el Castillo de Ventormenta y el Valle del Honor, o acude al portal del campo. Los grupos prefabricados se emparejan con otros grupos prefabricados.",
-      "text_en": "PvP gear vendors can be found at Champions’ Hall (Stormwind) and Hall of Legends (Orgrimmar); Alliance also has another option in the Dalaran sewers. To queue, use a city battlemaster—at Stormwind Keep or the Valley of Honor—or the battleground portal. Premade groups are matched with other premades.",
+      "text_es": "Para comprar equipo, visita al Sargento maestro Biggins en la Sala de los Campeones (Ventormenta, 75 68) o a la Sargento Ba'sha en la Sala de las Leyendas (Orgrimmar, 42 69); la Alianza tiene otra opción en las cloacas de Dalaran. En las ciudades, busca maestros de batalla en el Castillo de Ventormenta y el Valle del Honor, o acude al portal del campo. Los grupos prefabricados se emparejan con otros grupos prefabricados.",
+      "text_en": "PvP gear vendors can be found with Master Sergeant Biggins at Champions’ Hall (Stormwind, 75 68) and Sergeant Ba'sha at Hall of Legends (Orgrimmar, 42 69); Alliance also has another option in the Dalaran sewers. To queue, use a city battlemaster—at Stormwind Keep or the Valley of Honor—or the battleground portal. Premade groups are matched with other premades.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Locations of Battleground Battlemasters in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Battlegrounds in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › PvP Vendor Locations",
           "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
-          "date": "2026-09-19"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › Queues",
           "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
-          "date": "2026-09-19"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-23",
       "topics": [
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73",
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:cbaab0da3b5c4524ebd872353bd63b32c38bfad6",
         "section:f9da479258408ccfe740d838e1ce29069aebac15"
       ]
@@ -391,7 +391,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73",
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:339d2bb8f0c88b91219501ade0a629b984077528",
         "section:ad95b47570f7ee7580c2e294c651b2d452245f62"
       ]
@@ -439,7 +439,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73",
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:06227c0fa6107945e885a80c69b570dc7fb95ad3"
       ]
     },
@@ -486,7 +486,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73",
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:765a5ee3b6901c3251038dec754a9e019e81b081"
       ]
     },
@@ -734,7 +734,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73"
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538"
       ]
     },
     {
@@ -774,7 +774,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73"
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538"
       ]
     },
     {
@@ -824,7 +824,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73",
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:ffd0015eced931aee583523f166b113bd82a0339"
       ]
     },
@@ -871,7 +871,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73",
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:250e3b8babb410e16eace92d1ce7998e5ca26fce"
       ]
     },
@@ -916,7 +916,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73"
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538"
       ]
     },
     {
@@ -994,7 +994,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73"
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538"
       ]
     },
     {
@@ -1034,7 +1034,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73"
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538"
       ]
     },
     {
@@ -1080,7 +1080,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73",
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:250e3b8babb410e16eace92d1ce7998e5ca26fce"
       ]
     },
@@ -1133,7 +1133,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73",
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:765a5ee3b6901c3251038dec754a9e019e81b081"
       ]
     },
@@ -1222,7 +1222,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73",
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:53075c2fb59608848a5598c06912aaaa027d954b"
       ]
     },
@@ -1350,7 +1350,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:f3ce521005b691ad2ca53e2b77190f15d42a1d73"
+        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538"
       ]
     }
   ]

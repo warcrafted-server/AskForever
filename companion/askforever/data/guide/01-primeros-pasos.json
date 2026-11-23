@@ -693,7 +693,7 @@
       "status": "editorial",
       "title_es": "El saco de dormir y la experiencia extra",
       "title_en": "The Sleeping Bag and Bonus Experience",
-      "summary_es": "El bonus del Saco de dormir acogedor aumenta un 1% por minuto hasta el 3% y dura 1 hora.",
+      "summary_es": "El bonus del Saco de dormir acogedor aumenta un 1% por minuto hasta el 3% y dura 2 horas.",
       "summary_en": "The Cozy Sleeping Bag bonus rises by 1% per minute up to 3% and lasts 1 hour.",
       "keywords_es": [
         "saco de dormir acogedor",
@@ -709,35 +709,35 @@
         "experience buff",
         "forever sleeping bag"
       ],
-      "text_es": "El Saco de dormir acogedor se consigue en una cadena por zonas de nivel bajo. Al tumbarte dentro al menos 1 minuto, recibes Bien descansado: cada minuto aumenta un 1% la experiencia de todas las fuentes, hasta un máximo del 3%; dura 1 hora. Mientras estás dentro también acumulas descanso. El objeto tiene 1 hora de reutilización, el bonus persiste tras morir y los miembros del grupo también pueden usarlo.",
-      "text_en": "The Cozy Sleeping Bag comes from a questline through low-level zones. After lying inside for at least 1 minute, you gain Well Rested: each minute increases experience from all sources by 1%, up to 3%; it lasts 1 hour. You also accumulate rested experience while inside. The item has a 1-hour cooldown, the bonus persists through death, and party members can use it too.",
+      "text_es": "El Saco de dormir acogedor se consigue en una cadena por zonas de nivel bajo. Al tumbarte dentro al menos 1 minuto, recibes Bien descansado: cada minuto aumenta un 1% la experiencia de todas las fuentes, hasta un máximo del 3%; dura 2 horas. Mientras estás dentro también acumulas descanso. El objeto tiene 1 hora de reutilización, el bonus persiste tras morir y los miembros del grupo también pueden usarlo.",
+      "text_en": "The Cozy Sleeping Bag comes from a questline through low-level zones. After lying inside for at least 1 minute, you gain Well Rested: each minute increases experience from all sources by 1%, up to 3%; it lasts 2 hours. You also accumulate rested experience while inside. The item has a 1-hour cooldown, the bonus persists through death, and party members can use it too.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Cozy Sleeping Bag:  Quests, Locations and Rewards in Forever › What is a Cozy Sleeping Bag?",
           "url": "https://www.wowhead.com/forever/guide/cozy-sleeping-bag-locations-rewards",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: How to Get The Sleeping Bag in World of Warcraft Forever › What is the Cozy Sleeping Bag",
           "url": "https://www.icy-veins.com/wow-forever/sleeping-bag",
-          "date": "2026-10-10"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: How to Get The Sleeping Bag in World of Warcraft Forever › How to Obtain the Cozy Sleeping Bag",
           "url": "https://www.icy-veins.com/wow-forever/sleeping-bag",
-          "date": "2026-10-10"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-23",
       "topics": [
         "general:sleeping-bag"
       ],
       "source_hashes": [
+        "section:949e5448170d03307e8083ee1c8e04f69a999a53",
         "section:9e8a84e4baf38dd6baa0bbc6ae3b1be325db86eb",
-        "section:d96ae6b595357afa5b297825485d033a19e359bf",
         "section:f00299740226cde99fcafb72e408041631900f8d"
       ]
     },
@@ -796,7 +796,7 @@
         "general:sleeping-bag"
       ],
       "source_hashes": [
-        "guide:6ef949d8fc51383761125f8ba387cd670d4eb60b",
+        "guide:cd521e023b7d590ba04bd8164844b153835c1d74",
         "section:0f5410d7f70b6e382248705ac7bc6ac9658457f1",
         "section:9e8a84e4baf38dd6baa0bbc6ae3b1be325db86eb",
         "section:a35106c03bbc2e25e21380ae90bed2b1734e6c6e"
@@ -1285,7 +1285,7 @@
       "status": "editorial",
       "title_es": "Reasignar puntos Legacy",
       "title_en": "Respec Legacy Points",
-      "summary_es": "Puedes reasignar los puntos Legacy (no los talentos de clase) en el instructor de clase; por ahora cuesta 10 de oro.",
+      "summary_es": "Puedes reasignar los puntos Legacy (no los talentos de clase) en el instructor de clase; la primera vez, 10 de oro.",
       "summary_en": "You can respec Legacy Points (not class talents) at a class trainer; for now, it costs 10 gold.",
       "keywords_es": [
         "reasignar puntos Legacy",
@@ -1299,22 +1299,22 @@
         "Legacy respec cost",
         "Legacy class trainer"
       ],
-      "text_es": "Los puntos Legacy, que no son los talentos de clase, se reasignan hablando con un instructor de clase; actualmente cuesta 10 de oro. No se sabe si se podrá repetir ni si el coste aumentará.",
-      "text_en": "Legacy Points, which are not class talents, are respecced by speaking to a class trainer; it currently costs 10 gold. It is not yet known whether this can be repeated or whether the cost will increase.",
+      "text_es": "Los puntos Legacy, que no son los talentos de clase, se reasignan hablando con un instructor de clase; cuesta 10 de oro la primera vez y después el coste aumenta con el tiempo.",
+      "text_en": "Legacy Points, which are not class talents, are respecced by speaking to a class trainer; it costs 10 gold the first time and the cost then increases over time.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Legacy System Overview for Forever - Earning, Rewards, and Trees › Unlearning your Legacy Points",
           "url": "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
-          "date": "2026-11-15"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-20",
+      "updated": "2026-11-23",
       "topics": [
         "general:legacy-system"
       ],
       "source_hashes": [
-        "section:162409ee6aa0882819f9fe1dea78c265eab043d1"
+        "section:f18c59e8d36fd894130b6a1eb6eb39ab421a1c1f"
       ]
     },
     {
@@ -1594,7 +1594,7 @@
         "general:sleeping-bag"
       ],
       "source_hashes": [
-        "section:d96ae6b595357afa5b297825485d033a19e359bf"
+        "section:949e5448170d03307e8083ee1c8e04f69a999a53"
       ]
     },
     {

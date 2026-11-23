@@ -715,7 +715,7 @@
       ],
       "source_hashes": [
         "section:00180668ee194a7a4ef86b8ce64b2e812fd3696e",
-        "section:41f2d4952cc488f51b8e5758a27b1524ec0b6e68"
+        "section:bee385e9514db4eb1ab20bafe956bce64378d336"
       ]
     },
     {
@@ -975,36 +975,36 @@
         "repeatable Timbermaw quests",
         "Timbermaw Exalted reputation"
       ],
-      "text_es": "Empiezas en Odio. Completa las misiones iniciales y mata furbolgs de otras tribus en Frondavil y Cuna del Invierno: dan reputación hasta Reverenciado (hasta Exaltado los jefes con nombre). Plumas para Grazle, Plumas para Nafien y Cuentas para Salfa piden 5 objetos y dan 50 p.; si buscas Exaltado, guarda las plumas y cuentas hasta Reverenciado. Lo más rápido, y caro, es comprar Faltriquera de los Faucenegra en la casa de subastas para la misión repetible de Ekkal, en Azshara: 5 por 100 p.",
-      "text_en": "You start at Hated. Complete the introductory quests and kill furbolgs from other tribes in Felwood and Winterspring: they give reputation up to Revered (up to Exalted for named bosses). Feathers for Grazle, Feathers for Nafien and Beads for Salfa take 5 items and give 50 reputation; if aiming for Exalted, hold the feathers and beads until Revered. The fastest, and expensive, way is buying Blackmaw Pouches on the Auction House for the repeatable quest from Ekkal in Azshara: 5 for 100 reputation.",
+      "text_es": "Empiezas en Odio. Completa las misiones iniciales y mata furbolgs de otras tribus en Frondavil y Cuna del Invierno: dan reputación hasta Reverenciado (hasta Exaltado los jefes con nombre); la mazmorra Bastión Faucenegra solo llega a Amistoso. Plumas para Grazle, Plumas para Nafien y Cuentas para Salfa piden 5 objetos y dan 50 p.; si buscas Exaltado, guarda las plumas y cuentas hasta Reverenciado. Lo más rápido, y caro, es comprar Faltriquera de los Faucenegra en la casa de subastas para la misión repetible de Ekkal, en Azshara: 5 por 100 p.",
+      "text_en": "You start at Hated. Complete the introductory quests and kill furbolgs from other tribes in Felwood and Winterspring: they give reputation up to Revered (up to Exalted for named bosses); the Blackmaw Hold dungeon only goes up to Friendly. Feathers for Grazle, Feathers for Nafien and Beads for Salfa take 5 items and give 50 reputation; if aiming for Exalted, hold the feathers and beads until Revered. The fastest, and expensive, way is buying Blackmaw Pouches on the Auction House for the repeatable quest from Ekkal in Azshara: 5 for 100 reputation.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Farming Timbermaw Hold Reputation in Forever",
           "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
-          "date": "2026-11-18"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Reputation Gains from Quests in Felwood and Winterspring",
           "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
-          "date": "2026-11-18"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Timbermaw Hold Reputation Guide - WoW: Forever › Best Way to Farm Timbermaw Hold Reputation",
           "url": "https://www.wowhead.com/forever/guide/reputation/timbermaw-hold-quests-quartermaster-rewards",
-          "date": "2026-11-18"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-23",
       "topics": [
         "reputation:timbermaw-hold-quests-quartermaster-rewards"
       ],
       "source_hashes": [
         "section:00fc1d6efec72a9a3f142b0c7e3128f878792a9f",
-        "section:2f9216fb5afa8e705b4baf56f7e479772a584fc8",
-        "section:a501e0215ebc1d3f2576e246f108582cdb8ba62a"
+        "section:782c3b438f9f923fe56374d76f7cce8daf043baa",
+        "section:8a57e817722280e50b48d64af2bc709837b33d9d"
       ]
     },
     {

@@ -4167,7 +4167,7 @@
       "status": "editorial",
       "title_es": "Zahúrda Rajacieno: nivel y entrada",
       "title_en": "Razorfen Downs: Level and Entrance",
-      "summary_es": "Nivel 37-43, en Los Baldíos; la Alianza llega desde Trinquete y la Horda desde Cima Taurajo.",
+      "summary_es": "Nivel 37-46, en Los Baldíos; la Alianza llega desde Trinquete y la Horda desde Cima Taurajo.",
       "summary_en": "Levels 37-43 in the Barrens; Alliance comes from Ratchet and Horde from Camp Taurajo.",
       "keywords_es": [
         "zahúrda rajacieno",
@@ -4183,29 +4183,29 @@
         "razorfen downs location",
         "how to reach razorfen downs"
       ],
-      "text_es": "Zahúrda Rajacieno se recomienda para niveles 37-43 y está al sur de Los Baldíos, junto al límite con Las Mil Agujas. La Alianza puede tomar el barco desde Bahía del Botín a Trinquete; la Horda vuela al Campamento Taurajo. Desde allí, ve al sur y gira al este antes del Gran Elevador.",
-      "text_en": "Razorfen Downs is recommended for levels 37-43, in the southern Barrens near the Thousand Needles border. Alliance can take the boat from Booty Bay to Ratchet; Horde can fly to Camp Taurajo. From there, head south and turn east before the Great Lift.",
+      "text_es": "Zahúrda Rajacieno se recomienda para niveles 37-46 y está al sur de Los Baldíos, junto al límite con Las Mil Agujas. La Alianza puede tomar el barco desde Bahía del Botín a Trinquete; la Horda vuela al Campamento Taurajo. Desde allí, ve al sur y gira al este antes del Gran Elevador.",
+      "text_en": "Razorfen Downs is recommended for levels 37-46, in the southern Barrens near the Thousand Needles border. Alliance can take the boat from Booty Bay to Ratchet; Horde can fly to Camp Taurajo. From there, head south and turn east before the Great Lift.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Razorfen Downs Overview in World of Warcraft: Forever",
           "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
-          "date": "2026-11-14"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Razorfen Downs in World of Warcraft: Forever",
           "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
-          "date": "2026-11-14"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-23",
       "topics": [
         "dungeon:razorfen-downs"
       ],
       "source_hashes": [
         "section:97adc3bec40136ef3f1f92d95571c72706134e9d",
-        "section:f5420bac1595d2e6b8cc130abef9f8eb3d021526"
+        "section:a08172d999636a4dc07bfae04cd5a46453e1baae"
       ]
     },
     {
@@ -4269,7 +4269,7 @@
         "dungeon:razorfen-downs"
       ],
       "source_hashes": [
-        "guide:926dc373285065ef6c0e1d1d00e741f46f45562c",
+        "guide:b1883c3aab4e77147a73c5949caaf3fd39db7db4",
         "section:9f404fe1ac5eee39a175c3584ad883ffd127b851"
       ]
     },
@@ -4493,7 +4493,7 @@
         "dungeon:razorfen-downs"
       ],
       "source_hashes": [
-        "guide:926dc373285065ef6c0e1d1d00e741f46f45562c",
+        "guide:b1883c3aab4e77147a73c5949caaf3fd39db7db4",
         "section:48b20f7a32d93ffbb09543e81e0fbcc99b82d9dd"
       ]
     },
@@ -14523,7 +14523,7 @@
         "tierlist:dps-pve-rankings"
       ],
       "source_hashes": [
-        "guide:44f5c17d1da87172d0e57878f1260762f851d4df",
+        "guide:ac4883d63da75fcfb89324743bdc1672125193a8",
         "section:2bc82c4e09a5df367d615ff559f4589f47b83360"
       ]
     },
@@ -14574,7 +14574,7 @@
         "tierlist:healer-pve-rankings"
       ],
       "source_hashes": [
-        "guide:ba766a1a6641e33c4aa43ee8b3e19f4b151e71b0",
+        "guide:f17095c9d91a0179feabd9aba7b051d9116848e0",
         "section:4f361e36361bfadbd793f7544056105f6e686da4"
       ]
     },
@@ -14631,7 +14631,7 @@
         "tierlist:tank-pve-rankings"
       ],
       "source_hashes": [
-        "guide:c591c38bcd3e8a6976f1c78139a2db8b7d03be48",
+        "guide:91714ac32e2b69e2e80657050698f7b67c874110",
         "section:d2a636410e94f1553dc42977d752a35557d6e618"
       ]
     }

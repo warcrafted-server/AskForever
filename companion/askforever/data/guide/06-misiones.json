@@ -386,28 +386,28 @@
         "Sunken Temple rewards",
         "class quests"
       ],
-      "text_es": "A nivel 50 puedes aceptar la misión de tu clase en un instructor. Cada cadena te envía al Templo de Atal'Hakkar y, al completarla, recibes sus tres recompensas; no tienes que escoger solo una. Algunas partes pueden resultar difíciles, así que quizá te convenga esperar hasta tener un nivel algo mayor.",
-      "text_en": "At level 50, you can pick up your class quest from a class trainer. Each chain sends you into the Sunken Temple and grants all three rewards when completed, rather than making you choose one. Some parts can be difficult, so consider waiting until you are a little higher level.",
+      "text_es": "A nivel 50 puedes aceptar la misión de tu clase en un instructor. Cada cadena te envía al Templo de Atal'Hakkar y, al completarla, recibes sus tres recompensas; no tienes que escoger solo una. Por ahora, la cadena de Chamán es solo de Horda y la de Paladín solo de Alianza. Algunas partes pueden resultar difíciles, así que quizá te convenga esperar hasta tener un nivel algo mayor.",
+      "text_en": "At level 50, you can pick up your class quest from a class trainer. Each chain sends you into the Sunken Temple and grants all three rewards when completed, rather than making you choose one. For now, the Shaman chain is Horde only and the Paladin chain is Alliance only. Some parts can be difficult, so consider waiting until you are a little higher level.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Sunken Temple Class Quests Guide:  Quests, Locations and Rewards - WoW: Forever › (intro)",
           "url": "https://www.wowhead.com/forever/guide/sunken-temple-level-50-class-quest-walkthrough",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Sunken Temple Class Quests Guide:  Quests, Locations and Rewards - WoW: Forever › Sunken Temple Class Quest Rewards in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/sunken-temple-level-50-class-quest-walkthrough",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-23",
       "topics": [
         "general:sunken-temple-level-50-class-quest-walkthrough"
       ],
       "source_hashes": [
-        "guide:c599945a3d0f8faeb06c41b19829f206cff60d46",
+        "guide:1da696cffb7741ef07d162290b4407222d2a22b8",
         "section:3c7871247e6137a21c97f0fbdd2bf93ec8d436ea"
       ]
     },
@@ -916,28 +916,28 @@
         "statue order",
         "Scarlet Monastery Library"
       ],
-      "text_es": "El secreto del Estandarte Escarlata consiste en reunir cuatro ecos de tumbas repartidas por distintas zonas y llevarlos a la Biblioteca del Monasterio Escarlata. Actívalos en este orden: Eco del pantano en la estatua del Guerrero, Eco de Arathi en la del Mago, Eco de Theramore en la del Paladín y Eco del cementerio en la del Sacerdote. Si lo haces bien, aparece el Estandarte Escarlata para recogerlo.",
-      "text_en": "The Scarlet Banner secret requires collecting four grave echoes across different zones and taking them to the Scarlet Monastery Library. Activate them in this order: Swamp Echo at the Warrior statue, Arathi Echo at the Mage statue, Theramore Echo at the Paladin statue, and Graveyard Echo at the Priest statue. Complete the sequence to make the Scarlet Banner appear for you to loot.",
+      "text_es": "El secreto del Estandarte Escarlata consiste en reunir cuatro ecos de tumbas repartidas por distintas zonas y llevarlos a la Biblioteca del Monasterio Escarlata (nivel 33 o más). Actívalos en este orden: Eco del pantano en la estatua del Guerrero, Eco de Arathi en la del Mago, Eco de Theramore en la del Paladín y Eco del cementerio en la del Sacerdote. Si lo haces bien, aparece el Estandarte Escarlata para recogerlo.",
+      "text_en": "The Scarlet Banner secret requires collecting four grave echoes across different zones and taking them to the Scarlet Monastery Library (level 33 or higher). Activate them in this order: Swamp Echo at the Warrior statue, Arathi Echo at the Mage statue, Theramore Echo at the Paladin statue, and Graveyard Echo at the Priest statue. Complete the sequence to make the Scarlet Banner appear for you to loot.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Acquiring the Scarlet Banner for your Campsite - WoW: Forever › intro",
           "url": "https://www.wowhead.com/forever/guide/collections/scarlet-banner-puzzle-locations",
-          "date": "2026-11-05"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Acquiring the Scarlet Banner for your Campsite - WoW: Forever › Scarlet Monastery Library Statue Order in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/collections/scarlet-banner-puzzle-locations",
-          "date": "2026-11-05"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-23",
       "topics": [
         "collection:scarlet-banner-puzzle-locations"
       ],
       "source_hashes": [
-        "guide:b3490aeb69cf62244ea6de502aaec21f6e85c3af",
+        "guide:350a0b3c76640953479357e2fe02c439ce8d439f",
         "section:557d82400bf5f5edd53b5fb1d3d77c94dd7ff9a2"
       ]
     },

@@ -612,9 +612,9 @@
         "class:priest:shadow:leveling"
       ],
       "source_hashes": [
+        "section:3f1eedd3b0de9188c1fb9f1518dcd915b0ae560f",
         "section:5940d4eaaa3b0a4181733d44fed5e3cc42dbfe59",
         "section:6bba6c54196b6b99aa39f72329c5e7185c185e0c",
-        "section:80fac1ee8913cfea611101363504eaa195f7b81f",
         "section:be5149747f6cb6dbbf5e2ec48609adf8963454c5",
         "section:eec8bafa26de119ae4d9bdd21966124bd735cb4e"
       ]
@@ -865,8 +865,8 @@
         "prayer of healing",
         "prayer of mending"
       ],
-      "text_es": "En mazmorras, Disciplina: escuda al tanque antes del combate, mantén Renovar y usa Penitencia 1/1 o Curar; reserva Destello curativo para peligro inmediato y bebe entre combates. Sagrado: mantén Renovar y usa Curar, acelerado por Furia divina 5/5; reserva Destello curativo para emergencias. Sanación conjunta, con Vinculación sagrada 1/1, cura a ti y al tanque si ambos están heridos. Usa Rezo de curación si la mayoría del grupo está bajo; Rezo de alivio rebota entre aliados. Curación superior es una cura grande y lenta disponible a 40.",
-      "text_en": "In dungeons, Discipline: shield the tank before combat, maintain Renew, and use Penance 1/1 or Heal; save Flash Heal for immediate danger and drink between pulls. Holy: maintain Renew and use Heal, sped up by Divine Fury 5/5; save Flash Heal for emergencies. Binding Heal, with Holy Binding 1/1, heals you and the tank if both are injured. Use Prayer of Healing when most of the party is low; Prayer of Mending bounces between allies. Greater Heal is a large, slow heal available at 40.",
+      "text_es": "En mazmorras, Disciplina: escuda al tanque antes del combate, mantén Renovar y usa Penitencia 1/1 o Curar; reserva Destello curativo para peligro inmediato y bebe entre combates. Sagrado: mantén Renovar y usa Curar, acelerado por Furia divina 5/5; reserva Destello curativo para emergencias. Sanación conjunta, del talento Vinculación sagrada, cura a ti y al tanque si ambos están heridos. Usa Rezo de curación si la mayoría del grupo está bajo; Rezo de alivio rebota entre aliados. Curación superior es una cura grande y lenta disponible a 40.",
+      "text_en": "In dungeons, Discipline: shield the tank before combat, keep Renew up and use Penance 1/1 or Heal; save Flash Heal for immediate danger and drink between fights. Holy: keep Renew up and use Heal, sped up by Divine Fury 5/5; save Flash Heal for emergencies. Binding Heal, from the Holy Binding talent, heals you and the tank when both are hurt. Use Prayer of Healing if most of the group is low; Prayer of Mending bounces between allies. Greater Heal is a big, slow heal available at 40.",
       "tags": [
         "PRIEST"
       ],
@@ -875,35 +875,35 @@
           "type": "editorial",
           "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Dungeon Rotation",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Discipline Priest Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Discipline Priest in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/healer-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Leveling Rotation for Holy Priest in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
-          "date": "2026-11-09"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Holy Priest in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
-          "date": "2026-11-09"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-23",
       "topics": [
         "class:priest:discipline:leveling",
         "class:priest:holy:leveling"
       ],
       "source_hashes": [
         "section:00ee99ee77ac0b309d4dc67c1fe2d57abbb22c3f",
-        "section:80fac1ee8913cfea611101363504eaa195f7b81f",
+        "section:3f1eedd3b0de9188c1fb9f1518dcd915b0ae560f",
         "section:943a7e5d8a7092c71a66f6640c2b7b1c892beb71",
         "section:eec8bafa26de119ae4d9bdd21966124bd735cb4e"
       ]
@@ -2369,8 +2369,8 @@
         "improved renew",
         "prayer of mending talent"
       ],
-      "text_es": "Si subes en solitario, toma primero Especialización en varitas 2/2: aporta mucho daño mientras la varita sea tu fuente principal; si curas mazmorras la mayor parte del tiempo, puedes omitirla. En Sagrado, prioriza Renovar mejorado 3/3, Especialización Sagrada 5/5 y Furia divina 5/5; después añade Nova Sagrada 1/1 y Vinculación sagrada 1/1. Rezo de alivio 1/1 es el último talento del árbol y llega a comienzos de los cuarenta; luego puedes invertir en Disciplina con Enfoque interno 1/1 y Meditación 3/3. Esta ruta pura puede llegar a 60 sin cambiar talentos.",
-      "text_en": "If you level solo, take Wand Specialization 2/2 first: it adds substantial damage while the wand is your main source; if you heal dungeons most of the time, you can skip it. In Holy, prioritize Improved Renew 3/3, Holy Specialization 5/5, and Divine Fury 5/5; then add Holy Nova 1/1 and Holy Binding 1/1. Prayer of Mending 1/1 is the tree’s final talent and arrives in the early forties; afterward, you can invest in Discipline with Inner Focus 1/1 and Meditation 3/3. This pure route can reach 60 without respeccing.",
+      "text_es": "Si subes en solitario, toma primero Especialización en varitas 2/2; si curas mazmorras casi siempre, puedes omitirla. Sagrado puro: Enfoque crepuscular 1/3, Especialización Sagrada 5/5, Furia divina 5/5, Nova Sagrada 1/1, Inspiración 3/3, Alcance Sagrado 2/2, Curación mejorada 3/3, Letanía de la Luz 2/2, Guía espiritual 5/5, Curación espiritual 3/3 y Rezo de alivio 1/1, el último del árbol (a comienzos de los cuarenta). En Disciplina: Disciplinas gemelas 5/5, Fuerza mental 5/5, Enfoque interno 1/1, Poder de la palabra mejorado: escudo 3/3 y Meditación 3/3. Llega a 60 sin cambiar talentos.",
+      "text_en": "If you level solo, take Wand Specialization 2/2 first; if you mostly heal dungeons, you can skip it. Pure Holy: Twilight Focus 1/3, Holy Specialization 5/5, Divine Fury 5/5, Holy Nova 1/1, Inspiration 3/3, Holy Reach 2/2, Improved Healing 3/3, Litany of Light 2/2, Spiritual Guidance 5/5, Spiritual Healing 3/3 and Prayer of Mending 1/1, the last in the tree (early forties). In Discipline: Twin Disciplines 5/5, Mental Strength 5/5, Inner Focus 1/1, Improved Power Word: Shield 3/3 and Meditation 3/3. It reaches 60 without respeccing.",
       "tags": [
         "PRIEST"
       ],
@@ -2379,15 +2379,15 @@
           "type": "editorial",
           "ref": "Wowhead: Holy Priest Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Holy Priest in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/healer-leveling-tips",
-          "date": "2026-11-09"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-23",
       "topics": [
         "class:priest:holy:leveling"
       ],
       "source_hashes": [
-        "section:80fac1ee8913cfea611101363504eaa195f7b81f"
+        "section:3f1eedd3b0de9188c1fb9f1518dcd915b0ae560f"
       ]
     },
     {

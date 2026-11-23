@@ -1391,8 +1391,8 @@
         "17% hit elemental",
         "shaman spell penetration"
       ],
-      "text_es": "Prioridad aproximada: Penetración de hechizo > celeridad/velocidad de lanzamiento > golpe hasta 17% > daño con hechizos > Golpe crítico > daño de Naturaleza/Fuego > intelecto > espíritu > fuerza (solo al subir) > aguante. Equilibra daño e intelecto/espíritu para poder seguir lanzando.",
-      "text_en": "Approximate priority: spell penetration > haste/cast speed > hit to 17% > spell damage > critical strike > Nature/Fire damage > intellect > spirit > strength (leveling only) > stamina. Balance throughput with intellect and spirit so you can keep casting.",
+      "text_es": "Prioridad aproximada: celeridad/velocidad de lanzamiento > golpe hasta 17% > Golpe crítico > penetración de hechizo > daño con hechizos > daño de Naturaleza/Fuego > intelecto > espíritu > fuerza (solo al subir) > aguante. Equilibra daño e intelecto/espíritu para poder seguir lanzando.",
+      "text_en": "Approximate priority: haste/cast speed > hit to 17% > crit > spell penetration > spell damage > Nature/Fire damage > intellect > spirit > strength (leveling only) > stamina. Balance damage with intellect/spirit so you can keep casting.",
       "tags": [
         "SHAMAN"
       ],
@@ -1401,15 +1401,15 @@
           "type": "editorial",
           "ref": "Wowhead: Elemental Shaman DPS Attribute and Stat Guide - WoW: Forever › Elemental Shaman Stat Priority in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/shaman/elemental/stat-priority-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-23",
       "topics": [
         "class:shaman:elemental:stats"
       ],
       "source_hashes": [
-        "section:b21cb60a2c2eff0256f60db5600276836fdb9802"
+        "section:7bbf1d74da2a3ec13828282456597abe1279c8fd"
       ]
     },
     {
@@ -3923,7 +3923,7 @@
         "class:shaman:extra:shaman-tank-dungeon-guide-wow-forever"
       ],
       "source_hashes": [
-        "guide:6360ff7576bcd5403ae15a17987c08cf98dddb33"
+        "guide:ea7f6b9bb5345421a7542109bbfec42fc5ed178c"
       ]
     },
     {
@@ -3962,7 +3962,7 @@
         "class:shaman:extra:shaman-tank-dungeon-guide-wow-forever"
       ],
       "source_hashes": [
-        "guide:6360ff7576bcd5403ae15a17987c08cf98dddb33"
+        "guide:ea7f6b9bb5345421a7542109bbfec42fc5ed178c"
       ]
     },
     {
@@ -4001,7 +4001,7 @@
         "class:shaman:extra:shaman-tank-dungeon-guide-wow-forever"
       ],
       "source_hashes": [
-        "guide:6360ff7576bcd5403ae15a17987c08cf98dddb33"
+        "guide:ea7f6b9bb5345421a7542109bbfec42fc5ed178c"
       ]
     },
     {
@@ -4040,7 +4040,7 @@
         "class:shaman:extra:shaman-tank-dungeon-guide-wow-forever"
       ],
       "source_hashes": [
-        "guide:6360ff7576bcd5403ae15a17987c08cf98dddb33"
+        "guide:ea7f6b9bb5345421a7542109bbfec42fc5ed178c"
       ]
     },
     {
@@ -4079,7 +4079,7 @@
         "class:shaman:extra:shaman-tank-dungeon-guide-wow-forever"
       ],
       "source_hashes": [
-        "guide:6360ff7576bcd5403ae15a17987c08cf98dddb33"
+        "guide:ea7f6b9bb5345421a7542109bbfec42fc5ed178c"
       ]
     },
     {
@@ -4118,7 +4118,7 @@
         "class:shaman:extra:shaman-tank-dungeon-guide-wow-forever"
       ],
       "source_hashes": [
-        "guide:6360ff7576bcd5403ae15a17987c08cf98dddb33"
+        "guide:ea7f6b9bb5345421a7542109bbfec42fc5ed178c"
       ]
     },
     {

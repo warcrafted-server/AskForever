@@ -1756,8 +1756,8 @@
       "status": "editorial",
       "title_es": "Estadísticas de Feral tanque a nivel 60",
       "title_en": "Feral Tank Level-60 Stats",
-      "summary_es": "Prioriza aguante y defensa hasta 440; en ofensiva, golpe y reducción de esquiva/parada.",
-      "summary_en": "Prioritize stamina and defense to 440; offensively, hit and dodge/parry reduction.",
+      "summary_es": "Prioriza aguante y defensa hasta 440; en ofensiva, reducción de esquiva/parada y golpe.",
+      "summary_en": "Prioritise stamina and defense to 440; offensively, dodge/parry reduction and hit.",
       "keywords_es": [
         "estadísticas oso tanque",
         "defensa 440 druida",
@@ -1770,8 +1770,8 @@
         "feral tank offensive priority",
         "bear stamina armor"
       ],
-      "text_es": "Prioridad defensiva especulativa: aguante > defensa hasta 440 > armadura > agilidad > evitación > defensa después de 440. Ofensiva: golpe > reducción de esquiva/parada > celeridad > crítico > DPS del arma > fuerza > agilidad > fuerza. Defensa 440 evita críticos de jefes; en ataque, busca que las habilidades conecten antes de apilar daño. Recomendación provisional hasta que se pruebe a nivel 60.",
-      "text_en": "Speculative defensive priority: stamina > defense to 440 > armor > agility > avoidance > defense after 440. Offensive: hit > dodge/parry reduction > haste > crit > weapon DPS > strength > agility > strength. Defense 440 prevents boss critical hits; offensively, make abilities land before stacking damage. Provisional recommendation until tested at level 60.",
+      "text_es": "Prioridad defensiva especulativa: aguante > defensa hasta 440 > armadura > agilidad > evitación > defensa después de 440. Ofensiva: reducción de esquiva/parada > golpe > crítico > celeridad > habilidad de combate feral > DPS del arma > fuerza > agilidad. Defensa 440 evita críticos de jefes; en ataque, busca que las habilidades conecten antes de apilar daño. Los pesos para Pawn salen del simulador de oso feral de WoWSims. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Speculative defensive priority: stamina > defense to 440 > armor > agility > avoidance > defense after 440. Offensive: dodge/parry reduction > hit > crit > haste > Feral Combat skill > weapon DPS > strength > agility. Defense 440 prevents boss critical hits; offensively, make abilities land before stacking damage. The Pawn weights come from the WoWSims feral bear simulator. Provisional recommendation until tested at level 60.",
       "tags": [
         "DRUID"
       ],
@@ -1780,29 +1780,29 @@
           "type": "editorial",
           "ref": "Wowhead: Feral Druid Tank Attribute and Stat Guide - WoW: Forever › Feral Druid Tank Stat Priority in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-tank",
-          "date": "2026-11-03"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Feral Druid Tank Attribute and Stat Guide - WoW: Forever › Defensive Priority",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-tank",
-          "date": "2026-11-03"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Feral Druid Tank Attribute and Stat Guide - WoW: Forever › Offensive Priority",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-tank",
-          "date": "2026-11-03"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-23",
       "topics": [
         "class:druid:feral:stats"
       ],
       "source_hashes": [
         "section:011ef23da83937a1a78bc981b9bb4a7b902d451b",
-        "section:08197c0a079c80835aa30965d688b6c786ecc4bf",
-        "section:211854d235b4e9cf635662913690dc90f0bea247"
+        "section:211854d235b4e9cf635662913690dc90f0bea247",
+        "section:ecfa603e93d6a5b370dfcf61d3861dc206322a2f"
       ]
     },
     {
@@ -5412,8 +5412,8 @@
         "class:druid:feral:enchants"
       ],
       "source_hashes": [
-        "section:47ead1ebe4e9fca3864d69407793877f9c3d7872",
-        "section:73fadc03e607b5adc4821e17d897d7513dd2ac58"
+        "section:73fadc03e607b5adc4821e17d897d7513dd2ac58",
+        "section:d7f40bfe29645a5a7cde69041e1058290a7e441f"
       ]
     },
     {

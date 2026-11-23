@@ -943,47 +943,47 @@
         "Tailoring trainer",
         "train profession ranks"
       ],
-      "text_es": "Puedes encontrar instructores de profesiones en ciudades y, para algunos oficios, en pueblos de zonas iniciales; pregunta a un guardia para que señale uno cercano. Alquimia se enseña en las ciudades principales, aunque los rangos Experto y Artesano requieren instructores concretos. En Forever, algunos instructores de Ingeniería capaces de enseñar Experto también enseñan los rangos anteriores, pero uno de Oficial no enseña Experto. El rango de Encantador artesano se aprende de un instructor situado en una mazmorra.",
-      "text_en": "Profession trainers are available in cities and, for some trades, in starter-zone towns; ask a guard to mark a nearby one. Alchemy is taught in major cities, though Expert and Artisan ranks require specific trainers. In Forever, some Engineering trainers who teach Expert can also teach earlier ranks, but a Journeyman trainer cannot teach Expert. Artisan Enchanting is taught by a trainer located in a dungeon.",
+      "text_es": "Puedes encontrar instructores de profesiones en ciudades y, para algunos oficios, en pueblos de zonas iniciales;. Alquimia se enseña en las ciudades principales, aunque los rangos Experto y Artesano requieren instructores concretos. En Forever, algunos instructores de Ingeniería capaces de enseñar Experto también enseñan los rangos anteriores, pero uno de Oficial no enseña Experto. En Sastrería, cada instructor enseña hasta el rango inferior al suyo: Oficial con uno Experto y Experto con uno Artesano. El rango de Encantador artesano se aprende de un instructor situado en una mazmorra.",
+      "text_en": "Profession trainers are available in cities and, for some trades, in starter-zone towns. Alchemy is taught in major cities, though Expert and Artisan ranks require specific trainers. In Forever, some Engineering trainers who teach Expert can also teach earlier ranks, but a Journeyman trainer cannot teach Expert. In Tailoring, a trainer only teaches ranks below their own: Journeyman from an Expert trainer and Expert from an Artisan trainer. Artisan Enchanting is taught by a trainer located in a dungeon.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Alchemy Profession Overview in Forever - Transmutes, New Recipes, and Trainers › Where to Learn Alchemy in Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/alchemy-overview-trainer-locations-recipes",
-          "date": "2026-11-07"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Engineering Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Engineering Trainer Locations in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/engineering-overview-trainer-locations-recipes",
-          "date": "2026-11-07"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Enchanting Trainer Locations in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
-          "date": "2026-11-09"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Learning Artisan Enchanting: Uldaman Dungeon",
           "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
-          "date": "2026-11-09"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Tailoring Overview:  Trainers, New Recipes & Locations - WoW Forever › Tailoring Trainers in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/tailoring-overview-trainer-locations-recipes",
-          "date": "2026-11-01"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Enchanting Trainers in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
-          "date": "2026-11-09"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-23",
       "topics": [
         "profession:alchemy:overview",
         "profession:enchanting:overview",
@@ -992,8 +992,8 @@
       ],
       "source_hashes": [
         "section:193821c71575b94d6b05cd39cabc6b43acbfcf79",
-        "section:713494633cbacf236b184658f7d90d66a2488742",
         "section:9a079d55d62a589ec63b2814fc411338b4dbfa5a",
+        "section:a1859cd3f4e89d1a2909029c87af329737ee76d4",
         "section:ac11a9ced94339370ddfc9b3d014ca9e21a33f3d",
         "section:b1052d53a2f29f3f9cc8fe75b541212176563787",
         "section:fadfc3e00eb49cce1e1dfef403e4bf8965ffc961"
@@ -1201,7 +1201,7 @@
         "profession:herbalism:overview"
       ],
       "source_hashes": [
-        "guide:14b5cdea3f6e739d8b183e325e44c25f9ef8e7da",
+        "guide:69098ae54bdf9f89d02c3a0472b1a10d7dafe7f2",
         "section:148215be5c37d4c5ffb5c6235d52f185cadd2bf2",
         "section:24b5d0c06e49ff2b2ec6e6adade1357b8ebfa1f6",
         "section:c5c0e734d0e045de51055de230fdaba23dc2cd66"
@@ -1343,7 +1343,7 @@
       "status": "editorial",
       "title_es": "Cocina: comida, buffs y experiencia",
       "title_en": "Cooking: Food, Buffs, and Experience",
-      "summary_es": "Toda comida cocinada en Forever da un 5% de experiencia extra por enemigos derrotados.",
+      "summary_es": "Casi toda la comida cocinada en Forever da un 5% de experiencia extra por enemigos derrotados.",
       "summary_en": "All cooked food in Forever grants 5% extra experience from kills.",
       "keywords_es": [
         "cocina",
@@ -1363,35 +1363,35 @@
         "master chef",
         "cooking and fishing"
       ],
-      "text_es": "Cocina, una profesión secundaria, prepara alimentos con beneficios temporales y puede ahorrar tiempo y oro al subir o al llegar al nivel máximo. En Forever, toda comida cocinada otorga Bonificación de PE de bien alimentado: un 5% más de experiencia por enemigos derrotados, no por misiones. Para recibir el beneficio de una comida, suele bastar con permanecer sentado unos 10 segundos; la mayoría dura 15 minutos. Pesca combina bien porque muchas recetas usan pescado.",
-      "text_en": "Cooking is a secondary profession that prepares food with temporary benefits and can save time and gold while leveling or at endgame. In Forever, all cooked food grants Well Fed XP Boost: 5% more experience from kills, not quests. To receive a food benefit, you usually need to remain seated for about 10 seconds; most last 15 minutes. Fishing pairs well because many recipes use fish.",
+      "text_es": "Cocina, una profesión secundaria, prepara alimentos con beneficios temporales y puede ahorrar tiempo y oro al subir o al llegar al nivel máximo. En Forever, casi toda la comida cocinada otorga Bonificación de PE de bien alimentado: un 5% más de experiencia por enemigos derrotados, no por misiones. Para recibir el beneficio de una comida, suele bastar con permanecer sentado unos 10 segundos; la mayoría dura 15 minutos. Pesca combina bien porque muchas recetas usan pescado.",
+      "text_en": "Cooking is a secondary profession that prepares food with temporary benefits and can save time and gold while leveling or at endgame. In Forever, almost all cooked food grants Well Fed XP Boost: 5% more experience from kills, not quests. To receive a food benefit, you usually need to remain seated for about 10 seconds; most last 15 minutes. Fishing pairs well because many recipes use fish.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Cooking Profession Overview in Forever - Leveling, New Recipes, and Trainers › Why Level Cooking?",
           "url": "https://www.wowhead.com/forever/guide/professions/cooking/overview-leveling",
-          "date": "2026-11-14"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Cooking Profession Overview in Forever - Leveling, New Recipes, and Trainers › Making Gold with Cooking in Forever > Best Profession to Pair with Cooking",
           "url": "https://www.wowhead.com/forever/guide/professions/cooking/overview-leveling",
-          "date": "2026-11-14"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Cooking Guide › Food Buffs and How They Work",
           "url": "https://www.icy-veins.com/wow-forever/cooking",
-          "date": "2026-11-03"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-23",
       "topics": [
         "profession:cooking:overview"
       ],
       "source_hashes": [
-        "guide:a85040364124570b4f1863a72a547ad2bbc6e915",
-        "section:301e7d5b23570c59b2bc991a9abaac2e8a94d7ef",
+        "guide:cad2cb0a65d4968fc4d06cdae4b4fba7f9ee7938",
+        "section:a419df425602663dfd82d81d5c0a7e9973521be4",
         "section:fb50e1fc32313e5b04eb835a3df7d014c315b507"
       ]
     },
@@ -1524,7 +1524,7 @@
         "profession:fishing:overview"
       ],
       "source_hashes": [
-        "guide:45aed11a543a42b3687de9e0a2b0d696a66a2743",
+        "guide:bfe74d96e2790ec118eb8b30dae6544d40adf8d2",
         "section:428e623fd1d4af51c6a56d00a2ff677f61a5dbe1",
         "section:6f878c41aad61bfab2188d7dbc2a50caff1c01b4",
         "section:702611c693f14dd11307f4db3c7806a366a6d8d3",
@@ -1629,8 +1629,8 @@
         "profession:cooking:overview"
       ],
       "source_hashes": [
-        "section:301e7d5b23570c59b2bc991a9abaac2e8a94d7ef",
         "section:38525ca2ce54112e409d10109f78f55d315fe9f3",
+        "section:a419df425602663dfd82d81d5c0a7e9973521be4",
         "section:c9b783787b269a1f3695609c03a7422ebb62edd7"
       ]
     },
@@ -3025,7 +3025,7 @@
         "profession:first-aid:overview"
       ],
       "source_hashes": [
-        "section:686310df3e286fe2b2a2b39dbecf591d5111f667",
+        "section:545bf3e59fe7a0bddfdd8f4fde8e7ae503f5e61c",
         "section:837092bf000150f738652892223b919612ef71e1",
         "section:a5828bdabef30937030138c7783bc901f88e7543"
       ]
@@ -3182,7 +3182,7 @@
       "status": "editorial",
       "title_es": "Torneo de Pesca de Tuercespina",
       "title_en": "Stranglethorn Fishing Tournament",
-      "summary_es": "Forever amplía a 50 los ganadores y añade una moneda de recompensa.",
+      "summary_es": "Forever amplía a 250 los ganadores y añade una moneda de recompensa.",
       "summary_en": "Forever expands the winners to 50 and adds a reward coin.",
       "keywords_es": [
         "torneo de pesca",
@@ -3196,22 +3196,22 @@
         "Extravagant Extravaganza Coin",
         "Stranglethorn fishing rewards"
       ],
-      "text_es": "En el torneo de pesca de la Vega de Tuercespina, los primeros 50 jugadores que completen Maestro pescador reciben la Caña de pescar de arcanita y una Moneda de espectáculo extravagante. Puedes canjear la moneda por recompensas como el Gancho del maestro Pescador, los Zapatos de surfero o el Cebito amargo.",
-      "text_en": "Forever names the first 50 players who complete the tournament quest as winners; each receives an Arcanite Fishing Pole and an Extravagant Extravaganza Coin. Exchange the coin for rewards such as Hook of the Master Angler, Surfer Shoes, or Bitter Baitling.",
+      "text_es": "En el torneo de pesca de la Vega de Tuercespina, los primeros 250 jugadores que completen Maestro pescador reciben la Caña de pescar de arcanita y una Moneda de espectáculo extravagante. Puedes canjear la moneda por recompensas como el Gancho del maestro Pescador, los Zapatos de surfero o el Cebito amargo.",
+      "text_en": "Forever names the first 250 players who complete the tournament quest as winners; each receives an Arcanite Fishing Pole and an Extravagant Extravaganza Coin. Exchange the coin for rewards such as Hook of the Master Angler, Surfer Shoes, or Bitter Baitling.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › Fishing Tournament in Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
-          "date": "2026-11-10"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-23",
       "topics": [
         "profession:fishing:overview"
       ],
       "source_hashes": [
-        "section:0020c55435ed9c5a3bdc6e22ab451345c384a470"
+        "section:5e2a8edd04ff5620b8e5e7b58388d16730ce31ee"
       ]
     },
     {

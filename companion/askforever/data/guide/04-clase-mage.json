@@ -2917,8 +2917,8 @@
         "fire power gloves",
         "arcanum of focus mage"
       ],
-      "text_es": "Encantamientos del Mago a nivel 60: Arma: Encantar arma: poder con hechizos (+30; hace falta Encantamiento 300). Guantes según la escuela: Encantar guantes: poder Arcano (Arcano) o poder de Fuego (Fuego), ambos +20 de daño. Cabeza o piernas: Arcano de enfoque (+8 poder con hechizos, requiere objeto de nivel 60; se consigue con el Tratado sobre Enfoque en Dire Maul). Botas: Encantar botas: velocidad (+8% velocidad de movimiento) o un complemento místico (+6 poder con hechizos), a tu gusto.",
-      "text_en": "Mage enchants at level 60: Weapon: Enchant Weapon - Spell Power (+30; needs 300 Enchanting). Gloves by school: Enchant Gloves - Arcane Power (Arcane) or Fire Power (Fire), both +20 damage. Head or legs: Arcanum of Focus (+8 Spell Power, needs a level 60 item; from the Libram of Focus in Dire Maul). Boots: Enchant Boots - Speed (+8% movement speed) or a Mystic armor kit (+6 Spell Power), by preference.",
+      "text_es": "Encantamientos del Mago a nivel 60: Arma: Encantar arma: poder con hechizos (+30; hace falta Encantamiento 300). Guantes según la escuela: Arcano, Encantar guantes: velocidad menor (+1% celeridad, Encantamiento 250); Fuego, Encantar guantes: poder de Fuego (+20 de daño). Cabeza o piernas: Arcano de enfoque (+8 poder con hechizos, requiere objeto de nivel 60; se consigue con el Tratado sobre Enfoque en Dire Maul). Botas: Encantar botas: velocidad (+8% velocidad de movimiento) o un complemento místico (+6 poder con hechizos), a tu gusto.",
+      "text_en": "Mage enchants at level 60: Weapon: Enchant Weapon - Spell Power (+30; needs 300 Enchanting). Gloves by school: Arcane, Enchant Gloves - Minor Haste (+1% haste, 250 Enchanting); Fire, Enchant Gloves - Fire Power (+20 damage). Head or legs: Arcanum of Focus (+8 Spell Power, needs a level 60 item; from the Libram of Focus in Dire Maul). Boots: Enchant Boots - Speed (+8% movement speed) or a Mystic armor kit (+6 Spell Power), by preference.",
       "tags": [
         "MAGE"
       ],
@@ -2927,22 +2927,22 @@
           "type": "editorial",
           "ref": "Wowhead: Arcane Mage Enchants & Consumables - WoW: Forever › Best Arcane Mage Enchants in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/enchants-consumables-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Fire Mage Enchants & Consumables - WoW: Forever › Best Fire Mage Enchants for Leveling in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/enchants-consumables-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-23",
       "topics": [
         "class:mage:arcane:enchants",
         "class:mage:fire:enchants"
       ],
       "source_hashes": [
-        "guide:c8fdc78d63106047e3bf7148f33da57fe7d7f578",
+        "guide:748275fbad24f8e8a569a0e28e61431927c45951",
         "section:0cf43476d2a38e08644daafe284bfa902e6d405a"
       ]
     },
@@ -2995,7 +2995,7 @@
         "class:mage:arcane:enchants"
       ],
       "source_hashes": [
-        "guide:c8fdc78d63106047e3bf7148f33da57fe7d7f578",
+        "guide:748275fbad24f8e8a569a0e28e61431927c45951",
         "section:50937079dabcb03835c4b6fe63fb7248041fa836"
       ]
     },

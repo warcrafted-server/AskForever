@@ -38,7 +38,7 @@
         "ui:ui-hud-edit-mode-guide"
       ],
       "source_hashes": [
-        "section:7ebfa478b4b90d2493494d91269ba41bf13a4716"
+        "section:14afdf368df9ffde24b53aeaa7f0eb51059a04eb"
       ]
     },
     {
@@ -118,7 +118,7 @@
         "ui:ui-hud-edit-mode-guide"
       ],
       "source_hashes": [
-        "section:863cbd3982e5151d39869302f36308cedb1ab97a"
+        "section:33dacd725820f7ebdb5749b5ad278847a6549e1d"
       ]
     },
     {
@@ -164,8 +164,8 @@
         "ui:damage-meter-guide"
       ],
       "source_hashes": [
-        "guide:6f1f7429f562745676054803a8d398f88b43482b",
-        "section:8ec80324b7dbc177188a32054158a7eef51821de"
+        "guide:b97d4379568382574771819d4b4fc57ffda5ee31",
+        "section:e8b87c624b256ab7edc376f3614412a183d8cfdf"
       ]
     },
     {
@@ -205,7 +205,7 @@
         "ui:damage-meter-guide"
       ],
       "source_hashes": [
-        "section:668cc14261a17d8cfc500e8d0f3745283044c151"
+        "section:48dd40b779c87feec7975286ce21077abacb5a27"
       ]
     },
     {
@@ -257,7 +257,7 @@
         "ui:damage-meter-guide"
       ],
       "source_hashes": [
-        "guide:6f1f7429f562745676054803a8d398f88b43482b"
+        "guide:b97d4379568382574771819d4b4fc57ffda5ee31"
       ]
     },
     {
@@ -351,7 +351,7 @@
       ],
       "source_hashes": [
         "section:2fa4e80c40a1f8c0757d11b1487293a1c9b4813a",
-        "section:889fdcca64466f00d968039f24cba9abfc61dd87"
+        "section:651a0a33039a2565f70501dd2b8812bd9998fa4f"
       ]
     },
     {
@@ -403,9 +403,9 @@
         "ui:discord-guild-chat-integration-guide"
       ],
       "source_hashes": [
-        "section:197c713fd58c008acf503065c8affb944115b9d4",
         "section:28b8ed9af514b2cdc411501340f376629cc664ae",
-        "section:522a4e80b85a94309458111cc88b305b6478d636"
+        "section:522a4e80b85a94309458111cc88b305b6478d636",
+        "section:f4f1bd7399dcd0799b1737e819dbea5a885ab63a"
       ]
     },
     {
@@ -451,8 +451,8 @@
         "ui:discord-guild-chat-integration-guide"
       ],
       "source_hashes": [
-        "section:01be0bdccab472818ef4f8c307accbf03da7ff7a",
-        "section:75f92bfe814967fe2039db9293bcd806e7971f63"
+        "section:069895f45b42e12fb797c875d30ce03b754848b4",
+        "section:6f75379c4aaba48abd073a40a1e41c70368f9e12"
       ]
     },
     {
@@ -498,8 +498,8 @@
         "ui:discord-guild-chat-integration-guide"
       ],
       "source_hashes": [
-        "section:01be0bdccab472818ef4f8c307accbf03da7ff7a",
-        "section:889fdcca64466f00d968039f24cba9abfc61dd87"
+        "section:651a0a33039a2565f70501dd2b8812bd9998fa4f",
+        "section:6f75379c4aaba48abd073a40a1e41c70368f9e12"
       ]
     },
     {
@@ -539,7 +539,7 @@
         "ui:ping-system-guide"
       ],
       "source_hashes": [
-        "section:8aeec758ea72b2a9cfaeb4f02d6c1f8c6eaf620c"
+        "section:3d66a43fca95a2ec91cd5024677ddbb92a9dde34"
       ]
     },
     {
@@ -579,7 +579,7 @@
         "ui:ping-system-guide"
       ],
       "source_hashes": [
-        "section:f167fdc6f7de8448997b0f32faec34ee318a23ea"
+        "section:a9cd6bfbbcd427174ca3c9e3ee2448d1c88a7c45"
       ]
     },
     {
@@ -619,7 +619,7 @@
         "ui:ping-system-guide"
       ],
       "source_hashes": [
-        "section:f167fdc6f7de8448997b0f32faec34ee318a23ea"
+        "section:a9cd6bfbbcd427174ca3c9e3ee2448d1c88a7c45"
       ]
     },
     {
@@ -659,7 +659,7 @@
         "ui:ping-system-guide"
       ],
       "source_hashes": [
-        "section:f167fdc6f7de8448997b0f32faec34ee318a23ea"
+        "section:a9cd6bfbbcd427174ca3c9e3ee2448d1c88a7c45"
       ]
     },
     {
@@ -699,7 +699,7 @@
         "ui:ping-system-guide"
       ],
       "source_hashes": [
-        "section:8c603675a1a667d63972e827b83382e7711d8836"
+        "section:3224a52b1d5a0a9295c2478af63d9f2030eee59e"
       ]
     },
     {
@@ -826,7 +826,7 @@
         "ui:ping-system-guide"
       ],
       "source_hashes": [
-        "section:45e2646bcd7bb6975ed30a41d158521786810728"
+        "section:27aee02603c90367b0c0732d774c4496ca0bba90"
       ]
     },
     {
