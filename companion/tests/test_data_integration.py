@@ -178,6 +178,7 @@ def test_get_wowdata_path(tmp_path, monkeypatch):
 
     monkeypatch.setenv('ASKFOREVER_WOWDATA', str(tmp_path / 'no.sqlite'))
     monkeypatch.setattr(config, '_sibling_wowdata_path', lambda: tmp_path / 'tampoco.sqlite')
+    monkeypatch.setattr(config, 'managed_wowdata_path', lambda: tmp_path / 'gestionada.sqlite')
     assert config.get_wowdata_path() is None
 
     monkeypatch.delenv('ASKFOREVER_WOWDATA', raising=False)
@@ -194,6 +195,7 @@ def test_open_wowdata(db_path, monkeypatch):
 
     monkeypatch.setenv('ASKFOREVER_WOWDATA', str(db_path.parent / 'no.sqlite'))
     monkeypatch.setattr(config, '_sibling_wowdata_path', lambda: db_path.parent / 'no.sqlite')
+    monkeypatch.setattr(config, 'managed_wowdata_path', lambda: db_path.parent / 'no-gestionada.sqlite')
     assert config.open_wowdata() is None
 
 

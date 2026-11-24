@@ -325,7 +325,7 @@ def update(report: Optional[Path] = None, force: bool = False,
     corpus_path = root_path(corpus, Path('.agents/corpus/corpus.sqlite'))
     cards_path = root_path(cards, Path('companion/askforever/data/guide'))
     packs_path = root_path(packs, Path('.agents/corpus/packs'))
-    wowdb_path = root_path(wowdb, REPO_ROOT.parent / 'wowdata/datos/wow.sqlite')
+    wowdb_path = root_path(wowdb, REPO_ROOT.parents[1] / 'wowdata/datos/wow.sqlite')
     out_path = root_path(out, Path('.agents/plans/conocimiento/actualizaciones'))
     registry_path = root_path(registry, Path('.agents/corpus/actualizaciones.json'))
     registry_data = _load_registry(registry_path)

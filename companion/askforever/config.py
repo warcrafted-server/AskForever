@@ -150,7 +150,12 @@ def get_temperature() -> float:
 
 
 def _sibling_wowdata_path() -> Path:
-    return Path(__file__).resolve().parents[2].parent / 'wowdata' / 'datos' / 'wow.sqlite'
+    # El repo vive en Wow/AddOns WowForever/AskForever y wowdata en Wow/wowdata. El programa instalado
+    # puede estar en una carpeta poco profunda: entonces no hay base hermana.
+    parents = Path(__file__).resolve().parents
+    if len(parents) < 5:
+        return Path(__file__).resolve().parent / 'sin-wowdata' / 'wow.sqlite'
+    return parents[4] / 'wowdata' / 'datos' / 'wow.sqlite'
 
 
 def user_data_dir() -> Path:

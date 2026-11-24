@@ -28,7 +28,7 @@ REPO_ROOT = BASE_DIR.parent
 GUIDE_DIR = BASE_DIR / 'askforever' / 'data' / 'guide'
 DEFAULT_CORPUS = REPO_ROOT / '.agents' / 'corpus' / 'corpus.sqlite'
 DEFAULT_REPORT = REPO_ROOT / '.agents' / 'corpus' / 'comprobacion.md'
-DEFAULT_WOWDB = REPO_ROOT.parent / 'wowdata' / 'datos' / 'wow.sqlite'
+DEFAULT_WOWDB = REPO_ROOT.parents[1] / 'wowdata' / 'datos' / 'wow.sqlite'
 
 # Diez palabras seguidas iguales a la fuente ya no son un dato suelto, sino una frase copiada.
 COPY_WORDS = 10

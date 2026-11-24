@@ -14,7 +14,7 @@ from pathlib import Path
 from typing import Optional
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-DEFAULT_WOWDB = REPO_ROOT.parent / 'wowdata' / 'datos' / 'wow.sqlite'
+DEFAULT_WOWDB = REPO_ROOT.parents[1] / 'wowdata' / 'datos' / 'wow.sqlite'
 
 # Enlace Markdown con ID: [Nombre](https://www.wowhead.com/forever/spell=19574) o (…/wow-forever/spells/19574).
 LINK = re.compile(
