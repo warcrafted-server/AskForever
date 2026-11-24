@@ -1,13 +1,16 @@
 **AskForever** lets you ask questions inside WoW Forever and shows the answer over the game in seconds, using verified game data. The addon works with **AskForever App** for Windows.
 
 ## What it does
-- Ask with `/af` or the minimap button; the answer appears over the game, on the right.
+- Ask with `/af` or the minimap button; the answer appears in the conversation of the addon window.
 - Uses verified game data: quests, NPCs, class trainers, dungeons and their levels, zones for your level, loot and flight points.
 - Quest help: where to get what a quest asks for (which NPC drops it, which chest or plant gives it, where the creatures to kill are), with coordinates. It understands your active quests, so "who drops the book?" is enough.
 - Travel routes with flights, boats, zeppelins and the Deeprun Tram, starting from where you are.
+- Class help from the current guides: talent builds, rotation, stats, enchants and leveling tips, plus professions, dungeons, raids and PvP.
+- Knows your character: your talents and unspent points, professions, gear and stats, so you can ask "review my talents" or "where do I spend my next point?".
 - Remembers the conversation, so follow-up questions work ("and from here?").
 - Scroll the conversation with the mouse wheel or arrow buttons; resize the addon window from its bottom-right corner.
 - Says "I don't know" instead of guessing. English and Spanish.
+- Without AskForever App, **Copy prompt** copies the question with your context so you can paste it into any AI.
 - Game data and guide cards arrive with addon updates through CurseForge.
 
 ## How to install (about 10 minutes, once)
@@ -24,11 +27,12 @@ Step-by-step guide with screenshots: [installation guide](https://github.com/war
 ## Privacy and security
 - It does not read game memory and does not automate anything: no keys pressed, no mouse moved.
 - It contacts the configured AI provider and the wiki when needed. GitHub checks for app and data releases and downloads the app installer or base database; both are verified with SHA-256.
+- With each question the addon sends the AI a summary of your character (level, class, zone, talents, professions, gear and stats). Nothing that identifies you is sent: no name, realm or gold.
 - AskForever App reads the addon's game-data folder without modifying it. Your key is stored encrypted in Windows Credential Manager, never in a plain file.
 - AskForever App is built on GitHub from the public code, with SHA-256 hashes and build provenance. Windows may show a warning the first time because the program is not code-signed: see [security and transparency](https://github.com/warcrafted-server/AskForever/blob/main/docs/SECURITY_TRANSPARENCY.md).
 
 ## Beta limitations
-- The answer appears in a small window over the game, not yet inside the addon window. It hides while the game is minimized or in the background.
+- AskForever App draws the answer over the addon window, so it hides while the game is minimized or in the background.
 
 AI answers can contain mistakes: double-check important details in game.
 
@@ -37,13 +41,16 @@ AI answers can contain mistakes: double-check important details in game.
 **AskForever** te permite preguntar dentro de WoW Forever y ver la respuesta sobre el juego en segundos, con datos verificados del juego. El addon funciona con **AskForever App** para Windows.
 
 ## Qué hace
-- Pregunta con `/af` o el botón del minimapa; la respuesta aparece sobre el juego, a la derecha.
+- Pregunta con `/af` o el botón del minimapa; la respuesta aparece en la conversación de la ventana del addon.
 - Usa datos verificados del juego: misiones, PNJ, instructores de clase, mazmorras y sus niveles, zonas para tu nivel, botín y puntos de vuelo.
 - Ayuda con misiones: dónde conseguir lo que pide una misión (qué PNJ lo suelta, qué cofre o planta lo da, dónde están las criaturas que hay que matar), con coordenadas. Entiende tus misiones activas, así que basta con «¿quién suelta el libro?».
 - Rutas de viaje con vuelos, barcos, zepelines y el Tranvía Subterráneo, desde donde estás.
+- Ayuda de clase según las guías actuales: builds de talentos, rotación, estadísticas, encantamientos y consejos para subir, además de profesiones, mazmorras, bandas y JcJ.
+- Conoce a tu personaje: tus talentos y puntos sin gastar, profesiones, equipo y estadísticas, así que puedes preguntar «revisa mis talentos» o «¿dónde gasto el siguiente punto?».
 - Recuerda la conversación, así que puedes seguir preguntando («¿y desde aquí?»).
 - Desplázate por la conversación con la rueda del ratón o los botones de flecha; cambia el tamaño de la ventana del addon desde la esquina inferior derecha.
 - Dice «no lo sé» en lugar de inventar. Inglés y español.
+- Sin AskForever App, **Copiar prompt** copia la pregunta con tu contexto para pegarla en cualquier IA.
 - Los datos del juego y las fichas llegan con las actualizaciones del addon desde CurseForge.
 
 ## Cómo se instala (unos 10 minutos, una vez)
@@ -60,11 +67,12 @@ Guía paso a paso con capturas: [guía de instalación](https://github.com/warcr
 ## Privacidad y seguridad
 - No lee la memoria del juego ni automatiza nada: no pulsa teclas ni mueve el ratón.
 - Contacta con el proveedor de IA configurado y con la wiki cuando hace falta. GitHub comprueba versiones de la app y los datos y descarga el instalador o la base de datos; ambas descargas se verifican con SHA-256.
+- Con cada pregunta, el addon envía a la IA un resumen de tu personaje (nivel, clase, zona, talentos, profesiones, equipo y estadísticas). No se envía nada que te identifique: ni nombre, ni reino, ni oro.
 - AskForever App lee la carpeta de datos del addon sin modificarla. La clave se guarda cifrada en el Administrador de credenciales de Windows, nunca en un archivo de texto.
 - AskForever App se compila en GitHub desde el código público, con hashes SHA-256 y prueba de procedencia. Windows puede mostrar un aviso la primera vez porque el programa no está firmado digitalmente: consulta [seguridad y transparencia](https://github.com/warcrafted-server/AskForever/blob/main/docs/SEGURIDAD_TRANSPARENCIA.md).
 
 ## Limitaciones de la beta
-- La respuesta aparece en una ventanita sobre el juego, todavía no dentro de la ventana del addon. Se oculta mientras el juego está minimizado o en segundo plano.
+- AskForever App dibuja la respuesta sobre la ventana del addon, así que se oculta mientras el juego está minimizado o en segundo plano.
 
 Las respuestas de la IA pueden contener errores: comprueba lo importante en el juego.
 
