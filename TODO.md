@@ -15,6 +15,7 @@ El detalle de cada hito está en [ROADMAP.md](ROADMAP.md). Lo hecho está en el 
 - **Leer respuestas largas en el chat** (pedido por Marc): ventana del addon redimensionable, desplazamiento con la rueda y botones ▲/▼ sobre el panel (el overlay no recibe clics), y mostrar cada respuesta nueva desde su principio. Diseño en `.agents/plans/consultas/consultas.PLAN.md` (3c).
 
 ## Media
+- **Descripción de los objetos en las respuestas** (wowdata, 2026-11-24): el companion no lee la descripción del objeto (`ItemSparse.Description_lang_esES`, con el inglés de respaldo; 4820 de 4828 la tienen en español). Añadirla a `item_sources` ayudaría con «¿qué hago con este objeto?»; hoy esa pregunta solo se salva si hay ficha.
 - **Actualización diaria de guías** (Marc, 2026-11-18): `companion/tools/guide_update.py` que importe la descarga del día, refresque solas las fichas con cambios solo de forma y prepare tareas estrechas por clase. Plan en `.agents/plans/actualizacion-diaria/`.
 - **Chat dentro de la ventana del addon** (vuelta por addons «slot»): diseño en `.agents/plans/m3-slots/m3-slots.PLAN.md`; con ello, la ventana de informe podrá mostrar la respuesta.
 - **Perfil completo del personaje**: profesiones, talentos, equipo, reputaciones…; primero verificar en el cliente qué API existe; a la IA solo lo relevante para la pregunta.
