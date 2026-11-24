@@ -118,6 +118,13 @@ def test_classify_cards_marks_cosmetic_and_real_changes(tmp_path):
     assert [card['id'] for card in result['druid']['real']] == ['real']
     assert [card['id'] for card in result['other']['real']] == ['non-class']
 
+    # Paquete ya regenerado por una pasada anterior: sin diferencias no hay prueba de cambio de forma.
+    same = _pack(URL_NEW, 'Changed sentence.')
+    again = guide_update.classify_cards(cards, {'cosmetic', 'real'}, db,
+                                        {'druid-a': same}, {'druid-a': same})
+    assert again['druid']['cosmetic'] == []
+    assert sorted(card['id'] for card in again['druid']['real']) == ['cosmetic', 'real']
+
 
 def test_update_refreshes_only_cosmetic_cards_and_registry_skips_second_run(tmp_path):
     root = tmp_path

@@ -136,6 +136,9 @@ def classify_cards(cards_dir: Path, stale_ids: set[str], corpus_path: Path,
             if not isinstance(card, dict) or card.get('id') not in stale_ids:
                 continue
             cosmetic = class_name is not None
+            # Sin ninguna diferencia de texto en esta pasada no hay prueba de que el cambio sea de forma:
+            # lo cambió una pasada anterior (varios informes seguidos) y debe revisarse como real.
+            changed_here = False
             sources = _resolve_card_sources(card, guides, by_url)
             if not sources:
                 cosmetic = False
@@ -152,6 +155,10 @@ def classify_cards(cards_dir: Path, stale_ids: set[str], corpus_path: Path,
                         normalize_pack_text(old_text) != normalize_pack_text(new_text)):
                     cosmetic = False
                     break
+                if old_text != new_text:
+                    changed_here = True
+            if not changed_here:
+                cosmetic = False
             result[class_name or 'other'][
                 'cosmetic' if cosmetic else 'real'].append(card)
     return result
