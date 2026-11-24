@@ -169,7 +169,7 @@
           "type": "editorial",
           "ref": "Wowhead: Best Subtlety Rogue Talent Tree Builds - WoW: Forever › Best Subtlety Rogue PvE Dungeon and Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/talent-builds-pve-dps",
-          "date": "2026-11-17"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
@@ -184,7 +184,7 @@
           "date": "2026-11-07"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "class:rogue:assassination:overview",
         "class:rogue:assassination:rotation",
@@ -198,10 +198,10 @@
       "source_hashes": [
         "section:0efe35de8a6b61a43cf4a3e6c89f9c8065ffd7e3",
         "section:1b2e8c83c872a9f18591f0866c2202d1ea5af6d2",
+        "section:1c1a2bc88d75665f11f951f11d4e1ffc2124f57c",
         "section:1d19d39dea22145e568b1cb8e1bf4dd7503be785",
         "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
         "section:26f0593f8706f85629d54f49efb7cdb77b8fd167",
-        "section:38a49afdc60164a2c4f34e9dae4992d445306b02",
         "section:46f72368175181fb8a617195f4ebec1f48ab8701",
         "section:59c963bc3f26b484bec395601436b95523309c52",
         "section:7a35a5ea33258d3f9008e77fed51f8733c66be6e",
@@ -1435,7 +1435,7 @@
           "type": "editorial",
           "ref": "Wowhead: Best Subtlety Rogue Talent Tree Builds - WoW: Forever › Best Subtlety Rogue PvE Dungeon and Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/talent-builds-pve-dps",
-          "date": "2026-11-17"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
@@ -1450,7 +1450,7 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "class:rogue:subtlety:leveling",
         "class:rogue:subtlety:overview",
@@ -1460,11 +1460,11 @@
       "source_hashes": [
         "section:0d4447ef4a83b8e6f53f5c50e1e36cf2fd807b50",
         "section:1b2e8c83c872a9f18591f0866c2202d1ea5af6d2",
+        "section:1c1a2bc88d75665f11f951f11d4e1ffc2124f57c",
         "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
         "section:1fdd19165d66aead9faa422abc42fa9a91ee12ba",
         "section:26f0593f8706f85629d54f49efb7cdb77b8fd167",
         "section:274e4cfa6da8235973d3422fab57111f23e58e96",
-        "section:38a49afdc60164a2c4f34e9dae4992d445306b02",
         "section:ef5b18a83c64beca3f3af6c357e88d60522b996e",
         "section:fc6cb0ee129267ab10ce1ec541798d3774aee642"
       ]
@@ -1767,8 +1767,8 @@
         "subtlety death mark",
         "rogue boot knife"
       ],
-      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3 y Salpicadura de sangre 1/1. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2 y Precisión 3/3. Sutileza: Establecer 3/3, Oportunidad 5/5, Trabajos sucios 2/2, Camuflaje 3/3, Iniciativa 3/3, Premeditación 1/1, Espadas dentadas 3/3, Elusión 2/2, Golpe fantasmal 1/1, Preparación 1/1, Hemorragia 1/1, Cuchillo de bota 5/5 y Marca de muerte 1/1. Esta variante prioriza Marca de muerte y Cuchillo de bota; admite distintas armas.",
-      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, and Blood Splatter 1/1. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, and Precision 3/3. Subtlety: Setup 3/3, Opportunity 5/5, Dirty Deeds 2/2, Camouflage 3/3, Initiative 3/3, Premeditation 1/1, Serrated Blades 3/3, Elusiveness 2/2, Ghostly Strike 1/1, Preparation 1/1, Hemorrhage 1/1, Boot Knife 5/5, and Death Mark 1/1. This variant focuses on Death Mark and Boot Knife and can use different weapons.",
+      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3 y Salpicadura de sangre 1/1. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2 y Precisión 3/3. Sutileza: Trabajos sucios 2/2, Oportunidad 5/5, Camuflaje 3/3, Emboscada mejorada 3/3, Iniciativa 3/3, Premeditación 1/1, Espadas dentadas 3/3, Elusión 2/2, Golpe fantasmal 1/1, Preparación 1/1, Hemorragia 1/1, Cuchillo de bota 5/5 y Marca de muerte 1/1. Esta variante prioriza Marca de muerte y Cuchillo de bota; admite distintas armas.",
+      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, and Blood Splatter 1/1. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, and Precision 3/3. Subtlety: Dirty Deeds 2/2, Opportunity 5/5, Camouflage 3/3, Improved Ambush 3/3, Initiative 3/3, Premeditation 1/1, Serrated Blades 3/3, Elusiveness 2/2, Ghostly Strike 1/1, Preparation 1/1, Hemorrhage 1/1, Boot Knife 5/5, and Death Mark 1/1. This variant focuses on Death Mark and Boot Knife and can use different weapons.",
       "tags": [
         "ROGUE"
       ],
@@ -1777,15 +1777,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Subtlety Rogue Talent Tree Builds - WoW: Forever › Best Subtlety Rogue PvE Dungeon and Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/talent-builds-pve-dps",
-          "date": "2026-11-17"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "class:rogue:subtlety:talents"
       ],
       "source_hashes": [
-        "section:38a49afdc60164a2c4f34e9dae4992d445306b02"
+        "section:1c1a2bc88d75665f11f951f11d4e1ffc2124f57c"
       ]
     },
     {
@@ -2878,8 +2878,8 @@
         "subtlety venom talents",
         "subtlety pve build"
       ],
-      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3, Vigor 1/2, Salpicadura de sangre 1/1, Letalidad 2/2, Venenos inmundos 1/5, Sangre fría 1/1, Venenos mejorados 3/5, Golpes despiadados 5/5, Veneno 1/1 y Sello del destino 2/3. Combate: Golpes eficientes 2/2. Sutileza: Maestro de la decepción 3/3, Oportunidad 5/5, Trabajos sucios 2/2, Iniciativa 3/3, Premeditación 1/1, Espadas dentadas 3/3, Elusión 2/2, Golpe fantasmal 1/1 y Hemorragia 1/1. Es flexible en armas y su apertura es más sencilla que la de Deep Sub.",
-      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, Vigor 1/2, Blood Splatter 1/1, Lethality 2/2, Vile Poisons 1/5, Cold Blood 1/1, Improved Poisons 3/5, Relentless Strikes 5/5, Venom 1/1, and Seal Fate 2/3. Combat: Efficient Strikes 2/2. Subtlety: Master of Deception 3/3, Opportunity 5/5, Dirty Deeds 2/2, Initiative 3/3, Premeditation 1/1, Serrated Blades 3/3, Elusiveness 2/2, Ghostly Strike 1/1, and Hemorrhage 1/1. It is weapon-flexible and has a simpler opener than Deep Sub.",
+      "text_es": "Asesinato: Maldad 5/5, Crueldad 3/3, Hacer picadillo mejorado 3/3, Vigor 1/2, Salpicadura de sangre 1/1, Letalidad 2/2, Venenos inmundos 1/5, Sangre fría 1/1, Venenos mejorados 3/5, Golpes despiadados 5/5, Veneno 1/1 y Sello del destino 2/3. Combate: Golpes eficientes 2/2. Sutileza: Trabajos sucios 2/2, Oportunidad 5/5, Emboscada mejorada 3/3, Iniciativa 3/3, Premeditación 1/1, Espadas dentadas 3/3, Elusión 2/2, Golpe fantasmal 1/1 y Hemorragia 1/1. Es flexible en armas y su apertura es más sencilla que la de Deep Sub.",
+      "text_en": "Assassination: Malice 5/5, Ruthlessness 3/3, Improved Slice and Dice 3/3, Vigor 1/2, Blood Splatter 1/1, Lethality 2/2, Vile Poisons 1/5, Cold Blood 1/1, Improved Poisons 3/5, Relentless Strikes 5/5, Venom 1/1, and Seal Fate 2/3. Combat: Efficient Strikes 2/2. Subtlety: Dirty Deeds 2/2, Opportunity 5/5, Improved Ambush 3/3, Initiative 3/3, Premeditation 1/1, Serrated Blades 3/3, Elusiveness 2/2, Ghostly Strike 1/1, and Hemorrhage 1/1. It is weapon-flexible and has a simpler opener than Deep Sub.",
       "tags": [
         "ROGUE"
       ],
@@ -2888,15 +2888,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Subtlety Rogue Talent Tree Builds - WoW: Forever › Best Subtlety Rogue PvE Dungeon and Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/talent-builds-pve-dps",
-          "date": "2026-11-17"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "class:rogue:subtlety:talents"
       ],
       "source_hashes": [
-        "section:38a49afdc60164a2c4f34e9dae4992d445306b02"
+        "section:1c1a2bc88d75665f11f951f11d4e1ffc2124f57c"
       ]
     },
     {
