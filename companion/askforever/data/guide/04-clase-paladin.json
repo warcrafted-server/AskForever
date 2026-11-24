@@ -104,8 +104,8 @@
         "paladin tank",
         "paladin damage"
       ],
-      "text_es": "Sagrado ofrece curas potentes a un objetivo y Vigilia de la Luz permite responder al daño grupal. Protección tanquea con escudo, Consagración y Sello de furia; destaca ante magia y varios enemigos. Reprensión inflige daño cuerpo a cuerpo con dos manos y apoya al grupo, pero carece de interrupción y ralentización.",
-      "text_en": "Holy provides strong single-target healing, while Light's Vigil answers group damage. Protection tanks with a shield, Consecration, and Seal of Fury; it excels against magic and multiple enemies. Retribution deals two-handed melee damage and supports the group, but lacks an interrupt and a slow.",
+      "text_es": "Sagrado ofrece curas potentes a un objetivo y Vigilia de la Luz permite responder al daño grupal. Protección tanquea con escudo, Consagración y Sello de furia; destaca ante magia y varios enemigos. Reprensión inflige daño cuerpo a cuerpo con dos manos y apoya al grupo; también puede tanquear o curar en apuros, sobre todo a niveles bajos y sin cambiar talentos, pero carece de interrupción y ralentización.",
+      "text_en": "Holy provides strong single-target healing, while Light's Vigil answers group damage. Protection tanks with a shield, Consecration, and Seal of Fury; it excels against magic and multiple enemies. Retribution deals two-handed melee damage and supports the group; it can also tank or heal in a pinch, especially at lower levels and without altering talents, but lacks an interrupt and a slow.",
       "tags": [
         "PALADIN"
       ],
@@ -138,20 +138,20 @@
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin DPS Guide - WoW: Forever › Strengths and Weaknesses of Retribution Paladins in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/overview-pve-dps",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-24",
       "topics": [
         "class:paladin:holy:overview",
         "class:paladin:protection:overview",
         "class:paladin:retribution:overview"
       ],
       "source_hashes": [
+        "section:30b090bf959261abd1625aafb9d2e0c43035d278",
         "section:576c08dc1e411b0103d71403b3e5d55105fcb5ab",
         "section:6de93a2e5f1db204854d458c82af2491bb1d24fc",
         "section:710e692a4fa67f2192555d97ba03aa902f739fa2",
-        "section:88add09bcfaabe1f747809ea349477490af1a14a",
         "section:e96c2c8893d1872f12fd3da623c5f074f0da68bb"
       ]
     },
@@ -279,16 +279,16 @@
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Retribution Paladin DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
-          "date": "2026-11-15"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin DPS Rotation and Cooldowns - WoW: Forever › All Retribution Paladin DPS Rotations in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
-          "date": "2026-11-15"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-24",
       "topics": [
         "class:paladin:holy:overview",
         "class:paladin:protection:overview",
@@ -296,7 +296,7 @@
       ],
       "source_hashes": [
         "section:0fdbe3e868618560b3ef766915f734b7d27da2f2",
-        "section:33c0c2f10d61ed94116930ebec6ba4e7dbd7fd86",
+        "section:73f897a1ad598057a2ff768e2aa91a5a5f33364d",
         "section:b07086cea79a600fea410483650d49bcc16be54c",
         "section:bbd23d7937186416a7c779a4fd77ffefaf43f620"
       ]
@@ -590,8 +590,8 @@
         "seal of light",
         "seal of fury"
       ],
-      "text_es": "Sentencia ya no consume el sello activo. Reprensión usa Sello de rectitud hasta 20 y luego Sello de orden con un arma lenta; al tener Cólera desellada 1/1, cambia a Sello de rectitud para un golpe al acumular 2 o más cargas y vuelve a Sello de orden. Protección mantiene Sello de furia al tanquear, pues Sentencia provoca; aplica Sello del Cruzado antes si el objetivo durará. Para curar, Sello de luz suele ser la opción habitual.",
-      "text_en": "Judgement no longer consumes your active seal. Retribution uses Seal of Righteousness until 20, then Seal of Command with a slow weapon; with Unsealed Wrath 1/1, switch to Seal of Righteousness for one swing at 2 or more stacks, then return to Seal of Command. Protection keeps Seal of Fury while tanking because Judgement taunts; apply Seal of the Crusader first if the target will live. For healing, Seal of Light is the usual choice.",
+      "text_es": "Sentencia ya no consume el sello activo. Reprensión usa Sello de rectitud hasta 20 y luego Sello de orden con un arma lenta; con Cólera desellada 1/1, acumula 3 cargas y cambia a Sello de rectitud para un golpe, y vuelve a Sello de orden; puedes gastarlas antes si al enemigo le basta con menos. Protección mantiene Sello de furia al tanquear, pues Sentencia provoca; aplica Sello del Cruzado antes si el objetivo durará. Para curar, Sello de luz suele ser la opción habitual.",
+      "text_en": "Judgement no longer consumes your active seal. Retribution uses Seal of Righteousness until 20, then Seal of Command with a slow weapon; with Unsealed Wrath 1/1, build 3 stacks, switch to Seal of Righteousness for one swing, then return to Seal of Command; spend them earlier if the enemy needs less damage. Protection keeps Seal of Fury while tanking because Judgement taunts; apply Seal of the Crusader first if the target will live. For healing, Seal of Light is the usual choice.",
       "tags": [
         "PALADIN"
       ],
@@ -600,19 +600,19 @@
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Leveling Viability for Retribution Paladin DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin DPS Rotation and Cooldowns - WoW: Forever › All Retribution Paladin DPS Rotations in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Single Target Rotation (Unsealed Wrath)",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
@@ -627,7 +627,7 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-24",
       "topics": [
         "class:paladin:holy:leveling",
         "class:paladin:protection:leveling",
@@ -635,11 +635,11 @@
         "class:paladin:retribution:rotation"
       ],
       "source_hashes": [
-        "section:33c0c2f10d61ed94116930ebec6ba4e7dbd7fd86",
         "section:51c329549311e5a273c56d8946086f5d06b9c7e3",
         "section:6a1ffdc9139a6c63030b4e76b7440488013de862",
+        "section:73f897a1ad598057a2ff768e2aa91a5a5f33364d",
         "section:9302163ba05ae3d46ad2581a4659c88fc01ca831",
-        "section:e71be0bcb57335d842099c87e955d7abeebd4add"
+        "section:a54433344f51d0ee224f4511ff1293be83e1084a"
       ]
     },
     {
@@ -674,7 +674,7 @@
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Retribution Paladin DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
@@ -695,7 +695,7 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-24",
       "topics": [
         "class:paladin:holy:leveling",
         "class:paladin:protection:leveling",
@@ -703,8 +703,8 @@
       ],
       "source_hashes": [
         "section:0e6f932ed329d40203d6ab3ea732d99b3be47741",
+        "section:84728497a31a6e0aa828d7cf4cba02723ca0b80f",
         "section:9302163ba05ae3d46ad2581a4659c88fc01ca831",
-        "section:9537a5b7b35f8086d006c9e9137102d51f2b65d4",
         "section:9c1a99726c6c354b5dbcbe9176a6e9c3f096a4ca"
       ]
     },
@@ -740,13 +740,13 @@
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Leveling Tips for Retribution Paladin DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Leveling Viability for Retribution Paladin DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
@@ -761,15 +761,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-24",
       "topics": [
         "class:paladin:holy:leveling",
         "class:paladin:retribution:leveling"
       ],
       "source_hashes": [
         "section:13270161c1737eece59d847b9b0f462e9ce33f14",
-        "section:2651f11463721324c15fc97a9cdc8be137b14de1",
         "section:51c329549311e5a273c56d8946086f5d06b9c7e3",
+        "section:5f09d54111a121c5b0d731c28b1ecf364a9c80aa",
         "section:9302163ba05ae3d46ad2581a4659c88fc01ca831"
       ]
     },
@@ -795,8 +795,8 @@
         "paladin consecration",
         "flash of light"
       ],
-      "text_es": "Reprensión: juzga Sello del Cruzado, cambia a Sello de orden y prioriza Sentencia, Golpe Sagrado, Martillo de cólera bajo 20% y Exorcismo contra demonios o no-muertos. Cólera desellada 1/1 permite gastar 2+ cargas con un golpe de Sello de rectitud y volver a Sello de orden. Protección mantiene Sello de furia; usa Sentencia, Consagración si hay maná, Escudo Sagrado 1/1 y Golpe Sagrado. Sagrado daña con Sello de rectitud, Sentencia y Golpe Sagrado; para curar, Vigilia de la Luz antes del daño grupal, luego Choque Sagrado; Destello de Luz es eficiente y Luz Sagrada sirve para picos.",
-      "text_en": "Use Retribution priority: judge Seal of the Crusader, switch to Seal of Command; prioritize Judgement, Holy Strike, Hammer of Wrath below 20%, and Exorcism against a Demon or Undead. Unsealed Wrath 1/1 lets you spend 2+ stacks on one Seal of Righteousness swing, then return to Command. When tanking, Protection keeps Seal of Fury; use Judgement, Consecration if mana allows, Holy Shield 1/1, and Holy Strike. Holy damages with Seal of Righteousness, Judgement, and Holy Strike; heal with Light's Vigil before group damage, then Holy Shock; Flash of Light is efficient and Holy Light for spikes.",
+      "text_es": "Reprensión: juzga Sello del Cruzado, cambia a Sello de orden y prioriza Sentencia, Golpe Sagrado, Martillo de cólera bajo 20% y Exorcismo contra demonios o no-muertos. Cólera desellada 1/1 permite gastar 3 cargas con un golpe de Sello de rectitud y volver a Sello de orden. Protección mantiene Sello de furia; usa Sentencia, Consagración si hay maná, Escudo Sagrado 1/1 y Golpe Sagrado. Sagrado daña con Sello de rectitud, Sentencia y Golpe Sagrado; para curar, Vigilia de la Luz antes del daño grupal, luego Choque Sagrado; Destello de Luz es eficiente y Luz Sagrada sirve para picos.",
+      "text_en": "Use Retribution priority: judge Seal of the Crusader, switch to Seal of Command; prioritize Judgement, Holy Strike, Hammer of Wrath below 20%, and Exorcism against a Demon or Undead. Unsealed Wrath 1/1 lets you spend 3 stacks on one Seal of Righteousness swing, then return to Command. When tanking, Protection keeps Seal of Fury; use Judgement, Consecration if mana allows, Holy Shield 1/1, and Holy Strike. Holy damages with Seal of Righteousness, Judgement, and Holy Strike; heal with Light's Vigil before group damage, then Holy Shock; Flash of Light is efficient and Holy Light for spikes.",
       "tags": [
         "PALADIN"
       ],
@@ -805,7 +805,7 @@
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Single Target Rotation (Unsealed Wrath)",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
@@ -817,10 +817,10 @@
           "type": "editorial",
           "ref": "Wowhead: Holy Paladin Leveling Guide - WoW: Forever › Leveling Rotation for Holy Paladin DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/healer-leveling-tips",
-          "date": "2026-11-06"
+          "date": "2026-11-18"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-24",
       "topics": [
         "class:paladin:holy:leveling",
         "class:paladin:protection:leveling",
@@ -829,7 +829,7 @@
       "source_hashes": [
         "section:1b8b67888c33e93268873d806c5db4c20170fafa",
         "section:6a1ffdc9139a6c63030b4e76b7440488013de862",
-        "section:e71be0bcb57335d842099c87e955d7abeebd4add"
+        "section:a54433344f51d0ee224f4511ff1293be83e1084a"
       ]
     },
     {
@@ -854,8 +854,8 @@
         "retribution aura",
         "hammer of wrath"
       ],
-      "text_es": "Reprensión: juzga Sello del Cruzado si el grupo durará, cambia a Sello de orden; usa Sentencia y Consagración con maná, luego Martillo de cólera bajo 20% y Golpe Sagrado. Cólera desellada 1/1 permite gastar 2+ cargas con un golpe de Sello de rectitud y volver a Sello de orden. Consagración tarda 8 s; evítala si los enemigos morirán antes o debes moverte. Protección mantiene Sello de furia, Sentencia y Consagración si hay maná; Aura de castigo acelera bajas y añade amenaza de área. Usa Cólera sagrada contra demonios o no-muertos si no tanqueas; Escudo Sagrado 1/1 si lo elegiste.",
-      "text_en": "Retribution: judge Seal of the Crusader if the pack will live, then switch to Seal of Command; use Judgement and Consecration if mana allows, followed by Hammer of Wrath below 20% and Holy Strike. Unsealed Wrath 1/1 lets you spend 2+ stacks with one Seal of Righteousness swing, then return to Command. Consecration takes 8 seconds; skip it if enemies may die first or you need to move. Protection maintains Seal of Fury, Judgement, and Consecration if affordable; Retribution Aura speeds kills and adds AoE threat. Use Holy Wrath against Demon or Undead if not tanking; Holy Shield 1/1 if talented.",
+      "text_es": "Reprensión: juzga Sello del Cruzado si el grupo durará, cambia a Sello de orden; usa Sentencia y Consagración con maná, luego Martillo de cólera bajo 20% y Golpe Sagrado. Cólera desellada 1/1 permite gastar 3 cargas con un golpe de Sello de rectitud y volver a Sello de orden. Consagración tarda 8 s; evítala si los enemigos morirán antes o debes moverte. Protección mantiene Sello de furia, Sentencia y Consagración si hay maná; Aura de castigo acelera bajas y añade amenaza de área. Usa Cólera sagrada contra demonios o no-muertos si no tanqueas; Escudo Sagrado 1/1 si lo elegiste.",
+      "text_en": "Retribution: judge Seal of the Crusader if the pack will live, then switch to Seal of Command; use Judgement and Consecration if mana allows, followed by Hammer of Wrath below 20% and Holy Strike. Unsealed Wrath 1/1 lets you spend 3 stacks with one Seal of Righteousness swing, then return to Command. Consecration takes 8 seconds; skip it if enemies may die first or you need to move. Protection maintains Seal of Fury, Judgement, and Consecration if affordable; Retribution Aura speeds kills and adds AoE threat. Use Holy Wrath against Demon or Undead if not tanking; Holy Shield 1/1 if talented.",
       "tags": [
         "PALADIN"
       ],
@@ -864,7 +864,7 @@
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › AoE Rotation (Unsealed Wrath)",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
@@ -885,13 +885,13 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-24",
       "topics": [
         "class:paladin:protection:leveling",
         "class:paladin:retribution:leveling"
       ],
       "source_hashes": [
-        "section:36acfd8837a0b06068d42c069d79644d12c5aa34",
+        "section:51a9cc0f6014956abcfeffb80c36343c8fc9554d",
         "section:6a1ffdc9139a6c63030b4e76b7440488013de862",
         "section:84dbf68d681a9f82648e3182ec92ca9498ae1f80",
         "section:d813f81c4dc8af9d4a0fdaa05f5fa687cad66b96"
@@ -1033,19 +1033,19 @@
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Best Leveling Professions for Retribution Paladin DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Best Leveling Consumables for Retribution Paladin DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Leveling Tips for Retribution Paladin DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
@@ -1057,19 +1057,19 @@
           "type": "editorial",
           "ref": "Wowhead: Holy Paladin Leveling Guide - WoW: Forever › Best Leveling Professions for Holy Paladin DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/healer-leveling-tips",
-          "date": "2026-11-06"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Holy Paladin Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Holy Paladin",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/healer-leveling-tips",
-          "date": "2026-11-06"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Retribution Paladin",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
@@ -1078,7 +1078,7 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-24",
       "topics": [
         "class:paladin:holy:leveling",
         "class:paladin:protection:leveling",
@@ -1086,9 +1086,9 @@
       ],
       "source_hashes": [
         "section:1e41acc97d7aa841820103f515312b147446d28a",
-        "section:2651f11463721324c15fc97a9cdc8be137b14de1",
         "section:2da82f32c8767f3ce332e5bbee22e081465dec65",
         "section:57dda9f53888586675fcba4ea8b413b5a5a54cf1",
+        "section:5f09d54111a121c5b0d731c28b1ecf364a9c80aa",
         "section:71d846f376cc354db6133010f997bdc93c1da8ec",
         "section:b762ccab74541fa9e2c228783a54c000d64e0dbe",
         "section:d9a4aaaf797b1f72de5421c3d4d63ac1bd56af56",
@@ -1344,8 +1344,8 @@
         "judgement holy strike",
         "paladin two handed"
       ],
-      "text_es": "Reprensión combina daño físico y sagrado con arma a dos manos. Golpe Sagrado es instantáneo; al invertir 31 puntos (nivel 40), Cólera desellada almacena efectos del sello activo y los gasta al cambiar, sin depender del antiguo ritmo de golpes. Mantén Sello de orden, usa Sentencia y Golpe Sagrado y añade Consagración contra grupos. Imposición de manos y Escudo divino ofrecen curación e inmunidad de emergencia; Búsqueda de justicia mejora la movilidad, pero carece de interrupción y ralentización y su daño en área es débil.",
-      "text_en": "Retribution combines physical and Holy damage with a two-handed weapon. Holy Strike is instant; at 31 points (level 40), Unsealed Wrath stores effects from your active Seal and spends them when you switch, without relying on the old swing-timing rhythm. Keep Seal of Command, use Judgement and Holy Strike, and add Consecration against packs. Lay on Hands and Divine Shield provide emergency healing and immunity; Pursuit of Justice improves movement, but the spec lacks an interrupt and a slow and has weak AoE damage.",
+      "text_es": "Reprensión combina daño físico y sagrado con arma a dos manos. Golpe Sagrado es instantáneo; al invertir 31 puntos (nivel 40), Cólera desellada almacena efectos del sello activo y los gasta al cambiar, sin ritmo de golpes. Mantén Sello de orden, usa Sentencia y Golpe Sagrado y añade Consagración contra grupos. Imposición de manos y Escudo divino ofrecen curación e inmunidad de emergencia; Búsqueda de justicia mejora la movilidad. Puede tanquear o curar en apuros sin cambiar talentos, pero carece de interrupción y ralentización y su daño en área es débil.",
+      "text_en": "Retribution combines physical and Holy damage with a two-handed weapon. Holy Strike is instant; at 31 points (level 40), Unsealed Wrath stores effects from your active Seal and spends them when you switch, without the old swing rhythm. Keep Seal of Command, use Judgement and Holy Strike, and add Consecration against packs. Lay on Hands and Divine Shield provide emergency healing and immunity; Pursuit of Justice improves movement. It can also tank or heal in a pinch without altering talents, but the spec lacks an interrupt and a slow and has weak AoE damage.",
       "tags": [
         "PALADIN"
       ],
@@ -1354,35 +1354,35 @@
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin DPS Rotation and Cooldowns - WoW: Forever › Best PvE Rotation for Retribution Paladin DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
-          "date": "2026-11-15"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin DPS Guide - WoW: Forever › Retribution Paladin-Specific Systems in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/overview-pve-dps",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin DPS Guide - WoW: Forever › Strengths and Weaknesses of Retribution Paladins in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/overview-pve-dps",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin DPS Guide - WoW: Forever › Retribution Talent Changes in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/overview-pve-dps",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-24",
       "topics": [
         "class:paladin:retribution:overview",
         "class:paladin:retribution:rotation"
       ],
       "source_hashes": [
+        "section:30b090bf959261abd1625aafb9d2e0c43035d278",
         "section:6d50402e17783ba758a9eccee614c9fc0338fc7a",
-        "section:88add09bcfaabe1f747809ea349477490af1a14a",
         "section:b07086cea79a600fea410483650d49bcc16be54c",
         "section:b57620293c5e08723d5f9c042e8c86a9cc5a56d9"
       ]
@@ -2164,8 +2164,8 @@
       "status": "editorial",
       "title_es": "Estadísticas de Reprensión a nivel 60",
       "title_en": "Retribution Level-60 Stats",
-      "summary_es": "Orden provisional: habilidad y daño del arma, golpe 9%, pericia y daño con hechizos.",
-      "summary_en": "Provisional order: weapon skill and damage, 9% hit, expertise, and spell damage.",
+      "summary_es": "Orden provisional: golpe 8%, pericia 6.5%, crítico y celeridad, con el arma por delante.",
+      "summary_en": "Provisional order: 8% hit, 6.5% expertise, crit, and haste, with the weapon first.",
       "keywords_es": [
         "prioridad estadísticas reprensión",
         "DPS arma paladín",
@@ -2176,8 +2176,8 @@
         "paladin weapon dps",
         "retribution hit expertise"
       ],
-      "text_es": "Prioridad especulativa: habilidad con armas > DPS y velocidad del arma > golpe 9% > pericia 6.5% > daño con hechizos > intelecto > fuerza y poder de ataque > agilidad y golpe crítico > aguante. El arma aporta gran parte del daño; golpe y pericia evitan que fallen o esquiven los ataques y los sellos. Recomendación provisional hasta que se pruebe a nivel 60.",
-      "text_en": "Speculative priority: weapon skill > weapon DPS and speed > hit 9% > expertise 6.5% > spell damage > intellect > strength and attack power > agility and critical strike > stamina. Weapon damage drives much of your output; hit and expertise help attacks and seals land. Provisional recommendation until tested at level 60.",
+      "text_es": "Simuladores marcan: golpe 8% > pericia 6.5% > crítico > celeridad > habilidad con armas > DPS del arma > fuerza > daño con hechizos > agilidad > intelecto > poder de ataque > penetración de hechizos > aguante. Pericia blanda al 6.5% quita esquivas y la dura al 14%, paradas; golpe de hechizos al 17%. El arma manda: una de dos manos que pegue fuerte, más rápida para la variante de Choque Sagrado. 1% de golpe vale 71.4 de poder de ataque; el crítico alimenta Venganza y el intelecto da daño con Campeón de la Luz. Puede cambiar con el tiempo.",
+      "text_en": "Simulator priority: 8% hit > 6.5% expertise > crit > haste > weapon skill > weapon DPS > strength > spell damage > agility > intellect > attack power > spell piercing > stamina. Soft expertise at 6.5% prevents dodges and the hard cap at 14% prevents parries; spell hit reaches 17%. The weapon matters most: a hard-hitting two-hander, faster for the Shockadin build. 1% hit is worth 71.4 attack power; crit feeds Vengeance and Intellect becomes spell damage with Champion of the Light. Expect it to shift over time.",
       "tags": [
         "PALADIN"
       ],
@@ -2186,15 +2186,28 @@
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin Stat Priority & Attributes - WoW: Forever › Retribution Paladin Stat Priority in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/stat-priority-pve-dps",
-          "date": "2026-10-31"
+          "date": "2026-11-23"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin Stat Priority & Attributes - WoW: Forever › Main Attributes and what they do in WoW: Forever > Intellect",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/stat-priority-pve-dps",
+          "date": "2026-11-23"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin Stat Priority & Attributes - WoW: Forever › Secondary Stats and what they do in WoW: Forever > Critical Strike Chance",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/stat-priority-pve-dps",
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-24",
       "topics": [
         "class:paladin:retribution:stats"
       ],
       "source_hashes": [
-        "section:1e5f41a80eab5fe493b1dfddb16b669a101a669e"
+        "guide:8e2740f79824138afc91eebc243f42e604f96550",
+        "section:3d2fba81dbb7933b40a59c9eb4b93dae25c1c276"
       ]
     },
     {
@@ -2503,8 +2516,8 @@
         "unsealed wrath stacks",
         "seal of command rotation"
       ],
-      "text_es": "Antes del pull, juzga Sello del Cruzado si el rival vivirá varios segundos y cambia a Sello de orden. Mantén el sello; usa Sentencia y Golpe Sagrado en reutilización, y Martillo de cólera bajo 20% de salud. Con Cólera desellada 1/1, guarda 2–3 acumulaciones y cambia una vez a Sello de rectitud para gastarlas; vuelve después a Sello de orden. Usa Exorcismo contra demonios o no-muertos y evita Consagración si el maná escasea.",
-      "text_en": "Before the pull, judge Seal of the Crusader if the target will live several seconds, then switch to Seal of Command. Keep the seal active; use Judgement and Holy Strike on cooldown, and Hammer of Wrath below 20% health. With Unsealed Wrath 1/1, store 2–3 stacks, switch once to Seal of Righteousness to spend them, then return to Seal of Command. Use Exorcism against Demons or Undead; skip Consecration if mana is low.",
+      "text_es": "Antes del pull, juzga Sello del Cruzado si el rival vivirá varios segundos y cambia a Sello de orden. Mantén el sello; usa Sentencia y Golpe Sagrado en reutilización, y Martillo de cólera bajo 20% de salud. Con Cólera desellada 1/1, guarda 3 acumulaciones y cambia una vez a Sello de rectitud para gastarlas; vuelve después a Sello de orden. Usa Exorcismo contra demonios o no-muertos y evita Consagración si el maná escasea.",
+      "text_en": "Before the pull, judge Seal of the Crusader if the target will live several seconds, then switch to Seal of Command. Keep the seal active; use Judgement and Holy Strike on cooldown, and Hammer of Wrath below 20% health. With 1/1 Unsealed Wrath, store 3 stacks, switch once to Seal of Righteousness to spend them, then return to Seal of Command. Use Exorcism against demons or undead; skip Consecration if mana is low.",
       "tags": [
         "PALADIN"
       ],
@@ -2513,23 +2526,23 @@
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin DPS Rotation and Cooldowns - WoW: Forever › Single Target Rotation (Unsealed Wrath)",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
-          "date": "2026-11-15"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Retribution Paladin Talent Tree Builds - WoW: Forever › Retribution (Unsealed Wrath) PvE DPS Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/talent-builds-pve-dps",
-          "date": "2026-11-13"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-24",
       "topics": [
         "class:paladin:retribution:rotation",
         "class:paladin:retribution:talents"
       ],
       "source_hashes": [
-        "section:062cec4cc958c51481d195c87d6d777770bfef10",
-        "section:6eec4bf14a594c37dcd26a8311729531f8e28c68"
+        "section:6eec4bf14a594c37dcd26a8311729531f8e28c68",
+        "section:d48fbd09bd6cee4a5c32b4f1107df3fd2692bbb3"
       ]
     },
     {
@@ -2550,8 +2563,8 @@
         "retribution consecration multiple targets",
         "unsealed wrath seal rotation"
       ],
-      "text_es": "Juzga Sello del Cruzado contra objetivos duraderos y cambia a Sello de orden. Mantén ese sello, usa Sentencia y Consagración si el maná lo permite; añade Martillo de cólera bajo 20% de salud y Golpe Sagrado en reutilización. Con Cólera desellada 1/1, gasta 2–3 acumulaciones con un golpe de Sello de rectitud y regresa a Sello de orden; contra demonios o no-muertos, añade Exorcismo o Cólera sagrada.",
-      "text_en": "Judge Seal of the Crusader on targets that will live, then switch to Seal of Command. Maintain it, use Judgement and Consecration if mana allows; add Hammer of Wrath below 20% health and Holy Strike on cooldown. With Unsealed Wrath 1/1, spend 2–3 stacks on a Seal of Righteousness swing and return to Seal of Command; against Demons or Undead, add Exorcism or Holy Wrath.",
+      "text_es": "Juzga Sello del Cruzado contra objetivos duraderos y cambia a Sello de orden. Mantén ese sello, usa Sentencia y Consagración si el maná lo permite; añade Martillo de cólera bajo 20% de salud y Golpe Sagrado en reutilización. Con Cólera desellada 1/1, gasta 3 acumulaciones con un golpe de Sello de rectitud y regresa a Sello de orden; contra demonios o no-muertos, añade Exorcismo o Cólera sagrada.",
+      "text_en": "Judge Seal of the Crusader on targets that will live, then switch to Seal of Command. Maintain it, use Judgement and Consecration if mana allows; add Hammer of Wrath below 20% health and Holy Strike on cooldown. With 1/1 Unsealed Wrath, spend 3 stacks on a Seal of Righteousness swing and return to Seal of Command; against demons or undead, add Exorcism or Holy Wrath.",
       "tags": [
         "PALADIN"
       ],
@@ -2560,22 +2573,22 @@
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin DPS Rotation and Cooldowns - WoW: Forever › AoE Rotation (Unsealed Wrath)",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/rotation-cooldowns-pve-dps",
-          "date": "2026-11-15"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Retribution Paladin Talent Tree Builds - WoW: Forever › Retribution (Unsealed Wrath) PvE DPS Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/talent-builds-pve-dps",
-          "date": "2026-11-13"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-24",
       "topics": [
         "class:paladin:retribution:rotation",
         "class:paladin:retribution:talents"
       ],
       "source_hashes": [
-        "section:0b21960c40e62c874356a0d37ae28c9483afe74c",
+        "section:207813c6040a705b579a55fb2222e1bfd400accc",
         "section:6eec4bf14a594c37dcd26a8311729531f8e28c68"
       ]
     },
@@ -3121,7 +3134,7 @@
           "type": "editorial",
           "ref": "Wowhead: Holy Paladin Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Holy Paladin DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/holy/healer-leveling-tips",
-          "date": "2026-11-06"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
@@ -3133,18 +3146,18 @@
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin Leveling Guide - WoW: Forever › Best Leveling Camping Buffs for Retribution Paladin DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/dps-leveling-tips",
-          "date": "2026-11-16"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-24",
       "topics": [
         "class:paladin:holy:leveling",
         "class:paladin:protection:leveling",
         "class:paladin:retribution:leveling"
       ],
       "source_hashes": [
+        "section:84728497a31a6e0aa828d7cf4cba02723ca0b80f",
         "section:8cb50821da6a6b7a8e504fe3bb361fef3280fc9b",
-        "section:9537a5b7b35f8086d006c9e9137102d51f2b65d4",
         "section:9c6ee4f1cf3d047d42a5559759b3e33ebb1ac38c"
       ]
     },
