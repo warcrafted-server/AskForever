@@ -127,12 +127,12 @@
         "class:hunter:survival:talents"
       ],
       "source_hashes": [
+        "section:00971847c50d8e9335ee96fbe03093dcabe24ae7",
         "section:10791531ddc295c18a4c1577ed91e8b12fb7485d",
         "section:32c04eecda9e0252775bbf8bca6167ff719d4161",
         "section:5494d2ff365d919ead7e233f658064b219ee61f0",
-        "section:b273cb1ec4966348241552f8a1abbb7bd4a8a1da",
         "section:cbb1cb3f670b84fb68bb10ea657eeb04fcef8982",
-        "section:da199ff971c8aeed3d43255c4ebfa263db589a4b"
+        "section:e31077950816895f93670f8107ddcf405a1c5946"
       ]
     },
     {
@@ -306,7 +306,7 @@
       ],
       "source_hashes": [
         "section:0ef2e774df033a39a56e3cc1137ba58774a6b8d8",
-        "section:e8412d88f4c0f445dacfd5bdd9ade2891d290077",
+        "section:1311902a7faabab74cfa2a83d22d8e23f3c0bbaa",
         "section:e84e9c7ab1efb3df69df0047185e8629632bc8cf"
       ]
     },
@@ -1565,7 +1565,7 @@
         "class:hunter:beast-mastery:talents"
       ],
       "source_hashes": [
-        "section:bc95149e5fb3e0b01a9a39c3cc13749860438f87"
+        "section:53d089b11307bfbfd8999db2c93d5b9747725389"
       ]
     },
     {
@@ -1606,7 +1606,7 @@
         "class:hunter:marksmanship:talents"
       ],
       "source_hashes": [
-        "section:b273cb1ec4966348241552f8a1abbb7bd4a8a1da"
+        "section:e31077950816895f93670f8107ddcf405a1c5946"
       ]
     },
     {
@@ -1647,7 +1647,7 @@
         "class:hunter:survival:talents"
       ],
       "source_hashes": [
-        "section:da199ff971c8aeed3d43255c4ebfa263db589a4b"
+        "section:00971847c50d8e9335ee96fbe03093dcabe24ae7"
       ]
     },
     {
@@ -2582,7 +2582,7 @@
         "class:hunter:beast-mastery:talents"
       ],
       "source_hashes": [
-        "section:04cef53106ff7f5dd144fd743ddfa99ea878d110"
+        "section:28ef84fb0d27cd86fccf91221c66bf233cc12385"
       ]
     },
     {
@@ -2623,7 +2623,7 @@
         "class:hunter:marksmanship:talents"
       ],
       "source_hashes": [
-        "section:65c5f074ba7165e63d19e16b5a5d0966c4065b11"
+        "section:2f80016c7df241ef208d4a80066c3aae07810d6f"
       ]
     },
     {
@@ -2664,7 +2664,7 @@
         "class:hunter:survival:talents"
       ],
       "source_hashes": [
-        "section:e8412d88f4c0f445dacfd5bdd9ade2891d290077"
+        "section:1311902a7faabab74cfa2a83d22d8e23f3c0bbaa"
       ]
     },
     {
@@ -2705,7 +2705,7 @@
         "class:hunter:survival:talents"
       ],
       "source_hashes": [
-        "section:3a4949b6ad1c81dbdb03c0c677711f375f1537e3"
+        "section:ce9b471562f114f377435a96c630fa13d0f496d5"
       ]
     },
     {
@@ -2746,7 +2746,7 @@
         "class:hunter:beast-mastery:talents"
       ],
       "source_hashes": [
-        "section:bc95149e5fb3e0b01a9a39c3cc13749860438f87"
+        "section:53d089b11307bfbfd8999db2c93d5b9747725389"
       ]
     },
     {

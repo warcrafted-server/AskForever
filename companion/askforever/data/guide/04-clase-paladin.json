@@ -1547,7 +1547,7 @@
         "class:paladin:protection:talents"
       ],
       "source_hashes": [
-        "section:5c96f5a98e19f61e93347135fad01ca3a127a3bd",
+        "section:6b8ed25c6155d107b49653e46437836c98540deb",
         "section:fd149a608ef1507bfbcbc646dc051d6c557f3a05"
       ]
     },
@@ -1594,7 +1594,7 @@
         "class:paladin:protection:talents"
       ],
       "source_hashes": [
-        "section:7daf09ec9d23fd5c577d7275b0b754f653392ff0",
+        "section:ea814f223e8eb87710cd98f960fde6d5cac70a5c",
         "section:fd149a608ef1507bfbcbc646dc051d6c557f3a05"
       ]
     },
@@ -1641,7 +1641,7 @@
         "class:paladin:protection:talents"
       ],
       "source_hashes": [
-        "section:59eb473a4e05ba2e4e80d7b13d9151315f0e8ad9",
+        "section:516894a36d18c2cce4cdf9210ca11152df38fc49",
         "section:fd149a608ef1507bfbcbc646dc051d6c557f3a05"
       ]
     },
@@ -1688,7 +1688,7 @@
         "class:paladin:protection:talents"
       ],
       "source_hashes": [
-        "section:bb95d260d589bba87c29bb2fbd1c8db3e01a91f7",
+        "section:4b201313904dcabd0b75e3b63842254d5bef05ea",
         "section:fd149a608ef1507bfbcbc646dc051d6c557f3a05"
       ]
     },
@@ -1735,7 +1735,7 @@
         "class:paladin:protection:talents"
       ],
       "source_hashes": [
-        "section:d1c5d0df1c558391aabbcfbec5f201ea089597f8",
+        "section:757c0a7ce78a131ca2400418a614c7b8e06f2713",
         "section:fd149a608ef1507bfbcbc646dc051d6c557f3a05"
       ]
     },
@@ -1782,7 +1782,7 @@
         "class:paladin:protection:talents"
       ],
       "source_hashes": [
-        "section:fac1681ec7467c108e7c97cf44ed3153ec2178ea",
+        "section:dda1850ad4fbcc4da3c02ac186d8a3a8b5bbcc7d",
         "section:fd149a608ef1507bfbcbc646dc051d6c557f3a05"
       ]
     },
@@ -1836,7 +1836,7 @@
       ],
       "source_hashes": [
         "section:30b090bf959261abd1625aafb9d2e0c43035d278",
-        "section:6eec4bf14a594c37dcd26a8311729531f8e28c68",
+        "section:f17b176acf4f1908a0adddca519876afff7cfc44",
         "section:f9911e1c491215f23332d87747201ec029fc860a"
       ]
     },
@@ -1883,8 +1883,8 @@
         "class:paladin:retribution:talents"
       ],
       "source_hashes": [
-        "section:f9911e1c491215f23332d87747201ec029fc860a",
-        "section:ffaaa89e6dd1c8566bbc0004f53d9aa449a6ca78"
+        "section:210f9701f5021bec350163ae70ca3761442449a8",
+        "section:f9911e1c491215f23332d87747201ec029fc860a"
       ]
     },
     {
@@ -1930,7 +1930,7 @@
         "class:paladin:retribution:talents"
       ],
       "source_hashes": [
-        "section:f7cf7d2fb07e9669ce8b8bd4b64fddc374f0352d",
+        "section:b2a3008297a00b4cac9c02cf16f1d02792c88475",
         "section:f9911e1c491215f23332d87747201ec029fc860a"
       ]
     },
@@ -1977,7 +1977,7 @@
         "class:paladin:retribution:talents"
       ],
       "source_hashes": [
-        "section:27e163cf266d974a55b4867c35f609644050ac8c",
+        "section:e1c287f357222df92bdb742550cdc1b78d2c2fc1",
         "section:f9911e1c491215f23332d87747201ec029fc860a"
       ]
     },
@@ -2392,9 +2392,9 @@
         "class:paladin:protection:talents"
       ],
       "source_hashes": [
-        "section:5c96f5a98e19f61e93347135fad01ca3a127a3bd",
-        "section:7daf09ec9d23fd5c577d7275b0b754f653392ff0",
-        "section:be49b833d37001ac5b86d4da772ecb367bf26525"
+        "section:6b8ed25c6155d107b49653e46437836c98540deb",
+        "section:be49b833d37001ac5b86d4da772ecb367bf26525",
+        "section:ea814f223e8eb87710cd98f960fde6d5cac70a5c"
       ]
     },
     {
@@ -2446,9 +2446,9 @@
         "class:paladin:protection:talents"
       ],
       "source_hashes": [
-        "section:5c96f5a98e19f61e93347135fad01ca3a127a3bd",
-        "section:7daf09ec9d23fd5c577d7275b0b754f653392ff0",
-        "section:be49b833d37001ac5b86d4da772ecb367bf26525"
+        "section:6b8ed25c6155d107b49653e46437836c98540deb",
+        "section:be49b833d37001ac5b86d4da772ecb367bf26525",
+        "section:ea814f223e8eb87710cd98f960fde6d5cac70a5c"
       ]
     },
     {
@@ -2495,7 +2495,7 @@
       ],
       "source_hashes": [
         "section:3a7de739acf643d114882924fe81c2e8fa171b54",
-        "section:5c96f5a98e19f61e93347135fad01ca3a127a3bd"
+        "section:6b8ed25c6155d107b49653e46437836c98540deb"
       ]
     },
     {
@@ -2541,8 +2541,8 @@
         "class:paladin:retribution:talents"
       ],
       "source_hashes": [
-        "section:6eec4bf14a594c37dcd26a8311729531f8e28c68",
-        "section:d48fbd09bd6cee4a5c32b4f1107df3fd2692bbb3"
+        "section:d48fbd09bd6cee4a5c32b4f1107df3fd2692bbb3",
+        "section:f17b176acf4f1908a0adddca519876afff7cfc44"
       ]
     },
     {
@@ -2589,7 +2589,7 @@
       ],
       "source_hashes": [
         "section:207813c6040a705b579a55fb2222e1bfd400accc",
-        "section:6eec4bf14a594c37dcd26a8311729531f8e28c68"
+        "section:f17b176acf4f1908a0adddca519876afff7cfc44"
       ]
     },
     {
@@ -2636,7 +2636,7 @@
       ],
       "source_hashes": [
         "section:1826dea41a37e48de47fc7d976c1155e45b7eba2",
-        "section:ffaaa89e6dd1c8566bbc0004f53d9aa449a6ca78"
+        "section:210f9701f5021bec350163ae70ca3761442449a8"
       ]
     },
     {
@@ -2682,8 +2682,8 @@
         "class:paladin:retribution:talents"
       ],
       "source_hashes": [
-        "section:7213262a00d4aa76a5786c4c9afe516c45d86f98",
-        "section:ffaaa89e6dd1c8566bbc0004f53d9aa449a6ca78"
+        "section:210f9701f5021bec350163ae70ca3761442449a8",
+        "section:7213262a00d4aa76a5786c4c9afe516c45d86f98"
       ]
     },
     {

@@ -197,16 +197,16 @@
       ],
       "source_hashes": [
         "section:0efe35de8a6b61a43cf4a3e6c89f9c8065ffd7e3",
+        "section:132ba5274b9c8be1f7981e6d27c1af59f6a0abd0",
         "section:1b2e8c83c872a9f18591f0866c2202d1ea5af6d2",
-        "section:1c1a2bc88d75665f11f951f11d4e1ffc2124f57c",
         "section:1d19d39dea22145e568b1cb8e1bf4dd7503be785",
         "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
         "section:26f0593f8706f85629d54f49efb7cdb77b8fd167",
         "section:46f72368175181fb8a617195f4ebec1f48ab8701",
         "section:59c963bc3f26b484bec395601436b95523309c52",
         "section:7a35a5ea33258d3f9008e77fed51f8733c66be6e",
-        "section:8173dc81cac36120bade5a8c57750e3c4168611c",
-        "section:fc6cb0ee129267ab10ce1ec541798d3774aee642"
+        "section:fc6cb0ee129267ab10ce1ec541798d3774aee642",
+        "section:feb7cea4ca9466d26a88f80f069cd6d30cef4e9c"
       ]
     },
     {
@@ -1360,8 +1360,8 @@
         "class:rogue:combat:talents"
       ],
       "source_hashes": [
+        "section:132ba5274b9c8be1f7981e6d27c1af59f6a0abd0",
         "section:75dd3cb0581f3218022b13f1aec0023dc6cb3f2f",
-        "section:8173dc81cac36120bade5a8c57750e3c4168611c",
         "section:b001d36e7ab5e20464e5f7ca533b0148806c4d09",
         "section:b13c881fc830d0834ed759e20e3f6b36d3b5973a",
         "section:f65fb692110f1f996cc73439c0e31148133b5203"
@@ -1460,13 +1460,13 @@
       "source_hashes": [
         "section:0d4447ef4a83b8e6f53f5c50e1e36cf2fd807b50",
         "section:1b2e8c83c872a9f18591f0866c2202d1ea5af6d2",
-        "section:1c1a2bc88d75665f11f951f11d4e1ffc2124f57c",
         "section:1d8b87b5fcb88cb20c7e4c10f3926d07849698c9",
         "section:1fdd19165d66aead9faa422abc42fa9a91ee12ba",
         "section:26f0593f8706f85629d54f49efb7cdb77b8fd167",
         "section:274e4cfa6da8235973d3422fab57111f23e58e96",
         "section:ef5b18a83c64beca3f3af6c357e88d60522b996e",
-        "section:fc6cb0ee129267ab10ce1ec541798d3774aee642"
+        "section:fc6cb0ee129267ab10ce1ec541798d3774aee642",
+        "section:feb7cea4ca9466d26a88f80f069cd6d30cef4e9c"
       ]
     },
     {
@@ -1507,7 +1507,7 @@
         "class:rogue:assassination:talents"
       ],
       "source_hashes": [
-        "section:009f8f2850c8b4e91c2570dd6f303d47feba8192"
+        "section:ba1e3ffe9ecc16b40703c43ed15ffeb7b7e66d41"
       ]
     },
     {
@@ -1548,7 +1548,7 @@
         "class:rogue:assassination:talents"
       ],
       "source_hashes": [
-        "section:3001b0631f42bfe11e71f14d1f11a2039407f836"
+        "section:dd60f3fa55a4a820a174e8504befe8d3708ddd0e"
       ]
     },
     {
@@ -1603,9 +1603,9 @@
         "class:rogue:subtlety:talents"
       ],
       "source_hashes": [
-        "section:14115a83c8ad7482041b577a8ce3d21483ecda29",
-        "section:3001b0631f42bfe11e71f14d1f11a2039407f836",
-        "section:b9965080ae040aebb70c78fbae4b43b226bc0460"
+        "section:0af171a963eb2680c20891e5658d4ce21444e956",
+        "section:8d7dae02bb081b6dce1e71dfe446279f9325ee77",
+        "section:dd60f3fa55a4a820a174e8504befe8d3708ddd0e"
       ]
     },
     {
@@ -1660,9 +1660,9 @@
         "class:rogue:subtlety:talents"
       ],
       "source_hashes": [
-        "section:14115a83c8ad7482041b577a8ce3d21483ecda29",
-        "section:3001b0631f42bfe11e71f14d1f11a2039407f836",
-        "section:b9965080ae040aebb70c78fbae4b43b226bc0460"
+        "section:0af171a963eb2680c20891e5658d4ce21444e956",
+        "section:8d7dae02bb081b6dce1e71dfe446279f9325ee77",
+        "section:dd60f3fa55a4a820a174e8504befe8d3708ddd0e"
       ]
     },
     {
@@ -1703,7 +1703,7 @@
         "class:rogue:combat:talents"
       ],
       "source_hashes": [
-        "section:8173dc81cac36120bade5a8c57750e3c4168611c"
+        "section:132ba5274b9c8be1f7981e6d27c1af59f6a0abd0"
       ]
     },
     {
@@ -1744,7 +1744,7 @@
         "class:rogue:combat:talents"
       ],
       "source_hashes": [
-        "section:8173dc81cac36120bade5a8c57750e3c4168611c"
+        "section:132ba5274b9c8be1f7981e6d27c1af59f6a0abd0"
       ]
     },
     {
@@ -1785,7 +1785,7 @@
         "class:rogue:subtlety:talents"
       ],
       "source_hashes": [
-        "section:1c1a2bc88d75665f11f951f11d4e1ffc2124f57c"
+        "section:feb7cea4ca9466d26a88f80f069cd6d30cef4e9c"
       ]
     },
     {
@@ -2896,7 +2896,7 @@
         "class:rogue:subtlety:talents"
       ],
       "source_hashes": [
-        "section:1c1a2bc88d75665f11f951f11d4e1ffc2124f57c"
+        "section:feb7cea4ca9466d26a88f80f069cd6d30cef4e9c"
       ]
     },
     {
@@ -2937,7 +2937,7 @@
         "class:rogue:combat:talents"
       ],
       "source_hashes": [
-        "section:8173dc81cac36120bade5a8c57750e3c4168611c"
+        "section:132ba5274b9c8be1f7981e6d27c1af59f6a0abd0"
       ]
     },
     {

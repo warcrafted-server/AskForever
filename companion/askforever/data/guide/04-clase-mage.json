@@ -1554,11 +1554,11 @@
         "class:mage:arcane:talents"
       ],
       "source_hashes": [
-        "section:173bb6c1cfa6d703a85019e1abeca832e2c9dc47",
         "section:3086d61e1603bd77328e37a6ed50953d13522230",
         "section:5f9a0cc83d872d8fbc606574696ce8837d5b45b1",
         "section:6d749148c52f1075ce3201a7308a11704ff831fe",
-        "section:a37d63aac2e8b17dc5e110cde22bf3b8f85bda43"
+        "section:a37d63aac2e8b17dc5e110cde22bf3b8f85bda43",
+        "section:f9ebf727e929a683be20e2d819ffa92e19d0c858"
       ]
     },
     {
@@ -1866,7 +1866,7 @@
         "class:mage:arcane:talents"
       ],
       "source_hashes": [
-        "section:173bb6c1cfa6d703a85019e1abeca832e2c9dc47"
+        "section:f9ebf727e929a683be20e2d819ffa92e19d0c858"
       ]
     },
     {
@@ -1907,7 +1907,7 @@
         "class:mage:arcane:talents"
       ],
       "source_hashes": [
-        "section:173bb6c1cfa6d703a85019e1abeca832e2c9dc47"
+        "section:f9ebf727e929a683be20e2d819ffa92e19d0c858"
       ]
     },
     {
@@ -1948,7 +1948,7 @@
         "class:mage:arcane:talents"
       ],
       "source_hashes": [
-        "section:c594af137d73c3f3701b6490e970f27945624c25"
+        "section:c1b5bd52b7272a0ae42ae99fb3a0b0dfe4919c2a"
       ]
     },
     {
@@ -1989,7 +1989,7 @@
         "class:mage:fire:talents"
       ],
       "source_hashes": [
-        "section:aea8fd1ad475fb67028438860ea3cbc9d9d4b777"
+        "section:d92131b94e74273154a3d6858b8f4d82ded7d0ab"
       ]
     },
     {
@@ -2030,7 +2030,7 @@
         "class:mage:fire:talents"
       ],
       "source_hashes": [
-        "section:aea8fd1ad475fb67028438860ea3cbc9d9d4b777"
+        "section:d92131b94e74273154a3d6858b8f4d82ded7d0ab"
       ]
     },
     {
@@ -2071,7 +2071,7 @@
         "class:mage:fire:talents"
       ],
       "source_hashes": [
-        "section:586afd426ed6c913b3333ad8c6214feebc3c4945"
+        "section:05f7144184add5a5635be2d5621612c7baae7dd8"
       ]
     },
     {
@@ -2118,8 +2118,8 @@
         "class:mage:frost:talents"
       ],
       "source_hashes": [
-        "section:23b1cebb8ebcfc07d84800063eeb906585337b8d",
-        "section:2b89d0fba8329dcc8e0092a188ed840b01e586a3"
+        "section:409f8e76414453a2db5a507fe3e91a9f7c65fa39",
+        "section:8989767ff2e81ea20ac669ba40b1aab0cc36439b"
       ]
     },
     {
@@ -2160,7 +2160,7 @@
         "class:mage:frost:talents"
       ],
       "source_hashes": [
-        "section:b22e49ae8248d0699d7eccd92657e013d753ce90"
+        "section:3fcacbcab080df4554643ac7160c1b829145e07e"
       ]
     },
     {
@@ -2201,7 +2201,7 @@
         "class:mage:arcane:talents"
       ],
       "source_hashes": [
-        "section:173bb6c1cfa6d703a85019e1abeca832e2c9dc47"
+        "section:f9ebf727e929a683be20e2d819ffa92e19d0c858"
       ]
     },
     {

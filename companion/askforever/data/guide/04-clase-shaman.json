@@ -401,8 +401,8 @@
       "source_hashes": [
         "section:02edca8cefc6a8955b596cb9dc24d17c8c3bb8d8",
         "section:46f798a58b64565a4b8008794494ae84739c49d2",
-        "section:84702d1e106cbfa4c71f55027da7e4f66b3ecb24",
-        "section:888472ae699639df6186441b5df56e8bd5f76d07"
+        "section:888472ae699639df6186441b5df56e8bd5f76d07",
+        "section:e3c5ebe129f3120c0d18c981fb2469eb7600a040"
       ]
     },
     {
@@ -1885,7 +1885,7 @@
         "class:shaman:elemental:talents"
       ],
       "source_hashes": [
-        "section:da12c85d9f9fe755ff0ea3a5588b7f0db1b4970a"
+        "section:c6cde985378cce08e16c01175179c247749fc0df"
       ]
     },
     {
@@ -1930,8 +1930,8 @@
         "class:shaman:elemental:talents"
       ],
       "source_hashes": [
-        "section:d1fc6fd0f78b6b5024de44d2d98fd95cfd8a074c",
-        "section:da12c85d9f9fe755ff0ea3a5588b7f0db1b4970a"
+        "section:38d0e0de2ff1b4a09c5f3f9f4dbf9b8c31f369fb",
+        "section:c6cde985378cce08e16c01175179c247749fc0df"
       ]
     },
     {
@@ -1970,7 +1970,7 @@
         "class:shaman:elemental:talents"
       ],
       "source_hashes": [
-        "section:c5978de2369610891e8842982b103fc4deedff8d"
+        "section:5164b30fed14b27d9c922f4a36f2beec1be851d3"
       ]
     },
     {
@@ -2009,7 +2009,7 @@
         "class:shaman:elemental:talents"
       ],
       "source_hashes": [
-        "section:c5978de2369610891e8842982b103fc4deedff8d"
+        "section:5164b30fed14b27d9c922f4a36f2beec1be851d3"
       ]
     },
     {
@@ -2048,7 +2048,7 @@
         "class:shaman:elemental:talents"
       ],
       "source_hashes": [
-        "section:c5978de2369610891e8842982b103fc4deedff8d"
+        "section:5164b30fed14b27d9c922f4a36f2beec1be851d3"
       ]
     },
     {
@@ -2087,7 +2087,7 @@
         "class:shaman:elemental:talents"
       ],
       "source_hashes": [
-        "section:c5978de2369610891e8842982b103fc4deedff8d"
+        "section:5164b30fed14b27d9c922f4a36f2beec1be851d3"
       ]
     },
     {
@@ -2288,8 +2288,8 @@
         "class:shaman:restoration:talents"
       ],
       "source_hashes": [
-        "section:0fac29abbc2773c71d5054630f763f5296b90b8c",
-        "section:f978dac57a4696b4f91807854e30470df467e2db"
+        "section:b57818328d217f964fd73127dfeb8ee2a1f21569",
+        "section:f25f5843f79a300a34dee412c2ab60b4acb2329d"
       ]
     },
     {
@@ -2328,7 +2328,7 @@
         "class:shaman:restoration:talents"
       ],
       "source_hashes": [
-        "section:f978dac57a4696b4f91807854e30470df467e2db"
+        "section:b57818328d217f964fd73127dfeb8ee2a1f21569"
       ]
     },
     {
@@ -2367,7 +2367,7 @@
         "class:shaman:restoration:talents"
       ],
       "source_hashes": [
-        "section:3c350a522b362fb35d229219ca3ccd9ef61e9470"
+        "section:2254021b9cd1014b306e6c83e367ab78d3948bce"
       ]
     },
     {
@@ -2406,7 +2406,7 @@
         "class:shaman:elemental:leveling"
       ],
       "source_hashes": [
-        "section:84702d1e106cbfa4c71f55027da7e4f66b3ecb24"
+        "section:e3c5ebe129f3120c0d18c981fb2469eb7600a040"
       ]
     },
     {
@@ -2445,7 +2445,7 @@
         "class:shaman:elemental:leveling"
       ],
       "source_hashes": [
-        "section:84702d1e106cbfa4c71f55027da7e4f66b3ecb24"
+        "section:e3c5ebe129f3120c0d18c981fb2469eb7600a040"
       ]
     },
     {
@@ -2484,7 +2484,7 @@
         "class:shaman:elemental:leveling"
       ],
       "source_hashes": [
-        "section:84702d1e106cbfa4c71f55027da7e4f66b3ecb24"
+        "section:e3c5ebe129f3120c0d18c981fb2469eb7600a040"
       ]
     },
     {
@@ -2523,7 +2523,7 @@
         "class:shaman:elemental:leveling"
       ],
       "source_hashes": [
-        "section:84702d1e106cbfa4c71f55027da7e4f66b3ecb24"
+        "section:e3c5ebe129f3120c0d18c981fb2469eb7600a040"
       ]
     },
     {
@@ -2562,7 +2562,7 @@
         "class:shaman:elemental:leveling"
       ],
       "source_hashes": [
-        "section:84702d1e106cbfa4c71f55027da7e4f66b3ecb24"
+        "section:e3c5ebe129f3120c0d18c981fb2469eb7600a040"
       ]
     },
     {
@@ -2601,7 +2601,7 @@
         "class:shaman:elemental:leveling"
       ],
       "source_hashes": [
-        "section:84702d1e106cbfa4c71f55027da7e4f66b3ecb24"
+        "section:e3c5ebe129f3120c0d18c981fb2469eb7600a040"
       ]
     },
     {
@@ -2640,7 +2640,7 @@
         "class:shaman:elemental:leveling"
       ],
       "source_hashes": [
-        "section:84702d1e106cbfa4c71f55027da7e4f66b3ecb24"
+        "section:e3c5ebe129f3120c0d18c981fb2469eb7600a040"
       ]
     },
     {
@@ -3030,7 +3030,7 @@
         "class:shaman:restoration:leveling"
       ],
       "source_hashes": [
-        "section:ba4ecbe5b079aa61b083a6da96b16b03fab0eeef"
+        "section:423a9012abf3aea2dd6a0378a34efd5de083ae71"
       ]
     },
     {
@@ -3069,7 +3069,7 @@
         "class:shaman:restoration:leveling"
       ],
       "source_hashes": [
-        "section:ba4ecbe5b079aa61b083a6da96b16b03fab0eeef"
+        "section:423a9012abf3aea2dd6a0378a34efd5de083ae71"
       ]
     },
     {
@@ -3186,7 +3186,7 @@
         "class:shaman:elemental:leveling"
       ],
       "source_hashes": [
-        "section:84702d1e106cbfa4c71f55027da7e4f66b3ecb24"
+        "section:e3c5ebe129f3120c0d18c981fb2469eb7600a040"
       ]
     },
     {
