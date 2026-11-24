@@ -28,7 +28,7 @@ AskForever knows your level, faction and zone, uses verified data from the game 
 ![AskForever App window](docs/img/v0.4.0-app-ventana.png)
 
 ### Status
-**0.3.0-beta.4 (beta).** Quest questions say where to get each objective (drops, world objects, creatures) and understand your active quests. The addon and AskForever App for Windows work together: ask with `/af` or the minimap button and read the answer in game. Verified game data and routes with flights and transports are included. AskForever App has its own window and system-tray controls, a tested-in-app AI key setup dialog, and automatic app updates. Game data and guide cards are delivered with addon updates through CurseForge. English and Spanish.
+**0.4.0-beta.12 (beta).** Answers use verified game data and the current Wowhead guides: quests (where to get each objective, with your active quests), travel routes with flights and transports, class help (talent builds, rotations, stats, enchants, leveling), professions, dungeons, raids and PvP. It knows your talents and unspent points, and tells you where to spend your next talent point, which talents to have at a level and which abilities you learn at a level. The addon and AskForever App for Windows work together: ask with `/af` or the minimap button and read the answer in game. AskForever App has its own window and system-tray controls, a tested-in-app AI key setup dialog, and automatic app updates. Game data and guide cards are delivered with addon updates through CurseForge. English and Spanish.
 
 See the [ROADMAP](ROADMAP.md), the [CHANGELOG](CHANGELOG.md) and the [TODO](TODO.md).
 
@@ -75,7 +75,7 @@ AskForever conoce tu nivel, facción y zona, usa datos verificados de la base de
 ![Ventana de AskForever App](docs/img/v0.4.0-app-ventana.png)
 
 ### Estado
-**0.3.0-beta.4 (beta).** Las preguntas de misión dicen dónde conseguir cada objetivo (botín, objetos del mundo, criaturas) y entienden tus misiones activas. El addon y AskForever App para Windows funcionan juntos: pregunta con `/af` o el botón del minimapa y lee la respuesta dentro del juego. Incluye datos verificados del juego y rutas con vuelos y transportes. AskForever App tiene ventana y controles en la bandeja del sistema, un diálogo para configurar y probar la clave de IA, y actualizaciones automáticas de la app. Los datos del juego y las fichas llegan con las actualizaciones del addon desde CurseForge. Inglés y español.
+**0.4.0-beta.12 (beta).** Las respuestas usan datos verificados del juego y las guías actuales de Wowhead: misiones (dónde conseguir cada objetivo, con tus misiones activas), rutas con vuelos y transportes, ayuda de clase (builds de talentos, rotaciones, estadísticas, encantamientos, subida de nivel), profesiones, mazmorras, bandas y JcJ. Conoce tus talentos y puntos sin gastar, y te dice dónde gastar el siguiente punto de talento, qué talentos tener a un nivel y qué habilidades aprendes a un nivel. El addon y AskForever App para Windows funcionan juntos: pregunta con `/af` o el botón del minimapa y lee la respuesta dentro del juego. AskForever App tiene ventana y controles en la bandeja del sistema, un diálogo para configurar y probar la clave de IA, y actualizaciones automáticas de la app. Los datos del juego y las fichas llegan con las actualizaciones del addon desde CurseForge. Inglés y español.
 
 Consulta la [hoja de ruta](ROADMAP.md), el [CHANGELOG](CHANGELOG.md) y el [TODO](TODO.md).
 

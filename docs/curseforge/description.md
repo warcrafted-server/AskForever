@@ -6,7 +6,7 @@
 - Quest help: where to get what a quest asks for (which NPC drops it, which chest or plant gives it, where the creatures to kill are), with coordinates. It understands your active quests, so "who drops the book?" is enough.
 - Travel routes with flights, boats, zeppelins and the Deeprun Tram, starting from where you are.
 - Class help from the current guides: talent builds, rotation, stats, enchants and leveling tips, plus professions, dungeons, raids and PvP.
-- Knows your character: your talents and unspent points, professions, gear and stats, so you can ask "review my talents" or "where do I spend my next point?".
+- Knows your character: your talents and unspent points, professions, gear and stats, so you can ask "review my talents", "where do I spend my next point?", "which talents should I have at level 34?" or "what do I learn at level 20?".
 - Remembers the conversation, so follow-up questions work ("and from here?").
 - Scroll the conversation with the mouse wheel or arrow buttons; resize the addon window from its bottom-right corner.
 - Says "I don't know" instead of guessing. English and Spanish.
@@ -46,7 +46,7 @@ AI answers can contain mistakes: double-check important details in game.
 - Ayuda con misiones: dónde conseguir lo que pide una misión (qué PNJ lo suelta, qué cofre o planta lo da, dónde están las criaturas que hay que matar), con coordenadas. Entiende tus misiones activas, así que basta con «¿quién suelta el libro?».
 - Rutas de viaje con vuelos, barcos, zepelines y el Tranvía Subterráneo, desde donde estás.
 - Ayuda de clase según las guías actuales: builds de talentos, rotación, estadísticas, encantamientos y consejos para subir, además de profesiones, mazmorras, bandas y JcJ.
-- Conoce a tu personaje: tus talentos y puntos sin gastar, profesiones, equipo y estadísticas, así que puedes preguntar «revisa mis talentos» o «¿dónde gasto el siguiente punto?».
+- Conoce a tu personaje: tus talentos y puntos sin gastar, profesiones, equipo y estadísticas, así que puedes preguntar «revisa mis talentos», «¿dónde gasto el siguiente punto?», «¿qué talentos debería tener a nivel 34?» o «¿qué aprendo a nivel 20?».
 - Recuerda la conversación, así que puedes seguir preguntando («¿y desde aquí?»).
 - Desplázate por la conversación con la rueda del ratón o los botones de flecha; cambia el tamaño de la ventana del addon desde la esquina inferior derecha.
 - Dice «no lo sé» en lugar de inventar. Inglés y español.
