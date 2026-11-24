@@ -130,3 +130,82 @@ def test_official_name_by_id_and_weapon_skill_name():
     assert names.es('spell', 2567) == 'Armas arrojadizas'
     annotated = names.annotate('[Bestial Wrath](https://www.wowhead.com/forever/spell=19574)')
     assert annotated.endswith('{esES: Ira de bestias}')
+
+
+ROGUE = [  # (tree_slug, rama_es, nombre_en, nombre_es, max_rank, PosY, PosX, NodeID, req, previo)
+    ('assassination', 'Asesinato', 'Malice', 'Maldad', 5, 1, 1, 10, 0, None),
+    ('assassination', 'Asesinato', 'Efficient Strikes', 'Golpes eficaces', 5, 1, 2, 11, 0, None),
+    ('assassination', 'Asesinato', 'Blood Splatter', None, 3, 2, 1, 12, 0, None),
+    ('assassination', 'Asesinato', 'Same Name', 'Same Name', 1, 3, 1, 13, 0, None),
+]
+
+
+def _rogue_conn():
+    conn = sqlite3.connect(':memory:')
+    conn.execute('CREATE TABLE v_talentos_forever (class_slug, tree_slug, rama_es, nombre_en, nombre_es, '
+                 'max_rank, PosY, PosX, NodeID, puntos_requeridos, talento_previo_node_id)')
+    conn.executemany('INSERT INTO v_talentos_forever VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
+                     [('rogue',) + row for row in ROGUE])
+    return conn
+
+
+def test_annotate_tables_in_talent_build_and_order_tables():
+    builds = kb_names.TalentBuilds(_rogue_conn(), trees_dir=None)
+    text = (
+        '**Talent Build — Rogue: Assassination 12 / Combat 8 / Subtlety 31 (51 points)**\n\n'
+        '#### Assassination (12/51)\n\n'
+        '| Talent | Rank |\n'
+        '| --- | --- |\n'
+        '| Malice | 5/5 |\n'
+        '| Desconocido | 2/2 |\n'
+        '| Same Name | 1/1 |\n\n'
+        '**Talent Order**\n\n'
+        '| Level | Talent | Rank |\n'
+        '| --- | --- | --- |\n'
+        '| 10 | Efficient Strikes | Rank 1 |\n'
+        '| 26 | Blood Splatter |  |\n')
+    annotated = builds.annotate_tables(text)
+    assert '| Malice {esES: Maldad} | 5/5 |' in annotated
+    assert '| Desconocido | 2/2 |' in annotated
+    assert '| Same Name | 1/1 |' in annotated
+    assert '| 10 | Efficient Strikes {esES: Golpes eficaces} | Rank 1 |' in annotated
+    assert '| 26 | Blood Splatter |  |' in annotated
+    assert '#### Assassination (12/51)' in annotated
+    assert annotated.count('{esES:') == 2
+    assert builds.annotate_tables(annotated) == annotated
+
+
+def test_annotate_tables_ignores_tables_outside_a_talent_build_block():
+    builds = kb_names.TalentBuilds(_rogue_conn(), trees_dir=None)
+    order = ('| Level | Talent | Rank |\n'
+             '| --- | --- | --- |\n'
+             '| 10 | Efficient Strikes | Rank 1 |\n')
+    assert builds.annotate_tables(order) == order
+
+    text = (
+        '**Talent Build — Rogue: Assassination 12 (12 points)**\n'
+        '| Talent | Rank |\n'
+        '| --- | --- |\n'
+        '| Malice | 5/5 |\n'
+        '## Otra sección\n'
+        '| Talent | Rank |\n'
+        '| --- | --- |\n'
+        '| Malice | 5/5 |\n')
+    annotated = builds.annotate_tables(text)
+    assert annotated.count('{esES: Maldad}') == 1
+    assert annotated.endswith('| Malice | 5/5 |\n')
+
+
+def test_annotate_tables_keeps_blockquote_prefixes():
+    builds = kb_names.TalentBuilds(_rogue_conn(), trees_dir=None)
+    text = (
+        '> **Talent Build — Rogue: Assassination 12 (12 points)**\n'
+        '>\n'
+        '> | Talent | Rank |\n'
+        '> | --- | --- |\n'
+        '> | Malice | 5/5 |\n'
+        '> | Desconocido | 2/2 |\n')
+    annotated = builds.annotate_tables(text)
+    assert '> | Malice {esES: Maldad} | 5/5 |' in annotated
+    assert '> | Desconocido | 2/2 |' in annotated
+    assert annotated.count('\n') == text.count('\n')

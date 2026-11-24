@@ -97,6 +97,50 @@ class OfficialNames:
 TALENT_CALC = re.compile(r'https?://(?:www\.)?wowhead\.com/forever/talent-calc/(?P<cls>[a-z-]+)/v(?P<ver>2|[a-z]+)'
                          r'(?P<code>[0-9-]*)(?:_[^\s)/]*)?(?:/[A-Za-z0-9]*)?')
 
+# Bloque de build en el Markdown de Wowhead: «**Talent Build — Rogue: …**». Las tablas que le siguen
+# llevan el talento en inglés en la columna «Talent».
+TALENT_BUILD_RE = re.compile(r'^\*\*Talent Build\s*[—–-]\s*(?P<cls>[^*:]+):')
+TALENT_HEADER = 'talent'
+CELL_SEPARATOR_RE = re.compile(r'^:?-{3,}:?$')
+
+
+def _split_quote(line: str) -> tuple[str, str]:
+    """Separa el prefijo de cita («> », «>») para poder devolverlo intacto."""
+    prefix = ''
+    while line.startswith('>'):
+        prefix += '>'
+        line = line[1:]
+        if line.startswith(' '):
+            prefix += ' '
+            line = line[1:]
+    return prefix, line
+
+
+def _row_cells(line: str) -> list[str]:
+    body = line.strip()
+    if body.startswith('|'):
+        body = body[1:]
+    if body.endswith('|'):
+        body = body[:-1]
+    return body.split('|')
+
+
+def _annotate_cell(line: str, column: int, note: str) -> str:
+    """Añade la nota al final de la celda indicada, sin tocar el resto de la fila."""
+    body = line.rstrip()
+    pipes = [index for index, char in enumerate(body) if char == '|']
+    spans = [(start + 1, end) for start, end in zip(pipes, pipes[1:])]
+    if column >= len(spans):
+        return line
+    start, end = spans[column]
+    raw = line[start:end]
+    core = raw.strip()
+    if not core:
+        return line
+    lead = raw[:len(raw) - len(raw.lstrip())]
+    trail = raw[len(raw.rstrip()):]
+    return f'{line[:start]}{lead}{core} {note}{trail}{line[end:]}'
+
 # Árboles del propio calculador de Wowhead (uno por clase + index.json): orden de los talentos en el enlace y
 # árboles antiguos con los que se leen los enlaces «v2». Mandan sobre los de wowdata, que vienen de Icy Veins.
 DEFAULT_TALENT_TREES = REPO_ROOT / '.agents' / 'plans' / 'guia' / 'fuentes' / 'wowhead-talents'
@@ -259,3 +303,41 @@ class TalentBuilds:
         text = re.sub(r'\[[^\]]*\]\((' + TALENT_CALC.pattern + r')\)',
                       lambda m: m.group(0) + repl(TALENT_CALC.match(m.group(1)))[len(m.group(1)):], text)
         return re.sub(r'(?<!\()' + TALENT_CALC.pattern, repl, text)
+
+    def annotate_tables(self, text: str) -> str:
+        """Añade el nombre oficial a la columna «Talent» de las tablas de cada bloque Talent Build."""
+        lines = text.split('\n')
+        cls: Optional[str] = None
+        column: Optional[int] = None
+        in_table = False
+        for index, line in enumerate(lines):
+            prefix, content = _split_quote(line)
+            stripped = content.strip()
+            build = TALENT_BUILD_RE.match(stripped)
+            if build:
+                cls = build.group('cls').strip().lower()
+                column, in_table = None, False
+                continue
+            if cls is None:
+                continue
+            if stripped.startswith('## ') or stripped.startswith('### '):
+                cls, column, in_table = None, None, False
+                continue
+            if not stripped.startswith('|'):
+                column, in_table = None, False
+                continue
+            if not in_table:
+                in_table = True
+                header = [cell.strip().lower() for cell in _row_cells(content)]
+                column = header.index(TALENT_HEADER) if TALENT_HEADER in header else None
+                continue
+            cells = [cell.strip() for cell in _row_cells(content)]
+            if column is None or not cells or all(CELL_SEPARATOR_RE.match(cell) for cell in cells):
+                continue
+            if column >= len(cells) or not cells[column]:
+                continue
+            english = cells[column]
+            name = self.names_es.get((cls, english))
+            if name and name.lower() != english.lower():
+                lines[index] = prefix + _annotate_cell(content, column, f'{{esES: {name}}}')
+        return '\n'.join(lines)

@@ -26,7 +26,8 @@ def build_pack(corpus: Path, patterns: list[str], skip: set[str],
                names: Optional[OfficialNames] = None) -> str:
     conn = sqlite3.connect(f'file:{corpus.as_posix()}?mode=ro', uri=True)
     builds = TalentBuilds(names.conn) if names else None
-    annotate = (lambda text: builds.annotate(names.annotate(text))) if names else (lambda text: text)
+    annotate = (lambda text: builds.annotate_tables(builds.annotate(names.annotate(text)))
+                if names else (lambda text: text))
     where = ' OR '.join('g.topic LIKE ?' for _ in patterns)
     lines = []
     for superseded, header in ((False, ''), (True, 'Complemento · ')):

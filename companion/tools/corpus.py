@@ -43,6 +43,10 @@ WAY_RE = re.compile(
     r'(-?\d+(?:[.,]\d+)?)')
 MD_LINK_RE = re.compile(r'!?\[([^\]]*)\]\([^)]*\)')
 MD_REF_LINK_RE = re.compile(r'\[([^\]]+)\]\[[^\]]*\]')
+# Guías de la beta por nivel: no se importan (decisión de Marc, 2026-11-16).
+BETA_GUIDE_RE = re.compile(r'(^|[/-])level-(20|30)(-|$)')
+MAP_HEADING_RE = re.compile(r'^\*\*Map:\s*(.+?)\*\*$')
+MAP_COORD_RE = re.compile(r'\((-?\d+(?:[.,]\d+)?)\s*,\s*(-?\d+(?:[.,]\d+)?)\)')
 
 
 def _sha1(text: str) -> str:
@@ -110,14 +114,63 @@ def extract_entities(text: str) -> list[tuple[str, int, str]]:
 
 
 def extract_coords(text: str) -> list[tuple[str, float, float]]:
-    """Extrae /way en formato simple y con número de punto opcional."""
+    """Extrae los /way y, después, los puntos de los bloques «**Map: zona**»."""
     found = []
     for match in WAY_RE.finditer(text):
         raw = match.group(0)
         x = float(match.group(1).replace(',', '.'))
         y = float(match.group(2).replace(',', '.'))
         found.append((raw, x, y))
+    found.extend(_map_points(text))
     return found
+
+
+def _strip_quote(line: str) -> str:
+    """Quita el prefijo de cita («> » o «>») de una línea."""
+    while line.startswith('>'):
+        line = line[1:]
+        if line.startswith(' '):
+            line = line[1:]
+    return line
+
+
+def _map_point(line: str) -> Optional[tuple[str, float, float]]:
+    """Lee «- etiqueta (x, y)»; la coordenada es el último paréntesis con dos números al final."""
+    body = line.rstrip()
+    matches = [match for match in MAP_COORD_RE.finditer(body) if match.end() == len(body)]
+    if not matches:
+        return None
+    match = matches[-1]
+    label = MD_REF_LINK_RE.sub(r'\1', MD_LINK_RE.sub(r'\1', body[1:match.start()])).strip()
+    x = float(match.group(1).replace(',', '.'))
+    y = float(match.group(2).replace(',', '.'))
+    return label, x, y
+
+
+def _map_points(text: str) -> list[tuple[str, float, float]]:
+    """Puntos de los bloques «**Map: zona**» seguidos de una lista de «- etiqueta (x, y)»."""
+    points: list[tuple[str, float, float]] = []
+    zone: Optional[str] = None
+    for raw_line in text.splitlines():
+        line = _strip_quote(raw_line).strip()
+        if zone is not None:
+            if not line:
+                continue
+            if line.startswith('-'):
+                point = _map_point(line)
+                if point is None:
+                    zone = None
+                    continue
+                label, x, y = point
+                if 0 <= x <= 100 and 0 <= y <= 100:
+                    raw = f'Map: {zone} | {label}' if label else f'Map: {zone}'
+                    points.append((raw, x, y))
+                continue
+            zone = None
+        heading = MAP_HEADING_RE.match(line)
+        if heading:
+            zone = heading.group(1).strip()
+    return points
 
 
 def _iter_sections(guide_key: str, body: str):
@@ -525,6 +578,9 @@ def import_corpus(sources_root: Path, db_path: Path,
     sections: list[dict] = []
 
     for source, rel_path, path in _discover_files(sources_root):
+        stem_path = rel_path[:-3] if rel_path.lower().endswith('.md') else rel_path
+        if source == 'wowhead' and BETA_GUIDE_RE.search(stem_path):
+            continue
         raw = _read_text(path)
         front, body = parse_front_matter(raw)
         guide_key = f'{source}/{rel_path[:-3]}'
