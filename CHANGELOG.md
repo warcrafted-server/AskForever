@@ -4,7 +4,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
-## [0.4.0-beta.11] - 2026-11-23
+## [0.4.0-beta.11] - 2026-11-24
 
 ### English
 - Updated: the guide cards now follow the November 19 guide update: Hunter (Auto Shot, Beast Mastery, Survival weaving rotation and talent builds), class stats, builds and enchants, PvP (weekly Field of Honor quests, battlemaster locations, rank points, gear costs, Darkspear Islands) and the raids (entrances, boss counts, no attunement for the two new ones).
@@ -13,7 +13,8 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Updated (November 21 guides): Hunter stat priorities now include haste and no longer call them speculative; Hunter enchants and combat consumables follow the current lists; Ta'shkal joins the fastest-attacking pets; Marksmanship mana weakness; Restoration Shaman Ghost Wolf build; Dartol's Rod toy replica; Arathi Basin battlemaster location in Thunder Bluff.
 - Corrected: when you ask where to spend a talent point, the assistant now receives the maximum rank of each talent you already have, so it no longer invents ranks (it said Focused Fire 3/3; it has 2).
 - Updated (November 23 guides): Fury Warrior Rage now grants extra Rage on critical hits and the new Reckless Swings talent; Protection Warrior stats with Block Value; Elemental Shaman stats with haste first; Feral Druid tank offensive stats; Arcane Mage gloves enchant; Holy Priest leveling build; PvP rank vendors and Alterac Valley giving no Rank Points; Cozy Sleeping Bag bonus lasting 2 hours; Legacy respec cost; Razorfen Downs levels 37-46; fishing tournament with 250 winners; Tailoring trainer ranks.
-- Data patch 2026.11.23.1.
+- Updated (November 24 data): the Expert Fishing book is tradeable, so it can also be on the Auction House; fishing skill for 39 zones, positions of several NPCs and quest givers observed in game, and the current Questie data (it only fills gaps left by the client, observations and Wowhead).
+- Data patch 2026.11.24.1.
 
 ### Español
 - Actualizado: las fichas de la guía siguen la actualización de guías del 19 de noviembre: Cazador (Disparo automático, Bestias, rotación de Supervivencia con cambio de arma y builds de talentos), estadísticas, builds y encantamientos de las clases, JcJ (misiones semanales del Campo de Honor, ubicación de maestros de batalla, puntos de rango, costes del equipo, Islas Lanza Negra) y las bandas (accesos, número de jefes, sin sintonización en las dos nuevas).
@@ -22,7 +23,8 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Actualizado (guías del 21 de noviembre): las prioridades de estadísticas del Cazador incluyen la celeridad y ya no se llaman especulativas; encantamientos y consumibles de combate del Cazador según las listas actuales; Ta'shkal entra entre las mascotas de ataque más rápido; debilidad de maná de Puntería; build de Lobo fantasmal del Chamán Restauración; réplica de la Vara de Dartol como juguete; ubicación del maestro de batalla de la Cuenca de Arathi en Cima del Trueno.
 - Corregido: al preguntar dónde gastar un punto de talento, el asistente recibe el rango máximo de cada talento que ya tienes y no inventa rangos (decía Fuego enfocado 3/3; tiene 2).
 - Actualizado (guías del 23 de noviembre): la furia de Furia da furia extra con los críticos y el talento nuevo Golpes temerarios; estadísticas del Guerrero Protección con valor de bloqueo; estadísticas del Chamán Elemental con la celeridad primero; estadísticas ofensivas del Druida feral tanque; encantamiento de guantes del Mago Arcano; build de subida del Sacerdote Sagrado; vendedores de rango JcJ y Valle de Alterac sin Puntos de Rango; bonus del Saco de dormir acogedor de 2 horas; coste de reasignar Legacy; niveles de Zahúrda Rajacieno 37-46; torneo de pesca con 250 ganadores; rangos de instructores de Sastrería.
-- Parche de datos 2026.11.23.1.
+- Actualizado (datos del 24 de noviembre): el libro de Pesca para expertos se puede comerciar, así que también puede estar en la casa de subastas; habilidad de pesca de 39 zonas, posiciones de varios PNJ y dadores de misión observados en el juego, y los datos actuales de Questie (solo rellenan lo que no dan el cliente, lo observado ni Wowhead).
+- Parche de datos 2026.11.24.1.
 
 ## [0.4.0-beta.10] - 2026-11-21
 
