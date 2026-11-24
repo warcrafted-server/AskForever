@@ -3285,6 +3285,60 @@
         "section:b70df239543fb05fc2657c51df492402db797818",
         "section:c96483ff916d5db958e1639f34a49a3c06de1f15"
       ]
+    },
+    {
+      "id": "prof-campamento-semillas",
+      "chapter": 5,
+      "status": "editorial",
+      "title_es": "Dónde plantar semillas de hierba: invernadero del campamento",
+      "title_en": "Where to Plant Herb Seeds: the Camp Greenhouse",
+      "summary_es": "Las semillas de hierba se plantan en el Invernadero de tu campamento, no en una ciudad.",
+      "summary_en": "Herb seeds are planted in the Greenhouse at your campsite, not in a city.",
+      "keywords_es": [
+        "semillas de hierba",
+        "dónde plantar semillas",
+        "invernadero",
+        "hibridador de semillas",
+        "semillas de hierba común"
+      ],
+      "keywords_en": [
+        "herb seeds",
+        "where to plant seeds",
+        "greenhouse",
+        "seed hybridizer",
+        "commonplace herb seeds"
+      ],
+      "text_es": "Las semillas de hierba se plantan en el Invernadero, un objeto de campamento de Herboristería que hace crecer hierbas con el tiempo y necesita una hoguera cerca; no hay sitio para plantarlas en una ciudad como Darnassus. El Hibridador de semillas multiplica semillas o las combina en niveles más raros. El Plano: invernadero lo da Sombradiente en los Humedales y el Plano: hibridador de semillas, Tendris Madeguerra en La Masacre. Los objetos de campamento comparten una reutilización de 1 hora.",
+      "text_en": "Herb seeds are planted in the Greenhouse, a Herbalism camp item that grows herbs over time and needs a campfire close by; there is no place to plant them in a city such as Darnassus. The Seed Hybridizer multiplies seeds or combines them into rarer tiers. Shadetooth in the Wetlands gives the Blueprint: Greenhouse and Tendris Warpwood in Dire Maul the Blueprint: Seed Hybridizer. Camp items share a 1-hour cooldown.",
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › All Perks and Benefits of a Campsite in Forever",
+          "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
+          "date": "2026-11-18"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › Primary Profession Camping Items",
+          "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
+          "date": "2026-11-18"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › Where to find Camping Blueprints",
+          "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
+          "date": "2026-11-18"
+        }
+      ],
+      "updated": "2026-11-24",
+      "topics": [
+        "general:camping"
+      ],
+      "source_hashes": [
+        "section:3b162cbe39077707c8ca08205eb3159e58748f0b",
+        "section:6fb51f9df7bdc933d5efbf385974edab9cbee302",
+        "section:b78da6bf8f7e206e75ea08200e17e1539f926473"
+      ]
     }
   ]
 }
