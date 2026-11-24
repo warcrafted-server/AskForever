@@ -11,6 +11,7 @@ from askforever.data.routes import (KIND_FLIGHT, KIND_TRAM, KIND_TRANSPORT, Rout
                                     route_flight_points, transport_between)
 from askforever.data.wowdb import (CLASSES, class_mask_from_name, normalize,
                                     talent_detail, talents_in_text)
+from askforever.engine.talent_path import next_talent_steps
 
 LIMIT = 1600
 GUIDE_LIMIT = 3200
@@ -2120,6 +2121,199 @@ def _detect_player_talents(facts: Facts, db, normalized: str, lang: str, ctx: di
         _add_source(facts, 'talents:player')
 
 
+TALENT_PATH_PHRASES = (
+    'siguiente punto', 'proximo punto', 'siguiente talento', 'proximo talento',
+    'en que gasto', 'donde gasto', 'donde pongo', 'donde meto',
+    'talentos a nivel', 'talentos al nivel', 'talentos para el nivel',
+    'que talentos deberia', 'talentos deberia tener',
+    'next talent', 'next point', 'where do i spend', 'where should i spend',
+    'where do i put', 'which talents', 'what talents', 'talents at level',
+    'talents should i',
+)
+
+ABILITY_LEVEL_PHRASES = ('aprend', 'entreno', 'entrenan', 'learn')
+
+
+def _question_level(normalized: str, ctx: dict):
+    match = re.search(r'\b(?:nivel|level|lvl)\s*(\d{1,2})\b', normalized)
+    if match:
+        return int(match.group(1))
+    return _ctx_level(ctx)
+
+
+def _spent_talents(ctx: dict):
+    profile = ctx.get('pf')
+    talents = profile.get('tal') if isinstance(profile, dict) else None
+    spent = talents.get('list') if isinstance(talents, dict) else None
+    return spent if isinstance(spent, list) else []
+
+
+def _build_order_names(order):
+    names = set()
+    for row in order or ():
+        if isinstance(row, dict):
+            for key in ('talento_es', 'talento_en'):
+                name = normalize(row.get(key))
+                if name:
+                    names.add(name)
+    return names
+
+
+def _build_overlap(order_names, spent) -> int:
+    overlap = 0
+    for entry in spent:
+        if not isinstance(entry, (list, tuple)) or len(entry) < 2:
+            continue
+        if _talent_int(entry[1]) <= 0:
+            continue
+        if normalize(entry[0]) in order_names:
+            overlap += 1
+    return overlap
+
+
+def _build_path_label(build, lang: str) -> str:
+    spec = build.get('espec') or ('conjunto' if lang == 'es' else 'generic')
+    title = build.get('titulo') or ''
+    variant = build.get('variante') or ''
+    if lang == 'es':
+        label = f'{spec} «{title}»' if title else spec
+        return f'{label} (variante: {variant})' if variant else label
+    label = f'{spec} "{title}"' if title else spec
+    return f'{label} (variant: {variant})' if variant else label
+
+
+def _talent_steps_text(steps, lang: str) -> str:
+    parts = []
+    for step in steps:
+        if lang == 'es':
+            parts.append(f'nivel {step["nivel"]}: {step["talento"]} rango {step["rango"]}')
+        else:
+            parts.append(f'level {step["nivel"]}: {step["talento"]} rank {step["rango"]}')
+    return '; '.join(parts)
+
+
+def _detect_talent_path(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
+    """Siguiente punto de talento comparando el personaje con una build con orden."""
+    if not any(phrase in normalized for phrase in TALENT_PATH_PHRASES):
+        return
+    player_mask = class_mask_from_name(ctx.get('class'))
+    mask = _class_mask_in_question(normalized) or player_mask
+    if mask is None:
+        return
+    level = _question_level(normalized, ctx)
+    if level is None:
+        return
+    class_name = _class_name(mask, lang)
+    builds = [build for build in (_safe(db.talent_builds, class_name) or [])
+              if build.get('has_order')]
+    spent = _spent_talents(ctx) if mask == player_mask else []
+    candidates = []
+    for build in builds:
+        order = _safe(db.talent_order, build.get('build_id')) or []
+        if not order:
+            continue
+        overlap = _build_overlap(_build_order_names(order), spent)
+        candidates.append((build, order, overlap))
+    if not candidates:
+        return
+    best = max(overlap for _build, _order, overlap in candidates)
+    # Sin puntos gastados, o con varias builds empatadas, la elección es del jugador.
+    chosen = [candidate for candidate in candidates if candidate[2] == best] if spent else []
+    if len(chosen) != 1:
+        for build, _order, _overlap in candidates[:6]:
+            heading = 'Build de talentos ' if lang == 'es' else 'Talent build '
+            facts.lines.append(heading + _build_path_label(build, lang) + '.')
+        if len(candidates) > 6:
+            rest = len(candidates) - 6
+            facts.lines.append(f'... y {rest} builds más.' if lang == 'es'
+                               else f'... and {rest} more builds.')
+        facts.lines.append(
+            'Elige una de estas builds: no mezclo talentos de builds distintas.'
+            if lang == 'es' else
+            'Choose one of these builds: I do not mix talents from different builds.')
+        _add_source(facts, 'talents:path')
+        return
+    build, order, _overlap = chosen[0]
+    steps = _safe(next_talent_steps, order, spent, level)
+    if not isinstance(steps, dict):
+        return
+    expected_points = max(0, min(51, level - 9))
+    label = _build_path_label(build, lang)
+    if lang == 'es':
+        facts.lines.append(f'Talentos de {class_name}: build {label} a nivel {level}, '
+                           f'{expected_points} puntos esperados.')
+    else:
+        facts.lines.append(f'{class_name} talents: build {label} at level {level}, '
+                           f'{expected_points} points expected.')
+    if steps.get('off_route'):
+        facts.lines.append(
+            'Tu personaje no sigue esta build (tiene talentos fuera de su orden), '
+            'así que no doy pasos.' if lang == 'es' else
+            'Your character does not follow this build (it has talents outside its '
+            'order), so I give no steps.')
+        _add_source(facts, 'talents:path')
+        return
+    ahead = steps.get('ahead') or []
+    behind = steps.get('behind') or []
+    if ahead:
+        facts.lines.append(
+            ('Por delante de la build: ' if lang == 'es' else 'Ahead of the build: ')
+            + ', '.join(ahead) + '.')
+    if behind:
+        facts.lines.append(
+            ('Por detrás de la build: ' if lang == 'es' else 'Behind the build: ')
+            + ', '.join(behind) + '.')
+    next_steps = steps.get('next') or []
+    if next_steps:
+        facts.lines.append(
+            ('Siguientes puntos: ' if lang == 'es' else 'Next points: ')
+            + _talent_steps_text(next_steps, lang) + '.')
+    else:
+        facts.lines.append('Al día con la build: no faltan puntos.' if lang == 'es'
+                           else 'On track with the build: no points missing.')
+    _add_source(facts, 'talents:path')
+
+
+def _detect_ability_level(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
+    """Habilidades entrenables de la clase en un nivel concreto."""
+    if not any(word in normalized for word in ABILITY_LEVEL_PHRASES):
+        return
+    if is_profession_question(normalized):
+        return
+    if 'entrenador' in normalized or 'trainer' in normalized:
+        return
+    mask = _class_mask_in_question(normalized) or class_mask_from_name(ctx.get('class'))
+    if mask is None:
+        return
+    level = _spell_level(normalized, ctx)
+    finder = getattr(db, 'abilities_at_level', None)
+    if level is None or finder is None:
+        return
+    class_name = _class_name(mask, lang)
+    abilities = _safe(finder, class_name, level, lang) or []
+    if not abilities:
+        return
+    parts = []
+    for ability in abilities:
+        name = ability.get('name') or ''
+        rank = ability.get('rank') or ''
+        if name:
+            parts.append(f'{name} ({rank})' if rank else name)
+    if not parts:
+        return
+    # _detect_spells pudo añadir "Ninguno nuevo": con habilidades verificadas no vale.
+    for none_line in (f'Ninguno nuevo a nivel {level}', f'None new at level {level}'):
+        if none_line in facts.lines:
+            facts.lines.remove(none_line)
+    if lang == 'es':
+        facts.lines.append(f'Habilidades de {class_name} a nivel {level}: '
+                           + ', '.join(parts) + '.')
+    else:
+        facts.lines.append(f'{class_name} abilities at level {level}: '
+                           + ', '.join(parts) + '.')
+    _add_source(facts, f'abilities:{mask}:{level}')
+
+
 def _detect_talents(facts: Facts, db, normalized: str, lang: str, ctx: dict) -> None:
     if not any(word in normalized for word in TALENT_KEYWORDS):
         return
@@ -2457,6 +2651,8 @@ def retrieve(message, db) -> Facts:
         _detect_pets(facts, db, normalized, lang, ctx)
         _detect_bis(facts, db, normalized, lang, ctx)
         _detect_player_talents(facts, db, normalized, lang, ctx)
+        _detect_talent_path(facts, db, normalized, lang, ctx)
+        _detect_ability_level(facts, db, normalized, lang, ctx)
         _detect_talents(facts, db, normalized, lang, ctx)
         _detect_talent_details(facts, db, normalized, lang, ctx)
         _detect_quest_list(facts, db, normalized, lang, ctx)

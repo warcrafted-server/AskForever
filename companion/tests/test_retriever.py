@@ -164,6 +164,71 @@ def _message(question, lang='esES', ctx=None):
     return {'v': 1, 'lang': lang, 'q': question, 'ctx': dict(ctx or CTX)}
 
 
+TALENT_SCHEMA = [
+    'CREATE TABLE ext_quests (quest_id INTEGER, required_level INTEGER, quest_level INTEGER)',
+    'CREATE TABLE ext_wh_build (build_id TEXT, clase TEXT, espec TEXT, titulo TEXT, '
+    'puntos_total INTEGER, puntos_ramas TEXT, enlace TEXT, variante TEXT, '
+    'orden_en_seccion INTEGER, guide_key TEXT, section_hash TEXT)',
+    'CREATE TABLE ext_wh_talento_orden (build_id TEXT, nivel INTEGER, talento_en TEXT, '
+    'talento_es TEXT, node_id INTEGER, rango INTEGER, guide_key TEXT, section_hash TEXT)',
+    'CREATE TABLE ext_wh_habilidad_nivel (clase TEXT, nivel INTEGER, hechizo TEXT, '
+    'hechizo_es TEXT, spell_id INTEGER, rango TEXT, tipo TEXT, guide_key TEXT, '
+    'section_hash TEXT)',
+]
+
+
+@pytest.fixture
+def talent_db(tmp_path):
+    path = tmp_path / 'talent.sqlite'
+    conn = sqlite3.connect(path)
+    for statement in TALENT_SCHEMA:
+        conn.execute(statement)
+    _insert(conn, 'ext_wh_build', ['build_id', 'clase', 'espec', 'titulo',
+                                   'puntos_total', 'puntos_ramas', 'enlace', 'variante',
+                                   'orden_en_seccion', 'guide_key', 'section_hash'], [
+        ('b1', 'shaman', 'elemental', 'Guía Elemental', 5, '{}', 'u1', 'Variante A', 1,
+         'g', 'h'),
+        ('b2', 'shaman', 'restauracion', 'Guía Restauración', 4, '{}', 'u2',
+         'Variante B', 2, 'g', 'h'),
+    ])
+    _insert(conn, 'ext_wh_talento_orden',
+            ['build_id', 'nivel', 'talento_en', 'talento_es', 'node_id', 'rango',
+             'guide_key', 'section_hash'], [
+        ('b1', 10, 'Convection', 'Convección', 1, 1, 'g', 'h'),
+        ('b1', 11, 'Convection', 'Convección', 1, 2, 'g', 'h'),
+        ('b1', 12, 'Call of Thunder', 'Llamada del trueno', 2, 1, 'g', 'h'),
+        ('b1', 13, 'Convection', 'Convección', 1, 3, 'g', 'h'),
+        ('b1', 14, 'Call of Thunder', 'Llamada del trueno', 2, 2, 'g', 'h'),
+        ('b1', 34, 'Elemental Mastery', 'Maestría elemental', 3, 1, 'g', 'h'),
+        ('b2', 10, 'Improved Healing Wave', 'Onda de curación mejorada', 4, 1, 'g', 'h'),
+        ('b2', 11, 'Improved Healing Wave', 'Onda de curación mejorada', 4, 2, 'g', 'h'),
+        ('b2', 12, 'Tidal Focus', 'Enfoque de las mareas', 5, 1, 'g', 'h'),
+    ])
+    _insert(conn, 'ext_wh_habilidad_nivel',
+            ['clase', 'nivel', 'hechizo', 'hechizo_es', 'spell_id', 'rango', 'tipo',
+             'guide_key', 'section_hash'], [
+        ('shaman', 20, 'Ghost Wolf', 'Lobo fantasmal', 2645, None, None, 'g', 'h'),
+        ('shaman', 20, 'Water Walking', 'Caminar sobre el agua', 546, None, None, 'g', 'h'),
+        ('shaman', 20, 'Stormstrike', 'Golpe de tormenta', 17364, 'Rank 1', None, 'g', 'h'),
+        ('shaman', 20, None, None, None, None, None, 'g', 'h'),
+        ('shaman', 18, 'Flame Shock', 'Choque de llamas', 8050, None, None, 'g', 'h'),
+    ])
+    conn.commit()
+    conn.close()
+
+    database = WowDb(path)
+    yield database
+    database.close()
+
+
+def _talent_ctx(spent=None, level=16):
+    ctx = dict(CTX)
+    ctx['lvl'] = level
+    if spent is not None:
+        ctx['pf'] = {'tal': {'list': spent, 'free': 1}}
+    return ctx
+
+
 def _text(facts):
     return '\n'.join(facts.lines)
 
@@ -227,6 +292,65 @@ def test_b10_talent_trees(db):
     assert 'Mejora' in text
     assert 'Recuperación' in text
     assert 'talents:64' in facts.sources
+
+
+def test_talent_path_next_point(talent_db):
+    facts = retrieve(_message('¿Dónde gasto el siguiente punto de talento?',
+                              ctx=_talent_ctx([['Convección', 1]], level=12)), talent_db)
+    text = _text(facts)
+    assert 'Guía Elemental' in text
+    assert 'nivel 12' in text and '3 puntos esperados' in text
+    assert 'Siguientes puntos' in text
+    assert 'Convección' in text and 'Llamada del trueno' in text
+    assert 'talents:path' in facts.sources
+
+
+def test_talent_path_without_spent_lists_builds(talent_db):
+    facts = retrieve(_message('¿Dónde gasto el siguiente punto de talento?',
+                              ctx=_talent_ctx()), talent_db)
+    text = _text(facts)
+    assert 'Variante A' in text and 'Variante B' in text
+    assert 'Elige una de estas builds' in text
+    assert 'Siguientes puntos' not in text
+    assert 'talents:path' in facts.sources
+
+
+def test_talent_path_level_from_question(talent_db):
+    facts = retrieve(_message('¿Qué talentos debería tener a nivel 34?',
+                              ctx=_talent_ctx([['Convección', 2]], level=12)), talent_db)
+    text = _text(facts)
+    assert 'nivel 34' in text
+    assert '25 puntos esperados' in text
+    assert 'Siguientes puntos' in text
+
+
+def test_talent_path_off_route_has_no_steps(talent_db):
+    facts = retrieve(_message('¿Dónde gasto el siguiente punto de talento?',
+                              ctx=_talent_ctx([['Convección', 1],
+                                               ['Talento inventado', 1]], level=12)),
+                     talent_db)
+    text = _text(facts)
+    assert 'no sigue esta build' in text
+    assert 'Siguientes puntos' not in text
+
+
+def test_talent_path_english(talent_db):
+    facts = retrieve(_message('Next talent point at level 34?', lang='enUS',
+                              ctx=_talent_ctx([['Convección', 2]], level=12)), talent_db)
+    text = _text(facts)
+    assert 'at level 34' in text and '25 points expected' in text
+    assert 'Next points' in text
+
+
+def test_abilities_at_level(talent_db):
+    facts = retrieve(_message('¿Qué aprendo a nivel 20?'), talent_db)
+    text = _text(facts)
+    assert 'Lobo fantasmal' in text
+    assert 'Caminar sobre el agua' in text
+    assert 'Golpe de tormenta (Rank 1)' in text
+    assert 'Choque de llamas' not in text
+    assert 'Ninguno nuevo a nivel 20' not in text
+    assert 'abilities:64:20' in facts.sources
 
 
 def test_b11_dungeon_spanish(db):

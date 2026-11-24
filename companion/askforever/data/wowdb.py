@@ -1056,6 +1056,37 @@ class WowDb:
         spells.sort(key=lambda spell: (spell['level'], spell['name']))
         return spells
 
+    def abilities_at_level(self, class_name, level, lang: str = 'es'):
+        """Habilidades entrenables de una clase en un nivel; [] si no hay datos."""
+        slug = normalize(class_name)
+        if not slug:
+            return []
+        mask = class_mask_from_name(class_name)
+        if mask is not None:
+            slug = normalize(CLASSES[mask]['english'])
+        level = _as_int(level)
+        if level is None:
+            return []
+        rows = self._rows(
+            'SELECT hechizo, hechizo_es, rango, tipo FROM ext_wh_habilidad_nivel '
+            'WHERE lower(trim(clase)) = ? AND nivel = ?', (slug, level))
+        seen = set()
+        abilities = []
+        for row in rows:
+            preferred = row['hechizo_es'] if lang == 'es' else row['hechizo']
+            name = _clean_text(preferred or row['hechizo_es'] or row['hechizo'])
+            if not name:
+                continue
+            rank = _clean_text(row['rango'])
+            kind = _clean_text(row['tipo'])
+            key = (name, rank, kind)
+            if key in seen:
+                continue
+            seen.add(key)
+            abilities.append({'name': name, 'rank': rank, 'kind': kind})
+        abilities.sort(key=lambda ability: (ability['rank'], ability['name']))
+        return abilities
+
     def class_trainers(self, class_mask, faction=None, lang: str = 'es'):
         data = CLASSES.get(class_mask)
         if not data:
