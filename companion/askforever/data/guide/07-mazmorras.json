@@ -1346,7 +1346,7 @@
           "date": "2026-10-11"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "dungeon:shadowfang-keep"
       ],
@@ -1529,7 +1529,7 @@
           "date": "2026-10-11"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "dungeon:shadowfang-keep"
       ],
@@ -1641,7 +1641,7 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "dungeon:blackfathom-deeps"
       ],
@@ -1700,7 +1700,7 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "dungeon:blackfathom-deeps"
       ],
@@ -1988,7 +1988,7 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "dungeon:stockade"
       ],
@@ -2116,7 +2116,7 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "dungeon:stockade"
       ],
@@ -2386,7 +2386,7 @@
           "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "dungeon:gnomeregan"
       ],
@@ -2432,7 +2432,7 @@
           "date": "2026-11-16"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "dungeon:gnomeregan"
       ],
@@ -2828,7 +2828,7 @@
           "date": "2026-11-09"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "dungeon:razorfen-kraul"
       ],
@@ -4231,40 +4231,40 @@
         "a host of evil"
       ],
       "text_es": "La Alianza puede recoger Trae la Luz con el Arzobispo Benedictus, en la Catedral de Ventormenta; la Horda, Acaba con la amenaza en Entrañas. El ojo del Gélido se obtiene con el Archimago Lan'dalock en Dalaran o Sutara Acechaprados en Mulgore. Un anfitrión del mal empieza con Myriam Lunacanta, junto a la entrada.",
-      "text_en": "Alliance can pick up Bring the Light from Archbishop Benedictus in the Cathedral of Light in Stormwind City; Horde can get Bring the End in Undercity. The Coldbringer's Eye is available from Archmage Lan'dalock in Dalaran or Sutara Plainstalker in Mulgore. A Host of Evil starts with Myriam Moonsinger beside the entrance.",
+      "text_en": "Alliance can pick up Bring the Light from Archbishop Benedictus in the Cathedral of Stormwind; Horde can get Bring the End in Undercity. The Coldbringer's Eye is available from Archmage Lan'dalock in Dalaran or Sutara Plainstalker in Mulgore. A Host of Evil starts with Myriam Moonsinger beside the entrance.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
           "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
-          "date": "2026-11-14"
+          "date": "2026-11-21"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Bring the Light",
           "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
-          "date": "2026-11-14"
+          "date": "2026-11-21"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Bring the End",
           "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
-          "date": "2026-11-14"
+          "date": "2026-11-21"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › The Coldbringer's Eye",
           "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
-          "date": "2026-11-14"
+          "date": "2026-11-21"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › A Host of Evil",
           "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
-          "date": "2026-11-14"
+          "date": "2026-11-21"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "dungeon:razorfen-downs"
       ],
@@ -4479,16 +4479,16 @@
           "type": "editorial",
           "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Plaguemaw the Rotting Event",
           "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
-          "date": "2026-11-14"
+          "date": "2026-11-21"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Razorfen Downs Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Extinguishing the Idol",
           "url": "https://www.wowhead.com/forever/guide/razorfen-downs-dungeon-overview-location-rewards",
-          "date": "2026-11-14"
+          "date": "2026-11-21"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "dungeon:razorfen-downs"
       ],
@@ -4620,40 +4620,40 @@
           "type": "editorial",
           "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Quick Reference Table",
           "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
-          "date": "2026-11-06"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Solution to Doom",
           "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
-          "date": "2026-11-06"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Power Stones",
           "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
-          "date": "2026-11-06"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Reclaimed Treasures (Alliance)",
           "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
-          "date": "2026-11-06"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › The Lost Dwarves",
           "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
-          "date": "2026-11-06"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Uldaman Dungeon Strategy Guide - WoW: Forever › Power in Uldaman (Mage Quest)",
           "url": "https://www.wowhead.com/forever/guide/uldaman-dungeon-overview-location-rewards",
-          "date": "2026-11-06"
+          "date": "2026-11-18"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "dungeon:uldaman"
       ],
