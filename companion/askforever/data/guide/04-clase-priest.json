@@ -1941,22 +1941,22 @@
       "status": "editorial",
       "title_es": "Build JcJ de Disciplina",
       "title_en": "Discipline PvP Build",
-      "summary_es": "Prioriza supervivencia y control; el punto de Sanación conjunta retirada queda libre.",
-      "summary_en": "Prioritizes survival and control; the removed Binding Heal point remains free.",
+      "summary_es": "Prioriza supervivencia y control; Resolución silenciosa, Martirio y Recuperación bendita ganan peso en JcJ.",
+      "summary_en": "Prioritizes survival and control; Silent Resolve, Martyrdom and Blessed Recovery carry more weight in PvP.",
       "keywords_es": [
         "build JcJ Disciplina sacerdote",
         "talentos PvP Disciplina",
         "Desmayo sacerdote JcJ",
-        "Sanación conjunta talento retirado"
+        "supervivencia sacerdote JcJ"
       ],
       "keywords_en": [
         "discipline pvp build",
         "discipline priest pvp talents",
         "blackout priest pvp",
-        "retired binding heal talent"
+        "priest pvp survivability"
       ],
-      "text_es": "Disciplina: Disciplinas gemelas 5/5, Resolución silenciosa 3/3, Martirio 2/2, Enfoque interno 1/1, Poder de la palabra mejorado: escudo 3/3, Meditación 3/3, Fuego interno mejorado 3/3, Quemar maná mejorado 2/2, Amparo de alma 1/1, Penitencia 1/1 y Esperanza renovada 5/5. Sagrado: Enfoque crepuscular 3/3, Renovar mejorado 2/3, Custodia de hechizos 5/5, Nova Sagrada 1/1, Recuperación bendita 3/3 e Inspiración 2/3. Sombra: Desmayo 5/5. Prioriza supervivencia; el punto del antiguo talento Sanación conjunta, hoy hechizo de Sagrado, queda libre.",
-      "text_en": "Discipline: Twin Disciplines 5/5, Silent Resolve 3/3, Martyrdom 2/2, Inner Focus 1/1, Improved Power Word: Shield 3/3, Meditation 3/3, Improved Inner Fire 3/3, Improved Mana Burn 2/2, Soul Warding 1/1, Penance 1/1, and Renewed Hope 5/5. Holy: Twilight Focus 3/3, Improved Renew 2/3, Spell Warding 5/5, Holy Nova 1/1, Blessed Recovery 3/3, and Inspiration 2/3. Shadow: Blackout 5/5. This favors survival; the point of the old Binding Heal talent, now a Holy spell, is free to spend.",
+      "text_es": "Disciplina: Disciplinas gemelas 5/5, Resolución silenciosa 3/3, Martirio 2/2, Enfoque interno 1/1, Poder de la palabra mejorado: escudo 3/3, Meditación 3/3, Fuego interno mejorado 3/3, Quemar maná mejorado 2/2, Amparo de alma 1/1, Penitencia 1/1 y Esperanza renovada 5/5. Sagrado: Enfoque crepuscular 3/3, Renovar mejorado 2/3, Custodia de hechizos 5/5, Recuperación bendita 3/3, Inspiración 3/3 y Vinculación sagrada 1/1. Sombra: Desmayo 5/5. Prima la supervivencia: talentos que apenas sirven en PvE se vuelven clave en JcJ.",
+      "text_en": "Discipline: Twin Disciplines 5/5, Silent Resolve 3/3, Martyrdom 2/2, Inner Focus 1/1, Improved Power Word: Shield 3/3, Meditation 3/3, Improved Inner Fire 3/3, Improved Mana Burn 2/2, Soul Warding 1/1, Penance 1/1, and Renewed Hope 5/5. Holy: Twilight Focus 3/3, Improved Renew 2/3, Spell Warding 5/5, Blessed Recovery 3/3, Inspiration 3/3, and Holy Binding 1/1. Shadow: Blackout 5/5. Survival comes first: talents of little use in PvE become key in PvP.",
       "tags": [
         "PRIEST"
       ],
@@ -1965,15 +1965,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Discipline Priest Talent Tree Builds - WoW: Forever › Best Discipline Priest PvP Build",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/discipline/talent-builds-pve-healer",
-          "date": "2026-11-04"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-24",
       "topics": [
         "class:priest:discipline:talents"
       ],
       "source_hashes": [
-        "section:2e97167c8c8a35ecf45cefe3a0d579f873fba6af"
+        "section:346b1a17b719c9555369d3e17178be3b4c89ab85"
       ]
     },
     {
