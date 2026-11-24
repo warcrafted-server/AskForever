@@ -157,8 +157,8 @@
         "class:mage:frost:overview"
       ],
       "source_hashes": [
-        "guide:6baf0cfd8d654fbbea58f486ec3e16abab897d34",
-        "guide:b64e31d011df677ff817121016967f50f569da23",
+        "guide:a8c431980f841ea4f7d2d877697dfb5953e2d676",
+        "guide:aa99cd273a0b763b29af769a66190a4ce8e2dd40",
         "section:ac327191622fc9c82a948153cfbf7e8fad69e733"
       ]
     },
@@ -317,8 +317,8 @@
         "class:mage:frost:leveling"
       ],
       "source_hashes": [
-        "section:9f2d2de4ab2c35c2a0e8fdf8f82e48a930203324",
-        "section:bd01a556cd9ed84d3f95d2eeb3e8e0afccea20a2"
+        "section:bd01a556cd9ed84d3f95d2eeb3e8e0afccea20a2",
+        "section:db502f18190a95f6ce8921838c875fa91b0b4021"
       ]
     },
     {
@@ -709,13 +709,13 @@
       ],
       "source_hashes": [
         "section:1ce834a8f36871949e1eac51aaa1bdb857add36b",
-        "section:4e76f57b836408d76191e70b024f25e06808113e",
-        "section:70db27a356ab4ccd9425439c6cac88327a2f4a6c",
         "section:7d201ebb590e078e799bccc2ee3b36fc94270624",
         "section:a7a54f40133178813f6fe1cd4f49e0b1b2eb9406",
         "section:bd01a556cd9ed84d3f95d2eeb3e8e0afccea20a2",
+        "section:bf1fbca853eb2fea6b961f9cc00f7f62f8cd9a9e",
         "section:c7fb7998359304922e513ebfa01321517c53f328",
-        "section:f016d73f244b84f7d7de4e31fe14bdeedd56d4f9"
+        "section:f016d73f244b84f7d7de4e31fe14bdeedd56d4f9",
+        "section:fb5daa698f97a8a93e5f37dc8a04b675953b0a29"
       ]
     },
     {
@@ -1145,7 +1145,7 @@
         "class:mage:arcane:overview"
       ],
       "source_hashes": [
-        "guide:b64e31d011df677ff817121016967f50f569da23",
+        "guide:a8c431980f841ea4f7d2d877697dfb5953e2d676",
         "section:581db85b33ee3e85ded3e59f7d4c52940b198e8c",
         "section:befaff6edc623d1fd50d0d5d6708181e2244021d"
       ]
@@ -1294,7 +1294,7 @@
         "class:mage:arcane:overview"
       ],
       "source_hashes": [
-        "guide:b64e31d011df677ff817121016967f50f569da23",
+        "guide:a8c431980f841ea4f7d2d877697dfb5953e2d676",
         "section:3086d61e1603bd77328e37a6ed50953d13522230"
       ]
     },
@@ -1390,7 +1390,7 @@
         "class:mage:fire:stats"
       ],
       "source_hashes": [
-        "guide:6baf0cfd8d654fbbea58f486ec3e16abab897d34",
+        "guide:aa99cd273a0b763b29af769a66190a4ce8e2dd40",
         "section:ed0030c7d2ca489d2b0efe0bb449c9cfddabc5ff"
       ]
     },
@@ -1777,7 +1777,7 @@
         "class:mage:frost:rotation"
       ],
       "source_hashes": [
-        "section:d4a0bf840e91b67e7f969d25cd2e65ed753f500f"
+        "section:e7e430de037b4f1871a17da74d7024586301603a"
       ]
     },
     {
@@ -1825,7 +1825,7 @@
       ],
       "source_hashes": [
         "section:6f5fb9654741f66ad81f74afb12468944e045a77",
-        "section:d4a0bf840e91b67e7f969d25cd2e65ed753f500f"
+        "section:e7e430de037b4f1871a17da74d7024586301603a"
       ]
     },
     {
@@ -2242,7 +2242,7 @@
         "class:mage:arcane:leveling"
       ],
       "source_hashes": [
-        "section:4e76f57b836408d76191e70b024f25e06808113e"
+        "section:bf1fbca853eb2fea6b961f9cc00f7f62f8cd9a9e"
       ]
     },
     {
@@ -2283,7 +2283,7 @@
         "class:mage:fire:leveling"
       ],
       "source_hashes": [
-        "section:70db27a356ab4ccd9425439c6cac88327a2f4a6c"
+        "section:fb5daa698f97a8a93e5f37dc8a04b675953b0a29"
       ]
     },
     {
@@ -2330,8 +2330,8 @@
         "class:mage:arcane:leveling"
       ],
       "source_hashes": [
-        "section:4e76f57b836408d76191e70b024f25e06808113e",
-        "section:8e6f1a177a32669927096280bee225a97a167dff"
+        "section:8e6f1a177a32669927096280bee225a97a167dff",
+        "section:bf1fbca853eb2fea6b961f9cc00f7f62f8cd9a9e"
       ]
     },
     {
@@ -2372,7 +2372,7 @@
         "class:mage:fire:leveling"
       ],
       "source_hashes": [
-        "section:70db27a356ab4ccd9425439c6cac88327a2f4a6c"
+        "section:fb5daa698f97a8a93e5f37dc8a04b675953b0a29"
       ]
     },
     {
@@ -2419,8 +2419,8 @@
         "class:mage:frost:leveling"
       ],
       "source_hashes": [
-        "section:9f2d2de4ab2c35c2a0e8fdf8f82e48a930203324",
-        "section:bd01a556cd9ed84d3f95d2eeb3e8e0afccea20a2"
+        "section:bd01a556cd9ed84d3f95d2eeb3e8e0afccea20a2",
+        "section:db502f18190a95f6ce8921838c875fa91b0b4021"
       ]
     },
     {

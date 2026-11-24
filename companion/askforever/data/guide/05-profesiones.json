@@ -691,7 +691,7 @@
       ],
       "source_hashes": [
         "section:434386817cee87af4ffd1071456dce3b8204225b",
-        "section:64ddf24400e04f6cef99d6a2e60403fbac5b1cc4",
+        "section:7f8df2f47b373e4c7c61474d3127923e9e5e64c6",
         "section:9bbed3c91fa48e86a80574c35454f4743f0d9aec",
         "section:e27fdd5ec52d509a27d5a592cfa500a3e5dc9187"
       ]
@@ -828,8 +828,8 @@
         "profession:tailoring:overview"
       ],
       "source_hashes": [
+        "section:10a15d8deccdb4b947a193f5003df76833bd3b4b",
         "section:140038c7bee8f76e4fb55460efcdb3b81cfb73fa",
-        "section:49cb5003db3f578b6e218c222bf66c280191a21c",
         "section:5e67072fa18387943904fe4fefa30267db8e18a7",
         "section:e0e2dc1f3cdc8873cd0c3df065ab70f1d15c19a8"
       ]
@@ -871,7 +871,7 @@
         "profession:alchemy:leveling-1-300"
       ],
       "source_hashes": [
-        "section:24583e0c5252e13146864823985f6f2c089bce55"
+        "section:38ccb958b9a5dd25e5118b88f4b7711995e8e228"
       ]
     },
     {
@@ -1391,7 +1391,7 @@
         "profession:cooking:overview"
       ],
       "source_hashes": [
-        "guide:cad2cb0a65d4968fc4d06cdae4b4fba7f9ee7938",
+        "guide:0e8066b9f34468a0aa53c16cac61db115fd4f443",
         "section:a419df425602663dfd82d81d5c0a7e9973521be4",
         "section:fb50e1fc32313e5b04eb835a3df7d014c315b507"
       ]

@@ -407,7 +407,7 @@
         "class:paladin:retribution:leveling"
       ],
       "source_hashes": [
-        "section:12d6be15e99636475ab49fc55652edcc12c7417a"
+        "section:97fa9dce40f84458de0cecc6b58cb61018fd5db0"
       ]
     },
     {
@@ -488,11 +488,11 @@
         "class:paladin:retribution:leveling"
       ],
       "source_hashes": [
-        "section:12d6be15e99636475ab49fc55652edcc12c7417a",
         "section:1e41acc97d7aa841820103f515312b147446d28a",
         "section:726235c29476e7b3bfea6f425964453cef449819",
         "section:7d5b056f9256b015fb6d7eb2a81dc93736fe8070",
         "section:93c0e08625078c87de143d01fc1bf916e38ef870",
+        "section:97fa9dce40f84458de0cecc6b58cb61018fd5db0",
         "section:b762ccab74541fa9e2c228783a54c000d64e0dbe",
         "section:e659a0e09cc118fc03fdd0c794cd135de02705d2"
       ]
@@ -1423,7 +1423,7 @@
         "class:paladin:holy:talents"
       ],
       "source_hashes": [
-        "section:ced35d1b188702e9186a7062770ae6f3ed6e9483"
+        "section:843a0c7ab59cabb23bb7b4ae4520ac4eb3c74b74"
       ]
     },
     {
@@ -1462,7 +1462,7 @@
         "class:paladin:holy:talents"
       ],
       "source_hashes": [
-        "section:cec97cd2eeb1370f4edf2c642d739c6c32c7ea50"
+        "section:de96d62948578d6f51bdcbd20d7edcedef3ce188"
       ]
     },
     {
@@ -1501,7 +1501,7 @@
         "class:paladin:holy:talents"
       ],
       "source_hashes": [
-        "section:4186c5a114fd545badbc26a4d8964c4a9b6e380c"
+        "section:4d1bf0109951334dfa3a0c9672d76c1ee440ab52"
       ]
     },
     {
@@ -2253,8 +2253,8 @@
         "class:paladin:holy:talents"
       ],
       "source_hashes": [
-        "section:9a512485bc7d7c309b2a510821d897d41a371c71",
-        "section:ced35d1b188702e9186a7062770ae6f3ed6e9483"
+        "section:843a0c7ab59cabb23bb7b4ae4520ac4eb3c74b74",
+        "section:9a512485bc7d7c309b2a510821d897d41a371c71"
       ]
     },
     {
@@ -2301,7 +2301,7 @@
       ],
       "source_hashes": [
         "guide:8a5478c8ffd4ef65e1afacfc69d8b9d0b75cecbd",
-        "section:ced35d1b188702e9186a7062770ae6f3ed6e9483"
+        "section:843a0c7ab59cabb23bb7b4ae4520ac4eb3c74b74"
       ]
     },
     {
@@ -2722,7 +2722,7 @@
         "class:paladin:holy:leveling"
       ],
       "source_hashes": [
-        "section:74323ea3e6b3940e8d2ef0a821b3f03420a55786"
+        "section:983a5f67163196b540c67ecd2587804cbdbb93a2"
       ]
     },
     {
@@ -2761,7 +2761,7 @@
         "class:paladin:protection:leveling"
       ],
       "source_hashes": [
-        "section:541400db19159956319eb28cb7b4f5c674055e45"
+        "section:834fe356e2e2754198ed53b8233c9048cccbfa96"
       ]
     },
     {
@@ -2800,7 +2800,7 @@
         "class:paladin:retribution:leveling"
       ],
       "source_hashes": [
-        "section:12d6be15e99636475ab49fc55652edcc12c7417a"
+        "section:97fa9dce40f84458de0cecc6b58cb61018fd5db0"
       ]
     },
     {
@@ -2839,7 +2839,7 @@
         "class:paladin:holy:leveling"
       ],
       "source_hashes": [
-        "section:74323ea3e6b3940e8d2ef0a821b3f03420a55786"
+        "section:983a5f67163196b540c67ecd2587804cbdbb93a2"
       ]
     },
     {
@@ -2878,7 +2878,7 @@
         "class:paladin:protection:leveling"
       ],
       "source_hashes": [
-        "section:541400db19159956319eb28cb7b4f5c674055e45"
+        "section:834fe356e2e2754198ed53b8233c9048cccbfa96"
       ]
     },
     {

@@ -299,7 +299,7 @@
         "guide:2d3090210a1699a629e9d89b14935a1c9285fc6e",
         "section:1fd813698db91b3c574e8c0e2a23e65200da4f29",
         "section:7121d4606aded21f57d20e9078f95d32b2e69553",
-        "section:78fcf26e7bd6166d52aca9c362d101229fdad4ba",
+        "section:71a1fc5468da06a780bfbee87f5b12c70d366efa",
         "section:9ca8551261493de0fe9d2f6c74a01b954136b8d4",
         "section:b0e0d83b6d4968bfaf969f058061c04cf8db7164",
         "section:eb898b3d29358f0af7e4320583d8af78d3fcffc3"
@@ -351,7 +351,7 @@
         "class:warlock:affliction:leveling"
       ],
       "source_hashes": [
-        "section:ace72ab599c1d2952f57c6a945d66879bf8f831f",
+        "section:a2198a90c0e2d7d837b255faf58d4baa1b9fde7d",
         "section:b2f4f5642588f6bbe171264068b0c28987b2c99c"
       ]
     },
@@ -670,7 +670,7 @@
         "class:warlock:affliction:leveling"
       ],
       "source_hashes": [
-        "guide:6314b58a862f872163d7aa23f0152d902f6418ca",
+        "guide:1b06567147f22220ec1843dd2695d1b17350c729",
         "section:021e27e37591bfc474fad3dbe184a9c4732ada4c",
         "section:7ab3a96fb19d9dcc2eec555cbbf8424f8578099a",
         "section:befc3dbf03db585c712bb92be35cb7b52070c5a7",
@@ -981,8 +981,8 @@
       "source_hashes": [
         "section:021e27e37591bfc474fad3dbe184a9c4732ada4c",
         "section:1652e6032b90619b9225273ebb5d8068986cd71a",
+        "section:a2198a90c0e2d7d837b255faf58d4baa1b9fde7d",
         "section:a415ff3fff19a2f2e7fd929962dad8649a6fc3eb",
-        "section:ace72ab599c1d2952f57c6a945d66879bf8f831f",
         "section:fa1446d859c0451265edfcc0b23e257610eb68c5"
       ]
     },
@@ -1076,9 +1076,9 @@
         "class:warlock:destruction:leveling"
       ],
       "source_hashes": [
-        "guide:06caefe3eaeafd39ddc3b82943318222c7b6f978",
-        "guide:6314b58a862f872163d7aa23f0152d902f6418ca",
-        "guide:af1e73748ba8b481d20982b7af36cc91d6ad18da",
+        "guide:1b06567147f22220ec1843dd2695d1b17350c729",
+        "guide:868122b768ff640fbee05fa74e56df84ec04d28a",
+        "guide:9b32234c42caabe929b7306e82fcae59c7956a0f",
         "section:1686715485aadbbd1f53233844e262533ad65e6b",
         "section:befc3dbf03db585c712bb92be35cb7b52070c5a7",
         "section:c5051c21bf40a8f33983ccb5fc1278a140e60058",
@@ -1131,8 +1131,8 @@
         "class:warlock:affliction:leveling"
       ],
       "source_hashes": [
-        "guide:6314b58a862f872163d7aa23f0152d902f6418ca",
-        "section:ace72ab599c1d2952f57c6a945d66879bf8f831f"
+        "guide:1b06567147f22220ec1843dd2695d1b17350c729",
+        "section:a2198a90c0e2d7d837b255faf58d4baa1b9fde7d"
       ]
     },
     {
@@ -1181,8 +1181,8 @@
         "class:warlock:demonology:leveling"
       ],
       "source_hashes": [
-        "guide:af1e73748ba8b481d20982b7af36cc91d6ad18da",
-        "section:78fcf26e7bd6166d52aca9c362d101229fdad4ba"
+        "guide:9b32234c42caabe929b7306e82fcae59c7956a0f",
+        "section:71a1fc5468da06a780bfbee87f5b12c70d366efa"
       ]
     },
     {
@@ -1231,8 +1231,8 @@
         "class:warlock:destruction:leveling"
       ],
       "source_hashes": [
-        "guide:06caefe3eaeafd39ddc3b82943318222c7b6f978",
-        "section:a41d84a98887df06285a814d449ad60b10a4cc3e"
+        "guide:868122b768ff640fbee05fa74e56df84ec04d28a",
+        "section:1604074d49c0cb85bcea19cc1c5dd05b33f610cb"
       ]
     },
     {
@@ -1667,7 +1667,7 @@
         "class:warlock:affliction:rotation"
       ],
       "source_hashes": [
-        "section:fb1469b7e573a2b2271824d8e33ac81ea1d58c45"
+        "section:aa40d2e5c56c8d3a8abab873287a7a899433d5eb"
       ]
     },
     {
@@ -1708,7 +1708,7 @@
         "class:warlock:affliction:rotation"
       ],
       "source_hashes": [
-        "section:fe00ce1abd33f551894a5ccf35fd4dba83b2aec5"
+        "section:b002364e173717b117b9b4f9ed678ae77e061db3"
       ]
     },
     {
@@ -1749,7 +1749,7 @@
         "class:warlock:demonology:rotation"
       ],
       "source_hashes": [
-        "section:3fb546c88bdac6b48500c01acae0cc8aa85e3e74"
+        "section:4b701a1ca4a22f05a084124cc3f6b268acf09ab3"
       ]
     },
     {
@@ -1790,7 +1790,7 @@
         "class:warlock:demonology:rotation"
       ],
       "source_hashes": [
-        "section:8baa576d03192b6e7414ab683140aa57ba67e3de"
+        "section:f7a4bc7e34deeee092e1990be7cbabdeb3372ee7"
       ]
     },
     {
@@ -1839,7 +1839,7 @@
       ],
       "source_hashes": [
         "section:0139ca37032359782a7de7e3dc75a8f3e46a8d63",
-        "section:0150cc1b0cad035c038be93a57fd2d6aaf9f30ee"
+        "section:7395f875fb1678f007a34e681033cae12f239415"
       ]
     },
     {
@@ -2003,7 +2003,7 @@
         "class:warlock:affliction:talents"
       ],
       "source_hashes": [
-        "guide:d81ab77a5526144ee1ed26b2be4f0ecf34111ff8"
+        "guide:1b05b9dd39b68dabdc2ca13ec6bc90f4a22c721d"
       ]
     },
     {
@@ -2044,7 +2044,7 @@
         "class:warlock:affliction:talents"
       ],
       "source_hashes": [
-        "guide:d81ab77a5526144ee1ed26b2be4f0ecf34111ff8"
+        "guide:1b05b9dd39b68dabdc2ca13ec6bc90f4a22c721d"
       ]
     },
     {
@@ -2085,7 +2085,7 @@
         "class:warlock:affliction:talents"
       ],
       "source_hashes": [
-        "section:37a5c2a2bed831ffd339a408d567d41f0dc71cf0"
+        "section:9c85c6503d2172fd2e9a7ec18968afe6691e03e7"
       ]
     },
     {
@@ -2126,7 +2126,7 @@
         "class:warlock:affliction:talents"
       ],
       "source_hashes": [
-        "section:30d1baf6851822e1831ff020125427a5d165f3c4"
+        "section:bacb08554ba3a07f54c2b2e46ecbda1e59a9cfdd"
       ]
     },
     {
@@ -2167,7 +2167,7 @@
         "class:warlock:affliction:talents"
       ],
       "source_hashes": [
-        "section:30d1baf6851822e1831ff020125427a5d165f3c4"
+        "section:bacb08554ba3a07f54c2b2e46ecbda1e59a9cfdd"
       ]
     },
     {
@@ -2208,7 +2208,7 @@
         "class:warlock:affliction:talents"
       ],
       "source_hashes": [
-        "section:30d1baf6851822e1831ff020125427a5d165f3c4"
+        "section:bacb08554ba3a07f54c2b2e46ecbda1e59a9cfdd"
       ]
     },
     {
@@ -2249,7 +2249,7 @@
         "class:warlock:affliction:talents"
       ],
       "source_hashes": [
-        "section:30d1baf6851822e1831ff020125427a5d165f3c4"
+        "section:bacb08554ba3a07f54c2b2e46ecbda1e59a9cfdd"
       ]
     },
     {
@@ -2290,7 +2290,7 @@
         "class:warlock:demonology:talents"
       ],
       "source_hashes": [
-        "guide:81e15fe80d6f15039d1402fc8b5c9c586ce226fc"
+        "guide:3495ed38d5d5cccaca79a368f9887b3418f12346"
       ]
     },
     {
@@ -2331,7 +2331,7 @@
         "class:warlock:demonology:talents"
       ],
       "source_hashes": [
-        "guide:81e15fe80d6f15039d1402fc8b5c9c586ce226fc"
+        "guide:3495ed38d5d5cccaca79a368f9887b3418f12346"
       ]
     },
     {
@@ -2372,7 +2372,7 @@
         "class:warlock:demonology:talents"
       ],
       "source_hashes": [
-        "section:318126bb2d84e75cc44cc1c6fa690951d3d9fcaf"
+        "section:cf973f72029847b1c2dc6264e39ab7c6cc7bed8a"
       ]
     },
     {
@@ -2413,7 +2413,7 @@
         "class:warlock:demonology:talents"
       ],
       "source_hashes": [
-        "section:5e26056bbefb1d9f5dd16ff8da5bed33715be91f"
+        "section:67179661bae715778877c457c33236637d5e037c"
       ]
     },
     {
@@ -2454,7 +2454,7 @@
         "class:warlock:demonology:talents"
       ],
       "source_hashes": [
-        "section:5e26056bbefb1d9f5dd16ff8da5bed33715be91f"
+        "section:67179661bae715778877c457c33236637d5e037c"
       ]
     },
     {
@@ -2495,7 +2495,7 @@
         "class:warlock:demonology:talents"
       ],
       "source_hashes": [
-        "section:5e26056bbefb1d9f5dd16ff8da5bed33715be91f"
+        "section:67179661bae715778877c457c33236637d5e037c"
       ]
     },
     {
@@ -2536,7 +2536,7 @@
         "class:warlock:demonology:talents"
       ],
       "source_hashes": [
-        "section:5e26056bbefb1d9f5dd16ff8da5bed33715be91f"
+        "section:67179661bae715778877c457c33236637d5e037c"
       ]
     },
     {
@@ -2577,7 +2577,7 @@
         "class:warlock:demonology:talents"
       ],
       "source_hashes": [
-        "section:5e26056bbefb1d9f5dd16ff8da5bed33715be91f"
+        "section:67179661bae715778877c457c33236637d5e037c"
       ]
     },
     {
@@ -2618,7 +2618,7 @@
         "class:warlock:destruction:talents"
       ],
       "source_hashes": [
-        "guide:29fabf304908242c5dd204bf19f845522e4813b1"
+        "guide:ed91bdc8dfb3915d834a46750646d7024e8019be"
       ]
     },
     {
@@ -2659,7 +2659,7 @@
         "class:warlock:destruction:talents"
       ],
       "source_hashes": [
-        "guide:29fabf304908242c5dd204bf19f845522e4813b1"
+        "guide:ed91bdc8dfb3915d834a46750646d7024e8019be"
       ]
     },
     {
@@ -2700,7 +2700,7 @@
         "class:warlock:destruction:talents"
       ],
       "source_hashes": [
-        "guide:29fabf304908242c5dd204bf19f845522e4813b1"
+        "guide:ed91bdc8dfb3915d834a46750646d7024e8019be"
       ]
     },
     {
@@ -2741,7 +2741,7 @@
         "class:warlock:destruction:talents"
       ],
       "source_hashes": [
-        "guide:29fabf304908242c5dd204bf19f845522e4813b1"
+        "guide:ed91bdc8dfb3915d834a46750646d7024e8019be"
       ]
     },
     {
@@ -2782,7 +2782,7 @@
         "class:warlock:destruction:talents"
       ],
       "source_hashes": [
-        "section:7cd758bfd4f0dd0e5f9584f5b5c37de026a9e892"
+        "section:4aa2bd1e4869690ff7bf2322b29a99d22e4d4a03"
       ]
     },
     {
@@ -2823,7 +2823,7 @@
         "class:warlock:destruction:talents"
       ],
       "source_hashes": [
-        "section:753e4f7c8f8406ac78849cbeea8fdcae598a3f0c"
+        "section:be892c4482665f79bcaedac285f17376d8d1b0ad"
       ]
     },
     {
@@ -2862,7 +2862,7 @@
         "class:warlock:destruction:talents"
       ],
       "source_hashes": [
-        "section:753e4f7c8f8406ac78849cbeea8fdcae598a3f0c"
+        "section:be892c4482665f79bcaedac285f17376d8d1b0ad"
       ]
     },
     {
@@ -2903,7 +2903,7 @@
         "class:warlock:destruction:talents"
       ],
       "source_hashes": [
-        "section:753e4f7c8f8406ac78849cbeea8fdcae598a3f0c"
+        "section:be892c4482665f79bcaedac285f17376d8d1b0ad"
       ]
     },
     {
@@ -2944,7 +2944,7 @@
         "class:warlock:destruction:talents"
       ],
       "source_hashes": [
-        "section:753e4f7c8f8406ac78849cbeea8fdcae598a3f0c"
+        "section:be892c4482665f79bcaedac285f17376d8d1b0ad"
       ]
     },
     {
@@ -2985,7 +2985,7 @@
         "class:warlock:demonology:talents"
       ],
       "source_hashes": [
-        "section:5e26056bbefb1d9f5dd16ff8da5bed33715be91f"
+        "section:67179661bae715778877c457c33236637d5e037c"
       ]
     },
     {
@@ -3032,7 +3032,7 @@
         "class:warlock:affliction:overview"
       ],
       "source_hashes": [
-        "guide:919fe2a12b2d2cbf596a42099800dba7eecba7b7",
+        "guide:5496b5695bde926ba53f25ff1eedadbd54164099",
         "section:cef868b49045ced15dae7827f315484f5c42190e"
       ]
     },
@@ -3122,7 +3122,7 @@
         "class:warlock:demonology:rotation"
       ],
       "source_hashes": [
-        "section:659b0887e2dd9fc021550b5dd856434c3a7079bf"
+        "section:c641ee26dcfdf9d4ad5d80b8bc957e8f9decec82"
       ]
     },
     {
@@ -3243,7 +3243,7 @@
         "class:warlock:affliction:leveling"
       ],
       "source_hashes": [
-        "section:ace72ab599c1d2952f57c6a945d66879bf8f831f"
+        "section:a2198a90c0e2d7d837b255faf58d4baa1b9fde7d"
       ]
     },
     {
@@ -3282,7 +3282,7 @@
         "class:warlock:affliction:leveling"
       ],
       "source_hashes": [
-        "section:ace72ab599c1d2952f57c6a945d66879bf8f831f"
+        "section:a2198a90c0e2d7d837b255faf58d4baa1b9fde7d"
       ]
     },
     {
@@ -3321,7 +3321,7 @@
         "class:warlock:demonology:leveling"
       ],
       "source_hashes": [
-        "section:78fcf26e7bd6166d52aca9c362d101229fdad4ba"
+        "section:71a1fc5468da06a780bfbee87f5b12c70d366efa"
       ]
     },
     {
@@ -3360,7 +3360,7 @@
         "class:warlock:destruction:leveling"
       ],
       "source_hashes": [
-        "section:a41d84a98887df06285a814d449ad60b10a4cc3e"
+        "section:1604074d49c0cb85bcea19cc1c5dd05b33f610cb"
       ]
     },
     {
@@ -3399,7 +3399,7 @@
         "class:warlock:destruction:leveling"
       ],
       "source_hashes": [
-        "section:a41d84a98887df06285a814d449ad60b10a4cc3e"
+        "section:1604074d49c0cb85bcea19cc1c5dd05b33f610cb"
       ]
     },
     {
@@ -3444,7 +3444,7 @@
         "class:warlock:demonology:leveling"
       ],
       "source_hashes": [
-        "section:78fcf26e7bd6166d52aca9c362d101229fdad4ba",
+        "section:71a1fc5468da06a780bfbee87f5b12c70d366efa",
         "section:a2bc59d4855f5a559f8e2d98ad4860a1b9fa9eee"
       ]
     },
@@ -3490,8 +3490,8 @@
         "class:warlock:destruction:leveling"
       ],
       "source_hashes": [
-        "guide:06caefe3eaeafd39ddc3b82943318222c7b6f978",
-        "section:a41d84a98887df06285a814d449ad60b10a4cc3e"
+        "guide:868122b768ff640fbee05fa74e56df84ec04d28a",
+        "section:1604074d49c0cb85bcea19cc1c5dd05b33f610cb"
       ]
     },
     {
@@ -3530,7 +3530,7 @@
         "class:warlock:destruction:leveling"
       ],
       "source_hashes": [
-        "section:a41d84a98887df06285a814d449ad60b10a4cc3e"
+        "section:1604074d49c0cb85bcea19cc1c5dd05b33f610cb"
       ]
     },
     {
@@ -3575,7 +3575,7 @@
         "class:warlock:destruction:leveling"
       ],
       "source_hashes": [
-        "guide:06caefe3eaeafd39ddc3b82943318222c7b6f978"
+        "guide:868122b768ff640fbee05fa74e56df84ec04d28a"
       ]
     },
     {

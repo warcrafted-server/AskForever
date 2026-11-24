@@ -481,9 +481,9 @@
         "class:rogue:combat:leveling"
       ],
       "source_hashes": [
-        "section:337b9f6e75b0a3dc64c854181d6f70f4bdd3537c",
         "section:4dd4a468d57e6c953206041e0dfc99b90c4d9b0d",
-        "section:d1cf6716626bede2367a1ff6e4ebdf5b33d80be3"
+        "section:d1cf6716626bede2367a1ff6e4ebdf5b33d80be3",
+        "section:d38d23a58631139e90e0eec92146127e899bb124"
       ]
     },
     {
@@ -2100,7 +2100,7 @@
         "class:rogue:assassination:leveling"
       ],
       "source_hashes": [
-        "section:e909da805b09e4c7cfc227a032edd6c4c8fc34aa"
+        "section:137390d9bed6d942e61782f98c2ba5b13d6dfb03"
       ]
     },
     {
@@ -2141,7 +2141,7 @@
         "class:rogue:subtlety:leveling"
       ],
       "source_hashes": [
-        "section:33904b741654bce18d86fb423db0d77b84e1d575"
+        "section:7a2108d55ba15a000f5cc52bd2f5273338315483"
       ]
     },
     {
@@ -2620,8 +2620,8 @@
         "class:rogue:combat:leveling"
       ],
       "source_hashes": [
-        "section:337b9f6e75b0a3dc64c854181d6f70f4bdd3537c",
-        "section:82f132004710ecc912c6a23078523fd381b9612e"
+        "section:82f132004710ecc912c6a23078523fd381b9612e",
+        "section:d38d23a58631139e90e0eec92146127e899bb124"
       ]
     },
     {
@@ -2660,7 +2660,7 @@
         "class:rogue:assassination:leveling"
       ],
       "source_hashes": [
-        "section:e909da805b09e4c7cfc227a032edd6c4c8fc34aa"
+        "section:137390d9bed6d942e61782f98c2ba5b13d6dfb03"
       ]
     },
     {
@@ -2699,7 +2699,7 @@
         "class:rogue:assassination:leveling"
       ],
       "source_hashes": [
-        "section:e909da805b09e4c7cfc227a032edd6c4c8fc34aa"
+        "section:137390d9bed6d942e61782f98c2ba5b13d6dfb03"
       ]
     },
     {
@@ -2738,7 +2738,7 @@
         "class:rogue:combat:leveling"
       ],
       "source_hashes": [
-        "section:337b9f6e75b0a3dc64c854181d6f70f4bdd3537c"
+        "section:d38d23a58631139e90e0eec92146127e899bb124"
       ]
     },
     {
@@ -2777,7 +2777,7 @@
         "class:rogue:combat:leveling"
       ],
       "source_hashes": [
-        "section:337b9f6e75b0a3dc64c854181d6f70f4bdd3537c"
+        "section:d38d23a58631139e90e0eec92146127e899bb124"
       ]
     },
     {
@@ -2816,7 +2816,7 @@
         "class:rogue:subtlety:leveling"
       ],
       "source_hashes": [
-        "section:33904b741654bce18d86fb423db0d77b84e1d575"
+        "section:7a2108d55ba15a000f5cc52bd2f5273338315483"
       ]
     },
     {
@@ -2855,7 +2855,7 @@
         "class:rogue:subtlety:leveling"
       ],
       "source_hashes": [
-        "section:33904b741654bce18d86fb423db0d77b84e1d575"
+        "section:7a2108d55ba15a000f5cc52bd2f5273338315483"
       ]
     },
     {

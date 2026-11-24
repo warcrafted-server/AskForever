@@ -207,7 +207,7 @@
       ],
       "source_hashes": [
         "section:bc8d6ced758340692b622c857e0fbfe24136ef11",
-        "section:c65030e3e81f84222bf9fdf46ff5e54144162f15"
+        "section:ef55f806c1f6c6efebdb3db8072d25e1cf129ce6"
       ]
     },
     {
@@ -247,7 +247,7 @@
         "dungeon:ragefire-chasm"
       ],
       "source_hashes": [
-        "section:d632ef6b4b2c1a8ef01b320cb18d1bf722a3d08a"
+        "section:693089da4843fbe02dce30d3734512939b87d290"
       ]
     },
     {
@@ -393,7 +393,7 @@
         "dungeon:hall-of-thanes"
       ],
       "source_hashes": [
-        "section:a42c20eae6fa1e19479b52fbc3fcedd80d6d5681",
+        "section:10866f293b7dd99e6dbdeb80c327fd4ce85e506e",
         "section:b4b14aa240c957eec82c50dc81b954e5dc55a37a"
       ]
     },
@@ -599,7 +599,7 @@
       ],
       "source_hashes": [
         "section:5ffaf0f72424ca9a0ad8aa9ef56285842c2d1ff0",
-        "section:67aaabab603d68c4ab683195025299b3895a8bf9"
+        "section:ddc4f64a12dadc5768335f7fe0a12eb6ef989365"
       ]
     },
     {
@@ -828,7 +828,7 @@
       ],
       "source_hashes": [
         "section:24872ad63a4e8db940e0ae44decd5603c8af879b",
-        "section:f01d14d241a3d5c5a9d7b6a5add479b4be48f32a"
+        "section:5ad7f410cabc7ce745d4b1ecbeedab51457b080b"
       ]
     },
     {
@@ -875,7 +875,7 @@
       ],
       "source_hashes": [
         "section:68fbd13eceb5bd2dbcdc79be0c59c98fdea47cc7",
-        "section:af2cf055eded432a7b3bbed6ab76417c6b298d46"
+        "section:8d1d7db8651bd813e92259a1d64ec999f494c678"
       ]
     },
     {
@@ -1057,7 +1057,7 @@
       ],
       "source_hashes": [
         "section:379eac59c53fb5facbbcd7b53e591c9734cf9083",
-        "section:99e3a40739fc43d37f565ee6c87331034cca5c83"
+        "section:61a6963de45217f27c7144e5853a3de3f65e525c"
       ]
     },
     {
@@ -1292,7 +1292,7 @@
         "dungeon:shadowfang-keep"
       ],
       "source_hashes": [
-        "section:be4d70274cb69a0a8e88d42f5c3f5b7cfaa7d9df",
+        "section:ab88cf8d86c1955dc5d7bb82be9044fbaf2f64f1",
         "section:fe2cc19de563075459cf30c1037a3f6ca39a32e2"
       ]
     },
@@ -1582,7 +1582,7 @@
       ],
       "source_hashes": [
         "section:7edc6850a5349e0f528598694acf46ee10a505cd",
-        "section:fbde4f34e11b4b39f1909777a876422e05da46e8"
+        "section:91a78bc47a4b6d7d744ebf6c4e7be25386f07b84"
       ]
     },
     {
@@ -1929,7 +1929,7 @@
       ],
       "source_hashes": [
         "section:5b95a20862f5fbfec3f3021cd3cc76e41503860d",
-        "section:95c294746b35dc8b7cf52efba2e4e83ec73bf23f"
+        "section:65b0ec76ac94e81032ac473fd8b35016a689928c"
       ]
     },
     {
@@ -2167,7 +2167,7 @@
         "dungeon:excavation-site-wetlands"
       ],
       "source_hashes": [
-        "section:549102b03ac79247a336c75d14de940626922881",
+        "section:235d0f855559acc71d121dd0775623cb96dc670e",
         "section:d49ea374f64754ca41cda73a00d859a48a5c85a4"
       ]
     },
@@ -2222,7 +2222,7 @@
         "dungeon:excavation-site-wetlands"
       ],
       "source_hashes": [
-        "section:775887e4c5793264783c973a87af78a3d2b17b24",
+        "section:1e9c51f5b84c56caa3b87c57ea98c6f4ca02144f",
         "section:9865b76b869e956ded202352ea3a1ca35967fd1c",
         "section:ca1c0175c06945150450fd1eb8c4581ce701cb0e"
       ]
@@ -2277,8 +2277,8 @@
       ],
       "source_hashes": [
         "section:12a7a47f2d750e9be76d8c55ad31b9c984ca6a02",
-        "section:137f047711a785c1a63a709b12d6c009ae2ebf77",
-        "section:22a6a33453f15996b0effd3d0105a74e2273d8f2"
+        "section:22a6a33453f15996b0effd3d0105a74e2273d8f2",
+        "section:8c6f77d7078480e58577104135212dd9cbaab459"
       ]
     },
     {
@@ -2765,7 +2765,7 @@
       ],
       "source_hashes": [
         "section:4bb299065f9908399ba361c5a24eed3622699c0d",
-        "section:8c8824876f35f36b0799e71a4dfbcde385eb9ffa"
+        "section:931342d54ccf96564ed5aa75071aec8e50dd6f60"
       ]
     },
     {
@@ -3211,8 +3211,8 @@
         "dungeon:scarlet-monastery-graveyard"
       ],
       "source_hashes": [
-        "section:59264f2466bc3dd6c9e28157eb896c8cb9678939",
-        "section:dae0ecb060f5076b5d976b0ea4e70cc4c099e27a"
+        "section:47dae8fc86031cf091911a2eba1a0cbcf904916a",
+        "section:59264f2466bc3dd6c9e28157eb896c8cb9678939"
       ]
     },
     {
@@ -3258,8 +3258,8 @@
         "dungeon:scarlet-monastery-graveyard"
       ],
       "source_hashes": [
-        "section:95cb9b04998f6fa0362a6b8e6f3e97ccb2f30c91",
-        "section:ba3bd1debf2d4e9791e95b182de28f34a0596898"
+        "section:7ac5eec9fee4c82bc617f9a25db656a6de2c17a4",
+        "section:95cb9b04998f6fa0362a6b8e6f3e97ccb2f30c91"
       ]
     },
     {
@@ -3411,8 +3411,8 @@
         "dungeon:scarlet-monastery-library"
       ],
       "source_hashes": [
-        "section:791f532bd0f04c79d4b3187d940c16353b98158b",
-        "section:d9cce8b7e8af1b9afa782e8db99bc69687dd339a"
+        "section:47dae8fc86031cf091911a2eba1a0cbcf904916a",
+        "section:791f532bd0f04c79d4b3187d940c16353b98158b"
       ]
     },
     {
@@ -3458,8 +3458,8 @@
         "dungeon:scarlet-monastery-library"
       ],
       "source_hashes": [
-        "section:05184e6925a0856fb7710a0cbab2ba6d1a70b1e5",
-        "section:ac71c640d893426dc66985b91d0224ed7e1f01b4"
+        "section:ac71c640d893426dc66985b91d0224ed7e1f01b4",
+        "section:bc68351c9d57aae2dfc890cc503295352d7bcadc"
       ]
     },
     {
@@ -3650,9 +3650,9 @@
         "dungeon:excavation-site-wetlands"
       ],
       "source_hashes": [
+        "section:1e9c51f5b84c56caa3b87c57ea98c6f4ca02144f",
         "section:2c40f66abfc00cdde0d1db3180163195141836bf",
-        "section:775887e4c5793264783c973a87af78a3d2b17b24",
-        "section:f477135a6e34e37bcc768d9df0c25c61b6af3b55"
+        "section:7ddce07f9740e96598744658ad737cf1d7b2d699"
       ]
     },
     {
@@ -3856,8 +3856,8 @@
         "dungeon:scarlet-monastery-armory"
       ],
       "source_hashes": [
-        "section:4d2468bb8e5d29c8f1fdaded890b77e106a44588",
-        "section:61298b623fc4f1eddc0f987e124b4d82a24b9130"
+        "section:47dae8fc86031cf091911a2eba1a0cbcf904916a",
+        "section:4d2468bb8e5d29c8f1fdaded890b77e106a44588"
       ]
     },
     {
@@ -3902,7 +3902,7 @@
       ],
       "source_hashes": [
         "section:4175aa04779bcbe7aadf07161a3fc04adb905fd4",
-        "section:feb3ca09206b5f56adf7edecdd7ae670a3dc8db1"
+        "section:5cace960078d26f4fbe81b70a5449e6f838b6935"
       ]
     },
     {
@@ -4022,8 +4022,8 @@
         "dungeon:scarlet-monastery-cathedral"
       ],
       "source_hashes": [
-        "section:57543d2a972816222b8017710feec0b66102d3f4",
-        "section:9ffd74f60dd08b342dc516159b70cfdd3ff42894"
+        "section:47dae8fc86031cf091911a2eba1a0cbcf904916a",
+        "section:57543d2a972816222b8017710feec0b66102d3f4"
       ]
     },
     {
@@ -4068,7 +4068,7 @@
       ],
       "source_hashes": [
         "section:6e8fd3fd6329e562a09360a80954139d574a5b81",
-        "section:6ed811a8919ba347c37c5fd8ce1e0aba006515d7"
+        "section:9e891e0c908fdf06101dcd22cf812554ca9376f6"
       ]
     },
     {
@@ -4204,8 +4204,8 @@
         "dungeon:razorfen-downs"
       ],
       "source_hashes": [
-        "section:97adc3bec40136ef3f1f92d95571c72706134e9d",
-        "section:a08172d999636a4dc07bfae04cd5a46453e1baae"
+        "section:a08172d999636a4dc07bfae04cd5a46453e1baae",
+        "section:f72c1229637e9c2ddf963da9f676d19e9a476ff3"
       ]
     },
     {
@@ -4587,8 +4587,8 @@
         "dungeon:uldaman"
       ],
       "source_hashes": [
-        "section:2d54645c600c0ce8a9597e150e4ddfd799da3a58",
-        "section:f71834d1344336c095fdd84153716fa9cea400a5"
+        "section:f71834d1344336c095fdd84153716fa9cea400a5",
+        "section:f77df1d9af9f9199f04d98e06e311389e9704a10"
       ]
     },
     {
@@ -5085,8 +5085,8 @@
         "dungeon:alcaz-prison"
       ],
       "source_hashes": [
-        "section:5110902ca629554bac34b63e04c0aff689daf45a",
-        "section:b9865b6871f048418525568ab6dd85436a91b2a7"
+        "section:b9865b6871f048418525568ab6dd85436a91b2a7",
+        "section:db8431cfc2df688d0302bbe38e19f8d39d31e167"
       ]
     },
     {
@@ -5392,9 +5392,9 @@
         "dungeon:maraudon"
       ],
       "source_hashes": [
+        "section:2ec8621384f1fad701a66f898e8993301e391ea9",
         "section:3fbe1cded61501728f36ded637cc04a4faa0ae75",
-        "section:44b490170017b16c7b993875a33a266ab2e575c2",
-        "section:5ce76ba7db76bb860d935ebb1da6c666d36fd181"
+        "section:9ad193e4c4406906df241d1b546cfe8663e2df4a"
       ]
     },
     {
@@ -5488,7 +5488,7 @@
         "dungeon:maraudon"
       ],
       "source_hashes": [
-        "section:5ce76ba7db76bb860d935ebb1da6c666d36fd181"
+        "section:9ad193e4c4406906df241d1b546cfe8663e2df4a"
       ]
     },
     {
@@ -5875,7 +5875,7 @@
       ],
       "source_hashes": [
         "section:15059dc08a14b7519662cfa1cb401af35faff956",
-        "section:854af25a1c8491709de8e12efd2f7c69304c2979"
+        "section:3295de8c8a50ef22444d53cf911970675776972b"
       ]
     },
     {
@@ -5917,7 +5917,7 @@
         "dungeon:zulfarrak"
       ],
       "source_hashes": [
-        "section:3c54aacce5ee108ce4c0c80fd2d6573628f4396a"
+        "section:d51f95251d9637e83a2f07db5cae40a7c867cfb4"
       ]
     },
     {
@@ -5962,7 +5962,7 @@
       ],
       "source_hashes": [
         "section:1f39a35c3d253336620058a654ec48191de0171b",
-        "section:3c54aacce5ee108ce4c0c80fd2d6573628f4396a"
+        "section:d51f95251d9637e83a2f07db5cae40a7c867cfb4"
       ]
     },
     {
@@ -6396,7 +6396,7 @@
       ],
       "source_hashes": [
         "section:446c22c9f436f51f6c8d19db63e06f0d8c20d5cc",
-        "section:916e0320209e56c3fcc9e9427e689909f6e85e57"
+        "section:5edbbfa177bb214fe4339c3ec4e6dcaea327b896"
       ]
     },
     {
@@ -6823,7 +6823,7 @@
       ],
       "source_hashes": [
         "section:1c4e5d4e528e32746a6f686e0947607c072a074d",
-        "section:a0d66e90ea95f7935ec8709af04c4f4c4f4f15f2"
+        "section:b8c7c2f12e711bdba5d05a0dc2984aeb9667942c"
       ]
     },
     {
@@ -7177,7 +7177,7 @@
       ],
       "source_hashes": [
         "section:46d0b507fb6a693a77587cebec94411874318922",
-        "section:76d7d6b05a551320e47112bd2404d8376261aac6"
+        "section:91868d1de867a8cdf7511bf3744fab1dc3934df6"
       ]
     },
     {
@@ -7223,8 +7223,8 @@
         "dungeon:temple-of-atalhakkar"
       ],
       "source_hashes": [
-        "section:8c4c10803b61c54a6bb60234cfe5131472f74e86",
-        "section:f2b07ad21182dca3880eb65a416169589f287c2e"
+        "section:5f36037ea3f6758a531942a007f1f2f540166185",
+        "section:8c4c10803b61c54a6bb60234cfe5131472f74e86"
       ]
     },
     {
@@ -7542,7 +7542,7 @@
         "dungeon:temple-of-atalhakkar"
       ],
       "source_hashes": [
-        "section:7e1e5e4cdb13735f74f4839cfe2bb71c7728eb8a"
+        "section:5d41b68fab73ccf33c024249bf4d40fa12f3e306"
       ]
     },
     {
@@ -7638,8 +7638,8 @@
         "dungeon:blackrock-depths"
       ],
       "source_hashes": [
-        "section:de160c3dc1b2fe5313fc74e91caedb9dc2adb69c",
-        "section:eaf7cd56cafcabec89ec0ca90e2df7cf9631b8f8"
+        "section:afe4d35404eb4be4e2f3f9a342f6417cf9f3ade6",
+        "section:de160c3dc1b2fe5313fc74e91caedb9dc2adb69c"
       ]
     },
     {
@@ -7682,7 +7682,7 @@
       ],
       "source_hashes": [
         "section:35a58e82f37ac27ee6cfc888ca849aceb9234dec",
-        "section:db8b2d2cae374d2a0f0bc5fb1154fcd6d55b401e"
+        "section:7c66d0497a24ca0a0abff2e1777d572c53aa72d1"
       ]
     },
     {
@@ -7718,7 +7718,7 @@
         "dungeon:blackrock-depths"
       ],
       "source_hashes": [
-        "section:db8b2d2cae374d2a0f0bc5fb1154fcd6d55b401e"
+        "section:7c66d0497a24ca0a0abff2e1777d572c53aa72d1"
       ]
     },
     {
@@ -7754,7 +7754,7 @@
         "dungeon:blackrock-depths"
       ],
       "source_hashes": [
-        "section:db8b2d2cae374d2a0f0bc5fb1154fcd6d55b401e"
+        "section:7c66d0497a24ca0a0abff2e1777d572c53aa72d1"
       ]
     },
     {
@@ -8531,7 +8531,7 @@
       ],
       "source_hashes": [
         "section:15e15fd7ef71365a6bb27a3485923f4e089cdfd2",
-        "section:db8b2d2cae374d2a0f0bc5fb1154fcd6d55b401e"
+        "section:7c66d0497a24ca0a0abff2e1777d572c53aa72d1"
       ]
     },
     {
@@ -8574,7 +8574,7 @@
       ],
       "source_hashes": [
         "section:15e15fd7ef71365a6bb27a3485923f4e089cdfd2",
-        "section:db8b2d2cae374d2a0f0bc5fb1154fcd6d55b401e"
+        "section:7c66d0497a24ca0a0abff2e1777d572c53aa72d1"
       ]
     },
     {
@@ -8877,8 +8877,8 @@
         "dungeon:lower-blackrock-spire"
       ],
       "source_hashes": [
-        "section:18a80ee19e8c52f4910af53845c7be97bb40040d",
-        "section:696af7405429746336a7bfa4478d6d966b99356c"
+        "section:696af7405429746336a7bfa4478d6d966b99356c",
+        "section:8e0d0d0f38113bdc10b4622768aeff42ff8e205c"
       ]
     },
     {
@@ -9610,7 +9610,7 @@
       ],
       "source_hashes": [
         "section:684345153f0795925d9346520d3e50231ffd99f3",
-        "section:f1eaa3ae435817360a9fdf533794892771e32347"
+        "section:994772291b699cc901a17bac25e72504827faf1f"
       ]
     },
     {
@@ -10100,7 +10100,7 @@
       ],
       "source_hashes": [
         "section:1c2923e22693356a5b716e1158aa1fca04c95cdc",
-        "section:62ea41ad5ea164af55672e5b24331ff015a93609"
+        "section:903a217384d96ee2cff9cdd04bd893e4fb8738a0"
       ]
     },
     {
@@ -10144,7 +10144,7 @@
         "dungeon:dire-maul-capital-gardens-west"
       ],
       "source_hashes": [
-        "section:720589bee86f00934e59b8458b16928ff4d1089e",
+        "section:719c2dafcbce9e2c1c740b911ea0a90f78acc546",
         "section:bca566b990962c44be2806f8d24527d6b28f7d91"
       ]
     },
@@ -10497,7 +10497,7 @@
       ],
       "source_hashes": [
         "section:8f3937c5118b25d37dc0a9fe0a7574d58f0a47eb",
-        "section:e4f1f7699aae28bcb47a79ffca5aa56362de003d"
+        "section:c60de1b06e347668a39f9f32d8a48547c3ca3f07"
       ]
     },
     {
@@ -10551,7 +10551,7 @@
       "source_hashes": [
         "section:2385dcdb8ba8926778c157533fd3f429c3ec08c7",
         "section:3442b0142a91d61c25b7c6685864a01961f2db16",
-        "section:61382b0869118410262f14ef1a9891890c748b0a"
+        "section:a67debcbd33e7f8536987dab6d144374a58fefd6"
       ]
     },
     {
@@ -10836,7 +10836,7 @@
       ],
       "source_hashes": [
         "section:3442b0142a91d61c25b7c6685864a01961f2db16",
-        "section:61382b0869118410262f14ef1a9891890c748b0a",
+        "section:a67debcbd33e7f8536987dab6d144374a58fefd6",
         "section:ef5bec890332964c9e3f065fd9b9bc3f256451e9"
       ]
     },
@@ -10883,8 +10883,8 @@
         "dungeon:dire-maul-warpwood-quarter-east"
       ],
       "source_hashes": [
-        "section:04b194f2c8524e630a020a115489d4b97280b8b5",
-        "section:5fe66a3bbff0c62d4ab185b9984be4e9067f85c8"
+        "section:5fe66a3bbff0c62d4ab185b9984be4e9067f85c8",
+        "section:aa50440fd18d0cb24f4331b34a54b3b4da8df573"
       ]
     },
     {
@@ -10930,7 +10930,7 @@
         "dungeon:dire-maul-warpwood-quarter-east"
       ],
       "source_hashes": [
-        "section:1908698e54964b685f7e62377f7f94ba8e1c5959",
+        "section:3543a197f17ba5413ea5f68c0e9e7dea99a2f8ca",
         "section:7ae2dc250714e7d074f24d35c4f59b7bba1ae8cf"
       ]
     },
@@ -11250,8 +11250,8 @@
         "dungeon:scholomance"
       ],
       "source_hashes": [
-        "section:6ce33f1ae958588dfda84ab1cbef11d8baa2592f",
-        "section:cb7cc642b4d3a0d744d9a121547881c9dd74ccb9"
+        "section:49379aae109261608d5366e903b0594749588af4",
+        "section:6ce33f1ae958588dfda84ab1cbef11d8baa2592f"
       ]
     },
     {
@@ -11969,7 +11969,7 @@
         "dungeon:stratholme-live-side"
       ],
       "source_hashes": [
-        "section:2c992c07c88619a8b9c731db4b4b45676006bad9",
+        "section:9fe5d7e56f50acb349fc918c1589a378a122b637",
         "section:a57bc47a95ff17e5edf4bcecb59f9a4f21cdcbc5"
       ]
     },
@@ -12619,7 +12619,7 @@
         "dungeon:stratholme-undead-side"
       ],
       "source_hashes": [
-        "section:16631219b354cb56996b7b25119522ecb1b546cd",
+        "section:9d295fdbcac744b67a7bff2950f891d3027ec579",
         "section:c1757b97b6fba6448e93b4c04431a7b3376e5184"
       ]
     },
@@ -13436,8 +13436,8 @@
       "source_hashes": [
         "section:5b4387def462af2f77c8c229fb231ae5c954e029",
         "section:62f1c0a7d8e70a49fde0dce03a792660ba917369",
-        "section:94b6af9deb7762099ac3aa646e601bc6531ef6dc",
         "section:9d6d55701b13a15afcca8d46b7a7c246595edb7c",
+        "section:afc6d4f73ab452dbfbe6612f042ce6d115b65ce5",
         "section:e7d19763d7ab7928759c4ec13c4f7adc854725bf"
       ]
     },
@@ -13569,11 +13569,11 @@
       ],
       "source_hashes": [
         "section:20989e228e2241178392b864de16d8dfd8910f86",
-        "section:742f5dfb1c16e487efe5510ec9f70a89803d1433",
+        "section:66ae6f45f174c6bce2b80fd3a81a9c27d8cc6226",
+        "section:6c065fdf64e90d547a192620ae581f962e615197",
         "section:85a7652c8c627f748f6fb0a265766deb7edba584",
         "section:8ebe229edd576e39f44cb8e3e58d8cc9dc44d85c",
-        "section:9d3bd473b2bcf6461d0a170ec9db49b09654bb8f",
-        "section:a86f98d28eb5c9c83322f77e5ee4cc65cf50cf46",
+        "section:947d40539c7cd5b28e0d25e4038eec621e207e9a",
         "section:c33ed01161b4539ac677031168d8f262fb6bd84f"
       ]
     },
@@ -14506,7 +14506,7 @@
         "tierlist:tank-pve-rankings"
       ],
       "source_hashes": [
-        "guide:91714ac32e2b69e2e80657050698f7b67c874110",
+        "guide:b5c3d5ebd212d7953fbf81e9722e72fcd426e581",
         "section:d2a636410e94f1553dc42977d752a35557d6e618"
       ]
     }

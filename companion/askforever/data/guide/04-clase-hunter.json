@@ -364,9 +364,9 @@
         "class:hunter:survival:leveling"
       ],
       "source_hashes": [
-        "section:53a817f4dd17ae8a8405b14a436b0b429e8c2744",
-        "section:90fefe58e78a03d60fcd5c50b4054918572d8dbc",
-        "section:efd8db5e4f29f46ff417a2079019ef89015abce0"
+        "section:5805325cb29135fa0e478806c5e2755b278e13d7",
+        "section:59e51e5c05d0c9f0ed59e27f899c921b659a4716",
+        "section:90fefe58e78a03d60fcd5c50b4054918572d8dbc"
       ]
     },
     {
@@ -427,7 +427,7 @@
         "class:hunter:beast-mastery:leveling"
       ],
       "source_hashes": [
-        "section:53a817f4dd17ae8a8405b14a436b0b429e8c2744",
+        "section:5805325cb29135fa0e478806c5e2755b278e13d7",
         "section:772f247ab8739c5881c6d07e81653a401589f50d",
         "section:b6232efb80631488f95a883d5f3343c844e451fd"
       ]
@@ -1140,11 +1140,11 @@
       "source_hashes": [
         "section:10586cb975d6a102a6e4a2531f234da868225af7",
         "section:5494d2ff365d919ead7e233f658064b219ee61f0",
+        "section:59e51e5c05d0c9f0ed59e27f899c921b659a4716",
         "section:67a3af4f36e5bc1112f7f05b9b315adbf5ed20f8",
         "section:b407236e766d49fd9c2b411d1c74e166293d4c92",
         "section:bca8e4ca5538984ce94f8a5e4a64cde49395459d",
-        "section:d5522ac06733bbf35e8a614677c946d0eef39afa",
-        "section:efd8db5e4f29f46ff417a2079019ef89015abce0"
+        "section:d5522ac06733bbf35e8a614677c946d0eef39afa"
       ]
     },
     {
@@ -2209,9 +2209,9 @@
         "class:hunter:survival:leveling"
       ],
       "source_hashes": [
-        "guide:6af364058972a786bafdba5653ee8cb2714c631e",
+        "guide:7cfc5f4d41a9a5d8d22db810f7dc7bfb09d36f14",
         "section:266c4597069711a8b677f5c650a0e8a722121840",
-        "section:2961a4ed516168b5d1f9e3ec53047b009de6db2b",
+        "section:73805518585eb729c1d37cd2aae336da36362524",
         "section:90fefe58e78a03d60fcd5c50b4054918572d8dbc"
       ]
     },

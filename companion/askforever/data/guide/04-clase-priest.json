@@ -461,8 +461,8 @@
         "class:priest:shadow:leveling"
       ],
       "source_hashes": [
-        "section:6c47394a8cc686fb35961e93a0ed6afb061861b7",
         "section:e8df9b820616dab46a4506311a5840529db6ffed",
+        "section:ed7aa29702c0710dfc3dc1aaf986a94b870fd45f",
         "section:fcb8ac9a14e4725882cc65f6081a1f79bd875a06"
       ]
     },
@@ -612,7 +612,7 @@
         "class:priest:shadow:leveling"
       ],
       "source_hashes": [
-        "section:3f1eedd3b0de9188c1fb9f1518dcd915b0ae560f",
+        "section:16aca76c84c4b1f806e2e78c33fab4f585da12eb",
         "section:5940d4eaaa3b0a4181733d44fed5e3cc42dbfe59",
         "section:6bba6c54196b6b99aa39f72329c5e7185c185e0c",
         "section:be5149747f6cb6dbbf5e2ec48609adf8963454c5",
@@ -840,7 +840,7 @@
       "source_hashes": [
         "section:1fa43c25236b272520b5e2e6099e56288af85bd9",
         "section:6bba6c54196b6b99aa39f72329c5e7185c185e0c",
-        "section:6c47394a8cc686fb35961e93a0ed6afb061861b7"
+        "section:ed7aa29702c0710dfc3dc1aaf986a94b870fd45f"
       ]
     },
     {
@@ -903,8 +903,8 @@
       ],
       "source_hashes": [
         "section:00ee99ee77ac0b309d4dc67c1fe2d57abbb22c3f",
-        "section:3f1eedd3b0de9188c1fb9f1518dcd915b0ae560f",
-        "section:943a7e5d8a7092c71a66f6640c2b7b1c892beb71",
+        "section:16aca76c84c4b1f806e2e78c33fab4f585da12eb",
+        "section:e71c2b2ef5a8d20d39903a97cb3e1b8d19f289ab",
         "section:eec8bafa26de119ae4d9bdd21966124bd735cb4e"
       ]
     },
@@ -1800,8 +1800,8 @@
         "class:priest:shadow:talents"
       ],
       "source_hashes": [
-        "section:3d5c5d8e34af44a03bbf4d44543e22b8aaa51ca3",
-        "section:498f16903f5b9ebc87d616a94822228f7036d0a4"
+        "section:1713f5ee3b30920b77efdf86ed70e1c2ddca2f03",
+        "section:3d5c5d8e34af44a03bbf4d44543e22b8aaa51ca3"
       ]
     },
     {
@@ -1850,7 +1850,7 @@
       ],
       "source_hashes": [
         "section:2d3d01911376e581d3144b5e55fdcbffb0010634",
-        "section:e2c8b74f0c350195f76810c4fa9e22aee188ee61"
+        "section:73201fbe3ff2704b198b8641f71d067ca01d55cf"
       ]
     },
     {
@@ -1891,7 +1891,7 @@
         "class:priest:discipline:talents"
       ],
       "source_hashes": [
-        "section:23e527cfb138257bf9ab7d4f39d17d70e17e488a"
+        "section:8bc34662651b5a7af8d09a1725b2c565c31091eb"
       ]
     },
     {
@@ -1932,7 +1932,7 @@
         "class:priest:discipline:talents"
       ],
       "source_hashes": [
-        "section:f7aabffbecde3192bbb5b6824c3cc47c96a9bad1"
+        "section:0a682e85125f2ecea411ff9c12db2b07fb59ed16"
       ]
     },
     {
@@ -1973,7 +1973,7 @@
         "class:priest:discipline:talents"
       ],
       "source_hashes": [
-        "section:346b1a17b719c9555369d3e17178be3b4c89ab85"
+        "section:b948b311aa4e535ff237d6536d8d87c7413be50b"
       ]
     },
     {
@@ -2150,8 +2150,8 @@
         "class:priest:shadow:talents"
       ],
       "source_hashes": [
-        "guide:80714cd8f9dbf9c5a64814e47bffa13627e04da6",
-        "section:498f16903f5b9ebc87d616a94822228f7036d0a4",
+        "guide:6a3fcceb775ebe6aba7f6806edfb546f4aee6b8a",
+        "section:1713f5ee3b30920b77efdf86ed70e1c2ddca2f03",
         "section:ddf24c444b5df78ebd60cba674da4d3dc336ccf8"
       ]
     },
@@ -2193,7 +2193,7 @@
         "class:priest:shadow:talents"
       ],
       "source_hashes": [
-        "section:e2c8b74f0c350195f76810c4fa9e22aee188ee61"
+        "section:73201fbe3ff2704b198b8641f71d067ca01d55cf"
       ]
     },
     {
@@ -2234,7 +2234,7 @@
         "class:priest:shadow:talents"
       ],
       "source_hashes": [
-        "section:b04814265e62c3c471f3112b9303b702be8a6fec"
+        "section:696ff58fee8764353fb2701308a6487d0606ba63"
       ]
     },
     {
@@ -2345,8 +2345,8 @@
         "class:priest:discipline:leveling"
       ],
       "source_hashes": [
-        "section:943a7e5d8a7092c71a66f6640c2b7b1c892beb71",
-        "section:d1bd6a6912195f57c946093438b21017992da3e8"
+        "section:d1bd6a6912195f57c946093438b21017992da3e8",
+        "section:e71c2b2ef5a8d20d39903a97cb3e1b8d19f289ab"
       ]
     },
     {
@@ -2387,7 +2387,7 @@
         "class:priest:holy:leveling"
       ],
       "source_hashes": [
-        "section:3f1eedd3b0de9188c1fb9f1518dcd915b0ae560f"
+        "section:16aca76c84c4b1f806e2e78c33fab4f585da12eb"
       ]
     },
     {
@@ -2434,8 +2434,8 @@
         "class:priest:shadow:leveling"
       ],
       "source_hashes": [
-        "section:6c47394a8cc686fb35961e93a0ed6afb061861b7",
-        "section:9c4f8a9f677581b514a13e7ed5614bdaa6d16c20"
+        "section:9c4f8a9f677581b514a13e7ed5614bdaa6d16c20",
+        "section:ed7aa29702c0710dfc3dc1aaf986a94b870fd45f"
       ]
     },
     {

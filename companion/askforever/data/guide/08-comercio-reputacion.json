@@ -424,8 +424,8 @@
       ],
       "source_hashes": [
         "section:43be627fb529fb1aab9c22ddd40007979c75e4ec",
-        "section:c58083123ec5cd509a8fafe1caa87fb32831909c",
-        "section:e8cfa570b4d001a2d1a5690c45bf69d9e3820825"
+        "section:61bdb36cb225243f1c9a71e570d869e827510d56",
+        "section:c58083123ec5cd509a8fafe1caa87fb32831909c"
       ]
     },
     {
@@ -524,7 +524,7 @@
         "reputation:magram-clan-centaur-quests-quartermaster-rewards"
       ],
       "source_hashes": [
-        "section:65933059f5b5cc697bca2655a0d7c1ca7f44d564",
+        "section:929e5585e078d85f87fbab25db9815625d4f59c6",
         "section:b8ee87fcd5beef60806a0bb355df68ff82bdc482",
         "section:bc32aec32a9ef23eff651783b3061c360390dc87"
       ]
@@ -667,8 +667,8 @@
         "reputation:nightclaw-druids-quests-quartermaster-rewards"
       ],
       "source_hashes": [
-        "section:14d04258c4228b99708673c5b392809d7386cb8f",
-        "section:566c532395d962505bca61363fb8d59c3207f9ff"
+        "section:0ef087390f75d971ae51a65a513e26b02de2a9ab",
+        "section:14d04258c4228b99708673c5b392809d7386cb8f"
       ]
     },
     {
@@ -949,7 +949,7 @@
         "reputation:timbermaw-hold-quests-quartermaster-rewards"
       ],
       "source_hashes": [
-        "section:04b7f9d98989b301f2c1e3c9621b7e0894ca7197",
+        "section:51e2444e5bf26e718ee32002d51a2d3cd6e1cf38",
         "section:9141bfb6e1b31473955fe40a334c9ab41d82e9ef"
       ]
     },
@@ -1002,7 +1002,7 @@
         "reputation:timbermaw-hold-quests-quartermaster-rewards"
       ],
       "source_hashes": [
-        "section:00fc1d6efec72a9a3f142b0c7e3128f878792a9f",
+        "section:11532e544931ffbb05f1b2ef7cea097041d7638c",
         "section:782c3b438f9f923fe56374d76f7cce8daf043baa",
         "section:8a57e817722280e50b48d64af2bc709837b33d9d"
       ]
@@ -1137,7 +1137,7 @@
         "reputation:timbermaw-hold-quests-quartermaster-rewards"
       ],
       "source_hashes": [
-        "section:00fc1d6efec72a9a3f142b0c7e3128f878792a9f",
+        "section:11532e544931ffbb05f1b2ef7cea097041d7638c",
         "section:5f8296f550758fd42c191305ffa743f320439983"
       ]
     }
