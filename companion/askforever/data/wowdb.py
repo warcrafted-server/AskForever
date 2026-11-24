@@ -1245,6 +1245,18 @@ class WowDb:
     def resolve_talent_text(self, template_es, template_en, rank_text_en):
         return resolve_talent_text(template_es, template_en, rank_text_en)
 
+    def _world_object_name(self, object_id, lang: str):
+        """Nombre del objeto de mundo con la prioridad de wowdata (v_objeto_mundo); None si falta la vista."""
+        rows = self._rows(
+            'SELECT nombre, nombre_idioma, nombre_en FROM v_objeto_mundo WHERE objeto_id = ? LIMIT 1',
+            (object_id,))
+        if not rows:
+            return None
+        row = rows[0]
+        if lang == 'es':
+            return _clean_text(row['nombre']) or None
+        return _clean_text(row['nombre_en'] or row['nombre']) or None
+
     def item_sources(self, name_or_id, lang: str = 'es', limit: int = 3):
         item_id = _as_int(name_or_id)
         if item_id is None:
@@ -1309,8 +1321,8 @@ class WowDb:
         for row in self._rows(
                 'SELECT object_id FROM ext_item_object_drops WHERE item_id = ? ORDER BY position',
                 (item_id,)):
-            object_name = self._localized('ext_object_l10n', 'object_id',
-                                           row['object_id'], lang)
+            object_name = self._world_object_name(row['object_id'], lang) or self._localized(
+                'ext_object_l10n', 'object_id', row['object_id'], lang)
             if not object_name:
                 continue
             locations = self.object_locations(row['object_id'], limit=1, lang=lang)
