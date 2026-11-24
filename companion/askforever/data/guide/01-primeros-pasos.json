@@ -1299,8 +1299,8 @@
         "Legacy respec cost",
         "Legacy class trainer"
       ],
-      "text_es": "Los puntos Legacy, que no son los talentos de clase, se reasignan hablando con un instructor de clase; cuesta 10 de oro la primera vez y después el coste aumenta con el tiempo.",
-      "text_en": "Legacy Points, which are not class talents, are respecced by speaking to a class trainer; it costs 10 gold the first time and the cost then increases over time.",
+      "text_es": "Los puntos Legacy, que no son los talentos de clase, se reasignan hablando con un instructor de clase; cuesta 10 de oro la primera vez y 20 de oro la segunda.",
+      "text_en": "Legacy Points, which are not class talents, are respecced by speaking to a class trainer; it costs 10 gold the first time and 20 gold the second time.",
       "sources": [
         {
           "type": "editorial",
@@ -1309,12 +1309,12 @@
           "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "topics": [
         "general:legacy-system"
       ],
       "source_hashes": [
-        "section:f18c59e8d36fd894130b6a1eb6eb39ab421a1c1f"
+        "section:2bee6bf6d3647d8b8787458864c611e651b1aa5d"
       ]
     },
     {

@@ -225,29 +225,29 @@
         "quest pets",
         "vendor pets"
       ],
-      "text_es": "Las mascotas de compañía no participan en combate: son cosméticas. Se obtienen, entre otras formas, en la tienda, con puntos de Legacy, como botín, mediante misiones o vendedores, y por pesca, profesiones o reputación.",
-      "text_en": "Companion pets do not take part in combat; they are cosmetic. Sources include the store, Legacy Points, drops, quests or vendors, as well as fishing, professions and reputation.",
+      "text_es": "Las mascotas de compañía no participan en combate: son cosméticas. Se obtienen, entre otras formas, en la tienda, con puntos de Legacy, como botín, mediante misiones o vendedores, por pesca, profesiones o reputación, y en la casa de subastas del mercado negro de Clarofluvial (Señora Swyndle).",
+      "text_en": "Companion pets do not take part in combat; they are cosmetic. Sources include the store, Legacy Points, drops, quests or vendors, fishing, professions and reputation, and the Black Market Auction House in Riverglades (Madam Swyndle).",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: All Companions in World of Warcraft: Forever - Models and Locations › (intro)",
           "url": "https://www.wowhead.com/forever/guide/collections/pets-locations-sources",
-          "date": "2026-11-05"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: All Companions in World of Warcraft: Forever - Models and Locations › Companions Quick Reference for WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/collections/pets-locations-sources",
-          "date": "2026-11-05"
+          "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "collection:pets-locations-sources"
       ],
       "source_hashes": [
-        "guide:31f23925ab44cf5818689e2cec92af47c2bbda42",
-        "section:eddb674c13a76d6fd015c8928e6c8a6f1d46b609"
+        "guide:15828522a119a09ca63431c0e1a6505e6d99c7bd",
+        "section:32d40366c9bb56939f64c7a842619a6068d6c6f2"
       ]
     },
     {
