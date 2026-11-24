@@ -7,9 +7,15 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 ## [0.4.0-beta.12] - 2026-11-24
 
 ### English
+- Updated (November 23 and 24 guides): Retribution Paladin follows the rewritten Wowhead guides (stat priority from simulators with hit, expertise, crit and haste; strengths and PvP limits; the Shockadin PvP build now takes Oath of Light); Subtlety Rogue builds take Improved Ambush; the Discipline Priest PvP build takes Holy Binding and full Inspiration; Legacy respec costs 10 gold the first time and 20 the second; companions can also come from the Black Market Auction House in Riverglades.
+- Updated: game data from the new wowdata update (for example, the Spanish name of the Totem of the Storm).
+- Data patch 2026.11.24.3.
 - Changed (internal): development tools find wowdata at its new location and bring the guides and change reports that wowdata copies from the Wowhead download, without ever deleting retired guides.
 
 ### Español
+- Actualizado (guías del 23 y 24 de noviembre): el Paladín Reprensión sigue las guías reescritas de Wowhead (prioridad de estadísticas de simuladores con golpe, pericia, crítico y celeridad; puntos fuertes y límites en JcJ; la build JcJ de Choque Sagrado lleva Juramento de luz); las builds de Pícaro Sutileza llevan Emboscada mejorada; la build JcJ del Sacerdote Disciplina lleva Vinculación sagrada e Inspiración completa; reasignar Legacy cuesta 10 de oro la primera vez y 20 la segunda; las mascotas también pueden salir de la casa de subastas del mercado negro de Clarofluvial.
+- Actualizado: datos del juego de la nueva actualización de wowdata (por ejemplo, el nombre del Tótem de la Vorágine).
+- Parche de datos 2026.11.24.3.
 - Cambiado (interno): las herramientas de desarrollo encuentran wowdata en su nueva ubicación y traen las guías y los informes de cambios que wowdata copia de la descarga de Wowhead, sin borrar nunca las guías retiradas.
 
 ## [0.4.0-beta.11] - 2026-11-24
