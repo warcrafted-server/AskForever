@@ -760,6 +760,48 @@ class WowDb:
                 })
         return results
 
+    def talent_builds(self, class_name):
+        """Builds de talentos de una clase (nombre español o inglés); [] sin datos."""
+        slug = normalize(class_name)
+        if not slug:
+            return []
+        mask = class_mask_from_name(class_name)
+        if mask is not None:
+            slug = normalize(CLASSES[mask]['english'])
+        with_order = {row['build_id'] for row in self._rows(
+            'SELECT DISTINCT build_id FROM ext_wh_talento_orden')}
+        rows = self._rows(
+            'SELECT build_id, espec, titulo, variante, orden_en_seccion, puntos_total '
+            'FROM ext_wh_build WHERE lower(trim(clase)) = ? '
+            'ORDER BY orden_en_seccion, build_id', (slug,))
+        return [{
+            'build_id': row['build_id'],
+            'espec': _clean_text(row['espec']),
+            'titulo': _clean_text(row['titulo']),
+            'variante': _clean_text(row['variante']),
+            'orden_en_seccion': _as_int(row['orden_en_seccion']),
+            'puntos_total': _as_int(row['puntos_total']),
+            'has_order': row['build_id'] in with_order,
+        } for row in rows]
+
+    def talent_order(self, build_id):
+        """Puntos de una build por nivel; [] si la build o las tablas no existen."""
+        order = []
+        for row in self._rows(
+                'SELECT nivel, talento_en, talento_es, rango FROM ext_wh_talento_orden '
+                'WHERE build_id = ? ORDER BY nivel, rango', (build_id,)):
+            nivel = _as_int(row['nivel'])
+            rango = _as_int(row['rango'])
+            if nivel is None or rango is None:
+                continue
+            order.append({
+                'nivel': nivel,
+                'talento_en': _clean_text(row['talento_en']),
+                'talento_es': _clean_text(row['talento_es']),
+                'rango': rango,
+            })
+        return order
+
     def object_locations(self, object_id, limit: int = 3, lang: str = 'es'):
         return self._spawn_locations('ext_object_spawns', 'object_id', object_id, limit, lang)
 
