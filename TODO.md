@@ -3,7 +3,6 @@
 El detalle de cada hito está en [ROADMAP.md](ROADMAP.md). Lo hecho está en el [CHANGELOG](CHANGELOG.md).
 
 ## Alta
-- **Nombres de objetos de recolección en inglés** (informe 192907-444): el dato «se recoge de» muestra «Silverleaf, Peacebloom» sin nombre esES (vienen de `ext_item_object_drops`). Pedir a wowdata el nombre oficial esES de los objetos de mundo (hierbas, minerales) y que `v_objeto_fuente` lo use; la descripción de objetos (`Description_lang`) también llega en inglés.
 - **Dónde comprar bolsas baratas de N casillas** (Marc, 2026-11-24, informe 171314-437): la IA contesta «no tengo ese dato» porque el motor no tiene herramienta de objetos en vendedor. wowdata ya trae `v_vendedor_objeto` (precio y vendedor) y las casillas de bolsa salen de `ItemSparse`; falta una herramienta determinista (bolsas por casillas, precio más bajo, vendedor cercano al jugador) y enrutarla. Diseño Opus, implementación AgentRelay.
 - **El companion debe usar las vistas con prioridad de wowdata** (2026-11-24): hoy lee las tablas `ext_*` de Questie (la fuente de menos prioridad) y no usa pesca, instructores de profesión, vendedores ni eventos. Plan en `.agents/plans/vistas-wowdata/vistas-wowdata.PLAN.md`.
 - **Próxima actualización: base de datos nueva** (Marc, 2026-11-24): el parche 2026.11.24.2 pesa 11,8 MB porque se compara con `data-2026.11.18` (sobre todo `questie_spawn`). Publicar una base `data-…` desde el `wow.sqlite` actual de wowdata y generar los parches contra ella para que vuelvan a ser pequeños.
