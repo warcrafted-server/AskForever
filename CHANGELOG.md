@@ -4,6 +4,14 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+## [0.4.0-beta.12] - 2026-11-24
+
+### English
+- Changed (internal): development tools find wowdata at its new location and bring the guides and change reports that wowdata copies from the Wowhead download, without ever deleting retired guides.
+
+### Español
+- Cambiado (interno): las herramientas de desarrollo encuentran wowdata en su nueva ubicación y traen las guías y los informes de cambios que wowdata copia de la descarga de Wowhead, sin borrar nunca las guías retiradas.
+
 ## [0.4.0-beta.11] - 2026-11-24
 
 ### English
