@@ -3,6 +3,7 @@
 El detalle de cada hito está en [ROADMAP.md](ROADMAP.md). Lo hecho está en el [CHANGELOG](CHANGELOG.md).
 
 ## Alta
+- **Próxima actualización: base de datos nueva** (Marc, 2026-11-24): el parche 2026.11.24.2 pesa 11,8 MB porque se compara con `data-2026.11.18` (sobre todo `questie_spawn`). Publicar una base `data-…` desde el `wow.sqlite` actual de wowdata y generar los parches contra ella para que vuelvan a ser pequeños.
 - **Publicar la 0.3.0-beta.1 en CurseForge** (Marc): subir el zip de la release de GitHub como «Beta 3» y actualizar resumen y descripción (textos en `docs/CURSEFORGE.md`). Después, añadir el enlace del proyecto de CurseForge al README y a las guías.
 - **VirusTotal**: analizar `AskForever-Setup-0.3.0-beta.1.exe` y enlazar el informe en la release y en la página de transparencia (hoy figura como «Previsto»).
 - **Actualizaciones de datos por CurseForge**: parche acumulado en texto plano dentro del addon (`data/`), lector y aplicador en el companion (siempre base limpia + parche; base exacta desde GitHub si hace falta), script que genera el parche desde wowdata. Diseño en `.agents/plans/publico/publico.PLAN.md`.
