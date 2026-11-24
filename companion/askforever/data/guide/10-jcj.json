@@ -24,34 +24,40 @@
         "pvp changes"
       ],
       "text_es": "El JcJ de Forever se mide con Puntos de Rango (14 rangos, sin decaimiento) y Honor, no con tu posición frente al resto del reino. Hay cuatro campos de batalla (Garganta Grito de Guerra, Cuenca de Arathi, Valle de Alterac e Islas Lanza Negra, nuevo y de 15 contra 15), pero ni arena ni campos clasificados. El Valle de Alterac no da Puntos de Rango; los otros tres los dan al terminar, más si ganas. El rango se reinicia cada pocos meses; los desafíos legacy conservan su progreso.",
-      "text_en": "Forever PvP is measured with Rank Points (14 ranks, no decay) and Honor, not by your position against the rest of the realm. There are four battlegrounds (Warsong Gulch, Arathi Basin, Alterac Valley and the new 15v15 Darkspear Islands), but no arena or rated battlegrounds. Alterac Valley gives no Rank Points; the other three give them on completion, more for a win. Rank resets every few months; legacy challenges keep their progress.",
+      "text_en": "Forever PvP is measured with Rank Points (14 ranks, no decay) and Honor, not by your position against the rest of the realm. There are four battlegrounds (Warsong Gulch, Arathi Basin, Alterac Valley and the new 15 against 15 Darkspear Islands), but no arena or rated battlegrounds. Alterac Valley gives no Rank Points; the other three give them on completion, more for a win. Rank resets every few months; legacy challenges keep their progress.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: PvP Overview in Forever",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › PvP Overview in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-11-23"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Battlegrounds in Forever",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › Battlegrounds in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-11-23"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › PvP Rank Rewards in WoW Forever",
-          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
-          "date": "2026-11-23"
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › Darkspear Islands",
+          "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
-          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › Legacy Challenges from PvP Ranks",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › What Is The PvP Rank System?",
           "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
-          "date": "2026-11-23"
+          "date": "2026-09-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › Seasons and Resets",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
+          "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "topics": [
         "general:pvp"
       ],
@@ -88,9 +94,9 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: PvP Overview in Forever",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › PvP Overview in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-11-19"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
@@ -100,12 +106,18 @@
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Weekly PvP Season's Journey Quests in Forever",
+          "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › Seasons and Resets",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
+          "date": "2026-09-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › Weekly PvP Season's Journey Quests in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-11-19"
+          "date": "2026-11-24"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-24",
       "topics": [
         "general:pvp"
       ],
@@ -141,9 +153,9 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: PvP Overview in Forever",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › PvP Overview in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-11-19"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
@@ -158,7 +170,7 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-24",
       "topics": [
         "general:pvp"
       ],
@@ -195,9 +207,9 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: PvP Ranking Rewards in Forever",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › PvP Ranking Rewards in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-11-19"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
@@ -212,7 +224,7 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-24",
       "topics": [
         "general:pvp"
       ],
@@ -249,15 +261,21 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: PvP Overview in Forever",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › PvP Overview in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-11-19"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: PvP Ranking Rewards in Forever",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › PvP Ranking Rewards in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-11-19"
+          "date": "2026-11-24"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › Battlegrounds in Forever",
+          "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
@@ -270,9 +288,15 @@
           "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › Common Questions",
           "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
           "date": "2026-09-19"
+        },
+        {
+          "type": "editorial",
+          "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › PvP Gear",
+          "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
+          "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-24",
       "topics": [
         "general:pvp"
       ],
@@ -304,35 +328,47 @@
         "battleground queues",
         "champions hall"
       ],
-      "text_es": "Para comprar equipo, visita al Sargento maestro Biggins en la Sala de los Campeones (Ventormenta, 75 68) o a la Sargento Ba'sha en la Sala de las Leyendas (Orgrimmar, 42 69); la Alianza tiene otra opción en las cloacas de Dalaran. En las ciudades, busca maestros de batalla en el Castillo de Ventormenta y el Valle del Honor, o acude al portal del campo. Los grupos prefabricados se emparejan con otros grupos prefabricados.",
-      "text_en": "PvP gear vendors can be found with Master Sergeant Biggins at Champions’ Hall (Stormwind, 75 68) and Sergeant Ba'sha at Hall of Legends (Orgrimmar, 42 69); Alliance also has another option in the Dalaran sewers. To queue, use a city battlemaster—at Stormwind Keep or the Valley of Honor—or the battleground portal. Premade groups are matched with other premades.",
+      "text_es": "Para comprar equipo, visita al Sargento maestro Biggins en la Sala de los Campeones (Ventormenta, 75,2 67,6) o a la Sargento Ba'sha en la Sala de las Leyendas (Orgrimmar, 41,6 68,6); la Alianza tiene otra opción en las cloacas de Dalaran. En las ciudades, busca maestros de batalla en el Castillo de Ventormenta y el Valle del Honor, o acude al portal del campo. Los grupos prefabricados se emparejan con otros grupos prefabricados.",
+      "text_en": "PvP gear vendors can be found with Master Sergeant Biggins at Champions’ Hall (Stormwind, 75.2 67.6) and Sergeant Ba'sha at Hall of Legends (Orgrimmar, 41.6 68.6); Alliance also has another option in the Dalaran sewers. To queue, use a city battlemaster—at Stormwind Keep or the Valley of Honor—or the battleground portal. Premade groups are matched with other premades.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Locations of Battleground Battlemasters in Forever",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › Alianza — Location",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-11-23"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Battlegrounds in Forever",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › Horda — Location",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-11-23"
+          "date": "2026-11-24"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › Locations of Battleground Battlemasters in Forever",
+          "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
+          "date": "2026-11-24"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › Battlegrounds in Forever",
+          "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: WoW Forever - PvP Rank System Explained › PvP Vendor Locations",
           "url": "https://www.icy-veins.com/wow-forever/pvp-rank-system",
-          "date": "2026-11-23"
+          "date": "2026-09-19"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: Everything You Need to Know About PvP in World of Warcraft: Forever › Queues",
           "url": "https://www.icy-veins.com/wow-forever/pvp-overview",
-          "date": "2026-11-23"
+          "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "topics": [
         "general:pvp"
       ],
@@ -369,9 +405,9 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: PvP Overview in Forever",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › PvP Overview in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
@@ -386,7 +422,7 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "general:pvp"
       ],
@@ -423,9 +459,9 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Darkspear Islands",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › Darkspear Islands",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
@@ -434,7 +470,7 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "general:pvp"
       ],
@@ -470,9 +506,9 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: PvP Overview in Forever",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › PvP Overview in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
@@ -481,7 +517,7 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "general:pvp"
       ],
@@ -719,17 +755,17 @@
         "/pvp command",
         "leave pvp combat"
       ],
-      "text_es": "Para quitar tu bandera de JcJ, espera 5 minutos en territorio amistoso. Si la activaste a mano con /pvp, volver a escribirlo inicia la cuenta atrás de 5 minutos para desactivarla.",
-      "text_en": "To remove your PvP flag, wait 5 minutes in friendly territory. If you toggled it on manually with /pvp, typing it again starts a 5-minute timer to turn it off.",
+      "text_es": "Tu bandera de JcJ solo desaparece después de pasar 5 minutos en territorio amistoso. Si la activaste a mano con /pvp, escribe el comando otra vez para iniciar la cuenta atrás de 5 minutos que la desactiva.",
+      "text_en": "Your PvP flag is removed only after 5 minutes in friendly territory. If you turned it on by hand with /pvp, enter the command again to begin the 5-minute countdown that clears it.",
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: World PvP in Forever",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › World PvP in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-11-19"
+          "date": "2026-11-24"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-24",
       "topics": [
         "general:pvp"
       ],
@@ -764,12 +800,12 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: World PvP in Forever",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › World PvP in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-10-24"
+          "date": "2026-11-24"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "general:pvp"
       ],
@@ -808,9 +844,9 @@
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: PvP Overview in Forever",
+          "ref": "Wowhead: PvP Overview in Forever - Ranking, Rewards, and Battlegrounds › PvP Overview in Forever",
           "url": "https://www.wowhead.com/forever/guide/pvp-overview-ranking-rewards",
-          "date": "2026-11-19"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
@@ -819,7 +855,7 @@
           "date": "2026-09-19"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-24",
       "topics": [
         "general:pvp"
       ],
