@@ -1524,7 +1524,7 @@
         "profession:fishing:overview"
       ],
       "source_hashes": [
-        "guide:bfe74d96e2790ec118eb8b30dae6544d40adf8d2",
+        "guide:1a6718489da161800768dcfcd0ce6a9e54bcfe5f",
         "section:428e623fd1d4af51c6a56d00a2ff677f61a5dbe1",
         "section:6f878c41aad61bfab2188d7dbc2a50caff1c01b4",
         "section:702611c693f14dd11307f4db3c7806a366a6d8d3",
@@ -3097,8 +3097,8 @@
         "Fishing 225",
         "learn Artisan Fishing"
       ],
-      "text_es": "Los instructores enseñan Aprendiz (1-75) y Oficial (75-150). El libro Pesca para expertos: La lubina y tú permite llegar a 225. Con nivel 35 y Pesca 225, inicia Nat Pagle, pescador del extremo para aprender Artesano, hasta 300.",
-      "text_en": "Trainers teach Apprentice (1-75) and Journeyman (75-150). The book Expert Fishing - The Bass and You lets you reach 225. At level 35 and Fishing 225, start Nat Pagle, Angler Extreme to learn Artisan, up to 300.",
+      "text_es": "Los instructores enseñan Aprendiz (1-75) y Oficial (75-150). El libro Pesca para expertos: La lubina y tú permite llegar a 225; se puede comerciar, así que también puede estar en la casa de subastas. Con nivel 35 y Pesca 225, inicia Nat Pagle, pescador del extremo para aprender Artesano, hasta 300.",
+      "text_en": "Trainers teach Apprentice (1-75) and Journeyman (75-150). The book Expert Fishing - The Bass and You lets you reach 225; it is tradeable, so you may also find it on the Auction House. At level 35 and Fishing 225, start Nat Pagle, Angler Extreme to learn Artisan, up to 300.",
       "sources": [
         {
           "type": "editorial",
@@ -3110,7 +3110,7 @@
           "type": "editorial",
           "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › Expert Fishing Book (150-225)",
           "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
-          "date": "2026-11-10"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
@@ -3119,12 +3119,12 @@
           "date": "2026-11-10"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "profession:fishing:overview"
       ],
       "source_hashes": [
-        "section:05f5f67fa1aba2b33d223198224a7444f625d7f6",
+        "section:24c4109e832ded1b54f96073e9f6f4f0a17f458f",
         "section:370d6766cba911b6cce5fdb0ff3704da881144d9",
         "section:7e9d9e2f32cf4397964e4483d45a0c945f4b329c"
       ]
@@ -3173,7 +3173,7 @@
       ],
       "source_hashes": [
         "section:5bb931b4c2d710950648a7cd88aa4c7e5abbc8b1",
-        "section:94c23b519c10e9d0c2d857161f7953a680a7730a"
+        "section:8ec44ce0febefe6eb81af27fa46541f2ea8b9782"
       ]
     },
     {
