@@ -348,10 +348,10 @@
         "section:15c6fc0284f09ccbd836683986e81dee9e9c5977",
         "section:19250d3558329b68117fd796f4a08b24e8c224e8",
         "section:341d8ea89c1c009dd102d64ca06b19952aac0795",
+        "section:4cd906f4d290f8eeb1a4d9a55893501e47bc41db",
         "section:84fe82acf132633997a33a0a47596e096cd9a780",
         "section:8b8bef9304c8d146945b3cd66c7ed0f61e9eb46e",
         "section:a131ffc0286822744e43f8d04950e1295481c5a3",
-        "section:af995e062014605042edf9e56de75be041d3d1fe",
         "section:b85595a9798bbd357d92bde3973597e58262b7c4",
         "section:ee48a1345e67bf2a6c80b1d1c0cb273a6e721914",
         "section:f36370189c35ee9903e9c97168482bbcc22d5a3d"
@@ -409,7 +409,7 @@
         "class:warrior:protection:leveling"
       ],
       "source_hashes": [
-        "section:af995e062014605042edf9e56de75be041d3d1fe",
+        "section:4cd906f4d290f8eeb1a4d9a55893501e47bc41db",
         "section:cd2bb478ad28c47ef109a76e587c4be7f3eb8ce3",
         "section:f36370189c35ee9903e9c97168482bbcc22d5a3d"
       ]
@@ -886,15 +886,15 @@
         "class:warrior:protection:leveling"
       ],
       "source_hashes": [
+        "guide:305e9ec4fb4bbd573dd0d1693d8b646ea8cdf245",
         "guide:7e76df9ec6765aca0de4cb9efcdd8cbfa15cc14f",
-        "guide:969650dd594ecf165b52b59987abf4407320f7da",
         "section:11f3d5bcbe6b40ef73886ccc0c7b8535f00a20d2",
         "section:173e0f59a81fa77a5e06fcf57a33d6f5baab9c23",
-        "section:60912d4380d6d5944b83c7f828b03ad767e7af08",
+        "section:39818bff86e958d25fcdabdc55b3b46cf50ab664",
+        "section:4cd906f4d290f8eeb1a4d9a55893501e47bc41db",
+        "section:609a513854f8865c1781851a36e9e5f1e3861ab8",
         "section:71c80ce73e7da9c3913b8f0970220892c41b1479",
-        "section:af995e062014605042edf9e56de75be041d3d1fe",
-        "section:cd2bb478ad28c47ef109a76e587c4be7f3eb8ce3",
-        "section:dd7ba003c5e6818f2bde2adf5fc132f4f296978c"
+        "section:cd2bb478ad28c47ef109a76e587c4be7f3eb8ce3"
       ]
     },
     {
@@ -981,14 +981,14 @@
         "class:warrior:protection:leveling"
       ],
       "source_hashes": [
+        "guide:305e9ec4fb4bbd573dd0d1693d8b646ea8cdf245",
         "guide:5ce00d93595f1847fe9bc8701d47bbb805d3e581",
-        "guide:969650dd594ecf165b52b59987abf4407320f7da",
         "section:11f3d5bcbe6b40ef73886ccc0c7b8535f00a20d2",
+        "section:39818bff86e958d25fcdabdc55b3b46cf50ab664",
+        "section:4cd906f4d290f8eeb1a4d9a55893501e47bc41db",
         "section:65cdbc0282a9e192365c4bb6f95957447ac8e5af",
         "section:71c80ce73e7da9c3913b8f0970220892c41b1479",
-        "section:af995e062014605042edf9e56de75be041d3d1fe",
-        "section:cd2bb478ad28c47ef109a76e587c4be7f3eb8ce3",
-        "section:dd7ba003c5e6818f2bde2adf5fc132f4f296978c"
+        "section:cd2bb478ad28c47ef109a76e587c4be7f3eb8ce3"
       ]
     },
     {
@@ -3314,7 +3314,7 @@
         "class:warrior:arms:leveling"
       ],
       "source_hashes": [
-        "section:dd7ba003c5e6818f2bde2adf5fc132f4f296978c"
+        "section:39818bff86e958d25fcdabdc55b3b46cf50ab664"
       ]
     },
     {
@@ -3431,7 +3431,7 @@
         "class:warrior:fury:leveling"
       ],
       "source_hashes": [
-        "section:60912d4380d6d5944b83c7f828b03ad767e7af08"
+        "section:609a513854f8865c1781851a36e9e5f1e3861ab8"
       ]
     },
     {
@@ -3470,7 +3470,7 @@
         "class:warrior:fury:leveling"
       ],
       "source_hashes": [
-        "section:60912d4380d6d5944b83c7f828b03ad767e7af08"
+        "section:609a513854f8865c1781851a36e9e5f1e3861ab8"
       ]
     },
     {
@@ -3509,7 +3509,7 @@
         "class:warrior:protection:leveling"
       ],
       "source_hashes": [
-        "section:af995e062014605042edf9e56de75be041d3d1fe"
+        "section:4cd906f4d290f8eeb1a4d9a55893501e47bc41db"
       ]
     },
     {
@@ -3548,7 +3548,7 @@
         "class:warrior:protection:leveling"
       ],
       "source_hashes": [
-        "section:af995e062014605042edf9e56de75be041d3d1fe"
+        "section:4cd906f4d290f8eeb1a4d9a55893501e47bc41db"
       ]
     },
     {
@@ -3587,7 +3587,7 @@
         "class:warrior:protection:leveling"
       ],
       "source_hashes": [
-        "section:af995e062014605042edf9e56de75be041d3d1fe"
+        "section:4cd906f4d290f8eeb1a4d9a55893501e47bc41db"
       ]
     },
     {
@@ -3626,7 +3626,7 @@
         "class:warrior:protection:leveling"
       ],
       "source_hashes": [
-        "section:af995e062014605042edf9e56de75be041d3d1fe"
+        "section:4cd906f4d290f8eeb1a4d9a55893501e47bc41db"
       ]
     },
     {
@@ -3901,7 +3901,7 @@
         "class:warrior:arms:leveling"
       ],
       "source_hashes": [
-        "section:dd7ba003c5e6818f2bde2adf5fc132f4f296978c"
+        "section:39818bff86e958d25fcdabdc55b3b46cf50ab664"
       ]
     },
     {
@@ -3940,7 +3940,7 @@
         "class:warrior:fury:leveling"
       ],
       "source_hashes": [
-        "section:60912d4380d6d5944b83c7f828b03ad767e7af08"
+        "section:609a513854f8865c1781851a36e9e5f1e3861ab8"
       ]
     },
     {
@@ -3981,7 +3981,7 @@
         "class:warrior:protection:leveling"
       ],
       "source_hashes": [
-        "section:af995e062014605042edf9e56de75be041d3d1fe"
+        "section:4cd906f4d290f8eeb1a4d9a55893501e47bc41db"
       ]
     },
     {
@@ -4138,7 +4138,7 @@
         "class:warrior:fury:leveling"
       ],
       "source_hashes": [
-        "section:60912d4380d6d5944b83c7f828b03ad767e7af08",
+        "section:609a513854f8865c1781851a36e9e5f1e3861ab8",
         "section:dd91363c3dfc033c1a7f4fafcfae70faeba7e950"
       ]
     },
@@ -4283,7 +4283,7 @@
         "recovery weapon warrior",
         "lesser strength 2h"
       ],
-      "text_es": "Encantamientos del Guerrero Armas: Arma: Encantar arma: recuperación (restaura el 5% de tu salud al parar o esquivar, 10 s de reutilización) o el de fuerza inferior a dos manos (+15 fuerza, Encantamiento 220). Collar: fuerza (210). Torso: estadísticas (+3 a todo, Encantamiento 245). Brazales: fuerza menor, fuerza, fuerza superior o excelente (+9). Botas: agilidad inferior o velocidad menor (+8%). En torso, piernas, manos o pies, Complementos para armadura fuertes: +4, +6, +8 y +10 de poder de ataque en los niveles 15, 30, 40 y 50.",
+      "text_es": "Encantamientos del Guerrero Armas: Arma: Encantar arma: recuperación (restaura el 5% de tu salud al parar o esquivar, 10 s de reutilización) o el de Fuerza inferior a dos manos (+15 fuerza, Encantamiento 220). Collar: fuerza (210). Torso: estadísticas (+3 a todo, Encantamiento 245). Brazales: fuerza menor, fuerza, fuerza superior o Fuerza excelente (+9). Botas: agilidad inferior o velocidad menor (+8%). En torso, piernas, manos o pies, Complementos para armadura fuertes: +4, +6, +8 y +10 de poder de ataque en los niveles 15, 30, 40 y 50.",
       "text_en": "Arms Warrior enchants: Weapon: Enchant Weapon - Recovery (restores 5% of your health when you parry or dodge, 10 sec cooldown) or the two-hand Lesser Strength (+15 Strength, Enchanting 220). Neck: Strength (210). Chest: Stats (+3 to all, Enchanting 245). Bracers: Minor Strength, Strength, Greater or Superior Strength (+9). Boots: Lesser Agility or Minor Speed (+8%). On chest, legs, hands or feet, Forceful Armor Kits: +4, +6, +8 and +10 Attack Power at levels 15, 30, 40 and 50.",
       "tags": [
         "WARRIOR"
@@ -4338,7 +4338,7 @@
         "warrior strength food",
         "weightstone mace"
       ],
-      "text_es": "Consumibles del Guerrero Armas: Elixires de fuerza (nivel 1 Elixir de fuerza de león, 20 Elixir de fuerza de ogro, 48 Elixir de gigantes, +25) y de agilidad (hasta Elixir de agilidad superior, nivel 38, +25); todos se acumulan. Piedra de afilar sube de basta a densa (+8 de daño a nivel 35) y elemental a nivel 50 (+2% crítico); con maza o bastón, la Piedrafuerte. Se pueden combinar con tótems como Viento Furioso. Comida de fuerza, hasta +20 (Bolas de masa del desierto ahumadas, nivel 45); da +5% de experiencia.",
+      "text_es": "Consumibles del Guerrero Armas: Elixires de fuerza (nivel 1 Elixir de fuerza menor, 20 Elixir de fuerza de ogro, 48 Elixir de gigantes, +25) y de agilidad (hasta Elixir de agilidad superior, nivel 38, +25); todos se acumulan. Piedra de afilar sube de basta a densa (+8 de daño a nivel 35) y elemental a nivel 50 (+2% crítico); con maza o bastón, la Piedrafuerte. Se pueden combinar con tótems como Viento Furioso. Comida de fuerza, hasta +20 (Bolas de masa del desierto ahumadas, nivel 45); da +5% de experiencia.",
       "text_en": "Arms Warrior consumables: Strength elixirs (level 1 Elixir of Minor Strength, 20 Ogre Strength, 48 Elixir of Giants, +25) and Agility elixirs (up to Greater Agility at level 38, +25); all stack. Sharpening stones go from Rough to Dense (+8 damage at level 35) and Elemental at level 50 (+2% crit); with a mace or staff, use Weightstones. They can be combined with totems such as Windfury. Strength food, up to +20 (Smoked Desert Dumplings, level 45); it gives +5% experience.",
       "tags": [
         "WARRIOR"
