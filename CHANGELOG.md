@@ -14,6 +14,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Corrected: when you ask where to spend a talent point, the assistant now receives the maximum rank of each talent you already have, so it no longer invents ranks (it said Focused Fire 3/3; it has 2).
 - Updated (November 23 guides): Fury Warrior Rage now grants extra Rage on critical hits and the new Reckless Swings talent; Protection Warrior stats with Block Value; Elemental Shaman stats with haste first; Feral Druid tank offensive stats; Arcane Mage gloves enchant; Holy Priest leveling build; PvP rank vendors and Alterac Valley giving no Rank Points; Cozy Sleeping Bag bonus lasting 2 hours; Legacy respec cost; Razorfen Downs levels 37-46; fishing tournament with 250 winners; Tailoring trainer ranks.
 - Updated (November 24 data): the Expert Fishing book is tradeable, so it can also be on the Auction House; fishing skill for 39 zones, positions of several NPCs and quest givers observed in game, and the current Questie data (it only fills gaps left by the client, observations and Wowhead).
+- Changed (internal): the companion code is being prepared for a future Linux version (screen capture, paths, single instance). Nothing changes on Windows.
 - Data patch 2026.11.24.2.
 
 ### Español
@@ -24,6 +25,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Corregido: al preguntar dónde gastar un punto de talento, el asistente recibe el rango máximo de cada talento que ya tienes y no inventa rangos (decía Fuego enfocado 3/3; tiene 2).
 - Actualizado (guías del 23 de noviembre): la furia de Furia da furia extra con los críticos y el talento nuevo Golpes temerarios; estadísticas del Guerrero Protección con valor de bloqueo; estadísticas del Chamán Elemental con la celeridad primero; estadísticas ofensivas del Druida feral tanque; encantamiento de guantes del Mago Arcano; build de subida del Sacerdote Sagrado; vendedores de rango JcJ y Valle de Alterac sin Puntos de Rango; bonus del Saco de dormir acogedor de 2 horas; coste de reasignar Legacy; niveles de Zahúrda Rajacieno 37-46; torneo de pesca con 250 ganadores; rangos de instructores de Sastrería.
 - Actualizado (datos del 24 de noviembre): el libro de Pesca para expertos se puede comerciar, así que también puede estar en la casa de subastas; habilidad de pesca de 39 zonas, posiciones de varios PNJ y dadores de misión observados en el juego, y los datos actuales de Questie (solo rellenan lo que no dan el cliente, lo observado ni Wowhead).
+- Cambiado (interno): el código del companion se prepara para una futura versión para Linux (captura de pantalla, rutas, instancia única). En Windows no cambia nada.
 - Parche de datos 2026.11.24.2.
 
 ## [0.4.0-beta.10] - 2026-11-21
