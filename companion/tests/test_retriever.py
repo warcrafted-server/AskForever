@@ -309,10 +309,18 @@ def test_talent_path_without_spent_lists_builds(talent_db):
     facts = retrieve(_message('¿Dónde gasto el siguiente punto de talento?',
                               ctx=_talent_ctx()), talent_db)
     text = _text(facts)
-    assert 'Variante A' in text and 'Variante B' in text
-    assert 'Elige una de estas builds' in text
+    assert 'Elemental (1)' in text
+    assert 'Pide al jugador que diga la especialización' in text
     assert 'Siguientes puntos' not in text
     assert 'talents:path' in facts.sources
+
+
+def test_talent_path_spec_in_question_picks_the_build(talent_db):
+    facts = retrieve(_message('¿Qué talentos debería tener a nivel 12 en Elemental?',
+                              ctx=_talent_ctx()), talent_db)
+    text = _text(facts)
+    assert 'Pide al jugador' not in text
+    assert 'nivel 12' in text and 'Siguientes puntos' in text
 
 
 def test_talent_path_level_from_question(talent_db):

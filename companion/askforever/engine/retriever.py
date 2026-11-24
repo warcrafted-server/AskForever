@@ -2171,8 +2171,39 @@ def _build_overlap(order_names, spent) -> int:
     return overlap
 
 
+SPEC_NAMES = {
+    'affliction': ('Aflicción', 'Affliction'), 'arcane': ('Arcano', 'Arcane'),
+    'arms': ('Armas', 'Arms'), 'assassination': ('Asesinato', 'Assassination'),
+    'balance': ('Equilibrio', 'Balance'),
+    'beast-mastery': ('Dominio de las bestias', 'Beast Mastery'),
+    'combat': ('Combate', 'Combat'), 'demonology': ('Demonología', 'Demonology'),
+    'destruction': ('Destrucción', 'Destruction'), 'discipline': ('Disciplina', 'Discipline'),
+    'elemental': ('Elemental', 'Elemental'), 'enhancement': ('Mejora', 'Enhancement'),
+    'feral': ('Combate feral', 'Feral'), 'fire': ('Fuego', 'Fire'),
+    'frost': ('Escarcha', 'Frost'), 'fury': ('Furia', 'Fury'), 'holy': ('Sagrado', 'Holy'),
+    'marksmanship': ('Puntería', 'Marksmanship'), 'protection': ('Protección', 'Protection'),
+    'restoration': ('Recuperación', 'Restoration'), 'retribution': ('Reprensión', 'Retribution'),
+    'shadow': ('Sombra', 'Shadow'), 'subtlety': ('Sutileza', 'Subtlety'),
+    'survival': ('Supervivencia', 'Survival'),
+}
+
+
+def _spec_name(spec, lang: str) -> str:
+    names = SPEC_NAMES.get(str(spec or '').strip().lower())
+    if names:
+        return names[0] if lang == 'es' else names[1]
+    return str(spec or '') or ('general' if lang == 'es' else 'generic')
+
+
+def _spec_in_question(spec, normalized: str) -> bool:
+    names = SPEC_NAMES.get(str(spec or '').strip().lower())
+    if not names:
+        return False
+    return any(re.search(r'\b' + re.escape(normalize(name)) + r'\b', normalized) for name in names)
+
+
 def _build_path_label(build, lang: str) -> str:
-    spec = build.get('espec') or ('conjunto' if lang == 'es' else 'generic')
+    spec = _spec_name(build.get('espec'), lang)
     title = build.get('titulo') or ''
     variant = build.get('variante') or ''
     if lang == 'es':
@@ -2216,21 +2247,31 @@ def _detect_talent_path(facts: Facts, db, normalized: str, lang: str, ctx: dict)
         candidates.append((build, order, overlap))
     if not candidates:
         return
+    mentioned = [candidate for candidate in candidates
+                 if _spec_in_question(candidate[0].get('espec'), normalized)]
+    if mentioned and not spent:
+        candidates = mentioned
     best = max(overlap for _build, _order, overlap in candidates)
     # Sin puntos gastados, o con varias builds empatadas, la elección es del jugador.
     chosen = [candidate for candidate in candidates if candidate[2] == best] if spent else []
+    if not spent and len(candidates) == 1:
+        chosen = candidates
     if len(chosen) != 1:
-        for build, _order, _overlap in candidates[:6]:
-            heading = 'Build de talentos ' if lang == 'es' else 'Talent build '
-            facts.lines.append(heading + _build_path_label(build, lang) + '.')
-        if len(candidates) > 6:
-            rest = len(candidates) - 6
-            facts.lines.append(f'... y {rest} builds más.' if lang == 'es'
-                               else f'... and {rest} more builds.')
-        facts.lines.append(
-            'Elige una de estas builds: no mezclo talentos de builds distintas.'
-            if lang == 'es' else
-            'Choose one of these builds: I do not mix talents from different builds.')
+        counts = {}
+        for build, _order, _overlap in candidates:
+            name = _spec_name(build.get('espec'), lang)
+            counts[name] = counts.get(name, 0) + 1
+        listing = ', '.join(f'{name} ({count})' for name, count in counts.items())
+        if lang == 'es':
+            facts.lines.append(f'Hay builds de talentos de {class_name} con orden por nivel para: '
+                               f'{listing}. Pide al jugador que diga la especialización '
+                               '(y si es para subir, mazmorra, banda o JcJ): no mezclo talentos de '
+                               'builds distintas ni elijo una por él.')
+        else:
+            facts.lines.append(f'There are {class_name} talent builds with a level order for: '
+                               f'{listing}. Ask the player which specialization (and whether it is '
+                               'for leveling, dungeons, raids or PvP): I do not mix talents from '
+                               'different builds or pick one for them.')
         _add_source(facts, 'talents:path')
         return
     build, order, _overlap = chosen[0]
