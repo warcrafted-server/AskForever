@@ -9,13 +9,21 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 ### English
 - Updated (November 23 and 24 guides): Retribution Paladin follows the rewritten Wowhead guides (stat priority from simulators with hit, expertise, crit and haste; strengths and PvP limits; the Shockadin PvP build now takes Oath of Light); Subtlety Rogue builds take Improved Ambush; the Discipline Priest PvP build takes Holy Binding and full Inspiration; Legacy respec costs 10 gold the first time and 20 the second; companions can also come from the Black Market Auction House in Riverglades.
 - Updated: game data from the new wowdata update (for example, the Spanish name of the Totem of the Storm).
-- Data patch 2026.11.24.3.
+- Added: the assistant tells you where to spend your next talent point, which talents to have at a given level and which abilities you learn at a level, computed from the Wowhead talent orders (it never mixes builds: if several fit, it lists them so you pick one).
+- Added: where to plant herb seeds (Greenhouse and Seed Hybridizer at your campsite).
+- Corrected: herb and ore names now come in Spanish (for example Hojaplata, Flor de paz).
+- Updated: 300+ guide cards checked against the guides Wowhead rewrote in a new format (Fishing, Cooking, Legacy, PvP, dungeon quests); the beta-only PvP cost and ranking cards and the closed-beta sentence are gone.
+- Data patch 2026.11.24.6.
 - Changed (internal): development tools find wowdata at its new location and bring the guides and change reports that wowdata copies from the Wowhead download, without ever deleting retired guides.
 
 ### Español
 - Actualizado (guías del 23 y 24 de noviembre): el Paladín Reprensión sigue las guías reescritas de Wowhead (prioridad de estadísticas de simuladores con golpe, pericia, crítico y celeridad; puntos fuertes y límites en JcJ; la build JcJ de Choque Sagrado lleva Juramento de luz); las builds de Pícaro Sutileza llevan Emboscada mejorada; la build JcJ del Sacerdote Disciplina lleva Vinculación sagrada e Inspiración completa; reasignar Legacy cuesta 10 de oro la primera vez y 20 la segunda; las mascotas también pueden salir de la casa de subastas del mercado negro de Clarofluvial.
 - Actualizado: datos del juego de la nueva actualización de wowdata (por ejemplo, el nombre del Tótem de la Vorágine).
-- Parche de datos 2026.11.24.3.
+- Añadido: el asistente dice dónde gastar tu siguiente punto de talento, qué talentos tener a un nivel y qué habilidades aprendes a un nivel, calculado con el orden de talentos de Wowhead (nunca mezcla builds: si encajan varias, las lista para que elijas).
+- Añadido: dónde plantar semillas de hierba (Invernadero e Hibridador de semillas en tu campamento).
+- Corregido: los nombres de hierbas y minerales llegan en español (por ejemplo Hojaplata, Flor de paz).
+- Actualizado: más de 300 fichas de la guía comprobadas con las guías que Wowhead reescribió en un formato nuevo (Pesca, Cocina, Legacy, JcJ, misiones de mazmorra); se quitan las fichas de costes y clasificaciones de JcJ de la beta y la frase de la beta cerrada.
+- Parche de datos 2026.11.24.6.
 - Cambiado (interno): las herramientas de desarrollo encuentran wowdata en su nueva ubicación y traen las guías y los informes de cambios que wowdata copia de la descarga de Wowhead, sin borrar nunca las guías retiradas.
 
 ## [0.4.0-beta.11] - 2026-11-24
