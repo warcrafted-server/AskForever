@@ -151,7 +151,7 @@
           "type": "editorial",
           "ref": "Wowhead: Feral Druid DPS Guide - WoW: Forever › Changes to Feral Druid DPS in WoW Forever > Changes to Existing Abilities and Talents in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/overview-pve-dps",
-          "date": "2026-11-14"
+          "date": "2026-11-23"
         },
         {
           "type": "editorial",
@@ -178,7 +178,7 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-24",
       "topics": [
         "class:druid:balance:overview",
         "class:druid:feral:leveling",
@@ -186,8 +186,8 @@
         "class:druid:restoration:overview"
       ],
       "source_hashes": [
+        "guide:5affb930c197b0cdce6602bed9a77b9fdfad7902",
         "guide:63c72854eb0c3324ce77823f2c83ca18aa12d790",
-        "guide:c6169e7ede6df25549c8e90ea8331ae6258f8570",
         "section:1687dd4bcafdb858c7ee9e665295d7d14f62fedc",
         "section:65672a34d38f0a3807f1d6c313a7b55a6bd90d05",
         "section:b3ffee03e3b6def94c8d2b958a10f0a73aa3bb29",
