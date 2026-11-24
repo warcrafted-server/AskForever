@@ -547,7 +547,7 @@
           "type": "editorial",
           "ref": "Wowhead: World of Warcraft: Forever Roadmap - Release Date, New Content › Content Releases for World of Warcraft: Forever",
           "url": "https://www.wowhead.com/forever/guide/content-release-roadmap",
-          "date": "2026-11-05"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
@@ -556,12 +556,12 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "general:roadmap"
       ],
       "source_hashes": [
-        "section:b11cab3674e1a8255bcb4181471933e375eb8cb2",
+        "section:555c62a326594166cf22a81b2afe30179f8191d0",
         "section:e766e4adbc3a089c6ef33752043e5c0af4a391fe"
       ]
     },

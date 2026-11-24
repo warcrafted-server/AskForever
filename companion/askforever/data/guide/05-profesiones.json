@@ -1371,28 +1371,28 @@
           "type": "editorial",
           "ref": "Wowhead: Cooking Profession Overview in Forever - Leveling, New Recipes, and Trainers › Why Level Cooking?",
           "url": "https://www.wowhead.com/forever/guide/professions/cooking/overview-leveling",
-          "date": "2026-11-23"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Cooking Profession Overview in Forever - Leveling, New Recipes, and Trainers › Making Gold with Cooking in Forever > Best Profession to Pair with Cooking",
+          "ref": "Wowhead: Cooking Profession Overview in Forever - Leveling, New Recipes, and Trainers › Best Profession to Pair with Cooking",
           "url": "https://www.wowhead.com/forever/guide/professions/cooking/overview-leveling",
-          "date": "2026-11-23"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
           "ref": "Icy Veins: World of Warcraft: Forever Cooking Guide › Food Buffs and How They Work",
           "url": "https://www.icy-veins.com/wow-forever/cooking",
-          "date": "2026-11-23"
+          "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-23",
+      "updated": "2026-11-24",
       "topics": [
         "profession:cooking:overview"
       ],
       "source_hashes": [
-        "guide:0e8066b9f34468a0aa53c16cac61db115fd4f443",
         "section:a419df425602663dfd82d81d5c0a7e9973521be4",
+        "section:f4705715910e745090d8011485616c44ab90824a",
         "section:fb50e1fc32313e5b04eb835a3df7d014c315b507"
       ]
     },
@@ -1487,19 +1487,19 @@
           "type": "editorial",
           "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › Why Level Fishing?",
           "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
-          "date": "2026-11-10"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › How to Fish in Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
-          "date": "2026-11-10"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › How to Fish in Forever > Fishing Level Boosts in Forever",
+          "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › Fishing Level Boosts in Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
-          "date": "2026-11-10"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
@@ -1520,13 +1520,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "profession:fishing:overview"
       ],
       "source_hashes": [
-        "guide:054be11b558c5ea6b1b5bc5a22d6e480adcc3da1",
         "section:428e623fd1d4af51c6a56d00a2ff677f61a5dbe1",
+        "section:5314a98043090bd2daae841822436cf0eea7d738",
         "section:6f878c41aad61bfab2188d7dbc2a50caff1c01b4",
         "section:702611c693f14dd11307f4db3c7806a366a6d8d3",
         "section:7c918288ee664f0cb398b3587ebdc3368b6c3bf8",
@@ -3152,14 +3152,14 @@
         "Fishing in Stranglethorn Vale",
         "Fishing in Tanaris"
       ],
-      "text_es": "Hasta Pesca 25, usa un Adorno lustroso; luego las zonas iniciales ya permiten una captura segura sin cebo. A 75, aprende Oficial y sigue pescando. Para 150-225, la Vega de Tuercespina suele convenir a la Horda y el Marjal Revolcafango a la Alianza; usa cebos para alcanzar el requisito de captura segura. Tras la misión de Artesano, continúa allí o ve a Tanaris; allí necesitas 300 para asegurar las capturas.",
-      "text_en": "Use a Shiny Bauble until Fishing 25; after that, starter zones allow reliable catches without a lure. At 75, learn Journeyman and keep fishing. For 150-225, Stranglethorn Vale generally suits Horde, while Dustwallow Marsh is more accessible to Alliance; use lures to meet the guaranteed-catch requirement. After completing the rank quest, continue there or move to Tanaris, where 300 skill is needed for guaranteed catches. Starter waters also remain an option for skill gains through 300.",
+      "text_es": "Hasta Pesca 25, usa un Adorno lustroso; después las zonas iniciales no necesitan cebo. A 75, aprende Oficial en una ciudad y sigue pescando: la captura es segura sin cebo, pero en Entrañas a veces sale Pescado con mala pinta, inservible; otras ciudades son algo mejores, pero viajar más no compensa: el pescado de ciudad vale poco. Para 150-225, la Vega de Tuercespina conviene a la Horda y el Marjal Revolcafango a la Alianza; con 225 y cebos aseguras capturas. Tras la misión de Artesano, sigue en Marjal Revolcafango o ve a Tanaris, donde necesitas 300; las aguas iniciales valen hasta 300.",
+      "text_en": "Use a Shiny Bauble until Fishing 25; then starter zones allow catches without a lure. At 75, learn Journeyman in a city and keep fishing: catches there are safe without lures, but Undercity sometimes yields useless Sickly Looking Fish; other cities are slightly better, though extra travel rarely pays off because city fish are low-value. For 150-225, Stranglethorn Vale suits Horde and Dustwallow Marsh suits Alliance; with 225 and lures you guarantee catches. After finishing the Artisan quest, stay in Dustwallow Marsh or go to Tanaris, where you need 300; starter waters also work up to 300.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › Leveling Fishing in Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
-          "date": "2026-11-10"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
@@ -3168,13 +3168,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-24",
       "topics": [
         "profession:fishing:overview"
       ],
       "source_hashes": [
-        "section:5bb931b4c2d710950648a7cd88aa4c7e5abbc8b1",
-        "section:8ec44ce0febefe6eb81af27fa46541f2ea8b9782"
+        "section:311a734aa9282b669ee6ef077a90dd50a7fe3efb",
+        "section:5bb931b4c2d710950648a7cd88aa4c7e5abbc8b1"
       ]
     },
     {
