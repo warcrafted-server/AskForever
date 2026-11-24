@@ -62,9 +62,11 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
-        "section:339d2bb8f0c88b91219501ade0a629b984077528",
-        "section:5650189e54f4cfbc28e504cc474e17b22768bdbd"
+        "section:47c068d99713f41234af7f8f24f16d482ce53450",
+        "section:4a033eb6b1c936dfff87090420779b25361a1419",
+        "section:984ff0277c99fd047fe00775b54dc47ddd0e217c",
+        "section:ad95b47570f7ee7580c2e294c651b2d452245f62",
+        "section:bea40be85db7c1cfd9b63731477719511c7084ea"
       ]
     },
     {
@@ -122,8 +124,10 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
-        "section:03085d174c3727847bd3b31eb21125356a687a11"
+        "section:03085d174c3727847bd3b31eb21125356a687a11",
+        "section:47c068d99713f41234af7f8f24f16d482ce53450",
+        "section:6ec270f630a2f57da69f24c8f80dcf9d7c5befee",
+        "section:ad95b47570f7ee7580c2e294c651b2d452245f62"
       ]
     },
     {
@@ -175,8 +179,8 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:03e59c9051a43a44dc1b7c8c8f640e1fcd88ec64",
+        "section:47c068d99713f41234af7f8f24f16d482ce53450",
         "section:984ff0277c99fd047fe00775b54dc47ddd0e217c"
       ]
     },
@@ -229,9 +233,9 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:339d2bb8f0c88b91219501ade0a629b984077528",
-        "section:5650189e54f4cfbc28e504cc474e17b22768bdbd"
+        "section:5650189e54f4cfbc28e504cc474e17b22768bdbd",
+        "section:d28a14d42695095146ef677cdecfa43292debbc3"
       ]
     },
     {
@@ -301,9 +305,12 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
+        "section:0b052b440b62b0ed69c256135a0bacefaeefaf89",
+        "section:47c068d99713f41234af7f8f24f16d482ce53450",
         "section:559fb7e41795f5edadf783975817f3578a5c97eb",
-        "section:9a4880e86942543e0426af17231d16a9173f890b"
+        "section:9a4880e86942543e0426af17231d16a9173f890b",
+        "section:bea40be85db7c1cfd9b63731477719511c7084ea",
+        "section:d28a14d42695095146ef677cdecfa43292debbc3"
       ]
     },
     {
@@ -373,8 +380,11 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
+        "section:62d7f0438061c0b5603b855d6746b34ecbfae6b1",
+        "section:ae0fe126017698f8cf64fa51f3d29b9639b9165f",
+        "section:bea40be85db7c1cfd9b63731477719511c7084ea",
         "section:cbaab0da3b5c4524ebd872353bd63b32c38bfad6",
+        "section:f5322825d772818a75df2b8a362a0170105ccf2a",
         "section:f9da479258408ccfe740d838e1ce29069aebac15"
       ]
     },
@@ -427,8 +437,8 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
         "section:339d2bb8f0c88b91219501ade0a629b984077528",
+        "section:47c068d99713f41234af7f8f24f16d482ce53450",
         "section:ad95b47570f7ee7580c2e294c651b2d452245f62"
       ]
     },
@@ -475,8 +485,8 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
-        "section:06227c0fa6107945e885a80c69b570dc7fb95ad3"
+        "section:06227c0fa6107945e885a80c69b570dc7fb95ad3",
+        "section:4a033eb6b1c936dfff87090420779b25361a1419"
       ]
     },
     {
@@ -522,7 +532,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
+        "section:47c068d99713f41234af7f8f24f16d482ce53450",
         "section:765a5ee3b6901c3251038dec754a9e019e81b081"
       ]
     },
@@ -723,7 +733,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538"
+        "section:39708ef838ff8990259a787b23495fc4f9d55c91"
       ]
     },
     {
@@ -763,7 +773,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538"
+        "section:39708ef838ff8990259a787b23495fc4f9d55c91"
       ]
     },
     {
@@ -813,7 +823,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
+        "section:47c068d99713f41234af7f8f24f16d482ce53450",
         "section:ffd0015eced931aee583523f166b113bd82a0339"
       ]
     },
@@ -860,8 +870,8 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
-        "section:250e3b8babb410e16eace92d1ce7998e5ca26fce"
+        "section:250e3b8babb410e16eace92d1ce7998e5ca26fce",
+        "section:bea40be85db7c1cfd9b63731477719511c7084ea"
       ]
     },
     {
@@ -905,7 +915,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538"
+        "section:4a033eb6b1c936dfff87090420779b25361a1419"
       ]
     },
     {
@@ -983,7 +993,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538"
+        "section:6ec270f630a2f57da69f24c8f80dcf9d7c5befee"
       ]
     },
     {
@@ -1023,7 +1033,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538"
+        "section:f5322825d772818a75df2b8a362a0170105ccf2a"
       ]
     },
     {
@@ -1069,8 +1079,8 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
-        "section:250e3b8babb410e16eace92d1ce7998e5ca26fce"
+        "section:250e3b8babb410e16eace92d1ce7998e5ca26fce",
+        "section:4e68495ef8501011904878e0181e6c6fb5ee7176"
       ]
     },
     {
@@ -1122,8 +1132,9 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
-        "section:765a5ee3b6901c3251038dec754a9e019e81b081"
+        "section:57039022140e30fc41fc22fbc93ac70eea100108",
+        "section:765a5ee3b6901c3251038dec754a9e019e81b081",
+        "section:bd91235ada16bf20a32307b1ed46fca6d18db9f8"
       ]
     },
     {
@@ -1211,8 +1222,8 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538",
-        "section:53075c2fb59608848a5598c06912aaaa027d954b"
+        "section:53075c2fb59608848a5598c06912aaaa027d954b",
+        "section:d28a14d42695095146ef677cdecfa43292debbc3"
       ]
     },
     {
@@ -1252,7 +1263,7 @@
         "general:pvp"
       ],
       "source_hashes": [
-        "guide:ff0098bd5e5327368791224d2a43d12f7bbc3538"
+        "section:4a033eb6b1c936dfff87090420779b25361a1419"
       ]
     }
   ]

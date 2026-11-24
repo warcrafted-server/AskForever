@@ -1351,8 +1351,8 @@
         "dungeon:shadowfang-keep"
       ],
       "source_hashes": [
-        "guide:dad68cac26118a2b979c94698461a58b5e49e93b",
-        "section:b1961f5726ca0e91d80cb1b9b18b921511fe2a3e"
+        "guide:a938dabac9c7177bd7afae198dbe40dea4858ce5",
+        "section:7d6046ef6bce0fe53233a54c480d5eada59e3dbf"
       ]
     },
     {
@@ -1534,7 +1534,7 @@
         "dungeon:shadowfang-keep"
       ],
       "source_hashes": [
-        "guide:dad68cac26118a2b979c94698461a58b5e49e93b",
+        "guide:a938dabac9c7177bd7afae198dbe40dea4858ce5",
         "section:4a0503c1c7540d5c2f33634d2e3ad4966a613814"
       ]
     },
@@ -1646,8 +1646,8 @@
         "dungeon:blackfathom-deeps"
       ],
       "source_hashes": [
-        "guide:481531f874edc1671e7bd106a883b8f799549bf1",
-        "section:89f25705f8660a005b0a527255f9063d0518f6a2"
+        "guide:b8d2353648365f5e7a87f2abbfff343b49cd2211",
+        "section:9c90d0b0c03cd65748b5a229b6250e63019f8f1c"
       ]
     },
     {
@@ -1705,8 +1705,8 @@
         "dungeon:blackfathom-deeps"
       ],
       "source_hashes": [
-        "guide:481531f874edc1671e7bd106a883b8f799549bf1",
-        "section:89f25705f8660a005b0a527255f9063d0518f6a2"
+        "guide:b8d2353648365f5e7a87f2abbfff343b49cd2211",
+        "section:9c90d0b0c03cd65748b5a229b6250e63019f8f1c"
       ]
     },
     {
@@ -1993,8 +1993,8 @@
         "dungeon:stockade"
       ],
       "source_hashes": [
-        "guide:7e3bfe58c8572623e753a1fd4d170a5a3f52cae9",
-        "section:32d2dd76f181006adb663e8b54a1338793f0a21e"
+        "guide:3d202b6cb21318b25e0a86b74697f68915a8aa07",
+        "section:f40aa71101b4f2c3830c7d2027e5245c5f747f76"
       ]
     },
     {
@@ -2121,7 +2121,7 @@
         "dungeon:stockade"
       ],
       "source_hashes": [
-        "guide:7e3bfe58c8572623e753a1fd4d170a5a3f52cae9",
+        "guide:3d202b6cb21318b25e0a86b74697f68915a8aa07",
         "section:4cb1ef0aaaf4b0441a6c8235e1c6f59eb291f2aa",
         "section:6a07afb50b438dbd8ab263bf34c34185572103c3"
       ]
@@ -2391,9 +2391,9 @@
         "dungeon:gnomeregan"
       ],
       "source_hashes": [
-        "guide:de36979c78b1121c3dad84ad593023535076926a",
+        "guide:e80e889c0b022e0f9e7b1f81db01cb04a75356c9",
         "section:09719f91a9f5b04a89de113da16de1433465a7a3",
-        "section:18ad5e57efa55fd2034aee8b4a42413c871618d0"
+        "section:af54f8de6ba96c66881d16e637630f91eb2befc6"
       ]
     },
     {
@@ -2437,8 +2437,8 @@
         "dungeon:gnomeregan"
       ],
       "source_hashes": [
-        "guide:de36979c78b1121c3dad84ad593023535076926a",
-        "section:dacd72b167750d4d0ca171ede6e7dbcfd5621de0"
+        "guide:e80e889c0b022e0f9e7b1f81db01cb04a75356c9",
+        "section:661d9c1379e7550233fc24c602caefc97e15f2af"
       ]
     },
     {
@@ -2833,8 +2833,8 @@
         "dungeon:razorfen-kraul"
       ],
       "source_hashes": [
-        "guide:26b786610d8a153ffe5cbfa4027f2115b249baff",
-        "section:5e4dbe723bd9f840317f4a7ce1a73261a15233c2"
+        "guide:9c086fdde35e14e5fe369620a3ffc08e16540157",
+        "section:8a3d4a4ac23e9628919d9f927401d9975f8daee8"
       ]
     },
     {
@@ -4269,8 +4269,8 @@
         "dungeon:razorfen-downs"
       ],
       "source_hashes": [
-        "guide:b1883c3aab4e77147a73c5949caaf3fd39db7db4",
-        "section:9f404fe1ac5eee39a175c3584ad883ffd127b851"
+        "guide:10041cfa1c45affadb6dd3455f43a486b2353d30",
+        "section:21eb1ad86c9d70aa090d9ab25fc1d319442914a9"
       ]
     },
     {
@@ -4493,7 +4493,7 @@
         "dungeon:razorfen-downs"
       ],
       "source_hashes": [
-        "guide:b1883c3aab4e77147a73c5949caaf3fd39db7db4",
+        "guide:10041cfa1c45affadb6dd3455f43a486b2353d30",
         "section:48b20f7a32d93ffbb09543e81e0fbcc99b82d9dd"
       ]
     },
@@ -4658,9 +4658,9 @@
         "dungeon:uldaman"
       ],
       "source_hashes": [
-        "guide:1b3ca3db32c890af2f2f25d2f84742f4f97f9871",
+        "guide:212a52367113167e61a5bd6b89d4eeec10027713",
         "section:10c1f677aaa22e6060caf78f63edbf15fe159ec4",
-        "section:45dd3b49a30dfdb0d3bba3647598ec0b508961f3"
+        "section:379345223c365c437a097b9658d571047b5357e1"
       ]
     },
     {
@@ -5444,8 +5444,9 @@
         "dungeon:maraudon"
       ],
       "source_hashes": [
-        "guide:edd4d03eb0a783dcb8986fe9a4c266c7907a0825",
-        "section:5ce76ba7db76bb860d935ebb1da6c666d36fd181"
+        "section:2ec8621384f1fad701a66f898e8993301e391ea9",
+        "section:679077b87ddd07f8ee7707eb894dc0919afcf1d5",
+        "section:9ad193e4c4406906df241d1b546cfe8663e2df4a"
       ]
     },
     {
@@ -5825,7 +5826,8 @@
         "dungeon:maraudon"
       ],
       "source_hashes": [
-        "guide:edd4d03eb0a783dcb8986fe9a4c266c7907a0825",
+        "section:0f26382b04904b91d1313af97454a4d3f021def3",
+        "section:2ec8621384f1fad701a66f898e8993301e391ea9",
         "section:a5b0fdb55c56e6a17628ef4d0c90a0ef415ad84f"
       ]
     },
@@ -8922,8 +8924,8 @@
         "dungeon:lower-blackrock-spire"
       ],
       "source_hashes": [
-        "guide:8d26ada1c7db1b095d38af442c8f080d1dfa3166",
-        "section:60255357bb190000743f8abbc3d6a28b7c79d2f4"
+        "section:1395c7966587205af26ee0a1a1e9242df67e928f",
+        "section:a2fe3e9cc2798a22a850760f5c108c70a3e88bf8"
       ]
     },
     {
@@ -9654,8 +9656,8 @@
         "dungeon:upper-blackrock-spire"
       ],
       "source_hashes": [
-        "guide:ca541b946422cc9eb23983b39ef1010aaf7c01e5",
-        "section:2da2c50da4d24f91677fe46546c3e6771b4b449f"
+        "section:a32a504f32410dcddde606bf7a51b0cb6c9564fe",
+        "section:f2af13590f6795afbf40b6593bcf66053755e938"
       ]
     },
     {
@@ -11301,10 +11303,9 @@
         "dungeon:scholomance"
       ],
       "source_hashes": [
-        "guide:eb599ec89b76fca07367b823c9565b42fcc9ad49",
-        "section:92b1b69ee03d39bc793d100da9bb225e2e749e5b",
-        "section:af4855b05cb43518c2ff3710d54cd195528a70f8",
-        "section:cd4b0435c8f6764768e649f47b638f81a32c1452"
+        "section:4a7f816b8e8d40e16be856ce22ea236968ee1a20",
+        "section:535ef503ee4fa7955995e0e442ac55d9e33976f8",
+        "section:5e1ebfb075b33f94a871aa679c7c4a0dd51ed462"
       ]
     },
     {
@@ -11356,10 +11357,9 @@
         "dungeon:scholomance"
       ],
       "source_hashes": [
-        "guide:eb599ec89b76fca07367b823c9565b42fcc9ad49",
+        "section:4a7f816b8e8d40e16be856ce22ea236968ee1a20",
         "section:4c8f366fdae86292729fc0e655c900643b0671e4",
-        "section:a6ee0b9bc629661afe63991effe6d2cbb3efdce2",
-        "section:cd4b0435c8f6764768e649f47b638f81a32c1452"
+        "section:a6ee0b9bc629661afe63991effe6d2cbb3efdce2"
       ]
     },
     {
@@ -12014,8 +12014,8 @@
         "dungeon:stratholme-live-side"
       ],
       "source_hashes": [
-        "guide:e400bff59d4a7ae9417f8759caa599935d64bb81",
-        "section:3b8558f4c4f57a156c81839bc857383e2def957c"
+        "section:02c79e545c5794179e5d63a186f9e26a0af2b7c2",
+        "section:c65e03f20292b5947d57ef7f28d02179bc178671"
       ]
     },
     {
@@ -12059,8 +12059,8 @@
         "dungeon:stratholme-live-side"
       ],
       "source_hashes": [
-        "guide:e400bff59d4a7ae9417f8759caa599935d64bb81",
-        "section:3b8558f4c4f57a156c81839bc857383e2def957c"
+        "section:02c79e545c5794179e5d63a186f9e26a0af2b7c2",
+        "section:c65e03f20292b5947d57ef7f28d02179bc178671"
       ]
     },
     {
@@ -12574,8 +12574,8 @@
         "dungeon:stratholme-live-side"
       ],
       "source_hashes": [
-        "guide:e400bff59d4a7ae9417f8759caa599935d64bb81",
-        "section:2751a7c9dd0bb089f79130528a7509acf76a9614"
+        "section:2751a7c9dd0bb089f79130528a7509acf76a9614",
+        "section:c65e03f20292b5947d57ef7f28d02179bc178671"
       ]
     },
     {
@@ -12664,8 +12664,8 @@
         "dungeon:stratholme-undead-side"
       ],
       "source_hashes": [
-        "guide:93b07f159d315d3399fe3001f1315df0585dfedf",
-        "section:e455c744a2bfa591124e21401a2208dd3a9c52d9"
+        "section:1d15d1a7a08a4eba4de872c8d0ebe23f96db0123",
+        "section:7ee6c858491de96aff345cd357edc13477998a5d"
       ]
     },
     {
@@ -12709,7 +12709,8 @@
         "dungeon:stratholme-undead-side"
       ],
       "source_hashes": [
-        "guide:93b07f159d315d3399fe3001f1315df0585dfedf"
+        "section:1d15d1a7a08a4eba4de872c8d0ebe23f96db0123",
+        "section:7ee6c858491de96aff345cd357edc13477998a5d"
       ]
     },
     {
@@ -12753,8 +12754,8 @@
         "dungeon:stratholme-undead-side"
       ],
       "source_hashes": [
-        "guide:93b07f159d315d3399fe3001f1315df0585dfedf",
-        "section:e455c744a2bfa591124e21401a2208dd3a9c52d9"
+        "section:1d15d1a7a08a4eba4de872c8d0ebe23f96db0123",
+        "section:7ee6c858491de96aff345cd357edc13477998a5d"
       ]
     },
     {
@@ -12798,8 +12799,8 @@
         "dungeon:stratholme-undead-side"
       ],
       "source_hashes": [
-        "guide:93b07f159d315d3399fe3001f1315df0585dfedf",
-        "section:e455c744a2bfa591124e21401a2208dd3a9c52d9"
+        "section:1d15d1a7a08a4eba4de872c8d0ebe23f96db0123",
+        "section:7ee6c858491de96aff345cd357edc13477998a5d"
       ]
     },
     {
