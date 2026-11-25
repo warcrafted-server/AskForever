@@ -327,8 +327,8 @@ class X11Display:
                     return None
                 if active == 0:
                     return False
-                game = self._find_game_window()
-                return game is not None and game.window_id == active
+                # Solo la ventana activa: se consulta varias veces por segundo.
+                return is_game(self._window_classes(active), self._window_title(active))
         except Exception:
             return None
 

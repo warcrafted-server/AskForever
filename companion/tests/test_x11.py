@@ -114,11 +114,12 @@ def test_find_game_window_returns_none_without_game(monkeypatch):
 def test_game_is_active_reads_active_window(monkeypatch):
     display = _display()
     state = {'active': None}
-    game = x11.XWindow(42, 0, 0, 1920, 1080)
     monkeypatch.setattr(display, '_protected', lambda: contextlib.nullcontext())
     monkeypatch.setattr(display, '_atom', lambda name: 1)
     monkeypatch.setattr(display, '_property', lambda window, atom: state['active'])
-    monkeypatch.setattr(display, '_find_game_window', lambda: game)
+    monkeypatch.setattr(
+        display, '_window_classes', lambda window: ('wow.exe',) if window == 42 else ('konsole',))
+    monkeypatch.setattr(display, '_window_title', lambda window: '')
 
     assert display.game_is_active() is None
 

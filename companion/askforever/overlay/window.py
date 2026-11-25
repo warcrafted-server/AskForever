@@ -4,10 +4,12 @@ from __future__ import annotations
 
 import logging
 import queue
+import sys
 import time
 from dataclasses import dataclass
 from typing import Optional
 
+from askforever.capture import x11
 from askforever.capture.window import find_game_window
 
 LOGGER = logging.getLogger('askforever.overlay')
@@ -178,7 +180,7 @@ class Overlay:
     """Ventana que muestra el estado de la IA sin interferir con el juego."""
 
     def __init__(self, ttl=30.0, window_fn=find_game_window, clock=time.monotonic,
-                 state_queue=None, heartbeat=None, user32=None):
+                 state_queue=None, heartbeat=None, user32=None, x11_display=None):
         self.ttl = float(ttl)
         self.window_fn = window_fn
         self.clock = clock
@@ -187,6 +189,13 @@ class Overlay:
         self._user32 = user32
         self._user32_loaded = user32 is not None
         self._user32_injected = user32 is not None
+        # En Linux el overlay habla X11 en vez de user32. La pantalla se abre una sola vez
+        # dentro del proceso que dibuja la ventana, así que aquí solo se apunta la intención.
+        self._linux = x11_display is not None or (
+            sys.platform.startswith('linux') and user32 is None)
+        self._x11 = x11_display
+        self._x11_opened = x11_display is not None
+        self._passthrough_warned = False
         self._root = None
         self._inner = None
         self._title_label = None
@@ -266,6 +275,13 @@ class Overlay:
         root.attributes('-topmost', True)
         root.attributes('-alpha', 0.0)
         root.configure(bg=BORDER)
+        if self._linux:
+            # Antes de mapear: como notificación, KWin no la trata como aplicación propia
+            # ni le da el foco. En Wayland puro o Tk antiguo el atributo puede no existir.
+            try:
+                root.attributes('-type', 'notification')
+            except tk.TclError:
+                pass
 
         inner = tk.Frame(root, bg=BG)
         inner.pack(fill='both', expand=True, padx=2, pady=2)
@@ -367,6 +383,7 @@ class Overlay:
             self._root.destroy()
         except Exception:
             pass
+        self._close_x11()
 
     def _apply(self, state):
         try:
@@ -633,6 +650,63 @@ class Overlay:
             self._user32 = None
         return self._user32
 
+    def _get_x11(self):
+        """Pantalla X propia del overlay; se intenta abrir una sola vez."""
+        if not self._linux:
+            return None
+        if self._x11 is None and not self._x11_opened:
+            self._x11_opened = True
+            try:
+                self._x11 = x11.open_display()
+            except Exception:
+                self._x11 = None
+        return self._x11
+
+    def _close_x11(self):
+        display = self._x11
+        self._x11 = None
+        if display is None:
+            return
+        try:
+            display.close()
+        except Exception:
+            pass
+
+    def _apply_passthrough(self) -> bool:
+        """Vacía la entrada X de la ventana Tk para que los clics lleguen al juego."""
+        root = self._root
+        if root is None:
+            return False
+        window_ids = []
+        try:
+            window_ids.append(int(root.winfo_id()))
+        except Exception:
+            pass
+        try:
+            frame = root.wm_frame()
+            if frame:
+                window_ids.append(int(frame, 16))
+        except Exception:
+            pass
+        display = self._get_x11()
+        ok = False
+        if display is not None and window_ids:
+            try:
+                ok = bool(display.set_input_passthrough(window_ids))
+            except Exception:
+                ok = False
+        if not ok:
+            self._warn_passthrough()
+        return ok
+
+    def _warn_passthrough(self):
+        """Avisa una sola vez: sin entrada vacía el panel taparía los clics."""
+        if self._passthrough_warned:
+            return
+        self._passthrough_warned = True
+        LOGGER.warning('El overlay no puede atravesar los clics en Linux: '
+                       'la ventana del juego puede quedar tapada')
+
     def _frame_hwnd(self):
         try:
             win_id = self._root.winfo_id()
@@ -676,7 +750,7 @@ class Overlay:
     def _ensure_game_window(self):
         now = self.clock()
         invalid = False
-        user32 = self._get_user32()
+        user32 = None if self._linux else self._get_user32()
         if self._game_hwnd and user32 is not None:
             try:
                 invalid = not bool(user32.IsWindow(self._game_hwnd))
@@ -701,6 +775,18 @@ class Overlay:
             return self._foreground_allowed
         self._last_foreground_check = now
         self._ensure_game_window()
+        if self._linux:
+            display = self._get_x11()
+            active = None
+            if display is not None:
+                try:
+                    active = display.game_is_active()
+                except Exception:
+                    active = None
+            # Sin pantalla X no se puede saber si el juego está delante; se muestra igual.
+            self._foreground_allowed = (self._game_client is not None
+                                        and active is not False)
+            return self._foreground_allowed
         hwnd = self._game_hwnd
         if not hwnd:
             self._foreground_allowed = False
@@ -715,6 +801,11 @@ class Overlay:
         # (cree que sigue oculta) y la dejaba en (0, 0), encima de la tira de píxeles: la
         # posición se fija con SetWindowPos, también sin activar.
         self._root.geometry(f'{width}x{height}+{x}+{y}')
+        if self._linux:
+            # Al colocar o redimensionar, X puede recrear el marco: la entrada vacía se
+            # reaplica para que los clics sigan llegando al juego.
+            self._apply_passthrough()
+            return True
         user32 = self._get_user32()
         if user32 is None:
             return False
@@ -731,6 +822,13 @@ class Overlay:
             return False
 
     def _set_topmost(self, hwnd=None):
+        if self._linux:
+            try:
+                self._root.attributes('-topmost', True)
+                self._root.lift()
+                return True
+            except Exception:
+                return False
         user32 = self._get_user32()
         if user32 is None:
             return False
@@ -760,6 +858,18 @@ class Overlay:
         try:
             root = self._root
             root.update_idletasks()
+            if self._linux:
+                self._set_alpha(0.0)
+                try:
+                    root.deiconify()
+                    root.update()
+                except Exception:
+                    pass
+                self._set_topmost()
+                # La ventana ya está mapeada: XShape puede vaciar su entrada.
+                self._apply_passthrough()
+                self._mapped = True
+                return
             hwnd = self._frame_hwnd()
             self._apply_native_styles(hwnd)
             self._set_alpha(0.0)
