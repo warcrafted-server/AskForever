@@ -10,13 +10,19 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Added: AskForever App also works on Linux. It comes as an x86_64 tar.gz with installer and uninstaller, captures the screen through the desktop screen portal only while the game is running, shows the answer panel over the game (also with Wine/Proton native Wayland), lives in the tray, saves your key in the desktop keyring, finds your WoW folder and only announces new releases. Installation guides in English and Spanish.
 - Tested only on Arch-based distributions with KDE Plasma on Wayland and Lutris. Known limitation: with Wine/Proton native Wayland, the panel stays visible when you switch windows.
 - Changed (internal): the release workflow also builds the Linux package.
-- The Windows app and the addon behave as before.
+- The Windows app and the addon work as before.
+- Updated (November 25 guides): Retribution Paladin enchants, consumables and PvP build; Assassination and shared Rogue PvP builds; Restoration Shaman PvP build; Mage consumables, enchants and Frost builds, with two new Frost builds (dungeons and area farming); Fishing sources.
+- Updated: game data from the November 25 wowdata update (client build 1.60.1.71139).
+- Data patch 2026.11.25.1.
 
 ### Español
 - Añadido: AskForever App también funciona en Linux. Llega en un tar.gz de x86_64 con instalador y desinstalador, captura la pantalla por el portal del escritorio solo mientras el juego está abierto, muestra el panel de respuesta sobre el juego (también con Wine/Proton en Wayland nativo), vive en la bandeja, guarda tu clave en el llavero del escritorio, encuentra tu carpeta de WoW y solo avisa de las versiones nuevas. Guías de instalación en español e inglés.
 - Probado solo en distribuciones basadas en Arch con KDE Plasma en Wayland y Lutris. Limitación conocida: con Wine/Proton en Wayland nativo, el panel sigue visible al cambiar de ventana.
 - Cambiado (interno): el workflow de release también compila el paquete de Linux.
 - La aplicación de Windows y el addon funcionan como antes.
+- Actualizado (guías del 25 de noviembre): encantamientos, consumibles y build JcJ del Paladín Reprensión; builds JcJ de Pícaro Asesinato y compartida; build JcJ del Chamán Restauración; consumibles, encantamientos y builds de Escarcha del Mago, con dos builds nuevas de Escarcha (mazmorras y granjeo en área); fuentes de Pesca.
+- Actualizado: datos del juego de la actualización de wowdata del 25 de noviembre (build del cliente 1.60.1.71139).
+- Parche de datos 2026.11.25.1.
 
 ## [0.4.0-beta.12] - 2026-11-24
 

@@ -13,11 +13,12 @@ El detalle de cada hito está en [ROADMAP.md](ROADMAP.md). Lo hecho está en el 
 - **Créditos de los datos** (Blizzard y Wowhead) cuando wowdata deje de incluir Questie: `CREDITS.md` EN/ES con la Skill `licencias` y autorización de Marc.
 
 - **Leer respuestas largas en el chat** (pedido por Marc): ventana del addon redimensionable, desplazamiento con la rueda y botones ▲/▼ sobre el panel (el overlay no recibe clics), y mostrar cada respuesta nueva desde su principio. Diseño en `.agents/plans/consultas/consultas.PLAN.md` (3c).
-- **Capturas para las guías de Linux** (pendiente de Marc): capturas de pantalla para `docs/INSTALACION_LINUX.md` y `docs/INSTALL_LINUX.md`.
 - **Primera ejecución del trabajo de Linux en GitHub Actions** (0.5.0-beta.1): lanzar el trabajo nuevo del workflow y comprobar que el paquete compilado en Ubuntu funciona en Arch.
 - **Borrar del historial publicado las capturas de `companion/spike-linux`**: las dos capturas de escritorio añadidas en el commit e84ce60 (también contenidas en la etiqueta v0.4.0-beta.12) siguen en el historial de git; purgarlas.
 
 ## Media
+- **Druida Equilibrio: Wowhead y los datos del juego no coinciden** (2026-11-25, build 71139): el calculador de Wowhead muestra «Starlight Wrath», «Moon and Stars», «Dreamstate» en el sitio de «Moonfury» e «Improved Starfire» con 2 rangos; las DB2 no lo confirman y mandan ellas, así que las fichas no se tocan. Volver a comprobarlo con la próxima actualización. Afecta a los paquetes descodificados y a `ext_wh_*`.
+- **Guías nuevas sin ficha** (2026-11-25): guías de subida 1-60 de Mago y de Brujo y conjuntos de mazmorra de nivel 0.5 (Tier 0.5).
 - **Descripción de los objetos en las respuestas** (wowdata, 2026-11-24): el companion no lee la descripción del objeto (`ItemSparse.Description_lang_esES`, con el inglés de respaldo; 4820 de 4828 la tienen en español). Añadirla a `item_sources` ayudaría con «¿qué hago con este objeto?»; hoy esa pregunta solo se salva si hay ficha.
 - **Actualización diaria de guías** (Marc, 2026-11-18): `companion/tools/guide_update.py` que importe la descarga del día, refresque solas las fichas con cambios solo de forma y prepare tareas estrechas por clase. Plan en `.agents/plans/actualizacion-diaria/`.
 - **Chat dentro de la ventana del addon** (vuelta por addons «slot»): diseño en `.agents/plans/m3-slots/m3-slots.PLAN.md`; con ello, la ventana de informe podrá mostrar la respuesta.
