@@ -1,6 +1,9 @@
+import os
 import signal
 import threading
 import types
+
+import pytest
 
 from askforever import cli
 from askforever.app import main
@@ -78,6 +81,7 @@ def _as_main_thread(monkeypatch):
         current_thread=lambda: current, main_thread=lambda: current))
 
 
+@pytest.mark.skipif(os.name == 'nt', reason='señales de salida de Linux')
 def test_signal_handlers_submit_exit_now_and_restore_previous(monkeypatch):
     _as_main_thread(monkeypatch)
     previous = {FakeSignalModule.SIGTERM: 'old-term',
@@ -137,6 +141,7 @@ class FakeUpdater:
         pass
 
 
+@pytest.mark.skipif(os.name == 'nt', reason='señales de salida de Linux')
 def test_run_app_installs_and_restores_exit_signal_handlers(monkeypatch):
     windows = []
     monkeypatch.setattr(main, 'ui_language', lambda: 'es')
