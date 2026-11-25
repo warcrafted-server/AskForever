@@ -16,6 +16,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Added (internal, Linux version in preparation): the release tarball includes an installer and an uninstaller (`install.sh` and `uninstall.sh`), which copy the companion and the addon into the game folder (or update them without touching saved data), warn about missing GStreamer components, can create a desktop shortcut, and remove only their own installation.
 - Corrected (internal, Linux version in preparation): the system programs the companion launches on Linux (screen capture, logs folder, notifications) run with the system library path, not the packaged app's.
 - Corrected (internal, Linux version in preparation): on Wayland the companion captures the screen through the portal only while the game is running, so the screen-sharing dialog no longer opens at startup and the capture is released when the game closes.
+- Corrected (internal, Linux version in preparation): closing the Linux app with `kill` or a signal no longer leaves the overlay process running, and the overlay also exits by itself when its parent process disappears.
 
 ### Español
 - Añadido (interno, versión para Linux en preparación): el paquete de la versión de Linux se genera con `scripts/build-linux.sh`, que compila el companion con PyInstaller y empaqueta el programa, el addon público y el instalador en `askforever-<version>-linux-x86_64.tar.gz` junto a su suma SHA-256.
@@ -29,6 +30,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Añadido (interno, versión para Linux en preparación): el tar.gz de la versión incluye un instalador y un desinstalador (`install.sh` y `uninstall.sh`), que copian el companion y el addon a la carpeta del juego (o los actualizan sin tocar los datos guardados), avisan si faltan componentes de GStreamer, pueden crear un acceso directo y borran solo su propia instalación.
 - Corregido (interno, versión para Linux en preparación): los programas del sistema que el companion lanza en Linux (captura de pantalla, carpeta de logs, notificaciones) usan la ruta de bibliotecas del sistema, no la de la aplicación empaquetada.
 - Corregido (interno, versión para Linux en preparación): en Wayland el companion captura la pantalla por el portal solo mientras el juego está abierto, de modo que el diálogo de compartir pantalla ya no sale al arrancar y la captura se libera al cerrar el juego.
+- Corregido (interno, versión para Linux en preparación): cerrar la aplicación de Linux con `kill` o una señal ya no deja el proceso del overlay en marcha, y el overlay también termina por sí solo cuando desaparece su proceso principal.
 
 ## [0.4.0-beta.12] - 2026-11-24
 

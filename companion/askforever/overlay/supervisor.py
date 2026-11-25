@@ -18,6 +18,7 @@ STARTUP_GRACE = 10.0
 MAX_RESTARTS = 5
 RESTART_WINDOW = 300.0
 JOIN_TIMEOUT = 2.0
+ORPHAN_CHECK_SECONDS = 1.0
 LOG_MAX_BYTES = 1024 * 1024
 LOG_BACKUPS = 3
 
@@ -55,8 +56,27 @@ def _child_main(state_queue, heartbeat_value, ttl, log_path) -> None:
     """Punto de entrada del proceso que dibuja el overlay."""
     configure_logging(log_path)
 
+    parent = multiprocessing.parent_process()
+    last_parent_check = [0.0]
+
     def heartbeat():
         heartbeat_value.value = time.time()
+        # Si el proceso principal muere, este hijo seguiría dibujando el overlay para
+        # siempre: se comprueba a menudo para cerrarlo y que el bucle de Tk termine.
+        now = time.time()
+        if now - last_parent_check[0] < ORPHAN_CHECK_SECONDS:
+            return
+        last_parent_check[0] = now
+        if parent is None:
+            return
+        try:
+            alive = parent.is_alive()
+        except Exception:
+            LOGGER.exception('No se pudo comprobar el proceso principal del overlay')
+            return
+        if not alive:
+            LOGGER.warning('El proceso principal ha terminado; se cierra el overlay')
+            overlay.close()
 
     overlay = Overlay(ttl, state_queue=state_queue, heartbeat=heartbeat, clock=time.time)
     try:

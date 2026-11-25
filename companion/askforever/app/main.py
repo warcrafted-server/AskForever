@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import ctypes
 import os
+import signal
 import subprocess
 import sys
 import threading
@@ -112,6 +113,47 @@ def _show_existing_message(language):
         pass
 
 
+EXIT_SIGNALS = ('SIGTERM', 'SIGINT', 'SIGHUP')
+
+
+def _install_exit_signals(window, signal_module=None):
+    """Sale por la vía limpia del icono ante una señal de cierre; devuelve los previos."""
+    signal_ = signal_module or signal
+    if os.name == 'nt':
+        return {}
+    if threading.current_thread() is not threading.main_thread():
+        # Las señales solo se gestionan desde el hilo principal.
+        return {}
+
+    def submit_exit(_signum, _frame):
+        try:
+            window.submit_command('exit_now')
+        except Exception:
+            pass
+
+    previous = {}
+    for name in EXIT_SIGNALS:
+        signum = getattr(signal_, name, None)
+        if signum is None:
+            continue
+        try:
+            handler = signal_.getsignal(signum)
+            signal_.signal(signum, submit_exit)
+        except Exception:
+            continue
+        previous[signum] = handler
+    return previous
+
+
+def _restore_exit_signals(previous, signal_module=None):
+    signal_ = signal_module or signal
+    for signum, handler in previous.items():
+        try:
+            signal_.signal(signum, handler)
+        except Exception:
+            pass
+
+
 def run_app(args) -> int:
     language = ui_language()
     mutex, already_running = acquire_single_instance()
@@ -136,6 +178,7 @@ def run_app(args) -> int:
     core_thread = None
     updater = None
     busy_event = threading.Event()
+    previous_signals = {}
     try:
         provider_holder = ProviderHolder()
 
@@ -164,6 +207,11 @@ def run_app(args) -> int:
         if not tray.start():
             tray = None
         window.set_tray(tray)
+        try:
+            previous_signals = _install_exit_signals(window)
+        except Exception:
+            # Sin manejadores la app sigue funcionando: solo se perderá la salida limpia.
+            previous_signals = {}
 
         def run_core():
             try:
@@ -225,4 +273,5 @@ def run_app(args) -> int:
         log_detail(f'app startup failed: {error!r}')
         return 1
     finally:
+        _restore_exit_signals(previous_signals)
         _release_instance_mutex(mutex)

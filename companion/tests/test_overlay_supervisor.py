@@ -6,15 +6,19 @@ import logging
 import queue
 import threading
 import time
+import types
 from logging.handlers import RotatingFileHandler
 
 import pytest
 
+from askforever.overlay import supervisor
 from askforever.overlay.chat import ChatView
 from askforever.overlay.supervisor import (
     HANG_SECONDS,
+    ORPHAN_CHECK_SECONDS,
     STARTUP_GRACE,
     OverlaySupervisor,
+    _child_main,
 )
 from askforever.overlay.window import Overlay
 
@@ -270,3 +274,55 @@ def test_overlay_poll_logs_errors(monkeypatch, caplog):
         overlay._poll()
 
     assert 'Error en el bucle del overlay' in caplog.text
+
+
+class FakeParent:
+    def __init__(self, alive=True):
+        self.alive = alive
+
+    def is_alive(self):
+        return self.alive
+
+
+def test_child_heartbeat_closes_overlay_when_parent_is_dead(tmp_path, monkeypatch, caplog):
+    created = []
+
+    class FakeOverlay:
+        def __init__(self, ttl, state_queue=None, heartbeat=None, clock=None):
+            self.heartbeat = heartbeat
+            self.closed = False
+            self.ran = False
+            created.append(self)
+
+        def run(self):
+            self.ran = True
+
+        def close(self):
+            self.closed = True
+
+    clock = FakeClock(2000.0)
+    parent = FakeParent()
+    monkeypatch.setattr(supervisor, 'Overlay', FakeOverlay)
+    monkeypatch.setattr(supervisor.multiprocessing, 'parent_process', lambda: parent)
+    monkeypatch.setattr(supervisor, 'time', types.SimpleNamespace(time=clock))
+    heartbeat_value = types.SimpleNamespace(value=0.0)
+
+    _child_main(None, heartbeat_value, 30.0, tmp_path / 'child.log')
+
+    overlay = created[-1]
+    assert overlay.ran
+
+    with caplog.at_level(logging.WARNING, logger='askforever.overlay.supervisor'):
+        overlay.heartbeat()
+        assert heartbeat_value.value == 2000.0
+        assert not overlay.closed
+
+        parent.alive = False
+        overlay.heartbeat()
+        assert not overlay.closed
+
+        clock.advance(ORPHAN_CHECK_SECONDS)
+        overlay.heartbeat()
+
+    assert overlay.closed
+    assert caplog.text.count('El proceso principal ha terminado') == 1
