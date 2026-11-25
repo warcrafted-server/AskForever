@@ -46,3 +46,6 @@ addon/AskForever/AskForeverDev.toc
 # Informes y registro de desarrollo
 addon/AskForever/dev/informes/
 addon/AskForever/dev/*.log*
+
+# Capturas de pantalla de las pruebas en Linux y token del portal
+companion/spike-linux/
