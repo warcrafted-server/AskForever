@@ -6,9 +6,11 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ### English
 - Corrected (internal, Linux version in preparation): the Linux dependency of the screen capture is declared, the packaged program no longer forces the Windows credential store outside Windows and the set-key hint names the right command.
+- Added (internal, Linux version in preparation): the companion asks XWayland for the game window's real position and size, and whether it is active, instead of always assuming a provisional 1920×1080 frame at the top-left corner.
 
 ### Español
 - Corregido (interno, versión para Linux en preparación): se declara la dependencia de la captura de pantalla en Linux, el programa empaquetado ya no fuerza el almacén de claves de Windows fuera de Windows y el aviso de set-key nombra la orden correcta.
+- Añadido (interno, versión para Linux en preparación): el companion pregunta a XWayland la posición y el tamaño reales de la ventana del juego, y si está activa, en lugar de suponer siempre un marco provisional de 1920×1080 en la esquina superior izquierda.
 
 ## [0.4.0-beta.12] - 2026-11-24
 

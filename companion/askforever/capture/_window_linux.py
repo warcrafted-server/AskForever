@@ -1,8 +1,9 @@
-"""Localiza el proceso de WoW bajo Wine/Proton leyendo /proc.
+"""Localiza el proceso de WoW bajo Wine/Proton y la ventana que dibuja en XWayland.
 
-En Linux no hay API de ventanas común (Wayland no expone posiciones), así que solo
-se detecta que el juego está en marcha. La geometría es provisional: la captura real
-la decide el backend de captura (portal de pantalla) y recorta la esquina del monitor.
+El proceso se detecta leyendo /proc; la geometría real se pregunta a X11 cuando hay
+pantalla y ventana del juego. Si no la hay (Wayland puro, portal de pantalla) se
+mantiene la geometría provisional: la captura real la decide el backend y recorta
+la esquina del monitor.
 """
 
 from __future__ import annotations
@@ -10,6 +11,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Optional
 
+from askforever.capture import x11
 from askforever.capture.window import GameWindow
 
 DEFAULT_WIDTH = 1920
@@ -39,8 +41,24 @@ def _process_image_path(pid: int) -> Optional[str]:
     return args[0] if args else None
 
 
-def find_game_window(process_name: str = 'Wow.exe', proc_root: Path = Path('/proc')) -> Optional[GameWindow]:
-    """Devuelve un GameWindow provisional si hay un proceso `process_name`, o None."""
+def _x11_window(open_display) -> Optional[x11.XWindow]:
+    """Geometría de la ventana del juego en X11, o None si no se puede consultar."""
+    try:
+        display = open_display()
+        if display is None:
+            return None
+        try:
+            return display.find_game_window()
+        finally:
+            display.close()
+    except Exception:
+        return None
+
+
+def find_game_window(
+        process_name: str = 'Wow.exe', proc_root: Path = Path('/proc'),
+        open_display=x11.open_display) -> Optional[GameWindow]:
+    """GameWindow del proceso `process_name`, con geometría X11 si está disponible."""
     target = process_name.lower()
     for entry in proc_root.iterdir():
         if not entry.name.isdigit():
@@ -51,5 +69,12 @@ def find_game_window(process_name: str = 'Wow.exe', proc_root: Path = Path('/pro
             continue
         args = [part.decode('utf-8', 'replace') for part in raw.split(b'\0') if part]
         if args and _basename(args[0]).lower() == target:
-            return GameWindow(int(entry.name), process_name, 0, 0, DEFAULT_WIDTH, DEFAULT_HEIGHT, args[0])
+            pid = int(entry.name)
+            found = _x11_window(open_display)
+            if found is not None:
+                return GameWindow(
+                    pid, process_name, found.x, found.y,
+                    found.width, found.height, args[0])
+            return GameWindow(
+                pid, process_name, 0, 0, DEFAULT_WIDTH, DEFAULT_HEIGHT, args[0])
     return None
