@@ -28,7 +28,7 @@ AskForever knows your level, faction and zone, uses verified data from the game 
 ![AskForever App window](docs/img/v0.4.0-app-ventana.png)
 
 ### Status
-**0.4.0-beta.12 (beta).** Answers use verified game data and the current Wowhead guides: quests (where to get each objective, with your active quests), travel routes with flights and transports, class help (talent builds, rotations, stats, enchants, leveling), professions, dungeons, raids and PvP. It knows your talents and unspent points, and tells you where to spend your next talent point, which talents to have at a level and which abilities you learn at a level. The addon and AskForever App for Windows work together: ask with `/af` or the minimap button and read the answer in game. AskForever App has its own window and system-tray controls, a tested-in-app AI key setup dialog, and automatic app updates. Game data and guide cards are delivered with addon updates through CurseForge. English and Spanish.
+**0.5.0-beta.1 (beta).** Answers use verified game data and the current Wowhead guides: quests (where to get each objective, with your active quests), travel routes with flights and transports, class help (talent builds, rotations, stats, enchants, leveling), professions, dungeons, raids and PvP. It knows your talents and unspent points, and tells you where to spend your next talent point, which talents to have at a level and which abilities you learn at a level. The addon and AskForever App work together on Windows and Linux (Linux: first beta, tested only on Arch-based distributions with KDE Plasma on Wayland and Lutris): ask with `/af` or the minimap button and read the answer in game. AskForever App has its own window and system-tray controls, a tested-in-app AI key setup dialog, and automatic app updates on Windows. Game data and guide cards are delivered with addon updates through CurseForge. English and Spanish.
 
 See the [ROADMAP](ROADMAP.md), the [CHANGELOG](CHANGELOG.md) and the [TODO](TODO.md).
 
@@ -40,14 +40,24 @@ See the [ROADMAP](ROADMAP.md), the [CHANGELOG](CHANGELOG.md) and the [TODO](TODO
 
 ### Installation
 1. **Addon:** install **AskForever** from the CurseForge app (select the **Forever** installation) or copy the `AskForever` folder from the addon zip into `World of Warcraft\_forever_\Interface\AddOns\`.
-2. **AskForever App:** download the latest `AskForever-Setup-<version>.exe` from the [latest release](https://github.com/warcrafted-server/AskForever/releases/latest) and run it. It installs for your Windows user only, without administrator permission, and adds AskForever App to the Start menu.
+2. **AskForever App (Windows):** download the latest `AskForever-Setup-<version>.exe` from the [latest release](https://github.com/warcrafted-server/AskForever/releases/latest) and run it. It installs for your Windows user only, without administrator permission, and adds AskForever App to the Start menu.
 3. **Free key:** open AskForever App. On first launch, its Configure AI dialog guides you through getting a free Google Gemini key (see the [Gemini key guide](docs/GEMINI_KEY.md)), tests it and saves it securely in Windows Credential Manager. The app downloads the base game database from GitHub when needed and applies the game data and guide cards included with the addon.
 
 Keep AskForever App running while you play; closing its window sends it to the system tray, where you can reopen it or quit. The app updates itself and reopens after an update. Update game data and guide cards by updating the addon in CurseForge. The in-game chat can be scrolled with the mouse wheel or arrow buttons, and its window can be resized from the bottom-right corner.
 
 The addon folder also includes `README.txt` and a `docs` folder with the installation guide and the security and data transparency report.
 
-👉 **[Full installation guide](docs/INSTALL_GUIDE.md)**
+👉 **[Full Windows installation guide](docs/INSTALL_GUIDE.md)**
+
+#### Linux (first beta)
+Tested only on Arch-based distributions with KDE Plasma on Wayland and Lutris.
+
+1. **Packages:** on Arch and derivatives, run `sudo pacman -S --needed gstreamer gst-plugins-base gst-plugins-good gst-plugin-pipewire xdg-desktop-portal libx11 libxext`, and install your desktop's portal (on KDE, the `xdg-desktop-portal-kde` package) and a Secret Service keyring (KWallet or GNOME Keyring).
+2. **Download and check:** get `askforever-<version>-linux-x86_64.tar.gz` and its `.sha256` file from the [latest release](https://github.com/warcrafted-server/AskForever/releases/latest), then run `sha256sum -c askforever-<version>-linux-x86_64.tar.gz.sha256`.
+3. **Install:** run `tar -xzf askforever-<version>-linux-x86_64.tar.gz`, enter the `askforever-<version>` folder and run `./install.sh --desktop` (no root). It installs the addon and AskForever App and adds AskForever App to the applications menu.
+4. **Free key and screen sharing:** on first launch, the Configure AI dialog guides you through getting a free Google Gemini key and saves it in your desktop keyring. With WoW open, choose the game's monitor when the desktop asks to share your screen.
+
+👉 **[Full Linux installation guide](docs/INSTALL_LINUX.md)**
 
 ### Development
 Run `scripts\dev-link.ps1` to link this repository as a development copy. It appears in the AddOns list as **AskForever (dev)** and can coexist with the CurseForge install; enable only one at a time. Restart WoW completely the first time.
@@ -75,7 +85,7 @@ AskForever conoce tu nivel, facción y zona, usa datos verificados de la base de
 ![Ventana de AskForever App](docs/img/v0.4.0-app-ventana.png)
 
 ### Estado
-**0.4.0-beta.12 (beta).** Las respuestas usan datos verificados del juego y las guías actuales de Wowhead: misiones (dónde conseguir cada objetivo, con tus misiones activas), rutas con vuelos y transportes, ayuda de clase (builds de talentos, rotaciones, estadísticas, encantamientos, subida de nivel), profesiones, mazmorras, bandas y JcJ. Conoce tus talentos y puntos sin gastar, y te dice dónde gastar el siguiente punto de talento, qué talentos tener a un nivel y qué habilidades aprendes a un nivel. El addon y AskForever App para Windows funcionan juntos: pregunta con `/af` o el botón del minimapa y lee la respuesta dentro del juego. AskForever App tiene ventana y controles en la bandeja del sistema, un diálogo para configurar y probar la clave de IA, y actualizaciones automáticas de la app. Los datos del juego y las fichas llegan con las actualizaciones del addon desde CurseForge. Inglés y español.
+**0.5.0-beta.1 (beta).** Las respuestas usan datos verificados del juego y las guías actuales de Wowhead: misiones (dónde conseguir cada objetivo, con tus misiones activas), rutas con vuelos y transportes, ayuda de clase (builds de talentos, rotaciones, estadísticas, encantamientos, subida de nivel), profesiones, mazmorras, bandas y JcJ. Conoce tus talentos y puntos sin gastar, y te dice dónde gastar el siguiente punto de talento, qué talentos tener a un nivel y qué habilidades aprendes a un nivel. El addon y AskForever App funcionan juntos en Windows y Linux (Linux: primera beta, probada solo en Arch y derivadas con KDE Plasma en Wayland y Lutris): pregunta con `/af` o el botón del minimapa y lee la respuesta dentro del juego. AskForever App tiene ventana y controles en la bandeja del sistema, un diálogo para configurar y probar la clave de IA, y actualizaciones automáticas de la app en Windows. Los datos del juego y las fichas llegan con las actualizaciones del addon desde CurseForge. Inglés y español.
 
 Consulta la [hoja de ruta](ROADMAP.md), el [CHANGELOG](CHANGELOG.md) y el [TODO](TODO.md).
 
@@ -87,14 +97,24 @@ Consulta la [hoja de ruta](ROADMAP.md), el [CHANGELOG](CHANGELOG.md) y el [TODO]
 
 ### Instalación
 1. **Addon:** instala **AskForever** desde la app de CurseForge (selecciona la instalación **Forever**) o copia la carpeta `AskForever` del zip del addon en `World of Warcraft\_forever_\Interface\AddOns\`.
-2. **AskForever App:** descarga el último `AskForever-Setup-<versión>.exe` de la [última versión](https://github.com/warcrafted-server/AskForever/releases/latest) y ejecútalo. Se instala solo para tu usuario de Windows, sin permisos de administrador, y añade AskForever App al menú Inicio.
+2. **AskForever App (Windows):** descarga el último `AskForever-Setup-<versión>.exe` de la [última versión](https://github.com/warcrafted-server/AskForever/releases/latest) y ejecútalo. Se instala solo para tu usuario de Windows, sin permisos de administrador, y añade AskForever App al menú Inicio.
 3. **Clave gratuita:** abre AskForever App. La primera vez, su diálogo Configurar IA te guía para conseguir una clave gratuita de Google Gemini (consulta la [guía de la clave de Gemini](docs/CLAVE_GEMINI.md)), la prueba y la guarda de forma segura en el Administrador de credenciales de Windows. La app descarga la base de datos del juego desde GitHub cuando hace falta y aplica los datos y las fichas incluidos con el addon.
 
 Mantén AskForever App abierta mientras juegas; al cerrar su ventana queda en la bandeja del sistema, desde donde puedes volver a abrirla o salir. La app se actualiza sola y vuelve a abrirse al terminar. Para actualizar los datos y las fichas, actualiza el addon en CurseForge. El chat del juego se desplaza con la rueda del ratón o los botones de flecha y su ventana se puede cambiar de tamaño desde la esquina inferior derecha.
 
 La carpeta del addon también incluye `README.txt` y una carpeta `docs` con la guía de instalación y el informe de seguridad y transparencia de datos.
 
-👉 **[Guía de instalación completa](docs/GUIA_INSTALACION.md)**
+👉 **[Guía de instalación completa para Windows](docs/GUIA_INSTALACION.md)**
+
+#### Linux (primera beta)
+Probada solo en Arch y derivadas con KDE Plasma en Wayland y Lutris.
+
+1. **Paquetes:** en Arch y derivadas, ejecuta `sudo pacman -S --needed gstreamer gst-plugins-base gst-plugins-good gst-plugin-pipewire xdg-desktop-portal libx11 libxext`, e instala el portal de tu escritorio (en KDE, el paquete `xdg-desktop-portal-kde`) y un llavero Secret Service (KWallet o GNOME Keyring).
+2. **Descarga y comprobación:** consigue `askforever-<versión>-linux-x86_64.tar.gz` y su archivo `.sha256` en la [última versión](https://github.com/warcrafted-server/AskForever/releases/latest) y ejecuta `sha256sum -c askforever-<versión>-linux-x86_64.tar.gz.sha256`.
+3. **Instalación:** ejecuta `tar -xzf askforever-<versión>-linux-x86_64.tar.gz`, entra en la carpeta `askforever-<versión>` y ejecuta `./install.sh --desktop` (sin root). Instala el addon y AskForever App y añade AskForever App al menú de aplicaciones.
+4. **Clave gratuita y pantalla:** la primera vez, el diálogo Configurar IA te guía para conseguir una clave gratuita de Google Gemini y la guarda en el llavero de tu escritorio. Con WoW abierto, elige el monitor del juego cuando el escritorio pida compartir pantalla.
+
+👉 **[Guía de instalación completa para Linux](docs/INSTALACION_LINUX.md)**
 
 ### Desarrollo
 Ejecuta `scripts\dev-link.ps1` para enlazar este repositorio como copia de desarrollo. Aparece en la lista de AddOns como **AskForever (desarrollo)** y puede convivir con la instalación de CurseForge; activa solo una a la vez. Reinicia WoW por completo la primera vez.
