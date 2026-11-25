@@ -221,3 +221,68 @@ def test_wants_portal_only_on_wayland_linux():
     assert portal.wants_portal({'XDG_SESSION_TYPE': 'wayland'}, 'linux')
     assert not portal.wants_portal({'XDG_SESSION_TYPE': 'x11'}, 'linux')
     assert not portal.wants_portal({'XDG_SESSION_TYPE': 'wayland'}, 'win32')
+
+
+def test_open_portal_session_runs_the_whole_negotiation(monkeypatch, tmp_path):
+    """Recorre la negociación real con jeepney; solo se sustituye el bus."""
+    blocking = pytest.importorskip('jeepney.io.blocking')
+    from contextlib import contextmanager
+    from types import SimpleNamespace
+
+    from jeepney import HeaderFields, MessageType
+
+    responses = {
+        'CreateSession': {'session_handle': ('s', '/sesion')},
+        'SelectSources': {},
+        'Start': {'streams': ('a(ua{sv})', [(74, {'size': ('(ii)', (1920, 1080)),
+                                                  'position': ('(ii)', (1920, 0))})]),
+                  'restore_token': ('s', 'token-nuevo')},
+    }
+    calls = []
+
+    class FakeBus:
+        unique_name = ':1.5'
+
+        def send_and_get_reply(self, message, timeout=None):
+            member = message.header.fields[HeaderFields.member]
+            calls.append(member)
+            fd = SimpleNamespace(to_raw_fd=lambda: 7)
+            return SimpleNamespace(
+                header=SimpleNamespace(message_type=MessageType.method_return, fields={}),
+                body=(fd,) if member == 'OpenPipeWireRemote' else ())
+
+        @contextmanager
+        def filter(self, rule):
+            yield []
+
+        def recv_until_filtered(self, queue, timeout=None):
+            return SimpleNamespace(body=(0, responses[calls[-1]]))
+
+        def close(self):
+            pass
+
+    monkeypatch.setattr(blocking, 'open_dbus_connection', lambda **kwargs: FakeBus())
+
+    stream = portal.open_portal_session(tmp_path / 'token')
+
+    assert (stream.fd, stream.node_id, stream.width, stream.height) == (7, 74, 1920, 1080)
+    assert (stream.x, stream.y) == (1920, 0)
+    assert (tmp_path / 'token').read_text(encoding='utf-8') == 'token-nuevo'
+    assert [name for name in calls if name != 'AddMatch'] == [
+        'CreateSession', 'SelectSources', 'Start', 'OpenPipeWireRemote']
+
+
+def test_capture_reports_gstreamer_errors_when_the_stream_ends(monkeypatch):
+    errors = []
+    # El descriptor de la sesión falsa no es nuestro: cerrarlo rompería pytest.
+    monkeypatch.setattr(portal.os, 'close', lambda fd: None)
+
+    def spawn(command, **kwargs):
+        kwargs['stderr'].write(b'ERROR: not-negotiated')
+        return _FakeProcess(b'')
+
+    capture = portal.PortalCapture(open_session=lambda token_path: _stream(),
+                                   spawn=spawn, on_error=errors.append)
+
+    assert capture() is None
+    assert len(errors) == 1 and 'not-negotiated' in str(errors[0])

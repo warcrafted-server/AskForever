@@ -5,6 +5,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 ## [Unreleased]
 
 ### English
+- Corrected (internal, Linux version in preparation): the screen capture through the portal failed to start (wrong library import); its start, first frame and GStreamer errors are now written to the log.
 - Added (internal, Linux version in preparation): the Linux release package is built with `scripts/build-linux.sh`, which compiles the companion with PyInstaller and packs the program, the public addon and the installer into `askforever-<version>-linux-x86_64.tar.gz` with its SHA-256 checksum.
 - Corrected (internal, Linux version in preparation): the Linux dependency of the screen capture is declared, the packaged program no longer forces the Windows credential store outside Windows and the set-key hint names the right command.
 - Added (internal, Linux version in preparation): the companion asks XWayland for the game window's real position and size, and whether it is active, instead of always assuming a provisional 1920×1080 frame at the top-left corner.
@@ -20,6 +21,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Corrected (internal, Linux version in preparation): the overlay also works when WoW runs with Wine's native Wayland driver (no X window for the game) and is placed on the monitor chosen in the screen-sharing portal.
 
 ### Español
+- Corregido (interno, versión para Linux en preparación): la captura de pantalla por el portal no llegaba a arrancar (importación errónea de la librería); su arranque, el primer fotograma y los errores de GStreamer quedan ahora en el registro.
 - Añadido (interno, versión para Linux en preparación): el paquete de la versión de Linux se genera con `scripts/build-linux.sh`, que compila el companion con PyInstaller y empaqueta el programa, el addon público y el instalador en `askforever-<version>-linux-x86_64.tar.gz` junto a su suma SHA-256.
 - Corregido (interno, versión para Linux en preparación): se declara la dependencia de la captura de pantalla en Linux, el programa empaquetado ya no fuerza el almacén de claves de Windows fuera de Windows y el aviso de set-key nombra la orden correcta.
 - Añadido (interno, versión para Linux en preparación): el companion pregunta a XWayland la posición y el tamaño reales de la ventana del juego, y si está activa, en lugar de suponer siempre un marco provisional de 1920×1080 en la esquina superior izquierda.

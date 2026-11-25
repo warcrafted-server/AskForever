@@ -11,6 +11,7 @@ import json
 import logging
 import os
 import subprocess
+import tempfile
 import threading
 import time
 from dataclasses import dataclass
@@ -108,8 +109,7 @@ def open_portal_session(token_path: Optional[Path] = None) -> PortalStream:
     """Negocia con el portal y devuelve el flujo; bloquea mientras el usuario elige."""
     from jeepney import DBusAddress, MatchRule, MessageType, new_method_call
     from jeepney.bus_messages import message_bus
-    from jeepney.io.blocking import open_dbus_connection
-    from jeepney.wrappers import Proxy
+    from jeepney.io.blocking import Proxy, open_dbus_connection
 
     try:
         connection = open_dbus_connection(bus='SESSION', enable_fds=True)
@@ -211,6 +211,8 @@ class PortalCapture:
         self._retry_at = 0.0
         self._checked_at: Optional[float] = None
         self._running = True
+        self._errors = None
+        self._received = False
         self._lock = threading.Lock()
 
     def __call__(self) -> Optional[Image.Image]:
@@ -223,9 +225,11 @@ class PortalCapture:
             return None
         data = self._read(FRAME_BYTES)
         if data is None:
-            self.close()
-            self._retry_at = self._clock() + RETRY_AFTER
+            self._fail(PortalError(f'GStreamer dejó de entregar imagen. {self._gst_errors()}'))
             return None
+        if not self._received:
+            self._received = True
+            LOGGER.info('captura por portal: primer fotograma recibido')
         return Image.frombytes('RGB', (STRIP_WIDTH, STRIP_HEIGHT), data)
 
     def _game_running(self) -> bool:
@@ -253,10 +257,12 @@ class PortalCapture:
         try:
             self._stream = self._open_session(self.token_path)
             self._write_geometry(self._stream)
+            self._errors = tempfile.TemporaryFile()
+            self._received = False
             env = external_env()
             extra = {} if env is None else {'env': env}
             self._process = self._spawn(gst_command(self._stream), stdout=subprocess.PIPE,
-                                        stderr=subprocess.DEVNULL, pass_fds=[self._stream.fd],
+                                        stderr=self._errors, pass_fds=[self._stream.fd],
                                         **extra)
         except FileNotFoundError as error:
             self._fail(PortalError(f'Falta gst-launch-1.0 (gstreamer): {error}'))
@@ -264,7 +270,25 @@ class PortalCapture:
         except Exception as error:
             self._fail(error)
             return False
+        LOGGER.info('captura por portal en marcha: monitor %dx%d en (%d,%d)', self._stream.width,
+                    self._stream.height, self._stream.x, self._stream.y)
         return True
+
+    def _gst_errors(self) -> str:
+        """Final de la salida de errores de gst-launch, para el registro."""
+        process, errors = self._process, self._errors
+        if errors is None:
+            return ''
+        try:
+            if process is not None:
+                process.wait(timeout=2)
+        except Exception:
+            pass
+        try:
+            errors.seek(0)
+            return errors.read().decode('utf-8', 'replace').strip()[-1500:]
+        except Exception:
+            return ''
 
     def _write_geometry(self, stream: PortalStream) -> None:
         """El overlay vive en otro proceso: comparte la geometría del monitor por archivo."""
@@ -307,6 +331,9 @@ class PortalCapture:
         with self._lock:
             process, self._process = self._process, None
             stream, self._stream = self._stream, None
+            errors, self._errors = self._errors, None
+        if errors is not None:
+            errors.close()
         if process is not None:
             try:
                 process.kill()
