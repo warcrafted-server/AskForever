@@ -13,7 +13,7 @@ from pathlib import Path
 from typing import Optional
 from urllib.parse import quote
 
-from askforever import config, updates
+from askforever import config, paths, updates
 
 
 class PatchError(Exception):
@@ -50,6 +50,14 @@ def _safe_file_name(name) -> bool:
             and Path(name).name == name and '/' not in name and '\\' not in name)
 
 
+def _addon_data_in(game_dir: Path) -> Optional[Path]:
+    for addon_name in ('AskForeverDev', 'AskForever'):
+        candidate = game_dir / 'Interface' / 'AddOns' / addon_name / 'data'
+        if (candidate / 'manifest.lua').is_file():
+            return candidate
+    return None
+
+
 def find_addon_data_dir(exe_path=None) -> Optional[Path]:
     """Locate addon data, preferring the explicit environment override."""
     override = os.environ.get('ASKFOREVER_ADDON_DIR')
@@ -57,13 +65,14 @@ def find_addon_data_dir(exe_path=None) -> Optional[Path]:
         candidate = Path(override)
         if (candidate / 'manifest.lua').is_file():
             return candidate
-    if not exe_path:
-        return None
-    game_dir = Path(exe_path).parent
-    for addon_name in ('AskForeverDev', 'AskForever'):
-        candidate = game_dir / 'Interface' / 'AddOns' / addon_name / 'data'
-        if (candidate / 'manifest.lua').is_file():
-            return candidate
+    if exe_path:
+        found = _addon_data_in(Path(exe_path).parent)
+        if found is not None:
+            return found
+    # Empaquetado en Linux el juego está junto al programa y puede estar cerrado.
+    game_dir = paths.portable_game_dir()
+    if game_dir is not None:
+        return _addon_data_in(game_dir)
     return None
 
 

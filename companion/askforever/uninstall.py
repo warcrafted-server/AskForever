@@ -61,6 +61,11 @@ def _remove(path: Path, root: Path) -> bool:
 def _addons_dir(game_addons_dir) -> Optional[Path]:
     if game_addons_dir is not None:
         return Path(game_addons_dir)
+    # Empaquetado en Linux manda la carpeta de este programa: desinstalar esta
+    # copia no debe tocar el addon de otra instalación con el juego abierto.
+    game_dir = paths.portable_game_dir()
+    if game_dir is not None:
+        return game_dir / 'Interface' / 'AddOns'
     try:
         window = find_game_window()
         if window is None:
