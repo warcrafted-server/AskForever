@@ -17,7 +17,7 @@ from askforever.web.wiki import WikiClient
 def _use_windows_credential_manager() -> None:
     # Empaquetado con PyInstaller, keyring no descubre sus backends (los busca por metadatos
     # del paquete): sin esto no lee, guarda ni borra la clave.
-    if not getattr(sys, 'frozen', False):
+    if sys.platform != 'win32' or not getattr(sys, 'frozen', False):
         return
     try:
         from keyring.backends.Windows import WinVaultKeyring

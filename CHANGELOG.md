@@ -4,6 +4,12 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+### English
+- Corrected (internal, Linux version in preparation): the Linux dependency of the screen capture is declared, the packaged program no longer forces the Windows credential store outside Windows and the set-key hint names the right command.
+
+### Español
+- Corregido (interno, versión para Linux en preparación): se declara la dependencia de la captura de pantalla en Linux, el programa empaquetado ya no fuerza el almacén de claves de Windows fuera de Windows y el aviso de set-key nombra la orden correcta.
+
 ## [0.4.0-beta.12] - 2026-11-24
 
 ### English
