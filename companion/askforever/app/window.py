@@ -14,6 +14,7 @@ from tkinter import messagebox, ttk
 
 from askforever import config, setup_wizard
 from askforever.app.events import get_bus
+from askforever.system_env import external_env
 
 BG = '#1b1610'
 PANEL = '#241d15'
@@ -278,7 +279,7 @@ class AppWindow(tk.Tk):
         if startfile is not None:
             startfile(str(path))
         else:
-            subprocess.Popen(['xdg-open', str(path)])
+            subprocess.Popen(['xdg-open', str(path)], env=external_env())
 
     def open_help(self):
         webbrowser.open(setup_wizard.GUIDE_URL)

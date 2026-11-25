@@ -16,6 +16,7 @@ from askforever.app.setup import ProviderHolder, SetupDialog
 from askforever.app.tray import create_tray
 from askforever.app.window import AppWindow, ui_language
 from askforever.overlay.supervisor import OverlaySupervisor
+from askforever.system_env import external_env
 
 MUTEX_NAME = 'Local\\AskForeverApp'
 ERROR_ALREADY_EXISTS = 183
@@ -105,7 +106,8 @@ def _show_existing_message(language):
             _message_box(text, title, 0x40)
         else:
             print(text, file=sys.stderr)
-            subprocess.run(['notify-send', title, text], check=False, timeout=5)
+            subprocess.run(['notify-send', title, text], check=False, timeout=5,
+                           env=external_env())
     except Exception:
         pass
 

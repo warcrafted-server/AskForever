@@ -18,6 +18,8 @@ from typing import Callable, Optional
 
 from PIL import Image
 
+from askforever.system_env import external_env
+
 LOGGER = logging.getLogger('askforever.capture.portal')
 
 STRIP_WIDTH = 512
@@ -197,8 +199,11 @@ class PortalCapture:
             return False
         try:
             self._stream = self._open_session(self.token_path)
+            env = external_env()
+            extra = {} if env is None else {'env': env}
             self._process = self._spawn(gst_command(self._stream), stdout=subprocess.PIPE,
-                                        stderr=subprocess.DEVNULL, pass_fds=[self._stream.fd])
+                                        stderr=subprocess.DEVNULL, pass_fds=[self._stream.fd],
+                                        **extra)
         except FileNotFoundError as error:
             self._fail(PortalError(f'Falta gst-launch-1.0 (gstreamer): {error}'))
             return False
