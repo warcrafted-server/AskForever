@@ -11,6 +11,8 @@ on:
       - 'companion/**'
       - 'scripts/installer.iss'
       - 'scripts/build-release.ps1'
+      - 'scripts/build-linux.sh'
+      - 'scripts/linux/**'
       - '.github/workflows/release.yml'
   workflow_dispatch:
     inputs:
@@ -28,6 +30,9 @@ permissions:
 jobs:
   build:
     runs-on: windows-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      release: ${{ steps.version.outputs.release }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -260,3 +265,64 @@ jobs:
           } | ConvertTo-Json -Depth 4 -Compress
           $result = Invoke-RestMethod -Method Post -Uri "$api/projects/$projectId/upload-file" -Headers $headers -Form @{ metadata = $metadata; file = Get-Item $zip }
           Write-Host "Subido a CurseForge: $displayName ($releaseType), archivo $($result.id)"
+
+  # Va después de Windows para adjuntar el paquete a la release que ese trabajo ya ha creado:
+  # un fallo en Linux no bloquea la publicación de Windows ni la de CurseForge.
+  build-linux:
+    needs: build
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: companion/pyproject.toml
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e "./companion[dev]" pyinstaller
+
+      - name: Run tests
+        working-directory: companion
+        run: python -m pytest -q
+
+      # build-linux.sh comprueba que VERSION y el .toc coinciden y prueba el programa con --help.
+      - name: Build Linux package
+        env:
+          PYTHON: python
+          VERSION: ${{ needs.build.outputs.version }}
+        run: |
+          bash scripts/build-linux.sh
+          test -f "release/askforever-$VERSION-linux-x86_64.tar.gz"
+          (cd release && sha256sum -c "askforever-$VERSION-linux-x86_64.tar.gz.sha256")
+
+      - name: Attest artifacts
+        uses: actions/attest-build-provenance@v2
+        with:
+          subject-path: release/askforever-${{ needs.build.outputs.version }}-linux-x86_64.tar.gz
+
+      - name: Upload artifacts
+        if: needs.build.outputs.release != 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: AskForever-${{ needs.build.outputs.version }}-linux
+          path: |
+            release/askforever-${{ needs.build.outputs.version }}-linux-x86_64.tar.gz
+            release/askforever-${{ needs.build.outputs.version }}-linux-x86_64.tar.gz.sha256
+          if-no-files-found: error
+
+      - name: Add to release
+        if: needs.build.outputs.release == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ needs.build.outputs.version }}
+        run: |
+          gh release upload "v$VERSION" \
+            "release/askforever-$VERSION-linux-x86_64.tar.gz" \
+            "release/askforever-$VERSION-linux-x86_64.tar.gz.sha256" \
+            --repo "${{ github.repository }}"
