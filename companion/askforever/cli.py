@@ -83,7 +83,12 @@ def _ensure_api_key() -> bool:
             print(f'No se pudo completar la configuración: {error}')
             return False
     print('No hay clave de la API configurada.')
-    command = 'askforever.exe' if sys.platform == 'win32' else 'askforever'
+    if sys.platform == 'win32':
+        command = 'askforever.exe'
+    elif getattr(sys, 'frozen', False):
+        command = 'AskForeverApp'
+    else:
+        command = 'python -m askforever'
     print(f'Configúrala con: {command} set-key')
     print(f'Guía: {setup_wizard.GUIDE_URL}')
     return False
