@@ -172,18 +172,31 @@ class PortalCapture:
                  open_session: Callable[..., PortalStream] = open_portal_session,
                  spawn: Callable[..., subprocess.Popen] = subprocess.Popen,
                  clock: Callable[[], float] = time.monotonic,
-                 on_error: Optional[Callable[[Exception], None]] = None) -> None:
+                 on_error: Optional[Callable[[Exception], None]] = None,
+                 is_game_running: Optional[Callable[[], bool]] = None,
+                 check_every: float = 1.0,
+                 sleep: Callable[[float], None] = time.sleep) -> None:
         self.token_path = token_path
         self._open_session = open_session
         self._spawn = spawn
         self._clock = clock
         self._on_error = on_error
+        self._is_game_running = is_game_running
+        self._check_every = check_every
+        self._sleep = sleep
         self._stream: Optional[PortalStream] = None
         self._process: Optional[subprocess.Popen] = None
         self._retry_at = 0.0
+        self._checked_at: Optional[float] = None
+        self._running = True
         self._lock = threading.Lock()
 
     def __call__(self) -> Optional[Image.Image]:
+        if not self._game_running():
+            self.close()
+            # El bucle llama a 30 fps: no lo dejamos girar en vacío mientras el juego está cerrado.
+            self._sleep(0.2)
+            return None
         if self._process is None and not self._start():
             return None
         data = self._read(FRAME_BYTES)
@@ -192,6 +205,24 @@ class PortalCapture:
             self._retry_at = self._clock() + RETRY_AFTER
             return None
         return Image.frombytes('RGB', (STRIP_WIDTH, STRIP_HEIGHT), data)
+
+    def _game_running(self) -> bool:
+        """Consulta si el juego sigue abierto, como mucho una vez cada `check_every` s."""
+        if self._is_game_running is None:
+            return True
+        now = self._clock()
+        if self._checked_at is not None and now - self._checked_at < self._check_every:
+            return self._running
+        self._checked_at = now
+        was_running = self._running
+        try:
+            self._running = bool(self._is_game_running())
+        except Exception:
+            self._running = False
+        if self._running and not was_running:
+            # Al reabrir el juego capturamos ya, sin arrastrar el back-off de un fallo anterior.
+            self._retry_at = 0.0
+        return self._running
 
     def _start(self) -> bool:
         if self._clock() < self._retry_at:

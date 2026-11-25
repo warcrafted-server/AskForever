@@ -86,6 +86,92 @@ def test_capture_reports_error_and_backs_off(monkeypatch):
     assert len(errors) == 2
 
 
+def test_capture_never_opens_portal_while_game_is_closed(monkeypatch):
+    opened = []
+    slept = []
+    capture = portal.PortalCapture(
+        open_session=lambda token_path: opened.append(1) or _stream(),
+        is_game_running=lambda: False,
+        sleep=slept.append)
+    monkeypatch.setattr(portal.os, 'close', lambda fd: None)
+    assert capture() is None
+    assert opened == []
+    assert slept == [0.2]
+
+
+def test_capture_treats_game_check_error_as_not_running():
+    def failing():
+        raise RuntimeError('sin ventana')
+
+    capture = portal.PortalCapture(
+        open_session=lambda token_path: pytest.fail('no debe abrir el portal'),
+        is_game_running=failing, sleep=lambda seconds: None)
+    assert capture() is None
+
+
+def test_capture_releases_stream_and_resumes_when_game_reopens(monkeypatch):
+    frame = bytes([10, 20, 30]) * (portal.STRIP_WIDTH * portal.STRIP_HEIGHT)
+    opened = []
+    now = [0.0]
+    running = [True]
+
+    def open_session(token_path):
+        opened.append(1)
+        return _stream()
+
+    processes = []
+
+    def spawn(*args, **kwargs):
+        process = _FakeProcess(frame)
+        processes.append(process)
+        return process
+
+    capture = portal.PortalCapture(
+        open_session=open_session, spawn=spawn, clock=lambda: now[0],
+        is_game_running=lambda: running[0], check_every=1.0,
+        sleep=lambda seconds: None)
+    monkeypatch.setattr(portal.os, 'close', lambda fd: None)
+
+    assert capture() is not None
+    assert len(opened) == 1
+
+    running[0] = False
+    now[0] += 2.0
+    assert capture() is None
+    assert processes[0].killed
+
+    running[0] = True
+    now[0] += 2.0
+    assert capture() is not None
+    assert len(opened) == 2
+
+
+def test_capture_resets_backoff_when_game_reopens():
+    errors = []
+    now = [0.0]
+    running = [True]
+
+    def failing(token_path):
+        raise portal.PortalError('cancelado')
+
+    capture = portal.PortalCapture(
+        open_session=failing, clock=lambda: now[0],
+        is_game_running=lambda: running[0], on_error=errors.append,
+        sleep=lambda seconds: None)
+    assert capture() is None
+    assert len(errors) == 1
+
+    running[0] = False
+    now[0] += 2.0
+    assert capture() is None
+
+    running[0] = True
+    now[0] += 2.0
+    assert capture() is None
+    # Aún dentro del back-off, pero al reabrirse el juego se reinicia y reintenta.
+    assert len(errors) == 2
+
+
 def test_wants_portal_only_on_wayland_linux():
     assert portal.wants_portal({'XDG_SESSION_TYPE': 'wayland'}, 'linux')
     assert not portal.wants_portal({'XDG_SESSION_TYPE': 'x11'}, 'linux')
