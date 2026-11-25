@@ -1531,7 +1531,7 @@
         "rogue pvp poisons"
       ],
       "text_es": "Asesinato: Incapacitación mejorada 3/3, Maldad 5/5, Crueldad 2/3, Vigor 2/2, Salpicadura de sangre 1/1, Letalidad 2/2, Venenos inmundos 5/5, Sangre fría 1/1, Venenos mejorados 3/5, Veneno 1/1, Golpe a los riñones mejorado 2/2, Sello del destino 3/3 y Mutilar 1/1. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2 y Heridas punzantes 3/3. Sutileza: Maestro de la decepción 2/3, Oportunidad 5/5, Camuflaje 3/3, Premeditación 1/1 y Espadas dentadas 1/3. La variante combina Mutilar con talentos de veneno y control.",
-      "text_en": "Assassination: Improved Gouge 3/3, Malice 5/5, Ruthlessness 2/3, Vigor 2/2, Blood Splatter 1/1, Lethality 2/2, Vile Poisons 5/5, Cold Blood 1/1, Improved Poisons 3/5, Venom 1/1, Improved Kidney Shot 2/2, Seal Fate 3/3, and Mutilate 1/1. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, and Puncturing Wounds 3/3. Subtlety: Master of Deception 2/3, Opportunity 5/5, Camouflage 3/3, Premeditation 1/1, and Serrated Blades 1/3. The variant combines Mutilate with poison and control talents.",
+      "text_en": "Assassination: Improved Gouge 3/3 and Malice 5/5, plus Ruthlessness 2/3, Vigor 2/2 and Blood Splatter 1/1, then Lethality 2/2, Vile Poisons 5/5 and Cold Blood 1/1, with Improved Poisons 3/5, Venom 1/1 and Improved Kidney Shot 2/2, plus Seal Fate 3/3 and Mutilate 1/1. Combat: Coup de Grace 3/3 and Efficient Strikes 2/2, plus Puncturing Wounds 3/3. Subtlety: Master of Deception 2/3 and Opportunity 5/5, plus Camouflage 3/3, Premeditation 1/1 and Serrated Blades 1/3. The variant combines Mutilate with poison and control talents.",
       "tags": [
         "ROGUE"
       ],
@@ -1540,15 +1540,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Assassination Rogue Talent Builds - WoW: Forever › Best Assassination Rogue PvP Build",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/talent-builds-pve-dps",
-          "date": "2026-11-11"
+          "date": "2026-11-24"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-25",
       "topics": [
         "class:rogue:assassination:talents"
       ],
       "source_hashes": [
-        "section:dd60f3fa55a4a820a174e8504befe8d3708ddd0e"
+        "section:e1d513b49a215200965d0912ad1bdc09dd29e7ba"
       ]
     },
     {
@@ -1571,8 +1571,8 @@
         "combat pvp talents",
         "shared pvp build"
       ],
-      "text_es": "Asesinato: Incapacitación mejorada 3/3, Ataques implacables 2/2, Maldad 5/5, Vigor 2/2 y Letalidad 2/2. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2, Heridas punzantes 3/3 y Correr mejorado 2/2. Esta parte combina amplificadores de daño con movilidad y control.",
-      "text_en": "Assassination: Improved Gouge 3/3, Remorseless Attacks 2/2, Malice 5/5, Vigor 2/2, and Lethality 2/2. Combat: Coup de Grace 3/3, Efficient Strikes 2/2, Puncturing Wounds 3/3, and Improved Sprint 2/2. This part combines damage amplifiers with mobility and control.",
+      "text_es": "La build JcJ reparte puntos por los tres árboles y busca Sangre fría y Preparación, muy potentes en JcJ. Asesinato: Incapacitación mejorada 3/3, Ataques implacables 2/2, Maldad 5/5, Exponer armadura mejorado 1/2, Vigor 2/2, Letalidad 2/2 y Sangre fría 1/1. Combate: Golpe de gracia 3/3, Golpes eficientes 2/2, Heridas punzantes 3/3, Correr mejorado 2/2, Robustez 2/2 y Compostura 2/2. Aporta amplificadores de daño, movilidad y resistencia.",
+      "text_en": "It is a PvP setup that spreads points across the three trees and aims at Cold Blood and Preparation, both very strong in PvP. Assassination: Improved Gouge 3/3, Remorseless Attacks 2/2 and Malice 5/5, plus Improved Expose Armor 1/2, Vigor 2/2 and Lethality 2/2, then Cold Blood 1/1. Combat: Coup de Grace 3/3, Efficient Strikes 2/2 and Puncturing Wounds 3/3, plus Improved Sprint 2/2, Endurance 2/2 and Composure 2/2. It brings damage amplifiers, mobility and durability.",
       "tags": [
         "ROGUE"
       ],
@@ -1581,31 +1581,31 @@
           "type": "editorial",
           "ref": "Wowhead: Best Assassination Rogue Talent Builds - WoW: Forever › Best Assassination Rogue PvP Build",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/talent-builds-pve-dps",
-          "date": "2026-11-11"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Combat Rogue Talent Builds - WoW: Forever › Best Combat Rogue PvP Build",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/talent-builds-pve-dps",
-          "date": "2026-11-11"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Subtlety Rogue Talent Tree Builds - WoW: Forever › Best Subtlety Rogue PvP Build",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/talent-builds-pve-dps",
-          "date": "2026-11-11"
+          "date": "2026-11-24"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-25",
       "topics": [
         "class:rogue:assassination:talents",
         "class:rogue:combat:talents",
         "class:rogue:subtlety:talents"
       ],
       "source_hashes": [
-        "section:0af171a963eb2680c20891e5658d4ce21444e956",
-        "section:8d7dae02bb081b6dce1e71dfe446279f9325ee77",
-        "section:dd60f3fa55a4a820a174e8504befe8d3708ddd0e"
+        "section:4352d0d651e56ca11b7c9b98c705a0f10000e9de",
+        "section:91088a498c411d0f4334ab3d0539d39cdd0d1a68",
+        "section:e1d513b49a215200965d0912ad1bdc09dd29e7ba"
       ]
     },
     {
@@ -1620,16 +1620,16 @@
         "build sutileza pvp",
         "talentos control pícaro",
         "preparación sutileza",
-        "hemorragia sutileza pvp"
+        "emboscada mejorada pvp"
       ],
       "keywords_en": [
         "subtlety pvp build",
         "rogue control talents",
         "preparation subtlety",
-        "hemorrhage subtlety pvp"
+        "improved ambush pvp"
       ],
-      "text_es": "Sutileza: Maestro de la decepción 3/3, Oportunidad 2/5, Trabajos sucios 2/2, Camuflaje 2/3, Emboscada mejorada 3/3, Jugarretas 2/2, Iniciativa 3/3, Premeditación 1/1, Espadas dentadas 3/3, Elusión 2/2, Golpe fantasmal 1/1, Evasión rápida 1/2, Preparación 1/1 y Hemorragia 1/1. Esta rama aporta las herramientas de Sigilo, control y preparación que completan la build JcJ.",
-      "text_en": "Subtlety: Master of Deception 3/3, Opportunity 2/5, Dirty Deeds 2/2, Camouflage 2/3, Improved Ambush 3/3, Dirty Tricks 2/2, Initiative 3/3, Premeditation 1/1, Serrated Blades 3/3, Elusiveness 2/2, Ghostly Strike 1/1, Quick Getaway 1/2, Preparation 1/1, and Hemorrhage 1/1. This branch adds the stealth, control, and setup tools that complete the PvP build.",
+      "text_es": "Sutileza: Maestro de la decepción 2/3, Oportunidad 3/5, Trabajos sucios 2/2, Camuflaje 1/3, Emboscada mejorada 3/3, Jugarretas 2/2, Iniciativa 3/3, Premeditación 1/1, Elusión 2/2, Evasión rápida 1/2 y Preparación 1/1. Esta rama suma herramientas de sigilo y control, y junto con Oportunidad y Emboscada mejorada refuerza el daño de apertura de la build JcJ.",
+      "text_en": "Subtlety: Master of Deception 2/3, Opportunity 3/5 and Dirty Deeds 2/2, plus Camouflage 1/3, Improved Ambush 3/3 and Dirty Tricks 2/2, then Initiative 3/3, Premeditation 1/1 and Elusiveness 2/2, with Quick Getaway 1/2 and Preparation 1/1. This branch adds stealth and control tools, and with Opportunity and Improved Ambush it strengthens the opening damage of the PvP build.",
       "tags": [
         "ROGUE"
       ],
@@ -1638,31 +1638,31 @@
           "type": "editorial",
           "ref": "Wowhead: Best Assassination Rogue Talent Builds - WoW: Forever › Best Assassination Rogue PvP Build",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/assassination/talent-builds-pve-dps",
-          "date": "2026-11-11"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Combat Rogue Talent Builds - WoW: Forever › Best Combat Rogue PvP Build",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/combat/talent-builds-pve-dps",
-          "date": "2026-11-11"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Best Subtlety Rogue Talent Tree Builds - WoW: Forever › Best Subtlety Rogue PvP Build",
           "url": "https://www.wowhead.com/forever/guide/classes/rogue/subtlety/talent-builds-pve-dps",
-          "date": "2026-11-11"
+          "date": "2026-11-24"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-25",
       "topics": [
         "class:rogue:assassination:talents",
         "class:rogue:combat:talents",
         "class:rogue:subtlety:talents"
       ],
       "source_hashes": [
-        "section:0af171a963eb2680c20891e5658d4ce21444e956",
-        "section:8d7dae02bb081b6dce1e71dfe446279f9325ee77",
-        "section:dd60f3fa55a4a820a174e8504befe8d3708ddd0e"
+        "section:4352d0d651e56ca11b7c9b98c705a0f10000e9de",
+        "section:91088a498c411d0f4334ab3d0539d39cdd0d1a68",
+        "section:e1d513b49a215200965d0912ad1bdc09dd29e7ba"
       ]
     },
     {

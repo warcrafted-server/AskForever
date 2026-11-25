@@ -963,7 +963,7 @@
         "mage teleport level 20"
       ],
       "text_es": "Consigue una varita pronto para rematar enemigos sin gastar maná; prepara comida y agua antes de empezar. Entrena los rangos de daño principales y usa Descarga de Escarcha para mantener distancia. Si atraes enemigos de más, combina Nova de Escarcha y Polimorfia para controlarlos. Usa Evocación cuando baje el maná y aprende pronto los teletransportes. Lleva Poción de maná y Poción de curación, y aprovecha las misiones de mazmorra. Costura y Encantamiento dan mejoras de equipo y varitas; Botánica, Minería y Desollar aportan oro y materiales.",
-      "text_en": "Get a wand early to finish enemies without spending mana; prepare food and water before setting out. Train key damage ranks and use Frostbolt to keep your distance. If you pull extra enemies, combine Frost Nova and Polymorph to control them. Use Evocation when mana runs low and learn teleports early. Pack mana-restoring and healing potions, and make use of dungeon quests. Tailoring and Enchanting provide gear upgrades and wands; Herbalism, Mining, and Skinning provide gold and materials.",
+      "text_en": "Get a wand early to finish enemies without spending mana; prepare food and water before setting out. Train key damage ranks and use Frostbolt to keep your distance. If you pull extra enemies, combine Frost Nova and Polymorph to control them. Use Evocation when mana runs low and learn teleports early. Pack a Mana Potion and a Healing Potion, and make use of dungeon quests. Tailoring and Enchanting provide gear upgrades and wands; Herbalism, Mining, and Skinning provide gold and materials.",
       "tags": [
         "MAGE"
       ],
@@ -972,31 +972,37 @@
           "type": "editorial",
           "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Leveling Tips for Arcane Mage DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
-          "date": "2026-11-10"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Fire Mage Leveling Guide - WoW: Forever › Leveling Tips for Fire Mage DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Frost Mage Leveling Guide - WoW: Forever › Leveling Tips for Frost Mage DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/dps-leveling-tips",
-          "date": "2026-11-11"
+          "date": "2026-11-18"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best Abilities to Train for Arcane Mage DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
-          "date": "2026-11-10"
+          "date": "2026-11-24"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best Abilities to Train for Arcane Mage DPS in WoW: Forever > Mandatory Abilities to Train for Arcane Mage",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best Leveling Professions for Arcane Mage DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
-          "date": "2026-11-10"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
@@ -1008,29 +1014,30 @@
           "type": "editorial",
           "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best use of Legacy Points for Arcane Mage DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
-          "date": "2026-11-10"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best Leveling Consumables for Arcane Mage DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
-          "date": "2026-11-10"
+          "date": "2026-11-24"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-25",
       "topics": [
         "class:mage:arcane:leveling",
         "class:mage:fire:leveling",
         "class:mage:frost:leveling"
       ],
       "source_hashes": [
+        "guide:2c11f3e58b761066c39a6168a9a34ca6be8326cf",
         "section:0ee05f8b7602d788f68adfcfdb9594ffa8ac9b76",
         "section:31c5609fc30e981608826a7629f1029c648be3e5",
         "section:5cdaf030dd2bda6d08876cb231e250832aeb043f",
         "section:88a03952f5984354db2f328a7dc5dd20af92f5b9",
         "section:8c691e5e76f6e3b1ff05679e0d1322adb36bc793",
         "section:973ff0349de45c993d35fdb60a73a5ce3fdf73c8",
-        "section:a64ff3132c27974559d63731180d1d4b37f3a092",
+        "section:9c535d2ce2ce0787994a4d4aa20954ecf6e97a70",
         "section:b951aef5e33b93066794efdee47ce9c7a67f380f"
       ]
     },
@@ -2080,22 +2087,22 @@
       "status": "editorial",
       "title_es": "Build PvE de Escarcha (bandas)",
       "title_en": "Frost PvE Build (raids)",
-      "summary_es": "Build de banda que también sirve en mazmorras; un punto de Ventisca mejorada habilita área.",
-      "summary_en": "Raid build also suited to dungeons; one Improved Blizzard point enables AoE.",
+      "summary_es": "Build de banda de Escarcha profunda de 51 puntos; los puntos se ajustan al objetivo, el maná y el equipo.",
+      "summary_en": "Deep Frost raid build with 51 points; points adjust to the target, mana and gear.",
       "keywords_es": [
         "build escarcha pve",
         "talentos escarcha mago",
         "build escarcha raid",
-        "ventisca mejorada mago"
+        "escarcha profunda mago"
       ],
       "keywords_en": [
         "frost pve build",
         "frost mage talents",
         "frost raid build",
-        "improved blizzard mage"
+        "deep frost mage"
       ],
-      "text_es": "Arcano: Especialización en varitas 2/2, Recuperación Arcana 3/3, Sutileza Arcana 2/2, Concentración Arcana 5/5, Impacto Arcano 3/3 y Meditación Arcana 3/3. Escarcha: Descarga de Escarcha mejorada 5/5, Precisión 3/3, Fragmentos de hielo 5/5, Canalización de Escarcha 3/3, Ventisca mejorada 1/3, Lanza de hielo 1/1, Trizar 3/3, Cono de frío mejorado 3/3, Mordedura helada 1/1, Dedos de Escarcha 2/2, Escalofrío del invierno 5/5 y Barrera de hielo 1/1. Un punto en Ventisca mejorada habilita su opción de área; puedes mover puntos según objetivo, maná y equipo.",
-      "text_en": "Arcane: Wand Specialization 2/2, Arcane Resilience 3/3, Arcane Subtlety 2/2, Arcane Concentration 5/5, Arcane Impact 3/3, and Arcane Meditation 3/3. Frost: Improved Frostbolt 5/5, Precision 3/3, Ice Shards 5/5, Frost Channeling 3/3, Improved Blizzard 1/3, Ice Lance 1/1, Shatter 3/3, Improved Cone of Cold 3/3, Cold Snap 1/1, Fingers of Frost 2/2, Winter’s Chill 5/5, and Ice Barrier 1/1. A single rank in Improved Blizzard unlocks its AoE option; points can be adjusted for target type, mana, and gear.",
+      "text_es": "Arcano: Especialización en varitas 2/2, Recuperación Arcana 3/3, Sutileza Arcana 2/2, Absorción mágica 2/2, Concentración Arcana 5/5, Geometría Arcana 1/2 y Meditación Arcana 3/3. Escarcha: Descarga de Escarcha mejorada 5/5, Precisión 3/3, Fragmentos de hielo 5/5, Canalización de Escarcha 2/3, Lanza de hielo 1/1, Alcance ártico 2/2, Trizar 3/3, Cono de frío mejorado 3/3, Mordedura helada 1/1, Dedos de Escarcha 2/2, Escalofrío del invierno 5/5 y Barrera de hielo 1/1. Es la mejor build profunda de Escarcha para PvE fuera de las de Descarga de Pirofrío.",
+      "text_en": "Arcane: Wand Specialization 2/2, Arcane Resilience 3/3, Arcane Subtlety 2/2, Magic Absorption 2/2, Arcane Concentration 5/5, Arcane Geometry 1/2, Arcane Meditation 3/3. Frost: Improved Frostbolt 5/5, Precision 3/3, Ice Shards 5/5, Frost Channeling 2/3, Ice Lance 1/1, Arctic Reach 2/2, Shatter 3/3, Improved Cone of Cold 3/3, Cold Snap 1/1, Fingers of Frost 2/2, Winter’s Chill 5/5, Ice Barrier 1/1. The best deep Frost PvE build outside the Frostfire Bolt builds.",
       "tags": [
         "MAGE"
       ],
@@ -2104,22 +2111,97 @@
           "type": "editorial",
           "ref": "Wowhead: Best Frost Mage Talent Tree Builds - WoW: Forever › Best Frost Mage PvE Raid Build",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/talent-builds-pve-dps",
-          "date": "2026-11-15"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Best Frost Mage Talent Tree Builds - WoW: Forever › Best Frost Mage PvE Dungeon Build",
-          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/talent-builds-pve-dps",
-          "date": "2026-11-15"
+          "date": "2026-11-24"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-25",
       "topics": [
         "class:mage:frost:talents"
       ],
       "source_hashes": [
-        "section:409f8e76414453a2db5a507fe3e91a9f7c65fa39",
-        "section:8989767ff2e81ea20ac669ba40b1aab0cc36439b"
+        "section:e069d91bffa3edde8397d6e5888834fa4e8aab66"
+      ]
+    },
+    {
+      "id": "clase-mage-build-escarcha-mazmorras",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build PvE de Escarcha para mazmorras",
+      "title_en": "Frost PvE Dungeon Build",
+      "summary_es": "Build de Escarcha de 51 puntos con Mordiescarcha y Ventisca mejorada; también vale para el mundo abierto.",
+      "summary_en": "Frost build with 51 points, Frostbite and Improved Blizzard; also good for the open world.",
+      "keywords_es": [
+        "build escarcha mazmorras",
+        "talentos escarcha mago",
+        "mordiescarcha mago",
+        "build escarcha mundo abierto"
+      ],
+      "keywords_en": [
+        "frost dungeon build",
+        "frost mage talents",
+        "frostbite mage",
+        "frost world build"
+      ],
+      "text_es": "Arcano: Especialización en varitas 2/2, Recuperación Arcana 3/3, Sutileza Arcana 2/2, Absorción mágica 2/2, Concentración Arcana 5/5, Geometría Arcana 1/2 y Meditación Arcana 3/3. Escarcha: Descarga de Escarcha mejorada 5/5, Precisión 3/3, Fragmentos de hielo 5/5, Mordiescarcha 3/3, Ventisca mejorada 1/3, Lanza de hielo 1/1, Trizar 3/3, Cono de frío mejorado 3/3, Mordedura helada 1/1, Dedos de Escarcha 2/2, Escalofrío del invierno 5/5 y Barrera de hielo 1/1. Mordiescarcha y Ventisca mejorada la orientan a mazmorras.",
+      "text_en": "Arcane: Wand Specialization 2/2, Arcane Resilience 3/3, Arcane Subtlety 2/2, Magic Absorption 2/2, Arcane Concentration 5/5, Arcane Geometry 1/2, Arcane Meditation 3/3. Frost: Improved Frostbolt 5/5, Precision 3/3, Ice Shards 5/5, Frostbite 3/3, Improved Blizzard 1/3, Ice Lance 1/1, Shatter 3/3, Improved Cone of Cold 3/3, Cold Snap 1/1, Fingers of Frost 2/2, Winter’s Chill 5/5, Ice Barrier 1/1. Frostbite and Improved Blizzard aim it at dungeons.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Frost Mage Talent Tree Builds - WoW: Forever › Best Frost Mage PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/talent-builds-pve-dps",
+          "date": "2026-11-24"
+        }
+      ],
+      "updated": "2026-11-25",
+      "topics": [
+        "class:mage:frost:talents"
+      ],
+      "source_hashes": [
+        "section:17d757ee8eff07e4cb1a573df7351056a2a3d0fe"
+      ]
+    },
+    {
+      "id": "clase-mage-build-escarcha-area",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Build de Escarcha para granjear en área",
+      "title_en": "Frost AoE Farming Build",
+      "summary_es": "Build de 51 puntos con Ventisca mejorada al máximo para agrupar enemigos y granjear con área.",
+      "summary_en": "51-point build with max Improved Blizzard to group enemies and farm with area damage.",
+      "keywords_es": [
+        "build escarcha área",
+        "granjear con mago escarcha",
+        "ventisca mejorada mago",
+        "build escarcha granja"
+      ],
+      "keywords_en": [
+        "frost aoe build",
+        "frost mage farming",
+        "improved blizzard mage",
+        "frost farm build"
+      ],
+      "text_es": "Arcano: Especialización en varitas 2/2, Recuperación Arcana 3/3, Sutileza Arcana 2/2, Absorción mágica 2/2, Concentración Arcana 5/5, Geometría Arcana 2/2 y Meditación Arcana 3/3. Escarcha: Descarga de Escarcha mejorada 5/5, Precisión 3/3, Fragmentos de hielo 5/5, Escarcha permanente 3/3, Canalización de Escarcha 3/3, Ventisca mejorada 3/3, Lanza de hielo 1/1, Alcance ártico 2/2, Bloqueo de hielo 1/1, Trizar 3/3, Mordedura helada 1/1, Dedos de Escarcha 1/2 y Barrera de hielo 1/1. Renuncia a Mordiescarcha para no escalonar a los enemigos; agrúpalos y usa Ventisca con su trazado.",
+      "text_en": "Arcane: Wand Specialization 2/2, Arcane Resilience 3/3, Arcane Subtlety 2/2, Magic Absorption 2/2, Arcane Concentration 5/5, Arcane Geometry 2/2, Arcane Meditation 3/3. Frost: Improved Frostbolt 5/5, Precision 3/3, Ice Shards 5/5, Permafrost 3/3, Frost Channeling 3/3, Improved Blizzard 3/3, Ice Lance 1/1, Arctic Reach 2/2, Ice Block 1/1, Shatter 3/3, Cold Snap 1/1, Fingers of Frost 1/2, Ice Barrier 1/1. It skips Frostbite to avoid staggering enemies and keep them grouped; gather them and use Blizzard with their pathing.",
+      "tags": [
+        "MAGE"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Frost Mage Talent Tree Builds - WoW: Forever › Best Frost Mage PvE Dungeon Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/frost/talent-builds-pve-dps",
+          "date": "2026-11-24"
+        }
+      ],
+      "updated": "2026-11-25",
+      "topics": [
+        "class:mage:frost:talents"
+      ],
+      "source_hashes": [
+        "section:17d757ee8eff07e4cb1a573df7351056a2a3d0fe"
       ]
     },
     {
@@ -2597,8 +2679,8 @@
         "minor wizard oil",
         "mage experience food"
       ],
-      "text_es": "El Elixir Arcano menor y el Aceite de zahorí menor aportan poder con hechizos; sus versiones superiores sirven al avanzar. La comida concede un 5% más de experiencia por enemigos derrotados y puede dar intelecto o poder con hechizos. Mantén Primeros auxilios al día y lleva Poción de maná y Poción de curación para reducir pausas y regresos tras morir.",
-      "text_en": "Minor Arcane Elixir and Minor Wizard Oil add spell power; stronger versions help as you progress. Food grants 5% extra experience from kills and can provide Intellect or spell power. Keep First Aid current and carry Mana Potion and Healing Potion to reduce downtime and runbacks after dying.",
+      "text_es": "No son necesarios para llegar a 60, pero aceleran las muertes y reducen las pausas. 1-19: Poción de explosión de hechizos inferior, Elixir Arcano menor, Aceite de zahorí menor y Sabiola ahumada. 20-39: Poción de explosión de hechizos superior, Elixir Arcano inferior, Elixir de sangre de mago inferior, Aceite de zahorí inferior y Estofado de marisco salobre. 40-60: Poción de explosión de hechizos excelente, Elixir superior arcano, Poción de sangre de mago y Salmón al horno. La comida da un 5% más de experiencia; mantén Primeros auxilios y lleva Poción de maná y Poción de curación.",
+      "text_en": "They are not needed to reach 60, but they speed up kills and reduce downtime. 1-19: Lesser Spellblasting Potion, Minor Arcane Elixir, Minor Wizard Oil and Smoked Sagefish. 20-39: Greater Spellblasting Potion, Lesser Arcane Elixir, Lesser Mageblood Elixir, Lesser Wizard Oil and Briny Seafood Stew. 40-60: Superior Spellblasting Potion, Greater Arcane Elixir, Mageblood Elixir and Baked Salmon. Food adds 5% more experience; keep First Aid current and carry a Mana Potion and a Healing Potion.",
       "tags": [
         "MAGE"
       ],
@@ -2607,15 +2689,15 @@
           "type": "editorial",
           "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best Leveling Consumables for Arcane Mage DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
-          "date": "2026-11-10"
+          "date": "2026-11-24"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-25",
       "topics": [
         "class:mage:arcane:leveling"
       ],
       "source_hashes": [
-        "section:a64ff3132c27974559d63731180d1d4b37f3a092"
+        "section:9c535d2ce2ce0787994a4d4aa20954ecf6e97a70"
       ]
     },
     {
@@ -2905,7 +2987,7 @@
         "encantamientos mago",
         "encantar guantes mago",
         "qué encantar mago arcano",
-        "guantes poder de fuego",
+        "guantes velocidad menor mago",
         "arcano de enfoque mago"
       ],
       "keywords_en": [
@@ -2914,11 +2996,11 @@
         "mage enchants",
         "mage glove enchant",
         "what to enchant arcane mage",
-        "fire power gloves",
+        "minor haste gloves",
         "arcanum of focus mage"
       ],
-      "text_es": "Encantamientos del Mago a nivel 60: Arma: Encantar arma: poder con hechizos (+30; hace falta Encantamiento 300). Guantes según la escuela: Arcano, Encantar guantes: velocidad menor (+1% celeridad, Encantamiento 250); Fuego, Encantar guantes: poder de Fuego (+20 de daño). Cabeza o piernas: Arcano de enfoque (+8 poder con hechizos, requiere objeto de nivel 60; se consigue con el Tratado sobre Enfoque en Dire Maul). Botas: Encantar botas: velocidad (+8% velocidad de movimiento) o un complemento místico (+6 poder con hechizos), a tu gusto.",
-      "text_en": "Mage enchants at level 60: Weapon: Enchant Weapon - Spell Power (+30; needs 300 Enchanting). Gloves by school: Arcane, Enchant Gloves - Minor Haste (+1% haste, 250 Enchanting); Fire, Enchant Gloves - Fire Power (+20 damage). Head or legs: Arcanum of Focus (+8 Spell Power, needs a level 60 item; from the Libram of Focus in Dire Maul). Boots: Enchant Boots - Speed (+8% movement speed) or a Mystic armor kit (+6 Spell Power), by preference.",
+      "text_es": "Arma: Encantar arma 2M: explosión de hechizos (+65 poder con hechizos, Encantamiento 300) o Encantar arma: revelación. Cabeza y piernas: Arcano de enfoque (+8 poder con hechizos en un objeto de nivel 60; Tratado sobre Enfoque, La Masacre). Guantes: Arcano, Encantar guantes: velocidad menor (+1% celeridad, Encantamiento 250) supera a Encantar guantes: poder Arcano (+20) porque depende del daño de Fuego; Fuego prefiere el Complemento basto para armadura místico. Botas: Encantar botas: velocidad (+8%) o el complemento (+6 poder con hechizos).",
+      "text_en": "Weapon: Enchant 2H Weapon - Spellblasting (+65 Spell Power, 300 Enchanting) or Enchant Weapon - Revelation. Head and legs: Arcanum of Focus (+8 Spell Power on a level 60 item; Libram of Focus, Dire Maul). Gloves: Arcane, Enchant Gloves - Minor Haste (+1% haste, 250 Enchanting) beats Enchant Gloves - Arcane Power (+20) because it depends on Fire damage; Fire prefers the Mystic Rugged Armor Kit. Boots: Enchant Boots - Speed (+8%) or a Mystic kit (+6 Spell Power).",
       "tags": [
         "MAGE"
       ],
@@ -2927,23 +3009,23 @@
           "type": "editorial",
           "ref": "Wowhead: Arcane Mage Enchants & Consumables - WoW: Forever › Best Arcane Mage Enchants in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/enchants-consumables-pve-dps",
-          "date": "2026-11-23"
+          "date": "2026-11-25"
         },
         {
           "type": "editorial",
-          "ref": "Wowhead: Fire Mage Enchants & Consumables - WoW: Forever › Best Fire Mage Enchants for Leveling in WoW: Forever",
+          "ref": "Wowhead: Fire Mage Enchants & Consumables - WoW: Forever › Best Fire Mage Enchants in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/fire/enchants-consumables-pve-dps",
-          "date": "2026-11-23"
+          "date": "2026-11-24"
         }
       ],
-      "updated": "2026-11-23",
+      "updated": "2026-11-25",
       "topics": [
         "class:mage:arcane:enchants",
         "class:mage:fire:enchants"
       ],
       "source_hashes": [
-        "guide:748275fbad24f8e8a569a0e28e61431927c45951",
-        "section:0cf43476d2a38e08644daafe284bfa902e6d405a"
+        "section:7a406c19f2606ae8723bcaeeb73846a3cf8e2d55",
+        "section:c7e020df4c66dd20df69b83e3da4430182866110"
       ]
     },
     {
@@ -2971,32 +3053,33 @@
         "revelation weapon mage",
         "necklace spell power enchant"
       ],
-      "text_es": "Encantamientos del Mago al subir: Niveles 1-19: Encantar arma: revelación (un hechizo sin crítico puede hacer crítico el siguiente), Encantar brazal: poder de sanación menor y el Complemento medio para armadura místico. 20-39: Encantar collar: poder con hechizos y el Complemento pesado. 40-60: Encantar brazal: poder de sanación inferior y los Complementos gruesos o bastos. Para el daño, un complemento místico supera cualquier encantamiento de intelecto en el torso; cualquiera puede ponerlos.",
-      "text_en": "Mage enchants while leveling: Levels 1-19: Enchant Weapon - Revelation (a non-crit spell can make the next one crit), Enchant Bracer - Minor Healing Power and the Mystic Medium Armor Kit. 20-39: Enchant Necklace - Spell Power and the Heavy kit. 40-60: Enchant Bracer - Lesser Healing Power and the Thick or Rugged kits. For damage a Mystic kit beats any chest Intellect enchant; anyone can apply them.",
+      "text_es": "Encantamientos del Mago al subir: 1-19: Encantar arma: revelación, Encantar brazal: poder de sanación menor y Complemento medio para armadura místico. 20-39: Encantar collar: poder con hechizos y Complemento pesado para armadura místico. 40-60: Encantar brazal: intelecto superior, Complemento grueso para armadura místico y Complemento basto para armadura místico. Revelación: un hechizo sin crítico puede hacer que el siguiente sea crítico.",
+      "text_en": "Mage enchants while leveling: 1-19: Enchant Weapon - Revelation, Enchant Bracer - Minor Healing Power and Mystic Medium Armor Kit. 20-39: Enchant Necklace - Spell Power and Mystic Heavy Armor Kit. 40-60: Enchant Bracer - Greater Intellect, Mystic Thick Armor Kit and Mystic Rugged Armor Kit. Revelation: a non-crit spell can make the next one crit.",
       "tags": [
         "MAGE"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Arcane Mage Enchants & Consumables - WoW: Forever › Quick Picks by Level",
-          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/enchants-consumables-pve-dps",
-          "date": "2026-11-04"
+          "ref": "Wowhead: Arcane Mage Leveling Guide - WoW: Forever › Best Leveling Consumables for Arcane Mage DPS in WoW: Forever",
+          "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/dps-leveling-tips",
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Arcane Mage Enchants & Consumables - WoW: Forever › Best Arcane Mage Enchants in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/mage/arcane/enchants-consumables-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-25",
       "topics": [
-        "class:mage:arcane:enchants"
+        "class:mage:arcane:enchants",
+        "class:mage:arcane:leveling"
       ],
       "source_hashes": [
-        "guide:748275fbad24f8e8a569a0e28e61431927c45951",
-        "section:50937079dabcb03835c4b6fe63fb7248041fa836"
+        "section:9c535d2ce2ce0787994a4d4aa20954ecf6e97a70",
+        "section:c7e020df4c66dd20df69b83e3da4430182866110"
       ]
     },
     {

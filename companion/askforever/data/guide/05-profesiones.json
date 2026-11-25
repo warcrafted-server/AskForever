@@ -1487,19 +1487,19 @@
           "type": "editorial",
           "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › Why Level Fishing?",
           "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
-          "date": "2026-11-24"
+          "date": "2026-11-25"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › How to Fish in Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
-          "date": "2026-11-24"
+          "date": "2026-11-25"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Fishing Profession Overview in Forever - Leveling, Fishing Boosts, and Trainers › Fishing Level Boosts in Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/fishing/overview-leveling",
-          "date": "2026-11-24"
+          "date": "2026-11-25"
         },
         {
           "type": "editorial",
@@ -1520,13 +1520,13 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-24",
+      "updated": "2026-11-25",
       "topics": [
         "profession:fishing:overview"
       ],
       "source_hashes": [
+        "section:275738cf83f612edb22df0050490d2b2d32f7b98",
         "section:428e623fd1d4af51c6a56d00a2ff677f61a5dbe1",
-        "section:5314a98043090bd2daae841822436cf0eea7d738",
         "section:6f878c41aad61bfab2188d7dbc2a50caff1c01b4",
         "section:702611c693f14dd11307f4db3c7806a366a6d8d3",
         "section:7c918288ee664f0cb398b3587ebdc3368b6c3bf8",

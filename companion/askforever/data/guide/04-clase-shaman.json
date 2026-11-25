@@ -2335,22 +2335,23 @@
       "id": "clase-shaman-build-restauracion-pvp",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Build Recuperación profunda JcJ",
-      "title_en": "Restoration Deep PvP Build",
-      "summary_es": "Reparto completo de build recuperación profunda jcj, con talentos agrupados por rama.",
-      "summary_en": "Complete restoration deep pvp build talent allocation grouped by tree.",
+      "title_es": "Recuperación profunda con Lobo fantasmal (JcJ)",
+      "title_en": "Deep Restoration Ghost Wolf PvP Build",
+      "summary_es": "Build JcJ de Recuperación profunda con Lobo fantasmal: talentos y por qué se elige.",
+      "summary_en": "PvP Deep Restoration Ghost Wolf build: talents and why it is picked.",
       "keywords_es": [
-        "build chaman restauracion para raides",
+        "build chaman restauracion jcj",
+        "build recuperacion lobo fantasmal",
         "talentos chamán build completa",
         "puntos talentos chamán nivel 60"
       ],
       "keywords_en": [
-        "shaman resto complete build",
-        "shaman talent points level 60",
-        "shaman build raid pvp"
+        "shaman resto pvp build",
+        "shaman ghost wolf pvp build",
+        "shaman talent points level 60"
       ],
-      "text_es": "Mejora: Conocimiento ancestral 5/5, Garra de la Tierra 2/2, Tótems del Guardián 2/2, Lobo fantasmal mejorado 2/2, Enfoque chamanístico 1/1, Golpes de trueno 5/5. Recuperación: Curación ancestral 3/3, Enfoque curativo 3/3, Forma curativa 3/3, Onda de curación mejorada 5/5, Tótem de marea de maná 1/1, Conciencia 3/3, Rapidez de la Naturaleza 1/1, Purificación 5/5, Mareas vivas 1/1, Enfoque de las mareas 3/5, Maestría de las mareas 5/5, Escudo de agua 1/1. Garra de la Tierra y Tótems del Guardián aportan control; Enfoque de las mareas ayuda al golpe.",
-      "text_en": "Enhancement: Ancestral Knowledge 5/5, Earth's Grasp 2/2, Guardian Totems 2/2, Improved Ghost Wolf 2/2, Shamanistic Focus 1/1, Thundering Strikes 5/5. Restoration: Ancestral Healing 3/3, Healing Focus 3/3, Healing Way 3/3, Improved Healing Wave 5/5, Mana Tide Totem 1/1, Mindfulness 3/3, Nature's Swiftness 1/1, Purification 5/5, Riptide 1/1, Tidal Focus 3/5, Tidal Mastery 5/5, Water Shield 1/1. Earth’s Grasp and Guardian Totems add control; Tidal Focus helps spell hit.",
+      "text_es": "Mejora: Conocimiento ancestral 5/5, Garra de la Tierra 2/2, Tótems del Guardián 2/2, Lobo fantasmal mejorado 2/2, Enfoque chamanístico 1/1, Golpes de trueno 5/5. Recuperación: Curación ancestral 3/3, Enfoque curativo 3/3, Forma curativa 3/3, Onda de curación mejorada 5/5, Tótem de marea de maná 1/1, Conciencia 3/3, Rapidez de la Naturaleza 1/1, Mareas vivas 1/1, Purificación 5/5, Enfoque de las mareas 3/5, Maestría de las mareas 5/5, Escudo de agua 1/1. 3/5 en Enfoque de las mareas roza el tope de golpe de Choque de tierra; Enfoque chamanístico, obligatorio, recorta su maná casi a la mitad.",
+      "text_en": "Enhancement: Ancestral Knowledge 5/5, Earth's Grasp 2/2, Guardian Totems 2/2, Improved Ghost Wolf 2/2, Shamanistic Focus 1/1, Thundering Strikes 5/5. Restoration: Ancestral Healing 3/3, Healing Focus 3/3, Healing Way 3/3, Improved Healing Wave 5/5, Mana Tide Totem 1/1, Mindfulness 3/3, Nature's Swiftness 1/1, Riptide 1/1, Purification 5/5, Tidal Focus 3/5, Tidal Mastery 5/5, Water Shield 1/1. 3/5 Tidal Focus nearly reaches the hit cap for Earth Shock; Shamanistic Focus, mandatory, cuts almost half its Mana cost.",
       "tags": [
         "SHAMAN"
       ],
@@ -2359,15 +2360,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Restoration Shaman Talent Tree Builds - WoW: Forever › Best Restoration Shaman PvP Build",
           "url": "https://www.wowhead.com/forever/guide/classes/shaman/restoration/talent-builds-pve-healer",
-          "date": "2026-11-04"
+          "date": "2026-11-24"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-25",
       "topics": [
         "class:shaman:restoration:talents"
       ],
       "source_hashes": [
-        "section:2254021b9cd1014b306e6c83e367ab78d3948bce"
+        "section:fb8288a97314535d5c8115bb8f15ce917429e4dd"
       ]
     },
     {

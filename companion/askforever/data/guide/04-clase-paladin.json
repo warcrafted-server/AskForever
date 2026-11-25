@@ -1905,8 +1905,8 @@
         "paladin represion talents",
         "paladin represion talent points"
       ],
-      "text_es": "Sagrado: Fuerza divina 5/5, Conducto Sagrado 2/2, Sellos mejorados 5/5. Protección: Intelecto divino 5/5, Precisión 3/3. Reprensión: Campeón de la Luz 5/5, Convicción 3/3, Desvío 5/5, Sentencia mejorada 2/2, Búsqueda de justicia 2/2, Arrepentimiento 1/1, Enjuiciador Sagrado 1/1, Sentencia santificada 3/3, Sello de orden 1/1, Especialización en armas de dos manos 3/3, Cólera desellada 1/1, Fe implacable 1/2, Venganza 3/3. Cambia Oración por Desvío; en JcJ depende del estallido, el aturdimiento y las defensas, porque carece de interrupción y de ralentización.",
-      "text_en": "Holy: Divine Strength 5/5, Holy Conduit 2/2, Improved Seals 5/5. Protection: Divine Intellect 5/5, Precision 3/3. Retribution: Champion of the Light 5/5, Conviction 3/3, Deflection 5/5, Improved Judgement 2/2, Pursuit of Justice 2/2, Repentance 1/1, Sacred Arbiter 1/1, Sanctified Judgement 3/3, Seal of Command 1/1, Two-Handed Weapon Specialization 3/3, Unsealed Wrath 1/1, Unyielding Faith 1/2, Vengeance 3/3. It trades Benediction for Deflection; in PvP it relies on burst, stun and defensive tools, because it has no interrupt and no slow.",
+      "text_es": "Sagrado: Fuerza divina 5/5, Conducto Sagrado 2/2, Sellos mejorados 5/5. Protección: Intelecto divino 5/5, Precisión 3/3. Reprensión: Campeón de la Luz 5/5, Convicción 3/3, Desvío 5/5, Sentencia mejorada 2/2, Búsqueda de justicia 2/2, Arrepentimiento 1/1, Enjuiciador Sagrado 1/1, Sentencia santificada 3/3, Sello de orden 1/1, Especialización en armas de dos manos 3/3, Cólera desellada 1/1, Fe implacable 1/2, Venganza 3/3. Cambia Oración por Desvío; en JcJ vive del estallido, el aturdimiento y las defensas, y puede cambiar Conducto Sagrado por Ojo por ojo. Carece de interrupción y ralentización.",
+      "text_en": "Holy: Divine Strength 5/5, Holy Conduit 2/2, Improved Seals 5/5. Protection: Divine Intellect 5/5, Precision 3/3. Retribution: Champion of the Light 5/5, Conviction 3/3, Deflection 5/5, Improved Judgement 2/2, Pursuit of Justice 2/2, Repentance 1/1, Sacred Arbiter 1/1, Sanctified Judgement 3/3, Seal of Command 1/1, Two-Handed Weapon Specialization 3/3, Unsealed Wrath 1/1, Unyielding Faith 1/2, Vengeance 3/3. It trades Benediction for Deflection; in PvP it lives on burst, stun and defensive tools, and can swap Holy Conduit for Eye for an Eye. It has no interrupt or slow.",
       "tags": [
         "PALADIN"
       ],
@@ -1915,7 +1915,7 @@
           "type": "editorial",
           "ref": "Wowhead: Best Retribution Paladin Talent Tree Builds - WoW: Forever › Retribution PvP Build",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/talent-builds-pve-dps",
-          "date": "2026-11-23"
+          "date": "2026-11-24"
         },
         {
           "type": "editorial",
@@ -1924,13 +1924,13 @@
           "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-24",
+      "updated": "2026-11-25",
       "topics": [
         "class:paladin:retribution:overview",
         "class:paladin:retribution:talents"
       ],
       "source_hashes": [
-        "section:b2a3008297a00b4cac9c02cf16f1d02792c88475",
+        "section:70548a02b7e1afd4f11b588aa1c37ee4f1718956",
         "section:f9911e1c491215f23332d87747201ec029fc860a"
       ]
     },
@@ -3699,8 +3699,8 @@
         "holy power gloves",
         "spellblasting two-hand"
       ],
-      "text_es": "Encantamientos del Paladín Reprensión: Arma: Encantar arma: cruzado, Encantar arma 2M: explosión de hechizos o arma abrasadora; el de fuerza inferior a dos manos (Encantamiento 220) es el más fácil al subir. Collar: fuerza o poder con hechizos, rinden parecido. Torso: estadísticas superiores. Brazales: fuerza excelente. Guantes: poder sagrado (nivel 50+) o fuerza superior. Cabeza y piernas: Arcano de Voracidad inferior o de Rapidez (nivel 50+). Botas: agilidad superior. A nivel 60, explosión de hechizos da +65 poder con hechizos; vigila poder sagrado en los guantes.",
-      "text_en": "Retribution Paladin enchants: Weapon: Enchant Weapon - Crusader, Enchant 2H Weapon - Spellblasting or Fiery Weapon; the two-hand Lesser Strength (Enchanting 220) is the easiest while leveling. Neck: Strength or Spell Power, they perform similarly. Chest: Greater Stats. Bracers: Superior Strength. Gloves: Holy Power (level 50+) or Greater Strength. Head and legs: Lesser Arcanum of Voracity or Rapidity (level 50+). Boots: Greater Agility. At level 60, Spellblasting gives +65 Spell Power; watch Holy Power on gloves.",
+      "text_es": "Paladín Reprensión: Arma: Encantar arma: cruzado es el mejor; Encantar arma 2M: explosión de hechizos pierde contra un objetivo y gana en área, y Contrapeso de hierro es la opción barata que casi los iguala. Collar: fuerza o poder con hechizos, casi iguales; el segundo gana en área. Pechera: estadísticas superiores. Brazales: poder con hechizos superior o fuerza excelente. Guantes: poder sagrado (50+) o velocidad menor o fuerza superior. Cabeza y piernas: Arcano de Rapidez o Arcano de Voracidad inferior (50+). Botas: agilidad superior. A 60, explosión de hechizos da +65 poder con hechizos.",
+      "text_en": "Retribution Paladin enchants: Weapon: Enchant Weapon - Crusader is the best, and Enchant 2H Weapon - Spellblasting is slightly worse on one target and better in AoE, while Iron Counterweight is the cheap option that nearly matches them. Neck: Strength or Spell Power, almost equal; spell power wins in AoE. Chest: Greater Stats. Bracers: Greater Spellpower or Superior Strength. Gloves: Holy Power (50+) or Minor Haste or Greater Strength. Head and legs: Arcanum of Rapidity or Lesser Arcanum of Voracity (50+). Boots: Greater Agility. At 60, Spellblasting gives +65 Spell Power.",
       "tags": [
         "PALADIN"
       ],
@@ -3709,15 +3709,22 @@
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin Enchants & Consumables - WoW: Forever › Best Retribution Paladin Enchants for Leveling in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/enchants-consumables-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-24"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin Enchants & Consumables - WoW: Forever › Level 60 Weapon Enchants to Watch",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/enchants-consumables-pve-dps",
+          "date": "2026-11-24"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-25",
       "topics": [
         "class:paladin:retribution:enchants"
       ],
       "source_hashes": [
-        "section:7455568f2708ef08c55908fc3fc45750d1ee308c"
+        "section:11b412b09c60c8b361d4e3555672cb40ba6ad2d6",
+        "section:8e0df34445504ddacff882a4d27799763317455a"
       ]
     },
     {
@@ -3746,8 +3753,8 @@
         "frost oil paladin",
         "retribution paladin food"
       ],
-      "text_es": "Consumibles del Paladín Reprensión: Los elixires duran 30 minutos y se acumulan si dan beneficios distintos: combina uno de poder con hechizos (Elixir superior arcano) con uno de fuerza (Elixir de gigantes) o de ferocidad. En el arma, el Aceite escarchado es el más fuerte hasta niveles altos (escala con tu poder con hechizos), seguido del Aceite de las Sombras; para ahorrar, usa el mejor aceite de zahorí. Come siempre: la comida da experiencia; elige poder con hechizos o fuerza.",
-      "text_en": "Retribution Paladin consumables: Elixirs last 30 minutes and stack if they give different buffs: pair a Spell Power one (Greater Arcane Elixir) with a Strength one (a Strength elixir) or Ferocity. On the weapon, Frost Oil is the strongest until high levels (it scales with your spell power), followed by Shadow Oil; to save gold, use the best wizard oil. Always eat: food gives experience; pick spell power or strength.",
+      "text_es": "Los elixires duran 30 minutos y se acumulan si el beneficio es distinto: combina fuerza con daño con hechizos (Elixir superior arcano). En el arma, Aceite de las Sombras gana a un objetivo y Aceite de zahorí luminoso en área; ambos escalan con tu poder con hechizos. Las pociones de explosión de hechizos superan a las de frenesí; lleva pociones de maná, porque sin maná estás perdido. Come siempre: Bien alimentado da experiencia y los mejores bonus son poder con hechizos o fuerza; al máximo nivel, Estofado de langosta. El Ají aliento de dragón se suma a la comida y escala con el poder con hechizos.",
+      "text_en": "Retribution Paladin consumables: Elixirs last 30 minutes and stack if the buff is different: pair strength with spell damage (Greater Arcane Elixir). On the weapon, Shadow Oil wins on one target and Brilliant Wizard Oil in AoE; both scale with your spell power. Spellblasting Potions beat Frenzy Potions for damage; carry Mana Potions, because without mana you are lost. Well Fed food gives experience and the best bonuses are Spell Power or strength; at max level, Lobster Stew. Dragonbreath Chili stacks with Well Fed and scales with spell power.",
       "tags": [
         "PALADIN"
       ],
@@ -3756,15 +3763,43 @@
           "type": "editorial",
           "ref": "Wowhead: Retribution Paladin Enchants & Consumables - WoW: Forever › Best Retribution Paladin Consumables for Leveling in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/enchants-consumables-pve-dps",
-          "date": "2026-11-04"
+          "date": "2026-11-24"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin Enchants & Consumables - WoW: Forever › Potions",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/enchants-consumables-pve-dps",
+          "date": "2026-11-24"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin Enchants & Consumables - WoW: Forever › Elixirs",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/enchants-consumables-pve-dps",
+          "date": "2026-11-24"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin Enchants & Consumables - WoW: Forever › Weapon Buffs",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/enchants-consumables-pve-dps",
+          "date": "2026-11-24"
+        },
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Retribution Paladin Enchants & Consumables - WoW: Forever › Food",
+          "url": "https://www.wowhead.com/forever/guide/classes/paladin/retribution/enchants-consumables-pve-dps",
+          "date": "2026-11-24"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-25",
       "topics": [
         "class:paladin:retribution:enchants"
       ],
       "source_hashes": [
-        "section:9dc9221da2bd5233159d21379b892cd3d2ef71c7"
+        "section:32a9264fb304100ff499d6e06dbf20a0caf58d95",
+        "section:3de1c2f751de90489d613da9928325629345d439",
+        "section:5eabe06566cb868113311144a308960d72ab0027",
+        "section:7791d58619abe9c908a7b10ed625f62d277ffc9a",
+        "section:c3a4dd3dec67086546cac6b5e167fc0e04e4a781"
       ]
     }
   ]
