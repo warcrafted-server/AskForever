@@ -13,7 +13,7 @@ El detalle de cada hito está en [ROADMAP.md](ROADMAP.md). Lo hecho está en el 
 - **Créditos de los datos** (Blizzard y Wowhead) cuando wowdata deje de incluir Questie: `CREDITS.md` EN/ES con la Skill `licencias` y autorización de Marc.
 
 - **Leer respuestas largas en el chat** (pedido por Marc): ventana del addon redimensionable, desplazamiento con la rueda y botones ▲/▼ sobre el panel (el overlay no recibe clics), y mostrar cada respuesta nueva desde su principio. Diseño en `.agents/plans/consultas/consultas.PLAN.md` (3c).
-- **Primera ejecución del trabajo de Linux en GitHub Actions** (0.5.0-beta.1): lanzar el trabajo nuevo del workflow y comprobar que el paquete compilado en Ubuntu funciona en Arch.
+- **Paquete de Linux compilado en GitHub** (0.5.0-beta.1): el trabajo de Linux del workflow Release se ejecutó bien y el tar.gz está en la release; falta comprobar que ese paquete, compilado en Ubuntu, funciona en Arch.
 - **Capturas purgadas del historial (2026-11-25): pendiente GitHub** (Marc): los commits antiguos pueden seguir accesibles por su identificador hasta que el soporte de GitHub los limpie; pedirlo en https://support.github.com (commit `e84ce60` y la antigua etiqueta v0.4.0-beta.12).
 
 ## Media
