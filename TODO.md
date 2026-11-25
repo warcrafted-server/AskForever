@@ -14,7 +14,7 @@ El detalle de cada hito está en [ROADMAP.md](ROADMAP.md). Lo hecho está en el 
 
 - **Leer respuestas largas en el chat** (pedido por Marc): ventana del addon redimensionable, desplazamiento con la rueda y botones ▲/▼ sobre el panel (el overlay no recibe clics), y mostrar cada respuesta nueva desde su principio. Diseño en `.agents/plans/consultas/consultas.PLAN.md` (3c).
 - **Primera ejecución del trabajo de Linux en GitHub Actions** (0.5.0-beta.1): lanzar el trabajo nuevo del workflow y comprobar que el paquete compilado en Ubuntu funciona en Arch.
-- **Borrar del historial publicado las capturas de `companion/spike-linux`**: las dos capturas de escritorio añadidas en el commit e84ce60 (también contenidas en la etiqueta v0.4.0-beta.12) siguen en el historial de git; purgarlas.
+- **Capturas purgadas del historial (2026-11-25): pendiente GitHub** (Marc): los commits antiguos pueden seguir accesibles por su identificador hasta que el soporte de GitHub los limpie; pedirlo en https://support.github.com (commit `e84ce60` y la antigua etiqueta v0.4.0-beta.12).
 
 ## Media
 - **Druida Equilibrio: Wowhead y los datos del juego no coinciden** (2026-11-25, build 71139): el calculador de Wowhead muestra «Starlight Wrath», «Moon and Stars», «Dreamstate» en el sitio de «Moonfury» e «Improved Starfire» con 2 rangos; las DB2 no lo confirman y mandan ellas, así que las fichas no se tocan. Volver a comprobarlo con la próxima actualización. Afecta a los paquetes descodificados y a `ext_wh_*`.
