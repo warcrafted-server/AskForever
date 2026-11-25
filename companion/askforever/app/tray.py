@@ -282,3 +282,11 @@ class TrayIcon:
             thread.join(timeout=1.0)
         self._hwnd = None
         self._start_ok = False
+
+
+def create_tray(*args, **kwargs):
+    """Devuelve el icono de bandeja del sistema: Win32 en Windows, D-Bus en Linux."""
+    if os.name == 'nt':
+        return TrayIcon(*args, **kwargs)
+    from askforever.app.tray_linux import LinuxTrayIcon
+    return LinuxTrayIcon(*args, **kwargs)

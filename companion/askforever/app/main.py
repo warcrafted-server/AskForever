@@ -13,7 +13,7 @@ from askforever import config
 from askforever.app.selfupdate import Updater
 from askforever.app.events import emit, log_detail, set_status
 from askforever.app.setup import ProviderHolder, SetupDialog
-from askforever.app.tray import TrayIcon
+from askforever.app.tray import create_tray
 from askforever.app.window import AppWindow, ui_language
 from askforever.overlay.supervisor import OverlaySupervisor
 
@@ -155,10 +155,10 @@ def run_app(args) -> int:
         tooltip = ('AskForever App: en marcha (necesaria para el addon)'
                    if language == 'es' else
                    'AskForever App: running (needed by the addon)')
-        tray = TrayIcon(Path(__file__).parent / 'askforever.ico',
-                        on_open=lambda: window.submit_command('open'),
-                        on_exit=lambda: window.submit_command('exit'),
-                        language=language, tooltip=tooltip)
+        tray = create_tray(Path(__file__).parent / 'askforever.ico',
+                           on_open=lambda: window.submit_command('open'),
+                           on_exit=lambda: window.submit_command('exit'),
+                           language=language, tooltip=tooltip)
         if not tray.start():
             tray = None
         window.set_tray(tray)
