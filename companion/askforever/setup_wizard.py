@@ -4,11 +4,11 @@ from __future__ import annotations
 
 import getpass
 import inspect
-import webbrowser
 from typing import Callable, Optional
 
 from askforever import config
 from askforever.providers.openai_compat import OpenAICompatProvider, ProviderError
+from askforever.system_env import open_url as open_browser
 
 GUIDE_URL = 'https://github.com/warcrafted-server/AskForever/blob/main/docs/CLAVE_GEMINI.md'
 MAX_ATTEMPTS = 3
@@ -102,7 +102,7 @@ def _read_key(getpass_fn, provider_name: str) -> str:
 
 def run_wizard(input_fn: Callable[[str], str] = input,
                getpass_fn: Callable[[str], str] = getpass.getpass,
-               open_url: Callable[[str], object] = webbrowser.open,
+               open_url: Callable[[str], object] = open_browser,
                test_fn: Optional[Callable] = None) -> bool:
     """Guía al jugador para probar y guardar una clave; True si la guardó."""
     print('Bienvenido a AskForever.')

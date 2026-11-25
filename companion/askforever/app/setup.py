@@ -5,12 +5,12 @@ from __future__ import annotations
 from dataclasses import dataclass
 import queue
 import threading
-import webbrowser
 import tkinter as tk
 
 from askforever import setup_wizard
 from askforever.app.window import BG, BORDER, DIM, ERROR, GOLD, OK, PANEL, TEXT
 from askforever.providers.openai_compat import ProviderError
+from askforever.system_env import open_url
 
 
 def validate_key_text(key: str) -> str:
@@ -109,7 +109,7 @@ class SetupDialog(tk.Toplevel):
             fg=GOLD, bg=BG, cursor='hand2', font=('Segoe UI', 10, 'underline'),
         )
         link.grid(row=1, column=0, sticky='w', padx=20, pady=(0, 12))
-        link.bind('<Button-1>', lambda _event: webbrowser.open(setup_wizard.GUIDE_URL))
+        link.bind('<Button-1>', lambda _event: open_url(setup_wizard.GUIDE_URL))
 
         entry_row = tk.Frame(self, bg=BG, padx=20)
         entry_row.grid(row=2, column=0, sticky='ew')

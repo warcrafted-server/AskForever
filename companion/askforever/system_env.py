@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import os
+import subprocess
 import sys
+import webbrowser
 from typing import Optional
 
 
@@ -30,3 +32,15 @@ def external_env(environ=None, platform: Optional[str] = None,
     else:
         env.pop('LD_LIBRARY_PATH', None)
     return env
+
+
+def open_url(url: str) -> bool:
+    """Abre una dirección en el navegador sin pasarle las bibliotecas del paquete."""
+    env = external_env()
+    if env is not None:
+        try:
+            subprocess.Popen(['xdg-open', url], env=env)
+            return True
+        except OSError:
+            pass
+    return webbrowser.open(url)

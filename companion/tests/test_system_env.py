@@ -78,3 +78,18 @@ def test_portal_capture_does_not_pass_env_when_not_frozen(monkeypatch):
         spawn=spawn, clock=lambda: 0.0)
     assert capture() is not None
     assert 'env' not in calls[0]
+
+
+def test_open_url_uses_xdg_open_with_clean_env_only_when_frozen(monkeypatch):
+    launched, browsed = [], []
+    monkeypatch.setattr(system_env.subprocess, 'Popen',
+                        lambda command, env: launched.append((command, env)))
+    monkeypatch.setattr(system_env.webbrowser, 'open', lambda url: browsed.append(url) or True)
+
+    monkeypatch.setattr(system_env, 'external_env', lambda: None)
+    assert system_env.open_url('https://example.org') is True
+    assert (launched, browsed) == ([], ['https://example.org'])
+
+    monkeypatch.setattr(system_env, 'external_env', lambda: {'PATH': '/usr/bin'})
+    assert system_env.open_url('https://example.org') is True
+    assert launched == [(['xdg-open', 'https://example.org'], {'PATH': '/usr/bin'})]

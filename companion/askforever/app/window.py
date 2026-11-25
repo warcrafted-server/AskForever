@@ -7,14 +7,13 @@ import os
 import queue
 import subprocess
 import sys
-import webbrowser
 from pathlib import Path
 import tkinter as tk
 from tkinter import messagebox, ttk
 
 from askforever import config, setup_wizard
 from askforever.app.events import get_bus
-from askforever.system_env import external_env
+from askforever.system_env import external_env, open_url
 
 BG = '#1b1610'
 PANEL = '#241d15'
@@ -282,7 +281,7 @@ class AppWindow(tk.Tk):
             subprocess.Popen(['xdg-open', str(path)], env=external_env())
 
     def open_help(self):
-        webbrowser.open(setup_wizard.GUIDE_URL)
+        open_url(setup_wizard.GUIDE_URL)
 
     def hide_or_exit(self):
         if should_hide_to_tray(self.tray is not None):
