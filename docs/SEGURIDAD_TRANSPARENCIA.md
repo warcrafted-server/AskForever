@@ -3,21 +3,22 @@
 *English version: [SECURITY_TRANSPARENCY.md](SECURITY_TRANSPARENCY.md)*
 
 AskForever tiene dos partes: el **addon** (funciona dentro del juego, como cualquier otro
-addon) y **AskForever App** (una app de Windows que conecta el addon con la IA). Esta página
-explica qué hace AskForever App y qué no hace nunca, para que decidas con todos los datos.
-Todo lo que pone aquí se puede comprobar en el código fuente de este repositorio.
+addon) y **AskForever App** (una app para Windows y Linux que conecta el addon con la IA).
+Esta página explica qué hace AskForever App y qué no hace nunca, para que decidas con todos
+los datos. Todo lo que pone aquí se puede comprobar en el código fuente de este repositorio.
 
 ## En un minuto
 
 - **Mira una pequeña franja de la ventana del juego** (512 × 32 píxeles en la esquina
   superior izquierda), donde el addon dibuja tu pregunta con píxeles de colores. Nada más de
-  tu pantalla.
+  tu pantalla. En Linux, el portal de pantalla del escritorio comparte el monitor que elijas
+  y un proceso local recorta esa franja (ver «En Linux»).
 - Envía tu pregunta y algo de contexto del personaje al **proveedor de IA que tú elijas**, y
   puede consultar **warcraft.wiki.gg**. También contacta con GitHub para buscar actualizaciones de la app y los datos del juego.
 - **Nunca** lee la memoria del juego, no inyecta nada en el juego y no pulsa teclas ni mueve
   el ratón por ti.
 - Tu clave de API se guarda cifrada en el **Administrador de credenciales de Windows**, nunca
-  en un archivo de texto.
+  en un archivo de texto (en Linux, en el llavero del escritorio).
 - Sin cuentas, sin telemetría y sin servidores propios: no existe ningún servidor de
   AskForever.
 
@@ -25,13 +26,13 @@ Todo lo que pone aquí se puede comprobar en el código fuente de este repositor
 
 | Qué | Detalle | Dónde está en el código |
 |---|---|---|
-| Encuentra la ventana del juego | Recorre las ventanas visibles y comprueba cuál es de `Wow.exe` (solo pide a Windows el nombre del proceso, con el permiso mínimo `PROCESS_QUERY_LIMITED_INFORMATION`). | `companion/askforever/capture/window.py` |
+| Encuentra la ventana del juego | Recorre las ventanas visibles y comprueba cuál es de `Wow.exe` (solo pide a Windows el nombre del proceso, con el permiso mínimo `PROCESS_QUERY_LIMITED_INFORMATION`; en Linux lee la lista de procesos de `/proc` y, del proceso `Wow.exe`, solo su línea de órdenes, su entorno y sus archivos mapeados, para saber su carpeta). | `companion/askforever/capture/window.py` |
 | Lee la tira de píxeles | Captura solo una zona de 512 × 32 píxeles de la esquina superior izquierda de la ventana del juego, unas 30 veces por segundo, para leer el mensaje que dibuja el addon. Las imágenes se quedan en memoria y nunca se guardan en disco. | `companion/askforever/capture/grabber.py` |
 | Responde con IA | Envía tu pregunta, la conversación hasta ese momento y el contexto de tu personaje al proveedor de IA que hayas configurado (ver la tabla de abajo). | `companion/askforever/engine/`, `companion/askforever/providers/openai_compat.py` |
 | Consulta la wiki | Cuando sus datos del juego no tienen la respuesta (nunca para rutas de viaje), busca en warcraft.wiki.gg con términos cortos. | `companion/askforever/web/wiki.py` |
 | Muestra la respuesta | Abre una ventanita siempre encima del juego que ignora los clics (nunca coge el foco ni el teclado). | `companion/askforever/overlay/` |
 | Lee los datos del addon | Lee la carpeta `Interface\AddOns\AskForever\data` del addon para aplicar el parche de datos del juego y las fichas. No modifica esa carpeta. | `companion/askforever/data/patch.py` |
-| Actualiza la app | Comprueba las versiones de GitHub al iniciar y cada seis horas. Descarga y verifica el instalador, espera a que termine cualquier respuesta en curso, ejecuta el instalador en silencio y vuelve a abrir la app. | `companion/askforever/app/selfupdate.py` |
+| Actualiza la app | Comprueba las versiones de GitHub al iniciar y cada seis horas. Descarga y verifica el instalador, espera a que termine cualquier respuesta en curso, ejecuta el instalador en silencio y vuelve a abrir la app. En Linux solo avisa de la versión nueva con su enlace. | `companion/askforever/app/selfupdate.py` |
 | Actualiza los datos del juego | Busca en GitHub la base de datos que pide el addon instalado, la descarga y verifica, y después reconstruye la base local con el parche de datos del addon. | `companion/askforever/data/patch.py`, `companion/askforever/updates.py` |
 
 ### Qué se envía al proveedor de IA
@@ -74,15 +75,18 @@ proveedores está en `companion/askforever/config.py`; las actualizaciones de la
 | `%LOCALAPPDATA%\AskForever\logs\app.log` | Registro técnico de la app; no contiene claves de API | Mientras AskForever App está en marcha |
 | `%LOCALAPPDATA%\AskForever\updates` | Instalador de actualización descargado y su archivo SHA-256, antes de instalar | Cuando hay una actualización de la app |
 
-AskForever App lee la carpeta `data` del addon, pero no escribe en ella. Al desinstalar la app
-no se elimina el addon; quítalo desde CurseForge o borra su carpeta, como cualquier otro addon.
+AskForever App lee la carpeta `data` del addon, pero no escribe en ella. En Windows, al
+desinstalar la app no se elimina el addon; quítalo desde CurseForge o borra su carpeta, como
+cualquier otro addon (en Linux, `uninstall.sh` sí lo borra; ver «En Linux»).
 
 ## Lo que AskForever App no hace nunca
 
 - **No** lee ni escribe la memoria del juego, ni inyecta código o ventanas en el proceso del
   juego.
 - **No** simula teclado ni ratón, y no escribe en el chat.
-- **No** captura nada fuera de esa franja de 512 × 32, ni guarda capturas de pantalla.
+- **No** captura nada fuera de esa franja de 512 × 32, ni guarda capturas de pantalla. En
+  Linux, el permiso del portal abarca el monitor entero, pero la app solo recibe el recorte
+  local de 512 × 32 y no captura con el juego cerrado.
 - **No** envía datos a nosotros ni a nadie aparte del proveedor de IA que elegiste,
   warcraft.wiki.gg y GitHub para actualizaciones y datos del juego.
 - Al cerrar la ventana de la app, esta se oculta en la bandeja del sistema para que el addon
@@ -90,6 +94,35 @@ no se elimina el addon; quítalo desde CurseForge o borra su carpeta, como cualq
 
 Son reglas de diseño del proyecto (ver las reglas de arquitectura del repositorio), no solo
 promesas: el código es público para que cualquiera lo compruebe.
+
+## En Linux
+
+AskForever App para Linux hace lo mismo que la de Windows, con estas diferencias (requisitos y
+pasos completos en la [guía de instalación de Linux](https://github.com/warcrafted-server/AskForever/blob/main/docs/INSTALACION_LINUX.md)):
+
+- **Captura:** el escritorio pide compartir pantalla y hay que elegir el monitor del juego; el
+  permiso concedido al portal abarca ese monitor completo, pero un proceso local
+  `gst-launch-1.0` recorta la esquina superior izquierda de 512 × 32 píxeles y la app solo
+  recibe ese recorte. La elección se recuerda en `data/portal-token`; para elegir otro monitor,
+  borrar ese archivo y reabrir la app. Solo captura mientras el juego está abierto.
+- **Detección del juego:** lee la lista de procesos de `/proc` (la línea de órdenes, el entorno
+  y los archivos mapeados del proceso `Wow.exe`, solo para saber su carpeta). No lee su
+  memoria, no inyecta nada ni simula teclado o ratón.
+- **Overlay:** usa X11 (XWayland) para consultar ventanas y dejar pasar los clics.
+- **Clave:** en el llavero del escritorio (servicio `AskForever`), nunca en un archivo.
+- **Archivos:** `<_forever_>/AskForever/` (programa, `data/`, `logs/`, `companion.log`,
+  `data/portal-token`, `data/portal-geometry.json`); la carpeta `data/` del addon, en solo
+  lectura; y, opcionalmente, `~/.local/share/applications/askforever.desktop`.
+- **Conexiones de red:** las mismas que en Windows; de GitHub solo lee la lista de releases y
+  descarga la base de datos del juego.
+- **Actualizar y desinstalar:** la app solo avisa de una versión nueva con su enlace (no
+  descarga ni ejecuta nada); para actualizar se cierra la app, se extrae el paquete nuevo y se
+  ejecuta otra vez `./install.sh` (conserva la clave y los datos), y para desinstalar,
+  `<_forever_>/AskForever/uninstall.sh`, que borra la clave, los datos, los registros, el
+  addon, la carpeta de la app y el acceso directo.
+- **Limitaciones conocidas:** con Wine/Proton en Wayland nativo el panel no se oculta al
+  cambiar a otra ventana, y en GNOME el icono de bandeja necesita una extensión AppIndicator
+  (no probado).
 
 ## Cómo comprobarlo tú mismo
 
@@ -99,15 +132,15 @@ Estado de cada comprobación (solo ponemos lo que existe de verdad hoy):
 |---|---|
 | Código fuente completo y público en GitHub | Disponible |
 | Pruebas automáticas | Disponible: se ejecutan en GitHub en cada cambio (etiqueta CI) y en local con `pytest` en `companion/` |
-| Programa compilado automáticamente en GitHub desde el código público (nunca en un ordenador personal) | Disponible desde la versión 0.3.0-beta.1 (ver el workflow Release en Actions) |
-| Hash SHA-256 de cada descarga publicado con la versión | Disponible desde la versión 0.3.0-beta.1 (archivos `.sha256` y notas de la versión) |
-| Atestación de procedencia de la compilación (`gh attestation verify <archivo> --repo warcrafted-server/AskForever`) | Disponible desde la versión 0.3.0-beta.1, también para los datos del juego |
-| Análisis de VirusTotal enlazado en cada versión | Disponible desde la versión 0.3.0-beta.3: [informe del instalador](https://www.virustotal.com/gui/file/882e541ae884519ebb20d147770122a857fb81c2f1f9ae8e477c12eb5ecfa077). Un motor lo marca (ver abajo) |
+| Programa compilado automáticamente en GitHub desde el código público (nunca en un ordenador personal) | Disponible desde la versión 0.3.0-beta.1 para Windows y desde la 0.5.0-beta.1 para Linux (ver el workflow Release en Actions) |
+| Hash SHA-256 de cada descarga publicado con la versión | Disponible desde la versión 0.3.0-beta.1 (en Linux, desde la 0.5.0-beta.1; archivos `.sha256` y notas de la versión) |
+| Atestación de procedencia de la compilación (`gh attestation verify <archivo> --repo warcrafted-server/AskForever`) | Disponible desde la versión 0.3.0-beta.1 (en Linux, desde la 0.5.0-beta.1), también para los datos del juego |
+| Análisis de VirusTotal enlazado en cada versión | Disponible desde la versión 0.3.0-beta.3: [informe del instalador](https://www.virustotal.com/gui/file/882e541ae884519ebb20d147770122a857fb81c2f1f9ae8e477c12eb5ecfa077). Un motor lo marca (ver abajo). No hay informe de VirusTotal del paquete de Linux |
 | Análisis automático del código (CodeQL) y actualización de dependencias (Dependabot) | Disponible (ver las etiquetas del README) |
 
 ## Detecciones de antivirus
 
-Publicamos el informe de VirusTotal de cada instalador, también las detecciones que creemos que son falsos positivos.
+Publicamos el informe de VirusTotal de cada instalador de Windows, también las detecciones que creemos que son falsos positivos. Del paquete de Linux no hay análisis publicado.
 
 - **0.3.0-beta.3:** un motor, **SecureAge**, marca el instalador con la etiqueta genérica «Malicious» (sin nombrar ninguna familia de malware); el resto de motores no detecta nada. El archivo es el compilado en GitHub (su SHA-256 coincide con el `.sha256` publicado en la versión). Los motores heurísticos suelen marcar así los instaladores sin firmar hechos con PyInstaller e Inno Setup. Lo comunicamos al fabricante como falso positivo y actualizaremos esta página con su respuesta.
 
@@ -128,6 +161,10 @@ AskForever App aparece en **Configuración > Aplicaciones** de Windows. Al desin
 eliminan la app, sus accesos directos, la clave de API guardada y los datos, registros y
 archivos de actualización locales de AskForever. Quita el addon `AskForever` por separado
 desde la app de CurseForge o borrando su carpeta, como cualquier otro addon.
+
+En Linux, ejecuta `<_forever_>/AskForever/uninstall.sh` (`--yes` para no preguntar) con la app
+cerrada: borra la clave, los datos, los registros, el addon, la carpeta de la app y el acceso
+directo.
 
 ## Avisar de un problema de seguridad
 

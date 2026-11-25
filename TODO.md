@@ -13,6 +13,9 @@ El detalle de cada hito está en [ROADMAP.md](ROADMAP.md). Lo hecho está en el 
 - **Créditos de los datos** (Blizzard y Wowhead) cuando wowdata deje de incluir Questie: `CREDITS.md` EN/ES con la Skill `licencias` y autorización de Marc.
 
 - **Leer respuestas largas en el chat** (pedido por Marc): ventana del addon redimensionable, desplazamiento con la rueda y botones ▲/▼ sobre el panel (el overlay no recibe clics), y mostrar cada respuesta nueva desde su principio. Diseño en `.agents/plans/consultas/consultas.PLAN.md` (3c).
+- **Capturas para las guías de Linux** (pendiente de Marc): capturas de pantalla para `docs/INSTALACION_LINUX.md` y `docs/INSTALL_LINUX.md`.
+- **Primera ejecución del trabajo de Linux en GitHub Actions** (0.5.0-beta.1): lanzar el trabajo nuevo del workflow y comprobar que el paquete compilado en Ubuntu funciona en Arch.
+- **Borrar del historial publicado las capturas de `companion/spike-linux`**: las dos capturas de escritorio añadidas en el commit e84ce60 (también contenidas en la etiqueta v0.4.0-beta.12) siguen en el historial de git; purgarlas.
 
 ## Media
 - **Descripción de los objetos en las respuestas** (wowdata, 2026-11-24): el companion no lee la descripción del objeto (`ItemSparse.Description_lang_esES`, con el inglés de respaldo; 4820 de 4828 la tienen en español). Añadirla a `item_sources` ayudaría con «¿qué hago con este objeto?»; hoy esa pregunta solo se salva si hay ficha.
@@ -26,6 +29,9 @@ El detalle de cada hito está en [ROADMAP.md](ROADMAP.md). Lo hecho está en el 
 - Validar en el juego el atajo de teclado (Opciones → Atajos → AddOns) tal como lo describen las guías.
 - Instalar `luacheck` si el volumen de errores lo justifica.
 - **Automatizar el análisis de VirusTotal del instalador** en el workflow de Release (API de VirusTotal, clave en los secrets de GitHub) y actualizar la insignia del README automáticamente; mientras tanto, la insignia y los enlaces se actualizan a mano en cada release.
+- **Análisis de VirusTotal del paquete de Linux** (0.5.0-beta.1): analizar el `.tar.gz` y enlazar el informe en las notas de la versión y en las páginas de transparencia.
+- **Ocultar el overlay al cambiar de ventana con WoW en Wayland nativo**: con Wine/Proton en Wayland nativo el panel sigue visible al pasar a otra ventana.
+- **Probar Linux más allá de lo verificado**: GNOME, otras distribuciones, WoW con XWayland dentro del juego, sesiones X11 y varios monitores con el juego fuera del monitor izquierdo.
 
 ## Baja
 - «Llévame»: pines y flecha en el mapa.
