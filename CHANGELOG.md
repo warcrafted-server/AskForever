@@ -4,37 +4,19 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+## [0.5.0-beta.1] - 2026-11-25
+
 ### English
-- Corrected (internal, Linux version in preparation): the screen capture through the portal failed to start (wrong library import); its start, first frame and GStreamer errors are now written to the log.
-- Added (internal, Linux version in preparation): the Linux release package is built with `scripts/build-linux.sh`, which compiles the companion with PyInstaller and packs the program, the public addon and the installer into `askforever-<version>-linux-x86_64.tar.gz` with its SHA-256 checksum.
-- Corrected (internal, Linux version in preparation): the Linux dependency of the screen capture is declared, the packaged program no longer forces the Windows credential store outside Windows and the set-key hint names the right command.
-- Added (internal, Linux version in preparation): the companion asks XWayland for the game window's real position and size, and whether it is active, instead of always assuming a provisional 1920×1080 frame at the top-left corner.
-- Added (internal, Linux version in preparation): the overlay is shown over the game on Linux (XWayland), always on top, click-through and without taking focus, and hides when the game is not the active window.
-- Added (internal, Linux version in preparation): the companion shows its icon in the Linux notification area (StatusNotifierItem), with Open and Quit in the context menu, and uses desktop notifications instead of balloons.
-- Added (internal, Linux version in preparation): on Linux the updater only announces a new release with its link; it never downloads or runs anything.
-- Added (internal, Linux version in preparation): on Linux the companion translates the game path Wine reports into a real Unix path, so addon data and uninstall find the game folder, and the new `find-wow` command lists the WoW Forever folders it detects.
-- Added (internal, Linux version in preparation): the packaged Linux app finds the game folder from its own location, so addon data and uninstall work with the game closed, and uninstalling a copy never touches another installation's addon.
-- Added (internal, Linux version in preparation): the release tarball includes an installer and an uninstaller (`install.sh` and `uninstall.sh`), which copy the companion and the addon into the game folder (or update them without touching saved data), warn about missing GStreamer components, can create a desktop shortcut, and remove only their own installation.
-- Corrected (internal, Linux version in preparation): the system programs the companion launches on Linux (screen capture, logs folder, notifications) run with the system library path, not the packaged app's.
-- Corrected (internal, Linux version in preparation): on Wayland the companion captures the screen through the portal only while the game is running, so the screen-sharing dialog no longer opens at startup and the capture is released when the game closes.
-- Corrected (internal, Linux version in preparation): closing the Linux app with `kill` or a signal no longer leaves the overlay process running, and the overlay also exits by itself when its parent process disappears.
-- Corrected (internal, Linux version in preparation): the overlay also works when WoW runs with Wine's native Wayland driver (no X window for the game) and is placed on the monitor chosen in the screen-sharing portal.
+- Added: AskForever App also works on Linux. It comes as an x86_64 tar.gz with installer and uninstaller, captures the screen through the desktop screen portal only while the game is running, shows the answer panel over the game (also with Wine/Proton native Wayland), lives in the tray, saves your key in the desktop keyring, finds your WoW folder and only announces new releases. Installation guides in English and Spanish.
+- Tested only on Arch-based distributions with KDE Plasma on Wayland and Lutris. Known limitation: with Wine/Proton native Wayland, the panel stays visible when you switch windows.
+- Changed (internal): the release workflow also builds the Linux package.
+- The Windows app and the addon behave as before.
 
 ### Español
-- Corregido (interno, versión para Linux en preparación): la captura de pantalla por el portal no llegaba a arrancar (importación errónea de la librería); su arranque, el primer fotograma y los errores de GStreamer quedan ahora en el registro.
-- Añadido (interno, versión para Linux en preparación): el paquete de la versión de Linux se genera con `scripts/build-linux.sh`, que compila el companion con PyInstaller y empaqueta el programa, el addon público y el instalador en `askforever-<version>-linux-x86_64.tar.gz` junto a su suma SHA-256.
-- Corregido (interno, versión para Linux en preparación): se declara la dependencia de la captura de pantalla en Linux, el programa empaquetado ya no fuerza el almacén de claves de Windows fuera de Windows y el aviso de set-key nombra la orden correcta.
-- Añadido (interno, versión para Linux en preparación): el companion pregunta a XWayland la posición y el tamaño reales de la ventana del juego, y si está activa, en lugar de suponer siempre un marco provisional de 1920×1080 en la esquina superior izquierda.
-- Añadido (interno, versión para Linux en preparación): el overlay se muestra sobre el juego en Linux (XWayland), siempre encima, transparente a los clics y sin robar el foco, y se oculta cuando el juego no es la ventana activa.
-- Añadido (interno, versión para Linux en preparación): el companion muestra su icono en el área de notificación de Linux (StatusNotifierItem), con Abrir y Salir en el menú contextual, y usa notificaciones del escritorio en lugar de globos.
-- Añadido (interno, versión para Linux en preparación): en Linux el actualizador solo avisa de una versión nueva con su enlace; nunca descarga ni ejecuta nada.
-- Añadido (interno, versión para Linux en preparación): en Linux el companion traduce a una ruta real de Unix la ruta del juego que informa Wine, de modo que los datos del addon y la desinstalación encuentran la carpeta del juego, y la nueva orden `find-wow` lista las carpetas de WoW Forever que detecta.
-- Añadido (interno, versión para Linux en preparación): la aplicación empaquetada de Linux localiza la carpeta del juego a partir de su propia ubicación, de modo que los datos del addon y la desinstalación funcionan con el juego cerrado, y desinstalar una copia nunca toca el addon de otra instalación.
-- Añadido (interno, versión para Linux en preparación): el tar.gz de la versión incluye un instalador y un desinstalador (`install.sh` y `uninstall.sh`), que copian el companion y el addon a la carpeta del juego (o los actualizan sin tocar los datos guardados), avisan si faltan componentes de GStreamer, pueden crear un acceso directo y borran solo su propia instalación.
-- Corregido (interno, versión para Linux en preparación): los programas del sistema que el companion lanza en Linux (captura de pantalla, carpeta de logs, notificaciones) usan la ruta de bibliotecas del sistema, no la de la aplicación empaquetada.
-- Corregido (interno, versión para Linux en preparación): en Wayland el companion captura la pantalla por el portal solo mientras el juego está abierto, de modo que el diálogo de compartir pantalla ya no sale al arrancar y la captura se libera al cerrar el juego.
-- Corregido (interno, versión para Linux en preparación): cerrar la aplicación de Linux con `kill` o una señal ya no deja el proceso del overlay en marcha, y el overlay también termina por sí solo cuando desaparece su proceso principal.
-- Corregido (interno, versión para Linux en preparación): el overlay también funciona cuando WoW se ejecuta con el driver Wayland nativo de Wine (sin ventana X del juego) y se coloca en el monitor elegido en el portal de compartir pantalla.
+- Añadido: AskForever App también funciona en Linux. Llega en un tar.gz de x86_64 con instalador y desinstalador, captura la pantalla por el portal del escritorio solo mientras el juego está abierto, muestra el panel de respuesta sobre el juego (también con Wine/Proton en Wayland nativo), vive en la bandeja, guarda tu clave en el llavero del escritorio, encuentra tu carpeta de WoW y solo avisa de las versiones nuevas. Guías de instalación en español e inglés.
+- Probado solo en distribuciones basadas en Arch con KDE Plasma en Wayland y Lutris. Limitación conocida: con Wine/Proton en Wayland nativo, el panel sigue visible al cambiar de ventana.
+- Cambiado (interno): el workflow de release también compila el paquete de Linux.
+- La aplicación de Windows y el addon funcionan como antes.
 
 ## [0.4.0-beta.12] - 2026-11-24
 
