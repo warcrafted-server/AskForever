@@ -209,7 +209,8 @@ def test_find_game_window_uses_resolved_path(tmp_path):
         {'WINEPREFIX': str(prefix)})
 
     found = capture_window.find_game_window(
-        proc_root=proc, open_display=lambda: None)
+        proc_root=proc, open_display=lambda: None,
+        geometry_path=tmp_path / 'no-geometry.json')
     assert found is not None
     assert found.exe_path == str(wow)
 

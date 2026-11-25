@@ -1,4 +1,5 @@
 import io
+import json
 import sys
 
 import pytest
@@ -8,8 +9,9 @@ from askforever.capture import portal
 pytestmark = pytest.mark.skipif(sys.platform == 'win32', reason='captura de Linux')
 
 
-def _stream(width=1920, height=1080):
-    return portal.PortalStream(fd=7, node_id=74, width=width, height=height)
+def _stream(width=1920, height=1080, x=0, y=0):
+    return portal.PortalStream(
+        fd=7, node_id=74, width=width, height=height, x=x, y=y)
 
 
 def test_parse_start_results_reads_node_size_and_token():
@@ -18,6 +20,19 @@ def test_parse_start_results_reads_node_size_and_token():
         'restore_token': ('s', 'abc'),
     }
     assert portal.parse_start_results(results) == (74, 1920, 1080, 'abc')
+
+
+def test_parse_stream_position_reads_monitor_offset():
+    results = {'streams': ('a(ua{sv})',
+                           [(74, {'position': ('(ii)', (1920, 20))})])}
+    assert portal.parse_stream_position(results) == (1920, 20)
+
+
+def test_parse_stream_position_returns_none_when_missing_or_invalid():
+    assert portal.parse_stream_position({}) is None
+    assert portal.parse_stream_position({'streams': ('x', [(1, {})])}) is None
+    assert portal.parse_stream_position(
+        {'streams': ('x', [(1, {'position': ('(ii)', 'x')})])}) is None
 
 
 def test_parse_start_results_rejects_missing_stream_or_size():
@@ -65,6 +80,36 @@ def test_capture_returns_strip_image_and_none_at_end_of_stream(monkeypatch):
     assert image.getpixel((0, 0)) == (10, 20, 30)
     assert capture() is None
     assert process.killed
+
+
+def test_capture_writes_monitor_geometry_for_the_overlay(monkeypatch, tmp_path):
+    frame = bytes([10, 20, 30]) * (portal.STRIP_WIDTH * portal.STRIP_HEIGHT)
+    geometry = tmp_path / 'data' / 'portal-geometry.json'
+    capture = portal.PortalCapture(
+        geometry_path=geometry,
+        open_session=lambda token_path: _stream(2560, 1440, x=1920, y=20),
+        spawn=lambda *args, **kwargs: _FakeProcess(frame),
+        clock=lambda: 0.0)
+    monkeypatch.setattr(portal.os, 'close', lambda fd: None)
+
+    assert capture() is not None
+    assert json.loads(geometry.read_text(encoding='utf-8')) == {
+        'x': 1920, 'y': 20, 'width': 2560, 'height': 1440}
+    assert not (geometry.parent / 'portal-geometry.json.tmp').exists()
+
+
+def test_capture_ignores_geometry_write_errors(monkeypatch, tmp_path):
+    frame = bytes([10, 20, 30]) * (portal.STRIP_WIDTH * portal.STRIP_HEIGHT)
+    blocker = tmp_path / 'blocked'
+    blocker.write_text('', encoding='utf-8')
+    capture = portal.PortalCapture(
+        geometry_path=blocker / 'portal-geometry.json',
+        open_session=lambda token_path: _stream(),
+        spawn=lambda *args, **kwargs: _FakeProcess(frame),
+        clock=lambda: 0.0)
+    monkeypatch.setattr(portal.os, 'close', lambda fd: None)
+
+    assert capture() is not None
 
 
 def test_capture_reports_error_and_backs_off(monkeypatch):

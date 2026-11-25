@@ -7,6 +7,7 @@ a RGB crudo de la esquina superior izquierda, que llega por una tubería.
 
 from __future__ import annotations
 
+import json
 import logging
 import os
 import subprocess
@@ -49,6 +50,8 @@ class PortalStream:
     height: int
     restore_token: Optional[str] = None
     connection: object = None  # la sesión del portal vive lo que dure la conexión
+    x: int = 0
+    y: int = 0
 
 
 def parse_start_results(results: dict) -> tuple[int, int, int, Optional[str]]:
@@ -66,6 +69,21 @@ def parse_start_results(results: dict) -> tuple[int, int, int, Optional[str]]:
     width, height = size[1]
     token = results.get('restore_token', (None, None))[1]
     return int(node_id), int(width), int(height), token
+
+
+def parse_stream_position(results: dict) -> Optional[tuple[int, int]]:
+    """Posición del monitor compartido en la pantalla, si el portal la indica."""
+    streams = results.get('streams', (None, []))[1]
+    if not streams:
+        return None
+    position = streams[0][1].get('position')
+    if not position:
+        return None
+    try:
+        x, y = position[1]
+        return int(x), int(y)
+    except (TypeError, ValueError):
+        return None
 
 
 def crop_margins(width: int, height: int) -> tuple[int, int]:
@@ -149,6 +167,7 @@ def open_portal_session(token_path: Optional[Path] = None) -> PortalStream:
         started = request('Start', lambda token: ('osa{sv}', (
             session, '', {'handle_token': ('s', token)})))
         node_id, width, height, restore = parse_start_results(started)
+        position = parse_stream_position(started) or (0, 0)
         if restore and token_path is not None:
             token_path.parent.mkdir(parents=True, exist_ok=True)
             token_path.write_text(restore, encoding='utf-8')
@@ -162,13 +181,15 @@ def open_portal_session(token_path: Optional[Path] = None) -> PortalStream:
         connection.close()
         raise PortalError(str(error)) from error
 
-    return PortalStream(fd, node_id, width, height, restore, connection)
+    return PortalStream(fd, node_id, width, height, restore, connection,
+                        position[0], position[1])
 
 
 class PortalCapture:
     """Callable para `Grabber(capture_fn=...)`: devuelve la esquina de la tira o None."""
 
     def __init__(self, token_path: Optional[Path] = None,
+                 geometry_path: Optional[Path] = None,
                  open_session: Callable[..., PortalStream] = open_portal_session,
                  spawn: Callable[..., subprocess.Popen] = subprocess.Popen,
                  clock: Callable[[], float] = time.monotonic,
@@ -177,6 +198,7 @@ class PortalCapture:
                  check_every: float = 1.0,
                  sleep: Callable[[float], None] = time.sleep) -> None:
         self.token_path = token_path
+        self.geometry_path = geometry_path
         self._open_session = open_session
         self._spawn = spawn
         self._clock = clock
@@ -230,6 +252,7 @@ class PortalCapture:
             return False
         try:
             self._stream = self._open_session(self.token_path)
+            self._write_geometry(self._stream)
             env = external_env()
             extra = {} if env is None else {'env': env}
             self._process = self._spawn(gst_command(self._stream), stdout=subprocess.PIPE,
@@ -242,6 +265,22 @@ class PortalCapture:
             self._fail(error)
             return False
         return True
+
+    def _write_geometry(self, stream: PortalStream) -> None:
+        """El overlay vive en otro proceso: comparte la geometría del monitor por archivo."""
+        if self.geometry_path is None:
+            return
+        try:
+            path = Path(self.geometry_path)
+            path.parent.mkdir(parents=True, exist_ok=True)
+            temporary = path.with_name(f'{path.name}.tmp')
+            temporary.write_text(json.dumps({
+                'x': stream.x, 'y': stream.y,
+                'width': stream.width, 'height': stream.height,
+            }), encoding='utf-8')
+            os.replace(temporary, path)
+        except Exception:
+            pass
 
     def _fail(self, error: Exception) -> None:
         LOGGER.warning('captura por portal: %s', error)

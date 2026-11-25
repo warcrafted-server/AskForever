@@ -1,16 +1,18 @@
 """Localiza el proceso de WoW bajo Wine/Proton y la ventana que dibuja en XWayland.
 
 El proceso se detecta leyendo /proc; la geometría real se pregunta a X11 cuando hay
-pantalla y ventana del juego. Si no la hay (Wayland puro, portal de pantalla) se
-mantiene la geometría provisional: la captura real la decide el backend y recorta
-la esquina del monitor.
+pantalla y ventana del juego. Si no la hay (Wayland puro, portal de pantalla) se usa
+la posición del monitor que guardó la captura por portal y, mientras no exista, una
+geometría provisional: la captura real la decide el backend y recorta la esquina.
 """
 
 from __future__ import annotations
 
+import json
 from pathlib import Path
 from typing import Optional
 
+from askforever import paths
 from askforever.capture import x11
 from askforever.capture.window import GameWindow
 
@@ -206,10 +208,31 @@ def _x11_window(open_display) -> Optional[x11.XWindow]:
         return None
 
 
+def _portal_geometry(geometry_path: Optional[Path]) -> Optional[tuple[int, int, int, int]]:
+    """Geometría (x, y, ancho, alto) que dejó la captura por portal, si es válida."""
+    if geometry_path is None:
+        geometry_path = paths.user_data_dir() / 'portal-geometry.json'
+    try:
+        data = json.loads(geometry_path.read_text(encoding='utf-8'))
+        values = (data['x'], data['y'], data['width'], data['height'])
+    except (OSError, ValueError, KeyError, TypeError):
+        return None
+    if any(not isinstance(value, int) or isinstance(value, bool) for value in values):
+        return None
+    if values[2] <= 0 or values[3] <= 0:
+        return None
+    return values
+
+
 def find_game_window(
         process_name: str = 'Wow.exe', proc_root: Path = Path('/proc'),
-        open_display=x11.open_display) -> Optional[GameWindow]:
-    """GameWindow del proceso `process_name`, con geometría X11 si está disponible."""
+        open_display=x11.open_display,
+        geometry_path: Optional[Path] = None) -> Optional[GameWindow]:
+    """GameWindow del proceso `process_name`, con geometría X11 si está disponible.
+
+    Sin ventana X (Wine con Wayland nativo) usa la posición del monitor que guardó
+    la captura por portal.
+    """
     target = process_name.lower()
     for entry in proc_root.iterdir():
         if not entry.name.isdigit():
@@ -227,6 +250,8 @@ def find_game_window(
                 return GameWindow(
                     pid, process_name, found.x, found.y,
                     found.width, found.height, exe_path)
+            x, y, width, height = (_portal_geometry(geometry_path)
+                                   or (0, 0, DEFAULT_WIDTH, DEFAULT_HEIGHT))
             return GameWindow(
-                pid, process_name, 0, 0, DEFAULT_WIDTH, DEFAULT_HEIGHT, exe_path)
+                pid, process_name, x, y, width, height, exe_path)
     return None

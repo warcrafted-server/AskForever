@@ -234,7 +234,9 @@ def _capture_source():
              'Could not capture the screen through the portal.', detail=str(error))
 
     return capture_portal.PortalCapture(
-        token_path=config.user_data_dir() / 'portal-token', on_error=report,
+        token_path=config.user_data_dir() / 'portal-token',
+        geometry_path=config.user_data_dir() / 'portal-geometry.json',
+        on_error=report,
         is_game_running=lambda: find_game_window() is not None)
 
 

@@ -23,6 +23,9 @@ def _display() -> x11.X11Display:
     display._root = 1
     display._atoms = {}
     display._closed = False
+    display.clock = lambda: 0.0
+    display._game_exists = None
+    display._game_exists_at = 0.0
     return display
 
 
@@ -114,23 +117,77 @@ def test_find_game_window_returns_none_without_game(monkeypatch):
 def test_game_is_active_reads_active_window(monkeypatch):
     display = _display()
     state = {'active': None}
+    walks = []
     monkeypatch.setattr(display, '_protected', lambda: contextlib.nullcontext())
     monkeypatch.setattr(display, '_atom', lambda name: 1)
     monkeypatch.setattr(display, '_property', lambda window, atom: state['active'])
     monkeypatch.setattr(
         display, '_window_classes', lambda window: ('wow.exe',) if window == 42 else ('konsole',))
     monkeypatch.setattr(display, '_window_title', lambda window: '')
+    # Sin ventana X del juego, el foco no depende de X y es desconocido.
+    monkeypatch.setattr(display, '_find_game_window', lambda: walks.append(1) or None)
 
     assert display.game_is_active() is None
+    assert walks == []
 
     state['active'] = 0
-    assert display.game_is_active() is False
+    assert display.game_is_active() is None
+    assert len(walks) == 1
+
+    state['active'] = 43
+    assert display.game_is_active() is None
+    assert len(walks) == 1
 
     state['active'] = 42
     assert display.game_is_active() is True
+    assert len(walks) == 1
 
-    state['active'] = 43
+
+def test_game_is_active_is_false_when_game_window_is_not_in_front(monkeypatch):
+    display = _display()
+    monkeypatch.setattr(display, '_protected', lambda: contextlib.nullcontext())
+    monkeypatch.setattr(display, '_atom', lambda name: 1)
+    monkeypatch.setattr(display, '_property', lambda window, atom: 43)
+    monkeypatch.setattr(display, '_window_classes', lambda window: ('konsole',))
+    monkeypatch.setattr(display, '_window_title', lambda window: '')
+    monkeypatch.setattr(
+        display, '_find_game_window', lambda: x11.XWindow(42, 0, 0, 1920, 1080))
     assert display.game_is_active() is False
+
+
+def test_game_is_active_does_not_walk_tree_when_game_is_active(monkeypatch):
+    display = _display()
+    walks = []
+    monkeypatch.setattr(display, '_protected', lambda: contextlib.nullcontext())
+    monkeypatch.setattr(display, '_atom', lambda name: 1)
+    monkeypatch.setattr(display, '_property', lambda window, atom: 42)
+    monkeypatch.setattr(display, '_window_classes', lambda window: ('wow.exe',))
+    monkeypatch.setattr(display, '_window_title', lambda window: '')
+    monkeypatch.setattr(display, '_find_game_window', lambda: walks.append(1) or None)
+    assert display.game_is_active() is True
+    assert walks == []
+
+
+def test_game_is_active_caches_the_game_window_tree_walk(monkeypatch):
+    display = _display()
+    now = [100.0]
+    display.clock = lambda: now[0]
+    walks = []
+    monkeypatch.setattr(display, '_protected', lambda: contextlib.nullcontext())
+    monkeypatch.setattr(display, '_atom', lambda name: 1)
+    monkeypatch.setattr(display, '_property', lambda window, atom: 43)
+    monkeypatch.setattr(display, '_window_classes', lambda window: ('konsole',))
+    monkeypatch.setattr(display, '_window_title', lambda window: '')
+    monkeypatch.setattr(display, '_find_game_window', lambda: walks.append(1) or None)
+
+    assert display.game_is_active() is None
+    now[0] += 1.9
+    assert display.game_is_active() is None
+    assert len(walks) == 1
+
+    now[0] += 0.2
+    assert display.game_is_active() is None
+    assert len(walks) == 2
 
 
 def test_set_input_passthrough_handles_windows(monkeypatch):

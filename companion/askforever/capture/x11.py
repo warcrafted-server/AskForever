@@ -14,6 +14,7 @@ import ctypes.util
 import functools
 import sys
 import threading
+import time
 from dataclasses import dataclass
 from typing import Iterator, Optional
 
@@ -23,6 +24,11 @@ GAME_TITLE = 'World of Warcraft'
 IS_VIEWABLE = 2
 SHAPE_INPUT = 2
 SHAPE_SET = 0
+
+# Con el driver Wayland de Wine el juego no tiene ventana X: hay que distinguir
+# "el juego no está delante" de "no se puede saber". Recorrer el árbol cuesta,
+# así que su resultado se guarda dos segundos (se consulta 5 veces por segundo).
+GAME_EXISTS_CACHE_SECONDS = 2.0
 
 _LOCK = threading.Lock()
 
@@ -176,6 +182,9 @@ class X11Display:
         self._root = int(xlib.XDefaultRootWindow(self._display))
         self._atoms: dict[bytes, int] = {}
         self._closed = False
+        self.clock = time.monotonic
+        self._game_exists: Optional[bool] = None
+        self._game_exists_at = 0.0
 
     @contextlib.contextmanager
     def _protected(self) -> Iterator[None]:
@@ -315,8 +324,22 @@ class X11Display:
         except Exception:
             return None
 
+    def _game_window_exists(self) -> bool:
+        """¿Hay ventana del juego en X? El recorrido se reutiliza unos segundos."""
+        now = self.clock()
+        if (self._game_exists is not None
+                and now - self._game_exists_at < GAME_EXISTS_CACHE_SECONDS):
+            return self._game_exists
+        self._game_exists = self._find_game_window() is not None
+        self._game_exists_at = now
+        return self._game_exists
+
     def game_is_active(self) -> Optional[bool]:
-        """True si la ventana activa es la del juego; None si no hay propiedad."""
+        """True si la ventana activa es la del juego; None si no se puede saber.
+
+        Sin ventana X del juego (Wine con Wayland nativo) no hay estado de foco que
+        consultar: devolver None deja que el overlay se muestre igual.
+        """
         if self._closed:
             return None
         try:
@@ -325,10 +348,14 @@ class X11Display:
                     self._root, self._atom(b'_NET_ACTIVE_WINDOW'))
                 if not isinstance(active, int):
                     return None
-                if active == 0:
-                    return False
-                # Solo la ventana activa: se consulta varias veces por segundo.
-                return is_game(self._window_classes(active), self._window_title(active))
+                if active:
+                    # Solo la ventana activa: se consulta varias veces por segundo.
+                    if is_game(self._window_classes(active),
+                               self._window_title(active)):
+                        return True
+                # Si el juego está abierto en X, no está delante; si no hay ventana
+                # suya, su foco no depende de X (Wayland nativo) y es desconocido.
+                return False if self._game_window_exists() else None
         except Exception:
             return None
 
