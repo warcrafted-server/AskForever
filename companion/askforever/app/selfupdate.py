@@ -24,6 +24,8 @@ _VERSION_RE = re.compile(
     r'(?P<patch_final>0|[1-9]\d*)$'
 )
 INSTALLER_PREFIX = 'AskForever-Setup-'
+LINUX_ASSET_TEMPLATE = 'askforever-{version}-linux-x86_64.tar.gz'
+RELEASES_PAGE_URL = 'https://github.com/warcrafted-server/AskForever/releases/tag/'
 
 
 class SelfUpdateError(Exception):
@@ -67,8 +69,11 @@ def _call_fetch_json(fetch_json, url):
     return fetch_json()
 
 
-def latest_app_release(fetch_json=None) -> Optional[dict]:
-    """Return the highest valid, non-draft app release with both installer assets."""
+def latest_app_release(fetch_json=None, platform=None) -> Optional[dict]:
+    """Return the highest valid, non-draft app release for the current platform."""
+    if platform is None:
+        platform = sys.platform
+    linux = platform.startswith('linux')
     url = _release_url()
     try:
         payload = (updates._default_fetch_json(url) if fetch_json is None
@@ -91,7 +96,6 @@ def latest_app_release(fetch_json=None) -> Optional[dict]:
         if version_key is None:
             continue
         version = tag[1:]
-        installer_name = f'{INSTALLER_PREFIX}{version}.exe'
         assets = release.get('assets')
         if not isinstance(assets, list):
             continue
@@ -103,17 +107,32 @@ def latest_app_release(fetch_json=None) -> Optional[dict]:
             asset_url = asset.get('browser_download_url')
             if isinstance(name, str) and isinstance(asset_url, str) and asset_url:
                 urls[name] = asset_url
-        sha_name = installer_name + '.sha256'
-        if installer_name not in urls or sha_name not in urls:
-            continue
-        if best_version is None or version_key > best_version:
-            best_version = version_key
-            best = {
+        if linux:
+            if LINUX_ASSET_TEMPLATE.format(version=version) not in urls:
+                continue
+            page_url = release.get('html_url')
+            if not (isinstance(page_url, str)
+                    and page_url.startswith('https://github.com/')):
+                page_url = RELEASES_PAGE_URL + tag
+            candidate = {
+                'version': version,
+                'tag': tag,
+                'page_url': page_url,
+            }
+        else:
+            installer_name = f'{INSTALLER_PREFIX}{version}.exe'
+            sha_name = installer_name + '.sha256'
+            if installer_name not in urls or sha_name not in urls:
+                continue
+            candidate = {
                 'version': version,
                 'tag': tag,
                 'installer_url': urls[installer_name],
                 'sha256_url': urls[sha_name],
             }
+        if best_version is None or version_key > best_version:
+            best_version = version_key
+            best = candidate
     return best
 
 
@@ -196,7 +215,8 @@ def apply(installer_path, popen=subprocess.Popen):
 
 class Updater:
     def __init__(self, exit_app, is_busy, interval=6 * 3600, first_delay=30,
-                 check_func=None, download_func=None, apply_func=None, sleep=None):
+                 check_func=None, download_func=None, apply_func=None, sleep=None,
+                 platform=None):
         self.exit_app = exit_app
         self.is_busy = is_busy
         self.interval = interval
@@ -205,6 +225,8 @@ class Updater:
         self.download_func = download_func or download_installer
         self.apply_func = apply_func or apply
         self.sleep = sleep
+        self.platform = sys.platform if platform is None else platform
+        self._announced_version = None
         self._stop = threading.Event()
         self._thread = None
 
@@ -265,6 +287,10 @@ class Updater:
             return
 
         version = release['version']
+        if self.platform.startswith('linux'):
+            self._announce_linux_release(release, version)
+            return
+
         emit('update', f'Hay una versión nueva ({version}): se descarga y se instalará sola',
              f'A new version ({version}) is available: it will download and install itself')
         installer = self.download_func(release)
@@ -284,3 +310,19 @@ class Updater:
         set_status('app', 'Actualizando…', 'Updating…', ok=None)
         self.apply_func(installer)
         self.exit_app()
+
+    def _announce_linux_release(self, release, version):
+        """On Linux the app only announces the release; it never installs it."""
+        page_url = release.get('page_url')
+        if not isinstance(page_url, str) or not page_url:
+            page_url = RELEASES_PAGE_URL + str(release.get('tag', ''))
+        set_status('app', f'Hay una versión nueva de AskForever App ({version})',
+                   f'A new version of AskForever App ({version}) is available', ok=None)
+        if self._announced_version == version:
+            return
+        self._announced_version = version
+        emit('update',
+             f'Hay una versión nueva de AskForever App ({version}): descarga el .tar.gz de '
+             f'{page_url} y ejecuta install.sh',
+             f'A new version of AskForever App ({version}) is available: download the .tar.gz from '
+             f'{page_url} and run install.sh')
