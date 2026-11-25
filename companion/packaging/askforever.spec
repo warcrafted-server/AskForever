@@ -1,6 +1,7 @@
 # -*- mode: python ; coding: utf-8 -*-
 
 import os
+import sys
 
 from PyInstaller.utils.hooks import collect_data_files, collect_submodules, copy_metadata
 
@@ -10,14 +11,23 @@ if not os.path.isdir(package_dir):
 companion_dir = os.path.dirname(package_dir)
 
 launcher = os.path.join(package_dir, 'launcher.py')
-icon = os.path.join(package_dir, 'askforever.ico')
 
 # Solo datos de ejecución del paquete; no se incluye addon/ ni dev/.
 datas = collect_data_files('askforever')
 # keyring descubre sus backends por los metadatos del paquete.
 datas += copy_metadata('keyring')
 hiddenimports = collect_submodules('askforever')
-hiddenimports += ['keyring.backends.Windows', 'win32ctypes.core']
+
+if sys.platform == 'win32':
+    icon = os.path.join(package_dir, 'askforever.ico')
+    hiddenimports += ['keyring.backends.Windows', 'win32ctypes.core']
+else:
+    # En Linux el icono va en app/askforever.png y la clave se guarda en el
+    # llavero del escritorio (Secret Service) a través de secretstorage/jeepney.
+    icon = None
+    hiddenimports += ['keyring.backends.SecretService', 'keyring.backends.chainer']
+    hiddenimports += collect_submodules('secretstorage')
+    hiddenimports += collect_submodules('jeepney')
 
 a = Analysis(
     [launcher],

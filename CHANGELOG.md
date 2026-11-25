@@ -5,6 +5,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 ## [Unreleased]
 
 ### English
+- Added (internal, Linux version in preparation): the Linux release package is built with `scripts/build-linux.sh`, which compiles the companion with PyInstaller and packs the program, the public addon and the installer into `askforever-<version>-linux-x86_64.tar.gz` with its SHA-256 checksum.
 - Corrected (internal, Linux version in preparation): the Linux dependency of the screen capture is declared, the packaged program no longer forces the Windows credential store outside Windows and the set-key hint names the right command.
 - Added (internal, Linux version in preparation): the companion asks XWayland for the game window's real position and size, and whether it is active, instead of always assuming a provisional 1920×1080 frame at the top-left corner.
 - Added (internal, Linux version in preparation): the overlay is shown over the game on Linux (XWayland), always on top, click-through and without taking focus, and hides when the game is not the active window.
@@ -16,6 +17,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Corrected (internal, Linux version in preparation): the system programs the companion launches on Linux (screen capture, logs folder, notifications) run with the system library path, not the packaged app's.
 
 ### Español
+- Añadido (interno, versión para Linux en preparación): el paquete de la versión de Linux se genera con `scripts/build-linux.sh`, que compila el companion con PyInstaller y empaqueta el programa, el addon público y el instalador en `askforever-<version>-linux-x86_64.tar.gz` junto a su suma SHA-256.
 - Corregido (interno, versión para Linux en preparación): se declara la dependencia de la captura de pantalla en Linux, el programa empaquetado ya no fuerza el almacén de claves de Windows fuera de Windows y el aviso de set-key nombra la orden correcta.
 - Añadido (interno, versión para Linux en preparación): el companion pregunta a XWayland la posición y el tamaño reales de la ventana del juego, y si está activa, en lugar de suponer siempre un marco provisional de 1920×1080 en la esquina superior izquierda.
 - Añadido (interno, versión para Linux en preparación): el overlay se muestra sobre el juego en Linux (XWayland), siempre encima, transparente a los clics y sin robar el foco, y se oculta cuando el juego no es la ventana activa.

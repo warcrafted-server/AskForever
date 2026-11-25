@@ -19,6 +19,7 @@ venv/
 build/
 dist/
 *.spec
+*.egg-info/
 !companion/packaging/askforever.spec
 
 # Icono generado para el instalador
