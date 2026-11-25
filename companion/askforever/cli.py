@@ -14,7 +14,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional, Sequence
 
-from askforever import config, setup_wizard, updates
+from askforever import config, setup_wizard, updates, wow_dir
 from askforever.app.events import emit, log_detail, set_status
 from askforever.data import patch as data_patch
 from askforever import uninstall as uninstall_module
@@ -1023,6 +1023,18 @@ def _bench(args: argparse.Namespace) -> int:
             database.close()
 
 
+def _find_wow() -> int:
+    """Muestra las carpetas de WoW Forever detectadas; no necesita clave ni datos."""
+    folders = wow_dir.find_wow_dirs()
+    if not folders:
+        print('No se encontró la carpeta de WoW Forever. '
+              'Indícala con ASKFOREVER_WOW_DIR.', file=sys.stderr)
+        return 1
+    for folder in folders:
+        print(folder)
+    return 0
+
+
 def _default_wowdb_path() -> Path:
     return Path(__file__).resolve().parents[2].parent / 'wowdata' / 'datos' / 'wow.sqlite'
 
@@ -1302,6 +1314,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     data_check.add_argument('--db', default=None, help='ruta de wow.sqlite')
     subparsers.add_parser('update-data',
                           help='descarga la última base de datos del juego')
+    subparsers.add_parser('find-wow',
+                          help='muestra las carpetas de WoW Forever encontradas')
     uninstall_parser = subparsers.add_parser(
         'uninstall', help='desinstala AskForever y borra sus datos')
     uninstall_parser.add_argument('--yes', action='store_true',
@@ -1358,6 +1372,8 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         return _data_check(args)
     if args.command == 'update-data':
         return _update_data()
+    if args.command == 'find-wow':
+        return _find_wow()
     if args.command == 'run':
         return _run_companion(args)
     if args.command == 'app':

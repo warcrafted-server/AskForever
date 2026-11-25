@@ -10,6 +10,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Added (internal, Linux version in preparation): the overlay is shown over the game on Linux (XWayland), always on top, click-through and without taking focus, and hides when the game is not the active window.
 - Added (internal, Linux version in preparation): the companion shows its icon in the Linux notification area (StatusNotifierItem), with Open and Quit in the context menu, and uses desktop notifications instead of balloons.
 - Added (internal, Linux version in preparation): on Linux the updater only announces a new release with its link; it never downloads or runs anything.
+- Added (internal, Linux version in preparation): on Linux the companion translates the game path Wine reports into a real Unix path, so addon data and uninstall find the game folder, and the new `find-wow` command lists the WoW Forever folders it detects.
 
 ### Español
 - Corregido (interno, versión para Linux en preparación): se declara la dependencia de la captura de pantalla en Linux, el programa empaquetado ya no fuerza el almacén de claves de Windows fuera de Windows y el aviso de set-key nombra la orden correcta.
@@ -17,6 +18,7 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 - Añadido (interno, versión para Linux en preparación): el overlay se muestra sobre el juego en Linux (XWayland), siempre encima, transparente a los clics y sin robar el foco, y se oculta cuando el juego no es la ventana activa.
 - Añadido (interno, versión para Linux en preparación): el companion muestra su icono en el área de notificación de Linux (StatusNotifierItem), con Abrir y Salir en el menú contextual, y usa notificaciones del escritorio en lugar de globos.
 - Añadido (interno, versión para Linux en preparación): en Linux el actualizador solo avisa de una versión nueva con su enlace; nunca descarga ni ejecuta nada.
+- Añadido (interno, versión para Linux en preparación): en Linux el companion traduce a una ruta real de Unix la ruta del juego que informa Wine, de modo que los datos del addon y la desinstalación encuentran la carpeta del juego, y la nueva orden `find-wow` lista las carpetas de WoW Forever que detecta.
 
 ## [0.4.0-beta.12] - 2026-11-24
 
