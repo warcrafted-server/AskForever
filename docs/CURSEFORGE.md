@@ -8,7 +8,7 @@
 Since 0.3.0-beta.4 the file upload is **automatic**: the Release workflow uploads the addon zip when a `v<version>` tag is pushed, with `curseforge/changelog-<version>.md` as changelog (Markdown) and its "Beta N" as display name. The description and project fields are still edited by hand.
 Desde la 0.3.0-beta.4 la subida del archivo es **automática**: el workflow Release sube el zip del addon al subir el tag `v<versión>`, con `curseforge/changelog-<versión>.md` como registro de cambios (Markdown) y su «Beta N» como nombre visible. La descripción y los campos del proyecto se siguen editando a mano.
 
-Current version / Versión actual: **0.5.0-beta.1 (Beta 18)**, 2026-11-25. The 0.3.0-beta.1 was never uploaded to CurseForge; Beta 3 includes it. / La 0.3.0-beta.1 no se subió a CurseForge; la Beta 3 la incluye.
+Current version / Versión actual: **0.5.0-beta.2 (Beta 19)**, 2026-11-26. The 0.3.0-beta.1 was never uploaded to CurseForge; Beta 3 includes it. / La 0.3.0-beta.1 no se subió a CurseForge; la Beta 3 la incluye.
 
 ---
 
@@ -21,7 +21,7 @@ The CurseForge project already exists: a new version is just a **file upload** t
 2. Download the addon zip from that release: `https://github.com/warcrafted-server/AskForever/releases/download/v<version>/AskForever-<version>.zip`
 3. On CurseForge: **Files → Upload File**.
    - **File:** the zip from step 2.
-   - **Display name:** `AskForever <version> (Beta N)`, where N counts the betas published on CurseForge (0.3.0-beta.2 is Beta 3, 0.3.0-beta.3 is Beta 4, 0.3.0-beta.4 is Beta 5; 0.4.0-beta.N is Beta N+5, so 0.4.0-beta.12 is Beta 17; 0.5.0-beta.1 is Beta 18). The version number must stay exactly as in the addon and GitHub, so players can report which one they have.
+   - **Display name:** `AskForever <version> (Beta N)`, where N counts the betas published on CurseForge (0.3.0-beta.2 is Beta 3, 0.3.0-beta.3 is Beta 4, 0.3.0-beta.4 is Beta 5; 0.4.0-beta.N is Beta N+5, so 0.4.0-beta.12 is Beta 17; 0.5.0-beta.N is Beta N+17, so 0.5.0-beta.2 is Beta 19). The version number must stay exactly as in the addon and GitHub, so players can report which one they have.
    - **Release type:** Release (the workflow always uploads it as Release because betas reach very few players on CurseForge; Marc, 2026-11-18).
    - **Game version:** Forever.
    - **Changelog:** the file `curseforge/changelog-<version>.md` (bilingual, written for players): open it, Ctrl+A, copy and paste it with the **Markdown** format selected.
@@ -48,6 +48,10 @@ Open [`curseforge/description.md`](curseforge/description.md), select everything
 ### File changelogs (paste in the upload form)
 
 Each version has its own file in [`curseforge/`](curseforge/): open it, Ctrl+A, copy and paste it into the changelog box with the **Markdown** format selected.
+
+#### 0.5.0-beta.2 (Beta 19)
+
+[`curseforge/changelog-0.5.0-beta.2.md`](curseforge/changelog-0.5.0-beta.2.md)
 
 #### 0.5.0-beta.1 (Beta 18)
 
@@ -82,7 +86,7 @@ El proyecto de CurseForge ya existe: una versión nueva es solo **subir un archi
 2. Descarga el zip del addon de esa release: `https://github.com/warcrafted-server/AskForever/releases/download/v<versión>/AskForever-<versión>.zip`
 3. En CurseForge: **Files → Upload File**.
    - **Archivo:** el zip del paso 2.
-   - **Nombre visible:** `AskForever <versión> (Beta N)`, donde N cuenta las betas publicadas en CurseForge (la 0.3.0-beta.2 es la Beta 3, la 0.3.0-beta.3 la Beta 4 y la 0.3.0-beta.4 la Beta 5; la 0.4.0-beta.N es la Beta N+5, así que la 0.4.0-beta.12 es la Beta 17; la 0.5.0-beta.1 es la Beta 18). El número de versión se mantiene exactamente igual que en el addon y en GitHub, para que los jugadores puedan decir cuál tienen.
+   - **Nombre visible:** `AskForever <versión> (Beta N)`, donde N cuenta las betas publicadas en CurseForge (la 0.3.0-beta.2 es la Beta 3, la 0.3.0-beta.3 la Beta 4 y la 0.3.0-beta.4 la Beta 5; la 0.4.0-beta.N es la Beta N+5, así que la 0.4.0-beta.12 es la Beta 17; la 0.5.0-beta.N es la Beta N+17, así que la 0.5.0-beta.2 es la Beta 19). El número de versión se mantiene exactamente igual que en el addon y en GitHub, para que los jugadores puedan decir cuál tienen.
    - **Tipo:** Release (el workflow siempre la sube como Release porque las betas llegan a muy poca gente en CurseForge; Marc, 2026-11-18).
    - **Versión del juego:** Forever.
    - **Registro de cambios:** el archivo `curseforge/changelog-<versión>.md` (bilingüe): ábrelo, Ctrl+A, cópialo y pégalo con el formato **Markdown** elegido. No lo copies desde esta página.

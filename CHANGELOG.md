@@ -4,6 +4,26 @@ Based on [Keep a Changelog](https://keepachangelog.com/). Versioning: [SemVer](h
 
 ## [Unreleased]
 
+## [0.5.0-beta.2] - 2026-11-26
+
+### English
+- Updated (November 26 data): Balance Druid follows its new talent tree. Moonfury is gone and Dreamstate takes its place, Improved Wrath and Improved Moonfire are now Starlight Wrath and Moon and Stars, and Improved Starfire has 2 ranks.
+- Updated (November 26 guides): Balance builds redone (raid and dungeon, PvP, a single leveling build with its talent order) with new crowd-control and threat variants; builds that used removed talents are gone.
+- Updated: Restoration Druid builds (Deep Restoration is now the raid recommendation), healing rotation, trainable abilities and enchants; Feral tank rotation against bleed-immune targets.
+- Updated: Elemental Shaman rotations, enchants and consumables; Warlock enchants; Shadow Priest stat priority (no longer provisional); Excavation Site and City of Dalaran; dungeon group sizes; Legacy points (shared by the account, perks chosen per character); campfires and camping; Skyborne racials; Enchanting and Leatherworking; Tarnished Undermine Real (level 52 bosses and higher, not mini-bosses) and its vendor; reputations.
+- Updated: game data from the November 26 wowdata update (client build 1.60.1.71139).
+- Known issue: with this data the assistant cannot work out the next talent point for Balance Druids, and for the Restoration leveling builds it may say you are off route if you took Starlight Wrath.
+- Data patch 2026.11.26.1.
+
+### Español
+- Actualizado (datos del 26 de noviembre): el Druida Equilibrio sigue su nuevo árbol de talentos. Desaparece Furia de luna y su sitio lo ocupa Estado onírico, Cólera mejorada y Fuegolunar mejorado pasan a ser Cólera de luz estelar y Luna y estrellas, y Fuego estelar mejorado tiene 2 rangos.
+- Actualizado (guías del 26 de noviembre): builds de Equilibrio rehechas (banda y mazmorra, JcJ y una sola build de subida con su orden de talentos), con variantes nuevas de control y de amenaza; se quitan las builds que usaban talentos desaparecidos.
+- Actualizado: builds del Druida Restauración (ahora se recomienda Restauración profunda para bandas), rotación de sanación, habilidades que se entrenan y encantamientos; rotación del tanque feral contra objetivos inmunes a sangrados.
+- Actualizado: rotaciones, encantamientos y consumibles del Chamán Elemental; encantamientos del Brujo; estadísticas del Sacerdote Sombra (dejan de ser provisionales); Sitio de excavación y Ciudad de Dalaran; tamaño de grupo en mazmorras; puntos de Legacy (compartidos por la cuenta, ventajas elegidas por personaje); hogueras y campamento; raciales de Cielonato; Encantamiento y Peletería; Real deslustrado de Minahonda (jefes de nivel 52 o más, no los secundarios) y su vendedor; reputaciones.
+- Actualizado: datos del juego de la actualización de wowdata del 26 de noviembre (build del cliente 1.60.1.71139).
+- Problema conocido: con estos datos el asistente no puede calcular el siguiente punto de talento del Druida Equilibrio, y en las builds de subida de Restauración puede decir que vas fuera de ruta si has cogido Cólera de luz estelar.
+- Parche de datos 2026.11.26.1.
+
 ## [0.5.0-beta.1] - 2026-11-25
 
 ### English
