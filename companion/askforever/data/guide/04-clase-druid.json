@@ -189,9 +189,9 @@
         "guide:5affb930c197b0cdce6602bed9a77b9fdfad7902",
         "guide:63c72854eb0c3324ce77823f2c83ca18aa12d790",
         "section:1687dd4bcafdb858c7ee9e665295d7d14f62fedc",
-        "section:65672a34d38f0a3807f1d6c313a7b55a6bd90d05",
-        "section:b3ffee03e3b6def94c8d2b958a10f0a73aa3bb29",
-        "section:bfc46f77fcb1bad803e63fe2312d391bd3c1da32"
+        "section:289307bb29bf15bb7789e466cd414923d7c1d370",
+        "section:bfc46f77fcb1bad803e63fe2312d391bd3c1da32",
+        "section:e9f38b89d73a2b29a5f0143dd5e16186ef4d42bf"
       ]
     },
     {
@@ -241,7 +241,7 @@
         "class:druid:feral:leveling"
       ],
       "source_hashes": [
-        "section:5d3789b935bf3082ca9a6b4f88f37813fdbc7360",
+        "guide:03b43aca03350e1fc039d54852b490a052981dc9",
         "section:8feb19b0cd776899b4173e841646a400a9fd0187"
       ]
     },
@@ -317,9 +317,9 @@
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
+        "guide:03b43aca03350e1fc039d54852b490a052981dc9",
         "section:0ac527b04f3eb0f2a45a6c485d8788a196a61bb1",
         "section:106e8b4f1c7186b410345f8c5c7aa72928dd3306",
-        "section:36e21d4d949262b3b87757defcee873f66e0465a",
         "section:689514092a1abbe3bef699ee6945f4444ceec310",
         "section:aeb1a3bbb1e36bad5a8144f9c2245cf4ac98ed37",
         "section:d5782c6b0e17b711364ee9b6dc57abdd1d2484c1"
@@ -473,15 +473,14 @@
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
+        "guide:03b43aca03350e1fc039d54852b490a052981dc9",
         "section:106e8b4f1c7186b410345f8c5c7aa72928dd3306",
         "section:140fcb3add1f5c53c4d97f2d63548c10ac3b35fb",
-        "section:1601823e69bcd33d8c3f5cac1ef4fa4374067d9f",
-        "section:2a81fe731cdee26483106167d9ba0ed61b64fa6b",
         "section:3564818d26ac3c01ce49fe83e4db3bf6fd54064e",
-        "section:36e21d4d949262b3b87757defcee873f66e0465a",
         "section:38d2cf69d5143692192e3d97916f938c71b14df1",
         "section:44594d89fcbf7877991accd3594ef91382ff8b01",
-        "section:7c2ea6f78fb506ac6b4d10a1eba8feb98fd2665e"
+        "section:7c2ea6f78fb506ac6b4d10a1eba8feb98fd2665e",
+        "section:f7791fea3371c1c0a47547f6606cdaba1d94b3c7"
       ]
     },
     {
@@ -840,13 +839,13 @@
       ],
       "source_hashes": [
         "section:190a3a5704e0f58d40e8daade90b9865fadbb122",
+        "section:1b87db221dc6bcf710147308dba2373d0a191d65",
         "section:61c43260fb82743ca2d5f0ec6a35fa18d3db2bb6",
-        "section:65672a34d38f0a3807f1d6c313a7b55a6bd90d05",
-        "section:76aa2ece390041fefc6a030ca861748fa703e46a",
         "section:7765d7d5f10fc1e66bf4fee651166b57c4d3c6bf",
         "section:81d41d7268756c9caa01ff3d417c2a77bab8a502",
         "section:86b0aca6fe1b57f09cddd4d2c66ddfe1f574d9ff",
-        "section:9633cbc4a52b40e71aa7069bdc8be5c5d90a33e8"
+        "section:9633cbc4a52b40e71aa7069bdc8be5c5d90a33e8",
+        "section:e9f38b89d73a2b29a5f0143dd5e16186ef4d42bf"
       ]
     },
     {
@@ -971,9 +970,9 @@
         "class:druid:feral:leveling"
       ],
       "source_hashes": [
+        "guide:03b43aca03350e1fc039d54852b490a052981dc9",
         "section:4fb483f54ce653e037c6a19516f3f36c4d4e3be6",
         "section:75e5b9aa49514b3b649becce2948636459d27089",
-        "section:78013f4bb29d6da601d972f9e1852cfa2a0e75a9",
         "section:a4b6a4ef13d8c1b34dbe70b87e0cc67c19304e68"
       ]
     },
@@ -1030,9 +1029,9 @@
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
+        "guide:03b43aca03350e1fc039d54852b490a052981dc9",
         "guide:a31bedad17a1c4722de76250b73f48fbad5dc044",
-        "section:355b295670c6e280b054c0efe9ac076f6027c992",
-        "section:36e21d4d949262b3b87757defcee873f66e0465a"
+        "section:a1648def6f29e2dfc0d359eaf256cc320af937b2"
       ]
     },
     {
@@ -1057,8 +1056,8 @@
         "insect swarm",
         "druid eclipse"
       ],
-      "text_es": "Prelanza Rejuvenecimiento; Recrecimiento si hace falta. En objetivo único, abre lejos con Cólera y Enredaderas; reaplica si se rompen y sigue con Cólera. Con Eclipse 3/3, Fuego estelar mejorado 5/5 y Venganza 5/5, tras la raíz aplica Enjambre de insectos 1/1 y Fuegolunar; alterna Cólera acertada y dos lanzamientos de Fuego estelar. Renueva solo si el enemigo vivirá el efecto entero. En grupos, reparte efectos; antes de 40: Forma de oso, Clamor desmoralizador y Flagelo para regenerar; desde 40, Forma de lechúcico lunar y Huracán, con Pielcorteza si te interrumpen (rentable con 4–5 objetivos).",
-      "text_en": "Pre-cast Rejuvenation; Regrowth if needed. On one target, open with Wrath at long range and Entangling Roots; reapply if broken, then cast Wrath. With Eclipse 3/3, Improved Starfire 5/5, and Vengeance 5/5, after rooting apply Insect Swarm 1/1 and Moonfire; alternate one landed Wrath with two Starfire casts. Refresh only if the target will live for the full effect. On packs, spread DoTs; before 40 use Bear Form, Demoralizing Roar, and Swipe to regenerate; from 40, Moonkin Form and Hurricane, using Barkskin if interrupted (efficient on 4–5 enemies).",
+      "text_es": "Prelanza Rejuvenecimiento; Recrecimiento si hace falta. En objetivo único, abre lejos con Cólera y Enredaderas; reaplica si se rompen y sigue con Cólera. Con Eclipse 3/3 y Venganza 5/5, tras la raíz aplica Enjambre de insectos 1/1 y Fuegolunar; alterna Cólera acertada y dos lanzamientos de Fuego estelar. Renueva solo si el enemigo vivirá el efecto entero. En grupos, reparte efectos; antes de 40: Forma de oso, Clamor desmoralizador y Flagelo para regenerar; desde 40, Forma de lechúcico lunar y Huracán, con Pielcorteza si te interrumpen (rentable con 4–5 objetivos).",
+      "text_en": "Pre-cast Rejuvenation; Regrowth if needed. On one target, open with Wrath at long range and Entangling Roots; reapply if broken, then cast Wrath. Take Eclipse 3/3 and Vengeance 5/5; after rooting apply Insect Swarm 1/1 and Moonfire; alternate one landed Wrath with two Starfire casts. Refresh only if the target will live for the full effect. On packs, spread DoTs; before 40 use Bear Form, Demoralizing Roar, and Swipe to regenerate; from 40, Moonkin Form and Hurricane, using Barkskin if interrupted (efficient on 4–5 enemies).",
       "tags": [
         "DRUID"
       ],
@@ -1067,19 +1066,19 @@
           "type": "editorial",
           "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Leveling Rotation for Balance Druid DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Balance Druid DPS in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Leveling as a Balance Druid DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
@@ -1094,17 +1093,15 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:balance:leveling",
         "class:druid:extra:feral-cat-druid-leveling-guide-for-wow-forever"
       ],
       "source_hashes": [
-        "section:36e21d4d949262b3b87757defcee873f66e0465a",
-        "section:78013f4bb29d6da601d972f9e1852cfa2a0e75a9",
+        "guide:03b43aca03350e1fc039d54852b490a052981dc9",
         "section:a4d8643db1baafb49d8a46964a402d2237856d83",
-        "section:b1e66aee306df18255743146083f372e2e3ae2fc",
-        "section:ed91f04fa55e332a645c1d9cceba9b8ff101face"
+        "section:b1e66aee306df18255743146083f372e2e3ae2fc"
       ]
     },
     {
@@ -1273,8 +1270,8 @@
         "swiftmend",
         "druid tranquility"
       ],
-      "text_es": "En mazmorra, mantén Espinas en el tanque y Rejuvenecimiento y Recrecimiento en el objetivo que sanas; cubre picos con Recrecimiento o Toque curativo y emergencias con Arreglo rápido 1/1. Si está en reutilización o la cura no puede esperar, combina Rapidez de la Naturaleza 1/1 y Toque curativo. En daño grupal, reparte Rejuvenecimiento; usa Recrecimiento o Arreglo rápido en quien baje mucho, y Crecimiento salvaje 1/1 con Tranquilidad si todos sufren daño grave. Usa Enervar cuando necesites maná; si no hay curas urgentes, aporta daño con Enjambre de insectos, Enredaderas, Fuegolunar y Cólera.",
-      "text_en": "In dungeons, keep Thorns on the tank and Rejuvenation and Regrowth on your healing target; answer spikes with Regrowth or Healing Touch and emergencies with Swiftmend 1/1. If it is on cooldown or healing cannot wait, combine Nature’s Swiftness 1/1 with Healing Touch. For group damage, spread Rejuvenation; use Regrowth or Swiftmend on players dropping low, and Wild Growth 1/1 with Tranquility if everyone takes severe damage. Use Innervate when mana is needed; if no urgent heals are required, add damage with Insect Swarm, Entangling Roots, Moonfire, and Wrath.",
+      "text_es": "En mazmorra, mantén Espinas en el tanque y Rejuvenecimiento y Recrecimiento en quien sanas; cubre picos con Recrecimiento o Toque curativo y emergencias con Arreglo rápido 1/1. Si está en reutilización y urge, usa Rapidez de la Naturaleza 1/1 y Toque curativo. En daño grupal, reparte Rejuvenecimiento, usa Recrecimiento o Arreglo rápido en quien baje mucho y, si es grave, Crecimiento salvaje 1/1 con Tranquilidad. Enervar si falta maná. Sin curas urgentes, ataca: Enjambre de insectos, Enredaderas, Fuegolunar, Cólera, Fuego estelar con maná alto y Huracán con Augurio de claridad (frena ataques).",
+      "text_en": "In dungeons, keep Thorns on the tank and Rejuvenation and Regrowth on your target; cover spikes with Regrowth or Healing Touch and emergencies with Swiftmend 1/1. If it is on cooldown and healing cannot wait, use Nature’s Swiftness 1/1 with Healing Touch. On group damage, spread Rejuvenation, use Regrowth or Swiftmend on anyone dropping low and, if severe, Wild Growth 1/1 with Tranquility. Innervate when low on mana. Without urgent heals, attack: Insect Swarm, Entangling Roots, Moonfire, Wrath, Starfire at high mana and Hurricane on Omen of Clarity (slows attacks).",
       "tags": [
         "DRUID"
       ],
@@ -1283,36 +1280,36 @@
           "type": "editorial",
           "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Leveling Rotation for Restoration Druid Healer in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
-          "date": "2026-11-13"
+          "date": "2026-11-25"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Leveling as a Restoration Druid DPS in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
-          "date": "2026-11-13"
+          "date": "2026-11-25"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as a Restoration Druid Healer in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
-          "date": "2026-11-13"
+          "date": "2026-11-25"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Abilities to Train for Restoration Druid Healer in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
-          "date": "2026-11-13"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
         "section:0ac527b04f3eb0f2a45a6c485d8788a196a61bb1",
-        "section:355b295670c6e280b054c0efe9ac076f6027c992",
-        "section:6a855656df8c517bbedcb87cb12bd225a7811700",
-        "section:a42d783facf3a5f401cca51017825256b0eeffbc"
+        "section:708ff6e759be352583e6a57bf1323a820c11aaf3",
+        "section:814adb3787ea2f5ab63e21528ebea005e7db9444",
+        "section:a1648def6f29e2dfc0d359eaf256cc320af937b2"
       ]
     },
     {
@@ -1381,8 +1378,8 @@
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
+        "guide:03b43aca03350e1fc039d54852b490a052981dc9",
         "section:106e8b4f1c7186b410345f8c5c7aa72928dd3306",
-        "section:36e21d4d949262b3b87757defcee873f66e0465a",
         "section:3b8dbf3e27815c46ac798e0e0b74fc5a78cca2dc",
         "section:d2513ec5ece2ae8b9b6e8ce25a644949a751c04c",
         "section:e5eccf2dc535398a36a2948127fda5ebea015d4e"
@@ -1537,8 +1534,7 @@
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
-        "section:10fc63eee8fd390d318bcc9c5153fbccc5335d5b",
-        "section:1406e003576d168be80173fb1c7c1539da364a34",
+        "guide:03b43aca03350e1fc039d54852b490a052981dc9",
         "section:1590205fbf3ac677abf9201b074ff553690750b4",
         "section:488b7479faac4db85dbdd180f4ce6b795a779385",
         "section:4b4fd928916bf963a74bcb13aebdb13c8dd50215",
@@ -1802,7 +1798,7 @@
       "source_hashes": [
         "section:011ef23da83937a1a78bc981b9bb4a7b902d451b",
         "section:211854d235b4e9cf635662913690dc90f0bea247",
-        "section:ecfa603e93d6a5b370dfcf61d3861dc206322a2f"
+        "section:fbf2650c9abb48069ab98695ef222ad68d5b57ed"
       ]
     },
     {
@@ -2051,8 +2047,8 @@
         "five lacerate stacks",
         "maul rage bear"
       ],
-      "text_es": "Antes del pull, mantén Marca de lo salvaje y Espinas; conserva Clamor desmoralizador y Fuego feérico si nadie los aporta. Prioriza Mordisco primigenio cuando esté disponible y mantén cinco acumulaciones de Lacerar; rellena con Lacerar. Usa Machaque para gastar Rabia por encima de 35 solo si no retrasa las habilidades prioritarias. Recomendación provisional hasta que se pruebe a nivel 60.",
-      "text_en": "Before the pull, keep Mark of the Wild and Thorns up; maintain Demoralizing Roar and Faerie Fire if nobody else provides them. Use Primal Bite when available and maintain five Lacerate stacks, filling with Lacerate. Use Maul to dump Rage above 35 only if it does not delay higher-priority abilities. Provisional recommendation until tested at level 60.",
+      "text_es": "Antes del pull, mantén Marca de lo salvaje y Espinas; conserva Clamor desmoralizador y Fuego feérico si nadie los aporta. Prioriza Mordisco primigenio cuando esté disponible y mantén cinco acumulaciones de Lacerar; rellena con Lacerar y, si el objetivo es inmune a los sangrados, usa Flagelo. Usa Machaque para gastar Rabia por encima de 35 solo si no retrasa las habilidades prioritarias. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Before the pull, keep Mark of the Wild and Thorns up; maintain Demoralizing Roar and Faerie Fire if nobody else provides them. Use Primal Bite when available and maintain five Lacerate stacks, filling with Lacerate; if the target is immune to bleeds, use Swipe instead. Use Maul to dump Rage above 35 only if it does not delay higher-priority abilities. Provisional recommendation until tested at level 60.",
       "tags": [
         "DRUID"
       ],
@@ -2061,34 +2057,34 @@
           "type": "editorial",
           "ref": "Wowhead: Feral Druid Tank Rotation and Cooldowns - WoW: Forever › All Feral Druid Tank Rotations in WoW: Forever > Single Target Priority",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/rotation-cooldowns-pve-tank",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Feral Druid Tank Rotation and Cooldowns - WoW: Forever › All Feral Druid Tank Rotations in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/rotation-cooldowns-pve-tank",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Feral Druid Tank Rotation and Cooldowns - WoW: Forever › Feral Druid Tank Opener in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/rotation-cooldowns-pve-tank",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Feral Druid Tank Attribute and Stat Guide - WoW: Forever › Feral Druid Tank Stat Priority in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/stat-priority-pve-tank",
-          "date": "2026-11-03"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:feral:rotation",
         "class:druid:feral:stats"
       ],
       "source_hashes": [
-        "guide:3ae050c53decc2a8ecc2e7e477517ca04106a4f2",
+        "guide:e05166a64b3acb9fdbeefb12e264f07c729de620",
         "section:211854d235b4e9cf635662913690dc90f0bea247",
         "section:601879579555098e2d60c5421f5bd6978e3dd9ef",
         "section:81d41d7268756c9caa01ff3d417c2a77bab8a502"
@@ -2145,7 +2141,7 @@
         "class:druid:feral:stats"
       ],
       "source_hashes": [
-        "guide:3ae050c53decc2a8ecc2e7e477517ca04106a4f2",
+        "guide:e05166a64b3acb9fdbeefb12e264f07c729de620",
         "section:211854d235b4e9cf635662913690dc90f0bea247",
         "section:81d41d7268756c9caa01ff3d417c2a77bab8a502"
       ]
@@ -2286,8 +2282,8 @@
       "status": "editorial",
       "title_es": "Build de Equilibrio JcE para banda/mazmorra",
       "title_en": "Balance PvE Raid/Dungeon Build",
-      "summary_es": "Ruta inicial de multidot; mueve Refracción a Génesis si el maná alcanza.",
-      "summary_en": "Early multidot path; move Reflection to Genesis if mana allows.",
+      "summary_es": "Núcleo obligatorio de 44 puntos para banda y mazmorra; 7 puntos flexibles.",
+      "summary_en": "Mandatory 44-point core for raids and dungeons; 7 flexible points.",
       "keywords_es": [
         "build druida equilibrio pve",
         "talentos druida equilibrio pve",
@@ -2298,8 +2294,8 @@
         "druid talents equilibrio pve",
         "druid talent points equilibrio pve"
       ],
-      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Génesis 2/5, Brillo lunar 3/3, Fuegolunar mejorado 2/2, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Venganza 5/5, Fuego estelar mejorado 5/5, Gracia de la naturaleza 1/1, Eclipse 3/3, Furia de luna 5/5 y Forma de lechúcico lunar 1/1. En Recuperación: Enfoque de la naturaleza 5/5, Naturalista 5/5 y Refracción 3/3.",
-      "text_en": "Balance: Improved Wrath 5/5, Genesis 2/5, Moonglow 3/3, Improved Moonfire 2/2, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Insect Swarm 1/1, Vengeance 5/5, Improved Starfire 5/5, Nature's Grace 1/1, Eclipse 3/3, Moonfury 5/5, and Moonkin Form 1/1. Restoration: Nature's Focus 5/5, Naturalist 5/5, and Reflection 3/3.",
+      "text_es": "Equilibrio, 31 puntos: Cólera de luz estelar y Génesis a 5/5, Brillo lunar 3/3, Luna y estrellas, Majestuosidad de la naturaleza y Alcance de la naturaleza a 2/2, más Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1 y Venganza 5/5, después Gracia de la naturaleza 1/1, Eclipse 3/3 y Forma de lechúcico lunar 1/1. Recuperación, 13 puntos: Enfoque de la naturaleza 5/5, Naturalista 5/5 y Refracción 3/3. Son 44 puntos obligatorios; Naturalista sube un 10% todo el daño y Refracción conserva la mitad de la regeneración de maná al castear. Los otros 7 puntos son flexibles.",
+      "text_en": "Balance (31 points): Starlight Wrath and Genesis at 5/5 each, Moonglow 3/3, then Moon and Stars, Nature's Majesty and Nature's Reach at 2/2, plus Nature's Splendor 1/1, Insect Swarm 1/1 and Vengeance 5/5, then Nature's Grace 1/1, Eclipse 3/3 and Moonkin Form 1/1. Restoration (13 points): Nature's Focus 5/5, then Naturalist 5/5 and Reflection 3/3. These 44 points are mandatory; Naturalist raises all damage by 10% and Reflection keeps half your mana regeneration while casting. The other 7 points are flexible.",
       "tags": [
         "DRUID"
       ],
@@ -2308,15 +2304,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Balance Druid Talent Tree Builds - Forever › Best Balance Druid PvE Raid and Dungeon Build",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/talent-builds-pve-dps",
-          "date": "2026-11-16"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:balance:talents"
       ],
       "source_hashes": [
-        "section:df9315beaba0e3664b515f43976cac6af20c1003"
+        "section:670189d948ff3aec02d9cad5c0b0b969794b658b"
       ]
     },
     {
@@ -2325,8 +2321,8 @@
       "status": "editorial",
       "title_es": "Build JcJ de Equilibrio",
       "title_en": "Balance PvP Build",
-      "summary_es": "Prioriza daño periódico, supervivencia y control para mantener la distancia.",
-      "summary_en": "Prioritizes damage-over-time, survivability, and control to maintain distance.",
+      "summary_es": "Mantiene el núcleo de daño JcE y gasta los 7 puntos flexibles en control y supervivencia.",
+      "summary_en": "Keeps the PvE damage core and spends the 7 flexible points on control and survival.",
       "keywords_es": [
         "build druida equilibrio pvp",
         "talentos druida equilibrio pvp",
@@ -2337,8 +2333,8 @@
         "druid talents equilibrio pvp",
         "druid talent points equilibrio pvp"
       ],
-      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Génesis 5/5, Brillo lunar 3/3, Fuegolunar mejorado 2/2, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Enredaderas 3/3, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Venganza 5/5, Sobrecrecimiento 2/2, Gracia de la naturaleza 1/1, Furia de luna 5/5 y Forma de lechúcico lunar 1/1. En Recuperación: Enfoque de la naturaleza 5/5, Naturalista 5/5 y Refracción 3/3.",
-      "text_en": "Balance: Improved Wrath 5/5, Genesis 5/5, Moonglow 3/3, Improved Moonfire 2/2, Nature's Majesty 2/2, Nature's Reach 2/2, Improved Entangling Roots 3/3, Nature's Splendor 1/1, Insect Swarm 1/1, Vengeance 5/5, Overgrowth 2/2, Nature's Grace 1/1, Moonfury 5/5, and Moonkin Form 1/1. Restoration: Nature's Focus 5/5, Naturalist 5/5, and Reflection 3/3.",
+      "text_es": "Equilibrio 33: Cólera de luz estelar 5/5, Génesis 5/5 y Brillo lunar 3/3, Luna y estrellas, Majestuosidad de la naturaleza y Alcance de la naturaleza a 2/2, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1 y Venganza 5/5, Sobrecrecimiento 2/2, Gracia de la naturaleza 1/1, Eclipse 3/3 y Forma de lechúcico lunar 1/1. Recuperación 18: Enfoque de la naturaleza 5/5, Naturalista 5/5, Refracción 3/3, Metamorfosis natural 3/3, Floración 1/1 y Arreglo rápido 1/1. Sobrecrecimiento retiene a tres enemigos con Enredaderas; Arreglo rápido y Floración curan y Metamorfosis natural abarata el cambio.",
+      "text_en": "Balance (33 points): Starlight Wrath 5/5, Genesis 5/5 and Moonglow 3/3, then Moon and Stars, Nature's Majesty and Nature's Reach at 2/2, with Nature's Splendor 1/1, Insect Swarm 1/1 and Vengeance 5/5. After that come Overgrowth 2/2, Nature's Grace 1/1, then Eclipse 3/3 and Moonkin Form 1/1. Restoration (18 points): Nature's Focus 5/5, Naturalist 5/5 and Reflection 3/3, then Natural Shapeshifter 3/3, Bloom 1/1 and Swiftmend 1/1. Overgrowth lets Entangling Roots hold three enemies, while Swiftmend and Bloom heal you and Natural Shapeshifter makes leaving Moonkin Form cheaper.",
       "tags": [
         "DRUID"
       ],
@@ -2347,15 +2343,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Balance Druid Talent Tree Builds - Forever › Best Balance Druid PvP Build",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/talent-builds-pve-dps",
-          "date": "2026-11-16"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:balance:talents"
       ],
       "source_hashes": [
-        "section:4baeef25a060616ecc29073484116e567727f21f"
+        "section:cd049438b0b99c110b95a7e864f863f8d2502f42"
       ]
     },
     {
@@ -2708,8 +2704,8 @@
       "status": "editorial",
       "title_es": "Build de banda NG/RG",
       "title_en": "Restoration NG/RG Raid Build",
-      "summary_es": "Se recomienda para responder a picos con Recrecimiento acelerado.",
-      "summary_en": "Recommended to answer damage spikes with hasted Regrowth.",
+      "summary_es": "Alternativa de banda para picos con Recrecimiento acelerado cuando la curación grupal sobra.",
+      "summary_en": "Raid alternative for spikes with hasted Regrowth when group healing is unnecessary.",
       "keywords_es": [
         "build druida restauracion ng rg",
         "talentos druida restauracion ng rg",
@@ -2720,8 +2716,8 @@
         "druid talents restauracion ng rg",
         "druid talent points restauracion ng rg"
       ],
-      "text_es": "Rama de Equilibrio: Génesis 5/5, Enredaderas 3/3, Cólera mejorada 5/5, Enjambre de insectos 1/1, Brillo lunar 3/3, Gracia de la naturaleza 1/1, Majestuosidad de la naturaleza 2/2, Esplendor de la naturaleza 1/1. Rama de Recuperación: Floración 1/1, Regalo de la Naturaleza 5/5, Corazón de lo Salvaje 5/5, Recrecimiento mejorado 5/5, Rejuvenecimiento mejorado 3/3, Espíritu vivo 1/3, Naturalista 5/5, Rapidez de la Naturaleza 1/1, Refracción 3/3, Arreglo rápido 1/1.",
-      "text_en": "Balance: Genesis 5/5, Improved Entangling Roots 3/3, Improved Wrath 5/5, Insect Swarm 1/1, Moonglow 3/3, Nature's Grace 1/1, Nature's Majesty 2/2, Nature's Splendor 1/1. Restoration: Bloom 1/1, Gift of Nature 5/5, Heart of the Wild 5/5, Improved Regrowth 5/5, Improved Rejuvenation 3/3, Living Spirit 1/3, Naturalist 5/5, Nature's Swiftness 1/1, Reflection 3/3, Swiftmend 1/1.",
+      "text_es": "Rama de Equilibrio: Génesis 5/5, Enredaderas 3/3, Cólera de luz estelar 5/5, Enjambre de insectos 1/1, Brillo lunar 3/3, Gracia de la naturaleza 1/1, Majestuosidad de la naturaleza 2/2, Esplendor de la naturaleza 1/1. Rama de Recuperación: Floración 1/1, Regalo de la Naturaleza 5/5, Corazón de lo Salvaje 5/5, Recrecimiento mejorado 5/5, Rejuvenecimiento mejorado 3/3, Espíritu vivo 1/3, Naturalista 5/5, Rapidez de la Naturaleza 1/1, Refracción 3/3, Arreglo rápido 1/1.",
+      "text_en": "Balance: Genesis 5/5, Improved Entangling Roots 3/3, Starlight Wrath 5/5, Insect Swarm 1/1, Moonglow 3/3, Nature's Grace 1/1, Nature's Majesty 2/2, Nature's Splendor 1/1. Restoration: Bloom 1/1, Gift of Nature 5/5, Heart of the Wild 5/5, Improved Regrowth 5/5, Improved Rejuvenation 3/3, Living Spirit 1/3, Naturalist 5/5, Nature's Swiftness 1/1, Reflection 3/3, Swiftmend 1/1.",
       "tags": [
         "DRUID"
       ],
@@ -2730,15 +2726,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Restoration Druid Talent Tree Builds - Forever › Best Restoration Druid PvE Raid Builds",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/talent-builds-pve-healer",
-          "date": "2026-11-04"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:restoration:talents"
       ],
       "source_hashes": [
-        "section:53c9e2efc76b8d34ddd6bcb2b8f5e2aaeff04650"
+        "section:5ff0fe833fa287774e21e471a0af5e544402a72c"
       ]
     },
     {
@@ -2747,8 +2743,8 @@
       "status": "editorial",
       "title_es": "Build profunda de Recuperación (bandas)",
       "title_en": "Deep Restoration Raid/Dungeon Build",
-      "summary_es": "Alcanza Crecimiento salvaje; es la build de sanación para mazmorra y se espera menos fuerte que NG/RG en banda.",
-      "summary_en": "Reaches Wild Growth; it is the dungeon-healing build and is expected to trail NG/RG in raids.",
+      "summary_es": "Alcanza Crecimiento salvaje; es la build recomendada para bandas y la mejor para sanar mazmorras.",
+      "summary_en": "Reaches Wild Growth; it is the recommended raid build and the best pick for dungeon healing.",
       "keywords_es": [
         "build druida restauracion profunda",
         "talentos druida restauracion profunda",
@@ -2759,8 +2755,8 @@
         "druid talents restauracion profunda",
         "druid talent points restauracion profunda"
       ],
-      "text_es": "Rama de Equilibrio: Génesis 5/5, Cólera mejorada 5/5, Enjambre de insectos 1/1, Brillo lunar 2/3, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1. Rama de Recuperación: Floración 1/1, Regalo de la Naturaleza 5/5, Corazón de lo Salvaje 5/5, Recrecimiento mejorado 5/5, Rejuvenecimiento mejorado 3/3, Espíritu vivo 3/3, Naturalista 5/5, Rapidez de la Naturaleza 1/1, Refracción 3/3, Arreglo rápido 1/1, Crecimiento salvaje 1/1.",
-      "text_en": "Balance: Genesis 5/5, Improved Wrath 5/5, Insect Swarm 1/1, Moonglow 2/3, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1. Restoration: Bloom 1/1, Gift of Nature 5/5, Heart of the Wild 5/5, Improved Regrowth 5/5, Improved Rejuvenation 3/3, Living Spirit 3/3, Naturalist 5/5, Nature's Swiftness 1/1, Reflection 3/3, Swiftmend 1/1, Wild Growth 1/1.",
+      "text_es": "Rama de Equilibrio: Génesis 5/5, Cólera de luz estelar 5/5, Enjambre de insectos 1/1, Brillo lunar 2/3, Alcance de la naturaleza 2/2, Majestuosidad de la naturaleza 2/2, Esplendor de la naturaleza 1/1. Rama de Recuperación: Floración 1/1, Regalo de la Naturaleza 5/5, Corazón de lo Salvaje 5/5, Recrecimiento mejorado 5/5, Rejuvenecimiento mejorado 3/3, Espíritu vivo 3/3, Naturalista 5/5, Rapidez de la Naturaleza 1/1, Refracción 3/3, Arreglo rápido 1/1, Crecimiento salvaje 1/1. Sus mejoras recientes la convierten en la opción recomendada para bandas.",
+      "text_en": "Balance: Genesis 5/5, Starlight Wrath 5/5, Insect Swarm 1/1, Moonglow 2/3, Nature's Reach 2/2, Nature's Majesty 2/2, Nature's Splendor 1/1. Restoration: Bloom 1/1, Gift of Nature 5/5, Heart of the Wild 5/5, Improved Regrowth 5/5, Improved Rejuvenation 3/3, Living Spirit 3/3, Naturalist 5/5, Nature's Swiftness 1/1, Reflection 3/3, Swiftmend 1/1, Wild Growth 1/1. Its recent buffs make it the recommended raid choice.",
       "tags": [
         "DRUID"
       ],
@@ -2769,15 +2765,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Restoration Druid Talent Tree Builds - Forever › Best Restoration Druid PvE Raid Builds",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/talent-builds-pve-healer",
-          "date": "2026-11-04"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:restoration:talents"
       ],
       "source_hashes": [
-        "section:53c9e2efc76b8d34ddd6bcb2b8f5e2aaeff04650"
+        "section:5ff0fe833fa287774e21e471a0af5e544402a72c"
       ]
     },
     {
@@ -2786,8 +2782,8 @@
       "status": "editorial",
       "title_es": "Build Restokin para mazmorra",
       "title_en": "Restokin Dungeon Build",
-      "summary_es": "Mezcla daño entre curas; los últimos cinco puntos pueden reforzar daño o sanación.",
-      "summary_en": "Weaves damage between heals; the final five points can improve damage or healing.",
+      "summary_es": "Mezcla daño entre curas; los últimos cinco puntos refuerzan la sanación o el maná.",
+      "summary_en": "Weaves damage between heals; the last five points improve healing or mana.",
       "keywords_es": [
         "build druida restokin",
         "talentos druida restokin",
@@ -2798,8 +2794,8 @@
         "druid talents restokin",
         "druid talent points restokin"
       ],
-      "text_es": "Rama de Equilibrio: Eclipse 3/3, Fuegolunar mejorado 2/2, Fuego estelar mejorado 5/5, Cólera mejorada 5/5, Enjambre de insectos 1/1, Furia de luna 5/5, Brillo lunar 3/3, Gracia de la naturaleza 1/1, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Venganza 5/5. Rama de Recuperación: Floración 1/1, Regalo de la Naturaleza 1/5, Corazón de lo Salvaje 5/5, Naturalista 5/5, Refracción 3/3, Arreglo rápido 1/1.",
-      "text_en": "Balance: Eclipse 3/3, Improved Moonfire 2/2, Improved Starfire 5/5, Improved Wrath 5/5, Insect Swarm 1/1, Moonfury 5/5, Moonglow 3/3, Nature's Grace 1/1, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Vengeance 5/5. Restoration: Bloom 1/1, Gift of Nature 1/5, Heart of the Wild 5/5, Naturalist 5/5, Reflection 3/3, Swiftmend 1/1.",
+      "text_es": "Rama de Equilibrio: Eclipse 3/3, Luna y estrellas 2/2, Cólera de luz estelar 5/5, Génesis 5/5, Enjambre de insectos 1/1, Brillo lunar 3/3, Gracia de la naturaleza 1/1, Esplendor de la naturaleza 1/1, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Venganza 5/5. Rama de Recuperación: Floración 1/1, Regalo de la Naturaleza 5/5, Corazón de lo Salvaje 5/5, Refracción 3/3, Naturalista 5/5, Arreglo rápido 1/1, Rapidez de la Naturaleza 1/1. No se recomienda Forma de lechúcico lunar: cambiar de forma gasta maná y tiempo de lanzamiento.",
+      "text_en": "Balance: Eclipse 3/3, Moon and Stars 2/2, Starlight Wrath 5/5, Genesis 5/5, Insect Swarm 1/1, Moonglow 3/3, Nature's Grace 1/1, Nature's Splendor 1/1, Nature's Majesty 2/2, Nature's Reach 2/2, Vengeance 5/5. Restoration: Bloom 1/1, Gift of Nature 5/5, Heart of the Wild 5/5, Reflection 3/3, Naturalist 5/5, Swiftmend 1/1, Nature's Swiftness 1/1. Moonkin Form is not recommended: shifting costs mana and cast time.",
       "tags": [
         "DRUID"
       ],
@@ -2808,15 +2804,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Restoration Druid Talent Tree Builds - Forever › Best Restoration Druid PvE Dungeon Build",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/talent-builds-pve-healer",
-          "date": "2026-11-04"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:restoration:talents"
       ],
       "source_hashes": [
-        "section:2824558f2cd23247beb36d612575403ffdd0b9f3"
+        "section:7481687e5e339fccb85c4cc1f2562eecd4e0b74f"
       ]
     },
     {
@@ -2838,7 +2834,7 @@
         "druid talent points restocat"
       ],
       "text_es": "Rama de Combate feral: Frenesí sangriento 2/2, Ferocidad 5/5, Furor 5/5, Líder de la manada 1/1, Instinto natural 2/2, Disciplina depredadora 1/1, Golpes depredadores 3/3, Desgarrar y rasgar 5/5, Furia salvaje 2/2, Garras afiladas 2/2, Poder cambiante 1/1, Ataques trituradores 3/3. Rama de Recuperación: Floración 1/1, Regalo de la Naturaleza 1/5, Corazón de lo Salvaje 5/5, Rejuvenecimiento mejorado 3/3, Naturalista 5/5, Refracción 3/3, Arreglo rápido 1/1.",
-      "text_en": "Feral: Blood Frenzy 2/2, Ferocity 5/5, Furor 5/5, Leader of the Pack 1/1, Natural Instinct 2/2, Predatory Discipline 1/1, Predatory Strikes 3/3, Rend and Tear 5/5, Savage Fury 2/2, Sharpened Claws 2/2, Shifting Power 1/1, Shredding Attacks 3/3. Restoration: Bloom 1/1, Gift of Nature 1/5, Heart of the Wild 5/5, Improved Rejuvenation 3/3, Naturalist 5/5, Reflection 3/3, Swiftmend 1/1.",
+      "text_en": "Feral: Blood Frenzy 2/2, Ferocity 5/5, Furor 5/5, Leader of the Pack 1/1 and Natural Instinct 2/2, Predatory Discipline 1/1, Predatory Strikes 3/3, Rend and Tear 5/5, Savage Fury 2/2, Sharpened Claws 2/2, Shifting Power 1/1, Shredding Attacks 3/3. Restoration: Bloom 1/1, Gift of Nature 1/5, Heart of the Wild 5/5, Improved Rejuvenation 3/3, Naturalist 5/5, Reflection 3/3, Swiftmend 1/1.",
       "tags": [
         "DRUID"
       ],
@@ -2847,15 +2843,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Restoration Druid Talent Tree Builds - Forever › Best Restoration Druid PvE Dungeon Build",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/talent-builds-pve-healer",
-          "date": "2026-11-04"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:restoration:talents"
       ],
       "source_hashes": [
-        "section:2824558f2cd23247beb36d612575403ffdd0b9f3"
+        "section:7481687e5e339fccb85c4cc1f2562eecd4e0b74f"
       ]
     },
     {
@@ -2876,8 +2872,8 @@
         "druid talents restauracion pvp",
         "druid talent points restauracion pvp"
       ],
-      "text_es": "Rama de Equilibrio: Enredaderas 3/3, Fuegolunar mejorado 2/2, Cólera mejorada 5/5, Enjambre de insectos 1/1, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1. Rama de Combate feral: Impacto brutal 2/2, Carga feral 1/1, Presteza feral 2/2, Furor 5/5, Pellejo grueso 1/3. Rama de Recuperación: Floración 1/1, Corazón de lo Salvaje 5/5, Metamorfosis natural 3/3, Naturalista 5/5, Enfoque de la naturaleza 5/5, Rapidez de la Naturaleza 1/1, Refracción 3/3, Arreglo rápido 1/1.",
-      "text_en": "Balance: Improved Entangling Roots 3/3, Improved Moonfire 2/2, Improved Wrath 5/5, Insect Swarm 1/1, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1. Feral: Brutal Impact 2/2, Feral Charge 1/1, Feral Swiftness 2/2, Furor 5/5, Thick Hide 1/3. Restoration: Bloom 1/1, Heart of the Wild 5/5, Natural Shapeshifter 3/3, Naturalist 5/5, Nature's Focus 5/5, Nature's Swiftness 1/1, Reflection 3/3, Swiftmend 1/1.",
+      "text_es": "Rama de Equilibrio: Enredaderas 3/3, Luna y estrellas 2/2, Cólera de luz estelar 5/5, Enjambre de insectos 1/1, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1. Rama de Combate feral: Impacto brutal 2/2, Carga feral 1/1, Presteza feral 2/2, Furor 5/5, Pellejo grueso 1/3. Rama de Recuperación: Floración 1/1, Corazón de lo Salvaje 5/5, Metamorfosis natural 3/3, Naturalista 5/5, Enfoque de la naturaleza 5/5, Rapidez de la Naturaleza 1/1, Refracción 3/3, Arreglo rápido 1/1.",
+      "text_en": "Balance: Improved Entangling Roots 3/3, Moon and Stars 2/2, Starlight Wrath 5/5, Insect Swarm 1/1, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1. Feral: Brutal Impact 2/2, Feral Charge 1/1, Feral Swiftness 2/2, Furor 5/5, Thick Hide 1/3. Restoration: Bloom 1/1, Heart of the Wild 5/5, Natural Shapeshifter 3/3, Naturalist 5/5, Nature's Focus 5/5, Nature's Swiftness 1/1, Reflection 3/3, Swiftmend 1/1.",
       "tags": [
         "DRUID"
       ],
@@ -2886,15 +2882,15 @@
           "type": "editorial",
           "ref": "Wowhead: Best Restoration Druid Talent Tree Builds - Forever › Best Restoration Druid PvP Build",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/talent-builds-pve-healer",
-          "date": "2026-11-04"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:restoration:talents"
       ],
       "source_hashes": [
-        "section:67dc0b2e850199320c18dcc14b11f17793a42496"
+        "section:367590e13216ab17965d864228d3071a1d3180db"
       ]
     },
     {
@@ -2915,8 +2911,8 @@
         "balance feral pvp talents",
         "druid pvp talent points"
       ],
-      "text_es": "Rama de Equilibrio: Génesis 5/5, Fuegolunar mejorado 2/2, Enjambre de insectos 1/1, Brillo lunar 3/3, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1. Rama de Combate feral: Impacto brutal 2/2, Carga feral 1/1, Instinto feral 1/3, Presteza feral 2/2, Corazón de lo Salvaje 5/5. Recomendación provisional hasta que se pruebe a nivel 60.",
-      "text_en": "Balance: Genesis 5/5, Improved Moonfire 2/2, Insect Swarm 1/1, Moonglow 3/3, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1. Feral: Brutal Impact 2/2, Feral Charge 1/1, Feral Instinct 1/3, Feral Swiftness 2/2, Heart of the Wild 5/5. Provisional recommendation until tested at level 60.",
+      "text_es": "Rama de Equilibrio: Génesis 5/5, Luna y estrellas 2/2, Enjambre de insectos 1/1, Brillo lunar 3/3, Majestuosidad de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Alcance de la naturaleza 2/2. Rama de Combate feral: Impacto brutal 2/2, Carga feral 1/1, Instinto feral 1/3, Presteza feral 2/2, Corazón de lo Salvaje 5/5. Recomendación provisional hasta que se pruebe a nivel 60.",
+      "text_en": "Balance: Genesis 5/5, Moon and Stars 2/2, Insect Swarm 1/1, Moonglow 3/3, Nature's Majesty 2/2, Nature's Splendor 1/1, Nature's Reach 2/2. Feral: Brutal Impact 2/2, Feral Charge 1/1, Feral Instinct 1/3, Feral Swiftness 2/2, Heart of the Wild 5/5. Provisional recommendation until tested at level 60.",
       "tags": [
         "DRUID"
       ],
@@ -2934,7 +2930,7 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:feral:stats",
         "class:druid:feral:talents"
@@ -2992,42 +2988,85 @@
       ]
     },
     {
-      "id": "clase-druid-build-equilibrio-eclipse-banda",
+      "id": "clase-druid-build-equilibrio-control-multitud",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Alternativa de Eclipse para banda",
-      "title_en": "Hard-Cast Eclipse Raid Option",
-      "summary_es": "En banda se prefiere el casteo largo con Eclipse y la asignación PvE.",
-      "summary_en": "Raids favor hard-cast Eclipse with the PvE allocation.",
+      "title_es": "Variante de control de multitudes",
+      "title_en": "Crowd Control Build Variation",
+      "summary_es": "Gasta los 7 puntos flexibles en retener añadidos y aturdirlos.",
+      "summary_en": "Spends the 7 flexible points on holding and stunning adds.",
       "keywords_es": [
-        "equilibrio eclipse banda",
-        "build casteo eclipse",
-        "alternativa equilibrio raid"
+        "build equilibrio control",
+        "talentos control druida",
+        "enredaderas y sobrecrecimiento",
+        "aturdir con fuego estelar"
       ],
       "keywords_en": [
-        "balance eclipse raid",
-        "hardcast eclipse build",
-        "balance raid alternative"
+        "balance crowd control build",
+        "druid control talents",
+        "entangling roots overgrowth",
+        "starfire stun build"
       ],
-      "text_es": "En banda se considera óptima la build de casteo largo centrada en Eclipse. Usa la asignación completa de la tarjeta «Build de Equilibrio JcE para banda/mazmorra»; no es un reparto distinto.",
-      "text_en": "For raids, the hard-cast Eclipse build is considered optimal. Use the complete allocation in the “Balance PvE Raid/Dungeon Build” card; it is not a separate point spread.",
+      "text_es": "Equilibrio 38: Cólera de luz estelar 5/5, Génesis 5/5 y Brillo lunar 3/3, Luna y estrellas, Majestuosidad de la naturaleza y Alcance de la naturaleza a 2/2, Enredaderas 3/3, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1 y Venganza 5/5, más Fuego estelar mejorado 2/2 y Sobrecrecimiento 2/2, Gracia de la naturaleza 1/1, Eclipse 3/3 y Forma de lechúcico lunar 1/1. Recuperación 13: Enfoque de la naturaleza 5/5, Naturalista 5/5 y Refracción 3/3. Sobrecrecimiento retiene tres enemigos con Enredaderas y Fuego estelar mejorado da un 15% de aturdir 3 segundos; úsala si falta control.",
+      "text_en": "Balance (38 points): Starlight Wrath 5/5, Genesis 5/5 and Moonglow 3/3, then Moon and Stars, Nature's Majesty and Nature's Reach at 2/2. Improved Entangling Roots 3/3, plus Nature's Splendor 1/1, Insect Swarm 1/1 and Vengeance 5/5, then Improved Starfire 2/2 and Overgrowth 2/2, then Nature's Grace 1/1, Eclipse 3/3 and Moonkin Form 1/1. Restoration (13 points): Nature's Focus 5/5, Naturalist 5/5 and Reflection 3/3. Overgrowth lets Entangling Roots hold up to three enemies, and Improved Starfire gives Starfire a 15% chance to stun for 3 seconds. Take it when your group lacks control for adds.",
       "tags": [
         "DRUID"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Best Balance Druid Talent Tree Builds - Forever › Best Balance Druid PvE Raid and Dungeon Build",
+          "ref": "Wowhead: Best Balance Druid Talent Tree Builds - Forever › Crowd Control Build",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/talent-builds-pve-dps",
-          "date": "2026-11-16"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:balance:talents"
       ],
       "source_hashes": [
-        "section:df9315beaba0e3664b515f43976cac6af20c1003"
+        "section:b0b6ec9097283cd13b58302dde1d18470afd94fb"
+      ]
+    },
+    {
+      "id": "clase-druid-build-equilibrio-control-amenaza",
+      "chapter": 4,
+      "status": "editorial",
+      "title_es": "Variante de control de amenaza en área",
+      "title_en": "AoE Threat Control Build Variation",
+      "summary_es": "Gasta los 7 puntos flexibles en maná y reducción de amenaza para AoE.",
+      "summary_en": "Spends the 7 flexible points on mana and threat reduction for AoE.",
+      "keywords_es": [
+        "build equilibrio amenaza",
+        "reducir amenaza druida",
+        "build estado onírico",
+        "sutileza equilibrio pve"
+      ],
+      "keywords_en": [
+        "balance threat build",
+        "druid threat reduction",
+        "dreamstate build",
+        "subtlety balance pve"
+      ],
+      "text_es": "Equilibrio 35: Cólera de luz estelar 5/5, Génesis 5/5 y Brillo lunar 3/3, Luna y estrellas, Majestuosidad de la naturaleza y Alcance de la naturaleza a 2/2, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1 y Venganza 5/5, más Gracia de la naturaleza 1/1, Eclipse 3/3, Estado onírico 4/5 y Forma de lechúcico lunar 1/1. Recuperación 16: Enfoque de la naturaleza 5/5, Naturalista 5/5, Refracción 3/3 y Sutileza 3/3. Estado onírico te devuelve el 80% del Enervar sobre otro; Sutileza baja un 30% la amenaza de Naturaleza y Arcano. Ideal con AoE, tanques con amenaza débil o sanadores sin maná.",
+      "text_en": "Balance (35 points): Starlight Wrath 5/5, Genesis 5/5 and Moonglow 3/3, then Moon and Stars, Nature's Majesty and Nature's Reach at 2/2. Take Nature's Splendor 1/1, Insect Swarm 1/1 and Vengeance 5/5, plus Nature's Grace 1/1 and Eclipse 3/3, then Dreamstate 4/5 and Moonkin Form 1/1. Restoration (16 points): Nature's Focus 5/5, Naturalist 5/5 and Reflection 3/3, plus Subtlety 3/3. Dreamstate makes an Innervate on another player also give you 80% of its effect; Subtlety lowers Nature and Arcane threat by 30%. It suits heavy AoE, tanks with threat trouble or healers who need Innervate.",
+      "tags": [
+        "DRUID"
+      ],
+      "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Best Balance Druid Talent Tree Builds - Forever › AoE Threat Control Build",
+          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/talent-builds-pve-dps",
+          "date": "2026-11-26"
+        }
+      ],
+      "updated": "2026-11-26",
+      "topics": [
+        "class:druid:balance:talents"
+      ],
+      "source_hashes": [
+        "section:9d08f6e63492138b01f12c930f213cfee92628f3"
       ]
     },
     {
@@ -3060,210 +3099,56 @@
           "type": "editorial",
           "ref": "Wowhead: Best Restoration Druid Talent Tree Builds - Forever › Best Restoration Druid PvP Build",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/talent-builds-pve-healer",
-          "date": "2026-11-04"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:restoration:talents"
       ],
       "source_hashes": [
-        "section:67dc0b2e850199320c18dcc14b11f17793a42496"
+        "section:367590e13216ab17965d864228d3071a1d3180db"
       ]
     },
     {
-      "id": "clase-druid-build-equilibrio-subir-mixto",
+      "id": "clase-druid-build-equilibrio-subir",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Build de Equilibrio versátil y sanadora (subida)",
-      "title_en": "Balance Versatile/Dungeon-Healing Build",
-      "summary_es": "Reparto mixto recomendado; la variante sanadora usa los mismos puntos finales.",
-      "summary_en": "Recommended mixed allocation; the delayed-healing variant shares these final points.",
+      "title_es": "Build de subida de Equilibrio",
+      "title_en": "Balance Leveling Build",
+      "summary_es": "Sube con el mismo núcleo de 44 puntos y elige los 7 últimos según tu estilo.",
+      "summary_en": "Level with the same 44-point core and pick the last 7 points to suit you.",
       "keywords_es": [
-        "build druida leveo build-equilibrio",
-        "talentos druida leveo build-equilibrio",
-        "puntos de talento build-equilibrio"
+        "build druida equilibrio subir",
+        "talentos druida nivel 60 equilibrio",
+        "subir druida equilibrio",
+        "build equilibrio leveo"
       ],
       "keywords_en": [
-        "druid leveling build build-equilibrio",
-        "druid leveling talents build-equilibrio",
-        "druid talent points build-equilibrio"
+        "balance druid leveling build",
+        "balance talents leveling",
+        "leveling balance druid",
+        "balance level 60 build"
       ],
-      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Génesis 2/5, Brillo lunar 3/3, Fuegolunar mejorado 2/2, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Venganza 5/5, Fuego estelar mejorado 5/5, Gracia de la naturaleza 1/1, Eclipse 3/3, Furia de luna 5/5, Forma de lechúcico lunar 1/1. Rama de Recuperación: Enfoque de la naturaleza 5/5, Naturalista 5/5, Refracción 3/3. Este reparto sirve tanto para una ruta mixta como para retrasar la forma lunar al curar mazmorras.",
-      "text_en": "Balance: Improved Wrath 5/5, Genesis 2/5, Moonglow 3/3, Improved Moonfire 2/2, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Insect Swarm 1/1, Vengeance 5/5, Improved Starfire 5/5, Nature's Grace 1/1, Eclipse 3/3, Moonfury 5/5, Moonkin Form 1/1. Restoration: Nature's Focus 5/5, Naturalist 5/5, Reflection 3/3. This allocation supports both mixed play and delayed Moonkin Form for dungeon healing.",
+      "text_es": "Sube con el mismo núcleo de 44 puntos JcE. Equilibrio 31: Cólera de luz estelar y Génesis a 5/5, Brillo lunar 3/3, Luna y estrellas, Majestuosidad de la naturaleza y Alcance de la naturaleza a 2/2, más Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1 y Venganza 5/5, después Gracia de la naturaleza 1/1, Eclipse 3/3 y Forma de lechúcico lunar 1/1. Recuperación 13: Enfoque de la naturaleza 5/5, Naturalista 5/5 y Refracción 3/3. Los 7 últimos: control (Enredaderas, Sobrecrecimiento, Fuego estelar mejorado), amenaza (Sutileza) o curación (Metamorfosis natural, Arreglo rápido, Floración).",
+      "text_en": "Level with the same 44-point core as the raid build. Balance (31 points): Starlight Wrath and Genesis at 5/5 each, Moonglow 3/3, then Moon and Stars, Nature's Majesty and Nature's Reach at 2/2, plus Nature's Splendor 1/1, Insect Swarm 1/1 and Vengeance 5/5, then Nature's Grace 1/1, Eclipse 3/3 and Moonkin Form 1/1. Restoration (13 points): Nature's Focus 5/5, then Naturalist 5/5 and Reflection 3/3. Spend the last 7 points on control (Improved Entangling Roots, Overgrowth, Improved Starfire), threat (Subtlety) or self-healing (Natural Shapeshifter, Swiftmend, Bloom).",
       "tags": [
         "DRUID"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Balance Druid DPS in WoW Forever",
+          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Talent Build for Leveling as Balance Druid DPS in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:balance:leveling"
       ],
       "source_hashes": [
-        "section:ed91f04fa55e332a645c1d9cceba9b8ff101face"
-      ]
-    },
-    {
-      "id": "clase-druid-build-equilibrio-subir-segura",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Build segura de Equilibrio (subida)",
-      "title_en": "Risk-Averse Balance Leveling Build",
-      "summary_es": "Prioriza control y supervivencia para élites y casteo seguro.",
-      "summary_en": "Prioritizes control and safety for elites and uninterrupted casting.",
-      "keywords_es": [
-        "build druida leveo build-equilibrio",
-        "talentos druida leveo build-equilibrio",
-        "puntos de talento build-equilibrio"
-      ],
-      "keywords_en": [
-        "druid leveling build build-equilibrio",
-        "druid leveling talents build-equilibrio",
-        "druid talent points build-equilibrio"
-      ],
-      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Génesis 2/5, Brillo lunar 3/3, Fuegolunar mejorado 2/2, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Venganza 3/5, Fuego estelar mejorado 5/5, Sobrecrecimiento 2/2, Gracia de la naturaleza 1/1, Eclipse 3/3, Furia de luna 5/5, Forma de lechúcico lunar 1/1. Rama de Recuperación: Enfoque de la naturaleza 5/5, Naturalista 5/5, Refracción 3/3. Sobrecrecimiento añade control para mantener enemigos a distancia mientras casteas.",
-      "text_en": "Balance: Improved Wrath 5/5, Genesis 2/5, Moonglow 3/3, Improved Moonfire 2/2, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Insect Swarm 1/1, Vengeance 3/5, Improved Starfire 5/5, Overgrowth 2/2, Nature's Grace 1/1, Eclipse 3/3, Moonfury 5/5, Moonkin Form 1/1. Restoration: Nature's Focus 5/5, Naturalist 5/5, Reflection 3/3. Overgrowth adds control to keep enemies at range while you cast.",
-      "tags": [
-        "DRUID"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Balance Druid DPS in WoW Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-17",
-      "topics": [
-        "class:druid:balance:leveling"
-      ],
-      "source_hashes": [
-        "section:ed91f04fa55e332a645c1d9cceba9b8ff101face"
-      ]
-    },
-    {
-      "id": "clase-druid-build-equilibrio-subir-multidot",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Build de Equilibrio de multidot (subida)",
-      "title_en": "Balance Multi-dot Leveling Build",
-      "summary_es": "Potencial para limpiar grupos rápido, pero sacrifica daño a un objetivo y requiere más pruebas.",
-      "summary_en": "Potentially fast against packs, but trades away single-target damage and needs more testing.",
-      "keywords_es": [
-        "build druida leveo build-equilibrio",
-        "talentos druida leveo build-equilibrio",
-        "puntos de talento build-equilibrio"
-      ],
-      "keywords_en": [
-        "druid leveling build build-equilibrio",
-        "druid leveling talents build-equilibrio",
-        "druid talent points build-equilibrio"
-      ],
-      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Génesis 5/5, Brillo lunar 3/3, Fuegolunar mejorado 2/2, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Venganza 5/5, Fuego estelar mejorado 2/5, Gracia de la naturaleza 1/1, Eclipse 3/3, Furia de luna 5/5, Forma de lechúcico lunar 1/1. Rama de Recuperación: Enfoque de la naturaleza 5/5, Naturalista 5/5, Refracción 3/3. Recomendación provisional hasta que se pruebe a nivel 60. Sacrifica daño a un objetivo por daño periódico en grupo.",
-      "text_en": "Balance: Improved Wrath 5/5, Genesis 5/5, Moonglow 3/3, Improved Moonfire 2/2, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Insect Swarm 1/1, Vengeance 5/5, Improved Starfire 2/5, Nature's Grace 1/1, Eclipse 3/3, Moonfury 5/5, Moonkin Form 1/1. Restoration: Nature's Focus 5/5, Naturalist 5/5, Reflection 3/3. Provisional recommendation until tested at level 60. It trades single-target damage for damage-over-time against packs.",
-      "tags": [
-        "DRUID"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Balance Druid DPS in WoW Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
-          "date": "2026-11-04"
-        }
-      ],
-      "updated": "2026-11-17",
-      "topics": [
-        "class:druid:balance:leveling"
-      ],
-      "source_hashes": [
-        "section:ed91f04fa55e332a645c1d9cceba9b8ff101face"
-      ]
-    },
-    {
-      "id": "clase-druid-build-equilibrio-subir-31-7-13",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Build de Equilibrio 31/7/13 (subida)",
-      "title_en": "Balance 31/7/13 Leveling Build",
-      "summary_es": "Combina daño de Equilibrio, movilidad feral y apoyo de Recuperación.",
-      "summary_en": "Combines Balance damage, Feral mobility, and Restoration support.",
-      "keywords_es": [
-        "build druida leveo build-equilibrio",
-        "talentos druida leveo build-equilibrio",
-        "puntos de talento build-equilibrio"
-      ],
-      "keywords_en": [
-        "druid leveling build build-equilibrio",
-        "druid leveling talents build-equilibrio",
-        "druid talent points build-equilibrio"
-      ],
-      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Brillo lunar 3/3, Fuegolunar mejorado 2/2, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Venganza 5/5, Gracia de la naturaleza 1/1, Eclipse 3/3, Furia de luna 5/5, Forma de lechúcico lunar 1/1. Rama de Combate feral: Corazón de lo Salvaje 5/5, Presteza feral 2/2. Rama de Recuperación: Enfoque de la naturaleza 5/5, Sutileza 2/3, Metamorfosis natural 3/3, Refracción 3/3. La ruta combina la forma lunar con movilidad y apoyo de Recuperación.",
-      "text_en": "Balance: Improved Wrath 5/5, Moonglow 3/3, Improved Moonfire 2/2, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Insect Swarm 1/1, Vengeance 5/5, Nature's Grace 1/1, Eclipse 3/3, Moonfury 5/5, Moonkin Form 1/1. Feral: Heart of the Wild 5/5, Feral Swiftness 2/2. Restoration: Nature's Focus 5/5, Subtlety 2/3, Natural Shapeshifter 3/3, Reflection 3/3. The path combines Moonkin Form with mobility and Restoration support.",
-      "tags": [
-        "DRUID"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Balance Druid Leveling Guide for WoW: Forever › The build: Balance Leveling (31/7/13)",
-          "url": "https://www.wowhead.com/forever/guide/balance-druid-leveling-guide-for-wow-forever-35076",
-          "date": "2026-10-20"
-        }
-      ],
-      "updated": "2026-11-17",
-      "topics": [
-        "class:druid:extra:balance-druid-leveling-guide-for-wow-forever"
-      ],
-      "source_hashes": [
-        "section:adf1c6a8080f6c4af9c3293759682010fe41dd7c"
-      ]
-    },
-    {
-      "id": "clase-druid-build-moonglow-subir",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Build Moonglow 31/0/20",
-      "title_en": "Moonglow 31/0/20 Leveling Build",
-      "summary_es": "Sube como Equilibrio y aporta sanación de mazmorra al invertir los últimos puntos en Recuperación.",
-      "summary_en": "Level as Balance, then add dungeon healing with the final Restoration points.",
-      "keywords_es": [
-        "build druida leveo build-moonglow",
-        "talentos druida leveo build-moonglow",
-        "puntos de talento build-moonglow"
-      ],
-      "keywords_en": [
-        "druid leveling build build-moonglow",
-        "druid leveling talents build-moonglow",
-        "druid talent points build-moonglow"
-      ],
-      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Brillo lunar 3/3, Fuegolunar mejorado 2/2, Majestuosidad de la naturaleza 2/2, Alcance de la naturaleza 2/2, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Venganza 5/5, Gracia de la naturaleza 1/1, Eclipse 3/3, Furia de luna 5/5, Forma de lechúcico lunar 1/1. Rama de Recuperación: Enfoque de la naturaleza 5/5, Naturalista 5/5, Metamorfosis natural 1/3, Refracción 3/3, Regalo de la Naturaleza 1/5, Rejuvenecimiento mejorado 3/3, Arreglo rápido 1/1. Queda 1 punto libre para gastar por talentos retirados.",
-      "text_en": "Balance: Improved Wrath 5/5, Moonglow 3/3, Improved Moonfire 2/2, Nature's Majesty 2/2, Nature's Reach 2/2, Nature's Splendor 1/1, Insect Swarm 1/1, Vengeance 5/5, Nature's Grace 1/1, Eclipse 3/3, Moonfury 5/5, Moonkin Form 1/1. Restoration: Nature's Focus 5/5, Naturalist 5/5, Natural Shapeshifter 1/3, Reflection 3/3, Gift of Nature 1/5, Improved Rejuvenation 3/3, Swiftmend 1/1. 1 point remain free to spend because talents were retired.",
-      "tags": [
-        "DRUID"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Moonglow Druid Hybrid Guide for WoW: Forever › The build: Moonglow (31/0/20)",
-          "url": "https://www.wowhead.com/forever/guide/moonglow-druid-hybrid-guide-for-wow-forever-35081",
-          "date": "2026-10-20"
-        }
-      ],
-      "updated": "2026-11-17",
-      "topics": [
-        "class:druid:extra:moonglow-druid-hybrid-guide-for-wow-forever"
-      ],
-      "source_hashes": [
-        "section:40cd7a5f0538abf51e904d41c6b5d9a22b09dcf4"
+        "section:c7a0c89a460f0808c1515181b1bb367447c4a0fb"
       ]
     },
     {
@@ -3518,8 +3403,8 @@
         "druid leveling talents build-restauracion-hots-dots",
         "druid talent points build-restauracion-hots-dots"
       ],
-      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Génesis 5/5, Brillo lunar 3/3, Majestuosidad de la naturaleza 2/2, Enredaderas 3/3, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Sobrecrecimiento 2/2, Gracia de la naturaleza 1/1. Rama de Recuperación: Enfoque de la naturaleza 5/5, Naturalista 5/5, Refracción 3/3, Regalo de la Naturaleza 5/5, Floración 1/1, Rejuvenecimiento mejorado 3/3, Arreglo rápido 1/1, Rapidez de la Naturaleza 1/1, Espíritu vivo 1/3, Recrecimiento mejorado 3/5. Equilibra el daño en solitario con sanación útil en mazmorras.",
-      "text_en": "Balance: Improved Wrath 5/5, Genesis 5/5, Moonglow 3/3, Nature's Majesty 2/2, Improved Entangling Roots 3/3, Nature's Splendor 1/1, Insect Swarm 1/1, Overgrowth 2/2, Nature's Grace 1/1. Restoration: Nature's Focus 5/5, Naturalist 5/5, Reflection 3/3, Gift of Nature 5/5, Bloom 1/1, Improved Rejuvenation 3/3, Swiftmend 1/1, Nature's Swiftness 1/1, Living Spirit 1/3, Improved Regrowth 3/5. It balances solo damage with useful dungeon healing.",
+      "text_es": "Rama de Equilibrio: Cólera de luz estelar 5/5 y Génesis 5/5, Majestuosidad de la naturaleza 2/2, Brillo lunar 3/3, Enredaderas 3/3, Esplendor de la naturaleza 1/1, Enjambre de insectos 1/1, Sobrecrecimiento 2/2, Gracia de la naturaleza 1/1. Rama de Recuperación: Enfoque de la naturaleza 5/5, Refracción 3/3, Naturalista 5/5, Regalo de la Naturaleza 5/5 y Floración 1/1, Rejuvenecimiento mejorado 3/3, luego Arreglo rápido 1/1 y Rapidez de la Naturaleza 1/1, Espíritu vivo 1/3 y Recrecimiento mejorado 3/5. Equilibra el daño en solitario con sanación útil en mazmorras.",
+      "text_en": "Balance: Starlight Wrath 5/5 and Genesis 5/5, Nature's Majesty 2/2, Moonglow 3/3, Improved Entangling Roots 3/3, then Nature's Splendor 1/1, Insect Swarm 1/1 and Overgrowth 2/2, Nature's Grace 1/1. Restoration: Nature's Focus 5/5, Reflection 3/3, Naturalist 5/5, Gift of Nature 5/5 and Bloom 1/1, Improved Rejuvenation 3/3, then Swiftmend 1/1 and Nature's Swiftness 1/1, then Living Spirit 1/3 and Improved Regrowth 3/5. It balances solo damage with useful dungeon healing.",
       "tags": [
         "DRUID"
       ],
@@ -3528,15 +3413,15 @@
           "type": "editorial",
           "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as a Restoration Druid Healer in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
-          "date": "2026-11-13"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
-        "section:a42d783facf3a5f401cca51017825256b0eeffbc"
+        "section:708ff6e759be352583e6a57bf1323a820c11aaf3"
       ]
     },
     {
@@ -3557,8 +3442,8 @@
         "druid leveling talents build-restauracion-estricta",
         "druid talent points build-restauracion-estricta"
       ],
-      "text_es": "Rama de Equilibrio: Cólera mejorada 5/5, Génesis 5/5, Majestuosidad de la naturaleza 2/2, Esplendor de la naturaleza 1/1. Rama de Recuperación: Enfoque de la naturaleza 5/5, Corazón de lo Salvaje 5/5, Naturalista 5/5, Refracción 3/3, Regalo de la Naturaleza 5/5, Floración 1/1, Rejuvenecimiento mejorado 3/3, Arreglo rápido 1/1, Rapidez de la Naturaleza 1/1, Espíritu vivo 3/3, Recrecimiento mejorado 5/5, Crecimiento salvaje 1/1. Conviene para grupos coordinados que avanzan con rapidez.",
-      "text_en": "Balance: Improved Wrath 5/5, Genesis 5/5, Nature's Majesty 2/2, Nature's Splendor 1/1. Restoration: Nature's Focus 5/5, Heart of the Wild 5/5, Naturalist 5/5, Reflection 3/3, Gift of Nature 5/5, Bloom 1/1, Improved Rejuvenation 3/3, Swiftmend 1/1, Nature's Swiftness 1/1, Living Spirit 3/3, Improved Regrowth 5/5, Wild Growth 1/1. It suits coordinated groups that move quickly through dungeons.",
+      "text_es": "Rama de Equilibrio: Cólera de luz estelar 5/5, Génesis 5/5, Esplendor de la naturaleza 1/1 y Majestuosidad de la naturaleza 2/2. Rama de Recuperación: Corazón de lo Salvaje 5/5, Enfoque de la naturaleza 5/5, Refracción 3/3, Naturalista 5/5, Regalo de la Naturaleza 5/5, Floración 1/1 y Rejuvenecimiento mejorado 3/3, luego Arreglo rápido 1/1 y Rapidez de la Naturaleza 1/1, Espíritu vivo 3/3, Recrecimiento mejorado 5/5 y Crecimiento salvaje 1/1. Conviene para grupos coordinados que avanzan con rapidez.",
+      "text_en": "Balance: Starlight Wrath 5/5, Genesis 5/5, Nature's Splendor 1/1 and Nature's Majesty 2/2. Restoration: Heart of the Wild 5/5, Nature's Focus 5/5, Reflection 3/3, Naturalist 5/5, Gift of Nature 5/5, Bloom 1/1 and Improved Rejuvenation 3/3, then Swiftmend 1/1 and Nature's Swiftness 1/1, plus Living Spirit 3/3, then Improved Regrowth 5/5 and Wild Growth 1/1. It suits coordinated groups that move quickly through dungeons.",
       "tags": [
         "DRUID"
       ],
@@ -3567,15 +3452,15 @@
           "type": "editorial",
           "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as a Restoration Druid Healer in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
-          "date": "2026-11-13"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
-        "section:a42d783facf3a5f401cca51017825256b0eeffbc"
+        "section:708ff6e759be352583e6a57bf1323a820c11aaf3"
       ]
     },
     {
@@ -3584,8 +3469,8 @@
       "status": "editorial",
       "title_es": "Ruta de talentos de Equilibrio al subir",
       "title_en": "Balance Leveling Talent Path",
-      "summary_es": "Invierte primero en coste, alcance y multidot; retrasa la especialización de casteo largo.",
-      "summary_en": "Take mana efficiency, range, and multi-dot talents first; delay the hard-casting package.",
+      "summary_es": "Orden punto por punto hasta el 53; los 7 últimos puntos son opcionales.",
+      "summary_en": "Point-by-point order to 53; the last 7 points are optional.",
       "keywords_es": [
         "ruta talentos equilibrio leveo",
         "talentos de equilibrio por nivel",
@@ -3596,131 +3481,25 @@
         "balance talents by level",
         "balance level 60 build"
       ],
-      "text_es": "Empieza con Cólera mejorada 5/5; toma pronto Brillo lunar 3/3 y después Fuegolunar mejorado 2/2, Majestuosidad de la naturaleza 2/2 y Alcance de la naturaleza 2/2. Añade Esplendor de la naturaleza 1/1 y Enjambre de insectos 1/1 para extender el multidot. Más tarde completa Venganza 5/5, Fuego estelar mejorado 5/5 (2/5 en la variante multidot), Eclipse 3/3 y Forma de lechúcico lunar 1/1; elige entre daño a un objetivo, seguridad o sanación de mazmorra.",
-      "text_en": "Start with Improved Wrath 5/5; take Moonglow 3/3 early, then Improved Moonfire 2/2, Nature’s Majesty 2/2, and Nature’s Reach 2/2. Nature’s Splendor 1/1 and Insect Swarm 1/1 extend multi-dotting. Later finish Vengeance 5/5, Improved Starfire 5/5 (2/5 in the multi-dot variant), Eclipse 3/3, and Moonkin Form 1/1; choose between single-target damage, safety, or dungeon healing.",
+      "text_es": "10–14, Cólera de luz estelar 5/5; 15–17, Brillo lunar 3/3; 18–19, Luna y estrellas 2/2; 20–21, Majestuosidad de la naturaleza 2/2; 22, Esplendor de la naturaleza 1/1; 23–24, Alcance de la naturaleza 2/2; 25, Enjambre de insectos 1/1; 26–30, Venganza 5/5; 31–33, Eclipse 3/3; 34, Gracia de la naturaleza 1/1; 35–39, Génesis 5/5; 40, Forma de lechúcico lunar 1/1; 41–45, Enfoque de la naturaleza 5/5; 46–48, Refracción 3/3; 49–53, Naturalista 5/5. 54–60: libres para control (Enredaderas, Sobrecrecimiento, Fuego estelar mejorado), amenaza (Sutileza) o curación.",
+      "text_en": "10–14, Starlight Wrath 5/5; 15–17, Moonglow 3/3; 18–19, Moon and Stars 2/2; 20–21, Nature’s Majesty 2/2; 22, Nature’s Splendor 1/1; 23–24, Nature’s Reach 2/2; 25, Insect Swarm 1/1; 26–30, Vengeance 5/5; 31–33, Eclipse 3/3; 34, Nature’s Grace 1/1; 35–39, Genesis 5/5; 40, Moonkin Form 1/1; 41–45, Nature’s Focus 5/5; 46–48, Reflection 3/3; 49–53, Naturalist 5/5. 54–60: free for control (Improved Entangling Roots, Overgrowth, Improved Starfire), threat (Subtlety) or healing.",
       "tags": [
         "DRUID"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as Balance Druid DPS in WoW Forever",
+          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Best Talent Build for Leveling as Balance Druid DPS in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
-          "date": "2026-11-04"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Balance Druid Leveling Guide - WoW: Forever › Leveling as a Balance Druid DPS in WoW: Forever",
-          "url": "https://www.wowhead.com/forever/guide/classes/druid/balance/dps-leveling-tips",
-          "date": "2026-11-04"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:balance:leveling"
       ],
       "source_hashes": [
-        "section:36e21d4d949262b3b87757defcee873f66e0465a",
-        "section:ed91f04fa55e332a645c1d9cceba9b8ff101face"
-      ]
-    },
-    {
-      "id": "clase-druid-talentos-equilibrio-31-7-13-ruta",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Ruta Equilibrio 31/7/13 (subida)",
-      "title_en": "Balance 31/7/13 Talent Path (levelling)",
-      "summary_es": "Obtén Forma de lechúcico lunar al 40; completa movilidad y apoyo después.",
-      "summary_en": "Reach Moonkin Form at 40, then finish mobility and support talents.",
-      "keywords_es": [
-        "ruta build equilibrio 31 7 13",
-        "talentos equilibrio y feral",
-        "forma lechucico nivel 40"
-      ],
-      "keywords_en": [
-        "balance 31 7 13 path",
-        "balance feral talent order",
-        "moonkin form at 40"
-      ],
-      "text_es": "10–14: Cólera mejorada 5/5; 15–17: Brillo lunar 3/3; 18–19: Fuegolunar mejorado 2/2; 20–21: Majestuosidad de la naturaleza 2/2; 22: Esplendor de la naturaleza 1/1; 23–24: Alcance de la naturaleza 2/2; 25: Enjambre de insectos 1/1. Después, Venganza 5/5, Gracia de la naturaleza 1/1, Eclipse 3/3, Furia de luna 5/5 y Forma de lechúcico lunar 1/1 al 40; completa Corazón de lo Salvaje 5/5, Presteza feral 2/2 y Recuperación.",
-      "text_en": "10–14: Improved Wrath 5/5; 15–17: Moonglow 3/3; 18–19: Improved Moonfire 2/2; 20–21: Nature’s Majesty 2/2; 22: Nature’s Splendor 1/1; 23–24: Nature’s Reach 2/2; 25: Insect Swarm 1/1. Then take Vengeance 5/5, Nature’s Grace 1/1, Eclipse 3/3, Moonfury 5/5, and Moonkin Form 1/1 at 40; finish Heart of the Wild 5/5, Feral Swiftness 2/2, and Restoration.",
-      "tags": [
-        "DRUID"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Balance Druid Leveling Guide for WoW: Forever › Balance: levels 10–40 (31 points)",
-          "url": "https://www.wowhead.com/forever/guide/balance-druid-leveling-guide-for-wow-forever-35076",
-          "date": "2026-10-20"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Balance Druid Leveling Guide for WoW: Forever › Feral Combat: levels 41–47 (7 points)",
-          "url": "https://www.wowhead.com/forever/guide/balance-druid-leveling-guide-for-wow-forever-35076",
-          "date": "2026-10-20"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Balance Druid Leveling Guide for WoW: Forever › Restoration: levels 48–60 (13 points)",
-          "url": "https://www.wowhead.com/forever/guide/balance-druid-leveling-guide-for-wow-forever-35076",
-          "date": "2026-10-20"
-        }
-      ],
-      "updated": "2026-11-17",
-      "topics": [
-        "class:druid:extra:balance-druid-leveling-guide-for-wow-forever"
-      ],
-      "source_hashes": [
-        "section:07248f9867f28c5a5906582627df8ceed136ed12",
-        "section:abf521ef4585edf62ccf3be0823f38f4e5f794c0",
-        "section:e8676394b9a423ddcb898987570b9d17c1687c1d"
-      ]
-    },
-    {
-      "id": "clase-druid-talentos-moonglow-ruta",
-      "chapter": 4,
-      "status": "editorial",
-      "title_es": "Ruta de talentos Moonglow",
-      "title_en": "Moonglow Talent Path",
-      "summary_es": "Comparte los primeros 31 puntos de Equilibrio y dedica los últimos 20 a sanar.",
-      "summary_en": "Share the first 31 Balance points, then spend the final 20 on healing.",
-      "keywords_es": [
-        "ruta talentos moonglow",
-        "hibrido equilibrio sanador",
-        "puntos recuperacion moonglow"
-      ],
-      "keywords_en": [
-        "moonglow talent path",
-        "balance healer hybrid",
-        "moonglow restoration points"
-      ],
-      "text_es": "Hasta el 40, sigue la ruta de Equilibrio y toma Forma de lechúcico lunar 1/1. Del 41 al 45, Enfoque de la naturaleza 5/5; del 46 al 50, Naturalista 5/5; del 51 al 53, Refracción 3/3. Luego sube Regalo de la Naturaleza 1/5, Rejuvenecimiento mejorado 3/3, Arreglo rápido 1/1 y Metamorfosis natural 1/3; al 54 queda 1 punto libre por un talento retirado.",
-      "text_en": "Through 40, follow the Balance path and take Moonkin Form 1/1. From 41–45, Nature’s Focus 5/5; 46–50, Naturalist 5/5; 51–53, Reflection 3/3. Then take Gift of Nature 1/5, Improved Rejuvenation 3/3, Swiftmend 1/1, and Natural Shapeshifter 1/3; at 54, 1 point stays free because a talent was retired.",
-      "tags": [
-        "DRUID"
-      ],
-      "sources": [
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Moonglow Druid Hybrid Guide for WoW: Forever › The build: Moonglow (31/0/20)",
-          "url": "https://www.wowhead.com/forever/guide/moonglow-druid-hybrid-guide-for-wow-forever-35081",
-          "date": "2026-10-20"
-        },
-        {
-          "type": "editorial",
-          "ref": "Wowhead: Moonglow Druid Hybrid Guide for WoW: Forever › Restoration: levels 41–60 (20 points)",
-          "url": "https://www.wowhead.com/forever/guide/moonglow-druid-hybrid-guide-for-wow-forever-35081",
-          "date": "2026-10-20"
-        }
-      ],
-      "updated": "2026-11-17",
-      "topics": [
-        "class:druid:extra:moonglow-druid-hybrid-guide-for-wow-forever"
-      ],
-      "source_hashes": [
-        "section:409954ae29bb92179e21102bbf17d587a1076aa2",
-        "section:40cd7a5f0538abf51e904d41c6b5d9a22b09dcf4"
+        "section:c7a0c89a460f0808c1515181b1bb367447c4a0fb"
       ]
     },
     {
@@ -3865,8 +3644,8 @@
         "solo and dungeon druid build",
         "druid bloom talents"
       ],
-      "text_es": "Empieza con Cólera mejorada 5/5 para misiones. Pasa a Recuperación para Refracción 3/3 y Floración 1/1; vuelve a Equilibrio por Enjambre de insectos 1/1, Gracia de la naturaleza 1/1 y Sobrecrecimiento 2/2. Después llena Recuperación hasta Arreglo rápido 1/1, Rapidez de la Naturaleza 1/1 y Recrecimiento mejorado 3/5; también puedes detenerte antes y añadir daño de Equilibrio.",
-      "text_en": "Start with Improved Wrath 5/5 for questing. Move into Restoration for Reflection 3/3 and Bloom 1/1; return to Balance for Insect Swarm 1/1, Nature’s Grace 1/1, and Overgrowth 2/2. Then fill Restoration toward Swiftmend 1/1, Nature’s Swiftness 1/1, and Improved Regrowth 3/5; you can also stop earlier and add Balance damage.",
+      "text_es": "Empieza con Cólera de luz estelar 5/5 para misiones. Pasa a Recuperación para Refracción 3/3 y Floración 1/1; vuelve a Equilibrio por Enjambre de insectos 1/1, Gracia de la naturaleza 1/1 y Sobrecrecimiento 2/2. Después llena Recuperación hasta Arreglo rápido 1/1, Rapidez de la Naturaleza 1/1 y Recrecimiento mejorado 3/5; también puedes detenerte antes y añadir daño de Equilibrio.",
+      "text_en": "Start with Starlight Wrath 5/5 for questing. Move into Restoration for Reflection 3/3 and Bloom 1/1; return to Balance for Insect Swarm 1/1, Nature’s Grace 1/1, and Overgrowth 2/2. Then fill Restoration toward Swiftmend 1/1, Nature’s Swiftness 1/1, and Improved Regrowth 3/5; you can also stop earlier and add Balance damage.",
       "tags": [
         "DRUID"
       ],
@@ -3875,15 +3654,15 @@
           "type": "editorial",
           "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as a Restoration Druid Healer in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
-          "date": "2026-11-13"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
-        "section:a42d783facf3a5f401cca51017825256b0eeffbc"
+        "section:708ff6e759be352583e6a57bf1323a820c11aaf3"
       ]
     },
     {
@@ -3892,8 +3671,8 @@
       "status": "editorial",
       "title_es": "Ruta de sanación estricta (subida)",
       "title_en": "Strict-Healing Talent Path (levelling)",
-      "summary_es": "Toma Cólera mejorada para apoyar al grupo al principio y después completa la sanación de mazmorra.",
-      "summary_en": "Take Improved Wrath for early group damage, then complete the dungeon-healing tree.",
+      "summary_es": "Toma Cólera de luz estelar para apoyar al grupo al principio y después completa la sanación de mazmorra.",
+      "summary_en": "Take Starlight Wrath for early group damage, then complete the dungeon-healing tree.",
       "keywords_es": [
         "ruta de talentos sanador druida",
         "crecimiento salvaje leveo",
@@ -3904,8 +3683,8 @@
         "wild growth leveling",
         "improved regrowth points"
       ],
-      "text_es": "Empieza con Cólera mejorada 5/5; después, prioriza Recuperación hasta Crecimiento salvaje 1/1 y Recrecimiento mejorado 5/5. Toma Esplendor de la naturaleza 1/1 en Equilibrio y completa Génesis 5/5 con los puntos finales. La ruta rinde en un grupo de mazmorra estable, pero es lenta para misiones en solitario.",
-      "text_en": "Start with Improved Wrath 5/5; then prioritize Restoration through Wild Growth 1/1 and Improved Regrowth 5/5. Take Nature’s Splendor 1/1 in Balance and finish Genesis 5/5 with the remaining points. This route suits a steady dungeon group but is slow for solo quests.",
+      "text_es": "Empieza con Cólera de luz estelar 5/5; después, prioriza Recuperación hasta Crecimiento salvaje 1/1 y Recrecimiento mejorado 5/5. Toma Esplendor de la naturaleza 1/1 en Equilibrio y completa Génesis 5/5 con los puntos finales. La ruta rinde en un grupo de mazmorra estable, pero es lenta para misiones en solitario.",
+      "text_en": "Start with Starlight Wrath 5/5; then prioritize Restoration through Wild Growth 1/1 and Improved Regrowth 5/5. Take Nature’s Splendor 1/1 in Balance and finish Genesis 5/5 with the remaining points. This route suits a steady dungeon group but is slow for solo quests.",
       "tags": [
         "DRUID"
       ],
@@ -3914,15 +3693,15 @@
           "type": "editorial",
           "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as a Restoration Druid Healer in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
-          "date": "2026-11-13"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
-        "section:a42d783facf3a5f401cca51017825256b0eeffbc"
+        "section:708ff6e759be352583e6a57bf1323a820c11aaf3"
       ]
     },
     {
@@ -4053,7 +3832,7 @@
         "class:druid:balance:leveling"
       ],
       "source_hashes": [
-        "guide:ffb1e62f440e102ee413353bfad80b1b2c73c068"
+        "guide:03b43aca03350e1fc039d54852b490a052981dc9"
       ]
     },
     {
@@ -4092,7 +3871,7 @@
         "class:druid:balance:leveling"
       ],
       "source_hashes": [
-        "guide:ffb1e62f440e102ee413353bfad80b1b2c73c068"
+        "guide:03b43aca03350e1fc039d54852b490a052981dc9"
       ]
     },
     {
@@ -4131,7 +3910,7 @@
         "class:druid:balance:leveling"
       ],
       "source_hashes": [
-        "guide:ffb1e62f440e102ee413353bfad80b1b2c73c068"
+        "guide:03b43aca03350e1fc039d54852b490a052981dc9"
       ]
     },
     {
@@ -4170,7 +3949,7 @@
         "class:druid:balance:leveling"
       ],
       "source_hashes": [
-        "guide:ffb1e62f440e102ee413353bfad80b1b2c73c068"
+        "guide:03b43aca03350e1fc039d54852b490a052981dc9"
       ]
     },
     {
@@ -4347,8 +4126,8 @@
         "train innervate druid",
         "druid healing spell ranks"
       ],
-      "text_es": "Suprimir veneno: 26 (rango 1); Enredaderas: 58 (6); Toque curativo: 60 (11); Enervar: 40 (1); Marca de lo salvaje: 60 (7); Augurio de claridad: 20 (1). Sube Recrecimiento a 60 (9), Rejuvenecimiento a 60 (11), Deshacer maldición a 24 (1), Renacer a 60 (5), Revivir a 60 (5) y Espinas a 54 (6).",
-      "text_en": "Abolish Poison: 26 (rank 1); Entangling Roots: 58 (6); Healing Touch: 60 (11); Innervate: 40 (1); Mark of the Wild: 60 (7); Omen of Clarity: 20 (1). Regrowth reaches rank 9 at 60, Rejuvenation rank 11 at 60, Remove Curse rank 1 at 24, Rebirth rank 5 at 60, Revive rank 5 at 60, and Thorns rank 6 at 54.",
+      "text_es": "Suprimir veneno: 26 (rango 1); Enredaderas: 58 (6); Toque curativo: 60 (11); Enervar: 40 (1); Marca de lo salvaje: 60 (7); Augurio de claridad: 20 (1). Sube Recrecimiento a 60 (9), Rejuvenecimiento a 60 (11), Deshacer maldición a 24 (1), Renacer a 60 (5), Revivir a 60 (5), Fuego estelar a 60 (7) y Espinas a 54 (6).",
+      "text_en": "Abolish Poison: 26 (rank 1); Entangling Roots: 58 (6); Healing Touch: 60 (11); Innervate: 40 (1); Mark of the Wild: 60 (7); Omen of Clarity: 20 (1). Regrowth reaches rank 9 at 60, Rejuvenation rank 11 at 60, Remove Curse rank 1 at 24, Rebirth rank 5 at 60, Revive rank 5 at 60, Starfire rank 7 at 60, and Thorns rank 6 at 54.",
       "tags": [
         "DRUID"
       ],
@@ -4357,15 +4136,15 @@
           "type": "editorial",
           "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Mandatory Abilities to Train for Restoration Druid",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
-          "date": "2026-11-13"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
-        "section:2a81fe731cdee26483106167d9ba0ed61b64fa6b"
+        "section:f7791fea3371c1c0a47547f6606cdaba1d94b3c7"
       ]
     },
     {
@@ -4386,8 +4165,8 @@
         "healer damage spells",
         "save gold druid spells"
       ],
-      "text_es": "Puedes retrasar Pielcorteza (44, rango 1), Azote (46, 3), Diligencia (50, 3), Fuego feérico (54, 4), Hibernar (58, 3), Huracán (60, 3), Fuegolunar (58, 10), Gracia de la naturaleza (58, 6), Fuego estelar (60, 7), Tranquilidad (60, 4) y Cólera (54, 8), según el contenido que hagas.",
-      "text_en": "You can delay Barkskin (44, rank 1), Bash (46, 3), Dash (50, 3), Faerie Fire (54, 4), Hibernate (58, 3), Hurricane (60, 3), Moonfire (58, 10), Nature’s Grasp (58, 6), Starfire (60, 7), Tranquility (60, 4), and Wrath (54, 8), depending on your content.",
+      "text_es": "Puedes retrasar Pielcorteza (44, rango 1), Azote (46, 3), Diligencia (50, 3), Fuego feérico (54, 4), Hibernar (58, 3), Huracán (60, 3), Fuegolunar (58, 10), Gracia de la naturaleza (58, 6), Tranquilidad (60, 4) y Cólera (54, 8), según el contenido que hagas.",
+      "text_en": "You can delay Barkskin (44, rank 1), Bash (46, 3), Dash (50, 3), Faerie Fire (54, 4), Hibernate (58, 3), Hurricane (60, 3), Moonfire (58, 10), Nature’s Grasp (58, 6), Tranquility (60, 4), and Wrath (54, 8), depending on your content.",
       "tags": [
         "DRUID"
       ],
@@ -4396,15 +4175,15 @@
           "type": "editorial",
           "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Optional Abilities to Train for Restoration Druid",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
-          "date": "2026-11-13"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
-        "section:f5df1177a9880a2869055b91c07ed358f3596924"
+        "section:4d7f88cefe2a825127ae27d83998150cba9988fb"
       ]
     },
     {
@@ -4472,8 +4251,8 @@
         "solo damage healer druid",
         "insect swarm wrath rotation"
       ],
-      "text_es": "Mantén Espinas en ti. Aplica Fuegolunar a los enemigos que atraigas y, si tienes Enjambre de insectos 1/1, añádelo; usa Enredaderas en tantos objetivos como puedas y rellena con Cólera. Si te alcanzan, cúrate con Rejuvenecimiento o Recrecimiento.",
-      "text_en": "Keep Thorns on yourself. Apply Moonfire to the enemies you pull and add Insect Swarm 1/1 if talented; cast Entangling Roots on as many targets as possible and fill with Wrath. If they reach you, heal with Rejuvenation or Regrowth.",
+      "text_es": "Mantén Espinas en ti. Aplica Fuegolunar a los enemigos que atraigas y, si tienes Enjambre de insectos 1/1, añádelo; usa Enredaderas en tantos objetivos como puedas y rellena con Cólera. Si sobra maná y siguen enraizados, alterna Fuego estelar. Si te alcanzan, cúrate con Rejuvenecimiento o Recrecimiento.",
+      "text_en": "Keep Thorns on yourself. Apply Moonfire to the enemies you pull and add Insect Swarm 1/1 if talented; cast Entangling Roots on as many targets as possible and fill with Wrath. When mana is high and they remain rooted, weave in Starfire. If they reach you, heal with Rejuvenation or Regrowth.",
       "tags": [
         "DRUID"
       ],
@@ -4482,22 +4261,22 @@
           "type": "editorial",
           "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Leveling Rotation for Restoration Druid Healer in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
-          "date": "2026-11-13"
+          "date": "2026-11-25"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Restoration Druid Leveling Guide - WoW: Forever › Best Talent Builds for Leveling as a Restoration Druid Healer in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/healer-leveling-tips",
-          "date": "2026-11-13"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:restoration:leveling"
       ],
       "source_hashes": [
-        "section:6a855656df8c517bbedcb87cb12bd225a7811700",
-        "section:a42d783facf3a5f401cca51017825256b0eeffbc"
+        "section:708ff6e759be352583e6a57bf1323a820c11aaf3",
+        "section:814adb3787ea2f5ab63e21528ebea005e7db9444"
       ]
     },
     {
@@ -4536,7 +4315,7 @@
         "class:druid:balance:leveling"
       ],
       "source_hashes": [
-        "section:84029e499dec9c61e87154d37613149d415aa847"
+        "guide:03b43aca03350e1fc039d54852b490a052981dc9"
       ]
     },
     {
@@ -4863,7 +4642,7 @@
         "class:druid:balance:leveling"
       ],
       "source_hashes": [
-        "section:45af757bbdd606585ac13a9c083bf125d303004b"
+        "guide:03b43aca03350e1fc039d54852b490a052981dc9"
       ]
     },
     {
@@ -5051,8 +4830,8 @@
         "rip rake shred",
         "claw or shred"
       ],
-      "text_es": "Arañazo y Destripar son efectos de daño periódico: no los reaplices hasta que acaben. Triturar solo funciona por la espalda; Zarpa hace lo mismo desde el frente y es el recurso cuando no puedes rodear. Mordedura feroz remata. Poder cambiante convierte maná en 40 de Energía cada 8 s. Furia del tigre sube el daño físico 6 s, Pavor reduce la amenaza, Acechar permite el sigilo y Diligencia acelera.",
-      "text_en": "Rake and Rip are damage-over-time effects: do not reapply them until they expire. Shred only works from behind; Claw does the same from the front and is the fallback when you cannot get behind. Ferocious Bite finishes enemies. Shifting Power converts mana into 40 Energy every 8 s. Tiger's Fury raises Physical damage for 6 s, Cower lowers threat, Prowl allows stealth and Dash speeds you up.",
+      "text_es": "Arañazo y Destripar son efectos de daño periódico: no los reaplices hasta que acaben. Triturar solo funciona por la espalda; Zarpa hace lo mismo desde el frente y es el recurso cuando no puedes rodear. Mordedura feroz remata. Poder cambiante convierte maná en 40 de Energía cada 8 s. Pavor reduce la amenaza, Acechar permite el sigilo y Diligencia acelera.",
+      "text_en": "Rake and Rip are damage-over-time effects: do not reapply them until they expire. Shred only works from behind; Claw does the same from the front and is the fallback when you cannot get behind. Ferocious Bite finishes enemies. Shifting Power converts mana into 40 Energy every 8 s, and Cower lowers threat, Prowl allows stealth and Dash speeds you up.",
       "tags": [
         "DRUID"
       ],
@@ -5067,16 +4846,16 @@
           "type": "editorial",
           "ref": "Wowhead: Feral Tank Druid Abilities Guide - Forever › Cat Form Abilities for Feral Tank Druids in Forever Classic",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/feral/tank-abilities",
-          "date": "2026-11-05"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:feral:abilities"
       ],
       "source_hashes": [
-        "section:6962d223be50c32f72a2fc8aba8e19bdcb17676f",
-        "section:e7ad29f65539709c4dc93df6a17ac692ab7fccc2"
+        "section:451e72ca9f350507f9a3cdbbc6308abaab9e6094",
+        "section:6962d223be50c32f72a2fc8aba8e19bdcb17676f"
       ]
     },
     {
@@ -5130,7 +4909,7 @@
         "class:druid:restoration:abilities"
       ],
       "source_hashes": [
-        "guide:9c637fc73f8b3cafb8b96bba8e8a25e8f1e6c78a",
+        "guide:2596ee2bb18d49fd9a45fba2a118b551f5e4f480",
         "section:b85b1a6770083614760f43794a4956324872ef7b",
         "section:bc8cd426850dcd14e70706250ab9d0e4802b44bc"
       ]
@@ -5420,46 +5199,46 @@
       "id": "clase-druid-encantamientos-restauracion",
       "chapter": 4,
       "status": "editorial",
-      "title_es": "Encantamientos de Recuperación al subir",
-      "title_en": "Restoration enchants while leveling",
-      "summary_es": "Qué encantar con el Druida Recuperación mientras subes de nivel.",
-      "summary_en": "What to enchant as a Restoration Druid while leveling.",
+      "title_es": "Encantamientos de Recuperación",
+      "title_en": "Restoration Enchants",
+      "summary_es": "Qué encantar con el Druida Recuperación.",
+      "summary_en": "What to enchant as a Restoration Druid.",
       "keywords_es": [
         "qué encanto siendo druida",
         "qué encantamientos pongo de druida",
         "encantamientos para druida",
         "encantamientos druida recuperación",
         "qué encantar sanador druida",
-        "encantar arma poder de sanación",
-        "mano izquierda sabiduría"
+        "encantar arma perspicacia",
+        "mano izquierda espíritu excelente"
       ],
       "keywords_en": [
         "what to enchant as a druid",
         "best enchants for druid",
         "restoration druid enchants",
         "what to enchant healer druid",
-        "healing power weapon enchant",
-        "off-hand wisdom"
+        "insight weapon enchant",
+        "off-hand excellent spirit"
       ],
-      "text_es": "Encantamientos de Recuperación al subir: Arma a dos manos: el encantamiento de poder de sanación poderoso; a una mano, Encantar arma: poder de sanación. Mano izquierda: Encantar mano izq.: sabiduría. Collar: Encantar collar: poder de sanación. Torso, manos, piernas y pies: Complemento basto para armadura místico. La lista es selectiva: solo incluye lo que merece el gasto.",
-      "text_en": "Restoration enchants while leveling: Two-hand weapon: Enchant 2H Weapon - Mighty Healing Power; one-hand, Enchant Weapon - Healing Power. Off-hand: Enchant Off-Hand - Wisdom. Neck: Enchant Necklace - Healing Power. Chest, hands, legs and feet: Mystic Rugged Armor Kit. The list is selective: it only includes what is worth the cost.",
+      "text_es": "Para el Druida Recuperación, Encantar arma: perspicacia sirve en armas a dos manos y a una mano: su gran bono, con activaciones frecuentes, suma de media un 20% más de Espíritu total y rinde más que el antiguo encantamiento de sanación a dos manos. Cabeza y piernas: Amalgama Arcana inferior. Botas: Encantar botas: velocidad. Pechera: Encantar pechera: estadísticas superiores. Mano izquierda: Encantar mano izq.: espíritu excelente. Collar: Encantar collar: poder de sanación. Capa: Encantar capa: resistencia superior. Manos: Complemento basto para armadura místico.",
+      "text_en": "For a Restoration Druid, Enchant Weapon - Insight works on two-hand and one-hand weapons: its large bonus, with frequent procs, averages about 20% more total Spirit and beats the old two-hand healing enchant. Head and legs: Lesser Arcane Amalgamation. Boots: Enchant Boots - Speed. Chest: Enchant Chest - Greater Stats. Off-hand: Enchant Off-Hand - Excellent Spirit. Neck: Enchant Necklace - Healing Power. Cloak: Enchant Cloak - Greater Resistance. Hands: Mystic Rugged Armor Kit.",
       "tags": [
         "DRUID"
       ],
       "sources": [
         {
           "type": "editorial",
-          "ref": "Wowhead: Restoration Druid - Best Enchants & Consumables › Best Restoration Druid Enchants for Leveling in WoW: Forever",
+          "ref": "Wowhead: Restoration Druid - Best Enchants & Consumables › Best Restoration Druid Enchants in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/druid/restoration/enchants-consumables-pve-healer",
-          "date": "2026-10-31"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-26",
       "topics": [
         "class:druid:restoration:enchants"
       ],
       "source_hashes": [
-        "section:36bcc90f264e2e22ae27f26cbb6ded746252638b"
+        "section:d90c8a5a13f57b9fa7c67328f2c4a9acac64354b"
       ]
     }
   ]
