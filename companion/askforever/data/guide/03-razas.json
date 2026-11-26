@@ -1194,13 +1194,13 @@
           "type": "editorial",
           "ref": "Wowhead: Skyborne Race Overview: Racials and Customization - WoW: Forever › (intro)",
           "url": "https://www.wowhead.com/forever/guide/skyborne-race-overview",
-          "date": "2026-10-27"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Skyborne Race Overview: Racials and Customization - WoW: Forever › Classes Available to Skyborne in Forever",
           "url": "https://www.wowhead.com/forever/guide/skyborne-race-overview",
-          "date": "2026-10-27"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
@@ -1209,12 +1209,12 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "race:skyborne"
       ],
       "source_hashes": [
-        "guide:9bd0733156e5714f99eab93c856844ce9a4c0689",
+        "guide:2470bbdf040a9c5edc1bb42121ceb034d08aa717",
         "section:9a0beec5d4e7fba165f6173b2eddf4c25f3f1c00",
         "section:abf72f5d99a981d89bdd948d05b8fcf2ea3f88e7"
       ]
@@ -1241,8 +1241,8 @@
         "elemental insight",
         "skysight"
       ],
-      "text_es": "Caminar sobre el aire permite planear 10 s controlando la dirección (recarga: 1,5 min); Bendición del viento da +2% de celeridad y Perspicacia elemental, +5% de daño a elementales. Read Leyline (Alianza) aumenta un 50% la regeneración de salud y el efecto Regeneración de maná durante 15 s; en una línea ley, la bonificación llega al 100% durante 1 h. Visión cielonata (Horda) da +15% de velocidad durante 15 s, o +30% en una convergencia elemental. Las mejoras duran 1 h, persisten tras morir y se eliminan al entrar en banda; Read Leyline no funciona con Enervar activo.",
-      "text_en": "Three abilities are shared: Walk on Air gives a steerable 10-second glide (1.5-minute cooldown); Wind Blessed grants 2% Haste and Elemental Insight, 5% damage to Elementals. Read Leyline gives Alliance characters 15 seconds of 50%-stronger Health and Mana regeneration; at a ley line, it grants a 100% bonus for 1 hour. Skysight grants Horde characters 15% movement speed for 15 seconds, or 30% at an elemental convergence. The enhanced effects last 1 hour, persist through death, and end on entering a raid; Read Leyline cannot be used during Innervate.",
+      "text_es": "Caminar sobre el aire permite planear 10 s dirigiendo el vuelo (recarga: 1,5 min); Bendición del viento da +2% de celeridad y Perspicacia elemental, +5% de daño a elementales. Read Leyline (Alianza) aumenta un 50% la regeneración de salud y el efecto Regeneración de maná durante 15 s; en una línea ley llega al 100% durante 1 h. Visión cielonata (Horda) da +15% de velocidad a pie y montado durante 30 s; en una convergencia elemental sube al 30% durante 1 h. Ambas mejoras persisten tras morir y se eliminan al entrar en banda; Read Leyline no funciona con Enervar activo.",
+      "text_en": "Shared abilities: Walk on Air gives a steerable 10-second glide (1.5-minute cooldown); Wind Blessed grants 2% Haste and Elemental Insight, 5% damage to Elementals. Read Leyline gives Alliance characters 15 seconds of 50%-stronger Health and Mana regeneration; at a ley line, it grants a 100% bonus for 1 hour. Skysight grants Horde characters 15% movement and mounted speed for 30 seconds; at an elemental convergence, the bonus rises to 30% for 1 hour. The enhanced effects persist through death and end on entering a raid; Read Leyline cannot be used during Innervate.",
       "tags": [
         "SKYBORNE"
       ],
@@ -1251,13 +1251,13 @@
           "type": "editorial",
           "ref": "Wowhead: All Racials and Available Class-Race Combinations in World of Warcraft: Forever › Windshaper Skyborne ( Horde)",
           "url": "https://www.wowhead.com/forever/guide/new-race-class-combinations",
-          "date": "2026-11-05"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: All Racials and Available Class-Race Combinations in World of Warcraft: Forever › High Order Skyborne ( Alliance)",
           "url": "https://www.wowhead.com/forever/guide/new-race-class-combinations",
-          "date": "2026-11-05"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
@@ -1266,7 +1266,7 @@
           "date": "2026-10-27"
         }
       ],
-      "updated": "2026-11-24",
+      "updated": "2026-11-26",
       "topics": [
         "general:new-race-class-combinations",
         "race:skyborne"
@@ -1274,7 +1274,7 @@
       "source_hashes": [
         "section:1568e821a65274678d89f2954f22b43f39d93458",
         "section:1a3607de0da7cef869f207124d72665ffd0e5769",
-        "section:dabb92441535655630ea4e7d54e930c9c875ff9a"
+        "section:f71869a9e0133691050a7581eb0a192fa4b7dff1"
       ]
     },
     {

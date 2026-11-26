@@ -121,7 +121,7 @@
           "type": "editorial",
           "ref": "Wowhead: Holy Priest Healer Guide - WoW: Forever › Strengths and Weaknesses of Holy Priests in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/holy/overview-pve-healer",
-          "date": "2026-11-14"
+          "date": "2026-11-19"
         },
         {
           "type": "editorial",
@@ -151,10 +151,10 @@
           "type": "editorial",
           "ref": "Wowhead: Shadow Priest DPS Attribute and Stat Guide - WoW: Forever › Shadow Priest Stat Priority in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/stat-priority-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:priest:discipline:overview",
         "class:priest:discipline:stats",
@@ -167,11 +167,11 @@
       "source_hashes": [
         "section:1aceaeaab70b05a6b2045fb40e1d706f25197370",
         "section:1ddd6f44d686c7563d5a6aaa7750175b3feeb7d3",
+        "section:69e4ce93ba20435cee8339e5547f2307d7f9683e",
         "section:92c8f8685f78a11564eb33397f4aee69cb9db258",
         "section:9510f22c8c31311370b28b66b236b9b6c5c30331",
         "section:daf0fb1eae986fb4ca71cface4e22458dbb52b68",
-        "section:dafebaeca9dcb9d3537a430c8073f4d667090174",
-        "section:ddf24c444b5df78ebd60cba674da4d3dc336ccf8"
+        "section:dafebaeca9dcb9d3537a430c8073f4d667090174"
       ]
     },
     {
@@ -1542,8 +1542,8 @@
         "shadowform spell crit",
         "shadow priest level 60 stats"
       ],
-      "text_es": "Prioridad: Prob. de golpe hasta 17% > Golpe crítico > Poder con hechizos o daño de Sombras > Intelecto > Espíritu > Aguante. Enfoque de las Sombras deja 12% de golpe por cubrir con equipo contra jefes. Intelecto da 15 de maná por punto; en Forma de las Sombras, el crítico inflige 200% del efecto normal. Recomendación provisional hasta que se pruebe a nivel 60.",
-      "text_en": "Priority: Hit Chance to 17% > Spell Critical Strike > Spell Power or Shadow Damage > Intellect > Spirit > Stamina. Shadow Focus leaves 12% hit to cover with gear against bosses. Intellect gives 15 Mana per point; in Shadowform, spell crits deal 200% of their normal effect. Provisional recommendation until tested at level 60.",
+      "text_es": "Prioridad: Prob. de golpe hasta 17% > Golpe crítico > Poder con hechizos o daño de Sombras > Intelecto > Espíritu > Aguante. Enfoque de las Sombras deja 12% de golpe por cubrir con equipo contra jefes. Intelecto da 15 de maná por punto; en Forma de las Sombras, el crítico inflige 200% del efecto normal.",
+      "text_en": "Priority: Hit Chance to 17% > Spell Critical Strike > Spell Power or Shadow Damage > Intellect > Spirit > Stamina. Shadow Focus leaves 12% hit to cover with gear against bosses. Intellect gives 15 Mana per point; in Shadowform, spell crits deal 200% of their normal effect.",
       "tags": [
         "PRIEST"
       ],
@@ -1552,36 +1552,36 @@
           "type": "editorial",
           "ref": "Wowhead: Shadow Priest DPS Attribute and Stat Guide - WoW: Forever › Shadow Priest Stat Priority in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/stat-priority-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-25"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Shadow Priest DPS Attribute and Stat Guide - WoW: Forever › Intellect",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/stat-priority-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-25"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Shadow Priest DPS Attribute and Stat Guide - WoW: Forever › Spell Critical Strike Chance",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/stat-priority-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-25"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Shadow Priest DPS Attribute and Stat Guide - WoW: Forever › Hit Chance",
           "url": "https://www.wowhead.com/forever/guide/classes/priest/shadow/stat-priority-pve-dps",
-          "date": "2026-10-30"
+          "date": "2026-11-25"
         }
       ],
-      "updated": "2026-11-17",
+      "updated": "2026-11-26",
       "topics": [
         "class:priest:shadow:stats"
       ],
       "source_hashes": [
+        "section:69e4ce93ba20435cee8339e5547f2307d7f9683e",
         "section:9844cf4fcd38a98cfbada85a218cd59485a3c990",
         "section:b9d97deae5800e31b3ecef65c873349abec10bb7",
-        "section:ca4309e8635f3b84d08993c8ad434ad910e9dee4",
-        "section:ddf24c444b5df78ebd60cba674da4d3dc336ccf8"
+        "section:ca4309e8635f3b84d08993c8ad434ad910e9dee4"
       ]
     },
     {
@@ -2152,7 +2152,7 @@
       "source_hashes": [
         "guide:6a3fcceb775ebe6aba7f6806edfb546f4aee6b8a",
         "section:1713f5ee3b30920b77efdf86ed70e1c2ddca2f03",
-        "section:ddf24c444b5df78ebd60cba674da4d3dc336ccf8"
+        "section:69e4ce93ba20435cee8339e5547f2307d7f9683e"
       ]
     },
     {

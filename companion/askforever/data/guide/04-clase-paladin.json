@@ -273,7 +273,7 @@
           "type": "editorial",
           "ref": "Wowhead: Protection Paladin Tank Guide - WoW: Forever › Best Professions for Protection Paladin in Forever",
           "url": "https://www.wowhead.com/forever/guide/classes/paladin/protection/overview-pve-tank",
-          "date": "2026-11-14"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
@@ -288,14 +288,14 @@
           "date": "2026-11-23"
         }
       ],
-      "updated": "2026-11-24",
+      "updated": "2026-11-26",
       "topics": [
         "class:paladin:holy:overview",
         "class:paladin:protection:overview",
         "class:paladin:retribution:rotation"
       ],
       "source_hashes": [
-        "section:0fdbe3e868618560b3ef766915f734b7d27da2f2",
+        "section:3ffebffbe805516d062763f5897dd2e0dd3b3cf6",
         "section:73f897a1ad598057a2ff768e2aa91a5a5f33364d",
         "section:b07086cea79a600fea410483650d49bcc16be54c",
         "section:bbd23d7937186416a7c779a4fd77ffefaf43f620"

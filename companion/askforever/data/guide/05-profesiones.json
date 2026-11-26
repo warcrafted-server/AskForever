@@ -393,7 +393,7 @@
           "type": "editorial",
           "ref": "Wowhead: Professions Overview in WoW: Forever › (intro)",
           "url": "https://www.wowhead.com/forever/guide/professions/overview",
-          "date": "2026-11-07"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
@@ -402,13 +402,13 @@
           "date": "2026-10-20"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "general:wow-forever-profession-pairings-by-class-35082",
         "profession:_all:overview"
       ],
       "source_hashes": [
-        "guide:47c0523f81dc93287226de972469f7c719609f2b",
+        "guide:2591b748ea32a5d22dc47a312dab6441a6b0cc0c",
         "section:01f642ac6c1c2b54dc7112494b3332244cb3baf2"
       ]
     },
@@ -512,13 +512,13 @@
           "type": "editorial",
           "ref": "Wowhead: Blacksmithing Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › What is Blacksmithing in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/blacksmithing/overview",
-          "date": "2026-11-07"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Blacksmithing Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Best Profession to Pair with Blacksmithing in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/blacksmithing/overview",
-          "date": "2026-11-07"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
@@ -539,14 +539,14 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "profession:blacksmithing:overview"
       ],
       "source_hashes": [
         "section:372012d5ab7d78fb5f961b057097e6eb29ddc355",
         "section:4bdee846684dff8d2177da487bfd0e7042df4050",
-        "section:b64722490a531b3412dfa847b7ebd452484f6176",
+        "section:5bb931be40da6763157dd48c33138bc8cb573a7e",
         "section:d8cc68aa35d154a6f5cb8f7666082b1027f621bb"
       ]
     },
@@ -574,26 +574,26 @@
         "enchanting rods",
         "tailoring and enchanting"
       ],
-      "text_es": "Encantamiento destruye equipo poco común o superior para obtener polvo, esencias y fragmentos, y así mejorar armas y armaduras de forma permanente (aguante en brazales, agilidad en botas). Además crea varitas, bastones, objetos de mano secundaria, reliquias y aceites de arma. Los encantamientos requieren varas: la primera, Vara de cobre con runas, usa materiales de vendedor; las posteriores suelen venir de Herrería. Sastrería combina bien porque permite crear equipo de tela para desencantar. Magos, Sacerdotes y Brujos pueden usar el oficio desde que lo aprenden.",
-      "text_en": "Enchanting destroys uncommon or better gear for dust, essences, and shards, then permanently improves weapons and armor (Stamina on bracers, Agility on boots). It also makes wands, staves, off-hand items, class relics, and weapon oils. Enchants need rods: the first, a Runed Copper Rod, can be made from vendor materials; later ones usually come from Blacksmithing. It pairs well with Tailoring because it lets you make cloth gear to disenchant. It suits Mages, Priests, and Warlocks as soon as they learn it.",
+      "text_es": "Encantamiento destruye equipo poco común o mejor para obtener polvo, esencias y fragmentos, y mejora armas y armaduras de forma permanente (aguante en brazales, agilidad en botas). También crea varitas, bastones, objetos de mano secundaria, reliquias y aceites. Los encantamientos necesitan una vara: las varas base las hacen los herreros y se compran a otros jugadores; la excepción es la Vara de cobre, que venden los proveedores de encantamiento. Sastrería combina bien porque permite crear equipo de tela para desencantar. Magos, Sacerdotes y Brujos pueden usar el oficio desde que lo aprenden.",
+      "text_en": "Enchanting destroys uncommon or better gear for dust, essences, and shards, then permanently improves weapons and armor (Stamina on bracers, Agility on boots). It also makes wands, staves, off-hand items, class relics, and oils. Enchants need a rod: Blacksmiths make the base rods, so you usually buy your level's rod from another player; the exception is the Copper Rod, sold by enchanting supplies vendors. It pairs well with Tailoring because it lets you make cloth gear to disenchant. It suits Mages, Priests, and Warlocks as soon as they learn it.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Enchanting Materials and Disenchanting in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Enchanting Rods in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › What is Enchanting in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
@@ -620,14 +620,14 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "profession:enchanting:overview"
       ],
       "source_hashes": [
         "section:14950165a5bde07e142afd9ac2a894db71d17da0",
         "section:188160cad5bd40e46fdd5e4fe0c5bd604f07ecc2",
-        "section:4eb130bacaf4283f58cfdd77959e3238506ab86e",
+        "section:644fa0323f871003b28a7fb1664578390cd17ff9",
         "section:9f87c6748300509a4b072d499bc1fafea9504e83",
         "section:c0dc9a26332e48ed7dfd786f5871e6a53d425800",
         "section:ca2daf66569cd84787eacb8fd61e1e421b4b87a8"
@@ -720,26 +720,26 @@
         "camp tent",
         "leatherworking and skinning"
       ],
-      "text_es": "Peletería crea armaduras de cuero y malla, capas, bolsas y kits permanentes para pecho, piernas, manos o pies. Algunas recetas usan cuero tal cual; otras requieren pieles curtidas con Sal. Sus carcajes y bolsas de munición aceleran los ataques a distancia. Desuello es su pareja directa porque aporta materiales; Ingeniería y Encantamiento son alternativas para artilugios o desencantar lo fabricado. Escamas de dragón, Elemental y Tribal desbloquean patrones propios; Escamas de dragón permite hacer malla. Su tienda de campamento concede un 5% de experiencia de descanso.",
-      "text_en": "Leatherworking makes leather and mail armor, cloaks, bags, and kits that permanently improve chest, legs, hands, or feet. Some recipes use leather as-is; others need hides cured with Salt. It also makes quivers and ammo pouches that increase ranged attack speed. Leatherworking pairs directly with Skinning for its materials; Engineering and Enchanting are alternatives if you prefer gadgets or disenchanting your crafts. Dragonscale, Elemental, and Tribal have their own patterns; Dragonscale can make mail. Its campsite tent grants 5% rested experience.",
+      "text_es": "Peletería crea armaduras de cuero y malla, capas, bolsas y kits permanentes para pecho, piernas, manos o pies. Algunas recetas usan cuero tal cual; otras requieren pieles curtidas con Sal. Sus carcajes y bolsas de munición aceleran los ataques a distancia. Desuello es su pareja directa porque aporta materiales; Ingeniería y Encantamiento son alternativas para artilugios o desencantar lo fabricado. Escamas de dragón, Elemental y Tribal desbloquean patrones propios; Escamas de dragón permite hacer malla. Su tienda de campamento completa la experiencia de descanso hasta un 5%.",
+      "text_en": "Leatherworking makes leather and mail armor, cloaks, bags, and kits that permanently improve chest, legs, hands, or feet. Some recipes use leather as-is; others need hides cured with Salt. It also makes quivers and ammo pouches that increase ranged attack speed. Leatherworking pairs directly with Skinning for its materials; Engineering and Enchanting are alternatives if you prefer gadgets or disenchanting your crafts. Dragonscale, Elemental, and Tribal have their own patterns; Dragonscale can make mail. Its campsite tent tops up rested experience to 5%.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Leatherworking Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Leatherworking Profession Perks in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/leatherworking-overview-trainer-locations-recipes",
-          "date": "2026-11-07"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Leatherworking Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Best Profession to Pair with Leatherworking in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/leatherworking-overview-trainer-locations-recipes",
-          "date": "2026-11-07"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Leatherworking Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Leatherworking Specializations in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/leatherworking-overview-trainer-locations-recipes",
-          "date": "2026-11-07"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
@@ -760,17 +760,17 @@
           "date": "2026-11-03"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "profession:leatherworking:overview"
       ],
       "source_hashes": [
         "section:3090895d83e59c89cf5b56fe75bf311b0b058bcf",
         "section:6a2f079e05d3a06356377848cd7b56ebea6cb46b",
-        "section:75aa5d57847f7d1016ed99340fdd538582e5ac46",
+        "section:7572c63967f233db99eaff689e9c0c05bba3ae46",
         "section:86e384a82c9f2fc23475d6baf7d72bbb76a71f98",
         "section:afa09c2c4d5f412954b42e57e3ed33c0fd675918",
-        "section:f8635431be6eb66fc483941d4dee48b6a07a774f"
+        "section:ca298859c0049646ada156cfe6d4f2a023185f87"
       ]
     },
     {
@@ -943,47 +943,47 @@
         "Tailoring trainer",
         "train profession ranks"
       ],
-      "text_es": "Puedes encontrar instructores de profesiones en ciudades y, para algunos oficios, en pueblos de zonas iniciales;. Alquimia se enseña en las ciudades principales, aunque los rangos Experto y Artesano requieren instructores concretos. En Forever, algunos instructores de Ingeniería capaces de enseñar Experto también enseñan los rangos anteriores, pero uno de Oficial no enseña Experto. En Sastrería, cada instructor enseña hasta el rango inferior al suyo: Oficial con uno Experto y Experto con uno Artesano. El rango de Encantador artesano se aprende de un instructor situado en una mazmorra.",
-      "text_en": "Profession trainers are available in cities and, for some trades, in starter-zone towns. Alchemy is taught in major cities, though Expert and Artisan ranks require specific trainers. In Forever, some Engineering trainers who teach Expert can also teach earlier ranks, but a Journeyman trainer cannot teach Expert. In Tailoring, a trainer only teaches ranks below their own: Journeyman from an Expert trainer and Expert from an Artisan trainer. Artisan Enchanting is taught by a trainer located in a dungeon.",
+      "text_es": "Puedes encontrar instructores de profesiones en ciudades y, para algunos oficios, en pueblos de zonas iniciales. Alquimia se enseña en las ciudades principales, aunque los rangos Experto y Artesano requieren instructores concretos. En Forever, algunos instructores de Ingeniería capaces de enseñar Experto también enseñan los rangos anteriores, pero uno de Oficial no enseña Experto. En Sastrería, cada instructor enseña hasta el rango inferior al suyo: Oficial con uno Experto y Experto con uno Artesano. El rango de Encantador artesano se aprende de un instructor situado en una mazmorra.",
+      "text_en": "Profession trainers are available in cities and, for some trades, in starter-zone towns. Alchemy is taught in major cities, though Expert and Artisan ranks require specific trainers. In Forever, some Engineering trainers who teach Expert can also teach earlier ranks, but a Journeyman trainer cannot teach Expert. A Tailoring trainer only teaches ranks below their own: Journeyman from an Expert trainer and Expert from an Artisan trainer. Artisan Enchanting is taught by a trainer located in a dungeon.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Alchemy Profession Overview in Forever - Transmutes, New Recipes, and Trainers › Where to Learn Alchemy in Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/alchemy-overview-trainer-locations-recipes",
-          "date": "2026-11-23"
+          "date": "2026-11-07"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Engineering Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Engineering Trainer Locations in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/engineering-overview-trainer-locations-recipes",
-          "date": "2026-11-23"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Enchanting Trainer Locations in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
-          "date": "2026-11-23"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Learning Artisan Enchanting: Uldaman Dungeon",
           "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
-          "date": "2026-11-23"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Tailoring Overview:  Trainers, New Recipes & Locations - WoW Forever › Tailoring Trainers in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/tailoring-overview-trainer-locations-recipes",
-          "date": "2026-11-23"
+          "date": "2026-11-21"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Enchanting Trainers in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
-          "date": "2026-11-23"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-23",
+      "updated": "2026-11-26",
       "topics": [
         "profession:alchemy:overview",
         "profession:enchanting:overview",
@@ -991,8 +991,8 @@
         "profession:tailoring:overview"
       ],
       "source_hashes": [
+        "section:048b0a5520ce2e136e7de58bdc25085f139edc47",
         "section:193821c71575b94d6b05cd39cabc6b43acbfcf79",
-        "section:9a079d55d62a589ec63b2814fc411338b4dbfa5a",
         "section:a1859cd3f4e89d1a2909029c87af329737ee76d4",
         "section:ac11a9ced94339370ddfc9b3d014ca9e21a33f3d",
         "section:b1052d53a2f29f3f9cc8fe75b541212176563787",
@@ -1026,22 +1026,22 @@
           "type": "editorial",
           "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Enchanting Trainer Locations in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Enchanting Overview: Trainers, New Recipes, Specializations & Locations - WoW Forever › Enchanting Rods in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/professions/enchanting/overview",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "profession:enchanting:overview"
       ],
       "source_hashes": [
         "section:193821c71575b94d6b05cd39cabc6b43acbfcf79",
-        "section:4eb130bacaf4283f58cfdd77959e3238506ab86e"
+        "section:644fa0323f871003b28a7fb1664578390cd17ff9"
       ]
     },
     {
@@ -3309,35 +3309,35 @@
         "commonplace herb seeds"
       ],
       "text_es": "Las semillas de hierba se plantan en el Invernadero, un objeto de campamento de Herboristería que hace crecer hierbas con el tiempo y necesita una hoguera cerca; no hay sitio para plantarlas en una ciudad como Darnassus. El Hibridador de semillas multiplica semillas o las combina en niveles más raros. El Plano: invernadero lo da Sombradiente en los Humedales y el Plano: hibridador de semillas, Tendris Madeguerra en La Masacre. Los objetos de campamento comparten una reutilización de 1 hora.",
-      "text_en": "Herb seeds are planted in the Greenhouse, a Herbalism camp item that grows herbs over time and needs a campfire close by; there is no place to plant them in a city such as Darnassus. The Seed Hybridizer multiplies seeds or combines them into rarer tiers. Shadetooth in the Wetlands gives the Blueprint: Greenhouse and Tendris Warpwood in Dire Maul the Blueprint: Seed Hybridizer. Camp items share a 1-hour cooldown.",
+      "text_en": "Herb seeds are planted in the Greenhouse, a Herbalism camp item that grows herbs over time and needs a campfire close by; there is no place to plant them in a city such as Darnassus. A Seed Hybridizer multiplies seeds or combines them into rarer tiers. Shadetooth in the Wetlands gives the Blueprint: Greenhouse, and Tendris Warpwood in Dire Maul gives the Blueprint: Seed Hybridizer. Camp items share a 1-hour cooldown.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › All Perks and Benefits of a Campsite in Forever",
           "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
-          "date": "2026-11-18"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › Primary Profession Camping Items",
           "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
-          "date": "2026-11-18"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › Where to find Camping Blueprints",
           "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
-          "date": "2026-11-18"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-24",
+      "updated": "2026-11-26",
       "topics": [
         "general:camping"
       ],
       "source_hashes": [
-        "section:3b162cbe39077707c8ca08205eb3159e58748f0b",
-        "section:6fb51f9df7bdc933d5efbf385974edab9cbee302",
-        "section:b78da6bf8f7e206e75ea08200e17e1539f926473"
+        "section:7c7bf5ec041429b51b0d6c1a55a46210bdd767eb",
+        "section:b78da6bf8f7e206e75ea08200e17e1539f926473",
+        "section:e7499b39ee4ddca5dec7e7cf0271e607662ec8b0"
       ]
     }
   ]

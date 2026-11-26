@@ -680,22 +680,22 @@
           "type": "editorial",
           "ref": "Wowhead: How to Acquire the Night Watchman's Torch - WoW: Forever › How to Get the Night Watchman's Torch in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/night-watchmans-torch-guide-quest-location",
-          "date": "2026-11-10"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: How to Acquire the Night Watchman's Torch - WoW: Forever › What the Night Watchman's Torch Does in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/night-watchmans-torch-guide-quest-location",
-          "date": "2026-11-10"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "general:night-watchmans-torch-guide-quest-location"
       ],
       "source_hashes": [
         "section:2064a70dbd917cc3810987fa00831b32678aa3fd",
-        "section:d7a806a2862912416d15cd106a363c77be01440c"
+        "section:db4be345473f08060e431bca08c2062757079e59"
       ]
     },
     {
@@ -833,27 +833,27 @@
           "type": "editorial",
           "ref": "Wowhead: Collecting Library Books: Locations and Rewards - WoW Forever › intro",
           "url": "https://www.wowhead.com/forever/guide/library-book-locations-and-rewards",
-          "date": "2026-11-13"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Collecting Library Books: Locations and Rewards - WoW Forever › Where to Hand In Your Books in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/library-book-locations-and-rewards",
-          "date": "2026-11-13"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Collecting Library Books: Locations and Rewards - WoW Forever › Quests & Rewards for Collecting Books in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/library-book-locations-and-rewards",
-          "date": "2026-11-13"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "general:library-book-locations-and-rewards"
       ],
       "source_hashes": [
-        "guide:7fecaa686129386163952b897ff847d5d2ad974b",
+        "guide:38d0c17e3a15c66fa55fdb9789c90911678516f1",
         "section:3fca766dd6c946fd296df6b962dd5954c264989c",
         "section:d07eb0204f695ffd7033fc5ba3132f681c6a6bc6"
       ]

@@ -547,7 +547,7 @@
           "type": "editorial",
           "ref": "Wowhead: World of Warcraft: Forever Roadmap - Release Date, New Content › Content Releases for World of Warcraft: Forever",
           "url": "https://www.wowhead.com/forever/guide/content-release-roadmap",
-          "date": "2026-11-24"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
@@ -556,12 +556,12 @@
           "date": "2026-11-04"
         }
       ],
-      "updated": "2026-11-24",
+      "updated": "2026-11-26",
       "topics": [
         "general:roadmap"
       ],
       "source_hashes": [
-        "section:555c62a326594166cf22a81b2afe30179f8191d0",
+        "section:9272137d1e4496cbd898e3fa947480f4ff4e29f4",
         "section:e766e4adbc3a089c6ef33752043e5c0af4a391fe"
       ]
     },
@@ -587,26 +587,26 @@
         "campsite features",
         "camping quest"
       ],
-      "text_es": "El sistema de campamentos es una actividad de creación paralela a las profesiones y permite levantar campamentos compartidos; otros jugadores pueden aportar características con beneficios, vendedores o espacios de fabricación. Una misión disponible alrededor del nivel 5 te introduce al sistema y te envía a aprender Cocina para crear una Hoguera básica. La hoguera sola no concede efectos: añade características y siéntate o fabrica junto a ella durante 1 minuto para recibirlos. Se coloca al aire libre, no en ciudades principales.",
-      "text_en": "Camping is a crafting system alongside the professions that lets players set up shared camps; visitors can add features that provide benefits, vendors, or crafting stations. A quest available around level 5 introduces the system and sends you to learn Cooking to make a Basic Campfire. The fire alone grants no effects: add features, then sit or craft beside it for 1 minute to receive them. Campsites are placed outdoors, not in major cities.",
+      "text_es": "Los campamentos son una actividad de creación paralela a las profesiones: crean campamentos compartidos a los que otros jugadores aportan características con beneficios, vendedores o espacios de fabricación. Cada profesión tiene características en tres niveles; las iniciales sirven desde el principio y las de nivel 3 hacen falta para algunas recetas avanzadas. Hacia el nivel 5, una misión te envía a aprender Cocina para crear una Hoguera básica. La hoguera sola no da efectos: añade características y siéntate o fabrica junto a ella 1 minuto. Se coloca al aire libre, no en ciudades principales.",
+      "text_en": "Camping is a crafting activity alongside the professions: it lets players set up shared camps where visitors add features that provide benefits, vendors, or crafting stations. Every profession has features across three tiers; early ones help from the first levels and tier 3 stations are needed for some advanced recipes. A quest around level 5 sends you to learn Cooking to make a Basic Campfire. The fire alone grants no effects: add features and sit or craft beside it for 1 minute. Campsites are placed outdoors, not in major cities.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › Camping Overview in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
-          "date": "2026-11-13"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › Unlocking Campsite Perks in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
-          "date": "2026-11-13"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › Secondary Profession Camping Items",
           "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
-          "date": "2026-11-13"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
@@ -621,16 +621,16 @@
           "date": "2026-11-13"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "general:camping"
       ],
       "source_hashes": [
         "section:4d078478dbd4a2619094acb3dcd4f8ec2d6c7793",
-        "section:6507b55b9d95de0281d508d98f57fdc257a99985",
+        "section:796c39b6624eb96e6a2d25097ed180d0dec9205f",
         "section:9642575d6654ee0b542615c0007dc5de6b9630ec",
-        "section:bfd9ac8cf2d3f606b0e1abe3d2e0801fed4f7584",
-        "section:c9e921fa9128343e5d3099c5ded02abc1c4c8d9b"
+        "section:c9e921fa9128343e5d3099c5ded02abc1c4c8d9b",
+        "section:e46949661118100494c67c81955c39f7bf4ac929"
       ]
     },
     {
@@ -639,8 +639,8 @@
       "status": "editorial",
       "title_es": "Tamaños de hoguera y características",
       "title_en": "Campfire Sizes and Features",
-      "summary_es": "Cocina determina el tamaño de la hoguera; las características de profesión se aprenden a 20, 140 y 300.",
-      "summary_en": "Cooking determines campfire size; profession features are learned at 20, 140, and 300.",
+      "summary_es": "Cocina determina el tamaño de la hoguera; las características piden 20, 140 y 300 (el Bastidor para pieles, 125).",
+      "summary_en": "Cooking determines campfire size; features require 20, 140, and 300 skill (the Tanning Rack, 125).",
       "keywords_es": [
         "tamaño de hoguera",
         "hoguera básica",
@@ -655,36 +655,36 @@
         "expert campfire",
         "profession features"
       ],
-      "text_es": "Cocina determina la capacidad: la Hoguera básica se aprende a habilidad 1 y admite 3 características; la Hoguera de oficial requiere 90 y admite 5; la Hoguera de experto requiere 200 y admite 10. Cada hoguera tiene 5 minutos de reutilización. Las características de profesión se desbloquean con 20, 140 y 300 de habilidad, y las versiones superiores conservan los beneficios anteriores. Cada jugador solo puede aportar una característica.",
-      "text_en": "Campfire capacity is set by Cooking: Basic Campfire is learned at skill 1 and holds 3 features; a Journeyman campfire requires 90 and holds 5; an Expert campfire requires 200 and holds 10. Each campfire has a 5-minute cooldown. Profession features unlock at 20, 140, and 300 skill, and higher tiers keep earlier benefits. Each player can contribute only one feature.",
+      "text_es": "La Cocina determina la capacidad: la Hoguera básica se aprende a habilidad 1 y admite 3 características; la Hoguera de oficial requiere 90 y admite 5; la Hoguera de experto requiere 200 y admite 10. Cada hoguera tiene 5 minutos de reutilización. Las características de profesión se desbloquean con 20, 140 y 300 de habilidad, salvo el Bastidor para pieles, que pide 125; las versiones superiores conservan los beneficios anteriores. Cada jugador solo puede aportar una característica.",
+      "text_en": "Campfire capacity is set by Cooking: Basic Campfire is learned at skill 1 and holds 3 features; a Journeyman campfire requires 90 and holds 5; an Expert campfire requires 200 and holds 10. Each campfire has a 5-minute cooldown. Profession features unlock at 20, 140, and 300 skill, except the Tanning Rack, which requires 125; higher tiers keep earlier benefits. Each player can contribute only one feature.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › Unlocking Campsite Perks in WoW Forever",
           "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
-          "date": "2026-11-13"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › Primary Profession Camping Items",
           "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
-          "date": "2026-11-13"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Camping Overview in Forever - Buffs, Vendors and Rewards › Secondary Profession Camping Items",
           "url": "https://www.wowhead.com/forever/guide/camping-overview-unlock-rewards",
-          "date": "2026-11-13"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "general:camping"
       ],
       "source_hashes": [
-        "section:3b162cbe39077707c8ca08205eb3159e58748f0b",
+        "section:7c7bf5ec041429b51b0d6c1a55a46210bdd767eb",
         "section:9642575d6654ee0b542615c0007dc5de6b9630ec",
-        "section:bfd9ac8cf2d3f606b0e1abe3d2e0801fed4f7584"
+        "section:e46949661118100494c67c81955c39f7bf4ac929"
       ]
     },
     {
@@ -1113,8 +1113,8 @@
       "status": "editorial",
       "title_es": "Cómo funciona Legacy",
       "title_en": "How Legacy Works",
-      "summary_es": "Los desafíos dan puntos Legacy para ventajas por personaje y recompensas cosméticas de cuenta.",
-      "summary_en": "Challenges grant Legacy Points for character perks and account-wide cosmetic rewards.",
+      "summary_es": "Los desafíos dan puntos Legacy de cuenta para ventajas por personaje y recompensas cosméticas.",
+      "summary_en": "Challenges grant account-wide Legacy Points for character perks and cosmetic rewards.",
       "keywords_es": [
         "sistema Legacy",
         "puntos Legacy",
@@ -1129,29 +1129,29 @@
         "account progression",
         "how Legacy works"
       ],
-      "text_es": "Legacy es una progresión de cuenta: completar desafíos, como subir clases o profesiones, concede puntos. Estos puntos se gastan en ventajas del árbol y cada personaje puede elegir su propia distribución; las ventajas desbloqueadas están disponibles para los personajes de la cuenta. Al alcanzar ciertos totales de puntos ganados también se obtienen recompensas cosméticas.",
-      "text_en": "Legacy is account progression: completing challenges, such as leveling classes or professions, grants points. These points are spent on tree perks, and each character can choose its own allocation; unlocked perks are available to the account's characters. Reaching certain totals of points earned also grants cosmetic rewards.",
+      "text_es": "Legacy es una progresión de cuenta: completar desafíos, como subir clases o profesiones, concede puntos. Los puntos son de cuenta y todos los personajes comparten el mismo total, pero las ventajas no se comparten: cada personaje elige y reinicia las suyas, y gastar puntos en uno no desbloquea ventajas en los demás. Al alcanzar ciertos totales de puntos ganados también se obtienen recompensas cosméticas.",
+      "text_en": "Legacy is account progression: completing challenges, such as leveling classes or professions, grants points. Points are account-wide and every character on the account shares the same total, but perks are not shared: every character picks and resets its own, so spending points on one does not unlock perks on the others. Reaching certain totals of points earned also grants cosmetic rewards.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Legacy System Overview for Forever - Earning, Rewards, and Trees › What is the Legacy System in Forever?",
           "url": "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
-          "date": "2026-11-15"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Legacy System Overview for Forever - Earning, Rewards, and Trees › All Legacy Tree Perks in Forever",
           "url": "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
-          "date": "2026-11-15"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "general:legacy-system"
       ],
       "source_hashes": [
-        "section:4f11330c0fa5a04c47408d720ccd8cd6ea2c2956",
-        "section:895276667f45e52e0670aca380e44d261630012e"
+        "section:4ba12fc2ea89a7db08a46e8f666da817c935e709",
+        "section:787861f74cc18baeb556ad9797088f0264c6650a"
       ]
     },
     {
@@ -1183,21 +1183,21 @@
           "type": "editorial",
           "ref": "Wowhead: Legacy System Overview for Forever - Earning, Rewards, and Trees › All Legacy Challenges in Forever",
           "url": "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
-          "date": "2026-11-15"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Legacy System Overview for Forever - Earning, Rewards, and Trees › Fastest Way to earn Legacy Points While Leveling in Forever",
           "url": "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
-          "date": "2026-11-15"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-24",
+      "updated": "2026-11-26",
       "topics": [
         "general:legacy-system"
       ],
       "source_hashes": [
-        "section:66245573860cf87843e9f78ac612d7f5c1f2edd1",
+        "section:45dbc305b64b9361010a2ff9577f520a93cae425",
         "section:dc185b104fcd1485355b7b89ef5d88568e7aa67d"
       ]
     },
@@ -1207,8 +1207,8 @@
       "status": "editorial",
       "title_es": "Límite de puntos Legacy para gastar",
       "title_en": "Legacy Point Spending Limit",
-      "summary_es": "Al lanzamiento, cada personaje puede gastar como máximo 16 puntos en su árbol Legacy.",
-      "summary_en": "At launch, each character can spend at most 16 points in its Legacy tree.",
+      "summary_es": "Cada personaje puede gastar hasta 16 puntos en su árbol Legacy; los puntos son de cuenta, no así las ventajas.",
+      "summary_en": "Each character can spend up to 16 points in its Legacy tree; points are account-wide, but perks are not shared.",
       "keywords_es": [
         "límite de puntos Legacy",
         "cuántos puntos Legacy gastar",
@@ -1221,22 +1221,29 @@
         "Legacy tree cap",
         "Legacy Points per character"
       ],
-      "text_es": "Al lanzamiento, el árbol Legacy permite gastar hasta 16 puntos por personaje. Los puntos se desbloquean para la cuenta, pero cada personaje decide por separado en qué ventajas invertir los que tiene disponibles.",
-      "text_en": "At launch, the Legacy tree allows up to 16 points to be spent per character. Points unlock for the account, but each character separately chooses which perks to invest its available points in.",
+      "text_es": "El árbol Legacy permite gastar hasta 16 puntos por personaje. Los puntos son de cuenta y todos los personajes comparten el mismo total, pero las ventajas no se comparten: cada personaje elige y reinicia las suyas, y gastar puntos en uno no desbloquea ventajas en los demás.",
+      "text_en": "Each character can spend up to 16 points in the Legacy tree. Points are account-wide and every character on the account shares the same total, but perks are not shared: every character picks and resets its own, so spending points on one does not unlock perks on another.",
       "sources": [
+        {
+          "type": "editorial",
+          "ref": "Wowhead: Legacy System Overview for Forever - Earning, Rewards, and Trees › What is the Legacy System in Forever?",
+          "url": "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
+          "date": "2026-11-26"
+        },
         {
           "type": "editorial",
           "ref": "Wowhead: Legacy System Overview for Forever - Earning, Rewards, and Trees › All Legacy Tree Perks in Forever",
           "url": "https://www.wowhead.com/forever/guide/legacy-system-overview-rewards",
-          "date": "2026-11-15"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "general:legacy-system"
       ],
       "source_hashes": [
-        "section:895276667f45e52e0670aca380e44d261630012e"
+        "section:4ba12fc2ea89a7db08a46e8f666da817c935e709",
+        "section:787861f74cc18baeb556ad9797088f0264c6650a"
       ]
     },
     {

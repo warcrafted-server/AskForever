@@ -252,8 +252,8 @@
       "status": "editorial",
       "title_es": "Cómo obtener Reales deslustrados",
       "title_en": "How to Obtain Tarnished Undermine Reals",
-      "summary_es": "Aún no se ha confirmado cómo obtener esta moneda.",
-      "summary_en": "How to obtain this currency has not been confirmed.",
+      "summary_es": "Se obtiene de los jefes de mazmorra de nivel 52 o más, una vez al día.",
+      "summary_en": "Obtained from dungeon bosses of level 52 or higher, once per day.",
       "keywords_es": [
         "Real deslustrado de Minahonda",
         "conseguir Reales deslustrados",
@@ -268,22 +268,22 @@
         "how to obtain Undermine currency",
         "Tarnished Undermine Real drops"
       ],
-      "text_es": "El Real deslustrado de Minahonda lo sueltan los jefes de mazmorra, normalmente de nivel 55 o más. Puedes saquear cada jefe una vez al día: los últimos jefes de las mazmorras de nivel máximo dan 3 y los demás, 1.",
-      "text_en": "The Tarnished Undermine Real is dropped by dungeon bosses, normally level 55 or higher. Each boss can be looted once a day: final bosses of end-game dungeons give 3 and the rest give 1.",
+      "text_es": "El Real deslustrado de Minahonda lo sueltan los jefes de mazmorra de nivel 52 o más, pero no los jefes secundarios. Puedes saquear cada jefe una vez al día: los últimos jefes de las mazmorras de nivel máximo dan 3 y los demás, 1.",
+      "text_en": "Tarnished Undermine Reals drop from dungeon bosses of level 52 or higher, though not from mini-bosses. Each boss can be looted once a day: final bosses of end-game dungeons give 3 and the rest give 1.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Tarnished Undermine Real Currency Guide: Earning and Spending - WoW: Forever › Earning Tarnished Undermine Real Currency",
           "url": "https://www.wowhead.com/forever/guide/currency/tarnished-undermine-real-overview",
-          "date": "2026-11-19"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-19",
+      "updated": "2026-11-26",
       "topics": [
         "general:tarnished-undermine-real-overview"
       ],
       "source_hashes": [
-        "section:0f813a211d668ef830c98e5e27896839f417a342"
+        "section:f3424c5e03c30a52fa4f388d5553ad553b0cbe4c"
       ]
     },
     {
@@ -292,8 +292,8 @@
       "status": "editorial",
       "title_es": "En qué gastar Reales deslustrados",
       "title_en": "What to Spend Tarnished Undermine Reals On",
-      "summary_es": "Pix Xizzix cambia el Real deslustrado por objetos en Minahonda.",
-      "summary_en": "Pix Xizzix trades the Tarnished Undermine Real for items in Undermine.",
+      "summary_es": "Pix Xizzix cambia el Real deslustrado por objetos en Vega de Tuercespina.",
+      "summary_en": "Pix Xizzix trades the Tarnished Undermine Real for items in Stranglethorn Vale.",
       "keywords_es": [
         "gastar Reales deslustrados",
         "vendedor de Minahonda",
@@ -308,22 +308,22 @@
         "Undermine gear",
         "Undermine trinkets and rings"
       ],
-      "text_es": "En Minahonda, Pix Xizzix cambia el Real deslustrado de Minahonda por objetos (/way 28.4, 75.8).",
-      "text_en": "Pix Xizzix trades the Tarnished Undermine Real for items in Undermine at /way 28.4, 75.8.",
+      "text_es": "En Vega de Tuercespina, Pix Xizzix cambia el Real deslustrado de Minahonda por objetos (/way 28.4, 75.8).",
+      "text_en": "Pix Xizzix trades the Tarnished Undermine Real for items in Stranglethorn Vale at /way 28.4, 75.8.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Tarnished Undermine Real Currency Guide: Earning and Spending - WoW: Forever › Spending Tarnished Undermine Real Currency Vendor Location",
           "url": "https://www.wowhead.com/forever/guide/currency/tarnished-undermine-real-overview",
-          "date": "2026-10-25"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "general:tarnished-undermine-real-overview"
       ],
       "source_hashes": [
-        "section:d05a4b2fb9d3fbb7811923fd694b181c3a75fded"
+        "section:623579370cfa603c826bb6b91433f693e13ab224"
       ]
     },
     {
@@ -646,29 +646,29 @@
         "Zephras Isle",
         "Unnerving Silence quest"
       ],
-      "text_es": "Los Druidas Garranoche son una facción neutral en el noreste de la Isla de Zephras. Lotheluum Brisa Estelar, en Valanaar, ofrece Un silencio inquietante, que te lleva hasta Elegael Pataespina, cerca de la cueva; allí comienzan más misiones de la facción.",
-      "text_en": "The Nightclaw Druids are a neutral faction in northeast Zephras Isle. Lotheluum Starbreeze in Valanaar offers Unnerving Silence, which sends you to Elegael Thornpaw near the cave; more faction quests begin there.",
+      "text_es": "Los Druidas Garranoche son una facción neutral en el noreste de la Isla de Zephras. Para ganar reputación con ellos hay que completar misiones en la isla, disponibles solo para quienes hayan comprado el paquete heroico o el épico de Cielonato, o la colección completa de Forever. Lotheluum Brisa Estelar, en Valanaar, ofrece Un silencio inquietante, que te lleva hasta Elegael Pataespina, cerca de la cueva; allí comienzan más misiones de la facción.",
+      "text_en": "The Nightclaw Druids are a neutral faction in northeast Zephras Isle. Gaining reputation with them requires completing quests on the island, open only to owners of the Skyborne Heroic Pack, the Skyborne Epic Pack or the Warcraft Forever Collection. Lotheluum Starbreeze, in Valanaar, gives Unnerving Silence, which sends you to Elegael Thornpaw near the cave; more faction quests begin there.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Nightclaw Druids Reputation Guide - WoW: Forever › Nightclaw Druids Location in Forever",
           "url": "https://www.wowhead.com/forever/guide/reputation/nightclaw-druids-quests-quartermaster-rewards",
-          "date": "2026-11-16"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Nightclaw Druids Reputation Guide - WoW: Forever › Unlocking Nightclaw Druids in Forever",
           "url": "https://www.wowhead.com/forever/guide/reputation/nightclaw-druids-quests-quartermaster-rewards",
-          "date": "2026-11-16"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "reputation:nightclaw-druids-quests-quartermaster-rewards"
       ],
       "source_hashes": [
         "section:0ef087390f75d971ae51a65a513e26b02de2a9ab",
-        "section:14d04258c4228b99708673c5b392809d7386cb8f"
+        "section:8a7d9594ef8168470def982db12b835cece0c5fd"
       ]
     },
     {
@@ -787,15 +787,15 @@
           "type": "editorial",
           "ref": "Wowhead: Shen'dralar Reputation Faction:  Location, Quests and Rewards › Shen'dralar Location in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/reputation/shendralar-reputation-faction-location-rewards",
-          "date": "2026-11-10"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "reputation:shendralar-reputation-faction-location-rewards"
       ],
       "source_hashes": [
-        "section:6249c8546af75cf74e5cce3015c7826338b42d17"
+        "section:a3439c8a09a865382943112348518f7bf8315940"
       ]
     },
     {
@@ -827,36 +827,36 @@
           "type": "editorial",
           "ref": "Wowhead: Shen'dralar Reputation Faction:  Location, Quests and Rewards › How to Earn Shen'dralar Reputation in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/reputation/shendralar-reputation-faction-location-rewards",
-          "date": "2026-11-10"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Shen'dralar Reputation Faction:  Location, Quests and Rewards › Royal Seal of Eldre'Thalas Class Trinkets",
           "url": "https://www.wowhead.com/forever/guide/reputation/shendralar-reputation-faction-location-rewards",
-          "date": "2026-11-10"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Shen'dralar Reputation Faction:  Location, Quests and Rewards › Librams and Arcanum Enchantments",
           "url": "https://www.wowhead.com/forever/guide/reputation/shendralar-reputation-faction-location-rewards",
-          "date": "2026-11-10"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Shen'dralar Reputation Faction:  Location, Quests and Rewards › Enchanted Thorium Blacksmithing Plans",
           "url": "https://www.wowhead.com/forever/guide/reputation/shendralar-reputation-faction-location-rewards",
-          "date": "2026-11-10"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "reputation:shendralar-reputation-faction-location-rewards"
       ],
       "source_hashes": [
-        "section:25e7a8a1073079379bcc9dcd975c45b34acd963d",
         "section:5e87a440a21c95b6b630cdf3cf7b6cc1106691a0",
         "section:6111b574c138e662972a0721bdc7ab28011502db",
-        "section:9e47bf030d6b1da063be61d0c05a8b6b9a95bd5b"
+        "section:9e47bf030d6b1da063be61d0c05a8b6b9a95bd5b",
+        "section:c73b716e2dd30e3d22a7d2b70f78899b0f023b0a"
       ]
     },
     {
@@ -881,29 +881,29 @@
         "Pattern: Mooncloth Robe",
         "class trinket"
       ],
-      "text_es": "Un libro para cada clase inicia una misión breve que recompensa con un Lacre real de Eldre'Thalas, un abalorio con Resistencia al Fuego y atributos adaptados a esa clase. El Proveedor Shen'dralar también vende el Patrón: toga de tela lunar en cantidades limitadas; no hace falta una misión para comprarlo.",
-      "text_en": "A book for each class starts a short quest that rewards a Royal Seal of Eldre'Thalas, a trinket with Fire Resistance and class-tailored stats. The Shen'dralar Provisioner also sells the Pattern: Mooncloth Robe in limited supply; no quest is required to buy it.",
+      "text_es": "Un libro para cada clase inicia una misión breve que recompensa con un Lacre real de Eldre'Thalas, un abalorio con Resistencia a la Naturaleza y atributos adaptados a esa clase. El Proveedor Shen'dralar también vende el Patrón: toga de tela lunar en cantidades limitadas; no hace falta una misión para comprarlo.",
+      "text_en": "A book for each class starts a short quest that rewards a Royal Seal of Eldre'Thalas, a trinket with Nature Resistance and class-tailored stats. The Shen'dralar Provisioner also sells the Pattern: Mooncloth Robe in limited supply; no quest is required to buy it.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Shen'dralar Reputation Faction:  Location, Quests and Rewards › Royal Seal of Eldre'Thalas Class Trinkets",
           "url": "https://www.wowhead.com/forever/guide/reputation/shendralar-reputation-faction-location-rewards",
-          "date": "2026-11-10"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Shen'dralar Reputation Faction:  Location, Quests and Rewards › Mooncloth Robe Tailoring Pattern",
           "url": "https://www.wowhead.com/forever/guide/reputation/shendralar-reputation-faction-location-rewards",
-          "date": "2026-11-10"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "reputation:shendralar-reputation-faction-location-rewards"
       ],
       "source_hashes": [
-        "section:25e7a8a1073079379bcc9dcd975c45b34acd963d",
-        "section:ac406bba4118f36bf43877ef992e6203ef5a8b9e"
+        "section:ac406bba4118f36bf43877ef992e6203ef5a8b9e",
+        "section:c73b716e2dd30e3d22a7d2b70f78899b0f023b0a"
       ]
     },
     {

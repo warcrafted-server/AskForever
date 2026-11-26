@@ -23,20 +23,20 @@
         "new dungeons",
         "dungeon level ranges"
       ],
-      "text_es": "Forever reúne 35 mazmorras en 28 instancias, con rangos desde el nivel 13 hasta el 60. Las nueve nuevas están disponibles desde el lanzamiento y rellenan huecos entre los tramos clásicos; el Salón de los Feudales y las Ruinas de Lordaeron empiezan antes del nivel 20. La información de botín y misiones de las mazmorras altas se va completando conforme se descubre jugando.",
-      "text_en": "Forever has 35 dungeons across 28 instances, with level ranges from 13 to 60. Its nine new dungeons are available at launch and fill gaps between Classic brackets; Hall of Thanes and Ruins of Lordaeron start before level 20. Loot and quest information for higher-level dungeons is being filled in as players discover it in game.",
+      "text_es": "Forever reúne 35 mazmorras en 28 instancias, con rangos desde el nivel 13 hasta el 60. Las nueve nuevas están disponibles desde el lanzamiento y rellenan huecos entre los tramos clásicos; el Salón de los Feudales y las Ruinas de Lordaeron empiezan antes del nivel 20.",
+      "text_en": "Forever has 35 dungeons across 28 instances, with level ranges from 13 to 60. Its nine new dungeons are available at launch and fill gaps between Classic brackets; Hall of Thanes and Ruins of Lordaeron start before level 20.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Dungeons Overview for Forever - Locations, Guides and Details › New and Existing Dungeon Levels in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/dungeons-overview-locations-details",
-          "date": "2026-11-15"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: World of Warcraft: Forever Overview - New Features, Zones, Raids › New Dungeons in World of Warcraft: Forever",
           "url": "https://www.wowhead.com/forever/guide/overview-features-zones-raids",
-          "date": "2026-11-04"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
@@ -45,15 +45,15 @@
           "date": "2026-11-11"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "general:dungeons-overview",
         "raid:overview-features-zones-raids"
       ],
       "source_hashes": [
         "section:1af863846ee4e5073a1a5c8fcfdb1da5df54711e",
-        "section:49f164ed0de25683be8851cdac6c551356e39fdf",
-        "section:736131dd24e2ea87b18ea31f8668656a2a4ae655"
+        "section:4366b7f910fda775bcf122cda32af569186c9905",
+        "section:49f164ed0de25683be8851cdac6c551356e39fdf"
       ]
     },
     {
@@ -78,35 +78,35 @@
         "dungeon quests in raid",
         "five-player group"
       ],
-      "text_es": "La composición habitual es de cinco: un tanque, un sanador y tres DPS. Se puede entrar en la mayoría de las mazmorras como banda de hasta diez, pero Profundidades de Roca Negra, ambas partes de Stratholme y Scholomance limitan el grupo a cinco; el límite de las nuevas mazmorras aún no está confirmado. Si vas a completar misiones de grupo, mantén el grupo en cinco, porque no progresan dentro de una banda. Algunas mazmorras tienen misiones para una sola facción aunque la otra pueda entrar por botín.",
-      "text_en": "The usual party has five players: one tank, one healer, and three DPS. Most dungeons allow entry as a raid of up to ten, but Blackrock Depths, both sides of Stratholme, and Scholomance limit the group to five; caps for new dungeons are not confirmed yet. If you plan to complete party quests, keep the group at five because they do not progress in a raid. Some dungeons have quests for only one faction even though the other can enter for loot.",
+      "text_es": "La composición habitual es de cinco: un tanque, un sanador y tres DPS. Todas las mazmorras admiten bandas de hasta diez jugadores salvo Profundidades de Roca Negra, ambas partes de Stratholme y Scholomance, limitadas a cinco. Si vas a completar misiones de grupo, mantén el grupo en cinco, porque no progresan dentro de una banda. Algunas mazmorras tienen misiones para una sola facción aunque la otra pueda entrar por botín.",
+      "text_en": "The usual party has five players: one tank, one healer, and three DPS. Every dungeon admits raids of up to ten players except Blackrock Depths, both sides of Stratholme, and Scholomance, which are limited to five. If you plan to complete party quests, keep the group at five because they do not progress in a raid. Some dungeons have quests for only one faction even though the other can enter for loot.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Dungeons Overview for Forever - Locations, Guides and Details › Dungeon Party Roles in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/dungeons-overview-locations-details",
-          "date": "2026-11-15"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Dungeons Overview for Forever - Locations, Guides and Details › Dungeon Party Sizes in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/dungeons-overview-locations-details",
-          "date": "2026-11-15"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Dungeons Overview for Forever - Locations, Guides and Details › Ragefire Chasm Dungeon in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/dungeons-overview-locations-details",
-          "date": "2026-11-15"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Dungeons Overview for Forever - Locations, Guides and Details › The Deadmines Dungeon in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/dungeons-overview-locations-details",
-          "date": "2026-11-15"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "general:dungeons-overview"
       ],
@@ -114,7 +114,7 @@
         "section:06738a32b32b0c29127e014941916c0e4bf83652",
         "section:33ee285728741050d77cd6037d03bb0f41233745",
         "section:3a3dda5f921dc13cce0f8dc7cd4b8093a8fdb718",
-        "section:4938de8ff141ddd50eed85b0af491894a025b80f"
+        "section:9e7cc0eacf89cdec84a85c396a156a691db013fd"
       ]
     },
     {
@@ -144,23 +144,23 @@
           "type": "editorial",
           "ref": "Wowhead: Dungeons Overview for Forever - Locations, Guides and Details › New and Existing Dungeon Levels in WoW: Forever",
           "url": "https://www.wowhead.com/forever/guide/dungeons-overview-locations-details",
-          "date": "2026-11-15"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: World of Warcraft: Forever Overview - New Features, Zones, Raids › New Dungeons in World of Warcraft: Forever",
           "url": "https://www.wowhead.com/forever/guide/overview-features-zones-raids",
-          "date": "2026-11-04"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "general:dungeons-overview",
         "raid:overview-features-zones-raids"
       ],
       "source_hashes": [
-        "section:49f164ed0de25683be8851cdac6c551356e39fdf",
-        "section:736131dd24e2ea87b18ea31f8668656a2a4ae655"
+        "section:4366b7f910fda775bcf122cda32af569186c9905",
+        "section:49f164ed0de25683be8851cdac6c551356e39fdf"
       ]
     },
     {
@@ -2132,8 +2132,8 @@
       "status": "editorial",
       "title_es": "Excavación: nivel y entrada",
       "title_en": "Excavation Site: Level and Entrance",
-      "summary_es": "Nivel 26-32 en Los Humedales; la Alianza llega desde Menethil y la Horda desde Trabalomas.",
-      "summary_en": "Levels 26-32 in the Wetlands; Alliance comes from Menethil and Horde from Hillsbrad.",
+      "summary_es": "Nivel 26-33 en Los Humedales; la Alianza llega desde Menethil y la Horda desde Trabalomas.",
+      "summary_en": "Levels 26-33 in the Wetlands; Alliance comes from Menethil and Horde from Hillsbrad.",
       "keywords_es": [
         "excavación los humedales",
         "nivel de excavación",
@@ -2146,29 +2146,29 @@
         "excavation entrance",
         "how to reach excavation"
       ],
-      "text_es": "Excavación: Los Humedales se recomienda para niveles 26-32 y su entrada queda en lo alto de una colina, por un camino nuevo de Los Humedales. La Alianza puede partir de Puerto de Menethil o llegar a pie desde Loch Modan; la Horda cruza a pie Laderas de Trabalomas y Tierras Altas de Arathi, con una Ruta de vuelo en Molino Tarren.",
-      "text_en": "Excavation Site: Wetlands is recommended for levels 26-32; its entrance is at the top of a hill along a new path in the Wetlands. Alliance can start at Menethil Harbor or walk from Loch Modan; Horde travels overland through Hillsbrad Foothills and Arathi Highlands, with a flight path at Tarren Mill.",
+      "text_es": "Excavación: Los Humedales se recomienda para niveles 26-33 y su entrada queda en lo alto de una colina, por un camino nuevo de Los Humedales. La Alianza puede partir de Puerto de Menethil o llegar a pie desde Loch Modan; la Horda cruza a pie Laderas de Trabalomas y Tierras Altas de Arathi, con una Ruta de vuelo en Molino Tarren.",
+      "text_en": "Excavation Site: Wetlands is recommended for levels 26-33; its entrance is at the top of a hill along a new path in the Wetlands. Alliance can start at Menethil Harbor or walk from Loch Modan; Horde travels overland through Hillsbrad Foothills and Arathi Highlands, with a flight path at Tarren Mill.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Excavation Site Overview in World of Warcraft: Forever",
           "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
-          "date": "2026-11-17"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of Excavation Site in World of Warcraft: Forever",
           "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
-          "date": "2026-11-17"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "dungeon:excavation-site-wetlands"
       ],
       "source_hashes": [
         "section:235d0f855559acc71d121dd0775623cb96dc670e",
-        "section:d49ea374f64754ca41cda73a00d859a48a5c85a4"
+        "section:66a392491d1fdbfcad7057ad2ea73a923532d680"
       ]
     },
     {
@@ -2195,34 +2195,34 @@
         "changing tastes",
         "dragonmaw rumors"
       ],
-      "text_es": "Antes de entrar, la Alianza puede recoger Pellejos de las Tierras Altas en Puerto de Menethil, En busca de Filosón con Dorin Filosón en Montañas Crestagrana y Horrores en las Tierras Altas con Rethiel el Guardaverde en Los Humedales. La Horda puede aceptar Cambio de paladar con Borstan en Orgrimmar y comenzar Rumores de los Faucedraco con Zaruk en Sentencia, requisito de Abre las Fauces.",
-      "text_en": "Before entering, Alliance can pick up Highland Hides in Menethil Harbor, Songblade Search from Dorin Songblade in Redridge Mountains, and Horrors in the Highland from Rethiel the Greenwarden in the Wetlands. Horde can take Changing Tastes from Borstan in Orgrimmar and start Dragonmaw Rumors with Zaruk at Hammerfall, a prerequisite for Open the Maw.",
+      "text_es": "Antes de entrar, la Alianza puede recoger Pellejos de las Tierras Altas en Puerto de Menethil, tras Piel de crocolisco joven; En busca de Filosón con Dorin Filosón en Montañas Crestagrana, y Horrores en las Tierras Altas con Rethiel el Guardaverde en Los Humedales, que exige antes la cadena de El Guardaverde desde el Primer oficial Fistimos. La Horda puede aceptar Cambio de paladar con Borstan en Orgrimmar y comenzar Rumores de los Faucedraco con Zaruk en Sentencia, requisito de Abre las Fauces.",
+      "text_en": "Before entering, Alliance can pick up Highland Hides in Menethil Harbor after Young Crocolisk Skins; Songblade Search from Dorin Songblade in Redridge Mountains; and Horrors in the Highland from Rethiel the Greenwarden in the Wetlands, which requires completing The Greenwarden chain from First Mate Fitzsimmons. Horde can take Changing Tastes from Borstan in Orgrimmar and start Dragonmaw Rumors with Zaruk at Hammerfall, a prerequisite for Open the Maw.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
           "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
-          "date": "2026-11-17"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Highland Hides",
           "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
-          "date": "2026-11-17"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Open the Maw",
           "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
-          "date": "2026-11-17"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "dungeon:excavation-site-wetlands"
       ],
       "source_hashes": [
-        "section:1e9c51f5b84c56caa3b87c57ea98c6f4ca02144f",
+        "section:3dee9c34ff12d6be4b583b31d40ae4f41763f089",
         "section:9865b76b869e956ded202352ea3a1ca35967fd1c",
         "section:ca1c0175c06945150450fd1eb8c4581ce701cb0e"
       ]
@@ -2249,35 +2249,35 @@
         "dalaran sewer key",
         "how to reach dalaran"
       ],
-      "text_es": "La Ciudad de Dalaran se recomienda para niveles 28-34 y está en Montañas de Alterac. La Alianza llega desde Laderas de Trabalomas y entra por las cloacas de la ciudad. La Horda puede nadar desde Bosque de Argénteos hasta El Sepulcro y caminar desde allí; para abrir el túnel especial, alguien del grupo debe tener la Llave de las cloacas de Dalaran.",
-      "text_en": "City of Dalaran is recommended for levels 28-34 and lies in the Alterac Mountains. Alliance travels from Hillsbrad Foothills and enters through the city sewers. Horde can swim from Silverpine Forest to the Sepulcher and walk from there; opening the special tunnel requires someone in the group to have the Dalaran Sewer Key.",
+      "text_es": "La Ciudad de Dalaran se recomienda para niveles 28-34 y está en Montañas de Alterac; el enemigo más débil es de nivel 28, así que un jugador de nivel 41 o más en el grupo reduce la experiencia. La Alianza llega desde Laderas de Trabalomas y entra por las cloacas tras entregar Una petición alarmante, una misión de Costasur. La Horda puede nadar desde Bosque de Argénteos hasta El Sepulcro y caminar desde allí; para abrir el túnel especial, alguien del grupo debe tener la Llave de las cloacas de Dalaran.",
+      "text_en": "City of Dalaran is recommended for levels 28-34 and lies in the Alterac Mountains; its weakest enemy is level 28, so bringing a player level 41 or higher reduces the group's experience. Alliance travels from Hillsbrad Foothills and enters through the city sewers after handing in An Alarming Request, a quest from Southshore. Horde can swim from Silverpine Forest to the Sepulcher and walk from there; opening the special tunnel requires someone in the group to have the Dalaran Sewer Key.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › City of Dalaran Overview in World of Warcraft: Forever",
           "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Location of City of Dalaran in World of Warcraft: Forever",
           "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Unlocking the City of Dalaran in World of Warcraft: Forever",
           "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "dungeon:city-of-dalaran"
       ],
       "source_hashes": [
-        "section:12a7a47f2d750e9be76d8c55ad31b9c984ca6a02",
-        "section:22a6a33453f15996b0effd3d0105a74e2273d8f2",
+        "section:22f82926ba47f22a6ef5aa501c344cf9e08f2b3a",
+        "section:50f878190d3b565b20b81d08b0912592aece928d",
         "section:8c6f77d7078480e58577104135212dd9cbaab459"
       ]
     },
@@ -2312,34 +2312,34 @@
           "type": "editorial",
           "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Initial Quests to Accept",
           "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Hand in and accept next quests",
           "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Hand in and accept next quest",
           "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Every Quest in City of Dalaran in World of Warcraft: Forever",
           "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "dungeon:city-of-dalaran"
       ],
       "source_hashes": [
+        "section:52fcc92b4d6524b21ca10cb59163b766197b5812",
         "section:7192b1db753e5a122669c285a30f87d7b709ce53",
-        "section:833ffb142d3f33ea7193ec965187c006b5c0d8cf",
         "section:871fe72f081ef1bc336f4801d223f0ac16b95f0c",
         "section:8c7bbc9965284c3ab494e6cc0f9d2e2524c929cf"
       ]
@@ -3623,35 +3623,35 @@
         "satchel of potions",
         "titan relic"
       ],
-      "text_es": "Eco terráneo y Prisma prehistórico ofrecen elegir entre el Bastón de sanador y el Martillo arrojadizo. Cambio de paladar y Tejido en el corazón recompensan con una Cartera de pociones. Para iniciar la cadena de reliquias, se obtiene la Reliquia titánica dentro de la mazmorra.",
-      "text_en": "Earthen Echo and Prehistoric Prism offer a choice between Healer’s Staff and Heavehammer. Changing Tastes and Heartwoven reward a Satchel of Potions. Titan Relic, needed to start the relic quest chain is found inside the dungeon.",
+      "text_es": "Eco terráneo y Prisma prehistórico ofrecen elegir entre el Bastón de sanador y el Martillo arrojadizo. Cambio de paladar y Tejido en el corazón recompensan con una Cartera de pociones. La Reliquia titánica que inicia la cadena de reliquias se recoge del jefe final, el Guardián de reliquias, dentro de la mazmorra.",
+      "text_en": "Earthen Echo and Prehistoric Prism offer a choice between Healer’s Staff and Heavehammer. Changing Tastes and Heartwoven reward a Satchel of Potions. Titan Relic, which starts the relic quest chain, is looted from the final boss, Relic Guardian, inside the dungeon.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Best Quest Rewards",
           "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
-          "date": "2026-11-17"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Lost Relic Carry",
           "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
-          "date": "2026-11-17"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: Excavation Site Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Quick Reference Table",
           "url": "https://www.wowhead.com/forever/guide/excavation-site-wetlands-dungeon-overview-location-rewards",
-          "date": "2026-11-17"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "dungeon:excavation-site-wetlands"
       ],
       "source_hashes": [
-        "section:1e9c51f5b84c56caa3b87c57ea98c6f4ca02144f",
         "section:2c40f66abfc00cdde0d1db3180163195141836bf",
+        "section:3dee9c34ff12d6be4b583b31d40ae4f41763f089",
         "section:7ddce07f9740e96598744658ad737cf1d7b2d699"
       ]
     },
@@ -3738,35 +3738,35 @@
         "lyn the ignored",
         "shade of the archmage"
       ],
-      "text_es": "Limpia todos los enemigos antes del Devorador de maná: Debilitar daña al grupo y drena maná. En el Anciano vil, sal de las áreas de Maderas viles y rompe las raíces de Enredar. La Maldición de espinas de Lyn el Ignorado daña a quien ataca; disípala y elimina sus esqueletos. Contra la Sombra del archimago, sepárate para evitar Maná rebotador; al agotarse su maná, usa Polimorfia en masa y Evocación.",
-      "text_en": "Clear all enemies before Mana Devourer: Debilitate damages the group and drains mana. Fel Ancient creates Fel Timbers; leave Fel Timbers and break free from Entangle. Lyn the Ignored applies Curse of Thorns, which damages attackers; dispel it and kill his skeletons. Spread out against Shade of the Archmage to avoid Bounding Mana; when his mana runs out, he uses Mass Polymorph and Evocation.",
+      "text_es": "Limpia todos los enemigos antes del Devorador de maná: Debilitar daña al grupo y drena maná. En el Anciano vil, sal de las áreas de Maderas viles y rompe las raíces de Enredar. La Maldición de espinas de Lyn el Ignorado daña a quien ataca; disípala y elimina sus esqueletos. Contra la Sombra del archimago, sepárate para evitar Maná rebotador; al agotarse su maná, usa Polimorfia en masa y Evocación. Si sale de su sala y se reinicia, puede no reaparecer y obliga a reiniciar la mazmorra.",
+      "text_en": "Clear all enemies before Mana Devourer: Debilitate damages the group and drains mana. Fel Ancient creates Fel Timbers; leave Fel Timbers and break free from Entangle. Lyn the Ignored applies Curse of Thorns, which damages attackers; dispel it and kill his skeletons. Spread out against Shade of the Archmage to avoid Bounding Mana; when his mana runs out, he uses Mass Polymorph and Evocation. If he leaves his room and resets, he may not respawn and the dungeon must be reset.",
       "sources": [
         {
           "type": "editorial",
           "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Mana Devourer",
           "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Fel Ancient",
           "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Lyn the Ignored",
           "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         },
         {
           "type": "editorial",
           "ref": "Wowhead: City of Dalaran Dungeon Overview Guide: Quests, Location, Strategy & Rewards - WoW Forever › Shade of the Archmage",
           "url": "https://www.wowhead.com/forever/guide/city-of-dalaran-dungeon-overview-location-rewards",
-          "date": "2026-11-09"
+          "date": "2026-11-26"
         }
       ],
-      "updated": "2026-11-18",
+      "updated": "2026-11-26",
       "topics": [
         "dungeon:city-of-dalaran"
       ],
@@ -3774,7 +3774,7 @@
         "section:411f50dba898e8b8129432d07a30348f53fbfc28",
         "section:444abfaf4f73dfaae85f1667d0d27d73afe3df07",
         "section:9ca65ddd8896205b3e96adfe4d60a86cadddc564",
-        "section:ec11fcb253d5c1d64ef12086a95e86f589857340"
+        "section:a095efe291c2d5023fbd05568c4ce782b3e1b88f"
       ]
     },
     {
