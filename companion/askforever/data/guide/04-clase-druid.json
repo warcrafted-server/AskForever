@@ -4830,8 +4830,8 @@
         "rip rake shred",
         "claw or shred"
       ],
-      "text_es": "Arañazo y Destripar son efectos de daño periódico: no los reaplices hasta que acaben. Triturar solo funciona por la espalda; Zarpa hace lo mismo desde el frente y es el recurso cuando no puedes rodear. Mordedura feroz remata. Poder cambiante convierte maná en 40 de Energía cada 8 s. Pavor reduce la amenaza, Acechar permite el sigilo y Diligencia acelera.",
-      "text_en": "Rake and Rip are damage-over-time effects: do not reapply them until they expire. Shred only works from behind; Claw does the same from the front and is the fallback when you cannot get behind. Ferocious Bite finishes enemies. Shifting Power converts mana into 40 Energy every 8 s, and Cower lowers threat, Prowl allows stealth and Dash speeds you up.",
+      "text_es": "Arañazo y Destripar son efectos de daño periódico: no los reaplices hasta que acaben. Triturar solo funciona por la espalda; Zarpa hace lo mismo desde el frente y es el recurso cuando no puedes rodear. Mordedura feroz remata. Poder cambiante convierte maná en 40 de Energía cada 8 s. Furia del tigre sube el daño físico 6 s, Pavor reduce la amenaza, Acechar permite el sigilo y Diligencia acelera.",
+      "text_en": "Rake and Rip are damage-over-time effects: do not reapply them until they expire. Shred only works from behind; Claw does the same from the front and is the fallback when you cannot get behind. Ferocious Bite finishes enemies. Shifting Power converts mana into 40 Energy every 8 s. Tiger's Fury raises Physical damage for 6 s, Cower lowers threat, Prowl allows stealth and Dash speeds you up.",
       "tags": [
         "DRUID"
       ],
